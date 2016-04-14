@@ -1,0 +1,30 @@
+{
+  "index_name": "gns3",
+  "start_urls": [
+    "https://gns3.com/support/docs/"
+  ],
+  "stop_urls": [
+
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class='doc-section-subnav']/a[@class='active']/../../*[@class='title']",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": ".doc-main h1",
+    "lvl2": ".doc-main h2",
+    "lvl3": ".doc-main h3",
+    "lvl4": ".doc-main h4",
+    "lvl5": ".doc-main h5",
+    "text": ".doc-main h5 p"
+  },
+  "js_render": true,
+  "js_wait": 5,
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 1,
+  "docker_memory": 4096,
+  "nbHits": 141
+}

@@ -1,0 +1,40 @@
+{
+  "index_name": "symfony",
+  "start_urls": [
+    {
+      "url": "https://symfony.com/doc/(?P<version>.*?)/(?P<type_of_content>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://symfony.com/doc/current/book/controller.html",
+          "js":"var versions = $('.doc-switcher .versions li').map(function (i, elt) { return $(elt).find('a').html().split('/')[0].replace(/ |\\n/g,''); }).toArray(); versions.push('current'); versions.push('master'); return JSON.stringify(versions);"
+        },
+        "type_of_content": ["book", "bundles", "reference", "components", "cookbook", "best_practices"]
+      }
+    },
+    "https://symfony.com/doc/bundles"
+  ],
+  "stop_urls": [
+    ".*^(?!.*Bundle).*index.html"
+  ],
+  "selectors_exclude": [
+    "body.doc #main .page h1"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"breadcrumb\"]/li[3]",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//*[@class=\"breadcrumb\"]/li[4]",
+      "type": "xpath"
+    },
+    "lvl2": "#main h1",
+    "lvl3": "#main h2",
+    "lvl4": "#main h3",
+    "lvl5": "#main h4",
+    "text": "#main p"
+  },
+  "min_indexed_level": 2,
+  "custom_settings": {},
+  "nbHits": 121240
+}

@@ -1,0 +1,26 @@
+{
+  "index_name": "tinymce",
+  "start_urls": [
+    "https://www.tinymce.com/docs/"
+  ],
+  "stop_urls": [
+  	"https://www.tinymce.com/docs/changelog"
+  ],
+  "selectors_exclude": [
+    ".content > div",
+    ".license"
+  ],
+  "selectors": {
+    "lvl0": ".side-nav .active span.folder",
+    "lvl1": ".heading h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h4",
+    "lvl4": ".content h4",
+    "text": ".content p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 2,
+  "nbHits": 2775
+}

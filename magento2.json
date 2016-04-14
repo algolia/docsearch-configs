@@ -1,0 +1,29 @@
+{
+  "index_name": "magento2",
+  "start_urls": [
+    "http://devdocs.magento.com/"
+  ],
+  "stop_urls": [
+    "\\.psd",
+    "\\.sketch"
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".sidebar h4",
+      "default_value": "How Do I...?"
+    },
+    "lvl1": {
+      "selector": "//*[@class=\"sidebar\"]//*[contains(@class, \"active\") and contains(@class, \"level1\")]|//*[@class=\"sidebar\"]//*[contains(@class, \"active\") and contains(@class, \"level-2\")]//preceding::li[contains(@class, \"level1\")][1]",
+      "type": "xpath"
+    },
+    "lvl2": ".sidebar level-2.active",
+    "lvl3": ".content h2",
+    "lvl4": ".content-wrap h2",
+    "lvl5": ".content-wrap h3",
+    "text": ".content-wrap p, .content-wrap > ul > li, .content-wrap ol"
+  },
+  "min_indexed_level": 3,
+  "nbHits": 17404
+}

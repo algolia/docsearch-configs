@@ -1,0 +1,24 @@
+{
+  "index_name": "scalingo-doc",
+  "allowed_domains": [
+    "doc.scalingo.com"
+  ],
+  "start_urls": [
+    "http://doc.scalingo.com/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".main-content h1",
+    "lvl1": ".main-content h2",
+    "lvl2": ".main-content h3",
+    "lvl3": ".bla",
+    "lvl4": ".bla",
+    "lvl5": ".bla",
+    "text": ".main-content p,.main-content li,.main-content pre"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "nbHits": 2190
+}

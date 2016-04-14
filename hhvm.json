@@ -1,0 +1,48 @@
+{
+  "index_name": "hhvm",
+  "allowed_domains": [
+    "docs.hhvm.com"
+  ],
+  "start_urls": [
+    {
+      "url": "https://docs.hhvm.com/.*?reference.*?",
+      "page_rank": -1
+    },
+    "https://docs.hhvm.com/hhvm",
+    "https://docs.hhvm.com/hack"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".hash-link",
+    ".edit-page-link"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"breadcrumbNav\"]/div/a[2]",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//*[@class=\"breadcrumbNav\"]/div/a[3]",
+      "type": "xpath"
+    },
+    "lvl2": {
+      "selector": "//*[@class=\"breadcrumbNav\"]/div/a[4]",
+      "type": "xpath"
+    },
+    "lvl3": {
+      "selector": "//*[@class=\"breadcrumbNav\"]/div/a[5]",
+      "type": "xpath"
+    },
+    "lvl4": {
+      "selector": "//*[@class=\"breadcrumbNav\"]/div/text()",
+      "type": "xpath"
+    },
+    "lvl5": ".innerContent h2",
+    "text": ".innerContent p, .inner-content li"
+  },
+
+  "min_indexed_level": 4,
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 5393
+}

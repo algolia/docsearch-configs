@@ -1,0 +1,22 @@
+{
+  "index_name": "apollostack",
+  "start_urls": [
+    "http://docs.apollostack.com/"
+  ],
+  "stop_urls": [
+    "http://docs.apollostack.com$",
+    "http://docs.apollostack.com/index.html"
+  ],
+  "selectors_exclude": [
+    ".edit-discuss-links"
+  ],
+  "selectors": {
+    "lvl0": "#content h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "text": "#content p, #content li"
+  },
+  "scrap_start_urls": false,
+  "nbHits": 669
+}

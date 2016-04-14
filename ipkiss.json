@@ -1,0 +1,33 @@
+{
+  "index_name": "ipkiss",
+  "start_urls": [
+    "http://docs.lucedaphotonics.com/3.0.1/index.html",
+    "http://docs.lucedaphotonics.com/3.0.1/.*"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+    "#contents",
+    ".admonition.note"
+  ],
+  "selectors": {
+  	"lvl0": {
+  		"selector": "//*[@id=\"content\"]//ul[@class=\"breadcrumbs\"]/li[2]",
+			"type": "xpath",
+			"default_value": "Documentation"
+		},
+    "lvl1": {
+  		"selector": "//*[@id=\"content\"]//ul[@class=\"breadcrumbs\"]/li[3]",
+			"type": "xpath"
+		},
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "text": ".section p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.¶",
+  "min_indexed_level": 2,
+  "nbHits": 3467
+}

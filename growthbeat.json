@@ -1,0 +1,20 @@
+{
+  "index_name": "growthbeat",
+  "start_urls": [
+    "http://support.growthbeat.com/"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": ".page h1",
+    "lvl1": ".column-main h1",
+    "lvl2": ".column-main h2",
+    "lvl3": ".column-main h3",
+    "lvl4": ".column-main h4",
+    "text": ".column-main p"
+  },
+  "custom_settings": {},
+  "nbHits": 1245
+}

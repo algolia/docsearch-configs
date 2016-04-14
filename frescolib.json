@@ -1,0 +1,26 @@
+{
+  "index_name": "frescolib",
+  "start_urls": [
+    "http://frescolib.org/docs/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"toc\"]//a[@class=\"active\"]/../../../h3",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".withtoc h1",
+    "lvl2": ".withtoc h2",
+    "lvl3": ".withtoc h3",
+    "lvl4": ".withtoc h4",
+    "text": ".withtoc p, .withtoc li"
+  },
+  "min_indexed_level": 1,
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 726
+}

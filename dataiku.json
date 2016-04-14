@@ -1,0 +1,23 @@
+{
+  "index_name": "dataiku",
+  "allowed_domains": ["doc.dataiku.com"],
+  "start_urls": [
+    "http://doc.dataiku.com/dss/latest/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".headerlink"
+  ],
+  "selectors": {
+    "lvl0": "#data-science-studio h1, .wy-breadcrumbs li:nth-child(2)",
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "text": ".section p, .section ul.simple li"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 1,
+  "strip_chars": " :;,.¶",
+  "nbHits": 5785
+}

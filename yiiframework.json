@@ -1,0 +1,28 @@
+{
+  "index_name": "yiiframework",
+  "allowed_domains": [
+    "www.yiiframework.com"
+  ],
+  "start_urls": [
+    "http://www.yiiframework.com/doc-2.0"
+  ],
+  "stop_urls": [
+
+  ],
+  "selectors_exclude": [
+  	".hashlink"
+  ],
+  "selectors": {
+    "lvl0": "#navigation > a.active, .api-content h1",
+    "lvl1": ".guide-content h1, .api-content h1",
+    "lvl2": ".guide-content h2, .api-content h2",
+    "lvl3": ".guide-content h3, .api-content h3",
+    "text": ".body-container p, .guide-content p, .api-content p"
+  },
+  "custom_settings": {
+  },
+  "strategy": "default",
+  "strip_chars": " :;,.¶",
+  "min_indexed_level": 1,
+  "nbHits": 24512
+}

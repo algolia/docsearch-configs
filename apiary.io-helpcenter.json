@@ -1,0 +1,32 @@
+{
+    "index_name": "apiary.io-helpcenter",
+    "allowed_domains": ["docs.apiary.io", "help.apiary.io"],
+    "start_urls": [
+        "https://docs.apiary.io/",
+        "https://docs.apiary.io/tools/",
+        "https://docs.apiary.io/api_101/",
+        "https://docs.apiary.io/account_settings/",
+        "https://docs.apiary.io/faq/",
+        "https://help.apiary.io/",
+        "https://help.apiary.io/tools/",
+        "https://help.apiary.io/api_101/",
+        "https://help.apiary.io/account_settings/",
+        "https://help.apiary.io/faq/"
+    ],
+    "stop_urls": [
+    ],
+    "selectors_exclude": [
+    ],
+    "selectors": {
+      "lvl0": ".page-content h1",
+      "lvl1": ".page-content h2",
+      "lvl2": ".page-content h3",
+      "lvl3": ".page-content h4",
+      "lvl4": ".page-content h5",
+      "lvl5": ".page-content h6",
+      "text": ".page-content p"
+    },
+    "custom_settings": {},
+    "strategy": "default",
+    "nbHits": 645
+}

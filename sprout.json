@@ -1,0 +1,37 @@
+{
+  "index_name": "sprout",
+  "start_urls": [
+    {
+      "url": "http://sprout.barrelstrengthdesign.com/craft-plugins/(?P<project>.*?)/docs/getting-started/introduction",
+      "variables": {
+        "project": ["seo", "forms", "email", "reports", "support", "active", "encode-email", "fields", "invisible-captcha", "notes"]
+      }
+    },
+    {
+      "url": "http://sprout.barrelstrengthdesign.com/craft-plugins/(?P<project>.*?)/docs/.*",
+      "variables": {
+        "project": ["seo", "forms", "email", "reports", "support", "active", "encode-email", "fields", "invisible-captcha", "notes"]
+      }
+    }
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"fa fa-leaf fa-fw\"]/../../../../span",
+      "type": "xpath"
+    },
+    "lvl1": ".docs-body h1",
+    "lvl2": ".docs-body h2",
+    "lvl3": ".docs-body h3",
+    "lvl4": ".docs-body h4",
+    "text": ".docs-body p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 2,
+  "nbHits": 699
+}

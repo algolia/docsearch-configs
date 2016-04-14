@@ -1,0 +1,33 @@
+{
+  "index_name": "craft",
+  "start_urls": [
+    "http://doc.craft.ai/"
+  ],
+  "stop_urls": [
+    "\\.\\.",
+    "#",
+    "^((?!index\\.html).)*$"
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"summary\"]/li/ul/li[contains(@class, \"active\")]/../preceding::a[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".summary .chapter.active",
+      "global": true
+    },
+    "lvl2": ".page-inner h1",
+    "lvl3": ".page-inner h2",
+    "text": ".page-inner p"
+  },
+  "js_render": true,
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 2,
+  "use_anchors": "false",
+  "nbHits": 410
+}

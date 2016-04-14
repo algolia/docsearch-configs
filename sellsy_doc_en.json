@@ -1,0 +1,28 @@
+{
+  "index_name": "sellsy_doc_en",
+  "allowed_domains": [
+    "api.sellsy.com"
+  ],
+  "start_urls": [
+    "http://api.sellsy.com/"
+  ],
+  "stop_urls": [
+    "http://api.sellsy.com/documentation/resources"
+  ],
+  "selectors_exclude": [
+    ".nav-list"
+  ],
+  "selectors": {
+    "lvl0": "#start .page-header h1, #object .page-header h1, #intro .page-header h1",
+    "lvl1": "section .page-header h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "nbHits": 1214
+}

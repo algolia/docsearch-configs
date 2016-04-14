@@ -1,0 +1,28 @@
+{
+  "index_name": "canvasjs",
+  "start_urls": [
+    "http://canvasjs.com/docs/charts/"
+  ],
+  "stop_urls": [
+    "http://canvasjs.com/docs/(.*)/?replytocom=(.*)",
+    "http://canvasjs.com/docs/(.*)/#comment-(.*)",
+    "http://canvasjs.com/docs/(.*)/#respond"
+  ],
+  "selectors_exclude": [
+    ".modal",
+    ".nav-collapse",
+    ".comment-respond",
+    "#comments"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".nodeSel",
+      "global": true,
+      "searchable": false
+    },
+    "lvl1": "h2, h3",
+    "text": "p, li"
+  },
+  "js_render": true,
+  "nbHits": 4313
+}

@@ -1,0 +1,21 @@
+{
+  "index_name": "docsearch",
+  "allowed_domains": [
+  ],
+  "start_urls": [
+    "https://community.algolia.com/docsearch/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": ".page-title",
+    "lvl1": ".page-content h2",
+    "lvl2": ".page-content h3",
+    "text": ".page-content p, .page-content li"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 1,
+  "nbHits": 26
+}

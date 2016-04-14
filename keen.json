@@ -1,0 +1,37 @@
+{
+  "index_name": "keen",
+  "start_urls": [
+  	{
+      "url": "https://keen.io/docs/",
+      "tags": ["docs"]
+    },
+    {
+      "url": "https://keen.io/guides/",
+      "tags": ["guides"]
+    }
+  ],
+  "stop_urls": [
+    "https://keen.io/guides/tags/",
+  	"https://keen.io/docs/sdks/",
+  	"https://keen.io/docs/integrations/",
+  	"https://keen.io/docs/data-visualization/",
+  	"https://keen.io/docs/data-analysis/",
+  	"https://keen.io/guides/ecommerce-analytics/example-site",
+  	"api/\\?",
+    "/$"
+  ],
+  "selectors_exclude": [
+  	".tocify-divider"
+  ],
+  "selectors": {
+    "lvl0": ".jumbotron .container h1, .page-wrapper h1",
+    "lvl1": "article h1, .page-wrapper h2",
+    "lvl2": "article h2, .page-wrapper h3",
+    "lvl3": "article h3, .page-wrapper h4",
+    "lvl4": "article h4, .page-wrapper h5",
+    "text": "article p, .page-wrapper p"
+  },
+  "min_indexed_level": 2,
+  "js_render": true,
+  "nbHits": 737
+}

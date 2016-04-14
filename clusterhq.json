@@ -1,0 +1,32 @@
+{
+  "index_name": "clusterhq",
+  "start_urls": [
+    "https://docs.clusterhq.com/en/latest"
+  ],
+  "stop_urls": [
+    "index.html"
+  ],
+  "selectors_exclude": [
+    ".pods-eq em",
+    ".pods-eq a"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Install & Docs"
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class, \"toctree-l2\") and contains(@class, \"current\")]/../preceding::a[1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl2": ".section h1",
+    "lvl3": ".section h2",
+    "lvl4": ".section h3",
+    "text": ".section p, .pods-eq span"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 2,
+  "nbHits": 1661
+}

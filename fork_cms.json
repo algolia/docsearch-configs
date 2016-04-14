@@ -1,0 +1,25 @@
+{
+  "index_name": "fork_cms",
+  "start_urls": [
+    "http://forkdocs.jessedobbelae.re/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//li[@class=\"c-nav-main-children__item is-selected\"]/../../a",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 1383
+}

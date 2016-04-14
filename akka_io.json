@@ -1,0 +1,53 @@
+{
+  "index_name": "akka_io",
+  "start_urls": [
+    {
+      "url": "http://doc.akka.io/docs/akka/(?P<version>.*?)/(?P<language>.*?).html",
+      "variables": {
+        "language": ["scala", "java", "general"],
+        "version": {
+          "url": "http://doc.akka.io/docs/akka/",
+          "js": "var versions = []; for(var i = 0 ; i < document.getElementsByTagName(\"a\").length; i++) { versions.push(document.getElementsByTagName(\"a\")[i].attributes[0].value); }; versions = versions.filter(function(e) { return !e.startsWith('?') && e.endsWith(\"/\"); }).map(function(e) { return e.replace(/\\//g, ''); }); return JSON.stringify(versions);"
+        }
+      }
+    },
+    {
+      "url": "http://doc.akka.io/docs/akka/(?P<version>.*?)/(?P<language>.*?)/",
+      "variables": {
+        "language": ["scala", "java", "general"],
+        "version": {
+          "url": "http://doc.akka.io/docs/akka/",
+          "js": "var versions = []; for(var i = 0 ; i < document.getElementsByTagName(\"a\").length; i++) { versions.push(document.getElementsByTagName(\"a\")[i].attributes[0].value); }; versions = versions.filter(function(e) { return !e.startsWith('?') && e.endsWith(\"/\"); }).map(function(e) { return e.replace(/\\//g, ''); }); return JSON.stringify(versions);"
+        }
+      }
+    },
+    {
+      "url": "http://doc.akka.io/docs/akka/(?P<version>.*?)/",
+      "variables": {
+        "language": ["scala", "java", "general"],
+        "version": {
+          "url": "http://doc.akka.io/docs/akka/",
+          "js": "var versions = []; for(var i = 0 ; i < document.getElementsByTagName(\"a\").length; i++) { versions.push(document.getElementsByTagName(\"a\")[i].attributes[0].value); }; versions = versions.filter(function(e) { return !e.startsWith('?') && e.endsWith(\"/\"); }).map(function(e) { return e.replace(/\\//g, ''); }); return JSON.stringify(versions);"
+        }
+      }
+    }
+  ],
+  "stop_urls": [
+  	"index.html"
+  ],
+  "selectors_exclude": [
+  	"#scroller-anchor"
+  ],
+  "selectors": {
+    "lvl0": ".container h1",
+    "lvl1": ".container h2",
+    "lvl2": ".container h3",
+    "lvl3": ".container h4",
+    "text": ".container p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 2,
+  "nbHits": 390802
+}

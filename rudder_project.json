@@ -1,0 +1,38 @@
+{
+  "index_name": "rudder_project",
+  "start_urls": [
+    {
+      "url": "http://www.rudder-project.org/doc-2.11/",
+      "tags": ["v2.11"]
+    },
+    {
+      "url": "http://www.rudder-project.org/doc-3.0/",
+      "tags": ["v3.0"]
+    },
+    {
+      "url": "http://www.rudder-project.org/doc-3.1/",
+      "tags": ["v3.1"]
+    },
+    {
+      "url": "http://www.rudder-project.org/doc-3.2/",
+      "tags": ["v3.2"]
+    }
+  ],
+  "stop_urls": [  ],
+  "selectors_exclude": [
+  	".bigtitle"
+  ],
+  "selectors": {
+  	"lvl0": "#header h1",
+    "lvl1": ".titlepage h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "text": ".section p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 1,
+  "nbHits": 4043
+}

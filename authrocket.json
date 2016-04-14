@@ -1,0 +1,28 @@
+{
+  "index_name": "authrocket",
+  "start_urls": [
+    "https://authrocket.com/docs"
+  ],
+  "stop_urls": [
+
+  ],
+  "selectors_exclude": [
+
+  ],
+  "selectors": {
+    "lvl0": {
+    	"selector": "//*[@id=\"docs-sidebar\"]/ul/li[@class=\"active\"]/../li[1]",
+    	"type": "xpath",
+        "global": "true"
+    },
+    "lvl1": ".docs-focus h1",
+    "lvl2": ".docs-focus h2",
+    "lvl3": ".docs-focus h3",
+    "lvl4": ".docs-focus h4",
+    "lvl5": ".docs-focus h5",
+    "text": ".docs-focus p"
+  },
+  "custom_settings": {},
+  "min_indexed_level": 1,
+  "nbHits": 1755
+}

@@ -1,0 +1,103 @@
+{
+  "index_name": "squarebit",
+  "start_urls": [
+    {
+      "url": "https://squarebit.co.uk/software/craft/searchplus/usage",
+      "tags": ["craft","searchplus"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/craft/charge/usage",
+      "tags": ["craft","charge"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/craft/shortlist/usage",
+      "tags": ["craft","shortlist"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/craft/maps/usage",
+      "tags": ["craft","maps"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/expressionengine/binder/usage",
+      "tags": ["expressionengine","binder"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/expressionengine/charge/usage",
+      "tags": ["expressionengine","charge"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/expressionengine/maps/usage",
+      "tags": ["expressionengine","maps"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/expressionengine/shortlist/usage",
+      "tags": ["expressionengine","shortlist"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/expressionengine/seed/usage",
+      "tags": ["expressionengine","seed"]
+    },
+
+
+    {
+      "url": "https://squarebit.co.uk/software/craft/searchplus/faq",
+      "tags": ["craft","searchplus"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/craft/charge/faq",
+      "tags": ["craft","charge"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/craft/shortlist/faq",
+      "tags": ["craft","shortlist"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/craft/maps/faq",
+      "tags": ["craft","maps"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/expressionengine/binder/faq",
+      "tags": ["expressionengine","binder"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/expressionengine/charge/faq",
+      "tags": ["expressionengine","charge"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/expressionengine/maps/faq",
+      "tags": ["expressionengine","maps"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/expressionengine/shortlist/faq",
+      "tags": ["expressionengine","shortlist"]
+    },
+    {
+      "url": "https://squarebit.co.uk/software/expressionengine/seed/faq",
+      "tags": ["expressionengine","seed"]
+    }
+  ],
+  "stop_urls": [
+    "#"
+  ],
+  "selectors_exclude": [
+    ".quickjump"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//*[@class=\"tabsContent\"]//a[@class=\"active\"]/../../../a[1]|//*[@class=\"tabsContent\"]//a[@class=\"active\"])[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "FAQ"
+    },
+    "lvl1": "[data-content=usage] .tab__body h2, [data-content=faq] .tab__body--fw h2",
+    "lvl2": "[data-content=usage] .tab__body h3, [data-content=faq] .tab__body--fw h3",
+    "lvl3": "[data-content=usage] .tab__body h4, [data-content=faq] .tab__body--fw h4",
+    "text": "[data-content=usage] .tab__body p, [data-content=faq] .tab__body--fw p"
+  },
+  "custom_settings": {
+  },
+  "strategy": "default",
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nbHits": 1822
+}

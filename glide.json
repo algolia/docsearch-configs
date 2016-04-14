@@ -1,0 +1,28 @@
+{
+  "index_name": "glide",
+  "start_urls": [
+		"http://glide.thephpleague.com/"
+  ],
+  "stop_urls": [
+  	"changelog",
+  	"size//"
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+    	"selector": "//li[@class=\"selected\"]/../preceding::h2[1]",
+    	"type": "xpath",
+    	"default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl3": "article h4",
+    "text": "article p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 2,
+  "nbHits": 185
+}

@@ -1,0 +1,22 @@
+{
+  "index_name": "laravelcollective",
+  "start_urls": [
+    "https://laravelcollective.com/docs/5.2"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs h1",
+    "lvl2": ".docs h2",
+    "lvl3": ".docs h3",
+    "lvl4": ".docs h4",
+    "lvl5": ".docs h5",
+    "text": ".docs p"
+  },
+  "js_render": true,
+  "nbHits": 245
+}

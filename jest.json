@@ -1,0 +1,31 @@
+{
+  "index_name": "jest",
+  "allowed_domains": [
+    "facebook.github.io"
+  ],
+  "start_urls": [
+    "http://facebook.github.io/jest/docs/tutorial.html",
+    "http://facebook.github.io/jest/docs/.*"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[@class='nav-docs']//a[@class='active']/../../../h3",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": ".inner-content h1",
+    "lvl2": ".inner-content h2",
+    "lvl3": ".inner-content h3",
+    "lvl4": ".inner-content h4",
+    "lvl5": ".inner-content h5",
+    "text": ".inner-content p, .inner-content li"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 1,
+  "nbHits": 431
+}

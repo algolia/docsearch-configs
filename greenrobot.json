@@ -1,0 +1,32 @@
+{
+  "index_name": "greenrobot",
+  "allowed_domains": [
+    "greenrobot.org"
+  ],
+  "start_urls": [
+    {
+      "url": "http://greenrobot.org/(?P<category>.*?)/",
+      "variables": {
+        "category": ["eventbus", "greendao", "blog"]
+      }
+    }
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  "div#respond",
+  "div#comments",
+  "div#toc_container"
+  ],
+  "selectors": {
+    "lvl0": "h1.entry-title",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "div.entry-content a",
+    "lvl4": "div.entry-categories",
+    "text": "div.entry-content p, div.entry-content li"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 1140
+}

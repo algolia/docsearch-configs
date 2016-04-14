@@ -1,0 +1,18 @@
+{
+  "index_name": "fastnotesapp-helpcenter",
+  "start_urls": [
+    "http://help.fastnotesapp.com/knowledge_base",
+    "http://help.fastnotesapp.com/help_center"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".breadcrumbs li:nth-child(2) a",
+    "lvl1": ".box-c-topic h2",
+    "text": ".topic-description p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 2,
+  "nbHits": 436
+}

@@ -1,0 +1,33 @@
+{
+  "index_name": "weppy",
+  "start_urls": [
+    {
+      "url": "http://weppy.org/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "http://weppy.org/docs/dev",
+          "js": "var versions = $('.m20 a').map(function(i, elt) { return $(elt).html().replace(/ |\\n/g,'').replace('.x', '') }).toArray(); versions.push('dev'); return JSON.stringify(versions);"
+        }
+      }
+    }
+  ],
+  "scrap_start_urls": false,
+  "stop_urls": [
+    "http://weppy.org/docs/...$"
+  ],
+  "selectors_exclude": [
+    ".m20"
+  ],
+  "selectors": {
+    "lvl0": ".pure-u-1 h1",
+    "lvl1": ".pure-u-1 h2",
+    "lvl2": ".pure-u-1 h3",
+    "lvl3": ".pure-u-1 h4",
+    "lvl4": ".pure-u-1 h5",
+    "lvl5": ".pure-u-1 h6",
+    "text": ".pure-u-1 p"
+  },
+  "min_indexed_level": 1,
+  "custom_settings": {},
+  "nbHits": 5578
+}

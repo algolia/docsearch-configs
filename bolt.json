@@ -1,0 +1,31 @@
+{
+  "index_name": "bolt",
+  "start_urls": [
+    {
+      "url": "https://docs.bolt.cm/(?P<version>.*?)/introduction",
+      "variables": {
+        "version": ["release-2-2", "master"]
+      }
+    },
+    {
+      "url": "https://docs.bolt.cm/(?P<version>.*?)/.*",
+      "variables": {
+        "version": ["release-2-2", "master"]
+      }
+    }
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "text": ".content p, .content code"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 3997
+}

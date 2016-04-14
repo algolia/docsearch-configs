@@ -1,0 +1,38 @@
+{
+  "index_name": "stitchlabs",
+  "start_urls": [
+    "http://support.stitchlabs.com"
+  ],
+  "stop_urls": [
+    "page\\=",
+    "emails/new",
+    "customer/portal",
+    "^(?!.*---).*?customer/en/portal/articles.*?$"
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"breadcrumb\"]/li[1]",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//*[@class=\"breadcrumb\"]/li[2]",
+      "type": "xpath"
+    },
+    "lvl2": {
+      "selector": "//*[@class=\"breadcrumb\"]/li[3]",
+      "type": "xpath"
+    },
+    "lvl3": "#support-main h2",
+    "text": {
+      "selector": "//*[@class=\"span12\"]/text() | //*[@class=\"span12\"]//li | //*[@class=\"span12\"]//span",
+      "type": "xpath"
+    }
+  },
+  "scrap_start_urls": false,
+  "js_render": true,
+  "min_indexed_level": 3,
+  "remove_get_params": true,
+  "nbHits": 8806
+}

@@ -1,0 +1,27 @@
+{
+  "index_name": "highfidelity",
+  "start_urls": [
+    "https://readme.highfidelity.com/"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+    	"selector": "//*[@class=\"sidebar-nav\"]//*[@class=\"active\"]/../../preceding::h4[1]",
+    	"type": "xpath",
+      "global": "true"
+    },
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content h5",
+    "text": ".docs-content p"
+  },
+  "custom_settings": {},
+  "min_indexed_level": 2,
+  "nbHits": 3007,
+  "js_render": true
+}

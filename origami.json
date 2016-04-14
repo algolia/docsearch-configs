@@ -1,0 +1,27 @@
+{
+  "index_name": "origami",
+  "allowed_domains": [
+    "facebook.github.io"
+  ],
+  "start_urls": [
+    "http://facebook.github.io/origami/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"docs\"]//*/span/../../../text()[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-content h1",
+    "lvl2": ".doc-content h2",
+    "lvl3": ".doc-content h3",
+    "lvl4": ".doc-content h4",
+    "text": ".doc-content p, .doc-content li"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 1656
+}

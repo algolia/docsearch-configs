@@ -1,0 +1,21 @@
+{
+  "index_name": "shipcloud",
+  "allowed_domains": [
+    "developers.shipcloud.io"
+  ],
+  "start_urls": [
+    "https://developers.shipcloud.io/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".page-content h1",
+    "lvl1": ".page-content h2",
+    "lvl2": ".page-content h3.panel-title, .page-content h3",
+    "lvl3": ".page-content .panel-body h3, .page-content h4",
+    "text": ".page-content p,.page-content li"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 517
+}

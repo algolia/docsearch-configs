@@ -1,0 +1,24 @@
+{
+  "index_name": "reindex",
+  "start_urls": [
+    "https://www.reindex.io/docs/"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+      "searchable": false,
+      "selector": "(//li/a[contains(@class, 'active')]/../../../a[1]|//li/a[contains(@class, 'active')])[1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "text": ".markdown p"
+  },
+  "strip_chars": " :;,.#",
+  "nbHits": 765
+}

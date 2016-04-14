@@ -1,0 +1,42 @@
+{
+  "index_name": "influxdata",
+  "start_urls": [
+    {
+      "url": "https://docs.influxdata.com/(?P<project>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "project": [
+          "influxdb",
+          "telegraf",
+          "chronograf",
+          "kapacitor"
+        ],
+        "version": [
+          "v0.12",
+          "v0.11",
+          "v0.10",
+          "v0.9",
+          "v0.8"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+
+  ],
+  "selectors_exclude": [
+
+  ],
+  "selectors": {
+    "lvl0": "#page-title h1",
+    "lvl1": "#page-content h2",
+    "lvl2": "#page-content h3",
+    "lvl3": "#page-content h4",
+    "text": "#page-content p"
+  },
+  "custom_settings": {
+
+  },
+  "min_indexed_level": 2,
+  "nbHits": 14369,
+  "docker_image": null
+}

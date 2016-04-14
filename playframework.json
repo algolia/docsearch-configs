@@ -1,0 +1,41 @@
+{
+  "index_name": "playframework",
+  "start_urls": [
+    {
+      "url": "https://www.playframework.com/documentation/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://www.playframework.com/documentation/latest/Home",
+          "js": "var versions = $('#toolbar .switch:first .dropdown dd a').map(function(i, e) { return $(e).attr('href').split('/')[3]; }).toArray(); return JSON.stringify(versions);"
+        }
+      },
+      "tags": ["en"]
+    },
+    {
+      "url": "https://www.playframework.com/documentation/(?P<tags>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://www.playframework.com/documentation/latest/Home",
+          "js": "var versions = $('#toolbar .switch:first .dropdown dd a').map(function(i, e) { return $(e).attr('href').split('/')[3]; }).toArray(); return JSON.stringify(versions);"
+        },
+        "tags": ["tr", "ja"]
+      }
+    }
+  ],
+  "stop_urls": [
+  	"/api/"
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": "#content h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "text": "#content p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 2,
+  "nbHits": 80310
+}

@@ -1,0 +1,31 @@
+{
+  "index_name": "wildapricot",
+  "start_urls": [
+    {
+      "url": "http://help.wildapricot.com/display/DOC/Browser\\+application\\+release\\+history",
+      "page_rank": -1
+    },
+    "http://help.wildapricot.com/display/DOC/Home",
+    "http://help.wildapricot.com/display/DOC"
+  ],
+  "stop_urls": [
+    "from=.*$",
+    "Update+.*$",
+    "Release+.*$",
+    "sessionid=.*$"
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": ".wiki-content h1",
+    "lvl1": ".wiki-content h2",
+    "lvl2": ".wiki-content h3",
+    "lvl3": ".wiki-content h4",
+    "text": ".wiki-content p, .wiki-content li"
+  },
+  "scrap_start_urls": false,
+  "strict": true,
+  "js_render": true,
+  "min_indexed_level": 2,
+  "nbHits": 18249
+}

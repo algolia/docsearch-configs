@@ -1,0 +1,29 @@
+{
+  "index_name": "isysapp",
+  "allowed_domains": [
+    "isysapp.com"
+  ],
+  "start_urls": [
+    "http://isysapp.com/dob/docs"
+  ],
+  "stop_urls": [
+    "http://isysapp.com/dob/docs/index.html"
+  ],
+  "selectors_exclude": [
+    "ul.nav",
+    "ol.breadcrumb"
+  ],
+  "selectors": {
+    "lvl0": ".container h1",
+    "lvl1": ".container h2",
+    "lvl2": ".container h3",
+    "lvl3": ".container h4",
+    "text": ".container p"
+  },
+  "custom_settings": {
+  },
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 0,
+  "nbHits": 79
+}

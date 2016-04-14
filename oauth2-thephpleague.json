@@ -1,0 +1,24 @@
+{
+  "index_name": "oauth2-thephpleague",
+  "start_urls": [
+    "http://oauth2.thephpleague.com"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul/li[@class=\"selected\"]/../preceding::h2[1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "nbHits": 265
+}

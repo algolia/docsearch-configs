@@ -1,0 +1,108 @@
+{
+  "index_name": "scala-docs",
+  "start_urls": [
+    {
+      "url": "http://docs.scala-lang.org/de",
+      "tags": [
+        "de"
+      ]
+    },
+    {
+      "url": "http://docs.scala-lang.org/es",
+      "tags": [
+        "es"
+      ]
+    },
+    {
+      "url": "http://docs.scala-lang.org/fr",
+      "tags": [
+        "fr"
+      ]
+    },
+    {
+      "url": "http://docs.scala-lang.org/ja",
+      "tags": [
+        "ja"
+      ]
+    },
+    {
+      "url": "http://docs.scala-lang.org/ko",
+      "tags": [
+        "ko"
+      ]
+    },
+    {
+      "url": "http://docs.scala-lang.org/pt-br",
+      "tags": [
+        "pt-br"
+      ]
+    },
+    {
+      "url": "http://docs.scala-lang.org/zh-cn",
+      "tags": [
+        "zh-cn"
+      ]
+    },
+    {
+      "url": "http://docs.scala-lang.org/overviews",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "http://docs.scala-lang.org/tutorials",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "http://docs.scala-lang.org/style",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "http://docs.scala-lang.org/sips",
+      "tags": [
+        "en"
+      ],
+      "page_rank": -1
+    },
+    {
+      "url": "http://docs.scala-lang.org",
+      "tags": [
+        "en"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "http://docs.scala-lang.org/index.html",
+    "http://docs.scala-lang.org/overviews/index.html",
+    "http://docs.scala-lang.org/overviews/macros/quasiquotes.html",
+    "http://docs.scala-lang.org/glossary",
+    ".*cheatsheets.*",
+    "http://docs.scala-lang.org/contribute.html"
+  ],
+  "selectors_exclude": [
+    ".contents",
+    ".copyright",
+    ".footer",
+    "#scroller"
+  ],
+  "selectors": {
+    "lvl0": {
+    	"selector": "#guide-title",
+    	"default_value": "Tutorials"
+    },
+    "lvl1": ".container h1",
+    "lvl2": ".container h2",
+    "lvl3": ".container h3",
+    "lvl4": ".container h4",
+    "text": "p"
+  },
+  "custom_settings": {
+  },
+  "strategy": "default",
+  "min_indexed_level": 2,
+  "nbHits": 11894
+}

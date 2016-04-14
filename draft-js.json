@@ -1,0 +1,29 @@
+{
+  "index_name": "draft-js",
+  "start_urls": [
+    "http://facebook.github.io/draft-js/docs/overview.html",
+    "http://facebook.github.io/draft-js/docs/.*"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".hash-link",
+    ".edit-page-link"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"nav-docs-section\"]/ul/li/a[@class=\"active\"]/../../../h3",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".documentationContent div.inner-content h1",
+    "lvl2": ".documentationContent div.inner-content h2",
+    "lvl3": ".documentationContent div.inner-content h3",
+    "lvl4": ".documentationContent div.inner-content h4",
+    "text": ".documentationContent div.inner-content p, .documentationContent div.inner-content li"
+  },
+  "min_indexed_level": 1,
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 727
+}

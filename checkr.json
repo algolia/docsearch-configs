@@ -1,0 +1,22 @@
+{
+  "index_name": "checkr",
+  "allowed_domains": [
+    "docs.checkr.com"
+  ],
+  "start_urls": [
+    "https://docs.checkr.com/"
+  ],
+  "stop_urls": [
+    "https://docs.checkr.com/cdn-cgi/l/email-protection"
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": "#content div.method div.method-title h1",
+    "lvl1": "#content div.method div.method-title h4",
+    "lvl2": "#content div.method div.method-description h4",
+    "text": "#content div.method div.method-description p, #content div.method div.method-description table.attributes td"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 514
+}

@@ -1,0 +1,24 @@
+{
+  "index_name": "usertask",
+  "start_urls": [
+    "https://usertask.co/docs/"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+    	"selector": ".sidebar .sidenav > li > a.active",
+    	"default_value": "Documentation"
+    },
+    "lvl1": ".main-content h1",
+    "lvl2": ".main-content h2",
+    "lvl3": ".main-content h3",
+    "lvl4": ".main-content h4",
+    "text": ".main-content p"
+  },
+  "nbHits": 598,
+  "js_render": true,
+  "min_indexed_level": 2
+}

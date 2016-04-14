@@ -1,0 +1,27 @@
+{
+  "index_name": "wakanda_studio",
+  "start_urls": [
+    "http://wakanda.github.io/wakanda-studio/"
+  ],
+  "stop_urls": [
+
+  ],
+  "selectors_exclude": [
+    "#table-of-contents",
+    "section ul",
+    ".home-container",
+    "#home"
+  ],
+  "selectors": {
+    "lvl0": "#chapter",
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p"
+  },
+  "custom_settings": {},
+  "min_indexed_level": 1,
+  "nbHits": 170
+}

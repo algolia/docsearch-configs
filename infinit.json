@@ -1,0 +1,31 @@
+{
+  "index_name": "infinit",
+  "allowed_domains": [
+    "infinit.sh"
+  ],
+  "start_urls": [
+    "https://infinit.sh/documentation/",
+    "https://infinit.sh/documentation/overview"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+  	"lvl1": ".doc h1",
+    "lvl2": ".doc h2",
+    "lvl3": ".doc h3",
+    "lvl4": ".doc h4",
+    "lvl5": ".doc h5",
+    "text": ".doc p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 1,
+  "nbHits": 3021
+}

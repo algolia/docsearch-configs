@@ -1,0 +1,20 @@
+{
+  "index_name": "playphone",
+  "start_urls": [
+    "https://developer.playphone.com/documentation/6"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".menu a.ico-after",
+    "lvl1": "#post_content h2",
+    "lvl2": "#post_content h3",
+    "lvl3": "#post_content h4",
+    "lvl4": "#post_content h5",
+    "text": "#post_content p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "js_render": true,
+  "nbHits": 713
+}

@@ -1,0 +1,34 @@
+{
+  "index_name": "algolia",
+  "allowed_domains": [
+    "www.algolia.com"
+  ],
+  "start_urls": [
+    {
+      "url": "https://www.algolia.com/doc/(?P<language>.*?)",
+      "variables": {
+        "language": ["ruby", "rails", "python", "django", "php", "symfony", "laravel", "javascript", "go", "java", "scala", "objective-c", "swift", "android", "csharp"]
+      },
+      "page_rank": -1
+    },
+    "https://www.algolia.com/doc"
+  ],
+  "stop_urls": [
+    "https://www.algolia.com/doc/faq"
+  ],
+  "selectors_exclude": [
+    ".btn"
+  ],
+  "selectors": {
+    "lvl0": "#doc-tab-wrapper h1",
+    "lvl1": "#step-intro h2, #doc-tab-content .markdown-page h1",
+    "lvl2": "#step-intro h3, #doc-tab-content .markdown-page h2",
+    "lvl3": "#doc-tab-content .markdown-page h3",
+    "lvl4": "#doc-tab-content .markdown-page h4",
+    "lvl5": "#doc-tab-content .markdown-page h5",
+    "text": "#step-intro p, #doc-tab-content .markdown-page p, #doc-tab-content .markdown-page li"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 9113
+}

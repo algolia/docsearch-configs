@@ -1,0 +1,21 @@
+{
+  "index_name": "gigaone",
+  "start_urls": [
+    "https://www.gigaone.pl/wsparcie-techniczne"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".breadcrumbs a:nth-child(3)",
+      "searchable": false
+    },
+    "lvl1": "#content h1",
+    "lvl2": "#content .span8 h2",
+    "lvl3": "#content .span8 h2",
+    "lvl4": "",
+    "lvl5": "",
+    "text": "#content .span8 p"
+  },
+  "nbHits": 430
+}

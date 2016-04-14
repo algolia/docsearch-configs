@@ -1,0 +1,22 @@
+{
+  "index_name": "gitlab-ci",
+  "allowed_domains": ["doc.gitlab.com"],
+  "start_urls": [
+    "http://doc.gitlab.com/ce/ci/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".wrapper h1[id]",
+    "lvl1": ".wrapper h2[id]",
+    "lvl2": ".wrapper h3[id]",
+    "lvl3": ".wrapper h4[id]",
+    "lvl4": ".wrapper h5[id]",
+    "lvl5": ".wrapper h6[id]",
+    "text": ".wrapper p, .wrapper li"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "nbHits": 959
+}

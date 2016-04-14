@@ -1,0 +1,27 @@
+{
+  "index_name": "aftership",
+  "allowed_domains": [
+    "www.aftership.com"
+  ],
+  "start_urls": [
+    "https://www.aftership.com/docs/api/4"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+
+  ],
+  "selectors": {
+    "lvl0": "body > .container .span3 ul.nav .active a",
+    "lvl1": "body > .container .span9 > h4",
+    "lvl2": "body > .container a.accordion-toggle",
+    "lvl3": "body > .container .row p.muted, body > .container td:first-child",
+    "text": "body > .container .row p:not(.muted), body > .container td:last-child"
+  },
+  "custom_settings": {
+    "attributeForDistinct": "hierarchy_complete.lvl3"
+  },
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 2,
+  "nbHits": 1284
+}

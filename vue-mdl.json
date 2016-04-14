@@ -1,0 +1,26 @@
+{
+  "index_name": "vue-mdl",
+  "start_urls": [
+    "http://posva.net/vue-mdl/"
+  ],
+  "stop_urls": [
+  	"#"
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "main h2"
+    },
+    "lvl1": "main h3",
+    "lvl2": "main h4",
+    "lvl3": "main h5",
+    "lvl4": "main h6",
+    "text": "main p"
+  },
+  "strategy": "default",
+  "js_render": true,
+  "js_wait": 2,
+  "use_anchors": false,
+  "min_indexed_level": 2,
+  "nbHits": 149
+}

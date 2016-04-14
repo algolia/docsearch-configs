@@ -1,0 +1,25 @@
+{
+  "index_name": "yunohost",
+  "start_urls": [
+    "https://yunohost.org/#"
+  ],
+  "stop_urls": [
+    "edit"
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+    	"selector": "",
+    	"default_value": "Documentation"
+  	},
+    "lvl1": "#content h1",
+    "lvl2": "#content h2",
+    "lvl3": "#content h3",
+    "lvl4": "#content h4",
+    "text": "#content p"
+  },
+  "js_render": true,
+  "js_wait": 0.2,
+  "use_anchors": true,
+  "nbHits": 5485
+}
