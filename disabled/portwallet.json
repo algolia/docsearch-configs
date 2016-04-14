@@ -1,0 +1,24 @@
+{
+  "index_name": "portwallet",
+  "allowed_domains": [
+    "developer.portwallet.com"
+  ],
+  "start_urls": [
+    "http://developer.portwallet.com/documentation.php"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".container .description h2",
+    "lvl1": ".container div.row .panel-heading h3",
+    "lvl2": "div.panel-heading span, #invoices-create-invoice div.panel-heading div",
+    "lvl3": ".container div.row .panel-body h4",
+    "lvl4": "li.list-group-item dl.dl-horizontal dt",
+    "text": ".container .description p, li.list-group-item dl.dl-horizontal p, #mp-pusher div.container div.row div.col-md-8 div.panel.panel-default div.panel-body p"
+  },
+  "custom_settings": {},
+  "strip_chars": " :;,.",
+  "min_indexed_level": 0,
+  "strategy": "default",
+  "nbHits": 131
+}

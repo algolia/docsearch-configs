@@ -1,0 +1,20 @@
+{
+  "index_name": "strapi_io",
+  "start_urls": [
+    "http://strapi.io/documentation"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+  	"lvl0": ".documentation__content h1",
+    "lvl1": ".documentation__content h2",
+    "lvl2": ".documentation__content h3",
+    "lvl3": ".documentation__content h4",
+    "text": ".documentation__content p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 876
+}

@@ -1,0 +1,28 @@
+{
+  "index_name": "postcoders",
+  "start_urls": [
+    "https://developers.alliescomputing.com"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  	"#olark",
+    ".visible-xs"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".nav-stacked > li.active > a",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".nav-stacked > li.active > ul > li.active > a",
+    "lvl2": ".pull-right h1",
+    "lvl3": ".pull-right h2",
+    "lvl4": ".pull-right h3",
+    "lvl5": ".pull-right h4",
+    "text": ".pull-right p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 609,
+  "js_render": true
+}

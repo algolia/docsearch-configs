@@ -1,0 +1,29 @@
+{
+  "index_name": "codacy",
+  "start_urls": [
+    "https://docs.codacy.com/docs"
+  ],
+  "stop_urls": [
+    "/edit$",
+    "#"
+  ],
+  "js_render": true,
+  "js_wait": 2,
+  "selectors_exclude": [
+    ".blocks-parent .section:first-child"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"sidebar-nav\"]/ul/li/a[@class=\"active\"]/../../preceding::h4[1]",
+      "type": "xpath"
+    },
+    "lvl1": ".docs-header h1",
+    "lvl2": ".blocks-parent .section h2",
+    "text": ".blocks-parent .section p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 1,
+  "nbHits": 644
+}

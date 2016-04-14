@@ -1,0 +1,25 @@
+{
+  "index_name": "datadoghq",
+  "allowed_domains": [
+    "docs.datadoghq.com"
+  ],
+  "start_urls": [
+    "http://docs.datadoghq.com"
+  ],
+  "stop_urls": [
+  	"http://docs.datadoghq.com/ja"
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": "#pagetitle, .container h1",
+    "lvl1": ".container h2",
+    "lvl2": ".container h3",
+    "text": ".content p"
+  },
+  "custom_settings": {
+  },
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 0,
+  "nbHits": 699
+}

@@ -1,0 +1,21 @@
+{
+  "index_name": "woopra",
+  "allowed_domains": [
+    "www.woopra.com"
+  ],
+  "start_urls": [
+    "https://www.woopra.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".container div.title h1",
+    "lvl1": ".container div.entry h2",
+    "lvl2": ".container div.entry h3",
+    "lvl3": ".container div.entry h4",
+    "text": ".container div.entry p, .container div.entry li"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "nbHits": 1066
+}

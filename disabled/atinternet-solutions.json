@@ -1,0 +1,74 @@
+{
+  "index_name": "atinternet-solutions",
+  "start_urls": [
+    {
+      "url": "http://developers.atinternet-solutions.com/android-en",
+      "tags": ["en"]
+    },
+    {
+      "url": "http://developers.atinternet-solutions.com/javascript-en",
+      "tags": ["en"]
+    },
+    {
+      "url": "http://developers.atinternet-solutions.com/apple-en",
+      "tags": ["en"]
+    },
+    {
+      "url": "http://developers.atinternet-solutions.com/windows-en",
+      "tags": ["en"]
+    },
+    {
+      "url": "http://developers.atinternet-solutions.com/category/android-en",
+      "tags": ["en"]
+    },
+    {
+      "url": "http://developers.atinternet-solutions.com/category/windows-en",
+      "tags": ["en"]
+    },
+    {
+      "url": "http://developers.atinternet-solutions.com/category/javascript-en",
+      "tags": ["en"]
+    },
+    {
+      "url": "http://developers.atinternet-solutions.com/category/apple-en",
+      "tags": ["en"]
+    },
+    {
+      "url": "http://developers.atinternet-solutions.com",
+      "tags": ["fr"]
+    }
+  ],
+  "stop_urls": [
+        "http://developers.atinternet-solutions.com/home",
+        "http://developers.atinternet-solutions.com/acceuil",
+		"http://developers.atinternet-solutions.com/.*?kw="
+  ],
+  "selectors_exclude": [
+  	"#summary",
+  	"#ios-platforms",
+  	"#sidebar-module",
+  	".ui-tabs-anchor"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "main section .entry-meta > span > span > a, .top-article-content .entry-meta .breadcrumb span:nth-child(4) a",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "main section .entry-meta > span > span > span > a, .top-article-content .entry-meta .breadcrumb span:nth-child(6) a",
+      "global": true
+    },
+    "lvl2": {
+      "selector": "main section .entry-meta .breadcrumb_last, .top-article-content .entry-meta .breadcrumb div  div",
+      "global": true
+    },
+    "lvl3": "main section article .single-content h2",
+    "lvl4": "main section article .single-content h3",
+    "lvl5": "main section article .single-content h4",
+    "text": "main section article .single-content p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 3,
+  "nbHits": 6119
+}

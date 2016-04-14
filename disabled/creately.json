@@ -1,0 +1,32 @@
+{
+  "index_name": "creately",
+  "allowed_domains": [
+    "creately.com"
+  ],
+  "start_urls": [
+    "http://creately.com/help"
+  ],
+  "stop_urls": [
+  	"http://creately.com/help/Creately-Application-Components",
+  	"http://creately.com/help/Contextual-Toolbar",
+  	"http://creately.com/help/Preferences",
+  	"http://creately.com/help/Keyboard-Shortcuts",
+  	"http://creately.com/help/Main-Toolbar"
+  ],
+  "selectors_exclude": [
+  	"#comments"
+  ],
+  "selectors": {
+    "lvl0": ".menu-block-1 > .menu > li.expanded > a.active-trail",
+    "lvl1": ".menu-block-1 > .menu > li.expanded > .menu > li.expanded > a.active-trail",
+    "lvl2": ".help-right h1",
+    "lvl3": ".help-right h2",
+    "lvl4": ".help-right h3",
+    "text": ".help-right p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 2,
+  "nbHits": 1139
+}

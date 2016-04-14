@@ -1,0 +1,24 @@
+{
+  "index_name": "diffbot",
+  "allowed_domains": [
+    "www.diffbot.com"
+  ],
+  "start_urls": [
+    "https://www.diffbot.com/dev/docs"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": "h1.page-header",
+    "lvl1": "#docBody h2",
+    "lvl2": "#docBody h3",
+    "lvl3": "#docBody h4",
+    "text": "#docBody p"
+  },
+  "custom_settings": {
+  },
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 1,
+  "nbHits": 429
+}
