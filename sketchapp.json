@@ -1,0 +1,36 @@
+{
+  "index_name": "sketchapp",
+  "start_urls": [
+    "http://sketchapp.com/learn/documentation/",
+    "http://sketchapp.com/learn/documentation/01-introduction/"
+  ],
+  "stop_urls": [
+    "http://sketchapp.com/learn/documentation$",
+    "http://sketchapp.com/learn/documentation/$"
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "//aside//ol/li/ol/li/*[@class=\"active\"]/../../preceding::h2[1]|//aside//ol/li/h2/*[@class=\"active\"]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl2": {
+      "selector": ".toc-nav ol li ol li a.active",
+      "global": true
+    },
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "text": "article p"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "scrap_start_urls": false,
+  "min_indexed_level": 2,
+  "nbHits": 1661
+}
