@@ -1,0 +1,32 @@
+{
+  "index_name": "hull.io",
+  "allowed_domains": [
+    "www.hull.io"
+  ],
+  "start_urls": [
+    "http://www.hull.io/docs/",
+    "https://www.hull.io/help"
+  ],
+  "stop_urls": [
+    "http://www.hull.io/docs/references/api/",
+    "http://www.hull.io/docs/references/hull_js/",
+    "#"
+  ],
+  "js_render": true,
+  "js_wait": 2,
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".tree-nav-section li.active > a, header a:nth-child(2), .documentation-header h1",
+    "lvl1": ".documentation-body h1, .blog-post h2",
+    "lvl2": ".documentation-body h2, .blog-post h3",
+    "lvl3": ".documentation-body h3, .blog-post h4",
+    "lvl4": ".documentation-body h4, .blog-post h5",
+    "lvl5": ".documentation-body h5, .blog-post h6",
+    "text": ".documentation-header p, .documentation-body p, .blog-post p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 1,
+  "nbHits": 2084
+}

@@ -1,0 +1,26 @@
+{
+  "index_name": "jsdatav",
+  "start_urls": [
+    "http://jsdatav.is/intro.html",
+    "http://jsdatav.is"
+  ],
+  "stop_urls": [
+    "http://jsdatav.is/.+#.+"
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p"
+  },
+  "js_render": true,
+  "js_wait": 5,
+  "nbHits": 1580
+}

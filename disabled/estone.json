@@ -1,0 +1,24 @@
+{
+  "index_name": "estone",
+  "start_urls": [
+    "https://api.estone.cz/server/www/apidoc/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+    	"selector": "//div[@class=\"left-menu-content\"]//li[@class=\"active\"]/../../../../strong | //div[@class=\"left-menu-content\"]//li[@class=\"active\"]/../../strong",
+    	"type": "xpath"
+    },
+    "lvl1": {
+    	"selector": "//div[@class=\"left-menu-content\"]//li[@class=\"active\"]/../../strong | //div[@class=\"left-menu-content\"]//li[@class=\"active\"]/span",
+    	"type": "xpath"
+    },
+    "lvl2": ".left-menu-content li.active span",
+    "lvl3": ".main-content .method-definition",
+    "text": ".main-content .params-list span"
+  },
+  "strategy": "default",
+  "min_indexed_level": 1,
+  "nbHits": 2563
+}

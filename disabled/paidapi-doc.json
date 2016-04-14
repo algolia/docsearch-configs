@@ -1,0 +1,14 @@
+{
+  "index_name": "paidapi-doc",
+  "start_urls":[
+    "http://docs.paidlabs.com"
+  ],
+  "stop_urls":[],
+  "selectors_exclude":[],
+  "selectors": {
+    "lvl0":".content h1",
+    "lvl1":".content h2",
+    "text":".content p,.content td"
+  },
+  "nbHits": 524
+}

@@ -1,0 +1,25 @@
+{
+  "index_name": "hipchat",
+  "start_urls": [
+    "https://developer.atlassian.com/hipchat"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": {
+    	"selector": "//nav//li[@class=\"current expanded\"]/a/../../../../a",
+      "type": "xpath"
+  	},
+    "lvl1": "#main-content h1",
+    "lvl2": "#main-content h2",
+    "lvl3": "#main-content h3",
+    "lvl4": "#main-content h4",
+    "text": "#main-content p"
+  },
+  "custom_settings": {},
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nbHits": 1484
+}

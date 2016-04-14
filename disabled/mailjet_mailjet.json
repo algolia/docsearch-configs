@@ -1,0 +1,24 @@
+{
+    "index_name": "mailjet_mailjet",
+    "allowed_domains": [
+        "mailjet.com"
+    ],
+    "start_urls": [
+        "https://dev.mailjet.com/guides"
+    ],
+    "stop_urls": [
+    ],
+    "selectors": {
+        "lvl0" : ".content h1",
+        "lvl1" : ".content h2",
+        "lvl2" : ".content h3",
+        "lvl3" : ".content h4",
+        "lvl4" : ".content h5",
+        "lvl5" : ".content h6",
+        "text" : ".content p"
+    },
+    "custom_settings": {},
+    "hash_strategy": "link href",
+    "strategy": "default",
+    "nbHits": 506
+}

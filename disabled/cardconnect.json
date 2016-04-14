@@ -1,0 +1,31 @@
+{
+  "index_name": "cardconnect",
+  "start_urls": [
+    {
+      "url": "https://developer.cardconnect.com/cardconnect-api",
+      "tags": ["cardconnect-api"]
+    },
+    {
+      "url": "https://developer.cardconnect.com/copilot-api",
+      "tags": ["copilot-api"]
+    },
+    {
+      "url": "https://developer.cardconnect.com/hosted-payment-api",
+      "tags": ["hosted-payment-api"]
+    }
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "text": "main p"
+  },
+  "js_render": true,
+  "nbHits": 572
+}

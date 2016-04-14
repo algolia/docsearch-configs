@@ -1,0 +1,25 @@
+{
+  "index_name": "pm2",
+  "start_urls": [
+    "http://pm2.keymetrics.io"
+  ],
+  "stop_urls": [
+  	"http://pm2.keymetrics.io/docs/usage/pm2-doc-single-page"
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": "#navigator a.main-active, .header-title h1",
+    "lvl1": ".docs-content h2",
+    "lvl2": ".docs-content h3",
+    "lvl3": ".docs-content h4",
+    "lvl4": ".docs-content h5",
+    "lvl5": ".docs-content h6",
+    "text": ".docs-content p"
+  },
+  "custom_settings": {
+  },
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 1,
+  "nbHits": 385
+}
