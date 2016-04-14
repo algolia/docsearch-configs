@@ -1,10 +1,11 @@
 {
   "index_name": "clusterhq",
   "start_urls": [
-    "https://docs.clusterhq.com/en/latest"
+    "https://docs.clusterhq.com/en/latest",
+    "https://docs.clusterhq.com/en/latest/index.html"
   ],
   "stop_urls": [
-    "index.html"
+    ".*^(?!.*html)"
   ],
   "selectors_exclude": [
     ".pods-eq em",
