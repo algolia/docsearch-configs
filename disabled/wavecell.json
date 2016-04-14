@@ -1,0 +1,18 @@
+{
+   "index_name":"wavecell",
+   "start_urls":[
+      "https://www.wavecell.com/docs_http_api.html"
+   ],
+   "stop_urls":[
+   ],
+   "selectors_exclude":[
+      ".proprietary-information"
+   ],
+   "selectors":{
+      "lvl0":"h1",
+      "lvl1":"h2",
+      "lvl2":"h3",
+      "text":"p"
+   },
+   "nbHits": 122
+}

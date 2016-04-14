@@ -1,0 +1,28 @@
+{
+  "index_name": "count_ly",
+  "start_urls": [
+    "http://resources.count.ly/"
+  ],
+  "stop_urls": [
+  	"http://resources.count.ly/v2.0"
+  ],
+  "selectors_exclude": [
+  	"#header"
+  ],
+  "selectors": {
+  	"lvl0": {
+  		"selector": "//*[@class=\"sidebar-nav\"]//a[@class=\"active\"]/../../preceding::h4[1]",
+  		"type": "xpath",
+  		"global": true
+  	},
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "text": ".docs-content p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 1,
+  "nbHits": 322
+}

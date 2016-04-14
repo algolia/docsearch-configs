@@ -1,0 +1,27 @@
+{
+  "index_name": "firim",
+  "allowed_domains": [
+    "fir.im"
+  ],
+  "start_urls": [
+    "http://fir.im/docs"
+  ],
+  "stop_urls": [
+    ".*locale=.*"
+  ],
+  "selectors_exclude": [
+    "#api-"
+  ],
+  "selectors": {
+    "lvl0": "body.page-docs div.docs-content div.inner.current h1",
+    "lvl1": "body.page-docs div.docs-content div.inner.current h2",
+    "lvl2": "body.page-docs div.docs-content div.inner.current td:first-child",
+    "text": "body.page-docs div.docs-content div.inner.current td:last-child, body.page-docs div.docs-content div.inner.current p"
+  },
+  "custom_settings": {
+    "attributeForDistinct": "hierarchy_complete.lvl2"
+  },
+  "strategy": "default",
+  "min_indexed_level": 1,
+  "nbHits": 226
+}

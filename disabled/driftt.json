@@ -1,0 +1,23 @@
+{
+  "index_name": "driftt",
+  "start_urls": [
+    "http://help.drift.com"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".entry h1, article > h1",
+    "lvl1": ".entry h2",
+    "lvl2": ".entry h3",
+    "lvl3": ".entry h4",
+    "lvl4": ".entry h5",
+    "lvl5": ".entry h6",
+    "text": ".entry p, .entry table tr"
+  },
+  "custom_settings": {
+  },
+  "strategy": "default",
+  "strip_chars": " :;,.",
+  "min_indexed_level": 1,
+  "nbHits": 134
+}

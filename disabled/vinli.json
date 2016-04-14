@@ -1,0 +1,24 @@
+{
+  "index_name": "vinli",
+  "allowed_domains": [
+    "docs.vin.li"
+  ],
+  "start_urls": [
+    "http://docs.vin.li/en/latest"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".headerlink"
+  ],
+  "selectors": {
+    "lvl0": "#vinli-services-documentation h1, .wy-breadcrumbs li:nth-child(2)",
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "text": ".section p, .section ul.simple li"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "strip_chars": "¶»",
+  "min_indexed_level": 1,
+  "nbHits": 484
+}
