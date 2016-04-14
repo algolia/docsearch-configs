@@ -1,0 +1,31 @@
+{
+  "index_name": "grafana",
+  "start_urls": [
+    {
+      "url": "http://docs.grafana.org/(?P<version>.*?)/(?P<section>.*?)/",
+      "variables": {
+        "version": {
+          "url": "http://docs.grafana.org",
+          "js": "var versions = $('#docs-version-list li a').map(function(i, e) { return $(e).text().replace(/version/i, '').trim(); }).filter(function(i, e) { return e.indexOf('v') === 0; }).toArray(); return JSON.stringify(versions);"
+        },
+        "section": ["installation", "guides", "reference", "datasources", "http_api", "plugins", "tutorials"]
+      }
+    }
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": ".content-body h1",
+    "lvl1": ".content-body h2",
+    "lvl2": ".content-body h3",
+    "lvl3": ".content-body h4",
+    "lvl4": ".content-body h5",
+    "text": ".content-body p"
+  },
+  "custom_settings": {},
+  "strategy": "default",
+  "min_indexed_level": 2,
+  "nbHits": 4734
+}
