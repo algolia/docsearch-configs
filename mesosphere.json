@@ -1,0 +1,38 @@
+{
+  "index_name": "mesosphere",
+  "start_urls": [
+    "https://docs.mesosphere.com",
+    "https://docs.mesosphere.com/.+?/.+?/",
+    "https://docs.mesosphere.com/overview/what-is-dcos/",
+    "https://docs.mesosphere.com/administration/installing/",
+    "https://docs.mesosphere.com/usage/webinterface/"
+  ],
+  "stop_urls": [
+    "https://docs.mesosphere.com$",
+    "https://docs.mesosphere.com/([^/]*?)/$",
+    "https://docs.mesosphere.com/tag",
+    "community-edition-eula"
+  ],
+  "selectors_exclude": [
+    ".page-content-header-details"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id=\"breadcrumb\"]//li[2]",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//*[@id=\"breadcrumb\"]//li[3]",
+      "type": "xpath"
+    },
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "lvl6": "article h5",
+    "text": "article p"
+  },
+  "scrap_start_urls": false,
+  "min_indexed_level": 2,
+  "nbHits": 3970
+}
