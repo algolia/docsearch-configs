@@ -16,7 +16,7 @@
     }
   ],
   "stop_urls": [
-    "index.html"
+    "/$"
   ],
   "selectors_exclude": [
   ],
