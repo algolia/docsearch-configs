@@ -4,13 +4,13 @@
     {
       "url": "https://docs.bolt.cm/(?P<version>.*?)/introduction",
       "variables": {
-        "version": ["release-2-2", "master"]
+        "version": ["release-3-0", "release-2-2", "master"]
       }
     },
     {
       "url": "https://docs.bolt.cm/(?P<version>.*?)/.*",
       "variables": {
-        "version": ["release-2-2", "master"]
+        "version": ["release-3-0", "release-2-2", "master"]
       }
     }
   ],
