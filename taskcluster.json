@@ -1,0 +1,19 @@
+{
+  "index_name": "taskcluster",
+  "start_urls": [
+    "http://docs.taskcluster.net/"
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".navbar-nav > li.active > a",
+    "lvl1": ".navbar-nav > li.active > ul > li.active > a",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p"
+  },
+  "min_indexed_level": 2,
+  "nbHits": 406
+}
