@@ -1,0 +1,24 @@
+{
+  "index_name": "dailymotion",
+  "start_urls": [
+    {
+      "url": "https://developer.dailymotion.com/(?P<section>.*?)/",
+      "variables": {
+        "section": ["api", "player", "guides"]
+      }
+    }
+  ],
+  "stop_urls": [
+  ],
+  "selectors_exclude": [
+  ],
+  "selectors": {
+    "lvl0": "#developer_text h1",
+    "lvl1": "#developer_text h2",
+    "lvl2": "#developer_text h3",
+    "lvl3": "#developer_text h4",
+    "lvl4": "#developer_text h5",
+    "text": "#developer_text p"
+  },
+  "min_indexed_level": 2
+}
