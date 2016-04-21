@@ -14,7 +14,7 @@
     "http://vuejs.org/guide/index.html"
   ],
   "selectors_exclude": [
-  	".sidebar h2 .version-select"
+    ".sidebar h2 .version-select"
   ],
   "selectors": {
     "lvl0": {
@@ -31,5 +31,5 @@
   "custom_settings": {},
   "strategy": "default",
   "strip_chars": " :;,.",
-  "nbHits": 1256
+  "nbHits": 1306
 }
