@@ -7,8 +7,8 @@
   "selectors_exclude": [],
   "selectors": {
     "lvl0": {
-    	"selector": "//div[@class=\"panel-collapse collapse  in \"]/../div[@class=\"panel-heading\"]/h4",
-    	"type": "xpath"
+      "selector": "//div[@class=\"panel-collapse collapse  in \"]/../div[@class=\"panel-heading\"]/h4",
+      "type": "xpath"
     },
     "lvl1": ".col-sm-9 h1",
     "lvl2": ".col-sm-9 h2",
@@ -19,5 +19,5 @@
   "min_indexed_level": 2,
   "js_render": true,
   "js_wait": 2,
-  "nbHits": 8946
+  "nbHits": 15180
 }

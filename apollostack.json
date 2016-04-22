@@ -18,5 +18,5 @@
     "text": "#content p, #content li"
   },
   "scrap_start_urls": false,
-  "nbHits": 669
+  "nbHits": 338
 }

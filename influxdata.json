@@ -20,12 +20,8 @@
       }
     }
   ],
-  "stop_urls": [
-
-  ],
-  "selectors_exclude": [
-
-  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
   "selectors": {
     "lvl0": "#page-title h1",
     "lvl1": "#page-content h2",
@@ -33,10 +29,8 @@
     "lvl3": "#page-content h4",
     "text": "#page-content p"
   },
-  "custom_settings": {
-
-  },
+  "custom_settings": {},
   "min_indexed_level": 2,
-  "nbHits": 14369,
+  "nbHits": 20962,
   "docker_image": null
 }
