@@ -7,9 +7,7 @@
     "http://facebook.github.io/react-native/docs/getting-started.html",
     "http://facebook.github.io/react-native/docs/.*"
   ],
-  "stop_urls": [
-
-  ],
+  "stop_urls": [],
   "selectors_exclude": [
     ".hash-link"
   ],
@@ -27,10 +25,8 @@
     "text": ".documentationContent div.inner-content p, .documentationContent div.inner-content li"
   },
   "min_indexed_level": 1,
-  "custom_settings": {
-
-  },
+  "custom_settings": {},
   "strategy": "default",
   "docker_image": null,
-  "nbHits": 2973
+  "nbHits": 3216
 }
