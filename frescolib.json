@@ -3,24 +3,21 @@
   "start_urls": [
     "http://frescolib.org/docs/"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [
+  "stop_urls": [
+    "http://frescolib.org/docs/index.html"
   ],
+  "selectors_exclude": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[@class=\"toc\"]//a[@class=\"active\"]/../../../h3",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".withtoc h1",
-    "lvl2": ".withtoc h2",
-    "lvl3": ".withtoc h3",
-    "lvl4": ".withtoc h4",
-    "text": ".withtoc p, .withtoc li"
+    "lvl0": ".navGroupCurrent h3",
+    "lvl1": ".post header h1",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
   },
+  "js_render": true,
   "min_indexed_level": 1,
   "custom_settings": {},
   "strategy": "default",
-  "nbHits": 726
+  "nbHits": 662
 }
