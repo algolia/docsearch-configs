@@ -1,32 +1,23 @@
 {
-  "index_name": "sklearn",
-  "allowed_domains": [
-    "scikit-learn.org"
-  ],
-  "start_urls": [
-    "http://scikit-learn.org/stable/modules",
-    "http://scikit-learn.org/stable/auto_examples",
-    "http://scikit-learn.org/stable/user_guide.html"
-  ],
-  "stop_urls": [
-    "http://scikit-learn.org/stable/modules/classes.html",
-    "http://scikit-learn.org/stable/modules/generated/",
-    "http://scikit-learn.org/stable/user_guide.html"
-  ],
-  "selectors_exclude": [
-    ".topic",
-    ".admonition"
-  ],
-  "selectors": {
-    "lvl0": "h1",
-    "lvl1": "h2",
-    "lvl2": "h3",
-    "text": ".body p,.body ul"
-  },
-  "custom_settings": {},
-  "scrap_start_urls": false,
-  "strategy": "default",
-  "use_anchor": true,
-  "js_render": true,
-  "nbHits": 4021
+    "index_name": "sklearn",
+    "allowed_domains": [
+        "scikit-learn.org"
+    ],
+    "start_urls": [
+        "http://scikit-learn.org/stable/"
+    ],
+    "stop_urls": [
+    ],
+    "selectors_exclude": [".topic", ".admonition"],
+    "selectors": {
+        "lvl0": "h1",
+        "lvl1": "h2",
+        "lvl2": "h3",
+        "text": ".body p,.body ul"
+    },
+    "custom_settings": {},
+    "scrap_start_urls": false,
+    "strategy": "default",
+    "use_anchor": true,
+    "js_render": true
 }
