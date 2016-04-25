@@ -20,5 +20,6 @@
     "scrap_start_urls": false,
     "strategy": "default",
     "use_anchor": true,
-    "js_render": true
+    "js_render": true,
+    "nbHits": 38890
 }
