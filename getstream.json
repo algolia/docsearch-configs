@@ -10,7 +10,7 @@
     "lvl1": ".docs-content .table td[data-title=\"Name\"]",
     "text": ".docs-content p, .docs-content .table td[data-title=\"Desc\"], .docs-content li"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "nbHits": 512
+  "js_render": true,
+  "js_wait": true,
+  "nbHits": 523
 }
