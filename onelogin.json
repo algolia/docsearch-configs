@@ -4,22 +4,33 @@
     {
       "url": "https://developers.onelogin.com/(?P<project>.*?)/",
       "variables": {
-        "project": ["api-docs", "saml", "mobile", "scim", "wam"]
+        "project": [
+          "api-docs",
+          "saml",
+          "mobile",
+          "scim",
+          "wam"
+        ]
       }
     },
     {
       "url": "https://developers.onelogin.com/(?P<project>.*?)",
       "variables": {
-        "project": ["api-docs", "saml", "mobile", "scim", "wam"]
+        "project": [
+          "api-docs",
+          "saml",
+          "mobile",
+          "scim",
+          "wam"
+        ]
       }
     }
   ],
   "stop_urls": [
-  	"https://developers.onelogin.com/saml/online-tools",
-  	"https://developers.onelogin.com/api-docs/v1-v3"
+    "https://developers.onelogin.com/saml/online-tools",
+    "https://developers.onelogin.com/api-docs/v1-v3"
   ],
-  "selectors_exclude": [
-  ],
+  "selectors_exclude": [],
   "selectors": {
     "lvl0": "section .content h1",
     "lvl1": "section .content h2",
@@ -29,5 +40,5 @@
   },
   "custom_settings": {},
   "strategy": "default",
-  "nbHits": 4017
+  "nbHits": 9378
 }
