@@ -3,8 +3,6 @@
   "start_urls": [
     "https://readme.highfidelity.com/"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[@class=\"sidebar-nav\"]//*[@class=\"active\"]/../../preceding::h4[1]",
@@ -18,7 +16,6 @@
     "lvl5": ".docs-content h5",
     "text": ".docs-content p"
   },
-  "custom_settings": {},
   "min_indexed_level": 2,
   "nb_hits": 3623,
   "js_render": true

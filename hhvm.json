@@ -1,8 +1,5 @@
 {
   "index_name": "hhvm",
-  "allowed_domains": [
-    "docs.hhvm.com"
-  ],
   "start_urls": [
     {
       "url": "https://docs.hhvm.com/.*?reference.*?",
@@ -11,7 +8,6 @@
     "https://docs.hhvm.com/hhvm",
     "https://docs.hhvm.com/hack"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     ".hash-link",
     ".edit-page-link"
@@ -40,9 +36,6 @@
     "lvl5": ".innerContent h2",
     "text": ".innerContent p, .inner-content li"
   },
-
   "min_indexed_level": 4,
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 5393
 }

@@ -7,8 +7,6 @@
     "\\.psd",
     "\\.sketch"
   ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": {
       "selector": ".sidebar h4",

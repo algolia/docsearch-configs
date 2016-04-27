@@ -3,8 +3,6 @@
   "start_urls": [
     "http://pkldocs.sunnyebrand.com"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
@@ -13,6 +11,5 @@
     "lvl4": "article h5",
     "text": "article p"
   },
-  "custom_settings": {},
   "nb_hits": 254
 }

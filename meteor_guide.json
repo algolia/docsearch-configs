@@ -6,7 +6,6 @@
   "stop_urls": [
     "#"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": "#content h1",
     "lvl1": "#content h2",

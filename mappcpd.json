@@ -1,23 +1,27 @@
 {
   "index_name": "mappcpd",
   "start_urls": [
-  	{
-  		"url": "http://docs.mappcpd.com/api/",
-  		"tags": ["api"]
-  	},
-  	{
-  		"url": "http://docs.mappcpd.com/admin/",
-  		"tags": ["admin"]
-  	},
-  	{
-  		"url": "http://docs.mappcpd.com/member/",
-  		"tags": ["member"]
-  	}
+    {
+      "url": "http://docs.mappcpd.com/api/",
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "url": "http://docs.mappcpd.com/admin/",
+      "tags": [
+        "admin"
+      ]
+    },
+    {
+      "url": "http://docs.mappcpd.com/member/",
+      "tags": [
+        "member"
+      ]
+    }
   ],
   "stop_urls": [
-  	"api-kickoff/$"
-  ],
-  "selectors_exclude": [
+    "api-kickoff/$"
   ],
   "selectors": {
     "lvl0": ".page h1",

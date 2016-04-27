@@ -1,8 +1,5 @@
 {
   "index_name": "lingohub",
-  "allowed_domains": [
-    "lingohub.com"
-  ],
   "start_urls": [
     "https://lingohub.com/documentation/guides",
     "https://lingohub.com/documentation/developers"
@@ -10,7 +7,6 @@
   "stop_urls": [
     ".*_wpnonce.*"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": ".sidebar-nav > li.current_page_item > a, .sidebar-nav .current_page_ancestor > a",
@@ -24,8 +20,6 @@
     "lvl3": "div.entry-content.content h3",
     "text": "div.entry-content.content p, div.entry-content.content li"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 2,
   "nb_hits": 1300
 }

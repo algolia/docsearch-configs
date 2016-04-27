@@ -3,10 +3,6 @@
   "start_urls": [
     "https://www.inboxsdk.com/docs/"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": ".mainContent h1",
     "lvl1": ".mainContent h2",
@@ -15,7 +11,5 @@
     "lvl4": ".mainContent h5",
     "text": ".mainContent p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 121
 }

@@ -7,11 +7,10 @@
   "stop_urls": [
     "http://jsdatav.is/.+#.+"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
-        "selector": "",
-        "default_value": "Documentation"
+      "selector": "",
+      "default_value": "Documentation"
     },
     "lvl1": "main h1",
     "lvl2": "main h2",

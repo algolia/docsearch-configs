@@ -3,9 +3,6 @@
   "start_urls": [
     "https://www.reindex.io/docs/"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "searchable": false,

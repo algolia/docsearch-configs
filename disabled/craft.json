@@ -8,7 +8,6 @@
     "#",
     "^((?!index\\.html).)*$"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[@class=\"summary\"]/li/ul/li[contains(@class, \"active\")]/../preceding::a[1]",
@@ -25,8 +24,6 @@
     "text": ".page-inner p"
   },
   "js_render": true,
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 2,
   "use_anchors": "false",
   "nb_hits": 410

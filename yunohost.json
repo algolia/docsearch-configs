@@ -6,7 +6,6 @@
   "stop_urls": [
     "edit"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "",

@@ -1,13 +1,9 @@
 {
   "index_name": "flowtype",
-  "allowed_domains": [
-    "flowtype.org"
-  ],
   "start_urls": [
     "http://flowtype.org/docs/getting-started.html",
     "http://flowtype.org/docs/.*"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     ".hash"
   ],
@@ -24,8 +20,6 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 1,
   "nb_hits": 829
 }

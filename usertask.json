@@ -3,14 +3,10 @@
   "start_urls": [
     "https://usertask.co/docs/"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": {
-    	"selector": ".sidebar .sidenav > li > a.active",
-    	"default_value": "Documentation"
+      "selector": ".sidebar .sidenav > li > a.active",
+      "default_value": "Documentation"
     },
     "lvl1": ".main-content h1",
     "lvl2": ".main-content h2",

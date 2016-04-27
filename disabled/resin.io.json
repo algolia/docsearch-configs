@@ -25,9 +25,7 @@
     "lvl5": ".content-wrapper h5",
     "text": ".content-wrapper p"
   },
-  "custom_settings": {},
   "min_indexed_level": 1,
-  "strategy": "default",
   "js_render": true,
   "js_wait": 2,
   "use_anchors": true,

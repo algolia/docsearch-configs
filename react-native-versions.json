@@ -1,16 +1,17 @@
 {
   "index_name": "react-native-versions",
-  "allowed_domains": [
-    "facebook.github.io"
-  ],
   "start_urls": [
     {
       "url": "http://facebook.github.io/react-native/releases/next/",
-      "tags": ["master"]
+      "tags": [
+        "master"
+      ]
     },
     {
-      "url":"http://facebook.github.io/react-native/",
-      "tags": ["current"]
+      "url": "http://facebook.github.io/react-native/",
+      "tags": [
+        "current"
+      ]
     },
     {
       "url": "http://facebook.github.io/react-native/releases/(?P<tags>.*?)/",
@@ -22,7 +23,6 @@
       }
     }
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     ".hash-link"
   ],
@@ -40,7 +40,5 @@
     "text": ".documentationContent div.inner-content p, .documentationContent div.inner-content li"
   },
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 29569
 }

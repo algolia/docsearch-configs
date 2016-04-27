@@ -12,8 +12,6 @@
       }
     }
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": "#developer_text h1",
     "lvl1": "#developer_text h2",

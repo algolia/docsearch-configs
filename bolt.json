@@ -20,8 +20,6 @@
       }
     }
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
@@ -29,7 +27,5 @@
     "lvl3": ".content h4",
     "text": ".content p, .content code"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 7539
 }

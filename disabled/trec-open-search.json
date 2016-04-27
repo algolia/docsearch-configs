@@ -1,8 +1,5 @@
 {
   "index_name": "trec-open-search",
-  "allowed_domains": [
-    "doc.trec-open-search.org"
-  ],
   "start_urls": [
     "http://doc.trec-open-search.org/en/latest/"
   ],
@@ -21,9 +18,7 @@
     "lvl4": ".section h5",
     "text": ".section p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "strip_chars": " :;,.¶123456789",
+  "strip_chars": " :;,.\u00b6123456789",
   "min_indexed_level": 1,
   "nb_hits": 284
 }

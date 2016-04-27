@@ -33,8 +33,6 @@
       }
     }
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".main-content h1",
     "lvl1": ".main-content h2",
