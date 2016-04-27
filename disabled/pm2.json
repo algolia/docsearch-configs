@@ -4,9 +4,8 @@
     "http://pm2.keymetrics.io"
   ],
   "stop_urls": [
-  	"http://pm2.keymetrics.io/docs/usage/pm2-doc-single-page"
+    "http://pm2.keymetrics.io/docs/usage/pm2-doc-single-page"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": "#navigator a.main-active, .header-title h1",
     "lvl1": ".docs-content h2",
@@ -16,10 +15,6 @@
     "lvl5": ".docs-content h6",
     "text": ".docs-content p"
   },
-  "custom_settings": {
-  },
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 1,
-  "nbHits": 385
+  "nb_hits": 385
 }

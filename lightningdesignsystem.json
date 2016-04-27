@@ -3,9 +3,8 @@
   "start_urls": [
     "https://www.lightningdesignsystem.com/"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
-  	"span.slds-badge"
+    "span.slds-badge"
   ],
   "selectors": {
     "lvl0": "main header nav .slds-list__item:first-child a, main header .slds-grid h1",
@@ -17,5 +16,5 @@
   },
   "js_render": true,
   "min_indexed_level": 2,
-  "nbHits": 6999
+  "nb_hits": 6999
 }

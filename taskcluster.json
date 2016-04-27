@@ -3,9 +3,6 @@
   "start_urls": [
     "http://docs.taskcluster.net/"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".navbar-nav > li.active > a",
     "lvl1": ".navbar-nav > li.active > ul > li.active > a",
@@ -15,5 +12,5 @@
     "text": ".content p"
   },
   "min_indexed_level": 2,
-  "nbHits": 406
+  "nb_hits": 406
 }

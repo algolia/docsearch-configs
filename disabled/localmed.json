@@ -3,8 +3,6 @@
   "start_urls": [
     "https://www.localmed.com/styleguides/#/"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".content-main h1",
     "lvl1": ".content-main h2",
@@ -12,10 +10,9 @@
     "lvl3": ".content-main h4",
     "text": ".content-main p"
   },
-  "strategy": "default",
   "js_render": true,
   "js_wait": 3,
   "min_indexed_level": 1,
   "use_anchors": true,
-  "nbHits": 880
+  "nb_hits": 880
 }

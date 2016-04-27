@@ -3,26 +3,22 @@
   "start_urls": [
     "http://gilles.rouyer.free.fr/kss/styleguide/"
   ],
-  "stop_urls": [
-  ],
   "selectors_exclude": [
-  	"span.kss-ref",
-  	".kss-modifier-example"
+    "span.kss-ref",
+    ".kss-modifier-example"
   ],
   "selectors": {
     "lvl0": {
-    	"selector": ".kss-sidebar li.kss-active > a > .kss-name, #bonnes-pratiques",
-    	"global": true
-  	},
+      "selector": ".kss-sidebar li.kss-active > a > .kss-name, #bonnes-pratiques",
+      "global": true
+    },
     "lvl1": ".kss-article h2",
     "lvl2": ".kss-article h3",
     "lvl3": ".kss-article h4",
     "lvl4": ".kss-article h5",
     "text": ".kss-article p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 1,
   "js_render": true,
-  "nbHits": 132
+  "nb_hits": 132
 }

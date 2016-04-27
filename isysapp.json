@@ -1,8 +1,5 @@
 {
   "index_name": "isysapp",
-  "allowed_domains": [
-    "isysapp.com"
-  ],
   "start_urls": [
     "http://isysapp.com/dob/docs"
   ],
@@ -20,10 +17,6 @@
     "lvl3": ".container h4",
     "text": ".container p"
   },
-  "custom_settings": {
-  },
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 0,
-  "nbHits": 79
+  "nb_hits": 79
 }

@@ -21,9 +21,6 @@
     "lvl2": ".blocks-parent .section h2",
     "text": ".blocks-parent .section p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 1,
-  "nbHits": 644
+  "nb_hits": 644
 }

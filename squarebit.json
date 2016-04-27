@@ -3,77 +3,129 @@
   "start_urls": [
     {
       "url": "https://squarebit.co.uk/software/craft/searchplus/usage",
-      "tags": ["craft","searchplus"]
+      "tags": [
+        "craft",
+        "searchplus"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/craft/charge/usage",
-      "tags": ["craft","charge"]
+      "tags": [
+        "craft",
+        "charge"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/craft/shortlist/usage",
-      "tags": ["craft","shortlist"]
+      "tags": [
+        "craft",
+        "shortlist"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/craft/maps/usage",
-      "tags": ["craft","maps"]
+      "tags": [
+        "craft",
+        "maps"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/expressionengine/binder/usage",
-      "tags": ["expressionengine","binder"]
+      "tags": [
+        "expressionengine",
+        "binder"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/expressionengine/charge/usage",
-      "tags": ["expressionengine","charge"]
+      "tags": [
+        "expressionengine",
+        "charge"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/expressionengine/maps/usage",
-      "tags": ["expressionengine","maps"]
+      "tags": [
+        "expressionengine",
+        "maps"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/expressionengine/shortlist/usage",
-      "tags": ["expressionengine","shortlist"]
+      "tags": [
+        "expressionengine",
+        "shortlist"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/expressionengine/seed/usage",
-      "tags": ["expressionengine","seed"]
+      "tags": [
+        "expressionengine",
+        "seed"
+      ]
     },
-
-
     {
       "url": "https://squarebit.co.uk/software/craft/searchplus/faq",
-      "tags": ["craft","searchplus"]
+      "tags": [
+        "craft",
+        "searchplus"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/craft/charge/faq",
-      "tags": ["craft","charge"]
+      "tags": [
+        "craft",
+        "charge"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/craft/shortlist/faq",
-      "tags": ["craft","shortlist"]
+      "tags": [
+        "craft",
+        "shortlist"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/craft/maps/faq",
-      "tags": ["craft","maps"]
+      "tags": [
+        "craft",
+        "maps"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/expressionengine/binder/faq",
-      "tags": ["expressionengine","binder"]
+      "tags": [
+        "expressionengine",
+        "binder"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/expressionengine/charge/faq",
-      "tags": ["expressionengine","charge"]
+      "tags": [
+        "expressionengine",
+        "charge"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/expressionengine/maps/faq",
-      "tags": ["expressionengine","maps"]
+      "tags": [
+        "expressionengine",
+        "maps"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/expressionengine/shortlist/faq",
-      "tags": ["expressionengine","shortlist"]
+      "tags": [
+        "expressionengine",
+        "shortlist"
+      ]
     },
     {
       "url": "https://squarebit.co.uk/software/expressionengine/seed/faq",
-      "tags": ["expressionengine","seed"]
+      "tags": [
+        "expressionengine",
+        "seed"
+      ]
     }
   ],
   "stop_urls": [
@@ -94,10 +146,7 @@
     "lvl3": "[data-content=usage] .tab__body h4, [data-content=faq] .tab__body--fw h4",
     "text": "[data-content=usage] .tab__body p, [data-content=faq] .tab__body--fw p"
   },
-  "custom_settings": {
-  },
-  "strategy": "default",
   "js_render": true,
   "min_indexed_level": 1,
-  "nbHits": 1822
+  "nb_hits": 1822
 }

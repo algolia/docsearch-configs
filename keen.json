@@ -1,27 +1,31 @@
 {
   "index_name": "keen",
   "start_urls": [
-  	{
+    {
       "url": "https://keen.io/docs/",
-      "tags": ["docs"]
+      "tags": [
+        "docs"
+      ]
     },
     {
       "url": "https://keen.io/guides/",
-      "tags": ["guides"]
+      "tags": [
+        "guides"
+      ]
     }
   ],
   "stop_urls": [
     "https://keen.io/guides/tags/",
-  	"https://keen.io/docs/sdks/",
-  	"https://keen.io/docs/integrations/",
-  	"https://keen.io/docs/data-visualization/",
-  	"https://keen.io/docs/data-analysis/",
-  	"https://keen.io/guides/ecommerce-analytics/example-site",
-  	"api/\\?",
+    "https://keen.io/docs/sdks/",
+    "https://keen.io/docs/integrations/",
+    "https://keen.io/docs/data-visualization/",
+    "https://keen.io/docs/data-analysis/",
+    "https://keen.io/guides/ecommerce-analytics/example-site",
+    "api/\\?",
     "/$"
   ],
   "selectors_exclude": [
-  	".tocify-divider"
+    ".tocify-divider"
   ],
   "selectors": {
     "lvl0": ".jumbotron .container h1, .page-wrapper h1",
@@ -33,5 +37,5 @@
   },
   "min_indexed_level": 2,
   "js_render": true,
-  "nbHits": 737
+  "nb_hits": 737
 }

@@ -4,10 +4,9 @@
     "https://leancloud.cn/docs/"
   ],
   "stop_urls": [
-  	"https://leancloud.cn/docs/leancloud-docs.tar.gz",
-  	"https://leancloud.cn/docs/demo.html"
+    "https://leancloud.cn/docs/leancloud-docs.tar.gz",
+    "https://leancloud.cn/docs/demo.html"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": "#content h1",
     "lvl1": "#content h2",
@@ -17,5 +16,5 @@
     "text": "#content p"
   },
   "min_indexed_level": 2,
-  "nbHits": 6548
+  "nb_hits": 6548
 }

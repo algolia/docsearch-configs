@@ -3,8 +3,6 @@
   "start_urls": [
     "https://digital.wbwgn.com/"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class, 'sidebar')]/*/a[@class='heading active']|//*[contains(@class, 'sidebar')]/*/*/a[@class='active']/../../preceding::li[1]/a",
@@ -20,5 +18,5 @@
     "The lvl0 will first try to select the active headings in the sidebar (Homepage, Core, Page, Code Pinball)",
     "If none is found, it will look for active pages, and go up the tree to find the matching heading"
   ],
-  "nbHits": 138
+  "nb_hits": 138
 }

@@ -3,51 +3,69 @@
   "start_urls": [
     {
       "url": "http://developers.atinternet-solutions.com/android-en",
-      "tags": ["en"]
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "http://developers.atinternet-solutions.com/javascript-en",
-      "tags": ["en"]
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "http://developers.atinternet-solutions.com/apple-en",
-      "tags": ["en"]
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "http://developers.atinternet-solutions.com/windows-en",
-      "tags": ["en"]
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "http://developers.atinternet-solutions.com/category/android-en",
-      "tags": ["en"]
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "http://developers.atinternet-solutions.com/category/windows-en",
-      "tags": ["en"]
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "http://developers.atinternet-solutions.com/category/javascript-en",
-      "tags": ["en"]
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "http://developers.atinternet-solutions.com/category/apple-en",
-      "tags": ["en"]
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "http://developers.atinternet-solutions.com",
-      "tags": ["fr"]
+      "tags": [
+        "fr"
+      ]
     }
   ],
   "stop_urls": [
-        "http://developers.atinternet-solutions.com/home",
-        "http://developers.atinternet-solutions.com/acceuil",
-		"http://developers.atinternet-solutions.com/.*?kw="
+    "http://developers.atinternet-solutions.com/home",
+    "http://developers.atinternet-solutions.com/acceuil",
+    "http://developers.atinternet-solutions.com/.*?kw="
   ],
   "selectors_exclude": [
-  	"#summary",
-  	"#ios-platforms",
-  	"#sidebar-module",
-  	".ui-tabs-anchor"
+    "#summary",
+    "#ios-platforms",
+    "#sidebar-module",
+    ".ui-tabs-anchor"
   ],
   "selectors": {
     "lvl0": {
@@ -67,8 +85,6 @@
     "lvl5": "main section article .single-content h4",
     "text": "main section article .single-content p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 3,
-  "nbHits": 6119
+  "nb_hits": 6119
 }

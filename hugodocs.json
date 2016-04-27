@@ -11,16 +11,13 @@
     ".footer-panel"
   ],
   "selectors": {
-  	"lvl0": ".wrapper h1",
+    "lvl0": ".wrapper h1",
     "lvl1": ".wrapper h2",
     "lvl2": ".wrapper h3",
     "lvl3": ".wrapper h4",
     "lvl4": ".wrapper h5",
     "text": ".wrapper p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 2,
-  "nbHits": 1511
+  "nb_hits": 1511
 }

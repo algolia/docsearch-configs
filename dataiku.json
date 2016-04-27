@@ -1,10 +1,8 @@
 {
   "index_name": "dataiku",
-  "allowed_domains": ["doc.dataiku.com"],
   "start_urls": [
     "http://doc.dataiku.com/dss/latest/"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     ".headerlink"
   ],
@@ -15,9 +13,6 @@
     "lvl3": ".section h3",
     "text": ".section p, .section ul.simple li"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 1,
-  "strip_chars": " :;,.¶",
-  "nbHits": 5785
+  "nb_hits": 5785
 }

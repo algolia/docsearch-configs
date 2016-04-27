@@ -1,28 +1,22 @@
 {
-    "index_name": "sellsy_doc",
-    "start_urls": [
-      "http://api.sellsy.fr/"
-    ],
-    "stop_urls": [
-      "http://api.sellsy.fr/documentation/resources"
-    ],
-    "selectors": {
-      "lvl0": "#start .page-header h1, #object .page-header h1, #intro .page-header h1",
-      "lvl1": "section .page-header h1",
-      "lvl2": "section h2",
-      "lvl3": "section h3",
-      "lvl4": "section h4",
-      "lvl5": "section h5",
-      "text": "section p"
-    },
-    "custom_settings": {},
-    "strategy": "default",
-    "strip_chars": " :;,.",
-    "allowed_domains": [
-      "api.sellsy.fr"
-    ],
-    "selectors_exclude": [
-      ".nav-list"
-    ],
-    "nbHits": 1214
+  "index_name": "sellsy_doc",
+  "start_urls": [
+    "http://api.sellsy.fr/"
+  ],
+  "stop_urls": [
+    "http://api.sellsy.fr/documentation/resources"
+  ],
+  "selectors": {
+    "lvl0": "#start .page-header h1, #object .page-header h1, #intro .page-header h1",
+    "lvl1": "section .page-header h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p"
+  },
+  "selectors_exclude": [
+    ".nav-list"
+  ],
+  "nb_hits": 1214
 }

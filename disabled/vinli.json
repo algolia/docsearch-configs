@@ -1,12 +1,8 @@
 {
   "index_name": "vinli",
-  "allowed_domains": [
-    "docs.vin.li"
-  ],
   "start_urls": [
     "http://docs.vin.li/en/latest"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     ".headerlink"
   ],
@@ -16,9 +12,7 @@
     "lvl2": ".section h2",
     "text": ".section p, .section ul.simple li"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "strip_chars": "¶»",
+  "strip_chars": "\u00b6\u00bb",
   "min_indexed_level": 1,
-  "nbHits": 484
+  "nb_hits": 484
 }

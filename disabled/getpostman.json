@@ -1,14 +1,10 @@
 {
   "index_name": "getpostman",
-  "allowed_domains": [
-    "www.getpostman.com"
-  ],
   "start_urls": [
     "https://www.getpostman.com/docs/"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
-  	"#header"
+    "#header"
   ],
   "selectors": {
     "lvl0": {
@@ -24,8 +20,5 @@
     "text": ".content p"
   },
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "strategy": "default",
-  "strip_chars": " :;,.",
-  "nbHits": 778
+  "nb_hits": 778
 }

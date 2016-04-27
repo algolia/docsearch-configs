@@ -1,23 +1,14 @@
 {
   "index_name": "scaledrone",
-  "allowed_domains": [
-    "docs.scaledrone.com"
-  ],
   "start_urls": [
     "http://docs.scaledrone.com"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
     "lvl2": ".content h3",
     "text": ".content p"
   },
-  "custom_settings": {
-  },
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 0,
-  "nbHits": 105
+  "nb_hits": 105
 }

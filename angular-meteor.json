@@ -33,8 +33,6 @@
       }
     }
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".main-content h1",
     "lvl1": ".main-content h2",
@@ -47,5 +45,5 @@
   "js_render": true,
   "js_wait": 1,
   "docker_memory": 4096,
-  "nbHits": 4325
+  "nb_hits": 4325
 }

@@ -1,8 +1,5 @@
 {
   "index_name": "optimizely-developers",
-  "allowed_domains": [
-    "developers.optimizely.com"
-  ],
   "start_urls": [
     "http://developers.optimizely.com/"
   ],
@@ -11,7 +8,6 @@
     "http://developers.optimizely.com/ios/help/html/.*",
     "index.html"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": "#nav > .nav-sidebar > ul > li > a.active, #content h1",
     "lvl1": "#content h2",
@@ -20,7 +16,6 @@
     "lvl4": "#content h5",
     "text": "#content p, #content li"
   },
-  "strategy": "default",
   "min_indexed_level": 2,
-  "nbHits": 2351
+  "nb_hits": 2351
 }

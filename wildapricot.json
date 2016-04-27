@@ -14,7 +14,6 @@
     "Release+.*$",
     "sessionid=.*$"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".wiki-content h1",
     "lvl1": ".wiki-content h2",
@@ -26,5 +25,5 @@
   "strict": true,
   "js_render": true,
   "min_indexed_level": 2,
-  "nbHits": 27400
+  "nb_hits": 27400
 }

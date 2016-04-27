@@ -3,22 +3,16 @@
   "start_urls": [
     "http://www.meridix.com/support/"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [
-  ],
   "selectors": {
-  	"lvl0": {
-  		"selector": "",
-  		"default_value": "Support"
-  	},
+    "lvl0": {
+      "selector": "",
+      "default_value": "Support"
+    },
     "lvl1": ".content_container .right_col h2",
     "lvl2": ".content_container .right_col h3",
     "lvl3": ".content_container .right_col h4",
     "text": ".content_container .right_col p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 2,
-  "nbHits": 386
+  "nb_hits": 386
 }

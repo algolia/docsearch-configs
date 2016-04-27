@@ -3,10 +3,6 @@
   "start_urls": [
     "https://www.pingxx.com/guidance"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": ".gCon h1",
     "lvl1": ".gCon h2",
@@ -14,9 +10,7 @@
     "lvl3": ".gCon h4",
     "text": ".gCon p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "js_render": true,
   "min_indexed_level": 1,
-  "nbHits": 425
+  "nb_hits": 425
 }

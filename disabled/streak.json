@@ -3,10 +3,6 @@
   "start_urls": [
     "https://www.streak.com/api"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": ".container-fluid .span9 h1",
     "lvl1": ".container-fluid .span9 h2",
@@ -15,7 +11,5 @@
     "lvl4": ".container-fluid .span9 h5",
     "text": ".container-fluid .span9 p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "nbHits": 229
+  "nb_hits": 229
 }

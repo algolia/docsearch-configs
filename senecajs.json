@@ -4,13 +4,11 @@
     "http://senecajs.org/api/",
     "http://senecajs.org/plugins/"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".txt-left h1",
     "lvl1": ".txt-left h2",
     "lvl2": ".txt-left h3",
     "text": ".txt-left p"
   },
-  "nbHits": 181
+  "nb_hits": 181
 }

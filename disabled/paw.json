@@ -3,8 +3,6 @@
   "start_urls": [
     "https://luckymarmot.com/paw/doc"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -15,7 +13,5 @@
     "lvl3": ".doc-article h5",
     "text": ".doc-article p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "nbHits": 701
+  "nb_hits": 701
 }

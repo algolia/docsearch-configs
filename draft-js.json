@@ -4,7 +4,6 @@
     "http://facebook.github.io/draft-js/docs/overview.html",
     "http://facebook.github.io/draft-js/docs/.*"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     ".hash-link",
     ".edit-page-link"
@@ -23,7 +22,5 @@
     "text": ".documentationContent div.inner-content p, .documentationContent div.inner-content li"
   },
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "strategy": "default",
-  "nbHits": 727
+  "nb_hits": 727
 }

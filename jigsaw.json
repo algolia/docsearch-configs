@@ -4,9 +4,6 @@
     "http://jigsaw.tighten.co/docs/installation/",
     "http://jigsaw.tighten.co/docs/.*"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -18,8 +15,6 @@
     "lvl4": ".documentation-page h5",
     "text": ".documentation-page p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 1,
-  "nbHits": 133
+  "nb_hits": 133
 }

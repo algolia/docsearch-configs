@@ -1,13 +1,9 @@
 {
   "index_name": "jest",
-  "allowed_domains": [
-    "facebook.github.io"
-  ],
   "start_urls": [
     "http://facebook.github.io/jest/docs/tutorial.html",
     "http://facebook.github.io/jest/docs/.*"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     ".hash-link"
   ],
@@ -24,8 +20,6 @@
     "lvl5": ".inner-content h5",
     "text": ".inner-content p, .inner-content li"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 1,
-  "nbHits": 431
+  "nb_hits": 431
 }

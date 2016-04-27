@@ -1,19 +1,12 @@
 {
   "index_name": "reales-wp",
-  "allowed_domains": [
-    "mariusn.com"
-  ],
   "start_urls": [
     "http://mariusn.com/themes/reales-wp/documentation/"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": "div.content h3",
     "lvl1": "div.content h4",
     "text": "div.content p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "nbHits": 171
+  "nb_hits": 171
 }

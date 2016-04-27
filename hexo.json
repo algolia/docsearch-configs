@@ -1,29 +1,21 @@
 {
   "index_name": "hexo",
-  "allowed_domains": [
-    "hexo.io"
-  ],
   "start_urls": [
     "https://hexo.io/docs/",
     "https://hexo.io/api/"
   ],
   "stop_urls": [
-  	"https://hexo.io/docs/index.html",
+    "https://hexo.io/docs/index.html",
     "https://hexo.io/api/index.html"
   ],
-  "selectors_exclude": [
-  ],
   "selectors": {
-  	"lvl0": ".article-header h1",
+    "lvl0": ".article-header h1",
     "lvl1": ".article-content h1",
     "lvl2": ".article-content h2",
     "lvl3": ".article-content h3",
     "lvl4": ".article-content h4",
     "text": ".article-content p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 1,
-  "nbHits": 635
+  "nb_hits": 635
 }

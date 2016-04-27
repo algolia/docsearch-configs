@@ -3,10 +3,6 @@
   "start_urls": [
     "https://gns3.com/support/docs/"
   ],
-  "stop_urls": [
-
-  ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[@class='doc-section-subnav']/a[@class='active']/../../*[@class='title']",
@@ -22,9 +18,7 @@
   },
   "js_render": true,
   "js_wait": 5,
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 1,
   "docker_memory": 4096,
-  "nbHits": 141
+  "nb_hits": 141
 }

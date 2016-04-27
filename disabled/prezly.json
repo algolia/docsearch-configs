@@ -1,8 +1,5 @@
 {
   "index_name": "prezly",
-  "allowed_domains": [
-    "docs.prezly.com"
-  ],
   "start_urls": [
     "http://docs.prezly.com/docs"
   ],
@@ -11,17 +8,14 @@
     "http://docs.prezly.com/.+#.+",
     "http://docs.prezly.com/docs/setting-up-your-prezly-account-for-first-time-use"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".docs-content .docs-header h1",
     "lvl1": ".docs-content .docs-body h1",
     "lvl2": ".docs-content .docs-body h2",
     "text": ".docs-content .docs-body p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "js_render": true,
   "js_wait": 1,
   "use_anchor": false,
-  "nbHits": 645
+  "nb_hits": 645
 }

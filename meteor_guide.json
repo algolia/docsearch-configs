@@ -6,7 +6,6 @@
   "stop_urls": [
     "#"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": "#content h1",
     "lvl1": "#content h2",
@@ -15,5 +14,5 @@
     "lvl4": "#content h5",
     "text": "#content p"
   },
-  "nbHits": 2033
+  "nb_hits": 2033
 }

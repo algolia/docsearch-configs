@@ -4,17 +4,20 @@
     {
       "url": "https://docs.spatie.be/(?P<project>.*?)/v3",
       "variables": {
-        "project": ["laravel-medialibrary", "laravel-backup"]
+        "project": [
+          "laravel-medialibrary",
+          "laravel-backup"
+        ]
       }
     },
     {
       "url": "https://docs.spatie.be/(?P<project>.*?)/v1",
       "variables": {
-        "project": ["menu"]
+        "project": [
+          "menu"
+        ]
       }
     }
-  ],
-  "stop_urls": [
   ],
   "selectors_exclude": [
     "footer",
@@ -28,5 +31,5 @@
     "lvl4": "article h5",
     "text": "article p"
   },
-  "nbHits": 490
+  "nb_hits": 490
 }

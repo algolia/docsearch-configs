@@ -6,13 +6,12 @@
   "stop_urls": [
     "/edit$"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
-        "selector": "//*[@class=\"sidebar-nav\"]/ul/li/*[@class=\"active\"]/../../preceding::h4[1]",
-        "type": "xpath",
-        "global": true,
-        "default": "Documentation"
+      "selector": "//*[@class=\"sidebar-nav\"]/ul/li/*[@class=\"active\"]/../../preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default": "Documentation"
     },
     "lvl1": ".docs-header h1",
     "lvl2": ".content h1",
@@ -21,8 +20,6 @@
     "text": ".content p, .content li"
   },
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "strategy": "default",
   "js_render": true,
-  "nbHits": 508
+  "nb_hits": 508
 }

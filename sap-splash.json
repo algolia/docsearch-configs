@@ -1,8 +1,5 @@
 {
   "index_name": "sap-splash",
-  "allowed_domains": [
-    "sap.github.io"
-  ],
   "start_urls": [
     "http://sap.github.io/BUILD_User_Assistance/Splash/",
     "http://sap.github.io/BUILD_User_Assistance/Splash/.*"
@@ -11,7 +8,6 @@
     "http://sap.github.io/BUILD_User_Assistance/Splash/index.html",
     "http://sap.github.io/BUILD_User_Assistance/Splash/AdminConsoleHelp.html"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "#nav-content ul ul > li.active > span",
@@ -22,8 +18,6 @@
     "lvl3": "h3",
     "text": ".conbody p, .conbody li, .taskbody p, .taskbody li, .body .p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 1,
-  "nbHits": 2125
+  "nb_hits": 2125
 }

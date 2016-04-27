@@ -1,14 +1,9 @@
 {
   "index_name": "infinit",
-  "allowed_domains": [
-    "infinit.sh"
-  ],
   "start_urls": [
     "https://infinit.sh/documentation/",
     "https://infinit.sh/documentation/overview"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -21,9 +16,6 @@
     "lvl5": ".doc h5",
     "text": ".doc p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 1,
-  "nbHits": 667
+  "nb_hits": 667
 }

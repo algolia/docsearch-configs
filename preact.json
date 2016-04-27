@@ -4,8 +4,6 @@
     "https://preactjs.com/guide",
     "https://preactjs.com/guide/getting-started"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -20,5 +18,5 @@
   },
   "min_indexed_level": true,
   "js_render": true,
-  "nbHits": 157
+  "nb_hits": 157
 }

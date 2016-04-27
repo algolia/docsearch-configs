@@ -3,8 +3,6 @@
   "start_urls": [
     "https://laravelcollective.com/docs/5.2"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -18,5 +16,5 @@
     "text": ".docs p"
   },
   "js_render": true,
-  "nbHits": 245
+  "nb_hits": 245
 }

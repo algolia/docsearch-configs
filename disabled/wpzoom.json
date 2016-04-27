@@ -1,25 +1,16 @@
 {
   "index_name": "wpzoom",
-  "allowed_domains": [
-    "www.wpzoom.com"
-  ],
   "start_urls": [
     "http://www.wpzoom.com/docs"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [
-  ],
   "selectors": {
-  	"lvl0": "#breadcrumb a.active",
+    "lvl0": "#breadcrumb a.active",
     "lvl1": ".support_main h1",
     "lvl2": ".support_main h2",
     "lvl3": ".support_main h3",
     "lvl4": ".support_main h4",
     "text": ".support_main p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 2,
-  "nbHits": 320
+  "nb_hits": 320
 }

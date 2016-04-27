@@ -3,9 +3,6 @@
   "start_urls": [
     "http://oauth2.thephpleague.com"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//ul/li[@class=\"selected\"]/../preceding::h2[1]",
@@ -20,5 +17,5 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
-  "nbHits": 265
+  "nb_hits": 265
 }

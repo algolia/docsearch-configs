@@ -3,42 +3,59 @@
   "start_urls": [
     {
       "url": "https://guides.emberjs.com/v2.3.0/",
-      "tags": ["v2.3.0"]
+      "tags": [
+        "v2.3.0"
+      ]
     },
     {
       "url": "https://guides.emberjs.com/v2.2.0/",
-      "tags": ["v2.2.0"]
+      "tags": [
+        "v2.2.0"
+      ]
     },
     {
       "url": "https://guides.emberjs.com/v2.1.0/",
-      "tags": ["v2.1.0"]
+      "tags": [
+        "v2.1.0"
+      ]
     },
     {
       "url": "https://guides.emberjs.com/v2.0.0/",
-      "tags": ["v2.0.0"]
+      "tags": [
+        "v2.0.0"
+      ]
     },
     {
       "url": "https://guides.emberjs.com/v1.13.0/",
-      "tags": ["v1.13.0"]
+      "tags": [
+        "v1.13.0"
+      ]
     },
     {
       "url": "https://guides.emberjs.com/v1.12.0/",
-      "tags": ["v1.12.0"]
+      "tags": [
+        "v1.12.0"
+      ]
     },
     {
       "url": "https://guides.emberjs.com/v1.11.0/",
-      "tags": ["v1.11.0"]
+      "tags": [
+        "v1.11.0"
+      ]
     },
     {
       "url": "https://guides.emberjs.com/v1.10.0/",
-      "tags": ["v1.10.0"]
+      "tags": [
+        "v1.10.0"
+      ]
     },
     {
       "url": "http://emberjs.com/api",
-      "tags": ["api"]
+      "tags": [
+        "api"
+      ]
     }
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     ".old-version-warning",
     ".edit-page",
@@ -54,7 +71,6 @@
     "lvl5": "main h4, #content h4",
     "text": "main p, #content p"
   },
-  "strategy": "default",
   "min_indexed_level": 2,
-  "nbHits": 28617
+  "nb_hits": 28617
 }

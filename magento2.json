@@ -7,8 +7,6 @@
     "\\.psd",
     "\\.sketch"
   ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": {
       "selector": ".sidebar h4",
@@ -25,5 +23,5 @@
     "text": ".content-wrap p, .content-wrap > ul > li, .content-wrap ol"
   },
   "min_indexed_level": 3,
-  "nbHits": 17404
+  "nb_hits": 17404
 }

@@ -8,7 +8,6 @@
     "http://sketchapp.com/learn/documentation$",
     "http://sketchapp.com/learn/documentation/$"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -32,5 +31,5 @@
   "js_wait": 1,
   "scrap_start_urls": false,
   "min_indexed_level": 3,
-  "nbHits": 735
+  "nb_hits": 735
 }

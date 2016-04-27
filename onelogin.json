@@ -30,7 +30,6 @@
     "https://developers.onelogin.com/saml/online-tools",
     "https://developers.onelogin.com/api-docs/v1-v3"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": "section .content h1",
     "lvl1": "section .content h2",
@@ -38,7 +37,5 @@
     "lvl3": "section .content h4",
     "text": "section .content p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "nbHits": 9378
+  "nb_hits": 9378
 }

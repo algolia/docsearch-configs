@@ -4,7 +4,6 @@
     "https://facebook.github.io/relay/docs/getting-started.html",
     "https://facebook.github.io/relay/docs/.*"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     ".hash-link",
     ".edit-page-link"
@@ -23,7 +22,5 @@
     "text": ".documentationContent div.inner-content p, .documentationContent div.inner-content li"
   },
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "strategy": "default",
-  "nbHits": 799
+  "nb_hits": 799
 }

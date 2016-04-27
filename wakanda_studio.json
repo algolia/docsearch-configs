@@ -3,9 +3,6 @@
   "start_urls": [
     "http://wakanda.github.io/wakanda-studio/"
   ],
-  "stop_urls": [
-
-  ],
   "selectors_exclude": [
     "#table-of-contents",
     "section ul",
@@ -21,7 +18,6 @@
     "lvl5": "section h5",
     "text": "section p"
   },
-  "custom_settings": {},
   "min_indexed_level": 1,
-  "nbHits": 170
+  "nb_hits": 170
 }

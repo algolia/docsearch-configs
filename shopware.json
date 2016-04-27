@@ -3,8 +3,6 @@
   "start_urls": [
     "https://developers.shopware.com"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".inner-container h1",
     "lvl1": ".inner-container h2",
@@ -13,6 +11,5 @@
     "lvl4": ".inner-container h5",
     "text": ".inner-container p"
   },
-  "custom_settings": {},
-  "nbHits": 4030
+  "nb_hits": 4030
 }

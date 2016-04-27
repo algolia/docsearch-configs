@@ -3,9 +3,6 @@
   "start_urls": [
     "http://forkdocs.jessedobbelae.re/"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//nav//li[@class=\"c-nav-main-children__item is-selected\"]/../../a",
@@ -19,7 +16,5 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "strategy": "default",
-  "nbHits": 1383
+  "nb_hits": 1383
 }

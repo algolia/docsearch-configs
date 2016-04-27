@@ -3,8 +3,6 @@
   "start_urls": [
     "http://getstream.io/docs/"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".docs-content h3",
     "lvl1": ".docs-content .table td[data-title=\"Name\"]",
@@ -12,5 +10,5 @@
   },
   "js_render": true,
   "js_wait": true,
-  "nbHits": 523
+  "nb_hits": 523
 }

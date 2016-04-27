@@ -11,7 +11,7 @@
     "http://vuejs.org.cn/guide/index.html"
   ],
   "selectors_exclude": [
-  	".sidebar h2 .version-select"
+    ".sidebar h2 .version-select"
   ],
   "selectors": {
     "lvl0": {
@@ -25,6 +25,5 @@
     "text": ".content p"
   },
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "nbHits": 1253
+  "nb_hits": 1253
 }

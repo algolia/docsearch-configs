@@ -8,8 +8,6 @@
     "https://knowledgecenter.zuora.com/Special:Search\\?.*",
     "https://knowledgecenter.zuora.com/Template"
   ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[@class=\"dw-hierarchy\"]/a[2]",
@@ -30,5 +28,5 @@
     "text": ".mt-page-section p"
   },
   "min_indexed_level": 3,
-  "nbHits": 46667
+  "nb_hits": 46667
 }

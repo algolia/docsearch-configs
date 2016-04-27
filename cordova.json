@@ -18,7 +18,6 @@
   "stop_urls": [
     "/$"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//ul[@class=\"site-toc\"]//a[@class=\"this-page\"]/../../preceding::span[1]",
@@ -31,8 +30,6 @@
     "lvl4": "#page-toc-source h4",
     "text": "#page-toc-source p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 2,
-  "nbHits": 293381
+  "nb_hits": 293381
 }
