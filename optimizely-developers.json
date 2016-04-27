@@ -22,5 +22,5 @@
   },
   "strategy": "default",
   "min_indexed_level": 2,
-  "nbHits": 2351
+  "nb_hits": 2351
 }

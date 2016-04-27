@@ -22,5 +22,5 @@
   "strategy": "default",
   "strip_chars": " :;,.",
   "min_indexed_level": 2,
-  "nbHits": 1511
+  "nb_hits": 1511
 }

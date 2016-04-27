@@ -20,5 +20,5 @@
     "The lvl0 will first try to select the active headings in the sidebar (Homepage, Core, Page, Code Pinball)",
     "If none is found, it will look for active pages, and go up the tree to find the matching heading"
   ],
-  "nbHits": 138
+  "nb_hits": 138
 }

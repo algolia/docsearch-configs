@@ -24,5 +24,5 @@
   "strategy": "default",
   "min_indexed_level": 1,
   "js_render": true,
-  "nbHits": 132
+  "nb_hits": 132
 }

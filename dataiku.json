@@ -19,5 +19,5 @@
   "strategy": "default",
   "min_indexed_level": 1,
   "strip_chars": " :;,.¶",
-  "nbHits": 5785
+  "nb_hits": 5785
 }

@@ -34,5 +34,5 @@
   "js_render": true,
   "min_indexed_level": 3,
   "remove_get_params": true,
-  "nbHits": 8806
+  "nb_hits": 8806
 }

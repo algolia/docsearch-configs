@@ -29,5 +29,5 @@
   "strategy": "default",
   "min_indexed_level": 2,
   "use_anchors": "false",
-  "nbHits": 410
+  "nb_hits": 410
 }
