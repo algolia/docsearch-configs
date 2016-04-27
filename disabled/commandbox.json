@@ -4,9 +4,7 @@
     "http://commandbox.ortusbooks.com/content/"
   ],
   "stop_urls": [
-  	"index.html"
-  ],
-  "selectors_exclude": [
+    "index.html"
   ],
   "selectors": {
     "lvl0": {
@@ -19,7 +17,6 @@
     "lvl4": ".page-inner h4",
     "text": ".page-inner p"
   },
-  "strategy": "default",
   "js_render": true,
   "strip_chars": " :;,.1234567890",
   "min_indexed_level": 2,

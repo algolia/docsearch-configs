@@ -6,8 +6,6 @@
   "stop_urls": [
     "https://dcos.io/docs/1.7/$"
   ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": ".docs-menu > li > .nav-wrapper > a.docs-nav__item__title.active",
     "lvl1": ".docs-layout__docs-article h1",

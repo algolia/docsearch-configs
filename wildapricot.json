@@ -14,7 +14,6 @@
     "Release+.*$",
     "sessionid=.*$"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".wiki-content h1",
     "lvl1": ".wiki-content h2",

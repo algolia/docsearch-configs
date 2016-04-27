@@ -6,18 +6,14 @@
   "stop_urls": [
     "#"
   ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
     "lvl2": ".content h3",
     "text": ".content p"
   },
-  "custom_settings": {},
   "js_render": true,
   "js_wait": 5,
   "use_anchors": false,
-  "strategy": "default",
   "nb_hits": 1782
 }

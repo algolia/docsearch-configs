@@ -3,10 +3,6 @@
   "start_urls": [
     "http://docs.akeneo.com/latest/"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class, \"toctree-l2\") and contains(@class, \"current\")]/../preceding::a[1]",

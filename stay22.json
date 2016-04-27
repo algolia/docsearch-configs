@@ -1,23 +1,14 @@
 {
   "index_name": "stay22",
-  "allowed_domains": [
-    "www.stay22.com"
-  ],
   "start_urls": [
     "https://www.stay22.com/embed"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".container > .inner h2",
     "lvl1": ".container > .inner h3",
     "lvl2": ".container > .inner h5",
     "text": ".container > .inner p"
   },
-  "custom_settings": {
-  },
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 0,
   "nb_hits": 73
 }

@@ -3,8 +3,6 @@
   "start_urls": [
     "http://www.warp10.io"
   ],
-  "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//div[@class=\"panel-collapse collapse  in \"]/../div[@class=\"panel-heading\"]/h4",

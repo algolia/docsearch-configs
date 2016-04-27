@@ -1,8 +1,5 @@
 {
   "index_name": "firim",
-  "allowed_domains": [
-    "fir.im"
-  ],
   "start_urls": [
     "http://fir.im/docs"
   ],
@@ -21,7 +18,6 @@
   "custom_settings": {
     "attributeForDistinct": "hierarchy_complete.lvl2"
   },
-  "strategy": "default",
   "min_indexed_level": 1,
   "nb_hits": 226
 }

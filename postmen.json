@@ -1,8 +1,5 @@
 {
   "index_name": "postmen",
-  "allowed_domains": [
-    "docs.postmen.com"
-  ],
   "start_urls": [
     "https://docs.postmen.com/aramex.html",
     "https://docs.postmen.com/myhermes-uk.html",
@@ -35,10 +32,8 @@
       "page_rank": 1
     }
   ],
-  "stop_urls": [
-  ],
   "selectors_exclude": [
-  	".api-endpoint-reqres"
+    ".api-endpoint-reqres"
   ],
   "selectors": {
     "lvl0": {
@@ -50,10 +45,6 @@
     "lvl3": "#page-content h4",
     "text": "#page-content p"
   },
-  "custom_settings": {
-  },
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 1,
   "nb_hits": 2555
 }

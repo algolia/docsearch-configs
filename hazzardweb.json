@@ -28,7 +28,6 @@
     "/./",
     ".*/master.*"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//nav[@class=\"docs-toc\"]/ul/li/ul/li[@class=\"active\"]/../preceding::p[1]",
@@ -45,7 +44,5 @@
   "js_render": true,
   "js_wait": 2,
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 2532
 }

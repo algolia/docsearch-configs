@@ -4,30 +4,27 @@
     "https://www.firebase.com/docs"
   ],
   "stop_urls": [
-  	"https://www.firebase.com/docs/java-api",
-  	"https://www.firebase.com/docs/ios-api"
+    "https://www.firebase.com/docs/java-api",
+    "https://www.firebase.com/docs/ios-api"
   ],
   "selectors_exclude": [
-  	".jumpnav",
-  	".docs-hero"
+    ".jumpnav",
+    ".docs-hero"
   ],
   "selectors": {
     "lvl0": {
-    	"selector": "#docs-dropdown .section > li > a.current",
-    	"global": true
+      "selector": "#docs-dropdown .section > li > a.current",
+      "global": true
     },
     "lvl1": {
-    	"selector": "#docs-dropdown .secondary-list > li > a.current",
-    	"global": true
+      "selector": "#docs-dropdown .secondary-list > li > a.current",
+      "global": true
     },
     "lvl2": "#docs-dropdown .tertiary-list > li > a.current, .docs-main-content h3",
     "lvl3": ".docs-main-content h3, .docs-main-content h4",
     "lvl4": ".docs-main-content h4",
     "text": ".docs-main-content p"
   },
-  "custom_settings": {
-  },
-  "strategy": "default",
   "strip_chars": " :;,.1234567890",
   "min_indexed_level": 1,
   "nb_hits": 3090

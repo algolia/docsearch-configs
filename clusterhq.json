@@ -26,8 +26,6 @@
     "lvl4": ".section h3",
     "text": ".section p, .pods-eq span"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 2,
   "nb_hits": 2371
 }

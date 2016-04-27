@@ -91,8 +91,8 @@
   ],
   "selectors": {
     "lvl0": {
-    	"selector": "#guide-title",
-    	"default_value": "Tutorials"
+      "selector": "#guide-title",
+      "default_value": "Tutorials"
     },
     "lvl1": ".container h1",
     "lvl2": ".container h2",
@@ -100,9 +100,6 @@
     "lvl4": ".container h4",
     "text": "p"
   },
-  "custom_settings": {
-  },
-  "strategy": "default",
   "min_indexed_level": 2,
   "nb_hits": 11894
 }

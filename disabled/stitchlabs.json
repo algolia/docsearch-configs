@@ -9,8 +9,6 @@
     "customer/portal",
     "^(?!.*---).*?customer/en/portal/articles.*?$"
   ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[@class=\"breadcrumb\"]/li[1]",

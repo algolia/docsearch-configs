@@ -3,10 +3,6 @@
   "start_urls": [
     "http://middlebury.github.io/online-style-guide/editorial"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",

@@ -3,10 +3,6 @@
   "start_urls": [
     "http://support.growthbeat.com/"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [
-  ],
   "selectors": {
     "lvl0": ".page h1",
     "lvl1": ".column-main h1",
@@ -15,6 +11,5 @@
     "lvl4": ".column-main h4",
     "text": ".column-main p"
   },
-  "custom_settings": {},
   "nb_hits": 1245
 }

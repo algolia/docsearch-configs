@@ -3,10 +3,8 @@
   "start_urls": [
     "https://developers.alliescomputing.com"
   ],
-  "stop_urls": [
-  ],
   "selectors_exclude": [
-  	"#olark",
+    "#olark",
     ".visible-xs"
   ],
   "selectors": {
@@ -21,8 +19,6 @@
     "lvl5": ".pull-right h4",
     "text": ".pull-right p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 609,
   "js_render": true
 }

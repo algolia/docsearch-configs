@@ -4,16 +4,16 @@
     "https://docs.barricade.io/"
   ],
   "stop_urls": [
-  	"https://docs.barricade.io/../",
+    "https://docs.barricade.io/../",
     ".+#.*"
   ],
   "selectors_exclude": [
-  	".changelog"
+    ".changelog"
   ],
   "selectors": {
     "lvl0": {
-    	"selector": ".main h1",
-    	"default_value": "Changelog"
+      "selector": ".main h1",
+      "default_value": "Changelog"
     },
     "lvl1": ".main h2",
     "lvl2": ".main h3",
@@ -21,7 +21,6 @@
     "lvl4": ".main h5",
     "text": ".main p"
   },
-  "custom_settings": {},
   "js_render": true,
   "js_wait": 2,
   "min_indexed_level": 1,

@@ -1,8 +1,5 @@
 {
   "index_name": "hull.io",
-  "allowed_domains": [
-    "www.hull.io"
-  ],
   "start_urls": [
     "http://www.hull.io/docs/",
     "https://www.hull.io/help"
@@ -14,7 +11,6 @@
   ],
   "js_render": true,
   "js_wait": 2,
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".tree-nav-section li.active > a, header a:nth-child(2), .documentation-header h1",
     "lvl1": ".documentation-body h1, .blog-post h2",
@@ -24,9 +20,6 @@
     "lvl5": ".documentation-body h5, .blog-post h6",
     "text": ".documentation-header p, .documentation-body p, .blog-post p"
   },
-  "custom_settings": {},
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 1,
   "nb_hits": 2084
 }

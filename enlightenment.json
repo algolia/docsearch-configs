@@ -3,9 +3,8 @@
   "start_urls": [
     "https://docs.enlightenment.org/efl/current/"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
-  	".ingroups"
+    ".ingroups"
   ],
   "selectors": {
     "lvl0": ".header .headertitle .title",
@@ -16,7 +15,5 @@
     "text": ".contents p, .contents li"
   },
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 35339
 }

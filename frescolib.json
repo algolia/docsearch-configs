@@ -6,7 +6,6 @@
   "stop_urls": [
     "http://frescolib.org/docs/index.html"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": ".navGroupCurrent h3",
     "lvl1": ".post header h1",
@@ -17,7 +16,5 @@
   },
   "js_render": true,
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 662
 }

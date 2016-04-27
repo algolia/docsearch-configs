@@ -1,8 +1,5 @@
 {
   "index_name": "thundersquared",
-  "allowed_domains": [
-    "docs.thundersquared.com"
-  ],
   "start_urls": [
     "http://docs.thundersquared.com/"
   ],
@@ -11,7 +8,6 @@
     "http://docs.thundersquared.com/items/.*",
     "http://docs.thundersquared.com/tutorials/.*/\\?.*"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": ".ht-kb-em-category a",
@@ -22,8 +18,6 @@
     "lvl3": ".entry-content h5",
     "text": ".entry-content p, .entry-content li"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 1,
   "nb_hits": 78
 }

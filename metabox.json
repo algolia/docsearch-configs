@@ -1,22 +1,16 @@
 {
   "index_name": "metabox",
-  "allowed_domains": [
-    "metabox.io"
-  ],
   "start_urls": [
     "https://metabox.io/docs/"
   ],
   "stop_urls": [
     "https://metabox.io/docs/index.html"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": "header.entry-header h1.entry-title",
     "lvl1": "div.entry-content h2",
     "text": "div.entry-content p"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "min_indexed_level": 1,
   "nb_hits": 508
 }

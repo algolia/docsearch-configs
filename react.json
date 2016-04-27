@@ -1,13 +1,9 @@
 {
   "index_name": "react",
-  "allowed_domains": [
-    "facebook.github.io"
-  ],
   "start_urls": [
     "http://facebook.github.io/react/docs/getting-started.html",
     "http://facebook.github.io/react/docs/.*"
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     ".hash-link",
     ".edit-page-link"
@@ -26,7 +22,5 @@
     "text": ".documentationContent div.inner-content p, .documentationContent div.inner-content li"
   },
   "min_indexed_level": 1,
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 1205
 }

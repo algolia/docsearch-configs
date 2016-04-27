@@ -1,16 +1,7 @@
 {
   "index_name": "asgardcms",
-  "allowed_domains": [
-    "asgardcms.com"
-  ],
   "start_urls": [
     "https://asgardcms.com/docs"
-  ],
-  "stop_urls": [
-
-  ],
-  "selectors_exclude": [
-
   ],
   "selectors": {
     "lvl0": "#sidebar-nav .current > a",
@@ -19,10 +10,6 @@
     "lvl3": ".documentation h4",
     "text": ".documentation p"
   },
-  "custom_settings": {
-  },
-  "strategy": "default",
-  "strip_chars": " :;,.",
   "min_indexed_level": 1,
   "nb_hits": 669
 }

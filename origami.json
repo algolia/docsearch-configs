@@ -1,13 +1,7 @@
 {
   "index_name": "origami",
-  "allowed_domains": [
-    "facebook.github.io"
-  ],
   "start_urls": [
     "http://facebook.github.io/origami/documentation/"
-  ],
-  "stop_urls": [],
-  "selectors_exclude": [
   ],
   "selectors": {
     "lvl0": {
@@ -21,7 +15,5 @@
     "lvl4": ".doc-content h4",
     "text": ".doc-content p, .doc-content li"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 1656
 }

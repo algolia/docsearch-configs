@@ -7,12 +7,11 @@
     "http://support.bluesnap.com/docs/getting-started",
     "http://support.bluesnap.com/login"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
-    	"selector": "//*[@class=\"sidebar-nav\"]/ul/li/a[@class=\"active\"]/../../preceding::h4[1]",
-    	"type": "xpath",
-        "global": "true"
+      "selector": "//*[@class=\"sidebar-nav\"]/ul/li/a[@class=\"active\"]/../../preceding::h4[1]",
+      "type": "xpath",
+      "global": "true"
     },
     "lvl1": ".blocks-parent h1",
     "lvl2": ".blocks-parent h2",
@@ -22,7 +21,6 @@
     "text": ".blocks-parent p, .blocks-parent li"
   },
   "js_render": true,
-  "custom_settings": {},
   "min_indexed_level": 1,
   "nb_hits": 5560
 }

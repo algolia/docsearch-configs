@@ -1,13 +1,26 @@
 {
   "index_name": "algolia",
-  "allowed_domains": [
-    "www.algolia.com"
-  ],
   "start_urls": [
     {
       "url": "https://www.algolia.com/doc/(?P<language>.*?)",
       "variables": {
-        "language": ["ruby", "rails", "python", "django", "php", "symfony", "laravel", "javascript", "go", "java", "scala", "objective-c", "swift", "android", "csharp"]
+        "language": [
+          "ruby",
+          "rails",
+          "python",
+          "django",
+          "php",
+          "symfony",
+          "laravel",
+          "javascript",
+          "go",
+          "java",
+          "scala",
+          "objective-c",
+          "swift",
+          "android",
+          "csharp"
+        ]
       },
       "page_rank": -1
     },
@@ -28,7 +41,5 @@
     "lvl5": "#doc-tab-content .markdown-page h5",
     "text": "#step-intro p, #doc-tab-content .markdown-page p, #doc-tab-content .markdown-page li"
   },
-  "custom_settings": {},
-  "strategy": "default",
   "nb_hits": 9113
 }

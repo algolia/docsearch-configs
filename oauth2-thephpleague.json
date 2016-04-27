@@ -3,9 +3,6 @@
   "start_urls": [
     "http://oauth2.thephpleague.com"
   ],
-  "stop_urls": [
-  ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//ul/li[@class=\"selected\"]/../preceding::h2[1]",
