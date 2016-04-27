@@ -31,6 +31,6 @@
   },
   "custom_settings": {},
   "min_indexed_level": 2,
-  "nbHits": 20962,
+  "nb_hits": 20962,
   "docker_image": null
 }

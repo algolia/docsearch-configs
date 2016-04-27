@@ -26,5 +26,5 @@
   "strategy": "default",
   "min_indexed_level": 1,
   "docker_memory": 4096,
-  "nbHits": 141
+  "nb_hits": 141
 }
