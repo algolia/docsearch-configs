@@ -1,3 +1,3 @@
 # DocSearch configurations
 
-See the [README of DocSearch](https://github.com/algolia/documentation-scraper) for any information/configuration
+This is the repository hosting the public [DocSearch](https://community.algolia.com/docsearch/) configurations.
