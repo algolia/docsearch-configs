@@ -4,15 +4,23 @@
     {
       "url": "https://doc.nette.org/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
-        "version": ["2.0", "2.1", "2.2", "2.3"],
-        "lang": ["cs", "en"]
+        "version": [
+          "2.0",
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "lang": [
+          "cs",
+          "en"
+        ]
       }
     }
   ],
   "stop_urls": [
     ".*?view=links"
   ],
-  "min_indexedlvl": 2,
+  "min_indexed_level": 2,
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
