@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//a[@class=\"active\"]/preceding::h4[1]",
+      "selector": "//a[@class=\"is-active\"]",
       "type": "xpath",
       "global": "true"
     },
