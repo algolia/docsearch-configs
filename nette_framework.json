@@ -1,0 +1,26 @@
+{
+  "index_name": "nette_framework",
+  "start_urls": [
+    {
+      "url": "https://doc.nette.org/(?P<lang>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "version": ["2.0", "2.1", "2.2", "2.3"],
+        "lang": ["cs", "en"]
+      }
+    }
+  ],
+  "stop_urls": [
+    ".*?view=links"
+  ],
+  "min_indexedlvl": 2,
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p"
+  },
+  "nb_hits": 13711
+}
