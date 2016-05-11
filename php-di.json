@@ -1,0 +1,20 @@
+{
+  "index_name": "php-di",
+  "start_urls": [
+    "http://php-di.org/doc/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//li[@class=\"active\"]/../../span",
+      "type": "xpath"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
+  },
+  "nb_hits": 839,
+  "min_indexed_lvl": 2
+}
