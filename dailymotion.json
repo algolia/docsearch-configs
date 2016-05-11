@@ -18,8 +18,9 @@
     "lvl2": "#developer_text h3",
     "lvl3": "#developer_text h4",
     "lvl4": "#developer_text h5",
-    "text": "#developer_text p"
+    "lvl5": "#developer_text dt code.callname, #developer_text td code.autocode",
+    "text": "#developer_text p, #developer_text td:last-child"
   },
   "min_indexed_level": 2,
-  "nb_hits": 1128
+  "nb_hits": 1731
 }
