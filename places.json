@@ -10,5 +10,6 @@
     "lvl2": ".documentation-container h3",
     "lvl3": ".documentation-container .api-entry",
     "text": ".documentation-container p"
-  }
+  },
+  "nb_hits": 163
 }
