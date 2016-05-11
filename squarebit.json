@@ -141,12 +141,12 @@
       "global": true,
       "default_value": "FAQ"
     },
-    "lvl1": "[data-content=usage] .tab__body h2, [data-content=faq] .tab__body--fw h2",
-    "lvl2": "[data-content=usage] .tab__body h3, [data-content=faq] .tab__body--fw h3",
-    "lvl3": "[data-content=usage] .tab__body h4, [data-content=faq] .tab__body--fw h4",
-    "text": "[data-content=usage] .tab__body p, [data-content=faq] .tab__body--fw p"
+    "lvl1": ".tab__body h2, .tab__body--fw h2",
+    "lvl2": ".tab__body h3, .tab__body--fw h3",
+    "lvl3": ".tab__body h4, .tab__body--fw h4",
+    "text": ".tab__body p, .tab__body--fw p"
   },
   "js_render": true,
   "min_indexed_level": 1,
-  "nb_hits": 1822
+  "nb_hits": 1057
 }
