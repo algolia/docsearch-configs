@@ -1,0 +1,15 @@
+{
+  "index_name": "places",
+  "start_urls": [
+    "https://community.algolia.com/places/documentation.html",
+    "https://community.algolia.com/places/examples.html"
+  ],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": ".documentation-container h2",
+    "lvl2": ".documentation-container h3",
+    "lvl3": ".documentation-container .api-entry",
+    "text": ".documentation-container p"
+  },
+  "nb_hits": 163
+}

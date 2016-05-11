@@ -1,0 +1,27 @@
+{
+  "index_name": "serge",
+  "start_urls": [
+    "https://serge.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    "#SEE-ALSO",
+    "#DESCRIPTION",
+    "#SYNOPSIS",
+    "#OPTIONS"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//li[@class=\"selected\"]/preceding::h3[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".body h1",
+    "lvl2": ".body h2",
+    "lvl3": ".body h3",
+    "lvl4": ".body h4",
+    "text": ".body p, .body li"
+  },
+  "min_indexed_lvl": 3,
+  "nb_hits": 889
+}
