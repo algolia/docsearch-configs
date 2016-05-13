@@ -7,7 +7,8 @@
         "section": [
           "api",
           "player",
-          "guides"
+          "guides",
+          "tools"
         ]
       }
     }
@@ -22,5 +23,5 @@
     "text": "#developer_text p, #developer_text td:last-child"
   },
   "min_indexed_level": 2,
-  "nb_hits": 1731
+  "nb_hits": 1869
 }
