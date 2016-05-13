@@ -1,0 +1,22 @@
+{
+  "index_name": "php-pushwoosh",
+  "start_urls": [
+    "http://gomoob.github.io/php-pushwoosh/"
+  ],
+  "stop_urls": [
+    "phpdocumentor"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#main-content h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#main-content h2",
+    "lvl2": "#main-content h3",
+    "lvl3": "#main-content h4",
+    "lvl4": "#main-content h5",
+    "text": "#main-content p, #main-content li"
+  },
+  "nb_hits": 297,
+  "min_indexed_level": 2
+}
