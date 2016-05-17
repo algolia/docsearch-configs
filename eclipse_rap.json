@@ -1,0 +1,41 @@
+{
+  "index_name": "eclipse_rap",
+  "start_urls": [
+    {
+      "url": "http://www.eclipse.org/rap/developers-guide",
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "http://www.eclipse.org/rap/noteworthy/3.0",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "http://wiki.eclipse.org/RAP",
+      "tags": [
+        "wiki"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "version=2",
+    "Incubator"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//div[@id=\"rightcolumn\"]//a[@class=\"active\"]/../../preceding-sibling::span|//h1[@id=\"firstHeading\"])[1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": "#midcolumn h1, #main-page-content h2",
+    "lvl2": "#midcolumn h2, #main-page-content h3",
+    "lvl3": "#midcolumn h3, #main-page-content h4",
+    "lvl4": "#midcolumn h4, #main-page-content h5",
+    "text": "#midcolumn p, #midcolumn li, #main-page-content p, #main-page-content li"
+  },
+  "min_indexed_level": 3,
+  "nb_hits": 2969
+}
