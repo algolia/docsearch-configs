@@ -1,0 +1,17 @@
+{
+  "index_name": "prudio",
+  "start_urls": [
+    "http://docs.prudio.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".nav .main.active",
+    "lvl1": "[role=\"main\"] h1",
+    "lvl2": "[role=\"main\"] h2",
+    "lvl3": "[role=\"main\"] h3",
+    "lvl4": "[role=\"main\"] h4",
+    "lvl5": "[role=\"main\"] h5",
+    "text": "[role=\"main\"] p, [role=\"main\"] li"
+  },
+  "nb_hits": 206
+}
