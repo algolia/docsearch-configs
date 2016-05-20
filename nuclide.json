@@ -1,33 +1,7 @@
 {
   "index_name": "nuclide",
   "start_urls": [
-    "https://nuclide.io/docs/quick-start/getting-started/",
-    "https://nuclide.io/docs/editor/setup/",
-    "https://nuclide.io/docs/editor/basics/",
-    "https://nuclide.io/docs/editor/keyboard-shortcuts/",
-    "https://nuclide.io/docs/editor/uninstall/",
-    "https://nuclide.io/docs/features/remote/",
-    "https://nuclide.io/docs/features/debugger/",
-    "https://nuclide.io/docs/features/hg/",
-    "https://nuclide.io/docs/features/toolbar/",
-    "https://nuclide.io/docs/features/quick-open/",
-    "https://nuclide.io/docs/features/working-sets/",
-    "https://nuclide.io/docs/features/outline-view/",
-    "https://nuclide.io/docs/features/health-statistics/",
-    "https://nuclide.io/docs/features/format-js/",
-    "https://nuclide.io/docs/languages/hack/",
-    "https://nuclide.io/docs/languages/flow/",
-    "https://nuclide.io/docs/languages/objective-c/",
-    "https://nuclide.io/docs/languages/cpp/",
-    "https://nuclide.io/docs/languages/other/",
-    "https://nuclide.io/docs/platforms/ios/",
-    "https://nuclide.io/docs/platforms/android/",
-    "https://nuclide.io/docs/platforms/react-native/",
-    "https://nuclide.io/docs/platforms/web/",
-    "https://nuclide.io/docs/advanced-topics/building-from-source/",
-    "https://nuclide.io/docs/advanced-topics/custom-keybindings/",
-    "https://nuclide.io/docs/advanced-topics/linter-package-compatibility/",
-    "https://nuclide.io/docs/.*"
+    "https://nuclide.io/docs"
   ],
   "selectors_exclude": [
     "#markdown-toc",
@@ -47,6 +21,7 @@
     "lvl5": ".post-content h5",
     "text": "article.post-content p, article.post-content li"
   },
+  "scrap_start_urls": false,
   "js_render": true,
   "min_indexed_level": 1,
   "nb_hits": 1907
