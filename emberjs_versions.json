@@ -2,7 +2,7 @@
   "index_name": "emberjs_versions",
   "start_urls": [
     {
-      "url": "https://guides.emberjs.com/(?P<version>.*?)",
+      "url": "https://guides.emberjs.com/(?P<version>.*?)/",
       "variables": {
         "version": {
           "url": "https://guides.emberjs.com",
