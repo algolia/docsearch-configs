@@ -1,0 +1,37 @@
+{
+  "index_name": "emberjs_versions",
+  "start_urls": [
+    {
+      "url": "https://guides.emberjs.com/(?P<version>.*?)",
+      "variables": {
+        "version": {
+          "url": "https://guides.emberjs.com",
+          "js": "var versions = $('#version-select option').map(function(i, e) { return $(e).text(); }).toArray(); return JSON.stringify(versions);"
+        }
+      }
+    },
+    {
+      "url": "http://emberjs.com/api",
+      "tags": [
+        "api"
+      ]
+    }
+  ],
+  "selectors_exclude": [
+    ".old-version-warning",
+    ".edit-page",
+    ".class-info",
+    "#content p:first-child"
+  ],
+  "selectors": {
+    "lvl0": ".header ul li.active a, #header ul li.active a",
+    "lvl1": ".toc-level-0.selected > a, #sidebar .level-1.selected > a",
+    "lvl2": "main h1, #content h1",
+    "lvl3": "main h2, #content h2",
+    "lvl4": "main h3, #content h3",
+    "lvl5": "main h4, #content h4",
+    "text": "main p, #content p"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 28617
+}
