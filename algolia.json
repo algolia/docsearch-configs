@@ -2,7 +2,7 @@
   "index_name": "algolia",
   "start_urls": [
     {
-      "url": "https://www.algolia.com/doc/(?P<language>.*?)/",
+      "url": "https://www.algolia.com/doc/(?P<language>.*?)$",
       "variables": {
         "language": [
           "ruby",
