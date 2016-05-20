@@ -2,7 +2,7 @@
   "index_name": "algolia",
   "start_urls": [
     {
-      "url": "https://www.algolia.com/doc/(?P<language>.*?)",
+      "url": "https://www.algolia.com/doc/(?P<language>.*?)/",
       "variables": {
         "language": [
           "ruby",
@@ -41,5 +41,5 @@
     "lvl5": "#doc-tab-content .markdown-page h5",
     "text": "#step-intro p, #doc-tab-content .markdown-page p, #doc-tab-content .markdown-page li"
   },
-  "nb_hits": 9113
+  "nb_hits": 12638
 }
