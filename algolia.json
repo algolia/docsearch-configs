@@ -89,5 +89,8 @@
     "lvl5": "#doc-tab-content .markdown-page h5",
     "text": "#step-intro p, #doc-tab-content .markdown-page p, #doc-tab-content .markdown-page li"
   },
+  "custom_settings": {
+    "ranking": ["words", "filters", "typo", "attribute", "proximity", "exact", "custom"]
+  },
   "nb_hits": 8836
 }
