@@ -24,6 +24,10 @@
       },
       "page_rank": -1
     },
+    {
+      "url": "https://www.algolia.com/doc/rest",
+      "page_rank": -2
+    },
     "https://www.algolia.com/doc"
   ],
   "stop_urls": [
