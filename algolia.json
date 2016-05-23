@@ -2,42 +2,15 @@
   "index_name": "algolia",
   "start_urls": [
     {
-      "url": "https://www.algolia.com/doc/(?P<language>.*?)$",
-      "variables": {
-        "language": [
-          "ruby",
-          "rails",
-          "python",
-          "django",
-          "php",
-          "symfony",
-          "laravel",
-          "javascript",
-          "go",
-          "java",
-          "scala",
-          "objective-c",
-          "swift",
-          "android",
-          "csharp"
-        ]
-      },
-      "page_rank": -1
-    },
-    {
-      "url": "https://www.algolia.com/doc/rest",
-      "page_rank": -2
-    },
-    {
       "url": "https://www.algolia.com/doc/getting-started/quick-start",
       "page_rank": 1
     },
     {
-      "url": "https://www.algolia.com/doc/search/auto-complete",
+      "url": "https://www.algolia.com/doc/search/auto-complete$",
       "page_rank": 1
     },
     {
-      "url": "https://www.algolia.com/doc/search/instant-search",
+      "url": "https://www.algolia.com/doc/search/instant-search$",
       "page_rank": 1
     },
     {
@@ -75,6 +48,33 @@
     {
       "url": "https://www.algolia.com/doc/security/api-keys",
       "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/rest",
+      "page_rank": -2
+    },
+    {
+      "url": "https://www.algolia.com/doc/(?P<language>.*?)$",
+      "variables": {
+        "language": [
+          "ruby",
+          "rails",
+          "python",
+          "django",
+          "php",
+          "symfony",
+          "laravel",
+          "javascript",
+          "go",
+          "java",
+          "scala",
+          "objective-c",
+          "swift",
+          "android",
+          "csharp"
+        ]
+      },
+      "page_rank": -1
     },
     "https://www.algolia.com/doc"
   ],
