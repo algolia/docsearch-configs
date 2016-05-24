@@ -1,14 +1,18 @@
 {
   "index_name": "getstream",
   "start_urls": [
-    "http://getstream.io/docs/"
+    "https://getstream.io/docs/"
   ],
   "selectors": {
-    "lvl0": ".docs-content h3",
-    "lvl1": ".docs-content .table td[data-title=\"Name\"]",
-    "text": ".docs-content p, .docs-content .table td[data-title=\"Desc\"], .docs-content li"
+    "lvl0": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article .table td[data-title=\"Name\"]",
+    "text": "article p, article .table td[data-title=\"Desc\"], article li"
   },
   "js_render": true,
-  "js_wait": true,
-  "nb_hits": 523
+  "js_wait": 1,
+  "nb_hits": 369
 }
