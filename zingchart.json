@@ -1,0 +1,17 @@
+{
+  "index_name": "zingchart",
+  "start_urls": [
+    "http://www.zingchart.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "div[data-zc-docs=\"main-nav\"] li.active > label",
+    "lvl1": "section[data-zc-bg] h1",
+    "lvl2": "section[data-zc-bg] h2",
+    "lvl3": "section[data-zc-bg] h3",
+    "lvl4": "section[data-zc-bg] h4",
+    "text": "section[data-zc-bg] p, section[data-zc-bg] li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 18636
+}
