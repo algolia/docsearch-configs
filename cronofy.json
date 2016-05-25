@@ -1,0 +1,16 @@
+{
+  "index_name": "cronofy",
+  "start_urls": [
+    "https://www.cronofy.com/developers/api/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".documentation-content h2",
+    "lvl1": ".documentation-content h3",
+    "lvl2": ".documentation-content h4",
+    "lvl3": ".documentation-content h5",
+    "lvl4": ".documentation-content h6",
+    "text": ".documentation-content p, .documentation-content li"
+  },
+  "nb_hits": 752
+}
