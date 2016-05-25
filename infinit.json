@@ -1,8 +1,38 @@
 {
   "index_name": "infinit",
   "start_urls": [
-    "https://infinit.sh/documentation/",
-    "https://infinit.sh/documentation/overview"
+    {
+      "url": "https://infinit.sh/documentation/reference",
+      "page_rank": 1
+    },
+    {
+      "url": "https://infinit.sh/get-started",
+      "page_rank": 1
+    },
+    {
+      "url": "https://infinit.sh/faq",
+      "page_rank": -1
+    },
+    {
+      "url": "https://infinit.sh/documentation/roadmap",
+      "page_rank": -2
+    },
+    {
+      "url": "https://infinit.sh/documentation/status",
+      "page_rank": -2
+    },
+    {
+      "url": "https://infinit.sh/documentation/changelog",
+      "page_rank": -2
+    },
+    {
+      "url": "https://infinit.sh/documentation/.*",
+      "page_rank": -1
+    },
+    {
+      "url": "https://infinit.sh/documentation/comparison/.*",
+      "page_rank": -2
+    },
   ],
   "selectors": {
     "lvl0": {
