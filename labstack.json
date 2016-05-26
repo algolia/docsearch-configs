@@ -1,7 +1,7 @@
 {
   "index_name": "labstack",
   "start_urls": [
-    "https://labstack.com/echo"
+    "https://echo.labstack.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -16,6 +16,6 @@
     "lvl4": "article h5",
     "text": "article p, article li"
   },
-  "nb_hits": 459,
+  "nb_hits": 521,
   "js_render": true
 }
