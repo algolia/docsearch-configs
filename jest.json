@@ -5,20 +5,17 @@
     "http://facebook.github.io/jest/docs/.*"
   ],
   "selectors_exclude": [
-    ".hash-link"
+    ".hash-link",
+    ".edit-page-link"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "//div[@class='nav-docs']//a[@class='active']/../../../h3",
-      "type": "xpath",
-      "global": true
-    },
-    "lvl1": ".inner-content h1",
-    "lvl2": ".inner-content h2",
-    "lvl3": ".inner-content h3",
-    "lvl4": ".inner-content h4",
-    "lvl5": ".inner-content h5",
-    "text": ".inner-content p, .inner-content li"
+    "lvl0": ".post header h1",
+    "lvl1": ".post article h2",
+    "lvl2": ".post article h3",
+    "lvl3": ".post article h4",
+    "lvl4": ".post article h5",
+    "lvl5": ".post article h6",
+    "text": ".post article p, .post article li"
   },
   "min_indexed_level": 1,
   "nb_hits": 431
