@@ -12,7 +12,7 @@
     "lvl2": ".content-wrapper h3",
     "lvl3": ".content-wrapper h4",
     "lvl4": ".content-wrapper h5",
-    "text": ".content-wrapper p"
+    "text": ".content-wrapper p, .content-wrapper code"
   },
-  "nb_hits": 2033
+  "nb_hits": 3463
 }
