@@ -1,0 +1,34 @@
+{
+  "index_name": "branch",
+  "start_urls": [
+    "https://dev.branch.io/third-party-integrations/",
+    "https://dev.branch.io/getting-started/",
+    "https://dev.branch.io/features/",
+    "https://dev.branch.io/methods-endpoints/",
+    "https://dev.branch.io/getting-started/supported-standards/"
+  ],
+  "stop_urls": [
+    "https://dev.branch.io/[^/.]*?/$",
+    "overview"
+  ],
+  "scrap_start_urls": false,
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[@class='breadcrumbs']/li[last()]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class, 'btn-default') and not(contains(@class, 'btn-inactive'))]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl2": ".inner__content h2",
+    "lvl3": ".inner__content h3",
+    "lvl4": ".inner__content h4",
+    "lvl5": ".inner__content h5",
+    "text": ".inner__content p, .inner__content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 6746
+}
