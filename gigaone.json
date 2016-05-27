@@ -5,8 +5,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".breadcrumbs a:nth-child(3)",
-      "searchable": false
+      "selector": ".breadcrumbs a:nth-child(3)"
     },
     "lvl1": "#content h1",
     "lvl2": "#content .span8 h2",
@@ -15,5 +14,6 @@
     "lvl5": "",
     "text": "#content .span8 p"
   },
+  "min_indexed_level": 1,
   "nb_hits": 430
 }

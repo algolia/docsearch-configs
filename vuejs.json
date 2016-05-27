@@ -7,21 +7,15 @@
     },
     "http://vuejs.org/guide/"
   ],
-  "stop_urls": [
-    "http://vuejs.org/guide/index.html"
-  ],
-  "selectors_exclude": [
-    ".sidebar h2 .version-select"
-  ],
   "selectors": {
     "lvl0": {
       "selector": ".sidebar h2",
       "global": true
     },
-    "lvl1": ".content.guide h1, .content.api h1, .content.api h2, .content.api h3",
-    "lvl2": ".content.guide h2, .content.api h4",
-    "lvl3": ".content.guide h3",
-    "lvl4": ".content.guide h4",
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
     "text": ".content p"
   },
   "min_indexed_level": 1,

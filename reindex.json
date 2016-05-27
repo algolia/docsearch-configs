@@ -5,7 +5,6 @@
   ],
   "selectors": {
     "lvl0": {
-      "searchable": false,
       "selector": "(//li/a[contains(@class, 'active')]/../../../a[1]|//li/a[contains(@class, 'active')])[1]",
       "type": "xpath",
       "global": true
@@ -16,6 +15,7 @@
     "lvl4": ".markdown h4",
     "text": ".markdown p"
   },
+  "min_indexed_level": 1,
   "strip_chars": " :;,.#",
   "nb_hits": 765
 }

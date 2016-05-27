@@ -7,7 +7,6 @@
     "lvl0": {
       "selector": "//*[contains(@class, 'sidebar')]/*/a[@class='heading active']|//*[contains(@class, 'sidebar')]/*/*/a[@class='active']/../../preceding::li[1]/a",
       "type": "xpath",
-      "searchable": false,
       "global": true
     },
     "lvl1": ".container h1",
@@ -18,5 +17,6 @@
     "The lvl0 will first try to select the active headings in the sidebar (Homepage, Core, Page, Code Pinball)",
     "If none is found, it will look for active pages, and go up the tree to find the matching heading"
   ],
+  "min_indexed_level": 1,
   "nb_hits": 138
 }
