@@ -2,10 +2,6 @@
   "index_name": "lightningdesignsystem",
   "start_urls": [
     {
-      "url": "https://www.lightningdesignsystem.com/",
-      "page_rank": 1
-    },
-    {
       "url": "https://www.lightningdesignsystem.com/components/.*",
       "page_rank": 1
     },
@@ -28,6 +24,10 @@
     {
       "url": "https://www.lightningdesignsystem.com/resources/links/",
       "page_rank": -3
+    },
+    {
+      "url": "https://www.lightningdesignsystem.com/",
+      "page_rank": 1
     }
   ],
   "selectors_exclude": [
