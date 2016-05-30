@@ -1,0 +1,21 @@
+{
+  "index_name": "phpschool",
+  "start_urls": [
+    "https://www.phpschool.io/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'doc__side')]/ul/li/a[contains(@class, 'current')]/../preceding::h3[1]",
+      "type": "xpath"
+    },
+    "lvl1": ".doc__content h2",
+    "lvl2": ".doc__content h3",
+    "lvl3": ".doc__content h4",
+    "lvl4": ".doc__content h5",
+    "text": ".doc__content p, .doc__content li"
+  },
+  "scrap_start_urls": false,
+  "min_indexed_level": 1,
+  "nb_hits": 369
+}
