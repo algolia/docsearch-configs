@@ -1,0 +1,16 @@
+{
+  "index_name": "meta_sc",
+  "start_urls": [
+    "https://www.meta.sc/support/"
+  ],
+  "selectors_exclude": [
+    ".contact"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".cd-faq h2",
+    "lvl1": ".cd-faq .cd-faq-trigger",
+    "text": ".cd-faq-content p, .cd-faq-content li"
+  },
+  "nb_hits": 81
+}
