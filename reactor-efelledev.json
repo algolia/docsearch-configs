@@ -1,0 +1,17 @@
+{
+  "index_name": "reactor-efelledev",
+  "start_urls": [
+    "http://reactor.efelledev.com/codex"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".heading-area h1",
+    "lvl1": ".codex-content h2",
+    "lvl2": ".codex-content h3",
+    "lvl3": ".codex-content h4",
+    "lvl4": ".codex-content h5",
+    "text": ".codex-content p, .codex-content li"
+  },
+  "scrap_start_urls": false,
+  "nb_hits": 847
+}
