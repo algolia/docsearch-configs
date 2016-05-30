@@ -24,7 +24,7 @@
     "#content p:first-child"
   ],
   "selectors": {
-    "lvl0": ".header ul li.active a, #header ul li.active a",
+    "lvl0": ".header ul li.active a, #header ul li a.active",
     "lvl1": ".toc-level-0.selected > a, #sidebar .level-1.selected > a",
     "lvl2": "main h1, #content h1",
     "lvl3": "main h2, #content h2",
