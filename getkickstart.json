@@ -1,0 +1,22 @@
+{
+  "index_name": "getkickstart",
+  "start_urls": [
+    "http://getkickstart.com/docs/3.x/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    "nav li.active ul"
+  ],
+  "selectors": {
+    "lvl0": "nav li.active",
+    "lvl1": "aside h1",
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "lvl6": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 1038
+}
