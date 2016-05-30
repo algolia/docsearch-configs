@@ -5,7 +5,9 @@
   ],
   "stop_urls": [],
   "selectors_exclude": [
-    ".doc__title a"
+    ".back-to-top",
+    ".edit-on-gh",
+    ".anchor"
   ],
   "selectors": {
     "lvl0": {
