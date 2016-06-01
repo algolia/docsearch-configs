@@ -1,0 +1,22 @@
+{
+  "index_name": "middleman",
+  "start_urls": [
+    "https://middlemanapp.com/"
+  ],
+  "stop_urls": [
+    "https://middlemanapp.com/support/",
+    "https://middlemanapp.com/community/",
+    "https://middlemanapp.com/basics/start_new_site/",
+    "https://middlemanapp.com/basics/layouts/",
+    "https://middlemanapp.com/basics/build_and_deploy/",
+    "https://middlemanapp.com/advanced/sitemap/",
+    "https://middlemanapp.com/advanced/configuration/"
+  ],
+  "selectors": {
+    "lvl0": ".main h1",
+    "lvl1": ".main h2",
+    "text": ".main p"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 380
+}
