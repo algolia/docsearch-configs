@@ -1,0 +1,39 @@
+{
+  "index_name": "algolia_api_clients",
+  "start_urls": [
+    {
+      "url": "https://www.algolia.com/doc/(?P<language>.*?)$",
+      "variables": {
+        "language": [
+          "ruby",
+          "rails",
+          "python",
+          "django",
+          "php",
+          "symfony",
+          "laravel",
+          "javascript",
+          "go",
+          "java",
+          "scala",
+          "objective-c",
+          "swift",
+          "android",
+          "csharp"
+        ]
+      }
+    }
+  ],
+  "selectors_exclude": [
+    ".btn"
+  ],
+  "selectors": {
+    "lvl0": ".markdown-page h1",
+    "lvl1": ".markdown-page h2",
+    "lvl2": ".markdown-page h3",
+    "lvl3": ".markdown-page h4",
+    "lvl4": ".markdown-page h5",
+    "text": ".markdown-page p, .markdown-page li"
+  },
+  "nb_hits": 8836
+}
