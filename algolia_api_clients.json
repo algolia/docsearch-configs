@@ -47,5 +47,8 @@
     "lvl1": ".markdown-page h2",
     "text": ".markdown-page p, .markdown-page li"
   },
+  "custom_settings": {
+    "snippetEllipsisText": "..."
+  },
   "nb_hits": 3787
 }
