@@ -45,9 +45,6 @@
   "selectors": {
     "lvl0": ".markdown-page h1",
     "lvl1": ".markdown-page h2",
-    "lvl2": ".markdown-page h3",
-    "lvl3": ".markdown-page h4",
-    "lvl4": ".markdown-page h5",
     "text": ".markdown-page p, .markdown-page li"
   },
   "nb_hits": 3787
