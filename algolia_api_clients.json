@@ -22,7 +22,22 @@
           "csharp"
         ]
       }
-    }
+    },
+    "https://www.algolia.com/doc/ruby",
+    "https://www.algolia.com/doc/rails",
+    "https://www.algolia.com/doc/python",
+    "https://www.algolia.com/doc/django",
+    "https://www.algolia.com/doc/php",
+    "https://www.algolia.com/doc/symfony",
+    "https://www.algolia.com/doc/laravel",
+    "https://www.algolia.com/doc/javascript",
+    "https://www.algolia.com/doc/go",
+    "https://www.algolia.com/doc/java",
+    "https://www.algolia.com/doc/scala",
+    "https://www.algolia.com/doc/objective-c",
+    "https://www.algolia.com/doc/swift",
+    "https://www.algolia.com/doc/android",
+    "https://www.algolia.com/doc/csharp"
   ],
   "selectors_exclude": [
     ".btn"
@@ -35,5 +50,5 @@
     "lvl4": ".markdown-page h5",
     "text": ".markdown-page p, .markdown-page li"
   },
-  "nb_hits": 8836
+  "nb_hits": 3787
 }
