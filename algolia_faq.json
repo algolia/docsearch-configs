@@ -1,0 +1,17 @@
+{
+  "index_name": "algolia_faq",
+  "start_urls": [
+    "https://www.algolia.com/doc/faq"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".btn"
+  ],
+  "selectors": {
+    "lvl0": "#faq-article .faq-category",
+    "lvl1": "#faq-article .faq-title",
+    "text": "#faq-article p, #faq-article li"
+  },
+  "scrap_start_urls": false,
+  "nb_hits": 600
+}
