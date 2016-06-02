@@ -1,0 +1,64 @@
+{
+  "index_name": "algolia",
+  "start_urls": [
+    {
+      "url": "https://www.algolia.com/doc/getting-started/quick-start",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/search/auto-complete$",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/search/instant-search$",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/search/instant-search/instantsearchjs",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/indexing/formatting-your-data",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/indexing/import-synchronize-data",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/search/filtering-faceting",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/search/distinct",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/relevance/sorting",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/relevance/ranking",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/relevance/synonyms",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.algolia.com/doc/security/api-keys",
+      "page_rank": 1
+    }
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".btn"
+  ],
+  "selectors": {
+    "lvl0": "#doc-tab-wrapper h1",
+    "lvl1": ".markdown-page h1",
+    "lvl2": ".markdown-page h2",
+    "text": ".markdown-page p, .markdown-page li"
+  },
+  "nb_hits": 2213
+}
