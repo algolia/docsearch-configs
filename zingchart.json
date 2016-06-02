@@ -1,10 +1,10 @@
 {
   "index_name": "zingchart",
   "start_urls": [
-    "http://www.zingchart.com/docs/"
+    "https://www.zingchart.com/docs/"
   ],
   "stop_urls": [
-    "http://www.zingchart.com/docs/reference/change-log"
+    "https://www.zingchart.com/docs/reference/change-log"
   ],
   "selectors": {
     "lvl0": {
