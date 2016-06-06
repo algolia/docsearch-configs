@@ -45,5 +45,5 @@
   "js_render": true,
   "js_wait": 1,
   "docker_memory": 4096,
-  "nb_hits": 4325
+  "nb_hits": 2500
 }
