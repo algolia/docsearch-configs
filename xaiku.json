@@ -1,0 +1,22 @@
+{
+  "index_name": "xaiku",
+  "start_urls": [
+    "http://xaiku.github.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[@id='autonav']/li[contains(@class, active)]/preceding::h3[1]",
+      "type": "xpath"
+    },
+    "lvl1": "#mainRight h1",
+    "lvl2": "#mainRight h2",
+    "lvl3": "#mainRight h3",
+    "lvl4": "#mainRight h4",
+    "lvl5": "#mainRight h5",
+    "text": "#mainRight p, #mainRight li"
+  },
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nb_hits": 50
+}
