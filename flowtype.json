@@ -1,8 +1,8 @@
 {
   "index_name": "flowtype",
   "start_urls": [
-    "http://flowtype.org/docs/getting-started.html",
-    "http://flowtype.org/docs/.*"
+    "https://flowtype.org/docs/getting-started.html",
+    "https://flowtype.org/docs/.*"
   ],
   "selectors_exclude": [
     ".hash"
