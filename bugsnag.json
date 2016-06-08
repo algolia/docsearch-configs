@@ -1,0 +1,26 @@
+{
+  "index_name": "bugsnag",
+  "start_urls": [
+    "http://docs.bugsnag.com/",
+    "http://docs.bugsnag.com/platforms/",
+    "http://docs.bugsnag.com/enterprise/",
+    "http://docs.bugsnag.com/api/",
+    "http://docs.bugsnag.com/legal/"
+  ],
+  "stop_urls": [
+    "http://docs.bugsnag.com/[^/]*?/$"
+  ],
+  "selectors": {
+    "lvl0": ".TopBar-breadcrumbs a:nth-child(2)",
+    "lvl1": ".TopBar-breadcrumbs a:nth-child(3):not(last-child)",
+    "lvl2": ".Grid h1",
+    "lvl3": ".Grid h2",
+    "lvl4": ".Grid h3",
+    "lvl5": ".Grid h4",
+    "lvl6": ".Grid h5",
+    "text": ".Grid p, .Grid li"
+  },
+  "scrap_start_url": false,
+  "min_indexed_level": 2,
+  "nb_hits": 5776
+}
