@@ -8,9 +8,11 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".cd-faq h2",
-    "lvl1": ".cd-faq .cd-faq-trigger",
-    "text": ".cd-faq-content p, .cd-faq-content li"
+    "lvl0": ".support-indiv-main h2",
+    "lvl1": ".support-indiv-main h3",
+    "lvl2": ".support-indiv-main h4",
+    "lvl3": ".support-indiv-main h5",
+    "text": ".support-indiv-main p, .support-indiv-main li"
   },
-  "nb_hits": 81
+  "nb_hits": 127
 }
