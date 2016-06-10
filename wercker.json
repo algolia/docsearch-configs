@@ -8,7 +8,7 @@
     "http://devcenter.wercker.com/docs/index.html$"
   ],
   "selectors": {
-    "lvl0": "main h2",
+    "lvl0": "main h2, main h1",
     "lvl1": "main h3",
     "lvl2": "main h4",
     "lvl3": "main h5",
