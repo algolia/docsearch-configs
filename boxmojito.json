@@ -1,0 +1,19 @@
+{
+  "index_name": "boxmojito",
+  "start_urls": [
+    "http://opensource.box.com/mojito/docs/"
+  ],
+  "stop_urls": [
+    "http://opensource.box.com/mojito/docs/$"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
+  },
+  "scrap_start_urls": false,
+  "nb_hits": 147
+}
