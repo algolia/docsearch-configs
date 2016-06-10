@@ -1,0 +1,23 @@
+{
+  "index_name": "referralrock",
+  "start_urls": [
+    "https://referralrock.com/knowledgebase/"
+  ],
+  "selctors_exclude": [
+    "#table-of-contents"
+  ],
+  "stop_urls": [
+    "https://referralrock.com/knowledgebase/$",
+    "https://referralrock.com/knowledgebase/[^/]*?$"
+  ],
+  "selectors": {
+    "lvl0": "#body-inner h1",
+    "lvl1": "#body-inner h2",
+    "lvl2": "#body-inner h3",
+    "lvl3": "#body-inner h4",
+    "lvl4": "#body-inner h5",
+    "text": "#body-inner p, #body-inner li"
+  },
+  "scrap_start_urls": false,
+  "nb_hits": 208
+}
