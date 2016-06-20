@@ -1,8 +1,8 @@
 {
   "index_name": "lagomframework",
   "start_urls": [
-    "http://www.lagomframework.com/documentation/1.0.x/",
-    "http://www.lagomframework.com/documentation/1.0.x/Home.html"
+    "http://www.lagomframework.com/documentation/1.0.x/java",
+    "http://www.lagomframework.com/documentation/1.0.x/java/Home.html"
   ],
   "selectors_exclude": [
     ".section-marker"
