@@ -1,0 +1,48 @@
+{
+  "index_name": "meteor_api_guide",
+  "start_urls": [
+    {
+      "url": "http://docs.meteor.com",
+      "selectors_key": "api"
+    },
+    {
+      "url": "http://guide.meteor.com",
+      "selectors_key": "guide"
+    }
+  ],
+  "stop_urls": [
+    "#"
+  ],
+  "selectors": {
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Api"
+      },
+      "lvl1": {
+        "selector": "//ul[contains(@class, 'list-toc')]/li[contains(@class, 'current')]/../preceding::div[1]",
+        "type": "xpath"
+      },
+      "lvl2": ".content h1",
+      "lvl3": ".content h2",
+      "lvl4": ".content h3",
+      "lvl5": ".content h4",
+      "lvl6": ".content h5",
+      "text": ".content p, .content li, .content code"
+    },
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guides"
+      },
+      "lvl1": ".content-wrapper h1",
+      "lvl2": ".content-wrapper h2",
+      "lvl3": ".content-wrapper h3",
+      "lvl4": ".content-wrapper h4",
+      "lvl5": ".content-wrapper h5",
+      "text": ".content-wrapper p, .content-wrapper code"
+    }
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 7873
+}
