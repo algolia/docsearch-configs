@@ -33,7 +33,7 @@
     "guide": {
       "lvl0": {
         "selector": "",
-        "default_value": "Guides"
+        "default_value": "Guide"
       },
       "lvl1": ".content-wrapper h1",
       "lvl2": ".content-wrapper h2",
