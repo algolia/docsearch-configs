@@ -1,7 +1,7 @@
 {
   "index_name": "meteor_guide",
   "start_urls": [
-    "http://guide.meteor.com/"
+    "https://guide.meteor.com/"
   ],
   "stop_urls": [
     "#"
