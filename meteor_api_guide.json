@@ -2,11 +2,11 @@
   "index_name": "meteor_api_guide",
   "start_urls": [
     {
-      "url": "http://docs.meteor.com",
+      "url": "https://docs.meteor.com",
       "selectors_key": "api"
     },
     {
-      "url": "http://guide.meteor.com",
+      "url": "https://guide.meteor.com",
       "selectors_key": "guide"
     }
   ],
