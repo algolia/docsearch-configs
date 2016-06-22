@@ -1,7 +1,7 @@
 {
   "index_name": "rakam",
   "start_urls": [
-    "http://rakam.io/doc"
+    "https://rakam.io/doc"
   ],
   "selectors": {
     "lvl0": {
