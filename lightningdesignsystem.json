@@ -22,6 +22,10 @@
       "page_rank": -2
     },
     {
+      "url": "https://www.lightningdesignsystem.com/platforms/.*",
+      "page_rank": -2
+    },
+    {
       "url": "https://www.lightningdesignsystem.com/getting-started/.*",
       "page_rank": -2
     },
