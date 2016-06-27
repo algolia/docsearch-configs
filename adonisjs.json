@@ -2,24 +2,6 @@
   "index_name": "adonisjs",
   "start_urls": [
     {
-      "url": "http://legacy.adonisjs.com/docs/(?P<version>.*?)/installation",
-      "variables": {
-        "version": [
-          "1.0",
-          "2.0"
-        ]
-      }
-    },
-    {
-      "url": "http://legacy.adonisjs.com/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "1.0",
-          "2.0"
-        ]
-      }
-    },
-    {
       "url": "http://adonisjs.com/docs/(?P<version>.*?)/installation",
       "variables": {
         "version": [
@@ -38,16 +20,19 @@
   ],
   "stop_urls": [],
   "selectors_exclude": [
-    ".__note"
+    ".note"
   ],
   "selectors": {
-    "lvl0": ".nav__items.__active > li > span",
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "lvl0": {
+      "selector": ".nav-item.active > a",
+      "global": true
+    },
+    "lvl1": ".documentation h1",
+    "lvl2": ".documentation h2",
+    "lvl3": ".documentation h3",
+    "lvl4": ".documentation h4",
+    "lvl5": ".documentation h5",
+    "text": ".documentation p, .documentation li"
   },
   "min_indexed_level": 1,
   "nb_hits": 2418
