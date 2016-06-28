@@ -1,0 +1,21 @@
+{
+  "index_name": "blackfire",
+  "start_urls": [
+    "https://blackfire.io/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[@id=\"menu\"]//li[@class=\"active\"]/../preceding::a[1]",
+      "type": "xpath"
+    },
+    "lvl1": "#documentation h1",
+    "lvl2": "#documentation h2",
+    "lvl3": "#documentation h3",
+    "lvl4": "#documentation h4",
+    "lvl5": "#documentation h5",
+    "text": "#documentation p, #documentation li"
+  },
+  "nb_hits": 3155,
+  "js_render": true
+}
