@@ -7,6 +7,9 @@
     },
     "http://vuejs.org/guide/"
   ],
+  "selectors_exclude": [
+    ".version-select"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".sidebar h2",
