@@ -1,0 +1,23 @@
+{
+  "index_name": "docker",
+  "start_urls": [
+    "https://docs.docker.com"
+  ],
+  "stop_urls": [
+    "/v1.*$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[@class=\"nav-sub\"]//a[contains(@class, \"currentPage\")]/../../preceding::a[1]",
+      "type": "xpath"
+    },
+    "lvl1": "#DocumentationText h1",
+    "lvl2": "#DocumentationText h2",
+    "lvl3": "#DocumentationText h3",
+    "lvl4": "#DocumentationText h4",
+    "lvl5": "#DocumentationText h5",
+    "text": "#DocumentationText p, #DocumentationText li"
+  },
+  "nb_hits": 24539,
+  "min_indexed_level": 3
+}
