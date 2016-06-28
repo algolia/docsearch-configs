@@ -1,23 +1,30 @@
 {
   "index_name": "docker",
   "start_urls": [
-    "https://docs.docker.com"
+    "https://docs.docker.com/"
   ],
   "stop_urls": [
     "/v1.*$"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//ul[@class=\"nav-sub\"]//a[contains(@class, \"currentPage\")]/../../preceding::a[1]",
+      "selector": "//div[contains(@class, 'region')]/ul[@class='nav-sub']/li[contains(@class, 'active')]/a",
       "type": "xpath"
     },
-    "lvl1": "#DocumentationText h1",
-    "lvl2": "#DocumentationText h2",
-    "lvl3": "#DocumentationText h3",
-    "lvl4": "#DocumentationText h4",
-    "lvl5": "#DocumentationText h5",
+    "lvl1": {
+      "selector": "//div[contains(@class, 'region')]/ul[@class='nav-sub']/li[contains(@class, 'active')]/ul/li[contains(@class, 'active')]/a",
+      "type": "xpath"
+    },
+    "lvl2": {
+      "selector": "//div[contains(@class, 'region')]/ul[@class='nav-sub']//a[contains(@class, 'currentPage')]",
+      "type": "xpath"
+    },
+    "lvl3": "#DocumentationText h1",
+    "lvl4": "#DocumentationText h2",
+    "lvl5": "#DocumentationText h3",
+    "lvl6": "#DocumentationText h4",
     "text": "#DocumentationText p, #DocumentationText li"
   },
-  "nb_hits": 24539,
+  "nb_hits": 26952,
   "min_indexed_level": 3
 }
