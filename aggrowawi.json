@@ -1,0 +1,22 @@
+{
+  "index_name": "aggrowawi",
+  "start_urls": [
+    "http://docs.aggrowawi.de/automatisierung/workflows/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[@id='breadcrumbs']/a[2]",
+      "type": "xpath", 
+      "global": true
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 59
+}
