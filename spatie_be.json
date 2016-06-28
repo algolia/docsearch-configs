@@ -14,7 +14,8 @@
       "url": "https://docs.spatie.be/(?P<project>.*?)/v1",
       "variables": {
         "project": [
-          "menu"
+          "menu",
+          "laravel-activitylog"
         ]
       }
     }
@@ -31,5 +32,5 @@
     "lvl4": "article h5",
     "text": "article p"
   },
-  "nb_hits": 490
+  "nb_hits": 556
 }
