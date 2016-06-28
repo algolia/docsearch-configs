@@ -1,0 +1,20 @@
+{
+  "index_name": "opinioapp",
+  "start_urls": [
+    "http://deliver.opinioapp.com/api/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": { 
+      "selector": "//legend",
+      "type": "xpath"
+    },
+    "lvl2": ".page-content h3",
+    "lvl3": ".page-content h4",
+    "lvl4": ".page-content h5",
+    "text": ".page-content p, .page-content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 143
+}
