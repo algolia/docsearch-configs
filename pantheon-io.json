@@ -1,0 +1,21 @@
+{
+  "index_name": "pantheon-io",
+  "start_urls": [
+    "https://pantheon.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#doc h1",
+    "lvl2": "#doc h2",
+    "lvl3": "#doc h3",
+    "lvl4": "#doc h4",
+    "lvl5": "#doc h5",
+    "text": "#doc p, #doc li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 7123
+}
