@@ -19,7 +19,7 @@
     "lvl2": ".docs-view-article-topic-desc",
     "text": ".docs-view-article-container p, .docs-view-article-container li"
   },
-  "min_indexed_level": 3,
+  "min_indexed_level": 2,
   "scrap_start_url": false,
   "js_render": true,
   "nb_hits": 8
