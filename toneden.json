@@ -1,0 +1,26 @@
+{
+  "index_name": "toneden",
+  "start_urls": [
+    "https://docs.toneden.io/topic/getting-started/",
+    "https://docs.toneden.io/topic/aquiring-fans/",
+    "https://docs.toneden.io/topic/understanding-your-audience/",
+    "https://docs.toneden.io/topic/messaging-fans/",
+    "https://docs.toneden.io/topic/reach-fans-with-ads/"
+  ],
+  "stop_urls": [
+    "https://docs.toneden.io/.*?/.*?/$"
+  ],
+  "selectors": {
+    "lvl0": ".docs-view-article-topic-title",
+    "lvl1": {
+      "selector": "//*[contains(@class, 'docs-view-breadcrumbs')]/div/li[3]",
+      "type": "xpath"
+    },
+    "lvl2": ".docs-view-article-topic-desc",
+    "text": ".docs-view-article-container p, .docs-view-article-container li"
+  },
+  "min_indexed_level": 3,
+  "scrap_start_url": false,
+  "js_render": true,
+  "nb_hits": 8
+}
