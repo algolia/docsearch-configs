@@ -6,6 +6,9 @@
   "stop_urls": [
     "/v1.*$"
   ],
+  "selectors_exclude": [
+    ".advisory"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//div[contains(@class, 'region')]/ul[@class='nav-sub']/li[contains(@class, 'active')]/a",
