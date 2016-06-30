@@ -1,7 +1,21 @@
 {
   "index_name": "akeneo",
   "start_urls": [
-    "http://docs.akeneo.com/latest/"
+    {
+      "url": "http://docs.akeneo.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "1.0",
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5",
+          "master",
+          "latest"
+        ]
+      }
+    }
   ],
   "selectors": {
     "lvl0": {
@@ -16,5 +30,5 @@
     "text": ".section p"
   },
   "min_indexed_level": 2,
-  "nb_hits": 1677
+  "nb_hits": 8547
 }
