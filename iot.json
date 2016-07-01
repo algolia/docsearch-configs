@@ -13,12 +13,19 @@
   ],
   "scrap_start_urls": false,
   "selectors": {
-    "lvl0": ".page-content h1",
-    "lvl1": ".page-content h2",
-    "lvl2": ".page-content h3",
-    "lvl3": ".page-content h4",
-    "lvl4": ".page-content h5",
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".page-content h1",
+      "global": true
+    },
+    "lvl2": ".page-content h2",
+    "lvl3": ".page-content h3",
+    "lvl4": ".page-content h4",
+    "lvl5": ".page-content h5",
     "text": ".page-content p, .page-content li, .page-content td"
   },
-  "nb_hits": 2576
+  "nb_hits": 2575
 }
