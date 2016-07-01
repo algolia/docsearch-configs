@@ -2,19 +2,15 @@
   "index_name": "docker",
   "start_urls": [
     {
-      "url": "https://docs.docker.com/engine",
-      "page_rank": 15
-    },
-    {
-      "url": "https://docs.docker.com/docker-for-mac/",
+      "url": "https://docs.docker.com/engine/",
       "page_rank": 14
     },
     {
-      "url": "https://docs.docker.com/docker-for-windows/",
+      "url": "https://docs.docker.com/docker-for-mac/",
       "page_rank": 13
     },
     {
-      "url": "https://docs.docker.com/compose/",
+      "url": "https://docs.docker.com/docker-for-windows/",
       "page_rank": 12
     },
     {
@@ -26,43 +22,43 @@
       "page_rank": 10
     },
     {
-      "url": "https://docs.docker.com/docker-cloud",
+      "url": "https://docs.docker.com/docker-cloud/",
       "page_rank": 9
     },
     {
-      "url": "https://docs.docker.com/machine",
+      "url": "https://docs.docker.com/docker-store/",
       "page_rank": 8
     },
     {
-      "url": "https://docs.docker.com/docker-store",
+      "url": "https://docs.docker.com/compose/",
       "page_rank": 7
     },
     {
-      "url": "https://docs.docker.com/toolbox",
+      "url": "https://docs.docker.com/registry/",
       "page_rank": 6
     },
     {
-      "url": "https://docs.docker.com/swarm",
+      "url": "https://docs.docker.com/notary/",
       "page_rank": 5
     },
     {
-      "url": "https://docs.docker.com/registry",
+      "url": "https://docs.docker.com/machine/",
       "page_rank": 4
     },
     {
-      "url": "https://docs.docker.com/notary",
+      "url": "https://docs.docker.com/toolbox/",
       "page_rank": 3
     },
     {
-      "url": "https://docs.docker.com/engine",
+      "url": "https://docs.docker.com/opensource/",
       "page_rank": 2
     },
     {
-      "url": "https://docs.docker.com/opensource",
+      "url": "https://docs.docker.com/releases-notes/",
       "page_rank": 1
     },
     {
-      "url": "https://docs.docker.com/releases-notes",
+      "url": "https://docs.docker.com/swarm/",
       "page_rank": 0
     },
     "https://docs.docker.com/"
