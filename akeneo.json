@@ -2,7 +2,7 @@
   "index_name": "akeneo",
   "start_urls": [
     {
-      "url": "http://docs.akeneo.com/(?P<version>.*?)/",
+      "url": "https://docs.akeneo.com/(?P<version>.*?)/",
       "variables": {
         "version": [
           "1.0",
