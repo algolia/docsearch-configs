@@ -1,0 +1,21 @@
+{
+  "index_name": "fds",
+  "start_urls": [
+    "https://envato.github.io/foundation-design-system/"
+  ],
+  "stop_urls": [
+    "https://envato.github.io/foundation-design-system/$"
+  ],
+  "selectors_exclude": [
+    "pre"
+  ],
+  "selectors": {
+    "lvl0": ".ndpl-content h1, .ndpl-content h2",
+    "lvl3": ".ndpl-content h3",
+    "lvl4": ".ndpl-content h4",
+    "lvl5": ".ndpl-content h5",
+    "text": ".ndpl-content p, .ndpl-content li"
+  },
+  "js_render": true,
+  "nb_hits": 52
+}
