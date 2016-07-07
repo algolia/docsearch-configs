@@ -1,0 +1,41 @@
+{
+  "index_name": "cardconnect",
+  "start_urls": [
+    {
+      "url": "https://support.cardconnect.com/cardpointe",
+      "tags": [
+        "cardpointe"
+      ]
+    },
+    {
+      "url": "https://support.cardconnect.com/cardsecure",
+      "tags": [
+        "cardsecure"
+      ]
+    },
+    {
+      "url": "https://support.cardconnect.com/apis-gateway",
+      "tags": [
+        "apis-gateway"
+      ]
+    }
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'breadcrumb')]/div[contains(@class, 'icon')][1]/following::*[1]",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class, 'breadcrumb')]/div[contains(@class, 'icon')][2]/following::*[1]",
+      "type": "xpath"
+    },
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "lvl6": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 600
+}
