@@ -1,0 +1,28 @@
+{
+  "index_name": "jaredmorgs",
+  "start_urls": [
+    "https://jaredmorgs.gitbooks.io/pinball-arcade-for-android-new-ui-help-center/content/"
+  ],
+  "stop_urls": [
+    "GLOSSARY",
+    "https://jaredmorgs.gitbooks.io/pinball-arcade-for-android-new-ui-help-center/content$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'breadcrumb')]/li/a",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class, 'breadcrumb')]/li[contains(@class, 'active')]",
+      "type": "xpath"
+    },
+    "lvl2": ".faq-page h1",
+    "lvl3": ".faq-page h2",
+    "lvl4": ".faq-page h3",
+    "lvl5": ".faq-page h4",
+    "text": ".faq-page p, .faq-page li"
+  },
+  "scrap_start_urls": false,
+  "min_indexed_level": 1,
+  "nb_hits": 119
+}
