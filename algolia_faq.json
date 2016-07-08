@@ -8,10 +8,14 @@
     ".btn"
   ],
   "selectors": {
-    "lvl0": "#faq-article .faq-category",
-    "lvl1": "#faq-article .faq-title",
+    "lvl0": {
+      "selector": "",
+      "default_value": "Faq"
+    },
+    "lvl1": "#faq-article .faq-category",
+    "lvl2": "#faq-article .faq-title",
     "text": "#faq-article p, #faq-article li"
   },
   "scrap_start_urls": false,
-  "nb_hits": 600
+  "nb_hits": 630
 }
