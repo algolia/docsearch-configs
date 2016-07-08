@@ -16,6 +16,7 @@
     "lvl5": "#documentation h5",
     "text": "#documentation p, #documentation li"
   },
+  "min_indexed_level": 1,
   "nb_hits": 3155,
   "js_render": true
 }
