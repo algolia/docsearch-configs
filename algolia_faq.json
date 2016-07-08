@@ -16,6 +16,7 @@
     "lvl2": "#faq-article .faq-title",
     "text": "#faq-article p, #faq-article li"
   },
+  "min_indexed_level": 2,
   "scrap_start_urls": false,
   "nb_hits": 630
 }
