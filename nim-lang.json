@@ -1,0 +1,35 @@
+{
+  "index_name": "nim-lang",
+  "start_urls": [
+    {
+      "url": "http://nim-lang.org/docs/(?P<section>.*?).html",
+      "variables": {
+        "section": [
+          "lib",
+          "manual",
+          "nep1",
+          "nimc",
+          "nims",
+          "backends",
+          "filters",
+          "tools",
+          "gc",
+          "intern"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "http://nim-lang.org/docs/theindex.html"
+  ],
+  "selectors": {
+    "lvl0": "#content h1, #documentId h1",
+    "lvl1": "#content h2, #documentId h2",
+    "lvl2": "#content h3, #documentId h3",
+    "lvl3": "#content h4, #documentId h4",
+    "lvl4": "#content h5, #documentId h5",
+    "text": "#content p, #content li, #documentId p, #documentId li"
+  },
+  "nb_hits": 1696,
+  "min_indexed_level": 2
+}
