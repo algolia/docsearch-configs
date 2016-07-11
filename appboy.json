@@ -1,0 +1,25 @@
+{
+  "index_name": "appboy",
+  "start_urls": [
+    {
+      "url": "https://www.appboy.com/(?P<section>.*?)",
+      "variables": {
+        "section": [
+          "documentation",
+          "academy"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "ul.nav a.active",
+    "lvl1": ".article h1",
+    "lvl2": ".article h2",
+    "lvl3": ".article h3",
+    "lvl4": ".article h4",
+    "text": ".article p, .article li"
+  },
+  "nb_hits": 9459,
+  "min_indexed_level": 2
+}
