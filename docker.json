@@ -88,6 +88,9 @@
     "lvl6": "#DocumentationText h4",
     "text": "#DocumentationText p, #DocumentationText li"
   },
-  "nb_hits": 26744,
+  "nb_hits": 26820,
+  "custom_settings": {
+    "exactOnSingleWordQuery": "none"
+  },
   "min_indexed_level": 3
 }
