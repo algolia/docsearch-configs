@@ -6,13 +6,14 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "main h2"
+      "selector": "//*[@class=\"mdl-layout__drawer\"]//a[contains(@class, \"v-link-active\")]/../../span/span",
+      "type": "xpath"
     },
-    "lvl1": "main h3",
-    "lvl2": "main h4",
-    "lvl3": "main h5",
-    "lvl4": "main h6",
-    "text": "main p"
+    "lvl1": ".page-content h3",
+    "lvl2": ".page-content h4",
+    "lvl3": ".page-content h5",
+    "lvl4": ".page-content h6",
+    "text": ".page-content p"
   },
   "js_render": true,
   "js_wait": 2,
