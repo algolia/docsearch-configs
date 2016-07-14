@@ -2,59 +2,36 @@
   "index_name": "algolia",
   "start_urls": [
     {
-      "url": "https://www.algolia.com/doc/getting-started/quick-start",
+      "url": "https://www.algolia.com/doc/guides",
       "page_rank": 1
     },
     {
-      "url": "https://www.algolia.com/doc/search/auto-complete$",
-      "page_rank": 1
+      "url": "https://www.algolia.com/doc/guides/.*?/.*?/(?P<language>.*?)$",
+      "variables": {
+        "language": [
+          "ruby",
+          "rails",
+          "python",
+          "django",
+          "php",
+          "symfony",
+          "laravel",
+          "javascript",
+          "go",
+          "java",
+          "scala",
+          "objective-c",
+          "swift",
+          "android",
+          "csharp",
+          "android",
+          "algoliahelperjs",
+          "instantsearchjs"
+        ]
+      }
     },
     {
-      "url": "https://www.algolia.com/doc/search/instant-search$",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/search/instant-search/instantsearchjs",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/indexing/formatting-your-data",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/indexing/import-synchronize-data",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/search/filtering-faceting",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/search/distinct",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/relevance/sorting",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/relevance/ranking",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/relevance/synonyms",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/security/api-keys",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/rest",
-      "page_rank": -2
-    },
-    {
-      "url": "https://www.algolia.com/doc/(?P<language>.*?)$",
+      "url": "https://www.algolia.com/doc/api-client/(?P<language>.*?)/",
       "variables": {
         "language": [
           "ruby",
@@ -73,28 +50,87 @@
           "android",
           "csharp"
         ]
-      },
-      "page_rank": -1
+      }
+    },
+    "https://www.algolia.com/doc/guides/getting-started/quick-start",
+    "https://www.algolia.com/doc/guides/search/auto-complete",
+    "https://www.algolia.com/doc/guides/search/instant-search",
+    "https://www.algolia.com/doc/guides/search/instant-search/instantsearchjs",
+    "https://www.algolia.com/doc/guides/indexing/formatting-your-data",
+    "https://www.algolia.com/doc/guides/indexing/import-synchronize-data",
+    "https://www.algolia.com/doc/guides/search/filtering-faceting",
+    "https://www.algolia.com/doc/guides/search/distinct",
+    "https://www.algolia.com/doc/guides/relevance/sorting",
+    "https://www.algolia.com/doc/guides/relevance/ranking",
+    "https://www.algolia.com/doc/guides/relevance/synonyms",
+    "https://www.algolia.com/doc/guides/security/api-keys",
+    {
+      "url": "https://www.algolia.com/doc/faq",
+      "selectors_key": "faq"
     },
     "https://www.algolia.com/doc"
   ],
+  "scrap_start_urls": false,
   "stop_urls": [
-    "https://www.algolia.com/doc/faq"
+    "https://www.algolia.com/doc/api-client$",
+    "https://www.algolia.com/doc/api-client/ruby$",
+    "https://www.algolia.com/doc/api-client/rails$",
+    "https://www.algolia.com/doc/api-client/python$",
+    "https://www.algolia.com/doc/api-client/django$",
+    "https://www.algolia.com/doc/api-client/php$",
+    "https://www.algolia.com/doc/api-client/symfony$",
+    "https://www.algolia.com/doc/api-client/laravel$",
+    "https://www.algolia.com/doc/api-client/javascript$",
+    "https://www.algolia.com/doc/api-client/go$",
+    "https://www.algolia.com/doc/api-client/java$",
+    "https://www.algolia.com/doc/api-client/scala$",
+    "https://www.algolia.com/doc/api-client/objective-c$",
+    "https://www.algolia.com/doc/api-client/swift$",
+    "https://www.algolia.com/doc/api-client/android$",
+    "https://www.algolia.com/doc/api-client/csharp$",
+    "https://www.algolia.com/doc/guides/indexing/import-synchronize-data$",
+    "https://www.algolia.com/doc/guides/search/instant-search$",
+    "doc/tutorials",
+    "https://www.algolia.com/doc/rest"
   ],
   "selectors_exclude": [
-    ".btn"
+    ".btn",
+    "#parameters-list",
+    "#index-settings-parameters",
+    "#search-parameters"
   ],
   "selectors": {
-    "lvl0": "#doc-tab-wrapper h1",
-    "lvl1": "#step-intro h2, #doc-tab-content .markdown-page h1",
-    "lvl2": "#step-intro h3, #doc-tab-content .markdown-page h2",
-    "lvl3": "#doc-tab-content .markdown-page h3",
-    "lvl4": "#doc-tab-content .markdown-page h4",
-    "lvl5": "#doc-tab-content .markdown-page h5",
-    "text": "#step-intro p, #doc-tab-content .markdown-page p, #doc-tab-content .markdown-page li"
+    "default": {
+      "lvl0": "#doc-navbar li.active",
+      "lvl1": ".ul-group.current .ul-group-name",
+      "lvl2": ".markdown-page h2",
+      "lvl3": ".markdown-page h3",
+      "lvl4": ".markdown-page h4",
+      "lvl5": ".markdown-page h5",
+      "text": ".markdown-page p"
+    },
+    "faq": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Faq"
+      },
+      "lvl1": "#faq-article .faq-category",
+      "lvl2": "#faq-article .faq-title",
+      "text": "#faq-article p, #faq-article li"
+    }
   },
+  "min_indexed_level": 2,
   "custom_settings": {
-    "ranking": ["words", "filters", "typo", "attribute", "proximity", "exact", "custom"]
+    "ranking": [
+      "words",
+      "filters",
+      "typo",
+      "attribute",
+      "proximity",
+      "exact",
+      "custom"
+    ],
+    "attributeForDistinct": "common_url"
   },
-  "nb_hits": 8836
+  "nb_hits": 7268
 }
