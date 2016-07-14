@@ -120,13 +120,16 @@
         "selector": "",
         "default_value": "Faq"
       },
-      "lvl1": "#random",
-      "lvl2": "#faq-article .faq-category",
+      "lvl1": "#faq-article .faq-category",
+      "lvl2": "#random",
       "lvl3": "#faq-article .faq-title",
       "text": "#faq-article p, #faq-article li"
     }
   },
-  "min_indexed_level": 2,
+  "min_indexed_level": {
+    "default": 2,
+    "faq": 3
+  },
   "custom_settings": {
     "ranking": [
       "words",
@@ -137,7 +140,7 @@
       "exact",
       "custom"
     ],
-    "attributeForDistinct": "common_url"
+    "attributeForDistinct": "url_without_variables"
   },
-  "nb_hits": 6812
+  "nb_hits": 7042
 }
