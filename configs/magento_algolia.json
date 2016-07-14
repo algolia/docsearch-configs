@@ -1,0 +1,39 @@
+{
+  "index_name": "magento_algolia",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/magento/documentation/",
+      "selectors_key": "docs"
+    },
+    {
+      "url": "https://community.algolia.com/magento/faq/",
+      "selectors_key": "faq"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "docs": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".documentation-content h1",
+      "lvl2": ".documentation-content h2",
+      "lvl3": ".documentation-content h3",
+      "lvl4": ".documentation-content h4",
+      "text": ".documentation-content p, .documentation-content li"
+    },
+    "faq": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "FAQ"
+      },
+      "lvl1": ".faq h2",
+      "lvl2": ".faq h3",
+      "lvl3": ".faq h4",
+      "lvl4": ".faq h5",
+      "text": ".faq p, .faq li"
+    }
+  },
+  "nb_hits": 180
+}

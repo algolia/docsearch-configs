@@ -1,0 +1,23 @@
+{
+  "index_name": "vue-mdl",
+  "start_urls": [
+    "http://posva.net/vue-mdl/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"mdl-layout__drawer\"]//a[contains(@class, \"v-link-active\")]/../../span/span",
+      "type": "xpath"
+    },
+    "lvl1": ".page-content h3",
+    "lvl2": ".page-content h4",
+    "lvl3": ".page-content h5",
+    "lvl4": ".page-content h6",
+    "text": ".page-content p"
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "use_anchors": true,
+  "min_indexed_level": 2,
+  "nb_hits": 199
+}
