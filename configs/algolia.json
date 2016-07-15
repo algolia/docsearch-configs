@@ -94,6 +94,7 @@
     "https://www.algolia.com/doc/guides/indexing/import-synchronize-data$",
     "https://www.algolia.com/doc/guides/search/instant-search$",
     "doc/tutorials",
+    "objective-c",
     "https://www.algolia.com/doc/rest"
   ],
   "selectors_exclude": [
