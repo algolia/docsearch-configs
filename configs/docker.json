@@ -72,7 +72,8 @@
   "selectors": {
     "lvl0": {
       "selector": "//div[contains(@class, 'region')]/ul[@class='nav-sub']/li[contains(@class, 'active')]/a",
-      "type": "xpath"
+      "type": "xpath",
+      "default_value": "Engine"
     },
     "lvl1": {
       "selector": "//div[contains(@class, 'region')]/ul[@class='nav-sub']/li[contains(@class, 'active')]/ul/li[contains(@class, 'active')]/a",
