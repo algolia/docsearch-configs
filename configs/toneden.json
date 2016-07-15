@@ -2,10 +2,10 @@
   "index_name": "toneden",
   "start_urls": [
     "https://docs.toneden.io/topic/getting-started/",
-    "https://docs.toneden.io/topic/aquiring-fans/",
-    "https://docs.toneden.io/topic/understanding-your-audience/",
+    "https://docs.toneden.io/topic/fan-acquisition/",
+    "https://docs.toneden.io/topic/audience-management/",
     "https://docs.toneden.io/topic/messaging-fans/",
-    "https://docs.toneden.io/topic/reach-fans-with-ads/"
+    "https://docs.toneden.io/topic/automated-ads/"
   ],
   "stop_urls": [
     "https://docs.toneden.io/.*?/.*?/$"
