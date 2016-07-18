@@ -95,7 +95,8 @@
     "https://www.algolia.com/doc/guides/search/instant-search$",
     "doc/tutorials",
     "objective-c",
-    "https://www.algolia.com/doc/rest"
+    "https://www.algolia.com/doc/rest",
+    "synonyms-v1"
   ],
   "selectors_exclude": [
     ".btn",
@@ -141,7 +142,9 @@
       "exact",
       "custom"
     ],
-    "attributeForDistinct": "url_without_variables"
+    "attributeForDistinct": "url_without_variables",
+    "minWordSizefor1Typo": 4,
+    "minWordSizefor2Typos": 8
   },
-  "nb_hits": 6912
+  "nb_hits": 6543
 }
