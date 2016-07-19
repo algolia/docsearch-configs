@@ -3,7 +3,8 @@
   "start_urls": [
     {
       "url": "https://www.algolia.com/doc/guides",
-      "page_rank": 1
+      "page_rank": 1,
+      "selectors_key": "guide"
     },
     {
       "url": "https://www.algolia.com/doc/guides/.*?/.*?/(?P<language>.*?)$",
@@ -87,7 +88,6 @@
     "https://www.algolia.com/doc/api-client/go$",
     "https://www.algolia.com/doc/api-client/java$",
     "https://www.algolia.com/doc/api-client/scala$",
-    "https://www.algolia.com/doc/api-client/objective-c$",
     "https://www.algolia.com/doc/api-client/swift$",
     "https://www.algolia.com/doc/api-client/android$",
     "https://www.algolia.com/doc/api-client/csharp$",
@@ -102,7 +102,8 @@
     ".btn",
     "#parameters-list",
     "#index-settings-parameters",
-    "#search-parameters"
+    "#search-parameters",
+    ".next-previous-links"
   ],
   "selectors": {
     "default": {
@@ -115,6 +116,19 @@
       "lvl3": ".markdown-page h3",
       "lvl4": ".markdown-page h4",
       "lvl5": ".markdown-page h5",
+      "text": ".markdown-page p"
+    },
+    "guide": {
+      "lvl0": {
+        "selector": "#doc-navbar li.active, .language-navigation li.active .tab_language_name",
+        "global": true
+      },
+      "lvl1": ".ul-group.current .ul-group-name",
+      "lvl2": ".ul-group.current .sub-li.active .toc_title",
+      "lvl3": ".markdown-page h2",
+      "lvl4": ".markdown-page h3",
+      "lvl5": ".markdown-page h4",
+      "lvl6": ".markdown-page h5",
       "text": ".markdown-page p"
     },
     "faq": {
@@ -130,6 +144,7 @@
   },
   "min_indexed_level": {
     "default": 2,
+    "guide": 3,
     "faq": 3
   },
   "custom_settings": {
