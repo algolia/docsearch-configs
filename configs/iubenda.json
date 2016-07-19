@@ -1,0 +1,18 @@
+{
+  "index_name": "iubenda",
+  "start_urls": [
+    "http://www.iubenda.com/en/help"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".post_body .header h3",
+    "lvl1": ".post_body .header h1",
+    "lvl2": ".post_body div[data-swiftype-name='body'] h2",
+    "lvl3": ".post_body div[data-swiftype-name='body'] h3",
+    "lvl4": ".post_body div[data-swiftype-name='body'] h4",
+    "text": ".post_body div[data-swiftype-name='body'] p, .post_body div[data-swiftype-name='body'] li"
+  },
+  "nb_hits": 3405,
+  "min_indexed_level": 2
+}
