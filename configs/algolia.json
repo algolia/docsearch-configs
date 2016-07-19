@@ -91,7 +91,7 @@
     "https://www.algolia.com/doc/api-client/swift$",
     "https://www.algolia.com/doc/api-client/android$",
     "https://www.algolia.com/doc/api-client/csharp$",
-    "https://www.algolia.com/doc/guides/indexing/import-synchronize-data$",
+    "import-synchronize-data$",
     "https://www.algolia.com/doc/guides/search/instant-search$",
     "doc/tutorials",
     "objective-c",
@@ -123,12 +123,11 @@
         "selector": "#doc-navbar li.active, .language-navigation li.active .tab_language_name",
         "global": true
       },
-      "lvl1": ".ul-group.current .ul-group-name",
-      "lvl2": ".ul-group.current .sub-li.active .toc_title",
-      "lvl3": ".markdown-page h2",
-      "lvl4": ".markdown-page h3",
-      "lvl5": ".markdown-page h4",
-      "lvl6": ".markdown-page h5",
+      "lvl1": ".ul-group.current .sub-li.active .toc_title",
+      "lvl2": ".markdown-page h2",
+      "lvl3": ".markdown-page h3",
+      "lvl4": ".markdown-page h4",
+      "lvl5": ".markdown-page h5",
       "text": ".markdown-page p"
     },
     "faq": {
@@ -144,7 +143,6 @@
   },
   "min_indexed_level": {
     "default": 2,
-    "guide": 3,
     "faq": 3
   },
   "custom_settings": {
@@ -161,5 +159,5 @@
     "minWordSizefor1Typo": 4,
     "minWordSizefor2Typos": 8
   },
-  "nb_hits": 6543
+  "nb_hits": 6709
 }
