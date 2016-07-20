@@ -44,7 +44,9 @@
       "selectors_key": "faq"
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/$"
+  ],
   "selectors": {
     "default": {
       "lvl0": {
