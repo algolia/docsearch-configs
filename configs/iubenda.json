@@ -1,7 +1,7 @@
 {
   "index_name": "iubenda",
   "start_urls": [
-    "http://www.iubenda.com/en/help"
+    "https://www.iubenda.com/en/help"
   ],
   "stop_urls": [],
   "selectors_exclude": [],
