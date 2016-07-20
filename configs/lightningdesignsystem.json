@@ -53,7 +53,7 @@
     "[data-docsearch-ignore]"
   ],
   "selectors": {
-    "lvl0": "main h1",
+    "lvl0": "main h1, [data-docsearch-level=1]",
     "lvl1": ".site-content h2, [data-docsearch-level=2]",
     "lvl2": ".site-content h3, [data-docsearch-level=3]",
     "lvl3": ".site-content h4",
