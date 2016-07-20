@@ -1,0 +1,34 @@
+{
+  "index_name": "mongoframes",
+  "start_urls": [
+    {
+      "url": "http://mongoframes.com/getting-started",
+      "tags": [
+        "getting-started"
+      ]
+    },
+    {
+      "url": "http://mongoframes.com/snippets",
+      "tags": [
+        "snippets"
+      ]
+    },
+    {
+      "url": "http://mongoframes.com/api",
+      "tags": [
+        "api"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".masthead .masthead__title",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4, main p.definition",
+    "lvl4": "main h5",
+    "text": "main p, main li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 438
+}
