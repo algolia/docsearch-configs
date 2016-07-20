@@ -1,0 +1,88 @@
+{
+  "index_name": "pydio",
+  "start_urls": [
+    {
+      "url": "https://pydio.com/en/docs/v6-enterprise",
+      "tags": [
+        "administration-guide"
+      ],
+      "selectors_key": "default"
+    },
+    {
+      "url": "https://pydio.com/en/docs/kb",
+      "tags": [
+        "knowledge-base"
+      ],
+      "selectors_key": "knowledge-base"
+    },
+    {
+      "url": "https://pydio.com/en/docs/developer-guide",
+      "tags": [
+        "developer-guide"
+      ],
+      "selectors_key": "default"
+    },
+    {
+      "url": "https://pydio.com/en/docs/references/plugins",
+      "tags": [
+        "plugins"
+      ],
+      "selectors_key": "plugins"
+    },
+    {
+      "url": "https://pydio.com/en/docs/references/pydio-api",
+      "tags": [
+        "api"
+      ],
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://pydio.com/en/docs/faq",
+      "tags": [
+        "faq"
+      ],
+      "selectors_key": "faq"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//div[@class=\"documentation-menu\"]//a[@class=\"active\"]/../../../a",
+        "type": "xpath"
+      },
+      "lvl1": "article.documentation h1",
+      "lvl2": "article.documentation h2",
+      "lvl3": "article.documentation h3",
+      "lvl4": "article.documentation h4",
+      "lvl5": "article.documentation h5",
+      "text": "article.documentation p, article.documentation li"
+    },
+    "knowledge-base": {
+      "lvl0": "article .field-item",
+      "lvl1": "article.documentation h1",
+      "lvl2": "article.documentation h2",
+      "lvl3": "article.documentation h3",
+      "lvl4": "article.documentation h4",
+      "lvl5": "article.documentation h5",
+      "text": "article.documentation p, article.documentation li"
+    },
+    "plugins": {
+      "lvl0": "#content h1",
+      "lvl1": "#content h2",
+      "lvl2": "#content h3",
+      "text": "#content p, #content li, #content td:last-child"
+    },
+    "api": {
+      "lvl0": "#resources_container .heading  h2",
+      "lvl1": "#resources_container .content p"
+    },
+    "faq": {
+      "lvl0": "section .question",
+      "lvl1": "section .answer"
+    }
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 6785,
+  "js_render": true
+}
