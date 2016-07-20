@@ -1,0 +1,14 @@
+{
+  "index_name": "benja",
+  "start_urls": [
+    "https://benja.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main h3",
+    "lvl1": "main h4",
+    "text": "main p, main li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 51
+}
