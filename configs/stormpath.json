@@ -1,0 +1,19 @@
+{
+  "index_name": "stormpath",
+  "start_urls": [
+    "https://docs.stormpath.com/rest/product-guide/latest/about.html",
+    "https://docs.stormpath.com/rest/product-guide/latest"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "div.section h1",
+    "lvl1": "div.section h2",
+    "lvl2": "div.section h3",
+    "lvl3": "div.section h4",
+    "lvl4": "div.section h5",
+    "text": "div.section p, div.section li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 3383,
+  "strip_chars": " :;,.1234567890¶"
+}
