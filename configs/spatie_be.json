@@ -15,7 +15,8 @@
       "variables": {
         "project": [
           "menu",
-          "laravel-activitylog"
+          "laravel-activitylog",
+          "laravel-slack-slash-command"
         ]
       }
     }
