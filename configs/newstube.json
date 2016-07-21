@@ -1,0 +1,16 @@
+{
+  "index_name": "newstube",
+  "start_urls": [
+    "http://newstube.cactusthemes.com/doc/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main .widget-title",
+    "lvl1": "main article h1",
+    "lvl2": "main article h2",
+    "lvl3": "main article h3",
+    "lvl4": "main article h4",
+    "text": "main article p, main article li"
+  },
+  "min_indexed_level": 2
+}
