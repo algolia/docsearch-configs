@@ -7,28 +7,9 @@
       "selectors_key": "guide"
     },
     {
-      "url": "https://www.algolia.com/doc/guides/.*?/.*?/(?P<language>.*?)$",
-      "variables": {
-        "language": [
-          "ruby",
-          "rails",
-          "python",
-          "django",
-          "php",
-          "symfony",
-          "laravel",
-          "javascript",
-          "go",
-          "java",
-          "scala",
-          "swift",
-          "android",
-          "csharp",
-          "android",
-          "algoliahelperjs",
-          "instantsearchjs"
-        ]
-      }
+      "url": "https://www.algolia.com/rest-api",
+      "page_rank": -1,
+      "selectors_key": "default"
     },
     {
       "url": "https://www.algolia.com/doc/api-client/.*?/parameters",
@@ -56,18 +37,6 @@
       },
       "page_rank": 3
     },
-    "https://www.algolia.com/doc/guides/getting-started/quick-start",
-    "https://www.algolia.com/doc/guides/search/auto-complete",
-    "https://www.algolia.com/doc/guides/search/instant-search",
-    "https://www.algolia.com/doc/guides/search/instant-search/instantsearchjs",
-    "https://www.algolia.com/doc/guides/indexing/formatting-your-data",
-    "https://www.algolia.com/doc/guides/indexing/import-synchronize-data",
-    "https://www.algolia.com/doc/guides/search/filtering-faceting",
-    "https://www.algolia.com/doc/guides/search/distinct",
-    "https://www.algolia.com/doc/guides/relevance/sorting",
-    "https://www.algolia.com/doc/guides/relevance/ranking",
-    "https://www.algolia.com/doc/guides/relevance/synonyms",
-    "https://www.algolia.com/doc/guides/security/api-keys",
     {
       "url": "https://www.algolia.com/doc/faq",
       "selectors_key": "faq"
@@ -92,17 +61,15 @@
     "api-client/android$",
     "api-client/csharp$",
     "import-synchronize-data$",
-    "guides/search/instant-search$",
+    "guides/[^/]+/[^/]+/[^/]+$",
     "doc/tutorials",
     "objective-c",
-    "doc/rest",
+    "rest-api/search",
     "synonyms-v1"
   ],
   "selectors_exclude": [
     ".btn",
     "#parameters-list",
-    "#index-settings-parameters",
-    "#search-parameters",
     ".next-previous-links"
   ],
   "selectors": {
@@ -116,7 +83,7 @@
       "lvl3": ".markdown-page h3",
       "lvl4": ".markdown-page h4",
       "lvl5": ".markdown-page h5",
-      "text": ".markdown-page p"
+      "text": ".markdown-page p, .markdown-page li"
     },
     "guide": {
       "lvl0": {
@@ -128,7 +95,7 @@
       "lvl3": ".markdown-page h3",
       "lvl4": ".markdown-page h4",
       "lvl5": ".markdown-page h5",
-      "text": ".markdown-page p"
+      "text": ".markdown-page p, .markdown-page li"
     },
     "faq": {
       "lvl0": {
@@ -145,6 +112,9 @@
     "default": 2,
     "faq": 3
   },
+  "keep_tags": [
+    "code"
+  ],
   "custom_settings": {
     "ranking": [
       "words",
@@ -152,12 +122,19 @@
       "typo",
       "attribute",
       "proximity",
-      "exact",
       "custom"
     ],
     "attributeForDistinct": "url_without_variables",
     "minWordSizefor1Typo": 4,
-    "minWordSizefor2Typos": 8
+    "minWordSizefor2Typos": 8,
+    "attributesToIndex": [
+      "hierarchy_radio.lvl0",
+      "hierarchy_radio.lvl1, hierarchy_radio.lvl2, hierarchy_radio.lvl3, hierarchy_radio.lvl4, hierarchy_radio.lvl5",
+      "hierarchy.lvl0",
+      "hierarchy.lvl1, hierarchy.lvl2, hierarchy.lvl3, hierarchy.lvl4, hierarchy.lvl5",
+      "content"
+    ]
   },
-  "nb_hits": 6485
+  "extra_records": [{"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "ruby", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client ruby", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client ruby"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "rails", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client rails", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client rails"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "python", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client python", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client python"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "django", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client django", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client django"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "php", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client php", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client php"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "symfony", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client symfony", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client symfony"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "laravel", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client laravel", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client laravel"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "javascript", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client javascript", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client javascript"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "go", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client go", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client go"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "java", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client java", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client java"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "scala", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client scala", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client scala"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "swift", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client swift", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client swift"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "android", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client android", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client android"}, "no_variables": true}, {"url_without_variables": "https://www.algolia.com/doc/api-client/", "language": "csharp", "url": "https://www.algolia.com/doc/api-client/php", "weight": {"page_rank": 3}, "hierarchy": {"lvl2": "API Client csharp", "lvl3": null, "lvl0": "Quick access", "lvl1": "Go to", "lvl6": null, "lvl4": null, "lvl5": null}, "hierarchy_radio": {"lvl0": "API Client csharp"}, "no_variables": true}],
+  "nb_hits": 10804
 }
