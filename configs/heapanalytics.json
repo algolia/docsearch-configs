@@ -1,0 +1,16 @@
+{
+  "index_name": "heapanalytics",
+  "start_urls": [
+    "https://heapanalytics.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": "#main h2",
+    "lvl1": "#main h3",
+    "lvl2": "#main h4",
+    "lvl3": "#main h5",
+    "text": "#main p, #main li"
+  },
+  "nb_hits": 1498
+}
