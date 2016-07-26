@@ -6,7 +6,7 @@
       "tags": [
         "administration-guide"
       ],
-      "selectors_key": "default"
+      "selectors_key": "administrator"
     },
     {
       "url": "https://pydio.com/en/docs/kb",
@@ -20,7 +20,7 @@
       "tags": [
         "developer-guide"
       ],
-      "selectors_key": "default"
+      "selectors_key": "developer"
     },
     {
       "url": "https://pydio.com/en/docs/references/plugins",
@@ -48,10 +48,24 @@
     "/$"
   ],
   "selectors": {
-    "default": {
+    "administrator": {
       "lvl0": {
         "selector": "//div[@class=\"documentation-menu\"]//a[@class=\"active\"]/../../../a",
-        "type": "xpath"
+        "type": "xpath",
+        "default":"Administration Guide"
+      },
+      "lvl1": "article.documentation h1",
+      "lvl2": "article.documentation h2",
+      "lvl3": "article.documentation h3",
+      "lvl4": "article.documentation h4",
+      "lvl5": "article.documentation h5",
+      "text": "article.documentation p, article.documentation li"
+    },
+    "developer": {
+      "lvl0": {
+        "selector": "//div[@class=\"documentation-menu\"]//a[@class=\"active\"]/../../../a",
+        "type": "xpath",
+        "default":"Developer Guide"
       },
       "lvl1": "article.documentation h1",
       "lvl2": "article.documentation h2",
@@ -61,7 +75,11 @@
       "text": "article.documentation p, article.documentation li"
     },
     "knowledge-base": {
-      "lvl0": "article .field-item",
+      "lvl0": {
+        "selector": "//div[@class=\"documentation-menu\"]//a[@class=\"active\"]/../../../a",
+        "type": "xpath",
+        "default":"Knowledge Base"
+      },
       "lvl1": "article.documentation h1",
       "lvl2": "article.documentation h2",
       "lvl3": "article.documentation h3",
@@ -70,18 +88,31 @@
       "text": "article.documentation p, article.documentation li"
     },
     "plugins": {
-      "lvl0": "#content h1",
-      "lvl1": "#content h2",
-      "lvl2": "#content h3",
-      "text": "#content p, #content li, #content td:last-child"
+      "lvl0": {
+        "selector":"a[@class=\"fake_class_test\"]",
+        "default" :"Plugins Reference"
+      },
+      "lvl1": "#content h1",
+      "lvl2": "#content h2",
+      "lvl3": "#content h3",
+      "text": "#content p, #content li, #content tbody td"
     },
     "api": {
-      "lvl0": "#resources_container .heading  h2",
-      "lvl1": "#resources_container .content p"
+      "lvl0": {
+        "selector":"a[@class=\"fake_class_test\"]",
+        "default" :"API Reference"
+      },
+      "lvl1": "#resources_container .heading  h2",
+      "lvl2": "#resources_container .content p"
     },
     "faq": {
-      "lvl0": "section .question",
-      "lvl1": "section .answer"
+      "lvl0": {
+        "selector": "//div[@class=\"documentation-menu\"]//a[@class=\"active\"]/../../../a",
+        "type": "xpath",
+        "default" :"F.A.Q."
+      },
+      "lvl1": "section .question p",
+      "text": "section .answer p"
     }
   },
   "min_indexed_level": 2,
