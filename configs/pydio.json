@@ -89,7 +89,7 @@
     },
     "plugins": {
       "lvl0": {
-        "selector":"a[@class=\"fake_class_test\"]",
+        "selector":"",
         "default" :"Plugins Reference"
       },
       "lvl1": "#content h1",
@@ -99,7 +99,7 @@
     },
     "api": {
       "lvl0": {
-        "selector":"a[@class=\"fake_class_test\"]",
+        "selector":"",
         "default" :"API Reference"
       },
       "lvl1": "#resources_container .heading  h2",
