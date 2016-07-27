@@ -1,0 +1,29 @@
+{
+  "index_name": "nexmo",
+  "start_urls": [
+    "https://docs.nexmo.com/",
+    "https://docs.nexmo.com/messaging",
+    "https://docs.nexmo.com/voice",
+    "https://docs.nexmo.com/verify",
+    "https://docs.nexmo.com/number-insight",
+    "https://docs.nexmo.com/tools"
+  ],
+  "stop_urls": [
+    "https://docs.nexmo.com/[^/]+?$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'breadcrumb')]/li[2]/a",
+      "type": "xpath"
+    },
+    "lvl1": ".main-content h1",
+    "lvl2": ".main-content h2",
+    "lvl3": ".main-content h3",
+    "lvl4": ".main-content h4",
+    "lvl5": ".main-content h5",
+    "text": ".main-content p, .main-content li"
+  },
+  "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "nb_hits": 3366
+}
