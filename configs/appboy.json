@@ -13,7 +13,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "ul.nav a.active",
+    "lvl0": "ul.nav a.heading",
     "lvl1": ".article h1",
     "lvl2": ".article h2",
     "lvl3": ".article h3",
