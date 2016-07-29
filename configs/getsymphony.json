@@ -1,0 +1,62 @@
+{
+  "index_name": "getsymphony",
+  "start_urls": [
+    {
+      "url": "http://www.getsymphony.com/learn/beginners",
+      "tags": [
+        "guides"
+      ]
+    },
+    {
+      "url": "http://www.getsymphony.com/learn/users/",
+      "tags": [
+        "guides"
+      ]
+    },
+    {
+      "url": "http://www.getsymphony.com/learn/developers/",
+      "tags": [
+        "guides"
+      ]
+    },
+    {
+      "url": "http://www.getsymphony.com/learn/tutorials/",
+      "tags": [
+        "tutorials"
+      ]
+    },
+    {
+      "url": "http://www.getsymphony.com/learn/articles/",
+      "tags": [
+        "articles"
+      ]
+    },
+    {
+      "url": "http://www.getsymphony.com/learn/concepts/",
+      "tags": [
+        "concepts"
+      ]
+    },
+    {
+      "url": "http://www.getsymphony.com/learn/faq/",
+      "tags": [
+        "faq"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "http://www.getsymphony.com/learn/api"
+  ],
+  "selectors": {
+    "lvl0": "#header #subnav a.current",
+    "lvl1": "#pagehead h2",
+    "lvl2": ".subsection.compound h4",
+    "lvl3": ".subsection.compound h5",
+    "text": ".subsection.compound p, .subsection.compound li"
+  },
+  "custom_settings": {
+    "attributeForDistinct": "hierarchy_complete.lvl1"
+  },
+  "nb_hits": 2753,
+  "min_indexed_level": 2
+}
