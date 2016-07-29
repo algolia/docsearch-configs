@@ -52,7 +52,7 @@
       "lvl0": {
         "selector": "//div[@class=\"documentation-menu\"]//a[@class=\"active\"]/../../../a",
         "type": "xpath",
-        "default":"Administration Guide"
+        "default_value": "Administration Guide"
       },
       "lvl1": "article.documentation h1",
       "lvl2": "article.documentation h2",
@@ -65,7 +65,7 @@
       "lvl0": {
         "selector": "//div[@class=\"documentation-menu\"]//a[@class=\"active\"]/../../../a",
         "type": "xpath",
-        "default":"Developer Guide"
+        "default_value": "Developer Guide"
       },
       "lvl1": "article.documentation h1",
       "lvl2": "article.documentation h2",
@@ -78,7 +78,7 @@
       "lvl0": {
         "selector": "//div[@class=\"documentation-menu\"]//a[@class=\"active\"]/../../../a",
         "type": "xpath",
-        "default":"Knowledge Base"
+        "default_value": "Knowledge Base"
       },
       "lvl1": "article.documentation h1",
       "lvl2": "article.documentation h2",
@@ -89,8 +89,8 @@
     },
     "plugins": {
       "lvl0": {
-        "selector":"",
-        "default" :"Plugins Reference"
+        "selector": "",
+        "default_value": "Plugins Reference"
       },
       "lvl1": "#content h1",
       "lvl2": "#content h2",
@@ -99,8 +99,8 @@
     },
     "api": {
       "lvl0": {
-        "selector":"",
-        "default" :"API Reference"
+        "selector": "",
+        "default_value": "API Reference"
       },
       "lvl1": "#resources_container .heading  h2",
       "lvl2": "#resources_container .content p"
@@ -109,13 +109,13 @@
       "lvl0": {
         "selector": "//div[@class=\"documentation-menu\"]//a[@class=\"active\"]/../../../a",
         "type": "xpath",
-        "default" :"F.A.Q."
+        "default_value": "F.A.Q."
       },
       "lvl1": "section .question p",
       "text": "section .answer p"
     }
   },
   "min_indexed_level": 2,
-  "nb_hits": 6785,
+  "nb_hits": 10603,
   "js_render": true
 }
