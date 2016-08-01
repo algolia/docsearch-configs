@@ -1,0 +1,23 @@
+{
+  "index_name": "wordpress_algolia",
+  "start_urls": [
+    "https://community.algolia.com/wordpress/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'menu') and contains(@class, 'vertical')]/li[contains(@class, 'active')]/preceding::li[contains(@class, 'menu-text')][1]",
+      "type": "xpath",
+      "global": "true"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "scrap_start_urls": false,
+  "min_indexed_level": 1,
+  "nb_hits": 530
+}
