@@ -49,15 +49,16 @@
   "selectors_exclude": [
     "span.slds-badge",
     "#overview",
-    ".slds-assistive-text"
+    ".slds-assistive-text",
+    ".docsearch-ignore"
   ],
   "selectors": {
-    "lvl0": "main h1",
-    "lvl1": ".site-content h2",
-    "lvl2": ".site-content h3",
+    "lvl0": "main h1, .docsearch-level-1",
+    "lvl1": ".site-content h2, .docsearch-level-2",
+    "lvl2": ".site-content h3, .docsearch-level-3",
     "lvl3": ".site-content h4",
     "lvl4": ".site-content h5",
-    "text": ".site-content p, tr[data-slds-token] td code[data-slds-token-name], .slds-text-longform p"
+    "text": ".site-content p, .docsearch-text, .slds-text-longform p"
   },
   "js_render": true,
   "min_indexed_level": 2,
