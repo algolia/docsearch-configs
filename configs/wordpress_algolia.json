@@ -19,5 +19,10 @@
   },
   "scrap_start_urls": false,
   "min_indexed_level": 1,
-  "nb_hits": 530
+  "nb_hits": 530,
+  "custom_settings": {
+    "attributesToSnippet": [
+      "content:50"
+    ]
+  }
 }
