@@ -6,7 +6,7 @@
       "variables": {
         "version": {
           "url": "https://symfony.com/doc/current/book/controller.html",
-          "js": "var versions = $('.doc-switcher .versions li').map(function (i, elt) { return $(elt).find('a').html().split('/')[0].replace(/ |\\n/g,''); }).toArray(); versions.push('current'); versions.push('master'); return JSON.stringify(versions);"
+          "js": "var versions = $('.doc-switcher .version, .doc-switcher li a').map(function (i, elt) { return $(elt).text().trim(); }).filter(function(i, e) { return e.indexOf('master') === -1 && e.indexOf('version') === -1; }).toArray(); versions.push('current'); versions.push('master'); return JSON.stringify(versions);"
         },
         "type_of_content": [
           "book",
@@ -18,10 +18,18 @@
         ]
       }
     },
-    "https://symfony.com/doc/bundles"
+    "https://symfony.com/doc/bundles",
+    {
+      "url": "https://symfony.com/doc/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://symfony.com/doc/current/book/controller.html",
+          "js": "var versions = $('.doc-switcher .version, .doc-switcher li a').map(function (i, elt) { return $(elt).text().trim(); }).filter(function(i, e) { return e.indexOf('master') === -1 && e.indexOf('version') === -1; }).toArray(); versions.push('current'); versions.push('master'); return JSON.stringify(versions);"
+        }
+      }
+    }
   ],
   "stop_urls": [
-    ".*^(?!.*Bundle).*index.html"
   ],
   "selectors_exclude": [
     "body.doc #main .page h1"
