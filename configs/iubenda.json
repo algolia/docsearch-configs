@@ -13,6 +13,6 @@
     "lvl4": ".post_body div[data-swiftype-name='body'] h4",
     "text": ".post_body div[data-swiftype-name='body'] p, .post_body div[data-swiftype-name='body'] li"
   },
-  "nb_hits": 1061,
+  "nb_hits": 3731,
   "min_indexed_level": 2
 }
