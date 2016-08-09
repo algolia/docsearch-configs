@@ -1,0 +1,23 @@
+{
+  "index_name": "hellosign",
+  "start_urls": [
+    "https://www.hellosign.com/api/documentation",
+    "https://www.hellosign.com/api/"
+  ],
+  "scrap_start_urls": false,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'l-api-docs-menu--items--item') and contains(@class, 'is-active')]/../preceding::div[contains(@class, 'l-api-docs-menu--section--title')]",
+      "type": "xpath",
+      "default_value": "API Reference"
+    },
+    "lvl1": ".l-api-docs--content .l-api-docs--page-title",
+    "lvl2": ".l-api-docs--content .m-api-docs-section--title",
+    "lvl3": ".l-api-docs--content .m-api-docs-sub-section--title",
+    "text": ".l-api-docs--content p, .l-api-docs--content li, .m-api-ref-object--field-name, .m-api-ref-object--field-description"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "nb_hits": 1531
+}
