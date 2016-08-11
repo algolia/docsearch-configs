@@ -3,7 +3,9 @@
   "start_urls": [
     "https://devcenter.ordercloud.io/docs"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://devcenter.ordercloud.io/docs$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".docs-nav .section.docUnderline.active",
