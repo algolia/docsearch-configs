@@ -1,0 +1,24 @@
+{
+  "index_name": "ordercloud",
+  "start_urls": [
+    "https://devcenter.ordercloud.io/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".docs-nav .section.docUnderline.active",
+      "global": true
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li, article td"
+  },
+  "scrap_start_url": false,
+  "js_render": true,
+  "js_wait": 2,
+  "min_indexed_level": 1,
+  "nb_hits": 5655
+}
