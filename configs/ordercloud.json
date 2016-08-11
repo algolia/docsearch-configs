@@ -4,7 +4,8 @@
     "https://devcenter.ordercloud.io/docs"
   ],
   "stop_urls": [
-    "https://devcenter.ordercloud.io/docs$"
+    "https://devcenter.ordercloud.io/docs$",
+    "https://devcenter.ordercloud.io/docs/$"
   ],
   "selectors": {
     "lvl0": {
@@ -22,5 +23,5 @@
   "js_render": true,
   "js_wait": 2,
   "min_indexed_level": 1,
-  "nb_hits": 5655
+  "nb_hits": 5632
 }
