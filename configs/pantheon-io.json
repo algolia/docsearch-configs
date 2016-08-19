@@ -4,6 +4,9 @@
     "https://pantheon.io/docs/"
   ],
   "stop_urls": [],
+  "selectors_exclude": [
+    ".dropdown-menu"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -14,8 +17,9 @@
     "lvl3": "#doc h3",
     "lvl4": "#doc h4",
     "lvl5": "#doc h5",
-    "text": "#doc p, #doc li"
+    "text": "#doc p, #doc li, #doc alert"
   },
+  "js_render": true,
   "min_indexed_level": 2,
   "nb_hits": 7123
 }
