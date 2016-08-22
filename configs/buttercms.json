@@ -7,12 +7,17 @@
     "https://buttercms.com/docs/api/"
   ],
   "selectors": {
-    "lvl0": ".container h2",
-    "lvl1": ".container h3",
-    "lvl2": ".container h4",
-    "lvl3": ".container h5",
-    "text": ".container p, .container li"
+    "lvl0": "#main .container h2",
+    "lvl1": "#main .container h3",
+    "lvl2": "#main .container h4",
+    "lvl3": "#main .container h5",
+    "text": "#main .container p, .container li"
   },
+  "selectors_exclude": [
+    "#header",
+    ".sidebar-nav-container"
+  ],
   "min_indexed_level": 2,
-  "nb_hits": 207
+  "nb_hits": 155,
+  "js_render": true
 }
