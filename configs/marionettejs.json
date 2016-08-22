@@ -1,15 +1,7 @@
 {
   "index_name": "marionettejs",
   "start_urls": [
-    {
-      "url": "http://marionettejs.com/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": {
-          "url": "http://marionettejs.com/docs/current",
-          "js": " return JSON.stringify([$('#version-dropdown option:first').html().replace(/\\//g, '')]);"
-        }
-      }
-    }
+    "http://marionettejs.com/docs/master/"
   ],
   "selectors": {
     "lvl0": "div.docs div.docs__content h1",
@@ -17,5 +9,5 @@
     "lvl2": "div.docs div.docs__content h3",
     "text": "div.docs div.docs__content p, div.docs div.docs__content li"
   },
-  "nb_hits": 1217
+  "nb_hits": 1218
 }
