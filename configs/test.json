@@ -4,11 +4,9 @@
     {
       "url": "http://vuejs.org/api/",
       "page_rank": 1
-    },
-    "http://vuejs.org/guide/"
+    }
   ],
   "stop_urls": [
-   ".*"
   ],
   "scrap_start_urls": false,
   "selectors_exclude": [
