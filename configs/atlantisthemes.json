@@ -1,0 +1,18 @@
+{
+  "index_name": "atlantisthemes",
+  "start_urls": [
+    "http://atlantisthemes.com/documentation/",
+    "http://atlantisthemes.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".wedocs-sidebar h3",
+    "lvl1": "header h2",
+    "lvl2": ".entry-content h3",
+    "lvl3": ".entry-content h4",
+    "lvl4": ".entry-content h5",
+    "text": ".entry-content p, .entry-content li"
+  },
+  "nb_hits": 192,
+  "min_indexed_level": 2
+}
