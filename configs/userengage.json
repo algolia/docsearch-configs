@@ -1,0 +1,104 @@
+{
+  "index_name": "userengage",
+  "start_urls": [
+    {
+      "url": "https://userengage.io/en/knowledge-base",
+      "selectors_key": "knowledge-base",
+      "tags": [
+        "knowledge-base"
+      ]
+    },
+    {
+      "url": "https://userengage.io/en/video-tutorials",
+      "selectors_key": "video-tutorials",
+      "tags": [
+        "video-tutorials"
+      ]
+    },
+    {
+      "url": "https://userengage.io/en/guides",
+      "selectors_key": "guides",
+      "tags": [
+        "guides"
+      ]
+    },
+    {
+      "url": "https://userengage.io/en/articles",
+      "selectors_key": "articles",
+      "tags": [
+        "articles"
+      ]
+    },
+    {
+      "url": "https://userengage.io/en/ebook/marketing-automation-your-first-campaign/",
+      "selectors_key": "ebook",
+      "tags": [
+        "ebook"
+      ]
+    },
+    {
+      "url": "https://userengage.io/en/api",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".article-meta"
+  ],
+  "selectors": {
+    "knowledge-base": {
+      "lvl0": ".container h2",
+      "lvl1": ".container h3",
+      "lvl2": ".container h4",
+      "lvl3": ".container h5",
+      "text": ".container p, .container li"
+    },
+    "video-tutorials": {
+      "lvl0": ".container h1",
+      "lvl1": ".container h2",
+      "lvl2": ".container h3",
+      "lvl3": ".container h4",
+      "lvl4": ".container h5",
+      "text": ".container p, .container li"
+    },
+    "guides": {
+      "lvl0": ".guides h1",
+      "lvl1": ".guides h2",
+      "lvl2": ".guides h3",
+      "lvl3": ".guides h4",
+      "lvl4": ".guides h5",
+      "text": ".guides p, .guides li"
+    },
+    "articles": {
+      "lvl0": "#header h1",
+      "lvl1": "#content h2",
+      "lvl2": "#content h3",
+      "lvl3": "#content h4",
+      "lvl4": "#content h5",
+      "text": "#content p, #content li"
+    },
+    "ebook": {
+      "lvl0": "#content h1",
+      "lvl1": "#content h2",
+      "lvl2": "#content h3",
+      "lvl3": "#content h4",
+      "lvl4": "#content h5",
+      "text": "#content p, #content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "//a[@class='active']/../../preceding-sibling::h4",
+        "type": "xpath"
+      },
+      "lvl1": ".api-header h2",
+      "lvl2": ".api-body h2",
+      "lvl3": ".api-body h3",
+      "lvl4": ".api-body h4",
+      "text": ".api-body p, .api-body li"
+    }
+  },
+  "nb_hits": 3984
+}
