@@ -1,12 +1,12 @@
 {
-  "index_name": "lightningdesignsystem",
+  "index_name": "winter-17",
   "start_urls": [
     {
-      "url": "https://www.lightningdesignsystem.com/components/.*",
+      "url": "https://www.lightningdesignsystem.com/components/",
       "page_rank": 2
     },
     {
-      "url": "https://www.lightningdesignsystem.com/tokens/",
+      "url": "https://www.lightningdesignsystem.com/design-tokens/",
       "page_rank": 1
     },
     {
@@ -14,7 +14,7 @@
       "page_rank": 1
     },
     {
-      "url": "https://www.lightningdesignsystem.com/guidelines/.*",
+      "url": "https://www.lightningdesignsystem.com/guidelines/",
       "page_rank": -1
     },
     {
@@ -22,11 +22,11 @@
       "page_rank": -2
     },
     {
-      "url": "https://www.lightningdesignsystem.com/platforms/.*",
+      "url": "https://www.lightningdesignsystem.com/platforms/",
       "page_rank": -2
     },
     {
-      "url": "https://www.lightningdesignsystem.com/getting-started/.*",
+      "url": "https://www.lightningdesignsystem.com/getting-started/",
       "page_rank": -2
     },
     {
@@ -46,21 +46,18 @@
       "page_rank": 1
     }
   ],
+  "stop_urls": [],
   "selectors_exclude": [
     "span.slds-badge",
     "#overview",
-    ".slds-assistive-text",
     ".docsearch-ignore"
   ],
   "selectors": {
-    "lvl0": "main h1, .docsearch-level-1",
-    "lvl1": ".site-content h2, .docsearch-level-2",
-    "lvl2": ".site-content h3, .docsearch-level-3",
-    "lvl3": ".site-content h4",
-    "lvl4": ".site-content h5",
+    "lvl0": ".docsearch-category",
+    "lvl1": "h1",
+    "lvl2": ".docsearch-level-2 .slds-hide",
     "text": ".site-content p, .docsearch-text, .slds-text-longform p"
   },
-  "js_render": true,
   "min_indexed_level": 2,
-  "nb_hits": 6999
+  "nb_hits": 4000
 }
