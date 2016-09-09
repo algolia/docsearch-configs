@@ -4,7 +4,21 @@
     {
       "url": "https://symfony.com/doc/(?P<version>.*?)/",
       "variables": {
-        "version": ["2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "3.0", "3.1", "current", "master"]
+        "version": [
+          "2.0",
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5",
+          "2.6",
+          "2.7",
+          "2.8",
+          "3.0",
+          "3.1",
+          "current",
+          "master"
+        ]
       }
     },
     "https://symfony.com/doc/bundles"
@@ -31,5 +45,5 @@
     "text": "#main p"
   },
   "min_indexed_level": 2,
-  "nb_hits": 33839
+  "nb_hits": 76856
 }
