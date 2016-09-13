@@ -1,0 +1,31 @@
+{
+  "index_name": "bigcommerce",
+  "start_urls": [
+    "https://support.bigcommerce.com/",
+    "https://support.bigcommerce.com/guides",
+    "https://support.bigcommerce.com/university",
+    "https://support.bigcommerce.com/documentation"
+  ],
+  "stop_urls": [
+    "https://support.bigcommerce.com/guides$",
+    "https://support.bigcommerce.com/university$",
+    "https://support.bigcommerce.com/documentation$",
+    "\\?",
+    "%20"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ol[contains(@class, 'breadcrumb')]/li[2]/a",
+      "type": "xpath"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "nb_hits": 24820
+}
