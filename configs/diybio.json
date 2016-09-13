@@ -1,0 +1,20 @@
+{
+  "index_name": "diybio",
+  "start_urls": [
+    "http://sphere.diybio.org/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs h1",
+    "lvl2": ".docs h2",
+    "lvl3": ".docs h3",
+    "lvl4": ".docs h4",
+    "lvl5": ".docs h5",
+    "text": ".docs p, .docs li"
+  },
+  "nb_hits": 510
+}
