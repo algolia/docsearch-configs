@@ -1,0 +1,60 @@
+{
+  "index_name": "angular",
+  "start_urls": [
+    {
+      "url": "https://angular.io/docs/js/latest/api",
+      "selectors_key": "api",
+      "page_rank": -1
+    },
+    {
+      "url": "https://angular.io/docs/(?P<language>.*?)/latest/",
+      "variables": {
+        "language": [
+          "js",
+          "ts",
+          "dart"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "https://angular.io/docs/[^/]+/latest/[^/]+html$",
+    "https://angular.io/docs/[^/]+/latest/$",
+    "https://angular.io/docs/js/latest/api/$",
+    "https://angular.io/docs/dart/latest/api",
+    "index.html"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".sidenav-section > .is-selected",
+        "default_value": "Documentation"
+      },
+      "lvl1": "header h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": ".banner p, FIXME p, FIXME li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API Reference"
+      },
+      "lvl1": "header h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": ".banner p, FIXME p, FIXME li"
+    }
+  },
+  "stop_content": [
+    "Whoops. Looks like what you're looking for can't be found"
+  ],
+  "js_render": true,
+  "scrap_start_urls": false,
+  "min_indexed_level": 1,
+  "nb_hits": 6092
+}
