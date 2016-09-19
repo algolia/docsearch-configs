@@ -44,8 +44,18 @@
     {
       "url": "https://www.lightningdesignsystem.com/",
       "page_rank": 1
+    },
+    {
+      "url": "https://archive-(?P<version>.*?).lightningdesignsystem.com/",
+      "variables": {
+        "version": [
+          "2_0_3",
+          "1_0_5"
+        ]
+      }
     }
   ],
+  "separatorsToIndex": "-_",
   "stop_urls": [],
   "selectors_exclude": [
     "span.slds-badge",
