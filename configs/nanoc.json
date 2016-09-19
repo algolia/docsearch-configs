@@ -10,10 +10,13 @@
       "type": "xpath",
       "selector": "//div[contains(@class, 'side')]//ul/li/span[contains(@class, 'active')]/../../preceding::h4[1]"
     },
-    "lvl1": ".article-content h2",
-    "lvl2": ".article-content h3",
-    "lvl3": ".article-content h4",
-    "lvl4": ".article-content h5",
+    "lvl1": {
+      "type": "xpath",
+      "selector": "//h1/text()"
+    },
+    "lvl2": ".article-content h2",
+    "lvl3": ".article-content h3",
+    "lvl4": ".article-content h4",
     "text": ".article-content p, .article-content li"
   },
   "min_indexed_level": 1,
