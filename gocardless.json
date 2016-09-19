@@ -1,0 +1,35 @@
+{
+  "index_name": "gocardless",
+  "start_urls": [
+    {
+      "url": "https://developer.gocardless.com/api-reference/2015-07-06/php/",
+      "tags": ["php"]
+    },
+    {
+      "url": "https://developer.gocardless.com/api-reference/2015-07-06/python/",
+      "tags": ["python"]
+    },
+    {
+      "url": "https://developer.gocardless.com/api-reference/2015-07-06/ruby/",
+      "tags": ["ruby"]
+    },
+    {
+      "url": "https://developer.gocardless.com/api-reference/2015-07-06/java/",
+      "tags": ["java"]
+    }, 
+    {
+      "url": "https://developer.gocardless.com/api-reference/2015-07-06/",
+      "tags": ["http"]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li, article dl"
+  },
+  "nb_hits": 14350
+}
