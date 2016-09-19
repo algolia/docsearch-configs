@@ -1,0 +1,15 @@
+{
+  "index_name": "rvi_sota_server",
+  "start_urls": [
+    "http://advancedtelematic.github.io/rvi_sota_server/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#content h2",
+    "lvl1": "#content h3",
+    "lvl2": "#content h4",
+    "lvl3": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "nb_hits": 6119
+}
