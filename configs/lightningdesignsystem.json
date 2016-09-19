@@ -46,6 +46,7 @@
       "page_rank": 1
     }
   ],
+  "separatorsToIndex": "-_",
   "stop_urls": [],
   "selectors_exclude": [
     "span.slds-badge",
