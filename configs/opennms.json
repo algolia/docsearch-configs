@@ -1,0 +1,27 @@
+{
+  "index_name": "opennms",
+  "start_urls": [
+    {
+      "url": "http://docs.opennms.org/opennms/releases/latest/(?P<static_variable>.*?)/",
+      "variables": {
+        "static_variable": [
+          "releasenotes",
+          "guide-admin",
+          "guide-development",
+          "guide-install",
+          "guide-user"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#header h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "nb_hits": 11499
+}
