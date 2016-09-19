@@ -1,0 +1,18 @@
+{
+  "index_name": "interactivethings",
+  "start_urls": [
+    "https://interactivethings.github.io/catalog/"
+  ],
+  "use_anchors": true,
+  "stop_urls": [],
+  "js_render": true,
+  "selectors": {
+    "lvl0": ".rmq-1c086347 h1",
+    "lvl1": ".rmq-d8c9b69c h2",
+    "lvl2": ".rmq-d8c9b69c h3",
+    "lvl3": ".rmq-d8c9b69c h4",
+    "lvl4": ".rmq-d8c9b69c h5",
+    "text": ".rmq-d8c9b69c p, .rmq-d8c9b69c li"
+  },
+  "nb_hits": 244
+}
