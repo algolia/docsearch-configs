@@ -24,6 +24,12 @@
       "tags": [
         "v3.2"
       ]
+    },
+    {
+      "url": "http://www.rudder-project.org/doc-4.0/",
+      "tags": [
+        "v4.0"
+      ]
     }
   ],
   "selectors_exclude": [
@@ -38,5 +44,5 @@
     "text": ".section p"
   },
   "min_indexed_level": 1,
-  "nb_hits": 4043
+  "nb_hits": 8852
 }
