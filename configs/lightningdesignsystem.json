@@ -68,7 +68,7 @@
     "lvl0": ".docsearch-category",
     "lvl1": "h1",
     "lvl2": ".docsearch-level-2 .slds-hide",
-    "text": ".site-content p, .docsearch-text, .slds-text-longform p"
+    "text": ".site-content p, .docsearch-text, .slds-text-longform p, .site-table--overview tbody th"
   },
   "min_indexed_level": 2,
   "nb_hits": 4000
