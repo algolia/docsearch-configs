@@ -61,7 +61,6 @@
   "stop_urls": [],
   "selectors_exclude": [
     "span.slds-badge",
-    "#overview",
     ".docsearch-ignore"
   ],
   "selectors": {
