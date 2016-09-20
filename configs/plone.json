@@ -1,0 +1,36 @@
+{
+  "index_name": "plone",
+  "start_urls": [
+    "http://docs.plone.org/"
+  ],
+  "stop_urls": [
+    "http://docs.plone.org/[1-9]",
+    "/old-reference-manuals/",
+    "develop",
+    "xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//ul[contains(@class, 'breadcrumb')]/li[2]/a",
+      "type": "xpath"
+    },
+    "lvl2": {
+      "selector": "//ul[contains(@class, 'breadcrumb')]/li[3]/a",
+      "type": "xpath"
+    },
+    "lvl3": {
+      "selector": "//ul[contains(@class, 'breadcrumb')]/li[4]/a",
+      "type": "xpath"
+    },
+    "lvl4": "section h1",
+    "lvl5": "section h2",
+    "lvl6": "section h3, section h4, section h5",
+    "text": "section p, section li"
+  },
+  "min_indexed_level": 4,
+  "nb_hits": 12480
+}
