@@ -1,0 +1,26 @@
+{
+  "index_name": "sevenbridges",
+  "start_urls": [
+    "http://docs.sevenbridges.com/docs"
+  ],
+  "stop_urls": [],
+  "js_render": true,
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "type": "xpath", 
+      "selector": "//a[contains(@class, 'active')]/../../preceding::h4[1]"
+    },
+    "lvl2": ".docs-content h1",
+    "lvl3": ".docs-content h2",
+    "lvl4": ".docs-content h3",
+    "lvl5": ".docs-content h4",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "selectors_exclude": [".pg-type"], 
+  "min_indexed_level": 2,
+  "nb_hits": 8882
+}
