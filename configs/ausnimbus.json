@@ -1,0 +1,25 @@
+{
+  "index_name": "ausnimbus",
+  "start_urls": [
+    "https://docs.ausnimbus.com.au/latest/welcome/index.html",
+    "https://docs.ausnimbus.com.au/latest"
+  ],
+  "stop_urls": [
+    "https://docs.ausnimbus.com.au/latest/welcome/index.html"
+  ],
+  "selectors_exclude": [
+    "#doc-nav",
+    "#preamble"
+  ],
+  "selectors": {
+    "lvl0": ".doc-title > a",
+    "lvl1": ".doc-title small a",
+    "lvl2": "#doc-content h3.entry-title",
+    "lvl3": "#doc-content .sect1 h2",
+    "lvl4": "#doc-content .sect1 h3",
+    "text": "#doc-content .sect1 p, #doc-content .sect1 li"
+  },
+  "min_indexed_level": 2,
+  "scrap_start_urls": false,
+  "nb_hits": 34446
+}
