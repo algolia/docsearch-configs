@@ -1,0 +1,25 @@
+{
+  "index_name": "survivejs_react",
+  "start_urls": [
+    "http://survivejs.com/react/"
+  ],
+  "stop_urls": [
+    "http://survivejs.com/react/$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'toc-nav')]/li[contains(@class, 'toc-part') or contains(@class, 'toc-intro')]/span[contains(@class, 'toc-nav__link--current')] | //ul[contains(@class, 'toc-nav')]/li[contains(@class, 'toc-chapter')]/span[contains(@class, 'toc-nav__link--current')]/../preceding::li[contains(@class, 'toc-part')][1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": ".chapter__wrapper h1",
+    "lvl2": ".chapter-content h2",
+    "lvl3": ".chapter-content h3",
+    "lvl4": ".chapter-content h4",
+    "lvl5": ".chapter-content h5",
+    "text": ".chapter-content p, .chapter-content li"
+  },
+  "min_indexed_level": 2,
+  "scrap_start_urls": false,
+  "nb_hits": 967
+}
