@@ -10,7 +10,7 @@
     },
     {
       "url": "https://userengage.io/en/video-tutorials",
-      "selectors_key": "video-tutorials",
+      "selectors_key": "knowledge-base",
       "tags": [
         "video-tutorials"
       ]
@@ -31,7 +31,7 @@
     },
     {
       "url": "https://userengage.io/en/ebook/marketing-automation-your-first-campaign/",
-      "selectors_key": "ebook",
+      "selectors_key": "articles",
       "tags": [
         "ebook"
       ]
@@ -56,14 +56,6 @@
       "lvl3": ".container h5",
       "text": ".container p, .container li"
     },
-    "video-tutorials": {
-      "lvl0": ".container h1",
-      "lvl1": ".container h2",
-      "lvl2": ".container h3",
-      "lvl3": ".container h4",
-      "lvl4": ".container h5",
-      "text": ".container p, .container li"
-    },
     "guides": {
       "lvl0": ".guides h1",
       "lvl1": ".guides h2",
@@ -80,25 +72,25 @@
       "lvl4": "#content h5",
       "text": "#content p, #content li"
     },
-    "ebook": {
-      "lvl0": "#content h1",
-      "lvl1": "#content h2",
-      "lvl2": "#content h3",
-      "lvl3": "#content h4",
-      "lvl4": "#content h5",
-      "text": "#content p, #content li"
-    },
     "api": {
       "lvl0": {
-        "selector": "//a[@class='active']/../../preceding-sibling::h4",
+        "selector": "//a[@class='active']/../../preceding-sibling::h4[1]",
         "type": "xpath"
       },
-      "lvl1": ".api-header h2",
-      "lvl2": ".api-body h2",
-      "lvl3": ".api-body h3",
-      "lvl4": ".api-body h4",
+      "lvl1": ".api-header h1",
+      "lvl2": ".api-header h2",
+      "lvl3": ".api-body h2",
+      "lvl4": ".api-body h3",
+      "lvl5": ".api-body h4",
       "text": ".api-body p, .api-body li"
     }
   },
-  "nb_hits": 3984
+  "min_indexed_level": {
+    "knowledge-base": 0,
+    "guides": 0,
+    "articles": 0,
+    "api": 1
+  },
+  "js_render": true,
+  "nb_hits": 4357
 }
