@@ -4,6 +4,9 @@
     "https://serverless.com/framework/docs/"
   ],
   "stop_urls": [],
+  "selectors_exclude": [
+    ".phenomic-HeadingAnchor"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//div[contains(@class, 'docs-breadcrumbs')]/ul/li[3]",
