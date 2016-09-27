@@ -11,7 +11,10 @@
       "selector": "",
       "default_value": "Help"
     },
-    "lvl1": ".topHero h1",
+    "lvl1": {
+      "selector": ".aside-nav .aside-nav__link.active",
+      "global": true
+    },
     "lvl2": "#content h2",
     "lvl3": "#content h3",
     "lvl4": "#content h4",
