@@ -1,7 +1,7 @@
 {
   "index_name": "jmonkeyengine",
   "start_urls": [
-    "http://wiki.jmonkeyengine.org/"
+    "https://jmonkeyengine.github.io/wiki/"
   ],
   "stop_urls": [],
   "selectors": {
