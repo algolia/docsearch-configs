@@ -1,7 +1,7 @@
 {
   "index_name": "jest",
   "start_urls": [
-    "http://facebook.github.io/jest/docs/tutorial.html",
+    "http://facebook.github.io/jest/docs/getting-started.html",
     "http://facebook.github.io/jest/docs/.*"
   ],
   "selectors_exclude": [
@@ -18,5 +18,5 @@
     "text": ".post article p, .post article li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 450
+  "nb_hits": 654
 }

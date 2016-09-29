@@ -9,12 +9,12 @@
       "selector": "",
       "default_value": "Documentation"
     },
-    "lvl1": ".docs h1",
-    "lvl2": ".docs h2",
-    "lvl3": ".docs h3",
-    "lvl4": ".docs h4",
-    "lvl5": ".docs h5",
-    "text": ".docs p, .docs li"
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
   },
-  "nb_hits": 510
+  "nb_hits": 585
 }

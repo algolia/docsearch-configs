@@ -1,11 +1,11 @@
 {
   "index_name": "optimizely-developers",
   "start_urls": [
-    "http://developers.optimizely.com/"
+    "https://developers.optimizely.com/"
   ],
   "stop_urls": [
-    "http://developers.optimizely.com/android/help/reference/.*",
-    "http://developers.optimizely.com/ios/help/html/.*",
+    "https://developers.optimizely.com/android/help/reference/.*",
+    "https://developers.optimizely.com/ios/help/html/.*",
     "index.html"
   ],
   "selectors": {
@@ -17,5 +17,5 @@
     "text": "#content p, #content li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 2351
+  "nb_hits": 2898
 }
