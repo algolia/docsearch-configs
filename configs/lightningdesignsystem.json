@@ -61,13 +61,12 @@
   "stop_urls": [],
   "selectors_exclude": [
     "span.slds-badge",
-    "#overview",
     ".docsearch-ignore"
   ],
   "selectors": {
     "lvl0": ".docsearch-category",
     "lvl1": "h1",
-    "lvl2": ".docsearch-level-2 .slds-hide",
+    "lvl2": ".docsearch-level-2 .slds-hide, #overview",
     "text": ".site-content p, .docsearch-text, .slds-text-longform p, .site-content th"
   },
   "min_indexed_level": 2,
