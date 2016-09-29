@@ -1,59 +1,7 @@
 {
   "index_name": "lightningdesignsystem",
   "start_urls": [
-    {
-      "url": "https://www.lightningdesignsystem.com/components/",
-      "page_rank": 2
-    },
-    {
-      "url": "https://www.lightningdesignsystem.com/design-tokens/",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.lightningdesignsystem.com/icons/",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.lightningdesignsystem.com/guidelines/",
-      "page_rank": -1
-    },
-    {
-      "url": "https://www.lightningdesignsystem.com/faq/",
-      "page_rank": -2
-    },
-    {
-      "url": "https://www.lightningdesignsystem.com/platforms/",
-      "page_rank": -2
-    },
-    {
-      "url": "https://www.lightningdesignsystem.com/getting-started/",
-      "page_rank": -2
-    },
-    {
-      "url": "https://www.lightningdesignsystem.com/release-notes/",
-      "page_rank": -3
-    },
-    {
-      "url": "https://www.lightningdesignsystem.com/articles/",
-      "page_rank": -3
-    },
-    {
-      "url": "https://www.lightningdesignsystem.com/downloads/",
-      "page_rank": -3
-    },
-    {
-      "url": "https://www.lightningdesignsystem.com/",
-      "page_rank": 1
-    },
-    {
-      "url": "https://archive-(?P<version>.*?).lightningdesignsystem.com/",
-      "variables": {
-        "version": [
-          "2_0_3",
-          "1_0_5"
-        ]
-      }
-    }
+    "https://www.lightningdesignsystem.com/components/images"
   ],
   "custom_settings": {
     "separatorsToIndex": "-_"
@@ -68,8 +16,8 @@
     "lvl0": ".docsearch-category",
     "lvl1": "h1",
     "lvl2": ".docsearch-level-2 .slds-hide",
-    "text": ".site-content p, .docsearch-text, .slds-text-longform p"
+    "text": ".site-content p, .docsearch-text, .slds-text-longform p, .site-content th"
   },
   "min_indexed_level": 2,
-  "nb_hits": 4000
+  "nb_hits": 121
 }
