@@ -1,0 +1,20 @@
+{
+  "index_name": "mythbusters",
+  "start_urls": [
+    "https://mythbusters.js.org/index.html",
+    "https://mythbusters.js.org"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//a[contains(@class, '-active')]/../../../span[contains(@class, 'title')]",
+      "type": "xpath"
+    },
+    "lvl1": ".menu a.-active",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3",
+    "lvl4": ".markdown-body h4",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "nb_hits": 222
+}
