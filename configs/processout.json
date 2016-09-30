@@ -10,5 +10,6 @@
     "lvl2": ".content h4",
     "lvl3": ".content h5",
     "text": ".content p, .content li, .content th"
-  }
+  },
+  "nb_hits": 203
 }
