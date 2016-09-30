@@ -2,10 +2,10 @@
   "index_name": "vuejs_1",
   "start_urls": [
     {
-      "url": "http://1.vuejs.org/api/",
+      "url": "http://v1.vuejs.org/api/",
       "page_rank": 1
     },
-    "http://1.vuejs.org/guide/"
+    "http://v1.vuejs.org/guide/"
   ],
   "selectors_exclude": [
     ".version-select"
