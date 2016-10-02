@@ -21,8 +21,7 @@
     "https://keen.io/docs/data-visualization/",
     "https://keen.io/docs/data-analysis/",
     "https://keen.io/guides/ecommerce-analytics/example-site",
-    "api/\\?",
-    "/$"
+    "api/\\?"
   ],
   "selectors_exclude": [
     ".tocify-divider"
@@ -37,5 +36,5 @@
   },
   "min_indexed_level": 2,
   "js_render": true,
-  "nb_hits": 737
+  "nb_hits": 1472
 }
