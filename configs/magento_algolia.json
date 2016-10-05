@@ -2,8 +2,16 @@
   "index_name": "magento_algolia",
   "start_urls": [
     {
-      "url": "https://community.algolia.com/magento/documentation/",
-      "selectors_key": "docs"
+      "url": "https://community.algolia.com/magento/doc/m1/",
+      "selectors_key": "docs_m1", 
+      "page_rank": 1, 
+      "tags": ["m2"]
+    },
+    {
+      "url": "https://community.algolia.com/magento/doc/m2/",
+      "selectors_key": "docs_m2",
+      "tags": ["m2"],
+      "page_rank": 0
     },
     {
       "url": "https://community.algolia.com/magento/faq/",
@@ -12,15 +20,32 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "docs": {
+    "docs_m1": {
       "lvl0": {
         "selector": "",
-        "default_value": "Documentation"
+        "default_value": "Magento 1 Documentation"
       },
-      "lvl1": ".documentation-content h1",
-      "lvl2": ".documentation-content h2",
-      "lvl3": ".documentation-content h3",
-      "lvl4": ".documentation-content h4",
+      "lvl1": {
+        "type": "xpath",
+        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]"
+      },
+      "lvl2": ".documentation-content h1",
+      "lvl3": ".documentation-content h2",
+      "lvl4": ".documentation-content h3",
+      "text": ".documentation-content p, .documentation-content li"
+    },
+    "docs_m2": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Magento 2 Documentation"
+      },
+      "lvl1": {
+        "type": "xpath",
+        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]"
+      },
+      "lvl2": ".documentation-content h1",
+      "lvl3": ".documentation-content h2",
+      "lvl4": ".documentation-content h3",
       "text": ".documentation-content p, .documentation-content li"
     },
     "faq": {
@@ -35,5 +60,5 @@
       "text": ".faq p, .faq li"
     }
   },
-  "nb_hits": 180
+  "nb_hits": 444
 }
