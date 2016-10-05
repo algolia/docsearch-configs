@@ -1,11 +1,11 @@
 {
   "index_name": "bugsnag",
   "start_urls": [
-    "http://docs.bugsnag.com/",
-    "http://docs.bugsnag.com/platforms/",
-    "http://docs.bugsnag.com/enterprise/",
-    "http://docs.bugsnag.com/api/",
-    "http://docs.bugsnag.com/legal/"
+    "https://docs.bugsnag.com/",
+    "https://docs.bugsnag.com/platforms/",
+    "https://docs.bugsnag.com/enterprise/",
+    "https://docs.bugsnag.com/api/",
+    "https://docs.bugsnag.com/legal/"
   ],
   "stop_urls": [
     "http://docs.bugsnag.com/[^/]*?/$"
@@ -22,5 +22,5 @@
   },
   "scrap_start_url": false,
   "min_indexed_level": 2,
-  "nb_hits": 5776
+  "nb_hits": 8063
 }
