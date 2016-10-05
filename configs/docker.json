@@ -1,7 +1,63 @@
 {
   "index_name": "docker",
   "start_urls": [
-    "https://docker.github.io/ucp/"
+    {
+      "url": "https://docker.github.io/docker-for-mac/",
+      "page_rank": 13
+    },
+    {
+      "url": "https://docker.github.io/docker-for-windows/",
+      "page_rank": 12
+    },
+    {
+      "url": "https://docker.github.io/docker-trusted-registry/",
+      "page_rank": 11
+    },
+    {
+      "url": "https://docker.github.io/ucp/",
+      "page_rank": 10
+    },
+    {
+      "url": "https://docker.github.io/docker-cloud/",
+      "page_rank": 9
+    },
+    {
+      "url": "https://docker.github.io/docker-store/",
+      "page_rank": 8
+    },
+    {
+      "url": "https://docker.github.io/compose/",
+      "page_rank": 7
+    },
+    {
+      "url": "https://docker.github.io/registry/",
+      "page_rank": 6
+    },
+    {
+      "url": "https://docker.github.io/notary/",
+      "page_rank": 5
+    },
+    {
+      "url": "https://docker.github.io/machine/",
+      "page_rank": 4
+    },
+    {
+      "url": "https://docker.github.io/toolbox/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docker.github.io/opensource/",
+      "page_rank": 2
+    },
+    {
+      "url": "https://docker.github.io/releases-notes/",
+      "page_rank": 1
+    },
+    {
+      "url": "https://docker.github.io/swarm/",
+      "page_rank": 0
+    },
+    "https://docker.github.io/"
   ],
   "stop_urls": [
     "/v1.*$"
