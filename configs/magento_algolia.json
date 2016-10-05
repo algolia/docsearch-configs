@@ -15,7 +15,8 @@
     },
     {
       "url": "https://community.algolia.com/magento/faq/",
-      "selectors_key": "faq"
+      "selectors_key": "faq",
+      "page_rank": -1
     }
   ],
   "stop_urls": [],
