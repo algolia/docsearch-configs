@@ -258,7 +258,6 @@ $ docker rm docname
 $ docker run \
     -e APPLICATION_ID=appId \
     -e API_KEY=apiKey \
-    -e INDEX_PREFIX=prefix_ \
     -e CONFIG="$(cat configs/docname.json)" \
     -v `pwd`/src:/root/src \
     --name docname \
@@ -274,7 +273,6 @@ $ docker rm docname
 $ docker run \
     -e APPLICATION_ID=appId \
     -e API_KEY=apiKey \
-    -e INDEX_PREFIX=prefix_ \
     -e CONFIG="$(cat configs/docname.json)" \
     -v `pwd`/src:/root/src \
     --name docname \
@@ -299,7 +297,6 @@ $ docker build -t algolia/documentation-scraper .
 $ docker run \
     -e APPLICATION_ID=appId \
     -e API_KEY=apiKey \
-    -e INDEX_PREFIX=prefix_ \
     -e CONFIG="$(cat configs/docname.json)" \
     --name docname \
     -t algolia/documentation-scraper
