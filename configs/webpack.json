@@ -5,7 +5,9 @@
   ],
   "js_render": true,
   "js_wait": 1,
-  "strip_chars": "→",
+  "selectors_exclude": [
+    ".anchor"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//ul/li/a[@class=\"active\"]/../../../text()[1]",
