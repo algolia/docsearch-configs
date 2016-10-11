@@ -1,0 +1,137 @@
+{
+  "index_name": "yarnpkg",
+  "start_urls": [
+    {
+      "url": "https://yarnpkg.com/en/docs/getting-started",
+      "selectors_key": "getting-started"
+    },
+    {
+      "url": "https://yarnpkg.com/en/docs/yarn-workflow",
+      "selectors_key": "yarn-workflow"
+    },
+    {
+      "url": "https://yarnpkg.com/en/docs/cli/",
+      "selectors_key": "cli"
+    },
+    {
+      "url": "https://yarnpkg.com/en/docs/migrating-from-npm",
+      "selectors_key": "migrating-from-npm"
+    },
+    {
+      "url": "https://yarnpkg.com/en/docs/creating-a-package",
+      "selectors_key": "creating-a-package"
+    },
+    {
+      "url": "https://yarnpkg.com/en/docs/dependencies",
+      "selectors_key": "dependencies"
+    },
+    {
+      "url": "https://yarnpkg.com/en/docs/configuration",
+      "selectors_key": "configuration"
+    },
+    {
+      "url": "https://yarnpkg.com/en/org",
+      "selectors_key": "org"
+    },
+    {
+      "url": "https://yarnpkg.com/en/docs/install",
+      "selectors_key": "getting-started"
+    },
+    {
+      "url": "https://yarnpkg.com/en/docs/usage",
+      "selectors_key": "getting-started"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "getting-started": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Getting Started"
+      },
+      "lvl1": ".hero h1",
+      "lvl2": ".guide-content h3",
+      "lvl3": ".guide-content h4",
+      "lvl4": ".guide-content h5",
+      "text": ".guide-content p, .guide-content li"
+    },
+    "yarn-workflow": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "The Yarn Workflow"
+      },
+      "lvl1": ".hero h1",
+      "lvl2": ".guide-content h3",
+      "lvl3": ".guide-content h4",
+      "lvl4": ".guide-content h5",
+      "text": ".guide-content p, .guide-content li"
+    },
+    "cli": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "CLI Commands"
+      },
+      "lvl1": ".hero h1",
+      "lvl2": ".guide-content h3",
+      "lvl3": ".guide-content h4",
+      "lvl4": ".guide-content h5",
+      "text": ".guide-content p, .guide-content li"
+    },
+    "migrating-from-npm": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Migrating from npm client"
+      },
+      "lvl1": ".hero h1",
+      "lvl2": ".guide-content h3",
+      "lvl3": ".guide-content h4",
+      "lvl4": ".guide-content h5",
+      "text": ".guide-content p, .guide-content li"
+    },
+    "creating-a-package": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Creating a Package"
+      },
+      "lvl1": ".hero h1",
+      "lvl2": ".guide-content h3",
+      "lvl3": ".guide-content h4",
+      "lvl4": ".guide-content h5",
+      "text": ".guide-content p, .guide-content li"
+    },
+    "dependencies": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Dependencies & Versions"
+      },
+      "lvl1": ".hero h1",
+      "lvl2": ".guide-content h3",
+      "lvl3": ".guide-content h4",
+      "lvl4": ".guide-content h5",
+      "text": ".guide-content p, .guide-content li"
+    },
+    "configuration": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Configuration"
+      },
+      "lvl1": ".hero h1",
+      "lvl2": ".guide-content h3",
+      "lvl3": ".guide-content h4",
+      "lvl4": ".guide-content h5",
+      "text": ".guide-content p, .guide-content li"
+    },
+    "org": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Yarn Organization"
+      },
+      "lvl1": ".hero h1",
+      "lvl2": ".guide-content h3",
+      "lvl3": ".guide-content h4",
+      "lvl4": ".guide-content h5",
+      "text": ".guide-content p, .guide-content li"
+    }
+  },
+  "nb_hits": 488
+}
