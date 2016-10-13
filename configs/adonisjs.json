@@ -2,7 +2,7 @@
   "index_name": "adonisjs",
   "start_urls": [
     {
-      "url": "http://adonisjs.com/docs/(?P<version>.*?)/installation",
+      "url": "http://adonisjs.com/docs/(?P<version>.*?)/overview",
       "variables": {
         "version": [
           "3.0",
@@ -22,7 +22,8 @@
   ],
   "stop_urls": [],
   "selectors_exclude": [
-    ".note"
+    ".note",
+    ".admonitionblock"
   ],
   "selectors": {
     "lvl0": {
@@ -35,8 +36,8 @@
     "lvl3": ".docs h3",
     "lvl4": ".docs h4",
     "lvl5": ".docs h5",
-    "text": ".docs p, .docs li"
+    "text": ".docs p, .docs li, .docs td"
   },
   "min_indexed_level": 1,
-  "nb_hits": 5224
+  "nb_hits": 6333
 }
