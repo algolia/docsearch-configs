@@ -1,7 +1,7 @@
 {
   "index_name": "fork_cms",
   "start_urls": [
-    "http://forkdocs.jessedobbelae.re/"
+    "http://docs.fork-cms.com/"
   ],
   "selectors": {
     "lvl0": {
