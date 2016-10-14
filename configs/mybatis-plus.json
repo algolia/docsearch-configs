@@ -1,21 +1,11 @@
 {
   "index_name": "mybatis-plus",
   "start_urls": [
-    {
-      "url": "http://mp.baomidou.com/",
-      "tags": [
-        "cn"
-      ]
-    },
-    {
-      "url": "http://mp.baomidou.com/en",
-      "tags": [
-        "en"
-      ]
-    }
+    "http://mp.baomidou.com/"
   ],
   "stop_urls": [
-    "http://mp.baomidou.com/news/"
+    "http://mp.baomidou.com/news/",
+    "http://mp.baomidou.com/en"
   ],
   "selectors": {
     "lvl0": {
