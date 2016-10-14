@@ -1,0 +1,34 @@
+{
+  "index_name": "mybatis-plus",
+  "start_urls": [
+    {
+      "url": "http://mp.baomidou.com/",
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "http://mp.baomidou.com/en",
+      "tags": [
+        "en"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "http://mp.baomidou.com/news/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//a[contains(@class, 'current')]/preceding-sibling::strong",
+      "type": "xpath"
+    },
+    "lvl1": "#content header h1",
+    "lvl2": "#content h1",
+    "lvl3": "#content h2",
+    "lvl4": "#content h3",
+    "lvl5": "#content h4",
+    "text": "#content p, #content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 205
+}
