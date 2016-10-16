@@ -2,7 +2,7 @@
   "index_name": "angular-meteor",
   "start_urls": [
     {
-      "url": "http://www.angular-meteor.com/tutorials/socially/(?P<angular_version>.*?)/",
+      "url": "https://www.angular-meteor.com/tutorials/socially/(?P<angular_version>.*?)/",
       "variables": {
         "angular_version": [
           "angular1",
@@ -11,20 +11,20 @@
       }
     },
     {
-      "url": "http://www.angular-meteor.com/api/(?P<api_version>.*?)/",
+      "url": "https://www.angular-meteor.com/api/(?P<api_version>.*?)/",
       "variables": {
         "api_version": {
-          "url": "http://www.angular-meteor.com/api/1.3.6/helpers",
+          "url": "https://www.angular-meteor.com/api/1.3.6/helpers",
           "js": "var versions = $('#api-selector option').map(function (i, elt) { return $(elt).html(); }).toArray(); return JSON.stringify(versions);"
         }
       }
     },
-    "http://www.angular-meteor.com/api/angular2/",
+    "https://www.angular-meteor.com/api/angular2/",
     {
-      "url": "http://www.angular-meteor.com/api/(?P<angular_version>.*?)/(?P<api_version>.*?)/",
+      "url": "https://www.angular-meteor.com/api/(?P<angular_version>.*?)/(?P<api_version>.*?)/",
       "variables": {
         "api_version": {
-          "url": "http://www.angular-meteor.com/api/angular2/0.4.2/meteorComponent",
+          "url": "https://www.angular-meteor.com/api/angular2/0.4.2/meteorComponent",
           "js": "var versions = $('#api-selector option').map(function (i, elt) { return $(elt).html(); }).toArray(); return JSON.stringify(versions);"
         },
         "angular_version": [
