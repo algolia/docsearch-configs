@@ -1,0 +1,22 @@
+{
+  "index_name": "storyblok",
+  "start_urls": [
+    "https://www.storyblok.com/docs/Prologue/Introduction",
+    "https://www.storyblok.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".indexed__body h1",
+    "lvl2": ".indexed__body h2",
+    "lvl3": ".indexed__body h3",
+    "lvl4": ".indexed__body h4",
+    "lvl5": ".indexed__body h5",
+    "text": ".indexed__body p, .indexed__body li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 72
+}
