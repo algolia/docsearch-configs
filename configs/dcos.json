@@ -1,10 +1,10 @@
 {
   "index_name": "dcos",
   "start_urls": [
-    "https://dcos.io/docs/1.7/"
+    "https://dcos.io/docs/1.8/"
   ],
   "stop_urls": [
-    "https://dcos.io/docs/1.7/$"
+    "https://dcos.io/docs/1.8/$"
   ],
   "selectors": {
     "lvl0": ".docs-menu > li > .nav-wrapper > a.docs-nav__item__title.active",
