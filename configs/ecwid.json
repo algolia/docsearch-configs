@@ -1,0 +1,17 @@
+{
+  "index_name": "ecwid",
+  "start_urls": [
+    "https://developers.ecwid.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1, .block-page-title h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 2979
+}

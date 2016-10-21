@@ -1,16 +1,25 @@
 {
   "index_name": "cronofy",
   "start_urls": [
-    "https://www.cronofy.com/developers/api/"
+    {
+      "url": "https://www.cronofy.com/developers/(?P<section>.*?)/",
+      "variables": {
+        "section": [
+          "api",
+          "tutorials",
+          "faqs"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".documentation-content h2",
-    "lvl1": ".documentation-content h3",
-    "lvl2": ".documentation-content h4",
-    "lvl3": ".documentation-content h5",
-    "lvl4": ".documentation-content h6",
-    "text": ".documentation-content p, .documentation-content li"
+    "lvl0": ".documentation-content h2, .post h2",
+    "lvl1": ".documentation-content h3, .post h3",
+    "lvl2": ".documentation-content h4, .post h4",
+    "lvl3": ".documentation-content h5, .post h5",
+    "lvl4": ".documentation-content h6, .post h6",
+    "text": ".documentation-content p, .documentation-content li, .post p, .post li"
   },
-  "nb_hits": 752
+  "nb_hits": 903
 }

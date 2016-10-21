@@ -1,0 +1,21 @@
+{
+  "index_name": "yarnpkg",
+  "start_urls": [
+    "https://yarnpkg.com/en/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'guide-nav')]/li[1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": ".hero h1",
+    "lvl2": ".guide-content h3",
+    "lvl3": ".guide-content h4",
+    "lvl4": ".guide-content h5",
+    "text": ".guide-content p, .guide-content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 598
+}

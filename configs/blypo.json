@@ -1,0 +1,23 @@
+{
+  "index_name": "blypo",
+  "start_urls": [
+    "http://www.blypo.net/blypo/",
+    "http://www.blypo.net/documentation"
+  ],
+  "selectors_exclude": [
+    "iframe",
+    ".markdown .toc"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".main-menu li.active a",
+      "global": true
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h3",
+    "lvl3": ".markdown h4",
+    "lvl4": ".markdown h5",
+    "text": ".markdown p"
+  },
+  "nb_hits": 192
+}

@@ -1,0 +1,28 @@
+{
+  "index_name": "browsersync",
+  "start_urls": [
+    "https://browsersync.io/docs"
+  ],
+  "stop_urls": [
+    "https://browsersync.io/docs/[^/]+/$"
+  ],
+  "selectors_exclude": [
+    ".back-to-top"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".fixed-nav .fixed-nav__item.active",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li, article td"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "-",
+    "advancedSyntax": false
+  },
+  "nb_hits": 579
+}

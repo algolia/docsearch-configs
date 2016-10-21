@@ -2,11 +2,11 @@
   "index_name": "lightningdesignsystem",
   "start_urls": [
     {
-      "url": "https://www.lightningdesignsystem.com/components/.*",
+      "url": "https://www.lightningdesignsystem.com/components/",
       "page_rank": 2
     },
     {
-      "url": "https://www.lightningdesignsystem.com/tokens/",
+      "url": "https://www.lightningdesignsystem.com/design-tokens/",
       "page_rank": 1
     },
     {
@@ -14,7 +14,7 @@
       "page_rank": 1
     },
     {
-      "url": "https://www.lightningdesignsystem.com/guidelines/.*",
+      "url": "https://www.lightningdesignsystem.com/guidelines/",
       "page_rank": -1
     },
     {
@@ -22,11 +22,11 @@
       "page_rank": -2
     },
     {
-      "url": "https://www.lightningdesignsystem.com/platforms/.*",
+      "url": "https://www.lightningdesignsystem.com/platforms/",
       "page_rank": -2
     },
     {
-      "url": "https://www.lightningdesignsystem.com/getting-started/.*",
+      "url": "https://www.lightningdesignsystem.com/getting-started/",
       "page_rank": -2
     },
     {
@@ -44,22 +44,31 @@
     {
       "url": "https://www.lightningdesignsystem.com/",
       "page_rank": 1
+    },
+    {
+      "url": "https://archive-(?P<version>.*?).lightningdesignsystem.com/",
+      "variables": {
+        "version": [
+          "2_0_3",
+          "1_0_5"
+        ]
+      }
     }
   ],
+  "custom_settings": {
+    "separatorsToIndex": ".-_"
+  },
+  "stop_urls": [],
   "selectors_exclude": [
     "span.slds-badge",
-    "#overview",
-    ".slds-assistive-text"
+    ".docsearch-ignore"
   ],
   "selectors": {
-    "lvl0": "main h1",
-    "lvl1": ".site-content h2",
-    "lvl2": ".site-content h3",
-    "lvl3": ".site-content h4",
-    "lvl4": ".site-content h5",
-    "text": ".site-content p, tr[data-slds-token] td code[data-slds-token-name], .slds-text-longform p"
+    "lvl0": ".docsearch-category",
+    "lvl1": "h1",
+    "lvl2": ".docsearch-level-2 .slds-hide, #overview",
+    "text": ".site-content p, .docsearch-text, .slds-text-longform p, .site-content th"
   },
-  "js_render": true,
-  "min_indexed_level": 2,
-  "nb_hits": 6999
+  "min_indexed_level": 1,
+  "nb_hits": 5138
 }

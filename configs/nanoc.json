@@ -1,0 +1,26 @@
+{
+  "index_name": "nanoc",
+  "start_urls": [
+    "http://nanoc.ws/about/",
+    "http://nanoc.ws/doc/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "type": "xpath",
+      "selector": "//div[contains(@class, 'side')]//ul/li/span[contains(@class, 'active')]/../../preceding::h4[1]",
+      "global": "true"
+    },
+    "lvl1": {
+      "type": "xpath",
+      "selector": "//h1/text()",
+      "global": "true"
+    },
+    "lvl2": ".article-content h2",
+    "lvl3": ".article-content h3",
+    "lvl4": ".article-content h4",
+    "text": ".article-content p, .article-content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 845
+}

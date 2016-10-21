@@ -1,0 +1,24 @@
+{
+  "index_name": "serverless",
+  "start_urls": [
+    "https://serverless.com/framework/docs/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".phenomic-HeadingAnchor"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'docs-breadcrumbs')]/ul/li[3]",
+      "type": "xpath"
+    },
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content h5",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 736
+}

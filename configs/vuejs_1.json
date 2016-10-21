@@ -1,0 +1,26 @@
+{
+  "index_name": "vuejs_1",
+  "start_urls": [
+    {
+      "url": "http://v1.vuejs.org/api/",
+      "page_rank": 1
+    },
+    "http://v1.vuejs.org/guide/"
+  ],
+  "selectors_exclude": [
+    ".version-select"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".sidebar h2",
+      "global": true
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "text": ".content p"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 1340
+}

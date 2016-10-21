@@ -1,0 +1,25 @@
+{
+  "index_name": "openshift",
+  "start_urls": [
+    "https://docs.openshift.org/latest/welcome/index.html",
+    "https://docs.openshift.org/latest/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    "#preamble"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ol[contains(@class, 'breadcrumb')]/li[3]",
+      "type": "xpath"
+    },
+    "lvl1": ".main h1",
+    "lvl2": ".main h2",
+    "lvl3": ".main h3",
+    "lvl4": ".main h4",
+    "lvl5": ".main h5",
+    "text": ".main p, .main li, .main td"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 75643
+}

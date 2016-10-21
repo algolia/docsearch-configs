@@ -1,0 +1,96 @@
+{
+  "index_name": "gitlab",
+  "start_urls": [
+    {
+      "url": "https://docs.gitlab.com/ce/ci/",
+      "selectors_key": "ce_ci"
+    },
+    {
+      "url": "https://docs.gitlab.com/ce/",
+      "selectors_key": "ce"
+    },
+    {
+      "url": "https://docs.gitlab.com/ee/",
+      "selectors_key": "ee"
+    },
+    {
+      "url": "https://docs.gitlab.com/omnibus/",
+      "selectors_key": "omnibus"
+    }
+  ],
+  "stop_urls": [
+    "https://docs.gitlab.com/ce/ci/$",
+    "https://docs.gitlab.com/ce/$",
+    "https://docs.gitlab.com/ee/$",
+    "https://docs.gitlab.com/omnibus/$"
+  ],
+  "stop_content": [
+    "This document was moved to",
+    "This section is now merged into"
+  ],
+  "selectors": {
+    "ce_ci": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "GitLab Continuous Integration (CI)"
+      },
+      "lvl1": {
+        "type": "xpath",
+        "selector": "//h1[2]"
+      },
+      "lvl2": ".wrapper h2",
+      "lvl3": ".wrapper h3",
+      "lvl4": ".wrapper h4",
+      "lvl5": ".wrapper h5",
+      "text": ".wrapper p, .wrapper li"
+    },
+    "ce": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "GitLab Community Edition (CE)"
+      },
+      "lvl1": {
+        "type": "xpath",
+        "selector": "//h1[2]"
+      },
+      "lvl2": ".wrapper h2",
+      "lvl3": ".wrapper h3",
+      "lvl4": ".wrapper h4",
+      "lvl5": ".wrapper h5",
+      "text": ".wrapper p, .wrapper li"
+    },
+    "ee": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "GitLab Enterprise Edition (EE) and GitLab.com"
+      },
+      "lvl1": {
+        "type": "xpath",
+        "selector": "//h1[2]"
+      },
+      "lvl2": ".wrapper h2",
+      "lvl3": ".wrapper h3",
+      "lvl4": ".wrapper h4",
+      "lvl5": ".wrapper h5",
+      "text": ".wrapper p, .wrapper li"
+    },
+    "omnibus": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Omnibus GitLab"
+      },
+      "lvl1": {
+        "type": "xpath",
+        "selector": "//h1[2]"
+      },
+      "lvl2": ".wrapper h2",
+      "lvl3": ".wrapper h3",
+      "lvl4": ".wrapper h4",
+      "lvl5": ".wrapper h5",
+      "text": ".wrapper p, .wrapper li"
+    }
+  },
+  "scrap_start_urls": false,
+  "min_indexed_level": 1,
+  "nb_hits": 21153
+}

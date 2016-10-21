@@ -5,6 +5,8 @@
       "url": "https://docs.bolt.cm/(?P<version>.*?)/getting-started/introduction",
       "variables": {
         "version": [
+          "3.2",
+          "3.1",
           "3.0",
           "2.2"
         ]
@@ -14,6 +16,8 @@
       "url": "https://docs.bolt.cm/(?P<version>.*?)/.*",
       "variables": {
         "version": [
+          "3.2",
+          "3.1",
           "3.0",
           "2.2"
         ]
@@ -27,5 +31,5 @@
     "lvl3": ".content h4",
     "text": ".content p, .content code"
   },
-  "nb_hits": 7539
+  "nb_hits": 19078
 }

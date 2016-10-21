@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//a[@class=\"is-active\"]",
+      "selector": "//a[@class=\"active\"]/preceding::h4[1]",
       "type": "xpath",
       "global": "true"
     },
@@ -16,6 +16,7 @@
     "lvl4": "article h5",
     "text": "article p, article li"
   },
-  "nb_hits": 521,
+  "min_indexed_level": 1,
+  "nb_hits": 543,
   "js_render": true
 }

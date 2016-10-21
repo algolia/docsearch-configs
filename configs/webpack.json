@@ -1,0 +1,25 @@
+{
+  "index_name": "webpack",
+  "start_urls": [
+    "http://webpack.github.io/docs/"
+  ],
+  "js_render": true,
+  "js_wait": 1,
+  "selectors_exclude": [
+    ".anchor"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul/li/a[@class=\"active\"]/../../../text()[1]",
+      "type": "xpath"
+    },
+    "lvl1": ".page-header h1",
+    "lvl2": "#wiki h1",
+    "lvl3": "#wiki h2",
+    "lvl4": "#wiki h3",
+    "lvl5": "#wiki h4",
+    "text": "#wiki p"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 2112
+}

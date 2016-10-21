@@ -2,19 +2,22 @@
   "index_name": "symfony",
   "start_urls": [
     {
-      "url": "https://symfony.com/doc/(?P<version>.*?)/(?P<type_of_content>.*?)/",
+      "url": "https://symfony.com/doc/(?P<version>.*?)/",
       "variables": {
-        "version": {
-          "url": "https://symfony.com/doc/current/book/controller.html",
-          "js": "var versions = $('.doc-switcher .versions li').map(function (i, elt) { return $(elt).find('a').html().split('/')[0].replace(/ |\\n/g,''); }).toArray(); versions.push('current'); versions.push('master'); return JSON.stringify(versions);"
-        },
-        "type_of_content": [
-          "book",
-          "bundles",
-          "reference",
-          "components",
-          "cookbook",
-          "best_practices"
+        "version": [
+          "2.0",
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5",
+          "2.6",
+          "2.7",
+          "2.8",
+          "3.0",
+          "3.1",
+          "current",
+          "master"
         ]
       }
     },
@@ -42,5 +45,5 @@
     "text": "#main p"
   },
   "min_indexed_level": 2,
-  "nb_hits": 121240
+  "nb_hits": 76856
 }

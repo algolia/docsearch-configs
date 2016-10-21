@@ -1,0 +1,19 @@
+{
+  "index_name": "integrated",
+  "start_urls": [
+    "http://elpete.github.io/integrated/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'menu-list')]/li/a[contains(@class, 'is-active')]/../../preceding::p[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".column h1",
+    "lvl2": ".column h3",
+    "text": ".column h2, .column p, .column li, .column td"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 2441
+}

@@ -2,10 +2,11 @@
   "index_name": "adonisjs",
   "start_urls": [
     {
-      "url": "http://adonisjs.com/docs/(?P<version>.*?)/installation",
+      "url": "http://adonisjs.com/docs/(?P<version>.*?)/overview",
       "variables": {
         "version": [
-          "3.0"
+          "3.0",
+          "3.1"
         ]
       }
     },
@@ -13,27 +14,30 @@
       "url": "http://adonisjs.com/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "3.0"
+          "3.0",
+          "3.1"
         ]
       }
     }
   ],
   "stop_urls": [],
   "selectors_exclude": [
-    ".note"
+    ".note",
+    ".admonitionblock"
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".nav-item.active > a",
+      "selector": "//div[contains(@class, 'sidebar')]/ul/li[contains(@class, 'active')]/../li[contains(@class, 'head')]",
+      "type": "xpath",
       "global": true
     },
-    "lvl1": ".documentation h1",
-    "lvl2": ".documentation h2",
-    "lvl3": ".documentation h3",
-    "lvl4": ".documentation h4",
-    "lvl5": ".documentation h5",
-    "text": ".documentation p, .documentation li"
+    "lvl1": ".docs h1",
+    "lvl2": ".docs h2",
+    "lvl3": ".docs h3",
+    "lvl4": ".docs h4",
+    "lvl5": ".docs h5",
+    "text": ".docs p, .docs li, .docs td"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2418
+  "nb_hits": 6333
 }

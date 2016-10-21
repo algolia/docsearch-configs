@@ -1,0 +1,27 @@
+{
+  "index_name": "unified-streaming",
+  "start_urls": [
+    "http://docs.unified-streaming.com/"
+  ],
+  "stop_urls": [
+    "\\.rb",
+    "\\.json",
+    "\\.sh",
+    "Dockerfile",
+    "\\.cft"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, \"toctree-l2\") and contains(@class, \"current\")]/../preceding::a[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "text": ".section p"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 3117
+}

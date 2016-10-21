@@ -2,24 +2,29 @@
   "index_name": "appboy",
   "start_urls": [
     {
-      "url": "https://www.appboy.com/(?P<section>.*?)",
+      "url": "https://www.appboy.com/(?P<section>.*?)/",
       "variables": {
         "section": [
           "documentation",
           "academy"
         ]
       }
-    }
+    },
+    "https://www.appboy.com/documentation/Platform_Wide",
+    "https://www.appboy.com/academy/Getting_Started"
   ],
-  "stop_urls": [],
+  "scrap_start_urls": false,
+  "stop_urls": [
+    ".*?[^/]$"
+  ],
   "selectors": {
-    "lvl0": "ul.nav a.active",
+    "lvl0": "ul.nav a.heading",
     "lvl1": ".article h1",
     "lvl2": ".article h2",
     "lvl3": ".article h3",
     "lvl4": ".article h4",
     "text": ".article p, .article li"
   },
-  "nb_hits": 9459,
+  "nb_hits": 8625,
   "min_indexed_level": 2
 }

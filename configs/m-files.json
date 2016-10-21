@@ -1,0 +1,20 @@
+{
+  "index_name": "m-files",
+  "start_urls": [
+    "http://www.m-files.com/user-guide/latest/eng/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "body h1",
+    "lvl2": "body h2",
+    "lvl3": "body h3",
+    "lvl4": "body h4",
+    "lvl5": "body h5",
+    "text": "body p, body li"
+  },
+  "nb_hits": 5873
+}

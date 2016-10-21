@@ -1,0 +1,18 @@
+{
+  "index_name": "facebookincubator",
+  "start_urls": [
+    "https://facebookincubator.github.io/developer-docs-zh_CN/",
+    "http://facebookincubator.github.io/developer-docs-zh_CN/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".devsiteNav__root a",
+    "lvl1": ".devsiteDocsContent h1",
+    "lvl2": ".devsiteDocsContent h2",
+    "lvl3": ".devsiteDocsContent h4",
+    "lvl4": ".devsiteDocsContent h4",
+    "text": ".devsiteDocsContent p, .devsiteDocsContent li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 25215
+}

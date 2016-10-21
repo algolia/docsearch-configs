@@ -2,66 +2,62 @@
   "index_name": "docker",
   "start_urls": [
     {
-      "url": "https://docs.docker.com/engine/",
-      "page_rank": 14
-    },
-    {
-      "url": "https://docs.docker.com/docker-for-mac/",
+      "url": "https://docker.github.io/docker-for-mac/",
       "page_rank": 13
     },
     {
-      "url": "https://docs.docker.com/docker-for-windows/",
+      "url": "https://docker.github.io/docker-for-windows/",
       "page_rank": 12
     },
     {
-      "url": "https://docs.docker.com/docker-trusted-registry/",
+      "url": "https://docker.github.io/docker-trusted-registry/",
       "page_rank": 11
     },
     {
-      "url": "https://docs.docker.com/ucp/",
+      "url": "https://docker.github.io/ucp/",
       "page_rank": 10
     },
     {
-      "url": "https://docs.docker.com/docker-cloud/",
+      "url": "https://docker.github.io/docker-cloud/",
       "page_rank": 9
     },
     {
-      "url": "https://docs.docker.com/docker-store/",
+      "url": "https://docker.github.io/docker-store/",
       "page_rank": 8
     },
     {
-      "url": "https://docs.docker.com/compose/",
+      "url": "https://docker.github.io/compose/",
       "page_rank": 7
     },
     {
-      "url": "https://docs.docker.com/registry/",
+      "url": "https://docker.github.io/registry/",
       "page_rank": 6
     },
     {
-      "url": "https://docs.docker.com/notary/",
+      "url": "https://docker.github.io/notary/",
       "page_rank": 5
     },
     {
-      "url": "https://docs.docker.com/machine/",
+      "url": "https://docker.github.io/machine/",
       "page_rank": 4
     },
     {
-      "url": "https://docs.docker.com/toolbox/",
+      "url": "https://docker.github.io/toolbox/",
       "page_rank": 3
     },
     {
-      "url": "https://docs.docker.com/opensource/",
+      "url": "https://docker.github.io/opensource/",
       "page_rank": 2
     },
     {
-      "url": "https://docs.docker.com/releases-notes/",
+      "url": "https://docker.github.io/releases-notes/",
       "page_rank": 1
     },
     {
-      "url": "https://docs.docker.com/swarm/",
+      "url": "https://docker.github.io/swarm/",
       "page_rank": 0
     },
-    "https://docs.docker.com/"
+    "https://docker.github.io/"
   ],
   "stop_urls": [
     "/v1.*$"
@@ -90,6 +86,7 @@
     "text": "#DocumentationText p, #DocumentationText li"
   },
   "nb_hits": 26820,
+  "js_render": true,
   "custom_settings": {
     "exactOnSingleWordQuery": "none"
   },
