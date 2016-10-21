@@ -1,0 +1,43 @@
+{
+  "index_name": "shopware",
+  "start_urls": [
+    {
+      "url": "https://developers.shopware.com/developers-guide/rest-api",
+      "selectors_key": "rest"
+    },
+    "https://developers.shopware.com"
+  ],
+  "stop_urls": [
+    "\\.md$",
+    "blog"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//li[contains(@class, 'navi--chapter') and contains(@class, 'is--active')]/a",
+        "type": "xpath",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".inner-container h1",
+      "lvl2": ".inner-container h2",
+      "lvl3": ".inner-container h3",
+      "lvl4": ".inner-container h4",
+      "lvl5": ".inner-container h5",
+      "text": ".inner-container p, .inner-container p, .inner-container td"
+    },
+    "rest": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "REST API"
+      },
+      "lvl1": ".inner-container h1",
+      "lvl2": ".inner-container h2",
+      "lvl3": ".inner-container h3",
+      "lvl4": ".inner-container h4",
+      "lvl5": ".inner-container h5",
+      "text": ".inner-container p, .inner-container p, .inner-container td"
+    }
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 7810
+}
