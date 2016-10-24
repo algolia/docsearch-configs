@@ -123,7 +123,7 @@ You can override the default `strip_chars` per level
 
 ### `allowed_domains`
 
-You can pass either a string or an array of strings. This is the whitelist of
+You can pass an array of strings. This is the whitelist of
 domains the crawler will scan. If a link targets a page that is not in the
 whitelist, the crawler will not follow it.
 
