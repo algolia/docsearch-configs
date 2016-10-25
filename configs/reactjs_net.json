@@ -1,0 +1,26 @@
+{
+  "index_name": "reactjs_net",
+  "start_urls": [
+    "https://reactjs.net"
+  ],
+  "stop_urls": [
+    "blog",
+    "release\\.html"
+  ],
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'nav-docs')]/ul/li/a[contains(@class, 'active')]/../../preceding::h3[1]",
+      "type": "xpath"
+    },
+    "lvl1": ".inner-content h1",
+    "lvl2": ".inner-content h2",
+    "lvl3": ".inner-content h3",
+    "lvl4": ".inner-content h4",
+    "lvl5": ".inner-content h5",
+    "text": ".inner-content p, .inner-content li"
+  },
+  "nb_hits": 428
+}
