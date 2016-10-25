@@ -7,9 +7,9 @@
       "selectors_key": "guide"
     },
     {
-      "url": "https://www.algolia.com/rest-api",
+      "url": "https://www.algolia.com/doc/rest-api",
       "page_rank": -1,
-      "selectors_key": "default"
+      "selectors_key": "rest"
     },
     {
       "url": "https://www.algolia.com/doc/api-client/.*?/parameters",
@@ -86,6 +86,17 @@
       "lvl5": ".markdown-page h5",
       "text": ".markdown-page p, .markdown-page li"
     },
+    "rest": {
+      "lvl0": {
+        "selector": "#doc-navbar li.active, .language-navigation li.active .tab_language_name",
+        "global": true
+      },
+      "lvl1": ".markdown-page h2",
+      "lvl2": ".markdown-page h3",
+      "lvl3": ".markdown-page h4",
+      "lvl4": ".markdown-page h5",
+      "text": ".markdown-page p, .markdown-page li"
+    },
     "guide": {
       "lvl0": {
         "selector": "#doc-navbar li.active, .language-navigation li.active .tab_language_name",
@@ -115,6 +126,7 @@
   "min_indexed_level": {
     "default": 2,
     "guide": 2,
+    "rest": 1,
     "faq": 3
   },
   "keep_tags": [
