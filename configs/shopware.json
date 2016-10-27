@@ -8,8 +8,7 @@
     "https://developers.shopware.com"
   ],
   "stop_urls": [
-    "\\.md$",
-    "blog"
+    "\\.md$"
   ],
   "selectors": {
     "default": {
