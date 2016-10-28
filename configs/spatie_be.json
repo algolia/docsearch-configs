@@ -16,7 +16,8 @@
         "project": [
           "menu",
           "laravel-activitylog",
-          "laravel-slack-slash-command"
+          "laravel-slack-slash-command",
+          "laravel-tags"
         ]
       }
     }
@@ -33,5 +34,5 @@
     "lvl4": "article h5",
     "text": "article p"
   },
-  "nb_hits": 556
+  "nb_hits": 734
 }
