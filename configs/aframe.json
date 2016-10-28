@@ -14,6 +14,9 @@
     }
   ],
   "stop_urls": [],
+  "selectors_exclude": [
+    ".mobile-header"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//li[contains(@class, 'subnav-item-current')]/../preceding::h3[1]",
@@ -27,5 +30,5 @@
     "text": ".content p, .content li, .content td"
   },
   "min_indexed_level": 1,
-  "nb_hits": 4974
+  "nb_hits": 10889
 }
