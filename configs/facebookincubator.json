@@ -1,8 +1,8 @@
 {
   "index_name": "facebookincubator",
   "start_urls": [
-    "https://facebookincubator.github.io/developer-docs-zh_CN/",
-    "http://facebookincubator.github.io/developer-docs-zh_CN/"
+    "https://facebookfordevelopers.github.io/docs-zh_CN/",
+    "http://facebookfordevelopers.github.io/docs-zh_CN/"
   ],
   "stop_urls": [],
   "selectors": {
