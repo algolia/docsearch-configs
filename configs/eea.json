@@ -1,0 +1,20 @@
+{
+  "index_name": "eea",
+  "start_urls": [
+    "http://eea.github.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".blog-post h1",
+    "lvl2": ".blog-post h2",
+    "lvl3": ".blog-post h3",
+    "lvl4": ".blog-post h4",
+    "lvl5": ".blog-post h5",
+    "text": ".blog-post p, .blog-post li"
+  },
+  "nb_hits": 13427
+}
