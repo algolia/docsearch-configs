@@ -1,31 +1,33 @@
 {
   "index_name": "clusterhq",
   "start_urls": [
-    "https://docs.clusterhq.com/en/latest",
-    "https://docs.clusterhq.com/en/latest/index.html"
+    {
+      "url": "https://(?P<project>.*?)-docs.clusterhq.com/en/latest",
+      "variables": {
+        "project": [
+          "flockerhub",
+          "fli",
+          "flocker"
+        ]
+      }
+    },
+    "https://flocker-docs.clusterhq.com/en/latest/index.html",
+    "https://fli-docs.clusterhq.com/en/latest/index.html",
+    "https://flockerhub-docs.clusterhq.com/en/latest/index.html"
   ],
-  "stop_urls": [
-    ".*^(?!.*html)"
-  ],
-  "selectors_exclude": [
-    ".pods-eq em",
-    ".pods-eq a"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "",
-      "default_value": "Install & Docs"
+      "selector": ".toctree-l1.current > a",
+      "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": "//*[contains(@class, \"toctree-l2\") and contains(@class, \"current\")]/../preceding::a[1]",
-      "type": "xpath",
-      "global": true
-    },
-    "lvl2": ".section h1",
-    "lvl3": ".section h2",
-    "lvl4": ".section h3",
-    "text": ".section p, .pods-eq span"
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
   },
-  "min_indexed_level": 2,
-  "nb_hits": 2371
+  "min_indexed_level": 1,
+  "nb_hits": 4422
 }
