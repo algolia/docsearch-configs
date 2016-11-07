@@ -1,0 +1,33 @@
+{
+  "index_name": "clusterhq2",
+  "start_urls": [
+    {
+      "url": "https://(?P<project>.*?)-docs.clusterhq.com/en/latest",
+      "variables": {
+        "project": [
+          "flockerhub",
+          "fli",
+          "flocker"
+        ]
+      }
+    },
+    "https://flocker-docs.clusterhq.com/en/latest/index.html",
+    "https://fli-docs.clusterhq.com/en/latest/index.html",
+    "https://flockerhub-docs.clusterhq.com/en/latest/index.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".toctree-l1.current > a",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 4422
+}
