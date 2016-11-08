@@ -2,13 +2,13 @@
   "index_name": "vuejs_cn2",
   "start_urls": [
     {
-      "url": "http://cn.vuejs.org/api/",
+      "url": "http://cn.vuejs.org/v2/api/",
       "page_rank": 1
     },
-    "http://cn.vuejs.org/guide/"
+    "http://cn.vuejs.org/v2/guide/"
   ],
   "stop_urls": [
-    "http://cn.vuejs.org/guide/index.html"
+    "http://cn.vuejs.org/v2/guide/index.html"
   ],
   "selectors_exclude": [
     ".sidebar h2 .version-select"
@@ -25,5 +25,5 @@
     "text": ".content p"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2072
+  "nb_hits": 2079
 }

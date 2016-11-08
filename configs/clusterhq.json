@@ -1,8 +1,8 @@
 {
   "index_name": "clusterhq",
   "start_urls": [
-    "https://docs.clusterhq.com/en/latest",
-    "https://docs.clusterhq.com/en/latest/index.html"
+    "https://flocker-docs.clusterhq.com/en/latest",
+    "https://flocker-docs.clusterhq.com/en/latest/index.html"
   ],
   "stop_urls": [
     ".*^(?!.*html)"
@@ -27,5 +27,5 @@
     "text": ".section p, .pods-eq span"
   },
   "min_indexed_level": 2,
-  "nb_hits": 2371
+  "nb_hits": 2369
 }
