@@ -38,11 +38,11 @@
         "type": "xpath",
         "selector": "//h1[2]"
       },
-      "lvl2": ".wrapper h2",
-      "lvl3": ".wrapper h3",
-      "lvl4": ".wrapper h4",
-      "lvl5": ".wrapper h5",
-      "text": ".wrapper p, .wrapper li"
+      "lvl2": ".main h2",
+      "lvl3": ".main h3",
+      "lvl4": ".main h4",
+      "lvl5": ".main h5",
+      "text": ".main p, .main li"
     },
     "ce": {
       "lvl0": {
@@ -53,11 +53,11 @@
         "type": "xpath",
         "selector": "//h1[2]"
       },
-      "lvl2": ".wrapper h2",
-      "lvl3": ".wrapper h3",
-      "lvl4": ".wrapper h4",
-      "lvl5": ".wrapper h5",
-      "text": ".wrapper p, .wrapper li"
+      "lvl2": ".main h2",
+      "lvl3": ".main h3",
+      "lvl4": ".main h4",
+      "lvl5": ".main h5",
+      "text": ".main p, .main li"
     },
     "ee": {
       "lvl0": {
@@ -68,11 +68,11 @@
         "type": "xpath",
         "selector": "//h1[2]"
       },
-      "lvl2": ".wrapper h2",
-      "lvl3": ".wrapper h3",
-      "lvl4": ".wrapper h4",
-      "lvl5": ".wrapper h5",
-      "text": ".wrapper p, .wrapper li"
+      "lvl2": ".main h2",
+      "lvl3": ".main h3",
+      "lvl4": ".main h4",
+      "lvl5": ".main h5",
+      "text": ".main p, .main li"
     },
     "omnibus": {
       "lvl0": {
@@ -83,14 +83,14 @@
         "type": "xpath",
         "selector": "//h1[2]"
       },
-      "lvl2": ".wrapper h2",
-      "lvl3": ".wrapper h3",
-      "lvl4": ".wrapper h4",
-      "lvl5": ".wrapper h5",
-      "text": ".wrapper p, .wrapper li"
+      "lvl2": ".main h2",
+      "lvl3": ".main h3",
+      "lvl4": ".main h4",
+      "lvl5": ".main h5",
+      "text": ".main p, .main li"
     }
   },
   "scrap_start_urls": false,
   "min_indexed_level": 1,
-  "nb_hits": 21153
+  "nb_hits": 22202
 }

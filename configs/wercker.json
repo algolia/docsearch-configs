@@ -8,11 +8,11 @@
     "http://devcenter.wercker.com/docs/index.html$"
   ],
   "selectors": {
-    "lvl0": "main h2, main h1",
-    "lvl1": "main h3",
-    "lvl2": "main h4",
-    "lvl3": "main h5",
-    "text": "main p, main li"
+    "lvl0": ".blog-section h2, .blog-section h1",
+    "lvl1": ".blog-section h3",
+    "lvl2": ".blog-section h4",
+    "lvl3": ".blog-section h5",
+    "text": ".blog-section p, .blog-section li"
   },
   "scrap_start_urls": false,
   "js_render": true,
