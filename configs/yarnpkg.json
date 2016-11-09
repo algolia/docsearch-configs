@@ -8,6 +8,7 @@
     "lvl0": {
       "selector": "//ul[contains(@class, 'guide-nav')]/li[1]",
       "type": "xpath",
+      "default_value": "Documentation",
       "global": true
     },
     "lvl1": ".hero h1",
@@ -17,5 +18,5 @@
     "text": ".guide-content p, .guide-content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 598
+  "nb_hits": 724
 }

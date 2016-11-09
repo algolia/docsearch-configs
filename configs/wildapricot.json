@@ -15,7 +15,10 @@
     "sessionid=.*$"
   ],
   "selectors": {
-    "lvl0": ".wiki-content h1",
+    "lvl0": {
+      "selector": ".wiki-content h1",
+      "default_value": "Documentation"
+    },
     "lvl1": ".wiki-content h2",
     "lvl2": ".wiki-content h3",
     "lvl3": ".wiki-content h4",
@@ -25,5 +28,5 @@
   "strict": true,
   "js_render": true,
   "min_indexed_level": 2,
-  "nb_hits": 46503
+  "nb_hits": 25765
 }

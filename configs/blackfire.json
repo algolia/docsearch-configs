@@ -7,7 +7,8 @@
   "selectors": {
     "lvl0": {
       "selector": "//ul[@id=\"menu\"]//li[@class=\"active\"]/../preceding::a[1]",
-      "type": "xpath"
+      "type": "xpath",
+      "default_value": "Documentation"
     },
     "lvl1": "#documentation h1",
     "lvl2": "#documentation h2",
@@ -17,6 +18,6 @@
     "text": "#documentation p, #documentation li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 3155,
+  "nb_hits": 3414,
   "js_render": true
 }
