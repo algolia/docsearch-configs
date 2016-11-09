@@ -1,0 +1,21 @@
+{
+  "index_name": "zman",
+  "start_urls": [
+    "https://zmanim.github.io/docs/"
+  ],
+  "stop_urls": [
+    "index.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "nb_hits": 36
+}
