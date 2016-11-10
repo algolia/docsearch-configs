@@ -16,7 +16,7 @@
     "lvl0": {
       "selector": "//*[@class=\"breadcrumbNav\"]/div/a[2]",
       "type": "xpath",
-      "default_value": "Documentation",
+      "default_value": "Documentation"
     },
     "lvl1": {
       "selector": "//*[@class=\"breadcrumbNav\"]/div/a[3]",
