@@ -1,7 +1,7 @@
 {
   "index_name": "cerebral",
   "start_urls": [
-    "http://cerebral.github.io/cerebral-website/"
+    "http://cerebral.github.io/"
   ],
   "stop_urls": [],
   "selectors": {
