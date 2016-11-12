@@ -28,5 +28,5 @@
   "strict": true,
   "js_render": true,
   "min_indexed_level": 2,
-  "nb_hits": 60000
+  "nb_hits": 29736
 }
