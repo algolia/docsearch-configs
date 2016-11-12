@@ -1,6 +1,7 @@
 {
   "index_name": "cerebral",
   "start_urls": [
+    "https://cerebral.github.io/",
     "http://cerebral.github.io/"
   ],
   "stop_urls": [],
@@ -17,5 +18,5 @@
     "text": ".row__col_lw_18 p, .row__col_lw_18 li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 478
+  "nb_hits": 483
 }
