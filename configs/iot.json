@@ -4,9 +4,9 @@
     "http://docs.iot.bzh/docs/docsearch.html",
     "http://docs.iot.bzh/docs",
     "http://docs.iot.bzh/docs/hardware/en/dev/",
-    "http://docs.iot.bzh/docs/quickstart/en/dev/",
     "http://docs.iot.bzh/docs/bindings/en/dev/",
-    "http://docs.iot.bzh/docs/architecture/en/dev/"
+    "http://docs.iot.bzh/docs/architecture/en/dev/",
+    "http://docs.iot.bzh/docs/getting_started/en/dev/"
   ],
   "stop_urls": [
     "^((?!\\.html).)*$"
@@ -27,5 +27,5 @@
     "lvl5": ".page-content h5",
     "text": ".page-content p, .page-content li, .page-content td"
   },
-  "nb_hits": 2575
+  "nb_hits": 141
 }
