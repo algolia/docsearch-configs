@@ -1,7 +1,11 @@
 {
   "index_name": "ordercloud",
   "start_urls": [
-    "https://documentation.ordercloud.io/"
+    "https://documentation.ordercloud.io/",
+    "https://documentation.ordercloud.io/api-reference",
+    "https://documentation.ordercloud.io/guides",
+    "https://documentation.ordercloud.io/angularjs/getting-started",
+    "https://documentation.ordercloud.io/integration-services/overview/introduction"
   ],
   "stop_urls": [
     "https://documentation.ordercloud.io/home",
