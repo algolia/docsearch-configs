@@ -28,5 +28,6 @@
   "strict": true,
   "js_render": true,
   "min_indexed_level": 2,
+  "ignore_nb_hits_issue": true,
   "nb_hits": 29736
 }
