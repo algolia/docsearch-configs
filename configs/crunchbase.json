@@ -19,6 +19,8 @@
     "text": ".docs-content p, .docs-content li"
   },
   "min_indexed_level": 1,
+  "docker_memory": 2048,
+  "docker_cpu": 1,
   "js_render": true,
   "nb_hits": 2183
 }
