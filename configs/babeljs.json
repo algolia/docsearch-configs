@@ -15,13 +15,15 @@
   ],
   "selectors": {
     "doc": {
-      "lvl0": ".docs-header h1",
-      "lvl1": ".docs-content h2",
-      "lvl2": ".docs-content h3",
-      "lvl3": ".docs-content h4",
+      "lvl0": "ul.navbar-nav li.active",
+      "lvl1": ".docs-header h1",
+      "lvl2": ".docs-content h2",
+      "lvl3": ".docs-content h3",
       "lvl4": ".docs-content h4",
+      "lvl5": ".docs-content h4",
       "text": ".docs-content p, .docs-content li"
     }
   },
+  "min_indexed_level": 1,
   "nb_hits": 1251
 }
