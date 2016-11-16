@@ -15,8 +15,6 @@
     }
   ],
   "stop_urls": [
-    "/old-reference-manuals/",
-    "develop",
     "xml"
   ],
   "selectors": {
