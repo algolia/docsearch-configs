@@ -17,7 +17,8 @@
           "menu",
           "laravel-activitylog",
           "laravel-slack-slash-command",
-          "laravel-tags"
+          "laravel-tags",
+          "laravel-uptime-monitor"
         ]
       }
     }
@@ -34,5 +35,5 @@
     "lvl4": "article h5",
     "text": "article p"
   },
-  "nb_hits": 734
+  "nb_hits": 866
 }
