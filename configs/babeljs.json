@@ -20,18 +20,6 @@
       "lvl4": ".docs-content h4",
       "lvl5": ".docs-content h4",
       "text": ".docs-content p, .docs-content li"
-    },
-    "usage": {
-      "lvl0": {
-        "selector": "//ul[contains(@class, 'navbar-nav')]/li[contains(@class, 'active')]/a",
-        "type": "xpath"
-      },
-      "lvl1": ".docs-header h1",
-      "lvl2": ".docs-content h2",
-      "lvl3": ".docs-content h3",
-      "lvl4": ".docs-content h4",
-      "lvl5": ".docs-content h4",
-      "text": ".docs-content p, .docs-content li"
     }
   },
   "min_indexed_level": {
