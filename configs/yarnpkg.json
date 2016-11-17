@@ -4,6 +4,9 @@
     "https://yarnpkg.com/en/docs"
   ],
   "stop_urls": [],
+  "selectors_exclude": [
+    ".__cf_email__"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//ul[contains(@class, 'guide-nav')]/li[1]",
