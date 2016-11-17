@@ -5,7 +5,7 @@
   ],
   "stop_urls": [],
   "selectors_exclude": [
-    ".__cf_email__"
+    "code"
   ],
   "selectors": {
     "lvl0": {
