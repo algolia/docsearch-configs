@@ -4,12 +4,12 @@
     "https://echo.labstack.com/"
   ],
   "stop_urls": [],
+  "selectors_exclude": [
+    "footer",
+    "#maintainers"
+  ],
   "selectors": {
-    "lvl0": {
-      "selector": "//a[@class=\"active\"]/preceding::h4[1]",
-      "type": "xpath",
-      "global": "true"
-    },
+    "lvl0": ".menu a.active",
     "lvl1": "article h2",
     "lvl2": "article h3",
     "lvl3": "article h4",
@@ -17,6 +17,5 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 543,
-  "js_render": true
+  "nb_hits": 526
 }
