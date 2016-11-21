@@ -1,0 +1,147 @@
+{
+  "index_name": "phptherightway",
+  "start_urls": [
+    {
+      "url": "http://www.phptherightway.com/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "http://bg.phptherightway.com/",
+      "tags": [
+        "bg"
+      ]
+    },
+    {
+      "url": "http://laravel-china.github.io/php-the-right-way/",
+      "tags": [
+        "chi_simplified"
+      ]
+    },
+    {
+      "url": "http://laravel-taiwan.github.io/php-the-right-way",
+      "tags": [
+        "chi_traditional"
+      ]
+    },
+    {
+      "url": "http://eilgin.github.io/php-the-right-way/",
+      "tags": [
+        "fr"
+      ]
+    },
+    {
+      "url": "http://rwetzlmayr.github.io/php-the-right-way/",
+      "tags": [
+        "de"
+      ]
+    },
+    {
+      "url": "http://id.phptherightway.com/",
+      "tags": [
+        "id"
+      ]
+    },
+    {
+      "url": "http://it.phptherightway.com/",
+      "tags": [
+        "it"
+      ]
+    },
+    {
+      "url": "http://ja.phptherightway.com/",
+      "tags": [
+        "ja"
+      ]
+    },
+    {
+      "url": "http://modernpug.github.io/php-the-right-way/",
+      "tags": [
+        "ko"
+      ]
+    },
+    {
+      "url": "http://novid.github.io/php-the-right-way/",
+      "tags": [
+        "pe"
+      ]
+    },
+    {
+      "url": "http://pl.phptherightway.com/",
+      "tags": [
+        "pl"
+      ]
+    },
+    {
+      "url": "http://br.phptherightway.com/",
+      "tags": [
+        "br"
+      ]
+    },
+    {
+      "url": "https://bgui.github.io/php-the-right-way/",
+      "tags": [
+        "ro"
+      ]
+    },
+    {
+      "url": "http://getjump.github.io/ru-php-the-right-way",
+      "tags": [
+        "ru"
+      ]
+    },
+    {
+      "url": "http://phpsrbija.github.io/php-the-right-way/",
+      "tags": [
+        "se"
+      ]
+    },
+    {
+      "url": "http://sl.phptherightway.com/",
+      "tags": [
+        "sl"
+      ]
+    },
+    {
+      "url": "http://phpdevenezuela.github.io/php-the-right-way/",
+      "tags": [
+        "sp"
+      ]
+    },
+    {
+      "url": "https://apzentral.github.io/php-the-right-way/",
+      "tags": [
+        "th"
+      ]
+    },
+    {
+      "url": "http://hkulekci.github.io/php-the-right-way/",
+      "tags": [
+        "tr"
+      ]
+    },
+    {
+      "url": "http://iflista.github.com/php-the-right-way/",
+      "tags": [
+        "uk"
+      ]
+    },
+    {
+      "url": "https://adaroobi.github.io/php-the-right-way/",
+      "tags": [
+        "ar"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".site-content h1",
+    "lvl1": ".site-content h2",
+    "lvl2": ".site-content h3",
+    "lvl3": ".site-content h4",
+    "lvl4": ".site-content h5",
+    "text": ".site-content p, .site-content li"
+  },
+  "nb_hits": 13119
+}
