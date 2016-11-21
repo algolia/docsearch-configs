@@ -1,7 +1,7 @@
 {
   "index_name": "slimframework",
   "start_urls": [
-    "http://www.slimframework.com/docs/"
+    "https://www.slimframework.com/docs/"
   ],
   "selectors_exclude": [
     ".edit-panel"
@@ -19,5 +19,5 @@
     "text": ".docs-content p, .docs-content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 643
+  "nb_hits": 793
 }
