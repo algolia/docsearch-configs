@@ -19,5 +19,6 @@
   },
   "min_indexed_level": 1,
   "nb_hits": 3414,
-  "js_render": true
+  "js_render": true,
+  "docker_memory": 2048
 }
