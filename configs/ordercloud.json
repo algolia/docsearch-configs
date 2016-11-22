@@ -2,7 +2,7 @@
   "index_name": "ordercloud",
   "start_urls": [
     {
-      "https://documentation.ordercloud.io/api-reference",
+      "url": "https://documentation.ordercloud.io/api-reference",
       "selectors_keys": "api"
     },
     "https://documentation.ordercloud.io/",
