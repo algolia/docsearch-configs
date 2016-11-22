@@ -12,6 +12,7 @@
     "lvl4": "main article h4",
     "text": "main article p, main article li"
   },
+  "js_render": true,
   "min_indexed_level": 2,
   "nb_hits": 2658
 }
