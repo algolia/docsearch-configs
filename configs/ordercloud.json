@@ -1,8 +1,11 @@
 {
   "index_name": "ordercloud",
   "start_urls": [
+    {
+      "https://documentation.ordercloud.io/api-reference",
+      "selectors_keys": "api"
+    },
     "https://documentation.ordercloud.io/",
-    "https://documentation.ordercloud.io/api-reference",
     "https://documentation.ordercloud.io/guides",
     "https://documentation.ordercloud.io/angularjs/getting-started",
     "https://documentation.ordercloud.io/integration-services/overview/introduction"
@@ -13,17 +16,28 @@
   ],
   "scrap_start_urls": false,
   "selectors": {
-    "lvl0": ".oc-docs-top-nav li.active a",
-    "lvl1": {
-      "selector": "//aside[contains(@class, 'oc-docs-pane-content')]//li[contains(@class, 'resource') and contains(@class, 'active')]/../../preceding::li[1]",
-      "type": "xpath"
+    "default": {
+      "lvl0": ".oc-docs-top-nav li.active a",
+      "lvl1": {
+        "selector": "//aside[contains(@class, 'oc-docs-pane-content')]//li[contains(@class, 'resource') and contains(@class, 'active')]/../../preceding::li[1]",
+        "type": "xpath"
+      },
+      "lvl2": "article h1",
+      "lvl3": "article h2",
+      "lvl4": "article h3",
+      "lvl5": "article h4",
+      "lvl6": "article h5",
+      "text": "article p, article li"
     },
-    "lvl2": "article h1",
-    "lvl3": "article h2",
-    "lvl4": "article h3",
-    "lvl5": "article h4",
-    "lvl6": "article h5",
-    "text": "article p, article li"
+    "api": {
+      "lvl0": ".oc-docs-top-nav li.active a",
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
+    }
   },
   "min_indexed_level": 2,
   "js_render": true,
