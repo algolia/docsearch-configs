@@ -3,12 +3,15 @@
   "start_urls": [
     "https://webpack.js.org/concepts/",
     "https://webpack.js.org/configuration/",
-    "https://webpack.js.org/how-to/",
-    "https://webpack.js.org/api/"
+    "https://webpack.js.org/guides/"
   ],
   "js_render": true,
   "js_wait": 0,
-  "selectors_exclude": [],
+  "selectors_exclude": [
+    ".contributors",
+    ".todo",
+    ".page__edit"
+  ],
   "selectors": {
     "lvl0": ".navigation .navigation__link--active",
     "lvl1": ".page__content h1",
@@ -19,5 +22,5 @@
     "text": ".page__content p"
   },
   "min_indexed_level": 2,
-  "nb_hits": 1558
+  "nb_hits": 2059
 }
