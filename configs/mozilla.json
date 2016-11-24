@@ -1,0 +1,89 @@
+{
+  "index_name": "mozilla",
+  "start_urls": [
+    "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "https://developer.mozilla.org/docs/en/CSS",
+    "https://developer.mozilla.org/docs/en-US/CSS",
+    "https://developer.mozilla.org/en-US/docs/en-US/CSS",
+    "https://developer.mozilla.org/en-US/docs/en/CSS",
+    "https://developer.mozilla.org/en-US/docs/CSS",
+    "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "https://developer.mozilla.org/docs/en/HTML",
+    "https://developer.mozilla.org/docs/en-US/HTML",
+    "https://developer.mozilla.org/en-US/docs/en-US/HTML",
+    "https://developer.mozilla.org/en-US/docs/en/HTML",
+    "https://developer.mozilla.org/en-US/docs/HTML",
+    "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+    "https://developer.mozilla.org/docs/en/HTTP",
+    "https://developer.mozilla.org/docs/en-US/HTTP",
+    "https://developer.mozilla.org/en-US/docs/en-US/HTTP",
+    "https://developer.mozilla.org/en-US/docs/en/HTTP",
+    "https://developer.mozilla.org/en-US/docs/HTTP",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "https://developer.mozilla.org/docs/en/JavaScript",
+    "https://developer.mozilla.org/docs/en-US/JavaScript",
+    "https://developer.mozilla.org/en-US/docs/en-US/JavaScript",
+    "https://developer.mozilla.org/en-US/docs/en/JavaScript",
+    "https://developer.mozilla.org/en-US/docs/JavaScript",
+    "https://developer.mozilla.org/en-US/docs/Web/API",
+    "https://developer.mozilla.org/docs/en/API",
+    "https://developer.mozilla.org/docs/en-US/API",
+    "https://developer.mozilla.org/en-US/docs/en-US/API",
+    "https://developer.mozilla.org/en-US/docs/en/API",
+    "https://developer.mozilla.org/en-US/docs/API",
+    "https://developer.mozilla.org/en-US/docs/Web/SVG",
+    "https://developer.mozilla.org/docs/en/SVG",
+    "https://developer.mozilla.org/docs/en-US/SVG",
+    "https://developer.mozilla.org/en-US/docs/en-US/SVG",
+    "https://developer.mozilla.org/en-US/docs/en/SVG",
+    "https://developer.mozilla.org/en-US/docs/SVG",
+    "https://developer.mozilla.org/en-US/docs/Web/WebGL",
+    "https://developer.mozilla.org/docs/en/WebGL",
+    "https://developer.mozilla.org/docs/en-US/WebGL",
+    "https://developer.mozilla.org/en-US/docs/en-US/WebGL",
+    "https://developer.mozilla.org/en-US/docs/en/WebGL",
+    "https://developer.mozilla.org/en-US/docs/WebGL",
+    "https://developer.mozilla.org/en-US/docs/Web/API",
+    "https://developer.mozilla.org/docs/en/MathML",
+    "https://developer.mozilla.org/docs/en-US/MathML",
+    "https://developer.mozilla.org/en-US/docs/en-US/MathML",
+    "https://developer.mozilla.org/en-US/docs/en/MathML",
+    "https://developer.mozilla.org/en-US/docs/MathML"
+  ],
+  "stop_urls": [
+    "users/signin",
+    "revert/",
+    "redirect",
+    "compare\\?",
+    "\\$history",
+    "edit$",
+    "locales$",
+    "/profiles/",
+    "/search/",
+    "search?",
+    "/tag/"
+  ],
+  "selectors_exclude": [
+    ".section-edit"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'crumbs')]/ol/li[3]",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class, 'crumbs')]/ol/li[4]",
+      "type": "xpath"
+    },
+    "lvl2": {
+      "selector": "//*[contains(@class, 'crumbs')]/ol/li[5]",
+      "type": "xpath"
+    },
+    "lvl3": ".wiki-main-content h2",
+    "text": {
+      "selector": "//dt//code",
+      "type": "xpath"
+    }
+  },
+  "nb_hits": 74600
+}
