@@ -68,22 +68,26 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'crumbs')]/ol/li[3]",
+      "selector": "//*[contains(@class, 'crumbs')]/ol/li[3]/a",
       "type": "xpath"
     },
     "lvl1": {
-      "selector": "//*[contains(@class, 'crumbs')]/ol/li[4]",
+      "selector": "//*[contains(@class, 'crumbs')]/ol/li[4]/a",
       "type": "xpath"
     },
     "lvl2": {
-      "selector": "//*[contains(@class, 'crumbs')]/ol/li[5]",
+      "selector": "//*[contains(@class, 'crumbs')]/ol/li[5]/a",
       "type": "xpath"
     },
-    "lvl3": ".wiki-main-content h2",
+    "lvl3": ".document-head h1",
+    "lvl4": ".wiki-main-content h2",
     "text": {
       "selector": "//dt//code",
       "type": "xpath"
     }
   },
-  "nb_hits": 74600
+  "docker_cpu": 1,
+  "docker_memory": 2048,
+  "min_indexed_level": 3,
+  "nb_hits": 68754
 }
