@@ -12,5 +12,6 @@
     "lvl4": ".cf-content h4",
     "text": ".cf-content p, .cf-content li"
   },
-  "min_indexed_level": 2
+  "min_indexed_level": 2,
+  "nb_hits": 2976
 }
