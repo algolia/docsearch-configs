@@ -1,0 +1,16 @@
+{
+  "index_name": "figuration",
+  "start_urls": [
+    "http://figuration.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".cf-sidebar .h4",
+    "lvl1": ".cf-content h1",
+    "lvl2": ".cf-content h2",
+    "lvl3": ".cf-content h3",
+    "lvl4": ".cf-content h4",
+    "text": ".cf-content p, .cf-content li"
+  },
+  "min_indexed_level": 2
+}
