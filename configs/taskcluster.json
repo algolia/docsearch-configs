@@ -5,12 +5,13 @@
   ],
   "selectors": {
     "lvl0": ".navbar-nav > li.active > a",
-    "lvl1": ".navbar-nav > li.active > ul > li.active > a",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "text": ".content p"
+    "lvl1": "#content h1",
+    "lvl2": "#content h2",
+    "lvl3": "#content h3",
+    "lvl4": "#content h4",
+    "lvl5": "#content h5",
+    "text": "#content p"
   },
-  "min_indexed_level": 2,
-  "nb_hits": 1065
+  "min_indexed_level": 1,
+  "nb_hits": 1354
 }
