@@ -31,12 +31,11 @@
     },
     "api": {
       "lvl0": ".oc-docs-top-nav li.active a",
-      "lvl1": "article h1",
-      "lvl2": "article h2",
-      "lvl3": "article h3",
-      "lvl4": "article h4",
-      "lvl5": "article h5",
-      "text": "article p, article li"
+      "lvl1": "article h2",
+      "lvl2": "article h3",
+      "lvl3": "article h4",
+      "lvl4": "article .apiRequestDisplay",
+      "text": "article p, article li, article td, article pre"
     }
   },
   "min_indexed_level": 2,
