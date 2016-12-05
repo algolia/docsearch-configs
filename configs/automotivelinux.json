@@ -1,0 +1,31 @@
+{
+  "index_name": "automotivelinux",
+  "start_urls": [
+    "http://docs.automotivelinux.org/docs/docsearch.html",
+    "http://docs.automotivelinux.org/docs",
+    "http://docs.automotivelinux.org/docs/hardware/en/dev/",
+    "http://docs.automotivelinux.org/docs/devguides/en/dev/",
+    "http://docs.automotivelinux.org/docs/architecture/en/dev/",
+    "http://docs.automotivelinux.org/docs/getting_started/en/dev/"
+  ],
+  "stop_urls": [
+    "^((?!\\.html).)*$"
+  ],
+  "scrap_start_urls": false,
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".page-content h1",
+      "global": true
+    },
+    "lvl2": ".page-content h2",
+    "lvl3": ".page-content h3",
+    "lvl4": ".page-content h4",
+    "lvl5": ".page-content h5",
+    "text": ".page-content p, .page-content li, .page-content td"
+  },
+  "nb_hits": 1860
+}
