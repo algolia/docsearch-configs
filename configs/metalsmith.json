@@ -1,0 +1,15 @@
+{
+  "index_name": "metalsmith",
+  "start_urls": [
+    "http://www.metalsmith.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section.Body > h1",
+    "lvl1": "section.Body > h2",
+    "lvl2": "section.Body > h3",
+    "lvl3": ".Plugin-title",
+    "text": "p, ol li, .Plugin-Description"
+  },
+  "nb_hits": 541
+}
