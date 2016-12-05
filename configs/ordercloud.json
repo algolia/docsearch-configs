@@ -14,6 +14,9 @@
     "https://documentation.ordercloud.io/home",
     "https://documentation.ordercloud.io/$"
   ],
+  "stop_content": [
+    "guideHeader.guide"
+  ],
   "scrap_start_urls": false,
   "selectors": {
     "default": {
