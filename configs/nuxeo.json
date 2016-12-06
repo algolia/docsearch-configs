@@ -1,0 +1,25 @@
+{
+  "index_name": "nuxeo",
+  "start_urls": [
+    "https://doc.nuxeo.com/nxdoc/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'breadcrumb')]/a[3]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class, 'breadcrumb')]/a[4]",
+      "type": "xpath"
+    },
+    "lvl2": ".heading-group h1",
+    "lvl3": "#content h2",
+    "lvl4": "#content h3",
+    "lvl5": "#content h4, #content h5, #content h6",
+    "text": "#content p, #content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 23777
+}
