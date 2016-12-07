@@ -1,0 +1,19 @@
+{
+  "index_name": "gravitee",
+  "start_urls": [
+    "https://docs.gravitee.io/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    "#preamble"
+  ],
+  "selectors": {
+    "lvl0": "#content h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "nb_hits": 994
+}
