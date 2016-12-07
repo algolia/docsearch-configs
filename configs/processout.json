@@ -1,15 +1,40 @@
 {
   "index_name": "processout",
   "start_urls": [
-    "https://docs.processout.com/"
+    {
+      "url": "https://docs.processout.com/refs/index.html",
+      "page_rank": -1,
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://docs.processout.com/",
+      "selectors_key": "guide"
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content h2",
-    "lvl1": ".content h3",
-    "lvl2": ".content h4",
-    "lvl3": ".content h5",
-    "text": ".content p, .content li, .content th"
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API references"
+      },
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li, .content th"
+    },
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guides"
+      },
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li, .content th"
+    }
   },
-  "nb_hits": 433
+  "nb_hits": 486
 }
