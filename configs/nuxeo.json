@@ -1,7 +1,15 @@
 {
   "index_name": "nuxeo",
   "start_urls": [
-    "https://doc.nuxeo.com/nxdoc/"
+    "https://doc.nuxeo.com/60",
+    "https://doc.nuxeo.com/710",
+    "https://doc.nuxeo.com/corg",
+    "https://doc.nuxeo.com/glos",
+    "https://doc.nuxeo.com/idedoc",
+    "https://doc.nuxeo.com/nuxeo-release-cycle",
+    "https://doc.nuxeo.com/nxdoc",
+    "https://doc.nuxeo.com/studio",
+    "https://doc.nuxeo.com/userdoc"
   ],
   "stop_urls": [],
   "selectors": {
