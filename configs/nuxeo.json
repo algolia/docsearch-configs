@@ -9,7 +9,16 @@
     "https://doc.nuxeo.com/nuxeo-release-cycle",
     "https://doc.nuxeo.com/nxdoc",
     "https://doc.nuxeo.com/studio",
-    "https://doc.nuxeo.com/userdoc"
+    "https://doc.nuxeo.com/userdoc",
+    "http://doc.nuxeo.com/60",
+    "http://doc.nuxeo.com/710",
+    "http://doc.nuxeo.com/corg",
+    "http://doc.nuxeo.com/glos",
+    "http://doc.nuxeo.com/idedoc",
+    "http://doc.nuxeo.com/nuxeo-release-cycle",
+    "http://doc.nuxeo.com/nxdoc",
+    "http://doc.nuxeo.com/studio",
+    "http://doc.nuxeo.com/userdoc"
   ],
   "stop_urls": [],
   "selectors": {
@@ -29,5 +38,5 @@
     "text": "#content p, #content li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 23777
+  "nb_hits": 90401
 }
