@@ -40,7 +40,7 @@
       "text": "article p, article li, article td, article pre"
     }
   },
-  "min_indexed_level": 2, 
+  "min_indexed_level": 2,
   "js_render": true,
   "js_wait": 2,
   "docker_cpu": 1,
