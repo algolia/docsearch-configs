@@ -20,7 +20,7 @@
   ],
   "stop_urls": [
     "https://community.algolia.com/instantsearch.js/react/examples/",
-    "https://community.algolia.com/instantsearch.js/react/storybook/",
+    "https://community.algolia.com/instantsearch.js/react/storybook/"
   ],
   "selectors": {
     "lvl0": "h2.sidebar-header",
