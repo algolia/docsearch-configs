@@ -3,19 +3,23 @@
   "start_urls": [
     {
       "url": "https://community.algolia.com/instantsearch.js/react/guide/",
-      "page_rank": 3
+      "page_rank": 3,
+      "selectors_key": "guide"
     },
     {
       "url": "https://community.algolia.com/instantsearch.js/react/widgets/",
-      "page_rank": 2
+      "page_rank": 2,
+      "selectors_key": "api"
     },
     {
       "url": "https://community.algolia.com/instantsearch.js/react/connectors/",
-      "page_rank": 2
+      "page_rank": 2,
+      "selectors_key": "api"
     },
     {
-      "url": "https://community.algolia.com/instantsearch.js/react/Getting%20started.html",
-      "page_rank": 1
+      "url": "https://community.algolia.com/instantsearch.js/react/Getting_started.html",
+      "page_rank": 1,
+      "selectors_key": "getting-started"
     }
   ],
   "stop_urls": [
@@ -23,12 +27,24 @@
     "https://community.algolia.com/instantsearch.js/react/storybook/"
   ],
   "selectors": {
-    "lvl0": "h2.sidebar-header",
-    "lvl1": ".article-title:not(.doc-only) h1",
-    "lvl2": ".documentation-container h2",
-    "lvl3": ".documentation-container h3",
-    "lvl4": ".documentation-container .proptypes .api-entry",
-    "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    "guide": {
+      "lvl0": "h2.sidebar-header",
+      "lvl1": ".sidebar-elements .level-h2 .navItem-active",
+      "lvl2": ".documentation-container h2",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "api": {
+      "lvl0": "h2.sidebar-header",
+      "lvl1": ".sidebar-elements .level-h2 .navItem-active",
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container .proptypes .api-entry",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "getting-started": {
+      "lvl0": "h2.sidebar-header",
+      "lvl1": ".sidebar-elements level-h2 > .active",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    }
   },
   "js_render": true,
   "min_indexed_level": 2,
