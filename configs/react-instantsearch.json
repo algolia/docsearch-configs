@@ -3,12 +3,12 @@
   "start_urls": [
     {
       "url": "https://community.algolia.com/instantsearch.js/react/guide/",
-      "page_rank": 3,
+      "page_rank": 4,
       "selectors_key": "guide"
     },
     {
       "url": "https://community.algolia.com/instantsearch.js/react/widgets/",
-      "page_rank": 2,
+      "page_rank": 3,
       "selectors_key": "api"
     },
     {
@@ -47,6 +47,6 @@
     }
   },
   "js_render": true,
-  "min_indexed_level": 2,
+  "min_indexed_level": 1,
   "nb_hits": 1745
 }
