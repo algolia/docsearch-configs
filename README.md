@@ -2,12 +2,35 @@
 
 This is the repository hosting the public [DocSearch](https://community.algolia.com/docsearch/) configurations.
 
+DocSearch is composed of 3 different projects:
+* The front-end JavaScript library: https://github.com/algolia/docsearch
+* The scraper which browses & indexes web pages: https://github.com/algolia/docsearch-scraper
+* The configurations for the scraper: https://github.com/algolia/docsearch-configs
+
+If you want to run your own DocSearch instance on those configuration files, please get familiar with the [scraper setup guidelines](https://github.com/algolia/docsearch-scraper).
+
+## Introduction
+
+The DocSearch scraper will use a configuration file specifying:
+ - the Algolia index name that will store the records resulting from the crawling
+ - the URLs it needs to crawl
+ - the URLs it shoudn't crawl
+ - the (hierarchical) CSS selectors to use to extract the relevant content from your webpages
+ - the CSS selectors to skip
+ - additional options you might provide to fine-tune the scraping
+
+## How it works
+
+Once you run the DocSearch scraper on a specific configuration, it will:
+ - crawl all the URLs you specified
+ - follow all the links mentioned in the page, and continue the crawling there
+ - stop the crawl as soon as you've reached a URL that is not specified in your configuration
+ - extract the content of every single crawled page following the logic you defined using the CSS selectors
+ - push the resulting records to the Algolia index you configured
+
 ## Configuration format
 
-The configuration files can be found here
-https://github.com/algolia/docsearch-configs
-
-A configuration file should look like:
+A configuration file looks like:
 
 ```json
 {
@@ -18,10 +41,6 @@ A configuration file should look like:
     "stop_urls": [
         "https://stripe.com/docs/api"
     ],
-    "selectors_exclude": [
-        ".method-list",
-        "aside.note"
-    ],
     "selectors": {
       "lvl0": "#content header h1",
       "lvl1": "#content article h1",
@@ -30,7 +49,13 @@ A configuration file should look like:
       "lvl4": "#content section h5",
       "lvl5": "#content section h6",
       "text": "#content header p,#content section p,#content section ol"
-    }
+    },
+    "selectors_exclude": [
+        ".method-list",
+        "aside.note"
+    ],
+    // additional options
+    [...]
 }
 ```
 
@@ -208,148 +233,52 @@ The number of object that should be indexed. Only used by the [`checker`](#check
 
 Default is `0`.
 
-## Test the configuration with the generator
-
-The generator allows to both generate the selectors and visualize on pages
-what is actually selected. Refer to `html/generator/README.md` to use it.
-
-## Test the UX/UI with the playground
-
-To test it live, you can use the following HTML page:
-
-```sh
-# edit your credentials + index name in ./html/playground.html
-$ open ./html/playground.html
-```
-
-## Bootstrapping a config
-
-```sh
-$ ./bootstrap-config
-```
-
-## Deploying
-
-After pushing the configuration to the configuration repository you still have
-to deploy the scraper using the deploy script of this repository.
-For more on how to use the script: `html/deploy/README.md`.
-
-## Development
-
-### Docker
-
-You can build a development version of the image, to be used in development. It
-will build the exact same image than the prod one but will expect the
-`/root/src` folder to be mapped to a volume on the host. This lets you edit the
-python files in your favorite editor in the host while still being able to run
-the script in a Docker environment.
-
-First, build the development image:
-
-```sh
-docker build -t algolia/documentation-scraper-dev -f Dockerfile.dev .
-```
-
-Then, use a script to remove any dev container and rebuild it.
-
-```sh
-$ docker stop docname
-$ docker rm docname
-$ docker run \
-    -e APPLICATION_ID=appId \
-    -e API_KEY=apiKey \
-    -e CONFIG="$(cat configs/docname.json)" \
-    -v `pwd`/src:/root/src \
-    --name docname \
-    -t algolia/documentation-scraper-dev \
-    /root/run
-```
-
-And use this one to run the tests:
-
-```sh
-$ docker stop docname
-$ docker rm docname
-$ docker run \
-    -e APPLICATION_ID=appId \
-    -e API_KEY=apiKey \
-    -e CONFIG="$(cat configs/docname.json)" \
-    -v `pwd`/src:/root/src \
-    --name docname \
-    -t algolia/documentation-scraper-dev \
-    /root/test
-
-```
-
-### Prod
-
-In production, you build the image from the default Docker file, then run the
-container.
-
-Several documentations are using Javascript to generate the HTML code. To
-handle those documentations, this image which embeds our Selenium proxy in
-order to render webpages before crawling them. Note that your JSON
-configuration file must set the `js_render` parameter to `true`
-see [`js_render`](#js_render). If not, the Selenium instance won't be started.
-
-```
-$ docker build -t algolia/documentation-scraper .
-$ docker run \
-    -e APPLICATION_ID=appId \
-    -e API_KEY=apiKey \
-    -e CONFIG="$(cat configs/docname.json)" \
-    --name docname \
-    -t algolia/documentation-scraper
-```
-
-### Checker
-
-The checker, in `checker` directory, is an automatic tool to check that the crawling infra behind DocSearch is running and that configurations do not have issues.
-
-### Deployer
-
-The deployer, in `deployer` directory, is an automatic tool to deploy new configuration in the crawling infra of Algolia
-
-[1]: https://github.com/algolia/documentation-scraper/issues/7
-
 ### Possible issues
-It could happen that the crawled website returned duplicated data.
-Most of the time, this is because the crawled website, got the same url with two different scheme.
-If there is `http://website.com/page` and `http://website.com/page/`, notice the second one, the url is ended by `/`, and for the scrapper, this is two different urls.
 
-In most of the cases, you'll only have to add a regex to the `stop_urls` in the `config.json` :
+#### Duplicated content
+
+It could happen that the crawled website returned duplicated data. Most of the time, this is because the crawled pages got the same urls with two different schemes.
+
+If we have URLs like `http://website.com/page` and `http://website.com/page/` (notice the second one ending with `/`), the scrapper will consider them as different. This can be fixed by adding a regex to the `stop_urls` in the `config.json`:
+
 ```
-$ "stop_urls": [
+"stop_urls": [
   "/$"
 ]
 ```
 
-But sometimes, the website's url you want to scrap are all ending with `/`, so just specify which url you want to get rid of, like this :
-```
-$ "stop_urls": [
-    "http://website.com/page/"
-  ]
-```
-And that way, only the first one will be taken in consideration.
+In this attribute, you can also list the pages you want to skip:
 
----
-*Be careful to remove any hashsigns from the urls if it contains some*
+```
+"stop_urls": [
+  "http://website.com/page/"
+]
+```
 
-*Bad :*
+#### Anchors
+
+The scraper will also consider pages with anchors as different pages. Make sure you remove any hashsign from the urls you put in the stop & start URLs:
+
+*Bad:*
+
 ```
-$ "stop_urls": [
-    "http://website.com/page/#foo"
-  ]
+"stop_urls": [
+  "http://website.com/page/#foo"
+]
 ```
-*Good :*
+
+*Good:*
+
 ```
-$ "stop_urls": [
-    "/$"
-  ]
+"stop_urls": [
+  "/$"
+]
 ```
+
 Or :
+
 ```
-$ "stop_urls": [
-    "http://website.com/page/"
-  ]
+"stop_urls": [
+  "http://website.com/page/"
+]
 ```
