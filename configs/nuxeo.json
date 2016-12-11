@@ -1,24 +1,71 @@
 {
   "index_name": "nuxeo",
   "start_urls": [
-    "https://doc.nuxeo.com/60",
-    "https://doc.nuxeo.com/710",
-    "https://doc.nuxeo.com/corg",
-    "https://doc.nuxeo.com/glos",
-    "https://doc.nuxeo.com/idedoc",
-    "https://doc.nuxeo.com/nuxeo-release-cycle",
-    "https://doc.nuxeo.com/nxdoc",
-    "https://doc.nuxeo.com/studio",
-    "https://doc.nuxeo.com/userdoc",
-    "http://doc.nuxeo.com/60",
-    "http://doc.nuxeo.com/710",
+    {
+      "url": "https://doc.nuxeo.com/60",
+      "tags": [
+        "60"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/710",
+      "tags": [
+        "710"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/corg",
+      "tags": [
+        "latest"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/glos",
+      "tags": [
+        "latest"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/idedoc",
+      "tags": [
+        "latest"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/nuxeo-release-cycle",
+      "tags": [
+        "latest"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/nxdoc",
+      "tags": [
+        "latest"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/studio",
+      "tags": [
+        "latest"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/userdoc",
+      "tags": [
+        "latest"
+      ]
+    },
+
+
     "http://doc.nuxeo.com/corg",
     "http://doc.nuxeo.com/glos",
     "http://doc.nuxeo.com/idedoc",
     "http://doc.nuxeo.com/nuxeo-release-cycle",
     "http://doc.nuxeo.com/nxdoc",
     "http://doc.nuxeo.com/studio",
-    "http://doc.nuxeo.com/userdoc"
+    "http://doc.nuxeo.com/userdoc",
+    "http://doc.nuxeo.com/60",
+    "http://doc.nuxeo.com/710"
   ],
   "stop_urls": [],
   "selectors": {
@@ -38,5 +85,5 @@
     "text": "#content p, #content li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 90401
+  "nb_hits": 89894
 }
