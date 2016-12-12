@@ -39,7 +39,8 @@
     },
     {
       "url": "https://www.algolia.com/doc/faq",
-      "selectors_key": "faq"
+      "selectors_key": "faq",
+      "tags": ["faq"]
     },
     "https://www.algolia.com/doc"
   ],
