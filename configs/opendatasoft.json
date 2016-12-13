@@ -22,7 +22,7 @@
     "lvl2": ".section h2",
     "lvl3": ".section h3",
     "lvl4": ".section h4",
-    "text": ".section p"
+    "text": ".section p, .section td"
   },
   "min_indexed_level": 2,
   "nb_hits": 2683
