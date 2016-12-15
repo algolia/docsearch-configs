@@ -1,0 +1,13 @@
+{
+  "index_name": "httpie",
+  "start_urls": [
+    "http://httpie.org/doc"
+  ],
+  "selectors": {
+    "lvl0": "#doc-wrap h2",
+    "lvl1": "#doc-wrap h3",
+    "lvl2": "#doc-wrap h4",
+    "text": "#doc-wrap p, #doc-wrap li"
+  },
+  "js_render": true
+}
