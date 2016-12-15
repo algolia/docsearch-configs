@@ -9,5 +9,6 @@
     "lvl2": "#doc-wrap h4",
     "text": "#doc-wrap p, #doc-wrap li"
   },
-  "js_render": true
+  "js_render": true,
+  "nb_hits": 360
 }
