@@ -1,0 +1,35 @@
+{
+  "index_name": "docute",
+  "start_urls": [
+    {
+      "url": "https://docute.js.org/#/zh-Hans/",
+      "tags": "zh-Hans"
+    },
+    {
+      "url": "https://docute.js.org/#/zh-Hant/",
+      "tags": "zh-Hant"
+    },
+    {
+      "url": "https://docute.js.org/#/",
+      "tags": "english"
+    }
+  ],
+  "stop_content": [
+    "Cannot find"
+  ],
+  "stop_urls": [
+    "\\?id="
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "text": ".content p, .content li"
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "use_anchors": true,
+  "nb_hits": 293
+}
