@@ -1,7 +1,7 @@
 {
   "index_name": "sellsy_doc_en",
   "start_urls": [
-    "http://api.sellsy.com/"
+    "https://api.sellsy.com/"
   ],
   "stop_urls": [
     "http://api.sellsy.com/documentation/resources"
