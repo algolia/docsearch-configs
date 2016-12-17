@@ -1,10 +1,10 @@
 {
   "index_name": "sellsy_doc",
   "start_urls": [
-    "http://api.sellsy.fr/",
-    "http://api.sellsy.fr/documentation/premiers-pas",
-    "http://api.sellsy.fr/documentation/intro",
-    "http://api.sellsy.fr/documentation/methodes"
+    "https://api.sellsy.fr/",
+    "https://api.sellsy.fr/documentation/premiers-pas",
+    "https://api.sellsy.fr/documentation/intro",
+    "https://api.sellsy.fr/documentation/methodes"
   ],
   "stop_urls": [
     "http://api.sellsy.fr/documentation/resources"
