@@ -7,8 +7,8 @@
     "lvl0": "#doc-wrap h2",
     "lvl1": "#doc-wrap h3",
     "lvl2": "#doc-wrap h4",
-    "text": "#doc-wrap p, #doc-wrap li"
+    "text": "#doc-wrap p, #doc-wrap li, #doc-wrap .code-block"
   },
   "js_render": true,
-  "nb_hits": 360
+  "nb_hits": 469
 }
