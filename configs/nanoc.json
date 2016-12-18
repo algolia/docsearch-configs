@@ -1,8 +1,8 @@
 {
   "index_name": "nanoc",
   "start_urls": [
-    "http://nanoc.ws/about/",
-    "http://nanoc.ws/doc/"
+    "https://nanoc.ws/about/",
+    "https://nanoc.ws/doc/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,5 +22,5 @@
     "text": ".article-content p, .article-content li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 845
+  "nb_hits": 942
 }
