@@ -23,10 +23,7 @@
     ".version-select"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": ".sidebar h2",
-      "global": true
-    },
+    "lvl0": "ul#nav a.current",
     "lvl1": ".content h1",
     "lvl2": ".content h2",
     "lvl3": ".content h3",
