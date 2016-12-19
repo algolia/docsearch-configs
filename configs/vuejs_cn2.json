@@ -2,28 +2,37 @@
   "index_name": "vuejs_cn2",
   "start_urls": [
     {
-      "url": "http://cn.vuejs.org/v2/api/",
+      "url": "http://cn.vuejs.org/(?P<version>.*?)/api/",
+      "variables": {
+        "version": [
+          "v2"
+        ]
+      },
       "page_rank": 1
     },
-    "http://cn.vuejs.org/v2/guide/"
-  ],
-  "stop_urls": [
-    "http://cn.vuejs.org/v2/guide/index.html"
+    {
+      "url": "http://cn.vuejs.org/(?P<version>.*?)/guide/",
+      "variables": {
+        "version": [
+          "v2"
+        ]
+      }
+    }
   ],
   "selectors_exclude": [
-    ".sidebar h2 .version-select"
+    ".version-select"
   ],
   "selectors": {
     "lvl0": {
       "selector": ".sidebar h2",
       "global": true
     },
-    "lvl1": ".content.guide h1, .content.api h1, .content.api h2, .content.api h3",
-    "lvl2": ".content.guide h2, .content.api h4",
-    "lvl3": ".content.guide h3",
-    "lvl4": ".content.guide h4",
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
     "text": ".content p"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2079
+  "nb_hits": 2155
 }
