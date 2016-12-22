@@ -1,0 +1,28 @@
+{
+  "index_name": "atoum",
+  "start_urls": [
+    {
+      "url": "http://docs.atoum.org/(?P<language>.*?)/latest/",
+      "variables": {
+        "language": [
+          "en",
+          "fr"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p, section li"
+  },
+  "nb_hits": 3702
+}
