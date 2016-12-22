@@ -8,21 +8,42 @@
           "en",
           "fr"
         ]
-      }
+      },
+      "selectors_key": "documentation"
+    },
+    {
+      "url": "http://extensions.atoum.org/",
+      "selectors_key": "extensions",
+      "tags": "extensions"
     }
   ],
+  "scrap_start_urls": false,
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
+    "documentation": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": "section h1",
+      "lvl2": "section h2",
+      "lvl3": "section h3",
+      "lvl4": "section h4",
+      "lvl5": "section h5",
+      "text": "section p, section li"
     },
-    "lvl1": "section h1",
-    "lvl2": "section h2",
-    "lvl3": "section h3",
-    "lvl4": "section h4",
-    "lvl5": "section h5",
-    "text": "section p, section li"
+    "extensions": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Extensions"
+      },
+      "lvl1": ".extension-content h1",
+      "lvl2": ".extension-content h2",
+      "lvl3": ".extension-content h3",
+      "lvl4": ".extension-content h4",
+      "lvl5": ".extension-content h5",
+      "text": ".extension-content p, .extension-content li"
+    }
   },
-  "nb_hits": 3702
+  "nb_hits": 3942
 }
