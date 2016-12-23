@@ -15,6 +15,11 @@
       "url": "http://extensions.atoum.org/",
       "selectors_key": "extensions",
       "tags": "extensions"
+    },
+    {
+      "url": "http://atoum.org/",
+      "selectors_key": "website",
+      "tags": "website"
     }
   ],
   "scrap_start_urls": false,
@@ -43,6 +48,18 @@
       "lvl4": ".extension-content h4",
       "lvl5": ".extension-content h5",
       "text": ".extension-content p, .extension-content li"
+    },
+    "website": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Website"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
     }
   },
   "nb_hits": 3942
