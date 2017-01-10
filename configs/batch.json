@@ -7,10 +7,7 @@
     "https://batch.com/doc/$"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "//ul[@class=\"doc__nav__group doc__nav__group--opened\"]/preceding::a[1]",
-      "type": "xpath"
-    },
+    "lvl0": ".lvl0",
     "lvl1": ".doc__content__header h1",
     "lvl2": "#content_doc h2",
     "lvl3": "#content_doc h3",
