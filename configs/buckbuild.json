@@ -8,8 +8,9 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//section//nav/ul/li[string() = (//article/h1)]/../preceding::h3[1]",
-      "type": "xpath"
+      "selector": "//ul/li[contains(@class, 'navActiveItem')]/../preceding::h3[1]",
+      "type": "xpath",
+      "global": true
     },
     "lvl1": "article h1",
     "lvl2": "article h2",
@@ -19,5 +20,5 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2542
+  "nb_hits": 2494
 }
