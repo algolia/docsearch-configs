@@ -1,0 +1,48 @@
+{
+  "index_name": "algolia_guides",
+  "start_urls": [
+    "https://www.algolia.com/doc/guides"
+  ],
+  "scrap_start_urls": false,
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".btn",
+    "#parameters-list",
+    ".next-previous-links",
+    "section .nav-tabs"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#doc-navbar li.active, .language-navigation li.active .tab_language_name",
+      "global": true
+    },
+    "lvl1": {
+      "selector": ".ul-group.current .ul-group-name"
+    },
+    "lvl2": ".markdown-page h1",
+    "lvl3": ".markdown-page h2",
+    "lvl4": ".markdown-page h3",
+    "lvl5": ".markdown-page h4",
+    "lvl6": ".markdown-page h5",
+    "text": ".markdown-page p, .markdown-page li"
+  },
+  "min_indexed_level": 2,
+  "keep_tags": [
+    "code"
+  ],
+  "custom_settings": {
+    "ranking": [
+      "words",
+      "filters",
+      "typo",
+      "attribute",
+      "proximity",
+      "exact",
+      "custom"
+    ],
+    "attributeForDistinct": "url_without_variables",
+    "minWordSizefor1Typo": 4,
+    "minWordSizefor2Typos": 8
+  },
+  "nb_hits": 2640
+}
