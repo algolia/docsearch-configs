@@ -3,7 +3,9 @@
   "start_urls": [
     "https://docs.gravitee.io/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://docs.gravitee.io/apim_changelog.html"
+  ],
   "selectors_exclude": [
     "#preamble"
   ],
