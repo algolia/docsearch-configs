@@ -12,13 +12,28 @@
       "type": "xpath",
       "global": true
     },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
+    "lvl1": {
+      "selector": "article h1",
+      "strip_chars": " .,;:#"
+    },
+    "lvl2": {
+      "selector": "article h2",
+      "strip_chars": " .,;:#"
+    },
+    "lvl3": {
+      "selector": "article h3",
+      "strip_chars": " .,;:#"
+    },
+    "lvl4": {
+      "selector": "article h4",
+      "strip_chars": " .,;:#"
+    },
+    "lvl5": {
+      "selector": "article h5",
+      "strip_chars": " .,;:#"
+    },
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2494
+  "nb_hits": 3836
 }
