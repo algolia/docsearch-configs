@@ -31,7 +31,7 @@
     "lvl5": {
       "selector": "article h5",
       "strip_chars": " .,;:#"
-    }
+    },
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
