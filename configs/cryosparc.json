@@ -1,0 +1,19 @@
+{
+  "index_name": "cryosparc",
+  "start_urls": [
+    "https://guide.cryosparc.com/"
+  ],
+  "stop_urls": [
+    "https://guide.cryosparc.com/index.html"
+  ],
+  "selectors": {
+    "lvl0": ".content-wrapper .header-content h1",
+    "lvl1": ".content-wrapper .document-formatting h1",
+    "lvl2": ".content-wrapper .document-formatting h2",
+    "lvl3": ".content-wrapper .document-formatting h3",
+    "lvl4": ".content-wrapper .document-formatting h4",
+    "text": ".content-wrapper p, .content-wrapper li, .header-content .subtitle-page"
+  },
+  "min_indexed_lvl": 1,
+  "nb_hits": 214
+}
