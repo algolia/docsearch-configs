@@ -1,0 +1,26 @@
+{
+  "index_name": "ckeditor",
+  "start_urls": [
+    "http://sdk.ckeditor.com/"
+  ],
+  "stop_urls": [
+    "http://sdk.ckeditor.com/$"
+  ],
+  "scrap_start_urls": false,
+  "min_indexed_level": 2,
+  "selectors": {
+    "lvl0": {
+      "selector": "//h3[contains(@class,'active')]/preceding::h2[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": "h3.active",
+    "lvl2": ".sdk-contents h1",
+    "lvl3": ".sdk-contents h2",
+    "lvl4": ".sdk-contents h3",
+    "lvl5": ".sdk-contents h4",
+    "lvl6": ".sdk-contents h5",
+    "text": ".sdk-contents p, .sdk-contents li"
+  },
+  "nb_hits": 678
+}
