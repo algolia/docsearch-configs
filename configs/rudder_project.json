@@ -30,6 +30,18 @@
       "tags": [
         "v4.0"
       ]
+    },
+    {
+      "url": "http://www.rudder-project.org/doc-4.1/",
+      "tags": [
+        "v4.1"
+      ]
+    },
+    {
+      "url": "http://www.rudder-project.org/doc-4.2/",
+      "tags": [
+        "v4.2"
+      ]
     }
   ],
   "selectors_exclude": [
