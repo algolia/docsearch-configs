@@ -10,10 +10,11 @@
   ],
   "selectors": {
     "lvl0": ".menu a.active",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
