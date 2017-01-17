@@ -1,0 +1,44 @@
+{
+  "index_name": "nuxtjs",
+  "start_urls": [
+    {
+      "url": "https://nuxtjs.org/",
+      "tags": ["en"]
+    },
+    {
+      "url": "http://nuxtjs.org/",
+      "tags": ["en"]
+    },
+    {
+      "url": "https://cn.nuxtjs.org/",
+      "tags": ["cn"]
+    },
+    {
+      "url": "http://cn.nuxtjs.org/",
+      "tags": ["cn"]
+    },
+    {
+      "url": "https://ru.nuxtjs.org/",
+      "tags": ["ru"]
+    },
+    {
+      "url": "http://ru.nuxtjs.org/",
+      "tags": ["ru"]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'category')]/nav/ul/li/a[contains(@class, 'nuxt-link-active')]/../../preceding::h3[1]",
+      "type": "xpath"
+    },
+    "lvl1": ".Content h1",
+    "lvl2": ".Content h2",
+    "lvl3": ".Content h3",
+    "lvl4": ".Content h4",
+    "lvl5": ".Content h5",
+    "text": ".Content p, .Content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 2106
+}
