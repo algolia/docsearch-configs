@@ -1,5 +1,5 @@
 {
-  "index_name": "mailjet",
+  "index_name": "mailjet-dev",
   "start_urls": [
     "https://dev.mailjet.com/guides"
   ],
