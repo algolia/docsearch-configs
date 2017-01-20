@@ -14,58 +14,59 @@
       ]
     },
     {
-      "url": "https://doc.nuxeo.com/corg",
+      "url": "https://doc.nuxeo.com/admindoc",
       "tags": [
-        "latest"
-      ]
-    },
-    {
-      "url": "https://doc.nuxeo.com/glos",
-      "tags": [
-        "latest"
-      ]
-    },
-    {
-      "url": "https://doc.nuxeo.com/idedoc",
-      "tags": [
-        "latest"
-      ]
-    },
-    {
-      "url": "https://doc.nuxeo.com/nuxeo-release-cycle",
-      "tags": [
-        "latest"
+        "ft"
       ]
     },
     {
       "url": "https://doc.nuxeo.com/nxdoc",
       "tags": [
-        "latest"
-      ]
-    },
-    {
-      "url": "https://doc.nuxeo.com/studio",
-      "tags": [
-        "latest"
+        "ft"
       ]
     },
     {
       "url": "https://doc.nuxeo.com/userdoc",
       "tags": [
-        "latest"
+        "ft"
       ]
     },
-
-
-    "http://doc.nuxeo.com/corg",
-    "http://doc.nuxeo.com/glos",
-    "http://doc.nuxeo.com/idedoc",
-    "http://doc.nuxeo.com/nuxeo-release-cycle",
-    "http://doc.nuxeo.com/nxdoc",
-    "http://doc.nuxeo.com/studio",
-    "http://doc.nuxeo.com/userdoc",
-    "http://doc.nuxeo.com/60",
-    "http://doc.nuxeo.com/710"
+    {
+      "url": "https://doc.nuxeo.com/corg",
+      "tags": [
+        "static"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/glos",
+      "tags": [
+        "static"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/idedoc",
+      "tags": [
+        "static"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/nuxeo-release-cycle",
+      "tags": [
+        "static"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/studio",
+      "tags": [
+        "static"
+      ]
+    },
+    {
+      "url": "https://explorer.nuxeo.com/",
+      "tags": [
+        "static"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -82,7 +83,7 @@
     "lvl3": "#content h2",
     "lvl4": "#content h3",
     "lvl5": "#content h4, #content h5, #content h6",
-    "text": "#content p, #content li"
+    "text": "#content p, #content li, #content pre, #content table"
   },
   "min_indexed_level": 2,
   "nb_hits": 89894
