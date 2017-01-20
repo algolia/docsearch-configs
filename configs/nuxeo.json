@@ -14,25 +14,7 @@
       ]
     },
     {
-      "url": "https://doc.nuxeo.com/corg",
-      "tags": [
-        "ft"
-      ]
-    },
-    {
-      "url": "https://doc.nuxeo.com/glos",
-      "tags": [
-        "ft"
-      ]
-    },
-    {
-      "url": "https://doc.nuxeo.com/idedoc",
-      "tags": [
-        "ft"
-      ]
-    },
-    {
-      "url": "https://doc.nuxeo.com/nuxeo-release-cycle",
+      "url": "https://doc.nuxeo.com/admindoc",
       "tags": [
         "ft"
       ]
@@ -44,15 +26,45 @@
       ]
     },
     {
-      "url": "https://doc.nuxeo.com/studio",
+      "url": "https://doc.nuxeo.com/userdoc",
       "tags": [
         "ft"
       ]
     },
     {
-      "url": "https://doc.nuxeo.com/userdoc",
+      "url": "https://doc.nuxeo.com/corg",
       "tags": [
-        "ft"
+        "static"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/glos",
+      "tags": [
+        "static"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/idedoc",
+      "tags": [
+        "static"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/nuxeo-release-cycle",
+      "tags": [
+        "static"
+      ]
+    },
+    {
+      "url": "https://doc.nuxeo.com/studio",
+      "tags": [
+        "static"
+      ]
+    },
+    {
+      "url": "https://explorer.nuxeo.com/",
+      "tags": [
+        "static"
       ]
     }
   ],
