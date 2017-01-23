@@ -1,0 +1,21 @@
+{
+  "index_name": "polysync",
+  "start_urls": [
+    "https://polysync.github.io/help_center/",
+    "http://polysync.github.io/help_center/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".Article-Content h1, .Sensors-Content h1",
+    "lvl2": ".Article-Content h2, .Sensors-Content h2",
+    "lvl3": ".Article-Content h3, .Sensors-Content h3",
+    "lvl4": ".Article-Content h4, .Sensors-Content h4",
+    "lvl5": ".Article-Content h5, .Sensors-Content h5",
+    "text": ".Article-Content p, .Article-Content li, .Article-Content td, .Sensors-Content p, .Sensors-Content li, .Sensors-Content td"
+  },
+  "nb_hits": 9982
+}
