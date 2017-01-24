@@ -1,25 +1,26 @@
 {
-  "index_name": "algolia_guides",
+  "index_name": "algolia_api_client",
   "start_urls": [
-    "https://www.algolia.com/doc/guides/"
+    "https://www.algolia.com/doc/api-client/",
+    "https://www.algolia.com/doc/api-client/php"
   ],
   "scrap_start_urls": false,
-  "stop_urls": [],
+  "stop_urls": [
+    "/parameters"
+  ],
   "selectors_exclude": [
     ".btn",
     "#parameters-list",
     ".next-previous-links",
-    "section .nav-tabs"
+    "section .nav-tabs",
+    ".docsearch-ignore"
   ],
   "selectors": {
     "lvl0": ".ul-group.current .ul-group-name",
-    "lvl1": {
-      "selector": ".ul-group.current li.current"
-    },
-    "lvl2": ".markdown-page h2",
-    "lvl3": ".markdown-page h3",
-    "lvl4": ".markdown-page h4",
-    "lvl5": ".markdown-page h5",
+    "lvl1": ".markdown-page h2",
+    "lvl2": ".markdown-page h3",
+    "lvl3": ".markdown-page h4",
+    "lvl4": ".markdown-page h5",
     "text": ".markdown-page p, .markdown-page li"
   },
   "min_indexed_level": 1,
@@ -50,12 +51,21 @@
       "content",
       "anchor",
       "url",
-      "description",
       "type",
       "languages",
+      "language"
+    ],
+    "attributesForFaceting": [
       "language",
-      "enterprise"
+      "tags",
+      "no_variables"
+    ],
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "desc(order-section)",
+      "desc(weight.level)",
+      "asc(weight.position)"
     ]
   },
-  "nb_hits": 2642
+  "nb_hits": 4868
 }
