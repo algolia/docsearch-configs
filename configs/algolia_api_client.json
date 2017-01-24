@@ -4,7 +4,6 @@
     "https://www.algolia.com/doc/api-client/",
     "https://www.algolia.com/doc/api-client/php"
   ],
-  "scrap_start_urls": false,
   "stop_urls": [
     "/parameters"
   ],
@@ -67,5 +66,5 @@
       "asc(weight.position)"
     ]
   },
-  "nb_hits": 4868
+  "nb_hits": 4893
 }
