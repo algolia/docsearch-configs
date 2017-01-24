@@ -55,7 +55,7 @@
     "text": ".subsection.compound p, .subsection.compound li"
   },
   "custom_settings": {
-    "attributeForDistinct": "hierarchy_complete.lvl1"
+    "attributeForDistinct": "hierarchy.lvl1"
   },
   "nb_hits": 2753,
   "min_indexed_level": 2

@@ -16,7 +16,7 @@
     "text": "body.page-docs div.docs-content div.inner.current td:last-child, body.page-docs div.docs-content div.inner.current p"
   },
   "custom_settings": {
-    "attributeForDistinct": "hierarchy_complete.lvl2"
+    "attributeForDistinct": "hierarchy.lvl2"
   },
   "min_indexed_level": 1,
   "nb_hits": 226

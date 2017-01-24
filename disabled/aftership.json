@@ -11,7 +11,7 @@
     "text": "body > .container .row p:not(.muted), body > .container td:last-child"
   },
   "custom_settings": {
-    "attributeForDistinct": "hierarchy_complete.lvl3"
+    "attributeForDistinct": "hierarchy.lvl3"
   },
   "min_indexed_level": 2,
   "nb_hits": 1284
