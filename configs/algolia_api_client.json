@@ -62,7 +62,7 @@
     ],
     "customRanking": [
       "desc(weight.page_rank)",
-      "desc(order-section)",
+      "asc(order-section)",
       "desc(weight.level)",
       "asc(weight.position)"
     ]
