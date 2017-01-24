@@ -2,10 +2,10 @@
   "index_name": "stylelint",
   "start_urls": [
     {
-      "url": "http://stylelint.io/user-guide/rules/.+$",
+      "url": "https://stylelint.io/user-guide/rules/.+$",
       "page_rank": -1
     },
-    "http://stylelint.io/"
+    "https://stylelint.io/"
   ],
   "stop_urls": [],
   "selectors_exclude": [
@@ -23,5 +23,5 @@
     "lvl5": "body h5",
     "text": "body p, body li"
   },
-  "nb_hits": 5613
+  "nb_hits": 5130
 }
