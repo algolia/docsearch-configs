@@ -54,7 +54,9 @@
       "type",
       "languages",
       "language",
-      "enterprise"
+      "enterprise",
+      "slug",
+      "section"
     ]
   },
   "nb_hits": 2642
