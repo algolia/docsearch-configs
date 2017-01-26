@@ -18,6 +18,6 @@
   "js_render": true,
   "js_wait": 2,
   "docker_cpu": 1,
-  "docker_memory": 2048,
+  "docker_memory": 4096,
   "nb_hits": 6800
 }

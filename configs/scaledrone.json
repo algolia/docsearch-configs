@@ -1,7 +1,7 @@
 {
   "index_name": "scaledrone",
   "start_urls": [
-    "http://docs.scaledrone.com"
+    "https://www.scaledrone.com/docs/"
   ],
   "selectors": {
     "lvl0": ".content h1",
@@ -10,5 +10,5 @@
     "text": ".content p"
   },
   "min_indexed_level": 0,
-  "nb_hits": 105
+  "nb_hits": 142
 }

@@ -9,7 +9,7 @@
   ],
   "selectors_exclude": [
     ".btn",
-    "#parameters-list",
+    ".parameters-list p, .parameters-list li, .parameters-list h3, .parameters-list h4, .parameters-list h5",
     ".next-previous-links",
     "section .nav-tabs",
     ".docsearch-ignore",
@@ -67,5 +67,5 @@
       "asc(weight.position)"
     ]
   },
-  "nb_hits": 3996
+  "nb_hits": 4016
 }
