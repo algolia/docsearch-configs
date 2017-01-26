@@ -12,7 +12,8 @@
     "#parameters-list",
     ".next-previous-links",
     "section .nav-tabs",
-    ".docsearch-ignore"
+    ".docsearch-ignore",
+    ".edit-link"
   ],
   "selectors": {
     "lvl0": ".ul-group.current .ul-group-name",
@@ -66,5 +67,5 @@
       "asc(weight.position)"
     ]
   },
-  "nb_hits": 4893
+  "nb_hits": 3996
 }
