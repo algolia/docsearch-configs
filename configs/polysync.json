@@ -1,8 +1,8 @@
 {
   "index_name": "polysync",
   "start_urls": [
-    "https://polysync.github.io/help_center/",
-    "http://polysync.github.io/help_center/"
+    "https://polysync.github.io/help-center/",
+    "http://polysync.github.io/help-center/"
   ],
   "stop_urls": [],
   "selectors": {
