@@ -2,13 +2,6 @@
   "index_name": "gitlab",
   "start_urls": [
     {
-      "url": "https://docs.gitlab.com/ce/ci/",
-      "selectors_key": "ce_ci",
-      "tags": [
-        "ce_ci"
-      ]
-    },
-    {
       "url": "https://docs.gitlab.com/ce/",
       "selectors_key": "ce",
       "tags": [
@@ -28,13 +21,20 @@
       "tags": [
         "omnibus"
       ]
+    },
+    {
+      "url": "https://docs.gitlab.com/runner/",
+      "selectors_key": "runner",
+      "tags": [
+        "runner"
+      ]
     }
   ],
   "stop_urls": [
-    "https://docs.gitlab.com/ce/ci/$",
     "https://docs.gitlab.com/ce/$",
     "https://docs.gitlab.com/ee/$",
     "https://docs.gitlab.com/omnibus/$",
+    "https://docs.gitlab.com/runner/$",
     "README.html"
   ],
   "stop_content": [
@@ -42,18 +42,6 @@
     "This section is now merged into"
   ],
   "selectors": {
-    "ce_ci": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "GitLab Continuous Integration (CI)"
-      },
-      "lvl1": ".main h1",
-      "lvl2": ".main h2",
-      "lvl3": ".main h3",
-      "lvl4": ".main h4",
-      "lvl5": ".main h5",
-      "text": ".main p, .main li"
-    },
     "ce": {
       "lvl0": {
         "selector": "",
@@ -82,6 +70,18 @@
       "lvl0": {
         "selector": "",
         "default_value": "Omnibus GitLab"
+      },
+      "lvl1": ".main h1",
+      "lvl2": ".main h2",
+      "lvl3": ".main h3",
+      "lvl4": ".main h4",
+      "lvl5": ".main h5",
+      "text": ".main p, .main li"
+    },
+    "runner": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "GitLab Runner"
       },
       "lvl1": ".main h1",
       "lvl2": ".main h2",
