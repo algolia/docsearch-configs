@@ -4,7 +4,9 @@
     "https://www.algolia.com/doc/guides/"
   ],
   "scrap_start_urls": false,
-  "stop_urls": [],
+  "stop_urls": [
+    "doc/guides/[^/]+/[^/]+/.+?$"
+  ],
   "selectors_exclude": [
     ".btn",
     "#parameters-list",
@@ -59,5 +61,5 @@
       "section"
     ]
   },
-  "nb_hits": 2642
+  "nb_hits": 1628
 }
