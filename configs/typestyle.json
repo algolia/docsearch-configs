@@ -1,0 +1,26 @@
+{
+  "index_name": "typestyle",
+  "start_urls": [
+    "http://typestyle.io/"
+  ],
+  "stop_urls": [
+    "/play",
+    "TODO",
+    "http://typestyle.io/#/.+?/.+?$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#doc-search h1",
+    "lvl2": "#doc-search h2",
+    "lvl3": "#doc-search h3",
+    "lvl4": "#doc-search h4",
+    "lvl5": "#doc-search h5",
+    "text": "#doc-search p, #doc-search li"
+  },
+  "js_render": true,
+  "use_anchors": true,
+  "nb_hits": 515
+}
