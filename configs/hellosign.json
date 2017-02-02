@@ -2,11 +2,11 @@
   "index_name": "hellosign",
   "start_urls": [
     {
-      "url": "https://www.hellosign.com/api/reference",
+      "url": "https://app.hellosign.com/api/reference",
       "selectors_key": "reference"
     },
-    "https://www.hellosign.com/api/documentation",
-    "https://www.hellosign.com/api/"
+    "https://app.hellosign.com/api/documentation",
+    "https://app.hellosign.com/api/"
   ],
   "scrap_start_urls": false,
   "stop_urls": [],
@@ -31,5 +31,5 @@
   },
   "min_indexed_level": 1,
   "js_render": true,
-  "nb_hits": 1133
+  "nb_hits": 1170
 }
