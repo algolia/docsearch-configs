@@ -1,0 +1,15 @@
+{
+  "index_name": "waylay",
+  "start_urls": [
+    "http://developers.waylay.io/"
+  ],
+  "selectors": {
+    "lvl0": ".breadcrumbs li:first-child",
+    "lvl1": "header h1",
+    "lvl2": "section h1",
+    "lvl3": "section h2",
+    "lvl4": "section h3",
+    "text": "section p, section li"
+  },
+  "nb_hits": 680
+}
