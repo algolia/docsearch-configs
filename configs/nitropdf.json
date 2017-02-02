@@ -1,0 +1,23 @@
+{
+  "index_name": "nitropdf",
+  "start_urls": [
+    "http://guide.nitropdf.com.s3-website-us-west-1.amazonaws.com/"
+  ],
+  "stop_urls": [
+    "http://guide.nitropdf.com.s3-website-us-west-1.amazonaws.com/$"
+  ],
+  "scrap_start_urls": false,
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "nb_hits": 5913
+}
