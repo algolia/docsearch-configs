@@ -1,7 +1,7 @@
 {
   "index_name": "mailjet-preprod",
   "start_urls": [
-    "http://dev.preprod.mailjet.com/guides/"
+    "http://dev-staging.mailjet.com/guides/"
   ],
   "selectors": {
     "lvl0": {
