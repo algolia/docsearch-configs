@@ -1,8 +1,17 @@
 {
   "index_name": "xmake",
   "start_urls": [
-    "http://xmake.io/#/",
-    "http://xmake.io/#/home"
+    {
+      "url": "http://xmake.io/#/home",
+      "tags": "en"
+    },
+    {
+      "url": "http://xmake.io/#/zh/",
+      "tags": "zh"
+    }
+  ],
+  "stop_content": [
+    "Cannot find"
   ],
   "stop_urls": [
     "\\?id="
