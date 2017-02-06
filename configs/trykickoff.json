@@ -1,0 +1,22 @@
+{
+  "index_name": "trykickoff",
+  "start_urls": [
+    "http://trykickoff.com/learn"
+  ],
+  "stop_urls": [
+    "index.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "nb_hits": 402
+}
