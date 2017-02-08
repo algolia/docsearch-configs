@@ -1,7 +1,7 @@
 {
   "index_name": "yarnpkg",
   "start_urls": [
-    "https://yarnpkg.com/docs/"
+    "https://yarnpkg.com/en/docs/"
   ],
   "stop_urls": [],
   "selectors_exclude": [
@@ -21,5 +21,5 @@
     "text": ".guide-content p, .guide-content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 710
+  "nb_hits": 771
 }
