@@ -1,0 +1,40 @@
+{
+  "index_name": "quilljs",
+  "start_urls": [
+    {
+      "url": "https://quilljs.com/guides/",
+      "selectors_key": "guides"
+    },
+    "https://quilljs.com/guides/why-quill/",
+    "http://quilljs.com/docs/quickstart/",
+    "http://quilljs.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "guides": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guides"
+      },
+      "lvl1": "#content-container h1",
+      "lvl2": "#content-container h2",
+      "lvl3": "#content-container h3",
+      "lvl4": "#content-container h4",
+      "lvl5": "#content-container h5",
+      "text": "#content-container p, #content-container li"
+    },
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": "#content-container h1",
+      "lvl2": "#content-container h2",
+      "lvl3": "#content-container h3",
+      "lvl4": "#content-container h4",
+      "lvl5": "#content-container h5",
+      "text": "#content-container p, #content-container li"
+    }
+  },
+  "nb_hits": 749
+}
