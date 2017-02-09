@@ -1,7 +1,7 @@
 {
   "index_name": "vue-mdl",
   "start_urls": [
-    "http://posva.net/vue-mdl/"
+    "https://posva.net/vue-mdl/"
   ],
   "stop_urls": [],
   "selectors": {
