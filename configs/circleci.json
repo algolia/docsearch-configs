@@ -1,20 +1,57 @@
 {
   "index_name": "circleci",
   "start_urls": [
-    "https://circleci.com/docs/"
+    {
+      "url": "https://circleci.com/docs/enterprise",
+      "selectors_key": "enterprise"
+    },
+    {
+      "url": "https://circleci.com/docs/2.0",
+      "selectors_key": "v2"
+    },
+    {
+      "url": "https://circleci.com/docs/",
+      "selectors_key": "v1"
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
+    "v2": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation 2.0"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
     },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "v1": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation 1.0"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
+    },
+    "enterprise": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation Enterprise"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
+    }
   },
   "nb_hits": 11631
 }
