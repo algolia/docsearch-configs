@@ -19,5 +19,7 @@
   "js_wait": 2,
   "use_anchors": true,
   "min_indexed_level": 2,
+  "docker_cpu": 1,
+  "docker_memory": 2048,
   "nb_hits": 200
 }
