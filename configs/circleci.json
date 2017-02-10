@@ -3,7 +3,8 @@
   "start_urls": [
     {
       "url": "https://circleci.com/docs/enterprise",
-      "selectors_key": "enterprise"
+      "selectors_key": "enterprise",
+      "page_rank": -1
     },
     {
       "url": "https://circleci.com/docs/2.0",
@@ -19,7 +20,7 @@
     "v2": {
       "lvl0": {
         "selector": "",
-        "default_value": "Documentation 2.0"
+        "default_value": "CircleCI 2.0"
       },
       "lvl1": "article h1",
       "lvl2": "article h2",
@@ -31,7 +32,7 @@
     "v1": {
       "lvl0": {
         "selector": "",
-        "default_value": "Documentation 1.0"
+        "default_value": "CircleCI 1.0"
       },
       "lvl1": "article h1",
       "lvl2": "article h2",
@@ -43,7 +44,7 @@
     "enterprise": {
       "lvl0": {
         "selector": "",
-        "default_value": "Documentation Enterprise"
+        "default_value": "CircleCI Enterprise"
       },
       "lvl1": "article h1",
       "lvl2": "article h2",
@@ -53,5 +54,5 @@
       "text": "article p, article li"
     }
   },
-  "nb_hits": 11631
+  "nb_hits": 11560
 }
