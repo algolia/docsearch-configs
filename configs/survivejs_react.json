@@ -1,9 +1,11 @@
 {
   "index_name": "survivejs_react",
   "start_urls": [
+    "https://survivejs.com/react/",
     "http://survivejs.com/react/"
   ],
   "stop_urls": [
+    "https://survivejs.com/react/$",
     "http://survivejs.com/react/$"
   ],
   "selectors": {
