@@ -1,10 +1,12 @@
 {
   "index_name": "survivejs_webpack",
   "start_urls": [
-    "http://survivejs.com/webpack/"
+    "http://survivejs.com/webpack/",
+    "https://survivejs.com/webpack/"
   ],
   "stop_urls": [
-    "http://survivejs.com/webpack/$"
+    "http://survivejs.com/webpack/$",
+    "https://survivejs.com/webpack/$"
   ],
   "selectors": {
     "lvl0": {
