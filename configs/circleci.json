@@ -7,15 +7,13 @@
       "page_rank": -1
     },
     {
-      "url": "https://circleci.com/docs/2.0",
-      "selectors_key": "v2"
-    },
-    {
       "url": "https://circleci.com/docs/",
       "selectors_key": "v1"
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://circleci.com/docs/2.0"
+  ],
   "selectors": {
     "v2": {
       "lvl0": {
@@ -54,5 +52,5 @@
       "text": "article p, article li"
     }
   },
-  "nb_hits": 11560
+  "nb_hits": 11612
 }
