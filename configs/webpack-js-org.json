@@ -24,6 +24,6 @@
     "lvl5": ".page__content h5",
     "text": ".page__content p"
   },
-  "min_indexed_level": 2,
-  "nb_hits": 3502
+  "min_indexed_level": 1,
+  "nb_hits": 4979
 }
