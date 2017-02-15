@@ -1,10 +1,13 @@
 {
   "index_name": "polysync",
   "start_urls": [
-    "https://polysync.github.io/help-center/",
-    "http://polysync.github.io/help-center/"
+    "https://docs.polysync.io/",
+    "http://docs.polysync.io/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "http://docs.polysync.io/flows/getting-started/",
+    "https://docs.polysync.io/flows/getting-started/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
