@@ -20,5 +20,5 @@
     "lvl5": ".Article-Content h5, .Sensors-Content h5",
     "text": ".Article-Content p, .Article-Content li, .Article-Content td, .Sensors-Content p, .Sensors-Content li, .Sensors-Content td"
   },
-  "nb_hits": 9982
+  "nb_hits": 38500
 }
