@@ -1,0 +1,21 @@
+{
+  "index_name": "testcafe",
+  "start_urls": [
+    "https://devexpress.github.io/testcafe/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'doc-nav-content')]//a[contains(@class, 'active')]/ancestor::ul[1]/li[1]/a",
+      "type": "xpath"
+    },
+    "lvl1": ".post-content h1",
+    "lvl2": ".post-content h2",
+    "lvl3": ".post-content h3",
+    "lvl4": ".post-content h4",
+    "lvl5": ".post-content h5",
+    "text": ".post-content p, .post-content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 1371
+}
