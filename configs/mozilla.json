@@ -1,54 +1,34 @@
 {
   "index_name": "mozilla",
   "start_urls": [
-    "https://developer.mozilla.org/en-US/docs/Web/CSS",
-    "https://developer.mozilla.org/docs/en/CSS",
-    "https://developer.mozilla.org/docs/en-US/CSS",
-    "https://developer.mozilla.org/en-US/docs/en-US/CSS",
-    "https://developer.mozilla.org/en-US/docs/en/CSS",
-    "https://developer.mozilla.org/en-US/docs/CSS",
-    "https://developer.mozilla.org/en-US/docs/Web/HTML",
-    "https://developer.mozilla.org/docs/en/HTML",
-    "https://developer.mozilla.org/docs/en-US/HTML",
-    "https://developer.mozilla.org/en-US/docs/en-US/HTML",
-    "https://developer.mozilla.org/en-US/docs/en/HTML",
-    "https://developer.mozilla.org/en-US/docs/HTML",
-    "https://developer.mozilla.org/en-US/docs/Web/HTTP",
-    "https://developer.mozilla.org/docs/en/HTTP",
-    "https://developer.mozilla.org/docs/en-US/HTTP",
-    "https://developer.mozilla.org/en-US/docs/en-US/HTTP",
-    "https://developer.mozilla.org/en-US/docs/en/HTTP",
-    "https://developer.mozilla.org/en-US/docs/HTTP",
-    "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    "https://developer.mozilla.org/docs/en/JavaScript",
-    "https://developer.mozilla.org/docs/en-US/JavaScript",
-    "https://developer.mozilla.org/en-US/docs/en-US/JavaScript",
-    "https://developer.mozilla.org/en-US/docs/en/JavaScript",
-    "https://developer.mozilla.org/en-US/docs/JavaScript",
-    "https://developer.mozilla.org/en-US/docs/Web/API",
-    "https://developer.mozilla.org/docs/en/API",
-    "https://developer.mozilla.org/docs/en-US/API",
-    "https://developer.mozilla.org/en-US/docs/en-US/API",
-    "https://developer.mozilla.org/en-US/docs/en/API",
-    "https://developer.mozilla.org/en-US/docs/API",
-    "https://developer.mozilla.org/en-US/docs/Web/SVG",
-    "https://developer.mozilla.org/docs/en/SVG",
-    "https://developer.mozilla.org/docs/en-US/SVG",
-    "https://developer.mozilla.org/en-US/docs/en-US/SVG",
-    "https://developer.mozilla.org/en-US/docs/en/SVG",
-    "https://developer.mozilla.org/en-US/docs/SVG",
-    "https://developer.mozilla.org/en-US/docs/Web/WebGL",
-    "https://developer.mozilla.org/docs/en/WebGL",
-    "https://developer.mozilla.org/docs/en-US/WebGL",
-    "https://developer.mozilla.org/en-US/docs/en-US/WebGL",
-    "https://developer.mozilla.org/en-US/docs/en/WebGL",
-    "https://developer.mozilla.org/en-US/docs/WebGL",
-    "https://developer.mozilla.org/en-US/docs/Web/API",
-    "https://developer.mozilla.org/docs/en/MathML",
-    "https://developer.mozilla.org/docs/en-US/MathML",
-    "https://developer.mozilla.org/en-US/docs/en-US/MathML",
-    "https://developer.mozilla.org/en-US/docs/en/MathML",
-    "https://developer.mozilla.org/en-US/docs/MathML"
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "extra_attributes": {
+        "documents": "ref",
+        "technology": "js"
+      }
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript",
+      "extra_attributes": {
+        "documents": "learn",
+        "technology": "js"
+      }
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "extra_attributes": {
+        "documents": "ref",
+        "technology": "css"
+      }
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS",
+      "extra_attributes": {
+        "documents": "learn",
+        "technology": "css"
+      }
+    }
   ],
   "stop_urls": [
     "users/signin",
@@ -68,26 +48,98 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'crumbs')]/ol/li[3]/a",
-      "type": "xpath"
+      "selector": ".crumbs",
+      "attributes": {
+        "crumb0": {
+          "selector": ".//ol/li[3]/a",
+          "type": "xpath"
+        },
+        "crumb1": {
+          "selector": ".//ol/li[4]/a",
+          "type": "xpath"
+        },
+        "crumb2": {
+          "selector": ".//ol/li[5]/a",
+          "type": "xpath"
+        },
+        "crumb3": {
+          "selector": ".//ol/li[6]/a",
+          "type": "xpath"
+        },
+        "crumb4": {
+          "selector": ".//ol/li[7]/a",
+          "type": "xpath"
+        },
+        "crumb5": {
+          "selector": ".//ol/li[8]/a",
+          "type": "xpath"
+        },
+        "crumb6": {
+          "selector": ".//ol/li[9]/a",
+          "type": "xpath"
+        }
+      }
     },
-    "lvl1": {
-      "selector": "//*[contains(@class, 'crumbs')]/ol/li[4]/a",
-      "type": "xpath"
-    },
-    "lvl2": {
-      "selector": "//*[contains(@class, 'crumbs')]/ol/li[5]/a",
-      "type": "xpath"
-    },
-    "lvl3": ".document-head h1",
-    "lvl4": ".wiki-main-content h2",
+    "lvl1": ".document-head h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
     "text": {
-      "selector": "//dt//code",
+      "selector": "//dt//code|//article//p[0]",
       "type": "xpath"
     }
   },
+  "custom_settings": {
+    "attributeForDistinct": "url_without_anchor",
+    "attributesToIndex": [
+      "unordered(hierarchy_radio_camel.lvl1)",
+      "unordered(hierarchy_radio.lvl1)",
+      "unordered(hierarchy_radio_camel.lvl0.crumbs0)",
+      "unordered(hierarchy_radio.lvl0.crumbs0)",
+      "unordered(hierarchy_radio_camel.lvl0.crumbs1)",
+      "unordered(hierarchy_radio.lvl0.crumbs1)",
+      "unordered(hierarchy_radio_camel.lvl0.crumbs2)",
+      "unordered(hierarchy_radio.lvl0.crumbs2)",
+      "unordered(hierarchy_radio_camel.lvl0.crumbs3)",
+      "unordered(hierarchy_radio.lvl0.crumbs3)",
+      "unordered(hierarchy_radio_camel.lvl0.crumbs4)",
+      "unordered(hierarchy_radio.lvl0.crumbs4)",
+      "unordered(hierarchy_radio_camel.lvl0.crumbs5)",
+      "unordered(hierarchy_radio.lvl0.crumbs5)",
+      "unordered(hierarchy_radio_camel.lvl0.crumbs6)",
+      "unordered(hierarchy_radio.lvl0.crumbs6)",
+      "unordered(hierarchy_radio_camel.lvl2)",
+      "unordered(hierarchy_radio.lvl2)",
+      "unordered(hierarchy_radio_camel.lvl3)",
+      "unordered(hierarchy_radio.lvl3)",
+      "unordered(hierarchy_radio_camel.lvl4)",
+      "unordered(hierarchy_radio.lvl4)",
+      "unordered(hierarchy_camel.lvl1)",
+      "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy_camel.lvl0.crumbs.lvl0)",
+      "unordered(hierarchy.lvl0.crumbs.lvl0)",
+      "unordered(hierarchy_camel.lvl0.crumbs.lvl1)",
+      "unordered(hierarchy.lvl0.crumbs.lvl1)",
+      "unordered(hierarchy_camel.lvl0.crumbs.lvl2)",
+      "unordered(hierarchy.lvl0.crumbs.lvl2)",
+      "unordered(hierarchy_camel.lvl0.crumbs.lvl3)",
+      "unordered(hierarchy.lvl0.crumbs.lvl3)",
+      "unordered(hierarchy_camel.lvl0.crumbs.lvl4)",
+      "unordered(hierarchy.lvl0.crumbs.lvl4)",
+      "unordered(hierarchy_camel.lvl0.crumbs.lvl5)",
+      "unordered(hierarchy.lvl0.crumbs.lvl5)",
+      "unordered(hierarchy_camel.lvl0.crumbs.lvl6)",
+      "unordered(hierarchy.lvl0.crumbs.lvl6)",
+      "unordered(hierarchy_camel.lvl2)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy_camel.lvl3)",
+      "unordered(hierarchy.lvl3)",
+      "unordered(hierarchy_camel.lvl4)",
+      "unordered(hierarchy.lvl4)",
+      "content"
+    ]
+  },
+  "min_indexed_level": 1,
   "docker_cpu": 1,
   "docker_memory": 2048,
-  "min_indexed_level": 3,
-  "nb_hits": 68754
+  "nb_hits": 21903
 }
