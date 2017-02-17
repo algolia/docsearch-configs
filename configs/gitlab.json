@@ -35,6 +35,7 @@
     "https://docs.gitlab.com/ee/$",
     "https://docs.gitlab.com/omnibus/$",
     "https://docs.gitlab.com/runner/$",
+    ".*^(?!.*html)",
     "README.html"
   ],
   "stop_content": [
@@ -93,5 +94,5 @@
   },
   "scrap_start_urls": false,
   "min_indexed_level": 1,
-  "nb_hits": 18472
+  "nb_hits": 29527
 }
