@@ -1,7 +1,7 @@
 {
-  "index_name": "jframe",
+  "index_name": "component-io",
   "start_urls": [
-    "https://guide.jframe.io/v1/guide/"
+    "https://guide.component.io/v1/guide/"
   ],
   "stop_urls": [
     "v1/guide/index.html"
