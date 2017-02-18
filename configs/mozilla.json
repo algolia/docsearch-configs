@@ -80,41 +80,29 @@
         }
       }
     },
-    "lvl1": ".document-head h1",
+    "lvl1": {
+      "selector": ".document-head",
+      "attributes": {
+        "title": "h1",
+        "description": {
+          "selector": "//article//p[1]",
+          "type": "xpath"
+        }
+      }
+    },
     "lvl2": "article h2",
     "lvl3": "article h3",
     "text": {
-      "selector": "//dt//code|//article//p[0]",
+      "selector": "//dt//code",
       "type": "xpath"
     }
   },
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor",
+    "ignorePlurals": false,
     "attributesToIndex": [
-      "unordered(hierarchy_radio_camel.lvl1)",
-      "unordered(hierarchy_radio.lvl1)",
-      "unordered(hierarchy_radio_camel.lvl0.crumbs0)",
-      "unordered(hierarchy_radio.lvl0.crumbs0)",
-      "unordered(hierarchy_radio_camel.lvl0.crumbs1)",
-      "unordered(hierarchy_radio.lvl0.crumbs1)",
-      "unordered(hierarchy_radio_camel.lvl0.crumbs2)",
-      "unordered(hierarchy_radio.lvl0.crumbs2)",
-      "unordered(hierarchy_radio_camel.lvl0.crumbs3)",
-      "unordered(hierarchy_radio.lvl0.crumbs3)",
-      "unordered(hierarchy_radio_camel.lvl0.crumbs4)",
-      "unordered(hierarchy_radio.lvl0.crumbs4)",
-      "unordered(hierarchy_radio_camel.lvl0.crumbs5)",
-      "unordered(hierarchy_radio.lvl0.crumbs5)",
-      "unordered(hierarchy_radio_camel.lvl0.crumbs6)",
-      "unordered(hierarchy_radio.lvl0.crumbs6)",
-      "unordered(hierarchy_radio_camel.lvl2)",
-      "unordered(hierarchy_radio.lvl2)",
-      "unordered(hierarchy_radio_camel.lvl3)",
-      "unordered(hierarchy_radio.lvl3)",
-      "unordered(hierarchy_radio_camel.lvl4)",
-      "unordered(hierarchy_radio.lvl4)",
-      "unordered(hierarchy_camel.lvl1)",
-      "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy_camel.lvl1.title)",
+      "unordered(hierarchy.lvl1.title)",
       "unordered(hierarchy_camel.lvl0.crumbs.lvl0)",
       "unordered(hierarchy.lvl0.crumbs.lvl0)",
       "unordered(hierarchy_camel.lvl0.crumbs.lvl1)",
@@ -133,13 +121,11 @@
       "unordered(hierarchy.lvl2)",
       "unordered(hierarchy_camel.lvl3)",
       "unordered(hierarchy.lvl3)",
-      "unordered(hierarchy_camel.lvl4)",
-      "unordered(hierarchy.lvl4)",
-      "content"
+      "content",
+      "unordered(hierarchy_camel.lvl1.description)",
+      "unordered(hierarchy.lvl1.description)"
     ]
   },
   "min_indexed_level": 1,
-  "docker_cpu": 1,
-  "docker_memory": 2048,
-  "nb_hits": 21903
+  "nb_hits": 20254
 }
