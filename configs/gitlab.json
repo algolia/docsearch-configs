@@ -30,17 +30,20 @@
       ]
     }
   ],
+  "scrap_start_urls": false,
   "stop_urls": [
     "https://docs.gitlab.com/ce/$",
     "https://docs.gitlab.com/ee/$",
     "https://docs.gitlab.com/omnibus/$",
     "https://docs.gitlab.com/runner/$",
+    "https://.*?//.*?$",
     ".*^(?!.*html)",
     "README.html"
   ],
   "stop_content": [
     "This document was moved to",
-    "This section is now merged into"
+    "This section is now merged into",
+    "404 Not Found"
   ],
   "selectors": {
     "ce": {
@@ -92,7 +95,6 @@
       "text": ".main p, .main li"
     }
   },
-  "scrap_start_urls": false,
   "min_indexed_level": 1,
-  "nb_hits": 29527
+  "nb_hits": 20144
 }
