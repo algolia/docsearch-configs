@@ -1,0 +1,27 @@
+{
+  "index_name": "vux2MutiPages",
+  "start_urls": [
+    "https://232003894.github.io/vux2MutiPages/#/"
+  ],
+  "stop_urls": [
+    "id="
+  ],
+  "selectors_exclude": [
+    ".iconfontDoc"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "use_anchors": true,
+  "nb_hits": 5591
+}
