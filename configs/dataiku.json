@@ -1,7 +1,7 @@
 {
   "index_name": "dataiku",
   "start_urls": [
-    "http://doc.dataiku.com/dss/latest/"
+    "https://doc.dataiku.com/dss/latest/"
   ],
   "selectors_exclude": [
     ".headerlink"
@@ -14,5 +14,5 @@
     "text": ".section p, .section ul.simple li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 5785
+  "nb_hits": 11190
 }
