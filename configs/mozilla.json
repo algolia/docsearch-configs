@@ -80,29 +80,21 @@
         }
       }
     },
-    "lvl1": {
-      "selector": ".document-head",
-      "attributes": {
-        "title": "h1",
-        "description": {
-          "selector": "//article//p[1]",
-          "type": "xpath"
-        }
-      }
-    },
+    "lvl1": ".document-head h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
-    "text": {
+    "lvl4": {
       "selector": "//dt//code",
       "type": "xpath"
-    }
+    },
+    "text": "article p"
   },
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor",
     "ignorePlurals": false,
     "attributesToIndex": [
-      "unordered(hierarchy_camel.lvl1.title)",
-      "unordered(hierarchy.lvl1.title)",
+      "unordered(hierarchy_camel.lvl1)",
+      "unordered(hierarchy.lvl1)",
       "unordered(hierarchy_camel.lvl0.crumbs.lvl0)",
       "unordered(hierarchy.lvl0.crumbs.lvl0)",
       "unordered(hierarchy_camel.lvl0.crumbs.lvl1)",
@@ -121,11 +113,20 @@
       "unordered(hierarchy.lvl2)",
       "unordered(hierarchy_camel.lvl3)",
       "unordered(hierarchy.lvl3)",
-      "content",
-      "unordered(hierarchy_camel.lvl1.description)",
-      "unordered(hierarchy.lvl1.description)"
+      "unordered(hierarchy_camel.lvl4)",
+      "unordered(hierarchy.lvl4)",
+      "content"
+    ],
+    "ranking": [
+      "words",
+      "filters",
+      "typo",
+      "proximity",
+      "attribute",
+      "exact",
+      "custom"
     ]
   },
   "min_indexed_level": 1,
-  "nb_hits": 20254
+  "nb_hits": 39564
 }
