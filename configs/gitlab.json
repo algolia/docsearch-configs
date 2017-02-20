@@ -37,8 +37,7 @@
     "https://docs.gitlab.com/omnibus/$",
     "https://docs.gitlab.com/runner/$",
     "https://.*?//.*?$",
-    ".*^(?!.*html)",
-    "README.html"
+    ".*^(?!.*html)"
   ],
   "stop_content": [
     "This document was moved to",
@@ -96,5 +95,5 @@
     }
   },
   "min_indexed_level": 1,
-  "nb_hits": 20144
+  "nb_hits": 39109
 }
