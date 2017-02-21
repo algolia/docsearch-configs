@@ -1,0 +1,19 @@
+{
+  "index_name": "loilo",
+  "start_urls": [
+    "https://contao.loilo.de/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".menu > li > a.active",
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nb_hits": 630
+}
