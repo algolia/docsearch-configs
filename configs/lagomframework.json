@@ -2,22 +2,32 @@
   "index_name": "lagomframework",
   "start_urls": [
     {
-      "url": "http://www.lagomframework.com/documentation/(?P<version>.*?)/java",
+      "url": "http://www.lagomframework.com/documentation/(?P<version>.*?)/(?P<language>.*?)/",
       "variables": {
         "version": [
           "1.0.x",
           "1.1.x",
-          "1.2.x"
+          "1.2.x",
+          "1.3.x"
+        ],
+        "language": [
+          "scala",
+          "java"
         ]
       }
     },
     {
-      "url": "http://www.lagomframework.com/documentation/(?P<version>.*?)/java/Home.html",
+      "url": "http://www.lagomframework.com/documentation/(?P<version>.*?)/(?P<language>.*?)/Home.html",
       "variables": {
         "version": [
           "1.0.x",
           "1.1.x",
-          "1.2.x"
+          "1.2.x",
+          "1.3.x"
+        ],
+        "language": [
+          "scala",
+          "java"
         ]
       }
     }
@@ -27,6 +37,7 @@
   ],
   "stop_urls": [
     "/api/java/",
+    "/java/api",
     "ReferenceGuide",
     "Home"
   ],
@@ -39,5 +50,5 @@
     "text": "article p, article li"
   },
   "scrap_start_urls": false,
-  "nb_hits": 3607
+  "nb_hits": 6609
 }
