@@ -88,7 +88,10 @@
     "http://doc.nuxeo.com/idedoc",
     "http://doc.nuxeo.com/nuxeo-release-cycle"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\/label\/?$",
+    "\/label\/.+"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "#section_name",
