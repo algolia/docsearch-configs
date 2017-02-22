@@ -1,7 +1,7 @@
 {
   "index_name": "rightscale",
   "start_urls": [
-    "https://docs.rightscale.com/"
+    "http://docs.rightscale.com/"
   ],
   "stop_urls": [],
   "selectors": {
