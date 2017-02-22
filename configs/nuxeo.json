@@ -85,6 +85,8 @@
     "http://doc.nuxeo.com/nuxeo-release-cycle"
   ],
   "stop_urls": [
+    "\/label\/?$",
+    "\/label\/.+"
   ],
   "selectors": {
     "lvl0": {
