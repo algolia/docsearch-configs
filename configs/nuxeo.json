@@ -2,6 +2,10 @@
   "index_name": "nuxeo",
   "start_urls": [
     {
+      "url": "https://doc.nuxeo.com/glos/",
+      "page_rank": -1
+    },
+    {
       "url": "https://doc.nuxeo.com/60",
       "tags": [
         "60"
@@ -84,8 +88,7 @@
     "http://doc.nuxeo.com/idedoc",
     "http://doc.nuxeo.com/nuxeo-release-cycle"
   ],
-  "stop_urls": [
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "#section_name",
@@ -102,5 +105,5 @@
     "text": "#content p, #content li, #content pre, #content table"
   },
   "min_indexed_level": 2,
-  "nb_hits": 89894
+  "nb_hits": 132764
 }
