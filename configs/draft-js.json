@@ -1,8 +1,8 @@
 {
   "index_name": "draft-js",
   "start_urls": [
-    "http://facebook.github.io/draft-js/docs/overview.html",
-    "http://facebook.github.io/draft-js/docs/.*"
+    "http://draftjs.org/docs/overview.html",
+    "http://draftjs.org/docs/"
   ],
   "selectors_exclude": [
     ".hash-link",
@@ -22,5 +22,5 @@
     "text": ".documentationContent div.inner-content p, .documentationContent div.inner-content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 727
+  "nb_hits": 909
 }
