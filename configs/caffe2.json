@@ -1,8 +1,11 @@
 {
   "index_name": "caffe2",
   "start_urls": [
-    "http://caffe2.ai/docs/getting-started.html",
-    "http://caffe2.ai/docs"
+    "http://betadocs.caffe2.ai/docs/getting-started.html",
+    "http://betadocs.caffe2.ai/docs"
+  ],
+  "stop_urls": [
+    ".*^(?!.*html)"
   ],
   "selectors_exclude": [
     "#markdown-toc",
@@ -24,5 +27,5 @@
   },
   "scrap_start_urls": false,
   "min_indexed_level": 1,
-  "nb_hits": 453
+  "nb_hits": 2008
 }
