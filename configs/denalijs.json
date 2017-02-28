@@ -1,0 +1,20 @@
+{
+  "index_name": "denalijs",
+  "start_urls": [
+    "http://denalijs.org/latest/",
+    "http://denalijs.org/master/",
+    "http://denalijs.org/latest/guides/overview/introduction/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs-header .item-type",
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content h5",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 1659
+}
