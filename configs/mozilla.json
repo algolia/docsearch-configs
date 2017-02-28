@@ -2,7 +2,7 @@
   "index_name": "mozilla",
   "start_urls": [
     {
-      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
       "extra_attributes": {
         "documents": "ref",
         "technology": "js"
@@ -125,8 +125,14 @@
       "attribute",
       "exact",
       "custom"
+    ],
+    "attributesForFaceting": [
+      "tags",
+      "no_variables",
+      "extra_attributes",
+      "hierarchy_camel.lvl1"
     ]
   },
   "min_indexed_level": 1,
-  "nb_hits": 39564
+  "nb_hits": 36870
 }
