@@ -133,6 +133,11 @@
       "hierarchy_camel.lvl1"
     ]
   },
+  "synonyms": [
+    ["js", "javascript"],
+    ["es6", "ECMAScript6"],
+    ["mdn", "Mozilla Developer Network"]
+  ],
   "min_indexed_level": 1,
   "nb_hits": 36870
 }
