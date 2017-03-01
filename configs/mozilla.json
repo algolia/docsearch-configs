@@ -135,7 +135,8 @@
   },
   "synonyms": [
     ["js", "javascript"],
-    ["es6", "ECMAScript6"],
+    ["es6", "ECMAScript6", "ECMAScript 6"],
+    ["es5", "ECMAScript5", "ECMAScript 5"],
     ["mdn", "Mozilla Developer Network"]
   ],
   "min_indexed_level": 1,
