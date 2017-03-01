@@ -12,7 +12,6 @@
   ],
   "stop_urls": [],
   "selectors_exclude": [
-    "code"
   ],
   "selectors": {
     "lvl0": {
