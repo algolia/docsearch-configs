@@ -7,7 +7,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".docs-header .item-type",
+    "lvl0": ".docs-header .item-package",
     "lvl1": ".docs-content h1",
     "lvl2": ".docs-content h2",
     "lvl3": ".docs-content h3",
