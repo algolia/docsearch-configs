@@ -1,10 +1,10 @@
 {
   "index_name": "hugodocsconcept",
   "start_urls": [
-    "https://hugodocsconcept.netlify.com/"
+    "https://hugodocs.info/"
   ],
   "stop_urls": [
-    "https://hugodocsconcept.netlify.com/$"
+    "https://hugodocs.info/$"
   ],
   "scrap_start_urls": false,
   "selectors": {
