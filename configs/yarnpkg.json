@@ -5,7 +5,10 @@
       "url": "https://yarnpkg.com/(?P<lang>.*?)/docs/",
       "variables": {
         "lang": [
-          "en"
+          "en",
+          "fr",
+          "pt-BR",
+          "zh-Hans"
         ]
       }
     }
