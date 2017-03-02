@@ -14,8 +14,7 @@
     }
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-  ],
+  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//ul[contains(@class, 'guide-nav')]/li[1]",
@@ -30,5 +29,5 @@
     "text": ".guide-content p, .guide-content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 773
+  "nb_hits": 3093
 }
