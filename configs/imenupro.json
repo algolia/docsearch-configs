@@ -1,7 +1,7 @@
 {
   "index_name": "imenupro",
   "start_urls": [
-    "http://help.imenupro.com/"
+    "https://help.imenupro.com/"
   ],
   "stop_urls": [],
   "selectors": {
