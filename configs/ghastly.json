@@ -1,0 +1,22 @@
+{
+  "index_name": "ghastly",
+  "start_urls": [
+    "https://ghastly.js.org/"
+  ],
+  "stop_urls": [
+    "SUMMARY"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p, section li"
+  },
+  "nb_hits": 59
+}
