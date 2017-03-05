@@ -1,0 +1,16 @@
+{
+  "index_name": "eggjs",
+  "start_urls": [
+    "https://eggjs.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1, #main h1",
+    "lvl1": "article h2, #main h2",
+    "lvl2": "article h3, #main h3",
+    "lvl3": "article h4, #main h4",
+    "lvl4": "article h5, #main h5",
+    "text": "article p, #main p, article li, #main li"
+  },
+  "nb_hits": 3982
+}
