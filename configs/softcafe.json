@@ -1,7 +1,7 @@
 {
   "index_name": "softcafe",
   "start_urls": [
-    "http://help.softcafe.com/"
+    "https://help.softcafe.com/"
   ],
   "stop_urls": [],
   "selectors": {
