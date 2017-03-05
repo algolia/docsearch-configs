@@ -1,0 +1,20 @@
+{
+  "index_name": "bubble_manual",
+  "start_urls": [
+    "https://manual.bubble.is/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Manual"
+    },
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p"
+  },
+  "nb_hits": 471
+}
