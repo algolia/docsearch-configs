@@ -2,15 +2,15 @@
   "index_name": "plone",
   "start_urls": [
     {
-      "url": "http://docs.plone.org/3/en/",
+      "url": "https://docs.plone.org/3/en/",
       "tags": "3"
     },
     {
-      "url": "http://docs.plone.org/4/en/",
+      "url": "https://docs.plone.org/4/en/",
       "tags": "4"
     },
     {
-      "url": "http://docs.plone.org/[a-z]+/",
+      "url": "https://docs.plone.org/[a-z]+/",
       "tags": "5"
     }
   ],
