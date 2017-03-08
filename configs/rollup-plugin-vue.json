@@ -1,0 +1,24 @@
+{
+  "index_name": "rollup-plugin-vue",
+  "start_urls": [
+    {
+      "url": "https://vuejs.github.io/rollup-plugin-vue/#/en/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "2.2",
+          "2.3"
+        ]
+      }
+    }
+  ],
+  "selectors": {
+    "lvl0": ".content h2",
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 39,
+  "js_render": true
+}
