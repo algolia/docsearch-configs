@@ -1,0 +1,19 @@
+{
+  "index_name": "portworx",
+  "start_urls": [
+    "http://docs.portworx.com/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[@id='mysidebar']//li[@class='active']/../../a",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".col-md-9 h1",
+    "lvl2": ".col-md-9 h2",
+    "lvl3": ".col-md-9 h4",
+    "text": ".col-md-9 p, .col-md-9 li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 1781
+}
