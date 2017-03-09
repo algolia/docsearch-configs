@@ -2,17 +2,32 @@
   "index_name": "circleci",
   "start_urls": [
     {
-      "url": "https://circleci.com/docs/enterprise",
+      "url": "https://circleci.com/docs/(?P<version>.*?)",
       "selectors_key": "enterprise",
-      "page_rank": -1
+      "page_rank": -1,
+      "variables": {
+        "version": [
+          "enterprise"
+        ]
+      }
     },
     {
-      "url": "https://circleci.com/docs/",
-      "selectors_key": "v1"
+      "url": "https://circleci.com/docs/(?P<version>.*?)",
+      "selectors_key": "v1",
+      "variables": {
+        "version": [
+          "1.0"
+        ]
+      }
     },
     {
-      "url": "https://circleci.com/docs/2.0",
-      "selectors_key": "v2"
+      "url": "https://circleci.com/docs/(?P<version>.*?)",
+      "selectors_key": "v2",
+      "variables": {
+        "version": [
+          "2.0"
+        ]
+      }
     }
   ],
   "selectors": {
