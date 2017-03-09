@@ -9,10 +9,11 @@
     {
       "url": "https://circleci.com/docs/",
       "selectors_key": "v1"
+    },
+    {
+      "url": "https://circleci.com/docs/2.0",
+      "selectors_key": "v2"
     }
-  ],
-  "stop_urls": [
-    "https://circleci.com/docs/2.0"
   ],
   "selectors": {
     "v2": {
