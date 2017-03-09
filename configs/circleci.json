@@ -1,5 +1,8 @@
 {
   "index_name": "circleci",
+  "selectors_exclude": [
+    "#site-search"
+  ],
   "start_urls": [
     {
       "url": "https://circleci.com/docs/(?P<version>.*?)",
