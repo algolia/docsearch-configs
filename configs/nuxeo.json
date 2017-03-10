@@ -91,7 +91,7 @@
   "stop_urls": [
     "\/label\/?$",
     "\/label\/.+",
-    "\/blog\/?$,
+    "\/blog\/?$",
     "\/blog\/.+"
   ],
   "selectors": {
