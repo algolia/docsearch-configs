@@ -13,10 +13,10 @@
     "https://middlemanapp.com/advanced/configuration/"
   ],
   "selectors": {
-    "lvl0": ".main h1",
-    "lvl1": ".main h2",
-    "text": ".main p"
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "text": "main p"
   },
   "min_indexed_level": 2,
-  "nb_hits": 380
+  "nb_hits": 390
 }
