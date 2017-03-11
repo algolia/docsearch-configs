@@ -1,0 +1,24 @@
+{
+  "index_name": "kaazing",
+  "start_urls": [
+    "https://kaazing.com/doc/5.0/"
+  ],
+  "stop_urls": [
+    "\\?",
+    "apidoc",
+    ".*^(?!.*html)"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".page-content h1",
+    "lvl2": ".page-content h2",
+    "lvl3": ".page-content h3",
+    "lvl4": ".page-content h4",
+    "lvl5": ".page-content h5",
+    "text": ".page-content p, .page-content li"
+  },
+  "nb_hits": 8138
+}
