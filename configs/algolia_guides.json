@@ -11,7 +11,8 @@
     ".btn",
     "#parameters-list",
     ".next-previous-links",
-    "section .nav-tabs"
+    "section .nav-tabs",
+    "#end-page-feedback"
   ],
   "selectors": {
     "lvl0": ".ul-group.current .ul-group-name",

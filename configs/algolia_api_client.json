@@ -13,7 +13,8 @@
     ".next-previous-links",
     "section .nav-tabs",
     ".docsearch-ignore",
-    ".edit-link"
+    ".edit-link",
+    "#end-page-feedback"
   ],
   "selectors": {
     "lvl0": ".ul-group.current .ul-group-name",
