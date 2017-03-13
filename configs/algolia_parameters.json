@@ -1,24 +1,27 @@
 {
   "index_name": "algolia_parameters",
   "start_urls": [
-    "https://www.algolia.com/doc/api-client/php/parameters",
-    "https://www.algolia.com/doc/api-client/(.+?)/parameters"
+    "https://www.algolia.com/doc/api-client/php/parameters/",
+    "https://www.algolia.com/doc/api-client/(.+?)/parameters/.*?"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://www.algolia.com/doc/api-client/(.+?)/parameters/$"
+  ],
   "selectors_exclude": [
     ".btn",
     "#parameters-list",
     ".next-previous-links",
     "section .nav-tabs",
-    "#api-client-parameters-overview"
+    "#api-client-parameters-overview",
+    "#end-page-feedback"
   ],
   "selectors": {
-    "lvl0": ".markdown-page h2",
+    "lvl0": "ul.nav li.active .toc_title",
     "lvl1": {
       "selector": ".markdown-page .api-client-parameter",
       "attributes": {
         "name": {
-          "selector": ".//h3",
+          "selector": ".//h2",
           "type": "xpath"
         },
         "scope": ".scope",
@@ -65,5 +68,5 @@
       "no_variables"
     ]
   },
-  "nb_hits": 630
+  "nb_hits": 650
 }
