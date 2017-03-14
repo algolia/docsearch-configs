@@ -1,7 +1,7 @@
 {
   "index_name": "periscopedata",
   "start_urls": [
-    "https://doc.periscopedata.com/"
+    "https://doc.periscopedata.com/docv2"
   ],
   "stop_urls": [
     "\\.pub$",
