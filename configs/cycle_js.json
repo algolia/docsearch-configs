@@ -1,0 +1,65 @@
+{
+  "index_name": "cycle_js",
+  "start_urls": [
+    {
+      "url": "https://cycle.js.org/api",
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://cycle.js.org/releases.html",
+      "selectors_key": "releases"
+    },
+    "https://cycle.js.org",
+    "https://cycle.js.org/getting-started.html"
+  ],
+  "stop_urls": [
+    "https://cycle.js.org/$"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API reference"
+      },
+      "lvl1": {
+        "selector": "//h1[1]",
+        "type": "xpath"
+      },
+      "lvl2": {
+        "selector": "//h1[2]",
+        "type": "xpath"
+      },
+      "lvl3": ".content h2",
+      "lvl4": ".content h3",
+      "lvl5": ".content h4",
+      "text": ".content p, .content li"
+    },
+    "releases": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Releases"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    }
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 886
+}
