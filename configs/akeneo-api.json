@@ -1,19 +1,18 @@
 {
   "index_name": "akeneo-api",
   "start_urls": [
-    "https://api.akeneo.com/getting-started.html",
-    "https://api.akeneo.com/getting-started-admin.html",
-    "https://api.akeneo.com/getting-started-admin.html",
-    "https://api.akeneo.com/documentation/",
-    "https://api-staging.akeneo.com/api-reference-index.html"
+    "https://api.akeneo.com/"
+  ],
+  "stop_urls": [
+    "https://api.akeneo.com/index.html"
   ],
   "selectors": {
-    "lvl0": "h1",
-    "lvl1": "h2",
-    "lvl2": "h3",
-    "lvl3": "h4",
-    "lvl4": "h5",
-    "text": "p, li"
+    "lvl0": "#mainContent h1",
+    "lvl1": "#mainContent h2",
+    "lvl2": "#mainContent h3",
+    "lvl3": "#mainContent h4",
+    "lvl4": "#mainContent h5",
+    "text": "#mainContent p, #mainContent li"
   },
   "min_indexed_level": 2,
   "nb_hits": 133,
