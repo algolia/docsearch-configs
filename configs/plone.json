@@ -23,15 +23,15 @@
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": "//ul[contains(@class, 'breadcrumb')]/li[2]/a",
+      "selector": "(//ul[contains(@class, 'breadcrumb')])[1]/li[2]",
       "type": "xpath"
     },
     "lvl2": {
-      "selector": "//ul[contains(@class, 'breadcrumb')]/li[3]/a",
+      "selector": "(//ul[contains(@class, 'breadcrumb')])[1]/li[3]",
       "type": "xpath"
     },
     "lvl3": {
-      "selector": "//ul[contains(@class, 'breadcrumb')]/li[4]/a",
+      "selector": "(//ul[contains(@class, 'breadcrumb')])[1]/li[4]",
       "type": "xpath"
     },
     "lvl4": "section h1",
