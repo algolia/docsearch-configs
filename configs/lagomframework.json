@@ -2,7 +2,7 @@
   "index_name": "lagomframework",
   "start_urls": [
     {
-      "url": "http://www.lagomframework.com/documentation/(?P<version>.*?)/(?P<language>.*?)/",
+      "url": "https://www.lagomframework.com/documentation/(?P<version>.*?)/(?P<language>.*?)/",
       "variables": {
         "version": [
           "1.0.x",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "url": "http://www.lagomframework.com/documentation/(?P<version>.*?)/(?P<language>.*?)/Home.html",
+      "url": "https://www.lagomframework.com/documentation/(?P<version>.*?)/(?P<language>.*?)/Home.html",
       "variables": {
         "version": [
           "1.0.x",

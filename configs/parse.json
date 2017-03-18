@@ -2,73 +2,73 @@
   "index_name": "parse",
   "start_urls": [
     {
-      "url": "http://parseplatform.github.io/docs/parse-server/guide/",
+      "url": "http://parseplatform.org/docs/parse-server/guide/",
       "tags": [
         "parse-server"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/ios/guide/",
+      "url": "http://parseplatform.org/docs/ios/guide/",
       "tags": [
         "ios"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/android/guide/",
+      "url": "http://parseplatform.org/docs/android/guide/",
       "tags": [
         "android"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/js/guide/",
+      "url": "http://parseplatform.org/docs/js/guide/",
       "tags": [
         "js"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/dotnet/guide/",
+      "url": "http://parseplatform.org/docs/dotnet/guide/",
       "tags": [
         "dotnet"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/macos/guide/",
+      "url": "http://parseplatform.org/docs/macos/guide/",
       "tags": [
         "macos"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/unity/guide/",
+      "url": "http://parseplatform.org/docs/unity/guide/",
       "tags": [
         "unity"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/php/guide/",
+      "url": "http://parseplatform.org/docs/php/guide/",
       "tags": [
         "php"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/arduino/guide/",
+      "url": "http://parseplatform.org/docs/arduino/guide/",
       "tags": [
         "arduino"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/embedded_c/guide/",
+      "url": "http://parseplatform.org/docs/embedded_c/guide/",
       "tags": [
         "embedded_c"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/cloudcode/guide/",
+      "url": "http://parseplatform.org/docs/cloudcode/guide/",
       "tags": [
         "cloudcode"
       ]
     },
     {
-      "url": "http://parseplatform.github.io/docs/rest/guide/",
+      "url": "http://parseplatform.org/docs/rest/guide/",
       "tags": [
         "rest"
       ]
