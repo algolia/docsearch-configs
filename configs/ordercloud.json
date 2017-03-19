@@ -45,5 +45,5 @@
   "js_wait": 2,
   "docker_cpu": 2,
   "docker_memory": 4096,
-  "nb_hits": 2378
+  "nb_hits": 8290
 }
