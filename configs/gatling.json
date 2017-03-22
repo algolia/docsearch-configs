@@ -1,0 +1,22 @@
+{
+  "index_name": "gatling",
+  "start_urls": [
+    "http://gatling.io/docs/"
+  ],
+  "stop_urls": [
+    "tel:"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Gatling documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "nb_hits": 2381
+}
