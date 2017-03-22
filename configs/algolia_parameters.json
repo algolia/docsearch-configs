@@ -21,7 +21,7 @@
       "selector": ".markdown-page .api-client-parameter",
       "attributes": {
         "name": {
-          "selector": ".//h2",
+          "selector": ".//h1",
           "type": "xpath"
         },
         "scope": ".scope",
