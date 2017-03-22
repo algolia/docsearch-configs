@@ -1,0 +1,25 @@
+{
+  "index_name": "markdownguide",
+  "start_urls": [
+    "https://www.markdownguide.org/"
+  ],
+  "stop_urls": [
+    "https://www.markdownguide.org/$",
+    "/$"
+  ],
+  "scrap_start_urls": false,
+  "selectors_exclude": [
+    ".jumbotron",
+    "#doc"
+  ],
+  "selectors": {
+    "lvl0": "ul.navbar-nav li.active a",
+    "lvl1": "h1",
+    "lvl2": "h2",
+    "lvl3": "h3",
+    "lvl4": "h4",
+    "lvl5": "h5",
+    "text": "p, li"
+  },
+  "nb_hits": 277
+}
