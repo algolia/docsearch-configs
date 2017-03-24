@@ -12,12 +12,12 @@
     "https://support.bigcommerce.com/documentation$",
     "\\?",
     "%20",
-	"/$"
+    "/$"
   ],
    "selectors_exclude": [
     "#feedback-visible",
 	"#menu-title",
-	"#related-articles"
+	"#related-articles",
 	".tip"
   ], 
   "selectors": {
