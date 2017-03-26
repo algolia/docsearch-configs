@@ -14,12 +14,13 @@
   ],
   "selectors": {
     "lvl0": "ul.navbar-nav li.active a",
-    "lvl1": "h1",
-    "lvl2": "h2",
-    "lvl3": "h3",
-    "lvl4": "h4",
-    "lvl5": "h5",
-    "text": "p, li"
+    "lvl1": ".col-xs-12.col-sm-9 > h1",
+    "lvl2": ".col-xs-12.col-sm-9 > h2",
+    "lvl3": ".col-xs-12.col-sm-9 > h3",
+    "lvl4": ".col-xs-12.col-sm-9 > h4",
+    "lvl5": ".col-xs-12.col-sm-9 > h5",
+    "text": "p, li, td"
   },
-  "nb_hits": 277
+  "js_render": true,
+  "nb_hits": 406
 }
