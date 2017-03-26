@@ -2,38 +2,50 @@
   "index_name": "helloeko",
   "start_urls": [
     {
-      "url": "http://developer.helloeko.com/api/latest",
+      "url": "https://developer.helloeko.com/api/",
       "selectors_key": "api"
     },
-    "http://developer.helloeko.com/"
+    "https://developer.helloeko.com/"
   ],
   "stop_urls": [
-    "http://developer.helloeko.com/blog/"
+    "https://developer.helloeko.com/blog/"
   ],
   "selectors": {
     "default": {
       "lvl0": {
         "selector": "",
-        "default_value": "Guides"
+        "default_value": "Docs"
       },
-      "lvl1": "li.current-menu-parent > a",
-      "lvl2": "article h3",
-      "lvl3": "article h4",
-      "lvl4": "article h5",
-      "text": "article p, article li"
+      "lvl1": {
+        "selector": "//aside//a[contains(@class, 'current')]/preceding::*[contains(@class, 'sidebar-title')][1]",
+        "type": "xpath",
+        "global": "true"
+      },
+      "lvl2": ".article h1",
+      "lvl3": ".article h2",
+      "lvl4": ".article h3",
+      "lvl5": ".article h4",
+      "lvl6": ".article h5",
+      "text": ".article p, .article li"
     },
     "api": {
       "lvl0": {
         "selector": "",
         "default_value": "API"
       },
-      "lvl1": "li.current-menu-parent > a",
-      "lvl2": "#title",
-      "lvl3": "#texanomotyContent h4",
-      "lvl4": "#texanomotyContent h5",
-      "text": "#texanomotyContent p, #texanomotyContent li"
+      "lvl1": {
+        "selector": "//aside//a[contains(@class, 'current')]/preceding::*[contains(@class, 'sidebar-title')][1]",
+        "type": "xpath",
+        "global": "true"
+      },
+      "lvl2": ".article h1",
+      "lvl3": ".article h2",
+      "lvl4": ".article h3",
+      "lvl5": ".article h4",
+      "lvl6": ".article h5",
+      "text": ".article p, .article li"
     }
   },
   "min_indexed_level": 2,
-  "nb_hits": 1011
+  "nb_hits": 1487
 }
