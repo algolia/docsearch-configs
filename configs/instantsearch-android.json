@@ -5,6 +5,31 @@
       "url": "https://community.algolia.com/instantsearch-android/getting-started.html",
       "page_rank": 1,
       "selectors_key": "getting-started"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/concepts.html",
+      "page_rank": 2,
+      "selectors_key": "concepts"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/widgets.html",
+      "page_rank": 3,
+      "selectors_key": "widgets"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/troubleshooting.html",
+      "page_rank": 4,
+      "selectors_key": "troubleshooting"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/examples.html",
+      "page_rank": 5,
+      "selectors_key": "examples"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/javadoc/",
+      "page_rank": 10,
+      "selectors_key": "javadoc"
     }
   ],
   "stop_urls": [
