@@ -29,7 +29,7 @@
     {
       "url": "https://community.algolia.com/instantsearch-android/javadoc/",
       "page_rank": 10,
-      "selectors_key": "documentation"
+      "selectors_key": "javadoc"
     }
   ],
   "stop_urls": [
@@ -41,11 +41,10 @@
       "lvl2": ".documentation-container h2",
       "text": ".documentation-container p, .documentation-container li, .documentation-container td"
     },
-    "api": {
-      "lvl0": "h2.sidebar-header",
-      "lvl2": ".documentation-container h2",
-      "lvl3": ".documentation-container .proptypes .api-entry",
-      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    "javadoc": {
+      "lvl0": "h2.title",
+      "lvl1": "div.description div.block",
+      "text": "div.summary div.block"
     },
     "documentation": {
       "lvl0": "h2.sidebar-header",
