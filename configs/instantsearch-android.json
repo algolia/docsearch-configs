@@ -1,0 +1,34 @@
+{
+  "index_name": "instantsearch-android",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/instantsearch-android/getting-started.html",
+      "page_rank": 1,
+      "selectors_key": "getting-started"
+    }
+  ],
+  "stop_urls": [
+  ],
+  "selectors": {
+    "guide": {
+      "lvl0": "h2.sidebar-header",
+      "lvl1": ".sidebar-elements .level-h2 .navItem-active",
+      "lvl2": ".documentation-container h2",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "api": {
+      "lvl0": "h2.sidebar-header",
+      "lvl1": ".sidebar-elements .level-h2 .navItem-active",
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container .proptypes .api-entry",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "getting-started": {
+      "lvl0": "h2.sidebar-header",
+      "lvl1": ".sidebar-elements level-h2 > .active",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    }
+  },
+  "js_render": true,
+  "min_indexed_level": 1
+}
