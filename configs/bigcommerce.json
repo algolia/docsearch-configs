@@ -25,7 +25,7 @@
       "selector": "//ol[contains(@class, 'breadcrumb')]/li[2]/a",
       "type": "xpath"
     },
-    "lvl1": ".categories > li.active a",
+    "lvl1": ".categories > li.active > a",
     "lvl2": ".content h1",
     "lvl3": ".content h3",
     "lvl4": ".content h4",
