@@ -25,9 +25,10 @@
       "selector": "//ol[contains(@class, 'breadcrumb')]/li[2]/a",
       "type": "xpath"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
+    "lvl1": ".categories > li.active a",
+    "lvl2": ".content h1",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
     "text": ".content p, .content li"
   },
   "min_indexed_level": 1,
