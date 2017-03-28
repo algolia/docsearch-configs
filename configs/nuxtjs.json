@@ -24,6 +24,14 @@
     {
       "url": "http://ru.nuxtjs.org/",
       "tags": ["ru"]
+    },
+    {
+      "url": "https://jp.nuxtjs.org/",
+      "tags": ["jp"]
+    },
+    {
+      "url": "http://jp.nuxtjs.org/",
+      "tags": ["jp"]
     }
   ],
   "stop_urls": [],
