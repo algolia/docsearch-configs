@@ -1,7 +1,7 @@
 {
   "index_name": "portworx",
   "start_urls": [
-    "http://docs.portworx.com/"
+    "https://docs.portworx.com/"
   ],
   "selectors": {
     "lvl0": {
@@ -15,5 +15,5 @@
     "text": ".col-md-9 p, .col-md-9 li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 1781
+  "nb_hits": 2003
 }
