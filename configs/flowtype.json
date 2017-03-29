@@ -1,25 +1,19 @@
 {
   "index_name": "flowtype",
   "start_urls": [
-    "https://flowtype.org/docs/getting-started.html",
-    "https://flowtype.org/docs/.*"
+    "https://flowtype.org/en/docs/"
   ],
   "selectors_exclude": [
     ".hash"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "//nav[@class='toc']//a[@class='active']/../../../h3",
-      "type": "xpath",
-      "global": true
-    },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 829
+  "nb_hits": 1857
 }
