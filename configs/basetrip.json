@@ -1,0 +1,16 @@
+{
+  "index_name": "basetrip",
+  "start_urls": [
+    "https://www.thebasetrip.com/en/api/docs"
+  ],
+  "selectors": {
+    "lvl0": ".docs h1",
+    "lvl1": ".docs h2",
+    "lvl2": ".docs h3",
+    "lvl3": ".docs h4",
+    "lvl4": ".docs h5",
+    "text": ".docs p, .docs li, .docs td"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 627
+}
