@@ -1,0 +1,17 @@
+{
+  "index_name": "frint.js",
+  "start_urls": [
+    "https://frint.js.org/docs/",
+    "http://frint.js.org/docs/"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 850
+}
