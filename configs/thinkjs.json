@@ -1,0 +1,23 @@
+{
+  "index_name": "thinkjs",
+  "start_urls": [
+    "https://thinkjs.org/doc",
+    "https://thinkjs.org/en/doc"
+  ],
+  "stop_urls": [
+    "https://thinkjs.org/en/doc/2.0/",
+    "https://thinkjs.org/en/doc/2.1/",
+    "https://thinkjs.org/en/doc/1.2/"
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": ".doc h2",
+    "lvl1": ".doc h2",
+    "lvl2": ".doc h3",
+    "lvl3": ".doc h4",
+    "lvl4": ".doc h5",
+    "text": ".doc p, .doc li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 7092
+}
