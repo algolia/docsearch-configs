@@ -19,7 +19,7 @@
 	"#menu-title",
 	"#related-articles",
 	".tip"
-  ], 
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//ol[contains(@class, 'breadcrumb')]/li[2]/a",
@@ -33,5 +33,5 @@
   },
   "min_indexed_level": 1,
   "scrap_start_urls": false,
-  "nb_hits": 24820
+  "nb_hits": 19552
 }
