@@ -7,7 +7,8 @@
   ],
   "stop_urls": [
     "\\.pub$",
-    "/newdoc/"
+    "/newdoc/",
+    "/doc/"
   ],
   "selectors": {
     "lvl0": ".doc-layout h1",
