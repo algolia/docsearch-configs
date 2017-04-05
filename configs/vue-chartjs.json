@@ -1,0 +1,33 @@
+{
+  "index_name": "vue-chartjs",
+  "start_urls": [
+    {
+      "url": "http://vue-chartjs.org/#/de/",
+      "tags": [
+        "de"
+      ]
+    },
+    {
+      "url": "http://vue-chartjs.org/#/",
+      "tags": [
+        "en"
+      ]
+    },
+    "http://vue-chartjs.org/#/home"
+  ],
+  "stop_urls": [
+    "\\?id"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "use_anchors": true,
+  "nb_hits": 302
+}
