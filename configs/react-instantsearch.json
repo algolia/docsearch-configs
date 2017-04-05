@@ -2,29 +2,29 @@
   "index_name": "react-instantsearch",
   "start_urls": [
     {
-      "url": "https://community.algolia.com/instantsearch.js/react/guide/",
+      "url": "https://community.algolia.com/react-instantsearch/guide/",
       "page_rank": 4,
       "selectors_key": "guide"
     },
     {
-      "url": "https://community.algolia.com/instantsearch.js/react/widgets/",
+      "url": "https://community.algolia.com/react-instantsearch/widgets/",
       "page_rank": 3,
       "selectors_key": "api"
     },
     {
-      "url": "https://community.algolia.com/instantsearch.js/react/connectors/",
+      "url": "https://community.algolia.com/react-instantsearch/connectors/",
       "page_rank": 2,
       "selectors_key": "api"
     },
     {
-      "url": "https://community.algolia.com/instantsearch.js/react/Getting_started.html",
+      "url": "https://community.algolia.com/react-instantsearch/Getting_started.html",
       "page_rank": 1,
       "selectors_key": "getting-started"
     }
   ],
   "stop_urls": [
-    "https://community.algolia.com/instantsearch.js/react/examples/",
-    "https://community.algolia.com/instantsearch.js/react/storybook/"
+    "https://community.algolia.com/react-instantsearch/examples/",
+    "https://community.algolia.com/react-instantsearch/storybook/"
   ],
   "selectors": {
     "guide": {
