@@ -1,0 +1,22 @@
+{
+  "index_name": "mailtop",
+  "start_urls": [
+    "https://docs.mailtop.com.br/"
+  ],
+  "stop_urls": [
+    "https://docs.mailtop.com.br/api/v1/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documenta\u00e7\u00e3o"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "nb_hits": 877
+}
