@@ -1,0 +1,20 @@
+{
+  "index_name": "lightbend",
+  "start_urls": [
+    "https://conductr.lightbend.com/docs/2.0.x/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".page-content h1",
+    "lvl2": ".page-content h2",
+    "lvl3": ".page-content h3",
+    "lvl4": ".page-content h4",
+    "lvl5": ".page-content h5",
+    "text": ".page-content p, .page-content li"
+  },
+  "nb_hits": 3255
+}
