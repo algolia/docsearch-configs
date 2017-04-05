@@ -1,0 +1,18 @@
+{
+  "index_name": "venolt",
+  "start_urls": [
+    "https://venolt.com/help/articles/2",
+    "https://venolt.com/help/articles/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".breadcrumb .section.active",
+    "lvl1": ".article h1",
+    "lvl2": ".article h2",
+    "lvl3": ".article h3",
+    "lvl4": ".article h4",
+    "lvl5": ".article h5",
+    "text": ".article p, .article li"
+  },
+  "nb_hits": 265
+}
