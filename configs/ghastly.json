@@ -4,7 +4,8 @@
     "https://ghastly.js.org/"
   ],
   "stop_urls": [
-    "SUMMARY"
+    "SUMMARY",
+    "id="
   ],
   "selectors": {
     "lvl0": {
@@ -18,5 +19,8 @@
     "lvl5": "section h5",
     "text": "section p, section li"
   },
-  "nb_hits": 59
+  "js_render": true,
+  "use_anchors": true,
+  "js_wait": 1,
+  "nb_hits": 284
 }

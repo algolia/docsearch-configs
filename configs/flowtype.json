@@ -1,7 +1,7 @@
 {
   "index_name": "flowtype",
   "start_urls": [
-    "https://flowtype.org/en/docs/"
+    "https://flow.org/en/docs/"
   ],
   "selectors_exclude": [
     ".hash"
