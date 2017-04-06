@@ -1,0 +1,20 @@
+{
+  "index_name": "caffe2ref",
+  "start_urls": [
+    "http://betadocs.caffe2.ai/doxygen-python/html/annotated.html",
+    "http://betadocs.caffe2.ai/doxygen-python/html"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".permalink"
+  ],
+  "selectors": {
+    "lvl0": "#projectname",
+    "lvl1": ".headertitle",
+    "lvl2": ".groupheader",
+    "lvl3": "td.memItemRight, .memtitle, td.memname",
+    "text": ".textblock"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 7229
+}
