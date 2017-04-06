@@ -1,7 +1,17 @@
 {
   "index_name": "lightbend",
   "start_urls": [
-    "https://conductr.lightbend.com/docs/2.0.x/"
+    {
+      "url": "https://conductr.lightbend.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "2.0.x",
+          "2.1.x",
+          "1.0.x",
+          "1.1.X"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -16,5 +26,5 @@
     "lvl5": ".page-content h5",
     "text": ".page-content p, .page-content li"
   },
-  "nb_hits": 3255
+  "nb_hits": 8342
 }
