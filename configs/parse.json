@@ -2,73 +2,73 @@
   "index_name": "parse",
   "start_urls": [
     {
-      "url": "http://parseplatform.org/docs/parse-server/guide/",
+      "url": "http://docs.parseplatform.org/parse-server/guide/",
       "tags": [
         "parse-server"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/ios/guide/",
+      "url": "http://docs.parseplatform.org/ios/guide/",
       "tags": [
         "ios"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/android/guide/",
+      "url": "http://docs.parseplatform.org/android/guide/",
       "tags": [
         "android"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/js/guide/",
+      "url": "http://docs.parseplatform.org/js/guide/",
       "tags": [
         "js"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/dotnet/guide/",
+      "url": "http://docs.parseplatform.org/dotnet/guide/",
       "tags": [
         "dotnet"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/macos/guide/",
+      "url": "http://docs.parseplatform.org/macos/guide/",
       "tags": [
         "macos"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/unity/guide/",
+      "url": "http://docs.parseplatform.org/unity/guide/",
       "tags": [
         "unity"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/php/guide/",
+      "url": "http://docs.parseplatform.org/php/guide/",
       "tags": [
         "php"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/arduino/guide/",
+      "url": "http://docs.parseplatform.org/arduino/guide/",
       "tags": [
         "arduino"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/embedded_c/guide/",
+      "url": "http://docs.parseplatform.org/embedded_c/guide/",
       "tags": [
         "embedded_c"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/cloudcode/guide/",
+      "url": "http://docs.parseplatform.org/cloudcode/guide/",
       "tags": [
         "cloudcode"
       ]
     },
     {
-      "url": "http://parseplatform.org/docs/rest/guide/",
+      "url": "http://docs.parseplatform.org/rest/guide/",
       "tags": [
         "rest"
       ]
