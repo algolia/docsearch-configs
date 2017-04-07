@@ -1,5 +1,5 @@
 {
-  "index_name": "lightbend",
+  "index_name": "lightbend-conductr",
   "start_urls": [
     {
       "url": "https://conductr.lightbend.com/docs/(?P<version>.*?)/",
