@@ -1,5 +1,5 @@
 {
-  "index_name": "TESTING_INDEX",
+  "index_name": "bigcommerce",
   "start_urls": [
 	{"url":"https://support.bigcommerce.com/articles/Learning/What-is-SEO","selectors_key": "guides"},
 	{"url":"https://support.bigcommerce.com/articles/Learning/Dropshipping","selectors_key": "guides"},
@@ -620,6 +620,5 @@
   },
   "min_indexed_level": 3,
   "scrap_start_urls": true,
-  "js_render": true,
-  "js-wait": 2
+  "js_render": true
 }
