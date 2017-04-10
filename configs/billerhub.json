@@ -1,0 +1,15 @@
+{
+  "index_name": "billerhub",
+  "start_urls": [
+    "https://payit.mobi/Docs/billerhub/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".col-md-12 h1",
+    "lvl1": ".col-md-9 h2",
+    "lvl2": ".col-md-9 h3",
+    "text": ".col-md-9 p, .col-md-9 td, .col-md-9 pre"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 288
+}
