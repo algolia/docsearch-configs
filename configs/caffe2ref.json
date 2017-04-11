@@ -10,12 +10,17 @@
       "url": "http://betadocs.caffe2.ai/doxygen-python/html",
       "selectors_key": "ref"
     },
+    {
+      "url": "http://betadocs.caffe2.ai/doxygen-c/html",
+      "selectors_key": "ref"
+    },
     "http://betadocs.caffe2.ai/docs/getting-started.html",
     "http://betadocs.caffe2.ai/doxygen-python/html/annotated.html"
   ],
   "stop_urls": [
     ".*^(?!.*html)",
-    "members\\.html"
+    "members\\.html",
+    "_source.html"
   ],
   "selectors_exclude": [
     ".permalink",
@@ -47,14 +52,18 @@
         "selector": "//*[@id='nav-path']/ul/li[2]/a",
         "type": "xpath"
       },
-      "lvl3": ".groupheader",
-      "lvl4": "td.memItemRight, .memtitle, td.memname",
+      "lvl3": {
+        "selector": "//*[@id='nav-path']/ul/li[3]/a",
+        "type": "xpath"
+      },
+      "lvl4": ".groupheader",
+      "lvl5": "td.memItemRight, .memtitle, td.memname",
       "text": ".textblock"
     }
   },
   "min_indexed_level": {
     "doc": 1,
-    "ref": 2
+    "ref": 3
   },
-  "nb_hits": 9500
+  "nb_hits": 10981
 }
