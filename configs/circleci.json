@@ -31,6 +31,15 @@
           "2.0"
         ]
       }
+    },
+    {
+      "url": "https://circleci.com/docs/(?P<version>.*?)",
+      "selectors_key": "api",
+      "variables": {
+        "version": [
+          "api"
+        ]
+      }
     }
   ],
   "selectors": {
@@ -62,6 +71,18 @@
       "lvl0": {
         "selector": "",
         "default_value": "CircleCI Enterprise"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
       },
       "lvl1": "article h1",
       "lvl2": "article h2",
