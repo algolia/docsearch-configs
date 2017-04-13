@@ -43,8 +43,8 @@
     },
     "javadoc": {
       "lvl0": "h2.title",
-      "lvl1": "div.description div.block",
-      "text": "div.summary div.block"
+      "lvl1": "table.memberSummary td code",
+      "text": "div.description div.block, div.summary div.block, div.details div.block, div.details code"
     },
     "documentation": {
       "lvl0": "h2.sidebar-header",
