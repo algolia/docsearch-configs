@@ -1,0 +1,19 @@
+{
+  "index_name": "studynote",
+  "start_urls": [
+    "http://zixinhmc.oschina.io/studynote/#/"
+  ],
+  "stop_urls": [
+    "\\?id="
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "text": ".content p, .content li, .content pre"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "min_indexed_level": 1,
+  "use_anchors": true,
+  "nb_hits": 72
+}
