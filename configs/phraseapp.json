@@ -1,0 +1,25 @@
+{
+  "index_name": "phraseapp",
+  "start_urls": [
+    "https://phraseapp.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ol[contains(@class, 'breadcrumb')]/li[3]//span",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//ol[contains(@class, 'breadcrumb')]/li[4]//span",
+      "type": "xpath"
+    },
+    "lvl2": ".article h1",
+    "lvl3": ".article h2",
+    "lvl4": ".article h3",
+    "lvl5": ".article h4",
+    "lvl6": ".article h5",
+    "text": ".article p, .article li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 3148
+}
