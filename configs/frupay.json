@@ -1,0 +1,16 @@
+{
+  "index_name": "frupay",
+  "start_urls": [
+    "http://open.frupay.com/"
+  ],
+  "selectors": {
+    "lvl0": ".content h2",
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "nb_hits": 233,
+  "js_render": true
+}
+
