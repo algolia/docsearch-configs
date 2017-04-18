@@ -6,7 +6,8 @@
     "https://webpack.js.org/api/",
     "https://webpack.js.org/configuration/",
     "https://webpack.js.org/loaders/",
-    "https://webpack.js.org/plugins/"
+    "https://webpack.js.org/plugins/",
+    "https://webpack.js.org/development/"
   ],
   "js_render": true,
   "js_wait": 0,
@@ -25,5 +26,5 @@
     "text": ".page__content p"
   },
   "min_indexed_level": 1,
-  "nb_hits": 4979
+  "nb_hits": 8021
 }
