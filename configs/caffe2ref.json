@@ -2,20 +2,20 @@
   "index_name": "caffe2ref",
   "start_urls": [
     {
-      "url": "http://betadocs.caffe2.ai/docs",
+      "url": "http://caffe2.ai/docs",
       "selectors_key": "doc",
       "page_rank": 1
     },
     {
-      "url": "http://betadocs.caffe2.ai/doxygen-python/html",
+      "url": "http://caffe2.ai/doxygen-python/html",
       "selectors_key": "ref"
     },
     {
-      "url": "http://betadocs.caffe2.ai/doxygen-c/html",
+      "url": "http://caffe2.ai/doxygen-c/html",
       "selectors_key": "ref"
     },
-    "http://betadocs.caffe2.ai/docs/getting-started.html",
-    "http://betadocs.caffe2.ai/doxygen-python/html/annotated.html"
+    "http://caffe2.ai/docs/getting-started.html",
+    "http://caffe2.ai/doxygen-python/html/annotated.html"
   ],
   "stop_urls": [
     ".*^(?!.*html)",
