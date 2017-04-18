@@ -19,5 +19,6 @@
     "text": ".wrapper p"
   },
   "min_indexed_level": 2,
-  "nb_hits": 1511
+  "nb_hits": 1511,
+  "js_render": true
 }
