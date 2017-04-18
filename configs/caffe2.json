@@ -1,8 +1,8 @@
 {
   "index_name": "caffe2",
   "start_urls": [
-    "http://betadocs.caffe2.ai/docs/getting-started.html",
-    "http://betadocs.caffe2.ai/docs"
+    "http://caffe2.ai/docs/getting-started.html",
+    "http://caffe2.ai/docs"
   ],
   "stop_urls": [
     ".*^(?!.*html)"
