@@ -25,6 +25,13 @@
     "lvl5": ".page__content h5",
     "text": ".page__content p"
   },
+  "custom_settings": {
+    "synonyms":
+      [["caching", "revisioning", "versioning",
+        "hashing", "renaming", "revving",
+        "content addressable", "persistent caching",
+        "consistent file hashing"]]
+  },
   "min_indexed_level": 1,
   "nb_hits": 8021
 }
