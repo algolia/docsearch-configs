@@ -1,0 +1,23 @@
+{
+  "index_name": "payfort",
+  "start_urls": [
+    "https://docs.start.payfort.com/",
+    "http://docs.start.payfort.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'col-sidebar')]//*[contains(@class, 'list-group-item') and contains(@class, 'active')]/../preceding::*[contains(@class, 'panel-heading')]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".col-mainarea h1",
+    "lvl2": ".col-mainarea h2",
+    "lvl3": ".col-mainarea h3",
+    "lvl4": ".col-mainarea h4",
+    "lvl5": ".col-mainarea h5",
+    "text": ".col-mainarea p, .col-mainarea li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 642
+}
