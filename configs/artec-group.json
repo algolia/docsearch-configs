@@ -1,0 +1,45 @@
+{
+  "index_name": "artec-group",
+  "start_urls": [
+    {
+      "url": "http://docs.artec-group.com/as/12/(?P<language>.*?)/",
+      "variables": {
+        "language": [
+          "en",
+          "ru"
+        ]
+      }
+    }, {
+      "url": "http://docs.artec-group.com/as/11/(?P<language>.*?)/",
+      "variables": {
+        "language": [
+          "en",
+          "ru"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "http://docs.artec-group.com/as/12/en/$",
+    "http://docs.artec-group.com/as/12/ru/$",
+    "http://docs.artec-group.com/as/11/en/$",
+    "http://docs.artec-group.com/as/11/ru/$",
+    "genindex",
+    "index.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".document h1",
+    "lvl2": ".document h2",
+    "lvl3": ".document h3",
+    "lvl4": ".document h4",
+    "lvl5": ".document h5",
+    "text": ".document p, .document li"
+  },
+  "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "nb_hits": 4503
+}
