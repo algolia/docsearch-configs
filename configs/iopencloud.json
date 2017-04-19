@@ -1,0 +1,21 @@
+{
+  "index_name": "iopencloud",
+  "start_urls": [
+    "http://iopencloud.com/docs/",
+    "http://iopencloud.com/api/"
+  ],
+  "stop_urls": [
+    "http://iopencloud.com/docs/index.html",
+    "http://iopencloud.com/api/index.html"
+  ],
+  "selectors": {
+    "lvl0": ".article-header h1",
+    "lvl1": ".article-content h1",
+    "lvl2": ".article-content h2",
+    "lvl3": ".article-content h3",
+    "lvl4": ".article-content h4",
+    "text": ".article-content p"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 312
+}
