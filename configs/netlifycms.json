@@ -3,7 +3,9 @@
   "start_urls": [
     "https://www.netlifycms.org/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://www.netlifycms.org/docs/intro/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -16,5 +18,5 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "nb_hits": 212
+  "nb_hits": 223
 }
