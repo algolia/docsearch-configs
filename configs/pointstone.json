@@ -1,0 +1,17 @@
+{
+  "index_name": "pointstone",
+  "start_urls": [
+    "http://www.pointstone.com/support/faq/all/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": "#main-content h1",
+    "lvl1": "#main-content h2",
+    "lvl2": "#main-content h3",
+    "lvl3": "#main-content h4",
+    "lvl4": "#main-content h5",
+    "text": "#main-content p, #main-content li"
+  },
+  "nb_hits": 87
+}
