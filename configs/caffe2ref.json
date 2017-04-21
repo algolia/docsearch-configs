@@ -7,11 +7,24 @@
       "page_rank": 1
     },
     {
+      "url": "https://caffe2.ai/docs",
+      "selectors_key": "doc",
+      "page_rank": 1
+    },
+    {
       "url": "http://caffe2.ai/doxygen-python/html",
       "selectors_key": "ref"
     },
     {
+      "url": "https://caffe2.ai/doxygen-python/html",
+      "selectors_key": "ref"
+    },
+    {
       "url": "http://caffe2.ai/doxygen-c/html",
+      "selectors_key": "ref"
+    },
+    {
+      "url": "https://caffe2.ai/doxygen-c/html",
       "selectors_key": "ref"
     },
     "http://caffe2.ai/docs/getting-started.html",
@@ -65,5 +78,5 @@
     "doc": 1,
     "ref": 3
   },
-  "nb_hits": 10981
+  "nb_hits": 5908
 }
