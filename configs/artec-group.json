@@ -2,19 +2,15 @@
   "index_name": "artec-group",
   "start_urls": [
     {
-      "url": "http://docs.artec-group.com/as/12/(?P<language>.*?)/",
+      "url": "http://docs.artec-group.com/as/(?P<version>.*?)/(?P<language>.*?)/",
       "variables": {
         "language": [
           "en",
           "ru"
-        ]
-      }
-    }, {
-      "url": "http://docs.artec-group.com/as/11/(?P<language>.*?)/",
-      "variables": {
-        "language": [
-          "en",
-          "ru"
+        ],
+        "version": [
+          "11",
+          "12"
         ]
       }
     }
@@ -41,5 +37,5 @@
   },
   "min_indexed_level": 1,
   "scrap_start_urls": false,
-  "nb_hits": 4503
+  "nb_hits": 9161
 }
