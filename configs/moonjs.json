@@ -1,0 +1,21 @@
+{
+  "index_name": "moonjs",
+  "start_urls": [
+    "http://moonjs.ga/docs/installation.html",
+    "http://moonjs.ga/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post p, .post li"
+  },
+  "nb_hits": 145
+}
