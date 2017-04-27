@@ -12,10 +12,9 @@
     "lvl1": "#main h2",
     "lvl2": "#main h3",
     "lvl3": "#main h4",
-    "lvl4": ".tutorial-section",
-    "lvl5": "#main h1",
-    "lvl6": "#main h5",
+    "lvl4": "#main h1",
+    "lvl5": "#main h5",
     "text": "#main p, #main li"
   },
-  "nb_hits": 10009
+  "nb_hits": 11022
 }
