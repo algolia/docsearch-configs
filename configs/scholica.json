@@ -1,0 +1,20 @@
+{
+  "index_name": "scholica",
+  "start_urls": [
+    "https://platform.scholica.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "type": "xpath",
+      "selector": "//ul[contains(@class, 'article-breadcrumbs')]/li[contains(@class, 'articles-parent')][1]",
+      "default_value": "Documenation"
+    },
+    "lvl1": "#article-content-id h1",
+    "lvl2": "#article-content-id h2",
+    "lvl3": "#article-content-id h3",
+    "lvl4": "#article-content-id h4",
+    "text": "#article-content-id p, #article-content-id li"
+  },
+  "nb_hits": 3723
+}
