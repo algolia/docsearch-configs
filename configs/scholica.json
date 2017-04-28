@@ -8,7 +8,7 @@
     "lvl0": {
       "type": "xpath",
       "selector": "//ul[contains(@class, 'article-breadcrumbs')]/li[contains(@class, 'articles-parent')][1]",
-      "default_value": "Documenation"
+      "default_value": "Documentation"
     },
     "lvl1": "#article-content-id h1",
     "lvl2": "#article-content-id h2",
@@ -16,5 +16,6 @@
     "lvl4": "#article-content-id h4",
     "text": "#article-content-id p, #article-content-id li"
   },
-  "nb_hits": 3723
+  "min_indexed_level": 1,
+  "nb_hits": 3643
 }
