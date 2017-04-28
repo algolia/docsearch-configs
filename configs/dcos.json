@@ -1,10 +1,18 @@
 {
   "index_name": "dcos",
   "start_urls": [
-    "https://dcos.io/docs/1.8/"
+    {
+      "url": "https://dcos.io/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "1.8"
+        ]
+      }
+    }
   ],
   "stop_urls": [
-    "https://dcos.io/docs/1.8/$"
+    "https://dcos.io/docs/1.8/$",
+    "https://dcos.io/docs/1.9/$"
   ],
   "selectors": {
     "lvl0": ".docs-menu > li > .nav-wrapper > a.docs-nav__item__title.active",
@@ -18,5 +26,5 @@
   },
   "scrap_start_urls": false,
   "min_indexed_level": 1,
-  "nb_hits": 4334
+  "nb_hits": 5398
 }
