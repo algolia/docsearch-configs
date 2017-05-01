@@ -12,10 +12,10 @@
     },
     "lvl1": "#article-content-id h1",
     "lvl2": "#article-content-id h2",
-    "lvl3": "#article-content-id h3",
+    "lvl3": "#article-content-id h3 code strong",
     "lvl4": "#article-content-id h4",
     "text": "#article-content-id p, #article-content-id li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 3643
+  "nb_hits": 3588
 }
