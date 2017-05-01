@@ -1,7 +1,7 @@
 {
   "index_name": "ivy",
   "start_urls": [
-    "http://ivydocs.gomoment.com/site/"
+    "http://support.gomoment.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -17,5 +17,5 @@
     "text": ".section p"
   },
   "min_indexed_level": 2,
-  "nb_hits": 450
+  "nb_hits": 303
 }
