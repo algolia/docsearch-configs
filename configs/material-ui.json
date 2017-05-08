@@ -1,13 +1,6 @@
 {
   "index_name": "material-ui",
   "start_urls": [
-    "https://material-ui-1dab0.firebaseapp.com/getting-started",
-    "https://material-ui-1dab0.firebaseapp.com/customization",
-    "https://material-ui-1dab0.firebaseapp.com/style",
-    "https://material-ui-1dab0.firebaseapp.com/layout",
-    "https://material-ui-1dab0.firebaseapp.com/component-demos",
-    "https://material-ui-1dab0.firebaseapp.com/component-api",
-    "https://material-ui-1dab0.firebaseapp.com/discover-more",
     "https://material-ui-1dab0.firebaseapp.com/"
   ],
   "stop_urls": [],
@@ -46,6 +39,6 @@
   },
   "min_indexed_level": 1,
   "js_render": true,
-  "js_wait": 2,
-  "nb_hits": 92
+  "js_wait": 1,
+  "nb_hits": 730
 }
