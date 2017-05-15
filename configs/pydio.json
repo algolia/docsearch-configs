@@ -2,7 +2,7 @@
   "index_name": "pydio",
   "start_urls": [
     {
-      "url": "https://pydio.com/en/docs/v7-enterprise",
+      "url": "https://pydio.com/en/docs/v8",
       "tags": [
         "administration-guide"
       ],
