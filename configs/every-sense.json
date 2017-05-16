@@ -1,0 +1,33 @@
+{
+  "index_name": "every-sense",
+  "start_urls": [
+    {
+      "url": "http://dev.every-sense.com/#/lang/en/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "http://dev.every-sense.com/#/",
+      "tags": [
+        "ja"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "id="
+  ],
+  "selectors": {
+    "lvl0": ".header-nav .router-link-active",
+    "lvl1": ".markdown-body h1",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3",
+    "lvl4": ".markdown-body h4",
+    "lvl5": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "use_anchors": true,
+  "nb_hits": 627
+}
