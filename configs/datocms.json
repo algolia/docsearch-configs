@@ -1,0 +1,18 @@
+{
+  "index_name": "datocms",
+  "start_urls": [
+    "https://docs.datocms.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page__category",
+    "lvl1": ".page__title",
+    "lvl2": ".page__content h2",
+    "lvl3": ".page__content h3",
+    "lvl4": ".page__content h4",
+    "lvl5": ".page__content h5",
+    "text": ".page__content p, .page__content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 737
+}
