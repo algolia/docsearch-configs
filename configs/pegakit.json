@@ -1,7 +1,7 @@
 {
   "index_name": "pegakit",
   "start_urls": [
-    "https://pegasystems.github.io/pegakit/docs/"
+    "https://pegasystems.github.io/patternkit/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,5 +14,5 @@
     "lvl3": "article h5",
     "text": "article p, article li, article td"
   },
-  "nb_hits": 61
+  "nb_hits": 11
 }
