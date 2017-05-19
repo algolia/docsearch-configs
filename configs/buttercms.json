@@ -1,23 +1,34 @@
 {
   "index_name": "buttercms",
   "start_urls": [
-    "https://buttercms.com/docs/"
+    {
+      "url": "https://buttercms.com/docs/api-client/(?P<language>.*?)$",
+      "variables": {
+        "language": [
+          "ruby",
+          "rails",
+          "nodejs",
+          "javascript",
+          "react",
+          "python",
+          "django",
+          "php",
+          "laravel",
+          "dotnet",
+          "other"
+        ]
+      }
+    },
+    "https://buttercms.com/docs/api-client/php"
   ],
-  "stop_urls": [
-    "https://buttercms.com/docs/api/"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": "#main .container h2",
-    "lvl1": "#main .container h3",
-    "lvl2": "#main .container h4",
-    "lvl3": "#main .container h5",
-    "text": "#main .container p, .container li"
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
   },
-  "selectors_exclude": [
-    "#header",
-    ".sidebar-nav-container"
-  ],
-  "min_indexed_level": 2,
-  "nb_hits": 975,
-  "js_render": true
+  "nb_hits": 1339
 }
