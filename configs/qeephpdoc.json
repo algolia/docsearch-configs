@@ -1,0 +1,22 @@
+{
+  "index_name": "qeephpdoc",
+  "start_urls": [
+    "https://jacklucky.github.io/QeePHPDoc/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'sidebar-link') and contains(@class, 'current')]/preceding::strong[1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 945
+}
