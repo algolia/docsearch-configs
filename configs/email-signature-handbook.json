@@ -1,0 +1,21 @@
+{
+  "index_name": "email-signature-handbook",
+  "start_urls": [
+    "https://www.exclaimer.com/email-signature-handbook/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'resource-breadcrumb')]/li[2]",
+      "type": "xpath"
+    },
+    "lvl1": ".resource-area-content h1",
+    "lvl2": ".resource-area-content h2",
+    "lvl3": ".resource-area-content h3",
+    "lvl4": ".resource-area-content h4",
+    "lvl5": ".resource-area-content h5",
+    "text": ".resource-area-content p, .resource-area-content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 1829
+}
