@@ -1,0 +1,20 @@
+{
+  "index_name": "10xgenomics",
+  "start_urls": [
+    "https://support.10xgenomics.com/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Support"
+    },
+    "lvl1": ".ans-body h1",
+    "lvl2": ".ans-body h2",
+    "lvl3": ".ans-body h3",
+    "lvl4": ".ans-body h4",
+    "lvl5": ".ans-body h5",
+    "text": ".ans-body p, .ans-body li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 10605
+}
