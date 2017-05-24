@@ -1,0 +1,22 @@
+{
+  "index_name": "adhoc",
+  "start_urls": [
+    "https://www.adhoc.com.ar/doc/odoo-9-0-624",
+    "https://www.adhoc.com.ar/doc/624"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    "section.mt16"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h2, section h3",
+    "lvl2": "section h4",
+    "lvl3": "section h5",
+    "text": "section p, section li"
+  },
+  "nb_hits": 8141
+}
