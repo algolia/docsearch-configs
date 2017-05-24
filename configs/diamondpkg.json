@@ -1,0 +1,22 @@
+{
+  "index_name": "diamondpkg",
+  "start_urls": [
+    "https://diamondpkg.org/#/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p, section li"
+  },
+  "js_render": true,
+  "use_anchors": true,
+  "nb_hits": 241
+}
