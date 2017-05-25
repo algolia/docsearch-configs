@@ -3,7 +3,10 @@
   "start_urls": [
     "https://pantheon.io/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?text",
+    "/changelog/"
+  ],
   "selectors_exclude": [
     ".dropdown-menu"
   ],
@@ -12,14 +15,13 @@
       "selector": "",
       "default_value": "Documentation"
     },
-    "lvl1": "#doc h1",
-    "lvl2": "#doc h2",
-    "lvl3": "#doc h3",
-    "lvl4": "#doc h4",
-    "lvl5": "#doc h5",
-    "text": "#doc p, #doc li, #doc alert"
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li, .content alert"
   },
-  "js_render": true,
   "min_indexed_level": 2,
-  "nb_hits": 7123
+  "nb_hits": 11001
 }
