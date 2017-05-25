@@ -3,6 +3,9 @@
   "start_urls": [
     "https://support.10xgenomics.com/"
   ],
+  "stop_urls": [
+    "/[0-9]\\.[0-9]/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -16,5 +19,5 @@
     "text": ".ans-body p, .ans-body li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 10605
+  "nb_hits": 4953
 }
