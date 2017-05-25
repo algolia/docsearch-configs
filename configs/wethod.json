@@ -1,7 +1,7 @@
 {
   "index_name": "wethod",
   "start_urls": [
-    "https://wethod.github.io/"
+    "http://support.wethod.com/"
   ],
   "selectors": {
     "lvl0": ".article h1",
@@ -11,6 +11,5 @@
     "lvl4": ".article h5",
     "text": ".article p, .article li"
   },
-  "min_indexed_level": 2,
-  "nb_hits": 49
+  "nb_hits": 95
 }
