@@ -4,7 +4,9 @@
     "https://support.10xgenomics.com/"
   ],
   "stop_urls": [
-    "/[0-9]\\.[0-9]/"
+    "/[0-9]\\.[0-9]/",
+    "/\/permalink\//",       
+    "/\/index\/doc\//"
   ],
   "selectors": {
     "lvl0": {
