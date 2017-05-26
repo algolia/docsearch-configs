@@ -1,0 +1,19 @@
+{
+  "index_name": "featurescript",
+  "start_urls": [
+    "https://cad.onshape.com/FsDoc/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".fs-doc-body h1",
+    "lvl2": ".fs-doc-body h2",
+    "lvl3": ".fs-doc-body h3",
+    "lvl4": ".fs-doc-body h4",
+    "lvl5": ".fs-doc-body h5",
+    "text": ".fs-doc-body p, .fs-doc-body li"
+  },
+  "nb_hits": 4266
+}
