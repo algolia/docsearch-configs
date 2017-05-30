@@ -3,12 +3,14 @@
   "start_urls": [
     "https://www.stay22.com/embed"
   ],
+  "stop_urls": [
+    "gm?"
+  ],
   "selectors": {
     "lvl0": ".container > .inner h2",
     "lvl1": ".container > .inner h3",
     "lvl2": ".container > .inner h5",
     "text": ".container > .inner p"
   },
-  "min_indexed_level": 0,
-  "nb_hits": 73
+  "nb_hits": 81
 }
