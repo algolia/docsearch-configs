@@ -5,34 +5,22 @@
       "url": "https://docs.spatie.be/(?P<project>.*?)/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "v1",
+          "v2",
           "v3",
           "v4",
           "v5"
         ],
         "project": [
-          "laravel-medialibrary"
-        ]
-      }
-    },
-    {
-      "url": "https://docs.spatie.be/(?P<project>.*?)/v3",
-      "variables": {
-        "project": [
-          "laravel-backup"
-        ]
-      }
-    },
-    {
-      "url": "https://docs.spatie.be/(?P<project>.*?)/v1",
-      "variables": {
-        "project": [
+          "laravel-medialibrary",
           "menu",
           "laravel-activitylog",
           "laravel-slack-slash-command",
           "laravel-tags",
           "laravel-uptime-monitor",
           "image",
-          "laravel-server-monitor"
+          "laravel-server-monitor",
+          "laravel-backup"
         ]
       }
     }
@@ -53,5 +41,5 @@
     "lvl4": "article h5",
     "text": "article p"
   },
-  "nb_hits": 1552
+  "nb_hits": 1990
 }
