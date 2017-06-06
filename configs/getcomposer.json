@@ -13,5 +13,6 @@
     "text": "#main p, #main :not(.toc) li"
   },
   "scrap_start_urls": false,
-  "nb_hits": 1559
+  "min_indexed_level": 1,
+  "nb_hits": 1532
 }
