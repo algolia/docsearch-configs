@@ -5,7 +5,8 @@
       "url": "https://dcos.io/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "1.8"
+          "1.8",
+          "1.9"
         ]
       }
     }
@@ -26,5 +27,5 @@
   },
   "scrap_start_urls": false,
   "min_indexed_level": 1,
-  "nb_hits": 5398
+  "nb_hits": 12928
 }
