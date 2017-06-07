@@ -1,0 +1,20 @@
+{
+  "index_name": "zapier",
+  "start_urls": [
+    "https://zapier.com/developer/documentation/v2/"
+  ],
+  "stop_urls": [
+    "https://zapier.com/developer/documentation/v2/reference/"
+  ],
+  "selectors_exclude": [
+    ".rel"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "text": ".content p, .content li, .content blockquote"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 3185
+}
