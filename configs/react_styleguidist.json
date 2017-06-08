@@ -1,0 +1,35 @@
+{
+  "index_name": "react_styleguidist",
+  "start_urls": [
+    "https://react-styleguidist.js.org/docs/getting-started",
+    "https://react-styleguidist.js.org/docs/documenting",
+    "https://react-styleguidist.js.org/docs/components",
+    "https://react-styleguidist.js.org/docs/webpack",
+    "https://react-styleguidist.js.org/docs/cookbook",
+    "https://react-styleguidist.js.org/docs/configuration",
+    "https://react-styleguidist.js.org/docs/cli",
+    "https://react-styleguidist.js.org/docs/api",
+    "https://react-styleguidist.js.org/docs/development"
+  ],
+  "stop_urls": [
+    "https://react-styleguidist.js.org/docs/getting-started.html",
+    "https://react-styleguidist.js.org/docs/documenting.html",
+    "https://react-styleguidist.js.org/docs/components.html",
+    "https://react-styleguidist.js.org/docs/webpack.html",
+    "https://react-styleguidist.js.org/docs/cookbook.html",
+    "https://react-styleguidist.js.org/docs/configuration.html",
+    "https://react-styleguidist.js.org/docs/cli.html",
+    "https://react-styleguidist.js.org/docs/api.html",
+    "https://react-styleguidist.js.org/docs/development.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "main.Main--main h1",
+    "lvl2": ".Layout--column h2",
+    "text": ".Layout--column p"
+  },
+  "nb_hits": 261
+}
