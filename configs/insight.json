@@ -1,0 +1,22 @@
+{
+  "index_name": "insight",
+  "start_urls": [
+    "https://insight.sensiolabs.com/docs"
+  ],
+  "stop_urls": [
+    "/account/",
+    "/login$"
+  ],
+  "selectors": {
+    "lvl0": ".toctree-l1.active > a",
+    "lvl1": ".documentation__content h1",
+    "lvl2": ".documentation__content h2",
+    "lvl3": ".documentation__content h3",
+    "lvl4": ".documentation__content h4",
+    "lvl5": ".documentation__content h5",
+    "text": ".documentation__content p, .documentation__content li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "nb_hits": 1079
+}
