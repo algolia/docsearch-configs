@@ -1,0 +1,25 @@
+{
+  "index_name": "bandwidth",
+  "start_urls": [
+    "http://dev.bandwidth.com/"
+  ],
+  "stop_urls": [
+    "\\/node\\-",
+    "\\/python\\-",
+    "\\.htm$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'chapter active')]/preceding::*[contains(@class, 'header')][1]",
+      "type": "xpath"
+    },
+    "lvl1": ".chapter.active",
+    "lvl2": ".page-inner h2",
+    "lvl3": ".page-inner h3",
+    "lvl4": ".page-inner h4",
+    "lvl5": ".page-inner h5",
+    "text": ".page-inner p, .page-inner li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 1517
+}
