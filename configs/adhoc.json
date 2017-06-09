@@ -1,8 +1,30 @@
 {
   "index_name": "adhoc",
   "start_urls": [
-    "https://www.adhoc.com.ar/doc/odoo-9-0-624",
-    "https://www.adhoc.com.ar/doc/624"
+    {
+      "url": "https://www.adhoc.com.ar/doc/odoo-9-0-624",
+      "tags": [
+        "9.0"
+      ]
+    },
+    {
+      "url": "https://www.adhoc.com.ar/doc/624",
+      "tags": [
+        "9.0"
+      ]
+    },
+    {
+      "url": "https://www.adhoc.com.ar/doc/odoo-8-0-623",
+      "tags": [
+        "8.0"
+      ]
+    },
+    {
+      "url": "https://www.adhoc.com.ar/doc/623",
+      "tags": [
+        "8.0"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors_exclude": [
@@ -18,5 +40,6 @@
     "lvl3": "section h5",
     "text": "section p, section li"
   },
-  "nb_hits": 8141
+  "min_indexed_level": 1,
+  "nb_hits": 14425
 }
