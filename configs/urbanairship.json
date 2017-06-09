@@ -1,0 +1,16 @@
+{
+  "index_name": "urbanairship",
+  "start_urls": [
+    "https://docs.urbanairship.com"
+  ],
+  "stop_urls": [
+    "/reference/"
+  ],
+  "selectors": {
+    "lvl0": ".article__body h1",
+    "lvl1": ".article__body h2",
+    "lvl2": ".article__body h3",
+    "text": ".article__body p, .article__body li"
+  },
+  "nb_hits": 7061
+}
