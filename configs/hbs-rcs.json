@@ -12,5 +12,6 @@
     "text": ".content p, .content li"
   },
   "scrap_start_url": false,
+  "min_indexed_level": 1,
   "nb_hits": 226
 }
