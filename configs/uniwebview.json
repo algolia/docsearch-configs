@@ -1,7 +1,7 @@
 {
   "index_name": "uniwebview",
   "start_urls": [
-    "http://unidocs.onevcat.com/#/"
+    "http://docs.uniwebview.com/#/"
   ],
   "stop_urls": [
     "id="
@@ -9,13 +9,13 @@
   "selectors": {
     "lvl0": {
       "selector": "",
-      "default_value": "Documentation"
+      "default_value": "UniWebView - Docs"
     },
     "lvl1": "article h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
+    "lvl5": "article h5, .api-heading",
     "text": "article p, article li"
   },
   "js_render": true,
