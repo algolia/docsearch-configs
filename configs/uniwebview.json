@@ -4,7 +4,8 @@
     "http://docs.uniwebview.com/#/"
   ],
   "stop_urls": [
-    "id="
+    "id=",
+    "/archived/"
   ],
   "selectors": {
     "lvl0": {
