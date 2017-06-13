@@ -1,0 +1,17 @@
+{
+  "index_name": "kimoby",
+  "start_urls": [
+    "https://api-doc.kimoby.com/index.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-content .left-docs h3",
+    "lvl2": ".doc-content .left-docs p.description",
+    "text": ".doc-content .left-docs p, .doc-content .left-docs li"
+  },
+  "nb_hits": 139
+}
