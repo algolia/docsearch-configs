@@ -1,0 +1,27 @@
+{
+  "index_name": "onsen",
+  "start_urls": [
+    "https://onsen.io/v2/docs/",
+    "https://onsen.io/v2/docs/css.html",
+    "https://onsen.io/v2/docs/guide/js/",
+    "https://onsen.io/v2/docs/guide/angular1/",
+    "https://onsen.io/v2/docs/guide/angular2/",
+    "https://onsen.io/v2/docs/guide/react/",
+    "https://onsen.io/v2/docs/guide/vue/",
+    "https://onsen.io/v1/guide.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".toc-title, .breadcrumb a",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".container-content h2",
+    "lvl2": ".container-content h3",
+    "lvl3": ".container-content h4",
+    "lvl4": ".container-content h5",
+    "text": ".container-content p, .container-content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 9481
+}
