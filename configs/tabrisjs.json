@@ -1,7 +1,7 @@
 {
   "index_name": "tabrisjs",
   "start_urls": [
-    "https://tabrisjs.com/documentation/latest/"
+    "https://tabrisjs.com/tabris-js-docs/latest/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -12,5 +12,5 @@
     "lvl4": "#doc-body h5",
     "text": "#doc-body p, #doc-body li"
   },
-  "nb_hits": 1903
+  "nb_hits": 3878
 }
