@@ -1,15 +1,42 @@
 {
   "index_name": "react_styleguidist",
   "start_urls": [
-    "https://react-styleguidist.js.org/docs/getting-started",
-    "https://react-styleguidist.js.org/docs/documenting",
-    "https://react-styleguidist.js.org/docs/components",
-    "https://react-styleguidist.js.org/docs/webpack",
-    "https://react-styleguidist.js.org/docs/cookbook",
-    "https://react-styleguidist.js.org/docs/configuration",
-    "https://react-styleguidist.js.org/docs/cli",
-    "https://react-styleguidist.js.org/docs/api",
-    "https://react-styleguidist.js.org/docs/development"
+    {
+      "url": "https://react-styleguidist.js.org/docs/getting-started",
+      "selectors_key": "main"
+    },
+    {
+      "url": "https://react-styleguidist.js.org/docs/documenting",
+      "selectors_key": "main"
+    },
+    {
+      "url": "https://react-styleguidist.js.org/docs/components",
+      "selectors_key": "main"
+    },
+    {
+      "url": "https://react-styleguidist.js.org/docs/webpack",
+      "selectors_key": "main"
+    },
+    {
+      "url": "https://react-styleguidist.js.org/docs/cookbook",
+      "selectors_key": "main"
+    },
+    {
+      "url": "https://react-styleguidist.js.org/docs/cli",
+      "selectors_key": "main"
+    },
+    {
+      "url": "https://react-styleguidist.js.org/docs/api",
+      "selectors_key": "main"
+    },
+    {
+      "url": "https://react-styleguidist.js.org/docs/development",
+      "selectors_key": "main"
+    },
+    {
+      "url": "https://react-styleguidist.js.org/docs/configuration",
+      "selectors_key": "config"
+    }
   ],
   "stop_urls": [
     "https://react-styleguidist.js.org/docs/getting-started.html",
@@ -23,13 +50,24 @@
     "https://react-styleguidist.js.org/docs/development.html"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
+    "main": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": "main.Main--main h1",
+      "lvl2": ".Layout--column h2",
+      "text": ".Layout--column p"
     },
-    "lvl1": "main.Main--main h1",
-    "lvl2": ".Layout--column h2",
-    "text": ".Layout--column p"
+    "config": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": "main.Main--main h1",
+      "lvl2": ".Layout--column h4[id] a code",
+      "text": ".Layout--column p"
+    }
   },
-  "nb_hits": 261
+  "nb_hits": 294
 }
