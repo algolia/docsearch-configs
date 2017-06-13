@@ -1,0 +1,39 @@
+{
+  "index_name": "heroku",
+  "start_urls": [
+    "https://devcenter.heroku.com/categories/java",
+    "https://devcenter.heroku.com/categories/ruby",
+    "https://devcenter.heroku.com/categories/go",
+    "https://devcenter.heroku.com/categories/php",
+    "https://devcenter.heroku.com/categories/python",
+    "https://devcenter.heroku.com/categories/go",
+    "https://devcenter.heroku.com/categories/scala",
+    "https://devcenter.heroku.com/categories/clojure",
+    "https://devcenter.heroku.com/categories/nodejs",
+    "https://devcenter.heroku.com/categories/heroku-architecture",
+    "https://devcenter.heroku.com/categories/features",
+    "https://devcenter.heroku.com/categories/command-line",
+    "https://devcenter.heroku.com/categories/deployment",
+    "https://devcenter.heroku.com/categories/security",
+    "https://devcenter.heroku.com/categories/application-architecture",
+    "https://devcenter.heroku.com/categories/extending-heroku",
+    "https://devcenter.heroku.com/articles/nodejs-mongoose",
+    "https://devcenter.heroku.com/articles"
+  ],
+  "stops_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": ".page-subnav li a.active",
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "js_render": true,
+  "strict_redirects": true,
+  "min_indexed_level": 1,
+  "nb_hits": 39259
+}
