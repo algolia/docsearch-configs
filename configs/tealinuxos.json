@@ -1,7 +1,7 @@
 {
   "index_name": "tealinuxos",
   "start_urls": [
-    "http://tealinuxos.org/panduan/"
+    "https://tealinuxos.org/panduan/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -10,5 +10,5 @@
     "lvl2": ".content.panduan h3",
     "text": ".content.panduan p, .content.panduan li"
   },
-  "nb_hits": 434
+  "nb_hits": 436
 }
