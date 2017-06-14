@@ -1,0 +1,18 @@
+{
+  "index_name": "rasoftware",
+  "start_urls": [
+    "https://pruvodce.rasoftware.cz/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".nav-category li.active",
+    "lvl1": ".page-detail h1",
+    "lvl2": ".page-detail h2",
+    "lvl3": ".page-detail h3",
+    "lvl4": ".page-detail h4",
+    "lvl5": ".page-detail h5",
+    "text": ".page-detail p, .page-detail li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 301
+}
