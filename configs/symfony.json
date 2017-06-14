@@ -31,18 +31,18 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[@class=\"breadcrumb\"]/li[3]",
+      "selector": "//*[@class='breadcrumb']/li[3]",
       "type": "xpath"
     },
     "lvl1": {
-      "selector": "//*[@class=\"breadcrumb\"]/li[4]",
+      "selector": "//*[@class='breadcrumb']/li[4]",
       "type": "xpath"
     },
-    "lvl2": "#main h1",
-    "lvl3": "#main h2",
-    "lvl4": "#main h3",
-    "lvl5": "#main h4",
-    "text": "#main p"
+    "lvl2": "main h1",
+    "lvl3": "main h2",
+    "lvl4": "main h3",
+    "lvl5": "main h4",
+    "text": "main p"
   },
   "min_indexed_level": 2,
   "nb_hits": 175508
