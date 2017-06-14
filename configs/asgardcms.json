@@ -16,9 +16,10 @@
   ],
   "selectors": {
     "lvl0": "#sidebar-nav .current > a",
-    "lvl1": ".documentation h2",
-    "lvl2": ".documentation h3",
-    "lvl3": ".documentation h4",
+    "lvl2": ".documentation h1",
+    "lvl2": ".documentation h2",
+    "lvl3": ".documentation h3",
+    "lvl4": ".documentation h4",
     "text": ".documentation p"
   },
   "min_indexed_level": 1,
