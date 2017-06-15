@@ -49,6 +49,7 @@
       "url": "https://archive-(?P<version>.*?).lightningdesignsystem.com/",
       "variables": {
         "version": [
+          "2_2_2",
           "2_0_3",
           "1_0_5"
         ]
