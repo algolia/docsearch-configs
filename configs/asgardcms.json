@@ -16,12 +16,12 @@
   ],
   "selectors": {
     "lvl0": "#sidebar-nav .current > a",
-    "lvl2": ".documentation h1",
+    "lvl1": ".documentation h1",
     "lvl2": ".documentation h2",
     "lvl3": ".documentation h3",
     "lvl4": ".documentation h4",
     "text": ".documentation p"
   },
   "min_indexed_level": 1,
-  "nb_hits": 1435
+  "nb_hits": 1525
 }
