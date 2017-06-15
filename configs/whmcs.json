@@ -1,0 +1,20 @@
+{
+  "index_name": "whmcs",
+  "start_urls": [
+    "http://docs.whmcs.com"
+  ],
+  "stop_urls": [
+    "index.php",
+    "Changelog",
+    "Category"
+  ],
+  "selectors": {
+    "lvl0": "#mw_content h2",
+    "lvl1": "#mw_content h3",
+    "lvl2": "#mw_content h4",
+    "lvl3": "#mw_content h5",
+    "text": "#mw_content p, #mw_content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 12000
+}
