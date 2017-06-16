@@ -1,7 +1,7 @@
 {
   "index_name": "bucklescript",
   "start_urls": [
-    "http://bloomberg.github.io/bucklescript/Manual.html"
+    "http://bucklescript.github.io/bucklescript/Manual.html"
   ],
   "stop_urls": [],
   "selectors": {
