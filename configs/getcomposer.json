@@ -6,6 +6,9 @@
   "stop_urls": [
     "https://getcomposer.org/doc/$"
   ],
+  "selectors_exclude": [
+    ".anchor"
+  ],
   "selectors": {
     "lvl0": "#main h1",
     "lvl1": "#main h2",
@@ -14,5 +17,5 @@
   },
   "scrap_start_urls": false,
   "min_indexed_level": 1,
-  "nb_hits": 1532
+  "nb_hits": 1556
 }
