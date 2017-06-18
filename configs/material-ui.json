@@ -18,7 +18,8 @@
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class, 'MuiCollapse-entered')]/../button/*[contains(@class, 'MuiButton-label')]",
-      "type": "xpath"
+      "type": "xpath",
+      "global": true
     },
     "lvl1": {
       "selector": "//*[contains(@class, 'AppContent-content')]//h1",
