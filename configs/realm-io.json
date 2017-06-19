@@ -1,0 +1,28 @@
+{
+  "index_name": "realm-io",
+  "start_urls": [
+    "https://realm.io/docs/"
+  ],
+  "stop_urls": [
+    "api",
+    "objc/\\d",
+    "swift/\\d",
+    "java/\\d",
+    "xamarin/\\d",
+    "javascript/\\d",
+    "java/adapter"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs-body h2",
+    "lvl2": ".docs-body h3",
+    "lvl3": ".docs-body h4",
+    "lvl4": ".docs-body h5",
+    "text": ".docs-body p, .docs-body li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 4620
+}
