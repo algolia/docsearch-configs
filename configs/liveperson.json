@@ -1,0 +1,26 @@
+{
+  "index_name": "liveperson",
+  "start_urls": [
+    "https://developers.liveperson.com"
+  ],
+  "stop_urls": [
+    "assets"
+  ],
+  "selectors": {
+    "lvl0": {
+      "type": "xpath",
+      "selector": "//nav/a[@class='breadcrumb-item'][1]"
+    },
+    "lvl1": {
+      "type": "xpath",
+      "selector": "//nav/a[@class='breadcrumb-item'][2]"
+    },
+    "lvl2": ".sidebarTitle",
+    "lvl3": ".inside-page-content h2",
+    "lvl4": ".inside-page-content h3",
+    "lvl5": ".inside-page-content h4",
+    "text": ".inside-page-content p, .inside-page-content li"
+  },
+  "min_indexed_level": 3,
+  "nb_hits": 11580
+}
