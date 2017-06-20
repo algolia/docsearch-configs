@@ -1,0 +1,66 @@
+{
+  "index_name": "instantsearch.js-v2",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/instantsearch.js/v2/guides",
+      "selectors_key": "guide"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch.js/v2/instantsearch.html",
+      "selectors_key": "instantsearch"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch.js/v2/widgets",
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch.js/v2/connectors",
+      "selectors_key": "api"
+    },
+
+    {
+      "url": "https://community.algolia.com/instantsearch.js/v2/getting-started.html",
+      "selectors_key": "getting-started"
+    },
+    "https://community.algolia.com/instantsearch.js/v2/guides/usage.html",
+    "https://community.algolia.com/instantsearch.js/v2/widgets.html",
+    "https://community.algolia.com/instantsearch.js/v2/connectors.html"
+  ],
+  "stop_urls": [
+    "https://community.algolia.com/instantsearch.js/v2/examples.html"
+  ],
+  "selectors": {
+    "instantsearch": {
+      "lvl0": {"selector": "", "default_value": "instantsearch()"},
+      "lvl2": ".documentation-container > h2",
+      "lvl3": ".documentation-container > h3",
+      "lvl4": ".documentation-container > h4",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "guide": {
+      "lvl0": {"selector": "", "default_value": "Guides"},
+      "lvl0": ".documentation-container > h2",
+      "lvl1": ".documentation-container > h3",
+      "lvl2": ".documentation-container > h4",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "api": {
+      "lvl0": {"selector":"//h1/span[1]", "type": "xpath"},
+      "lvl1": {"selector":"//h1/span[2]", "type": "xpath"},
+      "lvl2": ".documentation-container > h2",
+      "lvl3": ".documentation-container > h3",
+      "lvl4": ".documentation-container > h4",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "getting-started": {
+      "lvl0": {"selector": "", "default_value": "Getting started"},
+      "lvl1": ".documentation-container > h2",
+      "lvl2": ".documentation-container > h3",
+      "lvl3": ".documentation-container > h4",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    }
+  },
+  "custom_settings": {},
+  "js_render": true,
+  "min_indexed_level": 1
+}
