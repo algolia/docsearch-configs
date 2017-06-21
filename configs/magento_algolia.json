@@ -3,8 +3,8 @@
   "start_urls": [
     {
       "url": "https://community.algolia.com/magento/doc/m1/",
-      "selectors_key": "docs_m1", 
-      "page_rank": 1, 
+      "selectors_key": "docs_m1",
+      "page_rank": 1,
       "tags": ["m1"]
     },
     {
@@ -61,5 +61,5 @@
       "text": ".faq p, .faq li"
     }
   },
-  "nb_hits": 444
+  "nb_hits": 901
 }
