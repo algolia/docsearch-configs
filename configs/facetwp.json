@@ -5,11 +5,10 @@
     "https://facetwp.com/blog/"
   ],
   "stop_urls": [
-    "https://facetwp.com/demos",
-    "https://facetwp.com/showcase",
+    "https://facetwp.com/demo/",
+    "https://facetwp.com/showcase/",
     "https://facetwp.com/add-ons/",
-    "https://facetwp.com/buy/",
-    "https://facetwp.com/blog/$"
+    "https://facetwp.com/buy/"
   ],
   "scrap_start_urls": false,
   "selectors_exclude": [
