@@ -12,7 +12,8 @@
   ],
   "scrap_start_urls": false,
   "selectors_exclude": [
-    ".colorbox"
+    ".colorbox",
+    ".commented"
   ],
   "selectors": {
     "lvl0": {
@@ -23,7 +24,6 @@
     "lvl2": ".content h2",
     "lvl3": ".content h3",
     "lvl4": ".content h4",
-    "lvl5": ".content h5",
     "text": ".content p, .content li"
   },
   "js_render": true,
