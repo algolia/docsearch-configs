@@ -1,0 +1,28 @@
+{
+  "index_name": "weex_io_cn",
+  "start_urls": [
+    {
+      "url": "https://weex-project.io/cn/guide/",
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://weex-project.io/cn/references/",
+      "tags": [
+        "references"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".article-entry h1",
+    "lvl1": ".article-entry h2",
+    "lvl2": ".article-entry h3",
+    "lvl3": ".article-entry h4",
+    "lvl4": ".article-entry h5",
+    "text": ".article-entry p, .article-entry li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 1974
+}
