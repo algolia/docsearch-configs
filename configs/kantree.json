@@ -1,0 +1,17 @@
+{
+  "index_name": "kantree",
+  "start_urls": [
+    "http://help.kantree.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#guide h1",
+    "lvl1": "#guide h2",
+    "lvl2": "#guide h3",
+    "lvl3": "#guide h4",
+    "lvl4": "#guide h5",
+    "text": "#guide p, #guide li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 1030
+}
