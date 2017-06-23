@@ -2,7 +2,8 @@
   "index_name": "facetwp",
   "start_urls": [
     "https://facetwp.com/documentation/",
-    "https://facetwp.com/blog/?fwp_per_page=1000"
+    "https://facetwp.com/blog/?fwp_per_page=1000",
+    "https://facetwp.com"
   ],
   "stop_urls": [
     "https://facetwp.com/demo/",
@@ -28,5 +29,5 @@
   },
   "js_render": true,
   "js_wait": 1,
-  "nb_hits": 1359
+  "nb_hits": 2334
 }
