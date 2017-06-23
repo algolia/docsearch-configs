@@ -2,7 +2,7 @@
   "index_name": "facetwp",
   "start_urls": [
     "https://facetwp.com/documentation/",
-    "https://facetwp.com/blog/?fwp_per_page=1000"
+    "https://facetwp.com/blog/\?fwp_per_page=1000"
   ],
   "stop_urls": [
     "https://facetwp.com/demo/",
