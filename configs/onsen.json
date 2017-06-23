@@ -1,14 +1,13 @@
 {
   "index_name": "onsen",
   "start_urls": [
-    "https://onsen.io/v2/docs/",
-    "https://onsen.io/v2/docs/css.html",
-    "https://onsen.io/v2/docs/guide/js/",
-    "https://onsen.io/v2/docs/guide/angular1/",
-    "https://onsen.io/v2/docs/guide/angular2/",
-    "https://onsen.io/v2/docs/guide/react/",
-    "https://onsen.io/v2/docs/guide/vue/",
-    "https://onsen.io/v1/guide.html"
+    "https://onsen.io/v2/api/css.html",
+    "https://onsen.io/v2/api/js/",
+    "https://onsen.io/v2/api/angular1/",
+    "https://onsen.io/v2/api/angular2/",
+    "https://onsen.io/v2/api/react/",
+    "https://onsen.io/v2/api/vue/",
+    "https://onsen.io/v1/reference/javascript.html"
   ],
   "stop_urls": [],
   "selectors": {
