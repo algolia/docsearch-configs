@@ -1,4 +1,4 @@
-  {
+{
   "index_name": "realm-io",
   "start_urls": [
     "https://realm.io/docs/"
@@ -14,8 +14,8 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
+      "selector": "a.doc-section-header.active",
+      "global": true
     },
     "lvl1": ".docs-body h2",
     "lvl2": ".docs-body h3",
@@ -24,5 +24,5 @@
     "text": ".docs-body p, .docs-body li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 4620
+  "nb_hits": 4820
 }
