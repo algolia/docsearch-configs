@@ -1,7 +1,7 @@
 {
   "index_name": "whmcs",
   "start_urls": [
-    "http://docs.whmcs.com"
+    "https://docs.whmcs.com"
   ],
   "stop_urls": [
     "index.php",
