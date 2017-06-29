@@ -1,0 +1,26 @@
+{
+  "index_name": "rundexter",
+  "start_urls": [
+    "http://docs.rundexter.com/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//a[@class='doc-item-active']/../../preceding::h3[1]/text()[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//a[@class='doc-item-active']/../../preceding::h4[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl2": ".main h1",
+    "lvl3": ".main h2",
+    "lvl4": ".main h4",
+    "text": ".main p, .main li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 837
+}
