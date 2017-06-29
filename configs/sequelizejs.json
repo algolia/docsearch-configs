@@ -7,12 +7,12 @@
     "lib"
   ],
   "selectors": {
-    "lvl0": ".content > div h1",
-    "lvl1": ".content > div h2",
-    "lvl2": ".content > div h3",
-    "lvl3": ".content > div h4",
-    "lvl4": ".content > div h5",
-    "text": ".content > div p, .content > div li"
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
   },
   "nb_hits": 2143
 }
