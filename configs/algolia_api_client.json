@@ -4,9 +4,6 @@
     "https://www.algolia.com/doc/api-client/",
     "https://www.algolia.com/doc/api-client/php"
   ],
-  "stop_urls": [
-    "/parameters"
-  ],
   "selectors_exclude": [
     ".btn",
     ".parameters-list p, .parameters-list li, .parameters-list h3, .parameters-list h4, .parameters-list h5",
@@ -17,12 +14,12 @@
     "#end-page-feedback"
   ],
   "selectors": {
-    "lvl0": ".ul-group.current .ul-group-name",
-    "lvl1": ".markdown-page h2",
-    "lvl2": ".markdown-page h3",
-    "lvl3": ".markdown-page h4",
-    "lvl4": ".markdown-page h5",
-    "text": ".markdown-page p, .markdown-page li"
+    "lvl0": ".content-inner h1",
+    "lvl1": ".content-inner h2",
+    "lvl2": ".content-inner h3",
+    "lvl3": ".content-inner h4",
+    "lvl4": ".content-inner h5",
+    "text": ".content-inner p, .content-inner li"
   },
   "min_indexed_level": 1,
   "keep_tags": [
@@ -68,5 +65,5 @@
       "asc(weight.position)"
     ]
   },
-  "nb_hits": 4016
+  "nb_hits": 4152
 }
