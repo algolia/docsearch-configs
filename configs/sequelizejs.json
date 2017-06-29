@@ -4,7 +4,11 @@
     "http://docs.sequelizejs.com/"
   ],
   "stop_urls": [
-    "lib"
+    "\\.\\."
+  ],
+  "selectors_exclude": [
+    ".manual-toc",
+    ".manual-cards"
   ],
   "selectors": {
     "lvl0": ".content > div h1",
@@ -14,5 +18,5 @@
     "lvl4": ".content > div h5",
     "text": ".content > div p, .content > div li"
   },
-  "nb_hits": 2143
+  "nb_hits": 2944
 }
