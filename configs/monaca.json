@@ -1,0 +1,22 @@
+{
+  "index_name": "monaca",
+  "start_urls": [
+    "https://docs.monaca.io/en/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'title_breadcrumb')]/a[last()]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article .section h1",
+    "lvl2": "article .section h2",
+    "lvl3": "article .section h3",
+    "lvl4": "article .section h4",
+    "lvl5": "article .section h5",
+    "text": "article .section p, article .section li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 13557
+}
