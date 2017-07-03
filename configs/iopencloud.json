@@ -1,12 +1,12 @@
 {
   "index_name": "iopencloud",
   "start_urls": [
-    "http://iopencloud.com/docs/",
-    "http://iopencloud.com/api/"
+    "http://antsir.me/docs/",
+    "http://antsir.me/api/"
   ],
   "stop_urls": [
-    "http://iopencloud.com/docs/index.html",
-    "http://iopencloud.com/api/index.html"
+    "http://antsir.me/docs/index.html",
+    "http://antsir.me/api/index.html"
   ],
   "selectors": {
     "lvl0": ".article-header h1",
@@ -17,5 +17,5 @@
     "text": ".article-content p"
   },
   "min_indexed_level": 1,
-  "nb_hits": 292
+  "nb_hits": 339
 }
