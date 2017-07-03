@@ -1,0 +1,23 @@
+{
+  "index_name": "howtographql",
+  "start_urls": [
+    "https://howtographql.netlify.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'sidebar')]//*[contains(@class, 'list-item') and contains(@class, 'active')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
+    "text": ".markdown p, .markdown li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "nb_hits": 1544
+}
