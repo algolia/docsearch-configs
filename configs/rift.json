@@ -1,0 +1,26 @@
+{
+  "index_name": "rift",
+  "start_urls": [
+    "https://open.riftio.com/documentation/riftware/4.4/Home.htm",
+    "https://open.riftio.com/documentation/riftware/4.4/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".sideContent"
+  ],
+  "selectors": {
+    "lvl0": ".MCBreadcrumbsSelf",
+    "lvl1": {
+      "selector": "//*[contains(@class, 'MCBreadcrumbsLink')][1]",
+      "type": "xpath"
+    },
+    "lvl2": "#contentBody h1",
+    "lvl3": "#contentBody h2",
+    "lvl4": "#contentBody h3",
+    "lvl5": "#contentBody h4",
+    "lvl6": "#contentBody h5",
+    "text": "#contentBody p, #contentBody li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 21375
+}
