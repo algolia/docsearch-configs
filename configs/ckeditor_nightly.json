@@ -1,0 +1,18 @@
+{
+  "index_name": "ckeditor_nightly",
+  "start_urls": [
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".top__menu__item--active",
+    "lvl1": ".main__content h1",
+    "lvl2": ".main__content h2",
+    "lvl3": ".main__content h3",
+    "lvl4": ".main__content h4",
+    "lvl5": ".main__content h5",
+    "text": ".main__content p, .main__content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 41743
+}
