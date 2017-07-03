@@ -1,0 +1,20 @@
+{
+  "index_name": "fortrabbit",
+  "start_urls": [
+    "https://help.fortrabbit.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//menu/*[contains(@class, 'active')]",
+      "type": "xpath"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "nb_hits": 3260
+}
