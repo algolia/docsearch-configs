@@ -1,0 +1,21 @@
+{
+  "index_name": "agora",
+  "start_urls": [
+    "https://docs.agora.io/cn/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".toctree-l1.current > a",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 14090
+}
