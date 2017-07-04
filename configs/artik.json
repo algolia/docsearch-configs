@@ -1,0 +1,22 @@
+{
+  "index_name": "artik",
+  "start_urls": [
+    "https://developer.artik.io/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'subsections')]//*[contains(@class, 'active')]/../../preceding::a[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".main-content-interior h1, .headertitle .title",
+    "lvl2": ".main-content-interior h2",
+    "lvl3": ".main-content-interior h3",
+    "lvl4": ".main-content-interior h4",
+    "lvl5": ".main-content-interior h5",
+    "text": ".main-content-interior p, .main-content-interior li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 8748
+}
