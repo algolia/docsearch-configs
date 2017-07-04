@@ -1,0 +1,17 @@
+{
+  "index_name": "bootstrap-v3",
+  "start_urls": [
+    "https://getbootstrap.com/",
+    "http://getbootstrap.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".bs-docs-header h1",
+    "lvl1": ".bs-docs-container h1",
+    "lvl2": ".bs-docs-container h2",
+    "lvl3": ".bs-docs-container h3",
+    "text": ".bs-docs-container p, .bs-docs-container li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 2673
+}
