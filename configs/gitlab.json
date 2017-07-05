@@ -2,13 +2,6 @@
   "index_name": "gitlab",
   "start_urls": [
     {
-      "url": "https://docs.gitlab.com/ce/",
-      "selectors_key": "ce",
-      "tags": [
-        "ce"
-      ]
-    },
-    {
       "url": "https://docs.gitlab.com/ee/",
       "selectors_key": "ee",
       "tags": [
@@ -32,7 +25,6 @@
   ],
   "scrap_start_urls": false,
   "stop_urls": [
-    "https://docs.gitlab.com/ce/$",
     "https://docs.gitlab.com/ee/$",
     "https://docs.gitlab.com/omnibus/$",
     "https://docs.gitlab.com/runner/$",
@@ -45,22 +37,10 @@
     "404 Not Found"
   ],
   "selectors": {
-    "ce": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "GitLab Community Edition (CE)"
-      },
-      "lvl1": ".main h1",
-      "lvl2": ".main h2",
-      "lvl3": ".main h3",
-      "lvl4": ".main h4",
-      "lvl5": ".main h5",
-      "text": ".main p, .main li"
-    },
     "ee": {
       "lvl0": {
         "selector": "",
-        "default_value": "GitLab Enterprise Edition (EE) and GitLab.com"
+        "default_value": "GitLab"
       },
       "lvl1": ".main h1",
       "lvl2": ".main h2",
