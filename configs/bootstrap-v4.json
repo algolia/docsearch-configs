@@ -1,13 +1,16 @@
 {
   "index_name": "bootstrap-v4",
   "start_urls": [
-    "https://getbootstrap.com/"
+    "https://v4-alpha.getbootstrap.com/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".bd-content h1",
-    "lvl1": ".bd-content h2",
-    "lvl2": ".bd-content h3",
+    "lvl0": ".bd-pageheader h1",
+    "lvl1": ".bd-content h1",
+    "lvl2": ".bd-content h2",
+    "lvl3": ".bd-content h3",
+    "lvl4": ".bd-content h4",
+    "lvl5": ".bd-content h5",
     "text": ".bd-content p, .bd-content li"
   },
   "min_indexed_level": 1,
