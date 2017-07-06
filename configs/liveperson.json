@@ -19,11 +19,11 @@
     "lvl3": ".inside-page-content h2",
     "lvl4": ".inside-page-content h3",
     "lvl5": ".inside-page-content h4",
-    "text": ".inside-page-content p, .inside-page-content li"
+    "text": ".inside-page-content p, .inside-page-content li, .inside-page-content td, .inside-page-content .nx"
   },
   "min_indexed_level": 3,
   "custom_settings": {
     "attributeForDistinct": "hierarchy.lvl1"
   },
-  "nb_hits": 11974
+  "nb_hits": 24185
 }
