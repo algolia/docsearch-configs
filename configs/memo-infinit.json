@@ -1,0 +1,22 @@
+{
+  "index_name": "memo-infinit",
+  "start_urls": [
+    "https://memo.infinit.sh/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#page-menu li.title a",
+    "lvl2": "section.doc h1",
+    "lvl3": "section.doc h2",
+    "lvl4": "section.doc h3",
+    "lvl5": "section.doc h4",
+    "text": "section.doc p, section.doc li"
+  },
+  "js_render": true, 
+  "min_indexed_level": 1,
+  "nb_hits": 411
+}
