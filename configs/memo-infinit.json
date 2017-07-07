@@ -16,7 +16,6 @@
     "lvl5": "section.doc h4",
     "text": "section.doc p, section.doc li"
   },
-  "js_render": true, 
-  "min_indexed_level": 1,
-  "nb_hits": 411
+  "min_indexed_level": 2,
+  "nb_hits": 406
 }
