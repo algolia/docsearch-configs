@@ -6,6 +6,24 @@
       "tags": [
         "en"
       ]
+    },
+    {
+      "url": "https://realm.io/kr/docs/",
+      "tags": [
+        "kr"
+      ]
+    },
+    {
+      "url": "https://realm.io/cn/docs/",
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://realm.io/jp/docs/",
+      "tags": [
+        "jp"
+      ]
     }
   ],
   "stop_urls": [
@@ -29,5 +47,5 @@
     "text": ".docs-body p, .docs-body li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 4820
+  "nb_hits": 19024
 }
