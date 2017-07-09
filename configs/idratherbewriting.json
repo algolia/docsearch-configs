@@ -1,0 +1,22 @@
+{
+  "index_name": "idratherbewriting",
+  "start_urls": [
+    "http://idratherbewriting.com/learnapidoc/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'docnav')]/li[contains(@class, 'open')]/a",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".main h1",
+    "lvl2": ".main h2",
+    "lvl3": ".main h3",
+    "lvl4": ".main h4",
+    "lvl5": ".main h5",
+    "text": ".main p, .main li"
+  },
+  "js_render": true,
+  "nb_hits": 5244
+}
