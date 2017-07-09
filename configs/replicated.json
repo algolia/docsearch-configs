@@ -1,0 +1,24 @@
+{
+  "index_name": "replicated",
+  "start_urls": [
+    "https://www.replicated.com/docs/"
+  ],
+  "stop_urls": [
+    "/edit$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'toc')]//a[contains(@class, 'active')]/../../preceding::a[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "nb_hits": 5929
+}
