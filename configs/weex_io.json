@@ -1,14 +1,14 @@
 {
-  "index_name": "weex",
+  "index_name": "weex_io",
   "start_urls": [
     {
-      "url": "https://weex.apache.org/guide/",
+      "url": "https://weex-project.io/guide/",
       "tags": [
         "guide"
       ]
     },
     {
-      "url": "https://weex.apache.org/references/",
+      "url": "https://weex-project.io/references/",
       "tags": [
         "references"
       ]
