@@ -1,7 +1,39 @@
 {
   "index_name": "haiku-os",
   "start_urls": [
-    "https://www.haiku-os.org"
+    {
+      "url": "https://www.haiku-os.org/docs/userguide/(?P<language>.*?)/",
+      "variables": {
+        "language": [
+          "en",
+          "ca",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "hu",
+          "pl",
+          "pt_PT",
+          "pt_BR",
+          "ro",
+          "sk",
+          "fi",
+          "sv_SE",
+          "zh_CN",
+          "ru",
+          "uk",
+          "jp"
+        ]
+      },
+      "selectors_key": "user_guide"
+    },
+    {
+      "url": "https://www.haiku-os.org",
+      "tags": [
+        "doc"
+      ],
+      "selectors_key": "default"
+    }
   ],
   "stop_urls": [
     "legacy-docs",
@@ -9,20 +41,39 @@
     "news",
     "api",
     "blog",
-    "articles"
+    "articles",
+    "wonderbrush",
+    "/$"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "//ol[@class='breadcrumb']/li[2]",
-      "type": "xpath"
+    "default": {
+      "lvl0": {
+        "selector": "//ol[@class='breadcrumb']/li[2]",
+        "type": "xpath"
+      },
+      "lvl1": "#content h1",
+      "lvl2": "#content h2",
+      "lvl3": "#content h3",
+      "lvl4": "#content h4",
+      "lvl5": "#content h5",
+      "text": "#content p, #content li"
     },
-    "lvl1": ".node h1",
-    "lvl2": ".node h2",
-    "lvl3": ".node h3",
-    "lvl4": ".node h4",
-    "lvl5": ".node h5",
-    "text": ".node p, .node li"
+    "user_guide": {
+      "lvl0": "#banner span",
+      "lvl1": {
+        "selector": "//*[@id='content']//h2[1]",
+        "type": "xpath"
+      },
+      "lvl2": {
+        "selector": "//*[@id='content']//h2[position()>1]",
+        "type": "xpath"
+      },
+      "lvl3": "#content h3",
+      "lvl4": "#content h4",
+      "lvl5": "#content h5",
+      "text": "#content p, #content li"
+    }
   },
   "min_indexed_level": 2,
-  "nb_hits": 12254
+  "nb_hits": 27690
 }
