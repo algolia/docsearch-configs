@@ -1,0 +1,20 @@
+{
+  "index_name": "outsystems",
+  "start_urls": [
+    "https://success.outsystems.com/"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": ".top-menu-item.active a",
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 70549
+}
