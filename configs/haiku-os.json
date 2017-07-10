@@ -51,12 +51,12 @@
         "selector": "//ol[@class='breadcrumb']/li[2]",
         "type": "xpath"
       },
-      "lvl1": "#content h1",
-      "lvl2": "#content h2",
-      "lvl3": "#content h3",
-      "lvl4": "#content h4",
-      "lvl5": "#content h5",
-      "text": "#content p, #content li"
+      "lvl1": ".node h1",
+      "lvl2": ".node h2",
+      "lvl3": ".node h3",
+      "lvl4": ".node h4",
+      "lvl5": ".node h5",
+      "text": ".node p, .node li"
     },
     "user_guide": {
       "lvl0": "#banner span",
