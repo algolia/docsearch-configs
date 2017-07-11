@@ -18,9 +18,7 @@
   "scrap_start_urls": false,
   "min_indexed_level": 1,
   "custom_settings": {
-    "separatorsToIndex": [
-      "^*~"
-    ]
+    "separatorsToIndex": "^*~"
   },
   "nb_hits": 1556
 }
