@@ -1,14 +1,14 @@
 {
-  "index_name": "weex",
+  "index_name": "weex_io_cn",
   "start_urls": [
     {
-      "url": "https://weex.apache.org/guide/",
+      "url": "https://weex-project.io/cn/guide/",
       "tags": [
         "guide"
       ]
     },
     {
-      "url": "https://weex.apache.org/references/",
+      "url": "https://weex-project.io/cn/references/",
       "tags": [
         "references"
       ]
@@ -23,5 +23,5 @@
     "text": ".article-entry p, .article-entry li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2117
+  "nb_hits": 2712
 }
