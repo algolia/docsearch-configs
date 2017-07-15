@@ -15,11 +15,11 @@
       "selectors_key": "guide"
     },
     {
-      "url": "https://emberjs.com/api-beta/ember/2.13.3/",
+      "url": "https://emberjs.com/api/ember/2.13/",
       "variables": {
         "version": {
-          "url": "https://emberjs.com/api-beta/ember/2.13.3/namespaces/Ember",
-          "js": "var shoeboxEmberVersions = JSON.parse(document.getElementById('shoebox-meta-store').text)['availableProjectVersions']['ember']; var groupedByMinor = shoeboxEmberVersions.reduce(function(previous, current) { var splitVersion = current.split('.'); var minorVersion = splitVersion[0]+'.'+splitVersion[1]; if(!previous[minorVersion]) { previous[minorVersion] = [splitVersion[2]]; } else { previous[minorVersion].push(splitVersion[2]); } return previous; },{}); var versions = Object.keys(groupedByMinor).map(function(minorVersion) { var maxPatch = Math.max.apply(null, groupedByMinor[minorVersion]); return minorVersion + '.' + maxPatch; }); return JSON.stringify(versions);"
+          "url": "https://emberjs.com/api/ember/2.13/namespaces/Ember",
+          "js": "var shoeboxEmberVersions = JSON.parse(document.getElementById('shoebox-meta-store').text)['availableProjectVersions']['ember']; var groupedByMinor = shoeboxEmberVersions.reduce(function(previous, current) { var splitVersion = current.split('.'); var minorVersion = splitVersion[0]+'.'+splitVersion[1]; if(!previous[minorVersion]) { previous[minorVersion] = [splitVersion[2]]; } else { previous[minorVersion].push(splitVersion[2]); } return previous; },{}); var versions = Object.keys(groupedByMinor); return JSON.stringify(versions);"
         }
       },
       "tags": [
