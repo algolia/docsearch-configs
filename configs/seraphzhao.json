@@ -1,0 +1,17 @@
+{
+  "index_name": "seraphzhao",
+  "start_urls": [
+    "https://seraphzhao.github.io/oasystem-userguider/#/language/chinese"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h2",
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 4953,
+  "js_render": true
+}
