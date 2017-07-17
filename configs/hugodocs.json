@@ -1,24 +1,33 @@
 {
   "index_name": "hugodocs",
   "start_urls": [
-    "https://gohugo.io/overview/introduction",
-    "https://gohugo.io/.*"
+    "https://gohugo.io/getting-started/",
+    "https://gohugo.io/"
   ],
   "stop_urls": [
-    "/$"
+    "https://gohugo.io/getting-started/$",
+    "https://gohugo.io/categories",
+    "https://gohugo.io/about",
+    "https://gohugo.io/news"
   ],
+  "scrap_start_urls": false,
   "selectors_exclude": [
-    ".footer-panel"
+    ".footer-panel",
+    "nav",
+    "categories"
   ],
   "selectors": {
-    "lvl0": ".wrapper h1",
-    "lvl1": ".wrapper h2",
-    "lvl2": ".wrapper h3",
-    "lvl3": ".wrapper h4",
-    "lvl4": ".wrapper h5",
-    "text": ".wrapper p"
+    "lvl0": {
+      "selector": "header a",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p"
   },
-  "min_indexed_level": 2,
-  "nb_hits": 1677,
-  "js_render": true
+  "min_indexed_level": 1,
+  "nb_hits": 3080
 }
