@@ -1,0 +1,18 @@
+{
+  "index_name": "plivo",
+  "start_urls": [
+    "https://www.plivo.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".nav-sub-nav .active",
+    "lvl1": ".container h1",
+    "lvl2": ".container h2",
+    "lvl3": ".container h3",
+    "lvl4": ".container h4",
+    "lvl5": ".container h5",
+    "text": ".container p, .container li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 15965
+}
