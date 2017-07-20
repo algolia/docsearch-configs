@@ -1,0 +1,17 @@
+{
+  "index_name": "meteomatics",
+  "start_urls": [
+    "http://api.meteomatics.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".side-body h1",
+    "lvl1": ".side-body h2",
+    "lvl2": ".side-body h3",
+    "lvl3": ".side-body h4",
+    "lvl4": ".side-body h5",
+    "text": ".side-body p, .side-body li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 726
+}
