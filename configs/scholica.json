@@ -1,7 +1,7 @@
 {
   "index_name": "scholica",
   "start_urls": [
-    "https://platform.scholica.com/"
+    "https://docs.includable.com/"
   ],
   "stop_urls": [],
   "selectors": {
