@@ -1,0 +1,21 @@
+{
+  "index_name": "improbable",
+  "start_urls": [
+    "https://docs.improbable.io/"
+  ],
+  "stop_urls": [
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#docPage h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#docPage h2",
+    "lvl2": "#docPage h3",
+    "lvl3": "#docPage h4",
+    "lvl4": "#docPage h5",
+    "text": "#docPage p, #docPage li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 8126
+}
