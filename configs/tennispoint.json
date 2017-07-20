@@ -1,0 +1,21 @@
+{
+  "index_name": "tennispoint",
+  "start_urls": [
+    "https://helpdesk.tennispoint.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='breadcrumb']/li[2]",
+      "type": "xpath"
+    },
+    "lvl1": ".kb-article h1",
+    "lvl2": ".kb-article h2",
+    "lvl3": ".kb-article h3",
+    "lvl4": ".kb-article h4",
+    "lvl5": ".kb-article h5",
+    "text": ".kb-article p, .kb-article li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 470
+}
