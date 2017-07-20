@@ -1,7 +1,7 @@
 {
   "index_name": "agora",
   "start_urls": [
-    "https://docs.agora.io/cn/"
+    "http://test-developer.agora.io/"
   ],
   "stop_urls": [],
   "selectors": {
