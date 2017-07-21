@@ -17,7 +17,7 @@
     "lvl3": ".span9 h3",
     "lvl4": ".span9 h4",
     "lvl5": ".span9 h5",
-    "text": ".span9 p, .span9 li"
+    "text": ".span9 p, .span9 li, .span9 td"
   },
   "min_indexed_lvl": 2, 
   "nb_hits": 8164
