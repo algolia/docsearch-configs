@@ -1,6 +1,14 @@
 {
   "index_name": "fortrabbit",
   "start_urls": [
+    {
+      "url": "https://help.fortrabbit.com/_WIP/install-craft-3-uni",
+      "page_rank": 2
+    },
+    {
+      "url": "https://help.fortrabbit.com/.*?-uni",
+      "page_rank": 1
+    },
     "https://help.fortrabbit.com/"
   ],
   "stop_urls": [],
@@ -16,5 +24,5 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "nb_hits": 3260
+  "nb_hits": 3270
 }
