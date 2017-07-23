@@ -1,18 +1,40 @@
 {
   "index_name": "greta",
   "start_urls": [
+    {
+      "url": "https://greta.io/.*?-insight",
+      "selectors_key": "insight"
+    },
     "https://greta.io/documentation.html",
     "https://greta.io/documentation"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".container h1",
-    "lvl1": ".container h2",
-    "lvl2": ".container h3",
-    "lvl3": ".container h4",
-    "lvl4": ".container h5",
-    "text": ".container p, .container li"
+    "insight": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Insight (with account)"
+      },
+      "lvl1": ".docs-content h1",
+      "lvl2": ".docs-content h2",
+      "lvl3": ".docs-content h3",
+      "lvl4": ".docs-content h4",
+      "lvl5": ".docs-content h5",
+      "text": ".docs-content p, .docs-content li"
+    },
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Headless"
+      },
+      "lvl1": ".docs-content h1",
+      "lvl2": ".docs-content h2",
+      "lvl3": ".docs-content h3",
+      "lvl4": ".docs-content h4",
+      "lvl5": ".docs-content h5",
+      "text": ".docs-content p, .docs-content li"
+    }
   },
-  "min_indexed_level": 2,
-  "nb_hits": 75
+  "min_indexed_level": 1,
+  "nb_hits": 110
 }
