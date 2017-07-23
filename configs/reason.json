@@ -1,7 +1,7 @@
 {
   "index_name": "reason",
   "start_urls": [
-    "http://facebook.github.io/reason/"
+    "https://reasonml.github.io/"
   ],
   "stop_urls": [
     "index.html"
@@ -19,5 +19,5 @@
     "text": ".content p, .content li"
   },
   "js_render": true,
-  "nb_hits": 419
+  "nb_hits": 217
 }
