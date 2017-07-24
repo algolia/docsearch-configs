@@ -1,0 +1,17 @@
+{
+  "index_name": "vue-instantsearch",
+  "start_urls": [
+    "https://community.algolia.com/vue-instantsearch"
+  ],
+  "stops_urls": [],
+  "selectors": {
+    "lvl0": ".content h2",
+    "lvl1": ".content p"
+  },
+  "selectors_exclude": [
+    ".anchor"
+  ],
+  "nb_hits": 258,
+  "js_render": true,
+  "js_wait": 1
+}
