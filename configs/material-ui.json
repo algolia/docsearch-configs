@@ -22,27 +22,27 @@
       "global": true
     },
     "lvl1": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//h1",
+      "selector": "//*[contains(@class, 'markdown-body')]//h1",
       "type": "xpath"
     },
     "lvl2": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//h2",
+      "selector": "//*[contains(@class, 'markdown-body')]//h2",
       "type": "xpath"
     },
     "lvl3": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//h3",
+      "selector": "//*[contains(@class, 'markdown-body')]//h3",
       "type": "xpath"
     },
     "lvl4": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//h4",
+      "selector": "//*[contains(@class, 'markdown-body')]//h4",
       "type": "xpath"
     },
     "lvl5": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//h5",
+      "selector": "//*[contains(@class, 'markdown-body')]//h5",
       "type": "xpath"
     },
     "text": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//p|//*[contains(@class, 'AppContent-content')]//li",
+      "selector": "//*[contains(@class, 'markdown-body')]//p|//*[contains(@class, 'markdown-body')]//li",
       "type": "xpath"
     }
   },
