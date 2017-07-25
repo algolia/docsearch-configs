@@ -5,26 +5,26 @@
       "url": "https://fblitho.com/docs",
       "selectors_key": "doc",
       "page_rank": 1
-    }
+    },
     {
       "url": "https://fblitho.com/javadoc/overview-summary.html",
-      "selectors_key": "api",
+      "selectors_key": "api"
     }
   ],
   "stop_urls": [],
   "selectors": {
-      "doc" : {
-        "lvl0": {
-          "selector": "//a[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
-          "type": "xpath"
-        },
-        "lvl1": ".post h1",
-        "lvl2": ".post h2",
-        "lvl3": ".post h3",
-        "lvl4": ".post h4",
-        "lvl5": ".post h5",
-        "text": ".post p, .post li"
-      }
+    "doc" : {
+      "lvl0": {
+        "selector": "//a[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
+        "type": "xpath"
+      },
+      "lvl1": ".post h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "lvl5": ".post h5",
+      "text": ".post p, .post li"
+
     },
     "api" : {
       "lvl0": ".header .subtitle",
@@ -35,7 +35,6 @@
       },
       "text": ".block"
     }
-  }
   },
   "min_indexed_level": 1,
   "js_render": true,
