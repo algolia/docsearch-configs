@@ -1,0 +1,20 @@
+{
+  "index_name": "puppet",
+  "start_urls": [
+    "https://docs.puppet.com/puppet/latest/",
+    "https://docs.puppet.com/facter/latest/",
+    "https://docs.puppet.com/puppetserver/latest/",
+    "https://docs.puppet.com/puppetdb/latest"
+  ],
+  "stop_urls": [
+    "https://docs.puppet.com/puppet/latest/yard"
+  ],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": "h3",
+    "text": "p, li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 114092
+}
