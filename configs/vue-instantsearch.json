@@ -6,7 +6,7 @@
   "stops_urls": [],
   "selectors": {
     "lvl0": ".content h2",
-    "lvl1": ".content p"
+    "text": ".content p"
   },
   "selectors_exclude": [
     ".anchor"
