@@ -1,7 +1,7 @@
 {
   "index_name": "deepstreamhub",
   "start_urls": [
-    "https://deepstreamhub.com/docs/"
+    "https://deepstreamhub.com/"
   ],
   "stop_urls": [],
   "selectors": {
