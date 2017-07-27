@@ -9,6 +9,10 @@
     {
       "url": "https://fblitho.com/javadoc/overview-summary.html",
       "selectors_key": "api"
+    },
+    {
+      "url": "https://fblitho.com/javadoc",
+      "selectors_key": "api"
     }
   ],
   "stop_urls": [],
@@ -27,7 +31,10 @@
 
     },
     "api" : {
-      "lvl0": ".header .subtitle",
+      "lvl0": {
+        "selector": ".header .subtitle",
+        "default": "API documentation"
+      },
       "lvl1": ".header h2",
       "lvl2": {
         "selector": "//*[@id='blockList']/li/ul/li/a",
