@@ -2,7 +2,7 @@
   "index_name": "glamorous",
   "start_urls": [
     {
-      "url": "https://(?P<language>.*?)rc.glamorous.rocks/",
+      "url": "https://(?P<language>.*?)glamorous.rocks/",
       "variables": {
         "language": [
           "",
