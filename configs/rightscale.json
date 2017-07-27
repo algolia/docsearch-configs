@@ -16,5 +16,8 @@
     "lvl5": ".main-content h5",
     "text": ".main-content p, .main-content li"
   },
-  "nb_hits": 46146
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 47741
 }
