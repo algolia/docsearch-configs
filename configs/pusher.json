@@ -1,0 +1,24 @@
+{
+  "index_name": "pusher",
+  "start_urls": [
+    "https://pusher.com/docs"
+  ],
+  "stop_urls": [
+    "https://pusher.com/.*?/$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".docs-sidebar__group.is-open .docs-sidebar__title",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "nb_hits": 3450
+}
