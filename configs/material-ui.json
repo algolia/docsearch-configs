@@ -17,7 +17,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'MuiCollapse-entered')]/../button/*[contains(@class, 'MuiButton-label')]",
+      "selector": "//*[contains(@class, 'algolia-lvl0')]",
       "type": "xpath",
       "global": true
     },
