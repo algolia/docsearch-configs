@@ -6,10 +6,10 @@
       "variables": {
         "language": [
           "",
-          "fr",
-          "es",
-          "de",
-          "zh"
+          "fr.",
+          "es.",
+          "de.",
+          "zh."
         ]
       }
     }
