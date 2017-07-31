@@ -2,14 +2,19 @@
   "index_name": "glamorous",
   "start_urls": [
     {
-      "url": "https://(?P<language>.*?)glamorous.rocks/",
+      "url": "https://glamorous.rocks/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://(?P<tags>.*?).glamorous.rocks/",
       "variables": {
-        "language": [
-          "",
-          "fr.",
-          "es.",
-          "de.",
-          "zh."
+        "tags": [
+          "fr",
+          "es",
+          "de",
+          "zh"
         ]
       }
     }
@@ -23,5 +28,5 @@
     "lvl4": "section h5",
     "text": "section p, section li"
   },
-  "nb_hits": 264
+  "nb_hits": 1115
 }
