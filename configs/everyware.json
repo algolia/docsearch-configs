@@ -1,0 +1,24 @@
+{
+  "index_name": "everyware",
+  "start_urls": [
+    "http://guides.everyware.ru/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'fa fa-caret-down')]/following::span[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".Article h1",
+    "lvl2": ".Article h2",
+    "lvl3": ".Article h3",
+    "lvl4": ".Article h4",
+    "lvl5": ".Article h5",
+    "text": ".Article p, .Article li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 1868
+}
