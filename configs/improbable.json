@@ -1,10 +1,25 @@
 {
   "index_name": "improbable",
   "start_urls": [
-    "https://docs.improbable.io/"
+    {
+      "url": "https://docs.improbable.io/reference/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "12.0",
+          "11.4",
+          "11.3",
+          "11.2",
+          "11.1",
+          "11.0",
+          "10.2",
+          "10.1",
+          "10.0",
+          "9.0"
+        ]
+      }
+    }
   ],
-  "stop_urls": [
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "#docPage h1",
@@ -20,5 +35,5 @@
   "custom_settings": {
     "separatorsToIndex": "#"
   },
-  "nb_hits": 8126
+  "nb_hits": 28432
 }
