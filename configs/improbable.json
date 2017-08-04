@@ -5,16 +5,16 @@
       "url": "https://docs.improbable.io/reference/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "12.0",
-          "11.4",
-          "11.3",
-          "11.2",
-          "11.1",
           "11.0",
+          "10.4",
+          "10.3",
           "10.2",
           "10.1",
           "10.0",
-          "9.0"
+          "9.2",
+          "9.1",
+          "9.0",
+          "8.0"
         ]
       }
     }
@@ -35,5 +35,5 @@
   "custom_settings": {
     "separatorsToIndex": "#"
   },
-  "nb_hits": 28432
+  "nb_hits": 55205
 }
