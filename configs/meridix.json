@@ -1,7 +1,7 @@
 {
   "index_name": "meridix",
   "start_urls": [
-    "http://www.meridix.com/support/"
+    "https://www.meridix.com/support/"
   ],
   "selectors": {
     "lvl0": {
