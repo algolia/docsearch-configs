@@ -31,7 +31,6 @@
     "lvl4": "#docPage h5",
     "text": "#docPage p, #docPage li"
   },
-  "min_indexed_level": 2,
   "custom_settings": {
     "separatorsToIndex": "#"
   },
