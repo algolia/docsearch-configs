@@ -45,9 +45,7 @@
       "unordered(hierarchy_camel.lvl1.formerly)",
       "unordered(hierarchy.lvl1.formerly)",
       "unordered(hierarchy_camel.lvl0)",
-      "unordered(hierarchy.lvl0)",
-      "unordered(hierarchy_camel.lvl1.description)",
-      "unordered(hierarchy.lvl1.description)"
+      "unordered(hierarchy.lvl0)"
     ],
     "attributesToRetrieve": [
       "hierarchy",
