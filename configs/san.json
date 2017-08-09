@@ -2,7 +2,9 @@
   "index_name": "san",
   "start_urls": [
     "https://ecomfe.github.io/san/tutorial/start/",
-    "https://ecomfe.github.io/san/tutorial/"
+    "https://ecomfe.github.io/san/tutorial/",
+    "https://ecomfe.github.io/san/doc/api/",
+    "https://ecomfe.github.io/san/doc/main-members/"
   ],
   "stop_urls": [],
   "selectors": {
