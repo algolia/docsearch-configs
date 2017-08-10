@@ -1,7 +1,7 @@
 {
   "index_name": "everyware",
   "start_urls": [
-    "http://guides.everyware.ru/"
+    "http://help.aprentis.ru/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -20,5 +20,5 @@
   "min_indexed_level": 1,
   "js_render": true,
   "js_wait": 1,
-  "nb_hits": 1868
+  "nb_hits": 1387
 }
