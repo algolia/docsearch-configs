@@ -1,12 +1,12 @@
 {
   "index_name": "typestyle",
   "start_urls": [
-    "http://typestyle.io/"
+    "https://typestyle.github.io/"
   ],
   "stop_urls": [
     "/play",
     "TODO",
-    "http://typestyle.io/#/.+?/.+?$"
+    "https://typestyle.github.io/#/.+?/.+?$"
   ],
   "selectors": {
     "lvl0": {
