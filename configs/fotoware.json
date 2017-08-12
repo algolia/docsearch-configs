@@ -1,0 +1,23 @@
+{
+  "index_name": "fotoware",
+  "start_urls": [
+    "https://learn.fotoware.com/"
+  ],
+  "stop_urls": [
+    "/Special"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'mt-breadcrumbs')]/li[2]",
+      "type": "xpath"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 3082
+}
