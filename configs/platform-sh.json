@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'chapter') and contains(@class, 'active')]/../li[1]",
+      "selector": "//*[contains(@class, 'chapter') and contains(@class, 'active')]/preceding::li[contains(@class, 'header')][1]",
       "type": "xpath"
     },
     "lvl1": ".markdown-section h1",
