@@ -15,8 +15,7 @@
     "do=recent",
     "do=index",
     "lib/exe",
-    "fetch.php",
-    "id=plugins"
+    "fetch.php"
   ],
   "selectors": {
     "lvl0": "#dokuwiki__content h1",
@@ -26,5 +25,5 @@
     "lvl4": "#dokuwiki__content h5",
     "text": "#dokuwiki__content p, #dokuwiki__content li"
   },
-  "nb_hits": 25873
+  "nb_hits": 26515
 }
