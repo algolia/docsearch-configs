@@ -1,9 +1,23 @@
 {
   "index_name": "fhug",
   "start_urls": [
-    "https://www.fhug.org.uk/wiki/doku.php.id=how_to"
+    "https://www.fhug.org.uk/wiki/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "do=search",
+    "do=showtag",
+    "do=revisions",
+    "do=backlink",
+    "do=login",
+    "do=media",
+    "do=export_code",
+    "do=&",
+    "do=recent",
+    "do=index",
+    "lib/exe",
+    "fetch.php",
+    "id=plugins"
+  ],
   "selectors": {
     "lvl0": "#dokuwiki__content h1",
     "lvl1": "#dokuwiki__content h2",
@@ -12,5 +26,5 @@
     "lvl4": "#dokuwiki__content h5",
     "text": "#dokuwiki__content p, #dokuwiki__content li"
   },
-  "nb_hits": 6395
+  "nb_hits": 25873
 }
