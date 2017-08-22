@@ -1,0 +1,16 @@
+{
+  "index_name": "bootstrap-v4",
+  "start_urls": [
+    "http://bootstrap.hexschool.com/docs/4.0/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".bd-toc-item.active > a",
+    "lvl1": ".bd-content h1",
+    "lvl2": ".bd-content h2",
+    "lvl3": ".bd-content h3",
+    "text": ".bd-content p, .bd-content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 2559
+}
