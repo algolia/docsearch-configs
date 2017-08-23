@@ -1,14 +1,14 @@
 {
   "index_name": "material-ui",
   "start_urls": [
-    "https://material-ui-1dab0.firebaseapp.com/getting-started",
-    "https://material-ui-1dab0.firebaseapp.com/customization",
-    "https://material-ui-1dab0.firebaseapp.com/style",
-    "https://material-ui-1dab0.firebaseapp.com/layout",
-    "https://material-ui-1dab0.firebaseapp.com/guides",
-    "https://material-ui-1dab0.firebaseapp.com/component-demos",
-    "https://material-ui-1dab0.firebaseapp.com/component-api",
-    "https://material-ui-1dab0.firebaseapp.com/discover-more",
+    "https://material-ui-1dab0.firebaseapp.com/getting-started/installation/",
+    "https://material-ui-1dab0.firebaseapp.com/customization/overrides/",
+    "https://material-ui-1dab0.firebaseapp.com/style/color/",
+    "https://material-ui-1dab0.firebaseapp.com/layout/basics/",
+    "https://material-ui-1dab0.firebaseapp.com/guides/composition/",
+    "https://material-ui-1dab0.firebaseapp.com/demos/app-bar/",
+    "https://material-ui-1dab0.firebaseapp.com/api/app-bar/",
+    "https://material-ui-1dab0.firebaseapp.com/discover-more/vision/",
     "https://material-ui-1dab0.firebaseapp.com/"
   ],
   "stop_urls": [],
