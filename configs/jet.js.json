@@ -1,0 +1,17 @@
+{
+  "index_name": "jet.js",
+  "start_urls": [
+    "https://jet.js.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "div.pure-max h1",
+    "lvl1": "div.pure-max h2",
+    "lvl2": "div.pure-max h3",
+    "lvl3": "div.pure-max h4",
+    "lvl4": "div.pure-max h5",
+    "text": "div.pure-max p, div.pure-max li"
+  },
+  "min_indexed_level": 3,
+  "nb_hits": 22
+}
