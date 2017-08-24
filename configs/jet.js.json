@@ -5,13 +5,12 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "div.pure-max h1",
-    "lvl1": "div.pure-max h2",
-    "lvl2": "div.pure-max h3",
-    "lvl3": "div.pure-max h4",
-    "lvl4": "div.pure-max h5",
-    "text": "div.pure-max p, div.pure-max li"
+    "lvl0": "main h1, .guide-c.markdown h1",
+    "lvl1": "main h2, .guide-c.markdown h2",
+    "lvl2": "main h3, .guide-c.markdown h3",
+    "lvl3": "main h4, .guide-c.markdown h4",
+    "lvl4": "main h5, .guide-c.markdown h5",
+    "text": "main p, .guide-c.markdown  p, main li, .guide-c.markdown li"
   },
-  "min_indexed_level": 3,
-  "nb_hits": 22
+  "nb_hits": 32
 }
