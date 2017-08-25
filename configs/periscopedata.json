@@ -1,9 +1,7 @@
 {
   "index_name": "periscopedata",
   "start_urls": [
-    "https://doc.periscopedata.com/doc/",
-    "https://doc.periscopedata.com/docv2/",
-    "https://doc.periscopedata.com/doc/connecting-to-periscope-menu"
+    "https://doc.periscopedata.com/"
   ],
   "stop_urls": [
     "\\.pub$",
