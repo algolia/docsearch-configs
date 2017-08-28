@@ -1,6 +1,7 @@
 {
   "index_name": "onsen",
   "start_urls": [
+    "https://onsen.io/v2/guide/",
     "https://onsen.io/v2/api/css.html",
     "https://onsen.io/v2/api/js/",
     "https://onsen.io/v2/api/angular1/",
@@ -13,7 +14,7 @@
   "selectors": {
     "lvl0": {
       "selector": ".toc-title, .breadcrumb a",
-      "default_value": "Documentation"
+      "default_value": "Guide"
     },
     "lvl1": ".container-content h2",
     "lvl2": ".container-content h3",
