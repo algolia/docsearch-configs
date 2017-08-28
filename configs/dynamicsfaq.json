@@ -1,0 +1,16 @@
+{
+  "index_name": "dynamicsfaq",
+  "start_urls": [
+    "https://www.dynamicsfaq.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".algolia__initial-content h1",
+    "lvl1": ".algolia__initial-content h2",
+    "lvl2": ".algolia__initial-content h3",
+    "lvl3": ".algolia__initial-content h4",
+    "lvl4": ".algolia__initial-content h5",
+    "text": ".algolia__initial-content p, .algolia__initial-content li"
+  },
+  "nb_hits": 270
+}
