@@ -1,0 +1,19 @@
+{
+  "index_name": "vuetifyjs",
+  "start_urls": [
+    "https://vuetifyjs.com/vuetify/quick-start",
+    "https://vuetifyjs.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#main-toolbar .toolbar__title",
+    "lvl1": ".view h2",
+    "lvl2": ".view h3",
+    "lvl3": ".view h4",
+    "lvl4": ".view h5",
+    "text": ".view p, .view li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 2099
+}
