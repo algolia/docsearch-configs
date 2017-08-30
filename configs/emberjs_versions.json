@@ -1,5 +1,5 @@
 {
-  "index_name": "emberjs_versions_new",
+  "index_name": "emberjs_versions",
   "start_urls": [
     {
       "url": "https://guides.emberjs.com/(?P<version>.*?)/",
