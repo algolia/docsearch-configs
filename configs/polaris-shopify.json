@@ -1,0 +1,18 @@
+{
+  "index_name": "polaris-shopify",
+  "start_urls": [
+    "https://polaris.shopify.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#PageNavInterior ._1itcN",
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 4454
+}
