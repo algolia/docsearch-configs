@@ -6,13 +6,14 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": "#PageNavInterior ._1itcN",
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
+      "lvl1": "._3VyD7._2wvgA > a",
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "lvl6": "article h5",
     "text": "article p, article li"
   },
-  "min_indexed_level": 1,
+  "min_indexed_level": 2,
   "nb_hits": 4454
 }
