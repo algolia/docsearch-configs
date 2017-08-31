@@ -1,0 +1,20 @@
+{
+  "index_name": "coala-api",
+  "start_urls": [
+    "http://api.coala.io/en/latest/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "API Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "nb_hits": 3659
+}
