@@ -1,0 +1,19 @@
+{
+  "index_name": "vnpayment",
+  "start_urls": [
+    "http://sandbox.vnpayment.vn/apis/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "main h1",
+      "default_value": "VNPAY"
+    },
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "text": "main p, main li"
+  },
+  "nb_hits": 230
+}
