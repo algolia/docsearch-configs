@@ -1,0 +1,39 @@
+{
+  "index_name": "phpgrid",
+  "start_urls": [
+    {
+      "url": "https://phpgrid.com/documentation/",
+      "selectors_key": "doc"
+    },
+    {
+      "url": "https://phpgrid.com/example/",
+      "selectors_key": "demo"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "doc": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".page-content h2, .page-content .posts-by-tag-item-title",
+      "lvl2": ".page-content h3",
+      "lvl3": ".page-content h4",
+      "lvl4": ".page-content h5",
+      "text": ".page-content p, .page-content li"
+    },
+    "demo": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Demos & Tutorial"
+      },
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li"
+    }
+  },
+  "nb_hits": 11751
+}
