@@ -1,7 +1,7 @@
 {
   "index_name": "drone_io",
   "start_urls": [
-    "http://docs.drone.io/"
+    "http://docs.drone.io/sitemap/"
   ],
   "stop_urls": [
     "/tags/",
