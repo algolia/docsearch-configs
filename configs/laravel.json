@@ -1,9 +1,17 @@
 {
   "index_name": "laravel",
   "start_urls": [
-    "https://laravel.com/docs/master"
+    {
+      "url": "https://laravel.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "master",
+          "5.5",
+          "5.3"
+        ]
+      }
+    }
   ],
-  "stop_urls": [],
   "selectors_exclude": [
     "article ul:first-child"
   ],
@@ -21,5 +29,5 @@
   },
   "min_indexed_level": 1,
   "js_render": true,
-  "nb_hits": 6195
+  "nb_hits": 18467
 }
