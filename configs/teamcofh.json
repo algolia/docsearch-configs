@@ -5,13 +5,11 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".uk-container h1",
-    "lvl1": ".uk-container h2",
-    "lvl2": ".uk-container h3",
-    "lvl3": ".uk-container h4",
-    "lvl4": ".uk-container h5",
-    "text": ".uk-container p, .uk-container li"
+    "lvl0": "#cofh-docs-content h1",
+    "lvl1": "#cofh-docs-content h2",
+    "lvl2": "#cofh-docs-content h3",
+    "text": "#cofh-docs-content p, #cofh-docs-content li"
   },
-  "min_indexed_level": 1,
+  "min_indexed_level": 0,
   "nb_hits": 4644
 }
