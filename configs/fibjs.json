@@ -2,7 +2,8 @@
   "index_name": "fibjs",
   "start_urls": [
     "http://fibjs.org/docs/guide/readme.md.html",
-    "http://fibjs.org/docs/guide"
+    "http://fibjs.org/docs/manual/module/readme.md.html",
+    "http://fibjs.org/docs/manual/object/readme.md.html"
   ],
   "stop_urls": [],
   "selectors": {
