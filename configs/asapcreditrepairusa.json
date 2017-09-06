@@ -1,0 +1,18 @@
+{
+  "index_name": "asapcreditrepairusa",
+  "start_urls": [
+    "http://www.asapcreditrepairusa.com/GlossaryofTermswithAssociatedQuestionsAnswers.html",
+    "http://www.asapcreditrepairusa.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "body h1",
+    "lvl1": "body h2",
+    "lvl2": "body h3",
+    "lvl3": "body h4",
+    "lvl4": "body h5",
+    "text": "body p, body li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 855
+}

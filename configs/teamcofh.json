@@ -1,0 +1,17 @@
+{
+  "index_name": "teamcofh",
+  "start_urls": [
+    "http://teamcofh.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".uk-container h1",
+    "lvl1": ".uk-container h2",
+    "lvl2": ".uk-container h3",
+    "lvl3": ".uk-container h4",
+    "lvl4": ".uk-container h5",
+    "text": ".uk-container p, .uk-container li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 4644
+}
