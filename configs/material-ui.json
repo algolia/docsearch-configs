@@ -17,7 +17,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'algolia-lvl0')]",
+      "selector": ".algolia-drawer .algolia-lvl0",
       "type": "xpath",
       "global": true
     },
