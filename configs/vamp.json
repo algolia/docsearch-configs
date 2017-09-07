@@ -1,7 +1,7 @@
 {
   "index_name": "vamp",
   "start_urls": [
-    "http://vamp.io/documentation/"
+    "https://vamp.io/documentation/"
   ],
   "stop_urls": [
     "0.9.[^5]"
@@ -16,5 +16,5 @@
     "text": ".markdowned p, .markdowned li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2640
+  "nb_hits": 2771
 }
