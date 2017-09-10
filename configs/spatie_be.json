@@ -9,7 +9,8 @@
           "v2",
           "v3",
           "v4",
-          "v5"
+          "v5",
+          "v6"
         ],
         "project": [
           "laravel-medialibrary",
@@ -41,5 +42,5 @@
     "lvl4": "article h5",
     "text": "article p"
   },
-  "nb_hits": 1990
+  "nb_hits": 2564
 }
