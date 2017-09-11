@@ -18,7 +18,6 @@
   "selectors": {
     "lvl0": {
       "selector": ".algolia-drawer .algolia-lvl0",
-      "type": "xpath",
       "global": true
     },
     "lvl1": {
