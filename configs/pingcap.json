@@ -1,12 +1,12 @@
 {
-  "index_name": "fibjs",
+  "index_name": "pingcap",
   "start_urls": [
-    "http://fibjs.org/docs/",
-    "http://fibjs.org/docs/guide/readme.md.html",
-    "http://fibjs.org/docs/manual/module/",
-    "http://fibjs.org/docs/manual/object/readme.md.html"
+    "https://pingcap.com/docs",
+    "https://pingcap.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "^((?!https://pingcap.com/doc).)*$"
+  ],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
@@ -16,5 +16,5 @@
     "text": ".content p, .content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 12875
+  "nb_hits": 3830
 }
