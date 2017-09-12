@@ -89,10 +89,11 @@
     "http://doc.nuxeo.com/nuxeo-release-cycle"
   ],
   "stop_urls": [
-    "\/label\/?$",
-    "\/label\/.+",
-    "\/blog\/?$",
-    "\/blog\/.+"
+    "/label/?$",
+    "/label/.+",
+    "/blog/?$",
+    "/blog/.+",
+    "site/distribution"
   ],
   "selectors": {
     "lvl0": {
@@ -110,5 +111,5 @@
     "text": "#content p, #content li, #content pre, #content table"
   },
   "min_indexed_level": 2,
-  "nb_hits": 132764
+  "nb_hits": 134292
 }
