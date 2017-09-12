@@ -1,0 +1,18 @@
+{
+  "index_name": "advancedinstaller",
+  "start_urls": [
+    "http://www.advancedinstaller.com/user-guide/",
+    "http://www.advancedinstaller.com/user-guide/introduction.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#pagehead h1",
+    "lvl1": ".page-content-inner h2",
+    "lvl2": ".page-content-inner h3",
+    "lvl3": ".page-content-inner h4",
+    "lvl4": ".page-content-inner h5",
+    "text": ".page-content-inner p, .page-content-inner li"
+  },
+    "min_indexed_level": 1,
+  "nb_hits": 22150
+}
