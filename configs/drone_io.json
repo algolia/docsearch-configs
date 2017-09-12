@@ -1,27 +1,24 @@
 {
   "index_name": "drone_io",
   "start_urls": [
-    "http://readme.drone.io/"
+    "http://docs.drone.io/sitemap/"
   ],
   "stop_urls": [
     "/tags/",
-    "http://readme.drone.io/fr/",
-    "http://readme.drone.io/en/",
-    "http://readme.drone.io/es/",
-    "http://readme.drone.io/pt/",
-    "http://readme.drone.io/zh-cn",
-    "http://readme.drone.io/zh-tw/",
-    "http://readme.drone.io/ja/",
-    "http://readme.drone.io/ru/",
-    "http://readme.drone.io/hu/"
+    "http://docs.drone.io/fr/",
+    "http://docs.drone.io/en/",
+    "http://docs.drone.io/es/",
+    "http://docs.drone.io/pt/",
+    "http://docs.drone.io/zh-cn",
+    "http://docs.drone.io/zh-tw/",
+    "http://docs.drone.io/ja/",
+    "http://docs.drone.io/ru/",
+    "http://docs.drone.io/hu/"
   ],
   "selectors": {
-    "lvl0": "header nav a.selected",
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
+    "lvl0": "body > ul > li > span",
+    "lvl1": "body > ul > li > ul > li > span",
+    "lvl2": "body > ul > li > ul > li > ul > li > a",
     "text": "main p, main li"
   },
   "min_indexed_level": 1,
