@@ -1,0 +1,16 @@
+{
+  "index_name": "amphp",
+  "start_urls": [
+    "https://amphp.org/amp/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content-main h1",
+    "lvl1": ".content-main h2",
+    "lvl2": ".content-main h3",
+    "lvl3": ".content-main h4",
+    "lvl4": ".content-main h5",
+    "text": ".content-main p, .content-main li"
+  },
+  "nb_hits": 239
+}
