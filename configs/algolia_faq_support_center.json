@@ -1,0 +1,64 @@
+{
+  "index_name": "algolia_faq_support_center",
+  "start_urls": [
+    "https://www.algolia.com/doc/faq/"
+  ],
+  "scrap_start_urls": false,
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".btn",
+    "#parameters-list",
+    ".next-previous-links",
+    "section .nav-tabs",
+    "#end-page-feedback"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'faq-section-title')]/a[2]",
+      "type": "xpath"
+    },
+    "lvl1": ".faq-section-content h1",
+    "lvl2": ".faq-section-content h3",
+    "lvl3": ".faq-section-content h4",
+    "lvl4": ".faq-section-content h5",
+    "text": ".faq-section-content p, .faq-section-content li"
+  },
+  "min_indexed_level": 1,
+  "keep_tags": [
+    "code"
+  ],
+  "custom_settings": {
+    "attributeForDistinct": "hierarchy.lvl1",
+    "ignorePlurals": false,
+    "attributesToIndex": [
+      "unordered(hierarchy_camel.lvl1)",
+      "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy_camel.lvl2)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy_camel.lvl3)",
+      "unordered(hierarchy.lvl3)",
+      "unordered(hierarchy_camel.lvl4)",
+      "unordered(hierarchy.lvl4)",
+      "unordered(hierarchy_camel.lvl5)",
+      "unordered(hierarchy.lvl5)",
+      "unordered(hierarchy_camel.lvl0)",
+      "unordered(hierarchy.lvl0)",
+      "content"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "hierarchy_camel",
+      "content",
+      "type",
+      "anchor",
+      "url"
+    ],
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "desc(popularity)",
+      "desc(weight.level)",
+      "asc(weight.position)"
+    ]
+  },
+  "nb_hits": 506
+}
