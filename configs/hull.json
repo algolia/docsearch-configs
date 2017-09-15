@@ -1,0 +1,17 @@
+{
+  "index_name": "hull",
+  "start_urls": [
+    "https://www.hull.io/help/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".header__title",
+    "lvl1": ".content--help-post h1",
+    "lvl2": ".content--help-post h2",
+    "lvl3": ".content--help-post h3",
+    "lvl4": ".content--help-post h4",
+    "text": ".content--help-post p, .content--help-post li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 681
+}
