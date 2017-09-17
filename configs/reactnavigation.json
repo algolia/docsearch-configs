@@ -1,0 +1,24 @@
+{
+  "index_name": "reactnavigation",
+  "start_urls": [
+    "https://reactnavigation.org/docs/"
+  ],
+  "stop_urls": [
+    "md",
+    "/$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".left-sidebar .active h6",
+      "global": true
+    },
+    "lvl1": ".md-section h1",
+    "lvl2": ".md-section h2",
+    "lvl3": ".md-section h3",
+    "lvl4": ".md-section h4",
+    "text": ".md-section p, .md-section li"
+  },
+  "min_indexed_level": 5,
+  "strip_chars": "#",
+  "nb_hits": 377
+}
