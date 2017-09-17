@@ -20,5 +20,6 @@
   },
   "min_indexed_level": 5,
   "strip_chars": "#",
-  "nb_hits": 377
+  "scrap_start_urls": false,
+  "nb_hits": 360
 }

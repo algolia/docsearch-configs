@@ -3,7 +3,9 @@
   "start_urls": [
     "https://infection.github.io/guide/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "index.html$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -16,5 +18,6 @@
     "lvl5": ".content h5",
     "text": ".content p, .content li"
   },
-  "nb_hits": 111
+  "use_anchors": true,
+  "nb_hits": 190
 }
