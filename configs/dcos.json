@@ -6,14 +6,16 @@
       "variables": {
         "version": [
           "1.8",
-          "1.9"
+          "1.9",
+          "1.10"
         ]
       }
     }
   ],
   "stop_urls": [
     "https://dcos.io/docs/1.8/$",
-    "https://dcos.io/docs/1.9/$"
+    "https://dcos.io/docs/1.9/$",
+    "https://dcos.io/docs/1.10/$"
   ],
   "selectors": {
     "lvl0": ".docs-menu > li > .nav-wrapper > a.docs-nav__item__title.active",
