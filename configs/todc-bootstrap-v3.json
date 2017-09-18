@@ -1,6 +1,7 @@
 {
-  "index_name": "todc-bootstrap",
+  "index_name": "todc-bootstrap-v3",
   "start_urls": [
+    "https://todc.github.io/todc-bootstrap/",
     "http://todc.github.io/todc-bootstrap/"
   ],
   "stop_urls": [],
@@ -12,5 +13,6 @@
     "lvl4": ".bs-docs-container h4",
     "text": ".bs-docs-container p, .bs-docs-container li"
   },
+  "min_indexed_level": 1,
   "nb_hits": 3007
 }
