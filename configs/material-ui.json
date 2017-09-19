@@ -1,14 +1,14 @@
 {
   "index_name": "material-ui",
   "start_urls": [
-    "https://material-ui-1dab0.firebaseapp.com/getting-started",
-    "https://material-ui-1dab0.firebaseapp.com/customization",
-    "https://material-ui-1dab0.firebaseapp.com/style",
-    "https://material-ui-1dab0.firebaseapp.com/layout",
-    "https://material-ui-1dab0.firebaseapp.com/guides",
-    "https://material-ui-1dab0.firebaseapp.com/component-demos",
-    "https://material-ui-1dab0.firebaseapp.com/component-api",
-    "https://material-ui-1dab0.firebaseapp.com/discover-more",
+    "https://material-ui-1dab0.firebaseapp.com/getting-started/installation/",
+    "https://material-ui-1dab0.firebaseapp.com/customization/overrides/",
+    "https://material-ui-1dab0.firebaseapp.com/style/color/",
+    "https://material-ui-1dab0.firebaseapp.com/layout/basics/",
+    "https://material-ui-1dab0.firebaseapp.com/guides/composition/",
+    "https://material-ui-1dab0.firebaseapp.com/demos/app-bar/",
+    "https://material-ui-1dab0.firebaseapp.com/api/app-bar/",
+    "https://material-ui-1dab0.firebaseapp.com/discover-more/vision/",
     "https://material-ui-1dab0.firebaseapp.com/"
   ],
   "stop_urls": [],
@@ -17,37 +17,34 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'MuiCollapse-entered')]/../button/*[contains(@class, 'MuiButton-label')]",
-      "type": "xpath",
+      "selector": ".algolia-lvl0",
       "global": true
     },
     "lvl1": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//h1",
+      "selector": "//*[contains(@class, 'markdown-body')]//h1",
       "type": "xpath"
     },
     "lvl2": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//h2",
+      "selector": "//*[contains(@class, 'markdown-body')]//h2",
       "type": "xpath"
     },
     "lvl3": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//h3",
+      "selector": "//*[contains(@class, 'markdown-body')]//h3",
       "type": "xpath"
     },
     "lvl4": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//h4",
+      "selector": "//*[contains(@class, 'markdown-body')]//h4",
       "type": "xpath"
     },
     "lvl5": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//h5",
+      "selector": "//*[contains(@class, 'markdown-body')]//h5",
       "type": "xpath"
     },
     "text": {
-      "selector": "//*[contains(@class, 'AppContent-content')]//p|//*[contains(@class, 'AppContent-content')]//li",
+      "selector": "//*[contains(@class, 'markdown-body')]//p|//*[contains(@class, 'markdown-body')]//li",
       "type": "xpath"
     }
   },
   "min_indexed_level": 1,
-  "js_render": true,
-  "js_wait": 1,
-  "nb_hits": 1270
+  "nb_hits": 1974
 }

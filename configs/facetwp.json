@@ -1,14 +1,12 @@
 {
   "index_name": "facetwp",
   "start_urls": [
-    "https://facetwp.com/documentation/",
-    "https://facetwp.com/blog/?fwp_per_page=1000",
+    "https://facetwp.com/documentation/?fwp_per_page=500",
     "https://facetwp.com"
   ],
   "stop_urls": [
     "https://facetwp.com/demo/",
     "https://facetwp.com/showcase/",
-    "https://facetwp.com/add-ons/",
     "https://facetwp.com/buy/"
   ],
   "scrap_start_urls": false,
@@ -25,7 +23,7 @@
     "lvl2": ".content h2",
     "lvl3": ".content h3",
     "lvl4": ".content h4",
-    "text": ".content p, .content li, .content td, .content pre"
+    "text": ".content p, .content article, .content li, .content td, .content pre"
   },
   "js_render": true,
   "js_wait": 1,

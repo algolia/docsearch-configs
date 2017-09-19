@@ -1,0 +1,21 @@
+{
+  "index_name": "platform-sh",
+  "start_urls": [
+    "https://docs.platform.sh/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'chapter') and contains(@class, 'active')]/preceding::li[contains(@class, 'header')][1]",
+      "type": "xpath"
+    },
+    "lvl1": ".markdown-section h1",
+    "lvl2": ".markdown-section h2",
+    "lvl3": ".markdown-section h3",
+    "lvl4": ".markdown-section h4",
+    "lvl5": ".markdown-section h5",
+    "text": ".markdown-section p, .markdown-section li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 2672
+}

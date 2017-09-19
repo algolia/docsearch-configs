@@ -1,0 +1,26 @@
+{
+  "index_name": "docusaurus",
+  "start_urls": [
+    "https://docusaurus.io/"
+  ],
+  "stop_urls": [
+    "help",
+    "users"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
+      "type": "xpath"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "min_indexed_level": 1,
+  "nb_hits": 343
+}

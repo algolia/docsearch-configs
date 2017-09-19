@@ -1,8 +1,8 @@
 {
   "index_name": "rift",
   "start_urls": [
-    "https://open.riftio.com/documentation/riftware/4.4/Home.htm",
-    "https://open.riftio.com/documentation/riftware/4.4/"
+    "https://open.riftio.com/documentation/riftware/4.4/a/new/4.4/new-features-changes-riftware-4_4.htm",
+    "https://open.riftio.com/documentation/riftware/4.4/a/new/4.4/"
   ],
   "stop_urls": [],
   "selectors_exclude": [
@@ -22,5 +22,6 @@
     "text": "#contentBody p, #contentBody li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 21375
+  "js_render": true,
+  "nb_hits": 7
 }

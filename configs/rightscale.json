@@ -15,6 +15,17 @@
     "lvl4": ".main-content h4",
     "lvl5": ".main-content h5",
     "text": ".main-content p, .main-content li"
+    },
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "desc(version_major)",
+      "desc(version_minor)",
+      "desc(version_patch)",
+      "desc(weight.level)",
+      "asc(weight.position)"
+    ]
   },
-  "nb_hits": 46146
+  "nb_hits": 48649
 }

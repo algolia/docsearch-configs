@@ -2,6 +2,12 @@
   "index_name": "asgardcms",
   "start_urls": [
     {
+      "url": "https://asgardcms.com/docs/v3",
+      "tags": [
+        "v3"
+      ]
+    },
+    {
       "url": "https://asgardcms.com/docs/v2",
       "tags": [
         "v2"
@@ -23,5 +29,5 @@
     "text": ".documentation p"
   },
   "min_indexed_level": 1,
-  "nb_hits": 1525
+  "nb_hits": 2635
 }

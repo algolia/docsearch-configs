@@ -1,0 +1,19 @@
+{
+  "index_name": "aerialcss",
+  "start_urls": [
+    "https://aerialcss.algolia.com/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".anchor"
+  ],
+  "selectors": {
+    "lvl0": ".navbar-header .menu a.active",
+    "lvl1": "article h3",
+    "lvl2": "article h4",
+    "lvl3": "article h5",
+    "text": "article p, article li"
+  },
+  "js_render": true,
+  "nb_hits": 528
+}

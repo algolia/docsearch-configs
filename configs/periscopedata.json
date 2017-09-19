@@ -1,9 +1,7 @@
 {
   "index_name": "periscopedata",
   "start_urls": [
-    "https://doc.periscopedata.com/doc/",
-    "https://doc.periscopedata.com/docv2/",
-    "https://doc.periscopedata.com/doc/connecting-to-periscope-menu"
+    "https://doc.periscopedata.com/"
   ],
   "stop_urls": [
     "\\.pub$",
@@ -11,13 +9,13 @@
     "/doc/"
   ],
   "selectors": {
-    "lvl0": ".doc-layout h1",
-    "lvl1": ".doc-content h2",
-    "lvl2": ".doc-content h3",
-    "lvl3": ".doc-content h4",
-    "lvl4": ".doc-content h5",
-    "text": ".doc-content p, .doc-content li"
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 1974
+  "nb_hits": 1747
 }

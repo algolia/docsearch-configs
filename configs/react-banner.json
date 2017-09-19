@@ -1,0 +1,18 @@
+{
+  "index_name": "react-banner",
+  "start_urls": [
+    "https://skipjack.github.io/react-banner/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".banner__link.banner__link--active",
+    "lvl1": ".site__content h2",
+    "lvl2": ".site__content h3",
+    "lvl3": ".site__content h4",
+    "lvl4": ".site__content h5",
+    "text": ".site__content p, .site__content li"
+  },
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nb_hits": 60
+}

@@ -1,7 +1,7 @@
 {
   "index_name": "branchmetrics",
   "start_urls": [
-    "https://branchmetrics.github.io/docs/"
+    "https://docs.branch.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,5 +14,5 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 601
+  "nb_hits": 6822
 }

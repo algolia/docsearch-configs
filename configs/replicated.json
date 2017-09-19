@@ -1,7 +1,7 @@
 {
   "index_name": "replicated",
   "start_urls": [
-    "https://www.replicated.com/docs/"
+    "https://help.replicated.com/docs/"
   ],
   "stop_urls": [
     "/edit$"

@@ -1,0 +1,23 @@
+{
+  "index_name": "macabacus",
+  "start_urls": [
+    "https://www.macabacus.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//a[contains(@class, 'active-link')]/preceding::h5[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".topic h1",
+    "lvl2": ".topic h2",
+    "lvl3": ".topic h3",
+    "lvl4": ".topic h4",
+    "lvl5": ".topic h5",
+    "text": ".topic p, .topic li"
+  },
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nb_hits": 2017
+}

@@ -62,10 +62,15 @@
     "https://www.algolia.com/doc/tutorials/geo-search/filter-results-inside-a-rectangle-area/index.html",
     "https://www.algolia.com/doc/tutorials/security/api-keys/secured-api-keys/how-to-restrict-the-search-to-a-subset-of-records-belonging-to-a-specific-user/index.html",
     "https://www.algolia.com/doc/tutorials/offline/offline-mode/swift/index.html",
-    "https://www.algolia.com/doc/tutorials/offline/offline-mode/android/index.html"
+    "https://www.algolia.com/doc/tutorials/offline/offline-mode/android/index.html",
+    "https://www.algolia.com/doc/rest-api/monitoring/",
+    "https://www.algolia.com/doc/rest-api/analytics/",
+    "https://www.algolia.com/doc/rest-api/vault/"
   ],
-  "scrap_start_urls": false,
-  "stop_urls": [],
+  "stop_urls": [
+    "https://www.algolia.com/doc/api-reference/$",
+    "https://www.algolia.com/doc/guides/$"
+  ],
   "selectors_exclude": [
     ".btn",
     "#parameters-list",
@@ -121,5 +126,5 @@
       "url_without_language"
     ]
   },
-  "nb_hits": 3825
+  "nb_hits": 7478
 }

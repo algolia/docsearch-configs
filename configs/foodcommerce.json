@@ -1,0 +1,21 @@
+{
+  "index_name": "foodcommerce",
+  "start_urls": [
+    "https://support.foodcommerce.co.uk/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'breadcrumb')]/li[2]",
+      "type": "xpath"
+    },
+    "lvl1": "#content .col-sm-9 h1",
+    "lvl2": "#content .col-sm-9 h2",
+    "lvl3": "#content .col-sm-9 h3",
+    "lvl4": "#content .col-sm-9 h4",
+    "lvl5": "#content .col-sm-9 h5",
+    "text": "#content .col-sm-9 p, #content .col-sm-9 li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 1194
+}

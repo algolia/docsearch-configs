@@ -1,7 +1,15 @@
 {
   "index_name": "monaca",
   "start_urls": [
-    "https://docs.monaca.io/en/"
+    {
+      "url": "https://docs.monaca.io/(?P<language>.*?)/",
+      "variables": {
+        "language": [
+          "en",
+          "ja"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,5 +26,5 @@
     "text": "article .section p, article .section li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 13557
+  "nb_hits": 25205
 }

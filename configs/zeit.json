@@ -1,0 +1,23 @@
+{
+  "index_name": "zeit",
+  "start_urls": [
+    "https://zeit.co/docs"
+  ],
+  "stop_urls": [
+    "https://zeit.co/docs/getting-started/five-minute-guide-to-now"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'sidebar')]//a[contains(@class, 'selected')]/preceding::*[contains(@class, 'label')][1]",
+      "type": "xpath"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 299
+}

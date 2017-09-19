@@ -1,0 +1,23 @@
+{
+  "index_name": "joinhandshake",
+  "start_urls": [
+    "https://documentation.joinhandshake.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='hub-sidebar-content']//ul/li/a[contains(@class, 'active')]/../../preceding::h3[1]",
+      "type": "xpath"
+    },
+    "lvl1": "#content-head h1",
+    "lvl2": "#content-container h2",
+    "lvl3": "#content-container h3",
+    "lvl4": "#content-container h4",
+    "lvl5": "#content-container h5",
+    "text": "#content-container p, #content-container li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 388
+}

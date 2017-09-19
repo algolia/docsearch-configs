@@ -1,0 +1,28 @@
+{
+  "index_name": "nortridge",
+  "start_urls": [
+    "https://www.nortridge.com/support/userguide/"
+  ],
+  "stop_urls": [
+    "\\.eot",
+    "\\.ttf",
+    "\\.woff"
+  ],
+  "selectors_exclude": [
+    ".sideContent",
+    ".MCBreadcrumbsBox_0"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "User Guide"
+    },
+    "lvl1": "#contentBody h1",
+    "lvl2": "#contentBody h2",
+    "lvl3": "#contentBody h3",
+    "lvl4": "#contentBody h4",
+    "lvl5": "#contentBody h5",
+    "text": "#contentBody p, #contentBody li"
+  },
+  "nb_hits": 5219
+}

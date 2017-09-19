@@ -1,0 +1,15 @@
+{
+  "index_name": "teamcofh",
+  "start_urls": [
+    "http://teamcofh.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#cofh-docs-content h1",
+    "lvl1": "#cofh-docs-content h2",
+    "lvl2": "#cofh-docs-content h3",
+    "text": "#cofh-docs-content p, #cofh-docs-content li"
+  },
+  "min_indexed_level": 0,
+  "nb_hits": 3365
+}

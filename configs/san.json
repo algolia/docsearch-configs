@@ -1,0 +1,19 @@
+{
+  "index_name": "san",
+  "start_urls": [
+    "https://ecomfe.github.io/san/tutorial/start/",
+    "https://ecomfe.github.io/san/tutorial/",
+    "https://ecomfe.github.io/san/doc/api/",
+    "https://ecomfe.github.io/san/doc/main-members/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".article-inner h1",
+    "lvl1": ".article-inner h2",
+    "lvl2": ".article-inner h3",
+    "lvl3": ".article-inner h4",
+    "lvl4": ".article-inner h5",
+    "text": ".article-inner p, .article-inner li"
+  },
+  "nb_hits": 485
+}

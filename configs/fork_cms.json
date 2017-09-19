@@ -1,7 +1,7 @@
 {
   "index_name": "fork_cms",
   "start_urls": [
-    "http://docs.fork-cms.com/"
+    "https://docs.fork-cms.com/"
   ],
   "selectors": {
     "lvl0": {

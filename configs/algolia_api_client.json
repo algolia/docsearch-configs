@@ -1,8 +1,22 @@
 {
   "index_name": "algolia_api_client",
   "start_urls": [
-    "https://www.algolia.com/doc/api-client/",
-    "https://www.algolia.com/doc/api-client/php"
+    "https://www.algolia.com/doc/api-client/.*?/getting-started/",
+    "https://www.algolia.com/doc/api-client/php/",
+    "https://www.algolia.com/doc/api-client/rails/",
+    "https://www.algolia.com/doc/api-client/django/",
+    "https://www.algolia.com/doc/api-client/laravel/",
+    {
+      "url": "https://www.algolia.com/doc/api-reference/api-methods/.+",
+      "selectors_key": "method",
+      "tags": [
+        "method"
+      ]
+    },
+    {
+      "url": "https://www.algolia.com/doc/api-client/[^/]+/$",
+      "selectors_key": "empty"
+    }
   ],
   "selectors_exclude": [
     ".btn",
@@ -14,12 +28,27 @@
     "#end-page-feedback"
   ],
   "selectors": {
-    "lvl0": ".content-inner h1",
-    "lvl1": ".content-inner h2",
-    "lvl2": ".content-inner h3",
-    "lvl3": ".content-inner h4",
-    "lvl4": ".content-inner h5",
-    "text": ".content-inner p, .content-inner li"
+    "default": {
+      "lvl0": ".content-inner h1",
+      "lvl1": ".content-inner h2",
+      "lvl2": ".content-inner h3",
+      "lvl3": ".content-inner h4",
+      "lvl4": ".content-inner h5",
+      "text": ".content-inner p, .content-inner li"
+    },
+    "method": {
+      "lvl0": ".api-method-category",
+      "lvl1": ".content-inner h1",
+      "lvl2": ".content-inner h2",
+      "lvl3": ".content-inner h3",
+      "lvl4": ".content-inner h4",
+      "lvl5": ".content-inner h5",
+      "text": ".content-inner p, .content-inner li"
+    },
+    "empty": {
+      "lvl0": ".non-existing-selector",
+      "text": ".non-existing-selector"
+    }
   },
   "min_indexed_level": 1,
   "keep_tags": [
@@ -65,5 +94,5 @@
       "asc(weight.position)"
     ]
   },
-  "nb_hits": 4152
+  "nb_hits": 862
 }

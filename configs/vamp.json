@@ -1,0 +1,20 @@
+{
+  "index_name": "vamp",
+  "start_urls": [
+    "https://vamp.io/documentation/"
+  ],
+  "stop_urls": [
+    "0.9.[^5]"
+  ],
+  "selectors": {
+    "lvl0": ".side-menu__item.active > a",
+    "lvl1": ".content h1",
+    "lvl2": ".markdowned h2",
+    "lvl3": ".markdowned h3",
+    "lvl4": ".markdowned h4",
+    "lvl5": ".markdowned h5",
+    "text": ".markdowned p, .markdowned li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 2771
+}

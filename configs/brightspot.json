@@ -1,0 +1,20 @@
+{
+  "index_name": "brightspot",
+  "start_urls": [
+    "http://docs.brightspot.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'SidebarNavigation')]/ul[1]/li[1]/a[1]",
+      "type": "xpath"
+    },
+    "lvl1": ".Content-document h1",
+    "lvl2": ".Content-document h2",
+    "lvl3": ".Content-document h3",
+    "lvl4": ".Content-document h4",
+    "text": ".Content-document p, .Content-document li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 7309
+}

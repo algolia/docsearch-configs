@@ -1,0 +1,17 @@
+{
+  "index_name": "docs-pusher",
+  "start_urls": [
+    "https://docs.pusher.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".default-markdown h1",
+    "lvl1": ".default-markdown h2",
+    "lvl2": ".default-markdown h3",
+    "lvl3": ".default-markdown h4",
+    "lvl4": ".default-markdown h5",
+    "text": ".default-markdown p, .default-markdown li"
+  },
+  "js_render": true,
+  "nb_hits": 539
+}

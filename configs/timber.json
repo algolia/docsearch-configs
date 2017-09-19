@@ -1,0 +1,21 @@
+{
+  "index_name": "timber",
+  "start_urls": [
+    "https://timber.github.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".toc"
+  ],
+  "selectors": {
+    "lvl0": ".nav__item--current-ancestor > a",
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_lvl": 1,
+  "nb_hits": 1746
+}

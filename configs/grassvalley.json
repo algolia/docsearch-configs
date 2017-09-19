@@ -1,0 +1,17 @@
+{
+  "index_name": "grassvalley",
+  "start_urls": [
+    "http://wwwapps.grassvalley.com/manuals/edius_pro_8_manual_en/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#content_common .L0, #content_common h1",
+    "lvl1": "#content_common .L1, #content_common h2",
+    "lvl2": "#content_common .L2, #content_common h3",
+    "lvl3": "#content_common h4",
+    "lvl4": "#content_common h5",
+    "text": "#content_common p, #content_common li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 43948
+}

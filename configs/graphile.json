@@ -1,0 +1,17 @@
+{
+  "index_name": "graphile",
+  "start_urls": [
+    "https://www.graphile.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "header .nav-link.active",
+    "lvl1": ".main-content h1",
+    "lvl2": ".main-content h2",
+    "lvl3": ".main-content h3",
+    "lvl4": ".main-content h4",
+    "lvl5": ".main-content h5",
+    "text": ".main-content p, .main-content li"
+  },
+  "nb_hits": 497
+}

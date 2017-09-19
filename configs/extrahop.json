@@ -1,0 +1,16 @@
+{
+  "index_name": "extrahop",
+  "start_urls": [
+    "https://docs.extrahop.com/current/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main .col-sm-9 h1",
+    "lvl1": "main .col-sm-9 h2",
+    "lvl2": "main .col-sm-9 h3",
+    "lvl3": "main .col-sm-9 h4",
+    "lvl4": "main .col-sm-9 h5",
+    "text": "main .col-sm-9 p, main .col-sm-9 li"
+  },
+  "nb_hits": 15518
+}

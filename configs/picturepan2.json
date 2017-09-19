@@ -1,0 +1,19 @@
+{
+  "index_name": "picturepan2",
+  "start_urls": [
+    "https://picturepan2.github.io/spectre/getting-started.html",
+    "https://picturepan2.github.io/spectre"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h3",
+    "lvl2": "#content h4",
+    "lvl3": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "nb_hits": 556
+}

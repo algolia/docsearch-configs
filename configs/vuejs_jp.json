@@ -2,7 +2,7 @@
   "index_name": "vuejs_jp",
   "start_urls": [
     {
-      "url": "http://jp.vuejs.org/(?P<version>.*?)/api/",
+      "url": "https://jp.vuejs.org/(?P<version>.*?)/api/",
       "variables": {
         "version": [
           "v2"
@@ -11,7 +11,7 @@
       "page_rank": 1
     },
     {
-      "url": "http://jp.vuejs.org/(?P<version>.*?)/guide/",
+      "url": "https://jp.vuejs.org/(?P<version>.*?)/guide/",
       "variables": {
         "version": [
           "v2"
@@ -19,7 +19,7 @@
       }
     },
     {
-      "url": "http://(?P<version>.*?)-jp.vuejs.org/api/",
+      "url": "https://(?P<version>.*?)-jp.vuejs.org/api/",
       "variables": {
         "version": [
           "v1"
@@ -28,7 +28,7 @@
       "page_rank": 1
     },
     {
-      "url": "http://(?P<version>.*?)-jp.vuejs.org/guide/",
+      "url": "https://(?P<version>.*?)-jp.vuejs.org/guide/",
       "variables": {
         "version": [
           "v1"
@@ -51,5 +51,5 @@
     "text": ".content p"
   },
   "min_indexed_level": 1,
-  "nb_hits": 3446
+  "nb_hits": 3723
 }

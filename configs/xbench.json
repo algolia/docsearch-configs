@@ -1,0 +1,18 @@
+{
+  "index_name": "xbench",
+  "start_urls": [
+    "https://docs.xbench.net"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".dd-item.parent > a",
+    "lvl1": "#body-inner h1",
+    "lvl2": "#body-inner h2",
+    "lvl3": "#body-inner h3",
+    "lvl4": "#body-inner h4",
+    "lvl5": "#body-inner h5",
+    "text": "#body-inner p, #body-inner li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 1540
+}

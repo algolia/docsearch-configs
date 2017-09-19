@@ -1,0 +1,30 @@
+{
+  "index_name": "pilosa",
+  "start_urls": [
+    {
+      "url": "https://www.pilosa.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v0.4",
+          "v0.5",
+          "v0.6",
+          "latest"
+        ]
+      }
+    },
+    "https://www.pilosa.com/docs/v0.4/installation/",
+    "https://www.pilosa.com/docs/v0.5/installation/",
+    "https://www.pilosa.com/docs/v0.6/installation/",
+    "https://www.pilosa.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#content h2",
+    "lvl1": "#content h3",
+    "lvl2": "#content h4",
+    "lvl3": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 3063
+}

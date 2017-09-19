@@ -1,17 +1,62 @@
 {
   "index_name": "ckeditor_nightly",
   "start_urls": [
-    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/"
+    {
+      "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/",
+      "selectors_key": "api",
+      "tags": [ "api" ]
+    },
+    {
+      "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/module_core_editor_editorconfig-EditorConfig.html",
+      "selectors_key": "api",
+      "page_rank": 1,
+      "tags": [ "api" ]
+    },
+    {
+      "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/framework/",
+      "tags": [ "framework" ]
+    },
+    {
+      "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/builds/",
+      "tags": [ "builds" ]
+    },
+    {
+      "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/features/",
+      "tags": [ "features" ]
+    },
+    {
+      "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/examples/",
+      "tags": [ "examples" ]
+    }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/module_core_editor_editorconfig-EditorConfig.html.*"
+  ],
+  "selectors_exclude": [
+    ".collapsing-list__type",
+    ".badges",
+    ".secondary-navigation"
+  ],
   "selectors": {
-    "lvl0": ".top__menu__item--active",
-    "lvl1": ".main__content h1",
-    "lvl2": ".main__content h2",
-    "lvl3": ".main__content h3",
-    "lvl4": ".main__content h4",
-    "lvl5": ".main__content h5",
-    "text": ".main__content p, .main__content li"
+    "default": {
+      "lvl0": ".top__menu__item--active",
+      "lvl1": ".main__content h1",
+      "lvl2": ".main__content h2",
+      "lvl3": ".main__content h3",
+      "lvl4": ".main__content h4",
+      "lvl5": ".main__content h5",
+      "text": ".main__content p, .main__content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".main__content h1",
+      "lvl2": ".main__content h2",
+      "lvl3": ".main__content h3",
+      "text": ".main__content main-description, .main__content collapsing-list__description"
+    }
   },
   "min_indexed_level": 1,
   "nb_hits": 41743

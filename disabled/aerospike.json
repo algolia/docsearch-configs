@@ -1,0 +1,23 @@
+{
+  "index_name": "aerospike",
+  "start_urls": [
+    "https://www.aerospike.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//a[contains(@class,'curselect')]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".page-content h1",
+    "lvl2": ".page-content h2",
+    "lvl3": ".page-content h3",
+    "lvl4": ".page-content h4",
+    "text": ".page-content p, .page-content li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "nb_hits": 25432
+}

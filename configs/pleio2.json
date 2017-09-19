@@ -17,5 +17,6 @@
   "min_indexed_level": 2,
   "js_render": true,
   "use_anchors": true,
-  "nb_hits": 197
+  "js_wait": 2,
+  "nb_hits": 56
 }

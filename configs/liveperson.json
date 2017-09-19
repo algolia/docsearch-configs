@@ -22,8 +22,5 @@
     "text": ".inside-page-content p, .inside-page-content li, .inside-page-content td, .inside-page-content .nx"
   },
   "min_indexed_level": 3,
-  "custom_settings": {
-    "attributeForDistinct": "hierarchy.lvl1"
-  },
-  "nb_hits": 24185
+  "nb_hits": 27954
 }

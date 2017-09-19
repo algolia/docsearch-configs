@@ -1,0 +1,16 @@
+{
+  "index_name": "jet.js",
+  "start_urls": [
+    "https://jet.js.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main h1, .guide-c.markdown h1",
+    "lvl1": "main h2, .guide-c.markdown h2",
+    "lvl2": "main h3, .guide-c.markdown h3",
+    "lvl3": "main h4, .guide-c.markdown h4",
+    "lvl4": "main h5, .guide-c.markdown h5",
+    "text": "main p, .guide-c.markdown  p, main li, .guide-c.markdown li"
+  },
+  "nb_hits": 32
+}
