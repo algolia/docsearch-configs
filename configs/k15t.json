@@ -34,20 +34,73 @@
           "3.7"
         ]
       }
+    },
+    "https://help.k15t.com/scroll-office-cloud/",
+    "https://help.k15t.com/scroll-translations/",
+    "https://help.k15t.com/scroll-acrolinx-connector/",
+    "https://help.k21t.com/scroll-imagemap/",
+    "https://help.k15t.com/conversations-video-chat-for-confluence/",
+    "https://help.k15t.com/scroll-document-versions/",
+    {
+      "url": "https://help.k15t.com/legacy/scroll-pdf-exporter/",
+      "selectors_key": "help"
+    },
+    {
+      "url": "https://help.k15t.com/scroll-office",
+      "selectors_key": "help"
+    },
+    {
+      "url": "https://help.k15t.com/scroll-viewport",
+      "selectors_key": "help"
+    },
+    {
+      "url": "https://help.k15t.com/scroll-html-exporter",
+      "selectors_key": "help"
+    },
+    {
+      "url": "https://help.k15t.com/scroll-chm-exporter",
+      "selectors_key": "help"
+    },
+    {
+      "url": "https://help.k15t.com/scroll-docbook-exporter",
+      "selectors_key": "help"
+    },
+    {
+      "url": "https://help.k15t.com/scroll-eclipsehelp-exporter",
+      "selectors_key": "help"
+    },
+    {
+      "url": "https://help.k15t.com/scroll-epub-exporter",
+      "selectors_key": "help"
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    ".jar$"
+  ],
   "selectors": {
-    "lvl0": "#article-content h1",
-    "lvl1": "#article-content h2",
-    "lvl2": "#article-content h3",
-    "lvl3": "#article-content h4",
-    "lvl4": {
-      "selector": ".versionpicker",
-      "global": true
+    "default": {
+      "lvl0": "#article-content h1",
+      "lvl1": "#article-content h2",
+      "lvl2": "#article-content h3",
+      "lvl3": "#article-content h4",
+      "lvl4": {
+        "selector": ".versionpicker",
+        "global": true
+      },
+      "text": "#article-content p, #article-content li"
     },
-    "text": "#article-content p, #article-content li"
+    "help": {
+      "lvl0": {
+        "selector": ".ht-sidebar-header h2",
+        "global": true
+      },
+      "lvl1": ".ht-content h2",
+      "lvl2": ".ht-content h3",
+      "lvl3": ".ht-content h4",
+      "lvl4": ".ht-content h5",
+      "text": ".ht-content p, .ht-content li"
+    }
   },
   "min_indexed_level": 2,
-  "nb_hits": 58553
+  "nb_hits": 81782
 }
