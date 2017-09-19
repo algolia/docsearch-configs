@@ -4,9 +4,11 @@
     "https://www.plasticscm.com/documentation.html",
     "https://www.plasticscm.com/documentation/.*/.*\\.shtml",
     "https://users.semanticmerge.com/documentation/external-parsers/external-parsers-guide.shtml",
-    "https://www.plasticscm.com/download/releasenotes/*"
+    "https://www.plasticscm.com/download/releasenotes/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://www.plasticscm.com/download/releasenotes/oldernotes"
+  ],
   "js_render": true,
   "selectors": {
     "lvl0": {
@@ -20,6 +22,6 @@
     "lvl5": ".span9 h5",
     "text": ".span9 p, .span9 li, .span9 td, .text p"
   },
-  "min_indexed_lvl": 2, 
-  "nb_hits": 8164
+  "min_indexed_lvl": 2,
+  "nb_hits": 9710
 }
