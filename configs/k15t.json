@@ -1,0 +1,53 @@
+{
+  "index_name": "k15t",
+  "start_urls": [
+    {
+      "url": "https://help.k15t.com/backbone-issue-sync/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "2.0",
+          "2.1",
+          "2.2",
+          "2.3",
+          "3.0",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4"
+        ]
+      }
+    },
+    {
+      "url": "https://help.k15t.com/scroll-versions/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "3.0",
+          "2.8",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5",
+          "3.6",
+          "3.7"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#article-content h1",
+    "lvl1": "#article-content h2",
+    "lvl2": "#article-content h3",
+    "lvl3": "#article-content h4",
+    "lvl4": {
+      "selector": ".versionpicker",
+      "global": true
+    },
+    "text": "#article-content p, #article-content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 58553
+}
