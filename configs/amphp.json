@@ -13,7 +13,7 @@
     "text": ".content p, .content li, .content td"
   },
   "selectors_exclude": [
-      ".content-sidebar"
+    ".content-sidebar"
   ],
-  "nb_hits": 3128
+  "nb_hits": 1520
 }
