@@ -5,6 +5,7 @@
       "url": "https://docs.improbable.io/reference/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "12.0",
           "11.1",
           "11.0",
           "10.4",
