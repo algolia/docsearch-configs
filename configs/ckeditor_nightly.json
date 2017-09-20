@@ -2,14 +2,14 @@
   "index_name": "ckeditor_nightly",
   "start_urls": [
     {
-      "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/",
-      "selectors_key": "api",
-      "tags": [ "api" ]
-    },
-    {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/module_core_editor_editorconfig-EditorConfig.html",
       "selectors_key": "api",
       "page_rank": 1,
+      "tags": [ "api" ]
+    },
+    {
+      "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/",
+      "selectors_key": "api",
       "tags": [ "api" ]
     },
     {
@@ -29,9 +29,7 @@
       "tags": [ "examples" ]
     }
   ],
-  "stop_urls": [
-    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/module_core_editor_editorconfig-EditorConfig.html.*"
-  ],
+  "stop_urls": [],
   "selectors_exclude": [
     ".collapsing-list__type",
     ".badges",
@@ -55,7 +53,7 @@
       "lvl1": ".main__content h1",
       "lvl2": ".main__content h2",
       "lvl3": ".main__content h3",
-      "text": ".main__content main-description, .main__content collapsing-list__description"
+      "text": ".main__content .main-description, .main__content .collapsing-list__description"
     }
   },
   "min_indexed_level": 1,
