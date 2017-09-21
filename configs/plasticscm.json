@@ -4,25 +4,41 @@
     "https://www.plasticscm.com/documentation.html",
     "https://www.plasticscm.com/documentation/.*/.*\\.shtml",
     "https://users.semanticmerge.com/documentation/external-parsers/external-parsers-guide.shtml",
-    "https://www.plasticscm.com/download/releasenotes/",
-    "https://www.plasticscm.com/download/releasenotes/all"
+    {
+      "url": "https://www.plasticscm.com/download/releasenotes",
+      "selectors_key": "release"
+    },
+    {
+      "url": "https://www.plasticscm.com/download/releasenotes/all",
+      "selectors_key": "release"
+    }
   ],
   "stop_urls": [
     "newernotes",
     "oldernotes"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".span9 h1",
+      "lvl2": ".span9 h2",
+      "lvl3": ".span9 h3",
+      "lvl4": ".span9 h4",
+      "lvl5": ".span9 h5",
+      "text": ".span9 p, .span9 li, .span9 td"
     },
-    "lvl1": ".span9 h1",
-    "lvl2": ".span9 h2",
-    "lvl3": ".span9 h3",
-    "lvl4": ".span9 h4",
-    "lvl5": ".span9 h5",
-    "text": ".span9 p, .span9 li, .span9 td, .text p"
+    "release": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Release notes"
+      },
+      "lvl1": ".release",
+      "text": ".text p"
+    }
   },
   "min_indexed_lvl": 2,
-  "nb_hits": 15629
+  "nb_hits": 15897
 }
