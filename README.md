@@ -24,7 +24,7 @@ The DocSearch scraper will use a configuration file specifying:
 
 Once you run the DocSearch scraper on a specific configuration, it will:
  - crawl all the URLs you specified (from the *start_urls* or the *sitemap*)
- - follow all the hyperlink mentioned in the page, and continue the crawling there
+ - follow all the hyperlinks mentioned in the page, and continue the crawling there
  - stop the crawling as soon as you've reached a URL that is not specified in your configuration or affiliated to a start url
  - extract the content of every single crawled page following the logic you defined using the CSS selectors
  - push the resulting records to the Algolia index you configured
@@ -88,17 +88,18 @@ as `lvl1` and `h3` as `lvl2`. `text` is usually any `p` of text.
 
 ## Sitemap crawling ***Optional***
 
-Our crawler offers you to crawl a site by discovering the URLs using Sitemaps. Thus, you will need to define the direct url(s) to your sitemap XML file, `sitemap_urls` , and then establish regex(s), `urls_sitemap_regexs` , which will match the URLs to crawl. Otherwise it will use the `start_urls` pattern in order to match the URLs available within the site map.
+Our crawler offers you to crawl a site by discovering the URLs using Sitemaps. Thus, you will need to define the direct url(s) to your sitemap XML file, `sitemap_urls` , and then establish regex(s), `sitemap_urls_regexs` , which will match the URLs to crawl. Otherwise it will use the `start_urls` pattern in order to match the URLs available within the site map.
 
 For sites that use Sitemap index files that point to other sitemap files, all those sitemaps will be followed.
 
-##### sitemap_urls
-A list of urls pointing to the sitemaps whose urls you want to crawl. Must be give if you want to discover though sitemap.
+###  `sitemap_urls`
+A list of urls pointing to the sitemaps (or sitempa index) you want to crawl. Must be provided if you want to discover though sitemap.
 
-##### urls_sitemap_regexs
-A list of regular expression that will be apply to each url from the sitemap. If the pattern match an url, this link will be crawled. If none regular expressions is defined, the start_urls will be taken as pattern.
-##### force_sitemap_urls_crawling
-Specifies if matched links should not respect the same rules as the hyperlink crawled. If set to true, each URL will be scraped no matter if it suited the `start_urls` or `stop_urls`. Default is `force_sitemap_urls_crawling` disabled
+###  `sitemap_urls_regexs`
+A list of regular expression that will be applied to each URL from the sitemap. If the pattern match an URL, this link will be scrapped. If none regular expressions is defined, the start_urls will be taken as pattern.
+
+###  `force_sitemap_urls_crawling`
+Specifies if matched URL should not respect the same rules as the hyperlink crawled. If set to true, each URL will be scraped no matter if it suited the `start_urls` or `stop_urls`. Default is `force_sitemap_urls_crawling` disabled
 
 #### Example
 ```
@@ -106,16 +107,16 @@ Specifies if matched links should not respect the same rules as the hyperlink cr
 "sitemap_urls": [
     "https://www.mySite.com/sitemap.xml"
   ],
-"urls_sitemap_regexs": [
+"": [
     "/doc/"
   ],
 "force_sitemap_urls_crawling": true,
 [...]
 ```
+Given this configuration, each webpage whose the URL contains '/doc/' will be scrapped even if they don't complied the `start_urls` or `stop_urls`
 
 
-
-#### Global selectors
+### Global selectors
 
 It's possible to make a selector global which mean that all records for the page will have
 this value. This is useful when you have a title that in right sidebar because
@@ -130,7 +131,7 @@ the sidebar is after the content on dom.
 }
 ```
 
-#### Xpath selector
+### Xpath selector
 
 By default selector are considered css selectors but you can specify that a selector is an xpath one.
 This is useful when you want to do more complex selection like selecting the parent of a node.
@@ -144,7 +145,7 @@ This is useful when you want to do more complex selection like selecting the par
 }
 ```
 
-#### Default value
+### Default value
 
 You have the possibility to add a default value. If the given selector doesn't match anything in a page
 then for each record the default value will be set
@@ -158,7 +159,7 @@ then for each record the default value will be set
 }
 ```
 
-#### Strip Chars
+### Strip Chars
 
 You can override the default `strip_chars` per level
 
@@ -258,7 +259,7 @@ The number of object that should be indexed. Only used by the [`checker`](#check
 
 Default is `0`.
 
-### Possible issues
+## Possible issues
 
 #### Duplicated content
 
