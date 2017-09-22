@@ -88,14 +88,14 @@ as `lvl1` and `h3` as `lvl2`. `text` is usually any `p` of text.
 
 ## Sitemap crawling ***Optional***
 
-Our crawler offers you to crawl a site by discovering the URLs using Sitemaps. Thus, you will need to define the direct url(s) to your sitemap XML file, `sitemap_urls` , and then establish regex(s), `urls_sitemap_regexs` , which will match the URLs to crawl. Otherwise it will use the `start_urls` pattern in order to match the URLs available within the site map.
+Our crawler offers you to crawl a site by discovering the URLs using Sitemaps. Thus, you will need to define the direct url(s) to your sitemap XML file, `sitemap_urls` , and then establish regex(s), `sitemap_urls_regexs` , which will match the URLs to crawl. Otherwise it will use the `start_urls` pattern in order to match the URLs available within the site map.
 
 For sites that use Sitemap index files that point to other sitemap files, all those sitemaps will be followed.
 
 ##### sitemap_urls
 A list of urls pointing to the sitemaps whose urls you want to crawl. Must be give if you want to discover though sitemap.
 
-##### urls_sitemap_regexs
+##### sitemap_urls_regexs
 A list of regular expression that will be apply to each url from the sitemap. If the pattern match an url, this link will be crawled. If none regular expressions is defined, the start_urls will be taken as pattern.
 ##### force_sitemap_urls_crawling
 Specifies if matched links should not respect the same rules as the hyperlink crawled. If set to true, each URL will be scraped no matter if it suited the `start_urls` or `stop_urls`. Default is `force_sitemap_urls_crawling` disabled
@@ -106,7 +106,7 @@ Specifies if matched links should not respect the same rules as the hyperlink cr
 "sitemap_urls": [
     "https://www.mySite.com/sitemap.xml"
   ],
-"urls_sitemap_regexs": [
+"": [
     "/doc/"
   ],
 "force_sitemap_urls_crawling": true,
