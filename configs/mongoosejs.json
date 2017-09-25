@@ -1,0 +1,20 @@
+{
+  "index_name": "mongoosejs",
+  "start_urls": [
+    "http://mongoosejs.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "#content h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "text": "#content p"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 21821
+}
