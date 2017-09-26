@@ -1,16 +1,18 @@
 {
   "index_name": "todc-bootstrap",
   "start_urls": [
-    "http://todc.github.io/todc-bootstrap/"
+    "https://todc.github.io/todc-bootstrap/docs/3.3/",
+    "https://todc.github.io/todc-bootstrap/docs/4.0/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".bs-docs-header h1",
-    "lvl1": ".bs-docs-container h1",
-    "lvl2": ".bs-docs-container h2",
-    "lvl3": ".bs-docs-container h3",
-    "lvl4": ".bs-docs-container h4",
-    "text": ".bs-docs-container p, .bs-docs-container li"
-  },
+      "lvl0": ".bs-docs-header h1, .bd-toc-item.active > a",
+      "lvl1": ".bs-docs-container h1, .bd-content h1",
+      "lvl2": ".bs-docs-container h2, .bd-content h2",
+      "lvl3": ".bs-docs-container h3, .bd-content h3",
+      "lvl4": ".bs-docs-container h4, .bd-content h4",
+      "text": ".bs-docs-container p, .bs-docs-container li, .bd-content p, .bd-content li"
+    },
+  "min_indexed_level": 1,
   "nb_hits": 3007
 }
