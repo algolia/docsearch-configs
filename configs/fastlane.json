@@ -1,0 +1,26 @@
+{
+  "index_name": "fastlane",
+  "start_urls": [
+    "https://docs.fastlane.tools/",
+    {
+      "url": "https://docs.fastlane.tools/getting-started/",
+      "selectors_key": "getting-started"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'wy-breadcrumbs')]/li[2]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "text": ".section p, .section li, .section td"
+  },
+  "strip_chars": " »#",
+  "min_indexed_level": 1,
+  "nb_hits": 14264
+}
