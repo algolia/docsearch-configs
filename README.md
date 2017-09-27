@@ -241,7 +241,7 @@ A list of character to remove from the text that is indexed.
 
 Default is ": " .,;:§¶"
 
-### `scrap_start_urls`
+### `scrape_start_urls`
 
 Default if `false`
 

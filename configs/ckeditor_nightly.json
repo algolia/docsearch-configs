@@ -14,19 +14,27 @@
     },
     {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/framework/",
-      "tags": [ "framework" ]
+      "tags": [
+        "framework"
+      ]
     },
     {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/builds/",
-      "tags": [ "builds" ]
+      "tags": [
+        "builds"
+      ]
     },
     {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/features/",
-      "tags": [ "features" ]
+      "tags": [
+        "features"
+      ]
     },
     {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/examples/",
-      "tags": [ "examples" ]
+      "tags": [
+        "examples"
+      ]
     }
   ],
   "stop_urls": [],
@@ -57,5 +65,5 @@
     }
   },
   "min_indexed_level": 1,
-  "nb_hits": 41743
+  "nb_hits": 13863
 }

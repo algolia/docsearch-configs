@@ -1,0 +1,16 @@
+{
+  "index_name": "everpl",
+  "start_urls": [
+    "http://everpl.readthedocs.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".document h1",
+    "lvl1": ".document h2",
+    "lvl2": ".document h3",
+    "lvl3": ".document h4",
+    "lvl4": ".document h5",
+    "text": ".document p, .document li"
+  },
+  "nb_hits": 280
+}

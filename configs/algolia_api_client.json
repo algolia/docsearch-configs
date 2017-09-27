@@ -39,10 +39,11 @@
     "method": {
       "lvl0": ".api-method-category",
       "lvl1": ".content-inner h1",
-      "lvl2": ".content-inner h2",
-      "lvl3": ".content-inner h3",
-      "lvl4": ".content-inner h4",
-      "lvl5": ".content-inner h5",
+      "lvl2": ".rest-table-method .language-specific-content.php",
+      "lvl3": ".content-inner h2",
+      "lvl4": ".content-inner h3",
+      "lvl5": ".content-inner h4",
+      "lvl6": ".content-inner h5",
       "text": ".content-inner p, .content-inner li"
     },
     "empty": {
@@ -94,5 +95,5 @@
       "asc(weight.position)"
     ]
   },
-  "nb_hits": 862
+  "nb_hits": 1301
 }

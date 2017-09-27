@@ -1,0 +1,18 @@
+{
+  "index_name": "7scientists",
+  "start_urls": [
+    "https://rouster.7scientists.com/"
+  ],
+  "stop_urls": [
+    "index.htm"
+  ],
+  "selectors": {
+    "lvl0": ".rst-content .section h1",
+    "lvl1": ".rst-content .section h2",
+    "lvl2": ".rst-content .section h3",
+    "lvl3": ".rst-content .section h4",
+    "lvl4": ".rst-content .section h5",
+    "text": ".rst-content .section p, .rst-content .section li"
+  },
+  "nb_hits": 131
+}
