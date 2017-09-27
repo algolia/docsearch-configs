@@ -17,14 +17,15 @@ The DocSearch scraper will use a configuration file specifying:
  - the URLs it shoudn't crawl
  - the (hierarchical) CSS selectors to use to extract the relevant content from your webpages
  - the CSS selectors to skip
+ - An optional sitemap URL that will be crawled and then scraped
  - additional options you might provide to fine-tune the scraping
 
 ## How it works
 
 Once you run the DocSearch scraper on a specific configuration, it will:
- - crawl all the URLs you specified
- - follow all the links mentioned in the page, and continue the crawling there
- - stop the crawl as soon as you've reached a URL that is not specified in your configuration
+ - crawl all the URLs you specified (from the *start_urls* or the *sitemap*)
+ - follow all the hyperlinks mentioned in the page, and continue the crawling there
+ - stop the crawling as soon as you've reached a URL that is not specified in your configuration or affiliated to a start url
  - extract the content of every single crawled page following the logic you defined using the CSS selectors
  - push the resulting records to the Algolia index you configured
 
@@ -59,17 +60,14 @@ A configuration file looks like:
 }
 ```
 
-### `index_name`
-
-**Mandatory**
+### `index_name` ***Mandatory***
 
 Name of the Algolia index where all the data will be pushed. If the `PREFIX` environment variable is defined, it will be prefixed
 with it.
 
-### `start_urls`
+*This name must be equal to the configuration file name*
 
-**Mandatory**
-
+### `start_urls` ***Mandatory***
 You can pass either a string or an array of urls. The crawler will go to each
 page in order, following every link it finds on the page. It will only stop if
 the domain is outside of the `allowed_domains` or if the link is blacklisted in
@@ -78,9 +76,7 @@ Strings will be considered as regex.
 
 Note that it currently does not follow 301 redirects.
 
-### `selectors`
-
-**Mandatory**
+### `selectors` ***Mandatory***
 
 This object contains all the CSS selectors that will be used to create the
 record hierarchy. It contains 6 levels (`lvl0`, `lvl1`, `lvl2`, `lvl3`, `lvl4`,
@@ -90,7 +86,37 @@ relevance.
 A default config would be to target the page `title` or `h1` as `lvl0`, the `h2`
 as `lvl1` and `h3` as `lvl2`. `text` is usually any `p` of text.
 
-#### Global selectors
+## Sitemap crawling ***Optional***
+
+Our crawler offers you to crawl a site by discovering the URLs using Sitemaps. Thus, you will need to define the direct url(s) to your sitemap XML file, `sitemap_urls` , and then establish regex(s), `sitemap_urls_regexs` , which will match the URLs to crawl. Otherwise it will use the `start_urls` pattern in order to match the URLs available within the site map.
+
+For sites that use Sitemap index files that point to other sitemap files, all those sitemaps will be followed.
+
+###  `sitemap_urls`
+A list of urls pointing to the sitemaps (or sitempa index) you want to crawl. Must be provided if you want to discover though sitemap.
+
+###  `sitemap_urls_regexs`
+A list of regular expression that will be applied to each URL from the sitemap. If the pattern match an URL, this link will be scrapped. If none regular expressions is defined, the start_urls will be taken as pattern.
+
+###  `force_sitemap_urls_crawling`
+Specifies if matched URL should not respect the same rules as the hyperlink crawled. If set to true, each URL will be scraped no matter if it suited the `start_urls` or `stop_urls`. Default is `force_sitemap_urls_crawling` disabled
+
+#### Example
+```
+[...]
+"sitemap_urls": [
+    "https://www.mySite.com/sitemap.xml"
+  ],
+"": [
+    "/doc/"
+  ],
+"force_sitemap_urls_crawling": true,
+[...]
+```
+Given this configuration, each webpage whose the URL contains '/doc/' will be scrapped even if they don't complied the `start_urls` or `stop_urls`
+
+
+### Global selectors
 
 It's possible to make a selector global which mean that all records for the page will have
 this value. This is useful when you have a title that in right sidebar because
@@ -105,7 +131,7 @@ the sidebar is after the content on dom.
 }
 ```
 
-#### Xpath selector
+### Xpath selector
 
 By default selector are considered css selectors but you can specify that a selector is an xpath one.
 This is useful when you want to do more complex selection like selecting the parent of a node.
@@ -119,7 +145,7 @@ This is useful when you want to do more complex selection like selecting the par
 }
 ```
 
-#### Default value
+### Default value
 
 You have the possibility to add a default value. If the given selector doesn't match anything in a page
 then for each record the default value will be set
@@ -133,7 +159,7 @@ then for each record the default value will be set
 }
 ```
 
-#### Strip Chars
+### Strip Chars
 
 You can override the default `strip_chars` per level
 
@@ -149,7 +175,7 @@ You can override the default `strip_chars` per level
 ### `allowed_domains`
 
 You can pass an array of strings. This is the whitelist of
-domains the crawler will scan. If a link targets a page that is not in the
+domains the crawler will browse. If a link targets a page that is not in the
 whitelist, the crawler will not follow it.
 
 Default is the domain of the first element in the `start_urls`
@@ -233,7 +259,7 @@ The number of object that should be indexed. Only used by the [`checker`](#check
 
 Default is `0`.
 
-### Possible issues
+## Possible issues
 
 #### Duplicated content
 
