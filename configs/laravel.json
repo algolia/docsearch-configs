@@ -1,4 +1,13 @@
 {
+  "tags": {
+    "name": "Laravel",
+    "url": "https://laravel.com/docs/",
+    "categories": [
+      "ecommerce",
+      "framework",
+      "php"
+    ]
+  },
   "index_name": "laravel",
   "start_urls": [
     {
