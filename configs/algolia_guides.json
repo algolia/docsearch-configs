@@ -47,10 +47,10 @@
     "attributeForDistinct": "hierarchy.lvl1",
     "ignorePlurals": false,
     "attributesToIndex": [
-      "unordered(hierarchy_camel.lvl0)",
-      "unordered(hierarchy.lvl0)",
       "unordered(hierarchy_camel.lvl1)",
       "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy_camel.lvl0)",
+      "unordered(hierarchy.lvl0)",
       "unordered(hierarchy_camel.lvl2)",
       "unordered(hierarchy.lvl2)",
       "unordered(hierarchy_camel.lvl3)",
@@ -75,5 +75,5 @@
       "url_without_language"
     ]
   },
-  "nb_hits": 5466
+  "nb_hits": 5592
 }
