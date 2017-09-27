@@ -1,23 +1,25 @@
 {
   "index_name": "loginradius",
-  "start_urls": [
-    "https://docs.loginradius.com/"
+  "sitemap_urls": [
+    "https://docs.loginradius.com/sitemap.xml"
   ],
   "stop_urls": [
     "https://docs.loginradius.com/blog/",
     "https://docs.loginradius.com/getting-started/glossary"
   ],
   "selectors": {
-  
-		"lvl0": "#content h1, #mdcontainer h1",
-		"lvl1": "#content h2, #mdcontainer h2",
-		"lvl2": "#content h3, .docs-header h3, #mdcontainer h3",
-		"lvl3": "#content h4, #mdcontainer h4",
-		"lvl4": "#content h5, #mdcontainer h5",
-		"text": "#content p, #content li, #mdcontainer p, #mdcontainer li"
-		
+    "lvl0": {
+      "selector": "#content h1, ul label.md-nav__link--active",
+      "default_value": "Documenattion"
+    },
+    "lvl1": "#content h2, #mdcontainer h1",
+    "lvl2": "#content h3, .docs-header h3, #mdcontainer h2",
+    "lvl3": "#content h4, #mdcontainer h3",
+    "lvl4": "#content h5, #mdcontainer h4",
+    "text": "#content p, #content li, #mdcontainer p, #mdcontainer li"
   },
-  "min_indexed_level": 2,
-  "nb_hits": 11747,
-  "js_render": true
+  "min_indexed_level": 1,
+  "js_render": true,
+  "js_wait":1,
+  "nb_hits": 10931
 }
