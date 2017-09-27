@@ -24,7 +24,7 @@ The DocSearch scraper will use a configuration file specifying:
 
 Once you run the DocSearch scraper on a specific configuration, it will:
  - crawl all the URLs you specified (from the *start_urls* or the *sitemap*)
- - follow all the hyperlink mentioned in the page, and continue the crawling there
+ - follow all the hyperlinks mentioned in the page, and continue the crawling there
  - stop the crawling as soon as you've reached a URL that is not specified in your configuration or affiliated to a start url
  - extract the content of every single crawled page following the logic you defined using the CSS selectors
  - push the resulting records to the Algolia index you configured
