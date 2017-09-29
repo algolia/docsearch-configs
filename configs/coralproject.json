@@ -6,16 +6,15 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'nav__items')]//li/a[contains(@class, 'active')]/../../..//span",
-      "type": "xpath",
+      "selector": ".sidebar__section.active > a",
       "default_value":"Documentation"
     },
-    "lvl1": ".page__inner-wrap h1",
-    "lvl2": ".page__inner-wrap h2",
-    "lvl3": ".page__inner-wrap h3",
-    "lvl4": ".page__inner-wrap h4",
-    "lvl5": ".page__inner-wrap h5",
-    "text": ".page__inner-wrap p, .page__inner-wrap li"
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
   },
   "min_indexed_level": 1,
   "nb_hits": 916
