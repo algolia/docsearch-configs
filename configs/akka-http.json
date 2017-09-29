@@ -2,40 +2,40 @@
   "index_name": "akka-http",
   "start_urls": [
     {
-      "url": "http://doc.akka.io/docs/akka-http/(?P<version>.*?)/(?P<language>.*?).html",
+      "url": "https://doc.akka.io/docs/akka-http/(?P<version>.*?)/(?P<language>.*?).html",
       "variables": {
         "language": [
           "scala",
           "java"
         ],
         "version": {
-          "url": "http://doc.akka.io/docs/akka-http/",
+          "url": "https://doc.akka.io/docs/akka-http/",
           "js": "var versions = []; for(var i = 0 ; i < document.getElementsByTagName(\"a\").length; i++) { versions.push(document.getElementsByTagName(\"a\")[i].attributes[0].value); }; versions = versions.filter(function(e) { return !e.startsWith('?') && e.endsWith(\"/\") && !e.startsWith('rp') && (parseInt(e, 10) > 1 || e.startsWith('current') || e.startsWith('snapshot')); }).map(function(e) { return e.replace(/\\//g, ''); }); return JSON.stringify(versions);"
         }
       }
     },
     {
-      "url": "http://doc.akka.io/docs/akka-http/(?P<version>.*?)/(?P<language>.*?)/",
+      "url": "https://doc.akka.io/docs/akka-http/(?P<version>.*?)/(?P<language>.*?)/",
       "variables": {
         "language": [
           "scala",
           "java"
         ],
         "version": {
-          "url": "http://doc.akka.io/docs/akka-http/",
+          "url": "https://doc.akka.io/docs/akka-http/",
           "js": "var versions = []; for(var i = 0 ; i < document.getElementsByTagName(\"a\").length; i++) { versions.push(document.getElementsByTagName(\"a\")[i].attributes[0].value); }; versions = versions.filter(function(e) { return !e.startsWith('?') && e.endsWith(\"/\") && !e.startsWith('rp') && (parseInt(e, 10) > 1 || e.startsWith('current') || e.startsWith('snapshot')); }).map(function(e) { return e.replace(/\\//g, ''); }); return JSON.stringify(versions);"
         }
       }
     },
     {
-      "url": "http://doc.akka.io/docs/akka-http/(?P<version>.*?)/",
+      "url": "https://doc.akka.io/docs/akka-http/(?P<version>.*?)/",
       "variables": {
         "language": [
           "scala",
           "java"
         ],
         "version": {
-          "url": "http://doc.akka.io/docs/akka-http/",
+          "url": "https://doc.akka.io/docs/akka-http/",
           "js": "var versions = []; for(var i = 0 ; i < document.getElementsByTagName(\"a\").length; i++) { versions.push(document.getElementsByTagName(\"a\")[i].attributes[0].value); }; versions = versions.filter(function(e) { return !e.startsWith('?') && e.endsWith(\"/\") && !e.startsWith('rp') && (parseInt(e, 10) > 1 || e.startsWith('current') || e.startsWith('snapshot')); }).map(function(e) { return e.replace(/\\//g, ''); }); return JSON.stringify(versions);"
         }
       }

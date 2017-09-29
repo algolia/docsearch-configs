@@ -1,7 +1,7 @@
 {
   "index_name": "nortridge",
   "start_urls": [
-    "https://www.nortridge.com/support/userguide/"
+    "https://www2.nortridge.com/support/userguide/"
   ],
   "stop_urls": [
     "\\.eot",
@@ -24,5 +24,5 @@
     "lvl5": "#contentBody h5",
     "text": "#contentBody p, #contentBody li"
   },
-  "nb_hits": 5219
+  "nb_hits": 5250
 }

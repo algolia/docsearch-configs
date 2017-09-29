@@ -2,7 +2,7 @@
   "index_name": "akka_io",
   "start_urls": [
     {
-      "url": "http://doc.akka.io/docs/akka/current/(?P<language>.*?)/",
+      "url": "https://doc.akka.io/docs/akka/current/(?P<language>.*?)/",
       "variables": {
         "language": [
           "scala",
