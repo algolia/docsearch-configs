@@ -1,0 +1,21 @@
+{
+  "index_name": "checkout",
+  "start_urls": [
+    "https://docs.checkout.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'level0 active')]//h3",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content-holder h1",
+    "lvl2": ".content-holder h2",
+    "lvl3": ".content-holder h3",
+    "lvl4": ".content-holder h4",
+    "text": ".content-holder p, .content-holder li"
+  },
+  "nb_hits": 4595
+}
