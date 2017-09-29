@@ -1,8 +1,14 @@
 {
   "index_name": "replicated",
   "start_urls": [
-    "https://help.replicated.com/docs/"
+    "https://help.replicated.com/docs/",
+    "https://help.replicated.com/categories/getting-started/",
+    "https://help.replicated.com/categories/packaging-an-application/",
+    "https://help.replicated.com/categories/distributing-an-application/",
+    "https://help.replicated.com/categories/examples/",
+    "https://help.replicated.com/categories/knowledgebase/"
   ],
+  "scrap_start_urls": false,
   "stop_urls": [
     "/edit$"
   ],
@@ -20,5 +26,5 @@
   },
   "min_indexed_level": 1,
   "js_render": true,
-  "nb_hits": 5929
+  "nb_hits": 10649
 }
