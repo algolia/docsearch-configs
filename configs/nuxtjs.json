@@ -10,12 +10,12 @@
       "tags": ["en"]
     },
     {
-      "url": "https://cn.nuxtjs.org/",
-      "tags": ["cn"]
+      "url": "https://zh.nuxtjs.org/",
+      "tags": ["zh"]
     },
     {
-      "url": "http://cn.nuxtjs.org/",
-      "tags": ["cn"]
+      "url": "http://zh.nuxtjs.org/",
+      "tags": ["zh"]
     },
     {
       "url": "https://ru.nuxtjs.org/",
@@ -26,12 +26,28 @@
       "tags": ["ru"]
     },
     {
-      "url": "https://jp.nuxtjs.org/",
-      "tags": ["jp"]
+      "url": "https://ja.nuxtjs.org/",
+      "tags": ["ja"]
     },
     {
-      "url": "http://jp.nuxtjs.org/",
-      "tags": ["jp"]
+      "url": "http://ja.nuxtjs.org/",
+      "tags": ["ja"]
+    },
+    {
+      "url": "https://ko.nuxtjs.org/",
+      "tags": ["ko"]
+    },
+    {
+      "url": "http://ko.nuxtjs.org/",
+      "tags": ["ko"]
+    },
+    {
+      "url": "https://fr.nuxtjs.org/",
+      "tags": ["fr"]
+    },
+    {
+      "url": "http://fr.nuxtjs.org/",
+      "tags": ["fr"]
     }
   ],
   "stop_urls": [],
