@@ -1,0 +1,17 @@
+{
+  "index_name": "devhints",
+  "start_urls": [
+    "https://devhints.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".body-area h1, .post-item h1",
+    "lvl1": ".body-area h2, .post-item h2",
+    "lvl2": ".body-area h3, .post-item h3",
+    "lvl3": ".body-area h4, .post-item h4",
+    "lvl4": ".body-area h5, .post-item h5",
+    "text": ".body-area p, .post-item p, .body-area li, .post-item li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 7260
+}
