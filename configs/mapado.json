@@ -1,0 +1,17 @@
+{
+  "index_name": "mapado",
+  "start_urls": [
+    "https://makeup.mapado.net/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".navbar .active",
+    "lvl1": ".container h2",
+    "lvl2": ".container h3",
+    "lvl3": ".container h4",
+    "lvl4": ".container h5",
+    "text": ".container p, .container li"
+  },
+  "js_render": true,
+  "nb_hits": 360
+}
