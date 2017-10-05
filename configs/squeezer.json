@@ -3,11 +3,15 @@
   "start_urls": [
     "https://squeezer.io/docs/"
   ],
+  "sitemap_urls": [
+    "https://squeezer.io/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'sidebar')]//a[contains(@class,'active')]/../../../h3",
-      "type": "xpath"
+      "type": "xpath",
+      "default_value": "Documentation"
     },
     "lvl1": ".content h1",
     "lvl2": ".content h2",
@@ -15,5 +19,6 @@
     "lvl4": ".content h4",
     "text": ".content p, .content li"
   },
-  "nb_hits": 632
+  "min_indexed_level": 2,
+  "nb_hits": 561
 }
