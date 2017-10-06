@@ -7,14 +7,15 @@ DocSearch is composed of 3 different projects:
 * The scraper which browses & indexes web pages: https://github.com/algolia/docsearch-scraper
 * The configurations for the scraper: https://github.com/algolia/docsearch-configs
 
-If you want to run your own DocSearch instance on those configuration files, please get familiar with the [scraper setup guidelines](https://github.com/algolia/docsearch-scraper).
+If you want to run your own DocSearch instance on those configuration files,
+please get familiar with the [scraper setup guidelines](https://github.com/algolia/docsearch-scraper).
 
 ## Introduction
 
 The DocSearch scraper will use a configuration file specifying:
  - the Algolia index name that will store the records resulting from the crawling
  - the URLs it needs to crawl
- - the URLs it shoudn't crawl
+ - the URLs it should not crawl
  - the (hierarchical) CSS selectors to use to extract the relevant content from your webpages
  - the CSS selectors to skip
  - An optional sitemap URL that will be crawled and then scraped
@@ -25,7 +26,8 @@ The DocSearch scraper will use a configuration file specifying:
 Once you run the DocSearch scraper on a specific configuration, it will:
  - crawl all the URLs you specified (from the *start_urls* or the *sitemap*)
  - follow all the hyperlinks mentioned in the page, and continue the crawling there
- - stop the crawling as soon as you've reached a URL that is not specified in your configuration or affiliated to a start url
+ - stop the crawling as soon as you've reached a URL that is not specified in your
+ configuration or affiliated with a start url
  - extract the content of every single crawled page following the logic you defined using the CSS selectors
  - push the resulting records to the Algolia index you configured
 
@@ -62,8 +64,8 @@ A configuration file looks like:
 
 ### `index_name` ***Mandatory***
 
-Name of the Algolia index where all the data will be pushed. If the `PREFIX` environment variable is defined, it will be prefixed
-with it.
+Name of the Algolia index where all the data will be pushed. If the `PREFIX`
+environment variable is defined, it will be prefixed with it.
 
 *This name must be equal to the configuration file name*
 
@@ -71,8 +73,7 @@ with it.
 You can pass either a string or an array of urls. The crawler will go to each
 page in order, following every link it finds on the page. It will only stop if
 the domain is outside of the `allowed_domains` or if the link is blacklisted in
-`stop_urls`.
-Strings will be considered as regex.
+`stop_urls`. Strings will be considered as regex.
 
 Note that it currently does not follow 301 redirects.
 
@@ -88,48 +89,53 @@ as `lvl1` and `h3` as `lvl2`. `text` is usually any `p` of text.
 
 ## Sitemap crawling ***Optional***
 
-Our crawler offers you to crawl a site by discovering the URLs using Sitemaps. Thus, you will need to define the direct url(s) to your sitemap XML file, `sitemap_urls` , and then establish regex(s), `sitemap_urls_regexs` , which will match the URLs to crawl. Otherwise it will use the `start_urls` pattern in order to match the URLs available within the site map.
+Our crawler crawls a site by discovering the URLs using Sitemaps.
 
-For sites that use Sitemap index files that point to other sitemap files, all those sitemaps will be followed.
+The crawler uses Sitemap to index of all relevant URLs.
 
-###  `sitemap_urls`
-A list of urls pointing to the sitemaps (or sitempa index) you want to crawl. Must be provided if you want to discover though sitemap.
+Thus, you will need to define the direct url(s) to your sitemap XML file, `sitemap_urls`,
+and then establish regex(s), `sitemap_urls_regexs`, which will match the URLs to crawl.
+Otherwise it will use the `start_urls` pattern in order to match the URLs available
+within the site map.
 
-###  `sitemap_urls_regexs`
-A list of regular expression that will be applied to each URL from the sitemap. If the pattern match an URL, this link will be scrapped. If none regular expressions is defined, the start_urls will be taken as pattern.
+For sites that use Sitemap index files that point to other sitemap files, all
+those sitemaps will be followed.
 
-###  `force_sitemap_urls_crawling`
-Specifies if matched URL should not respect the same rules as the hyperlink crawled. If set to true, each URL will be scraped no matter if it suited the `start_urls` or `stop_urls`. Default is `force_sitemap_urls_crawling` disabled
-
-#### Example
-```
+#### Configuration with additional crawling directives
+```json
 [...]
-"sitemap_urls": [
+  "sitemap_urls": [
     "https://www.mySite.com/sitemap.xml"
   ],
-"": [
-    "/doc/"
+  "start_urls": [
+      "https://stripe.com/docs"
   ],
-"force_sitemap_urls_crawling": true,
+  "stop_urls": [
+      "https://stripe.com/docs/api"
+  ],
+  "force_sitemap_urls_crawling": true,
 [...]
 ```
-Given this configuration, each webpage whose the URL contains '/doc/' will be scrapped even if they don't complied the `start_urls` or `stop_urls`
+
+In this example, each webpage whose URL contains '/stripe/' will be
+scraped even if they don't match the `start_urls` or `stop_urls`
+
+###  `sitemap_urls`
+A list of urls pointing to the sitemaps (or sitemap index) you want to crawl.
+Must be provided if you want to discover through sitemap.
+
+###  `sitemap_urls_regexs`
+A list of regular expressions that will be applied to each URL from the sitemap.
+If the pattern matches a URL, this link will be scraped. If no regular expressions
+is defined, the `start_urls` will be taken as the matching pattern.
+
+###  `force_sitemap_urls_crawling`
+Specifies if a matched URL should not respect the same rules as the hyperlink crawled.
+If set to true, each URL will be scraped no matter if it matches the `start_urls`
+or `stop_urls`. By default, `force_sitemap_urls_crawling` is disabled.
 
 
-### Global selectors
-
-It's possible to make a selector global which mean that all records for the page will have
-this value. This is useful when you have a title that in right sidebar because
-the sidebar is after the content on dom.
-
-```json
-"selectors": {
-  "lvl0": {
-    "selector": "#content header h1",
-    "global": true
-  }
-}
-```
+## Selectors
 
 ### Xpath selector
 
@@ -168,6 +174,21 @@ You can override the default `strip_chars` per level
   "lvl0": {
     "selector": "#content article h1",
     "strip_chars": " .,;:"
+  }
+}
+```
+
+### Global selectors
+
+It's possible to make a selector global, which mean that all records for the page will have
+this value. This is useful when you have a title in the right sidebar because
+the sidebar is after the content on dom.
+
+```json
+"selectors": {
+  "lvl0": {
+    "selector": "#content header h1",
+    "global": true
   }
 }
 ```
@@ -265,7 +286,7 @@ Default is `0`.
 
 It could happen that the crawled website returned duplicated data. Most of the time, this is because the crawled pages got the same urls with two different schemes.
 
-If we have URLs like `http://website.com/page` and `http://website.com/page/` (notice the second one ending with `/`), the scrapper will consider them as different. This can be fixed by adding a regex to the `stop_urls` in the `config.json`:
+If we have URLs like `http://website.com/page` and `http://website.com/page/` (notice the second one ending with `/`), the scraper will consider them as different. This can be fixed by adding a regex to the `stop_urls` in the `config.json`:
 
 ```
 "stop_urls": [
