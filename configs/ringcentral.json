@@ -1,0 +1,23 @@
+{
+  "index_name": "ringcentral",
+  "start_urls": [
+    "http://ringcentral-api-docs.readthedocs.io/en/latest/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'rst-content')]/div[1]/ul/li[2]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".current a.current",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "text": ".section p, .section  li"
+  },
+  "strip_chars": " .,;:#\u00bb",
+  "min_indexed_level": 1,
+  "nb_hits": 1131
+}
