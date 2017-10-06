@@ -35,7 +35,7 @@ Once you run the DocSearch scraper on a specific configuration, it will:
 
 A configuration file looks like:
 
-```json
+```javascript
 {
     "index_name": "stripe",
     "start_urls": [
