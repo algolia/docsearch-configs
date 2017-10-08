@@ -1,0 +1,68 @@
+{
+  "index_name": "ckeditor_docs_site",
+  "start_urls": [
+	{
+	  "url": "https://docs.ckeditor.com/ckeditor5/latest/api/module_core_editor_editorconfig-EditorConfig.html",
+	  "selectors_key": "api",
+	  "page_rank": 1,
+	  "tags": [ "ckeditor5", "api" ]
+	},
+	{
+	  "url": "https://docs.ckeditor.com/ckeditor5/latest/api/",
+	  "selectors_key": "api",
+	  "tags": [ "ckeditor5", "api" ]
+	},
+	{
+	  "url": "https://docs.ckeditor.com/ckeditor5/latest/framework/",
+	  "tags": [ "ckeditor5", "framework" ]
+	},
+	{
+	  "url": "https://docs.ckeditor.com/ckeditor5/latest/builds/",
+	  "tags": [ "ckeditor5", "builds" ]
+	},
+	{
+	  "url": "https://docs.ckeditor.com/ckeditor5/latest/features/",
+	  "tags": [ "ckeditor5", "features" ]
+	},
+	{
+	  "url": "https://docs.ckeditor.com/ckeditor5/latest/examples/",
+	  "tags": [ "ckeditor5", "examples" ]
+	},
+	{
+	  "url": "https://docs.ckeditor.com/"
+	}
+  ],
+  "stop_urls": [
+	"https://docs.ckeditor.com/ckeditor4/.*",
+	"https://docs.ckeditor.com/ckeditor5/[0-9].*/.*"
+  ],
+  "selectors_exclude": [
+	".collapsing-list__type",
+	".badges",
+	".secondary-navigation",
+	".exclude"
+  ],
+  "selectors": {
+	"default": {
+	  "lvl0": ".top__menu__item--active",
+	  "lvl1": ".main__content h1, .important",
+	  "lvl2": ".main__content h2, .relevant",
+	  "lvl3": ".main__content h3",
+	  "lvl4": ".main__content h4",
+	  "lvl5": ".main__content h5",
+	  "text": ".main__content p, .main__content li"
+	},
+	"api": {
+	  "lvl0": {
+		"selector": "",
+		"default_value": "API"
+	  },
+	  "lvl1": ".main__content h1, .important",
+	  "lvl2": ".main__content h2, .relevant",
+	  "lvl3": ".main__content h3",
+	  "text": ".main__content .main-description, .main__content .collapsing-list__description"
+	}
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 41743
+}
