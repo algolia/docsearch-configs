@@ -34,6 +34,7 @@
   ],
   "stop_urls": [
 	  "https://docs.ckeditor.com/ckeditor4/.*",
+	  "https://docs.ckeditor.com/ckfinder/.*",
 	  "https://docs.ckeditor.com/ckeditor5/[0-9].*/.*",
 	  "https://docs.ckeditor.com/ckeditor5/latest/api/index.html",
 	  "https://docs.ckeditor.com/ckeditor5/latest/framework/index.html",
