@@ -1,0 +1,41 @@
+{
+  "index_name": "thumbprint",
+  "start_urls": [
+    {
+      "url": "https://thumbprint.thumbtack.com/docs/longread/",
+      "selectors_key": "long_read",
+      "tags": [
+        "long_read"
+      ]
+    },
+    "https://thumbprint.thumbtack.com/",
+    "https://thumbprint.thumbtack.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'sidebar')]//a[contains(@class,'active')]//preceding::*[contains(@class,'title')][1]",
+        "type": "xpath",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content .content__head",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li"
+    },
+    "long_read": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Long read"
+      },
+      "lvl1": ".longread h1",
+      "lvl2": ".longread h2",
+      "lvl3": ".longread h3",
+      "lvl4": ".longread h4",
+      "text": ".longread p, .longread li"
+    }
+  },
+  "nb_hits": 1108
+}
