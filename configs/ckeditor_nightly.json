@@ -38,11 +38,11 @@
     }
   ],
   "stop_urls": [
-      "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/index.html",
-      "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/framework/index.html",
-      "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/builds/index.html",
-      "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/features/index.html",
-      "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/examples/index.html"
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/index.html",
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/framework/index.html",
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/builds/index.html",
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/features/index.html",
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/examples/index.html"
   ],
   "selectors_exclude": [
     ".collapsing-list__type",
