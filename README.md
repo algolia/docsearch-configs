@@ -35,7 +35,7 @@ Once you run the DocSearch scraper on a specific configuration, it will:
 
 A configuration file looks like:
 
-```json
+```
 {
     "index_name": "stripe",
     "start_urls": [
@@ -87,53 +87,52 @@ relevance.
 A default config would be to target the page `title` or `h1` as `lvl0`, the `h2`
 as `lvl1` and `h3` as `lvl2`. `text` is usually any `p` of text.
 
+### `selectors_exclude` ***Optional***
+This object is used to exclude CSS selectors.
+
 ## Sitemap crawling ***Optional***
 
-Our crawler crawls a site by discovering the URLs using Sitemaps.
-
-The crawler uses Sitemap to index of all relevant URLs.
-
-Thus, you will need to define the direct url(s) to your sitemap XML file, `sitemap_urls`,
-and then establish regex(s), `sitemap_urls_regexs`, which will match the URLs to crawl.
+The crawler can also use a sitemap to browse all relevant URLs.
+You will need to define the direct url(s) in your sitemap XML file, `sitemap_urls`,
+and then establish regex(s), `sitemap_urls_regexs`, that will match the URLs to crawl.
 Otherwise it will use the `start_urls` pattern in order to match the URLs available
 within the site map.
 
-For sites that use Sitemap index files that point to other sitemap files, all
+For sites that use sitemap index files that point to other sitemap files, all
 those sitemaps will be followed.
 
 #### Configuration with additional crawling directives
 ```json
 [...]
   "sitemap_urls": [
-    "https://www.mySite.com/sitemap.xml"
+    "https://www.stripe.com/sitemap.xml"
   ],
   "start_urls": [
       "https://stripe.com/docs"
   ],
-  "stop_urls": [
-      "https://stripe.com/docs/api"
+  "sitemap_urls_regexs": [
+    "/latest/"
   ],
   "force_sitemap_urls_crawling": true,
 [...]
 ```
 
-In this example, each webpage whose URL contains '/stripe/' will be
+In this example, each webpage whose URL contains '/latest/' will be
 scraped even if they don't match the `start_urls` or `stop_urls`
 
 ###  `sitemap_urls`
 A list of urls pointing to the sitemaps (or sitemap index) you want to crawl.
-Must be provided if you want to discover through sitemap.
+Must be provided if you want to crawl using sitemaps.
 
 ###  `sitemap_urls_regexs`
 A list of regular expressions that will be applied to each URL from the sitemap.
-If the pattern matches a URL, this link will be scraped. If no regular expressions
+If the pattern matches a URL, this link will be scraped. If no regular expression
 is defined, the `start_urls` will be taken as the matching pattern.
 
 ###  `force_sitemap_urls_crawling`
 Specifies if a matched URL should not respect the same rules as the hyperlink crawled.
 If set to true, each URL will be scraped no matter if it matches the `start_urls`
 or `stop_urls`. By default, `force_sitemap_urls_crawling` is disabled.
-
 
 ## Selectors
 
