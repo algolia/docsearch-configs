@@ -34,13 +34,13 @@
   ],
   "stop_urls": [
 	  "https://docs.ckeditor.com/ckeditor4/.*",
+	  "https://docs.ckeditor.com/ckfinder/.*",
 	  "https://docs.ckeditor.com/ckeditor5/[0-9].*/.*",
 	  "https://docs.ckeditor.com/ckeditor5/latest/api/index.html",
 	  "https://docs.ckeditor.com/ckeditor5/latest/framework/index.html",
 	  "https://docs.ckeditor.com/ckeditor5/latest/builds/index.html",
 	  "https://docs.ckeditor.com/ckeditor5/latest/features/index.html",
 	  "https://docs.ckeditor.com/ckeditor5/latest/examples/index.html",
-	  "https://docs.ckeditor.com/ckfinder/.*",
 	  "https://docs.ckeditor.com/index.html"
   ],
   "selectors_exclude": [
