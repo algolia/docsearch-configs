@@ -6,7 +6,9 @@
   ],
   "stop_urls": [
     "http://docs.polysync.io/flows/getting-started/",
-    "https://docs.polysync.io/flows/getting-started/"
+    "https://docs.polysync.io/flows/getting-started/",
+    "http://docs.polysync.io/releases",
+    "https://docs.polysync.io/releases"
   ],
   "selectors": {
     "lvl0": {

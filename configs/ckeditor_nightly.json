@@ -37,17 +37,24 @@
       ]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/index.html",
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/framework/index.html",
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/builds/index.html",
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/features/index.html",
+    "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/examples/index.html"
+  ],
   "selectors_exclude": [
     ".collapsing-list__type",
     ".badges",
-    ".secondary-navigation"
+    ".secondary-navigation",
+    ".exclude"
   ],
   "selectors": {
     "default": {
       "lvl0": ".top__menu__item--active",
-      "lvl1": ".main__content h1",
-      "lvl2": ".main__content h2",
+      "lvl1": ".main__content h1, .important",
+      "lvl2": ".main__content h2, .relevant",
       "lvl3": ".main__content h3",
       "lvl4": ".main__content h4",
       "lvl5": ".main__content h5",
@@ -58,8 +65,8 @@
         "selector": "",
         "default_value": "API"
       },
-      "lvl1": ".main__content h1",
-      "lvl2": ".main__content h2",
+      "lvl1": ".main__content h1, .important",
+      "lvl2": ".main__content h2, .relevant",
       "lvl3": ".main__content h3",
       "text": ".main__content .main-description, .main__content .collapsing-list__description"
     }
