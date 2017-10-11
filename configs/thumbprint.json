@@ -11,7 +11,9 @@
     "https://thumbprint.thumbtack.com/",
     "https://thumbprint.thumbtack.com/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://thumbprint.thumbtack.com/docs/kitchen-sink.html"
+  ],
   "selectors": {
     "default": {
       "lvl0": {
@@ -37,5 +39,5 @@
       "text": ".longread p, .longread li"
     }
   },
-  "nb_hits": 1108
+  "nb_hits": 674
 }
