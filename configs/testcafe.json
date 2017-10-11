@@ -5,10 +5,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class, 'doc-nav-content')]//a[contains(@class, 'active')]/ancestor::ul[1]/li[1]/a",
-      "type": "xpath"
-    },
+    "lvl0": ".doc-top-nav-tab.active a",
     "lvl1": ".post-content h1",
     "lvl2": ".post-content h2",
     "lvl3": ".post-content h3",
