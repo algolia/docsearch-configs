@@ -5,35 +5,45 @@
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/module_core_editor_editorconfig-EditorConfig.html",
       "selectors_key": "api",
       "page_rank": 1,
-      "tags": [ "api" ]
+      "tags": [
+        "api",
+        "ckeditor5"
+      ]
     },
     {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/",
       "selectors_key": "api",
-      "tags": [ "api" ]
+      "tags": [
+        "api",
+        "ckeditor5"
+      ]
     },
     {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/framework/",
       "tags": [
-        "framework"
+        "framework",
+        "ckeditor5"
       ]
     },
     {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/builds/",
       "tags": [
-        "builds"
+        "builds",
+        "ckeditor5"
       ]
     },
     {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/features/",
       "tags": [
-        "features"
+        "features",
+        "ckeditor5"
       ]
     },
     {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/examples/",
       "tags": [
-        "examples"
+        "examples",
+        "ckeditor5"
       ]
     }
   ],
