@@ -1,0 +1,18 @@
+{
+  "index_name": "tanghezh",
+  "start_urls": [
+    "http://www.tanghezh.cn/#/home"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-body h2",
+    "lvl1": ".markdown-body h3",
+    "lvl2": ".markdown-body h4",
+    "lvl3": ".markdown-body h5",
+    "lvl4": ".markdown-body h6",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "js_render": true,
+  "js_wait": 3,
+  "nb_hits": 183
+}
