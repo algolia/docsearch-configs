@@ -1,0 +1,23 @@
+{
+  "index_name": "reqview",
+  "start_urls": [
+    "https://www.reqview.com/doc/"
+  ],
+  "stop_urls": [
+    "https://www.reqview.com/doc/welcome.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//a[contains(@class, 'doc-link-active')]/preceding::*[contains(@class, 'doc-group')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".document h1",
+    "lvl2": ".document h2",
+    "lvl3": ".document h3",
+    "lvl4": ".document h4",
+    "text": ".document p, .document li"
+  },
+  "nb_hits": 1078
+}
