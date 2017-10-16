@@ -1,15 +1,17 @@
 {
   "index_name": "rocketchat",
   "start_urls": [
-    "https://rocket.chat/docs/"
+    "https://docs.rocket.chat/"
   ],
   "stop_urls": [
     "https://rocket.chat/docs/installation/automation-tools/vagrant/vagrantfile"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
+      "selector": "//*[contains(@class,\"sidebar\")]//*[contains(@class,\"active\")]/preceding::li[@class='guide-nav-item '][1]",
+      "default_value": "Documentation",
+      "type": "xpath",
+      "global": true
     },
     "lvl1": "article h1",
     "lvl2": "article h2",
@@ -18,5 +20,5 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 3428
+  "nb_hits": 4134
 }
