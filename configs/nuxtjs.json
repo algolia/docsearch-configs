@@ -3,51 +3,75 @@
   "start_urls": [
     {
       "url": "https://nuxtjs.org/",
-      "tags": ["en"]
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "http://nuxtjs.org/",
-      "tags": ["en"]
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "https://zh.nuxtjs.org/",
-      "tags": ["zh"]
+      "tags": [
+        "zh"
+      ]
     },
     {
       "url": "http://zh.nuxtjs.org/",
-      "tags": ["zh"]
+      "tags": [
+        "zh"
+      ]
     },
     {
       "url": "https://ru.nuxtjs.org/",
-      "tags": ["ru"]
+      "tags": [
+        "ru"
+      ]
     },
     {
       "url": "http://ru.nuxtjs.org/",
-      "tags": ["ru"]
+      "tags": [
+        "ru"
+      ]
     },
     {
       "url": "https://ja.nuxtjs.org/",
-      "tags": ["ja"]
+      "tags": [
+        "ja"
+      ]
     },
     {
       "url": "http://ja.nuxtjs.org/",
-      "tags": ["ja"]
+      "tags": [
+        "ja"
+      ]
     },
     {
       "url": "https://ko.nuxtjs.org/",
-      "tags": ["ko"]
+      "tags": [
+        "ko"
+      ]
     },
     {
       "url": "http://ko.nuxtjs.org/",
-      "tags": ["ko"]
+      "tags": [
+        "ko"
+      ]
     },
     {
       "url": "https://fr.nuxtjs.org/",
-      "tags": ["fr"]
+      "tags": [
+        "fr"
+      ]
     },
     {
       "url": "http://fr.nuxtjs.org/",
-      "tags": ["fr"]
+      "tags": [
+        "fr"
+      ]
     }
   ],
   "stop_urls": [],
@@ -64,5 +88,5 @@
     "text": ".Content p, .Content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2223
+  "nb_hits": 8996
 }
