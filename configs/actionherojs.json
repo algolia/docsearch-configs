@@ -1,17 +1,17 @@
 {
   "index_name": "actionherojs",
   "start_urls": [
-    "https://www.actionherojs.com/docs/"
+    "https://docs.actionherojs.com/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".container h1",
-    "lvl1": ".container h2",
-    "lvl2": ".container h3",
-    "lvl3": ".container h4",
-    "lvl4": ".container h5",
-    "text": ".container p, .container li"
+    "lvl0": "#main h1",
+    "lvl1": "#main h2",
+    "lvl2": "#main h3",
+    "lvl3": "#main h4",
+    "lvl4": "#main h5",
+    "text": "#main p, #main li"
   },
-  "js_render": true,
-  "nb_hits": 1926
+  "scrap_start_urls": false,
+  "nb_hits": 2112
 }
