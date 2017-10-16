@@ -1,0 +1,19 @@
+{
+  "index_name": "shoutem",
+  "start_urls": [
+    "https://shoutem.github.io/docs/",
+    "https://shoutem.github.io/docs/extensions/tutorials/getting-started"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page-section",
+    "lvl1": ".page-title",
+    "lvl2": "#documentation h1",
+    "lvl3": "#documentation h2",
+    "lvl4": "#documentation h3",
+    "lvl5": "#documentation h4",
+    "text": "#documentation p, #documentation li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 2410
+}
