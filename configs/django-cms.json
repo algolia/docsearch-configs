@@ -1,0 +1,25 @@
+{
+  "index_name": "django-cms",
+  "start_urls": [
+    "http://docs.django-cms.org/en/latest/"
+  ],
+  "stop_urls": [
+    "/release",
+    "/upgrade"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class,'breadcrumbs')]/li[2]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".document h1",
+    "lvl2": ".document h2",
+    "lvl3": ".document h3",
+    "lvl4": ".document h4",
+    "text": ".document p, .document li"
+  },
+  "min_indexed_level": 1,
+  "strip_chars": " \u00bb#\u00b6",
+  "nb_hits": 3188
+}
