@@ -14,7 +14,7 @@ If you want to run your own DocSearch instance on those configuration files, ple
 The DocSearch scraper will use a configuration file specifying:
  - the Algolia index name that will store the records resulting from the crawling
  - the URLs it needs to crawl
- - the URLs it shoudn't crawl
+ - the URLs it shouldn't crawl
  - the (hierarchical) CSS selectors to use to extract the relevant content from your webpages
  - the CSS selectors to skip
  - An optional sitemap URL that will be crawled and then scraped
@@ -93,7 +93,7 @@ Our crawler offers you to crawl a site by discovering the URLs using Sitemaps. T
 For sites that use Sitemap index files that point to other sitemap files, all those sitemaps will be followed.
 
 ###  `sitemap_urls`
-A list of urls pointing to the sitemaps (or sitempa index) you want to crawl. Must be provided if you want to discover though sitemap.
+A list of urls pointing to the sitemaps (or sitemap index) you want to crawl. Must be provided if you want to discover though sitemap.
 
 ###  `sitemap_urls_regexs`
 A list of regular expression that will be applied to each URL from the sitemap. If the pattern match an URL, this link will be scrapped. If none regular expressions is defined, the start_urls will be taken as pattern.
@@ -102,7 +102,7 @@ A list of regular expression that will be applied to each URL from the sitemap. 
 Specifies if matched URL should not respect the same rules as the hyperlink crawled. If set to true, each URL will be scraped no matter if it suited the `start_urls` or `stop_urls`. Default is `force_sitemap_urls_crawling` disabled
 
 #### Example
-```
+```json
 [...]
 "sitemap_urls": [
     "https://www.mySite.com/sitemap.xml"
@@ -118,9 +118,9 @@ Given this configuration, each webpage whose the URL contains '/doc/' will be sc
 
 ### Global selectors
 
-It's possible to make a selector global which mean that all records for the page will have
-this value. This is useful when you have a title that in right sidebar because
-the sidebar is after the content on dom.
+It's possible to make a selector global which means that all records for the page will have
+this value. This is useful when you have a title that is in the right sidebar and
+the sidebar is placed after the content in the dom.
 
 ```json
 "selectors": {
@@ -133,7 +133,7 @@ the sidebar is after the content on dom.
 
 ### Xpath selector
 
-By default selector are considered css selectors but you can specify that a selector is an xpath one.
+By default `selectors` is considered to be a [css selector](https://www.w3schools.com/cssref/css_selectors.asp) but you can specify that a selector is a [xpath query](https://www.w3schools.com/xml/xpath_intro.asp).
 This is useful when you want to do more complex selection like selecting the parent of a node.
 
 ```json
@@ -239,19 +239,19 @@ This parameter is optional and is set to False by default.
 
 A list of character to remove from the text that is indexed.
 
-Default is ": " .,;:§¶"
+Default is `" .,;:§¶"`
 
 ### `scrape_start_urls`
 
-Default if `false`
+Default is `false`
 
 ### `remove_get_params`
 
-Default if `false`
+Default is `false`
 
 ### `strict_redirect`
 
-Default if `false`
+Default is `false`
 
 ### `nb_hits`
 
@@ -267,7 +267,7 @@ It could happen that the crawled website returned duplicated data. Most of the t
 
 If we have URLs like `http://website.com/page` and `http://website.com/page/` (notice the second one ending with `/`), the scrapper will consider them as different. This can be fixed by adding a regex to the `stop_urls` in the `config.json`:
 
-```
+```json
 "stop_urls": [
   "/$"
 ]
@@ -275,7 +275,7 @@ If we have URLs like `http://website.com/page` and `http://website.com/page/` (n
 
 In this attribute, you can also list the pages you want to skip:
 
-```
+```json
 "stop_urls": [
   "http://website.com/page/"
 ]
@@ -287,7 +287,7 @@ The scraper will also consider pages with anchors as different pages. Make sure 
 
 *Bad:*
 
-```
+```json
 "stop_urls": [
   "http://website.com/page/#foo"
 ]
@@ -295,7 +295,7 @@ The scraper will also consider pages with anchors as different pages. Make sure 
 
 *Good:*
 
-```
+```json
 "stop_urls": [
   "/$"
 ]
@@ -303,7 +303,7 @@ The scraper will also consider pages with anchors as different pages. Make sure 
 
 Or :
 
-```
+```json
 "stop_urls": [
   "http://website.com/page/"
 ]
