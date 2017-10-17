@@ -1,24 +1,23 @@
 {
-  "index_name": "atlassianps",
-  "start_urls": [
-    "https://atlassianps.github.io/docs/"
-  ],
-  "stop_urls": [],
-  "selectors": {
-    "lvl0": {
-      "selector": ".bd-toc-item.active .bd-toc-link",
-      "global": true
+    "index_name": "atlassianps",
+    "start_urls": [
+        "https://atlassianps.org/docs/"
+    ],
+    "stop_urls": [],
+    "selectors": {
+        "lvl0": ".doc-nav ul.onepress-menu>li.menu-item.active",
+        // what would be the benefit of "global": true?
+        "lvl1": ".doc-nav ul.onepress-menu>li>ul.sub-menu>li.menu-item.active",
+        //what happens when this is empty / does not exist?
+        "lvl2": "section.content h1",
+        "lvl3": "section.content h2",
+        "lvl4": "section.content h3",
+        "lvl5": "section.content h4",
+        //what happens when this is empty / does not exist?
+        "text": "section.content p, section.content li, section.content pre, section.content code, section.content blockquote"
+            // does pre, code and blockquote make sense?
     },
-    "lvl1": {
-      "selector": "//*[contains(@class, 'bd-content')]/h1[1]",
-      "type": "xpath"
-    },
-    "lvl2": ".bd-content h2",
-    "lvl3": ".bd-content h3",
-    "lvl4": ".bd-content h4",
-    "text": ".bd-content p, .bd-content li"
-  },
-  "strip_chars": "\u2014\u2013 --",
-  "min_indexed_level": 1,
-  "nb_hits": 600
+    "strip_chars": "\u2014\u2013 --",
+    "min_indexed_level": 2,
+    "nb_hits": 600
 }
