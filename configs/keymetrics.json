@@ -1,0 +1,27 @@
+{
+  "index_name": "keymetrics",
+  "start_urls": [
+    "http://pm2.keymetrics.io/docs/"
+  ],
+  "sitemap_urls": [
+    "http://pm2.keymetrics.io/sitemap.xml"
+  ],
+  "stop_urls": [
+    "pm2-doc-single-page"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='navigator']//a[contains(@class, 'main-active')]/preceding::*[contains(@class, 'nav-title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Doc"
+    },
+    "lvl1": ".docs-content h2",
+    "lvl2": ".docs-content h3",
+    "lvl3": ".docs-content h4",
+    "lvl4": ".docs-content h5",
+    "lvl5": ".docs-content h6",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "nb_hits": 843
+}
