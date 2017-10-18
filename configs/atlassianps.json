@@ -1,21 +1,28 @@
 {
     "index_name": "atlassianps",
     "start_urls": [
-        "https://atlassianps.org/docs/"
+        "https://atlassianps.github.io/docs/"
     ],
     "stop_urls": [],
+    "sitemap_urls": [
+        "https://atlassianps.github.io/sitemap.xml"
+    ],
+    "sitemap_urls_regexs": "/docs/",
     "selectors": {
-        "lvl0": ".doc-nav ul.onepress-menu>li.menu-item.active",
-        // what would be the benefit of "global": true?
-        "lvl1": ".doc-nav ul.onepress-menu>li>ul.sub-menu>li.menu-item.active",
-        //what happens when this is empty / does not exist?
+        "lvl0": {
+            "selector": ".doc-nav ul.onepress-menu>li.menu-item.active",
+            "global": true
+        },
+        "lvl1": {
+            "selector": ".doc-nav ul.onepress-menu>li>ul.sub-menu>li.menu-item.active",
+            "default_value": "",
+            "global": true
+        },
         "lvl2": "section.content h1",
         "lvl3": "section.content h2",
         "lvl4": "section.content h3",
         "lvl5": "section.content h4",
-        //what happens when this is empty / does not exist?
-        "text": "section.content p, section.content li, section.content pre, section.content code, section.content blockquote"
-            // does pre, code and blockquote make sense?
+        "text": "section.content p, section.content li"
     },
     "strip_chars": "\u2014\u2013 --",
     "min_indexed_level": 2,
