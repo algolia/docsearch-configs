@@ -1,0 +1,17 @@
+{
+  "index_name": "momentjs",
+  "start_urls": [
+    "https://momentjs.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".hero h1",
+    "lvl1": ".docs-content h2",
+    "lvl2": ".docs-content h3",
+    "lvl3": ".docs-content h4",
+    "lvl4": ".docs-content h5",
+    "lvl5": ".docs-content h6",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "nb_hits": 887
+}
