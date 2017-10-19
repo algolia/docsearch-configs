@@ -8,7 +8,7 @@
     "lvl0": {
       "selector": "",
       "type": "xpath",
-      "default_value": "Documentation"
+      "default_value": "Articles"
     },
     "lvl1": ".post h1",
     "lvl2": ".post h2",
