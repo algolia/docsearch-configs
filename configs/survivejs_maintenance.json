@@ -1,7 +1,7 @@
 {
-  "index_name": "survivejs_react",
+  "index_name": "survivejs_maintenance",
   "sitemap_urls_regexs": [
-    "/react/"
+    "/maintenance/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -23,5 +23,5 @@
   "min_indexed_level": 2,
   "scrap_start_urls": false,
   "strip_chars": " .,;:#",
-  "nb_hits": 970
+  "nb_hits": 832
 }
