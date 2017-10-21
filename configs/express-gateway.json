@@ -8,9 +8,18 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "section h1",
-    "lvl1": "section h2",
-    "lvl2": "section h3",
+    "lvl0": {
+      "selector": "//nav[@class='sidebar-docs']/ul/li/a[../input[contains(@class,'expanded')]] | //section[@class='doc-wrapper']/h1",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//nav[@class='sidebar-docs']/ul/li/ul/li/a[../input[contains(@class,'expanded')]] | //section[@class='doc-wrapper']/h2",
+      "type": "xpath"
+    },
+    "lvl2": {
+      "selector": "//nav[@class='sidebar-docs']/ul/li/ul/li//a[contains(@class,'active')]",
+      "type": "xpath"
+    },
     "lvl3": "section h4",
     "lvl4": "section h5",
     "text": "section p, section li"
