@@ -1,0 +1,45 @@
+{
+  "index_name": "librato",
+  "start_urls": [
+    "http://www.librato.com/docs/",
+    "http://www.librato.com/docs/kb/",
+    {
+      "url": "http://www.librato.com/docs/api/",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://www.librato.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".wy-menu li.toctree-l1.current>a",
+        "default_value": "Documentation",
+        "global": true
+      },
+      "lvl1": ".document h1",
+      "lvl2": ".document h2",
+      "lvl3": ".document h3",
+      "lvl4": ".document h4",
+      "text": ".document p, .document li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li"
+    }
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 2537
+}
