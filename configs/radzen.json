@@ -1,0 +1,16 @@
+{
+  "index_name": "radzen",
+  "start_urls": [
+    "https://www.radzen.com/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".documentation-content h1",
+    "lvl1": ".documentation-content h2",
+    "lvl2": ".documentation-content h3",
+    "lvl3": ".documentation-content h4",
+    "lvl4": ".documentation-content h5",
+    "text": ".documentation-content p, .documentation-content li"
+  },
+  "nb_hits": 1684
+}
