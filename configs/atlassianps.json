@@ -11,7 +11,7 @@
     "selectors": {
         "lvl0": ".page.documentation *[data-algolia=\"lvl0\"]",
         "lvl1": ".page.documentation *[data-algolia=\"lvl1\"]",
-        "lvl2": ".page.documentation section.content h1",
+        "lvl2": ".page.documentation section.content h1:first-of-type",
         "lvl3": ".page.documentation section.content h2",
         "lvl4": ".page.documentation section.content h3",
         "lvl5": ".page.documentation section.content h4",
