@@ -1,24 +1,23 @@
 {
-  "index_name": "atlassianps",
-  "start_urls": [
-    "https://atlassianps.github.io/docs/"
-  ],
-  "stop_urls": [],
-  "selectors": {
-    "lvl0": {
-      "selector": ".bd-toc-item.active .bd-toc-link",
-      "global": true
+    "index_name": "atlassianps",
+    "start_urls": [
+        "https://atlassianps.org/docs/"
+    ],
+    "stop_urls": [],
+    "sitemap_urls": [
+        "https://atlassianps.org/sitemap.xml"
+    ],
+    "sitemap_urls_regexs": "/docs/",
+    "selectors": {
+        "lvl0": ".page.documentation *[data-algolia=\"lvl0\"]",
+        "lvl1": ".page.documentation *[data-algolia=\"lvl1\"]",
+        "lvl2": ".page.documentation section.content h1",
+        "lvl3": ".page.documentation section.content h2",
+        "lvl4": ".page.documentation section.content h3",
+        "lvl5": ".page.documentation section.content h4",
+        "text": ".page.documentation section.content p, section.content li"
     },
-    "lvl1": {
-      "selector": "//*[contains(@class, 'bd-content')]/h1[1]",
-      "type": "xpath"
-    },
-    "lvl2": ".bd-content h2",
-    "lvl3": ".bd-content h3",
-    "lvl4": ".bd-content h4",
-    "text": ".bd-content p, .bd-content li"
-  },
-  "strip_chars": "\u2014\u2013 --",
-  "min_indexed_level": 1,
-  "nb_hits": 600
+    "strip_chars": "\u2014\u2013 --",
+    "min_indexed_level": 2,
+    "nb_hits": 600
 }
