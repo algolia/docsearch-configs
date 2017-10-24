@@ -17,5 +17,6 @@
     "lvl4": ".doc-content h4",
     "text": ".doc-content p, .doc-content li"
   },
-  "nb_hits": 74
+  "min_indexed_level": 1,
+  "nb_hits": 158
 }
