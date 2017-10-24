@@ -9,20 +9,13 @@
     ],
     "sitemap_urls_regexs": "/docs/",
     "selectors": {
-        "lvl0": {
-            "selector": ".doc-nav ul.onepress-menu >li.menu-item.active >a",
-            "global": true
-        },
-        "lvl1": {
-            "selector": ".doc-nav ul.onepress-menu >li >ul.sub-menu >li.menu-item.active >a",
-            "default_value": "",
-            "global": true
-        },
-        "lvl2": "section.content h1",
-        "lvl3": "section.content h2",
-        "lvl4": "section.content h3",
-        "lvl5": "section.content h4",
-        "text": "section.content p, section.content li"
+        "lvl0": ".page.documentation *[data-algolia=\"lvl0\"]",
+        "lvl1": ".page.documentation *[data-algolia=\"lvl1\"]",
+        "lvl2": ".page.documentation section.content h1",
+        "lvl3": ".page.documentation section.content h2",
+        "lvl4": ".page.documentation section.content h3",
+        "lvl5": ".page.documentation section.content h4",
+        "text": ".page.documentation section.content p, section.content li"
     },
     "strip_chars": "\u2014\u2013 --",
     "min_indexed_level": 2,
