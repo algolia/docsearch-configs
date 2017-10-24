@@ -15,9 +15,9 @@
         "lvl3": ".page.documentation section.content h2",
         "lvl4": ".page.documentation section.content h3",
         "lvl5": ".page.documentation section.content h4",
-        "text": ".page.documentation section.content p, section.content li"
+        "text": ".page.documentation section.content p, .page.documentation section.content li, .page.documentation section.content pre"
     },
-    "strip_chars": "\u2014\u2013 --",
+    "strip_chars": "\u2014\u2013 --_",
     "min_indexed_level": 2,
-    "nb_hits": 600
+    "nb_hits": 636
 }

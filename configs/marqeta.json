@@ -5,13 +5,13 @@
   ],
   "selectors": {
     "lvl0": {
-    	"type": "xpath",
-    	"selector": "//a[@class='active']/../../preceding::h3[1]"
+      "type": "xpath",
+      "selector": "//a[@class='active']/../../preceding::h3[1]"
     },
     "lvl1": "#documentation h1",
     "lvl2": "#documentation h2",
     "lvl3": "#documentation h3",
     "text": "#documentation p, #documentation li"
   },
-  "nb_hits": 2261
+  "nb_hits": 2880
 }
