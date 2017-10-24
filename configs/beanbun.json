@@ -1,0 +1,21 @@
+{
+  "index_name": "beanbun",
+  "start_urls": [
+    "http://beanbun.org/#/"
+  ],
+  "stop_urls": [
+    "http://beanbun.org/#/.+"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "js_render": true,
+  "use_anchors": true,
+   "js_wait": 1,
+  "nb_hits": 213
+}
