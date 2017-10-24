@@ -20,7 +20,7 @@
     "lvl4": ".section h4",
     "text": ".section p, .section li, .section td"
   },
-  "strip_chars": " »#",
+  "strip_chars": " \u00bb#",
   "min_indexed_level": 1,
-  "nb_hits": 14264
+  "nb_hits": 28688
 }
