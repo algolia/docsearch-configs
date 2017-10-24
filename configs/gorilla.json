@@ -1,0 +1,19 @@
+{
+  "index_name": "gorilla",
+  "start_urls": [
+    "https://gorilla.sc/support"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".container h1",
+    "lvl1": ".container p.support-subtitle-light",
+    "lvl2": ".container h3",
+    "lvl3": ".container h4",
+    "lvl4": ".container h5",
+    "text": ".container p, .container li"
+  },
+  "selectors_exclude": [
+    ".support-nav-panel"
+  ],
+  "nb_hits": 2237
+}
