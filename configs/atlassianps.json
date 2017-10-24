@@ -17,7 +17,7 @@
     "lvl5": ".page.documentation section.content h4",
     "text": ".page.documentation section.content p, section.content li"
   },
-  "strip_chars": "\u2014\u2013 --",
+  "strip_chars": "\u2014\u2013 --_",
   "min_indexed_level": 2,
   "nb_hits": 636
 }
