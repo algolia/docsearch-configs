@@ -1,0 +1,20 @@
+{
+  "index_name": "styled-components",
+  "start_urls": [
+    "https://www.styled-components.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "div[class^=\"Layout__Content\"] h1",
+    "lvl1": "div[class^=\"Layout__Content\"] h2",
+    "lvl2": "div[class^=\"Layout__Content\"] h3",
+    "lvl3": "div[class^=\"Layout__Content\"] h4",
+    "lvl4": "div[class^=\"Layout__Content\"] h5",
+    "text": "div[class^=\"Layout__Content\"] p, div[class^=\"Layout__Content\"] li"
+  },
+  "selectors_exclude": [
+    "div[class^=\"react-live\"]"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 301
+}
