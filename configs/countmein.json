@@ -1,0 +1,21 @@
+{
+  "index_name": "countmein",
+  "start_urls": [
+    "https://docs.countmein.online/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//nav[contains(@id,'sidebar')]//*[contains(@class,'parent')]/a)[1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": "#body h1",
+    "lvl2": "#body h4",
+    "lvl3": "#body h5",
+    "lvl4": "#body h6",
+    "text": "#body p, #body li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 809
+}
