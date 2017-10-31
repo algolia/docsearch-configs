@@ -2,15 +2,6 @@
   "index_name": "ckeditor_docs_site",
   "start_urls": [
     {
-      "url": "https://docs.ckeditor.com/ckeditor5/latest/api/module_core_editor_editorconfig-EditorConfig.html",
-      "selectors_key": "api",
-      "page_rank": 1,
-      "tags": [
-        "ckeditor5",
-        "api"
-      ]
-    },
-    {
       "url": "https://docs.ckeditor.com/ckeditor5/latest/api/",
       "selectors_key": "api",
       "tags": [
@@ -92,5 +83,13 @@
 	}
   },
   "min_indexed_level": 1,
+  "custom_settings": {
+	"customRanking": [
+	  "desc(custom_ranking)",
+	  "desc(weight.page_rank)",
+	  "desc(weight.level)",
+	  "asc(weight.position)"
+	]
+  },
   "nb_hits": 15370
 }
