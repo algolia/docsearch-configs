@@ -10,8 +10,8 @@
     ".headerlink"
   ],
   "selectors": {
-    "lvl0": "ul.md-nav__list > li.md-nav__item--active label",
-    "lvl1": "ul.md-nav__list li > nav > ul > li.md-nav__item--active label",
+    "lvl0": ".md-nav--primary > ul.md-nav__list > li.md-nav__item--active > label",
+    "lvl1": ".md-nav--primary > ul.md-nav__list > li > nav > ul > li.md-nav__item--active > label",
     "lvl2": ".md-content h2",
     "lvl3": ".md-content h3",
     "lvl4": ".md-content h4",
@@ -19,5 +19,5 @@
     "text": ".md-content p, .md-content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 1769
+  "nb_hits": 1819
 }
