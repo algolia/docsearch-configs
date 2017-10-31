@@ -2,15 +2,6 @@
   "index_name": "ckeditor_nightly",
   "start_urls": [
     {
-      "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/module_core_editor_editorconfig-EditorConfig.html",
-      "selectors_key": "api",
-      "page_rank": 1,
-      "tags": [
-        "api",
-        "ckeditor5"
-      ]
-    },
-    {
       "url": "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/api/",
       "selectors_key": "api",
       "tags": [
