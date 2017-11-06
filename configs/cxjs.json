@@ -1,0 +1,20 @@
+{
+  "index_name": "cxjs",
+  "start_urls": [
+    "https://docs.cxjs.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".dxe-article-body h1",
+    "lvl1": ".dxe-article-body h2",
+    "lvl2": ".dxe-article-body h3",
+    "lvl3": ".dxe-article-body h4",
+    "lvl4": ".dxe-article-body h5",
+    "text": ".dxe-article-body p, .dxe-article-body li"
+  },
+  "css_exclude": [
+    ".dxb-codesplit"
+  ],
+  "js_render": true,
+  "nb_hits": 3062
+}
