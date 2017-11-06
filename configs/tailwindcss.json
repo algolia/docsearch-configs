@@ -1,0 +1,28 @@
+{
+  "index_name": "tailwindcss",
+  "start_urls": [
+    "https://tailwindcss.com/"
+  ],
+  "stops_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='nav']//a[contains(@class, 'font-bold')]/../../preceding::p[1]",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//*[@id='nav']//ul/li/a[contains(@class, 'font-bold')]",
+      "type": "xpath"
+    },
+    "lvl2": {
+      "selector": "//*[@id='nav']//ul/li/ul/li/a[contains(@class, 'font-bold')]",
+      "type": "xpath"
+    },
+    "lvl3": "#app h3",
+    "lvl4": "#app h4",
+    "lvl5": "#app h5",
+    "text": "#app p, #app .markdown > .text-slate-light"
+  },
+  "min_indexed_level": 2,
+  "js_render": false,
+  "nb_hits": 502
+}
