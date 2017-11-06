@@ -1,0 +1,24 @@
+{
+  "index_name": "rollcalldocs",
+  "start_urls": [
+    "https://rollcalldocs.netlify.com/"
+  ],
+  "sitemap_urls": [
+    "https://rollcalldocs.netlify.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu a.has-text-weight-bold",
+      "global": true
+    },
+    "lvl1": ".docsearch-content h1",
+    "lvl2": ".docsearch-content h2",
+    "lvl3": ".docsearch-content h3",
+    "lvl4": ".docsearch-content h4",
+    "text": ".docsearch-content p, .docsearch-content li"
+  },
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nb_hits": 2301
+}
