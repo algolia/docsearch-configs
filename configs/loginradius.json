@@ -3,6 +3,9 @@
   "sitemap_urls": [
     "https://docs.loginradius.com/sitemap.xml"
   ],
+  "start_urls":[
+    "https://docs.loginradius.com/api?accesscode=RaQaDLUY"
+    ],
   "stop_urls": [
     "https://docs.loginradius.com/blog/",
     "https://docs.loginradius.com/getting-started/glossary"
