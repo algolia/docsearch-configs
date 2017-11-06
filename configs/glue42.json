@@ -1,0 +1,16 @@
+{
+  "index_name": "glue42",
+  "start_urls": [
+    "https://docs.glue42.com/g4e/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".head-item h1",
+    "lvl1": ".head-item h2",
+    "lvl2": ".head-item h3",
+    "lvl3": ".head-item h4",
+    "lvl4": ".head-item h5",
+    "text": ".head-item p, .head-item li"
+  },
+  "nb_hits": 989
+}
