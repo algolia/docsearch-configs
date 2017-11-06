@@ -3,6 +3,9 @@
   "start_urls": [
     "https://docs.apimatic.io"
   ],
+  "sitemap_urls": [
+    "https://docs.apimatic.io/sitemap.xml"
+  ],
   "stop_urls": [
     "https://docs.apimatic.io$",
     "api-description",
@@ -12,7 +15,7 @@
     "lvl0": {
       "selector": "//div[contains(@class, 'toc')]/ul/li/ul/li/a[contains(@class, 'selected')]/../../preceding::h5[1]",
       "type": "xpath",
-      "default_value": "documentation"
+      "default_value": "Documentation"
     },
     "lvl1": "article h1",
     "lvl2": "article h2",
@@ -23,5 +26,5 @@
   },
   "scrap_start_urls": false,
   "min_indexed_level": 1,
-  "nb_hits": 2337
+  "nb_hits": 4892
 }
