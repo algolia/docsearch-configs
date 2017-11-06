@@ -3,17 +3,23 @@
   "start_urls": [
     "https://docs.portworx.com/"
   ],
+  "sitemap_urls": [
+    "https://docs.portworx.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "release-notes"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "//ul[@id='mysidebar']//li[@class='active']/../../a",
+      "selector": "(//*[contains(@class,'active')])[1]/a",
       "type": "xpath",
       "default_value": "Documentation"
     },
     "lvl1": ".col-md-9 h1",
     "lvl2": ".col-md-9 h2",
-    "lvl3": ".col-md-9 h4",
+    "lvl3": ".col-md-9 h3",
     "text": ".col-md-9 p, .col-md-9 li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 2003
+  "nb_hits": 4638
 }
