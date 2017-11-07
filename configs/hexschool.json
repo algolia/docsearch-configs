@@ -1,7 +1,8 @@
 {
   "index_name": "hexschool",
   "start_urls": [
-    "http://bootstrap.hexschool.com/docs/4.0/"
+    "http://bootstrap.hexschool.com/docs/4.0/",
+    "http://bootstrap.hexschool.com/docs/4.0/getting-started/introduction/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -12,5 +13,5 @@
     "text": ".bd-content p, .bd-content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2559
+  "nb_hits": 2772
 }
