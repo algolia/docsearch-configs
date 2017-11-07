@@ -1,16 +1,22 @@
 {
   "index_name": "metabox",
   "start_urls": [
-    "https://metabox.io/docs/"
+    "https://docs.metabox.io/"
   ],
-  "stop_urls": [
-    "https://metabox.io/docs/index.html"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": "header.entry-header h1.entry-title",
-    "lvl1": "div.entry-content h2",
-    "text": "div.entry-content p"
+    "lvl0": {
+      "selector": "//nav[contains(@class,'docs-navigation')]//li[contains(@class,'is-active')]/h4",
+      "type": "xpath",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
   },
-  "min_indexed_level": 1,
-  "nb_hits": 508
+  "min_indexed_level": 2,
+  "nb_hits": 2057
 }
