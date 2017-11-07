@@ -1,0 +1,16 @@
+{
+  "index_name": "pre-commit",
+  "start_urls": [
+    "http://pre-commit.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#intro h1",
+    "lvl1": "#intro h2",
+    "lvl2": "#intro h3",
+    "lvl3": "#intro h4",
+    "lvl4": "#intro h5",
+    "text": "#intro p, #intro li"
+  },
+  "nb_hits": 310
+}
