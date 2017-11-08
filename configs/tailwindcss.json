@@ -16,6 +16,7 @@
     "lvl5": "#app h5",
     "text": "#app p, #app .markdown > .text-slate-light, #app td"
   },
+  "js_render": true,
   "min_indexed_level": 1,
-  "nb_hits": 2029
+  "nb_hits": 4193
 }
