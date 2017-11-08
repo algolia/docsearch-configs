@@ -14,8 +14,8 @@
     "lvl3": "#app h3",
     "lvl4": "#app h4",
     "lvl5": "#app h5",
-    "text": "#app p, #app .markdown > .text-slate-light"
+    "text": "#app p, #app .markdown > .text-slate-light, #app td"
   },
   "min_indexed_level": 1,
-  "nb_hits": 635
+  "nb_hits": 2029
 }
