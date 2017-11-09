@@ -1,0 +1,21 @@
+{
+  "index_name": "elm-lang",
+  "start_urls": [
+    "https://guide.elm-lang.org"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav/ul/li[contains(@class,'active') or .//li[contains(@class,'active')]]/a",
+      "type": "xpath",
+      "global": true,
+      "default_value":"Documentation"
+    },
+    "lvl1": ".page-inner h1",
+    "lvl2": ".page-inner h2",
+    "lvl3": ".page-inner h3",
+    "lvl4": ".page-inner h4",
+    "text": ".page-inner p, .page-inner li"
+  },
+  "min_indexed_level":1
+}
