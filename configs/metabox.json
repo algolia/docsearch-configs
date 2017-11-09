@@ -5,17 +5,12 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//nav[contains(@class,'docs-navigation')]//li[contains(@class,'is-active')]/h4",
-      "type": "xpath",
-      "default_value": "Documentation",
-      "global": true
-    },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "text": "article p, article li"
+    "lvl0": ".docs-navigation__cat.is-active .docs-navigation__heading",
+    "lvl1": ".entry-title",
+    "lvl2": ".entry-content h2",
+    "lvl3": ".entry-content h3",
+    "lvl4": ".entry-content h4",
+    "text": ".entry-content p, .entry-content li"
   },
   "min_indexed_level": 2,
   "nb_hits": 2057
