@@ -26,7 +26,7 @@
       "desc(weight.level)",
       "asc(weight.position)"
     ],
-    "searchableAttributes": [
+    "attributesToIndex": [
       "keywords",
       "hierarchy",
       "hierarchy_camel",
