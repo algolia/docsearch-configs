@@ -1,0 +1,31 @@
+{
+  "index_name": "pure_js",
+  "start_urls": [
+    "https://pure.js.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//nav//*[contains(@class,'active')]",
+      "type": "xpath"
+    },
+    "lvl2": ".docs h3",
+    "lvl3": ".docs h4",
+    "lvl4": ".docs h5",
+    "text": ".docs p, .docs li"
+  },
+  "conversations_id": [
+    "464161801"
+  ],
+  "js_render": true,
+  "use_anchors": true,
+  "min_indexed_level": 2,
+  "scrap_start_urls": false,
+  "nb_hits": 93
+}
