@@ -9,7 +9,7 @@
       "selector": "//nav/ul/li[contains(@class,'active') or .//li[contains(@class,'active')]]/a",
       "type": "xpath",
       "global": true,
-      "default_value":"Documentation"
+      "default_value": "Documentation"
     },
     "lvl1": ".page-inner h1",
     "lvl2": ".page-inner h2",
@@ -17,5 +17,6 @@
     "lvl4": ".page-inner h4",
     "text": ".page-inner p, .page-inner li"
   },
-  "min_indexed_level":1
+  "min_indexed_level": 1,
+  "nb_hits": 759
 }
