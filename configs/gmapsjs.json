@@ -12,8 +12,7 @@
     "lvl4": "#mainContent h5",
     "text": "#mainContent p, #mainContent li"
   },
-  "conversations_id": [
+  "conversation_id": [
     "466019125"
-  ],
-  "nb_hits": 138
+  ]
 }
