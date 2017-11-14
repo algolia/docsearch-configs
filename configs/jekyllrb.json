@@ -21,5 +21,6 @@
   "selectors_exclude": [
     ".note"
   ],
-  "nb_hits": 4355
+  "min_indexed_level": 2,
+  "nb_hits": 4266
 }
