@@ -1,0 +1,31 @@
+{
+  "index_name": "networknt",
+  "start_urls": [
+    "https://doc.networknt.com/"
+  ],
+  "sitemap_urls": [
+    "https://doc.networknt.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/news/",
+    "/categories/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav > ul > li > a[class*='primary']",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": ".documentation-copy h1",
+    "lvl2": ".documentation-copy h2",
+    "lvl3": ".documentation-copy h3",
+    "lvl4": ".documentation-copy h4",
+    "text": ".documentation-copy p, .documentation-copy li"
+  },
+  "min_indexed_level": 2,
+  "js_render": true,
+  "conversation_id": [
+    "465725334"
+  ],
+  "nb_hits": 2975
+}
