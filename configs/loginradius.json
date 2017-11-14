@@ -9,6 +9,7 @@
   ],
   "stop_urls": [
     "https://docs.loginradius.com/blog/",
+    "https://docs.loginradius.com/api/v1/",
     "https://docs.loginradius.com/getting-started/glossary"
   ],
   "selectors": {
