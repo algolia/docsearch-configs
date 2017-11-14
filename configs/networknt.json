@@ -23,9 +23,8 @@
     "text": ".documentation-copy p, .documentation-copy li"
   },
   "min_indexed_level": 2,
-  "js_render": true,
   "conversation_id": [
     "465725334"
   ],
-  "nb_hits": 2975
+  "nb_hits": 2974
 }
