@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//aside//*[contains(@class,'current')]/preceding::h4",
+      "selector": "//aside//*[contains(@class,'current')]/preceding::h4[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
