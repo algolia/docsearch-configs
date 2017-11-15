@@ -2,7 +2,10 @@
   "index_name": "pingcap",
   "start_urls": [
     "https://pingcap.com/docs/",
-    "https://pingcap.com/docs-cn/"
+    "https://pingcap.com/docs-cn/",
+    "https://pingcap.com/blog/",
+    "https://pingcap.com/blog-cn/",
+    "https://pingcap.com/weekly/"
   ],
   "stop_urls": [
     "^((?!https://pingcap.com/doc).)*$"
