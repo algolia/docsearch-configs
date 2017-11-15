@@ -5,8 +5,7 @@
     "https://pingcap.com/docs-cn/"
   ],
   "stop_urls": [
-    "^((?!https://pingcap.com/doc).)*$",
-    "^(https://pingcap.com/doc-)*$"
+    "^((?!https://pingcap.com/doc).)*$"
   ],
   "selectors": {
     "lvl0": ".content h1",
