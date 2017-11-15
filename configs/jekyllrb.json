@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//aside//*[contains(@class,'current')]/preceding::h4",
+      "selector": "//aside//*[contains(@class,'current')]/preceding::h4[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -21,5 +21,6 @@
   "selectors_exclude": [
     ".note"
   ],
-  "nb_hits": 4342
+  "min_indexed_level": 2,
+  "nb_hits": 4266
 }

@@ -20,7 +20,7 @@
     "lvl4": ".docs h5",
     "text": ".docs p, .docs li"
   },
-  "conversations_id": [
+  "conversation_id": [
     "464161801"
   ],
   "js_render": true,

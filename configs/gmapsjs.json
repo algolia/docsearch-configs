@@ -1,0 +1,19 @@
+{
+  "index_name": "gmapsjs",
+  "start_urls": [
+    "http://gmapsjs.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#mainContent h1",
+    "lvl1": "#mainContent h2",
+    "lvl2": "#mainContent h3",
+    "lvl3": "#mainContent h4",
+    "lvl4": "#mainContent h5",
+    "text": "#mainContent p, #mainContent li"
+  },
+  "conversation_id": [
+    "466019125"
+  ],
+  "nb_hits": 192
+}

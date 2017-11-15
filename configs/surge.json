@@ -1,0 +1,22 @@
+{
+  "index_name": "surge",
+  "start_urls": [
+    "http://docs-example.surge.sh"
+  ],
+  "stop_urls": [
+    "/blog/",
+    "/examples/"
+  ],
+  "selectors": {
+    "lvl0": ".docs-toc-item.active > a",
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "465978095"
+  ],
+  "nb_hits": 851
+}

@@ -1,22 +1,55 @@
 {
   "index_name": "sceditor",
   "start_urls": [
-    "https://www.sceditor.com/documentation/"
+    {
+      "url": "https://www.sceditor.com/documentation/",
+      "selectors_key": "documentation",
+      "tags": [
+        "doc"
+      ]
+    },
+    {
+      "url": "https://www.sceditor.com/api/",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    }
   ],
   "sitemap_urls": [
     "https://www.sceditor.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".Documentation__content h1",
-    "lvl1": ".Documentation__content h2",
-    "lvl2": ".Documentation__content h3",
-    "lvl3": ".Documentation__content h4",
-    "lvl4": ".Documentation__content h5",
-    "text": ".Documentation__content p, .Documentation__content li"
+    "documentation": {
+      "lvl0": {
+        "selector": ".Documentation__content h1",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".Documentation__content h2",
+      "lvl2": ".Documentation__content h3",
+      "lvl3": ".Documentation__content h4",
+      "lvl4": ".Documentation__content h5",
+      "text": ".Documentation__content p, .Documentation__content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": {
+        "selector": "//ul[contains(@class,'Breadcrumb')]/li[3]/a",
+        "type": "xpath",
+        "default_value": "Method"
+      },
+      "lvl2": ".Documentation__content h2",
+      "lvl3": ".Documentation__content h3",
+      "lvl4": ".Documentation__content h4",
+      "text": ".Documentation__content p, .Documentation__content li"
+    }
   },
-  "conversations_id": [
+  "conversation_id": [
     "465037355"
   ],
-  "nb_hits": 565
+  "nb_hits": 1667
 }

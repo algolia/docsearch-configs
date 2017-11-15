@@ -1,0 +1,19 @@
+{
+  "index_name": "tipotapp",
+  "start_urls": [
+    "https://dev.tipotapp.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "466113087"
+  ],
+  "nb_hits": 3115
+}
