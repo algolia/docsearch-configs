@@ -9,35 +9,24 @@
       ]
     },
     "https://thumbprint.thumbtack.com/",
-    "https://thumbprint.thumbtack.com/docs/"
-  ],
-  "stop_urls": [
-    "https://thumbprint.thumbtack.com/docs/kitchen-sink.html"
+    "https://thumbprint.thumbtack.com/guide/",
+    "https://thumbprint.thumbtack.com/tokens/",
+    "https://thumbprint.thumbtack.com/ui/",
+    "https://thumbprint.thumbtack.com/icons/"
   ],
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "//*[contains(@class,'sidebar')]//a[contains(@class,'active')]//preceding::*[contains(@class,'title')][1]",
+        "selector": "//*[contains(@data-id,'sidebar')]//a[contains(@class,'active')]//preceding::*[contains(@class,'title')][1]",
         "type": "xpath",
         "default_value": "Documentation"
       },
-      "lvl1": ".content .content__head",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
-      "text": ".content p, .content li"
+      "lvl1": "h1",
+      "lvl2": "h2",
+      "lvl3": "h3",
+      "lvl4": "h4",
+      "text": "[data-id='content'] p, [data-id='content'] li"
     },
-    "long_read": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Long read"
-      },
-      "lvl1": ".longread h1",
-      "lvl2": ".longread h2",
-      "lvl3": ".longread h3",
-      "lvl4": ".longread h4",
-      "text": ".longread p, .longread li"
-    }
   },
   "nb_hits": 674
 }
