@@ -3,7 +3,7 @@
   "start_urls": [
     "https://tailwindcss.com/"
   ],
-  "stops_urls": [],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[@id='nav']//a[contains(@class, 'font-bold')]/../../preceding::p[1]",
