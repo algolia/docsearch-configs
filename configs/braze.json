@@ -13,18 +13,26 @@
     "https://www.braze.com/documentation/Platform_Wide",
     "https://www.braze.com/academy/Getting_Started"
   ],
+  "sitemap_urls": [
+    "https://www.braze.com/sitemap.xml"
+  ],
   "scrap_start_urls": false,
   "stop_urls": [
-    ".*?[^/]$"
+    ".*?[^/]$",
+    "://.*//"
   ],
   "selectors": {
-    "lvl0": "ul.nav a.heading",
+    "lvl0": {
+      "selector": "ul.nav a.heading",
+      "default_value": "Documentation",
+      "global": true
+    },
     "lvl1": ".article h1",
     "lvl2": ".article h2",
     "lvl3": ".article h3",
     "lvl4": ".article h4",
     "text": ".article p, .article li"
   },
-  "nb_hits": 8625,
+  "nb_hits": 10485,
   "min_indexed_level": 2
 }
