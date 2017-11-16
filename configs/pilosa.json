@@ -13,13 +13,10 @@
           "latest"
         ]
       }
-    },
-    "https://www.pilosa.com/docs/v0.4/installation/",
-    "https://www.pilosa.com/docs/v0.5/installation/",
-    "https://www.pilosa.com/docs/v0.6/installation/",
-    "https://www.pilosa.com/docs/v0.7/installation/",
-    "https://www.pilosa.com/docs/v0.8/installation/",
-    "https://www.pilosa.com/docs"
+    }
+  ],
+  "sitemap_urls": [
+    "https://www.pilosa.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -30,5 +27,5 @@
     "text": "#content p, #content li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 3930
+  "nb_hits": 4991
 }
