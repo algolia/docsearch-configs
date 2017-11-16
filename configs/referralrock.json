@@ -3,7 +3,10 @@
   "start_urls": [
     "https://referralrock.com/knowledgebase/"
   ],
-  "selctors_exclude": [
+  "sitemap_urls": [
+    "https://referralrock.com/sitemap.xml"
+  ],
+  "selectors_exclude": [
     "#table-of-contents"
   ],
   "stop_urls": [
@@ -19,5 +22,5 @@
     "text": "#body-inner p, #body-inner li"
   },
   "scrap_start_urls": false,
-  "nb_hits": 1890
+  "nb_hits": 2895
 }
