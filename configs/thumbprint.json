@@ -17,7 +17,7 @@
       "lvl2": "h2",
       "lvl3": "h3",
       "lvl4": "h4",
-      "text": "[data-id='content'] p, [data-id='content'] li"
+      "text": "[data-id='content'] p, [data-id='content'] li, [data-id='content'] table, [data-id='content'] code"
     },
   },
   "nb_hits": 674
