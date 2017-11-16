@@ -9,7 +9,7 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "//*[contains(@data-id,'header__links')]//a[@data-active(@class,'active')]",
+        "selector": "//*[@data-id='header__links']//a[@data-active='true']",
         "type": "xpath",
         "default_value": "Documentation"
       },
