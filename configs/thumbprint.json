@@ -1,14 +1,6 @@
 {
   "index_name": "thumbprint",
   "start_urls": [
-    {
-      "url": "https://thumbprint.thumbtack.com/docs/longread/",
-      "selectors_key": "long_read",
-      "tags": [
-        "long_read"
-      ]
-    },
-    "https://thumbprint.thumbtack.com/",
     "https://thumbprint.thumbtack.com/guide/",
     "https://thumbprint.thumbtack.com/tokens/",
     "https://thumbprint.thumbtack.com/ui/",
@@ -17,7 +9,7 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "//*[contains(@data-id,'sidebar')]//a[contains(@class,'active')]//preceding::*[contains(@class,'title')][1]",
+        "selector": "//*[contains(@data-id,'header__links')]//a[@data-active(@class,'active')]",
         "type": "xpath",
         "default_value": "Documentation"
       },
