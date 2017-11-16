@@ -9,6 +9,7 @@
           "v0.5",
           "v0.6",
           "v0.7",
+          "v0.8",
           "latest"
         ]
       }
@@ -17,6 +18,7 @@
     "https://www.pilosa.com/docs/v0.5/installation/",
     "https://www.pilosa.com/docs/v0.6/installation/",
     "https://www.pilosa.com/docs/v0.7/installation/",
+    "https://www.pilosa.com/docs/v0.8/installation/",
     "https://www.pilosa.com/docs"
   ],
   "stop_urls": [],
