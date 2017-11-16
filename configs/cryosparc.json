@@ -14,6 +14,6 @@
     "lvl4": ".content-wrapper .document-formatting h4",
     "text": ".content-wrapper p, .content-wrapper li, .header-content .subtitle-page"
   },
-  "min_indexed_lvl": 1,
-  "nb_hits": 214
+  "min_indexed_level": 1,
+  "nb_hits": 352
 }
