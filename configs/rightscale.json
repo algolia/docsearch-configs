@@ -26,8 +26,9 @@
       "desc(weight.level)",
       "asc(weight.position)"
     ],
+    "attributeCriteriaComputedByMinProximity": false,
     "attributesToIndex": [
-      "keywords",
+      "unordered(keywords)",
       "hierarchy",
       "hierarchy_camel",
       "content",
@@ -36,5 +37,5 @@
     ]
   },
   "min_indexed_level": 2,
-  "nb_hits": 47581
+  "nb_hits": 47649
 }
