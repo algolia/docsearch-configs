@@ -1,0 +1,21 @@
+{
+  "index_name": "youi",
+  "start_urls": [
+    "https://s3.amazonaws.com/youi-training/Doxygen+volumes/4.5.0/Doxygen4.5/html/index.html",
+    "https://s3.amazonaws.com/youi-training/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#doc-content h2",
+    "lvl1": "#doc-content h3",
+    "lvl2": "#doc-content h4",
+    "lvl3": "#doc-content h5",
+    "lvl4": "#doc-content h6",
+    "text": "#doc-content p, #doc-content li"
+  },
+  "conversation_id": [
+    "455631250"
+  ],
+  "min_indexed_level": 2,
+  "nb_hits": 11196
+}
