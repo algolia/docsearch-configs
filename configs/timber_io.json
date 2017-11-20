@@ -1,5 +1,5 @@
 {
-  "index_name": "timber",
+  "index_name": "timber_io",
   "start_urls": [
     "https://timber.io/docs"
   ],
@@ -14,6 +14,5 @@
   },
   "conversation_id": [
     "468591156"
-  ],
-  "nb_hits": 2617
+  ]
 }
