@@ -1,0 +1,33 @@
+{
+  "index_name": "search_v3_places",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/places/documentation.html",
+      "tags": [
+        "Places"
+      ],
+      "extra_attributes": {
+        "language": "places"
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": ""
+    },
+    "lvl1": {
+      "selector": "",
+      "default_value": "Algolia Places"
+    },
+    "lvl2": ".documentation-container h2",
+    "lvl3": ".documentation-container h3",
+    "lvl4": ".documentation-container h4",
+    "lvl5": ".documentation-container h5",
+    "lvl6": ".documentation-container h6",
+    "text": ".documentation-container p, .documentation-container li"
+  },
+  "only_content_level": true,
+  "nb_hits": 201
+}

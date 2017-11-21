@@ -1,0 +1,35 @@
+{
+  "index_name": "search_v3_zendesk",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/zendesk/documentation/",
+      "tags": [
+        "Zendesk"
+      ],
+      "extra_attributes": {
+        "category": "Guide",
+        "type_level": 100,
+        "language": "zendesk"
+      },
+      "selectors_key": "guide"
+    }
+  ],
+  "stop_urls": [
+    "https://community.algolia.com/algoliasearch-helper-js/examples.html"
+  ],
+  "selectors": {
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl1": "article h2",
+      "lvl2": "article h3",
+      "lvl3": "article h4",
+      "lvl4": "article h5",
+      "text": "article p, article ul, article ol"
+    }
+  },
+  "only_content_level": true,
+  "nb_hits": 31
+}
