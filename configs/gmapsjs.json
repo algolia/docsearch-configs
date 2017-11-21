@@ -10,7 +10,7 @@
     "lvl2": "#mainContent h3",
     "lvl3": "#mainContent h4",
     "lvl4": "#mainContent h5",
-    "text": "#mainContent p, #mainContent li"
+    "text": "#mainContent p, #mainContent td, #mainContent .ui.message"
   },
   "conversation_id": [
     "466019125"
