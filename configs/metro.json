@@ -1,8 +1,8 @@
 {
-  "index_name": "jest",
+  "index_name": "metro",
   "start_urls": [
     {
-      "url": "http://facebook.github.io/metro-bundler/docs/",
+      "url": "http://facebook.github.io/metro/docs/",
     }
   ],
   "selectors_exclude": [
