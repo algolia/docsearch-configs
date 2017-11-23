@@ -2,29 +2,32 @@
   "index_name": "realm-io",
   "start_urls": [
     {
-      "url": "https://realm.io/docs/",
+      "url": "https://www.realm.io/docs/.*/latest/.*",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://realm.io/kr/docs/",
+      "url": "https://www.realm.io/kr/docs/.*/latest/.*",
       "tags": [
         "kr"
       ]
     },
     {
-      "url": "https://realm.io/cn/docs/",
+      "url": "https://www.realm.io/cn/docs/.*/latest/.*",
       "tags": [
         "cn"
       ]
     },
     {
-      "url": "https://realm.io/jp/docs/",
+      "url": "https://www.realm.io/jp/docs/.*/latest/.*",
       "tags": [
         "jp"
       ]
     }
+  ],
+  "sitemap_urls": [
+    "https://realm.io/sitemap.xml"
   ],
   "stop_urls": [
     "api",
@@ -46,6 +49,7 @@
     "lvl4": ".docs-body h5",
     "text": ".docs-body p, .docs-body li"
   },
+  "force_sitemap_urls_crawling": true,
   "min_indexed_level": 2,
-  "nb_hits": 19024
+  "nb_hits": 16235
 }
