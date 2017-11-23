@@ -2,7 +2,7 @@
   "index_name": "metro",
   "start_urls": [
     {
-      "url": "http://facebook.github.io/metro/docs/",
+      "url": "http://facebook.github.io/metro-bundler/docs/",
     }
   ],
   "selectors_exclude": [
