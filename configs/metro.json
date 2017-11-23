@@ -2,7 +2,20 @@
   "index_name": "metro",
   "start_urls": [
     {
-      "url": "http://facebook.github.io/metro-bundler/docs/",
+      "url": "http://facebook.github.io/metro-bundler/docs/(?P<lang>.*?)/getting-started.html",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      }
+    },
+    {
+      "url": "http://facebook.github.io/metro-bundler/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      }
     }
   ],
   "selectors_exclude": [
@@ -24,4 +37,5 @@
     "text": ".post article p, .post article li"
   },
   "min_indexed_level": 2,
+  "nb_hits": 16
 }
