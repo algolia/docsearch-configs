@@ -15,7 +15,8 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "text": "article p, article li"
+    "lvl5": "article h5",
+    "text": "article p, article li, article figcaption, article thead, article .table__subheader"
   },
   "min_indexed_level": 1,
   "conversation_id": [
