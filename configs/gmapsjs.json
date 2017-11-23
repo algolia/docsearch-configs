@@ -1,7 +1,8 @@
 {
   "index_name": "gmapsjs",
   "start_urls": [
-    "http://gmapsjs.com/docs/"
+    "http://gmapsjs.com/docs/",
+    "http://gmapsjs.com/docs/getting-started/introduction/"
   ],
   "stop_urls": [
     "/coming-soon/"
@@ -18,5 +19,5 @@
     "466019125"
   ],
   "min_indexed_level": 1,
-  "nb_hits": 751
+  "nb_hits": 750
 }
