@@ -7,12 +7,7 @@
     "/coming-soon/"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "(//a[contains(@class,'sidemenu__item--active')][contains(@class,'sidemenu__item--main')]|//a[contains(@class,'sidemenu__item--active')]/preceding::a[contains(@class,'sidemenu__item--main')][1])[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
+    "lvl0": ".sidemenu__group--active > .sidemenu__header",
     "lvl1": "#mainContent h1",
     "lvl2": "#mainContent h3",
     "lvl3": "#mainContent h4",
