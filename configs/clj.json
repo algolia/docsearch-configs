@@ -3,7 +3,9 @@
   "start_urls": [
     "https://camptocamp.github.io/cjl_documentation/"
   ],
-  "stop_urls": ["/examples/"],
+  "stop_urls": [
+    "/examples/"
+  ],
   "selectors": {
     "lvl0": ".main-content h1",
     "lvl1": ".main-content h2",
@@ -11,8 +13,9 @@
     "lvl3": ".main-content h5",
     "text": ".main-content p, .main-content li"
   },
-  "scrap_start_urls":false,
+  "scrap_start_urls": false,
   "conversation_id": [
     "473472490"
-  ]
+  ],
+  "nb_hits": 170
 }
