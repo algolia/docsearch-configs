@@ -1,8 +1,7 @@
 {
   "index_name": "asapcreditrepairusa",
   "start_urls": [
-    "http://www.asapcreditrepairusa.com/GlossaryofTermswithAssociatedQuestionsAnswers.html",
-    "http://www.asapcreditrepairusa.com"
+    "http://www.asapcreditrepairusa.com/GlossaryofTermswithAssociatedQuestionsAnswers.html"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,5 +13,8 @@
     "text": "body p, body li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 855
+  "conversation_id": [
+    "426922809"
+  ],
+  "nb_hits": 548
 }
