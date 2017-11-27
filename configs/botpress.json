@@ -12,8 +12,9 @@
     "lvl4": ".content h5",
     "text": ".content p, .content li"
   },
-  "scrap_start_urls":false,
+  "scrap_start_urls": false,
   "conversation_id": [
     "468831887"
-  ]
+  ],
+  "nb_hits": 857
 }
