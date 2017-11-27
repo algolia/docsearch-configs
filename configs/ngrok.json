@@ -9,14 +9,17 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "title",
-      "global": true
+      "selector": "head title",
+      "global": true,
+      "default_value": "ngrok documentation"
     },
-    "lvl1": "html body div.docs-main div.container h2",
-    "lvl2": "div.docs-main div.container h3, div.docs-main div.container h3 code",
-    "text": "div.docs-main div.container p"
+    "lvl1": ".docs-main .container h2",
+    "lvl2": ".docs-main .container h3",
+    "text": ".docs-main .container p"
   },
-  "min_indexed_level": 2,
-  "attributeForDistinct": "hierarchy.lvl1",
-  "nb_hits": 190
+  "min_indexed_level": 1,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 187
 }
