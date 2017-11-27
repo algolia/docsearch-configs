@@ -6,6 +6,19 @@
       "variables": {
         "lang": [
           "en",
+          "fr",
+          "de",
+          "es",
+          "it",
+          "ja",
+          "ru",
+          "zh-cn",
+          "zh-tw",
+          "ko",
+          "pt-br",
+          "sk",
+          "uk",
+          "uz",
           "tr"
         ]
       }
