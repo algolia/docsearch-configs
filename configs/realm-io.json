@@ -39,17 +39,14 @@
     "java/adapter"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "a.doc-section-header.active",
-      "global": true
-    },
-    "lvl1": ".docs-body h2",
-    "lvl2": ".docs-body h3",
-    "lvl3": ".docs-body h4",
-    "lvl4": ".docs-body h5",
+    "lvl0": ".docs-body h2",
+    "lvl1": ".docs-body h3",
+    "lvl2": ".docs-body h4",
+    "lvl3": ".docs-body h5",
+    "lvl4": ".docs-body h6",
     "text": ".docs-body p, .docs-body li"
   },
   "force_sitemap_urls_crawling": true,
-  "min_indexed_level": 2,
+  "min_indexed_level": 1,
   "nb_hits": 16235
 }
