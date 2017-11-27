@@ -8,7 +8,7 @@
     "/examples/"
   ],
   "selectors": {
-    "lvl0": ".docs-toc-item.active > a",
+    "lvl0": ".docs-title",
     "lvl1": "main h1",
     "lvl2": "main h2",
     "lvl3": "main h3",
@@ -18,5 +18,5 @@
   "conversation_id": [
     "465978095"
   ],
-  "nb_hits": 408
+  "nb_hits": 822
 }
