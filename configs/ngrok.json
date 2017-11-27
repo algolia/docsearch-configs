@@ -1,0 +1,22 @@
+{
+  "index_name": "ngrok",
+  "start_urls": [
+    "https://ngrok.com/docs"
+  ],
+  "stop_urls": [
+    "https://ngrok.com/docs/ngrok-link",
+    "https://ngrok.com/docs/2"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "title",
+      "global": true
+    },
+    "lvl1": "html body div.docs-main div.container h2",
+    "lvl2": "div.docs-main div.container h3, div.docs-main div.container h3 code",
+    "text": "div.docs-main div.container p"
+  },
+  "min_indexed_level": 2,
+  "attributeForDistinct": "hierarchy.lvl1",
+  "nb_hits": 190
+}
