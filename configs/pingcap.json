@@ -1,22 +1,10 @@
 {
   "index_name": "pingcap",
   "start_urls": [
-    {
-      "url": "https://pingcap.com/docs(-?)(?P<lang>.*?)/",
-      "variables": {
-        "lang": [
-          "cn"
-        ]
-      }
-    },
-    {
-      "url": "https://pingcap.com/blog(-?)(?P<lang>.*?)/",
-      "variables": {
-        "lang": [
-          "cn"
-        ]
-      }
-    },
+    "https://pingcap.com/docs/",
+    "https://pingcap.com/docs-cn/"
+    "https://pingcap.com/blog/",
+    "https://pingcap.com/blog-cn/",
     "https://pingcap.com/weekly/"
   ],
   "stop_urls": [
