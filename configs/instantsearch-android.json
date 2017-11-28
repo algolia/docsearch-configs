@@ -50,6 +50,7 @@
       "lvl0": "h2.sidebar-header",
       "lvl1": ".sidebar-elements .level-h2 .navItem-active",
       "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
       "text": ".documentation-container p, .documentation-container li, .documentation-container, .documentation-container pre"
     }
   },
