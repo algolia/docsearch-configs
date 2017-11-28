@@ -1,11 +1,26 @@
 {
   "index_name": "pingcap",
   "start_urls": [
-    "https://pingcap.com/docs/",
-    "https://pingcap.com/docs-cn/"
-    "https://pingcap.com/blog/",
-    "https://pingcap.com/blog-cn/",
-    "https://pingcap.com/weekly/"
+    "https://pingcap.github.io/docs/",
+    "https://pingcap.com/docs-cn/",
+    {
+      "url": "https://pingcap.github.io/blog/",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "url": "https://pingcap.com/blog-cn/",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "url": "https://pingcap.github.io/weekly/",
+      "tags": [
+        "weekly"
+      ]
+    }
   ],
   "stop_urls": [
     "^((?!https://pingcap.com/doc).)*$"
