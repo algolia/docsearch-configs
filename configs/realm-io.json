@@ -26,9 +26,6 @@
       ]
     }
   ],
-  "sitemap_urls": [
-    "https://realm.io/sitemap.xml"
-  ],
   "stop_urls": [
     "api",
     "objc/\\d",
@@ -46,7 +43,6 @@
     "lvl4": ".docs-body h6",
     "text": ".docs-body p, .docs-body li"
   },
-  "force_sitemap_urls_crawling": true,
   "min_indexed_level": 1,
   "nb_hits": 16390
 }
