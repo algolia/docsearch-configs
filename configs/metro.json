@@ -2,7 +2,7 @@
   "index_name": "metro",
   "start_urls": [
     {
-      "url": "http://facebook.github.io/metro-bundler/docs/(?P<lang>.*?)/getting-started.html",
+      "url": "http://facebook.github.io/metro/docs/(?P<lang>.*?)/getting-started.html",
       "variables": {
         "lang": [
           "en"
@@ -10,7 +10,7 @@
       }
     },
     {
-      "url": "http://facebook.github.io/metro-bundler/docs/(?P<lang>.*?)/",
+      "url": "http://facebook.github.io/metro/docs/(?P<lang>.*?)/",
       "variables": {
         "lang": [
           "en"
