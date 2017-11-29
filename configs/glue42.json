@@ -3,14 +3,20 @@
   "start_urls": [
     "https://docs.glue42.com/g4e/"
   ],
+  "sitemap_urls": [
+    "https://docs.glue42.com/g4e/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".head-item h1",
-    "lvl1": ".head-item h2",
-    "lvl2": ".head-item h3",
-    "lvl3": ".head-item h4",
-    "lvl4": ".head-item h5",
-    "text": ".head-item p, .head-item li"
+    "lvl0": {
+      "selector": ".code-item-content-container h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".code-item-content-container h2",
+    "lvl2": ".code-item-content-container h3",
+    "lvl3": ".code-item-content-container h4",
+    "lvl4": ".code-item-content-container h5",
+    "text": ".code-item-content-container p, .code-item-content-container li"
   },
-  "nb_hits": 989
+  "nb_hits": 5342
 }
