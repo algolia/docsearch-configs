@@ -1,7 +1,7 @@
 {
   "index_name": "tipotapp",
   "start_urls": [
-    "https://dev.tipotapp.com/docs/"
+    "https://app.tipotapp.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
