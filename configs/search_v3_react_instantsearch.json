@@ -26,6 +26,18 @@
       }
     },
     {
+      "url": "https://community.algolia.com/react-instantsearch/Getting_started",
+      "page_rank": 101,
+      "selectors_key": "getting-started",
+      "tags": [
+        "InstantSearch for React"
+      ],
+      "extra_attributes": {
+        "type_level": 45,
+        "language": "reactinstantsearch"
+      }
+    },
+    {
       "url": "https://community.algolia.com/react-instantsearch/",
       "page_rank": 100,
       "selectors_key": "guide",
@@ -40,7 +52,9 @@
   "stop_urls": [
     "https://community.algolia.com/react-instantsearch/examples/",
     "https://community.algolia.com/react-instantsearch/storybook/",
-    "https://community.algolia.com/react-instantsearch/widgets/$"
+    "https://community.algolia.com/react-instantsearch/widgets/$",
+    "https://community.algolia.com/react-instantsearch/guide//Highlighting_results.html",
+    "https://community.algolia.com/react-instantsearch/Getting_started.html"
   ],
   "selectors": {
     "guide": {
@@ -84,9 +98,30 @@
         "selector": "//h1/span[2]",
         "type": "xpath"
       }
+    },
+    "getting-started": {
+      "lvl0": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl1": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container .proptypes .api-entry",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td",
+      "page_level": {
+        "selector": "count(//li[contains(@class,'navItem-active')]/preceding::li[ancestor::ul[@class='sidebar-elements']])",
+        "type": "xpath"
+      },
+      "page__title__community__guide": {
+        "selector": "//h1",
+        "type": "xpath"
+      }
     }
   },
   "js_render": true,
   "only_content_level": true,
-  "nb_hits": 1982
+  "nb_hits": 1980
 }

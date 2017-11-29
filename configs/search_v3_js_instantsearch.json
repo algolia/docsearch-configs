@@ -38,6 +38,19 @@
       }
     },
     {
+      "url": "https://community.algolia.com/instantsearch.js/v2/getting-started",
+      "selectors_key": "getting-started",
+      "tags": [
+        "InstantSearch for JS"
+      ],
+      "page_rank": 10,
+      "extra_attributes": {
+        "category": "Guide",
+        "type_level": 45,
+        "language": "instantsearchjs"
+      }
+    },
+    {
       "url": "https://community.algolia.com/instantsearch.js/v2/",
       "selectors_key": "guide",
       "tags": [
@@ -45,17 +58,23 @@
       ],
       "extra_attributes": {
         "category": "Guide",
-        "type_level": 100
+        "type_level": 100,
+        "language": "instantsearchjs"
       }
     }
   ],
   "stop_urls": [
     "https://community.algolia.com/instantsearch.js/v2/examples",
-    "https://community.algolia.com/instantsearch.js/v2/widgets.html"
+    "https://community.algolia.com/instantsearch.js/v2/widgets.html",
+    "https://community.algolia.com/instantsearch.js/v2/getting-started.html"
   ],
   "selectors": {
     "instantsearch": {
       "lvl0": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl1": {
         "selector": "",
         "default_value": ""
       },
@@ -90,6 +109,24 @@
         "type": "xpath"
       }
     },
+    "getting-started": {
+      "lvl0": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl1": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "lvl4": ".documentation-container h4",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td",
+      "page__title__community__guide": {
+        "selector": "//h1",
+        "type": "xpath"
+      }
+    },
     "ref": {
       "lvl0": {
         "selector": "//h1/span[1]",
@@ -115,5 +152,5 @@
   },
   "only_content_level": true,
   "js_render": true,
-  "nb_hits": 1669
+  "nb_hits": 1673
 }
