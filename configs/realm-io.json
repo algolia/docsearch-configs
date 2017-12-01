@@ -6,21 +6,26 @@
       "tags": [
         "en"
       ]
+    },{
+      "url": "https://(www.)?realm.io/docs/.*/latest/$",
+      "tags": [
+        "en"
+      ]
     },
     {
-      "url": "https://www.realm.io/kr/docs/.*/latest/$",
+      "url": "https://(www.)?realm.io/kr/docs/.*/latest/$",
       "tags": [
         "kr"
       ]
     },
     {
-      "url": "https://www.realm.io/cn/docs/.*/latest/$",
+      "url": "https://(www.)?realm.io/cn/docs/.*/latest/$",
       "tags": [
         "cn"
       ]
     },
     {
-      "url": "https://www.realm.io/jp/docs/.*/latest/$",
+      "url": "https://(www.)?realm.io/jp/docs/.*/latest/$",
       "tags": [
         "jp"
       ]
@@ -48,5 +53,5 @@
   },
   "force_sitemap_urls_crawling": true,
   "min_indexed_level": 1,
-  "nb_hits": 16390
+  "nb_hits": 16403
 }
