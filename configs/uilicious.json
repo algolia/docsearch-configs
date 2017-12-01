@@ -1,0 +1,20 @@
+{
+  "index_name": "uilicious",
+  "start_urls": [
+    "https://docs.uilicious.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#book-search-results h1",
+    "lvl1": "#book-search-results h2",
+    "lvl2": "#book-search-results h3",
+    "lvl3": "#book-search-results h4",
+    "lvl4": "#book-search-results h5",
+    "text": "#book-search-results p, #book-search-results li"
+  },
+  "strip_chars": " .,;:#\ud83d\udcaa ",
+  "conversation_id": [
+    "474772496"
+  ],
+  "nb_hits": 456
+}
