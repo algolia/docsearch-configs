@@ -1,0 +1,23 @@
+{
+  "index_name": "anymod",
+  "start_urls": [
+    "https://guide.anymod.com/v1/introduction"
+  ],
+  "sitemap_urls": [
+    "https://guide.anymod.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "478200081"
+  ],
+  "nb_hits": 49
+}
