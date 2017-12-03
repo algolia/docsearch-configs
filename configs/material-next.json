@@ -1,0 +1,50 @@
+{
+  "index_name": "material-next",
+  "start_urls": [
+    "https://material-next.com/getting-started/installation/",
+    "https://material-next.com/customization/overrides/",
+    "https://material-next.com/style/color/",
+    "https://material-next.com/layout/basics/",
+    "https://material-next.com/guides/composition/",
+    "https://material-next.com/demos/app-bar/",
+    "https://material-next.com/api/app-bar/",
+    "https://material-next.com/discover-more/vision/",
+    "https://material-next.com/"
+  ],
+  "stop_urls": [],
+  "selectors_exclude": [
+    ".anchor-link-style"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".algolia-lvl0",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class, 'markdown-body')]//h1",
+      "type": "xpath"
+    },
+    "lvl2": {
+      "selector": "//*[contains(@class, 'markdown-body')]//h2",
+      "type": "xpath"
+    },
+    "lvl3": {
+      "selector": "//*[contains(@class, 'markdown-body')]//h3",
+      "type": "xpath"
+    },
+    "lvl4": {
+      "selector": "//*[contains(@class, 'markdown-body')]//h4",
+      "type": "xpath"
+    },
+    "lvl5": {
+      "selector": "//*[contains(@class, 'markdown-body')]//h5",
+      "type": "xpath"
+    },
+    "text": {
+      "selector": "//*[contains(@class, 'markdown-body')]//p|//*[contains(@class, 'markdown-body')]//li",
+      "type": "xpath"
+    }
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 1974
+}
