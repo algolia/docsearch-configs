@@ -2,32 +2,37 @@
   "index_name": "react-native-versions",
   "start_urls": [
     {
-      "url":
-        "https://facebook.github.io/react-native/docs/next/getting-started.html",
-      "tags": ["master"]
+      "url": "https://facebook.github.io/react-native/docs/next/",
+      "tags": [
+        "master",
+        "0.51"
+      ]
     },
     {
-      "url":
-        "https://facebook.github.io/react-native/docs/getting-started.html",
-      "tags": ["current"]
-    },
-    {
-      "url":
-        "http://facebook.github.io/react-native/docs/(?P<tags>.*?)/getting-started.html",
+      "url": "http://facebook.github.io/react-native/docs/(?P<tags>.*?)/",
       "variables": {
         "tags": {
           "url": "http://facebook.github.io/react-native/versions.html",
-          "js":
-            "return JSON.stringify(Array.from(document.querySelectorAll('.versions th')).map(function(e){ return e.textContent.replace(/\\(current\\)/,'').replace(/-RC/,'').trim();}).filter(function(v){ return v.toLowerCase().indexOf('master')===-1;}));"
+          "js": "return JSON.stringify(Array.from(document.querySelectorAll('.versions th')).map(function(e){ return e.textContent.replace(/\\(current\\)/,'').replace(/-RC/,'').trim();}).filter(function(v){ return v.toLowerCase().indexOf('master')===-1;}));"
         }
       }
-    }
+    },
+    {
+      "url": "https://facebook.github.io/react-native/docs/",
+      "tags": [
+        "current"
+      ]
+    },
+    "https://facebook.github.io/react-native/docs/next/getting-started.html",
+    "https://facebook.github.io/react-native/docs/getting-started.html",
+    "https://facebook.github.io/react-native/versions.html"
   ],
-  "selectors_exclude": [".hash-link"],
+  "selectors_exclude": [
+    ".hash-link"
+  ],
   "selectors": {
     "lvl0": {
-      "selector":
-        "//*[@class=\"navGroup navGroupActive\"]/ul/li/a[@class=\"navItem navItemActive\"]/../../../h3",
+      "selector": "//*[@class=\"navGroup navGroupActive\"]/ul/li/a[@class=\"navItem navItemActive\"]/../../../h3",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -39,5 +44,5 @@
     "text": ".mainContainer div.post p, .mainContainer div.post li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 126886
+  "nb_hits": 185688
 }
