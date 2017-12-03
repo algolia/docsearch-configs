@@ -14,6 +14,19 @@
       }
     },
     {
+      "url": "https://community.algolia.com/vue-instantsearch/getting-started/getting-started",
+      "tags": [
+        "InstantSearch for Vue"
+      ],
+      "page_rank": 10,
+      "selectors_key": "guide",
+      "extra_attributes": {
+        "category": "Guide",
+        "type_level": 45,
+        "language": "vueinstantsearch"
+      }
+    },
+    {
       "url": "https://community.algolia.com/vue-instantsearch/",
       "selectors_key": "guide",
       "tags": [
@@ -29,7 +42,8 @@
   "stop_urls": [
     "https://community.algolia.com/vue-instantsearch/stories/",
     "https://community.algolia.com/vue-instantsearch/components/$",
-    "https://community.algolia.com/vue-instantsearch/components/index.html"
+    "https://community.algolia.com/vue-instantsearch/components/index.html",
+    "https://community.algolia.com/vue-instantsearch/getting-started/getting-started$"
   ],
   "selectors": {
     "guide": {

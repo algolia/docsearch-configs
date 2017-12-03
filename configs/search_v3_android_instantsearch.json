@@ -14,6 +14,19 @@
       }
     },
     {
+      "url": "https://community.algolia.com/instantsearch-android/getting-started",
+      "selectors_key": "android",
+      "tags": [
+        "InstantSearch for Android"
+      ],
+      "page_rank": 10,
+      "extra_attributes": {
+        "category": "Guide",
+        "type_level": 45,
+        "language": "android"
+      }
+    },
+    {
       "url": "https://community.algolia.com/instantsearch-android/javadoc/",
       "page_rank": -1,
       "selectors_key": "android-javadoc",
@@ -40,7 +53,8 @@
     }
   ],
   "stop_urls": [
-    "https://community.algolia.com/instantsearch-android/widgets.html"
+    "https://community.algolia.com/instantsearch-android/widgets.html",
+    "https://community.algolia.com/instantsearch-android/getting-started.html"
   ],
   "selectors": {
     "widgets": {

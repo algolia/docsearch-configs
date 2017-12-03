@@ -25,13 +25,26 @@
       }
     },
     {
+      "url": "https://community.algolia.com/instantsearch-ios/getting-started.html",
+      "selectors_key": "ios",
+      "tags": [
+        "InstantSearch for iOS"
+      ],
+      "page_rank": 10,
+      "extra_attributes": {
+        "language": "swift",
+        "type_level": 45
+      }
+    },
+    {
       "url": "https://community.algolia.com/instantsearch-ios",
       "selectors_key": "ios",
       "tags": [
         "InstantSearch for iOS"
       ],
       "extra_attributes": {
-        "language": "swift"
+        "language": "swift",
+        "type_level": 100
       }
     },
     {
@@ -41,7 +54,8 @@
         "InstantSearch for iOS"
       ],
       "extra_attributes": {
-        "language": "swift"
+        "language": "swift",
+        "type_level": 100
       }
     }
   ],
