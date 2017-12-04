@@ -1,8 +1,7 @@
 {
   "index_name": "react-reason",
   "start_urls": [
-    "https://reasonml.github.io/reason-react/docs/",
-    "https://reasonml.github.io/reason-react/docs/en/installation.html"
+    "https://reasonml.github.io/reason-react/"
   ],
   "stop_urls": [],
   "selectors": {
