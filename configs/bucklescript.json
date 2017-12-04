@@ -1,7 +1,8 @@
 {
   "index_name": "bucklescript",
   "start_urls": [
-    "http://bucklescript.github.io/"
+    "https://bucklescript.github.io/docs/en/installation.html",
+    "https://bucklescript.github.io/docs/en/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -19,5 +20,5 @@
   },
   "min_indexed_level": 1,
   "strip_chars": " .,;:#",
-  "nb_hits": 278
+  "nb_hits": 871
 }
