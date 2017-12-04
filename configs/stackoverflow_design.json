@@ -1,0 +1,31 @@
+{
+  "index_name": "stackoverflow_design",
+  "start_urls": [
+    "https://stackoverflow.design"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//li[contains(@class,'-item _dropdown')][.//li[contains(@class,'is-active')]]/span[1]/span[1]",
+      "type": "xpath",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "//nav//li[contains(@class,'-item _dropdown')]//li[contains(@class,'is-active')]",
+      "type": "xpath",
+      "default_value": "Chapter",
+      "global": true
+    },
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "text": "main p, main li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "conversation_id": [
+    "480565614"
+  ],
+  "nb_hits": 587
+}
