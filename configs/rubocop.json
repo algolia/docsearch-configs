@@ -1,0 +1,20 @@
+{
+  "index_name": "rubocop",
+  "start_urls": [
+    "http://rubocop.readthedocs.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, \"toctree-l1\") and contains(@class, \"current\")]/../preceding::a[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "text": "section p, section li"
+  },
+  "nb_hits": 2721
+}
