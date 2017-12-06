@@ -1,5 +1,5 @@
 {
-  "index_name": "alibaba",
+  "index_name": "boat_alibaba",
   "start_urls": [
     "https://boat.alibaba.com/doc"
   ],
