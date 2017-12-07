@@ -1,0 +1,25 @@
+{
+  "index_name": "fireboard",
+  "start_urls": [
+    "https://docs.fireboard.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": " //div[contains(@class, 'sidebar')]//a[contains(@class, 'current')][1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "482321086"
+  ],
+  "nb_hits": 169
+}
