@@ -1,7 +1,8 @@
 {
   "index_name": "boat_alibaba",
   "start_urls": [
-    "https://boat.alibaba.com/doc"
+    "https://boat.alibaba.com/doc",
+    "https://boat.alibaba.com/doc/api"
   ],
   "stop_urls": [],
   "selectors": {
@@ -23,5 +24,5 @@
   "conversation_id": [
     "479154192"
   ],
-  "nb_hits": 214
+  "nb_hits": 247
 }
