@@ -1,0 +1,22 @@
+{
+  "index_name": "luckyframework",
+  "start_urls": [
+    "https://luckyframework.org/guides/"
+  ],
+  "sitemap_urls": [
+    "https://luckyframework.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page-intro h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "482944051"
+  ],
+  "nb_hits": 564
+}
