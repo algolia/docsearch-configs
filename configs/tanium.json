@@ -1,0 +1,32 @@
+{
+  "index_name": "tanium",
+  "start_urls": [
+    "https://docs.tanium.com"
+  ],
+  "stop_urls": [
+    "https://docs.tanium.com/platform_install_70",
+    "https://docs.tanium.com/platform_user_70/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".content-area .product-name",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".main-content-area h1",
+    "lvl2": ".main-content-area h2",
+    "lvl3": ".main-content-area h3",
+    "lvl4": ".main-content-area h4",
+    "text": ".main-content-area p,.main-content-area table,.main-content-area ol"
+  },
+  "selectors_exclude": [
+    ".content-sidemenu",
+    ".site-header",
+    ".site-footer"
+  ],
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "478140185"
+  ],
+  "nb_hits": 3602
+}
