@@ -1,10 +1,10 @@
 {
   "index_name": "images_weserv",
   "start_urls": [
-    "https://t0.nl/"
+    "https://images.weserv.nl/"
   ],
   "stop_urls": [
-    "https://t0.nl/.+"
+    "https://images.weserv.nl/.+"
   ],
   "selectors": {
     "lvl0": {
@@ -20,5 +20,6 @@
   "conversation_id": [
     "474051101"
   ],
-  "nb_hits": 107
+  "min_indexed_level": 1,
+  "nb_hits": 109
 }
