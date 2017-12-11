@@ -1,0 +1,25 @@
+{
+  "index_name": "macstadium",
+  "start_urls": [
+    "https://help.macstadium.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".selected-category",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "text": ".content p, .content li"
+  },
+  "js_render": true,
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "482929396"
+  ],
+  "nb_hits": 794
+}
