@@ -1,0 +1,23 @@
+{
+  "index_name": "pendo",
+  "start_urls": [
+    "https://help.pendo.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".api-docs, h1.secondary-page",
+    "lvl1": ".content h1, .article h2",
+    "lvl2": ".content h2, .article h3",
+    "lvl3": ".content h3, .article h4",
+    "lvl4": ".content h4, .article h5",
+    "text": ".content p, .content li, .article p, .article li"
+  },
+  "min_indexed_level": 1,
+  "css_exclude": [
+    ".dark-box"
+  ],
+  "conversation_id": [
+    "483909637"
+  ],
+  "nb_hits": 2863
+}
