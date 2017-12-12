@@ -1,0 +1,28 @@
+{
+  "index_name": "jeyser_crm",
+  "start_urls": [
+    "http://jeyser-crm.n7consulting.fr/docs/"
+  ],
+  "stop_urls": [
+    "docs/install/index"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'docs__menu')]//a[contains(@class, 'current')][1]/preceding::h2[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs__content h1",
+    "lvl2": ".docs__content h2",
+    "lvl3": ".docs__content h3",
+    "lvl4": ".docs__content h4",
+    "text": ".docs__content p, .docs__content li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "480628211"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 348
+}
