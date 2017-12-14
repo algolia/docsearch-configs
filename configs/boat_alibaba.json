@@ -1,7 +1,7 @@
 {
   "index_name": "boat_alibaba",
   "start_urls": [
-    "https://boat.alibaba.com/doc",
+    "https://boat.alibaba.com/doc/guide",
     "https://boat.alibaba.com/doc/api"
   ],
   "stop_urls": [],
@@ -19,10 +19,10 @@
     "text": "article p, article li"
   },
   "js_render": true,
-  "js_wait": 1,
+  "js_wait": 2,
   "use_anchors": true,
   "conversation_id": [
     "479154192"
   ],
-  "nb_hits": 247
+  "nb_hits": 1063
 }
