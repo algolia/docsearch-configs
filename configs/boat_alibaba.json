@@ -1,7 +1,7 @@
 {
   "index_name": "boat_alibaba",
   "start_urls": [
-    "https://boat.alibaba.com/doc",
+    "https://boat.alibaba.com/doc/guide",
     "https://boat.alibaba.com/doc/api"
   ],
   "stop_urls": [],
