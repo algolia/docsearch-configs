@@ -23,6 +23,9 @@
       ]
     }
   ],
+  "sitemap_urls": [
+    "https://docs.gitlab.com/sitemap.xml"
+  ],
   "scrap_start_urls": false,
   "stop_urls": [
     "https://docs.gitlab.com/ee/$",
@@ -75,5 +78,5 @@
     }
   },
   "min_indexed_level": 1,
-  "nb_hits": 27594
+  "nb_hits": 38379
 }
