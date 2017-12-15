@@ -1,7 +1,7 @@
 {
    "index_name": "botpress",
    "start_urls": [
-     "https://botpress.io/docs/en/"
+     "https://botpress.io/docs/"
    ],
    "stop_urls": [],
    "selectors": {
