@@ -1,15 +1,7 @@
 {
   "index_name": "varie",
   "start_urls": [
-    {
-      "url": "https://varie.io/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "beta",
-          "latest",
-        ]
-      }
-    }
+    "http://varie.io"
   ],
   "stop_urls": [],
   "selectors": {
