@@ -1,0 +1,44 @@
+{
+  "index_name": "esy",
+  "start_urls": [
+    {
+      "url": "https://esy.github.io/docs/(?P<lang>.*?)/installation.html",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      }
+    },
+    {
+      "url": "https://esy.github.io/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      }
+    }
+  ],
+  "selectors_exclude": [
+    ".hash-link",
+    ".edit-page-link"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'navListItemActive')]/../../h3",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post header h1",
+    "lvl2": ".post article h2",
+    "lvl3": ".post article h3",
+    "lvl4": ".post article h4",
+    "lvl5": ".post article h5",
+    "text": ".post article p, .post article li"
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "489598407"
+  ],
+  "nb_hits": 255
+}
