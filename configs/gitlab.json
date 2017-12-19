@@ -26,7 +26,6 @@
   "sitemap_urls": [
     "https://docs.gitlab.com/sitemap.xml"
   ],
-  "scrap_start_urls": false,
   "stop_urls": [
     "https://docs.gitlab.com/ee/$",
     "https://docs.gitlab.com/omnibus/$",
@@ -77,6 +76,7 @@
       "text": ".main p, .main li"
     }
   },
+  "scrap_start_urls": false,
   "min_indexed_level": 1,
   "nb_hits": 38379
 }
