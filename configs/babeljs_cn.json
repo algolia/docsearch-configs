@@ -21,7 +21,7 @@
     "lvl5": ".docs-content h4",
     "text": ".docs-content p, .docs-content li"
   },
-  "css_exclude": [
+  "selectors_exclude": [
     "#babel-turns-three"
   ],
   "min_indexed_level": 2,
