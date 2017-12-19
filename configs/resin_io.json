@@ -1,0 +1,23 @@
+{
+  "index_name": "resin_io",
+  "start_urls": [
+    "https://docs.resin.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".site-navigation .nav-tabs li.active",
+    "lvl1": ".page-content-wrapper h1",
+    "lvl2": ".page-content-wrapper h2",
+    "lvl3": ".page-content-wrapper h3",
+    "lvl4": ".page-content-wrapper h4",
+    "text": ".page-content-wrapper p, .page-content-wrapper li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "487686322"
+  ],
+  "stop_content": [
+    "Page not found"
+  ],
+  "nb_hits": 5076
+}
