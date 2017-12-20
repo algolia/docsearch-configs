@@ -1,0 +1,30 @@
+{
+  "index_name": "vulsdoc",
+  "start_urls": [
+    "https://vulsdoc.github.io/vuls/docs/",
+    "https://vulsdoc.github.io/vuls/docs/doc1.html"
+  ],
+  "selectors_exclude": [
+    ".hash-link",
+    ".edit-page-link"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'navListItemActive')]/../../h3",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post header h1",
+    "lvl2": ".post article h2",
+    "lvl3": ".post article h3",
+    "lvl4": ".post article h4",
+    "lvl5": ".post article h5",
+    "text": ".post article p, .post article li"
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "490446084"
+  ],
+  "nb_hits": 19
+}
