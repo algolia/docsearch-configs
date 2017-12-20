@@ -1,0 +1,22 @@
+{
+  "index_name": "wix",
+  "start_urls": [
+    "https://wix-private.github.io/video-player.js/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude": [
+    "pre.highlight"
+  ],
+  "conversation_id": [
+    "489997023"
+  ],
+  "nb_hits": 110
+}
