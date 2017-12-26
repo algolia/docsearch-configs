@@ -1,0 +1,20 @@
+{
+  "index_name": "blessing-skin",
+  "start_urls": [
+    "http://gplane.win/blessing-skin-plugin-docs/docs/structure.html",
+    "http://gplane.win/blessing-skin-plugin-docs/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "text": ".post p, .post li"
+  },
+  "conversation_id": [
+    "493305004"
+  ],
+  "nb_hits": 203
+}
