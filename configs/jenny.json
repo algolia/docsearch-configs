@@ -1,0 +1,24 @@
+{
+  "index_name": "jenny",
+  "start_urls": [
+    "http://engineering.typeform.com/jenny/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//a[contains(@class, 'navItem') and text()=//h1]/preceding::h3",
+      "type": "xpath"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post p, .post li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "491383229"
+  ],
+  "nb_hits": 128
+}
