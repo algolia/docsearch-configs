@@ -1,0 +1,20 @@
+{
+  "index_name": "digital-dealers",
+  "start_urls": [
+    "http://docs.digital-dealers.com/docs/1.0/",
+    "http://docs.digital-dealers.com/docs/1.0/getting-started/introduction/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".bd-content h1",
+    "lvl1": ".bd-content h2",
+    "lvl2": ".bd-content h3",
+    "lvl3": ".bd-content h4",
+    "lvl4": ".bd-content h5",
+    "text": ".bd-content p, .bd-content li"
+  },
+  "conversation_id": [
+    "492478837"
+  ],
+  "nb_hits": 168
+}
