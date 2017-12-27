@@ -1,0 +1,21 @@
+{
+  "index_name": "insert-koin",
+  "start_urls": [
+    "https://insert-koin.io/docs/1.0/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".bd-toc-item.active > a",
+    "lvl1": ".bd-content h1",
+    "lvl2": ".bd-content h2",
+    "lvl3": ".bd-content h3",
+    "lvl4": ".bd-content h4",
+    "lvl5": ".bd-content h5",
+    "text": ".bd-content p, .bd-content li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "492524442"
+  ],
+  "nb_hits": 391
+}
