@@ -80,6 +80,9 @@
       "text": ".content p, .content li"
     }
   },
+  "stop_content": [
+    "Sorry... 404"
+  ],
   "min_indexed_level": 1,
-  "nb_hits": 18061
+  "nb_hits": 18043
 }
