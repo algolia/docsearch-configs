@@ -2,10 +2,16 @@
   "index_name": "react-native-versions",
   "start_urls": [
     {
+      "url": "https://facebook.github.io/react-native/docs/next/",
+      "tags": [
+        "next"
+      ]
+    },
+    {
       "url": "https://facebook.github.io/react-native/docs/(?P<tags>.*?)/",
       "variables": {
         "tags": {
-          "url": "https://facebook.github.io/react-native/versions.html",
+          "url": "http://facebook.github.io/react-native/versions.html",
           "js": "return JSON.stringify(Array.from(document.querySelectorAll('.versions th')).map(function(e){ return e.textContent.replace(/\\(current\\)/,'').replace(/-RC/,'').trim();}).filter(function(v){ return v.toLowerCase().indexOf('master')===-1;}));"
         }
       }
@@ -14,6 +20,7 @@
       "url": "https://facebook.github.io/react-native/docs/",
       "tags": [
         "current",
+        "master",
         "0.52-RC"
       ]
     },
