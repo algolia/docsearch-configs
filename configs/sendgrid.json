@@ -1,7 +1,7 @@
 {
   "index_name": "sendgrid",
   "start_urls": [
-    "https://sendgrid.com/docs",
+    "https://sendgrid.com/docs"
   ],
   "stop_urls": [
     "https://sendgrid.com/docs/index.html",
