@@ -1,0 +1,29 @@
+{
+  "index_name": "sendgrid",
+  "start_urls": [
+    "https://sendgrid.com/docs",
+  ],
+  "stop_urls": [
+    "https://sendgrid.com/docs/index.html",
+    "https://sendgrid.com/docs/"
+  ],
+  "scrap_start_urls": false,
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'breadcrumb')]/li[2]/a",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//ul[contains(@class, 'breadcrumb')]/li[3]/a",
+      "type": "xpath"
+    },
+    "lvl2": ".page-header h1",
+    "lvl3": ".content h2",
+    "lvl4": ".content h3",
+    "lvl5": ".content h4",
+    "lvl6": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 15401
+}
