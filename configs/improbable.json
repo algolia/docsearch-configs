@@ -6,6 +6,7 @@
       "variables": {
         "version": [
           "12.0",
+          "11.2",
           "11.1",
           "11.0",
           "10.5",
@@ -32,7 +33,7 @@
     "lvl2": "#docPage h3",
     "lvl3": "#docPage h4",
     "lvl4": "#docPage h5",
-    "text": "#docPage p, #docPage li"
+    "text": "#docPage p, #docPage li, #docPage code"
   },
   "custom_settings": {
     "separatorsToIndex": "#"
