@@ -1,0 +1,26 @@
+{
+  "index_name": "arez",
+  "start_urls": [
+    "https://arez.github.io/"
+  ],
+  "stop_urls": [
+    "blog",
+    "/api/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
+      "type": "xpath"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "495999712"
+  ],
+  "nb_hits": 202
+}
