@@ -1,0 +1,47 @@
+{
+  "index_name": "reason",
+  "start_urls": [
+    {
+      "url": "https://reasonml.github.io/docs/(?P<language>.*?)/",
+      "variables": {
+        "language": [
+          "en",
+          "ja",
+          "es-ES",
+          "fr",
+          "ko",
+          "pt-BR",
+          "ru",
+          "zh-CN",
+          "zh-TW"
+        ]
+      }
+    },
+    "https://reasonml.github.io/docs/en/what-and-why.html",
+    "https://reasonml.github.io/docs/ja/what-and-why.html",
+    "https://reasonml.github.io/docs/es-ES/what-and-why.html",
+    "https://reasonml.github.io/docs/fr/what-and-why.html",
+    "https://reasonml.github.io/docs/ko/what-and-why.html",
+    "https://reasonml.github.io/docs/pt-BR/what-and-why.html",
+    "https://reasonml.github.io/docs/ru/what-and-why.html",
+    "https://reasonml.github.io/docs/zh-CN/what-and-why.html",
+    "https://reasonml.github.io/docs/zh-TW/what-and-why.html"
+  ],
+  "stop_urls": [
+    "index.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='docsNav']//a[contains(@class, 'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".mainContainer h1",
+    "lvl2": ".mainContainer h2",
+    "lvl3": ".mainContainer h3",
+    "lvl4": ".mainContainer h4",
+    "lvl5": ".mainContainer h5",
+    "text": ".mainContainer p, .mainContainer li"
+  },
+  "nb_hits": 9961
+}
