@@ -69,7 +69,7 @@
 	  "lvl3": ".main__content h3",
 	  "lvl4": ".main__content h4",
 	  "lvl5": ".main__content h5",
-	  "text": ".main__content p, .main__content li"
+	  "text": ".main__content p, .main__content li, .main__content td, .main__content th"
 	},
 	"api": {
 	  "lvl0": {
