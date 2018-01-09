@@ -64,20 +64,20 @@
 		"selector": ".top__menu__item--active",
 		"default_value": "CKEditor"
 	  },
-	  "lvl1": ".main__content h1, .important",
-	  "lvl2": ".main__content h2, .relevant",
+	  "lvl1": ".main__content h1",
+	  "lvl2": ".main__content h2",
 	  "lvl3": ".main__content h3",
 	  "lvl4": ".main__content h4",
 	  "lvl5": ".main__content h5",
-	  "text": ".main__content p, .main__content li"
+	  "text": ".main__content p, .main__content li, .main__content td, .main__content th"
 	},
 	"api": {
 	  "lvl0": {
 		"selector": "",
 		"default_value": "API"
 	  },
-	  "lvl1": ".main__content h1, .important",
-	  "lvl2": ".main__content h2, .relevant",
+	  "lvl1": ".main__content h1",
+	  "lvl2": ".main__content h2",
 	  "lvl3": ".main__content h3",
 	  "text": ".main__content .main-description, .main__content .collapsing-list__description"
 	}
