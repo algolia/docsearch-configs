@@ -2,8 +2,15 @@
   "index_name": "vulsdoc",
   "start_urls": [
     "https://vulsdoc.github.io/vuls/docs/",
-    "https://vulsdoc.github.io/vuls/docs/en/abstract.html",
-    "https://vulsdoc.github.io/vuls/docs/ja/abstract.html"
+    {
+      "url": "https://vulsdoc.github.io/vuls/docs/(?P<lang>.*?)/abstract.html",
+      "variables": {
+        "lang": [
+          "en",
+          "ja"
+        ]
+      }
+    }
   ],
   "selectors_exclude": [
     ".hash-link",
@@ -27,5 +34,5 @@
   "conversation_id": [
     "490446084"
   ],
-  "nb_hits": 19
+  "nb_hits": 949
 }
