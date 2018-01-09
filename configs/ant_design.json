@@ -30,5 +30,6 @@
   "conversation_id": [
     "494862422"
   ],
-  "nb_hits": 8519
+  "nb_hits": 8519,
+  "strip_chars": "#"
 }
