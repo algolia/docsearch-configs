@@ -2,7 +2,8 @@
   "index_name": "vulsdoc",
   "start_urls": [
     "https://vulsdoc.github.io/vuls/docs/",
-    "https://vulsdoc.github.io/vuls/docs/doc1.html"
+    "https://vulsdoc.github.io/vuls/docs/en/abstract.html",
+    "https://vulsdoc.github.io/vuls/docs/ja/abstract.html"
   ],
   "selectors_exclude": [
     ".hash-link",
