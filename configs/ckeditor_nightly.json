@@ -59,7 +59,7 @@
       "lvl3": ".main__content h3",
       "lvl4": ".main__content h4",
       "lvl5": ".main__content h5",
-      "text": ".main__content p, .main__content li, .main__content td, .main__content th"
+      "text": ".main__content p, .main__content li"
     },
     "api": {
       "lvl0": {
@@ -81,5 +81,5 @@
       "asc(weight.position)"
     ]
   },
-  "nb_hits": 13863
+  "nb_hits": 15964
 }
