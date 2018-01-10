@@ -1,0 +1,27 @@
+{
+  "index_name": "nichevid",
+  "start_urls": [
+    "https://nichevid.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://nichevid.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'bread')]/a[2]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#contentheading",
+    "lvl2": "#content article b span",
+    "text": "#content article p, #content article li"
+  },
+  "conversation_id": [
+    "501216026"
+  ],
+  "min_indexed_level": 1,
+  "only_content_level": true,
+  "nb_hits": 546
+}
