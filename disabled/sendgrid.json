@@ -3,6 +3,7 @@
   "start_urls": [
     "https://sendgrid.com/docs"
   ],
+  "sitemap_urls":["https://sendgrid.com/sitemap.xml"],
   "stop_urls": [
     "https://sendgrid.com/docs/index.html",
     "https://sendgrid.com/docs/"
