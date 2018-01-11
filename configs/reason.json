@@ -5,15 +5,7 @@
       "url": "https://reasonml.github.io/docs/(?P<language>.*?)/",
       "variables": {
         "language": [
-          "en",
-          "ja",
-          "es-ES",
-          "fr",
-          "ko",
-          "pt-BR",
-          "ru",
-          "zh-CN",
-          "zh-TW"
+          "en"
         ]
       }
     },
