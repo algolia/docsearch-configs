@@ -10,7 +10,7 @@
       "global": true,
       "default_value": "API"
     },
-    "lvl1": "#docma-content h2, .symbol-container:first-child .symbol-heading .symbol-name",
+    "lvl1": "#docma-content h2, .symbol-container.class .symbol-heading .symbol-name",
     "lvl2": "#docma-content h3, .symbol-container .symbol-name",
     "lvl3": "#docma-content h4",
     "lvl4": "#docma-content h5",
