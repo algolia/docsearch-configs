@@ -2,7 +2,8 @@
   "index_name": "boat_alibaba",
   "start_urls": [
     "https://boat.alibaba.com/doc/guide",
-    "https://boat.alibaba.com/doc/api"
+    "https://boat.alibaba.com/doc/api",
+    "https://boat.alibaba.com/doc/rax-api"
   ],
   "stop_urls": [],
   "selectors": {
