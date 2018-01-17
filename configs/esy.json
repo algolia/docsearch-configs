@@ -2,7 +2,7 @@
   "index_name": "esy",
   "start_urls": [
     {
-      "url": "https://esy.github.io/docs/(?P<lang>.*?)/installation.html",
+      "url": "http://esy.sh/docs/(?P<lang>.*?)/what-why.html",
       "variables": {
         "lang": [
           "en"
@@ -10,7 +10,7 @@
       }
     },
     {
-      "url": "https://esy.github.io/docs/(?P<lang>.*?)/",
+      "url": "http://esy.sh/docs/(?P<lang>.*?)/",
       "variables": {
         "lang": [
           "en"
@@ -40,5 +40,5 @@
   "conversation_id": [
     "489598407"
   ],
-  "nb_hits": 255
+  "nb_hits": 438
 }
