@@ -1,7 +1,15 @@
 {
   "index_name": "vulsdoc",
   "start_urls": [
-    "https://vuls.io/docs/",
+    {
+      "url": "https://vuls.io/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "ja"
+        ]
+      }
+    },
     {
       "url": "https://vuls.io/docs/(?P<lang>.*?)/abstract.html",
       "variables": {
