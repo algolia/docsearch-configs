@@ -1,0 +1,24 @@
+{
+  "index_name": "unibeautify",
+  "start_urls": [
+    "https://unibeautify.github.io/docs/doc1.html",
+    "https://unibeautify.github.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
+      "type": "xpath"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "507829284"
+  ],
+  "nb_hits": 2143
+}
