@@ -1,0 +1,25 @@
+{
+  "index_name": "developer_twitter_test",
+  "start_urls": [
+    "https://developer.twitter.com/en/docs/basics/",
+    "https://developer.twitter.com/en/docs/basics/getting-started"
+  ],
+  "stop_urls": [
+    ".html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "li.open > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".main-content .main-content__header",
+    "lvl2": ".main-content h2",
+    "lvl3": ".main-content h3",
+    "lvl4": ".main-content h4",
+    "lvl5": ".main-content h5",
+    "text": ".main-content p, .main-content li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 964
+}

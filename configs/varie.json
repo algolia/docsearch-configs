@@ -1,0 +1,26 @@
+{
+  "index_name": "varie",
+  "start_urls": [
+    "http://varie.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'documentation')]//a[contains(@class, 'active')][1]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".documentation--content h2",
+    "lvl2": ".documentation--content h3",
+    "lvl3": ".documentation--content h4",
+    "lvl4": ".documentation--content h5",
+    "text": ".documentation--content p, .documentation--content li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "conversation_id": [
+    "483643865"
+  ],
+  "nb_hits": 75
+}

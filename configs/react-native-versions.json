@@ -2,43 +2,51 @@
   "index_name": "react-native-versions",
   "start_urls": [
     {
-      "url": "http://facebook.github.io/react-native/releases/next/",
+      "url": "https://facebook.github.io/react-native/docs/next/",
       "tags": [
-        "master"
+        "next"
       ]
     },
     {
-      "url": "http://facebook.github.io/react-native/",
-      "tags": [
-        "current"
-      ]
-    },
-    {
-      "url": "http://facebook.github.io/react-native/releases/(?P<tags>.*?)/",
+      "url": "https://facebook.github.io/react-native/docs/(?P<tags>.*?)/",
       "variables": {
         "tags": {
           "url": "http://facebook.github.io/react-native/versions.html",
-          "js": "return JSON.stringify(Array.from(document.querySelectorAll('.versions th')).map(function(e){ return e.textContent.replace(/\\(current\\)/,'').replace(/-RC/,'').trim();}).filter(function(v){ return v.indexOf('master')===-1;}));"
+          "js": "return JSON.stringify(Array.from(document.querySelectorAll('.versions th')).map(function(e){ return e.textContent.replace(/\\(current\\)/,'').replace(/-RC/,'').trim();}).filter(function(v){ return v.toLowerCase().indexOf('master')===-1;}));"
         }
       }
-    }
+    },
+    {
+      "url": "https://facebook.github.io/react-native/docs/",
+      "tags": [
+        "current",
+        "master",
+        "0.53-RC"
+      ]
+    },
+    "https://facebook.github.io/react-native/docs/next/getting-started.html",
+    "https://facebook.github.io/react-native/docs/getting-started.html",
+    "https://facebook.github.io/react-native/versions.html"
   ],
   "selectors_exclude": [
     ".hash-link"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[@class=\"nav-docs-section\"]/ul/li/a[@class=\"active\"]/../../../h3",
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".documentationContent div.inner-content h1",
-    "lvl2": ".documentationContent div.inner-content h2",
-    "lvl3": ".documentationContent div.inner-content h3",
-    "lvl4": ".documentationContent div.inner-content h4",
-    "text": ".documentationContent div.inner-content p, .documentationContent div.inner-content li"
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
   },
+  "conversation_id": [
+    "477313987"
+  ],
   "min_indexed_level": 1,
-  "nb_hits": 126886
+  "nb_hits": 278295
 }

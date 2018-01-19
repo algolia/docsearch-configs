@@ -1,0 +1,27 @@
+{
+  "index_name": "graby",
+  "start_urls": [
+    "http://www.graby.de/"
+  ],
+  "stop_urls": [
+    "viewer.html",
+    ".php"
+  ],
+  "selectors": {
+    "lvl0": "#navbar li.active",
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "selectors_exclude": [
+    ".toc"
+  ],
+  "conversation_id": [
+    "489269090"
+  ],
+  "nb_hits": 797
+}

@@ -3,7 +3,7 @@
   "start_urls": [
     "https://community.algolia.com/vue-instantsearch"
   ],
-  "stops_urls": [],
+  "stop_urls": [],
   "selectors": {
     "lvl0": ".content h2",
     "text": ".content p"

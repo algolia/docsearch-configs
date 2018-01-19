@@ -3,8 +3,13 @@
   "sitemap_urls": [
     "https://docs.loginradius.com/sitemap.xml"
   ],
+  "start_urls": [
+    "https://docs.loginradius.com/",
+    "https://docs.loginradius.com/api?accesscode=RaQaDLUY"
+  ],
   "stop_urls": [
     "https://docs.loginradius.com/blog/",
+    "https://docs.loginradius.com/api/v1/",
     "https://docs.loginradius.com/getting-started/glossary"
   ],
   "selectors": {
@@ -20,6 +25,6 @@
   },
   "min_indexed_level": 1,
   "js_render": true,
-  "js_wait":1,
-  "nb_hits": 10931
+  "js_wait": 1,
+  "nb_hits": 9077
 }

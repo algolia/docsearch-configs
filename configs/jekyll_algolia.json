@@ -1,0 +1,21 @@
+{
+  "index_name": "jekyll_algolia",
+  "start_urls": [
+    "https://community.algolia.com/jekyll-algolia/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//nav[contains(@class,'sidebar')]//a[contains(@class,'active')])[1]/preceding::h2[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".documentation-container h1",
+    "lvl2": ".documentation-container h2",
+    "lvl3": ".documentation-container h3",
+    "lvl4": ".documentation-container h4",
+    "text": ".documentation-container p, .documentation-container li"
+  },
+  "nb_hits": 205
+}

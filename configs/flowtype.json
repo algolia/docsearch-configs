@@ -8,12 +8,12 @@
   ],
   "selectors": {
     "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
+    "lvl1": ".text-muted",
+    "lvl2": ".content h2, .content h3",
+    "lvl3": ".content h4, .content h5",
     "text": ".content p, .content li"
   },
+  "scrap_start_urls": false,
   "min_indexed_level": 1,
-  "nb_hits": 1857
+  "nb_hits": 2353
 }

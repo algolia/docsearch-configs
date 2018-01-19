@@ -4,7 +4,7 @@
     "https://pusher.com/docs"
   ],
   "stop_urls": [
-    "https://pusher.com/.*?/$"
+    "#"
   ],
   "selectors": {
     "lvl0": {
@@ -20,5 +20,6 @@
   },
   "min_indexed_level": 1,
   "js_render": true,
-  "nb_hits": 3450
+  "js_wait": 1,
+  "nb_hits": 3127
 }

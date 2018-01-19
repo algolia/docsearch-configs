@@ -1,0 +1,22 @@
+{
+  "index_name": "plainflow",
+  "start_urls": [
+    "https://www.plainflow.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".breadcrumb",
+    "lvl1": ".pf-main-content h1",
+    "lvl2": ".pf-main-content h2",
+    "lvl3": ".pf-main-content h3",
+    "lvl4": ".pf-main-content h4",
+    "lvl5": ".pf-main-content h5",
+    "text": ".pf-main-content p, .pf-main-content li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "conversation_id": [
+    "499018004"
+  ],
+  "nb_hits": 1687
+}

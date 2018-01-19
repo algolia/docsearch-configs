@@ -18,6 +18,9 @@
       "selectors_key": "empty"
     }
   ],
+  "sitemap_urls": [
+    "https://www.algolia.com/doc/sitemap.xml"
+  ],
   "selectors_exclude": [
     ".btn",
     ".parameters-list p, .parameters-list li, .parameters-list h3, .parameters-list h4, .parameters-list h5",
@@ -95,5 +98,5 @@
       "asc(weight.position)"
     ]
   },
-  "nb_hits": 1893
+  "nb_hits": 1450
 }

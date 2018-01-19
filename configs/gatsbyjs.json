@@ -1,0 +1,32 @@
+{
+  "index_name": "gatsbyjs",
+  "sitemap_urls": [
+    "https://www.gatsbyjs.org/sitemap.xml"
+  ],
+  "start_urls": [
+    "https://www.gatsbyjs.org/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//a[contains(@class,'nav-link-active')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Unsorted"
+    },
+    "lvl1": {
+      "selector": "//body/div/div/div[2]/div[4]/div//h1",
+      "type": "xpath"
+    },
+    "lvl2": {
+      "selector": "//body/div/div/div[2]/div[4]/div//h2",
+      "type": "xpath"
+    },
+    "text": {
+      "selector": "//body/div/div/div[2]/div[4]/div//p|//body/div/div/div[2]/div[4]/div//li",
+      "type": "xpath"
+    }
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 1128
+}

@@ -1,0 +1,27 @@
+{
+  "index_name": "react-leaflet",
+  "start_urls": [
+    "https://react-leaflet.js.org/docs/",
+    "https://react-leaflet.js.org/docs/en/intro.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Blog"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post p, .post li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "497017970"
+  ],
+  "nb_hits": 324
+}

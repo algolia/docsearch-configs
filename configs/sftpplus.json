@@ -1,0 +1,25 @@
+{
+  "index_name": "sftpplus",
+  "start_urls": [
+    "https://www.sftpplus.com/documentation/sftpplus/latest/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.sftpplus.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".document h1",
+    "lvl1": ".document h2",
+    "lvl2": ".document h3",
+    "lvl3": ".document h4",
+    "lvl4": ".document h5",
+    "text": ".document p, .document li"
+  },
+  "selectors_exclude": [
+    ".toctree-wrapper"
+  ],
+  "conversation_id": [
+    "489379830"
+  ],
+  "nb_hits": 9735
+}

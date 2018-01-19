@@ -1,0 +1,22 @@
+{
+  "index_name": "onface_dialog_react",
+  "start_urls": [
+    "https://onface.github.io/dialog.react/"
+  ],
+  "stop_urls": [
+    "/example/"
+  ],
+  "selectors": {
+    "lvl0": ".markdown-content h1",
+    "lvl1": ".markdown-content h2",
+    "lvl2": ".markdown-content h3",
+    "lvl3": ".markdown-content h4",
+    "lvl4": ".markdown-content h5",
+    "text": ".markdown-content p, .markdown-content li"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "484138288"
+  ],
+  "nb_hits": 13
+}

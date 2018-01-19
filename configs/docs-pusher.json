@@ -4,7 +4,6 @@
     "https://docs.pusher.com/"
   ],
   "stop_urls": [
-    "^https://docs.pusher.com/.+(?<!/)$"
   ],
   "selectors": {
     "lvl0": ".default-markdown h1",

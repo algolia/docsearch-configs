@@ -1,0 +1,28 @@
+{
+  "index_name": "eventmaker_io",
+  "start_urls": [
+    "http://docs.eventmaker.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "ul.nav li a.active",
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//div[contains(@class, 'menu-group')]/dd/a[contains(@class, 'active')]/../../dt[1]",
+      "type": "xpath"
+    },
+    "lvl2": ".content h1",
+    "lvl3": ".content h2",
+    "lvl4": ".content h3",
+    "lvl5": ".content h4",
+    "lvl6": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 922,
+  "conversation_id": [
+    "476547953"
+  ]
+}

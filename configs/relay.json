@@ -1,8 +1,8 @@
 {
   "index_name": "relay",
   "start_urls": [
-    "https://facebook.github.io/relay/docs/getting-started.html",
-    "https://facebook.github.io/relay/docs/.*"
+    "https://facebook.github.io/relay/docs/en/introduction-to-relay.html",
+    "https://facebook.github.io/relay/docs/en/.*\\.html"
   ],
   "selectors_exclude": [
     ".hash-link",
@@ -10,17 +10,15 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[@class=\"nav-docs-section\"]/ul/li/a[@class=\"active\"]/../../../h3",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+      "selector": "//*[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
+      "type": "xpath"
     },
-    "lvl1": ".documentationContent div.inner-content h1",
-    "lvl2": ".documentationContent div.inner-content h2",
-    "lvl3": ".documentationContent div.inner-content h3",
-    "lvl4": ".documentationContent div.inner-content h4",
-    "text": ".documentationContent div.inner-content p, .documentationContent div.inner-content li"
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 1316
+  "nb_hits": 948
 }

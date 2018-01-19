@@ -1,11 +1,7 @@
 {
   "index_name": "fastlane",
   "start_urls": [
-    "https://docs.fastlane.tools/",
-    {
-      "url": "https://docs.fastlane.tools/getting-started/",
-      "selectors_key": "getting-started"
-    }
+    "http://docs.fastlane.tools/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -20,7 +16,8 @@
     "lvl4": ".section h4",
     "text": ".section p, .section li, .section td"
   },
+  "scrap_start_urls": false,
   "strip_chars": " \u00bb#",
   "min_indexed_level": 1,
-  "nb_hits": 28688
+  "nb_hits": 15226
 }

@@ -1,0 +1,32 @@
+{
+  "index_name": "design_cms",
+  "start_urls": [
+    "https://design.cms.gov"
+  ],
+  "stop_urls": [
+    "/example/",
+    "404"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "button.ds-c-vertical-nav__label--current",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": "#main h1",
+    "lvl2": "#main h2",
+    "lvl3": "#main h3",
+    "lvl4": "#main h4",
+    "text": "#main p, #main li"
+  },
+  "selectors_exclude": [
+    "fieldset",
+    "code"
+  ],
+  "conversation_id": [
+    "465587457"
+  ],
+  "js_render": true,
+  "min_indexed_level": 2,
+  "nb_hits": 1886
+}

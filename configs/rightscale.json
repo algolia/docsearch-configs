@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": "nav h4 span",
       "default_value": "Documentation"
     },
     "lvl1": ".page-header h1",
@@ -15,7 +15,7 @@
     "lvl4": ".main-content h4",
     "lvl5": ".main-content h5",
     "text": ".main-content p, .main-content li"
-    },
+  },
   "custom_settings": {
     "separatorsToIndex": "_",
     "customRanking": [
@@ -25,7 +25,17 @@
       "desc(version_patch)",
       "desc(weight.level)",
       "asc(weight.position)"
+    ],
+    "attributeCriteriaComputedByMinProximity": false,
+    "attributesToIndex": [
+      "unordered(keywords)",
+      "hierarchy",
+      "hierarchy_camel",
+      "content",
+      "anchor",
+      "url"
     ]
   },
-  "nb_hits": 48649
+  "min_indexed_level": 2,
+  "nb_hits": 47649
 }

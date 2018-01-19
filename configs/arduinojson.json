@@ -1,0 +1,25 @@
+{
+  "index_name": "arduinojson",
+  "start_urls": [
+    "https://arduinojson.org"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".page-header p",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".page-header h1",
+    "lvl2": "main > .container h1",
+    "lvl3": "main > .container h2",
+    "lvl4": "main > .container h3",
+    "lvl5": "main > .container h4",
+    "lvl6": "main > .container h5",
+    "text": "main > .container p, main > .container li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "490513619"
+  ],
+  "nb_hits": 2158
+}

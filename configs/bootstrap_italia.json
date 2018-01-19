@@ -1,0 +1,26 @@
+{
+  "index_name": "bootstrap_italia",
+  "start_urls": [
+    "https://italia.github.io/bootstrap-italia/docs/0.0.1/come-iniziare/introduzione/",
+    "https://italia.github.io/bootstrap-italia/docs/0.0.1/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@id, 'bd-docs-nav')]//li[contains(@class, '-active')][1]/preceding::a[contains(@class, 'bd-toc-link')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "text": "main p, main li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "489688008"
+  ],
+  "nb_hits": 2508
+}

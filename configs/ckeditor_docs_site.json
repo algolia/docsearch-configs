@@ -119,12 +119,12 @@
   },
   "min_indexed_level": 1,
   "custom_settings": {
-	"customRanking": [
-	  "desc(custom_ranking)",
-	  "desc(weight.page_rank)",
-	  "desc(weight.level)",
-	  "asc(weight.position)"
-	]
+    "customRanking": [
+      "desc(custom_ranking)",
+      "desc(weight.page_rank)",
+      "desc(weight.level)",
+      "asc(weight.position)"
+    ]
   },
-  "nb_hits": 15370
+  "nb_hits": 14984
 }

@@ -1,0 +1,108 @@
+{
+  "index_name": "search_v3_android_instantsearch",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/instantsearch-android/widgets",
+      "selectors_key": "widgets",
+      "tags": [
+        "InstantSearch for Android"
+      ],
+      "extra_attributes": {
+        "category": "Widgets",
+        "type_level": 45,
+        "language": "android"
+      }
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/getting-started",
+      "selectors_key": "android",
+      "tags": [
+        "InstantSearch for Android"
+      ],
+      "page_rank": 10,
+      "extra_attributes": {
+        "category": "Guide",
+        "type_level": 45,
+        "language": "android"
+      }
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/javadoc/",
+      "page_rank": -1,
+      "selectors_key": "android-javadoc",
+      "tags": [
+        "InstantSearch for Android"
+      ],
+      "extra_attributes": {
+        "category": "Reference",
+        "type_level": 100,
+        "language": "android"
+      }
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/",
+      "selectors_key": "android",
+      "tags": [
+        "InstantSearch for Android"
+      ],
+      "extra_attributes": {
+        "category": "Guide",
+        "type_level": 100,
+        "language": "android"
+      }
+    }
+  ],
+  "stop_urls": [
+    "https://community.algolia.com/instantsearch-android/widgets.html",
+    "https://community.algolia.com/instantsearch-android/getting-started.html"
+  ],
+  "selectors": {
+    "widgets": {
+      "lvl0": ".hero-container h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li, .content pre"
+    },
+    "android": {
+      "lvl0": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl1": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "lvl4": ".documentation-container h4",
+      "lvl5": ".documentation-container h5",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container pre",
+      "page__title__community__guide": {
+        "selector": ".hero-container h1"
+      },
+      "page_level": {
+        "selector": "count(//li[contains(@class,'navItem-active')]/preceding::li[ancestor::ul[@class='sidebar-elements']])",
+        "type": "xpath"
+      }
+    },
+    "android-javadoc": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Reference"
+      },
+      "lvl1": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl2": "table.memberSummary td code",
+      "text": "div.description div.block, div.summary div.block, div.details div.block, div.details code",
+      "page__title__community__guide": {
+        "selector": "h2.title"
+      }
+    }
+  },
+  "only_content_level": true,
+  "nb_hits": 1233
+}

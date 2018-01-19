@@ -1,0 +1,24 @@
+{
+  "index_name": "emotion_sh",
+  "start_urls": [
+    "https://emotion.sh/docs/"
+  ],
+  "sitemap_urls": [
+    "https://emotion.sh/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docSearch-lvl0",
+    "lvl1": ".docSearch-lvl1",
+    "lvl2": ".docSearch-content h3",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "500460446"
+  ],
+  "only_content_level": true,
+  "nb_hits": 274
+}

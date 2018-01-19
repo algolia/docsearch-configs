@@ -5,7 +5,11 @@
   ],
   "stop_urls": [
     "https://leancloud.cn/docs/leancloud-docs.tar.gz",
-    "https://leancloud.cn/docs/demo.html"
+    "https://leancloud.cn/docs/demo.html",
+    "https://leancloud.cn/docs/sdk_down.html",
+    "https://leancloud.cn/docs/weapp-domains.html",
+    "https://leancloud.cn/docs/start.html",
+    "https://leancloud.cn/docs/index.html"
   ],
   "selectors": {
     "lvl0": "#content h1",
@@ -13,8 +17,8 @@
     "lvl2": "#content h3",
     "lvl3": "#content h4",
     "lvl4": "#content h5",
-    "text": "#content p"
+    "text": "#content p, #content li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 9710
+  "nb_hits": 12812
 }

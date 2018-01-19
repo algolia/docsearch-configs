@@ -1,0 +1,41 @@
+{
+  "index_name": "whmcs_devdocs",
+  "start_urls": [
+    "https://developers.whmcs.com"
+  ],
+  "stop_urls": [
+    "/index$"
+  ],
+  "sitemap_urls": [
+    "https://developers.whmcs.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class,'sidebar-nav')]/li/a/span",
+      "type": "xpath",
+      "default_value": "Documentation",
+      "global":true
+    },
+    "lvl1": ".main .col-sm-9 h1",
+    "lvl2": ".main .col-sm-9 h2",
+    "text": ".main .col-sm-9 p, .main .col-sm-9 li",
+    "page_level": {
+      "selector": "count(//ul[contains(@class,'sidebar-nav')]//ul/li[contains(@class,'active')] | //ul[contains(@class,'sidebar-nav')]//ul/li[contains(@class,'active')]/preceding-sibling::li)",
+      "type": "xpath"
+    }
+  },
+  "min_indexed_level": 2,
+  "custom_settings": {
+    "ranking": [
+      "words",
+      "filters",
+      "typo",
+      "proximity",
+      "asc(page_level)",
+      "attribute",
+      "exact",
+      "custom"
+    ]
+  },
+  "nb_hits": 2777
+}

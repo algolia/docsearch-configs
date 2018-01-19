@@ -4,7 +4,8 @@
     "https://devexpress.github.io/testcafe/documentation/"
   ],
   "stop_urls": [
-    "/../"
+    "/../",
+    "://.*//"
   ],
   "selectors": {
     "lvl0": ".doc-top-nav-tab.active a",
@@ -16,5 +17,6 @@
     "text": ".post-content p, .post-content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 1782
+  "strip_chars": " .,;:#",
+  "nb_hits": 1750
 }
