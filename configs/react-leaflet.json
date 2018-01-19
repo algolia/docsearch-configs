@@ -7,15 +7,17 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'navGroups')]//a[contains(@class, 'navItemActive')]/preceding::h3[1]",
-      "type": "xpath"
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Blog"
     },
-    "lvl1": ".postHeader h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post p, .post li"
   },
   "min_indexed_level": 1,
   "conversation_id": [

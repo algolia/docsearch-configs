@@ -19,5 +19,8 @@
   },
   "min_indexed_level": 1,
   "strip_chars": " .,;:#",
-  "nb_hits": 422
+  "conversation_id": [
+    "462708860"
+  ],
+  "nb_hits": 501
 }

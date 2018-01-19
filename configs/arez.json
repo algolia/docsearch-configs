@@ -10,7 +10,9 @@
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
-      "type": "xpath"
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
     },
     "lvl1": ".post h1",
     "lvl2": ".post h2",
@@ -22,5 +24,5 @@
   "conversation_id": [
     "495999712"
   ],
-  "nb_hits": 202
+  "nb_hits": 305
 }

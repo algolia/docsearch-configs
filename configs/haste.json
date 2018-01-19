@@ -20,8 +20,8 @@
   },
   "min_indexed_level": 1,
   "strip_chars": " .,;:#",
-  "nb_hits": 321,
   "conversation_id": [
     "500320233"
-  ]
+  ],
+  "nb_hits": 68
 }

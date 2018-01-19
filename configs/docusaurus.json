@@ -9,8 +9,10 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
-      "type": "xpath"
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Blog"
     },
     "lvl1": ".post h1",
     "lvl2": ".post h2",
@@ -22,5 +24,8 @@
     ".hash-link"
   ],
   "min_indexed_level": 1,
-  "nb_hits": 343
+  "conversation_id": [
+    "415526327"
+  ],
+  "nb_hits": 498
 }

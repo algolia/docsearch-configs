@@ -4,7 +4,9 @@
     "http://facebook.github.io/react-native/docs/getting-started.html",
     "http://facebook.github.io/react-native/docs/.*"
   ],
-  "sitemap_urls":["http://facebook.github.io/react-native/sitemap.xml"],
+  "sitemap_urls": [
+    "http://facebook.github.io/react-native/sitemap.xml"
+  ],
   "selectors_exclude": [
     ".hash-link"
   ],
@@ -22,5 +24,5 @@
     "text": ".post p, .post li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 6155
+  "nb_hits": 6451
 }
