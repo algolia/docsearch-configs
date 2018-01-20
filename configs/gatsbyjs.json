@@ -15,16 +15,16 @@
       "default_value": "Unsorted"
     },
     "lvl1": {
-      "selector": "//body/div/div/div[2]/div[4]/div//h1",
-      "type": "xpath"
+      "selector": ".docSearch-content h1"
     },
     "lvl2": {
-      "selector": "//body/div/div/div[2]/div[4]/div//h2",
-      "type": "xpath"
+      "selector": ".docSearch-content h2"
+    },
+    "lvl3": {
+      "selector": ".docSearch-content h3"
     },
     "text": {
-      "selector": "//body/div/div/div[2]/div[4]/div//p|//body/div/div/div[2]/div[4]/div//li",
-      "type": "xpath"
+      "selector": ".docSearch-content p, .docSearch-content li"
     }
   },
   "min_indexed_level": 1,
