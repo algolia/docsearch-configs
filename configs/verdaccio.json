@@ -1,0 +1,44 @@
+{
+  "index_name": "verdaccio",
+  "start_urls": [
+    {
+      "url": "http://www.verdaccio.org/docs/(?P<lang>.*?)/installation.html",
+      "variables": {
+        "lang": [
+          "en",
+          "es-ES",
+          "zh-Hans"
+        ]
+      }
+    },
+    {
+      "url": "http://www.verdaccio.org/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "es-ES",
+          "zh-Hans"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'navListItemActive')]/../../h3",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post header h1",
+    "lvl2": ".post article h2",
+    "lvl3": ".post article h3",
+    "lvl4": ".post article h4",
+    "lvl5": ".post article h5",
+    "text": ".post article p, .post article li"
+  },
+  "conversation_id": [
+    "509443625"
+  ],
+  "nb_hits": 1452
+}
