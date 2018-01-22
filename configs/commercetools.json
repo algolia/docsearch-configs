@@ -1,0 +1,24 @@
+{
+  "index_name": "commercetools",
+  "start_urls": [
+    "https://docs.commercetools.com"
+  ],
+  "sitemap_urls": [
+    "https://docs.commercetools.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/release"
+  ],
+  "selectors": {
+    "lvl0": ".jekyll-content h1",
+    "lvl1": ".jekyll-content h2",
+    "lvl2": ".jekyll-content h3",
+    "lvl3": ".jekyll-content h4",
+    "lvl4": ".jekyll-content h5",
+    "text": ".jekyll-content p, .jekyll-content li"
+  },
+  "conversation_id": [
+    "507709762"
+  ],
+  "nb_hits": 7976
+}
