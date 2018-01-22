@@ -1,0 +1,28 @@
+{
+  "index_name": "pantheon",
+  "start_urls": [
+    "https://pantheon.io/docs/"
+  ],
+  "sitemap_urls": [
+    "https://pantheon.io/docs/sitemap.xml"
+  ],
+  "stop_urls": [
+    "text=",
+    "/changelog/"
+  ],
+  "selectors": {
+    "lvl0": "#doc h1",
+    "lvl1": "#doc h2",
+    "lvl2": "#doc h3",
+    "lvl3": "#doc h4",
+    "lvl4": "#doc h5",
+    "text": "#doc p, #doc li"
+  },
+  "selectors_exclude": [
+    "#see-also"
+  ],
+  "conversation_id": [
+    "508417420"
+  ],
+  "nb_hits": 11872
+}
