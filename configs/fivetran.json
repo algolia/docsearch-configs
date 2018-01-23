@@ -1,0 +1,29 @@
+{
+  "index_name": "fivetran",
+  "start_urls": [
+    "https://fivetran.com/docs"
+  ],
+  "sitemap_urls": [
+    "https://fivetran.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//div[contains(@id, 'sidebar')]//li[contains(@class, 'active')][1]/a)[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#doc-html h1",
+    "lvl2": "#doc-html h2",
+    "lvl3": "#doc-html h3",
+    "lvl4": "#doc-html h4",
+    "lvl5": "#doc-html h5",
+    "text": "#doc-html p, #doc-html li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "508925313"
+  ],
+  "nb_hits": 3772
+}
