@@ -91,5 +91,6 @@
       "asc(weight.position)"
     ]
   },
-  "nb_hits": 14984
+  "strip_chars": " .,;:#",
+  "nb_hits": 15251
 }
