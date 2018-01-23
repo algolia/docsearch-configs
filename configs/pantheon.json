@@ -16,7 +16,7 @@
     "lvl2": "#doc h3",
     "lvl3": "#doc h4",
     "lvl4": "#doc h5",
-    "text": "#doc p, #doc li, #doc ol, #doc code, #doc alert"
+    "text": "#doc p, #doc li, #doc alert"
   },
   "selectors_exclude": [
     "#see-also"
