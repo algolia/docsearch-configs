@@ -37,20 +37,55 @@
         "examples"
       ]
     },
+	{
+	  "url": "https://docs.ckeditor.com/ckeditor4/latest/api/",
+	  "selectors_key": "api",
+	  "tags": [
+		"ckeditor4",
+		"api"
+	  ]
+	},
+	{
+	  "url": "https://docs.ckeditor.com/ckeditor4/latest/guide/",
+	  "tags": [
+		"ckeditor4",
+		"guide"
+	  ]
+	},
+	{
+	  "url": "https://docs.ckeditor.com/letters/latest/guides/",
+	  "tags": [
+		"letters",
+		"guides"
+	  ]
+	},
+	{
+	  "url": "https://docs.ckeditor.com/cs/latest/guides/",
+	  "tags": [
+		"cs",
+		"guides"
+	  ]
+	},
     {
       "url": "https://docs.ckeditor.com/"
     }
   ],
   "stop_urls": [
-    "https://docs.ckeditor.com/ckeditor4/.*",
-    "https://docs.ckeditor.com/ckfinder/.*",
-    "https://docs.ckeditor.com/ckeditor5/[0-9].*/.*",
-    "https://docs.ckeditor.com/ckeditor5/latest/api/index.html",
-    "https://docs.ckeditor.com/ckeditor5/latest/framework/index.html",
-    "https://docs.ckeditor.com/ckeditor5/latest/builds/index.html",
-    "https://docs.ckeditor.com/ckeditor5/latest/features/index.html",
-    "https://docs.ckeditor.com/ckeditor5/latest/examples/index.html",
-    "https://docs.ckeditor.com/index.html"
+	"https://docs.ckeditor.com/ckfinder/.*",
+	"https://docs.ckeditor.com/ckeditor5/[0-9].*/.*",
+	"https://docs.ckeditor.com/ckeditor4/[0-9].*/.*",
+	"https://docs.ckeditor.com/letters/[0-9].*/.*",
+	"https://docs.ckeditor.com/cs/[0-9].*/.*",
+	"https://docs.ckeditor.com/ckeditor5/latest/api/index.html",
+	"https://docs.ckeditor.com/ckeditor5/latest/framework/index.html",
+	"https://docs.ckeditor.com/ckeditor5/latest/builds/index.html",
+	"https://docs.ckeditor.com/ckeditor5/latest/features/index.html",
+	"https://docs.ckeditor.com/ckeditor5/latest/examples/index.html",
+	"https://docs.ckeditor.com/ckeditor4/latest/api/index.html",
+	"https://docs.ckeditor.com/ckeditor4/latest/guide/index.html",
+	"https://docs.ckeditor.com/letters/latest/guides/index.html",
+	"https://docs.ckeditor.com/cs/latest/guides/index.html",
+	"https://docs.ckeditor.com/index.html"
   ],
   "selectors_exclude": [
     ".collapsing-list__type",
@@ -59,28 +94,28 @@
     ".exclude"
   ],
   "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": ".top__menu__item--active",
-        "default_value": "CKEditor"
-      },
-      "lvl1": ".main__content h1",
-      "lvl2": ".main__content h2",
-      "lvl3": ".main__content h3",
-      "lvl4": ".main__content h4",
-      "lvl5": ".main__content h5",
-      "text": ".main__content p, .main__content li"
-    },
-    "api": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "API"
-      },
-      "lvl1": ".main__content h1",
-      "lvl2": ".main__content h2",
-      "lvl3": ".main__content h3",
-      "text": ".main__content .main-description, .main__content .collapsing-list__description"
-    }
+	"default": {
+	  "lvl0": {
+		"selector": ".top__menu__item--active",
+		"default_value": "CKEditor"
+	  },
+	  "lvl1": ".main__content h1",
+	  "lvl2": ".main__content h2",
+	  "lvl3": ".main__content h3",
+	  "lvl4": ".main__content h4",
+	  "lvl5": ".main__content h5",
+	  "text": ".main__content p, .main__content li, .main__content .docsearch-txt"
+	},
+	"api": {
+	  "lvl0": {
+		"selector": "",
+		"default_value": "API"
+	  },
+	  "lvl1": ".main__content h1",
+	  "lvl2": ".main__content h2",
+	  "lvl3": ".main__content h3",
+	  "text": ".main__content .main-description, .main__content .collapsing-list__description, .main__content .docsearch-txt"
+	}
   },
   "min_indexed_level": 1,
   "custom_settings": {

@@ -59,7 +59,7 @@
       "lvl3": ".main__content h3",
       "lvl4": ".main__content h4",
       "lvl5": ".main__content h5",
-      "text": ".main__content p, .main__content li"
+      "text": ".main__content p, .main__content li, .main__content .docsearch-txt"
     },
     "api": {
       "lvl0": {
@@ -69,7 +69,7 @@
       "lvl1": ".main__content h1",
       "lvl2": ".main__content h2",
       "lvl3": ".main__content h3",
-      "text": ".main__content .main-description, .main__content .collapsing-list__description"
+      "text": ".main__content .main-description, .main__content .collapsing-list__description, .main__content .docsearch-txt"
     }
   },
   "min_indexed_level": 1,
