@@ -16,7 +16,7 @@
     "lvl2": "#doc h3",
     "lvl3": "#doc h4",
     "lvl4": "#doc h5",
-    "text": "#doc p, #doc li"
+    "text": "#doc p, #doc li, #doc alert"
   },
   "selectors_exclude": [
     "#see-also"
@@ -24,5 +24,6 @@
   "conversation_id": [
     "508417420"
   ],
+  "min_indexed_level": 2,
   "nb_hits": 11872
 }
