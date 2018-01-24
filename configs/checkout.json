@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'level0 active')]//h3",
+      "selector": "//div[contains(@class, 'menu-container')]//div[contains(@class, 'level1 selected')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -17,5 +17,8 @@
     "lvl4": ".content-holder h4",
     "text": ".content-holder p, .content-holder li"
   },
+  "conversation_id": [
+   "440529464"
+ ],
   "nb_hits": 4595
 }
