@@ -5,8 +5,8 @@
   ],
   "stop_urls": [
     "/[0-9]\\.[0-9]/",
-    "/\/permalink\//",       
-    "/\/index\/doc\//"
+    "//permalink//",
+    "//index/doc//"
   ],
   "selectors": {
     "lvl0": {
@@ -21,5 +21,8 @@
     "text": ".ans-body p, .ans-body li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 4953
+  "conversation_id": [
+    "511769074"
+  ],
+  "nb_hits": 6654
 }
