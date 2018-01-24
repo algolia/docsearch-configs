@@ -1,7 +1,7 @@
 {
-  "index_name": "keboola_developers",
+  "index_name": "keboola_help",
   "start_urls": [
-    "https://developers.keboola.com/"
+    "https://help.keboola.com/"
   ],
   "stop_urls": [
     ".csv"
@@ -24,5 +24,5 @@
   "conversation_id": [
     "510416617"
   ],
-  "nb_hits": 3661
+  "nb_hits": 2292
 }
