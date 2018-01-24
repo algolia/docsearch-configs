@@ -15,6 +15,9 @@
       }
     }
   ],
+  "sitemap_urls": [
+    "http://cordova.apache.org/sitemap.xml"
+  ],
   "stop_urls": [
     "/$"
   ],
@@ -31,5 +34,5 @@
     "text": "#page-toc-source p"
   },
   "min_indexed_level": 2,
-  "nb_hits": 293381
+  "nb_hits": 339076
 }
