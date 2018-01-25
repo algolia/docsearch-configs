@@ -8,16 +8,21 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "#mysidebar > li.active > a",
-      "default_value": "Documentation"
+      "selector": ".post-header h1",
+      "default_value": "Documentation",
+      "global": true
     },
-    "lvl1": "#main h1",
-    "lvl2": "#main h2",
-    "lvl3": "#main h3",
-    "lvl4": "#main h4",
-    "lvl5": "#main h5",
-    "text": "#main p, #main li"
+    "lvl1": ".content-column h2",
+    "lvl2": ".content-column h3",
+    "lvl3": ".content-column h4",
+    "lvl4": ".content-column h5",
+    "text": ".content-column p, .content-column li"
   },
+  "selectors_exclude": [
+    ".related-articles",
+    ".breadbox",
+    "#toc"
+  ],
   "min_indexed_level": 1,
-  "nb_hits": 35473
+  "nb_hits": 23702
 }
