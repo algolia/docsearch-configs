@@ -3,6 +3,9 @@
   "start_urls": [
     "https://www.stitchdata.com/docs/"
   ],
+  "sitemap_urls": [
+    "https://www.stitchdata.com/docs/sitemap.xml"
+  ],
   "stop_urls": [
     "/$"
   ],
@@ -22,5 +25,5 @@
   "conversation_id": [
     "335147628"
   ],
-  "nb_hits": 51272
+  "nb_hits": 27491
 }
