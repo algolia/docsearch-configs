@@ -3,9 +3,6 @@
   "start_urls": [
     "https://www.stitchdata.com/docs/"
   ],
-  "sitemap_urls": [
-    "https://www.stitchdata.com/docs/sitemap.xml"
-  ],
   "stop_urls": [
     "/$"
   ],
@@ -22,8 +19,5 @@
     "text": "#main p, #main li"
   },
   "min_indexed_level": 1,
-  "conversation_id": [
-    "335147628"
-  ],
-  "nb_hits": 27491
+  "nb_hits": 35476
 }
