@@ -1,8 +1,8 @@
 {
   "index_name": "bootstrap_italia",
   "start_urls": [
-    "https://italia.github.io/bootstrap-italia/docs/0.0.1/come-iniziare/introduzione/",
-    "https://italia.github.io/bootstrap-italia/docs/0.0.1/"
+    "https://italia.github.io/bootstrap-italia/docs/come-iniziare/introduzione/",
+    "https://italia.github.io/bootstrap-italia/docs/"
   ],
   "stop_urls": [],
   "selectors": {
