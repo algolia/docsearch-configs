@@ -10,6 +10,9 @@
     "https://onsen.io/v2/api/vue/",
     "https://onsen.io/v1/reference/javascript.html"
   ],
+  "sitemap_urls": [
+    "https://onsen.io/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -23,5 +26,8 @@
     "text": ".container-content p, .container-content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 9481
+  "conversation_id": [
+    "378800706"
+  ],
+  "nb_hits": 11344
 }

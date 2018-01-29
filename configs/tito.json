@@ -21,5 +21,8 @@
     "text": ".doc p, .doc li"
   },
   "min_indexed_level": 1,
+  "conversation_id": [
+    "425075665"
+  ],
   "nb_hits": 650
 }

@@ -17,5 +17,8 @@
     "text": ".article-content p"
   },
   "min_indexed_level": 1,
-  "nb_hits": 635
+  "conversation_id": [
+    "155148023"
+  ],
+  "nb_hits": 669
 }

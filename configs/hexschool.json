@@ -4,6 +4,9 @@
     "http://bootstrap.hexschool.com/docs/4.0/",
     "http://bootstrap.hexschool.com/docs/4.0/getting-started/introduction/"
   ],
+  "sitemap_urls": [
+    "http://bootstrap.hexschool.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".bd-toc-item.active > a",
@@ -13,5 +16,8 @@
     "text": ".bd-content p, .bd-content li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2772
+  "conversation_id": [
+    "417032415"
+  ],
+  "nb_hits": 2771
 }

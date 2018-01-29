@@ -23,5 +23,8 @@
   "min_indexed_level": 2,
   "scrap_start_urls": false,
   "strip_chars": " .,;:#",
-  "nb_hits": 970
+  "conversation_id": [
+    "255043752"
+  ],
+  "nb_hits": 944
 }

@@ -23,5 +23,8 @@
   "js_wait": 1,
   "use_anchors": true,
   "min_indexed_level": 1,
-  "nb_hits": 1119
+  "conversation_id": [
+    "373838376"
+  ],
+  "nb_hits": 1473
 }
