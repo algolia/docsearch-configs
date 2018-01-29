@@ -1,0 +1,32 @@
+{
+  "index_name": "codefresh",
+  "start_urls": [
+    "https://docs.codefresh.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@id, 'hub-sidebar-content')]//a[contains(@class, 'active')][1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "#content-head h1",
+      "default_value": "Documentation"
+    },
+    "lvl2": ".content-body h1",
+    "lvl3": ".content-body h3",
+    "lvl4": ".content-body h4",
+    "lvl5": ".content-body h5",
+    "text": ".content-body p, .content-body li"
+  },
+  "selectors_exclude": [
+    ".nextSteps"
+  ],
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "510102157"
+  ],
+  "nb_hits": 1665
+}
