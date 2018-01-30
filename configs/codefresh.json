@@ -1,7 +1,7 @@
 {
   "index_name": "codefresh",
   "start_urls": [
-	"https://vmechkauskas-codefresh.github.io/docs.codefresh.io/"
+    "https://vmechkauskas-codefresh.github.io/docs.codefresh.io/"
   ],
   "sitemap_urls": [
     "https://vmechkauskas-codefresh.github.io/docs.codefresh.io/sitemap.xml"
@@ -9,11 +9,10 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav[contains(@id, 'bd-docs-nav')]//li[contains(@class, '-active')][1]/preceding::a[contains(@class, 'bd-toc-link')][1]",
-      "type": "xpath",
+      "selector": "div.bd-toc-item.active span:first-child",
       "global": true,
       "default_value": "Documentation"
-    },    
+    },
     "lvl1": ".bd-content h1",
     "lvl2": ".bd-content h2",
     "lvl3": ".bd-content h3",
@@ -28,5 +27,5 @@
   "conversation_id": [
     "510102157"
   ],
-  "nb_hits": 1665
+  "nb_hits": 1740
 }
