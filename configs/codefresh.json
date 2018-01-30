@@ -1,30 +1,30 @@
 {
   "index_name": "codefresh",
   "start_urls": [
-    "https://docs.codefresh.io/"
+	"https://vmechkauskas-codefresh.github.io/docs.codefresh.io/"
+  ],
+  "sitemap_urls": [
+    "https://vmechkauskas-codefresh.github.io/docs.codefresh.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//div[contains(@id, 'hub-sidebar-content')]//a[contains(@class, 'active')][1]/preceding::h3[1]",
+      "selector": "//nav[contains(@id, 'bd-docs-nav')]//li[contains(@class, '-active')][1]/preceding::a[contains(@class, 'bd-toc-link')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
-    },
-    "lvl1": {
-      "selector": "#content-head h1",
-      "default_value": "Documentation"
-    },
-    "lvl2": ".content-body h1",
-    "lvl3": ".content-body h3",
-    "lvl4": ".content-body h4",
-    "lvl5": ".content-body h5",
-    "text": ".content-body p, .content-body li"
+    },    
+    "lvl1": ".bd-content h1",
+    "lvl2": ".bd-content h2",
+    "lvl3": ".bd-content h3",
+    "lvl4": ".bd-content h4",
+    "lvl5": ".bd-content h5",
+    "text": ".bd-content p, .bd-content li"
   },
   "selectors_exclude": [
     ".nextSteps"
   ],
-  "min_indexed_level": 2,
+  "min_indexed_level": 1,
   "conversation_id": [
     "510102157"
   ],
