@@ -1,0 +1,20 @@
+{
+  "index_name": "gitbeijing",
+  "start_urls": [
+    "http://gitbeijing.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h2.home",
+    "lvl1": ".book-wrapper h1",
+    "lvl2": ".book-wrapper h3",
+    "lvl3": ".book-wrapper h4",
+    "lvl4": ".book-wrapper h5",
+    "text": ".book-wrapper p, .book-wrapper li"
+  },
+  "min_indexed_level":1,
+  "conversation_id": [
+    "513839738"
+  ],
+  "nb_hits": 305
+}
