@@ -1,0 +1,32 @@
+{
+  "index_name": "eta-lang",
+  "start_urls": [
+    "https://eta-lang.org/docs/"
+  ],
+  "sitemap_urls": [
+    "https://eta-lang.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "h1.heading--large",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "h3#header-title",
+    "lvl2": ".content-wrapper h3.heading--medium",
+    "lvl3": ".content-wrapper h3.heading--small",
+    "lvl4": ".content-wrapper h4",
+    "lvl5": ".content-wrapper h5",
+    "text": ".content-wrapper p, .content-wrapper li"
+  },
+  "selectors_exclude": [
+    "#header-contents",
+    "#next-lesson"
+  ],
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "513617666"
+  ],
+  "nb_hits": 609
+}
