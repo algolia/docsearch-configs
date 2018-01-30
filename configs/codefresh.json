@@ -1,6 +1,7 @@
 {
   "index_name": "codefresh",
   "start_urls": [
+	"https://vmechkauskas-codefresh.github.io/docs.codefresh.io/"
     "https://docs.codefresh.io/"
   ],
   "stop_urls": [],
