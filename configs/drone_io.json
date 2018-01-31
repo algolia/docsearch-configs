@@ -4,7 +4,6 @@
     "http://docs.drone.io/sitemap/",
     "http://docs.drone.io/"
   ],
-  "scrap_start_urls": false,
   "stop_urls": [
     "/tags/",
     "http://docs.drone.io/fr/",
@@ -27,5 +26,9 @@
     "text": "main p, main li"
   },
   "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "298827157"
+  ],
   "nb_hits": 1235
 }

@@ -11,10 +11,13 @@
     "lvl3": ".dxe-article-body h5",
     "text": ".dxe-article-body p, .dxe-article-body li"
   },
+  "min_indexed_level": 1,
+  "js_render": true,
   "css_exclude": [
     ".dxb-codesplit"
   ],
-  "js_render": true,
-  "min_indexed_level": 1,
+  "conversation_id": [
+    "460415949"
+  ],
   "nb_hits": 4635
 }

@@ -8,7 +8,6 @@
     "v2.1",
     "archive"
   ],
-  "scrap_start_urls": false,
   "selectors": {
     "lvl0": {
       "selector": "//ul[contains(@class, 'nav-sub')]/li/ul/li/a[contains(@class, 'active')]/../../preceding::a[1]",
@@ -22,5 +21,9 @@
     "text": ".docs-content p"
   },
   "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "261040552"
+  ],
   "nb_hits": 1308
 }

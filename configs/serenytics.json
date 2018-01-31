@@ -11,7 +11,10 @@
     },
     {
       "url": "https://doc.serenytics.com/developer/",
-      "tags": ["en","fr"]
+      "tags": [
+        "en",
+        "fr"
+      ]
     }
   ],
   "stop_urls": [],
@@ -25,5 +28,8 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
+  "conversation_id": [
+    "309886475"
+  ],
   "nb_hits": 765
 }

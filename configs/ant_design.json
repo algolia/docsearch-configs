@@ -27,9 +27,9 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
+  "strip_chars": "#",
   "conversation_id": [
     "494862422"
   ],
-  "nb_hits": 8283,
-  "strip_chars": "#"
+  "nb_hits": 8283
 }

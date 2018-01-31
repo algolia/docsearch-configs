@@ -16,7 +16,10 @@
   },
   "min_indexed_level": 2,
   "js_render": true,
-  "use_anchors": true,
   "js_wait": 2,
+  "use_anchors": true,
+  "conversation_id": [
+    "399318425"
+  ],
   "nb_hits": 56
 }

@@ -12,7 +12,7 @@
     "lvl4": ".book-wrapper h5",
     "text": ".book-wrapper p, .book-wrapper li"
   },
-  "min_indexed_level":1,
+  "min_indexed_level": 1,
   "conversation_id": [
     "513839738"
   ],

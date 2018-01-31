@@ -13,5 +13,8 @@
     "text": ".content--help-post p, .content--help-post li"
   },
   "min_indexed_level": 1,
+  "conversation_id": [
+    "432238924"
+  ],
   "nb_hits": 681
 }

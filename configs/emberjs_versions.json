@@ -28,13 +28,6 @@
       "selectors_key": "api"
     }
   ],
-  "selectors_exclude": [
-    ".old-version-warning",
-    ".edit-page",
-    ".class-info",
-    "#content p:first-child",
-    "p.attributes"
-  ],
   "selectors": {
     "guide": {
       "lvl0": ".header ul li.active a, #header ul li a.active, #header ul li.active a",
@@ -58,9 +51,19 @@
       "text": "article .description"
     }
   },
+  "selectors_exclude": [
+    ".old-version-warning",
+    ".edit-page",
+    ".class-info",
+    "#content p:first-child",
+    "p.attributes"
+  ],
   "min_indexed_level": {
     "guide": 2,
     "api": 1
   },
+  "conversation_id": [
+    "162141110"
+  ],
   "nb_hits": 53702
 }

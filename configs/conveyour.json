@@ -19,7 +19,10 @@
     "lvl4": ".doc-body h5",
     "text": ".doc-body p, .doc-body li"
   },
-  "scrap_start_url": false,
   "min_indexed_level": true,
+  "scrap_start_url": false,
+  "conversation_id": [
+    "234134440"
+  ],
   "nb_hits": 1201
 }

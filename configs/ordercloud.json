@@ -14,9 +14,6 @@
     "https://documentation.ordercloud.io/home",
     "https://documentation.ordercloud.io/$"
   ],
-  "stop_content": [
-    "guideHeader.guide"
-  ],
   "selectors": {
     "default": {
       "lvl0": ".oc-docs-top-nav li.active a",
@@ -40,10 +37,16 @@
       "text": "article p, article li, article td, article pre"
     }
   },
+  "stop_content": [
+    "guideHeader.guide"
+  ],
   "min_indexed_level": 2,
   "js_render": true,
   "js_wait": 2,
-  "docker_cpu": 2,
   "docker_memory": 4096,
+  "docker_cpu": 2,
+  "conversation_id": [
+    "268599591"
+  ],
   "nb_hits": 8290
 }

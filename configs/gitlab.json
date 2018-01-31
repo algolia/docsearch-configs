@@ -33,11 +33,6 @@
     "https://.*?//.*?$",
     ".*^(?!.*html)"
   ],
-  "stop_content": [
-    "This document was moved to",
-    "This section is now merged into",
-    "404 Not Found"
-  ],
   "selectors": {
     "ee": {
       "lvl0": {
@@ -76,7 +71,15 @@
       "text": ".main p, .main li"
     }
   },
-  "scrap_start_urls": false,
+  "stop_content": [
+    "This document was moved to",
+    "This section is now merged into",
+    "404 Not Found"
+  ],
   "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "434475832"
+  ],
   "nb_hits": 38379
 }

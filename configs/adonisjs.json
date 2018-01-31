@@ -19,10 +19,6 @@
     }
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".note",
-    ".admonitionblock"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//div[contains(@class, 'sidebar')]//a[contains(@class, 'active')][1]/preceding::p[contains(@class, 'menu-label')][1]",
@@ -37,6 +33,13 @@
     "lvl5": ".content-area h5",
     "text": ".content-area p, .content-area li, .content-area td"
   },
+  "selectors_exclude": [
+    ".note",
+    ".admonitionblock"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "219837939"
+  ],
   "nb_hits": 4185
 }

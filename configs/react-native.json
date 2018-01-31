@@ -7,9 +7,6 @@
   "sitemap_urls": [
     "http://facebook.github.io/react-native/sitemap.xml"
   ],
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//nav[contains(@class,'toc')]//a[contains(@class,'ctive')]/preceding::h3[1]",
@@ -23,6 +20,12 @@
     "lvl4": ".post h4",
     "text": ".post p, .post li"
   },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "155138852"
+  ],
   "nb_hits": 6451
 }

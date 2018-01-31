@@ -3,8 +3,7 @@
   "start_urls": [
     "https://docs.pusher.com/"
   ],
-  "stop_urls": [
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": ".default-markdown h1",
     "lvl1": ".default-markdown h2",
@@ -13,8 +12,11 @@
     "lvl4": ".default-markdown h5",
     "text": ".default-markdown p, .default-markdown li"
   },
+  "strip_chars": " .,;:#",
   "js_render": true,
-  "nb_hits": 679,
   "js_wait": 1,
-  "strip_chars": " .,;:#"
+  "conversation_id": [
+    "417762125"
+  ],
+  "nb_hits": 679
 }

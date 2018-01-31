@@ -7,9 +7,6 @@
     },
     "https://v1.vuejs.org/guide/"
   ],
-  "selectors_exclude": [
-    ".version-select"
-  ],
   "selectors": {
     "lvl0": {
       "selector": ".sidebar h2",
@@ -21,6 +18,12 @@
     "lvl4": ".content h4",
     "text": ".content p"
   },
+  "selectors_exclude": [
+    ".version-select"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "338301998"
+  ],
   "nb_hits": 1348
 }

@@ -15,9 +15,9 @@
     "lvl4": "#mainContent h5",
     "text": "#mainContent p, #mainContent td, #mainContent .ui.message"
   },
+  "min_indexed_level": 1,
   "conversation_id": [
     "466019125"
   ],
-  "min_indexed_level": 1,
   "nb_hits": 750
 }

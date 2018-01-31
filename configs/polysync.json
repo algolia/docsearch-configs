@@ -3,14 +3,14 @@
   "start_urls": [
     "http://docs.polysync.io/"
   ],
+  "sitemap_urls": [
+    "http://docs.polysync.io/sitemap.xml"
+  ],
   "stop_urls": [
     "http://docs.polysync.io/flows/getting-started/",
     "http://docs.polysync.io/releases",
     "http://docs.*//.*",
     "/release-notes/"
-  ],
-  "sitemap_urls": [
-    "http://docs.polysync.io/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -26,5 +26,8 @@
     "text": ".Article-Content p, .Article-Content li, .Article-Content td, .Sensors-Content p, .Sensors-Content li, .Sensors-Content td"
   },
   "min_indexed_level": 2,
+  "conversation_id": [
+    "308149146"
+  ],
   "nb_hits": 55843
 }

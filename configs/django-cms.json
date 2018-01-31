@@ -19,7 +19,10 @@
     "lvl4": ".document h4",
     "text": ".document p, .document li"
   },
-  "min_indexed_level": 1,
   "strip_chars": " \u00bb#\u00b6",
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "449847890"
+  ],
   "nb_hits": 3188
 }

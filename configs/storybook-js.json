@@ -5,9 +5,6 @@
     "https://storybook.js.org/basics/introduction/"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".header-anchor"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@id, 'nav')]//li/a[contains(@class, 'selected')]/../../preceding::h3[1]",
@@ -20,6 +17,12 @@
     "lvl5": ".content h5",
     "text": ".content p, .content li"
   },
+  "selectors_exclude": [
+    ".header-anchor"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "374048318"
+  ],
   "nb_hits": 452
 }

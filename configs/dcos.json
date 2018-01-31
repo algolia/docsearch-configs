@@ -27,7 +27,10 @@
     "lvl6": "article h5",
     "text": "article p, article li"
   },
-  "scrap_start_urls": false,
   "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "374865594"
+  ],
   "nb_hits": 12928
 }

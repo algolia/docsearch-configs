@@ -13,5 +13,8 @@
     "lvl3": ".article__body h3",
     "text": ".article__body p, .article__body li"
   },
+  "conversation_id": [
+    "377464724"
+  ],
   "nb_hits": 7061
 }

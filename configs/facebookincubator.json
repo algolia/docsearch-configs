@@ -13,9 +13,9 @@
     "lvl4": ".devsiteDocsContent h4",
     "text": ".devsiteDocsContent p, .devsiteDocsContent li"
   },
+  "min_indexed_level": 2,
   "conversation_id": [
     "263790927"
   ],
-  "min_indexed_level": 2,
   "nb_hits": 40068
 }

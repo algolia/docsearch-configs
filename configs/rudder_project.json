@@ -44,9 +44,6 @@
       ]
     }
   ],
-  "selectors_exclude": [
-    ".bigtitle"
-  ],
   "selectors": {
     "lvl0": "#header h1",
     "lvl1": ".titlepage h2",
@@ -55,6 +52,12 @@
     "lvl4": ".section h5",
     "text": ".section p"
   },
+  "selectors_exclude": [
+    ".bigtitle"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "304263392"
+  ],
   "nb_hits": 8852
 }

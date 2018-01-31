@@ -22,5 +22,8 @@
   },
   "strip_chars": " .,;:#",
   "min_indexed_level": 1,
+  "conversation_id": [
+    "295633389"
+  ],
   "nb_hits": 3838
 }

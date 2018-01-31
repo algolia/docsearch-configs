@@ -6,9 +6,6 @@
   "sitemap_urls": [
     "https://referralrock.com/sitemap.xml"
   ],
-  "selectors_exclude": [
-    "#table-of-contents"
-  ],
   "stop_urls": [
     "https://referralrock.com/knowledgebase/$",
     "https://referralrock.com/knowledgebase/[^/]*?$"
@@ -21,6 +18,12 @@
     "lvl4": "#body-inner h5",
     "text": "#body-inner p, #body-inner li"
   },
+  "selectors_exclude": [
+    "#table-of-contents"
+  ],
   "scrap_start_urls": false,
+  "conversation_id": [
+    "212223506"
+  ],
   "nb_hits": 2895
 }

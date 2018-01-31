@@ -7,7 +7,6 @@
   "stop_urls": [
     "\\?"
   ],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class, 'menu-crumbs')]/a[1]",
@@ -23,6 +22,10 @@
     "lvl4": ".text h3",
     "text": ".text p, .text li"
   },
+  "selectors_exclude": [],
   "min_indexed_level": 2,
+  "conversation_id": [
+    "411954220"
+  ],
   "nb_hits": 8776
 }

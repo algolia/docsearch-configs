@@ -13,9 +13,9 @@
     "lvl4": "#doc-content h6",
     "text": "#doc-content p, #doc-content li"
   },
+  "min_indexed_level": 2,
   "conversation_id": [
     "455631250"
   ],
-  "min_indexed_level": 2,
   "nb_hits": 11196
 }

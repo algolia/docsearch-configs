@@ -11,7 +11,6 @@
   "stop_urls": [
     "^((?!\\.html).)*$"
   ],
-  "scrap_start_urls": false,
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -27,5 +26,9 @@
     "lvl5": ".page-content h5",
     "text": ".page-content p, .page-content li, .page-content td"
   },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "287326440"
+  ],
   "nb_hits": 2716
 }

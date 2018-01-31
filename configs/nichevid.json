@@ -18,10 +18,10 @@
     "lvl2": "#content article b span",
     "text": "#content article p, #content article li"
   },
+  "min_indexed_level": 1,
+  "only_content_level": true,
   "conversation_id": [
     "501216026"
   ],
-  "min_indexed_level": 1,
-  "only_content_level": true,
   "nb_hits": 546
 }
