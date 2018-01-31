@@ -6,6 +6,7 @@
   "stop_urls": [
     "[^/]$"
   ],
+  "strict_redirects": true,
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -17,6 +18,8 @@
     "text": "#content p, #content li"
   },
   "min_indexed_level": 1,
-  "strict_redirects": true,
+  "conversation_id": [
+    392230260
+  ],
   "nb_hits": 843
 }

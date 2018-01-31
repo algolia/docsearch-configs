@@ -6,10 +6,6 @@
   "stop_urls": [
     "https://www.tinymce.com/docs/changelog"
   ],
-  "selectors_exclude": [
-    ".content > div",
-    ".license"
-  ],
   "selectors": {
     "lvl0": ".side-nav .active span.folder",
     "lvl1": ".heading h1",
@@ -18,6 +14,13 @@
     "lvl4": ".content h4",
     "text": ".content p"
   },
+  "selectors_exclude": [
+    ".content > div",
+    ".license"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    296377629
+  ],
   "nb_hits": 5108
 }

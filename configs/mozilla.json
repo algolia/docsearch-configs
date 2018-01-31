@@ -43,9 +43,6 @@
     "search?",
     "/tag/"
   ],
-  "selectors_exclude": [
-    ".section-edit"
-  ],
   "selectors": {
     "lvl0": {
       "selector": ".crumbs",
@@ -89,6 +86,10 @@
     },
     "text": "article p"
   },
+  "selectors_exclude": [
+    ".section-edit"
+  ],
+  "min_indexed_level": 1,
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor",
     "ignorePlurals": false,
@@ -134,11 +135,27 @@
     ]
   },
   "synonyms": [
-    ["js", "javascript"],
-    ["es6", "ECMAScript6", "ECMAScript 6"],
-    ["es5", "ECMAScript5", "ECMAScript 5"],
-    ["mdn", "Mozilla Developer Network"]
+    [
+      "js",
+      "javascript"
+    ],
+    [
+      "es6",
+      "ECMAScript6",
+      "ECMAScript 6"
+    ],
+    [
+      "es5",
+      "ECMAScript5",
+      "ECMAScript 5"
+    ],
+    [
+      "mdn",
+      "Mozilla Developer Network"
+    ]
   ],
-  "min_indexed_level": 1,
+  "conversation_id": [
+    "-1"
+  ],
   "nb_hits": 36870
 }

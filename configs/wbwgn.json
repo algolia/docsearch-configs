@@ -13,10 +13,13 @@
     "lvl2": ".container h2",
     "text": ".container p"
   },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    158128997
+  ],
   "comments": [
     "The lvl0 will first try to select the active headings in the sidebar (Homepage, Core, Page, Code Pinball)",
     "If none is found, it will look for active pages, and go up the tree to find the matching heading"
   ],
-  "min_indexed_level": 1,
   "nb_hits": 138
 }

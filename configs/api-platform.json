@@ -23,9 +23,9 @@
   "selectors_exclude": [
     "#other-resources"
   ],
-  "conversation_id": [
-    "266860983"
-  ],
   "scrap_start_urls": false,
+  "conversation_id": [
+    266860983
+  ],
   "nb_hits": 1170
 }

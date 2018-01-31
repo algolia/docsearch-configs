@@ -12,12 +12,12 @@
     "lvl4": ".page-content-wrapper h4",
     "text": ".page-content-wrapper p, .page-content-wrapper li"
   },
-  "min_indexed_level": 1,
-  "conversation_id": [
-    "487686322"
-  ],
   "stop_content": [
     "Page not found"
+  ],
+  "min_indexed_level": 1,
+  "conversation_id": [
+    487686322
   ],
   "nb_hits": 5076
 }

@@ -15,7 +15,10 @@
     "lvl3": ".article-subhead",
     "text": ".article-p, .article-list li"
   },
-  "js_render": true,
   "min_indexed_level": 1,
+  "js_render": true,
+  "conversation_id": [
+    392991384
+  ],
   "nb_hits": 293
 }
