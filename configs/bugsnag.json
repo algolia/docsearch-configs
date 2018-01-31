@@ -20,7 +20,10 @@
     "lvl6": ".Grid h5",
     "text": ".Grid p, .Grid li"
   },
-  "scrap_start_url": false,
   "min_indexed_level": 2,
+  "scrap_start_url": false,
+  "conversation_id": [
+    259761823
+  ],
   "nb_hits": 8063
 }

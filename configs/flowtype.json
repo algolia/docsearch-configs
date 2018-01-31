@@ -3,9 +3,6 @@
   "start_urls": [
     "https://flow.org/en/docs/"
   ],
-  "selectors_exclude": [
-    ".hash"
-  ],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".text-muted",
@@ -13,7 +10,13 @@
     "lvl3": ".content h4, .content h5",
     "text": ".content p, .content li"
   },
-  "scrap_start_urls": false,
+  "selectors_exclude": [
+    ".hash"
+  ],
   "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    178040846
+  ],
   "nb_hits": 2353
 }

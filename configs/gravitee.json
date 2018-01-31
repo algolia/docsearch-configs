@@ -6,9 +6,6 @@
   "stop_urls": [
     "https://docs.gravitee.io/apim_changelog.html"
   ],
-  "selectors_exclude": [
-    "#preamble"
-  ],
   "selectors": {
     "lvl0": ".post-content h1",
     "lvl1": ".post-content h2",
@@ -17,5 +14,11 @@
     "lvl4": ".post-content h5",
     "text": ".post-content p, .post-content li"
   },
+  "selectors_exclude": [
+    "#preamble"
+  ],
+  "conversation_id": [
+    288548272
+  ],
   "nb_hits": 879
 }

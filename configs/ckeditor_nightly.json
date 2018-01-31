@@ -45,12 +45,6 @@
     "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/features/index.html",
     "https://ckeditor5.github.io/docs/nightly/ckeditor5/latest/examples/index.html"
   ],
-  "selectors_exclude": [
-    ".collapsing-list__type",
-    ".badges",
-    ".secondary-navigation",
-    ".exclude"
-  ],
   "selectors": {
     "default": {
       "lvl0": ".top__menu__item--active",
@@ -72,6 +66,13 @@
       "text": ".main__content .main-description, .main__content .collapsing-list__description, .main__content .docsearch-txt"
     }
   },
+  "selectors_exclude": [
+    ".collapsing-list__type",
+    ".badges",
+    ".secondary-navigation",
+    ".exclude"
+  ],
+  "strip_chars": " .,;:#",
   "min_indexed_level": 1,
   "custom_settings": {
     "customRanking": [
@@ -81,6 +82,8 @@
       "asc(weight.position)"
     ]
   },
-  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "445274927"
+  ],
   "nb_hits": 15696
 }

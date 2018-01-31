@@ -18,10 +18,10 @@
     "lvl4": ".post h4",
     "text": ".post p, .post li"
   },
-  "min_indexed_level": 1,
   "strip_chars": " .,;:#",
+  "min_indexed_level": 1,
   "conversation_id": [
-    "354009870"
+    354009870
   ],
   "nb_hits": 927
 }

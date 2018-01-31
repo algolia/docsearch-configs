@@ -18,10 +18,6 @@
       }
     }
   ],
-  "selectors_exclude": [
-    ".hash-link",
-    ".edit-page-link"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//nav//*[contains(@class,'navListItemActive')]/../../h3",
@@ -36,6 +32,13 @@
     "lvl5": ".post article h5",
     "text": ".post article p, .post article li"
   },
+  "selectors_exclude": [
+    ".hash-link",
+    ".edit-page-link"
+  ],
   "min_indexed_level": 2,
+  "conversation_id": [
+    178040846
+  ],
   "nb_hits": 1415
 }

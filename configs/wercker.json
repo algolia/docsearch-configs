@@ -14,7 +14,10 @@
     "lvl3": ".blog-section h5",
     "text": ".blog-section p, .blog-section li"
   },
-  "scrap_start_urls": false,
   "js_render": true,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    212906828
+  ],
   "nb_hits": 2261
 }

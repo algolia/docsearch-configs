@@ -3,18 +3,18 @@
   "start_urls": [
     "https://developers.whmcs.com"
   ],
-  "stop_urls": [
-    "/index$"
-  ],
   "sitemap_urls": [
     "https://developers.whmcs.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/index$"
   ],
   "selectors": {
     "lvl0": {
       "selector": "//ul[contains(@class,'sidebar-nav')]/li/a/span",
       "type": "xpath",
       "default_value": "Documentation",
-      "global":true
+      "global": true
     },
     "lvl1": ".main .col-sm-9 h1",
     "lvl2": ".main .col-sm-9 h2",
@@ -37,5 +37,8 @@
       "custom"
     ]
   },
+  "conversation_id": [
+    474976372
+  ],
   "nb_hits": 2777
 }
