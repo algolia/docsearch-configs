@@ -1,7 +1,8 @@
 {
   "index_name": "unibeautify",
   "start_urls": [
-    "https://unibeautify.github.io/"
+    "https://unibeautify.github.io/docs/",
+    "https://unibeautify.github.io/docs/config-file.html"
   ],
   "stop_urls": [],
   "selectors": {
@@ -9,7 +10,7 @@
       "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
-      "default_value": "Blog"
+      "default_value": "Documentation"
     },
     "lvl1": ".post h1",
     "lvl2": ".post h2",
@@ -21,5 +22,5 @@
   "conversation_id": [
     "507829284"
   ],
-  "nb_hits": 2143
+  "nb_hits": 893
 }
