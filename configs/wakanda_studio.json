@@ -3,12 +3,6 @@
   "start_urls": [
     "http://wakanda.github.io/wakanda-studio/"
   ],
-  "selectors_exclude": [
-    "#table-of-contents",
-    "section ul",
-    ".home-container",
-    "#home"
-  ],
   "selectors": {
     "lvl0": "#chapter",
     "lvl1": "section h1",
@@ -18,6 +12,15 @@
     "lvl5": "section h5",
     "text": "section p"
   },
+  "selectors_exclude": [
+    "#table-of-contents",
+    "section ul",
+    ".home-container",
+    "#home"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "169633359"
+  ],
   "nb_hits": 170
 }

@@ -4,10 +4,6 @@
     "https://reactjs.org/docs/getting-started.html",
     "https://reactjs.org/docs/.*"
   ],
-  "selectors_exclude": [
-    ".hash-link",
-    ".edit-page-link"
-  ],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
@@ -16,6 +12,13 @@
     "lvl4": "article h5",
     "text": "article p, article li"
   },
+  "selectors_exclude": [
+    ".hash-link",
+    ".edit-page-link"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "178040846"
+  ],
   "nb_hits": 2351
 }

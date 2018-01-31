@@ -35,11 +35,6 @@
     "members\\.html",
     "_source.html"
   ],
-  "selectors_exclude": [
-    ".permalink",
-    "#markdown-toc",
-    ".header-link"
-  ],
   "selectors": {
     "doc": {
       "lvl0": {
@@ -74,9 +69,17 @@
       "text": ".textblock"
     }
   },
+  "selectors_exclude": [
+    ".permalink",
+    "#markdown-toc",
+    ".header-link"
+  ],
   "min_indexed_level": {
     "doc": 1,
     "ref": 3
   },
+  "conversation_id": [
+    "344789353"
+  ],
   "nb_hits": 5908
 }

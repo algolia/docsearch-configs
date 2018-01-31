@@ -4,11 +4,6 @@
     "https://www.phpschool.io/docs"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".back-to-top",
-    ".edit-on-gh",
-    ".anchor"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class, 'doc__side')]/ul/li/a[contains(@class, 'current')]/../preceding::h3[1]",
@@ -20,7 +15,15 @@
     "lvl4": ".doc__content h5",
     "text": ".doc__content p, .doc__content li"
   },
-  "scrap_start_urls": false,
+  "selectors_exclude": [
+    ".back-to-top",
+    ".edit-on-gh",
+    ".anchor"
+  ],
   "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "208814394"
+  ],
   "nb_hits": 679
 }

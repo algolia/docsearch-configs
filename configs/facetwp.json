@@ -9,11 +9,6 @@
     "https://facetwp.com/showcase/",
     "https://facetwp.com/buy/"
   ],
-  "scrap_start_urls": false,
-  "selectors_exclude": [
-    ".colorbox",
-    ".commented"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -25,7 +20,15 @@
     "lvl4": ".content h4",
     "text": ".content p, .content article, .content li, .content td, .content pre"
   },
+  "selectors_exclude": [
+    ".colorbox",
+    ".commented"
+  ],
   "js_render": true,
   "js_wait": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "384259229"
+  ],
   "nb_hits": 2334
 }

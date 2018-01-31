@@ -6,10 +6,6 @@
   "stop_urls": [
     "\\.\\."
   ],
-  "selectors_exclude": [
-    ".manual-toc",
-    ".manual-cards"
-  ],
   "selectors": {
     "lvl0": ".content > div h1",
     "lvl1": ".content > div h2",
@@ -18,6 +14,10 @@
     "lvl4": ".content > div h5",
     "text": ".content > div p, .content > div li"
   },
+  "selectors_exclude": [
+    ".manual-toc",
+    ".manual-cards"
+  ],
   "conversation_id": [
     "388387455"
   ],

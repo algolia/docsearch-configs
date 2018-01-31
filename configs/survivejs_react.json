@@ -1,12 +1,12 @@
 {
   "index_name": "survivejs_react",
+  "sitemap_urls": [
+    "https://survivejs.com/sitemap.xml"
+  ],
   "sitemap_urls_regexs": [
     "/react/"
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://survivejs.com/sitemap.xml"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//ul[contains(@class, 'toc-nav')]/li[contains(@class, 'toc-part') or contains(@class, 'toc-intro')]/span[contains(@class, 'toc-nav__link--current')] | //ul[contains(@class, 'toc-nav')]/li[contains(@class, 'toc-chapter')]/span[contains(@class, 'toc-nav__link--current')]/../preceding::li[contains(@class, 'toc-part')][1]",
@@ -20,9 +20,9 @@
     "lvl5": ".chapter-content h5",
     "text": ".chapter-content p, .chapter-content li"
   },
+  "strip_chars": " .,;:#",
   "min_indexed_level": 2,
   "scrap_start_urls": false,
-  "strip_chars": " .,;:#",
   "conversation_id": [
     "255043752"
   ],

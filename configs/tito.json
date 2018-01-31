@@ -4,9 +4,6 @@
     "https://ti.to/docs"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    "#markdown-toc"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class, 'categories')]//li[contains(@class, 'active')]/preceding::h2[1]",
@@ -20,6 +17,9 @@
     "lvl5": ".doc h5",
     "text": ".doc p, .doc li"
   },
+  "selectors_exclude": [
+    "#markdown-toc"
+  ],
   "min_indexed_level": 1,
   "conversation_id": [
     "425075665"

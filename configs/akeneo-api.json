@@ -14,8 +14,11 @@
     "lvl4": "#mainContent h5",
     "text": "#mainContent p, #mainContent li"
   },
+  "strip_chars": " .,;:#",
   "min_indexed_level": 2,
-  "nb_hits": 7915,
   "js_render": true,
-  "strip_chars": " .,;:#"
+  "conversation_id": [
+    "327917612"
+  ],
+  "nb_hits": 7915
 }

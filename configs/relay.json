@@ -4,10 +4,6 @@
     "https://facebook.github.io/relay/docs/en/introduction-to-relay.html",
     "https://facebook.github.io/relay/docs/en/.*\\.html"
   ],
-  "selectors_exclude": [
-    ".hash-link",
-    ".edit-page-link"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
@@ -19,6 +15,13 @@
     "lvl4": ".post h4",
     "text": ".post article p, .post article li"
   },
+  "selectors_exclude": [
+    ".hash-link",
+    ".edit-page-link"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "499581257"
+  ],
   "nb_hits": 948
 }

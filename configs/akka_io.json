@@ -14,9 +14,6 @@
   "stop_urls": [
     "index.html"
   ],
-  "selectors_exclude": [
-    "#scroller-anchor"
-  ],
   "selectors": {
     "lvl0": "#docs h1",
     "lvl1": "#docs h2",
@@ -25,6 +22,12 @@
     "lvl4": "#docs h5",
     "text": "#docs p"
   },
+  "selectors_exclude": [
+    "#scroller-anchor"
+  ],
   "min_indexed_level": 2,
+  "conversation_id": [
+    "371144203"
+  ],
   "nb_hits": 9104
 }

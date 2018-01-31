@@ -4,11 +4,6 @@
     "https://docs.sqreen.io/"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".md-sidebar--secondary",
-    ".md-nav--secondary",
-    ".headerlink"
-  ],
   "selectors": {
     "lvl0": ".md-nav--primary > ul.md-nav__list > li.md-nav__item--active > label",
     "lvl1": ".md-nav--primary > ul.md-nav__list > li > nav > ul > li.md-nav__item--active > label",
@@ -18,6 +13,14 @@
     "lvl5": ".md-content h5",
     "text": ".md-content p, .md-content li"
   },
+  "selectors_exclude": [
+    ".md-sidebar--secondary",
+    ".md-nav--secondary",
+    ".headerlink"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "457954753"
+  ],
   "nb_hits": 1819
 }

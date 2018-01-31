@@ -16,9 +16,9 @@
     "text": ".docSearch-content p, .docSearch-content li"
   },
   "min_indexed_level": 2,
+  "only_content_level": true,
   "conversation_id": [
     "500460446"
   ],
-  "only_content_level": true,
   "nb_hits": 274
 }

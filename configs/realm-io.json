@@ -6,7 +6,8 @@
       "tags": [
         "en"
       ]
-    },{
+    },
+    {
       "url": "https://(www.)?realm.io/docs/.*/latest/$",
       "tags": [
         "en"
@@ -43,6 +44,7 @@
     "javascript/\\d",
     "java/adapter"
   ],
+  "force_sitemap_urls_crawling": true,
   "selectors": {
     "lvl0": ".docs-body h2",
     "lvl1": ".docs-body h3",
@@ -51,7 +53,9 @@
     "lvl4": ".docs-body h6",
     "text": ".docs-body p, .docs-body li"
   },
-  "force_sitemap_urls_crawling": true,
   "min_indexed_level": 1,
+  "conversation_id": [
+    "469819209"
+  ],
   "nb_hits": 16403
 }

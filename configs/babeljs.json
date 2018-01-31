@@ -10,9 +10,6 @@
   "stop_urls": [
     ".*?[^/]$"
   ],
-  "selectors_exclude": [
-    "blockquote"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//ul[contains(@class, 'navbar-nav')]/li[contains(@class, 'active')]/a",
@@ -25,6 +22,9 @@
     "lvl5": ".docs-content h4",
     "text": ".docs-content p, .docs-content li, .docs-header p"
   },
+  "selectors_exclude": [
+    "blockquote"
+  ],
   "min_indexed_level": 1,
   "conversation_id": [
     "276264648"

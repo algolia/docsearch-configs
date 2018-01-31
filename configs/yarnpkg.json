@@ -14,7 +14,6 @@
     }
   ],
   "stop_urls": [],
-  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
       "selector": "//ul[contains(@class, 'guide-nav')]/li[1]",
@@ -28,6 +27,10 @@
     "lvl4": ".guide-content h5",
     "text": ".guide-content p, .guide-content li"
   },
+  "selectors_exclude": [],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "262167207"
+  ],
   "nb_hits": 3093
 }

@@ -4,9 +4,6 @@
     "https://serverless.com/framework/docs/"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".phenomic-HeadingAnchor"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//div[contains(@class, 'docs-breadcrumbs')]/ul/li[3]",
@@ -19,6 +16,12 @@
     "lvl5": ".docs-content h5",
     "text": ".docs-content p, .docs-content li"
   },
+  "selectors_exclude": [
+    ".phenomic-HeadingAnchor"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "254866750"
+  ],
   "nb_hits": 3062
 }

@@ -4,11 +4,6 @@
     "https://reactfaq.site/"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".menu-mobile",
-    ".menu-toggle",
-    ".menu-desktop"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -21,5 +16,13 @@
     "lvl5": "body h5",
     "text": "body p, body li"
   },
+  "selectors_exclude": [
+    ".menu-mobile",
+    ".menu-toggle",
+    ".menu-desktop"
+  ],
+  "conversation_id": [
+    "443619862"
+  ],
   "nb_hits": 517
 }

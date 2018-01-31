@@ -11,7 +11,10 @@
     "lvl1": ".content h2",
     "text": ".content p, .content li"
   },
-  "scrap_start_url": false,
   "min_indexed_level": 1,
+  "scrap_start_url": false,
+  "conversation_id": [
+    "377943789"
+  ],
   "nb_hits": 226
 }

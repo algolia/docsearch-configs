@@ -17,7 +17,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "doc" : {
+    "doc": {
       "lvl0": {
         "selector": "//a[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
         "type": "xpath"
@@ -28,9 +28,8 @@
       "lvl4": ".post h4",
       "lvl5": ".post h5",
       "text": ".post p, .post li"
-
     },
-    "api" : {
+    "api": {
       "lvl0": {
         "selector": ".header .subtitle",
         "default": "API documentation"
@@ -46,5 +45,8 @@
   "min_indexed_level": 1,
   "js_render": true,
   "js_wait": 1,
+  "conversation_id": [
+    "349248966"
+  ],
   "nb_hits": 3874
 }

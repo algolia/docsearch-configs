@@ -17,10 +17,10 @@
     "lvl4": "#content-container h4",
     "text": "#content-container p, #content-container li"
   },
-  "conversation_id": [
-    "502703008"
-  ],
-  "js_render": true,
   "only_content_level": true,
+  "js_render": true,
+  "conversation_id": [
+    "491789687"
+  ],
   "nb_hits": 12055
 }

@@ -87,12 +87,6 @@
     "https://docs.ckeditor.com/cs/latest/guides/index.html",
     "https://docs.ckeditor.com/index.html"
   ],
-  "selectors_exclude": [
-    ".collapsing-list__type",
-    ".badges",
-    ".secondary-navigation",
-    ".exclude"
-  ],
   "selectors": {
     "default": {
       "lvl0": {
@@ -117,6 +111,13 @@
       "text": ".main__content .main-description, .main__content .collapsing-list__description, .main__content .docsearch-txt"
     }
   },
+  "selectors_exclude": [
+    ".collapsing-list__type",
+    ".badges",
+    ".secondary-navigation",
+    ".exclude"
+  ],
+  "strip_chars": " .,;:#",
   "min_indexed_level": 1,
   "custom_settings": {
     "customRanking": [
@@ -126,6 +127,8 @@
       "asc(weight.position)"
     ]
   },
-  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "445274927"
+  ],
   "nb_hits": 26597
 }

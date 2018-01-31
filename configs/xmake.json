@@ -14,9 +14,6 @@
       "tags": "en"
     }
   ],
-  "stop_content": [
-    "Cannot find"
-  ],
   "stop_urls": [
     "\\?id="
   ],
@@ -31,8 +28,14 @@
     "lvl4": ".content h5",
     "text": ".content p, .content li"
   },
+  "stop_content": [
+    "Cannot find"
+  ],
   "js_render": true,
   "js_wait": 2,
   "use_anchors": true,
+  "conversation_id": [
+    "314832532"
+  ],
   "nb_hits": 1893
 }

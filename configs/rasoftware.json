@@ -14,5 +14,8 @@
     "text": ".page-detail p, .page-detail li"
   },
   "min_indexed_level": 1,
+  "conversation_id": [
+    "380548348"
+  ],
   "nb_hits": 301
 }

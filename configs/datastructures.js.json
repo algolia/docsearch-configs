@@ -3,7 +3,9 @@
   "start_urls": [
     "https://datastructures.js.org/#/home"
   ],
-  "selectors_exclude": [],
+  "stop_urls": [
+    "\\?id="
+  ],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
@@ -12,14 +14,15 @@
     "lvl4": ".content h5",
     "text": ".content p, .content li"
   },
+  "selectors_exclude": [],
   "stop_content": [
     "Cannot find"
   ],
-  "stop_urls": [
-    "\\?id="
-  ],
-  "js_wait": 2,
   "js_render": true,
+  "js_wait": 2,
   "use_anchors": true,
+  "conversation_id": [
+    "350505040"
+  ],
   "nb_hits": 271
 }

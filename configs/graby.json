@@ -15,11 +15,11 @@
     "lvl4": "article h4",
     "text": "article p, article li"
   },
-  "min_indexed_level": 1,
-  "scrap_start_urls": false,
   "selectors_exclude": [
     ".toc"
   ],
+  "min_indexed_level": 1,
+  "scrap_start_urls": false,
   "conversation_id": [
     "489269090"
   ],

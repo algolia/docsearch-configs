@@ -44,9 +44,6 @@
   "stop_urls": [
     "index.html"
   ],
-  "selectors_exclude": [
-    "#scroller-anchor"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class, 'nav-breadcrumbs')]/ul/li[3]",
@@ -59,6 +56,12 @@
     "lvl4": "#docs h4",
     "text": "#docs p"
   },
+  "selectors_exclude": [
+    "#scroller-anchor"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "299459375"
+  ],
   "nb_hits": 32719
 }

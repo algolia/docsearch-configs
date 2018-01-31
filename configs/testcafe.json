@@ -16,7 +16,10 @@
     "lvl5": ".post-content h5",
     "text": ".post-content p, .post-content li"
   },
-  "min_indexed_level": 1,
   "strip_chars": " .,;:#",
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "319918646"
+  ],
   "nb_hits": 1750
 }

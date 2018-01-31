@@ -4,9 +4,6 @@
     "https://phenomic.io/docs/usage/"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".phenomic-HeadingAnchor"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -19,5 +16,11 @@
     "lvl5": ".phenomic-BodyContainer h5",
     "text": ".phenomic-BodyContainer p, .phenomic-BodyContainer li"
   },
+  "selectors_exclude": [
+    ".phenomic-HeadingAnchor"
+  ],
+  "conversation_id": [
+    "252475182"
+  ],
   "nb_hits": 276
 }

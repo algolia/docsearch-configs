@@ -15,10 +15,10 @@
     "lvl4": "#main h5",
     "text": "#main p, #main li"
   },
-  "min_indexed_level": 1,
   "selectors_exclude": [
     "#further-reading"
   ],
+  "min_indexed_level": 1,
   "conversation_id": [
     "484937103"
   ],

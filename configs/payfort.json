@@ -18,7 +18,10 @@
     "lvl5": ".col-mainarea h5",
     "text": ".col-mainarea p, .col-mainarea li"
   },
-  "js_render": true,
   "min_indexed_level": 1,
+  "js_render": true,
+  "conversation_id": [
+    "351324005"
+  ],
   "nb_hits": 894
 }

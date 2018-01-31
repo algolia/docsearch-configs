@@ -16,8 +16,8 @@
     "lvl4": ".docSearch-content h4",
     "text": ".docSearch-content p, .docSearch-content li"
   },
-  "js_render": true,
   "min_indexed_level": 1,
+  "js_render": true,
   "conversation_id": [
     "465411130"
   ],
