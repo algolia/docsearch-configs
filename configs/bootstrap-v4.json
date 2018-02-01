@@ -12,12 +12,8 @@
     "text": ".bd-content p, .bd-content li, .bd-example"
   },
   "min_indexed_level": 1,
-<<<<<<< Updated upstream
   "conversation_id": [
     "423628659"
   ],
-  "nb_hits": 2484
-=======
   "nb_hits": 3068
->>>>>>> Stashed changes
 }
