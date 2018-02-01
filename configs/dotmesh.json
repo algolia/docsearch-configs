@@ -1,10 +1,10 @@
 {
   "index_name": "dotmesh",
   "start_urls": [
-    "https://docs.dotmesh.io/"
+    "https://docs.dotmesh.com"
   ],
   "sitemap_urls": [
-    "https://docs.dotmesh.io/sitemap.xml"
+    "https://docs.dotmesh.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
