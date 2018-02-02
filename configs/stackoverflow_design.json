@@ -6,13 +6,12 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//li[contains(@class,'-item _dropdown')][.//li[contains(@class,'is-active')]]/span[1]/span[1]",
-      "type": "xpath",
-      "default_value": "Documentation",
-      "global": true
+      "selector": ".-item a.is-active",
+      "global": true,
+      "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": "//nav//li[contains(@class,'-item _dropdown')]//li[contains(@class,'is-active')]",
+      "selector": "//nav//a[contains(@class,'-active')]/preceding::span[contains(@class,'-label')][1]",
       "type": "xpath",
       "default_value": "Chapter",
       "global": true
@@ -23,9 +22,8 @@
     "text": "main p, main li"
   },
   "min_indexed_level": 1,
-  "js_render": true,
   "conversation_id": [
     "480565614"
   ],
-  "nb_hits": 587
+  "nb_hits": 572
 }
