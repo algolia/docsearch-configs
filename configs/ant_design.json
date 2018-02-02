@@ -14,10 +14,13 @@
       ]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/changelog"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".ant-menu-submenu-selected h4",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": "article h1",
@@ -31,5 +34,6 @@
   "conversation_id": [
     "494862422"
   ],
-  "nb_hits": 8283
+  "min_indexed_level": 1,
+  "nb_hits": 7559
 }
