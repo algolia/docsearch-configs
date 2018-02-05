@@ -1,0 +1,17 @@
+{
+  "index_name": "fontawesome",
+  "start_urls": [
+    "https://fontawesome.com/how-to-use"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs-generated h1",
+    "lvl1": ".docs-generated h2",
+    "lvl2": ".docs-generated h3",
+    "lvl3": ".docs-generated h4",
+    "lvl4": ".docs-generated h5",
+    "text": ".docs-generated p, .docs-generated li"
+  },
+  "js_render": true,
+  "nb_hits": 620
+}
