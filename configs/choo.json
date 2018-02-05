@@ -1,0 +1,17 @@
+{
+  "index_name": "choo",
+  "start_urls": [
+    "https://choo.io/reference/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".lh1.p1",
+    "lvl1": ".markdown-body h2",
+    "lvl2": ".markdown-body h3",
+    "lvl3": ".markdown-body h4",
+    "lvl4": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "scrap_start_urls": false,
+  "nb_hits": 339
+}
