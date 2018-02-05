@@ -21,7 +21,8 @@
           "laravel-uptime-monitor",
           "image",
           "laravel-server-monitor",
-          "laravel-backup"
+          "laravel-backup",
+          "laravel-html"
         ]
       }
     }
