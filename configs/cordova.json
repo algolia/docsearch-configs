@@ -23,8 +23,9 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//ul[@class=\"site-toc\"]//a[@class=\"this-page\"]/../../preceding::span[1]",
+      "selector": "//div[contains(@class,'docs')]/div/ul[contains(@class,'site-toc')]/li[.//a[@class='this-page']]/*[contains(@class,'toc-section-heading')]",
       "type": "xpath",
+      "globa": true,
       "default_value": "Documentation"
     },
     "lvl1": "#page-toc-source h1",
@@ -37,5 +38,5 @@
   "conversation_id": [
     "192288401"
   ],
-  "nb_hits": 337937
+  "nb_hits": 337997
 }
