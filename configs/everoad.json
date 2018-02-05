@@ -1,0 +1,26 @@
+{
+  "index_name": "everoad",
+  "start_urls": [
+    "https://support.everoad.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@class, 'sub-nav')]//li[2]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//nav[contains(@class, 'sub-nav')]//li[3]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": ".article-header h1",
+    "lvl3": ".article-body h4",
+    "lvl4": ".article-body h5",
+    "text": ".article-body p, .article-body li"
+  },
+  "nb_hits": 659
+}
