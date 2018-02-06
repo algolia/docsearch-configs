@@ -1,0 +1,48 @@
+{
+  "index_name": "sentry",
+  "start_urls": [
+    "https://docs.sentry.io/",
+    {
+      "url": "https://docs.sentry.io/clients/(?P<client>.*?)/",
+      "variables": {
+        "client": [
+          "python",
+          "javascript",
+          "node",
+          "react-native",
+          "java",
+          "perl",
+          "elixir",
+          "go",
+          "csharp",
+          "cordova",
+          "cocoa",
+          "php",
+          "ruby"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "index.html",
+    "/changelog/"
+  ],
+  "sitemap_urls": [
+    "https://docs.sentry.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//a[contains(@class, 'current')][1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "text": ".section p, .section li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 5297
+}
