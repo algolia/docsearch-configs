@@ -5,8 +5,10 @@
     "https://www.plasticscm.com/documentation/.*/.*\\.shtml",
     "https://users.semanticmerge.com/documentation/external-parsers/external-parsers-guide.shtml"
   ],
-  "stop_urls": [],
-  "js_render": true,
+  "stop_urls": [
+    "newernotes",
+    "oldernotes"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -19,6 +21,9 @@
     "lvl5": ".span9 h5",
     "text": ".span9 p, .span9 li, .span9 td"
   },
-  "min_indexed_lvl": 2, 
-  "nb_hits": 8164
+  "min_indexed_lvl": 2,
+  "conversation_id":[
+    "304954712"
+  ],
+  "nb_hits": 8286
 }
