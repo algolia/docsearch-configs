@@ -1,7 +1,7 @@
 {
-  "index_name": "wix",
+  "index_name": "wix_playable",
   "start_urls": [
-    "https://wix-private.github.io/video-player.js/"
+    "https://wix.github.io/playable/"
   ],
   "stop_urls": [],
   "selectors": {
