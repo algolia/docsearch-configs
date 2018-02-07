@@ -2,24 +2,6 @@
   "index_name": "akka-http",
   "start_urls": [
     {
-      "url": "https://doc.akka.io/docs/akka-http/current/(?P<language>.*?).html",
-      "variables": {
-        "language": [
-          "scala",
-          "java"
-        ]
-      }
-    },
-    {
-      "url": "https://doc.akka.io/docs/akka-http/current/(?P<language>.*?)/",
-      "variables": {
-        "language": [
-          "scala",
-          "java"
-        ]
-      }
-    },
-    {
       "url": "https://doc.akka.io/docs/akka-http/current/",
       "variables": {
         "language": [
@@ -30,12 +12,13 @@
     }
   ],
   "stop_urls": [
-    "index.html"
+    "/release-notes/"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'nav-breadcrumbs')]/ul/li[3]",
+      "selector": "//div[contains(@class,'nav-toc')]/ul/li[.//a[contains(@class,'active')]]/a",
       "type": "xpath",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": "#docs h1",
@@ -48,8 +31,9 @@
     "#scroller-anchor"
   ],
   "min_indexed_level": 1,
+  "only_content_level": true,
   "conversation_id": [
     "299459375"
   ],
-  "nb_hits": 32719
+  "nb_hits": 1626
 }
