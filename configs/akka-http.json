@@ -3,11 +3,8 @@
   "start_urls": [
     {
       "url": "https://doc.akka.io/docs/akka-http/current/",
-      "variables": {
-        "language": [
-          "scala",
-          "java"
-        ]
+      "extra_attributes": {
+         "language": ["scala","java"]
       }
     }
   ],
@@ -32,6 +29,11 @@
   ],
   "min_indexed_level": 1,
   "only_content_level": true,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
   "conversation_id": [
     "299459375"
   ],
