@@ -1,0 +1,28 @@
+{
+  "index_name": "cupcake_design_system",
+  "start_urls": [
+    "http://docs-example.surge.sh"
+  ],
+  "stop_urls": [
+    "/blog/",
+    "/examples/",
+    "/changelog/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#docs-nav > li.active > a.docs-toc-link",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs-title",
+    "lvl2": "main h1",
+    "lvl3": "main h2",
+    "lvl4": "main h3",
+    "lvl5": "main h4",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "465978095"
+  ],
+  "nb_hits": 1187
+}
