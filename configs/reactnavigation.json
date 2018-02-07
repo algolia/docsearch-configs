@@ -1,28 +1,32 @@
 {
   "index_name": "reactnavigation",
   "start_urls": [
-    "https://reactnavigation.org/docs/"
+    "https://reactnavigation.org/docs/",
+    "https://reactnavigation.org/docs/getting-started.html"
   ],
   "stop_urls": [
     "md",
-    "/$"
+    ".*(?<!html)$"
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".left-sidebar .active h6",
-      "global": true
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "lvl1": ".md-section h1",
-    "lvl2": ".md-section h2",
-    "lvl3": ".md-section h3",
-    "lvl4": ".md-section h4",
-    "text": ".md-section p, .md-section li"
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
   },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
   "strip_chars": "#",
-  "min_indexed_level": 5,
-  "scrap_start_urls": false,
   "conversation_id": [
     "433102420"
   ],
-  "nb_hits": 360
+  "nb_hits": 822
 }
