@@ -1,0 +1,21 @@
+{
+  "index_name": "emitter_io",
+  "start_urls": [
+    "https://emitter.io/develop/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@role, 'menu')]//li[contains(@class, 'selected')][1]/preceding::div[contains(@class, 'ant-menu-item-group-title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".ant-spin-container h1",
+    "lvl2": ".ant-spin-container h2",
+    "lvl3": ".ant-spin-container h3",
+    "lvl4": ".ant-spin-container h4",
+    "text": ".ant-spin-container p, .ant-spin-container li"
+  },
+  "nb_hits": 419
+}
