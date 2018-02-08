@@ -1,0 +1,19 @@
+{
+  "index_name": "luxaura",
+  "start_urls": [
+    "https://luxaura.js.org/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".main-col h1",
+    "lvl1": ".main-col h2",
+    "lvl2": ".main-col h3",
+    "lvl3": ".main-col h4",
+    "lvl4": ".main-col h5",
+    "text": ".main-col p, .main-col li"
+  },
+  "conversation_id": [
+    "519820765"
+  ],
+  "nb_hits": 26
+}
