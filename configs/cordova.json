@@ -6,7 +6,7 @@
       "variables": {
         "version": {
           "url": "http://cordova.apache.org/docs/en/latest/guide/overview/",
-          "js": "var versions = $('ul[aria-labelledby=versionDropdown] a').map(function(i, e) { return $(e).text().replace(/\\(Latest\\)/i, '').trim(); }).toArray(); return JSON.stringify(versions);"
+          "js": "var versions = $('ul[aria-labelledby=versionDropdown] a').map(function(i, e) { return $(e).text().replace(/\\(Latest\\)/i, '').replace(/\\s+/g, ''); }).toArray(); return JSON.stringify(versions);"
         },
         "language": {
           "url": "http://cordova.apache.org/docs/en/latest/guide/overview/",
@@ -38,5 +38,5 @@
   "conversation_id": [
     "192288401"
   ],
-  "nb_hits": 338040
+  "nb_hits": 338854
 }
