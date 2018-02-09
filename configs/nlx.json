@@ -1,0 +1,23 @@
+{
+  "index_name": "nlx",
+  "start_urls": [
+    "https://docs.nlx.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page h1",
+    "lvl1": ".page h2",
+    "lvl2": ".page h3",
+    "lvl3": ".page h4",
+    "lvl4": ".page h5",
+    "text": ".page p, .page li"
+  },
+  "selectors_exclude": [
+    ".chevrons",
+    ".nav-select"
+  ],
+  "conversation_id": [
+    "521300904"
+  ],
+  "nb_hits": 221
+}
