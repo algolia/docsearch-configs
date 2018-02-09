@@ -1,0 +1,19 @@
+{
+  "index_name": "memberful",
+  "start_urls": [
+    "https://memberful.com/help/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".help-content h1",
+    "lvl1": ".help-content h2",
+    "lvl2": ".help-content h3",
+    "lvl3": ".help-content h4",
+    "lvl4": ".help-content h5",
+    "text": ".help-content p, .help-content li"
+  },
+  "conversation_id": [
+    "519887338"
+  ],
+  "nb_hits": 995
+}
