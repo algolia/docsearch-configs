@@ -1,0 +1,22 @@
+{
+  "index_name": "agora",
+  "start_urls": [
+    "https://docs.agora.io/en/2.0.2/"
+  ],
+  "stop_urls": [
+    "\\?platform"
+  ],
+  "selectors": {
+    "lvl0": ".level1.cur",
+    "lvl1": ".level2.cur",
+    "lvl2": ".article-main h1",
+    "lvl3": ".article-main h2",
+    "lvl4": ".article-main h3",
+    "text": ".article-main p, .article-main li"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "520965188"
+  ],
+  "nb_hits": 1287
+}
