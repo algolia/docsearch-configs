@@ -1,8 +1,8 @@
 {
   "index_name": "unibeautify",
   "start_urls": [
-    "https://unibeautify.github.io/docs/",
-    "https://unibeautify.github.io/docs/config-file.html"
+    "https://unibeautify.com/docs/",
+    "https://unibeautify.com/docs/config-file.html"
   ],
   "stop_urls": [],
   "selectors": {
