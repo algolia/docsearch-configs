@@ -1,7 +1,7 @@
 {
   "index_name": "terapirekommendationer",
   "start_urls": [
-    "http://stage.terapirekommendationer.se/"
+    "http://vardgivare.regionhalland.se/terapirek/"
   ],
   "stop_urls": [],
   "selectors": {
