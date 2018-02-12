@@ -1,10 +1,11 @@
 {
   "index_name": "rollcalldocs",
   "start_urls": [
-    "https://rollcalldocs.netlify.com/"
+    "http://docs.bythebook.com/",
+    "http://docs.bythebook.com/v15/installing/install-on-a-single-computer/"
   ],
   "sitemap_urls": [
-    "https://rollcalldocs.netlify.com/sitemap.xml"
+    "http://docs.bythebook.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -23,5 +24,5 @@
   "conversation_id": [
     "456112866"
   ],
-  "nb_hits": 2301
+  "nb_hits": 11014
 }
