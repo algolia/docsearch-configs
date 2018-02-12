@@ -1,7 +1,15 @@
 {
   "index_name": "agora",
   "start_urls": [
-    "https://docs.agora.io/en/2.0.2/"
+    {
+      "url": "https://docs.agora.io/(?P<lang>.*?)/2.0.2/",
+      "variables": {
+        "lang": [
+          "en",
+          "cn"
+        ]
+      }
+    }
   ],
   "stop_urls": [
     "\\?platform"
@@ -18,5 +26,5 @@
   "conversation_id": [
     "520965188"
   ],
-  "nb_hits": 1287
+  "nb_hits": 2412
 }
