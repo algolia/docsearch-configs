@@ -1,5 +1,5 @@
 {
-  "index_name": "gitlab",
+  "index_name": "caravaggio",
   "start_urls": [
     "https://ramiel.gitlab.io/caravaggio/docs/docs.html",
     "https://ramiel.gitlab.io/caravaggio/docs/"
@@ -23,6 +23,5 @@
   ],
   "conversation_id": [
     "521507865"
-  ],
-  "nb_hits": 149
+  ]
 }
