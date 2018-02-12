@@ -1,0 +1,21 @@
+{
+  "index_name": "nodegit",
+  "start_urls": [
+    "http://www.nodegit.org/guides/",
+    "http://www.nodegit.org/api/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".banner h2",
+    "lvl1": ".main h2",
+    "lvl2": ".main h3",
+    "lvl3": ".main h4",
+    "lvl4": ".main h5",
+    "text": ".main p, .main li, .banner h2"
+  },
+  "selectors_exclude": [
+    ".main h2 span",
+    ".main h2 a"
+  ],
+  "nb_hits": 1361
+}
