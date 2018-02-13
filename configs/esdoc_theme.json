@@ -1,0 +1,21 @@
+{
+  "index_name": "esdoc_theme",
+  "start_urls": [
+    "https://sinnerschrader.github.io/esdoc-custom-theme/"
+  ],
+  "stop_urls": [
+    "/CHANGELOG"
+  ],
+  "selectors": {
+    "lvl0": ".github-markdown h1",
+    "lvl1": ".github-markdown h2",
+    "lvl2": ".github-markdown h3",
+    "lvl3": ".github-markdown h4",
+    "lvl4": ".github-markdown h5",
+    "text": ".github-markdown p, .github-markdown li"
+  },
+  "conversation_id": [
+    "522759047"
+  ],
+  "nb_hits": 69
+}
