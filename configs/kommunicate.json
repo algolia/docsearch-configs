@@ -1,8 +1,8 @@
 {
   "index_name": "kommunicate",
   "start_urls": [
-    "https://docs.kommunicate.io/docs/installation.html",
-    "https://docs.kommunicate.io/docs/"
+    "https://docs.kommunicate.io/docs/web-installation.html",
+    "https://docs.kommunicate.io/docs"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +24,5 @@
   "conversation_id": [
     "521829508"
   ],
-  "nb_hits": 20
+  "nb_hits": 24
 }
