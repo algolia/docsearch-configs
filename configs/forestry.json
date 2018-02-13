@@ -3,18 +3,29 @@
   "start_urls": [
     "https://forestry.io/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/changelog/"
+  ],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "text": ".content p, .content li"
+    "lvl0": {
+      "selector": "(//div[contains(@class, 'docs-nav-items')]//a[contains(@class, 'active')])[1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "text": ".docs-content p, .docs-content li"
   },
-  "min_indexed_level": 2,
+  "selectors_exclude": [
+    ".post--feedback",
+    ".doc--info"
+  ],
+  "only_content_level": true,
   "conversation_id": [
     "242383173"
   ],
-  "nb_hits": 1282
+  "nb_hits": 1089
 }
