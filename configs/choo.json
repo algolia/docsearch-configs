@@ -1,7 +1,7 @@
 {
   "index_name": "choo",
   "start_urls": [
-    "https://choo.io/reference/"
+    "https://choo.io/docs"
   ],
   "stop_urls": [],
   "selectors": {
