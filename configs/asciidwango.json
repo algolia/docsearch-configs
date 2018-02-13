@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//li[1]/preceding::*[contains(@data-level,'1')]/a",
+      "selector": "//nav//li[contains(@class, 'active')]/a",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
