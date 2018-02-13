@@ -1,0 +1,22 @@
+{
+  "index_name": "jumper_io",
+  "start_urls": [
+    "https://docs.jumper.io/"
+  ],
+  "stop_urls": [
+    "https://docs.jumper.io/index.html",
+    "/_"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content code.descname",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "522482989"
+  ],
+  "nb_hits": 74
+}
