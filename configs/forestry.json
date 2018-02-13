@@ -6,6 +6,9 @@
   "stop_urls": [
     "/changelog/"
   ],
+  "sitemap_urls":[
+    "https://forestry.io/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "(//div[contains(@class, 'docs-nav-items')]//a[contains(@class, 'active')])[1]/preceding::h3[1]",
