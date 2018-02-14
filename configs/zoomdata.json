@@ -1,7 +1,7 @@
 {
   "index_name": "zoomdata",
   "start_urls": [
-    "https://mystifying-roentgen-e8c480.netlify.com/docs/", 
+    "https://mystifying-roentgen-e8c480.netlify.com/docs/",
     "https://mystifying-roentgen-e8c480.netlify.com/tutorial/"
   ],
   "stop_urls": [],
@@ -15,22 +15,14 @@
       "global": true,
       "default_value": "Unsorted"
     },
-    "lvl1": {
-      "selector": ".docSearch-content h1"
-    },
-    "lvl2": {
-      "selector": ".docSearch-content h2"
-    },
-    "lvl3": {
-      "selector": ".docSearch-content h3"
-    },
-    "text": {
-      "selector": ".docSearch-content p, .docSearch-content li"
-    }
+    "lvl1": ".docSearch-content h1",
+    "lvl2": ".docSearch-content h2",
+    "lvl3": ".docSearch-content h3",
+    "text": ".docSearch-content p, .docSearch-content li"
   },
   "min_indexed_level": 1,
   "conversation_id": [
     "516556478"
   ],
-  "nb_hits": 99
+  "nb_hits": 283
 }
