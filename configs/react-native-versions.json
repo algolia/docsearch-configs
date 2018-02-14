@@ -21,7 +21,7 @@
       "tags": [
         "current",
         "master",
-        "0.53-RC"
+        "0.54-RC"
       ]
     },
     "https://facebook.github.io/react-native/docs/next/getting-started.html",
@@ -48,5 +48,5 @@
   "conversation_id": [
     "477313987"
   ],
-  "nb_hits": 278295
+  "nb_hits": 282983
 }
