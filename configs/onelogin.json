@@ -1,0 +1,24 @@
+{
+  "index_name": "onelogin",
+  "start_urls": [
+    "https://developers.onelogin.com/"
+  ],
+  "sitemap_urls": [
+    "https://developers.onelogin.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "523323235"
+  ],
+  "nb_hits": 9263
+}
