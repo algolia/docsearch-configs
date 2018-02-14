@@ -1,7 +1,8 @@
 {
   "index_name": "zoomdata",
   "start_urls": [
-    "https://mystifying-roentgen-e8c480.netlify.com/"
+    "https://mystifying-roentgen-e8c480.netlify.com/docs/", 
+    "https://mystifying-roentgen-e8c480.netlify.com/tutorial/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -9,16 +10,23 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//div[contains(@class, 'docSearch-sidebar')]//a[contains(@class, 'active')][1]/preceding::h3[1]",
+      "selector": "//a[contains(@class,'nav-link-active')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Unsorted"
     },
-    "lvl1": ".docSearch-content h1",
-    "lvl2": ".docSearch-content h2",
-    "lvl3": ".docSearch-content h3",
-    "lvl4": ".docSearch-content h4",
-    "text": ".docSearch-content p, .docSearch-content li"
+    "lvl1": {
+      "selector": ".docSearch-content h1"
+    },
+    "lvl2": {
+      "selector": ".docSearch-content h2"
+    },
+    "lvl3": {
+      "selector": ".docSearch-content h3"
+    },
+    "text": {
+      "selector": ".docSearch-content p, .docSearch-content li"
+    }
   },
   "min_indexed_level": 1,
   "conversation_id": [
