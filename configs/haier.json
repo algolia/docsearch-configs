@@ -1,14 +1,27 @@
 {
   "index_name": "haier",
   "start_urls": [
+    "https://picidaejs.github.io/picidae-theme-haier/guides/installation",
     {
-      "url": "https://picidaejs.github.io/picidae-theme-haier/.+?_zh",
+      "url": "https://picidaejs.github.io/picidae-theme-haier/guides/.+?_zh",
       "tags": [
         "zh"
       ]
     },
     {
-      "url": "https://picidaejs.github.io/picidae-theme-haier/",
+      "url": "https://picidaejs.github.io/picidae-theme-haier/docs/.+?_zh",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://picidaejs.github.io/picidae-theme-haier/docs/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://picidaejs.github.io/picidae-theme-haier/guides/",
       "tags": [
         "en"
       ]
