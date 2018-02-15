@@ -1,0 +1,42 @@
+{
+  "index_name": "unity_cloud_save",
+  "start_urls": [
+    {
+      "url": "https://rafaelnsantos.github.io/unity-cloudsave/docs/(?P<lang>.*?)/installation.html",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      }
+    },
+    {
+      "url": "https://rafaelnsantos.github.io/unity-cloudsave/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "524458815"
+  ],
+  "nb_hits": 9
+}
