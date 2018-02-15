@@ -1,0 +1,35 @@
+{
+  "index_name": "nativescript-vue",
+  "start_urls": [
+    "https://nativescript-vue.org/en/docs/introduction/",
+    {
+      "url": "https://nativescript-vue.org/(?P<lang>.*?)/docs/",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://nativescript-vue.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//li[contains(@class, 'level-0')]//a[contains(@class, 'docSearch-active')][1]/preceding::span[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docSearch-content .docSearch-lvl0",
+    "lvl2": ".docSearch-content h2",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "text": ".docSearch-content p, .docSearch-content li, .docSearch-content tbody td:last-child"
+  },
+  "conversation_id": [
+    "523329698"
+  ],
+  "nb_hits": 467
+}
