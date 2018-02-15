@@ -6,8 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'breadcrumbs-wrapper')]//ol/li[3]",
-      "type": "xpath",
+      "selector": ".is-expanded > a",
       "global": true,
       "default_value": "Documentation"
     },
@@ -22,5 +21,5 @@
   "conversation_id": [
     "464390240"
   ],
-  "nb_hits": 7532
+  "nb_hits": 7314
 }
