@@ -1,7 +1,7 @@
 {
   "index_name": "pre-commit",
   "start_urls": [
-    "http://pre-commit.com/"
+    "https://pre-commit.com/"
   ],
   "stop_urls": [],
   "selectors": {
