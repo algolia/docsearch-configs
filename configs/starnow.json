@@ -1,0 +1,25 @@
+{
+  "index_name": "starnow",
+  "start_urls": [
+    "https://www.starnow.com/help/"
+  ],
+  "stop_urls": [
+    ".*/$"
+  ],
+  "selectors": {
+    "lvl0": ".mt3 h1",
+    "lvl1": ".mt3 h2",
+    "lvl2": ".mt3 h3",
+    "lvl3": ".mt3 h4",
+    "lvl4": ".mt3 h5",
+    "text": ".mt3 p, .mt3 li"
+  },
+  "selectors_exclude": [
+    ".show-for-medium-up"
+  ],
+  "only_content_level": true,
+  "conversation_id": [
+    "526325018"
+  ],
+  "nb_hits": 1090
+}
