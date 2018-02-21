@@ -1,0 +1,27 @@
+{
+  "index_name": "restup",
+  "start_urls": [
+    "https://restup.github.io/up-framework/docs/home/",
+    "https://restup.github.io/up-framework/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//li[contains(@class, 'current')][1]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "strip_chars": " .,;:#*",
+  "conversation_id": [
+    "526226620"
+  ],
+  "nb_hits": 192
+}
