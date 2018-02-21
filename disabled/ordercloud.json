@@ -1,0 +1,21 @@
+{
+  "index_name": "ordercloud",
+  "start_urls": [
+    "https://developer.ordercloud.io/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
+  },
+  "js_wait": 1,
+  "js_render": true,
+  "conversation_id": [
+    "268599591"
+  ],
+  "nb_hits": 2307
+}
