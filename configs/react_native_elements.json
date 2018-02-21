@@ -1,0 +1,28 @@
+{
+  "index_name": "react_native_elements",
+  "start_urls": [
+    "https://react-native-training.github.io/react-native-elements/docs/getting_started.html",
+    "https://react-native-training.github.io/react-native-elements/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "527952016"
+  ],
+  "nb_hits": 232
+}
