@@ -18,8 +18,11 @@
     "lvl4": ".content h5",
     "text": ".content p, .content li"
   },
+  "selectors_exclude": [
+    ".stackoverflow"
+  ],
   "conversation_id": [
     "523323235"
   ],
-  "nb_hits": 9312
+  "nb_hits": 8670
 }
