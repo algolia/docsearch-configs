@@ -1,0 +1,22 @@
+{
+  "index_name": "flyt",
+  "start_urls": [
+    "http://developers.flyt.io"
+  ],
+  "stop_urls": [
+    "index.html"
+  ],
+  "selectors": {
+    "lvl0": ".docSearch-content h1",
+    "lvl1": ".docSearch-content h2",
+    "lvl2": ".docSearch-content h3",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "528903995"
+  ],
+  "nb_hits": 148
+}
