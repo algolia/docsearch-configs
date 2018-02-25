@@ -1,0 +1,30 @@
+{
+  "index_name": "waffle",
+  "start_urls": [
+    "https://help.waffle.io/",
+    {
+      "url": "https://help.waffle.io/faq/",
+      "tags": [
+        "FAQ"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class,'breadcrumb')]/div[2]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".article__meta h1",
+    "lvl2": {
+      "selector": "//article//p[./b]",
+      "type": "xpath"
+    },
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
+  },
+  "nb_hits": 1182
+}
