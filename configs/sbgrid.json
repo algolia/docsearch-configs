@@ -1,0 +1,28 @@
+{
+  "index_name": "sbgrid",
+  "start_urls": [
+    "http://sbgrid.co.kr/document/guide"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "http://sbgrid.co.kr/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@id, 'searchTab')]//li[contains(@class, 'active')][1]/preceding::span[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".sg-subcon h2",
+    "lvl2": ".sg-subcon h3",
+    "lvl3": ".sg-subcon h4",
+    "lvl4": ".sg-subcon h5",
+    "text": ".sg-subcon p, .sg-subcon li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "529220200"
+  ],
+  "nb_hits": 2517
+}
