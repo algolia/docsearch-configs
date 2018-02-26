@@ -14,10 +14,10 @@
       "default_value": "Documentation"
     },
     "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "lvl2": ".post table td:first-of-type",
+    "lvl3": ".post h2",
+    "lvl4": ".post h3",
+    "text": ".post article p, .post article li, .post table td:not(:first-of-type), .post .hljs-comment"
   },
   "selectors_exclude": [
     ".hash-link"
