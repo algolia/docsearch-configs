@@ -3,7 +3,6 @@
   "start_urls": [
     "https://isomorphic-git.github.io/docs/alphabetic.html",
     "https://isomorphic-git.github.io/docs/"
-
   ],
   "stop_urls": [],
   "selectors": {
@@ -17,12 +16,13 @@
     "lvl2": ".post table td:first-of-type",
     "lvl3": ".post h2",
     "lvl4": ".post h3",
-    "text": ".post article p, .post article li, .post table td:not(:first-of-type), .post .hljs-comment"
+    "text": ".post article p, .post article li, .post table td:not(:first-child), .post .hljs-comment"
   },
   "selectors_exclude": [
     ".hash-link"
   ],
   "conversation_id": [
     "526324376"
-  ]
+  ],
+  "nb_hits": 542
 }
