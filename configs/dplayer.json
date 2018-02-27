@@ -1,0 +1,23 @@
+{
+  "index_name": "dplayer",
+  "start_urls": [
+    "http://dplayer.js.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-body h1",
+    "lvl1": ".markdown-body h2",
+    "lvl2": ".markdown-body h3",
+    "lvl3": ".markdown-body h4",
+    "lvl4": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "selectors_exclude": [
+    "#sponsor",
+    "#sponsor + table"
+  ],
+  "conversation_id": [
+    "530949399"
+  ],
+  "nb_hits": 35
+}
