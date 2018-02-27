@@ -1,0 +1,44 @@
+{
+  "index_name": "angular-instantsearch",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/angular-instantsearch/guides/customize-widgets.html",
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://community.algolia.com/angular-instantsearch/widgets/instantsearch.html",
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://community.algolia.com/angular-instantsearch/getting-started.html",
+      "selectors_key": "getting-started"
+    },
+    "https://community.algolia.com/angular-instantsearch/guides/usage.html",
+    "https://community.algolia.com/angular-instantsearch/widgets.html",
+    "https://community.algolia.com/angular-instantsearch/connectors.html"
+  ],
+  "stop_urls": [
+    "https://community.algolia.com/angular-instantsearch/examples.html"
+  ],
+  "selectors": {
+    "api": {
+      "lvl0": "h1.heading-text.text-heading",
+      "lvl1": ".documentation-container > h1",
+      "lvl2": ".documentation-container > h2",
+      "lvl3": ".documentation-container > h3",
+      "lvl4": ".documentation-container > h4",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "getting-started": {
+      "lvl0": {"selector": "", "default_value": "Getting started"},
+      "lvl1": ".documentation-container > h2",
+      "lvl2": ".documentation-container > h3",
+      "lvl3": ".documentation-container > h4",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    }
+  },
+  "custom_settings": {},
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nb_hits": 0
+}
