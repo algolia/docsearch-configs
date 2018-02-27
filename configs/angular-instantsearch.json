@@ -1,0 +1,50 @@
+{
+  "index_name": "angular-instantsearch",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/angular-instantsearch/guides",
+      "selectors_key": "guides"
+    },
+    {
+      "url": "https://community.algolia.com/angular-instantsearch/widgets",
+      "selectors_key": "widgets"
+    },
+    {
+      "url": "https://community.algolia.com/angular-instantsearch/getting-started.html",
+      "selectors_key": "getting-started"
+    }
+  ],
+  "stop_urls": [
+    "https://community.algolia.com/angular-instantsearch/examples.html"
+  ],
+  "selectors": {
+    "guides": {
+      "lvl0": {"selector": "", "default_value": "Guides"},
+      "lvl1": ".documentation-container h1",
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "lvl4": ".documentation-container h4",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "widgets": {
+      "lvl0": {"selector": "", "default_value": "Widgets"},
+      "lvl1": ".documentation-container h1",
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "lvl4": ".documentation-container h4",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "getting-started": {
+      "lvl0": {"selector": "", "default_value": "Getting started"},
+      "lvl1": ".documentation-container h2",
+      "lvl2": ".documentation-container h3",
+      "lvl3": ".documentation-container h4",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    }
+  },
+  "custom_settings": {},
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nb_hits": 2300,
+  "nb_hits_max": 99999
+}
