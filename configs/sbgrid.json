@@ -7,15 +7,29 @@
   "sitemap_urls": [
     "http://sbgrid.co.kr/sitemap.xml"
   ],
+  "selectors_exclude": [
+    "#hiddenDiv",
+    "#headerSub"
+  ],
   "selectors": {
-    "lvl0": ".sg-subcon h2",
-    "lvl1": ".sg-subcon h3",
-    "lvl2": ".sg-subcon h4",
-    "lvl3": ".sg-subcon h5",
-    "text": ".sg-subcon p, .sg-subcon li"
+    "lvl0": {
+      "selector": "//ul[contains(@id, 'searchTab')]//span[contains(@class, 'active')]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "GUIDE"
+    },
+    "lvl1": {
+      "selector": "//ul[contains(@id, 'searchTab')]//li[contains(@class, 'active')]/a",
+      "type": "xpath"
+    },
+    "lvl2": ".sg-subcon h2",
+    "lvl3": ".sg-subcon h4",
+    "text": ".sg-subcon p, .sg-subcon .sg-con-box li, .sg-subcon .sg-sub-span"
   },
+  "only_content_level": true,
+  "strip_chars": "-",
   "conversation_id": [
     "529220200"
   ],
-  "nb_hits": 2495
+  "nb_hits": 1275
 }
