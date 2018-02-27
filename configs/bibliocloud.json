@@ -1,13 +1,12 @@
 {
   "index_name": "bibliocloud",
   "start_urls": [
-    "https://adoring-einstein-b558e7.netlify.com/docs/about-these-docs/",
-    "https://adoring-einstein-b558e7.netlify.com/docs/"
+    "https://www.bibliocloud.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "h2.subhead",
+      "selector": "h1.subhead",
       "global": true,
       "default_value": "Documentation"
     },
@@ -17,8 +16,11 @@
     "lvl4": ".content h5",
     "text": ".content p, .content li, .article-wrapper p"
   },
+  "selectors_exclude": [
+    ".toc"
+  ],
   "conversation_id": [
     "522174128"
   ],
-  "nb_hits": 2837
+  "nb_hits": 3128
 }
