@@ -1,11 +1,11 @@
 {
   "index_name": "rollcalldocs",
   "start_urls": [
-    "http://docs.bythebook.com/",
-    "http://docs.bythebook.com/v15/installing/install-on-a-single-computer/"
+    "https://docs.bythebook.com/",
+    "https://docs.bythebook.com/v15/installing/install-on-a-single-computer/"
   ],
   "sitemap_urls": [
-    "http://docs.bythebook.com/sitemap.xml"
+    "https://docs.bythebook.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
