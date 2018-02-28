@@ -1,29 +1,25 @@
 {
   "index_name": "tailwindcss",
   "start_urls": [
-    "https://tailwindcss.com/"
+    "https://tailwindcss.com/docs"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[@id='nav']//a[contains(@class, 'font-bold')]/../../preceding::p[1]",
-      "type": "xpath"
+      "selector": "//nav[contains(@id, 'nav')]//a[contains(@class, 'font-semibold')][1]/preceding::p[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": "//*[@id='nav']//ul//ul//a[contains(@class, 'font-bold')]/../../preceding::a[1]",
-      "type": "xpath"
-    },
-    "lvl2": "#app h1",
-    "lvl3": "#app h2",
-    "lvl4": "#app h3",
-    "lvl5": "#app h4",
-    "lvl6": "#app h5",
-    "text": "#app p, #app .markdown > .text-slate-light, #app td"
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
+    "text": ".markdown p, .markdown li"
   },
-  "min_indexed_level": 2,
-  "js_render": true,
   "conversation_id": [
     "459164857"
   ],
-  "nb_hits": 4193
+  "nb_hits": 1170
 }
