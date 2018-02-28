@@ -2,10 +2,11 @@
   "index_name": "unity_cloud_save",
   "start_urls": [
     {
-      "url": "https://rafaelnsantos.github.io/unity-cloudsave/docs/(?P<lang>.*?)/installation.html",
+      "url": "https://rafaelnsantos.github.io/unity-cloudsave/docs/(?P<lang>.*?)/server-installation.html",
       "variables": {
         "lang": [
-          "en"
+          "en",
+          "pt-BR"
         ]
       }
     },
@@ -13,7 +14,8 @@
       "url": "https://rafaelnsantos.github.io/unity-cloudsave/docs/(?P<lang>.*?)/",
       "variables": {
         "lang": [
-          "en"
+          "en",
+          "pt-BR"
         ]
       }
     }
@@ -38,5 +40,5 @@
   "conversation_id": [
     "524458815"
   ],
-  "nb_hits": 9
+  "nb_hits": 49
 }
