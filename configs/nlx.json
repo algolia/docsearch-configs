@@ -3,21 +3,30 @@
   "start_urls": [
     "https://docs.nlx.io"
   ],
+  "sitemap_urls": [
+    "https://docs.nlx.io/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".page h1",
-    "lvl1": ".page h2",
-    "lvl2": ".page h3",
-    "lvl3": ".page h4",
-    "lvl4": ".page h5",
-    "text": ".page p, .page li"
+    "lvl0": {
+      "selector": "//nav[contains(@id, 'bd-docs-nav')]//li[contains(@class, 'active')][1]/preceding::a[contains(@class, 'bd-toc-link')][1] | //div[contains(@class,'active')]/a",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".bd-content h1",
+    "lvl2": ".bd-content h2",
+    "lvl3": ".bd-content h3",
+    "lvl4": ".bd-content h4",
+    "text": ".bd-content p, .bd-content li"
   },
   "selectors_exclude": [
     ".chevrons",
     ".nav-select"
   ],
+  "only_content_level": true,
   "conversation_id": [
     "521300904"
   ],
-  "nb_hits": 221
+  "nb_hits": 229
 }
