@@ -1,11 +1,16 @@
 {
   "index_name": "plainflow",
   "start_urls": [
-    "https://www.plainflow.com/docs"
+    "https://www.plainflow.com/docs",
+    "https://www.plainflow.com/docs/getting-started/why-plainflow"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".breadcrumb",
+    "lvl0": {
+      "selector": ".pf-content nav.pf-sidebar-menu .pf-sidebar-menu-group.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": ".pf-main-content h1",
     "lvl2": ".pf-main-content h2",
     "lvl3": ".pf-main-content h3",
@@ -13,10 +18,8 @@
     "lvl5": ".pf-main-content h5",
     "text": ".pf-main-content p, .pf-main-content li"
   },
-  "min_indexed_level": 1,
-  "js_render": true,
   "conversation_id": [
     "499018004"
   ],
-  "nb_hits": 1687
+  "nb_hits": 1636
 }
