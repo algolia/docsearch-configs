@@ -56,7 +56,9 @@
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?"
+  ],
   "selectors": {
     "lvl0": ".docsearch-category",
     "lvl1": "h1",
@@ -74,5 +76,5 @@
   "conversation_id": [
     "178329287"
   ],
-  "nb_hits": 6908
+  "nb_hits": 6584
 }
