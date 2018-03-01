@@ -1,8 +1,7 @@
 {
   "index_name": "openebs",
   "start_urls": [
-    "https://docs.openebs.io/docs/doc1.html",
-    "https://docs.openebs.io/docs/"
+    "https://docs.openebs.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +23,5 @@
   "conversation_id": [
     "526516272"
   ],
-  "nb_hits": 41
+  "nb_hits": 2566
 }
