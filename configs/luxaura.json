@@ -1,7 +1,14 @@
 {
   "index_name": "luxaura",
   "start_urls": [
-    "https://luxaura.js.org/docs"
+    "https://luxaura.js.org/docs",
+    "https://luxaura.js.org/docs/front-matter",
+    "https://luxaura.js.org/docs/ejs",
+    "https://luxaura.js.org/docs/pug",
+    "https://luxaura.js.org/docs/site-configuration",
+    "https://luxaura.js.org/docs/variables",
+    "https://luxaura.js.org/docs/layouts",
+    "https://luxaura.js.org/docs/theming"
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,5 +22,5 @@
   "conversation_id": [
     "519820765"
   ],
-  "nb_hits": 26
+  "nb_hits": 112
 }
