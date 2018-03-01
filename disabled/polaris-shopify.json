@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": "#PageNavInterior ._1itcN",
-      "lvl1": "._3VyD7._2wvgA > a",
+    "lvl1": "._3VyD7._2wvgA > a",
     "lvl2": "article h1",
     "lvl3": "article h2",
     "lvl4": "article h3",
@@ -15,5 +15,5 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 4454
+  "nb_hits": 120
 }
