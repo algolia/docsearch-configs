@@ -1,29 +1,24 @@
 {
   "index_name": "chartiq",
   "start_urls": [
-    {
-      "url": "http://documentation.chartiq.com/tutorial.*",
-      "tags": [
-        "tutorial"
-      ]
-    },
-    "http://documentation.chartiq.com/"
+    "https://documentation.chartiq.com/finsemble/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".container h1",
-      "default_value": "Tutorial"
-    },
-    "lvl1": ".container h2",
-    "lvl2": ".container h3",
-    "lvl3": ".container h4",
-    "lvl4": ".container h5",
-    "lvl5": ".container table td:first-of-type",
-    "text": ".container p, .container li, table td:not(:first-child)"
+    "lvl0": ".bd-content h1",
+    "lvl1": ".bd-content h2",
+    "lvl2": ".bd-content h3",
+    "lvl3": ".bd-content h4",
+    "lvl4": ".bd-content h5",
+    "lvl5": ".bd-content table td:first-of-type",
+    "text": ".bd-content p, .bd-content li, table td:not(:first-child)"
   },
+  "selectors_exclude": [
+    "#next-steps",
+    "#next-steps ~ *"
+  ],
   "conversation_id": [
     "316287518"
   ],
-  "nb_hits": 21135
+  "nb_hits": 3321
 }
