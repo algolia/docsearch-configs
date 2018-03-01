@@ -1,0 +1,28 @@
+{
+  "index_name": "terraform",
+  "start_urls": [
+    "https://www.terraform.io/docs/",
+    "https://www.terraform.io/guides/"
+  ],
+  "sitemap_urls": [
+    "https://www.terraform.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "ul.docs-sidenav > li.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#inner h1",
+    "lvl2": "#inner h2",
+    "lvl3": "#inner h3",
+    "lvl4": "#inner h4",
+    "text": "#inner p, #inner li"
+  },
+  "strip_chars": " .,;:#»",
+  "conversation_id": [
+    "490888557"
+  ],
+  "nb_hits": 40906
+}
