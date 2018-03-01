@@ -4,17 +4,24 @@
     "http://docs.digital-dealers.com/docs/1.0/",
     "http://docs.digital-dealers.com/docs/1.0/getting-started/introduction/"
   ],
+  "sitemap_urls":[
+    "http://docs.digital-dealers.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".bd-content h1",
-    "lvl1": ".bd-content h2",
-    "lvl2": ".bd-content h3",
-    "lvl3": ".bd-content h4",
-    "lvl4": ".bd-content h5",
+    "lvl0": {
+      "selector": "nav > div.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".bd-content h1",
+    "lvl2": ".bd-content h2",
+    "lvl3": ".bd-content h3",
+    "lvl4": ".bd-content h4",
     "text": ".bd-content p, .bd-content li"
   },
   "conversation_id": [
     "492478837"
   ],
-  "nb_hits": 168
+  "nb_hits": 617
 }
