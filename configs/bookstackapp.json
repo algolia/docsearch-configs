@@ -3,6 +3,9 @@
   "start_urls": [
     "https://www.bookstackapp.com/docs/"
   ],
+  "sitemap_urls":[
+    "https://www.bookstackapp.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".docs-content h1",
@@ -15,5 +18,5 @@
   "conversation_id": [
     "304985206"
   ],
-  "nb_hits": 202
+  "nb_hits": 405
 }
