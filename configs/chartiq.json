@@ -1,13 +1,13 @@
 {
   "index_name": "chartiq",
   "start_urls": [
-    "http://documentation.chartiq.com/",
     {
-      "url": "http://documentation.chartiq.com/tutorial",
+      "url": "http://documentation.chartiq.com/tutorial.*",
       "tags": [
         "tutorial"
       ]
-    }
+    },
+    "http://documentation.chartiq.com/"
   ],
   "stop_urls": [],
   "selectors": {
