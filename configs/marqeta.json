@@ -1,20 +1,83 @@
 {
   "index_name": "marqeta",
   "start_urls": [
-    "https://www.marqeta.com/api/docs"
+    {
+      "url": "https://www.marqeta.com/api/docs/",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "url": "https://www.marqeta.com/api/guides/",
+      "selectors_key": "guides",
+      "tags": [
+        "guides"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://www.marqeta.com/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "type": "xpath",
-      "selector": "//a[@class='active']/../../preceding::h3[1]"
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "//ul[@id='sidenav']//a[contains(@class, 'active')][1]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": "#documentation h1",
+      "lvl3": "#documentation h2",
+      "lvl4": "#documentation h3",
+      "text": "#documentation p, #documentation li"
     },
-    "lvl1": "#documentation h1",
-    "lvl2": "#documentation h2",
-    "lvl3": "#documentation h3",
-    "text": "#documentation p, #documentation li"
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "References Docs"
+      },
+      "lvl1": {
+        "selector": "//ul[@id='sidenav']//a[contains(@class, 'active')][1]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": "#documentation h1",
+      "lvl3": "#documentation h2",
+      "lvl4": "#documentation h3",
+      "text": "#documentation p, #documentation li"
+    },
+    "guides": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Guides"
+      },
+      "lvl1": {
+        "selector": "//ul[@id='sidenav']//a[contains(@class, 'active')][1]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": "#documentation h1",
+      "lvl3": "#documentation h2",
+      "lvl4": "#documentation h3",
+      "text": "#documentation p, #documentation li"
+    }
   },
-  "conversation_id": [
-    "292215794"
+  "selectors_exclude": [
+    ".reference-cards",
+    "[class^='banner']"
   ],
-  "nb_hits": 2880
+  "conversation_id": [
+    "531930874"
+  ],
+  "nb_hits": 3284
 }
