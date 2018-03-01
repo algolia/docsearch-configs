@@ -7,7 +7,9 @@
   "sitemap_urls": [
     "https://docs.bythebook.com/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\.com/.*/$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".menu a.has-text-weight-bold",
@@ -24,5 +26,5 @@
   "conversation_id": [
     "456112866"
   ],
-  "nb_hits": 11014
+  "nb_hits": 5768
 }
