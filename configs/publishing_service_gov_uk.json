@@ -3,6 +3,9 @@
   "start_urls": [
     "https://docs.publishing.service.gov.uk/"
   ],
+  "sitemap_urls": [
+    "https://docs.publishing.service.gov.uk/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "#navigation li.active",
@@ -17,5 +20,5 @@
   "conversation_id": [
     "340081703"
   ],
-  "nb_hits": 7573
+  "nb_hits": 15589
 }
