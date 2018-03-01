@@ -1,19 +1,36 @@
 {
   "index_name": "everpl",
   "start_urls": [
-    "http://everpl.readthedocs.io/"
+    {
+      "url": "http://everpl.readthedocs.io/(?P<lang>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "stable",
+          "latest",
+          "rtfd-wip"
+        ],
+        "lang": [
+          "en"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".document h1",
-    "lvl1": ".document h2",
-    "lvl2": ".document h3",
-    "lvl3": ".document h4",
-    "lvl4": ".document h5",
+    "lvl0": {
+      "selector": "//ul[contains(@class,'current')]/preceding::span[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".document h1",
+    "lvl2": ".document h2",
+    "lvl3": ".document h3",
+    "lvl4": ".document h4",
     "text": ".document p, .document li"
   },
   "conversation_id": [
     "437896504"
   ],
-  "nb_hits": 280
+  "nb_hits": 916
 }
