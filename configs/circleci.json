@@ -90,7 +90,8 @@
     }
   },
   "selectors_exclude": [
-    "#site-search"
+    "#site-search",
+    "#nav-button"
   ],
   "conversation_id": [
     "317414915"
