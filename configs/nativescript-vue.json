@@ -18,7 +18,8 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".docSearch-content .docSearch-lvl0",
+      "selector": "selector": "//li[contains(@class, 'level-0')]//a[contains(@class, 'docSearch-active')][1]/preceding::span[1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
