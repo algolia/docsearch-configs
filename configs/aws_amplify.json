@@ -1,0 +1,19 @@
+{
+  "index_name": "aws_amplify",
+  "start_urls": [
+    "https://aws.github.io/aws-amplify/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1, span.target",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "533429853"
+  ],
+  "nb_hits": 4754
+}
