@@ -1,0 +1,31 @@
+{
+  "index_name": "hackerone",
+  "start_urls": [
+    "https://hacker0x01.github.io/docs.hackerone.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'components-navigation')]//a[contains(@class, 'linkActive')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//nav//a[contains(@class, 'linkActive')][1]/preceding::h3[contains(@class, 'title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "text": "article p, article li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "535135855"
+  ],
+  "nb_hits": 298
+}
