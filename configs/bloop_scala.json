@@ -1,0 +1,24 @@
+{
+  "index_name": "bloop_scala",
+  "start_urls": [
+    "https://scalacenter.github.io/bloop/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#main h1",
+    "lvl1": "#main h3",
+    "lvl2": "#main h4",
+    "lvl3": "#main h5",
+    "lvl4": "#main h6",
+    "text": "#main p, #main li"
+  },
+  "selectors_exclude": [
+    "#contents",
+    "#next-steps",
+    "#next-steps ~ p"
+  ],
+  "conversation_id": [
+    "535872598"
+  ],
+  "nb_hits": 217
+}
