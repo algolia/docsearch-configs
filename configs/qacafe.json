@@ -1,0 +1,20 @@
+{
+  "index_name": "qacafe",
+  "start_urls": [
+    "https://support.qacafe.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section.hero h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "text": "#content p, #content li, section.hero h2"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "534373826"
+  ],
+  "nb_hits": 15253
+}
