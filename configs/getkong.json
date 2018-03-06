@@ -1,0 +1,40 @@
+{
+  "index_name": "getkong",
+  "start_urls": [
+    {
+      "url": "https://getkong.org/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://getkong.org/docs/",
+          "js": "var versions = $('ul[aria-labelledby=version-dropdown] a').map(function(i, e) { return $(e).text().replace(/\\s+/g, '').replace(/\\r?\\n|\\r/g, ''); }).toArray(); return JSON.stringify(versions);"
+        }
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://getkong.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//a[contains(@class, 'active')][1]/preceding::h5[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude": [
+    "#next-steps",
+    "#next-steps ~ p"
+  ],
+  "only_content_level": true,
+  "conversation_id": [
+    "534091583"
+  ],
+  "nb_hits": 6163
+}
