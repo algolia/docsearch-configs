@@ -6,6 +6,9 @@
   "stop_urls": [
     ".csv"
   ],
+  "sitemap_urls": [
+    "https://developers.keboola.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "div.navigation > ul.nav > li.active > a",
@@ -24,5 +27,5 @@
   "conversation_id": [
     "510416617"
   ],
-  "nb_hits": 3661
+  "nb_hits": 3602
 }
