@@ -5,7 +5,8 @@
       "url": "https://laravel-excel.maatwebsite.nl/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "2.1"
+          "2.1",
+          "3.0"
         ]
       }
     }
