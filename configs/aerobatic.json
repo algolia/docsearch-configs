@@ -1,0 +1,26 @@
+{
+  "index_name": "aerobatic",
+  "start_urls": [
+    "https://www.aerobatic.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://www.aerobatic.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "ul.nav-stacked li.active a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "text": ".markdown p, .markdown li"
+  },
+  "conversation_id": [
+    "536405439"
+  ],
+  "nb_hits": 808
+}
