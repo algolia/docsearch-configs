@@ -17,7 +17,10 @@
     "lvl5": ".topic h5",
     "text": ".topic p, .topic li"
   },
-  "js_render": true,
   "min_indexed_level": 1,
+  "js_render": true,
+  "conversation_id": [
+    "416034857"
+  ],
   "nb_hits": 2017
 }

@@ -1,19 +1,24 @@
 {
   "index_name": "chartiq",
   "start_urls": [
-    "http://documentation.chartiq.com/finsemble/"
+    "https://documentation.chartiq.com/finsemble/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
-    },
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "text": "article p, article li"
+    "lvl0": ".bd-content h1",
+    "lvl1": ".bd-content h2",
+    "lvl2": ".bd-content h3",
+    "lvl3": ".bd-content h4",
+    "lvl4": ".bd-content h5",
+    "lvl5": ".bd-content table td:first-of-type",
+    "text": ".bd-content p, .bd-content li, table td:not(:first-child)"
   },
-  "nb_hits": 1190
+  "selectors_exclude": [
+    "#next-steps",
+    "#next-steps ~ *"
+  ],
+  "conversation_id": [
+    "316287518"
+  ],
+  "nb_hits": 3321
 }

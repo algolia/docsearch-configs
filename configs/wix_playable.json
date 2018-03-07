@@ -1,7 +1,7 @@
 {
-  "index_name": "coinhoot",
+  "index_name": "wix_playable",
   "start_urls": [
-    "http://docs.coinhoot.com/v1/guide/"
+    "https://wix.github.io/playable/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -12,5 +12,11 @@
     "lvl4": ".content h5",
     "text": ".content p, .content li"
   },
-  "nb_hits": 131
+  "selectors_exclude": [
+    "pre.highlight"
+  ],
+  "conversation_id": [
+    "489997023"
+  ],
+  "nb_hits": 297
 }

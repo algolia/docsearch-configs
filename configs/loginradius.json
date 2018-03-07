@@ -1,11 +1,11 @@
 {
   "index_name": "loginradius",
-  "sitemap_urls": [
-    "https://docs.loginradius.com/sitemap.xml"
-  ],
   "start_urls": [
     "https://docs.loginradius.com/",
     "https://docs.loginradius.com/api?accesscode=RaQaDLUY"
+  ],
+  "sitemap_urls": [
+    "https://docs.loginradius.com/sitemap.xml"
   ],
   "stop_urls": [
     "https://docs.loginradius.com/blog/",
@@ -26,5 +26,8 @@
   "min_indexed_level": 1,
   "js_render": true,
   "js_wait": 1,
+  "conversation_id": [
+    "432571474"
+  ],
   "nb_hits": 9077
 }

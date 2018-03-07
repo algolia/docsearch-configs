@@ -10,12 +10,6 @@
     "https://gohugo.io/about",
     "https://gohugo.io/news"
   ],
-  "scrap_start_urls": false,
-  "selectors_exclude": [
-    ".footer-panel",
-    "nav",
-    "categories"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "header a",
@@ -28,6 +22,15 @@
     "lvl5": "article h5",
     "text": "article p"
   },
+  "selectors_exclude": [
+    ".footer-panel",
+    "nav",
+    "categories"
+  ],
   "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "154679933"
+  ],
   "nb_hits": 3080
 }

@@ -1,0 +1,26 @@
+{
+  "index_name": "armorlabs",
+  "start_urls": [
+    "https://brandkit.armorlabs.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav-menu//a[contains(@class, 'active')][1]/preceding::a[contains(@class, 'nav-primary-section-link')][1]//span",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "div[role=main] h2",
+    "lvl3": "div[role=main] h3",
+    "lvl4": "div[role=main] h4",
+    "lvl5": "div[role=main] h5",
+    "text": "div[role=main] p, div[role=main] li, section span"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "533312984"
+  ],
+  "nb_hits": 19105
+}

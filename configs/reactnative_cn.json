@@ -1,0 +1,19 @@
+{
+  "index_name": "reactnative_cn",
+  "start_urls": [
+    "http://reactnative.cn/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".mdContaint h1",
+    "lvl1": ".mdContaint h2",
+    "lvl2": ".mdContaint h3",
+    "lvl3": ".mdContaint h4",
+    "lvl4": ".mdContaint h5",
+    "text": ".mdContaint p, .mdContaint li"
+  },
+  "conversation_id": [
+    "526331448"
+  ],
+  "nb_hits": 4552
+}

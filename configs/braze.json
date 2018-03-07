@@ -16,7 +16,6 @@
   "sitemap_urls": [
     "https://www.braze.com/sitemap.xml"
   ],
-  "scrap_start_urls": false,
   "stop_urls": [
     ".*?[^/]$",
     "://.*//"
@@ -33,6 +32,10 @@
     "lvl4": ".article h4",
     "text": ".article p, .article li"
   },
-  "nb_hits": 10485,
-  "min_indexed_level": 2
+  "min_indexed_level": 2,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "466776979"
+  ],
+  "nb_hits": 10485
 }

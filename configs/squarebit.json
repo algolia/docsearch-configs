@@ -2,126 +2,126 @@
   "index_name": "squarebit",
   "start_urls": [
     {
-      "url": "https://squarebit.co.uk/software/craft/searchplus/usage",
+      "url": "https://transition.topshelfcraft.com/software/craft/searchplus/usage",
       "tags": [
         "craft",
         "searchplus"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/craft/charge/usage",
+      "url": "https://transition.topshelfcraft.com/software/craft/charge/usage",
       "tags": [
         "craft",
         "charge"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/craft/shortlist/usage",
+      "url": "https://transition.topshelfcraft.com/software/craft/shortlist/usage",
       "tags": [
         "craft",
         "shortlist"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/craft/maps/usage",
+      "url": "https://transition.topshelfcraft.com/software/craft/maps/usage",
       "tags": [
         "craft",
         "maps"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/expressionengine/binder/usage",
+      "url": "https://transition.topshelfcraft.com/software/expressionengine/binder/usage",
       "tags": [
         "expressionengine",
         "binder"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/expressionengine/charge/usage",
+      "url": "https://transition.topshelfcraft.com/software/expressionengine/charge/usage",
       "tags": [
         "expressionengine",
         "charge"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/expressionengine/maps/usage",
+      "url": "https://transition.topshelfcraft.com/software/expressionengine/maps/usage",
       "tags": [
         "expressionengine",
         "maps"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/expressionengine/shortlist/usage",
+      "url": "https://transition.topshelfcraft.com/software/expressionengine/shortlist/usage",
       "tags": [
         "expressionengine",
         "shortlist"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/expressionengine/seed/usage",
+      "url": "https://transition.topshelfcraft.com/software/expressionengine/seed/usage",
       "tags": [
         "expressionengine",
         "seed"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/craft/searchplus/faq",
+      "url": "https://transition.topshelfcraft.com/software/craft/searchplus/faq",
       "tags": [
         "craft",
         "searchplus"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/craft/charge/faq",
+      "url": "https://transition.topshelfcraft.com/software/craft/charge/faq",
       "tags": [
         "craft",
         "charge"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/craft/shortlist/faq",
+      "url": "https://transition.topshelfcraft.com/software/craft/shortlist/faq",
       "tags": [
         "craft",
         "shortlist"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/craft/maps/faq",
+      "url": "https://transition.topshelfcraft.com/software/craft/maps/faq",
       "tags": [
         "craft",
         "maps"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/expressionengine/binder/faq",
+      "url": "https://transition.topshelfcraft.com/software/expressionengine/binder/faq",
       "tags": [
         "expressionengine",
         "binder"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/expressionengine/charge/faq",
+      "url": "https://transition.topshelfcraft.com/software/expressionengine/charge/faq",
       "tags": [
         "expressionengine",
         "charge"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/expressionengine/maps/faq",
+      "url": "https://transition.topshelfcraft.com/software/expressionengine/maps/faq",
       "tags": [
         "expressionengine",
         "maps"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/expressionengine/shortlist/faq",
+      "url": "https://transition.topshelfcraft.com/software/expressionengine/shortlist/faq",
       "tags": [
         "expressionengine",
         "shortlist"
       ]
     },
     {
-      "url": "https://squarebit.co.uk/software/expressionengine/seed/faq",
+      "url": "https://transition.topshelfcraft.com/software/expressionengine/seed/faq",
       "tags": [
         "expressionengine",
         "seed"
@@ -130,9 +130,6 @@
   ],
   "stop_urls": [
     "#"
-  ],
-  "selectors_exclude": [
-    ".quickjump"
   ],
   "selectors": {
     "lvl0": {
@@ -146,7 +143,12 @@
     "lvl3": ".tab__body h4, .tab__body--fw h4",
     "text": ".tab__body p, .tab__body--fw p"
   },
-  "js_render": true,
-  "min_indexed_level": 1,
-  "nb_hits": 1057
+  "selectors_exclude": [
+    ".quickjump"
+  ],
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "153553814"
+  ],
+  "nb_hits": 1300
 }

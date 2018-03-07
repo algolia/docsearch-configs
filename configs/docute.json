@@ -18,9 +18,6 @@
       "tags": "ja"
     }
   ],
-  "stop_content": [
-    "Cannot find"
-  ],
   "stop_urls": [
     "\\?id="
   ],
@@ -32,8 +29,14 @@
     "lvl4": ".content h4",
     "text": ".content p, .content li"
   },
+  "stop_content": [
+    "Cannot find"
+  ],
   "js_render": true,
   "js_wait": 2,
   "use_anchors": true,
+  "conversation_id": [
+    "293039926"
+  ],
   "nb_hits": 587
 }

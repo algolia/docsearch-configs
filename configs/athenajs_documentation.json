@@ -16,11 +16,11 @@
     "lvl4": "#docma-content h5",
     "text": "#docma-content p, .symbol-container p, #docma-content li, .symbol-container li"
   },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "js_wait": 1,
   "conversation_id": [
     "501955954"
   ],
-  "min_indexed_level":1,
-  "js_render": true,
-  "js_wait": 1,
   "nb_hits": 2508
 }

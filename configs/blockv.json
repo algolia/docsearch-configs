@@ -1,0 +1,22 @@
+{
+  "index_name": "blockv",
+  "start_urls": [
+    "https://developer-dev.blockv.io/docs"
+  ],
+  "sitemap_urls": [
+    "https://developer-dev.blockv.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docSearch-content h1",
+    "lvl1": ".docSearch-content h2",
+    "lvl2": ".docSearch-content h3",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "conversation_id": [
+    "524014549"
+  ],
+  "nb_hits": 355
+}

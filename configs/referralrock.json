@@ -6,21 +6,26 @@
   "sitemap_urls": [
     "https://referralrock.com/sitemap.xml"
   ],
-  "selectors_exclude": [
-    "#table-of-contents"
-  ],
   "stop_urls": [
     "https://referralrock.com/knowledgebase/$",
     "https://referralrock.com/knowledgebase/[^/]*?$"
   ],
   "selectors": {
-    "lvl0": "#body-inner h1",
-    "lvl1": "#body-inner h2",
-    "lvl2": "#body-inner h3",
-    "lvl3": "#body-inner h4",
-    "lvl4": "#body-inner h5",
-    "text": "#body-inner p, #body-inner li"
+    "lvl0": "#body h1",
+    "lvl1": "#body h2",
+    "lvl2": "#body h3",
+    "lvl3": "#body h4",
+    "lvl4": "#body h5",
+    "text": "#body p, #body li"
   },
+  "selectors_exclude": [
+    "#feedback",
+    "#related"
+  ],
   "scrap_start_urls": false,
-  "nb_hits": 2895
+  "only_content_level": true,
+  "conversation_id": [
+    "212223506"
+  ],
+  "nb_hits": 1441
 }

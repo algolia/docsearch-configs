@@ -21,9 +21,9 @@
   "selectors_exclude": [
     "#see-also"
   ],
+  "min_indexed_level": 2,
   "conversation_id": [
     "508417420"
   ],
-  "min_indexed_level": 2,
   "nb_hits": 10515
 }

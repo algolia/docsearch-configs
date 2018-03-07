@@ -21,15 +21,12 @@
       "tags": [
         "current",
         "master",
-        "0.53-RC"
+        "0.54-RC"
       ]
     },
     "https://facebook.github.io/react-native/docs/next/getting-started.html",
     "https://facebook.github.io/react-native/docs/getting-started.html",
     "https://facebook.github.io/react-native/versions.html"
-  ],
-  "selectors_exclude": [
-    ".hash-link"
   ],
   "selectors": {
     "lvl0": {
@@ -44,9 +41,12 @@
     "lvl4": ".post h4",
     "text": ".post article p, .post article li"
   },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "min_indexed_level": 1,
   "conversation_id": [
     "477313987"
   ],
-  "min_indexed_level": 1,
-  "nb_hits": 278295
+  "nb_hits": 282983
 }

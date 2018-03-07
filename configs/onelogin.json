@@ -1,9 +1,15 @@
 {
-  "index_name": "wix",
+  "index_name": "onelogin",
   "start_urls": [
-    "https://wix-private.github.io/video-player.js/"
+    "https://developers.onelogin.com/"
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://developers.onelogin.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\?",
+    "javadoc"
+  ],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
@@ -13,10 +19,10 @@
     "text": ".content p, .content li"
   },
   "selectors_exclude": [
-    "pre.highlight"
+    ".stackoverflow"
   ],
   "conversation_id": [
-    "489997023"
+    "523323235"
   ],
-  "nb_hits": 110
+  "nb_hits": 8670
 }

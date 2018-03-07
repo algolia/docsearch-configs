@@ -5,14 +5,24 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".nav-category li.active",
-    "lvl1": ".page-detail h1",
-    "lvl2": ".page-detail h2",
-    "lvl3": ".page-detail h3",
-    "lvl4": ".page-detail h4",
-    "lvl5": ".page-detail h5",
-    "text": ".page-detail p, .page-detail li"
+    "lvl0": {
+      "selector": "nav > ul > li.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p, section li"
   },
-  "min_indexed_level": 1,
-  "nb_hits": 301
+  "selectors_exclude": [
+    ".breadcrumb"
+  ],
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "380548348"
+  ],
+  "nb_hits": 204
 }

@@ -1,7 +1,7 @@
 {
   "index_name": "pre-commit",
   "start_urls": [
-    "http://pre-commit.com/"
+    "https://pre-commit.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -11,5 +11,5 @@
     "lvl3": "#intro h5",
     "text": "#intro p, #intro li"
   },
-  "nb_hits": 310
+  "nb_hits": 307
 }

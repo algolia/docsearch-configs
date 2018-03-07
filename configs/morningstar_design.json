@@ -1,0 +1,33 @@
+{
+  "index_name": "morningstar_design",
+  "start_urls": [
+    "http://designsystem.morningstar.com/"
+  ],
+  "stop_urls": [
+    "v/",
+    ".sketch",
+    ".ait",
+    "path/",
+    "sink-pages/",
+    "morningstar.com/index.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//li[contains(@class, 'highlighted')][1]/preceding::li[contains(@class, '--header')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".mds-doc__content-wrap h1",
+    "lvl2": ".mds-doc__content-wrap h2",
+    "lvl3": ".mds-doc__content-wrap h3",
+    "lvl4": ".mds-doc__content-wrap h4",
+    "text": ".mds-doc__content-wrap p, .mds-doc__content-wrap li"
+  },
+  "selectors_exclude": [
+    ".mds-doc-page-nav"
+  ],
+  "scrap_start_urls": false,
+  "js_render": true,
+  "nb_hits": 5638
+}

@@ -15,6 +15,9 @@
     "lvl4": "article h4",
     "text": "article p, article li"
   },
-  "nb_hits": 839,
-  "min_indexed_level": 2
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "192212574"
+  ],
+  "nb_hits": 839
 }

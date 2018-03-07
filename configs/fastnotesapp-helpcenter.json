@@ -10,5 +10,8 @@
     "text": ".topic-description p"
   },
   "min_indexed_level": 2,
+  "conversation_id": [
+    "153468099"
+  ],
   "nb_hits": 329
 }

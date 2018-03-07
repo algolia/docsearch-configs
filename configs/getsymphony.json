@@ -54,9 +54,12 @@
     "lvl3": ".subsection.compound h5",
     "text": ".subsection.compound p, .subsection.compound li"
   },
+  "min_indexed_level": 2,
   "custom_settings": {
     "attributeForDistinct": "hierarchy.lvl1"
   },
-  "nb_hits": 2753,
-  "min_indexed_level": 2
+  "conversation_id": [
+    "232404445"
+  ],
+  "nb_hits": 2753
 }

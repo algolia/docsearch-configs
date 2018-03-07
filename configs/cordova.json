@@ -6,7 +6,7 @@
       "variables": {
         "version": {
           "url": "http://cordova.apache.org/docs/en/latest/guide/overview/",
-          "js": "var versions = $('ul[aria-labelledby=versionDropdown] a').map(function(i, e) { return $(e).text().replace(/\\(Latest\\)/i, '').trim(); }).toArray(); return JSON.stringify(versions);"
+          "js": "var versions = $('ul[aria-labelledby=versionDropdown] a').map(function(i, e) { return $(e).text().replace(/\\(Latest\\)/i, '').replace(/\\s+/g, ''); }).toArray(); return JSON.stringify(versions);"
         },
         "language": {
           "url": "http://cordova.apache.org/docs/en/latest/guide/overview/",
@@ -23,8 +23,9 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//ul[@class=\"site-toc\"]//a[@class=\"this-page\"]/../../preceding::span[1]",
+      "selector": "//div[contains(@class,'docs')]/div/ul[contains(@class,'site-toc')]/li[.//a[@class='this-page']]/*[contains(@class,'toc-section-heading')]",
       "type": "xpath",
+      "globa": true,
       "default_value": "Documentation"
     },
     "lvl1": "#page-toc-source h1",
@@ -37,5 +38,5 @@
   "conversation_id": [
     "192288401"
   ],
-  "nb_hits": 337937
+  "nb_hits": 338854
 }

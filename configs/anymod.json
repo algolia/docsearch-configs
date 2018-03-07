@@ -10,8 +10,8 @@
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'current')]/preceding::h3[1]",
-      "type":"xpath",
-      "global":true,
+      "type": "xpath",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": ".content h1",
@@ -20,7 +20,7 @@
     "lvl4": ".content h4",
     "text": ".content p, .content li"
   },
-  "min_indexed_level":1,
+  "min_indexed_level": 1,
   "conversation_id": [
     "478200081"
   ],

@@ -5,13 +5,13 @@
     "https://www.plasticscm.com/documentation/.*/.*\\.shtml",
     "https://users.semanticmerge.com/documentation/external-parsers/external-parsers-guide.shtml",
     {
-      "url": "https://www.plasticscm.com/download/releasenotes",
-      "selectors_key": "release"
+      "url": "https://www.plasticscm.com/download/releasenotes/",
+      "selectors_key": "release",
+      "tags": [
+        "release"
+      ]
     },
-    {
-      "url": "https://www.plasticscm.com/download/releasenotes/all",
-      "selectors_key": "release"
-    }
+    "https://www.plasticscm.com/download/releasenotes/all"
   ],
   "stop_urls": [
     "newernotes",
@@ -35,10 +35,15 @@
         "selector": "",
         "default_value": "Release notes"
       },
-      "lvl1": ".release",
-      "text": ".text p"
+      "lvl1": ".note h4",
+      "lvl2": ".note h6",
+      "text": ".note .text p, .note .text li, .note .text td"
     }
   },
-  "min_indexed_level": 2,
-  "nb_hits": 16102
+  "only_content_level": true,
+  "js_render": true,
+  "conversation_id": [
+    "304954712"
+  ],
+  "nb_hits": 10642
 }

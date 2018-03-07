@@ -20,8 +20,8 @@
     "text": "section p, section li"
   },
   "js_render": true,
-  "use_anchors": true,
   "js_wait": 1,
+  "use_anchors": true,
   "conversation_id": [
     "325197969"
   ],

@@ -1,0 +1,19 @@
+{
+  "index_name": "gocashfree",
+  "start_urls": [
+    "https://docs.gocashfree.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class$='docs_header'] .h1 >  span",
+    "lvl1": ".wysiwyg-content h1",
+    "lvl2": ".wysiwyg-content h2",
+    "lvl3": ".wysiwyg-content h3",
+    "lvl4": ".wysiwyg-content h4",
+    "text": ".wysiwyg-content p, .wysiwyg-content li"
+  },
+  "conversation_id": [
+    "521702573"
+  ],
+  "nb_hits": 722
+}

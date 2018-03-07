@@ -1,20 +1,89 @@
 {
   "index_name": "docs-pusher",
   "start_urls": [
-    "https://docs.pusher.com/"
+    {
+      "url": "https://docs.pusher.com/chatkit",
+      "selectors_key": "chatkit",
+      "tags": [
+        "chatkit"
+      ]
+    },
+    {
+      "url": "https://docs.pusher.com/feeds",
+      "selectors_key": "feeds",
+      "tags": [
+        "feeds"
+      ]
+    },
+    {
+      "url": "https://docs.pusher.com/push-notifications",
+      "selectors_key": "push-notifications",
+      "tags": [
+        "push-notifications"
+      ]
+    },
+    {
+      "url": "https://docs.pusher.com/textsync",
+      "selectors_key": "textsync",
+      "tags": [
+        "textsync"
+      ]
+    }
   ],
-  "stop_urls": [
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": ".default-markdown h1",
-    "lvl1": ".default-markdown h2",
-    "lvl2": ".default-markdown h3",
-    "lvl3": ".default-markdown h4",
-    "lvl4": ".default-markdown h5",
-    "text": ".default-markdown p, .default-markdown li"
+    "chatkit": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Chatkits"
+      },
+      "lvl1": "main article h1",
+      "lvl2": "main article h2",
+      "lvl3": "main article h3",
+      "lvl4": "main article h4",
+      "text": "main article p, main article li"
+    },
+    "feeds": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Feeds"
+      },
+      "lvl1": "main article h1",
+      "lvl2": "main article h2",
+      "lvl3": "main article h3",
+      "lvl4": "main article h4",
+      "text": "main article p, main article li"
+    },
+    "push-notifications": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Push Notifications"
+      },
+      "lvl1": "main article h1",
+      "lvl2": "main article h2",
+      "lvl3": "main article h3",
+      "lvl4": "main article h4",
+      "text": "main article p, main article li"
+    },
+    "textsync": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "TextSync"
+      },
+      "lvl1": "main article h1",
+      "lvl2": "main article h2",
+      "lvl3": "main article h3",
+      "lvl4": "main article h4",
+      "text": "main article p, main article li"
+    }
   },
-  "js_render": true,
-  "nb_hits": 679,
-  "js_wait": 1,
-  "strip_chars": " .,;:#"
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "531520145"
+  ],
+  "nb_hits": 2018
 }

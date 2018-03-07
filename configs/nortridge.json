@@ -8,10 +8,6 @@
     "\\.ttf",
     "\\.woff"
   ],
-  "selectors_exclude": [
-    ".sideContent",
-    ".MCBreadcrumbsBox_0"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -24,5 +20,12 @@
     "lvl5": "#contentBody h5",
     "text": "#contentBody p, #contentBody li"
   },
+  "selectors_exclude": [
+    ".sideContent",
+    ".MCBreadcrumbsBox_0"
+  ],
+  "conversation_id": [
+    "416098387"
+  ],
   "nb_hits": 5250
 }

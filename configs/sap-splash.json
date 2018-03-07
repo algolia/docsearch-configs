@@ -1,23 +1,28 @@
 {
   "index_name": "sap-splash",
   "start_urls": [
-    "http://sap.github.io/BUILD_User_Assistance/Splash/",
-    "http://sap.github.io/BUILD_User_Assistance/Splash/.*"
+    "http://sap.github.io/BUILD_User_Assistance/build/"
   ],
   "stop_urls": [
-    "http://sap.github.io/BUILD_User_Assistance/Splash/index.html",
-    "http://sap.github.io/BUILD_User_Assistance/Splash/AdminConsoleHelp.html"
+    "http://sap.github.io/BUILD_User_Assistance/build/index.html",
+    "http://sap.github.io/BUILD_User_Assistance/build/AdminConsoleHelp.html",
+    "http://sap.github.io/BUILD_User_Assistance/build/external/"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "#nav-content ul ul > li.active > span",
+      "selector": "#nav-content > ul > ul> li.active > span",
+      "global": true,
       "default_value": "Video"
     },
-    "lvl1": "h1.title",
-    "lvl2": "h2.sectiontitle, h2.title, h2.section_title",
-    "lvl3": "h3",
-    "text": ".conbody p, .conbody li, .taskbody p, .taskbody li, .body .p"
+    "lvl1": ".page h1",
+    "lvl2": ".page h2",
+    "lvl3": ".page h3",
+    "lvl4": ".page h4",
+    "text": ".page p, .page li"
   },
-  "min_indexed_level": 1,
-  "nb_hits": 4399
+  "only_content_level": true,
+  "conversation_id": [
+    "158231892"
+  ],
+  "nb_hits": 4378
 }

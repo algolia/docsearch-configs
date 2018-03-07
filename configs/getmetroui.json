@@ -1,0 +1,29 @@
+{
+  "index_name": "getmetroui",
+  "start_urls": [
+    "https://getmetroui.com/"
+  ],
+  "stop_urls": [
+    "/examples/",
+    ".json$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class,'doc-nav-item')]//li[contains(@class,'active')]/../../a[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "text": "main p, main li"
+  },
+  "js_render": true,
+  "only_content_level": true,
+  "conversation_id": [
+    "530300127"
+  ],
+  "nb_hits": 2235
+}

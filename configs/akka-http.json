@@ -2,55 +2,20 @@
   "index_name": "akka-http",
   "start_urls": [
     {
-      "url": "https://doc.akka.io/docs/akka-http/(?P<version>.*?)/(?P<language>.*?).html",
-      "variables": {
-        "language": [
-          "scala",
-          "java"
-        ],
-        "version": {
-          "url": "https://doc.akka.io/docs/akka-http/",
-          "js": "var versions = []; for(var i = 0 ; i < document.getElementsByTagName(\"a\").length; i++) { versions.push(document.getElementsByTagName(\"a\")[i].attributes[0].value); }; versions = versions.filter(function(e) { return !e.startsWith('?') && e.endsWith(\"/\") && !e.startsWith('rp') && (parseInt(e, 10) > 1 || e.startsWith('current') || e.startsWith('snapshot')); }).map(function(e) { return e.replace(/\\//g, ''); }); return JSON.stringify(versions);"
-        }
-      }
-    },
-    {
-      "url": "https://doc.akka.io/docs/akka-http/(?P<version>.*?)/(?P<language>.*?)/",
-      "variables": {
-        "language": [
-          "scala",
-          "java"
-        ],
-        "version": {
-          "url": "https://doc.akka.io/docs/akka-http/",
-          "js": "var versions = []; for(var i = 0 ; i < document.getElementsByTagName(\"a\").length; i++) { versions.push(document.getElementsByTagName(\"a\")[i].attributes[0].value); }; versions = versions.filter(function(e) { return !e.startsWith('?') && e.endsWith(\"/\") && !e.startsWith('rp') && (parseInt(e, 10) > 1 || e.startsWith('current') || e.startsWith('snapshot')); }).map(function(e) { return e.replace(/\\//g, ''); }); return JSON.stringify(versions);"
-        }
-      }
-    },
-    {
-      "url": "https://doc.akka.io/docs/akka-http/(?P<version>.*?)/",
-      "variables": {
-        "language": [
-          "scala",
-          "java"
-        ],
-        "version": {
-          "url": "https://doc.akka.io/docs/akka-http/",
-          "js": "var versions = []; for(var i = 0 ; i < document.getElementsByTagName(\"a\").length; i++) { versions.push(document.getElementsByTagName(\"a\")[i].attributes[0].value); }; versions = versions.filter(function(e) { return !e.startsWith('?') && e.endsWith(\"/\") && !e.startsWith('rp') && (parseInt(e, 10) > 1 || e.startsWith('current') || e.startsWith('snapshot')); }).map(function(e) { return e.replace(/\\//g, ''); }); return JSON.stringify(versions);"
-        }
+      "url": "https://doc.akka.io/docs/akka-http/current/",
+      "extra_attributes": {
+         "language": ["scala","java"]
       }
     }
   ],
   "stop_urls": [
-    "index.html"
-  ],
-  "selectors_exclude": [
-    "#scroller-anchor"
+    "/release-notes/"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'nav-breadcrumbs')]/ul/li[3]",
+      "selector": "//div[contains(@class,'nav-toc')]/ul/li[.//a[contains(@class,'active')]]/a",
       "type": "xpath",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": "#docs h1",
@@ -59,6 +24,18 @@
     "lvl4": "#docs h4",
     "text": "#docs p"
   },
+  "selectors_exclude": [
+    "#scroller-anchor"
+  ],
   "min_indexed_level": 1,
-  "nb_hits": 32719
+  "only_content_level": true,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
+  "conversation_id": [
+    "299459375"
+  ],
+  "nb_hits": 1626
 }

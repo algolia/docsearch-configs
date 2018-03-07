@@ -21,7 +21,8 @@
           "laravel-uptime-monitor",
           "image",
           "laravel-server-monitor",
-          "laravel-backup"
+          "laravel-backup",
+          "laravel-html"
         ]
       }
     }
@@ -29,10 +30,6 @@
   "stop_urls": [
     "/edit$",
     "/$"
-  ],
-  "selectors_exclude": [
-    "footer",
-    "header"
   ],
   "selectors": {
     "lvl0": "article h1",
@@ -42,5 +39,12 @@
     "lvl4": "article h5",
     "text": "article p"
   },
-  "nb_hits": 2709
+  "selectors_exclude": [
+    "footer",
+    "header"
+  ],
+  "conversation_id": [
+    "229197199"
+  ],
+  "nb_hits": 2931
 }

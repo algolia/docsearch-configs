@@ -56,13 +56,8 @@
       }
     }
   ],
-  "custom_settings": {
-    "separatorsToIndex": ".-_"
-  },
-  "stop_urls": [],
-  "selectors_exclude": [
-    "span.slds-badge",
-    ".docsearch-ignore"
+  "stop_urls": [
+    "\\?"
   ],
   "selectors": {
     "lvl0": ".docsearch-category",
@@ -70,6 +65,16 @@
     "lvl2": ".docsearch-level-2 .slds-hide, #overview",
     "text": ".site-content p, .docsearch-text, .slds-text-longform p, .site-content th"
   },
+  "selectors_exclude": [
+    "span.slds-badge",
+    ".docsearch-ignore"
+  ],
   "min_indexed_level": 1,
-  "nb_hits": 6908
+  "custom_settings": {
+    "separatorsToIndex": ".-_"
+  },
+  "conversation_id": [
+    "178329287"
+  ],
+  "nb_hits": 6584
 }

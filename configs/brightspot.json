@@ -16,5 +16,8 @@
     "text": ".Content-document p, .Content-document li"
   },
   "min_indexed_level": 2,
+  "conversation_id": [
+    "427853007"
+  ],
   "nb_hits": 7309
 }

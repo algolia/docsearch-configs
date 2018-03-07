@@ -1,0 +1,26 @@
+{
+  "index_name": "elektra",
+  "start_urls": [
+    "https://www.libelektra.org/docgettingstarted/",
+    "https://www.libelektra.org/tutorials/",
+    "https://www.libelektra.org/plugins/",
+    "https://www.libelektra.org/tools/",
+    "https://www.libelektra.org/manpages/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'nav')]//li[contains(@class, 'active')][1]/preceding::span[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#markdown-document h1",
+    "lvl2": "#markdown-document h2",
+    "lvl3": "#markdown-document h3",
+    "lvl4": "#markdown-document h4",
+    "text": "#markdown-document p, #markdown-document li"
+  },
+  "js_render": true,
+  "nb_hits": 5019
+}

@@ -1,20 +1,25 @@
 {
   "index_name": "react-dojo",
   "start_urls": [
-    "http://oss.jahed.io/react-dojo/"
+    "https://jahed.github.io/react-dojo/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": "//ul[contains(@class, 'toc')]//a[contains(@class, 'current')][1]/preceding::div[contains(@class, 'heading-toc')][1]",
+      "type": "xpath",
+      "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li"
+    "lvl1": ".content-wrapper h1",
+    "lvl2": ".content-wrapper h2",
+    "lvl3": ".content-wrapper h3",
+    "lvl4": ".content-wrapper h4",
+    "lvl5": ".content-wrapper h5",
+    "text": ".content-wrapper p, .content-wrapper li"
   },
-  "nb_hits": 212
+  "conversation_id": [
+    "340390370"
+  ],
+  "nb_hits": 224
 }

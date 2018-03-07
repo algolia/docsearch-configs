@@ -7,18 +7,18 @@
     "https://docs.commercetools.com/sitemap.xml"
   ],
   "stop_urls": [
-    "/release"
+    "/release-notes"
   ],
   "selectors": {
-    "lvl0": ".jekyll-content h1",
-    "lvl1": ".jekyll-content h2",
-    "lvl2": ".jekyll-content h3",
-    "lvl3": ".jekyll-content h4",
-    "lvl4": ".jekyll-content h5",
-    "text": ".jekyll-content p, .jekyll-content li"
+    "lvl0": "#content h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "text": "#content p, #content li, #content figure"
   },
   "conversation_id": [
     "507709762"
   ],
-  "nb_hits": 7976
+  "nb_hits": 9302
 }

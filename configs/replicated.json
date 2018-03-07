@@ -8,7 +8,6 @@
     "https://help.replicated.com/categories/examples/",
     "https://help.replicated.com/categories/knowledgebase/"
   ],
-  "scrap_start_urls": false,
   "stop_urls": [
     "/edit$"
   ],
@@ -26,5 +25,9 @@
   },
   "min_indexed_level": 1,
   "js_render": true,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "393063638"
+  ],
   "nb_hits": 10649
 }

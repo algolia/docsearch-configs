@@ -1,0 +1,26 @@
+{
+  "index_name": "w3bd",
+  "start_urls": [
+    "http://w3bd.com/doc"
+  ],
+  "stop_urls": [
+    "/\\d.\\d",
+    "/installation$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "a.navbar-brand",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "conversation_id": [
+    "530976925"
+  ],
+  "nb_hits": 177
+}

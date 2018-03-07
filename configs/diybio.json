@@ -1,12 +1,17 @@
 {
   "index_name": "diybio",
   "start_urls": [
-    "http://sphere.diybio.org/docs/"
+    "http://sphere.diybio.org/docs/",
+    "http://sphere.diybio.org/docs/welcome"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "http://sphere.diybio.org/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": ".dropdown.active-menu",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": "article h1",
@@ -16,5 +21,11 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "nb_hits": 429
+  "selectors_exclude": [
+    ".dropdown.active-menu div.menu"
+  ],
+  "conversation_id": [
+    "244731294"
+  ],
+  "nb_hits": 309
 }

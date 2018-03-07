@@ -19,9 +19,6 @@
       }
     }
   ],
-  "selectors_exclude": [
-    ".version-select"
-  ],
   "selectors": {
     "lvl0": {
       "selector": ".sidebar h2",
@@ -33,6 +30,12 @@
     "lvl4": ".content h4",
     "text": ".content p"
   },
+  "selectors_exclude": [
+    ".version-select"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "322242916"
+  ],
   "nb_hits": 2085
 }

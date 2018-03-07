@@ -26,9 +26,6 @@
   "stop_urls": [
     ".*^(?!.*Bundle).*index.html"
   ],
-  "selectors_exclude": [
-    "body.doc #main .page h1"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[@class='breadcrumb']/li[3]",
@@ -44,6 +41,12 @@
     "lvl5": "main h4",
     "text": "main p"
   },
+  "selectors_exclude": [
+    "body.doc #main .page h1"
+  ],
   "min_indexed_level": 2,
+  "conversation_id": [
+    "169623383"
+  ],
   "nb_hits": 175508
 }

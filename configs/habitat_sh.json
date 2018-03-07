@@ -1,0 +1,27 @@
+{
+  "index_name": "habitat_sh",
+  "start_urls": [
+    "https://www.habitat.sh/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".sidebar-content > ul > li.is-active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "div[class^='main-content'] h1",
+    "lvl2": "div[class^='main-content'] h2",
+    "lvl3": "div[class^='main-content'] h3",
+    "lvl4": "div[class^='main-content'] h4",
+    "text": "div[class^='main-content'] p, div[class^='main-content'] li"
+  },
+  "selectors_exclude": [
+    "#table-of-contents",
+    "#table-of-contents+ul"
+  ],
+  "conversation_id": [
+    "520561600"
+  ],
+  "nb_hits": 2128
+}

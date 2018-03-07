@@ -17,5 +17,8 @@
     "text": "#content .col-sm-9 p, #content .col-sm-9 li"
   },
   "min_indexed_level": 1,
+  "conversation_id": [
+    "417305051"
+  ],
   "nb_hits": 1194
 }

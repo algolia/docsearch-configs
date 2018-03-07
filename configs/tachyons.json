@@ -4,9 +4,6 @@
     "http://tachyons.io/docs"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    "article header"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "article h1, article h2",
@@ -17,6 +14,9 @@
     "lvl3": "article h5",
     "text": "article p, article li"
   },
+  "selectors_exclude": [
+    "article header"
+  ],
   "min_indexed_level": 1,
   "conversation_id": [
     "464461842"

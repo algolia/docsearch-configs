@@ -1,0 +1,24 @@
+{
+  "index_name": "angular-instantsearch",
+  "start_urls": [
+    "https://community.algolia.com/angular-instantsearch/"
+  ],
+  "stop_urls": [
+    "/examples/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "h1.heading-text",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".documentation-container h1",
+    "lvl2": ".documentation-container h2",
+    "lvl3": ".documentation-container h3",
+    "lvl4": ".documentation-container h4",
+    "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+  },
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nb_hits": 591
+}

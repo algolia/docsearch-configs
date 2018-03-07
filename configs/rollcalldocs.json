@@ -1,12 +1,15 @@
 {
   "index_name": "rollcalldocs",
   "start_urls": [
-    "https://rollcalldocs.netlify.com/"
+    "https://docs.bythebook.com/",
+    "https://docs.bythebook.com/v15/installing/install-on-a-single-computer/"
   ],
   "sitemap_urls": [
-    "https://rollcalldocs.netlify.com/sitemap.xml"
+    "https://docs.bythebook.com/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\.com/.*/$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".menu a.has-text-weight-bold",
@@ -18,7 +21,10 @@
     "lvl4": ".docsearch-content h4",
     "text": ".docsearch-content p, .docsearch-content li"
   },
-  "js_render": true,
   "min_indexed_level": 1,
-  "nb_hits": 2301
+  "js_render": true,
+  "conversation_id": [
+    "456112866"
+  ],
+  "nb_hits": 5768
 }

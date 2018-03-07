@@ -9,8 +9,11 @@
     "lvl1": ".bd-content h1",
     "lvl2": ".bd-content h2",
     "lvl3": ".bd-content h3",
-    "text": ".bd-content p, .bd-content li"
+    "text": ".bd-content p, .bd-content li, .bd-example"
   },
   "min_indexed_level": 1,
-  "nb_hits": 2484
+  "conversation_id": [
+    "423628659"
+  ],
+  "nb_hits": 3068
 }

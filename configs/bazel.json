@@ -1,0 +1,23 @@
+{
+  "index_name": "bazel",
+  "start_urls": [
+    "https://www.bazel.build/",
+    "https://docs.bazel.build/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//nav[contains(@id, 'sidebar')]//li[contains(@class, 'active')][1]/preceding::h3[1]|//div[contains(@class,'page-title-bar')]//h1)[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".container div[class$='-9'] h1",
+    "lvl2": ".container div[class$='-9'] h2",
+    "lvl3": ".container div[class$='-9'] h3",
+    "lvl4": ".container div[class$='-9'] h4",
+    "text": ".container div[class$='-9'] p, .container div[class$='-9'] li"
+  },
+  "only_content_level": true,
+  "nb_hits": 7914
+}
