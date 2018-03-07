@@ -1,10 +1,10 @@
 {
   "index_name": "codefresh",
   "start_urls": [
-    "https://vmechkauskas-codefresh.github.io/docs.codefresh.io/"
+    "https://codefresh.io/docs/"
   ],
   "sitemap_urls": [
-    "https://vmechkauskas-codefresh.github.io/docs.codefresh.io/sitemap.xml"
+    "https://codefresh.io/docs/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
