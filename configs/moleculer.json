@@ -1,9 +1,17 @@
 {
   "index_name": "moleculer",
   "start_urls": [
-    "http://moleculer.services/docs/"
+    {
+      "url": "http://moleculer.services/(?P<version>.*?)/docs/",
+      "variables": {
+        "version": {
+          "url": "http://moleculer.services/docs/",
+          "js": "const options=document.querySelector('div.version-selector select').options; const versions=Object.keys(options).map(key=>options[key].text.replace(/\\s*v*/,'')); return JSON.stringify(versions)"
+        }
+      }
+    }
   ],
-  "sitemap_urls":[
+  "sitemap_urls": [
     "http://moleculer.services/sitemap.xml"
   ],
   "stop_urls": [],
@@ -20,9 +28,8 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "min_indexed_level": 1,
   "conversation_id": [
     "368721869"
   ],
-  "nb_hits": 984
+  "nb_hits": 2145
 }
