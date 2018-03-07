@@ -3,9 +3,9 @@
   "start_urls": [
     {
       "url": "https://docs.gitlab.com/ee/",
-      "selectors_key": "ee",
+      "selectors_key": "gitlab",
       "tags": [
-        "ee"
+        "gitlab"
       ]
     },
     {
@@ -34,7 +34,7 @@
     ".*^(?!.*html)"
   ],
   "selectors": {
-    "ee": {
+    "gitlab": {
       "lvl0": {
         "selector": "",
         "default_value": "GitLab"
