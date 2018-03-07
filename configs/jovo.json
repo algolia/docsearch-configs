@@ -1,0 +1,26 @@
+{
+  "index_name": "jovo",
+  "start_urls": [
+    "https://www.jovo.tech/framework/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".nav-sidebar > li.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "text": "section p, section li"
+  },
+  "selectors_exclude": [
+    ".breadcrumb"
+  ],
+  "conversation_id": [
+    "536850996"
+  ],
+  "nb_hits": 4327
+}
