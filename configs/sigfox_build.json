@@ -1,0 +1,20 @@
+{
+  "index_name": "sigfox_build",
+  "start_urls": [
+    "https://build.sigfox.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "h1.flive_title_base",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".buildFront_step-content_sections h3",
+    "lvl2": ".buildFront_step-content_sections h4",
+    "lvl3": ".buildFront_step-content_sections h5",
+    "lvl4": ".buildFront_step-content_sections h6",
+    "text": ".buildFront_step-content_sections p, .buildFront_step-content_sections li, .flive_article_base p, .flive_article_base li"
+  },
+  "nb_hits": 750
+}
