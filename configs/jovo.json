@@ -1,7 +1,14 @@
 {
   "index_name": "jovo",
   "start_urls": [
-    "https://www.jovo.tech/framework/docs/"
+    {
+      "url": "https://www.jovo.tech/framework/docs/reference/",
+      "page_rank": -1
+    },
+    {
+      "url": "https://www.jovo.tech/framework/docs/",
+      "page_rank": 1
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,5 +29,5 @@
   "conversation_id": [
     "536850996"
   ],
-  "nb_hits": 4327
+  "nb_hits": 4328
 }
