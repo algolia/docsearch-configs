@@ -8,7 +8,9 @@
     "lvl0": ".layui-nav-item.layui-this a",
     "lvl1": {
       "selector": "//*[contains(@class, 'site-tree-noicon') and contains(@class, 'layui-this')]/preceding::h2[1]",
-      "type": "xpath"
+      "type": "xpath",
+      "global":true,
+      "default_value":"Documentation"
     },
     "lvl2": ".site-content h1",
     "lvl3": ".site-content h2",
@@ -21,5 +23,5 @@
   "conversation_id": [
     "357302043"
   ],
-  "nb_hits": 229
+  "nb_hits": 331
 }
