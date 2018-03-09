@@ -6,7 +6,7 @@
       "variables": {
         "version": {
           "url": "https://getkong.org/docs/",
-          "js": "var versions = $('ul[aria-labelledby=version-dropdown] a, button#version-dropdown').map(function(i, e) { return $(e).text().replace(/\\s+/g, '').replace(/Version/g, '').replace(/(latest)/g, ''); }).toArray(); return JSON.stringify(versions);"
+          "js": "var versions = $('ul[aria-labelledby=version-dropdown] a, button#version-dropdown').map(function(i, e) { return $(e).text().replace(/\\s+/g, '').replace(/Version/g, '').replace(/\\(latest\\)/g, ''); }).toArray(); return JSON.stringify(versions);"
         }
       }
     }
