@@ -1,10 +1,22 @@
 {
   "index_name": "nitropdf",
   "start_urls": [
-    "http://guide.gonitro.com/articles/"
+    {
+      "url": "http://guide.gonitro.com/articles/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "http://guide-de.gonitro.com",
+      "tags": [
+        "de"
+      ]
+    }
   ],
   "sitemap_urls": [
-    "http://guide.gonitro.com/sitemap.xml"
+    "http://guide.gonitro.com/sitemap.xml",
+    "http://guide-de.gonitro.com/sitemap.xml"
   ],
   "stop_urls": [
     "%20"
@@ -25,5 +37,5 @@
   "conversation_id": [
     "313458918"
   ],
-  "nb_hits": 6796
+  "nb_hits": 14115
 }
