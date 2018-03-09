@@ -20,7 +20,7 @@
       "tags": [
         "blog"
       ]
-    },    
+    },
     {
       "url": "https://www.gatsbyjs.org/packages/",
       "selectors_key": "packages",
@@ -72,18 +72,12 @@
         "global": true,
         "default_value": "Blog"
       },
-      "lvl1": {
-        "selector": "//a[contains(@class,'nav-link-active')]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Unsorted"
-      },
-      "lvl2": ".docSearch-content h1",
-      "lvl3": ".docSearch-content h2",
-      "lvl4": ".docSearch-content h4",
-      "lvl5": ".docSearch-content h5",
+      "lvl1": ".docSearch-content h1",
+      "lvl2": ".docSearch-content h2",
+      "lvl3": ".docSearch-content h4",
+      "lvl4": ".docSearch-content h5",
       "text": ".docSearch-content p, .docSearch-content li"
-    },    
+    },
     "packages": {
       "lvl0": {
         "selector": "",
@@ -99,10 +93,12 @@
     }
   },
   "selectors_exclude": [
-    "hr ~ div"
+    "hr ~ div",
+    "#next-steps",
+    "#next-steps ~ p"
   ],
   "conversation_id": [
     "487785557"
   ],
-  "nb_hits": 4245
+  "nb_hits": 6189
 }
