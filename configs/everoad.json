@@ -4,7 +4,8 @@
     "https://support.everoad.com"
   ],
   "stop_urls": [
-    "/signin?"
+    "/signin?",
+    "\\?sort"
   ],
   "selectors": {
     "lvl0": {
@@ -24,5 +25,5 @@
     "lvl4": ".article-body h5",
     "text": ".article-body p, .article-body li"
   },
-  "nb_hits": 659
+  "nb_hits": 561
 }
