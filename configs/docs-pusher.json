@@ -36,7 +36,7 @@
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "Chatkits"
+        "default_value": "Chatkit"
       },
       "lvl1": "main article h1",
       "lvl2": "main article h2",
