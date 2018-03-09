@@ -1,0 +1,19 @@
+{
+  "index_name": "slayte",
+  "start_urls": [
+    "http://help.slayte.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article.post header h1.post-title",
+    "lvl1": "article.post h1",
+    "lvl2": "article.post h3",
+    "lvl3": "article.post h4",
+    "lvl4": "article.post h5",
+    "text": "article.post p, article.post li"
+  },
+  "conversation_id": [
+    "538000650"
+  ],
+  "nb_hits": 39
+}
