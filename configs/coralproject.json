@@ -1,7 +1,7 @@
 {
   "index_name": "coralproject",
   "start_urls": [
-    "https://coralproject.github.io/talk/"
+    "https://docs.coralproject.net/"
   ],
   "stop_urls": [],
   "selectors": {
