@@ -6,8 +6,12 @@
       "page_rank": -1
     },
     {
-      "url": "https://www.jovo.tech/framework/docs/",
+      "url": "https://www.jovo.tech/blog/",
       "page_rank": 1
+    }
+    {
+      "url": "https://www.jovo.tech/framework/docs/",
+      "page_rank": 2
     }
   ],
   "stop_urls": [],
