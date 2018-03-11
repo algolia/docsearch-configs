@@ -1,16 +1,19 @@
 {
   "index_name": "scalingo-doc",
   "start_urls": [
-    "http://doc.scalingo.com/"
+    "https://doc.scalingo.com/"
+  ],
+  "sitemap_urls": [
+    "https://doc.scalingo.com/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": ".main-content h1",
-    "lvl1": ".main-content h2",
-    "lvl2": ".main-content h3",
-    "lvl3": ".bla",
-    "lvl4": ".bla",
-    "lvl5": ".bla",
-    "text": ".main-content p,.main-content li,.main-content pre"
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p,article li,article pre,article aside"
   },
   "conversation_id": [
     "153793790"
