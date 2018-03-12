@@ -1,23 +1,16 @@
 {
   "index_name": "luxaura",
   "start_urls": [
-    "https://luxaura.js.org/docs",
-    "https://luxaura.js.org/docs/front-matter",
-    "https://luxaura.js.org/docs/ejs",
-    "https://luxaura.js.org/docs/pug",
-    "https://luxaura.js.org/docs/site-configuration",
-    "https://luxaura.js.org/docs/variables",
-    "https://luxaura.js.org/docs/layouts",
-    "https://luxaura.js.org/docs/theming"
+    "https://luxaura.js.org/docs"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".main-col h1",
-    "lvl1": ".main-col h2",
-    "lvl2": ".main-col h3",
-    "lvl3": ".main-col h4",
-    "lvl4": ".main-col h5",
-    "text": ".main-col p, .main-col li"
+    "lvl0": ".main h1",
+    "lvl1": ".main h2",
+    "lvl2": ".main h3",
+    "lvl3": ".main h4",
+    "lvl4": ".main h5",
+    "text": ".main p, .main li"
   },
   "conversation_id": [
     "519820765"
