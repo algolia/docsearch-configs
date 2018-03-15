@@ -24,8 +24,7 @@
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": "//nav[contains(@class, 'sidebar')]//li[contains(@class, 'active')][1]/preceding::li[contains(@class, 'folder panel')][1]/a[1]",
-      "type": "xpath",
+      "selector": ".fs-sub-sidebar a[aria-expanded=true]",
       "global": true,
       "default_value": "Documentation"
     },
@@ -43,5 +42,5 @@
   "conversation_id": [
     "538688750"
   ],
-  "nb_hits": 9452
+  "nb_hits": 9447
 }
