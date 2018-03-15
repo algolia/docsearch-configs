@@ -8,10 +8,10 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".algoliaLv0",
-    "lvl1": ".algoliaLv1",
-    "lvl2": ".algoliaLv2",
-    "lvl3": "section h1",
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
     "lvl4": "section h5",
     "text": "section p, section li"
   },
