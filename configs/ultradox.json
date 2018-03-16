@@ -14,8 +14,7 @@
   ],
   "stop_urls": [
     "/pricing/",
-    "/reference/",
-    "/referenz/"
+    "/reference/api/"
   ],
   "selectors": {
     "lvl0": {
