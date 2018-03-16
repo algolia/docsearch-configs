@@ -13,7 +13,8 @@
     "https://help.ultradox.com/en/guides/overview.html"
   ],
   "stop_urls": [
-    "/pricing/"
+    "/pricing/",
+    "/reference/api/"
   ],
   "selectors": {
     "lvl0": {
