@@ -20,12 +20,12 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#main-content .content-col h1",
-    "lvl1": "#main-content .content-col h2",
-    "lvl2": "#main-content .content-col h3",
-    "lvl3": "#main-content .content-col h4",
-    "lvl4": "#main-content .content-col h5",
-    "text": "#main-content .content-col p, #main-content .content-col li"
+    "lvl0": "#main-content .post-header h1",
+    "lvl1": "#main-content .post-content h2",
+    "lvl2": "#main-content .post-content h3",
+    "lvl3": "#main-content .post-content h4",
+    "lvl4": "#main-content .post-content h5",
+    "text": "#main-content .post-content p, #main-content .post-content li"
   },
   "only_content_level": true,
   "conversation_id": [
