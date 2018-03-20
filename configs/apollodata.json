@@ -19,8 +19,7 @@
       "text": ".content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page"
     }
   },
-  "only_content_level": true,
-  "min_indexed_level": 1,
+  "min_indexed_level": 2,
   "conversation_id": [
     "355172644"
   ],
