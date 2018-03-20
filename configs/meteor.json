@@ -23,9 +23,7 @@
       ]
     }
   ],
-  "stop_urls": [
-    "#"
-  ],
+  "stop_urls": [],
   "selectors": {
     "api": {
       "lvl0": {
@@ -66,5 +64,5 @@
   "conversation_id": [
     "191208156"
   ],
-  "nb_hits": 8632
+  "nb_hits": 8631
 }
