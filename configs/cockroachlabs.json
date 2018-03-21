@@ -17,7 +17,7 @@
   ],
   "sitemap_urls": [
     "https://www.cockroachlabs.com/sitemap.xml"
-  ]
+  ],
   "selectors": {
     "lvl0": "#main-content .post-header h1",
     "lvl1": "#main-content .post-content h2",
