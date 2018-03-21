@@ -7,7 +7,8 @@
     "https://docs.commercetools.com/sitemap.xml"
   ],
   "stop_urls": [
-    "/release-notes"
+    "/release-notes",
+    "\\.html$"
   ],
   "selectors": {
     "lvl0": "#content h1",
@@ -20,5 +21,5 @@
   "conversation_id": [
     "507709762"
   ],
-  "nb_hits": 9302
+  "nb_hits": 9375
 }
