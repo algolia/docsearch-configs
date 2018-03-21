@@ -11,12 +11,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "section h1",
-    "lvl2": "div[role=main] h2",
-    "lvl3": "div[role=main] h3",
-    "lvl4": "div[role=main] h4",
-    "lvl5": "div[role=main] h5",
-    "text": "div[role=main] p, div[role=main] li, section span"
+    "lvl1": "section.content h1",
+    "lvl2": "section.content h2",
+    "lvl3": "section.content h3",
+    "lvl4": "section.content h4",
+    "lvl5": "section.content h5",
+    "text": "section.content p, section.content li, section.content span, section.content .glyph input.class, section.content .card-footer, section.content figure, section.content code"
   },
   "js_render": true,
   "conversation_id": [
