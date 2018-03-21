@@ -17,17 +17,15 @@
   ],
   "sitemap_urls": [
     "https://www.cockroachlabs.com/sitemap.xml"
-  ],
-  "stop_urls": [
-    "#see-also"
-  ],
+  ]
   "selectors": {
     "lvl0": "#main-content .post-header h1",
     "lvl1": "#main-content .post-content h2",
     "lvl2": "#main-content .post-content h3",
     "lvl3": "#main-content .post-content h4",
     "lvl4": "#main-content .post-content h5",
-    "text": "#main-content .post-content p, #main-content .post-content li"
+    "text": "#main-content .post-content p, #main-content .post-content li",
+    "selectors_exclude": "#see-also ~ ul, #whats-next ~ ul"
   },
   "only_content_level": true,
   "conversation_id": [
