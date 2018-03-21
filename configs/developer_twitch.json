@@ -1,0 +1,18 @@
+{
+  "index_name": "developer_twitch",
+  "start_urls": [
+    "https://dev.twitch.tv/docs"
+  ],
+  "stop_urls": [
+    "docs/$"
+  ],
+  "selectors": {
+    "lvl0": ".text-content h1",
+    "lvl1": ".text-content h2",
+    "lvl2": ".text-content h3",
+    "lvl3": ".text-content h4",
+    "lvl4": ".text-content h5, .text-content table td:first-of-type",
+    "text": ".text-content p, .text-content li, .text-content table td:last-child"
+  },
+  "nb_hits": 1989
+}
