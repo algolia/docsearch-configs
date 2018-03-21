@@ -1,0 +1,21 @@
+{
+  "index_name": "ghrc",
+  "start_urls": [
+    "https://navaneethselvaraj.gitlab.io/ghrc-docs.gitlab.io/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://navaneethselvaraj.gitlab.io/ghrc-docs.gitlab.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".article-inner h1",
+    "lvl1": ".article-inner h3",
+    "lvl2": ".article-inner h4",
+    "lvl3": ".article-inner h5",
+    "text": ".article-inner p, .article-inner li"
+  },
+  "conversation_id": [
+    "544975386"
+  ],
+  "nb_hits": 341
+}
