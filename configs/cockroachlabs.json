@@ -24,15 +24,22 @@
     "lvl2": "#main-content .post-content h3",
     "lvl3": "#main-content .post-content h4",
     "lvl4": "#main-content .post-content h5",
-    "text": "#main-content .post-content p, #main-content .post-content li",
-    "selectors_exclude": "#see-also ~ ul, #whats-next ~ ul"
+    "text": "#main-content .post-content p, #main-content .post-content li"
   },
   "only_content_level": true,
+  "selectors_exclude": [
+    "h2#whats-next",
+    "h2#whats-next ~ ul",
+    "h2#whats-next ~ p",
+    "h2#see-also",
+    "h2#see-also ~ ul",
+    "h2#see-also ~ p"
+  ],
   "conversation_id": [
     "524670340"
   ],
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 40606
+  "nb_hits": 40612
 }
