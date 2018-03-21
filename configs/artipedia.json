@@ -1,0 +1,31 @@
+{
+  "index_name": "artipedia",
+  "start_urls": [
+    "http://artipedia.site/docs/home/",
+    "http://artipedia.site/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "http://artipedia.site/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//li[contains(@class, 'current')][1]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    "[id^=sub-]"
+  ],
+  "conversation_id": [
+    "545058343"
+  ],
+  "nb_hits": 80
+}
