@@ -3,6 +3,9 @@
   "start_urls": [
     "http://www.mkdocs.org/"
   ],
+  "sitemap_urls": [
+    "http://www.mkdocs.org/sitemap.xml"
+  ],
   "stop_urls": [
     ".ico$"
   ],
@@ -15,5 +18,5 @@
     "text": "[role='main'] p, [role='main'] li"
   },
   "strip_chars": " .,;:#\uf0c1",
-  "nb_hits": 805
+  "nb_hits": 809
 }
