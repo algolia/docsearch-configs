@@ -2,7 +2,7 @@
   "index_name": "zoomdata",
   "start_urls": [
     "https://mystifying-roentgen-e8c480.netlify.com/docs/",
-    "https://mystifying-roentgen-e8c480.netlify.com/tutorial/"
+    "https://mystifying-roentgen-e8c480.netlify.com/tutorials/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
