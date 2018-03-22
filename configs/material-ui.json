@@ -11,7 +11,7 @@
     "https://material-ui-next.com/discover-more/vision/",
     "https://material-ui-next.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/$"],
   "selectors": {
     "lvl0": {
       "selector": ".algolia-lvl0",
