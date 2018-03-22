@@ -1,0 +1,33 @@
+{
+  "index_name": "djrad",
+  "start_urls": [
+    "https://djrad.herokuapp.com/",
+    "https://djrad.herokuapp.com/components/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".ant-menu-horizontal li.ant-menu-item-selected",
+      "global": true,
+      "default_value": "Menu"
+    },
+    "lvl1": {
+      "selector": "li.ant-menu-submenu-selected > div.ant-menu-submenu-title",
+      "global": true,
+      "default_value": "Sub Menu"
+    },
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    "code"
+  ],
+  "js_render": true,
+  "conversation_id": [
+    "545511921"
+  ],
+  "nb_hits": 348
+}
