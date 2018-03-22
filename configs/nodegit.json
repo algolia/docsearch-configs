@@ -9,13 +9,14 @@
     "lvl0": ".banner h2",
     "lvl1": ".main h2",
     "lvl2": ".main h3",
-    "lvl3": ".main h4",
+    "lvl3": ".main h4, .main table td:first-of-type",
     "lvl4": ".main h5",
-    "text": ".main p, .main li, .banner h2"
+    "text": ".main p, .main li, .banner h2, .main table td:last-child"
   },
+  "only_content_level": true,
   "selectors_exclude": [
     ".main h2 span",
     ".main h2 a"
   ],
-  "nb_hits": 1361
+  "nb_hits": 2555
 }
