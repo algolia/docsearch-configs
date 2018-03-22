@@ -1,0 +1,23 @@
+{
+  "index_name": "foursquare",
+  "start_urls": [
+    "https://developer.foursquare.com/docs"
+  ],
+  "stop_urls": [
+    "/changelog"
+  ],
+  "selectors": {
+    "lvl0": "h1.entry-title",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4, .content table td:first-of-type",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li,.content .home-text-wrap, .content table td:last-child"
+  },
+  "selectors_exclude": [
+    "[id*='next-steps']",
+    "[id*='next-steps'] ~ *"
+  ],
+  "only_content_level": true,
+  "nb_hits": 1333
+}
