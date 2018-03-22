@@ -1,8 +1,8 @@
 {
   "index_name": "bazel",
   "start_urls": [
-    "https://www.bazel.build/",
-    "https://docs.bazel.build/"
+    "https://docs.bazel.build/",
+    "https://bazel.build"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,6 +18,12 @@
     "lvl4": ".container div[class$='-9'] h4",
     "text": ".container div[class$='-9'] p, .container div[class$='-9'] li"
   },
+  "stop_content": [
+    "404 - Page not found"
+  ],
+  "selectors_exclude": [
+    ".toc"
+  ],
   "only_content_level": true,
-  "nb_hits": 7914
+  "nb_hits": 7283
 }
