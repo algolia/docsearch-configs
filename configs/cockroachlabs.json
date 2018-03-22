@@ -33,7 +33,8 @@
     "h2#whats-next ~ p",
     "h2#see-also",
     "h2#see-also ~ ul",
-    "h2#see-also ~ p"
+    "h2#see-also ~ p",
+    "#toc"
   ],
   "conversation_id": [
     "524670340"
@@ -41,5 +42,5 @@
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 41654
+  "nb_hits": 41685
 }
