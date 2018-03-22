@@ -1,0 +1,20 @@
+{
+  "index_name": "folk",
+  "start_urls": [
+    "http://help.folk.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "div.breadcrumb > div:nth-child(2) > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content__narrow h1",
+    "lvl2": ".content__narrow h2",
+    "lvl3": ".content__narrow h3",
+    "lvl4": ".content__narrow h4",
+    "text": ".content__narrow p, .content__narrow li"
+  },
+  "nb_hits": 96
+}
