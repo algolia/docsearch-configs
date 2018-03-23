@@ -4,22 +4,22 @@
     "https://ngrok.com/docs"
   ],
   "stop_urls": [
-    "https://ngrok.com/docs/ngrok-link",
     "https://ngrok.com/docs/2"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "head title",
-      "global": true,
-      "default_value": "ngrok documentation"
+      "selector": ".docs-main .container h2",
+      "default_value": "ngrok Documentation"
     },
-    "lvl1": ".docs-main .container h2",
-    "lvl2": ".docs-main .container h3",
-    "text": ".docs-main .container p"
+    "lvl1": ".docs-main .container h3",
+    "lvl2": ".docs-main .container h4",
+    "lvl3": ".docs-main .container h5",
+    "lvl4": ".docs-main .container h6",
+    "text": ".docs-main .container p, .docs-main .container li"
   },
   "min_indexed_level": 1,
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 187
+  "nb_hits": 452
 }
