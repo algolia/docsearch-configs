@@ -1,0 +1,23 @@
+{
+  "index_name": "valr",
+  "start_urls": [
+    "https://rnabioco.github.io/valr/"
+  ],
+  "stop_urls": [
+    "/index.html$",
+    "/news/",
+    "LICENSE.html$"
+  ],
+  "selectors": {
+    "lvl0": ".page-header h1",
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents table th",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h5",
+    "text": ".contents p, .contents li"
+  },
+  "conversation_id": [
+    "546372335"
+  ],
+  "nb_hits": 870
+}
