@@ -1,53 +1,28 @@
 {
   "index_name": "material-ui",
   "start_urls": [
-    "https://material-ui-next.com/getting-started/installation/",
-    "https://material-ui-next.com/customization/overrides/",
-    "https://material-ui-next.com/style/color/",
-    "https://material-ui-next.com/layout/basics/",
-    "https://material-ui-next.com/guides/composition/",
-    "https://material-ui-next.com/demos/app-bar/",
-    "https://material-ui-next.com/api/app-bar/",
-    "https://material-ui-next.com/discover-more/vision/",
     "https://material-ui-next.com/"
   ],
-  "stop_urls": ["/$"],
+  "stop_urls": [
+    "\\?expend-path"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".algolia-lvl0",
       "global": true
     },
-    "lvl1": {
-      "selector": "//*[contains(@class, 'markdown-body')]//h1",
-      "type": "xpath"
-    },
-    "lvl2": {
-      "selector": "//*[contains(@class, 'markdown-body')]//h2",
-      "type": "xpath"
-    },
-    "lvl3": {
-      "selector": "//*[contains(@class, 'markdown-body')]//h3",
-      "type": "xpath"
-    },
-    "lvl4": {
-      "selector": "//*[contains(@class, 'markdown-body')]//h4",
-      "type": "xpath"
-    },
-    "lvl5": {
-      "selector": "//*[contains(@class, 'markdown-body')]//h5",
-      "type": "xpath"
-    },
-    "text": {
-      "selector": "//*[contains(@class, 'markdown-body')]//p|//*[contains(@class, 'markdown-body')]//li",
-      "type": "xpath"
-    }
+    "lvl1": ".markdown-body h1",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3, .markdown-body table td:first-of-type",
+    "lvl4": ".markdown-body h4",
+    "text": ".markdown-body p, .markdown-body li,.markdown-body .home-text-wrap, .markdown-body table td:last-child"
   },
   "selectors_exclude": [
     ".anchor-link-style"
   ],
-  "min_indexed_level": 1,
+  "only_content_level": true,
   "conversation_id": [
     "357227758"
   ],
-  "nb_hits": 1974
+  "nb_hits": 2803
 }
