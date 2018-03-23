@@ -1,7 +1,6 @@
 {
   "index_name": "zoomdata",
   "start_urls": [
-    "https://mystifying-roentgen-e8c480.netlify.com/docs/",
     "https://mystifying-roentgen-e8c480.netlify.com/tutorials/"
   ],
   "stop_urls": [],
@@ -24,5 +23,5 @@
   "conversation_id": [
     "516556478"
   ],
-  "nb_hits": 197
+  "nb_hits": 201
 }
