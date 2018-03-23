@@ -57,8 +57,17 @@
   ],
   "scrap_start_urls": false,
   "only_content_level": true,
+  "custom_settings": {
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "434475832"
   ],
-  "nb_hits": 33519
+  "nb_hits": 33833
 }
