@@ -78,7 +78,6 @@
   ],
   "min_indexed_level": 1,
   "scrap_start_urls": false,
-  "only_content_level": true,
   "conversation_id": [
     "434475832"
   ],
