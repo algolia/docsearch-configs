@@ -11,23 +11,27 @@
       }
     }
   ],
+  "sitemap_urls": [
+    "https://docs.monaca.io/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'title_breadcrumb')]/a[last()]",
+      "selector": "//ul[contains(@class, 'topics')]//li[contains(@class, 'active')][1]/../preceding::span[1]",
       "type": "xpath",
+      "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article .section h1",
-    "lvl2": "article .section h2",
-    "lvl3": "article .section h3",
-    "lvl4": "article .section h4",
-    "lvl5": "article .section h5",
-    "text": "article .section p, article .section li"
+    "lvl1": "#body-inner h1",
+    "lvl2": "#body-inner h2",
+    "lvl3": "#body-inner h3",
+    "lvl4": "#body-inner h4",
+    "lvl5": "#body-inner h5",
+    "text": "#body-inner p, #body-inner li"
   },
   "min_indexed_level": 1,
   "conversation_id": [
     "388850885"
   ],
-  "nb_hits": 25205
+  "nb_hits": 26514
 }
