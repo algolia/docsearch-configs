@@ -9,8 +9,8 @@
     "LICENSE.html$"
   ],
   "selectors": {
-    "lvl0": ".page-header h1",
-    "lvl1": ".contents h2",
+    "lvl0": ".title, .page-header h1",
+    "lvl1": ".contents h2, .usage",
     "lvl2": ".contents h3, .contents table th",
     "lvl3": ".contents h4",
     "lvl4": ".contents h5",
