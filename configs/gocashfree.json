@@ -1,7 +1,7 @@
 {
   "index_name": "gocashfree",
   "start_urls": [
-    "https://docs.gocashfree.com/docs/"
+    "https://docs.cashfree.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,5 +15,5 @@
   "conversation_id": [
     "521702573"
   ],
-  "nb_hits": 722
+  "nb_hits": 805
 }
