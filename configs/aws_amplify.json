@@ -3,17 +3,27 @@
   "start_urls": [
     "https://aws.github.io/aws-amplify/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "index.html$"
+  ],
   "selectors": {
-    "lvl0": "section h1, span.target",
-    "lvl1": "section h2",
-    "lvl2": "section h3",
-    "lvl3": "section h4",
-    "lvl4": "section h5",
-    "text": "section p, section li"
+    "lvl0": {
+      "selector": ".tsd-navigation li.current > a, .content-wrap h1, .content h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h2, .content h2",
+    "lvl2": "section h3, .content h3",
+    "lvl3": "section h4, .content h4",
+    "lvl4": "section h5, .content h5",
+    "text": "section p, section li, .content p, .content li"
   },
   "conversation_id": [
     "533429853"
   ],
-  "nb_hits": 4754
+  "selectors_exclude": [
+    ".tsd-index-panel"
+  ],
+  "only_content_level": true,
+  "nb_hits": 2556
 }
