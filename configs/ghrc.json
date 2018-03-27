@@ -1,11 +1,11 @@
 {
   "index_name": "ghrc",
   "start_urls": [
-    "https://navaneethselvaraj.gitlab.io/ghrc-docs.gitlab.io/docs/"
+    "https://nasa-ghrc-daac.gitlab.io/documentation/docs/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://navaneethselvaraj.gitlab.io/ghrc-docs.gitlab.io/sitemap.xml"
+    "https://nasa-ghrc-daac.gitlab.io/documentation/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".article-inner h1",
