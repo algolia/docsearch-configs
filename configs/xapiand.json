@@ -1,0 +1,27 @@
+{
+  "index_name": "xapiand",
+  "start_urls": [
+    "https://kronuz.io/Xapiand/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://kronuz.io/Xapiand/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//li[contains(@class, 'current')][1]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "549000277"
+  ],
+  "nb_hits": 165
+}
