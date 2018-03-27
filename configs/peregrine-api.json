@@ -1,13 +1,22 @@
 {
   "index_name": "peregrine-api",
   "start_urls": [
-    "https://peregrine.zumata.com/docs/"
+    "https://peregrine.zumata.com"
+    "https://peregrine.zumata.com/start",
+    "https://peregrine.zumata.com/docs",
+    "https://peregrine.zumata.com/blog"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content-container h3",
-    "lvl1": ".content-container h4,.content-container table td:first-of-type",
-    "lvl2": ".content-container h5",
+    "lvl0": {
+      "selector": "",
+      "default_value": "Zumata Peregrine 0.2"
+    },
+    "lvl1": ".content-container h1",
+    "lvl2": ".content-container h2",
+    "lvl3": ".content-container h3",
+    "lvl4": ".content-container h4, .content-container table td:first-of-type",
+    "lvl5": ".content-container h5",
     "text": ".content-container p, .content-container li, .content-container table td:last-child"
   },
   "conversation_id": [
