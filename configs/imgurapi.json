@@ -1,0 +1,17 @@
+{
+  "index_name": "imgurapi",
+  "start_urls": [
+    "https://apidocs.imgur.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".api-information h2",
+    "lvl1": ".api-information h3",
+    "lvl2": ".api-information h4",
+    "lvl3": ".api-information h5",
+    "text": ".api-information p, .api-information li"
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "nb_hits": 328
+}
