@@ -12,7 +12,8 @@
     "lvl1": ".algoliaLv1",
     "lvl2": ".algoliaLv2",
     "lvl3": "section h1",
-    "lvl4": "section h5",
+    "lvl4": "section h2",
+    "lvl5": "section h3",    
     "text": "section p, section li"
   },
   "conversation_id": [
