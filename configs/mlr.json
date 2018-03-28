@@ -1,0 +1,28 @@
+{
+  "index_name": "mlr",
+  "start_urls": [
+    "http://mlr-org.github.io/mlr/"
+  ],
+  "stop_urls": [
+    "index.html$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".col-md-9 h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": ".col-md-9 h2",
+    "lvl3": ".col-md-9 h3",
+    "lvl4": ".col-md-9 h4",
+    "text": ".col-md-9 p, .col-md-9 li"
+  },
+  "selectors_exclude": [
+    "#see-also",
+    "#see-also ~ p"
+  ],
+  "conversation_id": [
+    "549872564"
+  ],
+  "nb_hits": 3427
+}
