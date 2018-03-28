@@ -1,0 +1,24 @@
+{
+  "index_name": "fullcontact",
+  "start_urls": [
+    "https://www.fullcontact.com/developer/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.fullcontact.com/sitemap_index.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".docs-nav .current > dt > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#docs-content h2",
+    "lvl2": "#docs-content h3",
+    "lvl3": "#docs-content h4",
+    "lvl4": "#docs-content h5",
+    "text": "#docs-content p, #docs-content li"
+  },
+  "js_render": true,
+  "nb_hits": 1134
+}
