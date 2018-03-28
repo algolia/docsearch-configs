@@ -13,12 +13,12 @@
     "lvl2": ".algoliaLv2",
     "lvl3": "section h1",
     "lvl4": "section h2",
-    "lvl5": "section h3",    
+    "lvl5": "section h3",
     "text": "section p, section li"
   },
   "conversation_id": [
     "444614439"
   ],
   "only_content_level": true,
-  "nb_hits": 1087
+  "nb_hits": 1088
 }
