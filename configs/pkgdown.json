@@ -1,0 +1,22 @@
+{
+  "index_name": "pkgdown",
+  "start_urls": [
+    "http://pkgdown.r-lib.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".col-md-9 h1",
+    "lvl1": ".col-md-9 h2",
+    "lvl2": ".col-md-9 h3",
+    "lvl3": ".col-md-9 h4",
+    "lvl4": ".col-md-9 h5",
+    "text": ".col-md-9 p, .col-md-9 li"
+  },
+  "selectors_exclude": [
+    ".author"
+  ],
+  "conversation_id": [
+    "549052896"
+  ],
+  "nb_hits": 443
+}
