@@ -14,13 +14,13 @@
     "lvl3": ".l-content__wrapper h3",
     "lvl4": ".l-content__wrapper h2[class$=\"step__title\"]",
     "text": ".l-content__wrapper p, .l-content__wrapper li",
-    "technonology":{
+    "technonology": {
       "selector": ".l-header__nav a.active",
       "global": true
     }
   },
   "min_indexed_level": 1,
-  "custom_settings":{
+  "custom_settings": {
     "attributesForFaceting": [
       "technonology"
     ]
@@ -28,5 +28,5 @@
   "conversation_id": [
     "512685224"
   ],
-  "nb_hits": 1830
+  "nb_hits": 1436
 }

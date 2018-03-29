@@ -4,7 +4,8 @@
     "https://api.akeneo.com/"
   ],
   "stop_urls": [
-    "https://api.akeneo.com/index.html"
+    "https://api.akeneo.com/index.html",
+    ".json$"
   ],
   "selectors": {
     "lvl0": "#mainContent h1",
@@ -16,9 +17,11 @@
   },
   "strip_chars": " .,;:#",
   "min_indexed_level": 2,
-  "js_render": true,
+  "selectors_exclude": [
+    ".nav"
+  ],
   "conversation_id": [
     "327917612"
   ],
-  "nb_hits": 7915
+  "nb_hits": 19279
 }

@@ -16,15 +16,15 @@
       "default_value": "Documentation",
       "global": true
     },
-    "lvl1": ".documentation-copy h1",
-    "lvl2": ".documentation-copy h2",
-    "lvl3": ".documentation-copy h3",
-    "lvl4": ".documentation-copy h4",
-    "text": ".documentation-copy p, .documentation-copy li"
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
   },
   "min_indexed_level": 2,
   "conversation_id": [
     "465725334"
   ],
-  "nb_hits": 2974
+  "nb_hits": 79054
 }

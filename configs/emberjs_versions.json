@@ -28,6 +28,9 @@
       "selectors_key": "api"
     }
   ],
+  "stop_urls": [
+    "\\?anchor"
+  ],
   "selectors": {
     "guide": {
       "lvl0": ".header ul li.active a, #header ul li a.active, #header ul li.active a",
@@ -65,5 +68,5 @@
   "conversation_id": [
     "162141110"
   ],
-  "nb_hits": 53702
+  "nb_hits": 55308
 }
