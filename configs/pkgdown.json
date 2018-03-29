@@ -3,17 +3,18 @@
   "start_urls": [
     "http://pkgdown.r-lib.org/"
   ],
+  "sitemap_urls": ["http://pkgdown.r-lib.org/sitemap.txt"],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".col-md-9 h1",
-    "lvl1": ".col-md-9 h2",
-    "lvl2": ".col-md-9 h3",
-    "lvl3": ".col-md-9 h4",
-    "lvl4": ".col-md-9 h5",
-    "text": ".col-md-9 p, .col-md-9 li"
+    "lvl0": ".contents h1",
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents th, .contents dt",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h5",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
   },
   "selectors_exclude": [
-    ".author"
+    ".dont-index"
   ],
   "conversation_id": [
     "549052896"
