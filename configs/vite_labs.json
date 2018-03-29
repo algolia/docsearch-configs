@@ -11,7 +11,12 @@
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/about/?$",
+    "/faq/?$",
+    "/tech/?$",
+    "/whitePaper/?$"
+  ],
   "selectors": {
     "lvl0": "#wiki-content-wrapper h1",
     "lvl1": "#wiki-content-wrapper h2",
