@@ -1,7 +1,7 @@
 {
   "index_name": "valr",
   "start_urls": [
-    "https://rnabioco.github.io/valr/"
+    "http://valr.hesselberthlab.org/"
   ],
   "stop_urls": [
     "/index.html$",
