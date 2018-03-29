@@ -5,6 +5,7 @@
       "url": "https://docs.aahframework.org/(?P<version>.*?)",
       "variables": {
         "version": [
+          "v0.10",
           "v0.9",
           "v0.8",
           "v0.7",
