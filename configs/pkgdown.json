@@ -3,7 +3,9 @@
   "start_urls": [
     "http://pkgdown.r-lib.org/"
   ],
-  "sitemap_urls": ["http://pkgdown.r-lib.org/sitemap.txt"],
+  "sitemap_urls": [
+    "http://pkgdown.r-lib.org/sitemap.txt"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".contents h1",
@@ -19,5 +21,5 @@
   "conversation_id": [
     "549052896"
   ],
-  "nb_hits": 443
+  "nb_hits": 530
 }
