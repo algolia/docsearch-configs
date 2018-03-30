@@ -3,7 +3,9 @@
   "start_urls": [
     "http://docs.rightscale.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "http://docs.rightscale.com/policies.*"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "nav h4 span",
