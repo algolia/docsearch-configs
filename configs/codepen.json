@@ -37,6 +37,13 @@
       ]
     },
     {
+      "url": "https://blog.codepen.io/\\d{4}/\\d{2}/\\d{2}",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
       "url": "https://blog.codepen.io/documentation/api/",
       "selectors_key": "api",
       "tags": [
@@ -137,10 +144,25 @@
       "lvl2": ".article-text h3",
       "lvl3": ".article-text h4",
       "text": ".article-text p, .article-text li"
+    },
+    "blog": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": {
+        "selector": ".mega-header h1, .podcast-episode-header h1",
+        "global": true
+      },
+      "lvl2": ".article-text h3",
+      "lvl3": ".article-text h4",
+      "text": ".article-text p, .article-text li"
     }
   },
+  "only_content_level": true,
   "selectors_exclude": [
     ".table-of-contents"
   ],
-  "nb_hits": 1330
+  "nb_hits": 4175
 }
