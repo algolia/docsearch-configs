@@ -1,0 +1,57 @@
+{
+  "index_name": "scala-lang",
+  "start_urls": [
+    {
+      "url": "http://docs.scala-lang.org/(?P<language>.*?)",
+      "variables": {
+        "language": [
+          "ko",
+          "ba",
+          "pl",
+          "es",
+          "pr-br",
+          "ja",
+          "zh-cn",
+          "ru"
+        ]
+      }
+    },
+    {
+      "url": "http://docs.scala-lang.org/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "lang.org/api/",
+    "lang.org/download/",
+    "lang.org/blog/",
+    "lang.org/old/",
+    "lang.org/files/archive/",
+    "lang.org/events/",
+    "scala-lang.org/sips/",
+    "/tutorials/tour/",
+    "changelog",
+    "\\?C"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#inner-main .title-page .supertitle",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#inner-main .title-page h1",
+    "lvl2": "#inner-main .content-primary h2",
+    "lvl3": "#inner-main .content-primary h3",
+    "lvl4": "#inner-main .content-primary h4",
+    "lvl5": "#inner-main .content-primary h5",
+    "text": "#inner-main .content-primary p, #inner-main .content-primary li"
+  },
+  "conversation_id": [
+    "552898519"
+  ],
+  "nb_hits": 10901
+}
