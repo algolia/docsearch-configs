@@ -1,10 +1,10 @@
 {
   "index_name": "blockv",
   "start_urls": [
-    "https://developer-dev.blockv.io/docs"
+    "https://developer.blockv.io/docs"
   ],
   "sitemap_urls": [
-    "https://developer-dev.blockv.io/sitemap.xml"
+    "https://developer.blockv.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
