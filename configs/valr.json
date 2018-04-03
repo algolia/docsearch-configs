@@ -3,25 +3,20 @@
   "start_urls": [
     "http://valr.hesselberthlab.org/"
   ],
-  "stop_urls": [
-    "/index.html$",
-    "/news/",
-    "LICENSE.html$"
-  ],
+  "sitemap_urls": "http://valr.hesselberthlab.org/sitemap.xml",
   "selectors": {
-    "lvl0": ".title, .page-header h1",
+    "lvl0": ".contents h1",
     "lvl1": ".contents h2",
-    "lvl2": ".contents h3, .contents table th",
+    "lvl2": ".contents h3, .contents th, .contents dt",
     "lvl3": ".contents h4",
     "lvl4": ".contents h5",
-    "text": ".contents p, .contents li, .usage"
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
   },
   "conversation_id": [
     "546372335"
   ],
   "selectors_exclude": [
-    "#see-also",
-    "#see-also + p"
+    ".dont-index"
   ],
   "nb_hits": 881
 }
