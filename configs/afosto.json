@@ -1,7 +1,7 @@
 {
   "index_name": "afosto",
   "start_urls": [
-    "https://afosto.github.io/afosto-docs/"
+    "http://help.afosto.com/"
   ],
   "stop_urls": [
     "/blog/"
