@@ -16,7 +16,7 @@
     "lvl2": ".contents h3, .contents th",
     "lvl3": ".contents h4",
     "lvl4": ".contents h4",
-    "text": ".contents p, .contents li, .contents dt, .usage, .template-article .contents .pre"
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
   },
   "selectors_exclude": [
     ".dont-index",
