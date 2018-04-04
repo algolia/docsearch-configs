@@ -3,6 +3,9 @@
   "start_urls": [
     "http://help.afosto.com/"
   ],
+  "sitemap_urls": [
+    "https://community.algolia.com/docsearch/documentation/docsearch/how-it-works/"
+  ],
   "stop_urls": [
     "/blog/"
   ],
@@ -17,5 +20,5 @@
   "conversation_id": [
     "549822182"
   ],
-  "nb_hits": 28
+  "nb_hits": 56
 }
