@@ -1,0 +1,66 @@
+{
+  "index_name": "hanamirb",
+  "start_urls": [
+    {
+      "url": "http://hanamirb.org/guides/(?P<version>.*?)",
+      "variables": {
+        "version": [
+          "1.0",
+          "1.1"
+        ]
+      },
+      "tags": [
+        "guides"
+      ]
+    },
+    {
+      "url": "http://hanamirb.org/community/",
+      "variables": {
+        "tags": [
+          "community"
+        ]
+      },
+      "selectors_key": "community",
+      "extra_attributes": {
+        "version": [
+          "1.0",
+          "1.1"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".docs-content h1",
+        "default_value": "Unsorted"
+      },
+      "lvl1": ".docs-content h2",
+      "lvl2": ".docs-content h3",
+      "lvl3": ".docs-content h4",
+      "lvl4": ".docs-content h5",
+      "text": ".docs-content p, .docs-content li"
+    },
+    "community": {
+      "lvl0": {
+        "selector": "body > div.container h1",
+        "global": true,
+        "default_value": "Unsorted"
+      },
+      "lvl1": "body > div.container h2",
+      "lvl2": "body > div.container h3",
+      "lvl3": "body > div.container h4",
+      "lvl4": "body > div.container h5",
+      "text": "body > div.container p, body > div.container li"
+    }
+  },
+  "selectors_exclude": [
+    ".breadcrumbs",
+    "#markdown-toc"
+  ],
+  "conversation_id": [
+    "543189649"
+  ],
+  "nb_hits": 4162
+}
