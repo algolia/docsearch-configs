@@ -263,9 +263,7 @@ Default is `0`.
 
 #### Duplicated content
 
-It could happen that the crawled website returned duplicated data. Most of the time, this is because the crawled pages got the same urls with two different schemes.
-
-If we have URLs like `http://website.com/page` and `http://website.com/page/` (notice the second one ending with `/`), the scrapper will consider them as different. This can be fixed by adding a regex to the `stop_urls` in the `config.json`:
+It could happen that the crawled website contains duplicated data. Most of the time this is because a the same page was crawled from different urls. If we have URLs like `http://website.com/page` and `http://website.com/page/` (notice the second one ending with `/`), the scraper will consider them as different. This can be fixed by adding a regex to the `stop_urls` in the `config.json`:
 
 ```json
 "stop_urls": [
