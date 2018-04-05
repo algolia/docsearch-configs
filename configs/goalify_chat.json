@@ -1,0 +1,30 @@
+{
+  "index_name": "goalify_chat",
+  "start_urls": [
+    "http://docs.goalify.chat"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'toc')]/ul/li[contains(@class, 'active')][1]/a[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".wrapper h1",
+    "lvl2": ".wrapper h2",
+    "lvl3": ".wrapper h3",
+    "lvl4": ".wrapper h4",
+    "text": ".wrapper p, .wrapper li"
+  },
+  "selectors_exclude": [
+    "#learn-more",
+    "#learn-more + ul"
+  ],
+  "js_render": true,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "553450251"
+  ],
+  "nb_hits": 7584
+}
