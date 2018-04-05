@@ -2,7 +2,11 @@
 
 This is the repository hosting the public [DocSearch](https://community.algolia.com/docsearch/) configurations.
 
+<<<<<<< HEAD
 **Update** You can check [the DocSearch dedicated documentation website][https://community.algolia.com/docsearch/documentation/docsearch-scraper/config-options/]
+=======
+**Update** You can check [the DocSearch dedicated documentation website](https://community.algolia.com/docsearch/documentation/docsearch-scraper/config-options/)
+>>>>>>> add link to the dedicated documentation website
 
 DocSearch is composed of 3 different projects:
 * The front-end JavaScript library: https://github.com/algolia/docsearch
