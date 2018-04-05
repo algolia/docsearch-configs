@@ -1,0 +1,29 @@
+{
+  "index_name": "crunch",
+  "start_urls": [
+    "http://crunch.io/r/crunch/"
+  ],
+  "stop_urls": [
+    "http://crunch.io/r/crunch/index.html",
+    "LICENSE-text.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".contents h1",
+      "default_value": "Unsorted"
+    },
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents th",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h4",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+  },
+  "selectors_exclude": [
+    ".dont-index",
+    "#see-also"
+  ],
+  "conversation_id": [
+    "551874166"
+  ],
+  "nb_hits": 3641
+}
