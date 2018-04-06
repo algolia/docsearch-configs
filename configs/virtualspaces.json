@@ -1,0 +1,28 @@
+{
+  "index_name": "virtualspaces",
+  "start_urls": [
+    "https://ghost.virtualspaces.io/"
+  ],
+  "sitemap_urls": [
+    "https://ghost.virtualspaces.io/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/tag/",
+    "/author/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".doc-header h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-content h1",
+    "lvl2": ".doc-content h2",
+    "lvl3": ".doc-content h3",
+    "lvl4": ".doc-content h4",
+    "text": ".doc-content p, .doc-content li"
+  },
+  "conversation_id": [
+    "552383494"
+  ],
+  "nb_hits": 178
+}
