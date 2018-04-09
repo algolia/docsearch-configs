@@ -9,7 +9,9 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "nav.nav-menu li.is-current-page a.nav-link",
+      "selector": "//nav[@class='crumbs']//li[@class='crumb'][last()-1]",
+      "type": "xpath",
+      "global": true,
       "default_value": "Home"
     },
     "lvl1": ".doc h1",
