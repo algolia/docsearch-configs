@@ -1,8 +1,5 @@
 {
   "index_name": "pkgdown",
-  "start_urls": [
-    "http://pkgdown.r-lib.org/"
-  ],
   "sitemap_urls": [
     "http://pkgdown.r-lib.org/sitemap.xml"
   ],
@@ -10,7 +7,7 @@
   "selectors": {
     "lvl0": ".contents h1",
     "lvl1": ".contents h2",
-    "lvl2": ".contents h3, .contents th, .contents dt",
+    "lvl2": ".contents h3, .contents th",
     "lvl3": ".contents h4",
     "lvl4": ".contents h5",
     "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
@@ -18,6 +15,9 @@
   "selectors_exclude": [
     ".dont-index"
   ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "conversation_id": [
     "549052896"
   ],
