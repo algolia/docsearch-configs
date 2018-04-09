@@ -3,27 +3,21 @@
   "start_urls": [
     {
       "url": "http://docs.collab.net/dlm174/",
-      "variables": {
         "tags": [
           "v17.4"
         ]
-      }
     },
     {
       "url": "http://docs.collab.net/dlm178/",
-      "variables": {
         "tags": [
           "v17.8"
         ]
-      }
     },
     {
       "url": "http://docs.collab.net/dlm20-integrations/",
-      "variables": {
         "tags": [
           "v17.8"
         ]
-      }
     }
   ],
   "stop_urls": [
