@@ -1,5 +1,5 @@
 {
-  "index_name": "zoom",
+  "index_name": "test",
   "start_urls": [
     "https://zoom.github.io/api/"
   ],
