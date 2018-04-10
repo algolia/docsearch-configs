@@ -23,9 +23,6 @@
     "lvl3": ".bd-content h3",
     "text": ".bd-content p, .bd-content li, .bd-example"
   },
-  "conversation_id": [
-    "423628659"
-  ],
   "selectors_exclude": [
     ".bd-example"
   ],
