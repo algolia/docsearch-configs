@@ -1,0 +1,33 @@
+{
+  "index_name": "bootstrap-v4_temp",
+  "start_urls": [
+    {
+      "url": "https://getbootstrap.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "4.0",
+          "4.1"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".bd-toc-item.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".bd-content h1",
+    "lvl2": ".bd-content h2",
+    "lvl3": ".bd-content h3",
+    "text": ".bd-content p, .bd-content li, .bd-example"
+  },
+  "conversation_id": [
+    "423628659"
+  ],
+  "selectors_exclude": [
+    ".bd-example"
+  ],
+  "nb_hits": 4724
+}
