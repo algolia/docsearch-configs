@@ -1,0 +1,19 @@
+{
+  "index_name": "agenciafoxtech",
+  "start_urls": [
+    "http://help.agenciafoxtech.com.br/guidedecore"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content-container h1",
+    "lvl1": ".content-container h2",
+    "lvl2": ".content-container h3",
+    "lvl3": ".content-container h4",
+    "lvl4": ".content-container h5",
+    "text": ".content-container p, .content-container li"
+  },
+  "conversation_id": [
+    "558768219"
+  ],
+  "nb_hits": 23
+}
