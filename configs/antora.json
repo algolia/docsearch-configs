@@ -1,7 +1,14 @@
 {
   "index_name": "antora",
   "start_urls": [
-    "https://docs.antora.org"
+    {
+      "url": "https://docs.antora.org/antora/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "1.0"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://docs.antora.org/sitemap.xml"
@@ -23,5 +30,5 @@
   "conversation_id": [
     "523678556"
   ],
-  "nb_hits": 2208
+  "nb_hits": 1971
 }
