@@ -4,24 +4,31 @@
     {
       "url": "http://docs.collab.net/dlm174/",
         "tags": [
-          "v17.4"
+          "dlm17.4"
         ]
     },
     {
       "url": "http://docs.collab.net/dlm178/",
         "tags": [
-          "v17.8"
+          "dlm17.8"
         ]
     },
     {
       "url": "http://docs.collab.net/dlm20-integrations/",
         "tags": [
-          "v17.8"
+          "dlm2.0"
         ]
     }
   ],
+    {
+      "url": "http://docs.collab.net/teamforge181/",
+        "tags": [
+          "teamforge181"
+        ]
+    }
+  ],  
   "stop_urls": [
-    "http://docs.collab.net/dlm20-integrations/index.html"
+    "http://docs.collab.net/teamforge181/index.html"
   ],
   "selectors": {
     "lvl0": "#tg-sb-content h1",
