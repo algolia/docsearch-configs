@@ -18,15 +18,14 @@
         "tags": [
           "dlm2.0"
         ]
-    }
-  ],
+    },
     {
       "url": "http://docs.collab.net/teamforge181/",
         "tags": [
           "teamforge181"
         ]
     }
-  ],  
+  ],
   "stop_urls": [
     "http://docs.collab.net/teamforge181/index.html"
   ],
