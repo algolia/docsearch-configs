@@ -1,0 +1,18 @@
+{
+  "index_name": "nucleus",
+  "start_urls": [
+    "https://holidaypirates.github.io/nucleus/"
+  ],
+  "stop_urls": [
+    "/demo/"
+  ],
+  "selectors": {
+    "lvl0": ".SG-layout__content h1",
+    "lvl1": ".SG-layout__content h2",
+    "lvl2": ".SG-layout__content h3",
+    "lvl3": ".SG-layout__content h4",
+    "lvl4": ".SG-layout__content h5",
+    "text": ".SG-layout__content p, .SG-layout__content li"
+  },
+  "nb_hits": 86
+}
