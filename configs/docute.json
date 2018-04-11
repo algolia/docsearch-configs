@@ -10,16 +10,17 @@
       "tags": "zh-Hant"
     },
     {
-      "url": "https://v3.docute.org/#/home",
-      "tags": "english"
-    },
-    {
       "url": "https://v3.docute.org/#/ja/",
       "tags": "ja"
+    },
+    {
+      "url": "https://v3.docute.org/#/",
+      "tags": "english"
     }
   ],
   "stop_urls": [
-    "\\?id="
+    "\\?id=",
+    "404"
   ],
   "selectors": {
     "lvl0": ".content h1",
@@ -38,5 +39,5 @@
   "conversation_id": [
     "293039926"
   ],
-  "nb_hits": 664
+  "nb_hits": 738
 }
