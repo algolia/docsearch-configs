@@ -1,7 +1,13 @@
 {
   "index_name": "boosted-orange",
   "start_urls": [
-    "http://boosted.orange.com/docs/4.0/"
+    "http://boosted.orange.com/docs/(?P<version>.*?)/",
+    "variables": {
+      "version": [
+        "4.0",
+        "4.1"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
