@@ -2,19 +2,19 @@
   "index_name": "docute_new_tmp",
   "start_urls": [
     {
-      "url": "https://docute.js.org/#/zh-Hans/",
+      "url": "https://v3.docute.org/#/zh-Hans/",
       "tags": "zh-Hans"
     },
     {
-      "url": "https://docute.js.org/#/zh-Hant/",
+      "url": "https://v3.docute.org/#/zh-Hant/",
       "tags": "zh-Hant"
     },
     {
-      "url": "https://docute.js.org/#/home",
+      "url": "https://v3.docute.org/#/home",
       "tags": "english"
     },
     {
-      "url": "https://docute.js.org/#/ja/",
+      "url": "https://v3.docute.org/#/ja/",
       "tags": "ja"
     }
   ],
@@ -38,5 +38,5 @@
   "conversation_id": [
     "293039926"
   ],
-  "nb_hits": 587
+  "nb_hits": 698
 }
