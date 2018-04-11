@@ -3,11 +3,16 @@
   "start_urls": [
     {
       "url": "https://docs.keymetrics.io/doc-pm2/ch/",
-        "tags": [
-          "ch"
-        ]
+      "tags": [
+        "ch"
+      ]
     },
-    "https://docs.keymetrics.io/doc-pm2/"
+    {
+      "url": "https://docs.keymetrics.io/doc-pm2/",
+      "tags": [
+        "en"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
