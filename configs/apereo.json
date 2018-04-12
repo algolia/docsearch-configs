@@ -1,0 +1,25 @@
+{
+  "index_name": "apereo",
+  "start_urls": [
+    "https://apereo.github.io/cas/5.2.x/index.html",
+    "https://apereo.github.io/cas/5.2.x/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#cas-docs-container h1",
+    "lvl2": "#cas-docs-container h2",
+    "lvl3": "#cas-docs-container h3",
+    "lvl4": "#cas-docs-container h4",
+    "lvl5": "#cas-docs-container h5",
+    "text": "#cas-docs-container p, #cas-docs-container li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "558603877"
+  ],
+  "nb_hits": 4993
+}
