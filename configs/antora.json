@@ -8,7 +8,8 @@
           "1.0"
         ]
       }
-    }
+    },
+    "https://docs.antora.org/antora-ui-default/"
   ],
   "sitemap_urls": [
     "https://docs.antora.org/sitemap.xml"
