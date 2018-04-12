@@ -2,7 +2,9 @@
   "index_name": "apereo",
   "start_urls": [
     "https://apereo.github.io/cas/5.2.x/index.html",
-    "https://apereo.github.io/cas/5.2.x/"
+    "https://apereo.github.io/cas/5.2.x/",
+    "https://apereo.github.io/cas/development/index.html",
+    "https://apereo.github.io/cas/development/"
   ],
   "stop_urls": [],
   "selectors": {
