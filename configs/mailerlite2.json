@@ -1,0 +1,23 @@
+{
+  "index_name": "mailerlite2",
+  "start_urls": [
+    "https://help.mailerlite.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".article h1",
+    "lvl1": ".article h2",
+    "lvl2": ".article h3",
+    "lvl3": ".article h4",
+    "lvl4": ".article h5",
+    "text": ".article p, .article li"
+  },
+  "js_render": true,
+  "selectors_exclude": [
+    ".breadcrumb"
+  ],
+  "conversation_id": [
+    "559086365"
+  ],
+  "nb_hits": 391
+}
