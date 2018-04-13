@@ -1,10 +1,25 @@
 {
   "index_name": "apereo",
   "start_urls": [
-    "https://apereo.github.io/cas/5.2.x/index.html",
-    "https://apereo.github.io/cas/5.2.x/"
+    {
+      "url": "https://apereo.github.io/cas/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "5.2.x",
+          "5.1.x",
+          "5.0.x",
+          "4.2.x",
+          "4.1.x",
+          "4.0.x",
+          "development"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://apereo.github.io/cas/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -21,5 +36,6 @@
   "conversation_id": [
     "558603877"
   ],
-  "nb_hits": 4993
+  "scrap_start_urls": false,
+  "nb_hits": 22830
 }
