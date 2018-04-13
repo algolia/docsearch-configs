@@ -1,19 +1,47 @@
 {
   "index_name": "skuid",
   "start_urls": [
-    "https://docs.skuid.com/latest/en/"
+    {
+      "url": "https://docs.skuid.com/(?P<version>.*?)/en/",
+        "variables": {
+          "version": {
+            "url": "https://docs.skuid.com/latest/en/release-notes.html",
+            "js": "var versions = $('.version-and-toc .dropdown-item').map(function(i, e) { return $(e).text(); }).toArray(); return JSON.stringify(versions);"
+          }
+        }
+    },
+    {
+      "url": "https://docs.skuid.com/latest/en/"
+    }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/index.html$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
       "default_value": "Documentation"
     },
-    "lvl1": "#main h1",
-    "lvl2": "#main h2",
-    "lvl3": "#main h3",
-    "lvl4": "#main h4",
-    "lvl5": "#main h5",
+    "lvl1": {
+      "selector": "#main h1",
+      "strip_chars": "[]"
+    },
+    "lvl2": {
+      "selector": "#main h2",
+      "strip_chars": "[]"
+    },
+    "lvl3": {
+      "selector": "#main h3",
+      "strip_chars": "[]"
+    },
+    "lvl4": {
+      "selector": "#main h4",
+      "strip_chars": "[]"
+    },
+    "lvl5": {
+      "selector": "#main h5",
+      "strip_chars": "[]"
+    },
     "text": "#main p, #main li"
   },
   "conversation_id": [
