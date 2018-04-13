@@ -41,7 +41,8 @@
   },
   "selectors_exclude": [
     "#next-steps",
-    "#next-steps + ul"
+    "#next-steps + ul",
+    ".req"
   ],
   "conversation_id": [
     "558800630"
