@@ -1,14 +1,15 @@
 {
   "index_name": "typescriptlang",
   "start_urls": [
-    "http://www.typescriptlang.org/docs/"
+    "http://www.typescriptlang.org/docs/",
+    "http://www.typescriptlang.org/samples/"
   ],
   "sitemap_urls": [
     "http://www.typescriptlang.org/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".doc-content-container h1",
+    "lvl0": ".doc-content-container h1, .examples .exampleBox h3.exampleHeadline",
     "lvl1": ".doc-content-container h2",
     "lvl2": ".doc-content-container h3",
     "lvl3": ".doc-content-container h4",
