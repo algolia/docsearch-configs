@@ -1,0 +1,20 @@
+{
+  "index_name": "citrix_xenapp",
+  "start_urls": [
+    "https://docs.citrix.com/en-us/xenapp-and-xendesktop/7-15-ltsr/"
+  ],
+  "sitemap_urls": [
+    "https://docs.citrix.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".flex-container [class^='breadcrumb-list'] > ul > li:nth-child(2)",
+    "lvl1": ".cx-content h1",
+    "lvl2": ".cx-content h2",
+    "lvl3": ".cx-content h3",
+    "lvl4": ".cx-content h4",
+    "lvl5": ".cx-content h5",
+    "text": ".cx-content p, .cx-content li"
+  },
+  "nb_hits": 326733
+}
