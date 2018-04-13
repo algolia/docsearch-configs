@@ -19,6 +19,7 @@
   "selectors_exclude": [
     ".docs-example"
   ],
+  "min_indexed_level": 1,
   "conversation_id": [
     "555128868"
   ],
