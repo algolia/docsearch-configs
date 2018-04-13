@@ -1,7 +1,7 @@
 {
   "index_name": "jss",
   "start_urls": [
-    "https://jss-docs-preview3.herokuapp.com"
+    "https://jss.sitecore.net/#/"
   ],
   "stop_urls": [
     "\\?id",
@@ -13,7 +13,7 @@
     "lvl2": ".markdown-section h3",
     "lvl3": ".markdown-section h4",
     "lvl4": ".markdown-section h5",
-    "text": ".markdown-section p, .markdown-section li, .markdown-section ul, .markdown-section ol, .markdown-section blockquote"
+    "text": ".markdown-section p, .markdown-section li"
   },
   "use_anchors": true,
   "js_render": true,
