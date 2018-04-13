@@ -5,7 +5,7 @@
     {
       "url": "http://www.typescriptlang.org/samples/",
       "tags": [
-        "sample"
+        "sample", "example"
       ],
       "selectors_key": "sample"
     }
@@ -31,7 +31,7 @@
     "sample": {
       "lvl0": {
         "selector": "",
-        "default_value": "Sample"
+        "default_value": "Samples"
       },
       "lvl1": ".exampleBox h3.exampleHeadline",
       "text": ".exampleSummary"
