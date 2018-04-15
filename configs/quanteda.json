@@ -26,6 +26,9 @@
     ".dont-index",
     "#see-also"
   ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "conversation_id": [
     "553942582"
   ],
