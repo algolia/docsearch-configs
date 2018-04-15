@@ -1,9 +1,23 @@
 {
   "index_name": "skuid",
   "start_urls": [
-    "https://docs.skuid.com/latest/en/"
+    {
+      "url": "https://docs.skuid.com/(?P<version>.*?)/(?P<lang>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://docs.skuid.com/latest/en/release-notes.html",
+          "js": "const vs = $('.version-and-toc a.dropdown-item').map(function(i, e) { return $(e).text(); }).toArray().reduce(function(a, e) { const v = e.substring(1); const m = Number(v.split('.')[0]); if (!a.ms.includes(m)) { a.ms.push(m); a.vs.push(e) } return a; }, { vs: [], ms: [] }).vs; vs.push('latest'); return JSON.stringify(vs);"
+        },
+        "lang": [
+          "en"
+        ]
+      }
+    }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?",
+    "index.html$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -11,13 +25,18 @@
     },
     "lvl1": "#main h1",
     "lvl2": "#main h2",
-    "lvl3": "#main h3",
+    "lvl3": "#main h3, #main .admonition-title",
     "lvl4": "#main h4",
     "lvl5": "#main h5",
-    "text": "#main p, #main li"
+    "text": "#main p:not(.admonition-title), #main li"
   },
+  "scrap_start_urls": false,
+  "strip_chars": "[]",
   "conversation_id": [
     "559260931"
   ],
-  "nb_hits": 28673
+  "selectors_exclude": [
+    ".headerlink"
+  ],
+  "nb_hits": 75123
 }
