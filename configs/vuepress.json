@@ -1,0 +1,26 @@
+{
+  "index_name": "vuepress",
+  "start_urls": [
+    "https://vuepress.vuejs.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "561346943"
+  ],
+  "strip_chars": " .,;:#",
+  "nb_hits": 321
+}
