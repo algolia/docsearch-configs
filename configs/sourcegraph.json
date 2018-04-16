@@ -10,10 +10,16 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".markdown h1",
-    "lvl2": ".markdown h2",
-    "lvl3": ".markdown h3",
-    "lvl4": ".markdown h4",
+    "lvl1": {
+      "selector": "//div[contains(@class, 'list-group')]//a[contains(@class, 'active')][1]/preceding::button[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Introduction"
+    },
+    "lvl2": ".markdown h1",
+    "lvl3": ".markdown h2",
+    "lvl4": ".markdown h3",
+    "lvl5": ".markdown h4",
     "text": ".markdown p, .markdown li"
   },
   "conversation_id": [
