@@ -1,0 +1,29 @@
+{
+  "index_name": "realmq",
+  "start_urls": [
+    "https://realmq.com/docs"
+  ],
+  "sitemap_urls": [
+    "https://realmq.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@class, 'nav')]//a[contains(@class, 'active')][1]/preceding::h6[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "555344382"
+  ],
+  "nb_hits": 232
+}
