@@ -6,6 +6,7 @@
   "stop_urls": [
     "/example/"
   ],
+  "stop_urls":["\\.js$", "/example/"],
   "selectors": {
     "lvl0": ".markdown-content h1",
     "lvl1": ".markdown-content h2",
