@@ -1,0 +1,33 @@
+{
+  "index_name": "fastly",
+  "start_urls": [
+    "https://docs.fastly.com/"
+  ],
+  "sitemap_urls": [
+    "https://docs.fastly.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".fastly-active.list-group-item h4",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".fastly-primary h4 b",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": "#right_column h1",
+    "lvl3": "#right_column h2",
+    "lvl4": "#right_column h3",
+    "lvl5": "#right_column h4",
+    "text": "#right_column p, #right_column li"
+  },
+  "selectors_exclude": [
+    ".breadcrumb",
+    "#toc",
+    "#right_column [data-swiftype-index=false]"
+  ],
+  "nb_hits": 11570
+}
