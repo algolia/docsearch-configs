@@ -1,7 +1,22 @@
 {
   "index_name": "fastly",
   "start_urls": [
-    "https://docs.fastly.com/"
+    {
+      "url": "https://docs.fastly.com/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "ja"
+        ]
+      }
+    },
+    {
+      "url": "https://docs.fastly.com/",
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://docs.fastly.com/sitemap.xml"
@@ -29,5 +44,5 @@
     "#toc",
     "#right_column [data-swiftype-index=false]"
   ],
-  "nb_hits": 11570
+  "nb_hits": 11666
 }
