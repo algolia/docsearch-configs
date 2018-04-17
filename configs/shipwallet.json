@@ -1,0 +1,18 @@
+{
+  "index_name": "shipwallet",
+  "start_urls": [
+    "https://developer.ingrid.com/"
+  ],
+  "stop_urls": [
+    "index.html$"
+  ],
+  "selectors": {
+    "lvl0": ".bs-docs-header h1",
+    "lvl1": "#docs-container h2",
+    "lvl2": "#docs-container h3",
+    "lvl3": "#docs-container h4",
+    "lvl4": "#docs-container h5",
+    "text": "#docs-container p, #docs-container li, .bs-docs-header p"
+  },
+  "nb_hits": 244
+}
