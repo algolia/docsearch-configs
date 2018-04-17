@@ -1,5 +1,5 @@
 {
-  "index_name": "shipwallet",
+  "index_name": "ingrid",
   "start_urls": [
     "https://developer.ingrid.com/"
   ],
@@ -10,12 +10,12 @@
     "lvl0": ".bs-docs-header h1",
     "lvl1": "#docs-container h2",
     "lvl2": "#docs-container h3",
-    "lvl3": "#docs-container h4",
+    "lvl3": "#docs-container h4, #docs-container table td:first-of-type",
     "lvl4": "#docs-container h5",
-    "text": "#docs-container p, #docs-container li, .bs-docs-header p"
+    "text": "#docs-container p, #docs-container li, .bs-docs-header p, #docs-container table td:last-child"
   },
   "conversation_id": [
     "560822475"
   ],
-  "nb_hits": 244
+  "nb_hits": 1409
 }
