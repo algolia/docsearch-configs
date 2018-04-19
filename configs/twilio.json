@@ -1,0 +1,43 @@
+{
+  "index_name": "twilio",
+  "start_urls": [
+    "https://www.twilio.com/docs"
+  ],
+  "sitemap_urls": [
+    "https://www.twilio.com/docs/sitemap.xml"
+  ],
+  "stop_urls": [
+    "docs/libraries/reference/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'breadcrumbs')]/a[2]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//ul[@id='doc_menu']/li/ul/ul[.//li[contains(@class, 'active')]]/preceding::li[contains(@class, 'title')][1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl2": ".docs-prose h1",
+    "lvl3": ".docs-prose h2",
+    "lvl4": ".docs-prose h3",
+    "lvl5": ".docs-prose h4",
+    "lvl6": ".docs-prose h5, .docs-prose table td:first-child",
+    "text": ".docs-prose p, .docs-prose li, .docs-prose table td:last-child"
+  },
+  "selectors_exclude": [
+    ".help-box",
+    "#contents",
+    "#contents + ul",
+    ".feedback-container",
+    "#next-steps",
+    "#next-steps ~ p"
+  ],
+  "conversation_id": [
+    "564130615"
+  ],
+  "nb_hits": 87368
+}
