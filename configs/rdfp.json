@@ -1,14 +1,24 @@
 {
   "index_name": "rdfp",
-  "start_urls": "https://stevenmmortimer.github.io/rdfp",
-  "sitemap_urls": "https://stevenmmortimer.github.io/rdfp/sitemap.xml",
+  "sitemap_urls": [
+    "https://stevenmmortimer.github.io/rdfp/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".contents h1",
     "lvl1": ".contents h2",
-    "lvl2": ".contents h3, .contents th, .contents dt",
+    "lvl2": ".contents h3, .contents th",
     "lvl3": ".contents h4",
     "lvl4": ".contents h5",
     "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
   },
-  "selectors_exclude": ".dont-index"
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "557833482"
+  ],
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "nb_hits": 3828
 }
