@@ -1,0 +1,17 @@
+{
+  "index_name": "alfredapp",
+  "start_urls": [
+    "https://www.alfredapp.com/help/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#helparticle h1",
+    "lvl1": "#helparticle h2",
+    "lvl2": "#helparticle h3",
+    "lvl3": "#helparticle h4",
+    "lvl4": "#helparticle h5",
+    "text": "#helparticle p, #helparticle li"
+  },
+  "scrap_start_urls": false,
+  "nb_hits": 3071
+}
