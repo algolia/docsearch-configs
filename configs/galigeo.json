@@ -13,7 +13,12 @@
         "en"
       ]
     },
-    "https://galigeo-for-salesforce.github.io"
+    {
+      "url": "https://galigeo-for-salesforce.github.io",
+      "tags": [
+        "fr"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -36,5 +41,5 @@
   "selectors_exclude": [
     "nav"
   ],
-  "nb_hits": 2197
+  "nb_hits": 2207
 }
