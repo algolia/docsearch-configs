@@ -15,13 +15,7 @@
       "selectors_key": "guide"
     },
     {
-      "url": "https://emberjs.com/api/ember/2.13/",
-      "variables": {
-        "version": {
-          "url": "https://emberjs.com/api/ember/2.13/namespaces/Ember",
-          "js": "var shoeboxEmberVersions = JSON.parse(document.getElementById('shoebox-meta-store').text)['availableProjectVersions']['ember']; var groupedByMinor = shoeboxEmberVersions.reduce(function(previous, current) { var splitVersion = current.split('.'); var minorVersion = splitVersion[0]+'.'+splitVersion[1]; if(!previous[minorVersion]) { previous[minorVersion] = [splitVersion[2]]; } else { previous[minorVersion].push(splitVersion[2]); } return previous; },{}); var versions = Object.keys(groupedByMinor); return JSON.stringify(versions);"
-        }
-      },
+      "url": "https://emberjs.com/api/",
       "tags": [
         "api"
       ],
@@ -29,29 +23,34 @@
     }
   ],
   "stop_urls": [
-    "\\?anchor"
+    "\\?"
   ],
   "selectors": {
     "guide": {
-      "lvl0": ".header ul li.active a, #header ul li a.active, #header ul li.active a",
-      "lvl1": ".toc-level-0.selected > a, #sidebar .level-1.selected > a",
-      "lvl2": "main h1, #content h1",
-      "lvl3": "main h2, #content h2",
-      "lvl4": "main h3, #content h3",
-      "lvl5": "main h4, #content h4",
-      "text": "main p, #content p"
+      "lvl0": {
+        "selector": ".toc-level-0.selected > a, .level-1.selected > a",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "article h1, #content h1",
+      "lvl2": "article h2, #content h2",
+      "lvl3": "article h3, #content h3",
+      "lvl4": "article h4, #content h4",
+      "lvl5": "article h5, #content h5",
+      "text": "article p, #content p, article li, #content li"
     },
     "api": {
       "lvl0": {
-        "selector": "//*[contains(@class, 'ember-view')]//*[contains(@class, 'ember-view')]//*[contains(@class, 'toc-level-1')]/a[contains(@class, 'active')]/../../preceding::a[1]",
+        "selector": "//aside//div[2]//li[contains(@class, 'toc-level-1')]//a[contains(@class, 'active')]//ancestor::li[contains(@class,'toc-level-0')][1]/a",
         "type": "xpath",
+        "global": true,
         "default_value": "API Documentation"
       },
-      "lvl1": "article h1",
-      "lvl2": ".api-index-filter a",
-      "lvl3": "article h3",
-      "lvl4": "article h4",
-      "text": "article .description"
+      "lvl1": "section.content h1",
+      "lvl2": "section.content h2",
+      "lvl3": "section.content h3",
+      "lvl4": "section.content h4, section.content dt",
+      "text": "section.content p, section.content li, section.content dd"
     }
   },
   "selectors_exclude": [
@@ -59,14 +58,18 @@
     ".edit-page",
     ".class-info",
     "#content p:first-child",
-    "p.attributes"
+    "p.attributes",
+    ".CodeRay"
   ],
   "min_indexed_level": {
     "guide": 2,
     "api": 1
   },
   "conversation_id": [
-    "162141110"
+    "564572841"
   ],
-  "nb_hits": 55308
+  "stop_content": [
+    "ACK! 404 FRIEND"
+  ],
+  "nb_hits": 131859
 }
