@@ -7,7 +7,8 @@
     "https://www.twilio.com/docs/sitemap.xml"
   ],
   "stop_urls": [
-    "docs/libraries/reference/"
+    "docs/libraries/reference/",
+    "\\?"
   ],
   "selectors": {
     "lvl0": {
@@ -33,11 +34,11 @@
     "#contents",
     "#contents + ul",
     ".feedback-container",
-    "#next-steps",
-    "#next-steps ~ p"
+    "[id^='next-step']",
+    "[id^='next-step'] ~ p"
   ],
   "conversation_id": [
     "564130615"
   ],
-  "nb_hits": 87368
+  "nb_hits": 86619
 }
