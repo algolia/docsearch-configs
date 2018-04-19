@@ -1,8 +1,30 @@
 {
   "index_name": "adsum",
   "start_urls": [
-    "https://adactivesas.github.io/adsum-api-documentation/docs/model-01-relations.html",
-    "https://adactivesas.github.io/adsum-api-documentation/docs"
+    {
+      "url": "https://adactivesas.github.io/adsum-client-api/docs/",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "url": "https://adactivesas.github.io/adsum-client-api/docs/doc-01-Installation.html",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "url": "https://adactivesas.github.io/adsum-api-documentation/docs/",
+      "tags": [
+        "rest"
+      ]
+    },
+    {
+      "url": "https://adactivesas.github.io/adsum-api-documentation/docs/01-authentication.html",
+      "tags": [
+        "rest"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +46,5 @@
   "conversation_id": [
     "558796023"
   ],
-  "nb_hits": 682
+  "nb_hits": 5310
 }
