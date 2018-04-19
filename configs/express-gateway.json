@@ -6,9 +6,6 @@
   "sitemap_urls": [
     "http://www.express-gateway.io/sitemap.xml"
   ],
-  "sitemap_urls_regexs": [
-    "https:\/\/www\.express-gateway\.io\/((?!\/blog\/).)*$"
-  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".algoliaLv0",
@@ -17,7 +14,7 @@
     "lvl3": "section h1",
     "lvl4": "section h2",
     "lvl5": "section h3",
-    "text": "section p, section li, article p"
+    "text": "section p, section li"
   },
   "conversation_id": [
     "444614439"
