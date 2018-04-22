@@ -8,50 +8,24 @@
           "url": "https://guides.emberjs.com",
           "js": "var versions = $('#version-select option').map(function(i, e) { return $(e).text(); }).toArray(); return JSON.stringify(versions);"
         }
-      },
-      "tags": [
-        "guide"
-      ],
-      "selectors_key": "guide"
-    },
-    {
-      "url": "https://emberjs.com/api/",
-      "tags": [
-        "api"
-      ],
-      "selectors_key": "api"
+      }
     }
   ],
   "stop_urls": [
     "\\?"
   ],
   "selectors": {
-    "guide": {
-      "lvl0": {
-        "selector": ".toc-level-0.selected > a, .level-1.selected > a",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": "article h1, #content h1",
-      "lvl2": "article h2, #content h2",
-      "lvl3": "article h3, #content h3",
-      "lvl4": "article h4, #content h4",
-      "lvl5": "article h5, #content h5",
-      "text": "article p, #content p, article li, #content li"
+    "lvl0": {
+      "selector": ".toc-level-0.selected > a, .level-1.selected > a",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "api": {
-      "lvl0": {
-        "selector": "//aside//div[2]//li[contains(@class, 'toc-level-1')]//a[contains(@class, 'active')]//ancestor::li[contains(@class,'toc-level-0')][1]/a",
-        "type": "xpath",
-        "global": true,
-        "default_value": "API Documentation"
-      },
-      "lvl1": "section.content h1",
-      "lvl2": "section.content h2",
-      "lvl3": "section.content h3",
-      "lvl4": "section.content h4, section.content dt",
-      "text": "section.content p, section.content li, section.content dd"
-    }
+    "lvl1": "article h1, #content h1",
+    "lvl2": "article h2, #content h2",
+    "lvl3": "article h3, #content h3",
+    "lvl4": "article h4, #content h4",
+    "lvl5": "article h5, #content h5",
+    "text": "article p, #content p, article li, #content li"
   },
   "selectors_exclude": [
     ".old-version-warning",
@@ -61,15 +35,11 @@
     "p.attributes",
     ".CodeRay"
   ],
-  "min_indexed_level": {
-    "guide": 2,
-    "api": 1
-  },
   "conversation_id": [
     "564572841"
   ],
   "stop_content": [
     "ACK! 404 FRIEND"
   ],
-  "nb_hits": 131859
+  "nb_hits": 58787
 }
