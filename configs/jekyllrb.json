@@ -1,8 +1,12 @@
 {
   "index_name": "jekyllrb",
   "start_urls": [
-    "https://jekyllrb.com/docs/"
+    "https://jekyllrb.com/docs/",
+    "https://jekyllrb.com/tutorials/"
   ],
+  "sitemap_urls": [
+    "https://jekyllrb.com/sitemap.xml"
+  ],  
   "stop_urls": [],
   "selectors": {
     "lvl0": {
