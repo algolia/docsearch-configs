@@ -7,7 +7,7 @@
     "http://www.express-gateway.io/sitemap.xml"
   ],
   "sitemap_urls_regexs": [
-    "https:\/\/www\.express-gateway\.io\/((?!\/blog\/).)*$"
+    "https://www\\.express-gateway\\.io/((?!/blog/).)*$"
   ],
   "stop_urls": [],
   "selectors": {
@@ -23,5 +23,5 @@
     "444614439"
   ],
   "only_content_level": true,
-  "nb_hits": 1088
+  "nb_hits": 1138
 }
