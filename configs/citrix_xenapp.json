@@ -1,7 +1,9 @@
 {
   "index_name": "citrix_xenapp",
   "start_urls": [
-    "https://docs.citrix.com/en-us/xenapp-and-xendesktop/7-15-ltsr/"
+    "https://docs.citrix.com/en-us/xenapp-and-xendesktop/7-15-ltsr/",
+    "https://docs.citrix.com/en-us/xenmobile-apps/10/",
+    "https://docs.citrix.com/en-us/xenmobile-apps/10.html"
   ],
   "sitemap_urls": [
     "https://docs.citrix.com/sitemap.xml"
@@ -16,5 +18,5 @@
     "lvl5": ".cx-content h5",
     "text": ".cx-content p, .cx-content li"
   },
-  "nb_hits": 19716
+  "nb_hits": 24799
 }
