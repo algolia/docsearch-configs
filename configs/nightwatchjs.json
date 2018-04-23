@@ -1,0 +1,36 @@
+{
+  "index_name": "nightwatchjs",
+  "start_urls": [
+    "http://nightwatchjs.org"
+  ],
+  "stop_urls": [
+    "/blog/",
+    "/author/",
+    "/blog/"
+  ],
+  "selectors": {
+    "lvl0": ".jumbotron h1",
+    "lvl1": ".docs-section h2",
+    "lvl2": ".docs-section h3",
+    "lvl3": ".docs-section h4, .docs-section table td:first-of-type",
+    "lvl4": ".docs-section h5",
+    "text": ".docs-section p, .docs-section li, .docs-section table td:last-child"
+  },
+  "selectors_exclude": [
+    "[data-uri='/'] section:not([data-page-uri='/'])",
+    "[data-uri='/guide'] section:not([data-page-uri='/guide'])",
+    "[data-uri='/api'] section:not([data-page-uri='/api'])",
+    "[data-uri='/blog'] section:not([data-page-uri='/blog'])",
+    "[data-uri='/contact'] section:not([data-page-uri='/contact'])",
+    "[data-uri='/cloud'] section:not([data-page-uri='/cloud'])",
+    "[data-uri='/gettingstarted'] section:not([data-page-uri='/gettingstarted'])",
+    "[data-uri='/cloud'] section:not([data-page-uri='/cloud'])",
+    "[data-uri='/api/$method'] section:not([data-page-uri='/api/$method'])"
+  ],
+  "conversation_id": [
+    "566766489"
+  ],
+  "scrap_start_urls": false,
+  "js_render": true,
+  "nb_hits": 4170
+}
