@@ -6,7 +6,7 @@
   ],
   "sitemap_urls": [
     "https://jekyllrb.com/sitemap.xml"
-  ],  
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -29,5 +29,5 @@
   "conversation_id": [
     "458711688"
   ],
-  "nb_hits": 4266
+  "nb_hits": 4959
 }
