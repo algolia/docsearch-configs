@@ -1,20 +1,38 @@
 {
   "index_name": "botpress",
   "start_urls": [
-    "https://botpress.io/docs/"
+    "https://botpress.io/docs/",
+    {
+      "url": "https://botpress.io/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "10.0"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "text": ".content p, .content li"
+    "lvl0": {
+      "selector": ".content .container:first-child h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".article h1",
+    "lvl2": ".article h2",
+    "lvl3": ".article h3",
+    "lvl4": ".article h4",
+    "lvl5": ".article h5",
+    "text": ".article p, .article li"
   },
   "scrap_start_urls": false,
   "conversation_id": [
     "468831887"
   ],
-  "nb_hits": 846
+  "selectors_exclude": [
+    "[id^=next-steps]",
+    "[id^=next-steps] ~ p"
+  ],
+  "strip_chars": "\ud83d\udcda\ud83d\udd28",
+  "nb_hits": 1103
 }
