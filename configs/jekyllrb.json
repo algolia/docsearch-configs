@@ -1,7 +1,8 @@
 {
   "index_name": "jekyllrb",
   "start_urls": [
-    "https://jekyllrb.com/docs/"
+    "https://jekyllrb.com/docs/",
+    "https://jekyllrb.com/tutorials/"
   ],
   "stop_urls": [],
   "selectors": {
