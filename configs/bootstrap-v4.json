@@ -3,7 +3,7 @@
   "start_urls": [
     "https://getbootstrap.com/docs/4.0/"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/examples/.+"],
   "selectors": {
     "lvl0": ".bd-toc-item.active > a",
     "lvl1": ".bd-content h1",
