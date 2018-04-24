@@ -20,7 +20,7 @@
     "lvl3": ".documentation__markdown h2",
     "lvl4": ".documentation__markdown h3",
     "lvl5": ".documentation__markdown h4",
-    "text": ".documentation__markdown p, .documentation__markdown li"
+    "text": ".documentation__markdown p, .documentation__markdown li, .documentation__markdown td"
   },
   "conversation_id": [
     "499959410"
