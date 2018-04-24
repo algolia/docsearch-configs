@@ -7,7 +7,7 @@
     "http://www.express-gateway.io/sitemap.xml"
   ],
   "sitemap_urls_regexs": [
-    "https://www\\.express-gateway\\.io/((?!/blog/).)*$"
+    "https:\/\/www\.express-gateway.io\/(?!blog).*"
   ],
   "stop_urls": [],
   "selectors": {
