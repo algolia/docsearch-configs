@@ -12,7 +12,7 @@
     "lvl0": {
       "selector": "ul.nav-stacked li.active a",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Blog"
     },
     "lvl1": ".markdown h1",
     "lvl2": ".markdown h2",
@@ -23,5 +23,5 @@
   "conversation_id": [
     "536405439"
   ],
-  "nb_hits": 2150
+  "nb_hits": 2189
 }

@@ -6,20 +6,28 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//div[contains(@class, 'sidebar')]//a[contains(@aria-current, 'true')][1]/preceding::h5[1]",
-      "type": "xpath",
+      "selector": ".nav-tabs .nav-link.active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "#docs-content h1",
-    "lvl2": "#docs-content h2",
-    "lvl3": "#docs-content h3",
-    "lvl4": "#docs-content h4",
-    "text": "#docs-content p, #docs-content li"
+    "lvl1": {
+      "selector": "//div[contains(@class, 'list-group')]//a[contains(@class, 'active')][1]/preceding::button[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Introduction"
+    },
+    "lvl2": ".markdown h1",
+    "lvl3": ".markdown h2",
+    "lvl4": ".markdown h3",
+    "lvl5": ".markdown h4",
+    "text": ".markdown p, .markdown li"
   },
-  "min_indexed_level": 1,
   "conversation_id": [
     "499959410"
   ],
-  "nb_hits": 804
+  "selectors_exclude": [
+    "#next-steps",
+    "#next-steps ~ p"
+  ],
+  "nb_hits": 2035
 }

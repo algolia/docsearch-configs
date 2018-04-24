@@ -16,11 +16,9 @@
     },
     {
       "url": "https://docs.aahframework.org/tutorial/",
-      "variables": {
-        "tags": [
-          "tutorial"
-        ]
-      },
+      "tags": [
+        "tutorial"
+      ],
       "selectors_key": "tutorial"
     }
   ],
@@ -57,5 +55,5 @@
   "conversation_id": [
     "543041602"
   ],
-  "nb_hits": 8370
+  "nb_hits": 8373
 }

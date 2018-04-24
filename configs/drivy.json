@@ -1,0 +1,19 @@
+{
+  "index_name": "drivy",
+  "start_urls": [
+    "https://cobalt.drivy.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".column:nth-child(2) > section.section h1",
+    "lvl1": ".column:nth-child(2) > section.section h2",
+    "lvl2": ".column:nth-child(2) > section.section h3",
+    "lvl3": ".column:nth-child(2) > section.section h4",
+    "lvl4": ".column:nth-child(2) > section.section h5",
+    "text": ".column:nth-child(2) > section.section p, .column:nth-child(2) > section.section li"
+  },
+  "conversation_id": [
+    "567051628"
+  ],
+  "nb_hits": 40
+}

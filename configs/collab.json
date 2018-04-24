@@ -1,0 +1,45 @@
+{
+  "index_name": "collab",
+  "start_urls": [
+    {
+      "url": "http://docs.collab.net/dlm174/",
+        "tags": [
+          "dlm17.4"
+        ]
+    },
+    {
+      "url": "http://docs.collab.net/dlm178/",
+        "tags": [
+          "dlm17.8"
+        ]
+    },
+    {
+      "url": "http://docs.collab.net/dlm20-integrations/",
+        "tags": [
+          "dlm2.0"
+        ]
+    },
+    {
+      "url": "http://docs.collab.net/teamforge181/",
+        "tags": [
+          "teamforge181"
+        ]
+    }
+  ],
+  "stop_urls": [
+    "http://docs.collab.net/teamforge181/index.html"
+  ],
+  "selectors": {
+    "lvl0": "#tg-sb-content h1",
+    "lvl1": "#tg-sb-content h2",
+    "lvl2": "#tg-sb-content h3",
+    "lvl3": "#tg-sb-content h4",
+    "lvl4": "#tg-sb-content h5",
+    "text": "#tg-sb-content p, #tg-sb-content li"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "555093088"
+  ],
+  "nb_hits": 1077
+}

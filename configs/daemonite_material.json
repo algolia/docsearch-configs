@@ -1,0 +1,37 @@
+{
+  "index_name": "daemonite_material",
+  "start_urls": [
+    {
+      "url": "http://daemonite.github.io/material/docs/(?P<version>.*?)",
+      "variables": {
+        "version": [
+          "4.1"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "http://daemonite.github.io/material/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@class, 'navdrawer-nav')]//a[contains(@class, 'active')][1]/preceding::strong[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".container h1",
+    "lvl2": ".container h2",
+    "lvl3": ".container h3",
+    "lvl4": ".container h4",
+    "text": ".container p, .container li"
+  },
+  "selectors_exclude": [
+    ".bd-example"
+  ],
+  "conversation_id": [
+    "562797275"
+  ],
+  "nb_hits": 2396
+}

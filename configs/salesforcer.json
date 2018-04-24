@@ -1,0 +1,25 @@
+{
+  "index_name": "salesforcer",
+  "sitemap_urls": [
+    "https://stevenmmortimer.github.io/salesforcer/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".contents h1",
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents th",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h5",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "557833858"
+  ],
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "nb_hits": 11608
+}

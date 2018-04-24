@@ -41,10 +41,11 @@
     "lvl4": "#page .container h5",
     "text": "#page .container p, #page .container li"
   },
-  "strip_chars": " .,;:#▹▾¶",
+  "strip_chars": " .,;:#\u25b9\u25be\u00b6",
   "selectors_exclude": [
     "[id*='nav']",
-    ".pkg-index"
+    ".pkg-index",
+    ".permalink"
   ],
-  "nb_hits": 16506
+  "nb_hits": 16510
 }

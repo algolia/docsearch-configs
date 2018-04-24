@@ -1,0 +1,50 @@
+{
+  "index_name": "adsum",
+  "start_urls": [
+    {
+      "url": "https://adactivesas.github.io/adsum-client-api/docs/",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "url": "https://adactivesas.github.io/adsum-client-api/docs/doc-01-Installation.html",
+      "tags": [
+        "client"
+      ]
+    },
+    {
+      "url": "https://adactivesas.github.io/adsum-api-documentation/docs/",
+      "tags": [
+        "rest"
+      ]
+    },
+    {
+      "url": "https://adactivesas.github.io/adsum-api-documentation/docs/01-authentication.html",
+      "tags": [
+        "rest"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "558796023"
+  ],
+  "nb_hits": 5310
+}

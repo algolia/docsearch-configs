@@ -3,9 +3,15 @@
   "start_urls": [
     "http://videopro.cactusthemes.com/doc/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?"
+  ],
   "selectors": {
-    "lvl0": "main .widget-title",
+    "lvl0": {
+      "selector": "main .widget-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": "main article h1",
     "lvl2": "main article h2",
     "lvl3": "main article h3",
@@ -13,9 +19,8 @@
     "text": "main article p, main article li"
   },
   "min_indexed_level": 2,
-  "js_render": true,
   "conversation_id": [
     "228035157"
   ],
-  "nb_hits": 2658
+  "nb_hits": 3092
 }

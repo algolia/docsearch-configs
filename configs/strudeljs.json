@@ -1,0 +1,28 @@
+{
+  "index_name": "strudeljs",
+  "start_urls": [
+    "http://strudeljs.org/guide/",
+    "http://strudeljs.org/api"
+  ],
+  "stop_urls": [
+    "index.html$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'sidebar')]//a[contains(@class, 'current')][1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "API"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "562194376"
+  ],
+  "nb_hits": 432
+}

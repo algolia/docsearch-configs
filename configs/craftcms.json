@@ -1,0 +1,64 @@
+{
+  "index_name": "craftcms",
+  "start_urls": [
+    {
+      "url": "https://docs.craftcms.com/(?P<version>.*?)",
+      "variables": {
+        "version": [
+          "v2",
+          "v3"
+        ]
+      },
+      "tags": [
+        "doc"
+      ]
+    },
+    {
+      "url": "https://docs.craftcms.com/api/(?P<version>.*?)",
+      "variables": {
+        "version": [
+          "v2",
+          "v3"
+        ]
+      },
+      "tags": [
+        "api"
+      ],
+      "selectors_key": "api"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "main h1",
+        "default_value": "Documentation"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "text": "main p, main li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "main h1",
+        "global": true,
+        "default_value": "Api"
+      },
+      "lvl1": "main h2",
+      "lvl2": "main h3 code",
+      "lvl3": "main h4",
+      "lvl4": "main h5",
+      "text": "main p, main li"
+    }
+  },
+  "selectors_exclude": [
+    ".intro dl"
+  ],
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "555461426"
+  ],
+  "nb_hits": 35577
+}
