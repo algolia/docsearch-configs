@@ -1,7 +1,8 @@
 {
   "index_name": "application_services",
   "start_urls": [
-    "https://mozilla.github.io/application-services/"
+    "https://mozilla.github.io/application-services/docs/",
+    "https://mozilla.github.io/application-services/docs/accounts/welcome.html"
   ],
   "stop_urls": [],
   "selectors": {
@@ -23,5 +24,5 @@
   "conversation_id": [
     "552695767"
   ],
-  "nb_hits": 23
+  "nb_hits": 244
 }
