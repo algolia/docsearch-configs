@@ -1,8 +1,7 @@
 {
   "index_name": "application_services",
   "start_urls": [
-    "https://vladikoff.github.io/app-services-site/docs/",
-    "https://vladikoff.github.io/app-services-site/docs/doc1.html"
+    "https://mozilla.github.io/application-services/"
   ],
   "stop_urls": [],
   "selectors": {
