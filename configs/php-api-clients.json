@@ -1,0 +1,23 @@
+{
+  "index_name": "php-api-clients",
+  "start_urls": [
+    "https://php-api-clients.org/clients/",
+    "https://php-api-clients.org/middleware/"
+  ],
+  "sitemap_urls": [
+    "https://php-api-clients.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".span8 h1",
+    "lvl1": ".span8 h2",
+    "lvl2": ".span8 h3",
+    "lvl3": ".span8 h4",
+    "lvl4": ".span8 h5",
+    "text": ".span8 p, .span8 li"
+  },
+  "conversation_id": [
+    "568550091"
+  ],
+  "nb_hits": 63
+}
