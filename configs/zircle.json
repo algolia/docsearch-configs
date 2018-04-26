@@ -5,16 +5,16 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#main h1",
-    "lvl1": "#main h2",
-    "lvl2": "#main h3",
-    "lvl3": "#main h4",
-    "lvl4": "#main h5",
-    "text": "#main p, #main li"
+    "lvl0": ".content h2",
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5",
+    "lvl4": ".content h6",
+    "text": ".content p, .content li"
   },
   "js_render": true,
   "conversation_id": [
     "568012405"
   ],
-  "nb_hits": 165
+  "nb_hits": 173
 }
