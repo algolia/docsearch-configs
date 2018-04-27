@@ -1,21 +1,34 @@
 {
   "index_name": "todc-bootstrap",
   "start_urls": [
-    "http://todc.github.io/todc-bootstrap/docs/3.3/",
-    "http://todc.github.io/todc-bootstrap/docs/4.0/"
+    {
+      "url": "https://todc.github.io/todc-bootstrap/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "3.3",
+          "4.1"
+        ]
+      }
+    }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/examples/.+"
+  ],
   "selectors": {
-    "lvl0": ".bs-docs-header h1, .bd-toc-item.active > a",
-    "lvl1": ".bs-docs-container h1, .bd-content h1",
-    "lvl2": ".bs-docs-container h2, .bd-content h2",
-    "lvl3": ".bs-docs-container h3, .bd-content h3",
-    "lvl4": ".bs-docs-container h4, .bd-content h4",
-    "text": ".bs-docs-container p, .bs-docs-container li, .bd-content p, .bd-content li"
+    "lvl0": {
+      "selector": ".bd-toc-item.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".bd-content h1",
+    "lvl2": ".bd-content h2",
+    "lvl3": ".bd-content h3",
+    "lvl4": ".bd-content h4",
+    "lvl5": ".bd-content h5",
+    "text": ".bd-content p, .bd-content li, .bd-example"
   },
-  "min_indexed_level": 1,
-  "conversation_id": [
-    "432904306"
+  "selectors_exclude": [
+    ".bd-example"
   ],
-  "nb_hits": 5715
+  "nb_hits": 2519
 }
