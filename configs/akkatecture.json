@@ -1,9 +1,10 @@
 {
   "index_name": "akkatecture",
   "start_urls": [
-    "https://akkatecture.github.io/docs/",
-    "https://akkatecture.github.io/docs/getting-started/"
+    "https://akkatecture.net/docs/",
+    "https://akkatecture.net/docs/getting-started/"
   ],
+  "sitemap_urls":["https://akkatecture.net/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".content h1",
