@@ -2,40 +2,30 @@
   "index_name": "pm2docs",
   "start_urls": [
     {
-      "url": "https://docs.keymetrics.io/doc-pm2/ch/",
-      "tags": [
-        "ch"
-      ]
+      "url": "https://docs.keymetrics.io/doc-pm2/(?P<language>.*?)/(?P<tool>.*?)/overview/",
+      "variables": {
+        "language": [
+          "en",
+          "ch"
+        ],
+        "tool": [
+          "process-manager",
+          "plus"
+        ]
+      }
     },
     {
-      "url": "https://docs.keymetrics.io/doc-pm2/",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://docs.keymetrics.io/doc-pm2/en/process-manager/overview/",
-      "tags": [
-        "en-process-manager"
-      ]
-    },
-    {
-      "url": "https://docs.keymetrics.io/doc-pm2/en/plus/overview/",
-      "tags": [
-        "en-plus"
-      ]
-    },
-    {
-      "url": "https://docs.keymetrics.io/doc-pm2/ch/process-manager/overview/",
-      "tags": [
-        "ch-process-manager"
-      ]
-    },
-    {
-      "url": "https://docs.keymetrics.io/doc-pm2/ch/plus/overview/",
-      "tags": [
-        "ch-plus"
-      ]
+      "url": "https://docs.keymetrics.io/doc-pm2/(?P<language>.*?)/(?P<tool>.*?)/",
+      "variables": {
+        "language": [
+          "en",
+          "ch"
+        ],
+        "tool": [
+          "process-manager",
+          "plus"
+        ]
+      }
     }
   ],
   "stop_urls": [],
@@ -55,5 +45,5 @@
   "conversation_id": [
     "541109950"
   ],
-  "nb_hits": 2117
+  "nb_hits": 2169
 }
