@@ -12,6 +12,30 @@
       "tags": [
         "en"
       ]
+    },
+    {
+      "url": "https://docs.keymetrics.io/doc-pm2/en/process-manager/overview/",
+      "tags": [
+        "en-process-manager"
+      ]
+    },
+    {
+      "url": "https://docs.keymetrics.io/doc-pm2/en/plus/overview/",
+      "tags": [
+        "en-plus"
+      ]
+    },
+    {
+      "url": "https://docs.keymetrics.io/doc-pm2/ch/process-manager/overview/",
+      "tags": [
+        "ch-process-manager"
+      ]
+    },
+    {
+      "url": "https://docs.keymetrics.io/doc-pm2/ch/plus/overview/",
+      "tags": [
+        "ch-plus"
+      ]
     }
   ],
   "stop_urls": [],
