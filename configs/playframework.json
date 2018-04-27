@@ -31,13 +31,17 @@
     "/api/"
   ],
   "selectors": {
-    "lvl0": "#content h1",
-    "lvl1": "#content h2",
-    "lvl2": "#content h3",
-    "lvl3": "#content h4",
-    "text": "#content p"
+    "lvl0": "#content article h1",
+    "lvl1": "#content article h2",
+    "lvl2": "#content article h3",
+    "lvl3": "#content article h4",
+    "text": "#content article p, #content article li"
   },
-  "min_indexed_level": 2,
+  "selectors_exclude":["#breadcrumb",
+    "#content > article > blockquote:last-of-type",
+    "#content > article > blockquote:last-of-type ~ p",
+  "#content > article > blockquote:last-of-type ~ li"
+],
   "conversation_id": [
     "183782279"
   ],

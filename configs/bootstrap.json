@@ -2,7 +2,7 @@
   "index_name": "bootstrap",
   "start_urls": [
     {
-      "url": "https://getbootstrap.com/docs/(?P<version>.*?)/",
+      "url": "https://getbootstrap.com/docs/(?P<version>.*?)/getting-started/",
       "variables": {
         "version": [
           "4.1"
@@ -16,7 +16,6 @@
   "selectors": {
     "lvl0": {
       "selector": ".bd-toc-item.active > a",
-      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": ".bd-content h1",
@@ -26,8 +25,6 @@
     "lvl5": ".bd-content h5",
     "text": ".bd-content p, .bd-content li, .bd-example"
   },
-  "selectors_exclude": [
-    ".bd-example"
-  ],
+  "only_content_level":true,
   "nb_hits": 2519
 }
