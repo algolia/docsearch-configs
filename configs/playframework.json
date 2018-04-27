@@ -37,13 +37,15 @@
     "lvl3": "#content article h4",
     "text": "#content article p, #content article li"
   },
-  "selectors_exclude":["#breadcrumb",
+  "selectors_exclude": [
+    "#breadcrumb",
     "#content > article > blockquote:last-of-type",
     "#content > article > blockquote:last-of-type ~ p",
-  "#content > article > blockquote:last-of-type ~ li"
-],
+    "#content > article > blockquote:last-of-type ~ li"
+  ],
   "conversation_id": [
     "183782279"
   ],
-  "nb_hits": 85156
+  "only_content_level": true,
+  "nb_hits": 118897
 }
