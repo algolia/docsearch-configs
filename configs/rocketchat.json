@@ -1,7 +1,8 @@
 {
   "index_name": "rocketchat",
   "start_urls": [
-    "https://rocket.chat/docs/"
+    "https://rocket.chat/docs/",
+    "https://rocket.chat/handbook/"
   ],
   "stop_urls": [
     "https://rocket.chat/docs/installation/automation-tools/vagrant/vagrantfile"
