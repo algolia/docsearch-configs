@@ -3,20 +3,20 @@
   "start_urls": [
     "https://auth0.com/docs"
   ],
+  "stop_urls": [
+    "01-.*?$",
+    "https://auth0.com/docs/quickstart/.*?/getting-started.*?$"
+  ],
   "sitemap_urls": [
     "https://auth0.com/docs/sitemap.xml"
   ],
-  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": ".nav li.active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": "title",
-      "global": true
-    },
+    "lvl1": "article.docs-content h1",
     "lvl2": "article.docs-content h2",
     "lvl3": "article.docs-content h3",
     "lvl4": "article.docs-content h4",
@@ -32,5 +32,5 @@
   "conversation_id": [
     "568622233"
   ],
-  "nb_hits": 33016
+  "nb_hits": 31268
 }
