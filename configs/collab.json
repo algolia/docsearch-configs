@@ -30,16 +30,27 @@
     "http://docs.collab.net/teamforge181/index.html"
   ],
   "selectors": {
-    "lvl0": "#tg-sb-content h1",
-    "lvl1": "#tg-sb-content h2",
-    "lvl2": "#tg-sb-content h3",
-    "lvl3": "#tg-sb-content h4",
-    "lvl4": "#tg-sb-content h5",
+    "lvl0": {
+      "selector": "//*[@id='mysidebar']/li/ul/li[contains(@class, 'active')]/a/../../../a",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "//*[@id='mysidebar']/li/ul/li[contains(@class, 'active')]/a",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl2": "#tg-sb-content h1",
+    "lvl3": "#tg-sb-content h2",
+    "lvl4": "#tg-sb-content h3",
+    "lvl5": "#tg-sb-content h4",
+    "lvl6": "#tg-sb-content h5",
     "text": "#tg-sb-content p, #tg-sb-content li"
   },
+  "min_indexed_level": 1,
   "scrap_start_urls": false,
   "conversation_id": [
     "555093088"
   ],
-  "nb_hits": 17761
+  "nb_hits": 17796
 }
