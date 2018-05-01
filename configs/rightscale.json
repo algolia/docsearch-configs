@@ -4,7 +4,8 @@
     "http://docs.rightscale.com/"
   ],
   "stop_urls": [
-    "http://docs.rightscale.com/policies.*"
+    "http://docs.rightscale.com/policies.*",
+    "http://docs.rightscale.com/platform/roadmap.*"
   ],
   "selectors": {
     "lvl0": {
