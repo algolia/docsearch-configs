@@ -4,6 +4,9 @@
     "https://zircleui.github.io/docs/"
   ],
   "stop_urls": [],
+  "selectors_exclude": [
+    ".header-anchor"
+  ],
   "selectors": {
     "lvl0": ".content h2",
     "lvl1": ".content h3",
