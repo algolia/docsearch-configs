@@ -1,10 +1,12 @@
 {
   "index_name": "embark",
   "start_urls": [
-    "http://embarksite.s3-website-us-west-2.amazonaws.com/docs/"
+    "https://embark.status.im/docs/",
+	"https://embark.status.im/tutorials/",
+	"https://embark.status.im/plugins/"
   ],
   "sitemap_urls": [
-    "http://embarksite.s3-website-us-west-2.amazonaws.com/sitemap.xml"
+    "https://embark.status.im/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,7 +20,7 @@
     "lvl2": ".article .inner h2",
     "lvl3": ".article .inner h3",
     "lvl4": ".article .inner h4",
-    "text": ".article .inner p, .article .inner li"
+    "text": ".article .inner p, .article .inner li, .plugin-list a, .plugin-list p"
   },
   "conversation_id": [
     "567660646"
