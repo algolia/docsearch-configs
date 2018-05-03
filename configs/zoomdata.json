@@ -1,11 +1,12 @@
 {
   "index_name": "zoomdata",
   "start_urls": [
-    "https://mystifying-roentgen-e8c480.netlify.com/tutorials/"
+    "https://www.zoomdata.com/developers/docs",
+    "https://www.zoomdata.com/developers/tutorials"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://mystifying-roentgen-e8c480.netlify.com/sitemap.xml"
+    "https://www.zoomdata.com/developers/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
