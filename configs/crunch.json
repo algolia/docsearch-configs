@@ -2,21 +2,21 @@
   "index_name": "crunch",
   "start_urls": [
     {
-      "url": "http://crunch.io/r/crunch//index.html",
+      "url": "https://crunch.io/r/crunch/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "http://crunch.io/r/crunch//reference",
+      "url": "https://crunch.io/r/crunch/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "http://crunch.io/r/crunch//articles",
+      "url": "https://crunch.io/r/crunch/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -30,7 +30,7 @@
     "/articles/index.html"
   ],
   "sitemap_urls": [
-    "http://crunch.io/r/crunch//sitemap.xml"
+    "https://crunch.io/r/crunch//sitemap.xml"
   ],
   "selectors": {
     "homepage": {
@@ -79,7 +79,7 @@
   },
   "selectors_exclude": [
     ".dont-index"
-    ],
+  ],
   "min_indexed_level": 2,
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -90,5 +90,6 @@
       "url",
       "url_without_anchor"
     ]
-  }
+  },
+  "nb_hits": 2726
 }
