@@ -2,8 +2,8 @@
   "index_name": "embark",
   "start_urls": [
     "https://embark.status.im/docs/",
-	"https://embark.status.im/tutorials/",
-	"https://embark.status.im/plugins/"
+    "https://embark.status.im/tutorials/",
+    "https://embark.status.im/plugins/"
   ],
   "sitemap_urls": [
     "https://embark.status.im/sitemap.xml"
@@ -25,5 +25,5 @@
   "conversation_id": [
     "567660646"
   ],
-  "nb_hits": 453
+  "nb_hits": 542
 }
