@@ -2,7 +2,7 @@
   "index_name": "pm2docs",
   "start_urls": [
     {
-      "url": "https://docs.keymetrics.io/doc-pm2/(?P<language>.*?)/(?P<tool>.*?)/overview/",
+      "url": "https://pm2.io/doc/(?P<language>.*?)/(?P<tool>.*?)/overview/",
       "variables": {
         "language": [
           "en",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "url": "https://docs.keymetrics.io/doc-pm2/(?P<language>.*?)/(?P<tool>.*?)/",
+      "url": "https://pm2.io/doc/(?P<language>.*?)/(?P<tool>.*?)/overview/",
       "variables": {
         "language": [
           "en",
