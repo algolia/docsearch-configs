@@ -15,7 +15,7 @@
       }
     },
     {
-      "url": "https://pm2.io/doc/(?P<language>.*?)/(?P<tool>.*?)/overview/",
+      "url": "https://pm2.io/doc/(?P<language>.*?)/(?P<tool>.*?)/",
       "variables": {
         "language": [
           "en",
