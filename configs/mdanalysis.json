@@ -1,8 +1,8 @@
 {
   "index_name": "mdanalysis",
   "sitemap_urls": [
-    "https://www.mdanalysis.org/sitemap.xml",
-  ]
+    "https://www.mdanalysis.org/sitemap.xml"
+  ],
   "start_urls": [
     "https://www.mdanalysis.org"
   ],
@@ -11,7 +11,7 @@
     "https://www.mdanalysis.org/mdanalysis",
     "https://www.mdanalysis.org/docs/_modules/",
     "https://www.mdanalysis.org/docs/_sources",
-    "https://www.mdanalysis.org/blog/page.*",      
+    "https://www.mdanalysis.org/blog/page.*"
   ],
   "selectors": {
     "lvl0": {
@@ -28,5 +28,5 @@
   "conversation_id": [
     "569445928"
   ],
-  "nb_hits": 25110
+  "nb_hits": 13241
 }
