@@ -2,27 +2,33 @@
   "index_name": "adsum",
   "start_urls": [
     {
-      "url": "https://adactivesas.github.io/adsum-client-api/docs/",
+      "url": "https://adactivesas.github.io/adsum-client-api/",
       "tags": [
         "client"
       ]
     },
     {
-      "url": "https://adactivesas.github.io/adsum-client-api/docs/doc-01-Installation.html",
-      "tags": [
-        "client"
-      ]
-    },
-    {
-      "url": "https://adactivesas.github.io/adsum-api-documentation/docs/",
+      "url": "https://adactivesas.github.io/adsum-api-documentation/",
       "tags": [
         "rest"
       ]
     },
     {
-      "url": "https://adactivesas.github.io/adsum-api-documentation/docs/01-authentication.html",
+      "url": "https://adactivesas.github.io/adsum-web-map/",
       "tags": [
-        "rest"
+        "webMap"
+      ]
+    },
+    {
+      "url": "https://adactivesas.github.io/adsum-react-native-map/",
+      "tags": [
+        "rnMap"
+      ]
+    },
+    {
+      "url": "https://adactivesas.github.io/adactive-logger/",
+      "tags": [
+        "adactiveLogger"
       ]
     }
   ],
