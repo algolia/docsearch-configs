@@ -1,9 +1,9 @@
 {
   "index_name": "riotjs",
   "start_urls": [
-    "http://riotjs.com/guide/",
-    "http://riotjs.com/api/",
-    "http://riotjs.com/faq/"
+    "https://riot.js.org/guide/",
+    "https://riot.js.org/api/",
+    "https://riot.js.org/faq/"
   ],
   "stop_urls": [],
   "selectors": {
