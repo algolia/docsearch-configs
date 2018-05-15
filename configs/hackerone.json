@@ -6,29 +6,29 @@
   "sitemap_urls": [
     "https://docs.hackerone.com/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/changelog/"],
   "selectors": {
     "lvl0": {
-      "selector": "//ul[contains(@class, 'components-navigation')]//a[contains(@class, 'linkActive')][1]",
-      "type": "xpath",
+      "selector": "a.navigation__link--active",
       "global": true,
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": "//nav//a[contains(@class, 'linkActive')][1]/preceding::h3[contains(@class, 'title')][1]",
-      "type": "xpath",
+      "selector": ".sidebar__title--active",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Chapter"
     },
-    "lvl2": "article h1",
-    "lvl3": "article h2",
-    "lvl4": "article h3",
-    "lvl5": "article h4",
-    "text": "article p, article li"
+    "lvl2": "article.article__inner h1",
+    "lvl3": "article.article__inner h2",
+    "lvl4": "article.article__inner h3",
+    "lvl5": "article.article__inner h4",
+    "text": "article.article__inner p, article.article__inner li"
   },
-  "js_render": true,
+  "selectors_exclude": [
+    ".footer__inner"
+  ],
   "conversation_id": [
     "535135855"
   ],
-  "nb_hits": 1335
+  "nb_hits": 1679
 }
