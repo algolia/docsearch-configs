@@ -4,7 +4,9 @@
     {
       "url": "https://doc.ezplatform.com/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
-        "lang":["en"],
+        "lang": [
+          "en"
+        ],
         "version": [
           "latest",
           "2.1",
@@ -35,5 +37,5 @@
   "conversation_id": [
     "549525560"
   ],
-  "nb_hits": 53319
+  "nb_hits": 68015
 }
