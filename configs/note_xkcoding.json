@@ -1,0 +1,20 @@
+{
+  "index_name": "note_xkcoding",
+  "start_urls": [
+    "https://note.xkcoding.com/notes/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page .content h1",
+    "lvl1": ".page .content h2",
+    "lvl2": ".page .content h3",
+    "lvl3": ".page .content h4",
+    "lvl4": ".page .content h5",
+    "text": ".page .content p, .page .content li"
+  },
+  "conversation_id": [
+    "577373172"
+  ],
+  "strip_chars": " .,;:#",
+  "nb_hits": 525
+}
