@@ -1,7 +1,10 @@
 {
   "index_name": "hackerone",
   "start_urls": [
-    "https://hacker0x01.github.io/docs.hackerone.com/"
+    "https://docs.hackerone.com/"
+  ],
+  "sitemap_urls": [
+    "https://docs.hackerone.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
