@@ -1,0 +1,49 @@
+{
+  "index_name": "immutable_js",
+  "start_urls": [
+    "https://facebook.github.io/immutable-js/docs/",
+    {
+      "url": "https://facebook.github.io/immutable-js/",
+      "selectors_key": "home",
+      "tags": [
+        "home"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "https://facebook.github.io/immutable-js/docs/#/[A-Za-z.]+/.+",
+    "CONTRIBUTING.md$"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".docContents h1, .docContents h2",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".docContents .groupTitle",
+      "lvl2": ".docContents h3",
+      "lvl3": ".docContents .infoHeader",
+      "lvl4": ".docContents p strong",
+      "text": ".docContents p, .docContents li"
+    },
+    "home": {
+      "lvl0": ".contents h1",
+      "lvl1": ".contents h2",
+      "lvl2": ".contents h3",
+      "lvl3": ".contents h4",
+      "lvl4": ".contents h5",
+      "text": ".contents p, .contents li"
+    }
+  },
+  "stop_content": [
+    "Not found"
+  ],
+  "selectors_exclude": [
+    ".disclaimer"
+  ],
+  "js_wait": 1,
+  "use_anchors": true,
+  "js_render": true,
+  "only_content_level": true,
+  "nb_hits": 2569
+}
