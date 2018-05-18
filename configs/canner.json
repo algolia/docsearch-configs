@@ -1,8 +1,8 @@
 {
   "index_name": "canner",
   "start_urls": [
-    "http://framework.canner.io/docs/",
-    "http://framework.canner.io/docs/guides-basic-setup.html"
+    "https://framework.canner.io/docs/",
+    "https://framework.canner.io/docs/guides-basic-setup.html"
   ],
   "stop_urls": [],
   "selectors": {
