@@ -2,7 +2,7 @@
   "index_name": "opendatasoft",
   "start_urls": [
     {
-      "url": "http://docs.opendatasoft.com/(?P<language>.*?)/",
+      "url": "https://docs.opendatasoft.com/(?P<language>.*?)/",
       "variables": {
         "language": [
           "en",
@@ -13,7 +13,7 @@
         ]
       }
     },
-    "http://docs.opendatasoft.com/"
+    "https://docs.opendatasoft.com/"
   ],
   "selectors": {
     "lvl0": {
@@ -31,5 +31,6 @@
   "conversation_id": [
     "218937310"
   ],
-  "nb_hits": 31149
+  "scrap_start_urls": false,
+  "nb_hits": 583561669
 }
