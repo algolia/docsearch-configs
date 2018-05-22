@@ -1,7 +1,15 @@
 {
   "index_name": "supportpal",
   "start_urls": [
-    "https://docs.supportpal.com/"
+    {
+      "url": "https://docs.supportpal.com/(?P<version>.*?)",
+      "variables": {
+        "version": [
+          "current",
+          "2.3.0"
+        ]
+      }
+    }
   ],
   "stop_urls": [
     ".sql$",
@@ -21,5 +29,5 @@
   "selectors_exclude": [
     ".contents"
   ],
-  "nb_hits": 3670
+  "nb_hits": 7538
 }
