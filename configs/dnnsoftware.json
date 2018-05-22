@@ -1,0 +1,29 @@
+{
+  "index_name": "dnnsoftware",
+  "start_urls": [
+    "http://www.dnnsoftware.com/docs/"
+  ],
+  "stop_urls": [
+    "/docs/[A-Za-z-]+/.+index.html$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav[role='toc'] > ul > li > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main article h1",
+    "lvl2": "main article h2",
+    "lvl3": "main article h3",
+    "lvl4": "main article h4",
+    "lvl5": "main article h5",
+    "text": "main article p, main article li"
+  },
+  "selectors_exclude": [
+    ".related-links",
+    ".breadcrumbs",
+    ".postreq"
+  ],
+  "strip_chars": "\u2014",
+  "nb_hits": 20839
+}
