@@ -45,7 +45,8 @@
     }
   ],
   "stop_urls": [
-    "/$"
+    "/$",
+    "\\?"
   ],
   "selectors": {
     "administrator": {
@@ -120,5 +121,5 @@
   "conversation_id": [
     "227963698"
   ],
-  "nb_hits": 7238
+  "nb_hits": 4956
 }

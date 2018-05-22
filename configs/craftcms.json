@@ -32,6 +32,7 @@
     "default": {
       "lvl0": {
         "selector": "span.site-name",
+        "global":true,
         "default_value": "Documentation"
       },
       "lvl1": ".content h1",

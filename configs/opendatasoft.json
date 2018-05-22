@@ -15,6 +15,9 @@
     },
     "https://docs.opendatasoft.com/"
   ],
+  "stop_urls": [
+    "404"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class, \"toctree-l2\") and contains(@class, \"current\")]/../preceding::a[1]",
@@ -32,5 +35,5 @@
     "218937310"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 583561669
+  "nb_hits": 30507
 }

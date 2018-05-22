@@ -4,7 +4,9 @@
     "https://akkatecture.net/docs/",
     "https://akkatecture.net/docs/getting-started/"
   ],
-  "sitemap_urls":["https://akkatecture.net/sitemap.xml"],
+  "sitemap_urls": [
+    "https://akkatecture.net/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".content h1",
@@ -17,5 +19,5 @@
   "conversation_id": [
     "566044633"
   ],
-  "nb_hits": 150
+  "nb_hits": 351
 }

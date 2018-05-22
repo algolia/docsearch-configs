@@ -1,11 +1,13 @@
 {
   "index_name": "docusaurus",
   "start_urls": [
-    "https://docusaurus.io/"
+    "https://docusaurus.io/docs/en/",
+    "https://docusaurus.io/en/",
+    "https://docusaurus.io/docs/en/installation.html"
   ],
   "stop_urls": [
-    "help",
-    "users"
+    "https://docusaurus.io/docs/en/[0-9].*",
+    "https://docusaurus.io/docs/en/next.*"
   ],
   "selectors": {
     "lvl0": {
@@ -23,9 +25,8 @@
   "selectors_exclude": [
     ".hash-link"
   ],
-  "min_indexed_level": 1,
   "conversation_id": [
     "415526327"
   ],
-  "nb_hits": 498
+  "nb_hits": 563
 }
