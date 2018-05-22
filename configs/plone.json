@@ -19,29 +19,28 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
-    },
-    "lvl1": {
       "selector": "(//ul[contains(@class, 'breadcrumb')])[1]/li[2]",
       "type": "xpath"
     },
-    "lvl2": {
+    "lvl1": {
       "selector": "(//ul[contains(@class, 'breadcrumb')])[1]/li[3]",
       "type": "xpath"
     },
-    "lvl3": {
+    "lvl2": {
       "selector": "(//ul[contains(@class, 'breadcrumb')])[1]/li[4]",
       "type": "xpath"
     },
-    "lvl4": "section h1",
-    "lvl5": "section h2",
-    "lvl6": "section h3, section h4, section h5",
-    "text": "section p, section li"
+    "lvl3": "section[role='main'] h1",
+    "lvl4": "section[role='main'] h2",
+    "lvl5": "section[role='main'] h3, section[role='main'] h4, section[role='main'] h5",
+    "text": "section[role='main'] p, section[role='main'] li"
   },
   "min_indexed_level": 4,
   "conversation_id": [
     "253081101"
   ],
-  "nb_hits": 72843
+  "selectors_exclude": [
+    "[class^='toctree']"
+  ],
+  "nb_hits": 64153
 }
