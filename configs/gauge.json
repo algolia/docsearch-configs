@@ -1,15 +1,22 @@
 {
   "index_name": "gauge",
   "start_urls": [
-    "https://docs.gauge.org"
+    {
+      "url": "https://docs.gauge.org/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "master",
+          "latest"
+        ]
+      }
+    }
   ],
   "stop_urls": [
-    "https://docs.gauge.org/0",
-    "https://docs.gauge.org/master/"
+    "https://docs.gauge.org/0"
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".toctree-l1.current > a",
+      "selector": ".section h1",
       "default_value": "Documentation"
     },
     "lvl1": ".section h1",
@@ -19,8 +26,9 @@
     "lvl5": ".section h5",
     "text": ".section p, .section li"
   },
+  "scrap_start_urls": false,
   "conversation_id": [
     "575611520"
   ],
-  "nb_hits": 1074
+  "nb_hits": 1929
 }
