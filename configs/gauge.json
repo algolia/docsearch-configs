@@ -1,15 +1,15 @@
 {
   "index_name": "gauge",
   "start_urls": [
-    "https://docs.gauge.org"
+    "https://docs.gauge.org/latest/",
+    "https://docs.gauge.org/master/"
   ],
   "stop_urls": [
-    "https://docs.gauge.org/0",
-    "https://docs.gauge.org/master/"
+    "https://docs.gauge.org/0"
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".toctree-l1.current > a",
+      "selector": ".section h1",
       "default_value": "Documentation"
     },
     "lvl1": ".section h1",
