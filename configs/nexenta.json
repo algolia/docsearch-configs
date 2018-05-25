@@ -1,8 +1,8 @@
 {
   "index_name": "nexenta",
   "start_urls": [
-    "https://nexentaedge.io/docs/",
-    "https://nexentaedge.io/docs/introduction.html"
+    "https://nexenta.github.io/docs/",
+    "https://nexenta.github.io/openstack/docs/cinder/overview.html"
   ],
   "stop_urls": [],
   "selectors": {
