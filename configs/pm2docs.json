@@ -10,7 +10,8 @@
         ],
         "tool": [
           "process-manager",
-          "plus"
+          "plus",
+          "enterprise",
         ]
       }
     },
@@ -23,7 +24,8 @@
         ],
         "tool": [
           "process-manager",
-          "plus"
+          "plus",
+          "enterprise"
         ]
       }
     }
