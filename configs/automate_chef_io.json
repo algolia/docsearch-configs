@@ -1,5 +1,5 @@
 {
-  "index_name": "chef",
+  "index_name": "automate_chef_io",
   "start_urls": [
     "https://automate.chef.io/docs"
   ],
