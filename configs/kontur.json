@@ -1,0 +1,25 @@
+{
+  "index_name": "kontur",
+  "start_urls": [
+    "https://guides.kontur.ru"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://guides.kontur.ru/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".content .wrapper h1",
+    "lvl1": ".content .wrapper h2",
+    "lvl2": ".content .wrapper h3",
+    "lvl3": ".content .wrapper h4",
+    "lvl4": ".content .wrapper h5",
+    "text": ".content .wrapper p, .content .wrapper li"
+  },
+  "conversation_id": [
+    "589276985"
+  ],
+  "selectors_exclude": [
+    ".innerNavigation"
+  ],
+  "nb_hits": 2312
+}
