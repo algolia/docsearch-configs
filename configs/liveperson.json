@@ -6,6 +6,9 @@
   "stop_urls": [
     "assets"
   ],
+  "sitemap_urls": [
+    "https://developers.liveperson.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "type": "xpath",
@@ -25,5 +28,5 @@
   "conversation_id": [
     "429047681"
   ],
-  "nb_hits": 30693
+  "nb_hits": 34043
 }
