@@ -21,9 +21,9 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "scrap_start_ulrs": false,
+  "scrap_start_urls": false,
   "conversation_id": [
     "574286090"
   ],
-  "nb_hits": 495
+  "nb_hits": 436
 }

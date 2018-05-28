@@ -23,9 +23,9 @@
   "conversation_id": [
     "317799097"
   ],
-  "selectorrs_exclude": [
+  "selectors_exclude": [
     "#toc"
   ],
   "js_render": true,
-  "nb_hits": 817
+  "nb_hits": 778
 }
