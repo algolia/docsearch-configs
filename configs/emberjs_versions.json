@@ -4,10 +4,23 @@
     {
       "url": "https://guides.emberjs.com/(?P<version>.*?)/",
       "variables": {
-        "version": {
-          "url": "https://guides.emberjs.com",
-          "js": "var versions = $('#version-select option').map(function(i, e) { return $(e).text(); }).toArray(); return JSON.stringify(versions);"
-        }
+        "version": [
+          "release",
+          "v3.1.0",
+          "v3.0.0",
+          "v2.18.0",
+          "v2.0.0",
+          "v2.1.0",
+          "v2.2.0",
+          "v2.3.0",
+          "v2.4.0",
+          "v2.5.0",
+          "v2.6.0",
+          "v2.7.0",
+          "v2.8.0",
+          "v2.9.0",
+          "v1.13.0"
+        ]
       }
     }
   ],
@@ -41,5 +54,5 @@
   "stop_content": [
     "ACK! 404 FRIEND"
   ],
-  "nb_hits": 58787
+  "nb_hits": 18826
 }
