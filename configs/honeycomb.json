@@ -1,10 +1,13 @@
 {
   "index_name": "honeycomb",
   "start_urls": [
-    "https://honeycomb.io/docs/",
-    "http://honeycomb.io/docs/"
+    "https://docs.honeycomb.io/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/pricing/",
+    "/customers/",
+    "/blog/"
+  ],
   "selectors": {
     "lvl0": ".docs-content h1",
     "lvl1": ".docs-content h2",
@@ -17,5 +20,5 @@
   "conversation_id": [
     "428594718"
   ],
-  "nb_hits": 2609
+  "nb_hits": 2608
 }
