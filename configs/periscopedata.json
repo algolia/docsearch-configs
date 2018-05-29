@@ -24,7 +24,6 @@
     "lvl5": ".column-article h5",
     "text": ".column-article p, .column-article li"
   },
-  "min_indexed_level": 1,
   "conversation_id": [
     "215537166"
   ],
