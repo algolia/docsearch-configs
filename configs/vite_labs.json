@@ -2,28 +2,30 @@
   "index_name": "vite_labs",
   "start_urls": [
     {
+      "url": "http://doc.vite.org/",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      }
+    },
+    {
       "url": "http://doc.vite.org/(?P<lang>.*?)/",
       "variables": {
         "lang": [
-          "en",
           "zh"
         ]
       }
     }
   ],
-  "stop_urls": [
-    "/about/?$",
-    "/faq/?$",
-    "/tech/?$",
-    "/whitePaper/?$"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": "#wiki-content-wrapper h1",
-    "lvl1": "#wiki-content-wrapper h2",
-    "lvl2": "#wiki-content-wrapper h3",
-    "lvl3": "#wiki-content-wrapper h4",
-    "lvl4": "#wiki-content-wrapper h5",
-    "text": "#wiki-content-wrapper p, #wiki-content-wrapper li"
+    "lvl0": ".page .content h1",
+    "lvl1": ".page .content h2",
+    "lvl2": ".page .content h3",
+    "lvl3": ".page .content h4",
+    "lvl4": ".page .content h5",
+    "text": ".page .content p, .page .content li"
   },
   "conversation_id": [
     "550028429"
