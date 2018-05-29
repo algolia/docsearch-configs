@@ -4,20 +4,22 @@
     "https://orgmanager.unmarkdocs.co"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://orgmanager.unmarkdocs.co/sitemap.xml"
+  ],
   "selectors": {
-    "lvl0": {
-      "selector": "h2.page-description",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".main-content h2",
-    "lvl2": ".main-content h3",
-    "lvl3": ".main-content h4",
-    "lvl4": ".main-content h5",
-    "text": ".main-content p, .main-content li"
+    "lvl0": "[data-docsearch] h1",
+    "lvl1": "[data-docsearch] h2",
+    "lvl2": "[data-docsearch] h3",
+    "lvl3": "[data-docsearch] h4, [data-docsearch] .alert-title",
+    "lvl4": "[data-docsearch] h5",
+    "text": "[data-docsearch] p:not(.alert-title), [data-docsearch] li, [data-docsearch] .text-xl"
   },
+  "selectors_exclude": [
+    "[data-docsearch] .hidden"
+  ],
   "conversation_id": [
     "567076280"
   ],
-  "nb_hits": 115
+  "nb_hits": 131
 }
