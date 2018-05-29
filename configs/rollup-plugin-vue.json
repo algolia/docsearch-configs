@@ -16,7 +16,6 @@
     "text": ".col-content p, .col-content li"
   },
   "scrap_start_urls": false,
-  "js_render": true,
   "conversation_id": [
     "328686475"
   ],
