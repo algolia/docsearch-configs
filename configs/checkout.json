@@ -8,19 +8,22 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".level0.active > h3",
+      "selector": "//div[contains(@id, 'sidebar-content')]//a[contains(@class, 'active')][1]/preceding::h3[1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content-holder h1",
-    "lvl2": ".content-holder h2",
-    "lvl3": ".content-holder h3",
-    "lvl4": ".content-holder h4",
-    "text": ".content-holder p, .content-holder li"
+    "lvl1": "#content-head h1",
+    "lvl2": ".content-body h2",
+    "lvl3": ".content-body h3",
+    "lvl4": ".content-body h4",
+    "text": ".content-body p, .content-body li"
   },
+  "keep_tags": [
+    "code"
+  ],
   "conversation_id": [
     "440529464"
   ],
-  "js_render": true,
-  "nb_hits": 4408
+  "nb_hits": 1056
 }
