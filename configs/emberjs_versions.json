@@ -28,16 +28,11 @@
     "\\?"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": ".toc-level-0.selected > a, .level-1.selected > a",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": "article h1, #content h1",
-    "lvl2": "article h2, #content h2",
-    "lvl3": "article h3, #content h3",
-    "lvl4": "article h4, #content h4",
-    "lvl5": "article h5, #content h5",
+    "lvl0": "article h1, #content h1",
+    "lvl1": "article h2, #content h2",
+    "lvl2": "article h3, #content h3",
+    "lvl3": "article h4, #content h4",
+    "lvl4": "article h5, #content h5",
     "text": "article p, #content p, article li, #content li"
   },
   "selectors_exclude": [
