@@ -1,22 +1,22 @@
 {
   "index_name": "webpack_china",
   "start_urls": [
-    "https://doc.webpack-china.org/"
+    "https://webpack.js.org/"
   ],
   "sitemap_urls": [
-    "https://doc.webpack-china.org/sitemap.xml"
+    "https://webpack.js.org/sitemap.xml"
   ],
   "stop_urls": [
     ".*?[^/]$"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "header a.navigation__link--active",
+      "selector": ".navigation__link--active",
       "global": true,
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": ".navigation__bottom a.navigation__child--active",
+      "selector": ".navigation__child--active",
       "global": true,
       "default_value": "Chapter"
     },
@@ -26,10 +26,8 @@
     "lvl5": "section.page__content h4",
     "text": "section.page__content p, section.page__content li"
   },
-  "min_indexed_level": 2,
-  "js_render": true,
   "conversation_id": [
     "485990101"
   ],
-  "nb_hits": 4600
+  "nb_hits": 5399
 }
