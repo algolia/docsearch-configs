@@ -9,6 +9,15 @@
           "4.1"
         ]
       }
+    },
+    {
+      "url": "http://boosted.orange.com/docs/(?P<version>.*?)/getting-started/introduction/",
+      "variables": {
+        "version": [
+          "4.0",
+          "4.1"
+        ]
+      }
     }
   ],
   "sitemap_urls": [
@@ -35,5 +44,5 @@
   "selectors_exclude": [
     ".bd-example"
   ],
-  "nb_hits": 5918
+  "nb_hits": 5910
 }
