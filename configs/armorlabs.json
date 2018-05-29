@@ -19,8 +19,9 @@
     "text": "section.content p, section.content li, section.content span, section.content .glyph input.class, section.content .card-footer, section.content figure, section.content code"
   },
   "js_render": true,
+  "js_wait": 2,
   "conversation_id": [
     "533312984"
   ],
-  "nb_hits": 21927
+  "nb_hits": 15550
 }
