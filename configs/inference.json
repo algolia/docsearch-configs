@@ -1,27 +1,24 @@
 {
   "index_name": "inference",
   "start_urls": [
-    "https://inference-docs.appspot.com/#/getting_started",
-    "https://inference-docs.appspot.com/#/"
+    "https://inference-docs.appspot.com/"
   ],
-  "stop_urls": [
-    "id="
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": ".header-nav .router-link-active",
-    "lvl1": ".content-wrap h1",
-    "lvl2": ".content-wrap h2",
-    "lvl3": ".content-wrap h3",
-    "lvl4": ".content-wrap h4",
-    "lvl5": ".content-wrap h5",
-    "text": ".content-wrap p, .content-wrap li"
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
   },
-  "min_indexed_level": 1,
-  "js_render": true,
-  "js_wait": 2,
-  "use_anchors": true,
   "conversation_id": [
     "388281764"
   ],
-  "nb_hits": 2848
+  "strip_chars": " .,;:#",
+  "nb_hits": 2797
 }
