@@ -1,7 +1,7 @@
 {
   "index_name": "jmonkeyengine",
   "start_urls": [
-    "https://jmonkeyengine.github.io/wiki/"
+    "https://wiki.jmonkeyengine.org/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,5 +15,5 @@
   "conversation_id": [
     "215975793"
   ],
-  "nb_hits": 21244
+  "nb_hits": 22300
 }
