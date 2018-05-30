@@ -3,7 +3,12 @@
   "start_urls": [
     "https://pensieve.maxheld.de/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "LICENS"
+  ],
+  "sitemap_urls": [
+    "https://pensieve.maxheld.de/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".contents h1",
@@ -24,5 +29,5 @@
   "conversation_id": [
     "585782399"
   ],
-  "nb_hits": 669
+  "nb_hits": 797
 }
