@@ -32,16 +32,11 @@
       }
     }
   ],
+  "stop_urls": [],
   "sitemap_urls": [
     "https://docs.gitlab.com/sitemap.xml"
   ],
-  "stop_urls": [
-    "https://docs.gitlab.com/ee/$",
-    "https://docs.gitlab.com/omnibus/$",
-    "https://docs.gitlab.com/runner/$",
-    "https://.*?//.*?$",
-    ".*^(?!.*html)"
-  ],
+  "force_sitemap_urls_crawling": "true",
   "selectors": {
     "lvl0": ".main h1",
     "lvl1": ".main h2",
