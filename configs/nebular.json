@@ -1,0 +1,29 @@
+{
+  "index_name": "nebular",
+  "start_urls": [
+    "https://akveo.github.io/nebular/#/docs/"
+  ],
+  "stop_urls": [
+    "/themes/",
+    "https://akveo.github.io/nebular/#/docs/.*#.*"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "[tag='leftMenu'] > ul > li >  a.active .menu-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4, .content p.block-title",
+    "lvl5": ".content h5, .content table tr:not(:first-child) td:first-of-type",
+    "text": ".content p:not(.block-title), .content li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "589593654"
+  ],
+  "use_anchors": true,
+  "nb_hits": 707
+}
