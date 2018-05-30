@@ -2,7 +2,7 @@
   "index_name": "vite_labs",
   "start_urls": [
     {
-      "url": "http://doc.vite.org/(?P<lang>.*?)/",
+      "url": "https://doc.vite.org/(?P<lang>.*?)/",
       "variables": {
         "lang": [
           "zh"
@@ -10,7 +10,7 @@
       }
     },
     {
-      "url": "http://doc.vite.org/",
+      "url": "https://doc.vite.org/",
       "extra_attributes": {
         "lang": [
           "en"
@@ -19,21 +19,23 @@
     }
   ],
   "stop_urls": [
-    "/about/?$",
-    "/faq/?$",
-    "/tech/?$",
-    "/whitePaper/?$"
   ],
   "selectors": {
-    "lvl0": ".page .content h1",
-    "lvl1": ".page .content h2",
-    "lvl2": ".page .content h3",
-    "lvl3": ".page .content h4",
-    "lvl4": ".page .content h5",
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".page .content h1",
+    "lvl2": ".page .content h2",
+    "lvl3": ".page .content h3",
+    "lvl4": ".page .content h4",
+    "lvl5": ".page .content h5",
     "text": ".page .content p, .page .content li"
   },
   "conversation_id": [
     "550028429"
   ],
+  "strip_chars": " .,;:#",
   "nb_hits": 140
 }
