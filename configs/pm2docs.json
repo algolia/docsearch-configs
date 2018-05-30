@@ -9,7 +9,7 @@
           "ch"
         ],
         "tool": [
-          "process-manager",
+          "runtime",
           "plus",
           "enterprise"
         ]
@@ -23,7 +23,7 @@
           "ch"
         ],
         "tool": [
-          "process-manager",
+          "runtime",
           "plus",
           "enterprise"
         ]
