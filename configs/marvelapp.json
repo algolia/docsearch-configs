@@ -1,0 +1,22 @@
+{
+  "index_name": "marvelapp",
+  "start_urls": [
+    "https://marvelapp.com/developers/documentation/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://marvelapp.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".paddingTop-xl .breakPointM-paddingLeft-xl h1",
+    "lvl1": ".paddingTop-xl .breakPointM-paddingLeft-xl h2",
+    "lvl2": ".paddingTop-xl .breakPointM-paddingLeft-xl h3",
+    "lvl3": ".paddingTop-xl .breakPointM-paddingLeft-xl h4",
+    "lvl4": ".paddingTop-xl .breakPointM-paddingLeft-xl h5",
+    "text": ".paddingTop-xl .breakPointM-paddingLeft-xl p, .paddingTop-xl .breakPointM-paddingLeft-xl li"
+  },
+  "conversation_id": [
+    "591300031"
+  ],
+  "nb_hits": 550
+}
