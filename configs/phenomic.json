@@ -1,0 +1,28 @@
+{
+  "index_name": "phenomic",
+  "start_urls": [
+    "https://phenomic.io/en/tutorials/",
+    "https://phenomic.io/en/packages/core/docs/",
+    "https://phenomic.io/en/plugins/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".phenomic-Markdown h2",
+    "lvl2": ".phenomic-Markdown h3",
+    "lvl3": ".phenomic-Markdown h4",
+    "lvl4": ".phenomic-Markdown h5",
+    "text": ".phenomic-Markdown p, .phenomic-Markdown li"
+  },
+  "selectors_exclude": [
+    ".phenomic-HeadingAnchor"
+  ],
+  "conversation_id": [
+    "591087174"
+  ],
+  "nb_hits": 170
+}
