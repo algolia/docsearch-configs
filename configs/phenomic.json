@@ -2,7 +2,7 @@
   "index_name": "phenomic",
   "start_urls": [
     "https://phenomic.io/en/tutorials/",
-    "https://phenomic.io/en/packages/core/docs/",
+    "https://phenomic.io/en/packages/",
     "https://phenomic.io/en/plugins/"
   ],
   "stop_urls": [],
