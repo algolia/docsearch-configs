@@ -1,0 +1,37 @@
+{
+  "index_name": "unomaly",
+  "start_urls": [
+    {
+      "url": "https://docs.unomaly.com/releasenotes_",
+      "tags": [
+        "releasenotes"
+      ]
+    },
+    "https://docs.unomaly.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".sidebar-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".document-layout__main h1",
+      "global": true
+    },
+    "lvl2": ".post-content h2",
+    "lvl3": ".post-content h3",
+    "lvl4": ".post-content h4",
+    "lvl5": ".post-content h5",
+    "text": ".post-content p, .post-content li"
+  },
+  "conversation_id": [
+    "594292102"
+  ],
+  "selectors_exclude": [
+    "#next-steps",
+    "#next-steps ~ p"
+  ],
+  "nb_hits": 2411
+}
