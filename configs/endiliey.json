@@ -22,6 +22,12 @@
           "zh-CN"
         ]
       }
+    },
+    {
+      "url": "https://endiliey.com/blog/",
+      "tags": [
+        "blog"
+      ]
     }
   ],
   "stop_urls": [],
