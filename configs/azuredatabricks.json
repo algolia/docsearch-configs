@@ -22,11 +22,8 @@
     "lvl3": ".section h3",
     "lvl4": ".section h4",
     "lvl5": ".section h5",
-    "text": ".section p, .section li"
+    "text": ".section p, .section li, .section [class^=toctree], .section pre"
   },
-  "selectors_exclude": [
-    ".section [class^=toctree]"
-  ],
   "conversation_id": [
     "576106937"
   ],
