@@ -33,10 +33,9 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//div[contains(@class, 'topBlock')]/p/span[1]",
-      "type": "xpath",
+      "selector": "nav.header-links a.active",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "PM2 Documentation"
     },
     "lvl1": "#main h1",
     "lvl2": "#main h2",
@@ -44,6 +43,11 @@
     "lvl4": "#main h4",
     "text": "#main p, #main li"
   },
+  "selectors_exclude": [
+        "#questions",
+        "#questions + p",
+        "#gitalk",
+    ],
   "conversation_id": [
     "541109950"
   ],
