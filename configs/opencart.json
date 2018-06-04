@@ -12,6 +12,12 @@
       "tags": [
         "livepriceupdate"
       ]
+    },
+    {
+      "url": "http://opencart.my/documentation/superdiscount/",
+      "tags": [
+        "superdiscount"
+      ]
     }
   ],
   "stop_urls": [],
@@ -27,5 +33,5 @@
   "conversation_id": [
     "512945822"
   ],
-  "nb_hits": 286
+  "nb_hits": 553
 }
