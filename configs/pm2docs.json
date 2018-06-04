@@ -44,12 +44,12 @@
     "text": "#main p, #main li"
   },
   "selectors_exclude": [
-        "#questions",
-        "#questions + p",
-        "#gitalk",
-    ],
+    "#questions",
+    "#questions + p",
+    "#gitalk"
+  ],
   "conversation_id": [
     "541109950"
   ],
-  "nb_hits": 2167
+  "nb_hits": 2360
 }
