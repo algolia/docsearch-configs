@@ -14,10 +14,15 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".doc-content h2",
-    "lvl2": ".doc-content h3",
-    "lvl3": ".doc-content h4",
-    "lvl4": ".doc-content h5",
+    "lvl1": {
+      "selector": "#heading h1",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".doc-content h2",
+    "lvl3": ".doc-content h3",
+    "lvl4": ".doc-content h4",
+    "lvl5": ".doc-content h5",
     "text": ".doc-content p, .doc-content li"
   },
   "selectors_exclude": [
