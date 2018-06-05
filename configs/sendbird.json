@@ -15,20 +15,26 @@
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": ["change_log$"],
   "selectors": {
     "lvl0": {
-      "selector": "#markdown h2",
-      "default_value": "Documentation"
+      "selector": ".menu__link.is-active .menu__platform-name",
+      "global": true,
+      "default_value": "Paltform"
     },
-    "lvl1": "#markdown h3",
-    "lvl2": "#markdown h4",
-    "lvl3": "#markdown h5",
+    "lvl1": {
+      "selector": "#markdown h2",
+      "default_value": "Chapter"
+    },
+    "lvl2": "#markdown h3",
+    "lvl3": "#markdown h4",
+    "lvl4": "#markdown h5",
     "text": "#markdown p, #markdown li"
   },
   "selectors_exclude": [
     "#change_log"
   ],
   "only_content_level": true,
-  "nb_hits": 1676
+  "scrap_start_urls": false,
+  "nb_hits": 1722
 }
