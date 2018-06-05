@@ -1,0 +1,19 @@
+{
+  "index_name": "vojtechruzicka",
+  "start_urls": [
+    "https://www.vojtechruzicka.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docSearch-content h1",
+    "lvl1": ".docSearch-content h2",
+    "lvl2": ".docSearch-content h3",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "conversation_id": [
+    "593663647"
+  ],
+  "nb_hits": 1890
+}
