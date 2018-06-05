@@ -1,0 +1,23 @@
+{
+  "index_name": "blockbook",
+  "start_urls": [
+    "https://blockbook.cc/book"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "[class^='SideBar__SideBarTitle']",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class^='Page-jou'] h2",
+    "lvl2": "[class^='Page-jou'] h3",
+    "lvl3": "[class^='Page-jou'] h4",
+    "lvl4": "[class^='Page-jou'] h5",
+    "text": "[class^='Page-jou'] p, [class^='Page-jou'] li"
+  },
+  "conversation_id": [
+    "594700778"
+  ],
+  "nb_hits": 461
+}
