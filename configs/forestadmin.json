@@ -7,7 +7,18 @@
         "user-guide"
       ]
     },
-    "https://doc.forestadmin.com"
+    {
+      "url": "https://doc.forestadmin.com/developer-guide/",
+      "tags": [
+        "developer-guide"
+      ]
+    },
+    {
+      "url": "https://doc.forestadmin.com/knowledge-base.html",
+      "tags": [
+        "knowledge-base.html"
+      ]
+    }
   ],
   "selectors": {
     "lvl0": {
@@ -28,7 +39,8 @@
   "min_indexed_level": 1,
   "custom_settings": {
     "attributesForFaceting": [
-      "technonology"
+      "technonology",
+      "tags"
     ]
   },
   "conversation_id": [
