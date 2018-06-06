@@ -22,7 +22,7 @@
     "https://eslint.org/sitemap.xml"
   ],
   "stop_urls": [
-    "https://eslint.org/docs/(?P<version>\\d+\.0\.0)/"
+    "https://eslint.org/docs/(?P<version>\\d+\\.0\\.0)/"
   ],
   "selectors": {
     "default": {
