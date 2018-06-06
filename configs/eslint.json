@@ -14,7 +14,8 @@
           "user-guide",
           "developer-guide",
           "maintainer-guide"
-        ]
+        ],
+        "tags": "docs"
       }
     }
   ],
