@@ -1,8 +1,8 @@
 {
   "index_name": "accordproject_api",
   "start_urls": [
-    "https://accordproject.netlify.com/docs/",
-    "https://accordproject.netlify.com/docs/accordproject.html"
+    "https://docs.accordproject.org/docs/",
+    "https://docs.accordproject.org/docs/accordproject.html"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +24,5 @@
   "conversation_id": [
     "595056444"
   ],
-  "nb_hits": 567
+  "nb_hits": 579
 }
