@@ -2,7 +2,7 @@
   "index_name": "docusaurus_demo",
   "start_urls": [
     {
-      "url": "https://docusaurus.io/docs/(?P<lang>.*?)/(?P<version>.*?)/",
+      "url": "https://joelmarcey.github.io/docusaurus-demo/docs/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
         "lang": [
           "en"
@@ -13,7 +13,7 @@
       }
     },
     {
-      "url": "https://docusaurus.io/docs/(?P<lang>.*?)/",
+      "url": "https://joelmarcey.github.io/docusaurus-demo/docs/(?P<lang>.*?)/",
       "variables": {
         "lang": [
           "en"
@@ -26,7 +26,7 @@
       }
     },
     {
-      "url": "https://docusaurus.io/blog/",
+      "url": "https://joelmarcey.github.io/docusaurus-demo/blog/",
       "tags": [
         "blog"
       ]
@@ -37,7 +37,7 @@
     "users"
   ],
   "sitemap_urls": [
-    "https://docusaurus.io/sitemap.xml"
+    "https://joelmarcey.github.io/docusaurus-demo/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
