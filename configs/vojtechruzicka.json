@@ -7,6 +7,7 @@
   "selectors": {
     "lvl0": {
       "selector": "",
+      "global": true,
         "default_value": "Search Results"
     },
     "lvl1": ".docSearch-content h1",
