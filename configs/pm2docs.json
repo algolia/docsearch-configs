@@ -44,6 +44,8 @@
     "text": "#main p, #main li"
   },
   "selectors_exclude": [
+    "#next-step",
+    "#next-step + p",
     "#questions",
     "#questions + p",
     "#gitalk"
