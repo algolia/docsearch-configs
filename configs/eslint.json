@@ -7,12 +7,13 @@
       "selectors_key": "blog"
     },
     {
-      "url": "https://eslint.org/docs/(?P<version>.*?)/",
+      "url": "https://eslint.org/docs/(?P<area>.*?)/",
       "variables": {
-        "version": [
-          "3.0.0",
-          "2.0.0",
-          "1.0.0"
+        "area": [
+          "rules",
+          "user-guide",
+          "developer-guide",
+          "maintainer-guide"
         ]
       }
     }
@@ -20,7 +21,9 @@
   "sitemap_urls": [
     "https://eslint.org/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://eslint.org/docs/(?P<version>\\d+\.0\.0)/"
+  ],
   "selectors": {
     "default": {
       "lvl0": "main article h1",
