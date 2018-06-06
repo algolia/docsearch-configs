@@ -31,6 +31,9 @@
     }
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://pm2.io/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "nav.header-links a.active",
@@ -53,5 +56,5 @@
   "conversation_id": [
     "541109950"
   ],
-  "nb_hits": 2360
+  "nb_hits": 2352
 }
