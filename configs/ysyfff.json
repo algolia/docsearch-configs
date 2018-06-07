@@ -1,0 +1,28 @@
+{
+  "index_name": "ysyfff",
+  "start_urls": [
+    "https://ysyfff.github.io/diary/blog/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post > div h1",
+    "lvl2": ".post > div h2",
+    "lvl3": ".post > div h3",
+    "lvl4": ".post > div h4",
+    "text": ".post > div p, .post > div li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "596625436"
+  ],
+  "nb_hits": 103
+}
