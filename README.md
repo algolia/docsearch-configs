@@ -257,7 +257,9 @@ Default is `false`
 
 ### `nb_hits`
 
-The number of object that should be indexed. Only used by the [`checker`](#checker).
+Each time the configuration is locally run, this attribute is set to the number of records indexed.
+
+This attribute is used for purposed monitoring. We keep a track of its evolution in order to detect main changes.
 
 Default is `0`.
 
