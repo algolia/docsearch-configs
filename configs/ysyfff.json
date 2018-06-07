@@ -11,7 +11,7 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post > div h1",
+    "lvl1": ".postHeader h1 a",
     "lvl2": ".post > div h2",
     "lvl3": ".post > div h3",
     "lvl4": ".post > div h4",
@@ -24,5 +24,5 @@
   "conversation_id": [
     "596625436"
   ],
-  "nb_hits": 103
+  "nb_hits": 109
 }
