@@ -6,6 +6,9 @@
   "stop_urls": [
     "docs/$"
   ],
+  "keep_tags": [
+    "code"
+  ],
   "selectors": {
     "lvl0": ".main h1",
     "lvl1": ".main h2",
@@ -14,5 +17,5 @@
     "lvl4": ".main h5, .main table td:first-of-type",
     "text": ".main p, .main li, .main table td:last-child"
   },
-  "nb_hits": 4531
+  "nb_hits": 5037
 }
