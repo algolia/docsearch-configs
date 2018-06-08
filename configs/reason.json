@@ -5,7 +5,17 @@
       "url": "https://reasonml.github.io/docs/(?P<lang>.*?)/what-and-why.html",
       "variables": {
         "lang": [
-          "en"
+          "en",
+          "ja",
+          "de",
+          "es-ES",
+          "fr",
+          "ko",
+          "pt-BR",
+          "ru",
+          "uk",
+          "zh-CN",
+          "zh-TW"
         ]
       }
     },
