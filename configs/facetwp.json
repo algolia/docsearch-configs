@@ -8,7 +8,8 @@
   "stop_urls": [
     "https://facetwp.com/buy/",
     "https://facetwp.com/demo/",
-    "https://facetwp.com/showcase/"
+    "https://facetwp.com/showcase/",
+    "\\?"
   ],
   "selectors": {
     "lvl0": {
@@ -22,11 +23,9 @@
     "text": ".main p, .main article, .main li, .main td, .main pre"
   },
   "selectors_exclude": [],
-  "js_render": true,
-  "js_wait": 1,
   "scrap_start_urls": false,
   "conversation_id": [
     "384259229"
   ],
-  "nb_hits": 2334
+  "nb_hits": 2710
 }
