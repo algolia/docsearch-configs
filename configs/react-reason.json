@@ -1,8 +1,38 @@
 {
   "index_name": "react-reason",
   "start_urls": [
-    "https://reasonml.github.io/reason-react/docs/",
-    "https://reasonml.github.io/reason-react/docs/en/installation.html"
+    {
+      "url": "https://reasonml.github.io/reason-react/docs/(?P<lang>.*?)/installation.html",
+      "variables": {
+        "lang": [
+          "en",
+          "ja",
+          "es-ES",
+          "fr",
+          "ko",
+          "pt-BR",
+          "ru",
+          "zh-CN",
+          "zh-Hant"
+        ]
+      }
+    },
+    {
+      "url": "https://reasonml.github.io/reason-react/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "ja",
+          "es-ES",
+          "fr",
+          "ko",
+          "pt-BR",
+          "ru",
+          "zh-CN",
+          "zh-Hant"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
