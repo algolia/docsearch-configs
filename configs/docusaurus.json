@@ -5,10 +5,14 @@
       "url": "https://docusaurus.io/docs/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
         "lang": [
-          "en"
+          "en",
+          "es-ES",
+          "ro",
+          "tr",
+          "zh-CN"
         ],
         "version": [
-          "next"
+          "latest"
         ]
       },
       "tags": [
@@ -19,7 +23,11 @@
       "url": "https://docusaurus.io/docs/(?P<lang>.*?)/",
       "variables": {
         "lang": [
-          "en"
+          "en",
+          "es-ES",
+          "ro",
+          "tr",
+          "zh-CN"
         ]
       },
       "extra_attributes": {
