@@ -47,10 +47,10 @@
     "text": "#main p, #main li"
   },
   "selectors_exclude": [
-    "#next-step",
-    "#next-step + p",
+    "#next-steps",
+    "#next-steps ~ p",
     "#questions",
-    "#questions + p",
+    "#questions ~ p",
     "#gitalk"
   ],
   "conversation_id": [
