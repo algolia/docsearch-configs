@@ -48,7 +48,7 @@
   },
   "selectors_exclude": [
     "#next-steps",
-    "#next-steps  p",
+    "#next-steps ~ p",
     "#questions",
     "#questions ~ p",
     "#gitalk"
