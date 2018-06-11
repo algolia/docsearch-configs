@@ -6,7 +6,7 @@
       "variables": {
         "language": [
           "en",
-          "ch"
+          "zh"
         ],
         "tool": [
           "runtime",
@@ -20,7 +20,7 @@
       "variables": {
         "language": [
           "en",
-          "ch"
+          "zh"
         ],
         "tool": [
           "runtime",
