@@ -1,0 +1,67 @@
+{
+  "index_name": "fastify",
+  "start_urls": [
+    {
+      "url": "https://www.fastify.io/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "master"
+        ]
+      },
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://www.fastify.io/$",
+      "tags": [
+        "home"
+      ],
+      "selectors_key": "home"
+    },
+    {
+      "url": "https://www.fastify.io/ecosystem/",
+      "tags": [
+        "ecosystem"
+      ],
+      "selectors_key": "ecosystem"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": "#doc-content h2",
+      "lvl1": "#doc-content h3",
+      "lvl2": "#doc-content h4",
+      "lvl3": "#doc-content h5",
+      "text": "#doc-content p, #doc-content li"
+    },
+    "home": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "fastify"
+      },
+      "lvl1": ".title",
+      "lvl2": ".columns.is-centered h2",
+      "lvl3": ".columns.is-centered h3",
+      "text": ".hero-body h2, .columns.is-centered p, .columns.is-centered li"
+    },
+    "ecosystem": {
+      "lvl0": {
+        "selector": ".title",
+        "global": true,
+        "default_value": "Ecosystem"
+      },
+      "lvl1": ".content h2",
+      "lvl2": ".content table td:first-of-type",
+      "lvl3": ".content h3",
+      "text": ".content p, .content li, .content table td:nth-child(2)"
+    }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "-"
+  },
+  "nb_hits": 1197
+}
