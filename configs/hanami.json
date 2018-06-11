@@ -16,6 +16,10 @@
     "lvl4": ".content h5",
     "text": ".content p, .content li"
   },
+  "selectors_exclude": [
+    ".content.page-nav",
+    ".content.edit-link"
+  ],
   "scrap_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
