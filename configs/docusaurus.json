@@ -2,32 +2,10 @@
   "index_name": "docusaurus",
   "start_urls": [
     {
-      "url": "https://docusaurus.io/docs/(?P<lang>.*?)/(?P<version>.*?)/",
-      "variables": {
-        "lang": [
-          "en",
-          "es-ES",
-          "ro",
-          "tr",
-          "zh-CN"
-        ],
-        "version": [
-          "latest"
-        ]
-      },
-      "tags": [
-        "docs"
-      ]
-    },
-    {
       "url": "https://docusaurus.io/docs/(?P<lang>.*?)/",
       "variables": {
         "lang": [
-          "en",
-          "es-ES",
-          "ro",
-          "tr",
-          "zh-CN"
+          "en"
         ]
       },
       "extra_attributes": {
