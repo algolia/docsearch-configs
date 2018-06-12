@@ -2,19 +2,26 @@
   "index_name": "jovo",
   "start_urls": [
     {
-      "url": "https://www.jovo.tech/framework/docs/reference/",
-      "page_rank": -1
+      "url": "https://www.jovo.tech/docs/reference/",
+      "page_rank": -1,
+      "tags": [
+        "reference"
+      ]
     },
     {
-      "url": "https://www.jovo.tech/framework/docs/",
-      "page_rank": 2
+      "url": "https://www.jovo.tech/docs/",
+      "page_rank": 2,
+      "tags": [
+        "docs"
+      ]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": ["reference/lib","reference/examples"],
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": ".nav-sidebar > li.active > a",
+        "selector": "//ol[contains(@class, 'breadcrumb')]/li[2]/a | //ol[contains(@class, 'breadcrumb')]/li[2]/text()",
+        "type": "xpath",
         "global": true,
         "default_value": "Documentation"
       },
@@ -24,24 +31,28 @@
       "lvl4": "section h4",
       "text": "section p, section li"
     },
-    "blog": {
+    "reference": {
       "lvl0": {
         "selector": "",
-        "default_value": "Blog"
+        "global": true,
+        "default_value": "Reference"
       },
-      "lvl1": ".blog-post h1",
-      "lvl2": ".blog-post h3",
-      "lvl3": ".blog-post h4",
-      "text": ".blog-post p, blog-post li"
+      "lvl1": "section h1",
+      "lvl2": "section h2",
+      "lvl3": "section h3",
+      "lvl4": "section h4",
+      "lvl5": "section h5",
+      "text": "section p, section li:not([class*=breadcrumb])"
     }
   },
   "selectors_exclude": [
-    ".breadcrumb",
-    "#contents"
+    ".breadcrumb + h1 + p + ul",
+    "#comments-and-questions",
+    "#disqus_thread"
   ],
   "strip_chars": " .,;:#\ud83c\udf89 ",
   "conversation_id": [
     "536850996"
   ],
-  "nb_hits": 5496
+  "nb_hits": 4006
 }
