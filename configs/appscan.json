@@ -1,24 +1,30 @@
 {
   "index_name": "appscan",
   "start_urls": [
-    "http://doc.appscan.io/"
+    {
+      "url": "http://doc.appscan.io/",
+      "tags": "zh"
+    },
+    {
+      "url": "http://doc.appscan.io/en/",
+      "tags": "en"
+    }
   ],
   "stop_urls": [
     "/\\?"
   ],
   "selectors": {
-    "lvl0": "section h1",
-    "lvl1": "section h2",
-    "lvl2": "section h3",
-    "lvl3": "section h4",
-    "lvl4": "section h5",
+    "lvl0": "section h2",
+    "lvl1": "section h3",
+    "lvl2": "section h4",
+    "lvl3": "section h5",
+    "lvl4": "section h6",
     "text": "section p, .section li"
   },
   "min_indexed_level": 1,
   "js_render": true,
-  "use_anchors": true,
   "conversation_id": [
     "367616865"
   ],
-  "nb_hits": 141
+  "nb_hits": 186
 }

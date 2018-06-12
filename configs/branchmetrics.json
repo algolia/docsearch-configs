@@ -4,18 +4,32 @@
     "https://docs.branch.io/"
   ],
   "stop_urls": [],
-  "selectors": {
-    "lvl0": ".md-nav__item--active .md-nav__link",
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
-  },
-  "min_indexed_level": 1,
-  "conversation_id": [
-    "374218858"
+  "sitemap_urls": [
+    "https://docs.branch.io/sitemap.xml"
   ],
-  "nb_hits": 6822
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'md-nav__item--active')]/preceding::*[contains(@class,'branch-nav-header')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article.md-content__inner h1",
+    "lvl2": "article.md-content__inner h2",
+    "lvl3": "article.md-content__inner h3",
+    "lvl4": "article.md-content__inner h4",
+    "lvl5": "article.md-content__inner h5",
+    "text": "article.md-content__inner p, article.md-content__inner li"
+  },
+  "selectors_exclude": [
+    "#next-steps",
+    "#next-steps ~ p",
+    "#next-steps ~ li",
+    "#disqus_thread",
+    "#__comments"
+  ],
+  "conversation_id": [
+    "597089613"
+  ],
+  "nb_hits": 10126
 }

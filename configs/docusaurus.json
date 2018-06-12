@@ -1,11 +1,38 @@
 {
   "index_name": "docusaurus",
   "start_urls": [
-    "https://docusaurus.io/"
+    {
+      "url": "https://docusaurus.io/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      },
+      "extra_attributes": {
+        "version": [
+          "latest"
+        ]
+      },
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://docusaurus.io/blog/",
+      "tags": [
+        "blog"
+      ]
+    }
   ],
   "stop_urls": [
-    "help",
-    "users"
+    "/help",
+    "/users",
+    "https://docusaurus.io/docs/en/[0-9].*",
+    "https://docusaurus.io/docs/en/next",
+    "^((?!\\.html).)*$"
+  ],
+  "sitemap_urls": [
+    "https://docusaurus.io/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -23,9 +50,8 @@
   "selectors_exclude": [
     ".hash-link"
   ],
-  "min_indexed_level": 1,
   "conversation_id": [
     "415526327"
   ],
-  "nb_hits": 498
+  "nb_hits": 579
 }

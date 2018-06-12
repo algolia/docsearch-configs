@@ -22,5 +22,9 @@
     "text": "#markdown-document p, #markdown-document li"
   },
   "js_render": true,
-  "nb_hits": 5019
+  "selectors_exclude": [
+    "#see-also",
+    "#see-also + ul"
+  ],
+  "nb_hits": 5143
 }

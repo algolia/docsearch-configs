@@ -6,81 +6,63 @@
       "selectors_key": "gitlab",
       "tags": [
         "gitlab"
-      ]
+      ],
+      "extra_attributes": {
+        "product": "GitLab"
+      }
     },
     {
       "url": "https://docs.gitlab.com/omnibus/",
       "selectors_key": "omnibus",
       "tags": [
         "omnibus"
-      ]
+      ],
+      "extra_attributes": {
+        "product": "Omnibus GitLab"
+      }
     },
     {
       "url": "https://docs.gitlab.com/runner/",
       "selectors_key": "runner",
       "tags": [
         "runner"
-      ]
+      ],
+      "extra_attributes": {
+        "product": "GitLab Runner"
+      }
     }
   ],
+  "stop_urls": [],
   "sitemap_urls": [
     "https://docs.gitlab.com/sitemap.xml"
   ],
-  "stop_urls": [
-    "https://docs.gitlab.com/ee/$",
-    "https://docs.gitlab.com/omnibus/$",
-    "https://docs.gitlab.com/runner/$",
-    "https://.*?//.*?$",
-    ".*^(?!.*html)"
-  ],
+  "force_sitemap_urls_crawling": "true",
   "selectors": {
-    "gitlab": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "GitLab"
-      },
-      "lvl1": ".main h1",
-      "lvl2": ".main h2",
-      "lvl3": ".main h3",
-      "lvl4": ".main h4",
-      "lvl5": ".main h5",
-      "text": ".main p, .main li"
-    },
-    "omnibus": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Omnibus GitLab"
-      },
-      "lvl1": ".main h1",
-      "lvl2": ".main h2",
-      "lvl3": ".main h3",
-      "lvl4": ".main h4",
-      "lvl5": ".main h5",
-      "text": ".main p, .main li"
-    },
-    "runner": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "GitLab Runner"
-      },
-      "lvl1": ".main h1",
-      "lvl2": ".main h2",
-      "lvl3": ".main h3",
-      "lvl4": ".main h4",
-      "lvl5": ".main h5",
-      "text": ".main p, .main li"
-    }
+    "lvl0": ".main h1",
+    "lvl1": ".main h2",
+    "lvl2": ".main h3",
+    "lvl3": ".main h4",
+    "lvl4": ".main h5",
+    "text": ".main p, .main li"
   },
   "stop_content": [
     "This document was moved to",
     "This section is now merged into",
     "404 Not Found"
   ],
-  "min_indexed_level": 1,
   "scrap_start_urls": false,
   "only_content_level": true,
+  "custom_settings": {
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "434475832"
   ],
-  "nb_hits": 33068
+  "nb_hits": 41677
 }

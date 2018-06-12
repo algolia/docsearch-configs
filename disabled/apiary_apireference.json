@@ -1,0 +1,19 @@
+{
+  "index_name": "apiary_apireference",
+  "start_urls": [
+    "https://apireference.docs.apiary.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".humanColumnContents h1.resourceGroupName",
+    "lvl1": ".humanColumnContents h2.resourceName",
+    "lvl2": ".humanColumnContents h4",
+    "text": ".humanColumnContents .selected p, .humanColumnContents .selected li"
+  },
+  "js_render": true,
+  "only_content_level": true,
+  "conversation_id": [
+    "536765711"
+  ],
+  "nb_hits": 123
+}

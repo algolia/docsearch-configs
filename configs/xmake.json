@@ -2,15 +2,15 @@
   "index_name": "xmake",
   "start_urls": [
     {
-      "url": "http://xmake.io/#/zh/",
+      "url": "https://xmake.io/#/zh/",
       "tags": "zh"
     },
     {
-      "url": "http://xmake.io/#/home",
+      "url": "https://xmake.io/#/home",
       "tags": "en"
     },
     {
-      "url": "http://xmake.io/#/",
+      "url": "https://xmake.io/#/",
       "tags": "en"
     }
   ],
@@ -37,5 +37,5 @@
   "conversation_id": [
     "314832532"
   ],
-  "nb_hits": 1893
+  "nb_hits": 3197
 }

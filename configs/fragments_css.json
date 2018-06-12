@@ -1,0 +1,22 @@
+{
+  "index_name": "fragments_css",
+  "start_urls": [
+    "http://beta-docs-fragments.surge.sh/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "[role='main'] h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": "[role='main'] h2",
+    "lvl2": "[role='main'] h3, [role='main'] thead td:first-of-type",
+    "lvl3": "[role='main'] h4",
+    "lvl4": "[role='main'] h5",
+    "text": "[role='main'] p, [role='main'] li, [role='main'] tbody td:first-of-type"
+  },
+  "selectors_exclude": [
+    ".kss-title__ref"
+  ],
+  "nb_hits": 314
+}

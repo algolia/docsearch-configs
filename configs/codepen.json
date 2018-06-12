@@ -1,0 +1,169 @@
+{
+  "index_name": "codepen",
+  "start_urls": [
+    {
+      "url": "https://blog.codepen.io/projects/",
+      "selectors_key": "projects",
+      "tags": [
+        "projects"
+      ]
+    },
+    {
+      "url": "https://blog.codepen.io/documentation/pro-features/",
+      "selectors_key": "pro_features",
+      "tags": [
+        "pro_features"
+      ]
+    },
+    {
+      "url": "https://blog.codepen.io/documentation/features/",
+      "selectors_key": "features",
+      "tags": [
+        "features"
+      ]
+    },
+    {
+      "url": "https://blog.codepen.io/legal/",
+      "selectors_key": "legal",
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "url": "https://blog.codepen.io/documentation/faq/",
+      "selectors_key": "faq",
+      "tags": [
+        "faq"
+      ]
+    },
+    {
+      "url": "https://blog.codepen.io/\\d{4}/\\d{2}/\\d{2}",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ],
+      "page_rank": -1
+    },
+    {
+      "url": "https://blog.codepen.io/documentation/api/",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    },
+    "https://blog.codepen.io/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": ".mega-header h1",
+      "lvl1": ".article-text h3",
+      "lvl2": ".article-text h4",
+      "lvl3": ".article-text h5",
+      "text": ".article-text p, .article-text li"
+    },
+    "projects": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Projects"
+      },
+      "lvl1": {
+        "selector": ".mega-header h1",
+        "global": true
+      },
+      "lvl2": ".article-text h3",
+      "lvl3": ".article-text h4",
+      "text": ".article-text p, .article-text li"
+    },
+    "pro_features": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "PRO Features"
+      },
+      "lvl1": {
+        "selector": ".mega-header h1",
+        "global": true
+      },
+      "lvl2": ".article-text h3",
+      "lvl3": ".article-text h4",
+      "text": ".article-text p, .article-text li"
+    },
+    "features": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Features"
+      },
+      "lvl1": {
+        "selector": ".mega-header h1",
+        "global": true
+      },
+      "lvl2": ".article-text h3",
+      "lvl3": ".article-text h4",
+      "text": ".article-text p, .article-text li"
+    },
+    "legal": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Legal"
+      },
+      "lvl1": {
+        "selector": ".mega-header h1",
+        "global": true
+      },
+      "lvl2": ".article-text h3",
+      "lvl3": ".article-text h4",
+      "text": ".article-text p, .article-text li"
+    },
+    "faq": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "FAQ"
+      },
+      "lvl1": {
+        "selector": ".mega-header h1",
+        "global": true
+      },
+      "lvl2": ".article-text h3",
+      "lvl3": ".article-text h4",
+      "text": ".article-text p, .article-text li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": {
+        "selector": ".mega-header h1",
+        "global": true
+      },
+      "lvl2": ".article-text h3",
+      "lvl3": ".article-text h4",
+      "text": ".article-text p, .article-text li"
+    },
+    "blog": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": {
+        "selector": ".mega-header h1, .podcast-episode-header h1",
+        "global": true
+      },
+      "lvl2": ".article-text h3",
+      "lvl3": ".article-text h4",
+      "text": ".article-text p, .article-text li"
+    }
+  },
+  "only_content_level": true,
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "nb_hits": 4223
+}

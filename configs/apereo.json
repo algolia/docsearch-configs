@@ -1,0 +1,41 @@
+{
+  "index_name": "apereo",
+  "start_urls": [
+    {
+      "url": "https://apereo.github.io/cas/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "5.2.x",
+          "5.1.x",
+          "5.0.x",
+          "4.2.x",
+          "4.1.x",
+          "4.0.x",
+          "development"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://apereo.github.io/cas/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#cas-docs-container h1",
+    "lvl2": "#cas-docs-container h2",
+    "lvl3": "#cas-docs-container h3",
+    "lvl4": "#cas-docs-container h4",
+    "lvl5": "#cas-docs-container h5",
+    "text": "#cas-docs-container p, #cas-docs-container li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "558603877"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 22830
+}

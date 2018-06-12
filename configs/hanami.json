@@ -1,0 +1,29 @@
+{
+  "index_name": "hanami",
+  "start_urls": [
+    "http://hanami-cookbook.stdout.in/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open, ul.sidebar-links > li > a.active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude": [
+    ".content.page-nav",
+    ".content.edit-link"
+  ],
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "596820326"
+  ],
+  "nb_hits": 29
+}

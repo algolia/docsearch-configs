@@ -1,20 +1,37 @@
 {
   "index_name": "opencart",
   "start_urls": [
-    "http://opencart.my/documentation/livepriceupdate/"
+    {
+      "url": "http://opencart.my/documentation/rounding/",
+      "tags": [
+        "rounding"
+      ]
+    },
+    {
+      "url": "http://opencart.my/documentation/livepriceupdate/",
+      "tags": [
+        "livepriceupdate"
+      ]
+    },
+    {
+      "url": "http://opencart.my/documentation/superdiscount/",
+      "tags": [
+        "superdiscount"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".markdown-body h1",
-    "lvl1": ".markdown-body h2",
-    "lvl2": ".markdown-body h3",
-    "lvl3": ".markdown-body h4",
-    "lvl4": ".markdown-body h5",
+    "lvl0": ".markdown-body h2",
+    "lvl1": ".markdown-body h3",
+    "lvl2": ".markdown-body h4",
+    "lvl3": ".markdown-body h5",
+    "lvl4": ".markdown-body h6",
     "text": ".markdown-body p, .markdown-body li"
   },
   "js_render": true,
   "conversation_id": [
     "512945822"
   ],
-  "nb_hits": 138
+  "nb_hits": 553
 }

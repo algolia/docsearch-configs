@@ -1,19 +1,23 @@
 {
   "index_name": "tabrisjs",
   "start_urls": [
-    "https://tabrisjs.com/documentation/latest/"
+    "http://docs.tabris.com/latest/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#doc-body h1",
-    "lvl1": "#doc-body h2",
-    "lvl2": "#doc-body h3",
-    "lvl3": "#doc-body h4",
-    "lvl4": "#doc-body h5",
+    "lvl0": {
+      "selector": "#main-nav > li.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#doc-body h1",
+    "lvl2": "#doc-body h2",
+    "lvl3": "#doc-body h3",
+    "lvl4": "#doc-body h4",
     "text": "#doc-body p, #doc-body li"
   },
   "conversation_id": [
     "380336674"
   ],
-  "nb_hits": 4389
+  "nb_hits": 4668
 }

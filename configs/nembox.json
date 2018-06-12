@@ -1,0 +1,23 @@
+{
+  "index_name": "nembox",
+  "start_urls": [
+    "https://nembox.io/code/",
+    "https://nembox.io/tools/"
+  ],
+  "sitemap_urls": [
+    "https://nembox.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#docs-content h2",
+    "lvl1": "#docs-content h3",
+    "lvl2": "#docs-content h4",
+    "lvl3": "#docs-content h5",
+    "lvl4": "#docs-content h6",
+    "text": "#docs-content p, #docs-content li"
+  },
+  "conversation_id": [
+    "561379919"
+  ],
+  "nb_hits": 286
+}

@@ -1,28 +1,25 @@
 {
   "index_name": "bigtest",
   "start_urls": [
-    "https://bigtest.js.org/docs/intro.html",
-    "https://bigtest.js.org/docs/"
+    "https://bigtestjs.io/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/$"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
-      "type": "xpath",
+      "selector": ".sidebar-heading-text",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "lvl1": ".main-content h1",
+    "lvl2": ".main-content h2",
+    "lvl3": ".main-content h3",
+    "lvl4": ".main-content h4",
+    "text": ".main-content p, .main-content li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "conversation_id": [
     "527402965"
   ],
-  "nb_hits": 183
+  "nb_hits": 72
 }

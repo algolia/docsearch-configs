@@ -3,7 +3,9 @@
   "start_urls": [
     "https://v-play.net/doc/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?utm"
+  ],
   "selectors": {
     "lvl0": ".doc-page h1",
     "lvl1": ".doc-page h2",
@@ -18,5 +20,5 @@
   "conversation_id": [
     "518344062"
   ],
-  "nb_hits": 10935
+  "nb_hits": 14780
 }

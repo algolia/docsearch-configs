@@ -1,0 +1,27 @@
+{
+  "index_name": "francoischalifour",
+  "start_urls": [
+    "https://francoischalifour.com/"
+  ],
+  "sitemap_urls": [
+    "https://francoischalifour.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "a.site-nav-page-link.is-active",
+      "global": true,
+      "default_value": "Part"
+    },
+    "lvl1": "h1.header-heading",
+    "lvl2": "#post-content h2",
+    "lvl3": "#post-content h3",
+    "lvl4": "#post-content h4",
+    "text": "#post-content p, #post-content li"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "547690260"
+  ],
+  "nb_hits": 485
+}

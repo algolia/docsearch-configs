@@ -3,21 +3,40 @@
   "start_urls": [
     "http://docs.fastlane.tools/"
   ],
+  "sitemap_urls": [
+    "https://docs.fastlane.tools/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "//ul[contains(@class, 'wy-breadcrumbs')]/li[2]",
       "type": "xpath",
-      "global": true
+      "global": true,
+      "default_value": "Documentation"
     },
-    "lvl1": ".section h1",
-    "lvl2": ".section h2",
-    "lvl3": ".section h3",
+    "lvl1": {
+      "selector": ".section h1:first-of-type",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": {
+      "selector": "//*[contains(@class,'section')]//h1[not(position()=1)] | //*[contains(@class,'section')]//h2",
+      "type": "xpath"
+    },
+    "lvl3": ".section h3, .section table td:first-of-type",
     "lvl4": ".section h4",
-    "text": ".section p, .section li, .section td"
+    "text": ".section p, .section li, .section table td:nth-child(2)"
   },
+  "keep_tags": [
+    "code"
+  ],
   "scrap_start_urls": false,
-  "strip_chars": " \u00bb#",
-  "min_indexed_level": 1,
-  "nb_hits": 15226
+  "strip_chars": " \u00bb#\u00bb",
+  "selectors_exclude": [
+    "summary"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 18187
 }

@@ -1,27 +1,23 @@
 {
   "index_name": "rollup-plugin-vue",
   "start_urls": [
-    {
-      "url": "https://vuejs.github.io/rollup-plugin-vue/#/en/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "2.2",
-          "2.3"
-        ]
-      }
-    }
+    "https://vuejs.github.io/rollup-plugin-vue/"
   ],
   "selectors": {
-    "lvl0": ".content h2",
-    "lvl1": ".content h3",
-    "lvl2": ".content h4",
-    "lvl3": ".content h5",
-    "text": ".content p, .content li"
+    "lvl0": {
+      "selector": ".tsd-page-title h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".col-content h2",
+    "lvl2": ".col-content h3",
+    "lvl3": ".col-content h4",
+    "lvl4": ".col-content h5",
+    "text": ".col-content p, .col-content li"
   },
-  "min_indexed_level": 2,
-  "js_render": true,
+  "scrap_start_urls": false,
   "conversation_id": [
     "328686475"
   ],
-  "nb_hits": 39
+  "nb_hits": 93
 }

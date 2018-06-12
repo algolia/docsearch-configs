@@ -1,0 +1,14 @@
+{
+  "index_name": "equinox",
+  "start_urls": [
+    "https://equinox.io/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h2",
+    "lvl1": ".content h4",
+    "lvl2": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "nb_hits": 139
+}

@@ -5,6 +5,7 @@
       "url": "https://docs.bolt.cm/(?P<version>.*?)/getting-started/introduction",
       "variables": {
         "version": [
+          "3.5",
           "3.4",
           "3.3",
           "3.2",
@@ -18,6 +19,7 @@
       "url": "https://docs.bolt.cm/(?P<version>.*?)/.*",
       "variables": {
         "version": [
+          "3.5",
           "3.4",
           "3.3",
           "3.2",
@@ -33,10 +35,18 @@
     "lvl1": ".content h2",
     "lvl2": ".content h3",
     "lvl3": ".content h4",
-    "text": ".content p, .content code"
+    "text": ".content p, .content li, .content code"
   },
+  "js_render": true,
   "conversation_id": [
     "183246755"
   ],
-  "nb_hits": 20201
+  "selectors_exclude": [
+    ".quick-links",
+    ".community-notice"
+  ],
+  "stop_content": [
+    "404 - Page not found"
+  ],
+  "nb_hits": 56523
 }

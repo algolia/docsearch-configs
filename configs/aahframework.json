@@ -1,0 +1,59 @@
+{
+  "index_name": "aahframework",
+  "start_urls": [
+    {
+      "url": "https://docs.aahframework.org/(?P<version>.*?)",
+      "variables": {
+        "version": [
+          "v0.10",
+          "v0.9",
+          "v0.8",
+          "v0.7",
+          "v0.6",
+          "v0.5"
+        ]
+      }
+    },
+    {
+      "url": "https://docs.aahframework.org/tutorial/",
+      "tags": [
+        "tutorial"
+      ],
+      "selectors_key": "tutorial"
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.aahframework.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": ".docs-page-content h1",
+      "lvl1": ".docs-page-content h2",
+      "lvl2": ".docs-page-content h3",
+      "lvl3": ".docs-page-content h4",
+      "lvl4": ".docs-page-content h5",
+      "text": ".docs-page-content p, .docs-page-content li"
+    },
+    "tutorial": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Tutorials"
+      },
+      "lvl1": ".docs-page-content h1",
+      "lvl2": ".docs-page-content h2",
+      "lvl3": ".docs-page-content h3",
+      "lvl4": ".docs-page-content h4",
+      "text": ".docs-page-content p, .docs-page-content li"
+    }
+  },
+  "scrap_start_urls": false,
+  "selectors_exclude": [
+    "#table-of-contents",
+    "#table-of-contents + ol"
+  ],
+  "conversation_id": [
+    "543041602"
+  ],
+  "nb_hits": 8373
+}

@@ -1,0 +1,36 @@
+{
+  "index_name": "auth0",
+  "start_urls": [
+    "https://auth0.com/docs"
+  ],
+  "stop_urls": [
+    "01-.*?$",
+    "https://auth0.com/docs/quickstart/.*?/getting-started.*?$"
+  ],
+  "sitemap_urls": [
+    "https://auth0.com/docs/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".nav li.active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article.docs-content h1",
+    "lvl2": "article.docs-content h2",
+    "lvl3": "article.docs-content h3",
+    "lvl4": "article.docs-content h4",
+    "lvl5": "article.docs-content h5",
+    "text": "article.docs-content p, article.docs-content li"
+  },
+  "selectors_exclude": [
+    "#next-steps",
+    ".next-steps",
+    "#further-reading",
+    ".further-reading"
+  ],
+  "conversation_id": [
+    "568622233"
+  ],
+  "nb_hits": 31268
+}

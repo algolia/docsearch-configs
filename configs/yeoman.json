@@ -1,0 +1,24 @@
+{
+  "index_name": "yeoman",
+  "start_urls": [
+    "http://yeoman.io/"
+  ],
+  "stop_urls": [
+    "index.html$",
+    "/generator/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".main-nav .active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h2.page-title",
+    "lvl2": "#content h2:not(.page-title)",
+    "lvl3": "#content h3",
+    "lvl4": "#content h4",
+    "lvl5": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "nb_hits": 1523
+}

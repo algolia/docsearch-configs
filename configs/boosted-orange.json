@@ -1,11 +1,37 @@
 {
   "index_name": "boosted-orange",
   "start_urls": [
-    "http://boosted.orange.com/docs/4.0/"
+    {
+      "url": "http://boosted.orange.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "4.0",
+          "4.1"
+        ]
+      }
+    },
+    {
+      "url": "http://boosted.orange.com/docs/(?P<version>.*?)/getting-started/introduction/",
+      "variables": {
+        "version": [
+          "4.0",
+          "4.1"
+        ]
+      }
+    }
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "http://boosted.orange.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/examples/.+"
+  ],
   "selectors": {
-    "lvl0": "main h1",
+    "lvl0": {
+      "selector": "main h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": "main h2",
     "lvl2": "main h3",
     "lvl3": "main h4",
@@ -15,5 +41,8 @@
   "conversation_id": [
     "387252661"
   ],
-  "nb_hits": 3469
+  "selectors_exclude": [
+    ".bd-example"
+  ],
+  "nb_hits": 5910
 }

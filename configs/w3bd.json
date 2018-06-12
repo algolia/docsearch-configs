@@ -1,7 +1,7 @@
 {
   "index_name": "w3bd",
   "start_urls": [
-    "http://w3bd.com/doc"
+    "https://www.w3bd.com/public/doc/"
   ],
   "stop_urls": [
     "/\\d.\\d",
@@ -22,5 +22,5 @@
   "conversation_id": [
     "530976925"
   ],
-  "nb_hits": 177
+  "nb_hits": 159
 }

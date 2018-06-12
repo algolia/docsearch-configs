@@ -1,23 +1,35 @@
 {
   "index_name": "peregrine-api",
   "start_urls": [
-    "https://peregrine-api.zumata.com/docs"
+    {
+      "url": "https://peregrine.zumata.com/(?P<tags>.*?)",
+      "variables":{
+        "tags": [
+          "start",
+          "blog",
+          "docs"
+        ]
+      }
+    },
+    "https://peregrine.zumata.com"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "archive/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
-      "default_value": "Documentation"
+      "default_value": "Zumata Peregrine 0.2"
     },
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "text": "article p, article li"
+    "lvl1": ".content-container h1",
+    "lvl2": ".content-container h2",
+    "lvl3": ".content-container h3",
+    "lvl4": ".content-container h4, .content-container table td:first-of-type",
+    "lvl5": ".content-container h5",
+    "text": ".content-container p, .content-container li, .content-container table td:last-child"
   },
-  "min_indexed_level": 2,
   "conversation_id": [
     "385172845"
   ],
-  "nb_hits": 159
+  "nb_hits": 1506
 }

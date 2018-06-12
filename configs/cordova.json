@@ -25,7 +25,7 @@
     "lvl0": {
       "selector": "//div[contains(@class,'docs')]/div/ul[contains(@class,'site-toc')]/li[.//a[@class='this-page']]/*[contains(@class,'toc-section-heading')]",
       "type": "xpath",
-      "globa": true,
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": "#page-toc-source h1",
@@ -38,5 +38,5 @@
   "conversation_id": [
     "192288401"
   ],
-  "nb_hits": 338854
+  "nb_hits": 371682
 }

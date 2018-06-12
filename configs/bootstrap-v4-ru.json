@@ -1,7 +1,15 @@
 {
   "index_name": "bootstrap-v4-ru",
   "start_urls": [
-    "http://bootstrap-4.ru/docs/4.0/"
+    {
+      "url": "http://bootstrap-4.ru/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "4.1",
+          "4.0"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,5 +23,5 @@
   "conversation_id": [
     "423628659"
   ],
-  "nb_hits": 3062
+  "nb_hits": 6200
 }

@@ -1,27 +1,35 @@
 {
   "index_name": "antora",
   "start_urls": [
-    "https://docs.antora.org"
+    {
+      "url": "https://docs.antora.org/antora/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "1.0"
+        ]
+      }
+    },
+    "https://docs.antora.org/antora-ui-default/"
   ],
-  "stop_urls": [],
   "sitemap_urls": [
     "https://docs.antora.org/sitemap.xml"
   ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav[contains(@class, 'nav-menu')]//li[contains(@class, 'is-current-page')][1]/preceding::a[contains(@class, 'nav-link')][1]",
+      "selector": "//nav[@class='crumbs']//li[@class='crumb'][last()-1]",
       "type": "xpath",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Home"
     },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "text": "article p, article li"
+    "lvl1": ".doc h1",
+    "lvl2": ".doc h2",
+    "lvl3": ".doc h3",
+    "lvl4": ".doc h4",
+    "text": ".doc p, .doc td.content, .doc th.tableblock"
   },
   "conversation_id": [
     "523678556"
   ],
-  "nb_hits": 1970
+  "nb_hits": 2347
 }

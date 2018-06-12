@@ -1,23 +1,37 @@
 {
   "index_name": "bazel",
   "start_urls": [
-    "https://www.bazel.build/",
-    "https://docs.bazel.build/"
+    "https://docs.bazel.build/",
+    "https://bazel.build"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\.gpg"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "(//nav[contains(@id, 'sidebar')]//li[contains(@class, 'active')][1]/preceding::h3[1]|//div[contains(@class,'page-title-bar')]//h1)[1]",
-      "type": "xpath",
+      "selector": ".page-title-bar h1",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".container div[class$='-9'] h1",
-    "lvl2": ".container div[class$='-9'] h2",
-    "lvl3": ".container div[class$='-9'] h3",
-    "lvl4": ".container div[class$='-9'] h4",
+    "lvl1": {
+      "selector": "//*[contains(@class, 'sidebar-nav')]//li[contains(@class, 'active')][1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Introduction"
+    },
+    "lvl2": ".container div[class$='-9'] h1",
+    "lvl3": ".container div[class$='-9'] h2",
+    "lvl4": ".container div[class$='-9'] h3",
+    "lvl5": ".container div[class$='-9'] h4",
     "text": ".container div[class$='-9'] p, .container div[class$='-9'] li"
   },
+  "stop_content": [
+    "404 - Page not found"
+  ],
+  "selectors_exclude": [
+    ".toc"
+  ],
+  "js_render": true,
   "only_content_level": true,
-  "nb_hits": 7914
+  "nb_hits": 9637
 }

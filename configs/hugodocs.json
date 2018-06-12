@@ -19,8 +19,8 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p"
+    "lvl5": "article h5, article dt",
+    "text": "article p, article dd, article code"
   },
   "selectors_exclude": [
     ".footer-panel",
@@ -32,5 +32,5 @@
   "conversation_id": [
     "154679933"
   ],
-  "nb_hits": 3080
+  "nb_hits": 9008
 }

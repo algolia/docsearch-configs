@@ -1,0 +1,28 @@
+{
+  "index_name": "bb_ffbb",
+  "start_urls": [
+    "https://bb-ffbb.github.io/rules/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section:first-of-type h1",
+    "lvl1": "section:first-of-type h2",
+    "lvl2": "section:first-of-type h3",
+    "lvl3": "section:first-of-type h4",
+    "lvl4": "section:first-of-type h5",
+    "text": "section:first-of-type p, section:first-of-type li"
+  },
+  "selectors_exclude": [
+    "#version-fran\u00e7aise",
+    "#approuv\u00e9-par",
+    "#le-bureau-central-de-la-fiba",
+    "#cette-version-du-r\u00e8glement-officiel-de-basketball-en-langue-fran\u00e7aise-est",
+    "#une-traduction-par-la-f\u00e9d\u00e9ration-fran\u00e7aise-de-basketball-du-r\u00e8glement",
+    "#officiel-du-basketball-201-7-de-la-fiba",
+    "#elle-ne-saurait-suppl\u00e9er-la-version-anglaise-de-la-fiba-qui-fera-foi-en-cas"
+  ],
+  "conversation_id": [
+    "590403724"
+  ],
+  "nb_hits": 761
+}

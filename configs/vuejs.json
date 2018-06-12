@@ -17,7 +17,28 @@
           "v2"
         ]
       }
+    },
+    {
+      "url": "https://vuejs.org/(?P<version>.*?)/style-guide/",
+      "variables": {
+        "version": [
+          "v2"
+        ]
+      }
+    },
+    {
+      "url": "https://vuejs.org/(?P<version>.*?)/cookbook/",
+      "variables": {
+        "version": [
+          "v2"
+        ]
+      }
     }
+  ],
+  "stop_urls": [
+    "api/index.html$",
+    "guide/index.html$",
+    "cookbook/index.html$"
   ],
   "selectors": {
     "lvl0": {
@@ -37,5 +58,5 @@
   "conversation_id": [
     "322242916"
   ],
-  "nb_hits": 2085
+  "nb_hits": 3000
 }

@@ -13,11 +13,11 @@
     "text": ".content p, .content li, .article p, .article li"
   },
   "min_indexed_level": 1,
-  "css_exclude": [
+  "selectors_exclude": [
     ".dark-box"
   ],
   "conversation_id": [
     "483909637"
   ],
-  "nb_hits": 2863
+  "nb_hits": 3371
 }

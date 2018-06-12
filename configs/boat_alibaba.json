@@ -5,7 +5,9 @@
     "https://boat.alibaba.com/doc/api",
     "https://boat.alibaba.com/doc/rax-api"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "%"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//aside//li[contains(@class,'active')]//preceding::h3[contains(@class,'title')][1]",
@@ -25,5 +27,5 @@
   "conversation_id": [
     "479154192"
   ],
-  "nb_hits": 677
+  "nb_hits": 842
 }

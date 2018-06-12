@@ -1,0 +1,22 @@
+{
+  "index_name": "jss",
+  "start_urls": [
+    "https://jss-docs-preview3.herokuapp.com"
+  ],
+  "stop_urls": [
+    "\\?id",
+    "\\.\\."
+  ],
+  "selectors": {
+    "lvl0": ".markdown-section h1",
+    "lvl1": ".markdown-section h2",
+    "lvl2": ".markdown-section h3",
+    "lvl3": ".markdown-section h4",
+    "lvl4": ".markdown-section h5",
+    "text": ".markdown-section p, .markdown-section li, .markdown-section ul, .markdown-section ol, .markdown-section blockquote"
+  },
+  "conversation_id": [
+    "545272384"
+  ],
+  "nb_hits": 2989
+}

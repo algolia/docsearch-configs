@@ -12,22 +12,36 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".nav-sidebar > li.active > a",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": ".nav-sidebar > li.active > a",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "section h1",
+      "lvl2": "section h2",
+      "lvl3": "section h3",
+      "lvl4": "section h4",
+      "text": "section p, section li"
     },
-    "lvl1": "section h1",
-    "lvl2": "section h2",
-    "lvl3": "section h3",
-    "lvl4": "section h4",
-    "text": "section p, section li"
+    "blog": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Blog"
+      },
+      "lvl1": ".blog-post h1",
+      "lvl2": ".blog-post h3",
+      "lvl3": ".blog-post h4",
+      "text": ".blog-post p, blog-post li"
+    }
   },
   "selectors_exclude": [
-    ".breadcrumb"
+    ".breadcrumb",
+    "#contents"
   ],
+  "strip_chars": " .,;:#\ud83c\udf89 ",
   "conversation_id": [
     "536850996"
   ],
-  "nb_hits": 5497
+  "nb_hits": 5496
 }

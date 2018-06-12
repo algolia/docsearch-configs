@@ -2,6 +2,8 @@
 
 This is the repository hosting the public [DocSearch](https://community.algolia.com/docsearch/) configurations.
 
+**Update** You can check [the DocSearch dedicated documentation website](https://community.algolia.com/docsearch/documentation/docsearch-scraper/config-options/)
+
 DocSearch is composed of 3 different projects:
 * The front-end JavaScript library: https://github.com/algolia/docsearch
 * The scraper which browses & indexes web pages: https://github.com/algolia/docsearch-scraper
@@ -255,7 +257,9 @@ Default is `false`
 
 ### `nb_hits`
 
-The number of object that should be indexed. Only used by the [`checker`](#checker).
+Each time the configuration is locally run, this attribute is set to the number of records indexed.
+
+This attribute is used for purposed monitoring. We keep a track of its evolution in order to detect main changes.
 
 Default is `0`.
 
@@ -263,9 +267,7 @@ Default is `0`.
 
 #### Duplicated content
 
-It could happen that the crawled website returned duplicated data. Most of the time, this is because the crawled pages got the same urls with two different schemes.
-
-If we have URLs like `http://website.com/page` and `http://website.com/page/` (notice the second one ending with `/`), the scrapper will consider them as different. This can be fixed by adding a regex to the `stop_urls` in the `config.json`:
+It could happen that the crawling populates duplicated data from your website. This is mostly because we have crawled the same page several times (e.g. from different urls). If we have URLs like `http://website.com/page` and `http://website.com/page/` (notice the trailing `/` from the second one), the scraper will consider them as different. This can be fixed by adding a regex to the `stop_urls` in your `config.json`:
 
 ```json
 "stop_urls": [

@@ -1,8 +1,38 @@
 {
   "index_name": "bucklescript",
   "start_urls": [
-    "https://bucklescript.github.io/docs/en/installation.html",
-    "https://bucklescript.github.io/docs/en/"
+    {
+      "url": "https://bucklescript.github.io/docs/(?P<lang>.*?)/installation.html",
+      "variables": {
+        "lang": [
+          "en",
+          "ja",
+          "es-ES",
+          "fr",
+          "ko",
+          "pt-BR",
+          "ru",
+          "zh-CN",
+          "zh-TW"
+        ]
+      }
+    },
+    {
+      "url": "https://bucklescript.github.io/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "ja",
+          "es-ES",
+          "fr",
+          "ko",
+          "pt-BR",
+          "ru",
+          "zh-CN",
+          "zh-TW"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -23,5 +53,5 @@
   "conversation_id": [
     "354009870"
   ],
-  "nb_hits": 927
+  "nb_hits": 8197
 }

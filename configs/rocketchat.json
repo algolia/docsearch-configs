@@ -1,7 +1,8 @@
 {
   "index_name": "rocketchat",
   "start_urls": [
-    "https://rocket.chat/docs/"
+    "https://rocket.chat/docs/",
+    "https://rocket.chat/handbook/"
   ],
   "stop_urls": [
     "https://rocket.chat/docs/installation/automation-tools/vagrant/vagrantfile"
@@ -26,5 +27,5 @@
   "conversation_id": [
     "221620997"
   ],
-  "nb_hits": 5040
+  "nb_hits": 6952
 }

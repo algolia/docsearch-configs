@@ -1,23 +1,25 @@
 {
   "index_name": "dplayer",
   "start_urls": [
-    "http://dplayer.js.org/"
+    "http://dplayer.js.org/#/home",
+    "http://dplayer.js.org/#"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".markdown-body h1",
     "lvl1": ".markdown-body h2",
-    "lvl2": ".markdown-body h3",
+    "lvl2": ".markdown-body h3, .markdown-body table td:first-of-type",
     "lvl3": ".markdown-body h4",
     "lvl4": ".markdown-body h5",
-    "text": ".markdown-body p, .markdown-body li"
+    "text": ".markdown-body p, .markdown-body li, .markdown-body table td:last-child"
   },
   "selectors_exclude": [
     "#sponsor",
     "#sponsor + table"
   ],
+  "js_render": true,
   "conversation_id": [
     "530949399"
   ],
-  "nb_hits": 35
+  "nb_hits": 220
 }

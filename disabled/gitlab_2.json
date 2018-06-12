@@ -1,0 +1,73 @@
+{
+  "index_name": "gitlab_2",
+  "start_urls": [
+    {
+      "url": "https://docs.gitlab.com/ee/",
+      "selectors_key": "gitlab",
+      "tags": [
+        "gitlab"
+      ],
+      "extra_attributes": {
+        "product": "GitLab"
+      }
+    },
+    {
+      "url": "https://docs.gitlab.com/omnibus/",
+      "selectors_key": "omnibus",
+      "tags": [
+        "omnibus"
+      ],
+      "extra_attributes": {
+        "product": "Omnibus GitLab"
+      }
+    },
+    {
+      "url": "https://docs.gitlab.com/runner/",
+      "selectors_key": "runner",
+      "tags": [
+        "runner"
+      ],
+      "extra_attributes": {
+        "product": "GitLab Runner"
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.gitlab.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "https://docs.gitlab.com/ee/$",
+    "https://docs.gitlab.com/omnibus/$",
+    "https://docs.gitlab.com/runner/$",
+    "https://.*?//.*?$",
+    ".*^(?!.*html)"
+  ],
+  "selectors": {
+    "lvl0": ".main h1",
+    "lvl1": ".main h2",
+    "lvl2": ".main h3",
+    "lvl3": ".main h4",
+    "lvl4": ".main h5",
+    "text": ".main p, .main li"
+  },
+  "stop_content": [
+    "This document was moved to",
+    "This section is now merged into",
+    "404 Not Found"
+  ],
+  "scrap_start_urls": false,
+  "only_content_level": true,
+  "custom_settings": {
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "tags"
+    ]
+  },
+  "conversation_id": [
+    "434475832"
+  ],
+  "nb_hits": 33833
+}

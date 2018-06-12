@@ -1,0 +1,32 @@
+{
+  "index_name": "nth_iteration_labs_contextual",
+  "start_urls": [
+    "https://nth-iteration-labs.github.io/contextual/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".contents h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents th",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h5",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+  },
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "sitemap_urls": [
+    "https://nth-iteration-labs.github.io/contextual/sitemap.xml"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "578229952"
+  ],
+  "nb_hits": 447
+}

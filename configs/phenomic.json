@@ -1,26 +1,28 @@
 {
   "index_name": "phenomic",
   "start_urls": [
-    "https://phenomic.io/docs/usage/"
+    "https://phenomic.io/en/tutorials/",
+    "https://phenomic.io/en/packages/",
+    "https://phenomic.io/en/plugins/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": "h1",
+      "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "h1",
-    "lvl2": ".phenomic-BodyContainer h2",
-    "lvl3": ".phenomic-BodyContainer h3",
-    "lvl4": ".phenomic-BodyContainer h4",
-    "lvl5": ".phenomic-BodyContainer h5",
-    "text": ".phenomic-BodyContainer p, .phenomic-BodyContainer li"
+    "lvl1": ".phenomic-Markdown h2",
+    "lvl2": ".phenomic-Markdown h3",
+    "lvl3": ".phenomic-Markdown h4",
+    "lvl4": ".phenomic-Markdown h5",
+    "text": ".phenomic-Markdown p, .phenomic-Markdown li"
   },
   "selectors_exclude": [
     ".phenomic-HeadingAnchor"
   ],
   "conversation_id": [
-    "252475182"
+    "591087174"
   ],
-  "nb_hits": 276
+  "nb_hits": 286
 }

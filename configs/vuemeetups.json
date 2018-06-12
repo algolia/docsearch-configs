@@ -1,0 +1,28 @@
+{
+  "index_name": "vuemeetups",
+  "start_urls": [
+    "https://www.vuemeetups.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".page .content h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".page .content h2",
+    "lvl2": ".page .content h3, .page .content p.custom-block-title",
+    "lvl3": ".page .content h4",
+    "lvl4": ".page .content h5",
+    "text": ".page .content p:not(.custom-block-title), .page .content li"
+  },
+  "selectors_exclude": [
+    "#table-of-contents",
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "590230255"
+  ],
+  "nb_hits": 233
+}

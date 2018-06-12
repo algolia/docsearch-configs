@@ -1,0 +1,28 @@
+{
+  "index_name": "asyncy",
+  "start_urls": [
+    "https://docs.asyncy.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".page .content h1",
+    "lvl2": ".page .content h2",
+    "lvl3": ".page .content h3, .page .content p.custom-block-title",
+    "lvl4": ".page .content h4",
+    "text": ".page .content p:not(.custom-block-title), .page .content li"
+  },
+  "conversation_id": [
+    "582651865"
+  ],
+  "selectors_exclude": [
+    "#table-of-contents",
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "nb_hits": 182
+}

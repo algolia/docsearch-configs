@@ -1,0 +1,29 @@
+{
+  "index_name": "virustotal",
+  "start_urls": [
+    "https://themains.github.io/virustotal/"
+  ],
+  "stop_urls": [
+    "https://themains.github.io/virustotal/index.html",
+    "LICENSE-text.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".contents h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents th, .contents dt",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h4",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+  },
+  "selectors_exclude": [
+    ".dont-index",
+    "#see-also"
+  ],
+  "conversation_id": [
+    "552338011"
+  ],
+  "nb_hits": 258
+}

@@ -13,11 +13,11 @@
   },
   "min_indexed_level": 1,
   "js_render": true,
-  "css_exclude": [
+  "selectors_exclude": [
     ".dxb-codesplit"
   ],
   "conversation_id": [
     "460415949"
   ],
-  "nb_hits": 4635
+  "nb_hits": 4237
 }

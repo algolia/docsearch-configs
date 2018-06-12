@@ -3,7 +3,9 @@
   "start_urls": [
     "https://aerialcss.algolia.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    ".com/index.html$"
+  ],
   "selectors_exclude": [
     ".anchor"
   ],
@@ -15,5 +17,5 @@
     "text": "article p, article li"
   },
   "js_render": true,
-  "nb_hits": 528
+  "nb_hits": 517
 }

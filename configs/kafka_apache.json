@@ -1,0 +1,30 @@
+{
+  "index_name": "kafka_apache",
+  "start_urls": [
+    "https://kafka.apache.org/11/documentation/",
+    "https://kafka.apache.org/intro",
+    "https://kafka.apache.org/uses",
+    "https://kafka.apache.org/quickstart"
+  ],
+  "stop_urls": [
+    "/javadoc/",
+    ".html$"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude": [
+    ".toc"
+  ],
+  "conversation_id": [
+    "583195587"
+  ],
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 2967
+}

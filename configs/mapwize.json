@@ -1,0 +1,19 @@
+{
+  "index_name": "mapwize",
+  "start_urls": [
+    "https://docs.mapwize.io/doc/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs-container h1",
+    "lvl1": ".docs-container h2",
+    "lvl2": ".docs-container h3",
+    "lvl3": ".docs-container h4",
+    "lvl4": ".docs-container h5",
+    "text": ".docs-container p, .docs-container li"
+  },
+  "conversation_id": [
+    "590813907"
+  ],
+  "nb_hits": 854
+}

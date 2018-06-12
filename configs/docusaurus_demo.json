@@ -1,21 +1,52 @@
 {
   "index_name": "docusaurus_demo",
   "start_urls": [
-    "https://joelmarcey.github.io/docusaurus-demo"
+    {
+      "url": "https://joelmarcey.github.io/docusaurus-demo/docs/",
+      "extra_attributes": {
+        "version": [
+          "latest"
+        ]
+      }
+    },
+    {
+      "url": "https://joelmarcey.github.io/docusaurus-demo/docs/doc1.html",
+      "extra_attributes": {
+        "version": [
+          "latest"
+        ]
+      }
+    },
+    {
+      "url": "https://joelmarcey.github.io/docusaurus-demo/blog/",
+      "tags": [
+        "blog"
+      ]
+    }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "help",
+    "users"
+  ],
+  "sitemap_urls": [
+    "https://joelmarcey.github.io/docusaurus-demo/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Blog"
     },
-    "lvl1": ".post h1",
+    "lvl1": {
+      "selector": ".post h1",
+      "global": true,
+      "default_value": "Blog"
+    },
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "text": ".post p, .post li"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -23,5 +54,5 @@
   "conversation_id": [
     "516502774"
   ],
-  "nb_hits": 76
+  "nb_hits": 60
 }

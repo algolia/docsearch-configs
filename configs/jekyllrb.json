@@ -1,7 +1,11 @@
 {
   "index_name": "jekyllrb",
   "start_urls": [
-    "https://jekyllrb.com/docs/"
+    "https://jekyllrb.com/docs/",
+    "https://jekyllrb.com/tutorials/"
+  ],
+  "sitemap_urls": [
+    "https://jekyllrb.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -25,5 +29,5 @@
   "conversation_id": [
     "458711688"
   ],
-  "nb_hits": 4266
+  "nb_hits": 4959
 }

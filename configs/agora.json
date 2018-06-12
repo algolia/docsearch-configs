@@ -23,7 +23,7 @@
     "\\?platform"
   ],
   "selectors": {
-    "lvl0": ".select.products>.cur",
+    "lvl0": ".select.products > .cur",
     "lvl1": ".level1.cur",
     "lvl2": ".level2.cur",
     "lvl3": ".level3.cur",
@@ -34,5 +34,5 @@
   "conversation_id": [
     "520965188"
   ],
-  "nb_hits": 54229
+  "nb_hits": 16313
 }

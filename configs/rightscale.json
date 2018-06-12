@@ -3,7 +3,10 @@
   "start_urls": [
     "http://docs.rightscale.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "http://docs.rightscale.com/policies.*",
+    "http://docs.rightscale.com/platform/roadmap.*"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "nav h4 span",
@@ -40,5 +43,5 @@
   "conversation_id": [
     "426492916"
   ],
-  "nb_hits": 47649
+  "nb_hits": 48601
 }

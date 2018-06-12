@@ -1,0 +1,56 @@
+{
+  "index_name": "collab",
+  "start_urls": [
+    {
+      "url": "http://docs.collab.net/dlm174/",
+      "tags": [
+        "dlm17.4"
+      ]
+    },
+    {
+      "url": "http://docs.collab.net/dlm178/",
+      "tags": [
+        "dlm17.8"
+      ]
+    },
+    {
+      "url": "http://docs.collab.net/dlm20-integrations/",
+      "tags": [
+        "dlm2.0"
+      ]
+    },
+    {
+      "url": "http://docs.collab.net/teamforge181/",
+      "tags": [
+        "teamforge181"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "http://docs.collab.net/teamforge181/index.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='mysidebar']/li/ul/li[contains(@class, 'active')]/a/../../../a",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "//*[@id='mysidebar']/li/ul/li[contains(@class, 'active')]/a",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl2": "#tg-sb-content h1",
+    "lvl3": "#tg-sb-content h2",
+    "lvl4": "#tg-sb-content h3",
+    "lvl5": "#tg-sb-content h4",
+    "lvl6": "#tg-sb-content h5",
+    "text": "#tg-sb-content p, #tg-sb-content li"
+  },
+  "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "555093088"
+  ],
+  "nb_hits": 17796
+}

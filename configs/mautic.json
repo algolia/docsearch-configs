@@ -1,0 +1,38 @@
+{
+  "index_name": "mautic",
+  "start_urls": [
+    {
+      "url": "https://www.mautic.org/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "jp",
+          "fr"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class,'summary')]/li[.//*[contains(@class,'active')]]/a | //ul[contains(@class,'summary')]/li[contains(@class,'active')]/a ",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "#section- h1",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": "#section- h2",
+    "lvl3": "#section- h3",
+    "lvl4": "#section- h4",
+    "lvl5": "#section- h5",
+    "text": "#section- p, #section- li"
+  },
+  "conversation_id": [
+    "595949678"
+  ],
+  "nb_hits": 4159
+}

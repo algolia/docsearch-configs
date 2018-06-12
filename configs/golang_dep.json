@@ -4,7 +4,9 @@
     "https://golang.github.io/dep/docs/introduction.html",
     "https://golang.github.io/dep/docs/"
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://golang.github.io/dep/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
@@ -24,5 +26,5 @@
   "conversation_id": [
     "522514993"
   ],
-  "nb_hits": 770
+  "nb_hits": 804
 }
