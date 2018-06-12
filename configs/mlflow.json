@@ -1,0 +1,22 @@
+{
+  "index_name": "mlflow",
+  "start_urls": [
+    "https://mlflow.org/docs/latest"
+  ],
+  "sitemap_urls": [
+    "https://mlflow.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[itemprop='articleBody'] h1",
+    "lvl1": "[itemprop='articleBody'] h2",
+    "lvl2": "[itemprop='articleBody'] h3",
+    "lvl3": "[itemprop='articleBody'] h4",
+    "lvl4": "[itemprop='articleBody'] h5",
+    "text": "[itemprop='articleBody'] p, [itemprop='articleBody'] li"
+  },
+  "conversation_id": [
+    "576106937"
+  ],
+  "nb_hits": 483
+}
