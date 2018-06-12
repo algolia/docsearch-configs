@@ -2,7 +2,7 @@
   "index_name": "docusaurus",
   "start_urls": [
     {
-      "url": "https://docusaurus.io/docs/(?P<lang>.*?)/installation",
+      "url": "https://docusaurus.io/docs/(?P<lang>.*?)/",
       "variables": {
         "lang": [
           "en"
