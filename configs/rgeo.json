@@ -1,7 +1,7 @@
 {
   "index_name": "rgeo",
   "start_urls": [
-    "https://dongzhuoer.github.io/rGEO.data"
+    "https://dongzhuoer.github.io/rGEO/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -19,13 +19,13 @@
     ".dont-index"
   ],
   "sitemap_urls": [
-    "https://dongzhuoer.github.io/rGEO.datasitemap.xml"
+    "https://dongzhuoer.github.io/rGEO/sitemap.xml"
   ],
   "custom_settings": {
     "separatorsToIndex": "_"
   },
   "conversation_id": [
-    "599467720"
+    "599590874"
   ],
-  "nb_hits": 76
+  "nb_hits": 130
 }
