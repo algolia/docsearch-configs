@@ -29,7 +29,7 @@
     "/users",
     "https://docusaurus.io/docs/en/[0-9].*",
     "https://docusaurus.io/docs/en/next",
-    "^((?!\\.html).)*$"
+    ".html$"
   ],
   "sitemap_urls": [
     "https://docusaurus.io/sitemap.xml"
@@ -53,5 +53,5 @@
   "conversation_id": [
     "415526327"
   ],
-  "nb_hits": 579
+  "nb_hits": 591
 }
