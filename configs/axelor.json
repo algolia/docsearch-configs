@@ -1,0 +1,29 @@
+{
+  "index_name": "axelor",
+  "start_urls": [
+    "http://docs.axelor.com/adk/5.0/"
+  ],
+  "sitemap_urls": [
+    "http://docs.axelor.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/javadoc/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav > ul > li:nth-child(2) > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article.doc h1",
+    "lvl2": "article.doc h2",
+    "lvl3": "article.doc h3",
+    "lvl4": "article.doc h4",
+    "lvl5": "article.doc h5",
+    "text": "article.doc p, article.doc li"
+  },
+  "conversation_id": [
+    "598004250"
+  ],
+  "nb_hits": 3193
+}
