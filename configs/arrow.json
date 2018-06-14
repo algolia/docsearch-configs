@@ -1,0 +1,24 @@
+{
+  "index_name": "arrow",
+  "start_urls": [
+    "https://arrow-kt.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".sidebar-nav > .active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-content h2",
+    "lvl2": ".doc-content h3",
+    "lvl3": ".doc-content h4",
+    "lvl4": ".doc-content h5",
+    "text": ".doc-content p, .doc-content li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "601115880"
+  ],
+  "nb_hits": 3777
+}
