@@ -3,24 +3,33 @@
   "start_urls": [
     {
       "url": "https://eslint.org/blog/",
-      "tags": "blog",
+      "tags": [
+        "blog"
+      ],
       "selectors_key": "blog"
     },
     {
-      "url": "https://eslint.org/docs/(?P<version>.*?)/",
+      "url": "https://eslint.org/docs/(?P<area>.*?)/",
       "variables": {
-        "version": [
-          "3.0.0",
-          "2.0.0",
-          "1.0.0"
+        "area": [
+          "rules",
+          "user-guide",
+          "developer-guide",
+          "maintainer-guide"
         ]
-      }
+      },
+      "tags": [
+        "docs"
+      ]
     }
   ],
   "sitemap_urls": [
     "https://eslint.org/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    ".html$",
+    "https://eslint.org/docs/\\d"
+  ],
   "selectors": {
     "default": {
       "lvl0": "main article h1",
@@ -45,5 +54,5 @@
     }
   },
   "scrap_start_urls": false,
-  "nb_hits": 28652
+  "nb_hits": 17911
 }
