@@ -17,10 +17,10 @@
   },
   "selectors_exclude": [
     "#summary-table-of-contents",
-    "footer"    
+    "footer"
   ],
   "conversation_id": [
     "586226926"
   ],
-  "nb_hits": 2310
+  "nb_hits": 2260
 }
