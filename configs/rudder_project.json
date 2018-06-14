@@ -42,6 +42,12 @@
       "tags": [
         "v4.2"
       ]
+    },
+    {
+      "url": "https://www.rudder-project.org/doc-4.3/",
+      "tags": [
+        "v4.3"
+      ]
     }
   ],
   "selectors": {
@@ -53,11 +59,12 @@
     "text": ".section p"
   },
   "selectors_exclude": [
-    ".bigtitle"
+    ".bigtitle",
+    ".toc"
   ],
   "min_indexed_level": 1,
   "conversation_id": [
     "304263392"
   ],
-  "nb_hits": 8852
+  "nb_hits": 17928
 }
