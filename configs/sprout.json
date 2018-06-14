@@ -15,6 +15,10 @@
     "lvl4": ".bd-content h5",
     "text": ".bd-content p, .bd-content li"
   },
+  "selectors_exclude": [
+    "#summary-table-of-contents",
+    "footer"    
+  ],
   "conversation_id": [
     "586226926"
   ],
