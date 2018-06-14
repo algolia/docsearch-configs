@@ -1,0 +1,44 @@
+{
+  "index_name": "editey",
+  "start_urls": [
+    {
+      "url": "http://help.editey.com/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "de"
+        ]
+      }
+    },
+    "http://help.editey.com/en/guides/overview.html"
+  ],
+  "stop_urls": [
+    "/pricing/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "header .navbar-nav li.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".fs-sub-sidebar a[aria-expanded=true]",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": "[role='main'] h1",
+    "lvl3": "[role='main'] h3",
+    "lvl4": "[role='main'] h4",
+    "lvl5": "[role='main'] h5",
+    "text": "[role='main'] p, [role='main'] li"
+  },
+  "only_content_level": true,
+  "selectors_exclude": [
+    "#feedback",
+    "#feedback ~ p"
+  ],
+  "conversation_id": [
+    "599553747"
+  ],
+  "nb_hits": 301
+}
