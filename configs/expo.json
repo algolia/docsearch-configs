@@ -1,8 +1,8 @@
 {
   "index_name": "expo",
   "start_urls": [
-    "https://docs.expo.io/versions/v27.0.0/introduction/installation",
-    "https://docs.expo.io/versions/v27.0.0/"
+    "https://docs.expo.io/versions/v28.0.0/introduction/installation",
+    "https://docs.expo.io/versions/v28.0.0/"
   ],
   "stop_urls": [],
   "selectors": {
