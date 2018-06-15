@@ -46,10 +46,6 @@
         "default_value": "Blog"
       },
       "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "lvl5": "main article h5",
       "text": "main article p, main article li"
     }
   },
