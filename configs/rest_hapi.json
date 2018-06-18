@@ -1,5 +1,5 @@
 {
-  "index_name": "react_hapi",
+  "index_name": "rest_hapi",
   "start_urls": [
     "https://resthapi.com/docs/quick-start.html",
     "https://resthapi.com/docs/"
