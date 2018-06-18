@@ -7,27 +7,34 @@
   "sitemap_urls": [
     "https://babeljs.io/sitemap.xml"
   ],
+  "keep_tags": [
+    "code"
+  ],
   "stop_urls": [
-    ".*?[^/]$"
+    "https://babeljs.io/docs/en/next/",
+    "html$",
+    "http://babeljs.io/docs/.+/$"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//ul[contains(@class, 'navbar-nav')]/li[contains(@class, 'active')]/a",
-      "type": "xpath"
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Blog"
     },
-    "lvl1": ".docs-header h1",
-    "lvl2": ".docs-content h2",
-    "lvl3": ".docs-content h3",
-    "lvl4": ".docs-content h4",
-    "lvl5": ".docs-content h4",
-    "text": ".docs-content p, .docs-content li, .docs-header p"
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
-    "blockquote"
+    "blockquote",
+    ".hash-link"
   ],
   "min_indexed_level": 1,
   "conversation_id": [
     "276264648"
   ],
-  "nb_hits": 3047
+  "nb_hits": 2677
 }
