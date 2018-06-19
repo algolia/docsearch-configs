@@ -1,11 +1,11 @@
 {
   "index_name": "nebular",
   "start_urls": [
-    "https://akveo.github.io/nebular/#/docs/"
+    "https://akveo.github.io/nebular/docs/"
   ],
   "stop_urls": [
     "/themes/",
-    "https://akveo.github.io/nebular/#/docs/.*#.*"
+    "https://akveo.github.io/nebular/docs/.*#.*"
   ],
   "selectors": {
     "lvl0": {
