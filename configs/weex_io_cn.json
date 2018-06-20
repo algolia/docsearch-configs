@@ -14,9 +14,17 @@
       ]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "references/$",
+    "references/index.html$"
+  ],
   "selectors": {
-    "lvl0": ".doc-nav h2",
+    "lvl0": {
+      "selector": "//div[@id='sidebar']//a[contains(@class, 'sidebar-link')][contains(@class, 'current')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": ".article-header h1",
     "lvl2": ".article-entry h2",
     "lvl3": ".article-entry h3",
@@ -26,5 +34,5 @@
   "conversation_id": [
     "383434683"
   ],
-  "nb_hits": 2712
+  "nb_hits": 2394
 }
