@@ -1,6 +1,7 @@
 {
   "index_name": "mlflow",
   "start_urls": [
+    "https://mlflow.org/docs/latest/",
     "https://mlflow.org/docs/latest/index.html"
   ],
   "sitemap_urls": [
@@ -18,5 +19,5 @@
   "conversation_id": [
     "576106937"
   ],
-  "nb_hits": 483
+  "nb_hits": 511
 }
