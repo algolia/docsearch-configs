@@ -48,10 +48,10 @@
   },
   "selectors_exclude": [
     "#next-steps",
-    "#next-steps + p",
+    "#next-steps + p"
   ],
   "conversation_id": [
     "541109950"
   ],
-  "nb_hits": 2383
+  "nb_hits": 2348
 }
