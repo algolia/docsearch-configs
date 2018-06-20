@@ -1,0 +1,88 @@
+{
+  "index_name": "docusaurus_meta",
+  "start_urls": [
+    {
+      "url": "https://docusaurus.io/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "es-ES",
+          "ro",
+          "tr",
+          "zh-CN"
+        ]
+      },
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://docusaurus.io/docs/(?P<lang>.*?)/installation",
+      "variables": {
+        "lang": [
+          "en",
+          "es-ES",
+          "ro",
+          "tr",
+          "zh-CN"
+        ]
+      },
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://docusaurus.io/(?P<lang>.*?)/versions",
+      "variables": {
+        "lang": [
+          "en",
+          "es-ES",
+          "ro",
+          "tr",
+          "zh-CN"
+        ]
+      }
+    },
+    {
+      "url": "https://docusaurus.io/blog/",
+      "tags": [
+        "blog"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "/help",
+    "/users",
+    ".html$"
+  ],
+  "sitemap_urls": [
+    "https://docusaurus.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Blog"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link",
+    ".versionsContainer"
+  ],
+  "conversation_id": [
+    "415526327"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "nb_hits": 37628
+}
