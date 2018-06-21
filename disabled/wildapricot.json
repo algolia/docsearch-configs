@@ -2,32 +2,32 @@
   "index_name": "wildapricot",
   "start_urls": [
     {
-      "url": "https://help.wildapricot.com/display/DOC/Browser\\+application\\+release\\+history",
-      "page_rank": -1
-    },
-    "https://help.wildapricot.com/display/DOC/Home",
-    "https://help.wildapricot.com/display/DOC"
+      "url": "http://gethelp.wildapricot.com/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      }
+    }
   ],
-  "stop_urls": [
-    "from=.*$",
-    "Update+.*$",
-    "Release+.*$",
-    "sessionid=.*$"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".wiki-content h1",
+      "selector": ".category-title h4",
+      "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".wiki-content h2",
-    "lvl2": ".wiki-content h3",
-    "lvl3": ".wiki-content h4",
-    "text": ".wiki-content p, .wiki-content li"
+    "lvl1": "#js-article-content h1",
+    "lvl2": "#js-article-content h2",
+    "lvl3": "#js-article-content h3",
+    "lvl4": "#js-article-content h4",
+    "text": "#js-article-content p, #js-article-content li"
   },
-  "scrap_start_urls": false,
-  "strict": true,
-  "js_render": true,
-  "min_indexed_level": 2,
-  "ignore_nb_hits_issue": true,
-  "nb_hits": 29736
+  "selectors_exclude": [
+    "#toc"
+  ],
+  "conversation_id": [
+    "510586182"
+  ],
+  "nb_hits": 19553
 }
