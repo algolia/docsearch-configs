@@ -2,17 +2,17 @@
   "index_name": "getkong",
   "start_urls": [
     {
-      "url": "https://getkong.org/docs/(?P<version>.*?)/",
+      "url": "https://docs.konghq.com/(?P<version>.*?)/",
       "variables": {
         "version": {
-          "url": "https://getkong.org/docs/",
+          "url": "https://docs.konghq.com/",
           "js": "var versions = $('ul[aria-labelledby=version-dropdown] a, button#version-dropdown').map(function(i, e) { return $(e).text().replace(/\\s+/g, '').replace(/Version/g, '').replace(/\\(latest\\)/g, ''); }).toArray(); return JSON.stringify(versions);"
         }
       }
     }
   ],
   "sitemap_urls": [
-    "https://getkong.org/sitemap.xml"
+    "https://docs.konghq.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
