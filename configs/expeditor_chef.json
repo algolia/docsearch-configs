@@ -1,0 +1,37 @@
+{
+  "index_name": "expeditor_chef",
+  "start_urls": [
+    "https://expeditor.chef.io/docs"
+  ],
+  "sitemap_urls": [
+    "https://expeditor.chef.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[@id='sidebar-nav']//li[contains(@class, 'active')][1]/../../a",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Docs"
+    },
+    "lvl1": {
+      "selector": "#main-content-col h1",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": "#main-content-col h2",
+    "lvl3": "#main-content-col h3",
+    "lvl4": "#main-content-col h4",
+    "lvl5": "#main-content-col h5, #main-content table td:first-of-type",
+    "text": "#main-content-col p, #main-content-col li, #main-content table td:nth-child(2)"
+  },
+  "keep_tags": [
+    "code"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_/"
+  },
+  "conversation_id": [
+    "605978923"
+  ],
+  "nb_hits": 888
+}
