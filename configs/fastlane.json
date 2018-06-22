@@ -31,12 +31,12 @@
     "code"
   ],
   "scrap_start_urls": false,
-  "strip_chars": " \u00bb#\u00bb",
+  "strip_chars": " \u00bb#\u00bb\u00bb",
   "selectors_exclude": [
     "summary"
   ],
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 18187
+  "nb_hits": 18451
 }
