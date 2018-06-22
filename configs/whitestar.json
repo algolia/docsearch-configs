@@ -3,7 +3,9 @@
   "start_urls": [
     "https://docs.whitestar.systems/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+  "/acknowledgements.html"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "div.sidebar-group.first > p.sidebar-heading.open",
