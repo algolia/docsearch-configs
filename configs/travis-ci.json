@@ -2,7 +2,7 @@
   "index_name": "travis-ci",
   "start_urls": [
     {
-      "url": "https://docs.travis-ci.com/user/.*/build-environment-updates/",
+      "url": "https://docs.travis-ci.com/.*/build-environment-updates/",
       "tags": [
         "changelog"
       ],
@@ -45,5 +45,5 @@
   "strip_chars": " .,;:#",
   "js_render": true,
   "min_indexed_level": 2,
-  "nb_hits": 7484
+  "nb_hits": 7457
 }
