@@ -1,0 +1,49 @@
+{
+  "index_name": "travis-ci",
+  "start_urls": [
+    {
+      "url": "https://docs.travis-ci.com/user/.*/build-environment-updates/",
+      "tags": [
+        "changelog"
+      ],
+      "selectors_key": "changelog"
+    },
+    "https://docs.travis-ci.com/"
+  ],
+  "stop_urls": [
+    "imprint.html$",
+    ".*[^/]$"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//nav//a[contains(@class, 'is-active')][1]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "#main h1",
+      "lvl2": "#main h2",
+      "lvl3": "#main h3",
+      "lvl4": "#main h4",
+      "lvl5": "#main h5",
+      "text": "#main p, #main li"
+    },
+    "changelog": {
+      "lvl0": "#main h1",
+      "lvl1": "#main h2",
+      "lvl2": "#main h3",
+      "lvl3": "#main h4",
+      "lvl4": "#main h5",
+      "text": "#main p, #main li"
+    }
+  },
+  "scrap_start_urls": false,
+  "selectors_exclude": [
+    ".toc"
+  ],
+  "strip_chars": " .,;:#",
+  "js_render": true,
+  "min_indexed_level": 2,
+  "nb_hits": 7484
+}
