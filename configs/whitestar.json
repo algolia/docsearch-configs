@@ -8,7 +8,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "ul.sidebar-links > li p.open",
+      "selector": "div.sidebar-group.first > p.sidebar-heading",
       "global": true,
       "default_value": "Documentation"
     },
