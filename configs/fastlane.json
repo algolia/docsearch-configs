@@ -16,7 +16,6 @@
     },
     "lvl1": {
       "selector": ".section h1:first-of-type",
-      "global": true,
       "default_value": "Documentation"
     },
     "lvl2": {
@@ -38,5 +37,5 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 18451
+  "nb_hits": 18687
 }
