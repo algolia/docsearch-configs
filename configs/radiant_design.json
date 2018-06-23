@@ -1,7 +1,7 @@
 {
-  "index_name": "radiant_data",
+  "index_name": "radiant_design",
   "start_urls": [
-    "https://radiant-rstats.github.io/radiant.data"
+    "https://radiant-rstats.github.io/radiant.design/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +24,5 @@
   "conversation_id": [
     "583264925"
   ],
-  "nb_hits": 2583
+  "nb_hits": 513
 }
