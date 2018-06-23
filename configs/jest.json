@@ -2,21 +2,58 @@
   "index_name": "jest",
   "start_urls": [
     {
-      "url": "https://facebook.github.io/jest/docs/(?P<lang>.*?)/getting-started",
+      "url": "https://facebook.github.io/jest/docs/(?P<lang>.*?)/",
       "variables": {
         "lang": [
-          "en"
+          "en",
+          "ja",
+          "es-ES",
+          "pt-BR",
+          "ro",
+          "ru",
+          "uk",
+          "zh-Hans"
         ]
       }
     },
     {
-      "url": "https://facebook.github.io/jest/docs/(?P<lang>.*?)/",
+      "url": "https://facebook.github.io/jest/docs/(?P<lang>.*?)/getting-started",
       "variables": {
         "lang": [
-          "en"
+          "en",
+          "ja",
+          "es-ES",
+          "pt-BR",
+          "ro",
+          "ru",
+          "uk",
+          "zh-Hans"
+        ]
+      }
+    },
+    {
+      "url": "https://facebook.github.io/jest/docs/(?P<lang>.*?)/versions",
+      "variables": {
+        "lang": [
+          "en",
+          "ja",
+          "es-ES",
+          "pt-BR",
+          "ro",
+          "ru",
+          "uk",
+          "zh-Hans"
         ]
       }
     }
+  ],
+  "stop_urls": [
+    "/help",
+    "/videos",
+    ".html$"
+  ],
+  "sitemap_urls": [
+    "https://facebook.github.io/jest/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -40,5 +77,11 @@
   "conversation_id": [
     "178040846"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "nb_hits": 1415
 }
