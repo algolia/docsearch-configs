@@ -1,0 +1,30 @@
+{
+  "index_name": "mapd",
+  "start_urls": [
+    "https://www.mapd.com/docs/",
+    "https://www.mapd.com/docs/latest/4_0_administration.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'collapse')][contains(@class, 'in')][1]/preceding::h4[contains(@class, 'panel-title')][1]/a[2]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "selectors_exclude": [
+    ".toctree-wrapper"
+  ],
+  "conversation_id": [
+    "605990405"
+  ],
+  "js_render": true,
+  "nb_hits": 5038
+}
