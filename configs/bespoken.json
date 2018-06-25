@@ -1,8 +1,7 @@
 {
   "index_name": "bespoken",
   "start_urls": [
-    "https://read.bespoken.io/",
-    "https://read.bespoken.io/unit-testing/getting-started/"
+    "https://read.bespoken.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -13,5 +12,6 @@
     "lvl4": ".section h5",
     "text": ".section p, .section li"
   },
-  "nb_hits": 508
+  "scrap_start_urls": false,
+  "nb_hits": 496
 }
