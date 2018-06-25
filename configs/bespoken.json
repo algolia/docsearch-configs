@@ -1,0 +1,17 @@
+{
+  "index_name": "bespoken",
+  "start_urls": [
+    "https://read.bespoken.io/",
+    "https://read.bespoken.io/unit-testing/getting-started/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1.hero-subheader__title",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "nb_hits": 508
+}
