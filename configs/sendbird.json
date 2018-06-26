@@ -20,7 +20,7 @@
     "lvl0": {
       "selector": ".menu__link.is-active .menu__platform-name",
       "global": true,
-      "default_value": "Paltform"
+      "default_value": "Platform"
     },
     "lvl1": {
       "selector": "#markdown h2",
@@ -29,6 +29,7 @@
     "lvl2": "#markdown h3",
     "lvl3": "#markdown h4",
     "lvl4": "#markdown h5",
+    "lv15": ".section table tbody td",
     "text": "#markdown p, #markdown li"
   },
   "selectors_exclude": [
