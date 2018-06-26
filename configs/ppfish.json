@@ -1,0 +1,26 @@
+{
+  "index_name": "ppfish",
+  "start_urls": [
+    "https://nsfi.github.io/ppfish-components/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".ant-menu-submenu-selected > .ant-menu-submenu-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
+    "text": ".markdown p, .markdown li"
+  },
+  "js_render": true,
+  "use_anchors": true,
+  "conversation_id": [
+    "607968910"
+  ],
+  "nb_hits": 96
+}
