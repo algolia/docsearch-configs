@@ -1,8 +1,7 @@
 {
   "index_name": "canner",
   "start_urls": [
-    "https://framework.canner.io/docs/",
-    "https://framework.canner.io/docs/guides-basic-setup.html"
+    "https://www.canner.io/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +23,5 @@
   "conversation_id": [
     "581172018"
   ],
-  "nb_hits": 650
+  "nb_hits": 1171
 }
