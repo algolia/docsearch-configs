@@ -2,11 +2,11 @@
   "index_name": "babeljs_cn",
   "start_urls": [
     {
-      "url": "https://babeljs.cn/docs/usage",
+      "url": "https://www.babeljs.cn/docs/usage",
       "selectors_key": "usage"
     },
-    "https://babeljs.cn/docs/",
-    "https://babeljs.cn/docs/usage/api"
+    "https://www.babeljs.cn/docs/",
+    "https://www.babeljs.cn/docs/usage/api"
   ],
   "selectors": {
     "default": {
@@ -29,5 +29,5 @@
   "conversation_id": [
     "496047938"
   ],
-  "nb_hits": 3604
+  "nb_hits": 3492
 }
