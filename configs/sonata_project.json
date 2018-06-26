@@ -1,0 +1,24 @@
+{
+  "index_name": "sonata_project",
+  "start_urls": [
+    "https://sonata-project.org/bundles/"
+  ],
+  "stop_urls": [
+    "https://sonata-project.org/bundles/.*/\\d"
+  ],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "selectors_exclude": [
+    "[class^='toctree']"
+  ],
+  "conversation_id": [
+    "557126674"
+  ],
+  "nb_hits": 4553
+}
