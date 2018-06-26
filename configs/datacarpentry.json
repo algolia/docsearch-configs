@@ -1,0 +1,24 @@
+{
+  "index_name": "datacarpentry",
+  "start_urls": [
+    "http://www.datacarpentry.org/R-ecology-lesson/"
+  ],
+  "stop_urls": [
+    "/index.html"
+  ],
+  "selectors": {
+    "lvl0": ".toc-content h1",
+    "lvl1": ".toc-content h2",
+    "lvl2": ".toc-content h3",
+    "lvl3": ".toc-content h4",
+    "lvl4": ".toc-content h5",
+    "text": ".toc-content p, .toc-content li"
+  },
+  "selectors_exclude": [
+    "author"
+  ],
+  "conversation_id": [
+    "608939496"
+  ],
+  "nb_hits": 876
+}
