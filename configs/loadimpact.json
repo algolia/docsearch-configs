@@ -1,0 +1,40 @@
+{
+  "index_name": "loadimpact",
+  "start_urls": [
+    {
+      "url": "http://support.loadimpact.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "3.0",
+          "4.0"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "http://support.loadimpact.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".main-body nav > ol > li.breadcrumb-item:nth-child(3)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "608863638"
+  ],
+  "selectors_exclude": [
+    "article footer"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 1943
+}
