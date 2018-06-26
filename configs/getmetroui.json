@@ -1,7 +1,7 @@
 {
   "index_name": "getmetroui",
   "start_urls": [
-    "https://getmetroui.com/"
+    "https://metroui.org.ua/"
   ],
   "stop_urls": [
     "/examples/",
@@ -25,5 +25,5 @@
   "conversation_id": [
     "530300127"
   ],
-  "nb_hits": 13191
+  "nb_hits": 13824
 }
