@@ -1,0 +1,20 @@
+{
+  "index_name": "fluide",
+  "start_urls": [
+    "https://fluide.nerdslabs.co/docs/"
+  ],
+  "stop_urls": [
+    "docs/index.html"
+  ],
+  "selectors": {
+    "lvl0": ".wrapper h1",
+    "lvl1": ".wrapper h3",
+    "lvl2": ".wrapper h4",
+    "lvl3": ".wrapper h5",
+    "text": ".wrapper p, .wrapper li"
+  },
+  "conversation_id": [
+    "609694673"
+  ],
+  "nb_hits": 25
+}
