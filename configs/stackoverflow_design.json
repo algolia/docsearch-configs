@@ -6,20 +6,16 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".-item a.is-active",
-      "global": true,
+      "selector": ".stacks-h1",
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": "//nav//a[contains(@class,'-active')]/preceding::span[contains(@class,'-label')][1]",
-      "type": "xpath",
-      "default_value": "Chapter",
-      "global": true
+      "selector": ".stacks-h2",
+      "default_value": "Section"
     },
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "text": "main p, main li"
+    "lvl2": ".stacks-h3",
+    "lvl3": ".stacks-h4",
+    "text": ".stacks-copy, .stacks--list li"
   },
   "min_indexed_level": 1,
   "conversation_id": [
