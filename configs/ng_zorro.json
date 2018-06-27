@@ -1,0 +1,22 @@
+{
+  "index_name": "ng_zorro",
+  "start_urls": [
+    "https://ng.ant.design/docs",
+    "https://ng.ant.design/docs/getting-started/zh"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article.markdown h1",
+    "lvl1": "article.markdown h2",
+    "lvl2": "article.markdown h3",
+    "lvl3": "article.markdown h4",
+    "lvl4": "article.markdown h5",
+    "text": "article.markdown p, article.markdown li"
+  },
+  "js_render": true,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "608880365"
+  ],
+  "nb_hits": 408
+}
