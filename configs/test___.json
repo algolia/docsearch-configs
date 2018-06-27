@@ -1,0 +1,18 @@
+{
+  "index_name": "test___",
+  "start_urls": [
+    "https://community.algolia.com/docsearch/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "FIXME h1",
+    "lvl1": "FIXME h2",
+    "lvl2": "FIXME h3",
+    "lvl3": "FIXME h4",
+    "lvl4": "FIXME h5",
+    "text": "FIXME p, FIXME li"
+  },
+  "conversation_id": [
+    "609511039"
+  ]
+}
