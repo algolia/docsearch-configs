@@ -15,7 +15,7 @@
     },
     "lvl2": ".stacks-h3",
     "lvl3": ".stacks-h4",
-    "text": ".stacks-copy, .stacks--list li"
+    "text": ".stacks-copy, .stacks--list li, main .s-table"
   },
   "min_indexed_level": 1,
   "conversation_id": [
