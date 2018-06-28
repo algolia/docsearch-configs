@@ -1,19 +1,26 @@
 {
   "index_name": "nativescript-vue",
   "start_urls": [
-    "https://nativescript-vue.org/en/docs/introduction/",
+    "https://(?P<version>.*?)nativescript-vue.org/en/docs/introduction/",
     {
       "url": "https://nativescript-vue.org/(?P<lang>.*?)/docs/",
       "variables": {
+        "version": [
+          "",
+          "v1-3-1"
+        ],
         "lang": [
           "en",
-          "ko"
+          "ko",
+          "pt-BR",
+          "ru"
         ]
       }
     }
   ],
   "sitemap_urls": [
-    "https://nativescript-vue.org/sitemap.xml"
+    "https://nativescript-vue.org/sitemap.xml",
+    "https://v1-3-1.nativescript-vue.org/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
