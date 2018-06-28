@@ -1,13 +1,33 @@
 {
   "index_name": "stackpath",
   "start_urls": [
-    "http://www.taniayjustin.com:3000/docs/",
-    "http://www.taniayjustin.com:3000/docs/en/doc1",
-    "http://www.taniayjustin.com/docs/"
+    {
+      "url": "http://144.217.92.155:3000/docs/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      },
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "http://144.217.92.155:3000/api/",
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "url": "http://144.217.92.155:3000/blog/",
+      "tags": [
+        "blog"
+      ]
+    }
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "http://www.taniayjustin.com:3000/sitemap.xml"
+    "http://144.217.92.155:3000/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -22,6 +42,8 @@
     "lvl4": ".post h4",
     "text": ".post article p, .post article li"
   },
+  "js_render": true,
+  "js_wait": 5,
   "conversation_id": [
     "602333353"
   ],
