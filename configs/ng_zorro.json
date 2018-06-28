@@ -1,44 +1,22 @@
 {
   "index_name": "ng_zorro",
   "start_urls": [
-    {
-      "url": "https://ng.ant.design/.+?/zh",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://ng.ant.design/.+?/en",
-      "tags": [
-        "en"
-      ]
-    }
+    "https://ng.ant.design/docs",
+    "https://ng.ant.design/docs/getting-started/zh"
   ],
-  "stop_urls": [
-    "/changelog",
-    "/issue-helper"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".ant-menu-submenu-selected h4",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": ".code-box-title a",
-    "text": "article p, article li, .api-container td:nth-child(2)"
+    "lvl0": "article.markdown h1",
+    "lvl1": "article.markdown h2",
+    "lvl2": "article.markdown h3",
+    "lvl3": "article.markdown h4",
+    "lvl4": "article.markdown h5",
+    "text": "article.markdown p, article.markdown li"
   },
   "js_render": true,
-  "use_anchors": true,
-  "scrape_start_urls": true,
-  "js_wait": 5,
-  "strip_chars": "#",
-  "min_indexed_level": 1,
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "608880365"
   ],
-  "nb_hits": 6546
+  "nb_hits": 408
 }
