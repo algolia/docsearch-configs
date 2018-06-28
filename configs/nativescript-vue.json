@@ -1,19 +1,35 @@
 {
   "index_name": "nativescript-vue",
   "start_urls": [
-    "https://(?P<version>.*?)nativescript-vue.org/en/docs/introduction/",
     {
-      "url": "https://nativescript-vue.org/(?P<lang>.*?)/docs/",
+      "url": "https://(?P<version>.*?).nativescript-vue.org/(?P<lang>.*?)/docs/",
       "variables": {
         "version": [
-          "",
           "v1-3-1"
         ],
         "lang": [
           "en",
           "ko",
+          "pt-br",
           "pt-BR",
           "ru"
+        ]
+      }
+    },
+    {
+      "url": "https://nativescript-vue.org/(?P<lang>.*?)/docs/",
+      "variables": {
+        "lang": [
+          "en",
+          "ko",
+          "pt-br",
+          "pt-BR",
+          "ru"
+        ]
+      },
+      "extra_attributes": {
+        "version": [
+          "master"
         ]
       }
     }
@@ -40,5 +56,5 @@
   "conversation_id": [
     "523329698"
   ],
-  "nb_hits": 1121
+  "nb_hits": 5708
 }
