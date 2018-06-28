@@ -2,7 +2,7 @@
   "index_name": "jest",
   "start_urls": [
     {
-      "url": "https://facebook.github.io/jest/docs/(?P<lang>.*?)/",
+      "url": "http://jestjs.io/docs/(?P<lang>.*?)/",
       "variables": {
         "lang": [
           "en",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "url": "https://facebook.github.io/jest/docs/(?P<lang>.*?)/getting-started",
+      "url": "http://jestjs.io/docs/(?P<lang>.*?)/getting-started",
       "variables": {
         "lang": [
           "en",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "url": "https://facebook.github.io/jest/docs/(?P<lang>.*?)/versions",
+      "url": "http://jestjs.io/docs/(?P<lang>.*?)/versions",
       "variables": {
         "lang": [
           "en",
@@ -83,5 +83,5 @@
       "version"
     ]
   },
-  "nb_hits": 11658
+  "nb_hits": 20135
 }
