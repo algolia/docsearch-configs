@@ -31,7 +31,7 @@
     "lvl2": "#markdown h3",
     "lvl3": "#markdown h4",
     "lvl4": "#markdown h5",
-    "lv15": ".section table tbody td",
+    "lvl5": ".section table tbody td",
     "text": "#markdown p, #markdown li"
   },
   "selectors_exclude": [
