@@ -5,21 +5,16 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".stacks-h1",
-      "default_value": "Documentation"
-    },
-    "lvl1": {
-      "selector": ".stacks-h2",
-      "default_value": "Section"
-    },
+    "lvl0": ".stacks-h1",
+    "lvl1": ".stacks-h2",
     "lvl2": ".stacks-h3",
-    "lvl3": ".stacks-h4",
-    "text": ".stacks-copy, .stacks--list li, main .s-table"
+    "lvl3": ".stacks-h4, .s-table tbody th",
+    "text": ".stacks-copy, .stacks--list li, main .s-table td:not(:first-child)"
   },
   "min_indexed_level": 1,
   "conversation_id": [
     "480565614"
   ],
-  "nb_hits": 572
+  "js_render": true,
+  "nb_hits": 3155
 }
