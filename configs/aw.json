@@ -2,7 +2,8 @@
   "index_name": "aw",
   "start_urls": [
     "http://aw.netlify.com/docs/",
-    "http://aw.netlify.com/docs/installation.html"
+    "http://aw.netlify.com/docs/installation.html",
+    "https://aw.netlify.com/versions.html"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +25,5 @@
   "conversation_id": [
     "586344172"
   ],
-  "nb_hits": 33
+  "nb_hits": 172
 }
