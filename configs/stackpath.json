@@ -2,6 +2,17 @@
   "index_name": "stackpath",
   "start_urls": [
     {
+      "url": "http://144.217.92.155:3000/docs/(?P<lang>.*?)/doc1",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      },
+      "tags": [
+        "docs"
+      ]
+    },
+    {
       "url": "http://144.217.92.155:3000/docs/(?P<lang>.*?)/",
       "variables": {
         "lang": [
@@ -16,7 +27,8 @@
       "url": "http://144.217.92.155:3000/api/",
       "tags": [
         "api"
-      ]
+      ],
+      "selectors_key": "api"
     },
     {
       "url": "http://144.217.92.155:3000/blog/",
@@ -30,22 +42,32 @@
     "http://144.217.92.155:3000/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".post h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "text": ".post article p, .post article li"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "api": {
+      "lvl0": ".api-content h1",
+      "lvl1": ".api-content h1",
+      "lvl2": ".api-content h1",
+      "lvl3": ".api-content h1",
+      "lvl4": ".api-content h1",
+      "text": ".api-content p,.api-content li"
+    }
   },
   "js_render": true,
-  "js_wait": 5,
+  "js_wait": 1,
   "conversation_id": [
     "602333353"
   ],
-  "nb_hits": 45
+  "nb_hits": 264
 }
