@@ -19,6 +19,9 @@
     "/changelog",
     "/issue-helper"
   ],
+  "selectors_exclude": [
+    ".code-box-demo"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".ant-menu-submenu-selected h4",
