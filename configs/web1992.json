@@ -1,0 +1,28 @@
+{
+  "index_name": "web1992",
+  "start_urls": [
+    "https://www.web1992.cn/blog"
+  ],
+  "stop_urls": [
+    "blog/page"
+  ],
+  "selectors": {
+    "lvl0": "h1.postHeaderTitle",
+    "lvl1": ".post h1:not(.postHeaderTitle)",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post p, .post li"
+  },
+  "selectors_exclude": [
+    ".hash-link",
+    ".post-meta",
+    ".authorBlock"
+  ],
+  "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "611100393"
+  ],
+  "nb_hits": 447
+}
