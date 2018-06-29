@@ -3,7 +3,10 @@
   "start_urls": [
     "https://docs.reactioncommerce.com/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://docs.reactioncommerce.com/docs/v\\d",
+    "https://docs.reactioncommerce.com/docs/next"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
@@ -20,16 +23,11 @@
   "sitemap_urls": [
     "https://docs.reactioncommerce.com/sitemap.xml"
   ],
-  "custom_settings": {
-    "attributesForFaceting": [
-      "version"
-    ]
-  },
   "selectors_exclude": [
     ".hash-link"
   ],
   "conversation_id": [
     "595673784"
   ],
-  "nb_hits": 51360
+  "nb_hits": 4715
 }
