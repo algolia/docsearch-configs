@@ -2,7 +2,9 @@
   "index_name": "fusionjs",
   "start_urls": [
     "https://fusionjs.com/docs/",
-    "https://fusionjs.com/docs/getting-started"
+    "https://fusionjs.com/docs/getting-started",
+    "https://fusionjs.com/api/",
+    "https://fusionjs.com/api/fusion-docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,7 +20,9 @@
   ],
   "selectors_exclude": [
     "#next-steps",
-    "#next-steps + ul"
+    "#next-steps + ul",
+    "#table-of-contents",
+    "#table-of-contents + ul"
   ],
-  "nb_hits": 557
+  "nb_hits": 2234
 }
