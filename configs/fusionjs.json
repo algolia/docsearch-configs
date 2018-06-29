@@ -1,8 +1,9 @@
 {
   "index_name": "fusionjs",
   "start_urls": [
-    "https://fusionjs.com/docs/",
-    "https://fusionjs.com/docs/getting-started"
+    "https://fusionjs.com",
+    "https://fusionjs.com/docs/getting-started",
+    "https://fusionjs.com/api/fusion-docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -13,12 +14,7 @@
     "lvl4": ".docSearch-content h5",
     "text": ".docSearch-content p, .docSearch-content li"
   },
-  "conversation_id": [
-    "585325680"
-  ],
-  "selectors_exclude": [
-    "#next-steps",
-    "#next-steps + ul"
-  ],
+  "conversation_id": ["585325680"],
+  "selectors_exclude": ["#next-steps", "#next-steps + ul"],
   "nb_hits": 557
 }
