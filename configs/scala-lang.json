@@ -2,7 +2,7 @@
   "index_name": "scala-lang",
   "start_urls": [
     {
-      "url": "http://docs.scala-lang.org/(?P<language>.*?)",
+      "url": "https://docs.scala-lang.org/(?P<language>.*?)",
       "variables": {
         "language": [
           "ko",
@@ -17,7 +17,8 @@
       }
     },
     {
-      "url": "http://docs.scala-lang.org/",
+
+      "url": "https://docs.scala-lang.org/",
       "extra_attributes": {
         "language": [
           "en"
