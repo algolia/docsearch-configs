@@ -1,0 +1,30 @@
+{
+  "index_name": "deepscan",
+  "start_urls": [
+    "https://deepscan.io/docs/"
+  ],
+  "stop_urls": [
+    "open-report$"
+  ],
+  "sitemap_urls": [
+    "https://deepscan.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".main-content h1",
+    "lvl1": ".main-content h2",
+    "lvl2": ".main-content h3",
+    "lvl3": ".main-content h4, .main-content table td:first-of-type a",
+    "lvl4": ".main-content h5",
+    "text": ".main-content p, .main-content li"
+  },
+  "conversation_id": [
+    "610999782"
+  ],
+  "selectors_exclude": [
+    "#toc-menu"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 2693
+}
