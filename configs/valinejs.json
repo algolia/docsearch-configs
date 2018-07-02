@@ -1,0 +1,36 @@
+{
+  "index_name": "valinejs",
+  "start_urls": [
+    {
+      "url": "https://valine.js.org/en/",
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://valine.js.org/",
+      "tags": [
+        "en"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "index.html$"
+  ],
+  "selectors": {
+    "lvl0": ".title-wrapper h1",
+    "lvl1": ".document-formatting h2",
+    "lvl2": ".document-formatting h3",
+    "lvl3": ".document-formatting h4",
+    "lvl4": ".document-formatting h5",
+    "text": ".document-formatting p, .document-formatting li, .subtitle-page"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "611370500"
+  ],
+  "min_indexed_level": 1,
+  "nb_hits": 469
+}
