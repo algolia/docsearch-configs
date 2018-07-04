@@ -1,10 +1,10 @@
 {
   "index_name": "webpack_china",
   "start_urls": [
-    "https://webpack.js.org/"
+    "https://webpack.docschina.org/"
   ],
   "sitemap_urls": [
-    "https://webpack.js.org/sitemap.xml"
+    "https://webpack.docschina.org/sitemap.xml"
   ],
   "stop_urls": [
     ".*?[^/]$"
