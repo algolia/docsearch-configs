@@ -54,6 +54,7 @@
       "text": ".content p, .content li"
     }
   },
+  "selectors_exclude": [".table-of-contents"],
   "strip_chars": " .,;:#",
   "conversation_id": [
     "555461426"
