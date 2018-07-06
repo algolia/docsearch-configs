@@ -32,7 +32,7 @@
       }
     },
     {
-      "url": "http://jestjs.io/docs/(?P<lang>.*?)/versions",
+      "url": "http://jestjs.io/(?P<lang>.*?)/versions",
       "variables": {
         "lang": [
           "en",
@@ -53,7 +53,7 @@
     ".html$"
   ],
   "sitemap_urls": [
-    "https://facebook.github.io/jest/sitemap.xml"
+    "https://jestjs.io/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
