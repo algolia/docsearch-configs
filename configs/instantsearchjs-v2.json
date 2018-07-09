@@ -17,7 +17,6 @@
       "url": "https://community.algolia.com/instantsearch.js/v2/connectors",
       "selectors_key": "api"
     },
-
     {
       "url": "https://community.algolia.com/instantsearch.js/v2/getting-started.html",
       "selectors_key": "getting-started"
@@ -31,37 +30,51 @@
   ],
   "selectors": {
     "instantsearch": {
-      "lvl0": {"selector": "", "default_value": "instantsearch()"},
-      "lvl2": ".documentation-container > h2",
-      "lvl3": ".documentation-container > h3",
-      "lvl4": ".documentation-container > h4",
+      "lvl0": {
+        "selector": "",
+        "default_value": "instantsearch()"
+      },
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "lvl4": ".documentation-container h4",
       "text": ".documentation-container p, .documentation-container li, .documentation-container td"
     },
     "guide": {
-      "lvl0": {"selector": "", "default_value": "Guides"},
-      "lvl0": ".documentation-container > h2",
-      "lvl1": ".documentation-container > h3",
-      "lvl2": ".documentation-container > h4",
+      "lvl0": ".documentation-container h2",
+      "lvl1": ".documentation-container h3",
+      "lvl2": ".documentation-container h4",
       "text": ".documentation-container p, .documentation-container li, .documentation-container td"
     },
     "api": {
-      "lvl0": {"selector":"//h1/span[1]", "type": "xpath"},
-      "lvl1": {"selector":"//h1/span[2]", "type": "xpath"},
-      "lvl2": ".documentation-container > h2",
-      "lvl3": ".documentation-container > h3",
-      "lvl4": ".documentation-container > h4",
+      "lvl0": {
+        "selector": "//h1/span[1]",
+        "type": "xpath"
+      },
+      "lvl1": {
+        "selector": "//h1/span[2]",
+        "type": "xpath"
+      },
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "lvl4": ".documentation-container h4",
       "text": ".documentation-container p, .documentation-container li, .documentation-container td"
     },
     "getting-started": {
-      "lvl0": {"selector": "", "default_value": "Getting started"},
-      "lvl1": ".documentation-container > h2",
-      "lvl2": ".documentation-container > h3",
-      "lvl3": ".documentation-container > h4",
+      "lvl0": {
+        "selector": "",
+        "default_value": "Getting started"
+      },
+      "lvl1": ".documentation-container h2",
+      "lvl2": ".documentation-container h3",
+      "lvl3": ".documentation-container h4",
       "text": ".documentation-container p, .documentation-container li, .documentation-container td"
     }
   },
-  "custom_settings": {},
   "js_render": true,
+  "selectors_exclude": [
+    ".documentation-container hr + p",
+    ".editThisPage"
+  ],
   "min_indexed_level": 1,
-  "nb_hits": 1900
+  "nb_hits": 2890
 }
