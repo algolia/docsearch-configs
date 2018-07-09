@@ -1,10 +1,15 @@
 {
   "index_name": "accordproject_api",
   "start_urls": [
-    "https://docs.accordproject.org/docs/",
-    "https://docs.accordproject.org/docs/accordproject.html"
+    "https://docs.accordproject.org/docs/"
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.accordproject.org/sitemap.xml"
+  ],
+  "stop_urls": [
+    "https://docs.accordproject.org/docs/next",
+    "https://docs.accordproject.org/docs/\\d"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
@@ -24,5 +29,5 @@
   "conversation_id": [
     "595056444"
   ],
-  "nb_hits": 579
+  "nb_hits": 845
 }
