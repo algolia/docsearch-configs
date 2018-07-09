@@ -2,17 +2,17 @@
   "index_name": "moleculer",
   "start_urls": [
     {
-      "url": "http://moleculer.services/(?P<version>.*?)/docs/",
+      "url": "https://moleculer.services/docs/(?P<version>.*?)/",
       "variables": {
         "version": {
-          "url": "http://moleculer.services/docs/",
+          "url": "https://moleculer.services/docs/",
           "js": "const options=document.querySelector('div.version-selector select').options; const versions=Object.keys(options).map(key=>options[key].text.replace(/\\s*v*/,'')); return JSON.stringify(versions)"
         }
       }
     }
   ],
   "sitemap_urls": [
-    "http://moleculer.services/sitemap.xml"
+    "https://moleculer.services/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
