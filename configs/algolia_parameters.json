@@ -7,66 +7,18 @@
     "https://www.algolia.com/doc/api-reference/api-parameters/$"
   ],
   "selectors_exclude": [
-    ".btn",
-    "#parameters-list",
-    ".next-previous-links",
-    "section .nav-tabs",
-    "#api-client-parameters-overview",
-    "#end-page-feedback"
+    ".feedback-form"
   ],
   "selectors": {
-    "lvl0": ".navbar-section.current .navbar-title",
-    "lvl1": {
-      "selector": ".api-client-parameter",
-      "attributes": {
-        "name": {
-          "selector": "//h1",
-          "type": "xpath",
-          "global": true
-        },
-        "scope": ".scope",
-        "type": ".type",
-        "default": ".default",
-        "formerly": ".formerly",
-        "description": "p, li"
-      }
-    }
+    "lvl0": ".content-inner h1",
+    "lvl1": ".content-inner h2",
+    "lvl2": ".content-inner h4",
+    "lvl3": ".content-inner h5",
+    "text": ".content-inner section p,.content-inner section li"
   },
-  "min_indexed_level": 1,
+  "min_indexed_level": 2,
   "keep_tags": [
     "code"
   ],
-  "custom_settings": {
-    "attributeForDistinct": "hierarchy.lvl1.name",
-    "ignorePlurals": false,
-    "attributesToIndex": [
-      "unordered(hierarchy_camel.lvl1.name)",
-      "unordered(hierarchy.lvl1.name)",
-      "unordered(hierarchy_camel.lvl1.formerly)",
-      "unordered(hierarchy.lvl1.formerly)",
-      "unordered(hierarchy_camel.lvl0)",
-      "unordered(hierarchy.lvl0)"
-    ],
-    "attributesToRetrieve": [
-      "hierarchy",
-      "hierarchy_camel",
-      "content",
-      "anchor",
-      "url",
-      "type",
-      "language"
-    ],
-    "attributesToHighlight": [
-      "hierarchy.lvl0",
-      "hierarchy.lvl1.name",
-      "hierarchy_camel.lvl0",
-      "hierarchy_camel.lvl1.name"
-    ],
-    "attributesForFaceting": [
-      "language",
-      "tags",
-      "no_variables"
-    ]
-  },
-  "nb_hits": 65
+  "nb_hits": 3189
 }
