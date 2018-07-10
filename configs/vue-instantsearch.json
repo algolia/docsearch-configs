@@ -3,15 +3,31 @@
   "start_urls": [
     "https://community.algolia.com/vue-instantsearch"
   ],
-  "stop_urls": [],
-  "selectors": {
-    "lvl0": ".content h2",
-    "text": ".content p"
-  },
-  "selectors_exclude": [
-    ".anchor"
+  "stop_urls": [
+    "/stories/"
   ],
-  "nb_hits": 258,
-  "js_render": true,
-  "js_wait": 1
+  "selectors": {
+    "lvl0": {
+      "selector": "h1.text-heading .text-thin",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "h1.text-heading .text-normal",
+    "lvl2": ".content h2[id]",
+    "lvl3": ".content table h3, .content td:first-child",
+    "text": ".content p, .content li, .content td:last-child"
+  },
+  "keep_tags": [
+    "code"
+  ],
+  "selectors_exclude": [
+    ".anchor",
+    "h1.text-heading .text-xl.vertical-align-middle",
+    ".btn"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_-"
+  },
+  "only_content_level": true,
+  "nb_hits": 500
 }
