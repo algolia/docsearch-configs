@@ -9,8 +9,9 @@
           "ba",
           "pl",
           "es",
-          "pr-br",
+          "pt-br",
           "ja",
+          "fr",
           "zh-cn",
           "ru"
         ]
@@ -35,7 +36,9 @@
     "scala-lang.org/sips/",
     "/tutorials/tour/",
     "changelog",
-    "\\?C"
+    "\\?C",
+    "/cheatsheets/index.html$",
+    "/glossary/index.html$"
   ],
   "selectors": {
     "lvl0": {
@@ -50,8 +53,9 @@
     "lvl5": "#inner-main .content-primary h5",
     "text": "#inner-main .content-primary p, #inner-main .content-primary li"
   },
+  "scrap_start_urls": false,
   "conversation_id": [
     "552898519"
   ],
-  "nb_hits": 11358
+  "nb_hits": 11361
 }
