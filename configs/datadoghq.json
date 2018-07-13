@@ -1,0 +1,56 @@
+{
+  "index_name": "datadoghq",
+  "start_urls": [
+    {
+      "url": "https://docs.datadoghq.com/(?P<language>.*?)/",
+      "variables": {
+        "language": [
+          "fr"
+        ]
+      }
+    },
+    {
+      "url": "https://docs.datadoghq.com/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "/search/"
+  ],
+  "sitemap_urls": [
+    "https://docs.datadoghq.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".h-100 .sidenav-nav > ul >li.open > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".main h1",
+    "lvl2": ".main h2",
+    "lvl3": ".main h3",
+    "lvl4": ".main h4",
+    "lvl5": ".main h5",
+    "text": ".main p, .main li"
+  },
+  "keep_tags": [
+    "code"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    ".whatsnext",
+    "#en-apprendre-plus",
+    "#further-reading",
+    ".alert-info"
+  ],
+  "conversation_id": [
+    "620036890"
+  ],
+  "nb_hits": 34953
+}
