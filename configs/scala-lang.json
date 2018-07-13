@@ -47,7 +47,10 @@
           "zh-cn",
           "ru"
         ]
-      }
+      },
+      "tags": [
+        "documentation"
+      ]
     },
     {
       "url": "https://docs.scala-lang.org/",
@@ -55,23 +58,10 @@
         "language": [
           "en"
         ]
-      }
-    },
-    {
-      "url": "https://docs.scala-lang.org/(?P<language>.*?)",
-      "variables": {
-        "language": [
-          "ko",
-          "ba",
-          "pl",
-          "es",
-          "pt-br",
-          "ja",
-          "fr",
-          "zh-cn",
-          "ru"
-        ]
-      }
+      },
+      "tags": [
+        "documentation"
+      ]
     }
   ],
   "stop_urls": [
