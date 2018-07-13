@@ -13,7 +13,7 @@
     "lvl2": ".docSearch-content h3",
     "lvl3": ".docSearch-content h4",
     "lvl4": ".docSearch-content h5",
-    "text": ".docSearch-content p, .docSearch-content li"
+    "text": ".docSearch-content p, .docSearch-content li, .docSearch-content code"
   },
   "conversation_id": [
     "585325680"
