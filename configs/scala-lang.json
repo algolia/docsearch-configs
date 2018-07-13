@@ -2,6 +2,38 @@
   "index_name": "scala-lang",
   "start_urls": [
     {
+      "url": "https://docs.scala-lang.org/tutorials/tour/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ]
+      },
+      "selectors_key": "tutorials",
+      "tags": [
+        "tutorials"
+      ]
+    },
+    {
+      "url": "https://docs.scala-lang.org/(?P<language>.*?)/tutorials/tour/",
+      "variables": {
+        "language": [
+          "ko",
+          "ba",
+          "pl",
+          "es",
+          "pt-br",
+          "ja",
+          "fr",
+          "zh-cn",
+          "ru"
+        ]
+      },
+      "selectors_key": "tutorials",
+      "tags": [
+        "tutorials"
+      ]
+    },
+    {
       "url": "https://docs.scala-lang.org/(?P<language>.*?)",
       "variables": {
         "language": [
@@ -24,6 +56,22 @@
           "en"
         ]
       }
+    },
+    {
+      "url": "https://docs.scala-lang.org/(?P<language>.*?)",
+      "variables": {
+        "language": [
+          "ko",
+          "ba",
+          "pl",
+          "es",
+          "pt-br",
+          "ja",
+          "fr",
+          "zh-cn",
+          "ru"
+        ]
+      }
     }
   ],
   "stop_urls": [
@@ -36,24 +84,44 @@
     "changelog",
     "\\?C",
     "/cheatsheets/index.html$",
-    "/glossary/index.html$"
+    "/glossary/index.html$",
+    ".html.html$"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "#inner-main .title-page .supertitle",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "#inner-main .title-page .supertitle",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "#inner-main .title-page h1",
+      "lvl2": "#inner-main .content-primary h2",
+      "lvl3": "#inner-main .content-primary h3",
+      "lvl4": "#inner-main .content-primary h4",
+      "lvl5": "#inner-main .content-primary h5",
+      "text": "#inner-main .content-primary p, #inner-main .content-primary li"
     },
-    "lvl1": "#inner-main .title-page h1",
-    "lvl2": "#inner-main .content-primary h2",
-    "lvl3": "#inner-main .content-primary h3",
-    "lvl4": "#inner-main .content-primary h4",
-    "lvl5": "#inner-main .content-primary h5",
-    "text": "#inner-main .content-primary p, #inner-main .content-primary li"
+    "tutorials": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Tutorials"
+      },
+      "lvl1": ".container .span10 h1",
+      "lvl2": ".container .span10 h2",
+      "lvl3": ".container .span10 h3",
+      "lvl4": ".container .span10 h4",
+      "lvl5": ".container .span10 h5",
+      "text": ".container .span10 p, .container .span10 li"
+    }
   },
   "scrap_start_urls": false,
   "conversation_id": [
     "552898519"
   ],
-  "nb_hits": 11361
+  "selectors_exclude": [
+    ".linenums",
+    ".pager"
+  ],
+  "nb_hits": 15718
 }
