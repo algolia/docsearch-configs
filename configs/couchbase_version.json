@@ -1,0 +1,146 @@
+{
+  "index_name": "couchbase_version",
+  "start_urls": [
+    {
+      "url": "https://developer.couchbase.com/documentation/mobile/(?P<version>.*?)/whatsnew.html",
+      "variables": {
+        "version": [
+          "current",
+          "2.1"
+        ]
+      },
+      "tags": [
+        "mobile"
+      ]
+    },
+    {
+      "url": "https://developer.couchbase.com/documentation/mobile/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "current",
+          "2.1"
+        ]
+      },
+      "tags": [
+        "mobile"
+      ]
+    },
+    {
+      "url": "https://developer.couchbase.com/documentation/mobile/(?P<version>.*?)/whatsnew.html",
+      "variables": {
+        "version": [
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      },
+      "tags": [
+        "mobile"
+      ],
+      "selectors_key": "server"
+    },
+    {
+      "url": "https://developer.couchbase.com/documentation/mobile/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "1.3",
+          "1.4",
+          "1.5"
+        ]
+      },
+      "tags": [
+        "mobile"
+      ],
+      "selectors_key": "server"
+    },
+    {
+      "url": "https://developer.couchbase.com/documentation/mobile/(?P<version>.*?)/references/",
+      "variables": {
+        "version": [
+          "current"
+        ]
+      },
+      "tags": [
+        "mobile"
+      ],
+      "selectors_key": "server"
+    },
+    {
+      "url": "https://developer.couchbase.com/documentation/server/(?P<version>.*?)/introduction/intro.html",
+      "variables": {
+        "version": [
+          "3.x",
+          "4.0",
+          "4.1",
+          "4.5",
+          "4.6",
+          "5.0",
+          "current",
+          "5.5"
+        ]
+      },
+      "tags": [
+        "server"
+      ],
+      "selectors_key": "server"
+    },
+    {
+      "url": "https://developer.couchbase.com/documentation/server/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "3.x",
+          "4.0",
+          "4.1",
+          "4.5",
+          "4.6",
+          "5.0",
+          "current",
+          "5.5"
+        ]
+      },
+      "tags": [
+        "server"
+      ],
+      "selectors_key": "server"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "div.crumbs > ul > li:nth-child(2) > a",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "article.doc h2",
+      "lvl2": "article.doc h3",
+      "lvl3": "article.doc h4",
+      "lvl4": {
+        "selector": "div.crumbs > ul > li:nth-child(3) > a",
+        "global": true
+      },
+      "text": "article.doc p, article.doc li"
+    },
+    "server": {
+      "lvl0": {
+        "selector": "//ul[contains(@class,'main')]/li[.//a[contains(@class, 'selected')]]/a[2]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".body h1",
+      "lvl2": ".body h2",
+      "lvl3": ".body h3",
+      "lvl4": ".body h4",
+      "text": ".body p, .body li"
+    }
+  },
+  "min_indexed_level": 2,
+  "selectors_exclude": [
+    ".body .toc",
+    ".doc .toc",
+    ".doc > .paragraph"
+  ],
+  "nb_hits": 127713,
+  "use_anchors": true
+}
