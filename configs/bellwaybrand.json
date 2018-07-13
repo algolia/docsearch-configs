@@ -18,5 +18,8 @@
     "lvl4": ".post h4",
     "text": ".post article p, .post article li"
   },
+  "conversation_id": [
+    "618695455"
+  ],
   "nb_hits": 101
 }
