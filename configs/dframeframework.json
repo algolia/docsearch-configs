@@ -1,0 +1,26 @@
+{
+  "index_name": "dframeframework",
+  "sitemap_urls": [
+    "https://dframeframework.com/sitemap.xml"
+  ],
+  "start_urls": [
+    "https://dframeframework.com/en/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".cta-text h4",
+      "global": true,
+      "default_value": "Docs"
+    },
+    "lvl1": ".home-section h3",
+    "lvl2": "section h1",
+    "lvl3": "section h2",
+    "lvl4": "section h3",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "619172029"
+  ],
+  "nb_hits": 123
+}
