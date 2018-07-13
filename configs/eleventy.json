@@ -1,0 +1,24 @@
+{
+  "index_name": "eleventy",
+  "start_urls": [
+    "https://www.11ty.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//li[contains(@class, 'elv-toc-active')]//a[1]|//ul[contains(@class, 'elv-toc-active')]/li[contains(@class, 'elv-toc-active')]/ancestor::li/a[1])[1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": "ul.elv-toc-active > li.elv-toc-active",
+    "lvl2": ".elv-layout-toc h2",
+    "lvl3": ".elv-layout-toc h3",
+    "lvl4": ".elv-layout-toc h4",
+    "text": ".elv-layout-toc p"
+  },
+  "selectors_exclude": [
+    "[aria-hidden='true']"
+  ],
+  "min_indexed_level": 2,
+  "nb_hits": 607
+}
