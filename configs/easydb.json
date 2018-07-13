@@ -1,0 +1,44 @@
+{
+  "index_name": "easydb",
+  "start_urls": [
+    {
+      "url": "https://easydb.gitlab.io/en/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://easydb.gitlab.io/",
+      "tags": [
+        "de"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "keep_tags": [
+    "code"
+  ],"custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "sitemap_urls": [
+    "https://easydb.gitlab.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu-top-level > .is-open > a span.menu-name",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1:first-child",
+    "lvl2": "main h1:not(:first-child)",
+    "lvl3": "main h2",
+    "lvl4": "main h3",
+    "lvl5": "main h4",
+    "lvl6": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "609583165"
+  ],
+  "nb_hits": 10671
+}
