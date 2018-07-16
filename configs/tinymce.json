@@ -1,26 +1,38 @@
 {
   "index_name": "tinymce",
   "start_urls": [
-    "https://www.tinymce.com/docs/"
+    "https://www.tiny.cloud/docs/"
   ],
   "stop_urls": [
-    "https://www.tinymce.com/docs/changelog"
+    "https://www.tiny.cloud/docs/changelog"
+  ],
+  "sitemap_urls": [
+    "https://www.tiny.cloud/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".side-nav .active span.folder",
     "lvl1": ".heading h1",
     "lvl2": ".content h2",
-    "lvl3": ".content h3",
+    "lvl3": ".content h3, .methods td:nth-child(1), .properties td:nth-child(1), .settings td:nth-child(1)",
     "lvl4": ".content h4",
-    "text": ".content p"
+    "text": ".content p, .heading h2, .methods td:nth-child(2), .properties td:nth-child(3), .settings td:nth-child(3)"
   },
   "selectors_exclude": [
-    ".content > div",
+    ".feedback",
+    "[class^=feedback-]",
+    ".let-us-know",
     ".license"
   ],
   "min_indexed_level": 1,
+  "scrap_start_urls": false,
   "conversation_id": [
     "296377629"
   ],
-  "nb_hits": 5108
+  "keep_tags": [
+    "code"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 14938
 }
