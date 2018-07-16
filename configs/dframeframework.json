@@ -4,7 +4,15 @@
     "https://dframeframework.com/sitemap.xml"
   ],
   "start_urls": [
-    "https://dframeframework.com/en/docs"
+    {
+      "url": "https://dframeframework.com/(?P<lang>.*?)/docs",
+      "variables": {
+        "lang": [
+          "en",
+          "pl"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,5 +30,5 @@
   "conversation_id": [
     "619172029"
   ],
-  "nb_hits": 123
+  "nb_hits": 382
 }
