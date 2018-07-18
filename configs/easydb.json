@@ -17,7 +17,8 @@
   "stop_urls": [],
   "keep_tags": [
     "code"
-  ],"custom_settings": {
+  ],
+  "custom_settings": {
     "separatorsToIndex": "_"
   },
   "sitemap_urls": [
@@ -40,5 +41,5 @@
   "conversation_id": [
     "609583165"
   ],
-  "nb_hits": 10671
+  "nb_hits": 13382
 }
