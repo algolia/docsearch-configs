@@ -1,17 +1,8 @@
 {
   "index_name": "docusaurus",
   "start_urls": [
-      {
-        "url": "https://docusaurus.io/docs/(?P<lang>.*?)/",
-        "variables": {
-          "lang": [
-            "en",
-            "es-ES",
-            "ro",
-            "zh-CN",
-            "tr"
-          ]
-        },
+    {
+      "url": "https://docusaurus.io/docs/",
       "tags": [
         "docs"
       ]
@@ -25,8 +16,7 @@
   ],
   "stop_urls": [
     "/help",
-    "/users",
-    ".html$"
+    "/users"
   ],
   "sitemap_urls": [
     "https://docusaurus.io/sitemap.xml"
@@ -57,5 +47,5 @@
       "version"
     ]
   },
-  "nb_hits": 3110
+  "nb_hits": 47299
 }
