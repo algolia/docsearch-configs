@@ -1,7 +1,7 @@
 {
   "index_name": "jest",
   "start_urls": [
-    "http://jestjs.io/docs/"
+    "https://jestjs.io/docs/"
   ],
   "stop_urls": [
     "/help",
