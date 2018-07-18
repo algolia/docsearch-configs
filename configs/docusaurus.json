@@ -26,9 +26,7 @@
   "stop_urls": [
     "/help",
     "/users",
-    ".html$",
-    "https://docusaurus.io/docs/.*?/\\d",
-    "https://docusaurus.io/docs/.*?/next"
+    ".html$"
   ],
   "sitemap_urls": [
     "https://docusaurus.io/sitemap.xml"
@@ -53,5 +51,11 @@
   "conversation_id": [
     "415526327"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "nb_hits": 3110
 }
