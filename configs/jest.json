@@ -1,63 +1,19 @@
 {
   "index_name": "jest",
   "start_urls": [
-    {
-      "url": "http://jestjs.io/docs/(?P<lang>.*?)/",
-      "variables": {
-        "lang": [
-          "en",
-          "ja",
-          "es-ES",
-          "pt-BR",
-          "ro",
-          "ru",
-          "uk",
-          "zh-Hans"
-        ]
-      }
-    },
-    {
-      "url": "http://jestjs.io/docs/(?P<lang>.*?)/getting-started",
-      "variables": {
-        "lang": [
-          "en",
-          "ja",
-          "es-ES",
-          "pt-BR",
-          "ro",
-          "ru",
-          "uk",
-          "zh-Hans"
-        ]
-      }
-    },
-    {
-      "url": "http://jestjs.io/(?P<lang>.*?)/versions",
-      "variables": {
-        "lang": [
-          "en",
-          "ja",
-          "es-ES",
-          "pt-BR",
-          "ro",
-          "ru",
-          "uk",
-          "zh-Hans"
-        ]
-      }
-    }
+    "http://jestjs.io/docs/"
   ],
   "stop_urls": [
     "/help",
-    "/videos",
-    ".html$"
+    "/videos"
   ],
   "sitemap_urls": [
     "https://jestjs.io/sitemap.xml"
   ],
+  "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
-      "selector": "//nav//*[contains(@class,'navListItemActive')]/../../h3",
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -83,5 +39,5 @@
       "version"
     ]
   },
-  "nb_hits": 25406
+  "nb_hits": 109062
 }
