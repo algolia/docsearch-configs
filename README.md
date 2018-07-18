@@ -117,6 +117,17 @@ Specifies if matched URL should not respect the same rules as the hyperlink craw
 ```
 Given this configuration, each webpage whose the URL contains '/doc/' will be scrapped even if they don't complied the `start_urls` or `stop_urls`
 
+### `sitemap_alternate_links`
+It specifies if alternate links should be followed. Your sitemap should inlcude localized versions of your page in such format:
+
+```
+<url>
+    <loc>http://example.com/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="http://example.com/de"/>
+</url>
+```
+
+If 'sitemap_alternate_links' is not set, the link "http://example.com/de" will not be parsed from the sitemap. Default is `false`
 
 ### Global selectors
 
