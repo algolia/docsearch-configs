@@ -2,13 +2,13 @@
   "index_name": "easydb",
   "start_urls": [
     {
-      "url": "https://easydb.gitlab.io/en/",
+      "url": "http://docs.easydb.de/en/",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://easydb.gitlab.io/",
+      "url": "http://docs.easydb.de/",
       "tags": [
         "de"
       ]
@@ -21,7 +21,7 @@
     "separatorsToIndex": "_"
   },
   "sitemap_urls": [
-    "https://easydb.gitlab.io/sitemap.xml"
+    "http://docs.easydb.de/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
