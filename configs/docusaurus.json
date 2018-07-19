@@ -1,17 +1,8 @@
 {
   "index_name": "docusaurus",
   "start_urls": [
-      {
-        "url": "https://docusaurus.io/docs/(?P<lang>.*?)/",
-        "variables": {
-          "lang": [
-            "en",
-            "es-ES",
-            "ro",
-            "zh-CN",
-            "tr"
-          ]
-        },
+    {
+      "url": "https://docusaurus.io/docs/",
       "tags": [
         "docs"
       ]
@@ -25,10 +16,7 @@
   ],
   "stop_urls": [
     "/help",
-    "/users",
-    ".html$",
-    "https://docusaurus.io/docs/.*?/\\d",
-    "https://docusaurus.io/docs/.*?/next"
+    "/users"
   ],
   "sitemap_urls": [
     "https://docusaurus.io/sitemap.xml"
@@ -53,5 +41,11 @@
   "conversation_id": [
     "415526327"
   ],
-  "nb_hits": 3110
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "nb_hits": 47299
 }
