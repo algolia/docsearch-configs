@@ -2,13 +2,13 @@
   "index_name": "easydb",
   "start_urls": [
     {
-      "url": "http://docs.easydb.de/en/",
+      "url": "https://docs.easydb.de/en/",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "http://docs.easydb.de/",
+      "url": "https://docs.easydb.de/",
       "tags": [
         "de"
       ]
@@ -22,7 +22,7 @@
     "separatorsToIndex": "_"
   },
   "sitemap_urls": [
-    "http://docs.easydb.de/sitemap.xml"
+    "https://docs.easydb.de/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
