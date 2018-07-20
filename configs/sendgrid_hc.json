@@ -25,7 +25,7 @@
     "624078167"
   ],
   "selectors_exclude": [
-    "h1 + div ul:first-child"
+    ".doc-main h1 + div ul:first-child"
   ],
   "nb_hits": 2846
 }
