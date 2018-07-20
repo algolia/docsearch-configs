@@ -21,6 +21,11 @@
   "selectors_exclude": [
     ".hash-link"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
   "conversation_id": [
     "622028090"
   ],
