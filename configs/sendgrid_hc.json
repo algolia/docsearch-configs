@@ -1,0 +1,31 @@
+{
+  "index_name": "sendgrid_hc",
+  "start_urls": [
+    "http://sendgrid-knowledge-center-staging.s3-website-us-east-1.amazonaws.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".breadcrumb li:nth-child(2) a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".breadcrumb li:nth-child(3) a",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".doc-main h1",
+    "lvl3": ".doc-main h2",
+    "lvl4": ".doc-main h3",
+    "lvl5": ".doc-main h4",
+    "text": ".doc-main p, .doc-main li"
+  },
+  "conversation_id": [
+    "624078167"
+  ],
+  "selectors_exclude": [
+    "h1 + div ul:first-child"
+  ],
+  "nb_hits": 2846
+}
