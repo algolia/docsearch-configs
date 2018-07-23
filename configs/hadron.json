@@ -1,0 +1,29 @@
+{
+  "index_name": "hadron",
+  "start_urls": [
+    "http://hadron.pro"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@class,'side')]//li/a[contains(@class,'active')]/preceding::span[contains(@class,'subNav__header')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "[class*=subNav__link--active]",
+      "global": true,
+      "default_value": "Title"
+    },
+    "lvl2": ".docs-post-content h2",
+    "lvl3": ".docs-post-content h3",
+    "lvl4": ".docs-post-content h4",
+    "lvl5": ".docs-post-content h5",
+    "text": ".docs-post-content p, .docs-post-content li"
+  },
+  "conversation_id": [
+    "623863688"
+  ],
+  "nb_hits": 546
+}
