@@ -3,7 +3,9 @@
   "start_urls": [
     "https://dvc.org/doc/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://dvc.org/doc/get-started/install"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".docSearch-lvl0",
@@ -21,5 +23,5 @@
   ],
   "scrap_start_urls": false,
   "js_render": true,
-  "nb_hits": 605
+  "nb_hits": 645
 }
