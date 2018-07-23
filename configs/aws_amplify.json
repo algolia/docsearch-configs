@@ -1,7 +1,7 @@
 {
   "index_name": "aws_amplify",
   "start_urls": [
-    "https://aws.github.io/aws-amplify/"
+    "https://aws-amplify.github.io/amplify-js/"
   ],
   "stop_urls": [
     "index.html$"
