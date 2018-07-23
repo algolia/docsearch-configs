@@ -1,7 +1,7 @@
 {
   "index_name": "c_vladislav",
   "start_urls": [
-    "https://vladislav-lyuminarskiy.github.io/C-course-website"
+    "https://vladislav-lyuminarskiy-websites.github.io/C-course-website/"
   ],
   "stop_urls": [],
   "selectors": {
