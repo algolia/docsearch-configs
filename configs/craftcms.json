@@ -69,10 +69,12 @@
       "text": ".content p, .content li"
     }
   },
-  "selectors_exclude": [".table-of-contents"],
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
   "strip_chars": " .,;:#",
   "conversation_id": [
     "555461426"
   ],
-  "nb_hits": 76765
+  "nb_hits": 77836
 }
