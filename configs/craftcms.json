@@ -2,6 +2,19 @@
   "index_name": "craftcms",
   "start_urls": [
     {
+      "url": "https://docs.craftcms.com/(?P<version>.*?)/ja",
+      "variables": {
+        "version": [
+          "v2",
+          "v3"
+        ]
+      },
+      "tags": [
+        "doc",
+        "ja"
+      ]
+    },
+    {
       "url": "https://docs.craftcms.com/(?P<version>.*?)",
       "variables": {
         "version": [
@@ -10,7 +23,8 @@
         ]
       },
       "tags": [
-        "doc"
+        "doc",
+        "en"
       ]
     },
     {
@@ -22,7 +36,8 @@
         ]
       },
       "tags": [
-        "api"
+        "api",
+        "en"
       ],
       "selectors_key": "api"
     }
@@ -54,6 +69,7 @@
       "text": ".content p, .content li"
     }
   },
+  "selectors_exclude": [".table-of-contents"],
   "strip_chars": " .,;:#",
   "conversation_id": [
     "555461426"
