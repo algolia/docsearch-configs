@@ -17,7 +17,9 @@
   ],
   "stop_urls": [
     "\\?file=",
-    "/index.html$"
+    "/index.html$",
+    "docs/configuration/sitemaps$",
+    "/openhabian$"
   ],
   "selectors": {
     "default": {
@@ -61,5 +63,5 @@
     ".table-of-contents",
     "#table-of-contents"
   ],
-  "nb_hits": 28695
+  "nb_hits": 28275
 }
