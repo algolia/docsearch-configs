@@ -1,10 +1,10 @@
 {
   "index_name": "tinymce-v3",
   "start_urls": [
-    "https://www.tinymce.com/docs-3x/"
+    "https://www.tiny.cloud/docs-3x/"
   ],
   "stop_urls": [
-    "www.tinymce.com/docs-3x/changelog"
+    "docs-3x/changelog"
   ],
   "selectors": {
     "lvl0": ".side-nav .active span.folder",
@@ -22,5 +22,5 @@
   "conversation_id": [
     "330412017"
   ],
-  "nb_hits": 4781
+  "nb_hits": 2337
 }
