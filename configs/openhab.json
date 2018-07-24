@@ -1,0 +1,65 @@
+{
+  "index_name": "openhab",
+  "start_urls": [
+    {
+      "url": "https://www.openhab.org/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://www.openhab.org/addons/",
+      "tags": [
+        "addons"
+      ],
+      "selectors_key": "addons"
+    }
+  ],
+  "stop_urls": [
+    "\\?file=",
+    "/index.html$"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "p.sidebar-heading.open",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4, .content table td:first-of-type",
+      "text": ".content li, .content p, .content table td:last-child"
+    },
+    "addons": {
+      "lvl0": {
+        "selector": ".links .router-link-active",
+        "global": true,
+        "default_value": "Add-ons"
+      },
+      "lvl1": {
+        "selector": "p.sidebar-heading.open",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": ".content h1",
+      "lvl3": ".content h2",
+      "lvl4": ".content h3",
+      "lvl5": ".content h4, .content table td:first-of-type",
+      "text": ".content li, .content p, .content table td:last-child"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "626034232"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    ".table-of-contents",
+    "#table-of-contents"
+  ],
+  "nb_hits": 28695
+}
