@@ -1,0 +1,34 @@
+{
+  "index_name": "rasa",
+  "start_urls": [
+    "https://rasa.com/docs"
+  ],
+  "stop_urls": [
+    "http://rasa.com/docs/.*?/\\d",
+    "http://rasa.com/docs/nlu/(?!master)",
+    ".rst.txt$",
+    "http://rasa.com/docs/about/$",
+    "/_"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'sphinxsidebarwrapper')]//ul[contains(@class, 'current')][1]/preceding::p[contains(@class, 'caption')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".body h1",
+    "lvl2": ".body h2",
+    "lvl3": ".body h3",
+    "lvl4": ".body h4",
+    "lvl5": ".body h5, .body .admonition-title",
+    "text": ".body p, .body li"
+  },
+  "selectors_exclude": [
+    ".scv-banner"
+  ],
+  "conversation_id": [
+    "627630474"
+  ],
+  "nb_hits": 3655
+}
