@@ -1,0 +1,30 @@
+{
+  "index_name": "angularjs",
+  "sitemap_urls": [
+    "https://docs.angularjs.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".nav-breadcrumb > li:nth-child(1) > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".nav-breadcrumb > li:nth-child(2) > a",
+      "global": true
+    },
+    "lvl2": "[autoscroll] h1",
+    "lvl3": "[autoscroll] h2",
+    "lvl4": "[autoscroll] h4, [autoscroll] table td:first-of-type",
+    "text": "[autoscroll] p, [autoscroll] li"
+  },
+  "js_render": true,
+  "stop_content": [
+    "The page you requested does not exist"
+  ],
+  "selectors_exclude": [
+    "toc-tree"
+  ],
+  "nb_hits": 12496
+}
