@@ -1,7 +1,7 @@
 {
   "index_name": "jss",
   "start_urls": [
-    "https://jss-docs-preview3.herokuapp.com"
+    "https://jss.sitecore.net"
   ],
   "stop_urls": [
     "\\?id",
