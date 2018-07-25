@@ -1,8 +1,8 @@
 {
   "index_name": "apache_pulsar",
   "start_urls": [
-    "https://cckellogg.github.io/incubator-pulsar/docs/standalone",
-    "https://cckellogg.github.io/incubator-pulsar/docs/"
+    "http://pulsar.incubator.apache.org/staging/docs/standalone",
+    "http://pulsar.incubator.apache.org/staging/docs/"
   ],
   "stop_urls": [],
   "selectors": {
