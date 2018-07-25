@@ -1,0 +1,32 @@
+{
+  "index_name": "jquery",
+  "start_urls": [
+    "https://api.jquery.com/"
+  ],
+  "stop_urls": [
+    ".com/category/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#categories .cat-item.current-cat > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h1",
+    "lvl2": "#content h2, #content h4.name",
+    "lvl3": "#content h3, #content h4:not(.name)",
+    "lvl4": "#content h5, #content strong:first-child",
+    "text": ".entry-content p, .entry-content li"
+  },
+  "selectors_exclude": [
+    "header ~ article",
+    ".returns",
+    ".version-details",
+    ".section-title",
+    "[class^=toclevel]",
+    "#toctitle"
+  ],
+  "min_indexed_level": 2,
+  "scrap_start_urls": false,
+  "nb_hits": 7503
+}
