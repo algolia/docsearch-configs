@@ -1,0 +1,39 @@
+{
+  "index_name": "kubernetes",
+  "start_urls": [
+    "https://kubernetes.io/docs/"
+  ],
+  "stop_urls": [
+    "/release/",
+    "search/$",
+    "https://kubernetes.io/docs/[^/]*?/[^/]*?/$"
+  ],
+  "sitemap_urls": [
+    "https://kubernetes.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#hero .YAH",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class,'item')][@data-title=//div[@id='docsContent']/h1/text()]/../../@data-title",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": "#docsContent h1",
+    "lvl3": "#docsContent h2",
+    "lvl4": "#docsContent h3",
+    "lvl5": "#docsContent h4",
+    "lvl6": "#docsContent h5",
+    "text": "#docsContent p, #docsContent li"
+  },
+  "selectors_exclude": [
+    "#markdown-toc",
+    ".note"
+  ],
+  "min_indexed_level": 3,
+  "nb_hits": 30184
+}
