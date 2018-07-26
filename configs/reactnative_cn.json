@@ -1,19 +1,25 @@
 {
   "index_name": "reactnative_cn",
   "start_urls": [
+    "https://reactnative.cn/docs/getting-started.html",
     "http://reactnative.cn/docs"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".mdContaint h1",
-    "lvl1": ".mdContaint h2",
-    "lvl2": ".mdContaint h3",
-    "lvl3": ".mdContaint h4",
-    "lvl4": ".mdContaint h5",
-    "text": ".mdContaint p, .mdContaint li"
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Blog"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
   },
   "conversation_id": [
     "526331448"
   ],
-  "nb_hits": 4553
+  "nb_hits": 6454
 }
