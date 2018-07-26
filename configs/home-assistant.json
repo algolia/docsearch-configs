@@ -2,6 +2,8 @@
   "index_name": "home-assistant",
   "start_urls": [
     "https://www.home-assistant.io/docs/",
+    "https://www.home-assistant.io/hassio/",
+    "https://www.home-assistant.io/lovelace/",
     "https://www.home-assistant.io/getting-started/",
     "https://www.home-assistant.io/developers/"
   ],
