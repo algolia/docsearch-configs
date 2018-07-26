@@ -1,0 +1,84 @@
+{
+  "index_name": "sass-lang",
+  "start_urls": [
+    {
+      "url": "https://sass-lang.com/documentation/$",
+      "selectors_key": "root",
+      "tags": [
+        "root"
+      ]
+    },
+    {
+      "url": "https://sass-lang.com/documentation/[^/]+.html$",
+      "selectors_key": "root"
+    },
+    {
+      "url": "https://sass-lang.com/documentation/file.FAQ.html",
+      "selectors_key": "root",
+      "tags": [
+        "faq"
+      ]
+    },
+    {
+      "url": "https://sass-lang.com/documentation/file.SASS_CHANGELOG",
+      "selectors_key": "changelog",
+      "tags": [
+        "changelog"
+      ]
+    },
+    "https://sass-lang.com/documentation/"
+  ],
+  "stop_urls": [
+    "//sass-lang.com/documentation/file.SASS_CHANGELOG.html$",
+    "https://sass-lang.com/documentation/Sass/Script/Functions/",
+    "/documentation/index.html$",
+    "https://sass-lang.com/documentation/file_list.html"
+  ],
+  "keep_tags": [
+    "code"
+  ],
+  "selectors": {
+    "root": {
+      "lvl0": "#filecontents h1",
+      "lvl1": "#filecontents h2",
+      "lvl2": "#filecontents h3",
+      "lvl3": "#filecontents h4",
+      "lvl4": "#filecontents h5",
+      "text": "#filecontents p, #filecontents li"
+    },
+    "changelog": {
+      "lvl0": "#filecontents h1",
+      "lvl1": "#filecontents h2",
+      "lvl2": "#filecontents h3",
+      "lvl3": "#filecontents h4",
+      "lvl4": "#filecontents h5",
+      "text": "#filecontents p, #filecontents li"
+    },
+    "default": {
+      "lvl0": {
+        "selector": "#menu > span:nth-child(3)",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "#menu > span:last-of-type",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": "#content h2",
+      "lvl3": "#content h3 strong",
+      "lvl4": "#content h4, #content .summary_signature, #content p.tag_title",
+      "lvl5": "#content h5",
+      "text": "#content p:not(.tag_title), #content li"
+    }
+  },
+  "selectors_exclude": [
+    "#content h2 small",
+    "#content .box"
+  ],
+  "only_content_level": true,
+  "custom_settings": {
+    "separatorsToIndex": "#_"
+  },
+  "nb_hits": 8647
+}
