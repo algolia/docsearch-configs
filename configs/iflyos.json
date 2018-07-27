@@ -1,0 +1,26 @@
+{
+  "index_name": "iflyos",
+  "start_urls": [
+    "https://doc.iflyos.cn/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4, .content table td:first-of-type",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li, .content table td:last-of-type"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "628414692"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 3184
+}
