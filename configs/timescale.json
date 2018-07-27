@@ -1,0 +1,36 @@
+{
+  "index_name": "timescale",
+  "start_urls": [
+    {
+      "url": "http://docs-exp.timescale.com/v0.10/getting-started/installation/(?P<os>.*?)/",
+      "variables": {
+        "os": [
+          "mac",
+          "windows",
+          "linux"
+        ]
+      }
+    },
+    "http://docs-exp.timescale.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//*[contains(@class, 'sidebar-list')]//a[contains(@class, 'active')][1]/preceding::*[contains(@class, 'sidebar-title')][1] | //*[contains(@class, 'sidebar-title')][contains(@class, 'active')])[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".main-content__text h1",
+    "lvl2": ".main-content__text h2",
+    "lvl3": ".main-content__text h3",
+    "lvl4": ".main-content__text h4",
+    "lvl5": ".main-content__text h5",
+    "text": ".main-content__text p, .main-content__text li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "628616287"
+  ],
+  "nb_hits": 2920
+}
