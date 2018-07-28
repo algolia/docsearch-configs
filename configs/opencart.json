@@ -8,15 +8,21 @@
       ]
     },
     {
-      "url": "http://opencart.my/documentation/rounding/",
+      "url": "http://opencart.my/documentation/globalqty/",
       "tags": [
-        "rounding"
+        "globalqty"
       ]
     },
     {
       "url": "http://opencart.my/documentation/livepriceupdate/",
       "tags": [
         "livepriceupdate"
+      ]
+    },
+    {
+      "url": "http://opencart.my/documentation/rounding/",
+      "tags": [
+        "rounding"
       ]
     },
     {
