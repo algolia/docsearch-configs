@@ -2,7 +2,7 @@
   "index_name": "editey",
   "start_urls": [
     {
-      "url": "http://help.editey.com/(?P<lang>.*?)/",
+      "url": "https://help.editey.com/(?P<lang>.*?)/",
       "variables": {
         "lang": [
           "en",
@@ -10,7 +10,7 @@
         ]
       }
     },
-    "http://help.editey.com/en/guides/overview.html"
+    "https://help.editey.com/en/guides/overview.html"
   ],
   "stop_urls": [
     "/pricing/"
