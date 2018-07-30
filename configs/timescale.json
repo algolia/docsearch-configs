@@ -2,12 +2,16 @@
   "index_name": "timescale",
   "start_urls": [
     {
-      "url": "http://docs-exp.timescale.com/v0.10/getting-started/installation/(?P<os>.*?)/",
+      "url": "http://docs-exp.timescale.com/(?P<version>.*?)/main",
       "variables": {
-        "os": [
-          "mac",
-          "windows",
-          "linux"
+        "version": [
+          "v0.4",
+          "v0.5",
+          "v0.6",
+          "v0.7",
+          "v0.8",
+          "v0.9",
+          "v0.10"
         ]
       }
     },
@@ -26,7 +30,7 @@
     "lvl3": ".main-content__text h3",
     "lvl4": ".main-content__text h4",
     "lvl5": ".main-content__text h5",
-    "text": ".main-content__text p, .main-content__text li"
+    "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
   },
   "js_render": true,
   "conversation_id": [
