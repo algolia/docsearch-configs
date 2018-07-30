@@ -9,7 +9,7 @@
   "selectors": {
     "lvl0": "#docsearch-lvl0",
     "lvl1": "#docsearch-lvl1",
-    "lvl2": "#docsearch-text .help__subtitle",
+    "lvl2": "#docsearch-lvl2",
     "text": "#docsearch-text li, #docsearch-text p"
   },
   "only_content_level": true,
