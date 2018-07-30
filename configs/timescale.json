@@ -2,7 +2,7 @@
   "index_name": "timescale",
   "start_urls": [
     {
-      "url": "http://docs-exp.timescale.com/(?P<version>.*?)/main",
+      "url": "http://docs-exp.timescale.com/(?P<version>.*?)",
       "variables": {
         "version": [
           "v0.4",
@@ -14,8 +14,7 @@
           "v0.10"
         ]
       }
-    },
-    "http://docs-exp.timescale.com"
+    }
   ],
   "stop_urls": [],
   "selectors": {
