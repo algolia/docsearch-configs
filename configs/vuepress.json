@@ -1,7 +1,18 @@
 {
   "index_name": "vuepress",
   "start_urls": [
-    "https://vuepress.vuejs.org/"
+    {
+      "url": "https://vuepress.vuejs.org/zh/",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://vuepress.vuejs.org/",
+      "tags": [
+        "zh"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,5 +33,5 @@
     "561346943"
   ],
   "strip_chars": " .,;:#",
-  "nb_hits": 854
+  "nb_hits": 1048
 }
