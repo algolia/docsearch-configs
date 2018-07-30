@@ -1,8 +1,8 @@
 {
   "index_name": "status_technikon",
   "start_urls": [
-    "https://docs-staging.status.im/docs/",
-    "https://docs-staging.status.im/docs/introduction.html"
+    "https://docs.status.im/docs/",
+    "https://docs.status.im/docs/introduction.html"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +24,5 @@
   "conversation_id": [
     "618457005"
   ],
-  "nb_hits": 671
+  "nb_hits": 378
 }
