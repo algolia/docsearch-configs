@@ -1,8 +1,7 @@
 {
   "index_name": "exokit",
   "start_urls": [
-    "https://docs.webmr.io/docs/",
-    "https://docs.webmr.io/docs/5MinuteGuide.html"
+    "https://docs.webmr.io/docs/whatisexo.html"
   ],
   "stop_urls": [],
   "selectors": {
