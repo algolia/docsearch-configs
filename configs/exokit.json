@@ -2,7 +2,7 @@
   "index_name": "exokit",
   "start_urls": [
     "https://docs.webmr.io/docs/",
-    "https://docs.webmr.io/docs/5MinuteGuide.html"
+    "https://docs.webmr.io/docs/whatisexo.html"
   ],
   "stop_urls": [],
   "selectors": {
@@ -29,5 +29,5 @@
   "conversation_id": [
     "622028090"
   ],
-  "nb_hits": 176
+  "nb_hits": 345
 }
