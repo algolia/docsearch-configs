@@ -1,7 +1,8 @@
 {
   "index_name": "oddlog",
   "start_urls": [
-    "https://frissdiegurke.gitlab.io/oddlog/documentation/"
+    "https://frissdiegurke.gitlab.io/oddlog/documentation/",
+    "https://frissdiegurke.gitlab.io/oddlog/guide/"
   ],
   "stop_urls": [],
   "selectors": {
