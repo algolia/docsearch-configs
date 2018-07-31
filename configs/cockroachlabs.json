@@ -16,8 +16,8 @@
       }
     }
   ],
-  "sitemap_urls": [
-    "https://www.cockroachlabs.com/docs/sitemap.xml"
+  "stop_urls": [
+    ".html$"
   ],
   "selectors": {
     "lvl0": "#main-content .post-header h1",
@@ -43,5 +43,5 @@
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 62481
+  "nb_hits": 39288
 }
