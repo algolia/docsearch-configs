@@ -32,8 +32,10 @@
   },
   "selectors_exclude": [
     "#markdown-toc",
-    ".note"
+    ".note",
+    "#editPageButton"
   ],
   "min_indexed_level": 3,
-  "nb_hits": 30184
+  "only_content_level": true,
+  "nb_hits": 25232
 }
