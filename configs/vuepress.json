@@ -1,18 +1,7 @@
 {
   "index_name": "vuepress",
   "start_urls": [
-    {
-      "url": "https://vuepress.vuejs.org/zh/",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://vuepress.vuejs.org/",
-      "tags": [
-        "en"
-      ]
-    }
+    "https://vuepress.vuejs.org/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -26,12 +15,22 @@
     "lvl3": ".content h3",
     "lvl4": ".content h4",
     "lvl5": ".content h5",
-    "text": ".content p, .content li"
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
   "scrap_start_urls": false,
   "conversation_id": [
     "561346943"
   ],
   "strip_chars": " .,;:#",
-  "nb_hits": 1048
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "nb_hits": 1051
 }
