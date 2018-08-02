@@ -1,5 +1,8 @@
 {
   "index_name": "timescale",
+  "sitemap_urls": [
+    "http://docs-exp.timescale.com/docs-exp-sitemap.xml" 
+  ],
   "start_urls": [
     {
       "url": "http://docs-exp.timescale.com/(?P<version>.*?)",
@@ -18,12 +21,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "(//*[contains(@class, 'sidebar-list')]//a[contains(@class, 'active')][1]/preceding::*[contains(@class, 'sidebar-title')][1] | //*[contains(@class, 'sidebar-title')][contains(@class, 'active')])[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
+    "lvl0": "a.sidebar__title",
     "lvl1": ".main-content__text h1",
     "lvl2": ".main-content__text h2",
     "lvl3": ".main-content__text h3",
