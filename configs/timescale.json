@@ -21,6 +21,7 @@
   ],
   "stop_urls": [],
   "selectors": {
+    "lvl0": "a.sidebar__title",
     "lvl1": ".main-content__text h1",
     "lvl2": ".main-content__text h2",
     "lvl3": ".main-content__text h3",
