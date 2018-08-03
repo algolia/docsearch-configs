@@ -1,8 +1,8 @@
 {
   "index_name": "apache_pulsar",
   "start_urls": [
-    "http://pulsar.incubator.apache.org/staging/docs/standalone",
-    "http://pulsar.incubator.apache.org/staging/docs/"
+    "http://pulsar.incubator.apache.org/docs/standalone",
+    "http://pulsar.incubator.apache.org/docs/"
   ],
   "stop_urls": [],
   "selectors": {
