@@ -3,6 +3,7 @@
   "sitemap_urls": [
     "http://docs-exp.timescale.com/docs-exp-sitemap.xml" 
   ],
+  "force_sitemap_urls_crawling": true,
   "start_urls": [
     {
       "url": "http://docs-exp.timescale.com/(?P<version>.*?)",
@@ -30,6 +31,7 @@
     "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
   },
   "js_render": true,
+  "js_wait": 2,
   "conversation_id": [
     "628616287"
   ],
