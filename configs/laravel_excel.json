@@ -2,7 +2,7 @@
   "index_name": "laravel_excel",
   "start_urls": [
     {
-      "url": "https://laravel-excel.maatwebsite.nl/docs/(?P<version>.*?)/",
+      "url": "https://laravel-excel.maatwebsite.nl/(?P<version>.*?)/",
       "variables": {
         "version": [
           "2.1",
@@ -14,17 +14,18 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//div[@id='sidebar']//a[contains(@class, 'text-teal')][1]/preceding::li[contains(@class, 'text-teal-dark')][1]",
-      "type": "xpath",
+      "selector": "p.sidebar-heading.open",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".leading-loose h1",
-    "lvl2": ".leading-loose h2",
-    "lvl3": ".leading-loose h3",
-    "lvl4": ".leading-loose h4",
-    "text": ".leading-loose p, .leading-loose li"
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li",
   },
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "533794469"
   ],
