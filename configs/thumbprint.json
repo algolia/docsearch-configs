@@ -3,7 +3,7 @@
   "start_urls": [
     "https://thumbprint.thumbtack.com/guide/",
     "https://thumbprint.thumbtack.com/tokens/",
-    "https://thumbprint.thumbtack.com/ui/",
+    "https://thumbprint.thumbtack.com/components/",
     "https://thumbprint.thumbtack.com/icons/"
   ],
   "selectors": {
