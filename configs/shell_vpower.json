@@ -1,7 +1,7 @@
 {
   "index_name": "shell_vpower",
   "start_urls": [
-    "https://www.master-7rqtwti-yc7sy5auggivc.eu.platform.sh/"
+    "https://mirumuk.github.io/shellplaybook-headless/"
   ],
   "stop_urls": [],
   "selectors": {
