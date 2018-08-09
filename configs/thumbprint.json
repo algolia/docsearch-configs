@@ -5,8 +5,11 @@
     "https://api.thumbprint.design/atomic/",
     "https://api.thumbprint.design/components/",
     "https://api.thumbprint.design/icons/",
-    "https://api.thumbprint.design/tokens/"
+    "https://api.thumbprint.design/tokens/",
     "https://thumbprint.design/notes/"
+  ],
+  "stop_urls": [
+    ".xml$"
   ],
   "selectors": {
     "default": {
@@ -15,15 +18,18 @@
         "type": "xpath",
         "default_value": "Documentation"
       },
-      "lvl1": "h1",
-      "lvl2": "h2",
-      "lvl3": "h3",
-      "lvl4": "h4",
-      "text": "[data-id='content'] p, [data-id='content'] li, [data-id='content'] table, [data-id='content'] code"
+      "lvl1": "[data-id='content'] h1",
+      "lvl2": "[data-id='content'] h2",
+      "lvl3": "[data-id='content'] h3",
+      "lvl4": "[data-id='content'] h4",
+      "text": "[data-id='content'] p, [data-id='content'] li, [data-id='content'] table tr:not(.dn) > td.tl"
     }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
   },
   "conversation_id": [
     "604604086"
   ],
-  "nb_hits": 2677
+  "nb_hits": 1789
 }
