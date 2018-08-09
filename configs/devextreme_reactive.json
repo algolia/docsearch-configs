@@ -9,6 +9,7 @@
           "vue"
         ],
         "tool": [
+          "core",
           "grid",
           "chart"
         ]
