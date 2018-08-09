@@ -1,10 +1,12 @@
 {
   "index_name": "thumbprint",
   "start_urls": [
-    "https://thumbprint.thumbtack.com/guide/",
-    "https://thumbprint.thumbtack.com/tokens/",
-    "https://thumbprint.thumbtack.com/ui/",
-    "https://thumbprint.thumbtack.com/icons/"
+    "https://guide.thumbprint.design/",
+    "https://api.thumbprint.design/atomic/",
+    "https://api.thumbprint.design/components/",
+    "https://api.thumbprint.design/icons/",
+    "https://api.thumbprint.design/tokens/"
+    "https://thumbprint.design/notes/"
   ],
   "selectors": {
     "default": {
