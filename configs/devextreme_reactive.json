@@ -1,8 +1,19 @@
 {
   "index_name": "devextreme_reactive",
   "start_urls": [
-    "https://devexpress.github.io/devextreme-reactive/react/grid/docs/guides/getting-started/",
-    "https://devexpress.github.io/devextreme-reactive/react/grid/docs/"
+    {
+      "url": "https://devexpress.github.io/devextreme-reactive/(?P<techno>.*?)/(?P<tool>.*?)/docs/",
+      "variables": {
+        "techno": [
+          "React",
+          "vue"
+        ],
+        "tool": [
+          "grid",
+          "chart"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,5 +33,5 @@
   "conversation_id": [
     "636395992"
   ],
-  "nb_hits": 1155
+  "nb_hits": 1058
 }
