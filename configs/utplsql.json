@@ -1,0 +1,24 @@
+{
+  "index_name": "utplsql",
+  "start_urls": [
+    "https://lwasylow.github.io/docusaurus"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4, .post table td:first-of-type",
+    "text": ".post article p, .post article li, .post table td:last-of-type"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "636013636"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 1884
+}
