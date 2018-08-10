@@ -1,6 +1,12 @@
 {
   "index_name": "sendgrid_hc",
   "start_urls": [
+    {
+      "url": "http://sendgrid-knowledge-center-staging.s3-website-us-east-1.amazonaws.com/glossary/",
+      "tags": [
+        "glossary"
+      ]
+    },
     "http://sendgrid-knowledge-center-staging.s3-website-us-east-1.amazonaws.com/"
   ],
   "stop_urls": [],
