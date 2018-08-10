@@ -3,7 +3,6 @@
   "start_urls": [
     {
       "url": "http://sendgrid-knowledge-center-staging.s3-website-us-east-1.amazonaws.com/glossary/",
-      "selectors_key": "Glossary",
       "tags": [
         "glossary"
       ]
