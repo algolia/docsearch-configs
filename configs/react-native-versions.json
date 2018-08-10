@@ -21,7 +21,7 @@
       "tags": [
         "current",
         "master",
-        "0.54-RC"
+        "0.56"
       ]
     },
     "https://facebook.github.io/react-native/docs/next/getting-started.html",
@@ -30,7 +30,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -48,5 +48,5 @@
   "conversation_id": [
     "477313987"
   ],
-  "nb_hits": 282983
+  "nb_hits": 452577
 }
