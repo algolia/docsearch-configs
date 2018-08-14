@@ -2,7 +2,7 @@
   "index_name": "opendatasoft",
   "start_urls": [
     {
-      "url": "https://docs.opendatasoft.com/(?P<language>.*?)/",
+      "url": "https://help.opendatasoft.com/platform/(?P<language>.*?)/",
       "variables": {
         "language": [
           "en",
@@ -12,8 +12,7 @@
           "nl"
         ]
       }
-    },
-    "https://docs.opendatasoft.com/"
+    }
   ],
   "stop_urls": [
     "404"
