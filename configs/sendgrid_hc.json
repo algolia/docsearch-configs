@@ -19,7 +19,7 @@
     "lvl1": {
       "selector": ".breadcrumb li:nth-child(3) a",
       "global": true,
-      "default_value": "Chapter"
+      "default_value": "Term"
     },
     "lvl2": ".doc-main h1",
     "lvl3": ".doc-main h2",
