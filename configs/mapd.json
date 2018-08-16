@@ -2,7 +2,7 @@
   "index_name": "mapd",
   "start_urls": [
     "https://www.mapd.com/docs/",
-    "https://www.mapd.com/docs/latest/4_0_administration.html"
+    "https://www.mapd.com/docs/latest/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -17,7 +17,7 @@
     "lvl3": ".section h3",
     "lvl4": ".section h4",
     "lvl5": ".section h5",
-    "text": ".section p, .section li"
+    "text": ".section p, .section li, .section td"
   },
   "selectors_exclude": [
     ".toctree-wrapper"
