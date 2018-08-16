@@ -1,15 +1,12 @@
 {
   "index_name": "thumbprint",
   "start_urls": [
-    "https://guide.thumbprint.design/",
-    "https://api.thumbprint.design/atomic/",
-    "https://api.thumbprint.design/components/",
-    "https://api.thumbprint.design/icons/",
-    "https://api.thumbprint.design/tokens/",
-    "https://thumbprint.design/notes/"
+    "https://thumbprint.design/"
   ],
   "stop_urls": [
-    ".xml$"
+    ".xml$",
+    "https://thumbprint.design/",
+    "https://thumbprint.design/api/"
   ],
   "selectors": {
     "default": {
@@ -22,7 +19,7 @@
       "lvl2": "[data-id='content'] h2",
       "lvl3": "[data-id='content'] h3",
       "lvl4": "[data-id='content'] h4",
-      "text": "[data-id='content'] p, [data-id='content'] li, [data-id='content'] table tr:not(.dn) > td.tl"
+      "text": "[data-id='content'] p, [data-id='content'] li, [data-id='content'] table .atomic-class, [data-id='content'] table tr:not(.dn) > td.tl"
     }
   },
   "custom_settings": {
