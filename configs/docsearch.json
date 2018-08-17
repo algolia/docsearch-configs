@@ -1,20 +1,20 @@
 {
   "index_name": "docsearch",
   "start_urls": [
-    "https://community.algolia.com/docsearch/documentation/",
-    "https://community.algolia.com/docsearch/documentation/docsearch/introduction/"
+    "https://community.algolia.com/docsearch/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".main-content h1",
-    "lvl1": ".main-content h2",
-    "lvl2": ".main-content h3",
-    "lvl3": ".main-content h4",
-    "lvl4": ".main-content h5",
-    "text": ".main-content p, .main-content li"
-  },
-  "custom_settings": {
-    "separatorsToIndex": "_"
-  },
-  "nb_hits": 370
+    "lvl0": {
+      "selector": "//div[contains(@class, 'navigation-sidebar')]//a[contains(@class, 'current-page')][1]/preceding::*[contains(@class, 'category')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".documentation-content .custom-main-title",
+    "lvl2": ".documentation-content h2",
+    "lvl3": ".documentation-content h3",
+    "lvl4": ".documentation-content h4",
+    "text": ".documentation-content p, .documentation-content li"
+  }
 }
