@@ -6,11 +6,10 @@
       "variables": {
         "version": {
           "url": "http://cordova.apache.org/docs/en/latest/guide/overview/",
-          "js": "var versions = $('ul[aria-labelledby=versionDropdown] a').map(function(i, e) { return $(e).text().replace(/\\(Latest\\)/i, '').replace(/\\s+/g, ''); }).toArray(); return JSON.stringify(versions);"
-        },
+          "js": "JSON.stringify($('ul[aria-labelledby=versionDropdown] a').map(function (i, e) { return $(e).text().replace('(Latest)', '').trim(); }).toArray())" },
         "language": {
           "url": "http://cordova.apache.org/docs/en/latest/guide/overview/",
-          "js": "var languages = $('ul[aria-labelledby=languageDropdown] a').map(function(i, e) { return $(e).attr('href').split('/')[2]; }).toArray(); return JSON.stringify(languages);"
+          "js": "JSON.stringify($('ul[aria-labelledby=languageDropdown] a').map(function (i, e) { return $(e).attr('href').split('/')[2]; }).toArray())"
         }
       }
     }
