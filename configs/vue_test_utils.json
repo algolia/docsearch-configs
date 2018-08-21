@@ -1,0 +1,31 @@
+{
+  "index_name": "vue_test_utils",
+  "start_urls": [
+    {
+      "url": "https://vue-test-utils.vuejs.org/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "ru",
+          "api",
+          "ja",
+          "zh"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h2",
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5",
+    "text": ".content p, .content li",
+    "lvl5": ".content h5"
+  },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "644808023"
+  ],
+  "nb_hits": 5824
+}
