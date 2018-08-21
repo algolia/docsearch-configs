@@ -1,7 +1,7 @@
 {
   "index_name": "atom_flight_manual",
   "start_urls": [
-    "https://flight-manual.atom.io/"
+    "https://docsearch-atom-flight-manual.netlify.com/"
   ],
   "stop_urls": [],
   "selectors": {
