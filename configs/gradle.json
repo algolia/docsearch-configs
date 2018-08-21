@@ -1,0 +1,28 @@
+{
+  "index_name": "gradle",
+  "start_urls": [
+    "https://docs.gradle.org/current/"
+  ],
+  "stop_urls": [
+    "\\?",
+    "/javadoc/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@class,'docs-navigation')]//a[contains(//head/link[@rel='canonical']/@href,@href)]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".chapter h1",
+    "lvl2": ".chapter h2",
+    "lvl3": ".chapter h3",
+    "lvl4": ".chapter h4",
+    "lvl5": ".chapter h5",
+    "text": ".chapter p, .chapter li"
+  },
+  "conversation_id": [
+    "641563788"
+  ],
+  "nb_hits": 20832
+}
