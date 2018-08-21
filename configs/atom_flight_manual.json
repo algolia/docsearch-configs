@@ -1,0 +1,21 @@
+{
+  "index_name": "atom_flight_manual",
+  "start_urls": [
+    "https://flight-manual.atom.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'toc')]//li[contains(concat(' ', @class, ' '), ' selected ')][1]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".document-content h3",
+    "lvl2": ".document-content h4",
+    "lvl3": ".document-content h5",
+    "lvl4": ".document-content h6",
+    "text": ".document-content p, .document-content li"
+  },
+  "nb_hits": 1779
+}
