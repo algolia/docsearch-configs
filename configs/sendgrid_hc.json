@@ -21,11 +21,11 @@
       "global": true,
       "default_value": "Term"
     },
-    "lvl2": ".doc-main h1",
-    "lvl3": ".doc-main h2",
-    "lvl4": ".doc-main h3",
-    "lvl5": ".doc-main h4",
-    "text": ".doc-main p, .doc-main li"
+    "lvl2": ".doc-main h1, article h1",
+    "lvl3": ".doc-main h2, article h2",
+    "lvl4": ".doc-main h3, article h3",
+    "lvl5": ".doc-main h4, article h4",
+    "text": ".doc-main p, .doc-main li, article p, article li"
   },
   "conversation_id": [
     "624078167"
@@ -33,5 +33,5 @@
   "selectors_exclude": [
     ".doc-main h1 + div ul:first-child"
   ],
-  "nb_hits": 6915
+  "nb_hits": 15437
 }
