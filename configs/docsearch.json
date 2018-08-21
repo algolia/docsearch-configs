@@ -16,5 +16,9 @@
     "lvl3": ".documentation-content h3",
     "lvl4": ".documentation-content h4",
     "text": ".documentation-content p, .documentation-content li"
-  }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 268
 }
