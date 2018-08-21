@@ -1,0 +1,32 @@
+{
+  "index_name": "blockcity",
+  "start_urls": [
+    {
+      "url": "https://doc.gxb.io/blockcity/en/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://doc.gxb.io/blockcity/",
+      "tags": [
+        "zh"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "text": ".content p, .content li",
+    "lvl4": ".content h5"
+  },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "645867766"
+  ],
+  "nb_hits": 998
+}
