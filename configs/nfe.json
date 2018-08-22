@@ -1,7 +1,8 @@
 {
   "index_name": "nfe",
   "start_urls": [
-    "https://nfe.io/docs/"
+    "https://nfe.io/docs/",
+    "https://nfe.io/doc/"
   ],
   "sitemap_urls": [
     "https://nfe.io/sitemap-docs.xml"
@@ -14,11 +15,14 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "lvl1": {
+      "selector": ".post h1, .title-box__description h1",
+      "global": true
+    },
+    "lvl2": ".post h2, .sdk__description h2",
+    "lvl3": ".post h3, .sdk__description h3",
+    "lvl4": ".post h4, .sdk__description h4",
+    "text": ".post article p, .post article li,.sdk__description p, .sdk__description li, .title-box__description p"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -26,5 +30,6 @@
   "conversation_id": [
     "639031954"
   ],
-  "nb_hits": 804
+  "min_indexed_level": 2,
+  "nb_hits": 856
 }
