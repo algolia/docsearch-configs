@@ -18,6 +18,10 @@
     "lvl5": ".md-content h5",
     "text": ".md-content p, .md-content li"
   },
+  "selectors_exclude": [
+    "#gitment_container",
+    "#__comments"
+  ],
   "conversation_id": [
     "641928475"
   ],
