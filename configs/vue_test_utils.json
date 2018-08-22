@@ -20,7 +20,9 @@
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "[^/]$"
+  ],
   "selectors": {
     "lvl0": ".content h2",
     "lvl1": ".content h3",
@@ -34,5 +36,6 @@
   "conversation_id": [
     "644808023"
   ],
-  "nb_hits": 6645
+  "min_indexed_level": 2,
+  "nb_hits": 2660
 }
