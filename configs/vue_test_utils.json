@@ -1,24 +1,7 @@
 {
   "index_name": "vue_test_utils",
   "start_urls": [
-    {
-      "url": "https://vue-test-utils.vuejs.org/(?P<lang>.*?)/",
-      "variables": {
-        "lang": [
-          "ru",
-          "ja",
-          "zh"
-        ]
-      }
-    },
-    {
-      "url": "https://vue-test-utils.vuejs.org/",
-      "extra_attributes": {
-        "lang": [
-          "en"
-        ]
-      }
-    }
+    "https://vue-test-utils.vuejs.org/"
   ],
   "stop_urls": [
     "[^/]$"
@@ -28,14 +11,24 @@
     "lvl1": ".content h3",
     "lvl2": ".content h4",
     "lvl3": ".content h5",
+    "lvl5": ".content h5",
     "text": ".content p, .content li",
-    "lvl5": ".content h5"
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
   "scrap_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
     "644808023"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
   "min_indexed_level": 2,
-  "nb_hits": 2660
+  "nb_hits": 2899
 }
