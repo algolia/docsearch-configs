@@ -11,12 +11,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".md-content h1",
-    "lvl2": ".md-content h2",
-    "lvl3": ".md-content h3",
-    "lvl4": ".md-content h4",
-    "lvl5": ".md-content h5",
-    "text": ".md-content p, .md-content li"
+    "lvl1": "article.md-content__inner h1",
+    "lvl2": "article.md-content__inner h2",
+    "lvl3": "article.md-content__inner h3",
+    "lvl4": "article.md-content__inner h4",
+    "lvl5": "article.md-content__inner h5",
+    "text": "article.md-content__inner p, article.md-content__inner li"
   },
   "selectors_exclude": [
     "#gitment_container",
