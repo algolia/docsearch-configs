@@ -3,7 +3,9 @@
   "start_urls": [
     "https://oi-wiki.org/"
   ],
-  "sitemap_urls":["https://oi-wiki.org/sitemap.xml"],
+  "sitemap_urls": [
+    "https://oi-wiki.org/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -25,5 +27,5 @@
   "conversation_id": [
     "641928475"
   ],
-  "nb_hits": 3032
+  "nb_hits": 3074
 }
