@@ -2,84 +2,37 @@
   "index_name": "pingcap",
   "start_urls": [
     {
-      "url": "https://pingcap.com/docs/",
-      "selectors_key": "doc",
+      "url": "https://pingcap.com/.+?-cn",
       "tags": [
-        "en",
-        "doc"
-      ]
-    },
-    {
-      "url": "https://pingcap.com/docs-cn/",
-      "selectors_key": "doc",
-      "tags": [
-        "cn",
-        "doc"
-      ]
-    },
-    {
-      "url": "https://pingcap.com/blog/",
-      "selectors_key": "blog",
-      "tags": [
-        "en",
-        "blog"
-      ]
-    },
-    {
-      "url": "https://pingcap.com/blog-cn/",
-      "selectors_key": "blog",
-      "tags": [
-        "blog",
         "cn"
       ]
     },
     {
-      "url": "https://pingcap.com/weekly/",
-      "selectors_key": "weekly",
+      "url": "https://pingcap.com/",
       "tags": [
-        "weekly"
+        "en"
       ]
     }
   ],
+  "stop_urls": [
+    "/meetup"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#smarttoc a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
   "sitemap_urls": [
     "https://pingcap.com/sitemap.xml"
   ],
-  "stop_urls": [],
-  "selectors": {
-    "doc": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Documentation"
-      },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
-      "text": ".content p, .content li"
-    },
-    "blog": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Blog"
-      },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
-      "text": ".content p, .content li"
-    },
-    "weekly": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "weekly"
-      },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
-      "text": ".content p, .content li"
-    }
-  },
   "stop_content": [
     "Sorry... 404"
   ],
