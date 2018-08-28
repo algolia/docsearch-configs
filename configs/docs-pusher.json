@@ -16,10 +16,10 @@
       ]
     },
     {
-      "url": "https://docs.pusher.com/push-notifications",
-      "selectors_key": "push-notifications",
+      "url": "https://docs.pusher.com/beams",
+      "selectors_key": "beams",
       "tags": [
-        "push-notifications"
+        "beams"
       ]
     },
     {
@@ -56,11 +56,11 @@
       "lvl4": "main article h4",
       "text": "main article p, main article li"
     },
-    "push-notifications": {
+    "beams": {
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "Push Notifications"
+        "default_value": "Beams"
       },
       "lvl1": "main article h1",
       "lvl2": "main article h2",
