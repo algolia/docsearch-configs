@@ -1,18 +1,7 @@
 {
   "index_name": "blockcity",
   "start_urls": [
-    {
-      "url": "https://doc.gxb.io/blockcity/en/",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://doc.gxb.io/blockcity/",
-      "tags": [
-        "zh"
-      ]
-    }
+    "https://doc.gxb.io/blockcity/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -20,13 +9,23 @@
     "lvl1": ".content h2",
     "lvl2": ".content h3",
     "lvl3": ".content h4",
+    "lvl4": ".content h5",
     "text": ".content p, .content li",
-    "lvl4": ".content h5"
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
   "scrap_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
     "645867766"
   ],
-  "nb_hits": 998
+  "nb_hits": 1070
 }
