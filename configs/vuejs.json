@@ -58,7 +58,8 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "version"
     ]
   },
   "selectors_exclude": [
