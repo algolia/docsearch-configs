@@ -18,11 +18,7 @@
     "/meetup"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "#smarttoc a",
-      "global": true,
-      "default_value": "Documentation"
-    },
+    "lvl0": "header .navigation li a",
     "lvl1": ".content h1",
     "lvl2": ".content h2",
     "lvl3": ".content h3",
