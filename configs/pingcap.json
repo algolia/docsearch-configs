@@ -18,7 +18,11 @@
     "/meetup"
   ],
   "selectors": {
-    "lvl0": "header .navigation li a",
+    "lvl0": {
+      "selector": "header .navigation li.sel a",
+      "global": true,
+      "default_value": "More"
+    },
     "lvl1": ".content h1",
     "lvl2": ".content h2",
     "lvl3": ".content h3",
