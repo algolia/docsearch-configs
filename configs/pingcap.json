@@ -19,9 +19,9 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "#smarttoc a",
+      "selector": "header .navigation li.sel a",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "More"
     },
     "lvl1": ".content h1",
     "lvl2": ".content h2",
