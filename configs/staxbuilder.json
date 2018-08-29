@@ -1,0 +1,26 @@
+{
+  "index_name": "staxbuilder",
+  "start_urls": [
+    "https://docs.staxbuilder.com/#/"
+  ],
+  "stop_urls": [
+    "\\?id="
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "strip_chars": " .,;:#",
+  "use_anchors": true,
+  "conversation_id": [
+    "651265764"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 68
+}
