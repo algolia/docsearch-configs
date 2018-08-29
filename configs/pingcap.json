@@ -2,13 +2,13 @@
   "index_name": "pingcap",
   "start_urls": [
     {
-      "url": "https://pingcap.com/.+?-cn",
+      "url": "https://pingcap.com/docs-cn",
       "tags": [
         "cn"
       ]
     },
     {
-      "url": "https://pingcap.com/",
+      "url": "https://pingcap.com/docs/",
       "tags": [
         "en"
       ]
@@ -40,5 +40,5 @@
   "conversation_id": [
     "428916846"
   ],
-  "nb_hits": 28458
+  "nb_hits": 12484
 }
