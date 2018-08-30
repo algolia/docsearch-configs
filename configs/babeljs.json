@@ -12,15 +12,17 @@
   ],
   "stop_urls": [
     "https://babeljs.io/docs/en/next/",
+    "https://babeljs.io/docs/en/next$",
     "html$",
-    "http://babeljs.io/docs/.+/$"
+    "http://babeljs.io/docs/.+/$",
+    "https://babeljs.io/docs/en/\\d"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "selector": "//nav//*[contains(@class,'navListItemActive')]/../../h3",
       "type": "xpath",
       "global": true,
-      "default_value": "Blog"
+      "default_value": "Documentation"
     },
     "lvl1": ".post h1",
     "lvl2": ".post h2",
@@ -36,5 +38,5 @@
   "conversation_id": [
     "276264648"
   ],
-  "nb_hits": 2677
+  "nb_hits": 5171
 }
