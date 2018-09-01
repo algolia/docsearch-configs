@@ -2,29 +2,22 @@
   "index_name": "timescale",
   "start_urls": [
     {
-      "url": "http://docs-exp.timescale.com/(?P<version>.*?)/main",
+      "url": "http://docs-exp.timescale.com/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "v0.4",
-          "v0.5",
-          "v0.6",
-          "v0.7",
           "v0.8",
           "v0.9",
           "v0.10"
         ]
       }
-    },
-    "http://docs-exp.timescale.com"
+    }
+  ],
+  "sitemap_urls": [
+    "http://docs-exp.timescale.com/docs-exp-sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "(//*[contains(@class, 'sidebar-list')]//a[contains(@class, 'active')][1]/preceding::*[contains(@class, 'sidebar-title')][1] | //*[contains(@class, 'sidebar-title')][contains(@class, 'active')])[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
+    "lvl0": "a.sidebar__title",
     "lvl1": ".main-content__text h1",
     "lvl2": ".main-content__text h2",
     "lvl3": ".main-content__text h3",
@@ -32,9 +25,9 @@
     "lvl5": ".main-content__text h5",
     "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
   },
-  "js_render": true,
   "conversation_id": [
     "628616287"
   ],
-  "nb_hits": 2920
+  "js_render": true,
+  "nb_hits": 5854
 }

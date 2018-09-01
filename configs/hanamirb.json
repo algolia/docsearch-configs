@@ -6,7 +6,8 @@
       "variables": {
         "version": [
           "1.0",
-          "1.1"
+          "1.1",
+          "1.2"
         ]
       },
       "tags": [
@@ -29,7 +30,9 @@
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\.\\."
+  ],
   "selectors": {
     "default": {
       "lvl0": {
@@ -62,5 +65,5 @@
   "conversation_id": [
     "543189649"
   ],
-  "nb_hits": 4162
+  "nb_hits": 6469
 }

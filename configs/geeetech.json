@@ -12,9 +12,6 @@
     "lvl4": ".doc-content h5",
     "text": ".doc-content p, .doc-content li"
   },
-  "selectors_key": [
-    ".docs-meta"
-  ],
   "conversation_id": [
     "511397027"
   ],

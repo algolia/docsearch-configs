@@ -20,6 +20,12 @@
       ]
     },
     {
+      "url": "http://docs.collab.net/teamforge182/",
+      "tags": [
+        "teamforge182"
+      ]
+    },
+    {
       "url": "http://docs.collab.net/teamforge181/",
       "tags": [
         "teamforge181"
@@ -27,7 +33,9 @@
     }
   ],
   "stop_urls": [
-    "http://docs.collab.net/teamforge181/index.html"
+    "http://docs.collab.net/teamforge181/index.html",
+    "\\?",
+    "/javadoc/"
   ],
   "selectors": {
     "lvl0": {
@@ -52,5 +60,5 @@
   "conversation_id": [
     "555093088"
   ],
-  "nb_hits": 17796
+  "nb_hits": 34292
 }

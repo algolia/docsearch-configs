@@ -1,0 +1,32 @@
+{
+  "index_name": "google_cloud_python",
+  "start_urls": [
+    "https://googlecloudplatform.github.io/google-cloud-python/latest/"
+  ],
+  "stop_urls": [
+    "/_",
+    "/generated/"
+  ],
+  "selectors": {
+    "lvl0": "[role='main'] h1",
+    "lvl1": "[role='main'] h2",
+    "lvl2": "[role='main'] h3, [role='main'] code.descname",
+    "lvl3": "[role='main'] h4",
+    "lvl4": "[role='main'] h5",
+    "text": "[role='main'] p, [role='main'] li"
+  },
+  "keep_tag": [
+    "code"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_-"
+  },
+  "selectors_exclude": [
+    "#contents",
+    "#next-steps",
+    "#next-step"
+  ],
+  "only_content_level": true,
+  "strip_chars": " .,;:#",
+  "nb_hits": 15463
+}

@@ -32,7 +32,12 @@
       "lvl2": ".content h2",
       "lvl3": ".content h3",
       "lvl4": ".content h4, .content table td:first-of-type",
-      "text": ".content li, .content p, .content table td:last-child"
+      "text": ".content li, .content p, .content table td:last-child",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
     },
     "addons": {
       "lvl0": {
@@ -49,7 +54,12 @@
       "lvl3": ".content h2",
       "lvl4": ".content h3",
       "lvl5": ".content h4, .content table td:first-of-type",
-      "text": ".content li, .content p, .content table td:last-child"
+      "text": ".content li, .content p, .content table td:last-child",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
     }
   },
   "strip_chars": " .,;:#",
@@ -57,11 +67,14 @@
     "626034232"
   ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
   "selectors_exclude": [
     ".table-of-contents",
     "#table-of-contents"
   ],
-  "nb_hits": 28275
+  "nb_hits": 28647
 }

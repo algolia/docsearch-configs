@@ -1,10 +1,10 @@
 {
   "index_name": "fuse",
   "start_urls": [
-    "https://fuse-open.github.io/docs"
+    "https://fuseopen.com/docs"
   ],
   "sitemap_urls": [
-    "https://fuse-open.github.io/sitemap.xml"
+    "https://fuseopen.com/sitemap.xml"
   ],
   "stop_urls": [
     "^((?!\\.html).)*$"
@@ -33,5 +33,5 @@
   "conversation_id": [
     "586345870"
   ],
-  "nb_hits": 39043
+  "nb_hits": 39174
 }

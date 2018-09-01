@@ -1,0 +1,25 @@
+{
+  "index_name": "taro",
+  "start_urls": [
+    "https://nervjs.github.io/taro/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//li[contains(@class,'active')]/../../a[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown-section h1",
+    "lvl2": ".markdown-section h2",
+    "lvl3": ".markdown-section h3",
+    "lvl4": ".markdown-section h4",
+    "lvl5": ".markdown-section h4",
+    "text": ".markdown-section p, .markdown-section li"
+  },
+  "conversation_id": [
+    "652660100"
+  ],
+  "nb_hits": 1306
+}
