@@ -75,7 +75,7 @@
     }
   ],
   "stop_urls": [],
-    "selectors": {
+  "selectors": {
     "lvl0": {
       "selector": "p.h1 > span",
       "global": true,
