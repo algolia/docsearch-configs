@@ -1,10 +1,81 @@
 {
   "index_name": "parseplatform",
   "start_urls": [
-    "https://docs.parseplatform.org/"
+    {
+      "url": "https://docs.parseplatform.org/parse-server/guide/",
+      "tags": [
+        "parse-server"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/ios/guide/",
+      "tags": [
+        "ios"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/android/guide/",
+      "tags": [
+        "android"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/js/guide/",
+      "tags": [
+        "js"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/dotnet/guide/",
+      "tags": [
+        "dotnet"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/macos/guide/",
+      "tags": [
+        "macos"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/unity/guide/",
+      "tags": [
+        "unity"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/php/guide/",
+      "tags": [
+        "php"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/arduino/guide/",
+      "tags": [
+        "arduino"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/embedded_c/guide/",
+      "tags": [
+        "embedded_c"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/cloudcode/guide/",
+      "tags": [
+        "cloudcode"
+      ]
+    },
+    {
+      "url": "https://docs.parseplatform.org/rest/guide/",
+      "tags": [
+        "rest"
+      ]
+    }
   ],
   "stop_urls": [],
-  "selectors": {
+    "selectors": {
     "lvl0": {
       "selector": "p.h1 > span",
       "global": true,
