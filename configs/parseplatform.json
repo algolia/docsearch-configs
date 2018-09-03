@@ -1,0 +1,24 @@
+{
+  "index_name": "parseplatform",
+  "start_urls": [
+    "https://docs.parseplatform.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.h1 > span",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".wysiwyg-content h1",
+    "lvl2": ".wysiwyg-content h2",
+    "lvl3": ".wysiwyg-content h3",
+    "lvl4": ".wysiwyg-content h4",
+    "lvl5": ".wysiwyg-content h5",
+    "text": ".wysiwyg-content p, .wysiwyg-content li"
+  },
+  "conversation_id": [
+    "653702733"
+  ],
+  "nb_hits": 8182
+}
