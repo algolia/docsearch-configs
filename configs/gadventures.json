@@ -1,0 +1,28 @@
+{
+  "index_name": "gadventures",
+  "start_urls": [
+    "https://developers.gadventures.com/docs/index.html",
+    "https://developers.gadventures.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'side-nav')]//li[contains(@class,'toctree-l1')][contains(@class,'current')][1]/a[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "text": ".section p, .section li"
+  },
+  "selectors_exclude": [
+    ".section [class^=toctree]"
+  ],
+  "conversation_id": [
+    "653196445"
+  ],
+  "nb_hits": 2889
+}
