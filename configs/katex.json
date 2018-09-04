@@ -23,7 +23,8 @@
     "text": ".post article p, .post article li, .post article td"
   },
   "selectors_exclude": [
-    ".hash-link"
+    ".hash-link",
+    ".katex"
   ],
   "custom_settings": {
     "attributesForFaceting": [
