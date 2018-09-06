@@ -1,0 +1,39 @@
+{
+  "index_name": "costream",
+  "start_urls": [
+    "https://cn.costream.site/guide/",
+    "https://cn.costream.site/api/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//div[contains(@class,'list')]//*[contains(@class,'current')][1]/preceding::h3[1]|//a[contains(@class,'sidebar-link')][contains(@class,'current')])[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "655450846"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 555
+}
