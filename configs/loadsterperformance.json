@@ -1,19 +1,16 @@
 {
   "index_name": "loadsterperformance",
   "start_urls": [
-    "https://loadster.app/documentation/"
+    "https://loadster.app/documentation/",
+    "https://loadster.app/faqs/",
+    "https://loadster.app/articles/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
     "https://loadster.app/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "//div[contains(@id, 'documentation-menu')]//*[contains(@class, 'current')][1]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
+    "lvl0": ".documentation-nav-link.current",
     "lvl1": ".documentation-content h1",
     "lvl2": ".documentation-content h2",
     "lvl3": ".documentation-content h3",
