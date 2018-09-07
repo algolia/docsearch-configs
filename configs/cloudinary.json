@@ -1,0 +1,32 @@
+{
+  "index_name": "cloudinary",
+  "start_urls": [
+    "https://cloudinary.com/documentation"
+  ],
+  "sitemap_urls": [
+    "https://cloudinary.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".hasdrop.highlight > a:nth-child(2)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h1",
+    "lvl2": "#content h2",
+    "lvl3": "#content h3",
+    "lvl4": "#content h4",
+    "lvl5": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "conversation_id": [
+    "656925916"
+  ],
+  "selectors_exclude": [
+    ".md_autotoc"
+  ],
+  "nb_hits": 8401
+}
