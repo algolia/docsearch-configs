@@ -25,7 +25,10 @@
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
-    "separatorsToIndex": "_:"
+    "separatorsToIndex": "_:",
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
   "conversation_id": [
     "659253718"
