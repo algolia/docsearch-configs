@@ -3,7 +3,10 @@
   "start_urls": [
     {
       "selectors_key": "api",
-      "url": "https://stripe.com/docs/api"
+      "url": "https://stripe.com/docs/api",
+      "tags": [
+        "api"
+      ]
     },
     {
       "selectors_key": "docs",
@@ -73,7 +76,8 @@
   ],
   "custom_settings": {
     "attributesForFaceting": [
-      "techno"
+      "techno",
+      "tags"
     ],
     "separatorsToIndex": "_",
     "attributesToIndex": [
@@ -107,5 +111,5 @@
     "footer"
   ],
   "user_agent": "Googlebot",
-  "nb_hits": 49982
+  "nb_hits": 50257
 }
