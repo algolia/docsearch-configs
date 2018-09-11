@@ -1,0 +1,27 @@
+{
+    "index_name": "prod_dazzling",
+    "start_urls": [
+        "https://jondot.github.io/dazzling/"
+    ],
+    "stop_urls": [],
+    "sitemap_urls": [
+        "https://jondot.github.io/dazzling/sitemap.xml"
+    ],
+    "selectors": {
+        "lvl0": {
+            "selector": ".docSearch-lvl0",
+            "global": true,
+            "default_value": "Documentation"
+        },
+        "lvl1": ".docSearch-content h1",
+        "lvl2": ".docSearch-content h2",
+        "lvl3": ".docSearch-content h3",
+        "lvl4": ".docSearch-content h4",
+        "text": ".docSearch-content p, .docSearch-content li"
+    },
+    "conversation_id": [
+        "0"
+    ],
+    "min_indexed_level": 1,
+    "nb_hits": 0
+}
