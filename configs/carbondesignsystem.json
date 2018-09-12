@@ -1,0 +1,30 @@
+{
+  "index_name": "carbondesignsystem",
+  "start_urls": [
+    "http://www.carbondesignsystem.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#maincontent .page-header__label",
+    "lvl1": "#maincontent h1",
+    "lvl2": "#maincontent .bx--tabs__nav-item--selected a",
+    "lvl3": ".tab-content[aria-hidden='false'] h2",
+    "lvl4": ".tab-content[aria-hidden='false'] h3",
+    "lvl5": ".tab-content[aria-hidden='false'] h4",
+    "lvl6": ".tab-content[aria-hidden='false'] h5",
+    "text": ".tab-content[aria-hidden='false'] p, .tab-content[aria-hidden='false'] li"
+  },
+  "selectors_exclude": [
+    "#resources",
+    "#resources + ul",
+    "#tools",
+    "#tools + ul"
+  ],
+  "min_indexed_level": 2,
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": [
+    "659801707"
+  ],
+  "nb_hits": 4343
+}
