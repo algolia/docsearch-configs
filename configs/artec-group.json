@@ -10,12 +10,15 @@
         ],
         "version": [
           "11",
-          "12"
+          "12",
+          "13"
         ]
       }
     }
   ],
   "stop_urls": [
+    "http://docs.artec-group.com/as/13/en/$",
+    "http://docs.artec-group.com/as/13/ru/$",
     "http://docs.artec-group.com/as/12/en/$",
     "http://docs.artec-group.com/as/12/ru/$",
     "http://docs.artec-group.com/as/11/en/$",
@@ -40,5 +43,5 @@
   "conversation_id": [
     "349866832"
   ],
-  "nb_hits": 9161
+  "nb_hits": 13994
 }
