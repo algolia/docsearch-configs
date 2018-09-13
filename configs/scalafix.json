@@ -1,0 +1,31 @@
+{
+  "index_name": "scalafix",
+  "start_urls": [
+    "https://scalacenter.github.io/scalafix/docs/",
+    "https://scalacenter.github.io/scalafix/docs/users/installation"
+  ],
+  "stop_urls": [
+    "/api/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[@id='sidebar']//a[contains(@class,'active')][1]/../../../a",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p, section li"
+  },
+  "selectors_exclude": [
+    "#markdown-toc"
+  ],
+  "conversation_id": [
+    "662864585"
+  ],
+  "nb_hits": 338
+}
