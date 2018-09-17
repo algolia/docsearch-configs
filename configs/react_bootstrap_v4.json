@@ -1,0 +1,24 @@
+{
+  "index_name": "react_bootstrap_v4",
+  "start_urls": [
+    "https://react-bootstrap.netlify.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav > a[class*=\"SideNav-TocLink-module--active--\"]",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#rb-docs-content h1",
+    "lvl2": "#rb-docs-content h2",
+    "lvl3": "#rb-docs-content h3",
+    "lvl4": "#rb-docs-content h4",
+    "text": "#rb-docs-content p, #rb-docs-content li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "663753006"
+  ],
+  "nb_hits": 1187
+}
