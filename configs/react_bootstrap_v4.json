@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "nav > a[class*=\"SideNav-TocLink-module--active--\"]",
+      "selector": ".js-search-toc-item.js-search-active",
       "global": true,
       "default_value": "Documentation"
     },
@@ -14,10 +14,11 @@
     "lvl2": "#rb-docs-content h2",
     "lvl3": "#rb-docs-content h3",
     "lvl4": "#rb-docs-content h4",
+    "lvl5": "#rb-docs-content h5",
     "text": "#rb-docs-content p, #rb-docs-content li"
   },
   "selectors_exclude": [
-    "a[class*=\"LinkToSource-Link-module--link--\"]"
+    ".js-search-exclude"
   ],
   "strip_chars": " .,;:#",
   "conversation_id": [
