@@ -1,7 +1,7 @@
 {
   "index_name": "inference",
   "start_urls": [
-    "https://inference-docs.appspot.com/"
+    "http://docs.inferencesolutions.com"
   ],
   "stop_urls": [],
   "selectors": {
