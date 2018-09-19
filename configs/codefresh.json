@@ -9,7 +9,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "div.bd-toc-item.active span:first-child",
+      "selector": "li.bd-toc-item.active .bd-nav-links-item-group",
       "global": true,
       "default_value": "Documentation"
     },
