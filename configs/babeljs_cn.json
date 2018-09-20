@@ -1,33 +1,42 @@
 {
   "index_name": "babeljs_cn",
   "start_urls": [
-    {
-      "url": "https://www.babeljs.cn/docs/usage",
-      "selectors_key": "usage"
-    },
-    "https://www.babeljs.cn/docs/",
-    "https://www.babeljs.cn/docs/usage/api"
+    "http://babel.docschina.org/docs/en",
+    "https://babel.docschina.org/docs/en/learn"
+  ],
+  "sitemap_urls": [
+    "https://babeljs.io/sitemap.xml"
+  ],
+  "keep_tags": [
+    "code"
+  ],
+  "stop_urls": [
+    "https://babel.docschina.org/docs/en/next/",
+    "https://babel.docschina.org/docs/en/next$",
+    "html$",
+    "http://babel.docschina.org/docs/.+/$",
+    "https://babel.docschina.org/docs/en/\\d"
   ],
   "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": "//ul[contains(@class, 'navbar-nav')]/li[contains(@class, 'active')]/a",
-        "type": "xpath"
-      },
-      "lvl1": ".docs-header h1",
-      "lvl2": ".docs-content h2",
-      "lvl3": ".docs-content h3",
-      "lvl4": ".docs-content h4",
-      "lvl5": ".docs-content h4",
-      "text": ".docs-content p, .docs-content li"
-    }
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'navListItemActive')]/../../h3",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
   },
-  "min_indexed_level": {
-    "usage": 1,
-    "default": 2
-  },
+  "selectors_exclude": [
+    "blockquote",
+    ".hash-link"
+  ],
+  "min_indexed_level": 1,
   "conversation_id": [
     "496047938"
   ],
-  "nb_hits": 3492
+  "nb_hits": 5171
 }
