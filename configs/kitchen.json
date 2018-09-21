@@ -1,0 +1,22 @@
+{
+  "index_name": "kitchen",
+  "start_urls": [
+    "http://kitchen.ci"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "h1 em",
+      "global": true
+    },
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5",
+    "lvl4": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "668309294"
+  ],
+  "nb_hits": 335
+}
