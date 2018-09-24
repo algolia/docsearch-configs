@@ -5,20 +5,18 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#maincontent .page-header__label",
-    "lvl1": "#maincontent h1",
-    "lvl2": "#maincontent .bx--tabs__nav-item--selected a",
-    "lvl3": ".tab-content[aria-hidden='false'] h2",
-    "lvl4": ".tab-content[aria-hidden='false'] h3",
-    "lvl5": ".tab-content[aria-hidden='false'] h4",
-    "lvl6": ".tab-content[aria-hidden='false'] h5",
-    "text": ".tab-content[aria-hidden='false'] p, .tab-content[aria-hidden='false'] li"
+    "lvl0": "h4.page-header__label",
+    "lvl1": "h1#page-title",
+    "lvl2": ".page-tabs li a",
+    "lvl3": "h2",
+    "lvl4": "h3",
+    "lvl5": "h4",
+    "lvl6": "h5",
+    "text": ".page-content p, .page-content li, .page p, .page li"
   },
   "selectors_exclude": [
-    "#resources",
-    "#resources + ul",
-    "#tools",
-    "#tools + ul"
+    ".page-footer",
+    ".side-nav"
   ],
   "min_indexed_level": 2,
   "js_render": true,
