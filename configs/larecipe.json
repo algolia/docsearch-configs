@@ -15,7 +15,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//div[contains(@class, 'sidebar')]//li[contains(@class, 'is-active')][1]/preceding::h2[1]",
+      "selector": "//div[contains(@class, 'sidebar')]//li/a[text()=//div[contains(@class, 'article')]//h1[1]/text()]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -30,5 +30,5 @@
   "conversation_id": [
     "667604441"
   ],
-  "nb_hits": 751
+  "nb_hits": 734
 }
