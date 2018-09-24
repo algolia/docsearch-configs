@@ -20,7 +20,7 @@
       "selector": "/html/@lang",
       "type": "xpath",
       "global": true,
-      "default_value": "en-US"
+      "default_value": "ru-RU"
     }
   },
   "strip_chars": " .,;:#",
