@@ -18,7 +18,7 @@
       "selector": "/html/@lang",
       "type": "xpath",
       "global": true,
-      "default_value":"en"
+      "default_value":"en-US"
     }
   },
   "custom_settings": {
