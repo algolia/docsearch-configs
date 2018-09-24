@@ -5,7 +5,9 @@
       "url": "https://getbootstrap.com/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "4.1"
+          "3.4",
+          "4.1",
+          "4.0"
         ]
       }
     }
@@ -29,5 +31,5 @@
   "selectors_exclude": [
     ".bd-example"
   ],
-  "nb_hits": 2519
+  "nb_hits": 4982
 }
