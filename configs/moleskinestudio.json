@@ -1,0 +1,26 @@
+{
+  "index_name": "moleskinestudio",
+  "start_urls": [
+    "https://support.moleskinestudio.com/"
+  ],
+  "sitemap_urls": [
+    "https://support.moleskinestudio.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".md-tabs__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".md-content h1",
+    "lvl2": ".md-content h3",
+    "lvl3": ".md-content h4",
+    "lvl4": ".md-content h5",
+    "text": ".md-content p, .md-content li"
+  },
+  "conversation_id": [
+    "642671509"
+  ],
+  "nb_hits": 1471
+}
