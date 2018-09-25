@@ -1,13 +1,13 @@
 {
   "index_name": "bootstrap-v3",
   "start_urls": [
-    "https://epic-goldstine-3a9d25.netlify.com/"
+    "https://getbootstrap.com/docs/3.4/"
   ],
   "sitemap_urls": [
-    "https://epic-goldstine-3a9d25.netlify.com/sitemap.xml"
+    "https://getbootstrap.com/docs/3.4/sitemap.xml"
   ],
   "stop_urls": [
-    ".com/examples/"
+    "docs/3.4/examples/"
   ],
   "selectors": {
     "lvl0": {
