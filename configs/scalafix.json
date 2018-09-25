@@ -1,7 +1,7 @@
 {
   "index_name": "scalafix",
   "start_urls": [
-    "https://scalacenter.github.io/scalafix/",
+    "https://scalacenter.github.io/scalafix/docs"
   ],
   "sitemap_urls": [
     "https://scalacenter.github.io/scalafix/sitemap.xml"
@@ -33,5 +33,5 @@
   "conversation_id": [
     "662864585"
   ],
-  "nb_hits": 338
+  "nb_hits": 739
 }
