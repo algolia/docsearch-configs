@@ -44,8 +44,9 @@
   "custom_settings": {
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "tags"
     ]
   },
-  "nb_hits": 47361
+  "nb_hits": 10858
 }

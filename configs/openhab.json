@@ -69,12 +69,13 @@
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "tags"
     ]
   },
   "selectors_exclude": [
     ".table-of-contents",
     "#table-of-contents"
   ],
-  "nb_hits": 28647
+  "nb_hits": 29378
 }
