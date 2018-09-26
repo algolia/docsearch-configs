@@ -1,8 +1,9 @@
 {
   "index_name": "react_china",
   "start_urls": [
-    "https://doc.react-china.org/docs/hello-world.html",
-    "https://doc.react-china.org/docs/.*"
+    "https://react.docschina.org/docs/",
+    "https://react.docschina.org/docs/hello-world.html",
+    "https://react.docschina.org/tutorial/"
   ],
   "selectors": {
     "lvl0": "article h1",
@@ -20,5 +21,5 @@
   "conversation_id": [
     "491095716"
   ],
-  "nb_hits": 2352
+  "nb_hits": 2826
 }
