@@ -1,0 +1,34 @@
+{
+  "index_name": "projectcalico",
+  "start_urls": [
+    "https://docs.projectcalico.org/v3.2/"
+  ],
+  "sitemap_urls": [
+    "https://docs.projectcalico.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "#navbar .active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-main h1",
+    "lvl2": "#content-main h2",
+    "lvl3": "#content-main h3",
+    "lvl4": "#content-main h4",
+    "lvl5": "#content-main h5",
+    "text": "#content-main p, #content-main li, #content-main tbody td"
+  },
+  "conversation_id": [
+    "670943385"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    "#markdown-toc"
+  ],
+  "min_indexed_level": 2,
+  "nb_hits": 6002
+}
