@@ -20,8 +20,15 @@
   "selectors_exclude": [
     ".hash-link"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "656480739"
   ],
-  "nb_hits": 339
+  "nb_hits": 1289
 }
