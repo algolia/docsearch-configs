@@ -21,7 +21,7 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "text": ".post article p, .post article li, .post article tbody td"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -30,10 +30,11 @@
     "attributesForFaceting": [
       "language",
       "version"
-    ]
+    ],
+    "separatorsToIndex": "_"
   },
   "conversation_id": [
     "670317278"
   ],
-  "nb_hits": 406
+  "nb_hits": 3213
 }
