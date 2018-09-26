@@ -30,6 +30,7 @@
       "version"
     ]
   },
+  "only_content_level": true,
   "conversation_id": [
     "666693828"
   ],
