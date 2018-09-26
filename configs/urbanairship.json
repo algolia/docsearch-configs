@@ -3,18 +3,24 @@
   "start_urls": [
     "https://docs.urbanairship.com"
   ],
+  "sitemap_urls": [
+    "https://docs.urbanairship.com/sitemap.xml"
+  ],
   "stop_urls": [
-    "/reference/"
+    "/reference/",
+    "/page/"
   ],
   "selectors": {
     "lvl0": ".article__heading h1",
     "lvl1": ".article__body h1",
     "lvl2": ".article__body h2",
     "lvl3": ".article__body h3",
+    "lvl4": ".article__body h4",
+    "lvl5": ".article__body h5",
     "text": ".article__body p, .article__body li"
   },
   "conversation_id": [
     "377464724"
   ],
-  "nb_hits": 7061
+  "nb_hits": 11339
 }
