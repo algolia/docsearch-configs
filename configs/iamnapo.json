@@ -1,7 +1,6 @@
 {
   "index_name": "iamnapo",
   "start_urls": [
-    "https://iamnapo.me/cbmjs",
     "https://cbm.js.org"
   ],
   "stop_urls": [
