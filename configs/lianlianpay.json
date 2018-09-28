@@ -1,10 +1,8 @@
 {
   "index_name": "lianlianpay",
   "start_urls": [
-    "https://open.lianlianpay.com/docs/guides/overview",
-    "https://open.lianlianpay.com/docs/",
-    "https://open.lianlianpay.com/apis/get-started",
-    "https://open.lianlianpay.com/apis/"
+    "https://openllp.lianlianpay.com/docs/guides/overview",
+    "https://openllp.lianlianpay.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
