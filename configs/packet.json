@@ -1,28 +1,33 @@
 {
   "index_name": "packet",
   "start_urls": [
-    "https://help.packet.net/quick-start",
-    "https://help.packet.net/faq",
-    "https://help.packet.net/technical",
-    "https://help.packet.net/solutions",
-    "https://help.packet.net/devops"
+    "https://help.packet.net/article/",
+    "https://help.packet.net/article/2-deploy-a-server"
   ],
-  "stop_urls": [
-    "https://help.packet.net/$",
-    "https://help.packet.net/quick-start$",
-    "https://help.packet.net/faq$",
-    "https://help.packet.net/technical$",
-    "https://help.packet.net/solutions$",
-    "https://help.packet.net/devops$"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": ".content h2",
-    "lvl1": ".content h4",
-    "text": ".content p, .content li"
+    "lvl0": {
+      "selector": ".breadcrumb > li:nth-child(2)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".breadcrumb > li:nth-child(3)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": {
+      "selector": "article h1#display--heading",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl3": "article h1:not(#display--heading)",
+    "lvl4": "article h2",
+    "lvl5": "article h3",
+    "text": "article p, article li"
   },
-  "min_indexed_level": 1,
   "conversation_id": [
-    "377547997"
+    "673723252"
   ],
-  "nb_hits": 1943
+  "nb_hits": 2246
 }
