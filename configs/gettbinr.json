@@ -1,0 +1,30 @@
+{
+  "index_name": "gettbinr",
+  "start_urls": [
+    "https://www.samabbott.co.uk/getTBinR/"
+  ],
+  "stop_urls": [
+    "index.html$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".contents h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents th",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h5",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+  },
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "672881350"
+  ],
+  "nb_hits": 333
+}
