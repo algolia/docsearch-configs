@@ -1,0 +1,19 @@
+{
+  "index_name": "nervos",
+  "start_urls": [
+    "https://learning.nervos.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docSearch-content h1",
+    "lvl1": ".docSearch-content h2",
+    "lvl2": ".docSearch-content h3",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "conversation_id": [
+    "673874725"
+  ],
+  "nb_hits": 333
+}
