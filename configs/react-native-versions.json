@@ -1,32 +1,14 @@
 {
   "index_name": "react-native-versions",
   "start_urls": [
-    {
-      "url": "https://facebook.github.io/react-native/docs/next/",
-      "tags": [
-        "next"
-      ]
-    },
-    {
-      "url": "https://facebook.github.io/react-native/docs/(?P<tags>.*?)/",
-      "variables": {
-        "tags": {
-          "url": "http://facebook.github.io/react-native/versions.html",
-          "js": "return JSON.stringify(Array.from(document.querySelectorAll('.versions th')).map(function(e){ return e.textContent.replace(/\\(current\\)/,'').replace(/-RC/,'').trim();}).filter(function(v){ return v.toLowerCase().indexOf('master')===-1;}));"
-        }
-      }
-    },
-    {
-      "url": "https://facebook.github.io/react-native/docs/",
-      "tags": [
-        "current",
-        "master",
-        "0.57"
-      ]
-    },
-    "https://facebook.github.io/react-native/docs/next/getting-started.html",
-    "https://facebook.github.io/react-native/docs/getting-started.html",
-    "https://facebook.github.io/react-native/versions.html"
+    "https://facebook.github.io/react-native/docs/"
+  ],
+  "sitemap_alternate_links": true,
+  "sitemap_urls": [
+    "https://facebook.github.io/react-native/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\.html$"
   ],
   "selectors": {
     "lvl0": {
@@ -39,14 +21,18 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "text": ".post article p, .post article li",
+    "tags": {
+      "selector": "//meta[contains(@name,'docsearch:version')]/@content",
+      "type": "xpath",
+      "global": true
+    }
   },
   "selectors_exclude": [
     ".hash-link"
   ],
-  "min_indexed_level": 1,
   "conversation_id": [
     "477313987"
   ],
-  "nb_hits": 452577
+  "nb_hits": 335614
 }
