@@ -15,8 +15,14 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "main article .section",
-    "lvl2": "main article h1",
+    "lvl1": {
+      "selector": "main article .section",
+      "global": true
+    },
+    "lvl2": {
+      "selector": "main article h1",
+      "global": true
+    },
     "lvl3": "main article h2",
     "lvl4": "main article h3",
     "lvl5": "main article h4",
