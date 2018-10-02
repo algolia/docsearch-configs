@@ -9,12 +9,12 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "[class*='components-TableOfContents'] > div > div > .accordion__title[aria-selected=true]>h3",
+      "selector": "[class*='table-of-contents-container'] > [role='tablist'] > div > [aria-selected='true'] h3",
       "global": true,
       "default_value": "Tool"
     },
     "lvl1": {
-      "selector": ".accordion__body ul li .accordion__title[aria-selected=true] h3",
+      "selector": ".accordion__item [role='tabpanel'] .accordion__title[aria-selected=true] h3",
       "global": true,
       "default_value": "Chapter"
     },
@@ -29,5 +29,5 @@
     "656356572"
   ],
   "js_render": true,
-  "nb_hits": 4774
+  "nb_hits": 7337
 }
