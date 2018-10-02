@@ -1,23 +1,32 @@
 {
   "index_name": "moleskinestudio",
   "start_urls": [
-    "https://support.moleskinestudio.com/"
+    "https://moleskinestudio.com/support/timepage/",
+    "https://moleskinestudio.com/support/actions/",
+    "https://moleskinestudio.com/support/membership/"
   ],
   "sitemap_urls": [
-    "https://support.moleskinestudio.com/sitemap.xml"
+    "https://moleskinestudio.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".md-tabs__link--active",
+      "selector": "nav #title",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".md-content h1",
-    "lvl2": ".md-content h3",
-    "lvl3": ".md-content h4",
-    "lvl4": ".md-content h5",
-    "text": ".md-content p, .md-content li"
+    "lvl1": {
+      "selector": "main article .section",
+      "global": true
+    },
+    "lvl2": {
+      "selector": "main article h1",
+      "global": true
+    },
+    "lvl3": "main article h2",
+    "lvl4": "main article h3",
+    "lvl5": "main article h4",
+    "text": "main #content p, main #content li, main #content ol"
   },
   "conversation_id": [
     "642671509"
