@@ -24,7 +24,10 @@
     "670943385"
   ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "version"
+    ]
   },
   "selectors_exclude": [
     "#markdown-toc"
