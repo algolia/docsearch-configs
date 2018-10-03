@@ -14,13 +14,23 @@
     "lvl2": ".content h2",
     "lvl3": ".content h3",
     "lvl4": ".content h4",
+    "lvl5": ".content h5",
     "text": ".content p, .content li",
-    "lvl5": ".content h5"
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
   "scrap_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
     "596798507"
   ],
-  "nb_hits": 188
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "nb_hits": 314
 }
