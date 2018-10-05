@@ -24,6 +24,9 @@
     }
   },
   "strip_chars": " .,;:#",
+  "selectors_exclude": [
+    ".hash-link"
+  ],
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
@@ -33,5 +36,5 @@
     "678719936"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 1327
+  "nb_hits": 1057
 }
