@@ -22,7 +22,7 @@
   },
   "strip_chars": " .,;:",
   "selectors_exclude": [
-    "h1 a.header-anchor"
+    "a.header-anchor"
   ],
   "custom_settings": {
     "attributesForFaceting": [
