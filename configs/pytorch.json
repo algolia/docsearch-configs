@@ -1,0 +1,25 @@
+{
+  "index_name": "pytorch",
+  "start_urls": [
+    "https://pytorch.org/get-started/",
+    "https://pytorch.org/get-started/locally/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".jumbotron h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    "#markdown-toc"
+  ],
+  "nb_hits": 461
+}
