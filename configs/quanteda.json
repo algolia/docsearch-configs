@@ -1,10 +1,10 @@
 {
   "index_name": "quanteda",
   "start_urls": [
-    "https://docs.quanteda.io/"
+    "https://quanteda.io/"
   ],
   "stop_urls": [
-    "https://docs.quanteda.io/index.html",
+    "https://quanteda.io/index.html",
     "LICENSE-text.html"
   ],
   "selectors": {
