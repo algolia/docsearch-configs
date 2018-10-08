@@ -9,7 +9,9 @@
     },
     "https://sendgrid.com/docs/"
   ],
-  "stop_urls": ["https://sendgrid.com/docs/ui/sending-email/getting-started-with-automation/"],
+  "stop_urls": [
+    "https://sendgrid.com/docs/ui/sending-email/getting-started-with-automation/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".breadcrumb li:nth-child(2) a",
@@ -33,5 +35,5 @@
   "selectors_exclude": [
     ".doc-main h1 + div ul:first-child"
   ],
-  "nb_hits": 15437
+  "nb_hits": 15340
 }
