@@ -3,6 +3,9 @@
   "start_urls": [
     "https://quanteda.io/"
   ],
+  "sitemap_urls": [
+    "https://quanteda.io/sitemap.xml"
+  ],
   "stop_urls": [
     "https://quanteda.io/index.html",
     "LICENSE-text.html"
@@ -32,5 +35,5 @@
   "conversation_id": [
     "553942582"
   ],
-  "nb_hits": 2922
+  "nb_hits": 3932
 }
