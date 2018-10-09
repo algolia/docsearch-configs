@@ -23,7 +23,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "(//*[@class='md-header-nav__parent'])[last()]",
+      "selector": "//a[contains(@class,'md-nav__link--active')]/preceding::label[contains(@class,'md-nav__title')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -39,5 +39,5 @@
   "conversation_id": [
     "549525560"
   ],
-  "nb_hits": 83101
+  "nb_hits": 82770
 }
