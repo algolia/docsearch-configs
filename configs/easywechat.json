@@ -1,7 +1,15 @@
 {
   "index_name": "easywechat",
   "start_urls": [
-    "https://www.easywechat.com/docs/master"
+    {
+      "url": "https://www.easywechat.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "3.x",
+          "master"
+        ]
+      }
+    }
   ],
   "stop_urls": [
     "\\?"
@@ -17,5 +25,5 @@
   "conversation_id": [
     "677075804"
   ],
-  "nb_hits": 1371
+  "nb_hits": 2380
 }
