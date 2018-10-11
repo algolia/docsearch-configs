@@ -1,0 +1,44 @@
+{
+  "index_name": "redis",
+  "start_urls": [
+    {
+      "url": "https://docsearch-redis.netlify.com/documentation"
+    },
+    {
+      "url": "https://docsearch-redis.netlify.com/commands",
+      "selectors_key": "commands"
+    },
+    {
+      "url": "https://docsearch-redis.netlify.com/topics",
+      "selectors_key": "topics"
+    }
+  ],
+  "stop_urls": [],
+  "strip_chars": "*",
+  "selectors": {
+    "default": {
+      "lvl0": "",
+      "lvl1": "",
+      "lvl2": "",
+      "lvl3": "",
+      "lvl4": "",
+      "text": ""
+    },
+    "commands": {
+      "lvl0": ".article-aside li strong",
+      "lvl1": ".article-main h2",
+      "lvl2": "",
+      "lvl3": "",
+      "lvl4": "",
+      "text": ".article-main p, .article-main li"
+    },
+    "topics": {
+      "lvl0": "#topic h1",
+      "lvl1": "#topic h2",
+      "lvl2": "",
+      "lvl3": "",
+      "lvl4": "",
+      "text": "#topic p, #topic li"
+    }
+  }
+}
