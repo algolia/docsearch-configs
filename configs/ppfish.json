@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".ant-menu-submenu-selected > .ant-menu-submenu-title",
+      "selector": ".fishd-menu-submenu-selected .misc-type",
       "global": true,
       "default_value": "Documentation"
     },
