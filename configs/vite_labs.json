@@ -2,7 +2,7 @@
   "index_name": "vite_labs",
   "start_urls": [
     {
-      "url": "https://doc.vite.org/(?P<lang>.*?)/",
+      "url": "https://vite.wiki/(?P<lang>.*?)/",
       "variables": {
         "lang": [
           "zh"
@@ -10,7 +10,7 @@
       }
     },
     {
-      "url": "https://doc.vite.org/",
+      "url": "https://vite.wiki/",
       "extra_attributes": {
         "lang": [
           "en"
