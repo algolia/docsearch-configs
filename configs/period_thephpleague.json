@@ -1,12 +1,7 @@
 {
   "index_name": "period_thephpleague",
   "start_urls": [
-    {
-      "url": "http://period.thephpleague.com/(?P<version>.*?)/",
-      "variables": {
-        "version": ["4.0", "3.0"]
-      }
-    }
+    "https://period.thephpleague.com"
   ],
   "stop_urls": [],
   "selectors": {
