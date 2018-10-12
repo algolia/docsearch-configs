@@ -20,6 +20,7 @@
       "version"
     ]
   },
+  "min_indexed_level": 2,
   "conversation_id": [
     "679702498"
   ],
