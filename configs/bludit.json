@@ -1,0 +1,35 @@
+{
+  "index_name": "bludit",
+  "start_urls": [
+    "https://docs.bludit.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'nav-item-active')][1]/preceding::h6[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".main h1",
+    "lvl2": ".main h2",
+    "lvl3": ".main h3",
+    "lvl4": ".main h4",
+    "lvl5": ".main h5",
+    "text": ".main p, .main li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "682133341"
+  ],
+  "nb_hits": 913
+}
