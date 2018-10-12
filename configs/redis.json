@@ -11,7 +11,8 @@
     },
     {
       "url": "https://docsearch-redis.netlify.com/topics",
-      "selectors_key": "topics"
+      "selectors_key": "topics",
+      "page_rank": 1
     }
   ],
   "stop_urls": [],
@@ -31,12 +32,15 @@
         "global": true,
         "default_value": "Commands"
       },
-      "lvl1": ".text h1 .name",
-      "lvl2": ".article-main h2",
-      "lvl3": ".article-main h3",
-      "lvl4": ".article-main h4",
-      "lvl5": ".article-main h5",
-      "text": ".article-main p, .article-main li, .arg"
+      "lvl1": {
+        "selector": ".article-aside li strong",
+        "global": true
+      },
+      "lvl2": ".text h1.command",
+      "lvl3": ".article-main h2",
+      "lvl4": ".article-main h3",
+      "lvl5": ".article-main h4",
+      "text": ".article-main p, .article-main li"
     },
     "topics": {
       "lvl0": {
@@ -53,7 +57,8 @@
     }
   },
   "selectors_exclude": [
-    "#topic > p:first-child"
+    "#topic > p:first-child",
+    ".site-content .metadata"
   ],
   "nb_hits": 7883
 }
