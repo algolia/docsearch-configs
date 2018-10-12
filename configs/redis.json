@@ -6,7 +6,8 @@
     },
     {
       "url": "https://docsearch-redis.netlify.com/commands",
-      "selectors_key": "commands"
+      "selectors_key": "commands",
+      "page_rank": 5
     },
     {
       "url": "https://docsearch-redis.netlify.com/topics",
@@ -25,20 +26,34 @@
       "text": ""
     },
     "commands": {
-      "lvl0": ".article-aside li strong",
-      "lvl1": ".article-main h2",
-      "lvl2": "",
-      "lvl3": "",
-      "lvl4": "",
-      "text": ".article-main p, .article-main li"
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Commands"
+      },
+      "lvl1": ".text h1 .name",
+      "lvl2": ".article-main h2",
+      "lvl3": ".article-main h3",
+      "lvl4": ".article-main h4",
+      "lvl5": ".article-main h5",
+      "text": ".article-main p, .article-main li, .arg"
     },
     "topics": {
-      "lvl0": "#topic h1",
-      "lvl1": "#topic h2",
-      "lvl2": "",
-      "lvl3": "",
-      "lvl4": "",
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Topics"
+      },
+      "lvl1": "#topic h1",
+      "lvl2": "#topic h2",
+      "lvl3": "#topic h3",
+      "lvl4": "#topic h4",
+      "lvl5": "#topic h5",
       "text": "#topic p, #topic li"
     }
-  }
+  },
+  "selectors_exclude": [
+    "#topic > p:first-child"
+  ],
+  "nb_hits": 7883
 }
