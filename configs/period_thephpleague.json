@@ -8,16 +8,14 @@
     "lvl0": "article h1",
     "lvl1": "article h2",
     "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
     "text": "article p, article li"
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "language",
       "version"
     ]
   },
+  "min_indexed_level": 2,
   "conversation_id": [
     "679702498"
   ],
