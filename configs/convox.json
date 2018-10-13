@@ -1,22 +1,24 @@
 {
   "index_name": "convox",
   "start_urls": [
-    "https://convox.com/docs"
+    "https://docs.convox.com/"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//section[@id='toc']//li[@class='active']/preceding::h3[1]",
-      "type": "xpath"
+      "selector": "//nav//a[contains(@class,'active')][1]/preceding::*[contains(@class,'category')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "lvl1": "#doc h1",
-    "lvl2": "#doc h2",
-    "lvl3": "#doc h3",
-    "lvl4": "#doc h4",
-    "text": "#doc p, #doc li, #doc div.alert"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "text": "main p, main li, main div.alert"
   },
   "min_indexed_level": 2,
   "conversation_id": [
     "275540131"
   ],
-  "nb_hits": 1776
+  "nb_hits": 1942
 }
