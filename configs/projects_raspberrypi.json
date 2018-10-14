@@ -34,15 +34,15 @@
     "lvl4": ".c-project__content h5",
     "text": ".c-project__content p, .c-project__content li"
   },
-  "js_render": true,
-  "scrap_start_urls": false,
   "selectors_exclude": [
     ".c-project-step-navigation",
     "#additional-information-for-club-leaders",
     "#additional-information-for-club-leaders + p"
   ],
+  "js_render": true,
   "conversation_id": [
     "592502406"
   ],
-  "nb_hits": 340
+  "scrap_start_urls": false,
+  "nb_hits": 1126
 }

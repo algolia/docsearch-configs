@@ -20,10 +20,10 @@
     "lvl4": "main h4",
     "text": "main p, main li"
   },
-  "js_render": true,
   "only_content_level": true,
+  "js_render": true,
   "conversation_id": [
     "437680818"
   ],
-  "nb_hits": 2907
+  "nb_hits": 16074
 }

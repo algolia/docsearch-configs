@@ -20,10 +20,10 @@
     "lvl5": ".content h5, .content table tr:not(:first-child) td:first-of-type",
     "text": ".content p:not(.block-title), .content li"
   },
+  "js_render": true,
+  "js_wait": 1,
   "conversation_id": [
     "589593654"
   ],
-  "js_render": true,
-  "js_wait": 1,
-  "nb_hits": 710
+  "nb_hits": 5014
 }

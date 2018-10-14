@@ -17,11 +17,11 @@
       "url": "https://support.stripe.com/questions"
     }
   ],
-  "stop_urls": [
-    "\\?"
-  ],
   "sitemap_urls": [
     "https://stripe.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\?"
   ],
   "selectors": {
     "api": {
@@ -71,9 +71,23 @@
       "text": "#content .article-content .answer p, #content .article-content .answer li"
     }
   },
+  "selectors_exclude": [
+    ".method-list-item-label-details",
+    ".method-list-item-label-badge",
+    ".method-list-item-validation",
+    ".next-steps",
+    ".note",
+    "footer"
+  ],
   "keep_tags": [
     "code"
   ],
+  "min_indexed_level": {
+    "default": 0,
+    "api": 4,
+    "docs": 6,
+    "questions": 2
+  },
   "custom_settings": {
     "attributesForFaceting": [
       "techno",
@@ -96,20 +110,6 @@
       "content"
     ]
   },
-  "min_indexed_level": {
-    "default": 0,
-    "api": 4,
-    "docs": 6,
-    "questions": 2
-  },
-  "selectors_exclude": [
-    ".method-list-item-label-details",
-    ".method-list-item-label-badge",
-    ".method-list-item-validation",
-    ".next-steps",
-    ".note",
-    "footer"
-  ],
   "user_agent": "Googlebot",
-  "nb_hits": 50257
+  "nb_hits": 23909
 }

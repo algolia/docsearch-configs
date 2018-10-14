@@ -25,9 +25,9 @@
     "lvl5": ".main-content__text h5",
     "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
   },
+  "js_render": true,
   "conversation_id": [
     "628616287"
   ],
-  "js_render": true,
-  "nb_hits": 5854
+  "nb_hits": 4225
 }

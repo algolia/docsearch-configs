@@ -1,14 +1,14 @@
 {
   "index_name": "apache_pulsar",
   "start_urls": [
-    "http://pulsar.incubator.apache.org/docs/standalone",
-    "http://pulsar.incubator.apache.org/docs/"
+    "http://pulsar.apache.org/docs/standalone",
+    "http://pulsar.apache.org/docs/"
   ],
   "stop_urls": [
     "\\?"
   ],
   "sitemap_urls": [
-    "https://pulsar.incubator.apache.org/sitemap.xml"
+    "http://pulsar.apache.org/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -29,11 +29,12 @@
   "conversation_id": [
     "622864222"
   ],
+  "user_agent": "Googlebot",
   "custom_settings": {
     "attributesForFaceting": [
       "language",
       "version"
     ]
   },
-  "nb_hits": 52180
+  "nb_hits": 99408
 }

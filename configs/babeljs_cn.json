@@ -7,9 +7,6 @@
   "sitemap_urls": [
     "https://babeljs.io/sitemap.xml"
   ],
-  "keep_tags": [
-    "code"
-  ],
   "stop_urls": [
     "https://babel.docschina.org/docs/en/next/",
     "https://babel.docschina.org/docs/en/next$",
@@ -34,9 +31,12 @@
     "blockquote",
     ".hash-link"
   ],
+  "keep_tags": [
+    "code"
+  ],
   "min_indexed_level": 1,
   "conversation_id": [
     "496047938"
   ],
-  "nb_hits": 5171
+  "nb_hits": 4080
 }

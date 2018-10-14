@@ -24,15 +24,15 @@
       "global": true
     }
   },
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "version"
     ]
   },
-  "scrap_start_urls": false,
-  "strip_chars": " .,;:#",
   "conversation_id": [
     "642532746"
   ],
-  "nb_hits": 681
+  "scrap_start_urls": false,
+  "nb_hits": 348
 }
