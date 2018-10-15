@@ -5,6 +5,7 @@
       "url": "https://docs.bolt.cm/(?P<version>.*?)/getting-started/introduction",
       "variables": {
         "version": [
+          "3.6",
           "3.5",
           "3.4",
           "3.3",
@@ -19,6 +20,7 @@
       "url": "https://docs.bolt.cm/(?P<version>.*?)/.*",
       "variables": {
         "version": [
+          "3.6",
           "3.5",
           "3.4",
           "3.3",
