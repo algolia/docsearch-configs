@@ -1,0 +1,31 @@
+{
+  "index_name": "phalcon",
+  "start_urls": [
+    {
+      "url": "https://phalc.one/docs/(?P<version>.*?)",
+      "variables": {
+        "static_variable": [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".Sidebar li.__isActive span",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "???"
+    },
+    "lvl2": ".DocsContainer article h1",
+    "lvl3": ".DocsContainer article h2",
+    "lvl4": ".DocsContainer article h3",
+    "text": ".DocsContainer article p, .DocsContainer article li"
+  }
+}
