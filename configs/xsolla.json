@@ -26,9 +26,9 @@
     "lvl4": ".content h5",
     "text": ".content p, .content li"
   },
-  "scrap_start_urls": false,
   "conversation_id": [
     "538992189"
   ],
-  "nb_hits": 18706
+  "scrap_start_urls": false,
+  "nb_hits": 22596
 }
