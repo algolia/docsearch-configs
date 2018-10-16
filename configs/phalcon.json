@@ -16,7 +16,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".Sidebar li.__isActive span",
+      "selector": ".Sidebar li.__isActive > span",
       "global": true,
       "default_value": "Documentation"
     },
