@@ -21,9 +21,7 @@
     }
 
   ],
-  "stop_urls": [
-    "changelog"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
