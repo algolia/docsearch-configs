@@ -13,7 +13,13 @@
         ]
       }
     },
-    "https://developers.xsolla.com"
+    {
+      "url": "https://developers.xsolla.com",
+      "extra_attributes": {
+         "lang": ["en"]
+      }
+    }
+
   ],
   "stop_urls": [
     "changelog"
