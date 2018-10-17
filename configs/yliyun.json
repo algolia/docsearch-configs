@@ -12,5 +12,7 @@
     "lvl3": "#content h4",
     "lvl4": "#content h5",
     "text": "#content p, #content li"
-  }
+  },
+  "user_agent": "Googlebot",
+  "nb_hits": 14278
 }
