@@ -16,10 +16,11 @@
     {
       "url": "https://developers.xsolla.com",
       "extra_attributes": {
-         "lang": ["en"]
+        "lang": [
+          "en"
+        ]
       }
     }
-
   ],
   "stop_urls": [],
   "selectors": {
@@ -34,5 +35,5 @@
     "538992189"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 22596
+  "nb_hits": 25080
 }
