@@ -1,33 +1,60 @@
 {
   "index_name": "timescale",
-  "start_urls": [
-    {
-      "url": "http://docs-exp.timescale.com/(?P<version>.*?)/",
+  "start_urls": [{
+      "url": "http://docs.timescale.com/(?P<version>.*?)/getting-started/installation",
+      "selectors_key": "installation",
       "variables": {
         "version": [
-          "v0.8",
+          "v0.12",
+          "v0.11",
+          "v0.10",
           "v0.9",
-          "v0.10"
+          "v0.8"
+        ]
+      }
+    },
+    {
+      "url": "http://docs.timescale.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v0.12",
+          "v0.11",
+          "v0.10",
+          "v0.9",
+          "v0.8"
         ]
       }
     }
   ],
   "sitemap_urls": [
-    "http://docs-exp.timescale.com/docs-exp-sitemap.xml"
+    "http://docs.timescale.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "a.sidebar__title",
-    "lvl1": ".main-content__text h1",
-    "lvl2": ".main-content__text h2",
-    "lvl3": ".main-content__text h3",
-    "lvl4": ".main-content__text h4",
-    "lvl5": ".main-content__text h5",
-    "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
+    "default": {
+      "lvl0": ".main-index.hidden__index",
+      "lvl1": ".main-content__text h1",
+      "lvl2": ".main-content__text h2",
+      "lvl3": ".main-content__text h3",
+      "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
+    },
+    "installation": {
+      "lvl0": ".main-index.hidden__index",
+      "lvl1": ".os.hidden__index",
+      "lvl2": ".method.hidden__index",
+      "lvl3": ".main-content__text h2",
+      "lvl4": ".main-content__text h3",
+      "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
+    }
   },
-  "js_render": true,
+  "selectors_exclude": [".top-list"],
+  "min_indexed_level": {
+      "default": 2,
+      "installation": 1
+  },
   "conversation_id": [
     "628616287"
   ],
-  "nb_hits": 4225
+  "js_render": true,
+  "nb_hits": 5854
 }
