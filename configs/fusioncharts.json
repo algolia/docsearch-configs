@@ -1,32 +1,32 @@
 {
   "index_name": "fusioncharts",
-  "sitemap_urls_regexs": [
-    "/dev/[^map]((?!\\?).)*$"
+  "start_urls": [
+    "https://www.fusioncharts.com/dev/"
+  ],
+  "sitemap_urls": [
+    "https://www.fusioncharts.com/sitemap.xml"
   ],
   "stop_urls": [
     "https://www.fusioncharts.com/dev/maps/",
     "\\?"
   ],
-  "sitemap_urls": [
-    "https://www.fusioncharts.com/sitemap.xml"
-  ],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
-    "lvl3": ".content h3",
+    "lvl2": ".content h3",
     "lvl3": ".content h4",
     "lvl4": ".content h5",
     "text": ".content p, .content li"
   },
-  "only_content_level": true,
   "selectors_exclude": [
     "nav[aria-label='breadcrumb']",
     ".app-block",
     "[id^='further-links']+ul",
     "[id^='further-links']"
   ],
+  "only_content_level": true,
   "conversation_id": [
     "497887173"
   ],
-  "nb_hits": 8973
+  "nb_hits": 31199
 }

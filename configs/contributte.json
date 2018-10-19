@@ -1,0 +1,41 @@
+{
+  "index_name": "contributte",
+  "start_urls": [
+    "https://contributte.org"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "text": ".content p, .content li",
+    "lvl5": ".content h5",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "selectors_exclude": [
+    "#content",
+    "#content +ul"
+  ],
+  "conversation_id": [
+    "657607236"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 3364
+}

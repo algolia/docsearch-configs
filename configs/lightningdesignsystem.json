@@ -44,16 +44,6 @@
     {
       "url": "https://www.lightningdesignsystem.com/",
       "page_rank": 1
-    },
-    {
-      "url": "https://archive-(?P<version>.*?).lightningdesignsystem.com/",
-      "variables": {
-        "version": [
-          "2_2_2",
-          "2_0_3",
-          "1_0_5"
-        ]
-      }
     }
   ],
   "stop_urls": [
@@ -76,5 +66,5 @@
   "conversation_id": [
     "178329287"
   ],
-  "nb_hits": 6584
+  "nb_hits": 5937
 }

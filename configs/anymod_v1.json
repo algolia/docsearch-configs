@@ -1,0 +1,28 @@
+{
+  "index_name": "anymod_v1",
+  "start_urls": [
+    "https://guide-v1.anymod.com/"
+  ],
+  "sitemap_urls": [
+    "https://guide-v1.anymod.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'current')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "665911943"
+  ],
+  "nb_hits": 750
+}

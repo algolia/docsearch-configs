@@ -1,0 +1,26 @@
+{
+  "index_name": "skylab_avalara",
+  "start_urls": [
+    "https://s-docs.assets.avalara.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav/a[text()=//h1/text()]/preceding::h2[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value":"Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "648476753"
+  ],
+  "nb_hits": 377
+}

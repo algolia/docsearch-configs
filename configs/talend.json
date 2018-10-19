@@ -1,0 +1,26 @@
+{
+  "index_name": "talend",
+  "start_urls": [
+    "https://talendpnp.github.io/architecture-center/reference-architecture/spring-2018-7.0/"
+  ],
+  "stop_urls": [
+    "\\.vsdx"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".bd-toc-item.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".nav li.active",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "634604586"
+  ],
+  "nb_hits": 846
+}

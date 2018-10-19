@@ -3,11 +3,7 @@
   "start_urls": [
     {
       "url": "https://community.algolia.com/instantsearch.js/v2/guides",
-      "selectors_key": "guide"
-    },
-    {
-      "url": "https://community.algolia.com/instantsearch.js/v2/instantsearch.html",
-      "selectors_key": "instantsearch"
+      "selectors_key": "api"
     },
     {
       "url": "https://community.algolia.com/instantsearch.js/v2/widgets",
@@ -17,64 +13,47 @@
       "url": "https://community.algolia.com/instantsearch.js/v2/connectors",
       "selectors_key": "api"
     },
-    {
-      "url": "https://community.algolia.com/instantsearch.js/v2/getting-started.html",
-      "selectors_key": "getting-started"
-    },
-    "https://community.algolia.com/instantsearch.js/v2/guides/usage.html",
-    "https://community.algolia.com/instantsearch.js/v2/widgets.html",
-    "https://community.algolia.com/instantsearch.js/v2/connectors.html"
+    "https://community.algolia.com/instantsearch.js/v2/"
   ],
   "stop_urls": [
-    "https://community.algolia.com/instantsearch.js/v2/examples.html"
+    "https://community.algolia.com/instantsearch.js/v2/examples",
+    "https://community.algolia.com/instantsearch.js/v2/dev-novel"
   ],
   "selectors": {
-    "instantsearch": {
+    "default": {
       "lvl0": {
-        "selector": "",
-        "default_value": "instantsearch()"
+        "selector": ".hero h1",
+        "global": true
       },
       "lvl2": ".documentation-container h2",
       "lvl3": ".documentation-container h3",
-      "lvl4": ".documentation-container h4",
-      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
-    },
-    "guide": {
-      "lvl0": ".documentation-container h2",
-      "lvl1": ".documentation-container h3",
-      "lvl2": ".documentation-container h4",
-      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+      "lvl4": ".documentation-container h4, .documentation-container ul.struct-def li strong",
+      "text": ".documentation-container p, .documentation-container td, .documentation-container ul:not(.struct-def) li"
     },
     "api": {
       "lvl0": {
         "selector": "//h1/span[1]",
+        "global": true,
         "type": "xpath"
       },
       "lvl1": {
         "selector": "//h1/span[2]",
+        "global": true,
         "type": "xpath"
       },
       "lvl2": ".documentation-container h2",
       "lvl3": ".documentation-container h3",
-      "lvl4": ".documentation-container h4",
-      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
-    },
-    "getting-started": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Getting started"
-      },
-      "lvl1": ".documentation-container h2",
-      "lvl2": ".documentation-container h3",
-      "lvl3": ".documentation-container h4",
-      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+      "lvl4": ".documentation-container h4, .documentation-container ul.struct-def li strong",
+      "text": ".documentation-container p, .documentation-container td, .documentation-container ul:not(.struct-def) li"
     }
   },
+  "keep_tags": [
+    "code"
+  ],
   "js_render": true,
   "selectors_exclude": [
     ".documentation-container hr + p",
     ".editThisPage"
   ],
-  "min_indexed_level": 1,
-  "nb_hits": 2890
+  "nb_hits": 2901
 }

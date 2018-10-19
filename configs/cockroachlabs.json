@@ -6,7 +6,7 @@
       "variables": {
         "version": [
           "dev",
-          "release",
+          "releases",
           "v1.0",
           "v1.1",
           "v2.0",
@@ -16,16 +16,17 @@
       }
     }
   ],
+  "stop_urls": [],
   "sitemap_urls": [
     "https://www.cockroachlabs.com/docs/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": "#main-content .post-header h1",
-    "lvl1": "#main-content .post-content h2",
-    "lvl2": "#main-content .post-content h3",
-    "lvl3": "#main-content .post-content h4",
-    "lvl4": "#main-content .post-content h5",
-    "text": "#main-content .post-content p, #main-content .post-content li"
+    "lvl0": ".post-header h1",
+    "lvl1": ".post-content h2",
+    "lvl2": ".post-content h3",
+    "lvl3": ".post-content h4",
+    "lvl4": ".post-content h5",
+    "text": ".post-content p, .post-content li"
   },
   "only_content_level": true,
   "selectors_exclude": [
@@ -43,5 +44,5 @@
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 62481
+  "nb_hits": 70507
 }

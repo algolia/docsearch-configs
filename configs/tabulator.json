@@ -1,0 +1,28 @@
+{
+  "index_name": "tabulator",
+  "start_urls": [
+    "http://tabulator.info/docs/4.0"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".docs-sidenav-detailed li.open h2",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[role='main'] h1",
+    "lvl2": "[role='main'] h2",
+    "lvl3": "[role='main'] h3",
+    "lvl4": "[role='main'] h4",
+    "lvl5": "[role='main'] h5",
+    "text": "[role='main'] p, [role='main'] li"
+  },
+  "conversation_id": [
+    "669936344"
+  ],
+  "selectors_exclude": [
+    ".page-links"
+  ],
+  "user_agent": "Googlebot",
+  "nb_hits": 2594
+}

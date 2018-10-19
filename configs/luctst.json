@@ -1,8 +1,8 @@
 {
   "index_name": "luctst",
   "start_urls": [
-    "https://luctst.github.io/docusaurus-starter-pack/docs/",
-    "https://luctst.github.io/docusaurus-starter-pack/docs/overview.html"
+    "https://luctst.github.io/learn-javascript/docs/overview.html",
+    "https://luctst.github.io/learn-javascript/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +24,5 @@
   "conversation_id": [
     "593752236"
   ],
-  "nb_hits": 174
+  "nb_hits": 614
 }

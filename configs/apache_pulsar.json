@@ -1,10 +1,15 @@
 {
   "index_name": "apache_pulsar",
   "start_urls": [
-    "http://pulsar.incubator.apache.org/staging/docs/standalone",
-    "http://pulsar.incubator.apache.org/staging/docs/"
+    "http://pulsar.apache.org/docs/standalone",
+    "http://pulsar.apache.org/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?"
+  ],
+  "sitemap_urls": [
+    "http://pulsar.apache.org/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
@@ -24,5 +29,12 @@
   "conversation_id": [
     "622864222"
   ],
-  "nb_hits": 7776
+  "user_agent": "Googlebot",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "nb_hits": 99408
 }

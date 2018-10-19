@@ -43,7 +43,6 @@
   ],
   "js_wait": 1,
   "use_anchors": true,
-  "js_render": true,
   "only_content_level": true,
-  "nb_hits": 2569
+  "nb_hits": 126
 }

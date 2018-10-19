@@ -1,0 +1,33 @@
+{
+  "index_name": "smartcontractsecurity",
+  "start_urls": [
+    "https://smartcontractsecurity.github.io/SWC-registry/docs/",
+    "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-100"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".post h1.postHeaderTitle",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1:not(.postHeaderTitle)",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "672777598"
+  ],
+  "nb_hits": 435
+}

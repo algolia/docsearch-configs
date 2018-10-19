@@ -1,0 +1,19 @@
+{
+  "index_name": "miva",
+  "start_urls": [
+    "https://docs.miva.com/json-api/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#newWrap h1",
+    "lvl1": "#newWrap h2",
+    "lvl2": "#newWrap h3",
+    "lvl3": "#newWrap h4",
+    "lvl4": "#newWrap h5",
+    "text": "#newWrap p, #newWrap li"
+  },
+  "conversation_id": [
+    "663002888"
+  ],
+  "nb_hits": 688
+}

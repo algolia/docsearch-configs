@@ -12,6 +12,12 @@
       "tags": [
         "java"
       ]
+    },
+    {
+      "url": "https://vladislav-lyuminarskiy-websites.github.io/Web-course-website/",
+      "tags": [
+        "web"
+      ]
     }
   ],
   "stop_urls": [],
@@ -33,5 +39,5 @@
   "conversation_id": [
     "615072637"
   ],
-  "nb_hits": 792
+  "nb_hits": 793
 }

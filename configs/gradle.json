@@ -1,0 +1,74 @@
+{
+  "index_name": "gradle",
+  "start_urls": [
+    {
+      "url": "https://docs.gradle.org/(?P<version>.*?)/",
+      "variables": {
+        "version": ["current"]
+      },
+      "selectors_key": "userguide",
+      "page_rank": 6,
+      "tags": "userguide"
+    },
+    {
+      "url": "https://docs.gradle.org/(?P<version>.*?)/userguide/plugin_reference.html",
+      "variables": {
+        "version": ["current"]
+      },
+      "selectors_key": "plugin_reference",
+      "page_rank": 4,
+      "tags": "plugin_reference"
+    },
+    {
+      "url": "https://docs.gradle.org/(?P<version>.*?)/dsl/",
+      "variables": {
+        "version": ["current"]
+      },
+      "selectors_key": "dsl",
+      "page_rank": 1,
+      "tags": "dsl"
+    }
+  ],
+  "selectors_exclude": [".docs-navigation", ".site-header", ".site-footer", ".toc", ".chapter-meta", ".admonitionblock"],
+  "stop_urls": [
+    "\\?",
+    "/javadoc/",
+    "/release-notes.html"
+  ],
+  "selectors": {
+    "userguide": {
+      "lvl0": {
+        "selector": "#bogus",
+        "default_value": "User Manual"
+      },
+      "lvl1": ".chapter h1",
+      "lvl2": ".chapter h2",
+      "lvl3": ".chapter h3",
+      "lvl4": ".chapter h4",
+      "lvl5": ".chapter h5",
+      "text": ".chapter p, .chapter .dlist dt, .chapter .title"
+    },
+    "plugin_reference": {
+      "lvl0": ".chapter h1",
+      "lvl1": ".chapter h2",
+      "lvl2": ".chapter .dlist dt",
+      "text": ".chapter p, .chapter .dlist dt ~ dd p"
+    },
+    "dsl": {
+      "lvl0": {
+        "selector": "#bogus",
+        "default_value": "DSL Reference"
+      },
+      "lvl1": ".chapter h1",
+      "lvl2": ".chapter h2",
+      "lvl3": ".chapter h3",
+      "lvl4": ".chapter h4",
+      "lvl5": ".chapter .title",
+      "text": ".chapter p"
+    }
+  },
+  "conversation_id": [
+    "641563788"
+  ],
+  "nb_hits": 20832
+}

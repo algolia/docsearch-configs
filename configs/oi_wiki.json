@@ -1,0 +1,33 @@
+{
+  "index_name": "oi_wiki",
+  "start_urls": [
+    "https://oi-wiki.org/"
+  ],
+  "sitemap_urls": [
+    "https://oi-wiki.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".md-tabs__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article.md-content__inner h1",
+    "lvl2": "article.md-content__inner h2",
+    "lvl3": "article.md-content__inner h3",
+    "lvl4": "article.md-content__inner h4",
+    "lvl5": "article.md-content__inner h5",
+    "text": "article.md-content__inner p, article.md-content__inner li"
+  },
+  "selectors_exclude": [
+    "#gitment_container",
+    "#__comments",
+    ".page-copyright",
+    "#gitalk-form"
+  ],
+  "conversation_id": [
+    "641928475"
+  ],
+  "nb_hits": 5302
+}

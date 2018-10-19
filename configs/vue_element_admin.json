@@ -1,22 +1,7 @@
 {
   "index_name": "vue_element_admin",
   "start_urls": [
-    {
-      "url": "https://panjiachen.github.io/vue-element-admin-site/#/(?P<lang>.*?)/",
-      "variables": {
-        "lang": [
-          "zh-cn"
-        ]
-      }
-    },
-    {
-      "url": "https://panjiachen.github.io/vue-element-admin-site/",
-      "extra_attributes": {
-        "lang": [
-          "en"
-        ]
-      }
-    }
+    "https://panjiachen.github.io/vue-element-admin-site/"
   ],
   "stop_urls": [
     "\\?",
@@ -28,12 +13,22 @@
     "lvl2": ".content h3",
     "lvl3": ".content h4",
     "lvl4": ".content h5",
-    "text": ".content p, .content li"
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value":"en-US"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
   "strip_chars": " .,;:#",
-  "js_render": true,
   "conversation_id": [
     "589544845"
   ],
-  "nb_hits": 963
+  "nb_hits": 1026
 }

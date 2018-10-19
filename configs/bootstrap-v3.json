@@ -1,0 +1,29 @@
+{
+  "index_name": "bootstrap-v3",
+  "start_urls": [
+    "https://epic-goldstine-3a9d25.netlify.com/"
+  ],
+  "sitemap_urls": [
+    "https://epic-goldstine-3a9d25.netlify.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    ".com/examples/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".bs-docs-header h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".bs-docs-section h1",
+    "lvl2": ".bs-docs-section h2",
+    "lvl3": ".bs-docs-section h3",
+    "lvl4": ".bs-docs-section h4",
+    "lvl5": ".bs-docs-section h5",
+    "text": ".bs-docs-section p, .bs-docs-section li, .bs-docs-header p"
+  },
+  "selectors_exclude": [
+    ".bs-example"
+  ],
+  "nb_hits": 2011
+}

@@ -7,7 +7,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "selector": "//*[contains(@class,'navGroups')]//a[contains(@class,'navListItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -24,5 +24,5 @@
   "conversation_id": [
     "583597801"
   ],
-  "nb_hits": 698
+  "nb_hits": 727
 }

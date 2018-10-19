@@ -1,0 +1,29 @@
+{
+  "index_name": "hostgator_designsystem",
+  "start_urls": [
+    "https://hostgator.designsystem.guide/docs/"
+  ],
+  "sitemap_urls": [
+    "https://hostgator.designsystem.guide/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/examples/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".bd-toc-item.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "673917589"
+  ],
+  "nb_hits": 3271
+}

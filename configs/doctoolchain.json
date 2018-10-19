@@ -1,0 +1,20 @@
+{
+  "index_name": "doctoolchain",
+  "start_urls": [
+    "https://doctoolchain.github.io/docToolchain"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#header h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "conversation_id": [
+    "662237167"
+  ],
+  "min_indexed_level": 2,
+  "nb_hits": 308
+}

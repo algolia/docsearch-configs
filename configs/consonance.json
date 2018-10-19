@@ -1,0 +1,26 @@
+{
+  "index_name": "consonance",
+  "start_urls": [
+    "https://www.consonance.app/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "h2.banner",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs-content h2",
+    "lvl2": ".docs-content h3",
+    "lvl3": ".docs-content h4",
+    "lvl4": ".docs-content h5",
+    "text": ".docs-content p, .docs-content li, .docs-wrapper p"
+  },
+  "selectors_exclude": [
+    ".sidebar"
+  ],
+  "conversation_id": [
+    "522174128"
+  ],
+  "nb_hits": 3750
+}

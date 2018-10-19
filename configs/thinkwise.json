@@ -1,0 +1,28 @@
+{
+  "index_name": "thinkwise",
+  "start_urls": [
+    "https://office.thinkwisesoftware.com/docs/",
+    "https://office.thinkwisesoftware.com/docs/Docusaurus/docs/sf_general.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroup')]//li[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "645963849"
+  ],
+  "nb_hits": 3654
+}

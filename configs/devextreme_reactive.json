@@ -1,0 +1,38 @@
+{
+  "index_name": "devextreme_reactive",
+  "start_urls": [
+    {
+      "url": "https://devexpress.github.io/devextreme-reactive/(?P<techno>.*?)/(?P<tool>.*?)/docs/",
+      "variables": {
+        "techno": [
+          "react",
+          "vue"
+        ],
+        "tool": [
+          "core",
+          "grid",
+          "chart"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'main-menu')]//ul/li[not(./a)]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content h5",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "conversation_id": [
+    "636395992"
+  ],
+  "nb_hits": 2537
+}

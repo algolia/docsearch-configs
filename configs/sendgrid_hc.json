@@ -1,9 +1,17 @@
 {
   "index_name": "sendgrid_hc",
   "start_urls": [
-    "http://sendgrid-knowledge-center-staging.s3-website-us-east-1.amazonaws.com/"
+    {
+      "url": "https://sendgrid.com/docs/glossary/",
+      "tags": [
+        "glossary"
+      ]
+    },
+    "https://sendgrid.com/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://sendgrid.com/docs/ui/sending-email/getting-started-with-automation/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".breadcrumb li:nth-child(2) a",
@@ -13,13 +21,13 @@
     "lvl1": {
       "selector": ".breadcrumb li:nth-child(3) a",
       "global": true,
-      "default_value": "Chapter"
+      "default_value": "Term"
     },
-    "lvl2": ".doc-main h1",
-    "lvl3": ".doc-main h2",
-    "lvl4": ".doc-main h3",
-    "lvl5": ".doc-main h4",
-    "text": ".doc-main p, .doc-main li"
+    "lvl2": ".doc-main h1, article h1",
+    "lvl3": ".doc-main h2, article h2",
+    "lvl4": ".doc-main h3, article h3",
+    "lvl5": ".doc-main h4, article h4",
+    "text": ".doc-main p, .doc-main li, article p, article li"
   },
   "conversation_id": [
     "624078167"
@@ -27,5 +35,5 @@
   "selectors_exclude": [
     ".doc-main h1 + div ul:first-child"
   ],
-  "nb_hits": 2846
+  "nb_hits": 15340
 }
