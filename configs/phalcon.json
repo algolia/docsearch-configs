@@ -4,6 +4,9 @@
     "https://phalc.one/docs/",
     "https://phalc.one/docs/3.4/introduction"
   ],
+  "sitemap_urls": [
+    "https://phalc.one/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -30,5 +33,5 @@
   "conversation_id": [
     "686110049"
   ],
-  "nb_hits": 3198
+  "nb_hits": 12953
 }
