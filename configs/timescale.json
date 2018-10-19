@@ -1,6 +1,7 @@
 {
   "index_name": "timescale",
-  "start_urls": [{
+  "start_urls": [
+    {
       "url": "http://docs.timescale.com/(?P<version>.*?)/getting-started/installation",
       "selectors_key": "installation",
       "variables": {
@@ -47,14 +48,16 @@
       "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
     }
   },
-  "selectors_exclude": [".top-list"],
+  "selectors_exclude": [
+    ".top-list"
+  ],
   "min_indexed_level": {
-      "default": 2,
-      "installation": 1
+    "default": 2,
+    "installation": 1
   },
   "conversation_id": [
     "628616287"
   ],
   "js_render": true,
-  "nb_hits": 5854
+  "nb_hits": 8299
 }
