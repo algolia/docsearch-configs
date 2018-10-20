@@ -1,0 +1,32 @@
+{
+  "index_name": "redaxo_cms",
+  "start_urls": [
+    "https://redaxo.org/doku/master/"
+  ],
+  "sitemap_urls": [
+    "https://redaxo.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@class,'nav-sidebar')]//a[text()=//h1]/preceding::p[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main article h1",
+    "lvl2": "main article h2",
+    "lvl3": "main article h3",
+    "lvl4": "main article h4",
+    "lvl5": "main article h5",
+    "text": "main article p, main article li"
+  },
+  "selectors_exclude": [
+    "h1 + ul"
+  ],
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "688969120"
+  ],
+  "nb_hits": 2137
+}
