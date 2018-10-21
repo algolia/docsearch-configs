@@ -30,7 +30,6 @@
     "api": {
        "lvl0": {
           "selector": ".i-cannot-find-this-selector",
-          "type": "xpath",
           "global": true,
           "default_value": "API Documentation"
         },
