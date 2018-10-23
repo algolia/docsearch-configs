@@ -20,10 +20,31 @@
       "tags": [
         "blog"
       ]
+    },
+    {
+      "url": "https://v1.gatsbyjs.org/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://v1.gatsbyjs.org/tutorial/",
+      "selectors_key": "tutorial",
+      "tags": [
+        "tutorial"
+      ]
+    },
+    {
+      "url": "https://v1.gatsbyjs.org/blog/",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ]
     }
   ],
   "sitemap_urls": [
-    "https://www.gatsbyjs.org/sitemap.xml"
+    "https://www.gatsbyjs.org/sitemap.xml",
+    "https://v1.gatsbyjs.org/sitemap.xml"
   ],
   "stop_urls": [
     "/packages/",
@@ -86,8 +107,14 @@
     "#next-steps",
     "#next-steps ~ p"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "487785557"
   ],
-  "nb_hits": 7910
+  "nb_hits": 13227
 }
