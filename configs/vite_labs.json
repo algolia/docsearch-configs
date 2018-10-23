@@ -2,10 +2,39 @@
   "index_name": "vite_labs",
   "start_urls": [
     {
+      "url": "https://(?P<version>.*?).vite.wiki/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "zh"
+        ],
+        "version": [
+          "test"
+        ]
+      }
+    },
+    {
+      "url": "https://(?P<version>.*?).vite.wiki/",
+      "variables": {
+        "version": [
+          "test"
+        ]
+      },
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ]
+      }
+    },
+    {
       "url": "https://vite.wiki/(?P<lang>.*?)/",
       "variables": {
         "lang": [
           "zh"
+        ]
+      },
+      "extra_attributes": {
+        "version": [
+          "master"
         ]
       }
     },
@@ -14,6 +43,9 @@
       "extra_attributes": {
         "lang": [
           "en"
+        ],
+        "version": [
+          "master"
         ]
       }
     }
