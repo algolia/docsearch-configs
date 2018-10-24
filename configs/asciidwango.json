@@ -1,7 +1,7 @@
 {
   "index_name": "asciidwango",
   "start_urls": [
-    "https://asciidwango.github.io/js-primer/"
+    "https://jsprimer.net/"
   ],
   "stop_urls": [],
   "selectors": {
