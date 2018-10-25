@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//aside//*[contains(@class,'is-active')]/preceding::p[contains(@class,'menu-label')]",
+      "selector": "//aside//*[contains(@class,'is-active')]/preceding::p[contains(@class,'menu-label')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -22,5 +22,5 @@
     "689734746"
   ],
   "min_indexed_level": 2,
-  "nb_hits": 541
+  "nb_hits": 560
 }
