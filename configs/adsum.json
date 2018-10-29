@@ -30,6 +30,12 @@
       "tags": [
         "adactiveLogger"
       ]
+    },
+    {
+      "url": "https://adactivesas.github.io/adsum-client-analytics/",
+      "tags": [
+        "analytics"
+      ]
     }
   ],
   "stop_urls": [],
