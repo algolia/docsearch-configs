@@ -1,14 +1,10 @@
 {
   "index_name": "pytorch",
   "start_urls": [
-    "https://pytorch.org",
     "https://pytorch.org/index.html",
     "https://pytorch.org/get-started/",
     "https://pytorch.org/get-started/locally/",
-    "https://pytorch.org/features",
-    "https://pytorch.org/ecosystem",
-    "https://pytorch.org/blog/",
-    "https://pytorch.org/resources"
+    "https://pytorch.org/features"
   ],
   "stop_urls": [],
   "selectors": {
