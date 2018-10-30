@@ -33,14 +33,24 @@
   "stop_urls": [],
   "selectors": {
     "default": {
-      "lvl0": ".main-index.hidden__index",
+      "lvl0": {
+      "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')][1]/preceding::*[contains(@class,'sidebar-title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
       "lvl1": ".main-content__text h1",
       "lvl2": ".main-content__text h2",
       "lvl3": ".main-content__text h3",
       "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
     },
     "installation": {
-      "lvl0": ".main-index.hidden__index",
+      "lvl0": {
+      "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')][1]/preceding::*[contains(@class,'sidebar-title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
       "lvl1": ".os.hidden__index",
       "lvl2": ".method.hidden__index",
       "lvl3": ".main-content__text h2",
