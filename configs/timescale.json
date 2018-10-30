@@ -30,7 +30,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://docs.timescale.com/sitemap.xml"
+    "http://docs-new.timescale.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
