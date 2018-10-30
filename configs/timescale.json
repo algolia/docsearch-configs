@@ -2,7 +2,7 @@
   "index_name": "timescale",
   "start_urls": [
     {
-      "url": "http://docs.timescale.com/(?P<version>.*?)/getting-started/installation",
+      "url": "https://docs.timescale.com/(?P<version>.*?)/getting-started/installation",
       "selectors_key": "installation",
       "variables": {
         "version": [
@@ -15,7 +15,7 @@
       }
     },
     {
-      "url": "http://docs.timescale.com/(?P<version>.*?)/",
+      "url": "https://docs.timescale.com/(?P<version>.*?)/",
       "variables": {
         "version": [
           "v0.12",
@@ -28,7 +28,7 @@
     }
   ],
   "sitemap_urls": [
-    "http://docs.timescale.com/sitemap.xml"
+    "https://docs.timescale.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
