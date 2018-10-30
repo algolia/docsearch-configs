@@ -12,7 +12,7 @@
     {
       "url": "https://pytorch.org/blog",
       "selectors_key": "blog",
-      "tag": [
+      "tags": [
         "blog"
       ]
     },
