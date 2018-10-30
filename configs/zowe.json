@@ -33,7 +33,8 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "version"
     ]
   },
   "conversation_id": [
