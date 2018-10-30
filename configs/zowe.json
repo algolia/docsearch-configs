@@ -1,7 +1,12 @@
 {
   "index_name": "zowe",
   "start_urls": [
-    "https://zowe.github.io/docs-site/"
+    {
+      "url": "https://zowe.github.io/docs-site/(?P<version>.*?)/",
+      "variables": {
+        "version": ["latest"]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
