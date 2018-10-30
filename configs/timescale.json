@@ -30,17 +30,17 @@
     }
   ],
   "sitemap_urls": [
-    "https://docs-new.timescale.com/sitemap.xml"
+    "https://docs.timescale.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
     "default": {
       "lvl0": {
-      "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')][1]/preceding::*[contains(@class,'sidebar-title')][1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
+        "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')][1]/preceding::*[contains(@class,'sidebar-title')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": ".main-content__text h1",
       "lvl2": ".main-content__text h2",
       "lvl3": ".main-content__text h3",
@@ -48,11 +48,11 @@
     },
     "installation": {
       "lvl0": {
-      "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')][1]/preceding::*[contains(@class,'sidebar-title')][1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
+        "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')][1]/preceding::*[contains(@class,'sidebar-title')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": ".os.hidden__index",
       "lvl2": ".method.hidden__index",
       "lvl3": ".main-content__text h2",
@@ -71,5 +71,5 @@
     "628616287"
   ],
   "js_render": true,
-  "nb_hits": 8299
+  "nb_hits": 9906
 }
