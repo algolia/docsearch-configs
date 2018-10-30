@@ -6,6 +6,7 @@
       "selectors_key": "installation",
       "variables": {
         "version": [
+          "v1.0",
           "v0.12",
           "v0.11",
           "v0.10",
@@ -18,6 +19,7 @@
       "url": "https://docs.timescale.com/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "v1.0",
           "v0.12",
           "v0.11",
           "v0.10",
@@ -28,7 +30,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://docs.timescale.com/sitemap.xml"
+    "https://docs-new.timescale.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
