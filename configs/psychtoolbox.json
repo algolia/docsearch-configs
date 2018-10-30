@@ -1,0 +1,29 @@
+{
+  "index_name": "psychtoolbox",
+  "start_urls": [
+    "http://psychtoolbox.org/docs/"
+  ],
+  "sitemap_urls": [
+    "http://psychtoolbox.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "h5 > a:nth-child(2)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    "#contents",
+    "#toc",
+    ".code_header",
+    ".code"
+  ],
+  "user_agent": "Googlebot",
+  "nb_hits": 12833
+}
