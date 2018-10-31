@@ -2,7 +2,7 @@
   "index_name": "thinkwise",
   "start_urls": [
     "https://office.thinkwisesoftware.com/docs/",
-    "https://office.thinkwisesoftware.com/docs/Docusaurus/docs/sf_general.html"
+    "https://office.thinkwisesoftware.com/docs/docs/sf/sf_general.html"
   ],
   "stop_urls": [],
   "selectors": {
@@ -16,7 +16,7 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "text": ".post article p, .post article li, .post article td, .post article th"
   },
   "selectors_exclude": [
     ".hash-link"
