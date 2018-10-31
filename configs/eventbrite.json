@@ -1,0 +1,23 @@
+{
+  "index_name": "eventbrite",
+  "start_urls": [
+    "https://www.eventbrite.com/developer/v3/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'side-nav ')]//a[./text()=//*[contains(@class,'prose ')]//h1[1]/text()]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".prose h1",
+    "lvl2": ".prose h2",
+    "lvl3": ".prose h3",
+    "lvl4": ".prose h4",
+    "lvl5": ".prose h5",
+    "text": ".prose p, .prose li"
+  },
+  "only_content_level": true,
+  "nb_hits": 1841
+}
