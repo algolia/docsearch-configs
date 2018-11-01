@@ -2,17 +2,18 @@
   "index_name": "djrad",
   "start_urls": [
     "https://djrad.herokuapp.com/",
-    "https://djrad.herokuapp.com/components/"
+    "https://djrad.herokuapp.com/components/",
+    "https://djrad.herokuapp.com/api/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": ".ant-menu-horizontal li.ant-menu-item-selected",
       "global": true,
-      "default_value": "Menu"
+      "default_value": "Docs"
     },
     "lvl1": {
-      "selector": "li.ant-menu-submenu-selected > div.ant-menu-submenu-title",
+      "selector": "li.ant-menu-submenu-open > div.ant-menu-submenu-title",
       "global": true,
       "default_value": "Sub Menu"
     },
@@ -23,7 +24,8 @@
     "text": "article p, article li"
   },
   "selectors_exclude": [
-    "code"
+    "code",
+    ".search-exclude"
   ],
   "js_render": true,
   "conversation_id": [
