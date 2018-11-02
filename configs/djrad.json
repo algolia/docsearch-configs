@@ -13,7 +13,7 @@
       "default_value": "Docs"
     },
     "lvl1": {
-      "selector": "li.ant-menu-submenu-open > div.ant-menu-submenu-title",
+      "selector": ".top-level-menu-selected",
       "global": true,
       "default_value": "Sub Menu"
     },
