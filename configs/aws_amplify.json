@@ -1,13 +1,14 @@
 {
   "index_name": "aws_amplify",
   "start_urls": [
+    "https://aws-amplify.github.io/docs",
     "https://aws-amplify.github.io/amplify-js/"
   ],
   "stop_urls": [
     "index.html$"
   ],
   "sitemap_urls": [
-    "https://aws-amplify.github.io/amplify-js/sitemap.xml"
+    "https://aws-amplify.github.io/docs/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
