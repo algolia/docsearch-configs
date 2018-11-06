@@ -1,0 +1,18 @@
+{
+  "index_name": "hooksguide",
+  "start_urls": [
+    "https://www.hooks.guide/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#root h1",
+    "lvl1": "#root h2",
+    "lvl2": "#root h3",
+    "lvl3": "#root h4",
+    "lvl4": "#root h5",
+    "text": "#root p, #root li"
+  },
+  "conversation_id": [
+    "699123644"
+  ]
+}
