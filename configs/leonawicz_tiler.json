@@ -1,10 +1,10 @@
 {
   "index_name": "leonawicz_tiler",
   "start_urls": [
-    "https://leonawicz.github.io/tiler/"
+    "https://ropensci.github.io/tiler/"
   ],
   "sitemap_urls": [
-    "https://leonawicz.github.io/tiler/sitemap.xml"
+    "https://ropensci.github.io/tiler/sitemap.xml"
   ],
   "stop_urls": [
     "LICENSE-text.html"
