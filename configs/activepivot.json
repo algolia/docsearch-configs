@@ -1,12 +1,12 @@
 {
   "index_name": "activepivot",
   "start_urls": [
-    "https://d1keqlegisgned.cloudfront.net/activepivot/",
-    "https://d1keqlegisgned.cloudfront.net/activepivot/5.7.4/docs/copper/copper_intro.html",
-    "https://d1keqlegisgned.cloudfront.net/activepivot/5.7-next/docs/copper/copper_intro.html"
+    "https://activeviam.com/activepivot/",
+    "https://activeviam.com/activepivot/5.7.4/docs/copper/copper_intro.html",
+    "https://activeviam.com/activepivot/5.7-next/docs/copper/copper_intro.html"
   ],
   "sitemap_urls": [
-    "https://d1keqlegisgned.cloudfront.net/sitemap.xml"
+    "https://activeviam.com/activepivot/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
