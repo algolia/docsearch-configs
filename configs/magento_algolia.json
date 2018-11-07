@@ -28,13 +28,18 @@
     "docs_m1": {
       "lvl0": {
         "selector": "",
-        "default_value": "Magento 1 Documentation"
+        "default_value": "Magento 1",
+        "global": true
       },
       "lvl1": {
         "type": "xpath",
-        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]"
+        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]",
+        "global": true
       },
-      "lvl2": ".documentation-content h1",
+      "lvl2": {
+        "selector": ".documentation-content h1",
+        "global": true
+      },
       "lvl3": ".documentation-content h2",
       "lvl4": ".documentation-content h3",
       "text": ".documentation-content p, .documentation-content li, .documentation-content .highlight .nv"
@@ -42,13 +47,18 @@
     "docs_m2": {
       "lvl0": {
         "selector": "",
-        "default_value": "Magento 2 Documentation"
+        "default_value": "Magento 2",
+        "global": true
       },
       "lvl1": {
         "type": "xpath",
-        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]"
+        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]",
+        "global": true
       },
-      "lvl2": ".documentation-content h1",
+      "lvl2": {
+        "selector": ".documentation-content h1",
+        "global": true
+      },
       "lvl3": ".documentation-content h2",
       "lvl4": ".documentation-content h3",
       "text": ".documentation-content p, .documentation-content li, .documentation-content .highlight .nv"
@@ -56,7 +66,8 @@
     "faq": {
       "lvl0": {
         "selector": "",
-        "default_value": "FAQ"
+        "default_value": "FAQ",
+        "global": true
       },
       "lvl1": ".faq h2",
       "lvl2": ".faq h3",
@@ -65,8 +76,12 @@
       "text": ".faq p, .faq li"
     }
   },
+  "only_content_level": true,
+  "selectors_exclude": [
+    ".toc_menu"
+  ],
   "conversation_id": [
     "153590584"
   ],
-  "nb_hits": 1103
+  "nb_hits": 1045
 }
