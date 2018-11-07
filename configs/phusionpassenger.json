@@ -1,6 +1,14 @@
 {
   "index_name": "phusionpassenger",
   "start_urls": [
+    {
+      "url": "https://www.phusionpassenger.com/docs/tutorials/deploy_to_production/",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.phusionpassenger.com/docs/tutorials/installation/ruby/",
+      "page_rank": 1
+    },
     "https://www.phusionpassenger.com/docs/"
   ],
   "stop_urls": [],
