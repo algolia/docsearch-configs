@@ -1,8 +1,10 @@
 {
   "index_name": "electron-react-boilerplate",
   "start_urls": [
-    "https://electron-react-boilerplate.js.org/docs/",
-    "https://electron-react-boilerplate.js.org/docs/getting-started"
+    "https://electron-react-boilerplate.js.org/docs/"
+  ],
+  "sitemap_urls": [
+    "https://electron-react-boilerplate.js.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -31,5 +33,5 @@
   "conversation_id": [
     "691031474"
   ],
-  "nb_hits": 30
+  "nb_hits": 1752
 }
