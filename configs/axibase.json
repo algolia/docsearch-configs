@@ -1,7 +1,24 @@
 {
   "index_name": "axibase",
   "start_urls": [
-    "https://axibase.com/docs/atsd/"
+    {
+      "url": "https://axibase.com/docs/atsd/",
+      "tags": [
+        "atsd"
+      ]
+    },
+    {
+      "url": "https://axibase.com/docs/axibase-collector",
+      "tags": [
+        "collector"
+      ]
+    },
+    {
+      "url": "https://axibase.com/use-cases/",
+      "tags": [
+        "use-cases"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,7 +32,7 @@
     "lvl3": ".content h3",
     "lvl4": ".content h4",
     "lvl5": ".content h5",
-    "text": ".content p, .content li",
+    "text": ".content p, .content li, .content pre",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
