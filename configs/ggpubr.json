@@ -79,7 +79,7 @@
   },
   "selectors_exclude": [
     ".dont-index"
-    ],
+  ],
   "min_indexed_level": 2,
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -94,5 +94,5 @@
   "conversation_id": [
     "702508636"
   ],
-  "nb_hits": 774
+  "nb_hits": 1928
 }
