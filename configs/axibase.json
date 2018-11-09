@@ -18,6 +18,12 @@
       "tags": [
         "use-cases"
       ]
+    },
+    {
+      "url": "https://axibase.com/docs/charts/",
+      "tags": [
+        "charts"
+      ]
     }
   ],
   "stop_urls": [],
