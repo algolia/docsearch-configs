@@ -7,8 +7,8 @@
     "lvl0": "body h1",
     "lvl1": "body h2",
     "lvl2": "body h3",
-    "lvl3": "body h4, body h5",
-    "lvl4": ".param-name, .endpoint",
+    "lvl3": "body h4",
+    "lvl4": "body h5, .param-name, .endpoint",
     "text": "body p, body li, .param-description"
   },
   "selectors_exclude": [
