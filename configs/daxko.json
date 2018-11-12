@@ -1,7 +1,7 @@
 {
   "index_name": "daxko",
   "sitemap_urls": [
-    "http://api.daxko.com/v3/docs/sitemap.xml"
+    "https://api.daxko.com/v3/docs/sitemap.xml"
   ],
   "selectors": {
     "lvl0": "body h1",
