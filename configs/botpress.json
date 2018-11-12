@@ -1,6 +1,7 @@
 {
   "index_name": "botpress",
-  "sitemap_urls": "https://s3.amazonaws.com/botpress-docs/sitemap.xml",
+  "sitemap_urls": ["https://s3.amazonaws.com/botpress-docs/sitemap.xml"],
+  "sitemap_alternate_links": true,
   "start_urls": [ "https://botpress.io/docs/" ],
   "stop_urls": [],
   "selectors": {
@@ -26,7 +27,6 @@
       "tags"
     ]
   },
-  "scrap_start_urls": true,
   "conversation_id": [
     "468831887"
   ],
