@@ -3,15 +3,21 @@
   "start_urls": [
     {
       "url": "https://help.akeneo.com/index-pim.html",
-      "tags": ["pim"]
+      "tags": [
+        "pim"
+      ]
     },
     {
       "url": "https://help.akeneo.com/onboarder/",
-      "tags": ["onboarder"]
+      "tags": [
+        "onboarder"
+      ]
     },
     {
       "url": "https://help.akeneo.com/portal/",
-      "tags": ["portal"]
+      "tags": [
+        "portal"
+      ]
     }
   ],
   "stop_urls": [],
@@ -30,5 +36,5 @@
   "conversation_id": [
     "463001277"
   ],
-  "nb_hits": 2731
+  "nb_hits": 205
 }
