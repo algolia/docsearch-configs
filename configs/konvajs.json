@@ -2,7 +2,7 @@
   "index_name": "konvajs",
   "start_urls": [
     {
-      "url" :"https://konvajs.github.io/docs/",
+      "url": "https://konvajs.github.io/docs/",
       "page_rank": 5
     },
     {
@@ -52,5 +52,5 @@
   "conversation_id": [
     "686005040"
   ],
-  "nb_hits": 10430
+  "nb_hits": 9851
 }
