@@ -3,6 +3,7 @@
   "start_urls": [
     {
       "url": "https://konvajs.github.io/docs/",
+      "selectors_key": "main",
       "page_rank": 5
     },
     {
@@ -11,9 +12,10 @@
       "page_rank": 1
     }
   ],
+  "sitemap_urls": ["https://konvajs.github.io/sitemap.xml"]
   "stop_urls": [],
   "selectors": {
-    "default": {
+    "main": {
       "lvl0": {
         "selector": "//*[@id='sidebar']//*[contains(@class,'current')][1]/preceding::*[contains(@class,'title')][1]",
         "type": "xpath",
