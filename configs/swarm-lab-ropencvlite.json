@@ -1,13 +1,14 @@
 {
-  "index_name": "experimentdatar",
+  "index_name": "swarm-lab-ropencvlite",
   "start_urls": [
-    "https://itamarcaspi.github.io/experimentdatar/"
+    "https://swarm-lab.github.io/ROpenCVLite/"
   ],
   "sitemap_urls": [
-    "https://itamarcaspi.github.io/experimentdatar/sitemap.xml"
+    "https://swarm-lab.github.io/ROpenCVLite/sitemap.xml"
   ],
   "stop_urls": [
-    "LICENSE-text.html"
+    "LICENSE-text.html",
+    "://.*//"
   ],
   "selectors": {
     "lvl0": {
@@ -18,6 +19,7 @@
     "lvl2": ".contents h3, .contents th",
     "lvl3": ".contents h4",
     "lvl4": ".contents h5",
+    "lvl5": "FIXME h6",
     "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
   },
   "selectors_exclude": [
@@ -27,8 +29,8 @@
     "separatorsToIndex": "_"
   },
   "conversation_id": [
-    "701658053"
+    "703114023"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 171
+  "nb_hits": 110
 }

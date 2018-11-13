@@ -1,15 +1,14 @@
 {
-  "index_name": "fuse_box",
+  "index_name": "skiplang",
   "start_urls": [
-    "https://fuse-box.org/docs/"
+    "http://www.skiplang.com/docs",
+    "http://www.skiplang.com/docs/hello_world.html"
   ],
   "sitemap_urls": [
-    "https://fuse-box.org/sitemap.xml"
+    "http://www.skiplang.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [
-    "https://fuse-box.org/docs/next"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
@@ -32,8 +31,5 @@
       "version"
     ]
   },
-  "conversation_id": [
-    "651559044"
-  ],
-  "nb_hits": 2737
+  "nb_hits": 630
 }
