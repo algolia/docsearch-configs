@@ -1,7 +1,7 @@
 {
   "index_name": "resin_io",
   "start_urls": [
-    "https://docs.resin.io"
+    "https://www.balena.io/docs"
   ],
   "stop_urls": [],
   "selectors": {
