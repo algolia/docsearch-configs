@@ -1,24 +1,7 @@
 {
   "index_name": "akeneo-help",
   "start_urls": [
-    {
-      "url": "https://help.akeneo.com/pim-index.html",
-      "tags": [
-        "pim"
-      ]
-    },
-    {
-      "url": "https://help.akeneo.com/onboarder/",
-      "tags": [
-        "onboarder"
-      ]
-    },
-    {
-      "url": "https://help.akeneo.com/portal/",
-      "tags": [
-        "portal"
-      ]
-    }
+    "https://help.akeneo.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -36,5 +19,9 @@
   "conversation_id": [
     "463001277"
   ],
-  "nb_hits": 413
+  "custom_settings": {
+    "attributesForFaceting": [
+      "solution"
+    ]
+  }
 }
