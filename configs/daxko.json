@@ -1,19 +1,21 @@
 {
   "index_name": "daxko",
-  "start_urls": [
-    "https://api.daxko.com/v3/docs"
-  ],
-  "stop_urls": [
-    "%"
+  "sitemap_urls": [
+    "https://api.daxko.com/v3/docs/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": ".page-header h1",
-    "lvl1": "section h2",
-    "lvl2": "section h3",
-    "lvl3": "section h4",
-    "lvl4": "section h5",
-    "text": "section p, section li"
+    "lvl0": "body h1",
+    "lvl1": "body h2",
+    "lvl2": "body h3",
+    "lvl3": "body h4",
+    "lvl4": "body h5, .param-name, .endpoint",
+    "text": "body p, body li, .param-description"
   },
+  "selectors_exclude": [
+    "aside",
+    "a",
+    "h2#comments"
+  ],
   "conversation_id": [
     "442767378"
   ],
