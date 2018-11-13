@@ -1,5 +1,8 @@
 {
   "index_name": "daxko",
+  "start_urls": [
+    "https://api.daxko.com/v3/docs/"
+  ],
   "sitemap_urls": [
     "https://api.daxko.com/v3/docs/sitemap.xml"
   ],
@@ -19,5 +22,5 @@
   "conversation_id": [
     "442767378"
   ],
-  "nb_hits": 1806
+  "nb_hits": 8077
 }
