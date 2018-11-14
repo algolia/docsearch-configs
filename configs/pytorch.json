@@ -10,6 +10,20 @@
       "selectors_key": "features"
     },
     {
+      "url": "https://pytorch.org/docs/master/",
+      "tags": [
+        "master"
+      ],
+      "selectors_key": "master"
+    },
+    {
+      "url": "https://pytorch.org/tutorials/",
+      "selectors_key": "tutorials",
+      "tags": [
+        "tutorials"
+      ]
+    },
+    {
       "url": "https://pytorch.org/blog",
       "selectors_key": "blog",
       "tags": [
@@ -19,7 +33,10 @@
     "https://pytorch.org/get-started/",
     "https://pytorch.org/get-started/locally/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/_",
+    "\\?"
+  ],
   "selectors": {
     "default": {
       "lvl0": {
@@ -70,14 +87,48 @@
       "lvl4": "article h4",
       "lvl5": "article h5",
       "text": "article p, article li"
+    },
+    "tutorials": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Tutorials"
+      },
+      "lvl1": {
+        "selector": "//nav//ul[contains(@class,'current')]/preceding::span[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Welcome"
+      },
+      "lvl2": ".section h1",
+      "lvl3": ".section h2",
+      "lvl4": ".section h3",
+      "lvl5": ".section h4",
+      "text": ".section p, .section li"
+    },
+    "master": {
+      "lvl0": {
+        "selector": "//nav//ul[contains(@class,'current')]/preceding::span[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Master"
+      },
+      "lvl1": ".section h1",
+      "lvl2": ".section h2, .section .descname",
+      "lvl3": ".section h3",
+      "lvl4": ".section h4",
+      "lvl5": ".section h5",
+      "text": ".section p, .section li"
     }
   },
   "selectors_exclude": [
     "#markdown-toc",
-    "h1 br"
+    "h1 br",
+    ".section [class^=toctree]",
+    "[class*=download-link-note]"
   ],
   "conversation_id": [
     "672318908"
   ],
-  "nb_hits": 941
+  "nb_hits": 11301
 }
