@@ -23,7 +23,7 @@
     "lvl3": ".container div[class$='-9'] h2",
     "lvl4": ".container div[class$='-9'] h3",
     "lvl5": ".container div[class$='-9'] h4",
-    "text": ".container div[class$='-9'] p, .container div[class$='-9'] li"
+    "text": ".container div[class$='-9'] p, .container div[class$='-9'] li, pre.rule-signature"
   },
   "stop_content": [
     "404 - Page not found"
