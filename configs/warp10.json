@@ -1,10 +1,10 @@
 {
   "index_name": "warp10",
   "start_urls": [
-    "http://www.warp10.io"
+    "https://www.warp10.io"
   ],
   "stop_urls": [
-    "/tags/"
+     "/$"
   ],
   "selectors": {
     "lvl0": {
@@ -22,5 +22,6 @@
   "conversation_id": [
     "708703949"
   ],
-  "nb_hits": 2045
+  "nb_hits": 2045,
+  "user_agent": "AlgoliaBot"
 }
