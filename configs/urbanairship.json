@@ -8,7 +8,8 @@
   ],
   "stop_urls": [
     "/reference/",
-    "/page/"
+    "/page/",
+    "/whats-new/"
   ],
   "selectors": {
     "lvl0": ".article__heading h1",
