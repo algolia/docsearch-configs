@@ -20,6 +20,7 @@
   "user_agent": "AlgoliaBot",
   "js_render": true,
   "js_wait": 2,
+  "sitemap_urls": ["https://www.warp10.io/sitemap.xml"],
   "conversation_id": [
     "708703949"
   ],
