@@ -18,6 +18,8 @@
   },
   "min_indexed_level": 2,
   "user_agent": "AlgoliaBot",
+  "js_render": true,
+  "js_wait": 2,
   "conversation_id": [
     "708703949"
   ],
