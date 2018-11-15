@@ -36,9 +36,9 @@
     "lvl1": ".content h1",
     "lvl2": ".content h2",
     "lvl3": ".content h3",
-    "lvl4": ".content h4",
+    "lvl4": ".content h4, .content table tr td:first-child",
     "lvl5": ".content h5",
-    "text": ".content p, .content li, .content pre",
+    "text": ".content p, .content li, .content pre, .content table td:nth-child(2)",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -56,6 +56,6 @@
   "conversation_id": [
     "701848887"
   ],
-  "scrap_start_urls": false,
+  "scrap_start_urls": true,
   "nb_hits": 34926
 }
