@@ -3,10 +3,7 @@
   "start_urls": [
     "https://www.warp10.io"
   ],
-  "stop_urls": [
-    "/tags/",
-    "/$"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "#menu > li.active > a",
@@ -20,9 +17,9 @@
     "text": "#main p"
   },
   "min_indexed_level": 2,
-  "user_agent": "AlgoliaBot",
   "conversation_id": [
     "708703949"
   ],
-  "nb_hits": 324
+  "nb_hits": 2045,
+  "user_agent": "AlgoliaBot"
 }
