@@ -3,22 +3,24 @@
   "start_urls": [
     "http://www.warp10.io"
   ],
+  "stop_urls": [
+    "/tags/"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "//div[@class=\"panel-collapse collapse  in \"]/../div[@class=\"panel-heading\"]/h4",
-      "type": "xpath"
+      "selector": "#menu > li.active > a",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "lvl1": ".col-sm-9 h1",
-    "lvl2": ".col-sm-9 h2",
-    "lvl3": ".col-sm-9 h3",
-    "lvl4": ".col-sm-9 h4",
-    "text": ".col-sm-9 p"
+    "lvl1": "#main h1",
+    "lvl2": "#main h2",
+    "lvl3": "#main h3",
+    "lvl4": "#main h4",
+    "text": "#main p"
   },
   "min_indexed_level": 2,
-  "js_render": true,
-  "js_wait": 2,
   "conversation_id": [
-    "171406286"
+    "708703949"
   ],
-  "nb_hits": 9000
+  "nb_hits": 2045
 }
