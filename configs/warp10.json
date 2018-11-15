@@ -3,9 +3,7 @@
   "start_urls": [
     "https://www.warp10.io"
   ],
-  "stop_urls": [
-    "/tags/"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "#menu > li.active > a",
@@ -23,5 +21,5 @@
   "conversation_id": [
     "708703949"
   ],
-  "nb_hits": 1389
+  "nb_hits": 4592
 }
