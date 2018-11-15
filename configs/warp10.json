@@ -4,8 +4,7 @@
     "https://www.warp10.io"
   ],
   "stop_urls": [
-    "/tags/",
-    "/$"
+    "/tags/"
   ],
   "selectors": {
     "lvl0": {
@@ -24,5 +23,5 @@
   "conversation_id": [
     "708703949"
   ],
-  "nb_hits": 324
+  "nb_hits": 1389
 }
