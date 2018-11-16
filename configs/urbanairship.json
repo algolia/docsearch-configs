@@ -12,16 +12,20 @@
     "/whats-new/"
   ],
   "selectors": {
-    "lvl0": ".article__heading h1",
-    "lvl1": ".article__body h1",
-    "lvl2": ".article__body h2",
-    "lvl3": ".article__body h3",
-    "lvl4": ".article__body h4",
-    "lvl5": ".article__body h5",
-    "text": ".article__body p, .article__body li"
+    "lvl0": {
+      "selector": ".sidenav > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h1",
+    "lvl2": "#content h2",
+    "lvl3": "#content h3",
+    "lvl4": "#content h4",
+    "lvl5": "#content h5",
+    "text": "#content p, #content li"
   },
   "conversation_id": [
     "377464724"
   ],
-  "nb_hits": 11339
+  "nb_hits": 10055
 }
