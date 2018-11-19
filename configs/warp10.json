@@ -19,11 +19,10 @@
   "min_indexed_level": 2,
   "user_agent": "AlgoliaBot",
   "js_render": true,
-  "sitemap_urls": [
-    "https://www.warp10.io/sitemap.xml"
-  ],
+  "js_wait": 2,
+  "sitemap_urls": ["https://www.warp10.io/sitemap.xml"],
   "conversation_id": [
     "708703949"
   ],
-  "nb_hits": 8170
+  "nb_hits": 4592
 }
