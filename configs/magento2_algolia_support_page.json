@@ -53,8 +53,8 @@
       "words",
       "filters",
       "typo",
-      "attribute",
       "proximity",
+      "attribute",
       "exact",
       "custom"
     ]
