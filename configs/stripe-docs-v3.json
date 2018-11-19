@@ -10,11 +10,17 @@
     },
     {
       "selectors_key": "docs",
-      "url": "https://stripe.com/docs"
+      "url": "https://stripe.com/docs",
+      "tags": [
+        "docs"
+      ]
     },
     {
       "selectors_key": "questions",
-      "url": "https://support.stripe.com/questions"
+      "url": "https://support.stripe.com/questions",
+      "tags": [
+        "questions"
+      ]
     }
   ],
   "sitemap_urls": [
@@ -111,5 +117,5 @@
     ]
   },
   "user_agent": "Googlebot",
-  "nb_hits": 48906
+  "nb_hits": 149423
 }
