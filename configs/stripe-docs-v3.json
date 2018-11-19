@@ -91,10 +91,6 @@
     "questions": 2
   },
   "custom_settings": {
-    "attributesForFaceting": [
-      "techno",
-      "tags"
-    ],
     "separatorsToIndex": "_",
     "attributesToIndex": [
       "unordered(hierarchy_camel.lvl1)",
@@ -113,5 +109,5 @@
     ]
   },
   "user_agent": "Googlebot",
-  "nb_hits": 24565
+  "nb_hits": 24470
 }
