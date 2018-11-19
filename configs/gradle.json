@@ -1,5 +1,8 @@
 {
   "index_name": "gradle",
+  "sitemap_urls": [
+    "https://docs.gradle.org/current/sitemap.xml"
+  ],
   "start_urls": [
     {
       "url": "https://docs.gradle.org/(?P<version>.*?)/",
@@ -37,10 +40,7 @@
   ],
   "selectors": {
     "userguide": {
-      "lvl0": {
-        "selector": "#bogus",
-        "default_value": "User Manual"
-      },
+      "lvl0": ".site-header__doc-type",
       "lvl1": ".chapter h1",
       "lvl2": ".chapter h2",
       "lvl3": ".chapter h3",
@@ -55,10 +55,7 @@
       "text": ".chapter p, .chapter .dlist dt ~ dd p"
     },
     "dsl": {
-      "lvl0": {
-        "selector": "#bogus",
-        "default_value": "DSL Reference"
-      },
+      "lvl0": ".site-header__doc-type",
       "lvl1": ".chapter h1",
       "lvl2": ".chapter h2",
       "lvl3": ".chapter h3",
