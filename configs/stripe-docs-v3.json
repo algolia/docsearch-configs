@@ -27,7 +27,8 @@
     "https://stripe.com/sitemap.xml"
   ],
   "stop_urls": [
-    "\\?"
+    "\\?",
+    "docs/api/+"
   ],
   "selectors": {
     "api": {
@@ -39,12 +40,7 @@
       "lvl2": "#content .method-copy h2",
       "lvl3": "#content .method-copy h3, #errors h3",
       "lvl4": "#content .method-copy h4, #content .method-list .method-list-item-label, #errors .method-example-part tbody tr .table-row-property",
-      "text": "#content .method-copy p, #errors .method-example-part tbody tr .table-row-definition",
-      "techno": {
-        "selector": ".language-toggle input[checked='checked'] + label",
-        "global": true,
-        "default_value": "None"
-      }
+      "text": "#content .method-copy p, #errors .method-example-part tbody tr .table-row-definition"
     },
     "docs": {
       "lvl0": {
@@ -117,5 +113,5 @@
     ]
   },
   "user_agent": "Googlebot",
-  "nb_hits": 149423
+  "nb_hits": 24565
 }
