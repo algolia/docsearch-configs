@@ -5,34 +5,47 @@
   ],
   "start_urls": [
     {
-      "url": "https://docs.gradle.org/(?P<version>.*?)/",
-      "variables": {
-        "version": ["current"]
+      "url": "https://docs.gradle.org/current/",
+      "extra_attributes": {
+        "version": [
+          "current"
+        ]
       },
       "selectors_key": "userguide",
       "page_rank": 6,
       "tags": "userguide"
     },
     {
-      "url": "https://docs.gradle.org/(?P<version>.*?)/userguide/plugin_reference.html",
-      "variables": {
-        "version": ["current"]
+      "url": "https://docs.gradle.org/current/userguide/plugin_reference.html",
+      "extra_attributes": {
+        "version": [
+          "current"
+        ]
       },
       "selectors_key": "plugin_reference",
       "page_rank": 4,
       "tags": "plugin_reference"
     },
     {
-      "url": "https://docs.gradle.org/(?P<version>.*?)/dsl/",
-      "variables": {
-        "version": ["current"]
+      "url": "https://docs.gradle.org/current/dsl/",
+      "extra_attributes": {
+        "version": [
+          "current"
+        ]
       },
       "selectors_key": "dsl",
       "page_rank": 1,
       "tags": "dsl"
     }
   ],
-  "selectors_exclude": [".docs-navigation", ".site-header", ".site-footer", ".toc", ".chapter-meta", ".admonitionblock"],
+  "selectors_exclude": [
+    ".docs-navigation",
+    ".site-header",
+    ".site-footer",
+    ".toc",
+    ".chapter-meta",
+    ".admonitionblock"
+  ],
   "stop_urls": [
     "\\?",
     "/javadoc/",
@@ -67,5 +80,5 @@
   "conversation_id": [
     "641563788"
   ],
-  "nb_hits": 20832
+  "nb_hits": 27930
 }
