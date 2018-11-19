@@ -32,5 +32,5 @@
   "selectors_exclude": [
     ".doc-main h1 + div ul:first-child"
   ],
-  "nb_hits": 15340
+  "nb_hits": 15904
 }
