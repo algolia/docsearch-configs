@@ -1,0 +1,25 @@
+{
+  "index_name": "rnpgp",
+  "start_urls": [
+    "https://www.rnpgp.com/software/rnp/docs/",
+    "https://www.rnpgp.com/software/rnp/docs/README/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "article .title h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article .body h1",
+    "lvl2": "article .body h2",
+    "lvl3": "article .body h3",
+    "lvl4": "article .body h4",
+    "lvl5": "article .body h5",
+    "text": "article .body p, article .body li"
+  },
+  "conversation_id": [
+    "705206718"
+  ],
+  "nb_hits": 65
+}
