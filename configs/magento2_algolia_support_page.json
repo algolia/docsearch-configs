@@ -48,5 +48,16 @@
   "selectors_exclude": [
     ".toc_menu"
   ],
+  "custom_settings": {
+    "ranking": [
+      "words",
+      "filters",
+      "typo",
+      "attribute",
+      "proximity",
+      "exact",
+      "custom"
+    ]
+  },
   "nb_hits": 574
 }
