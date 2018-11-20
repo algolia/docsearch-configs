@@ -7,7 +7,6 @@
     "https://docs.urbanairship.com/sitemap.xml"
   ],
   "stop_urls": [
-    "/reference/",
     "/page/",
     "/whats-new/"
   ],
