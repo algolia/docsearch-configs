@@ -1,0 +1,34 @@
+{
+  "index_name": "zarm_ui",
+  "start_urls": [
+    "https://zarm.design/#/components/input"
+  ],
+  "stop_urls": [
+    "https://zarm.design/#/documents/quick-start",
+    "https://zarm.design/#/documents/change-log"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class=\"ui-menu-item active\"]/ancestor::ul[@class=\"ui-menu-submenu-sub\"][last()]/preceding-sibling::*[@class=\"ui-menu-submenu-title\"]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "//*[@class=\"ui-menu-item active\"]/ancestor::ul[@class=\"ui-menu-submenu-sub\"][1]/preceding-sibling::*[@class=\"ui-menu-submenu-title\"]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl2": {
+      "global": true,
+      "selector": ".ui-menu-item.active"
+    },
+    "lvl3": ".main-container h3",
+    "lvl4": ".main-container h4",
+    "lvl5": ".main-container h5",
+    "text": ".main-container p, .main-container li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "712424080"
+  ]
+}
