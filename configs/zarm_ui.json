@@ -1,11 +1,9 @@
 {
   "index_name": "zarm_ui",
   "start_urls": [
-    "https://zarm.design/#/components/input"
+    "https://zarm.design/#/"
   ],
   "stop_urls": [
-    "https://zarm.design/#/documents/quick-start",
-    "https://zarm.design/#/documents/change-log"
   ],
   "selectors": {
     "lvl0": {
@@ -28,6 +26,7 @@
     "text": ".main-container p, .main-container li"
   },
   "js_render": true,
+  "use_anchors": true,
   "conversation_id": [
     "712424080"
   ]
