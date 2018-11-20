@@ -6,8 +6,8 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-     "global": true,
-     "selector": ".panel .panel-block.is-active"
+      "global": true,
+      "selector": ".panel .panel-block.is-active"
     },
     "lvl1": ".content h1",
     "lvl2": ".content h2",
@@ -18,5 +18,6 @@
   },
   "conversation_id": [
     "710194899"
-  ]
+  ],
+  "nb_hits": 2110
 }

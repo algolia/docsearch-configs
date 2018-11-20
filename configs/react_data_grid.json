@@ -1,7 +1,8 @@
 {
   "index_name": "react_data_grid",
   "start_urls": [
-    "http://adazzle.github.io/react-data-grid/"
+    "http://adazzle.github.io/react-data-grid/docs/",
+    "https://adazzle.github.io/react-data-grid/docs/quick-start"
   ],
   "sitemap_urls": [
     "http://adazzle.github.io/react-data-grid/sitemap.xml"
@@ -33,5 +34,6 @@
   },
   "conversation_id": [
     "711670998"
-  ]
+  ],
+  "nb_hits": 681
 }
