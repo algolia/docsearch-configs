@@ -4,6 +4,8 @@
     "https://office.thinkwisesoftware.com/docs/",
     "https://office.thinkwisesoftware.com/docs/docs/sf/sf_general.html"
   ],
+  "sitemap_urls": ["https://office.thinkwisesoftware.com/docs/sitemap.xml"],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -21,6 +23,11 @@
   "selectors_exclude": [
     ".hash-link"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
   "conversation_id": [
     "645963849"
   ],
