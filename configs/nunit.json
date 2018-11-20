@@ -26,10 +26,13 @@
       "global": true
     }
   },
+  "selectors_exclude": [
+    "#help_content > div"
+  ],
   "custom_settings": {
     "attributesForFaceting": [
       "version"
     ]
   },
-  "nb_hits": 49698
+  "nb_hits": 49680
 }
