@@ -30,7 +30,6 @@
       "text": "#main p, #main li"
     },
     "blog": {
-
       "lvl0": "#main article h1",
       "lvl1": "[itemprop='articleBody'] h2",
       "lvl2": "[itemprop='articleBody'] h3",
