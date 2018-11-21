@@ -5,7 +5,7 @@
       "url": "https://docs.antora.org/antora/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "1.0"
+          "1.1"
         ]
       }
     },
