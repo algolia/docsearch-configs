@@ -1,7 +1,7 @@
 {
   "index_name": "vue_gwt",
   "start_urls": [
-    "https://axellience.github.io/vue-gwt/"
+    "https://vuegwt.github.io/vue-gwt/"
   ],
   "stop_urls": [],
   "selectors": {
