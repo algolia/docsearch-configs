@@ -1,8 +1,8 @@
 {
-  "index_name": "mapd",
+  "index_name": "omnisci",
   "start_urls": [
-    "https://www.mapd.com/docs/",
-    "https://www.mapd.com/docs/latest/"
+    "https://www.omnisci.com/docs/",
+    "https://www.omnisci.com/docs/latest/"
   ],
   "stop_urls": [],
   "selectors": {
