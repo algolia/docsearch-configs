@@ -32,8 +32,7 @@
       "selectors_key": "javadoc"
     }
   ],
-  "stop_urls": [
-  ],
+  "stop_urls": [],
   "selectors": {
     "guide": {
       "lvl0": "h2.sidebar-header",
@@ -56,5 +55,5 @@
   },
   "js_render": true,
   "min_indexed_level": 1,
-  "nb_hits": 1700
+  "nb_hits": 1123
 }
