@@ -3,6 +3,10 @@
   "start_urls": [
     "http://scalameta.org/metals/"
   ],
+  "sitemap_urls": [
+    "https://scalameta.org/metals/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -20,6 +24,13 @@
   "selectors_exclude": [
     ".hash-link"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "568393716"
   ],
