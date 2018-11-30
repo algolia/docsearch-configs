@@ -1,8 +1,7 @@
 {
   "index_name": "metals",
   "start_urls": [
-    "http://scalameta.org/metals/docs/",
-    "http://scalameta.org/metals/docs/installation-contributors.html"
+    "http://scalameta.org/metals/"
   ],
   "stop_urls": [],
   "selectors": {
