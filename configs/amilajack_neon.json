@@ -1,10 +1,10 @@
 {
   "index_name": "amilajack_neon",
   "start_urls": [
-    "https://amilajack.github.io/neon-docs/docs/"
+    "https://neon-bindings.com/docs/"
   ],
   "sitemap_urls": [
-    "https://amilajack.github.io/neon-docs/sitemap.xml"
+    "https://neon-bindings.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -33,5 +33,5 @@
   "conversation_id": [
     "691034268"
   ],
-  "nb_hits": 630
+  "nb_hits": 632
 }
