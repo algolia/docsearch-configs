@@ -8,6 +8,12 @@
       ]
     },
     {
+      "url": "https://www.tiny.cloud/docs-beta",
+      "tags": [
+        "docs-beta"
+      ]
+    },
+    {
       "url": "https://www.tiny.cloud/docs-3x",
       "tags": [
         "docs-3x"
