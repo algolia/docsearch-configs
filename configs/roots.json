@@ -1,0 +1,38 @@
+{
+  "index_name": "roots",
+  "start_urls": [
+    {
+      "url": "https://roots.io/(?P<area>.*?)/docs/",
+      "variables": {
+        "area": [
+          "sage",
+          "trellis",
+          "bedrock",
+          "getting-started"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "#docsMenuButton",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".entry-content h1",
+      "global": true
+    },
+    "lvl2": ".entry-content h2",
+    "lvl3": ".entry-content h3",
+    "lvl4": ".entry-content h4",
+    "lvl5": ".entry-content h5",
+    "lvl6": ".entry-content h6",
+    "text": ".entry-content p, .entry-content li"
+  },
+  "selectors_exclude": [
+    ".entry-content footer"
+  ],
+  "nb_hits": 1039
+}
