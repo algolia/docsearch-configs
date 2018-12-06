@@ -1,0 +1,27 @@
+{
+  "index_name": "docksal",
+  "start_urls": [
+    "https://docs.docksal.io"
+  ],
+  "sitemap_urls": [
+    "https://docs.docksal.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".links > a:nth-child(2)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#body-inner h1",
+    "lvl2": "#body-inner h2",
+    "lvl3": "#body-inner h3",
+    "lvl4": "#body-inner h4",
+    "lvl5": "#body-inner h5",
+    "text": "#body-inner p, #body-inner li"
+  },
+  "conversation_id": [
+    "714199035"
+  ],
+  "nb_hits": 1439
+}
