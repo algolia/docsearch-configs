@@ -3,11 +3,11 @@
   "start_urls": [
     "https://dwstech.github.io/muster/docs/"
   ],
+  "stop_urls": [],
   "sitemap_urls": [
     "https://dwstech.github.io/muster/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
