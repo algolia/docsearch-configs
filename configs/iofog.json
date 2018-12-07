@@ -1,8 +1,8 @@
 {
   "index_name": "iofog",
   "start_urls": [
-    "https://iofog.org/documentation/",
-    "https://iofog.org/documentation/1.0.0/guidelines/"
+    "https://iofog.org/docs/",
+    "https://iofog.org/docs/1.0.0/getting-started/core-concepts.html"
   ],
   "sitemap_urls": [
     "https://iofog.org/sitemap.xml"
@@ -10,7 +10,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu-body .item-container.active > a",
+      "selector": ".menu-list .active.open button",
       "global": true,
       "default_value": "Documentation"
     },
@@ -24,5 +24,5 @@
   "conversation_id": [
     "698887209"
   ],
-  "nb_hits": 776
+  "nb_hits": 1000
 }
