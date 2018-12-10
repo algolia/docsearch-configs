@@ -9,7 +9,8 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".ant-menu-root > .ant-menu-submenu-open > div:first-child",
+      "selector": "//*[contains(@class,'ant-menu-root')]/li[.//a[contains(@class,'active')][1]]/div[1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
