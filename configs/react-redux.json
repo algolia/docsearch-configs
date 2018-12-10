@@ -1,7 +1,7 @@
 {
   "index_name": "react-redux",
   "start_urls": [
-    "https://react-redux.js.org/docs/"
+    "https://react-redux.js.org/"
   ],
   "sitemap_urls": [
     "https://react-redux.js.org/sitemap.xml"
@@ -33,5 +33,5 @@
   "conversation_id": [
     "692345822"
   ],
-  "nb_hits": 362
+  "nb_hits": 509
 }
