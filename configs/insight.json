@@ -8,7 +8,11 @@
     "/login$"
   ],
   "selectors": {
-    "lvl0": ".toctree-l1.active > a",
+    "lvl0": {
+      "selector": ".toctree-l1.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": ".documentation__content h1",
     "lvl2": ".documentation__content h2",
     "lvl3": ".documentation__content h3",
@@ -16,7 +20,6 @@
     "lvl5": ".documentation__content h5",
     "text": ".documentation__content p, .documentation__content li"
   },
-  "min_indexed_level": 1,
   "js_render": true,
   "conversation_id": [
     "372315449"
