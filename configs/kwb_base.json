@@ -1,5 +1,5 @@
 {
-  "index_name": "kwb_db",
+  "index_name": "kwb_base",
   "start_urls": [
     {
       "url": "https://kwb-r.github.io/kwb.base/index.html",
