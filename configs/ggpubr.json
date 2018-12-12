@@ -74,7 +74,7 @@
         "selector": ".contents h2, .contents h3",
         "default_value": "Context"
       },
-      "text": ".contents p, .contents li, .tempate-article .contents .pre"
+      "text": ".contents p, .contents li"
     }
   },
   "selectors_exclude": [
@@ -94,5 +94,5 @@
   "conversation_id": [
     "702508636"
   ],
-  "nb_hits": 1928
+  "nb_hits": 3168
 }

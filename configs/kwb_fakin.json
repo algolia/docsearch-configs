@@ -66,7 +66,7 @@
         "selector": ".contents h2, .contents h3",
         "default_value": "Context"
       },
-      "text": ".contents p, .contents li, .tempate-article .contents .pre"
+      "text": ".contents p, .contents li"
     },
     "default": {
       "lvl1": ".contents h2",
@@ -94,5 +94,5 @@
     "728781804"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 295
+  "nb_hits": 262
 }
