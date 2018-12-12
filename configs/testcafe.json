@@ -14,7 +14,7 @@
     "lvl3": ".post-content h3",
     "lvl4": ".post-content h4",
     "lvl5": ".post-content h5",
-    "text": ".post-content p, .post-content li"
+    "text": ".post-content p, .post-content li, .post-content table"
   },
   "strip_chars": " .,;:#",
   "min_indexed_level": 1,
