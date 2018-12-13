@@ -15,10 +15,11 @@
     "text": ".doc-page p, .doc-page li"
   },
   "selectors_exclude": [
-    ".toc"
+    ".toc",
+    ".breadcrumb"
   ],
   "conversation_id": [
     "518344062"
   ],
-  "nb_hits": 14780
+  "nb_hits": 36911
 }
