@@ -19,6 +19,7 @@
   },
   "js_render": true,
   "use_anchors": true,
+  "js_wait": 5,
   "conversation_id": [
     "607968910"
   ],
