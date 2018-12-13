@@ -1,0 +1,26 @@
+{
+  "index_name": "railseventstore",
+  "start_urls": [
+    "https://railseventstore.org/docs/",
+    "https://railseventstore.org/docs/install/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//a[@aria-current='page']/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs h1",
+    "lvl2": ".docs h2",
+    "lvl3": ".docs h3",
+    "lvl4": ".docs h4",
+    "lvl5": ".docs h5",
+    "text": ".docs p, .docs li"
+  },
+  "conversation_id": [
+    "689752997"
+  ],
+  "nb_hits": 454
+}

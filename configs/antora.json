@@ -5,7 +5,7 @@
       "url": "https://docs.antora.org/antora/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "1.0"
+          "1.1"
         ]
       }
     },
@@ -31,5 +31,5 @@
   "conversation_id": [
     "523678556"
   ],
-  "nb_hits": 2347
+  "nb_hits": 2489
 }

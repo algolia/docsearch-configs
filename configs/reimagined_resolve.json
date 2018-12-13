@@ -1,0 +1,37 @@
+{
+  "index_name": "reimagined_resolve",
+  "start_urls": [
+    "https://reimagined.github.io/resolve/docs/"
+  ],
+  "sitemap_urls": [
+    "https://reimagined.github.io/resolve/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".postHeader h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post article h1",
+    "lvl2": ".post article h2",
+    "lvl3": ".post article h3",
+    "lvl4": ".post article h4",
+    "lvl5": ".post article h5",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "724749182"
+  ],
+  "nb_hits": 517
+}

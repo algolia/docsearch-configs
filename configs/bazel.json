@@ -23,7 +23,7 @@
     "lvl3": ".container div[class$='-9'] h2",
     "lvl4": ".container div[class$='-9'] h3",
     "lvl5": ".container div[class$='-9'] h4",
-    "text": ".container div[class$='-9'] p, .container div[class$='-9'] li"
+    "text": ".container div[class$='-9'] p, .container div[class$='-9'] li, pre.rule-signature"
   },
   "stop_content": [
     "404 - Page not found"
@@ -31,7 +31,10 @@
   "selectors_exclude": [
     ".toc"
   ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "js_render": true,
   "only_content_level": true,
-  "nb_hits": 9637
+  "nb_hits": 10204
 }

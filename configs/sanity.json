@@ -1,0 +1,25 @@
+{
+  "index_name": "sanity",
+  "start_urls": [
+    "https://www.sanity.io/docs/"
+  ],
+  "sitemap_urls": [
+    "https://www.sanity.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'docsSideBar__section')]//*[contains(@class,'selected-item')]/preceding::*[contains(@class,'docsSideBar__section-title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".documentation-page__content h1",
+    "lvl2": ".documentation-page__content h2",
+    "lvl3": ".documentation-page__content h3",
+    "lvl4": ".documentation-page__content h4",
+    "lvl5": ".documentation-page__content h5",
+    "text": ".documentation-page__content p, .documentation-page__content li"
+  },
+  "nb_hits": 2361
+}

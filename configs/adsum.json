@@ -30,8 +30,18 @@
       "tags": [
         "adactiveLogger"
       ]
+    },
+    {
+      "url": "https://adactivesas.github.io/adsum-client-analytics/",
+      "tags": [
+        "analytics"
+      ]
     }
   ],
+  "sitemap_urls": [
+    "https://adactivesas.github.io/adsum-web-map/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -46,11 +56,18 @@
     "lvl4": ".post h4",
     "text": ".post article p, .post article li"
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
+  },
   "selectors_exclude": [
     ".hash-link"
   ],
   "conversation_id": [
     "558796023"
   ],
-  "nb_hits": 44974
+  "nb_hits": 55289
 }

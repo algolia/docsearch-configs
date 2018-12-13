@@ -1,0 +1,50 @@
+{
+  "index_name": "v8_dev",
+  "start_urls": [
+    {
+      "url": "https://v8.dev/docs",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://v8.dev/blog/",
+      "tags": [
+        "blog"
+      ],
+      "selectors_key": "blog"
+    }
+  ],
+  "sitemap_urls": [
+    "https://v8.dev/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": "#main h1",
+      "lvl1": "#main h2",
+      "lvl2": "#main h3",
+      "lvl3": "#main h4",
+      "lvl4": "#main h5",
+      "lvl5": "#main h6",
+      "text": "#main p, #main li"
+    },
+    "blog": {
+      "lvl0": "#main article h1",
+      "lvl1": "[itemprop='articleBody'] h2",
+      "lvl2": "[itemprop='articleBody'] h3",
+      "lvl3": "[itemprop='articleBody'] h4",
+      "lvl4": "[itemprop='articleBody'] h5",
+      "lvl5": "[itemprop='articleBody'] h6",
+      "text": "[itemprop='articleBody'] p, [itemprop='articleBody'] li, #main footer p"
+    }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    "p.meta"
+  ],
+  "strip_chars": " .,;:#",
+  "nb_hits": 3261
+}

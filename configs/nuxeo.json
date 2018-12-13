@@ -24,6 +24,12 @@
       ]
     },
     {
+      "url": "https://doc.nuxeo.com/910",
+      "tags": [
+        "910"
+      ]
+    },
+    {
       "url": "https://doc.nuxeo.com/admindoc",
       "tags": [
         "ft"
@@ -80,6 +86,7 @@
     "http://doc.nuxeo.com/nxdoc",
     "http://doc.nuxeo.com/studio",
     "http://doc.nuxeo.com/userdoc",
+    "http://doc.nuxeo.com/910",
     "http://doc.nuxeo.com/810",
     "http://doc.nuxeo.com/corg",
     "http://doc.nuxeo.com/710",
@@ -114,5 +121,6 @@
   "conversation_id": [
     "287925290"
   ],
-  "nb_hits": 134292
+  "user_agent": "AlgoliaBot-1.0",
+  "nb_hits": 149187
 }

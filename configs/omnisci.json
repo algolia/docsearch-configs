@@ -1,8 +1,7 @@
 {
-  "index_name": "mapd",
+  "index_name": "omnisci",
   "start_urls": [
-    "https://www.mapd.com/docs/",
-    "https://www.mapd.com/docs/latest/"
+    "https://www.omnisci.com/docs/latest/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -31,5 +30,5 @@
   "conversation_id": [
     "605990405"
   ],
-  "nb_hits": 6026
+  "nb_hits": 12281
 }

@@ -3,6 +3,9 @@
   "start_urls": [
     "https://docs.reactioncommerce.com/docs/"
   ],
+  "sitemap_urls": [
+    "https://docs.reactioncommerce.com/sitemap.xml"
+  ],
   "stop_urls": [
     "https://docs.reactioncommerce.com/docs/v\\d",
     "https://docs.reactioncommerce.com/docs/next"
@@ -20,14 +23,11 @@
     "lvl4": ".post h4",
     "text": ".post article p, .post article li"
   },
-  "sitemap_urls": [
-    "https://docs.reactioncommerce.com/sitemap.xml"
-  ],
   "selectors_exclude": [
     ".hash-link"
   ],
   "conversation_id": [
     "595673784"
   ],
-  "nb_hits": 4715
+  "nb_hits": 22212
 }

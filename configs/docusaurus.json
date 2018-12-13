@@ -14,12 +14,13 @@
       ]
     }
   ],
+  "sitemap_urls": [
+    "https://docusaurus.io/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [
     "/help",
     "/users"
-  ],
-  "sitemap_urls": [
-    "https://docusaurus.io/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -34,12 +35,8 @@
     "lvl4": ".post h4",
     "text": ".post article p, .post article li"
   },
-  "sitemap_alternate_links": true,
   "selectors_exclude": [
     ".hash-link"
-  ],
-  "conversation_id": [
-    "415526327"
   ],
   "custom_settings": {
     "attributesForFaceting": [
@@ -48,5 +45,8 @@
       "tags"
     ]
   },
-  "nb_hits": 10858
+  "conversation_id": [
+    "415526327"
+  ],
+  "nb_hits": 51215
 }

@@ -1,0 +1,36 @@
+{
+  "index_name": "alchemy-cms",
+  "start_urls": [
+    "https://guides.alchemy-cms.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "695105488"
+  ],
+  "min_indexed_level": 1,
+  "selectors_exclude": [
+    ".tip"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 807
+}

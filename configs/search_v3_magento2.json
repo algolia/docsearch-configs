@@ -40,9 +40,13 @@
     "magento2": {
       "lvl0": {
         "type": "xpath",
-        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]"
+        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]",
+        "global": true
       },
-      "lvl1": ".documentation-content h1",
+      "lvl1": {
+        "selector": ".documentation-content h1",
+        "global": true
+      },
       "lvl2": ".documentation-content h2",
       "lvl3": ".documentation-content h3",
       "lvl4": ".documentation-content h4",
@@ -54,19 +58,20 @@
     },
     "magento_faq": {
       "lvl0": {
-        "default_value": "",
-        "selector": ""
-      },
-      "lvl1": {
+        "selector": "",
         "default_value": "FAQ",
-        "selector": ""
+        "global": true
       },
-      "lvl2": ".faq h2",
-      "lvl3": ".faq h3",
-      "lvl4": ".faq h4",
+      "lvl1": ".faq h2",
+      "lvl2": ".faq h3",
+      "lvl3": ".faq h4",
+      "lvl4": ".faq h5",
       "text": ".faq p, .faq li, .faq .highlight .nv"
     }
   },
   "only_content_level": true,
-  "nb_hits": 476
+  "selectors_exclude": [
+    ".toc_menu"
+  ],
+  "nb_hits": 574
 }

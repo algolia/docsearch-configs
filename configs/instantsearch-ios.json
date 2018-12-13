@@ -8,9 +8,6 @@
     "https://community.algolia.com/instantsearch-ios"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".abstract"
-  ],
   "selectors": {
     "default": {
       "lvl0": {
@@ -43,5 +40,8 @@
       "text": ".main-content p, .main-content li"
     }
   },
-  "nb_hits": 2418
+  "selectors_exclude": [
+    ".abstract"
+  ],
+  "nb_hits": 2461
 }

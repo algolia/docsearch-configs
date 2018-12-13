@@ -2,21 +2,21 @@
   "index_name": "pkgdown",
   "start_urls": [
     {
-      "url": "http://pkgdown.r-lib.org/index.html",
+      "url": "https://pkgdown.r-lib.org/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "http://pkgdown.r-lib.org/reference",
+      "url": "https://pkgdown.r-lib.org/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "http://pkgdown.r-lib.org/articles",
+      "url": "https://pkgdown.r-lib.org/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -30,7 +30,7 @@
     "/articles/index.html"
   ],
   "sitemap_urls": [
-    "http://pkgdown.r-lib.org/sitemap.xml"
+    "https://pkgdown.r-lib.org/sitemap.xml"
   ],
   "selectors": {
     "homepage": {
@@ -66,7 +66,7 @@
         "selector": ".contents h2, .contents h3",
         "default_value": "Context"
       },
-      "text": ".contents p, .contents li, .tempate-article .contents .pre"
+      "text": ".contents p, .contents li"
     },
     "default": {
       "lvl1": ".contents h2",
@@ -93,5 +93,5 @@
   "conversation_id": [
     "549052896"
   ],
-  "nb_hits": 421
+  "nb_hits": 549
 }

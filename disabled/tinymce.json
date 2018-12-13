@@ -3,11 +3,11 @@
   "start_urls": [
     "https://www.tiny.cloud/docs/"
   ],
-  "stop_urls": [
-    "https://www.tiny.cloud/docs/changelog"
-  ],
   "sitemap_urls": [
     "https://www.tiny.cloud/sitemap.xml"
+  ],
+  "stop_urls": [
+    "https://www.tiny.cloud/docs/changelog"
   ],
   "selectors": {
     "lvl0": ".side-nav .active span.folder",
@@ -23,16 +23,16 @@
     ".let-us-know",
     ".license"
   ],
-  "min_indexed_level": 1,
-  "scrap_start_urls": false,
-  "conversation_id": [
-    "296377629"
-  ],
   "keep_tags": [
     "code"
   ],
+  "min_indexed_level": 1,
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 5926
+  "conversation_id": [
+    "296377629"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 15569
 }

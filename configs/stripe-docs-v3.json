@@ -10,18 +10,25 @@
     },
     {
       "selectors_key": "docs",
-      "url": "https://stripe.com/docs"
+      "url": "https://stripe.com/docs",
+      "tags": [
+        "docs"
+      ]
     },
     {
       "selectors_key": "questions",
-      "url": "https://support.stripe.com/questions"
+      "url": "https://support.stripe.com/questions",
+      "tags": [
+        "questions"
+      ]
     }
-  ],
-  "stop_urls": [
-    "\\?"
   ],
   "sitemap_urls": [
     "https://stripe.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\?",
+    "docs/api/+"
   ],
   "selectors": {
     "api": {
@@ -33,12 +40,7 @@
       "lvl2": "#content .method-copy h2",
       "lvl3": "#content .method-copy h3, #errors h3",
       "lvl4": "#content .method-copy h4, #content .method-list .method-list-item-label, #errors .method-example-part tbody tr .table-row-property",
-      "text": "#content .method-copy p, #errors .method-example-part tbody tr .table-row-definition",
-      "techno": {
-        "selector": ".language-toggle input[checked='checked'] + label",
-        "global": true,
-        "default_value": "None"
-      }
+      "text": "#content .method-copy p, #errors .method-example-part tbody tr .table-row-definition"
     },
     "docs": {
       "lvl0": {
@@ -71,14 +73,24 @@
       "text": "#content .article-content .answer p, #content .article-content .answer li"
     }
   },
+  "selectors_exclude": [
+    ".method-list-item-label-details",
+    ".method-list-item-label-badge",
+    ".method-list-item-validation",
+    ".next-steps",
+    ".note",
+    "footer"
+  ],
   "keep_tags": [
     "code"
   ],
+  "min_indexed_level": {
+    "default": 0,
+    "api": 4,
+    "docs": 6,
+    "questions": 2
+  },
   "custom_settings": {
-    "attributesForFaceting": [
-      "techno",
-      "tags"
-    ],
     "separatorsToIndex": "_",
     "attributesToIndex": [
       "unordered(hierarchy_camel.lvl1)",
@@ -96,20 +108,6 @@
       "content"
     ]
   },
-  "min_indexed_level": {
-    "default": 0,
-    "api": 4,
-    "docs": 6,
-    "questions": 2
-  },
-  "selectors_exclude": [
-    ".method-list-item-label-details",
-    ".method-list-item-label-badge",
-    ".method-list-item-validation",
-    ".next-steps",
-    ".note",
-    "footer"
-  ],
   "user_agent": "Googlebot",
-  "nb_hits": 50257
+  "nb_hits": 24565
 }

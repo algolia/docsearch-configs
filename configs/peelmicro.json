@@ -1,0 +1,37 @@
+{
+  "index_name": "peelmicro",
+  "start_urls": [
+    "https://documentation.peelmicro.info/projects/",
+    "https://documentation.peelmicro.info/frontend/",
+    "https://documentation.peelmicro.info/backend/",
+    "https://documentation.peelmicro.info/microservices/",
+    "https://documentation.peelmicro.info/staticwebs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "727793287"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 65
+}

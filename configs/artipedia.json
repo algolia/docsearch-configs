@@ -4,10 +4,10 @@
     "http://artipedia.site/docs/home/",
     "http://artipedia.site/docs/"
   ],
-  "stop_urls": [],
   "sitemap_urls": [
     "http://artipedia.site/sitemap.xml"
   ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "//aside//li[contains(@class, 'current')][1]/preceding::h4[1]",
@@ -27,5 +27,5 @@
   "conversation_id": [
     "545058343"
   ],
-  "nb_hits": 80
+  "nb_hits": 238
 }

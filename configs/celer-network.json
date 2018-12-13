@@ -1,10 +1,10 @@
 {
-  "index_name": "iost",
+  "index_name": "celer-network",
   "start_urls": [
-    "http://developers.iost.io/"
+    "https://celer-network.github.io/docs/"
   ],
   "sitemap_urls": [
-    "http://developers.iost.io/sitemap.xml"
+    "https://celer-network.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -19,6 +19,7 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
+    "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
@@ -31,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "678705277"
+    "726903674"
   ],
-  "nb_hits": 1524
+  "nb_hits": 186
 }

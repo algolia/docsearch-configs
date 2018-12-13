@@ -1,0 +1,38 @@
+{
+  "index_name": "muster",
+  "start_urls": [
+    "https://dwstech.github.io/muster/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://dwstech.github.io/muster/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "725597520"
+  ],
+  "nb_hits": 11487
+}

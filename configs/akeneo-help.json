@@ -19,5 +19,10 @@
   "conversation_id": [
     "463001277"
   ],
-  "nb_hits": 2731
+  "custom_settings": {
+    "attributesForFaceting": [
+      "solution"
+    ]
+  },
+  "nb_hits": 3355
 }

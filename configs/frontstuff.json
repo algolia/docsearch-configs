@@ -1,0 +1,23 @@
+{
+  "index_name": "frontstuff",
+  "start_urls": [
+    "https://frontstuff.io/"
+  ],
+  "sitemap_urls": [
+    "https://frontstuff.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post__header h1",
+    "lvl1": ".post__content h2",
+    "lvl2": ".post__content h3",
+    "lvl3": ".post__content h4",
+    "lvl4": ".post__content h5",
+    "lvl5": ".post__content h6",
+    "text": ".post__content p, .post__content li"
+  },
+  "conversation_id": [
+    "718970650"
+  ],
+  "nb_hits": 957
+}

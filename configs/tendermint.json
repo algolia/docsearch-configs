@@ -1,7 +1,8 @@
 {
   "index_name": "tendermint",
   "start_urls": [
-    "https://tendermint.com/docs/"
+    "https://tendermint.com/docs/",
+    "https://tendermint-staging.interblock.io/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,5 +23,5 @@
     "628785365"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 974
+  "nb_hits": 4462
 }

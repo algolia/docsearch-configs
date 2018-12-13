@@ -1,7 +1,7 @@
 {
   "index_name": "asciidwango",
   "start_urls": [
-    "https://asciidwango.github.io/js-primer/"
+    "https://jsprimer.net/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -20,5 +20,5 @@
   "conversation_id": [
     "522382007"
   ],
-  "nb_hits": 1926
+  "nb_hits": 2771
 }

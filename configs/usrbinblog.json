@@ -1,0 +1,16 @@
+{
+  "index_name": "usrbinblog",
+  "start_urls": [
+    "https://usrbinblog.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1.entry-title",
+    "lvl1": ".entry-content h2",
+    "lvl2": ".entry-content h3",
+    "lvl3": ".entry-content h4",
+    "lvl4": ".entry-content h5",
+    "text": ".entry-content p, .entry-content li"
+  },
+  "nb_hits": 305
+}

@@ -20,9 +20,9 @@
     "lvl4": "#inner h4",
     "text": "#inner p, #inner li"
   },
-  "strip_chars": " .,;:#»",
+  "strip_chars": " .,;:#\u00bb",
   "conversation_id": [
     "490888557"
   ],
-  "nb_hits": 40906
+  "nb_hits": 84196
 }

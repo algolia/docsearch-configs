@@ -1,0 +1,63 @@
+{
+  "index_name": "magento2_algolia_support_page",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/magento/doc/m2/",
+      "selectors_key": "docs_m2",
+      "tags": [
+        "m2"
+      ],
+      "page_rank": 1
+    },
+    {
+      "url": "https://community.algolia.com/magento/faq/",
+      "selectors_key": "faq",
+      "page_rank": 0
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "docs_m2": {
+      "lvl0": {
+        "type": "xpath",
+        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]",
+        "global": true
+      },
+      "lvl1": {
+        "selector": ".documentation-content h1",
+        "global": true
+      },
+      "lvl2": ".documentation-content h2",
+      "lvl3": ".documentation-content h3",
+      "text": ".documentation-content p, .documentation-content li, .documentation-content .highlight .nv"
+    },
+    "faq": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "FAQ",
+        "global": true
+      },
+      "lvl1": ".faq h2",
+      "lvl2": ".faq h3",
+      "lvl3": ".faq h4",
+      "lvl4": ".faq h5",
+      "text": ".faq p, .faq li"
+    }
+  },
+  "only_content_level": true,
+  "selectors_exclude": [
+    ".toc_menu"
+  ],
+  "custom_settings": {
+    "ranking": [
+      "words",
+      "filters",
+      "typo",
+      "proximity",
+      "attribute",
+      "exact",
+      "custom"
+    ]
+  },
+  "nb_hits": 574
+}

@@ -1,0 +1,38 @@
+{
+  "index_name": "nunit",
+  "start_urls": [
+    "https://nunit.org/docs/",
+    "https://nunit.org/docs/2.5.5/docHome.html",
+    "https://nunit.org/documentation/"
+  ],
+  "stop_urls": [
+    "/docs/files/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//div[contains(@id,'subnav')]/ul/ul/li[@id='current'] | //div[contains(@id,'subnav')]/ul/ul/li[./following::li[@id='current']][last()])[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#help_content h2",
+    "lvl2": "#help_content h3",
+    "lvl3": "#help_content h4",
+    "lvl4": "#help_content h5",
+    "lvl5": "#help_content h6",
+    "text": "#help_content p, #help_content li",
+    "version": {
+      "selector": "#subnav > ul > li > a",
+      "global": true
+    }
+  },
+  "selectors_exclude": [
+    "#help_content > div"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "nb_hits": 49680
+}
