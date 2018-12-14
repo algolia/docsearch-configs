@@ -1,26 +1,55 @@
 {
   "index_name": "activeui",
   "start_urls": [
-    "https://www.activeviam.com/activeui/documentation/next/"
+    "https://www.activeviam.com/activeui/documentation/next/",
+    {
+      "url": "https://www.activeviam.com/activeui/documentation/4.2.7/",
+      "extra_attributes": {
+        "version": [
+          "4.2.7"
+        ]
+      },
+      "selectors_key": "old"
+    }
   ],
   "sitemap_urls": [
-    "https://www.activeviam.com/activeui/documentation/next/sitemap.xml"
+    "https://activeviam.com/activeui/documentation/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".post h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "lvl5": ".post h5",
+      "text": ".post article p, .post article li"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "lvl5": ".post h5",
-    "text": ".post article p, .post article li"
+    "old": {
+      "lvl0": {
+        "selector": ".nav-site .active",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "//*[contains(@class,'nav-docs')]//*[contains(@class,'active')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Chapter"
+      },
+      "lvl2": ".inner-content h1",
+      "lvl3": ".inner-content h2",
+      "lvl4": ".inner-content h3",
+      "lvl5": ".inner-content h4",
+      "text": ".inner-content p, .inner-content li, .subHeader"
+    }
   },
   "selectors_exclude": [
     ".hash-link"
@@ -34,5 +63,5 @@
   "conversation_id": [
     "728521704"
   ],
-  "nb_hits": 4427
+  "nb_hits": 9012
 }
