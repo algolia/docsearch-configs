@@ -8,14 +8,17 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".section h1",
-    "lvl1": ".section h2",
-    "lvl2": ".section h3",
-    "lvl3": ".section h4",
-    "lvl4": ".section h5",
-    "lvl5": ".section h6",
-    "text": ".section p, .section li"
+    "lvl0": "#docs-content h1",
+    "lvl1": "#docs-content h2",
+    "lvl2": "#docs-content h3",
+    "lvl3": "#docs-content h4",
+    "lvl4": "#docs-content h5",
+    "lvl5": "#docs-content h6",
+    "text": "#docs-content p, #docs-content li, #docs-content table, #docs-content pre"
   },
+  "selectors_exclude": [
+    "#table-of-contents"
+  ],
   "conversation_id": [
     "719829531"
   ],
