@@ -3,17 +3,20 @@
   "start_urls": [
     "https://www.radzen.com/documentation/"
   ],
+  "sitemap_urls": [
+    "https://www.radzen.com/site.xml"
+  ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".documentation-content h1",
-    "lvl1": ".documentation-content h2",
-    "lvl2": ".documentation-content h3",
-    "lvl3": ".documentation-content h4",
-    "lvl4": ".documentation-content h5",
-    "text": ".documentation-content p, .documentation-content li"
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
   },
   "conversation_id": [
     "452604834"
   ],
-  "nb_hits": 1684
+  "nb_hits": 3346
 }
