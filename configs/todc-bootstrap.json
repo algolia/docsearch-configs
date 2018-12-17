@@ -5,7 +5,7 @@
       "url": "https://todc.github.io/todc-bootstrap/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "3.3",
+          "3.4",
           "4.1"
         ]
       }
