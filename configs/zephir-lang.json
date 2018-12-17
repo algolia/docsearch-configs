@@ -6,13 +6,15 @@
       "variables": {
         "lang": [
           "en",
-          "el",
-          "es",
-          "ru",
-          "uk"
+          "el-GR",
+          "es-ES",
+          "ru-RU",
+          "uk-UA",
+          "zh-CN"
         ],
         "version": [
           "latest",
+          "0.11",
           "0.10"
         ]
       }
