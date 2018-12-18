@@ -1,0 +1,35 @@
+{
+  "index_name": "expressionengine",
+  "start_urls": [
+    {
+      "url": "https://docs.expressionengine.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "v4",
+          "v3"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".top-nav .breadcrumb li + li a",
+      "global": true
+    },
+    "lvl1": {
+      "selector": ".top-nav .breadcrumb li + li + li a",
+      "global": true
+    },
+    "lvl2": "#content h1",
+    "lvl3": "#content h2",
+    "lvl4": "#content h3",
+    "lvl5": "#content h4",
+    "text": "#content p, #content li"
+  },
+  "conversation_id": [
+    "732264627"
+  ],
+  "nb_hits": 70490
+}
