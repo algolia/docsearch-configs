@@ -11,7 +11,8 @@
         "tool": [
           "core",
           "grid",
-          "chart"
+          "chart",
+          "scheduler"
         ]
       }
     }
