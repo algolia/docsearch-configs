@@ -1,0 +1,33 @@
+{
+  "index_name": "mand-mobile",
+  "start_urls": [
+    "https://mand-mobile.github.io/2x-doc"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu-item-0 > .router-link-active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-content-title",
+    "lvl2": ".doc-content-paragraph h3",
+    "lvl3": ".doc-content-paragraph h4",
+    "lvl4": ".doc-content-paragraph h5, .doc-content-paragraph td:first-child",
+    "lvl5": ".doc-content-paragraph h6",
+    "text": ".doc-content-paragraph p, .doc-content-paragraph li, .doc-content-paragraph td:nth-child(2), .doc-content-paragraph td:last-child",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en"
+    }
+  },
+  "use_anchors": true,
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": [
+    "732082320"
+  ],
+  "nb_hits": 5214
+}
