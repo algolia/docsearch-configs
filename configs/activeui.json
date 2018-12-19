@@ -1,8 +1,5 @@
 {
   "index_name": "activeui",
-  "start_urls": [
-    "https://activeviam.com/activeui/documentation/4.2.8-alpha"
-  ],
   "sitemap_urls": [
     "https://activeviam.com/activeui/documentation/sitemap.xml"
   ],
