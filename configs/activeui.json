@@ -1,7 +1,6 @@
 {
   "index_name": "activeui",
   "start_urls": [
-    "https://www.activeviam.com/activeui/documentation/next/",
     "https://activeviam.com/activeui/documentation/4.2.8-alpha"
   ],
   "sitemap_urls": [
@@ -35,5 +34,5 @@
   "conversation_id": [
     "728521704"
   ],
-  "nb_hits": 8869
+  "nb_hits": 4442
 }
