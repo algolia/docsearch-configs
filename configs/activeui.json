@@ -7,6 +7,7 @@
     "https://activeviam.com/activeui/documentation/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
+  "force_sitemap_urls_crawling":true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
