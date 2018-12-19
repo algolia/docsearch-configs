@@ -9,6 +9,15 @@
           "4.1"
         ]
       }
+    },
+    {
+      "url": "http://todc.github.io/todc-bootstrap/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "3.4",
+          "4.1"
+        ]
+      }
     }
   ],
   "stop_urls": [
@@ -30,6 +39,5 @@
   "selectors_exclude": [
     ".bd-example"
   ],
-  "user_agent": "DocSearch Bot",
   "nb_hits": 5040
 }
