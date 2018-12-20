@@ -1,15 +1,15 @@
 {
   "index_name": "atinternet-solutions",
   "start_urls": [
-    "http://developers.atinternet-solutions.com/"
+    "https://developers.atinternet-solutions.com/"
   ],
   "sitemap_urls": [
     "https://developers.atinternet-solutions.com/sitemap_index.xml"
   ],
   "stop_urls": [
-    "http://developers.atinternet-solutions.com/home",
-    "http://developers.atinternet-solutions.com/acceuil",
-    "http://developers.atinternet-solutions.com/.*?kw=",
+    "https://developers.atinternet-solutions.com/home",
+    "https://developers.atinternet-solutions.com/acceuil",
+    "https://developers.atinternet-solutions.com/.*?kw=",
     "https://developers.atinternet-solutions.com/api-reference/"
   ],
   "selectors_exclude": [
@@ -27,7 +27,7 @@
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": ".entry-meta > span > span > a",
+      "selector": ".post-title h1",
       "global": true,
       "default_value": "Documentation"
     },
