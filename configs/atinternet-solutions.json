@@ -1,0 +1,55 @@
+{
+  "index_name": "atinternet-solutions",
+  "start_urls": [
+    "http://developers.atinternet-solutions.com/"
+  ],
+  "sitemap_urls": [
+    "https://developers.atinternet-solutions.com/sitemap_index.xml"
+  ],
+  "stop_urls": [
+    "http://developers.atinternet-solutions.com/home",
+    "http://developers.atinternet-solutions.com/acceuil",
+    "http://developers.atinternet-solutions.com/.*?kw=",
+    "https://developers.atinternet-solutions.com/api-reference/"
+  ],
+  "selectors_exclude": [
+    "#summary",
+    "#ios-platforms",
+    "#sidebar-module",
+    ".ui-tabs-anchor",
+    ".wordpress-post-tabs",
+    ".single-content .helpful"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".entry-meta > span > span > span > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".entry-meta > span > span > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": ".single-content h2",
+    "lvl3": ".single-content h3, .single-content table td:first-child",
+    "lvl4": ".single-content h4",
+    "lvl5": ".single-content h5",
+    "text": ".single-content p, .single-content table td:last-child",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "735774371"
+  ],
+  "nb_hits": 14363
+}
