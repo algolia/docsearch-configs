@@ -1,24 +1,8 @@
 {
   "index_name": "todc-bootstrap",
   "start_urls": [
-    {
-      "url": "https://todc.github.io/todc-bootstrap/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.4",
-          "4.1"
-        ]
-      }
-    },
-    {
-      "url": "http://todc.github.io/todc-bootstrap/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.4",
-          "4.1"
-        ]
-      }
-    }
+    "https://todc.github.io/todc-bootstrap/docs/",
+    "http://todc.github.io/todc-bootstrap/docs/"
   ],
   "stop_urls": [
     "/examples/.+"
@@ -39,5 +23,11 @@
   "selectors_exclude": [
     ".bd-example"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "language"
+    ]
+  },
   "nb_hits": 5040
 }
