@@ -1,19 +1,11 @@
 {
   "index_name": "bootstrap",
   "start_urls": [
-    {
-      "url": "https://getbootstrap.com/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "4.2",
-          "4.1",
-          "4.0"
-        ]
-      }
-    }
+    "https://getbootstrap.com/docs/"
   ],
   "stop_urls": [
-    "/examples/.+"
+    "/examples/.+",
+    "https://getbootstrap.com/docs/3"
   ],
   "selectors": {
     "lvl0": {
@@ -31,5 +23,11 @@
   "selectors_exclude": [
     ".bd-example"
   ],
-  "nb_hits": 7609
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "language"
+    ]
+  },
+  "nb_hits": 7617
 }
