@@ -2,20 +2,28 @@
   "index_name": "webdriver",
   "start_urls": [
     {
-      "url": "http://beta.webdriver.io/docs/gettingstarted.html",
+      "url": "http://webdriver.io/docs/gettingstarted.html",
       "page_rank": 2
     },
     {
-      "url": "http://beta.webdriver.io/docs/",
+      "url": "http://webdriver.io/docs/",
       "page_rank": 2
     },
     {
-      "url": "http://beta.webdriver.io/docs/api",
+      "url": "http://webdriver.io/docs/api/browser/",
+      "page_rank": 2
+    },
+    {
+      "url": "http://webdriver.io/docs/api/element/",
+      "page_rank": 2
+    },
+    {
+      "url": "http://webdriver.io/docs/api",
       "page_rank": 1
     }
   ],
   "sitemap_urls": [
-    "http://beta.webdriver.io/sitemap.xml"
+    "http://webdriver.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
