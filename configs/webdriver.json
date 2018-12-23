@@ -10,14 +10,6 @@
       "page_rank": 2
     },
     {
-      "url": "http://webdriver.io/docs/api/browser/",
-      "page_rank": 2
-    },
-    {
-      "url": "http://webdriver.io/docs/api/element/",
-      "page_rank": 2
-    },
-    {
       "url": "http://webdriver.io/docs/api",
       "page_rank": 1
     }
@@ -47,5 +39,5 @@
   "conversation_id": [
     "223653722"
   ],
-  "nb_hits": 1251
+  "nb_hits": 660
 }
