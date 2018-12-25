@@ -1,0 +1,26 @@
+{
+  "index_name": "chain33",
+  "start_urls": [
+    "https://chain.33.cn/document/",
+    "https://chain.33.cn/document/60"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-body h1",
+    "lvl1": ".markdown-body h2",
+    "lvl2": ".markdown-body h3",
+    "lvl3": ".markdown-body h4",
+    "lvl4": ".markdown-body h5",
+    "lvl5": ".markdown-body h6",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "selectors_exclude": [
+    ".markdown-toc-list"
+  ],
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": [
+    "736493855"
+  ],
+  "nb_hits": 5266
+}
