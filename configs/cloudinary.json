@@ -30,10 +30,10 @@
     "656925916"
   ],
   "selectors_exclude": [
-    ".md_autotoc"
+    ".md_autotoc:not(.md_special)"
   ],
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 10226
+  "nb_hits": 10880
 }
