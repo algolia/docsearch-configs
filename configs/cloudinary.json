@@ -35,5 +35,6 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 10880
+  "js_render": true,
+  "nb_hits": 11896
 }
