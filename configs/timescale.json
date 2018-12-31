@@ -5,6 +5,8 @@
       "selectors_key": "installation",
       "variables": {
         "version": [
+          "v1.1",
+          "v1.0",
           "v0.12",
           "v0.11",
           "v0.10",
@@ -17,6 +19,8 @@
       "url": "http://docs.timescale.com/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "v1.1",
+          "v1.0",
           "v0.12",
           "v0.11",
           "v0.10",
