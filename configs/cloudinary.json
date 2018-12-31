@@ -22,7 +22,7 @@
     "lvl4": ".docs_content h4, .docs_content tbody td:first-child",
     "lvl5": ".docs_content h5",
     "text": {
-      "selector": "//*[contains(@class,'docs_content')]//p | //*[contains(@class,'docs_content')]//li[not(.//p)] | //*[contains(@class,'docs_content')]//tbody//td[position()>2]",
+      "selector": "//*[contains(@class,'docs_content')]//p | //*[contains(@class,'docs_content')]//li[not(.//p)] | //*[contains(@class,'docs_content')]//tbody//td[position()>1]",
       "type": "xpath"
     }
   },
@@ -35,5 +35,5 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 9273
+  "nb_hits": 10226
 }
