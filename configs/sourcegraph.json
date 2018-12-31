@@ -1,33 +1,29 @@
 {
   "index_name": "sourcegraph",
   "start_urls": [
-    "https://about.sourcegraph.com/docs"
+    "https://docs.sourcegraph.com/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".nav-tabs .nav-link.active",
+      "selector": ".markdown-body nav > a:nth-child(2)",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": "//div[contains(@class, 'list-group')]//a[contains(@class, 'active')][1]/preceding::button[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Introduction"
-    },
-    "lvl2": ".documentation__markdown h1",
-    "lvl3": ".documentation__markdown h2",
-    "lvl4": ".documentation__markdown h3",
-    "lvl5": ".documentation__markdown h4",
-    "text": ".documentation__markdown p, .documentation__markdown li, .documentation__markdown td"
+    "lvl1": ".markdown-body h1",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3",
+    "lvl4": ".markdown-body h4",
+    "lvl5": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li, .markdown-body td"
   },
   "conversation_id": [
-    "499959410"
+    "689616344"
   ],
+  "min_indexed_level": 2,
   "selectors_exclude": [
     "#next-steps",
     "#next-steps ~ p"
   ],
-  "nb_hits": 2167
+  "nb_hits": 3151
 }

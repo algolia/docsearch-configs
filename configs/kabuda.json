@@ -1,0 +1,27 @@
+{
+  "index_name": "kabuda",
+  "start_urls": [
+    "http://www.kabuda.art/docs/react/introduce-cn",
+    "http://www.kabuda.art/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".ant-menu-submenu-selected h4",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
+    "text": ".markdown p, .markdown li"
+  },
+  "js_render": true,
+  "strip_chars": "#",
+  "conversation_id": [
+    "714858813"
+  ],
+  "nb_hits": 233
+}

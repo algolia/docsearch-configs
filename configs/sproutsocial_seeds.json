@@ -1,17 +1,17 @@
 {
   "index_name": "sproutsocial_seeds",
   "start_urls": [
-    "http://seeds.netlify.com/"
+    "https://sproutsocial.com/seeds/"
   ],
   "sitemap_urls": [
-    "https://seeds.netlify.com/sitemap.xml"
+    "https://sproutsocial.com/seeds/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "main h4:not([id])",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Seeds"
     },
     "lvl1": "main h2",
     "lvl2": "main h3",
@@ -26,5 +26,5 @@
     "670882437"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 1750
+  "nb_hits": 1940
 }

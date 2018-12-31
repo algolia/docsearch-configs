@@ -27,5 +27,5 @@
   "selectors_exclude": [
     "h1 + blockquote + ul"
   ],
-  "nb_hits": 1051
+  "nb_hits": 1066
 }

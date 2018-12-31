@@ -1,41 +1,34 @@
 {
   "index_name": "nitropdf",
   "start_urls": [
-    {
-      "url": "http://guide.gonitro.com/articles/",
-      "tags": [
-        "docs"
-      ]
-    },
-    {
-      "url": "http://guide-de.gonitro.com",
-      "tags": [
-        "de"
-      ]
-    }
+    "https://www.gonitro.com/user-guide/"
   ],
   "sitemap_urls": [
-    "http://guide.gonitro.com/sitemap.xml",
-    "http://guide-de.gonitro.com/sitemap.xml"
+    "https://www.gonitro.com/sitemap.xml"
   ],
   "stop_urls": [
-    "%20"
+    "/legal/"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": ".breadcrumbs > li:nth-child(2) a",
+      "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "lvl1": {
+      "selector": ".breadcrumbs > li:nth-child(3) a",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".medium-12 h1",
+    "lvl3": ".small-12.medium-9 h3",
+    "lvl4": ".small-12.medium-9 h4",
+    "lvl5": ".small-12.medium-9 h5",
+    "text": ".small-12.medium-9 p, .small-12.medium-9 li"
   },
   "scrap_start_urls": false,
   "conversation_id": [
     "313458918"
   ],
-  "nb_hits": 10942
+  "nb_hits": 4769
 }

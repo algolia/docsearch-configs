@@ -1,18 +1,12 @@
 {
   "index_name": "activepivot",
   "start_urls": [
-    {
-      "url": "http://activeviam.io/activepivot/(?P<dynamic_variable>.*?)/",
-      "variables": {
-        "dynamic_variable": {
-          "url": "http://activeviam.io/activepivot/5.7-next/versions.html",
-          "js": "var versions = $('table.versions th').map(function (i, elt) { return $(elt).html(); }).toArray(); return JSON.stringify(versions);"
-        }
-      }
-    }
+    "https://activeviam.com/activepivot/",
+    "https://activeviam.com/activepivot/5.7.4/docs/copper/copper_intro.html",
+    "https://activeviam.com/activepivot/5.7-next/docs/copper/copper_intro.html"
   ],
   "sitemap_urls": [
-    "http://activeviam.io/sitemap.xml"
+    "https://activeviam.com/activepivot/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -39,7 +33,7 @@
     ]
   },
   "conversation_id": [
-    "668070577"
+    "729156174"
   ],
-  "nb_hits": 296
+  "nb_hits": 592
 }

@@ -32,7 +32,9 @@
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "ee//"
+  ],
   "sitemap_urls": [
     "https://docs.gitlab.com/sitemap.xml"
   ],
@@ -64,5 +66,5 @@
   "conversation_id": [
     "434475832"
   ],
-  "nb_hits": 41677
+  "nb_hits": 62000
 }

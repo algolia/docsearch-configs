@@ -4,7 +4,8 @@
     "https://developers.liveperson.com"
   ],
   "stop_urls": [
-    "assets"
+    "assets",
+    "https://developers.liveperson.com/customer-facing-bots-deploying-bots-to-liveengage.html"
   ],
   "sitemap_urls": [
     "https://developers.liveperson.com/sitemap.xml"
@@ -34,5 +35,5 @@
   "conversation_id": [
     "429047681"
   ],
-  "nb_hits": 28232
+  "nb_hits": 36645
 }

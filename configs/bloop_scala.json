@@ -1,24 +1,58 @@
 {
   "index_name": "bloop_scala",
   "start_urls": [
-    "https://scalacenter.github.io/bloop/docs/"
+    "https://scalacenter.github.io/bloop/docs/",
+    {
+      "url": "https://scalacenter.github.io/bloop/setup",
+      "selectors_key": "setup"
+    }
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://scalacenter.github.io/bloop/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "docs/tools/",
+    "docs/build-tools/"
+  ],
   "selectors": {
-    "lvl0": "#main h1",
-    "lvl1": "#main h3",
-    "lvl2": "#main h4",
-    "lvl3": "#main h5",
-    "lvl4": "#main h6",
-    "text": "#main p, #main li"
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".post h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "text": ".post article p, .post article li"
+    },
+    "setup": {
+      "lvl0": ".mainContainer h1",
+      "lvl1": ".mainContainer h2",
+      "lvl2": ".mainContainer h3",
+      "lvl3": ".mainContainer h4",
+      "lvl4": ".mainContainer h4",
+      "text": ".mainContainer p, .mainContainer li"
+    }
   },
   "selectors_exclude": [
+    ".hash-link",
     "#contents",
     "#next-steps",
     "#next-steps ~ p"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "535872598"
   ],
-  "nb_hits": 217
+  "nb_hits": 659
 }

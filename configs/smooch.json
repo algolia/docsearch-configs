@@ -5,9 +5,9 @@
     "https://docs.smooch.io/faq/",
     {
       "url": "https://docs.smooch.io/rest/",
-        "tags": [
-          "api"
-        ] ,
+      "tags": [
+        "api"
+      ],
       "selectors_key": "api"
     }
   ],
@@ -47,5 +47,5 @@
   "conversation_id": [
     "558800630"
   ],
-  "nb_hits": 3674
+  "nb_hits": 5234
 }

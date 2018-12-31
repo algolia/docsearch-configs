@@ -1,0 +1,29 @@
+{
+  "index_name": "kineticcommunity",
+  "start_urls": [
+    "https://kineticcommunity.netlify.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".breadcrumb > li:nth-child(2) > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".breadcrumb > li:nth-child(3) > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": ".page-title h1",
+    "lvl3": ".page-content h2",
+    "lvl4": ".page-content h3",
+    "lvl5": ".page-content h4, .page-content tbody td:first-child",
+    "text": ".page-content p, .page-content li, .page-title ~ div p, .table-responsive tbody td:last-child"
+  },
+  "min_indexed_level": 3,
+  "conversation_id": [
+    "719291202"
+  ],
+  "nb_hits": 8025
+}

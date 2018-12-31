@@ -1,7 +1,8 @@
 {
   "index_name": "timescale",
-  "start_urls": [{
-      "url": "http://docs.timescale.com/(?P<version>.*?)/getting-started/installation",
+  "start_urls": [
+    {
+      "url": "https://docs.timescale.com/(?P<version>.*?)/getting-started/installation",
       "selectors_key": "installation",
       "variables": {
         "version": [
@@ -16,7 +17,7 @@
       }
     },
     {
-      "url": "http://docs.timescale.com/(?P<version>.*?)/",
+      "url": "https://docs.timescale.com/(?P<version>.*?)/",
       "variables": {
         "version": [
           "v1.1",
@@ -31,19 +32,29 @@
     }
   ],
   "sitemap_urls": [
-    "http://docs.timescale.com/sitemap.xml"
+    "http://docs-new.timescale.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
     "default": {
-      "lvl0": ".main-index.hidden__index",
+      "lvl0": {
+        "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')][1]/preceding::*[contains(@class,'sidebar-title')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": ".main-content__text h1",
       "lvl2": ".main-content__text h2",
       "lvl3": ".main-content__text h3",
       "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
     },
     "installation": {
-      "lvl0": ".main-index.hidden__index",
+      "lvl0": {
+        "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')][1]/preceding::*[contains(@class,'sidebar-title')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": ".os.hidden__index",
       "lvl2": ".method.hidden__index",
       "lvl3": ".main-content__text h2",
@@ -51,14 +62,16 @@
       "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
     }
   },
-  "selectors_exclude": [".top-list"],
+  "selectors_exclude": [
+    ".top-list"
+  ],
   "min_indexed_level": {
-      "default": 2,
-      "installation": 1
+    "default": 2,
+    "installation": 1
   },
   "conversation_id": [
     "628616287"
   ],
   "js_render": true,
-  "nb_hits": 5854
+  "nb_hits": 10399
 }
