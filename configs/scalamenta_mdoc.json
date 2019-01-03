@@ -1,10 +1,13 @@
 {
-  "index_name": "activeui",
+  "index_name": "scalamenta_mdoc",
+  "start_urls": [
+    "https://scalameta.org/mdoc/doc",
+    "https://scalameta.org/mdoc/docs/installation.html"
+  ],
   "sitemap_urls": [
-    "https://activeviam.com/activeui/documentation/sitemap.xml"
+    "https://scalameta.org/mdoc/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "force_sitemap_urls_crawling":true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -30,7 +33,7 @@
     ]
   },
   "conversation_id": [
-    "728521704"
+    "742938328"
   ],
-  "nb_hits": 4442
+  "nb_hits": 231
 }

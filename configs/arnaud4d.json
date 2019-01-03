@@ -1,10 +1,12 @@
 {
-  "index_name": "activeui",
+  "index_name": "arnaud4d",
+  "start_urls": [
+    "https://arnaud4d.github.io/doc/docs/"
+  ],
   "sitemap_urls": [
-    "https://activeviam.com/activeui/documentation/sitemap.xml"
+    "https://arnaud4d.github.io/doc/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "force_sitemap_urls_crawling":true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -30,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "728521704"
+    "744491508"
   ],
-  "nb_hits": 4442
+  "nb_hits": 1202
 }

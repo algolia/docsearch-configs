@@ -1,0 +1,42 @@
+{
+  "index_name": "solspace",
+  "start_urls": [
+    "http://docs.solspace.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".sidebar-group.first .sidebar-heading",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".content h1",
+    "lvl3": ".content h2",
+    "lvl4": ".content h3",
+    "lvl5": ".content h4",
+    "lvl6": ".content h5",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "729883213"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 16749
+}

@@ -1,10 +1,12 @@
 {
-  "index_name": "activeui",
+  "index_name": "covenantsql",
+  "start_urls": [
+    "https://developers.covenantsql.io/docs"
+  ],
   "sitemap_urls": [
-    "https://activeviam.com/activeui/documentation/sitemap.xml"
+    "https://developers.covenantsql.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "force_sitemap_urls_crawling":true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -30,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "728521704"
+    "740209591"
   ],
-  "nb_hits": 4442
+  "nb_hits": 240
 }

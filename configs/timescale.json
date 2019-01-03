@@ -6,6 +6,7 @@
       "selectors_key": "installation",
       "variables": {
         "version": [
+          "v1.1",
           "v1.0",
           "v0.12",
           "v0.11",
@@ -19,6 +20,7 @@
       "url": "https://docs.timescale.com/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "v1.1",
           "v1.0",
           "v0.12",
           "v0.11",
@@ -35,24 +37,14 @@
   "stop_urls": [],
   "selectors": {
     "default": {
-      "lvl0": {
-        "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')][1]/preceding::*[contains(@class,'sidebar-title')][1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Documentation"
-      },
+      "lvl0": ".main-index.hidden__index",
       "lvl1": ".main-content__text h1",
       "lvl2": ".main-content__text h2",
       "lvl3": ".main-content__text h3",
       "text": ".main-content__text p, .main-content__text li, .main-content__text pre code"
     },
     "installation": {
-      "lvl0": {
-        "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')][1]/preceding::*[contains(@class,'sidebar-title')][1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Documentation"
-      },
+      "lvl0": ".main-index.hidden__index",
       "lvl1": ".os.hidden__index",
       "lvl2": ".method.hidden__index",
       "lvl3": ".main-content__text h2",
@@ -71,5 +63,5 @@
     "628616287"
   ],
   "js_render": true,
-  "nb_hits": 10399
+  "nb_hits": 12400
 }
