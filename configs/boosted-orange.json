@@ -4,6 +4,7 @@
     "http://boosted.orange.com/docs/(?P<version>.*?)/",
     "variables": {
       "version": [
+        "3.4",
         "4.0",
         "4.1"
       ]
