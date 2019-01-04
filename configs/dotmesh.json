@@ -1,0 +1,22 @@
+{
+  "index_name": "dotmesh",
+  "start_urls": [
+    "https://docs.dotmesh.com"
+  ],
+  "sitemap_urls": [
+    "https://docs.dotmesh.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article.article h1",
+    "lvl1": "article.article h2",
+    "lvl2": "article.article h3",
+    "lvl3": "article.article h4",
+    "lvl4": "article.article h5",
+    "text": "article.article p, article.article li"
+  },
+  "conversation_id": [
+    "511448796"
+  ],
+  "nb_hits": 1778
+}

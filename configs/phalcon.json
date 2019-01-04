@@ -1,0 +1,37 @@
+{
+  "index_name": "phalcon",
+  "start_urls": [
+    "https://phalc.one/docs/",
+    "https://phalc.one/docs/3.4/introduction"
+  ],
+  "sitemap_urls": [
+    "https://phalc.one/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".Sidebar li.__isActive > span",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocsContainer article h1",
+    "lvl2": ".DocsContainer article h2",
+    "lvl3": ".DocsContainer article h3",
+    "lvl4": ".DocsContainer article h4",
+    "lvl5": ".DocsContainer article h5",
+    "text": ".DocsContainer article p, .DocsContainer article li"
+  },
+  "selectors_exclude": [
+    ".article-menu"
+  ],
+  "js_render": true,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "686110049"
+  ],
+  "nb_hits": 12953
+}

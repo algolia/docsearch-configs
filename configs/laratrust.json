@@ -1,0 +1,38 @@
+{
+  "index_name": "laratrust",
+  "start_urls": [
+    "https://laratrust.santigarcor.me/docs/"
+  ],
+  "sitemap_urls": [
+    "https://laratrust.santigarcor.me/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li",
+    "version": {
+      "selector": "header .nav-dropdown .router-link-active",
+      "global": true
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "642532746"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 348
+}

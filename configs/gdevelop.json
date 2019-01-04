@@ -1,0 +1,24 @@
+{
+  "index_name": "gdevelop",
+  "start_urls": [
+    "http://wiki.compilgames.net/doku.php/gdevelop5/"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": "#writr__main h1",
+    "lvl1": "#writr__main h2",
+    "lvl2": "#writr__main h3",
+    "lvl3": "#writr__main h4",
+    "lvl4": "#writr__main h5",
+    "text": "#writr__main p, #writr__main li"
+  },
+  "selectors_exclude": [
+    ".dw__toc"
+  ],
+  "conversation_id": [
+    "555177973"
+  ],
+  "nb_hits": 1220
+}

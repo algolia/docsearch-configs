@@ -1,0 +1,19 @@
+{
+  "index_name": "ticketsource",
+  "start_urls": [
+    "https://www.ticketsource.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#content_wrapper h1",
+    "lvl1": "#content_wrapper h2",
+    "lvl2": "#content_wrapper h3",
+    "lvl3": "#content_wrapper h4",
+    "lvl4": "#content_wrapper h5",
+    "text": "#content_wrapper p, #content_wrapper li"
+  },
+  "conversation_id": [
+    "624004317"
+  ],
+  "nb_hits": 52
+}

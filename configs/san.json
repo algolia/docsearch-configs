@@ -1,10 +1,10 @@
 {
   "index_name": "san",
   "start_urls": [
-    "https://ecomfe.github.io/san/tutorial/start/",
-    "https://ecomfe.github.io/san/tutorial/",
-    "https://ecomfe.github.io/san/doc/api/",
-    "https://ecomfe.github.io/san/doc/main-members/"
+    "https://baidu.github.io/san/tutorial/start/",
+    "https://baidu.github.io/san/practice/",
+    "https://baidu.github.io/san/doc/api/",
+    "https://baidu.github.io/san/doc/main-members/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,5 +15,8 @@
     "lvl4": ".article-inner h5",
     "text": ".article-inner p, .article-inner li"
   },
-  "nb_hits": 485
+  "conversation_id": [
+    "410466431"
+  ],
+  "nb_hits": 429
 }

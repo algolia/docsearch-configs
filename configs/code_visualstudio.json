@@ -1,0 +1,34 @@
+{
+  "index_name": "code_visualstudio",
+  "start_urls": [
+    "https://code.visualstudio.com/docs"
+  ],
+  "sitemap_urls": [
+    "https://code.visualstudio.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".body h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".body h2",
+    "lvl2": ".body h3",
+    "lvl3": ".body h4",
+    "lvl4": ".body h5, .body table td:first-of-type",
+    "text": ".body p, .body li, .body table td:last-of-type"
+  },
+  "selectors_exclude": [
+    ".toc-item",
+    ".feedback ",
+    "#_next-steps",
+    "#_next-steps + ul",
+    "#_next-video",
+    "#_next-video + ul"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 13198
+}

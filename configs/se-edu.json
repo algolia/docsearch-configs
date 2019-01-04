@@ -1,0 +1,21 @@
+{
+  "index_name": "se-edu",
+  "start_urls": [
+    "https://se-edu.github.io/se-book/"
+  ],
+  "stop_urls": [
+    "print.html$"
+  ],
+  "selectors": {
+    "lvl0": ".website-content h1",
+    "lvl1": ".website-content h2",
+    "lvl2": ".website-content h4",
+    "lvl3": ".website-content h5",
+    "lvl4": ".website-content h6",
+    "text": ".website-content p, .website-content li"
+  },
+  "conversation_id": [
+    "738224875"
+  ],
+  "nb_hits": 6311
+}

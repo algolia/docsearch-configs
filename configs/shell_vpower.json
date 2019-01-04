@@ -1,0 +1,25 @@
+{
+  "index_name": "shell_vpower",
+  "start_urls": [
+    "https://mirumuk.github.io/shellplaybook-headless/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "#mainnav > li >a.active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article .page-title",
+    "lvl2": "article h2",
+    "lvl3": "article header > div > div:not(.intro) h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li, h2 + h3"
+  },
+  "conversation_id": [
+    "633104114"
+  ],
+  "min_indexed_level": 3,
+  "nb_hits": 133
+}

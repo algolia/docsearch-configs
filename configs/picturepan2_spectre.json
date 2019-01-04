@@ -1,0 +1,29 @@
+{
+  "index_name": "picturepan2_spectre",
+  "start_urls": [
+    "https://picturepan2.github.io/spectre/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'docs-nav')]//input[@checked]/following::label[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Master"
+    },
+    "lvl1": "#content h3",
+    "lvl2": "#content h4",
+    "lvl3": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "710385551"
+  ],
+  "selectors_exclude": [
+    ".docs-demo",
+    ".docs-footer"
+  ],
+  "nb_hits": 564
+}

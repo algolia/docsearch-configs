@@ -1,0 +1,23 @@
+{
+  "index_name": "talksearch",
+  "start_urls": [
+    "https://community.algolia.com/talksearch/"
+  ],
+  "stop_urls": [
+    "/demos/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'flrnw')]//a[contains(@class, 'text-nebula')][1]/preceding::*[contains(@class, 'mt-1')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".lg_text-8",
+    "lvl2": ".documentation-content h2",
+    "lvl3": ".documentation-content h3",
+    "lvl4": ".documentation-content h4",
+    "text": ".documentation-content p, .documentation-content li"
+  },
+  "nb_hits": 121
+}

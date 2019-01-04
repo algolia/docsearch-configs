@@ -1,0 +1,39 @@
+{
+  "index_name": "phusionpassenger",
+  "start_urls": [
+    {
+      "url": "https://www.phusionpassenger.com/docs/tutorials/deploy_to_production/",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.phusionpassenger.com/docs/tutorials/installation/ruby/",
+      "page_rank": 1
+    },
+    "https://www.phusionpassenger.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@id,'left-nav')]//a[contains(@class,'active')][1]/preceding::span[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".bs-docs-section h1",
+    "lvl2": ".bs-docs-section h2",
+    "lvl3": ".bs-docs-section h3",
+    "lvl4": ".bs-docs-section h4",
+    "lvl5": ".bs-docs-section h5",
+    "text": ".bs-docs-section p, .bs-docs-section li"
+  },
+  "selectors_exclude": [
+    "[id^='next-step']",
+    "[id^='next-step'] ~ p",
+    "[id^='next-step'] ~ li",
+    ".toc-container"
+  ],
+  "conversation_id": [
+    "696771325"
+  ],
+  "nb_hits": 6252
+}

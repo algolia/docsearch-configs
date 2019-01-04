@@ -3,17 +3,30 @@
   "start_urls": [
     "https://docs.portworx.com/"
   ],
+  "sitemap_urls": [
+    "https://docs.portworx.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "release-notes"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "//ul[@id='mysidebar']//li[@class='active']/../../a",
+      "selector": "(//*[contains(@class,'active')])[1]/a",
       "type": "xpath",
       "default_value": "Documentation"
     },
-    "lvl1": ".col-md-9 h1",
-    "lvl2": ".col-md-9 h2",
-    "lvl3": ".col-md-9 h4",
-    "text": ".col-md-9 p, .col-md-9 li"
+    "lvl1": "#page-content h1",
+    "lvl2": "#page-content h2",
+    "lvl3": "#page-content h3",
+    "text": "#page-content p, #page-content li"
   },
   "min_indexed_level": 2,
-  "nb_hits": 2003
+  "selectors_exclude": [
+    ".mdl-card",
+    ".header-container"
+  ],
+  "conversation_id": [
+    "328988479"
+  ],
+  "nb_hits": 3902
 }

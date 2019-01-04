@@ -1,0 +1,35 @@
+{
+  "index_name": "scrollrevealjs",
+  "start_urls": [
+    "https://scrollrevealjs.org/guide/hello-world.html",
+    "https://scrollrevealjs.org/guide/",
+    "https://scrollrevealjs.org/api/reveal.html",
+    "https://scrollrevealjs.org/api/"
+  ],
+  "stop_urls": [],
+  "keep_tags": [
+    "code"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".crown__menu__link.is-active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//div[contains(@class, 'layout__wrapper')]//a[contains(@class, 'active')][1]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": ".layout__two-column__main.layout__padding__vertical h1",
+    "lvl3": ".layout__two-column__main.layout__padding__vertical h2",
+    "lvl4": ".layout__two-column__main.layout__padding__vertical h3",
+    "lvl5": ".layout__two-column__main.layout__padding__vertical h4, .layout__two-column__main.layout__padding__vertical table td:first-of-type",
+    "text": ".layout__two-column__main.layout__padding__vertical p, .layout__two-column__main.layout__padding__vertical li, .layout__two-column__main.layout__padding__vertical table td:last-of-type"
+  },
+  "conversation_id": [
+    "636237648"
+  ],
+  "nb_hits": 335
+}

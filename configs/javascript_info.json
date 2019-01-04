@@ -1,0 +1,29 @@
+{
+  "index_name": "javascript_info",
+  "start_urls": [
+    "https://javascript.info/"
+  ],
+  "stop_urls": [
+    "/article/",
+    "http://javascript.info/code-editors",
+    "/task/",
+    "profile/",
+    "/courses/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#breadcrumb-1 > a > span",
+      "global": true,
+      "default_value": "Title"
+    },
+    "lvl1": "main h1",
+    "lvl2": "[itemprop='articleBody'] h2",
+    "lvl3": "[itemprop='articleBody'] h3",
+    "lvl4": "[itemprop='articleBody'] h4",
+    "text": "[itemprop='articleBody'] p, [itemprop='articleBody'] li"
+  },
+  "min_indexed_level": 1,
+  "only_content_level": true,
+  "scrap_start_urls": false,
+  "nb_hits": 7498
+}

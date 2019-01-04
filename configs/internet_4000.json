@@ -1,0 +1,25 @@
+{
+  "index_name": "internet_4000",
+  "start_urls": [
+    "https://support.internet4000.com"
+  ],
+  "sitemap_urls": [
+    "https://support.internet4000.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    "aside"
+  ],
+  "conversation_id": [
+    "534636748"
+  ],
+  "nb_hits": 125
+}

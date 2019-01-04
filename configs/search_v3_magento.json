@@ -1,0 +1,87 @@
+{
+  "index_name": "search_v3_magento",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/magento/doc/m1",
+      "selectors_key": "magento1",
+      "page_rank": 1,
+      "tags": [
+        "Magento 1"
+      ],
+      "extra_attributes": {
+        "language": "magento"
+      }
+    },
+    {
+      "url": "https://community.algolia.com/magento/doc/m1/getting-started/",
+      "selectors_key": "magento1",
+      "tags": [
+        "Magento 1"
+      ],
+      "extra_attributes": {
+        "language": "magento"
+      },
+      "page_rank": 0
+    },
+    {
+      "url": "https://community.algolia.com/magento/faq/",
+      "selectors_key": "magento_faq",
+      "page_rank": -1,
+      "tags": [
+        "Magento 1"
+      ],
+      "extra_attributes": {
+        "language": "magento"
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "magento1": {
+      "lvl0": {
+        "type": "xpath",
+        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]"
+      },
+      "lvl1": ".documentation-content h1",
+      "lvl2": ".documentation-content h2",
+      "lvl3": ".documentation-content h3",
+      "lvl4": ".documentation-content h4",
+      "text": ".documentation-content p, .documentation-content li, .documentation-content .highlight .nv",
+      "page_level": {
+        "selector": "count(//a[contains(@class,'active')]/preceding::a[ancestor::div[@class='menu']])",
+        "type": "xpath"
+      }
+    },
+    "magento_faq": {
+      "lvl0": {
+        "default_value": "",
+        "selector": ""
+      },
+      "lvl1": {
+        "default_value": "FAQ",
+        "selector": ""
+      },
+      "lvl2": ".faq h2",
+      "lvl3": ".faq h3",
+      "lvl4": ".faq h4",
+      "text": ".faq p, .faq li, .faq .highlight .nv"
+    },
+    "magento2": {
+      "lvl0": {
+        "type": "xpath",
+        "selector": "//a[contains(@class, 'active')]/../../preceding::span[1]"
+      },
+      "lvl1": ".documentation-content h1",
+      "lvl2": ".documentation-content h2",
+      "lvl3": ".documentation-content h3",
+      "lvl4": ".documentation-content h4",
+      "text": ".documentation-content p, .documentation-content li, .documentation-content .highlight .nv",
+      "page_level": {
+        "selector": "count(//a[contains(@class,'active')]/preceding::a[ancestor::div[@class='menu']])",
+        "type": "xpath"
+      }
+    }
+  },
+  "only_content_level": true,
+  "nb_hits": 612
+}

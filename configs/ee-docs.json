@@ -1,0 +1,25 @@
+{
+  "index_name": "ee-docs",
+  "start_urls": [
+    "https://ee-docs.netlify.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'nav-link active')]/../../../div[1]/div[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-content h1",
+    "lvl2": ".doc-content h2",
+    "lvl3": ".doc-content h3",
+    "lvl4": ".doc-content h4",
+    "text": ".doc-content p, .doc-content li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "539514433"
+  ],
+  "nb_hits": 329
+}

@@ -1,0 +1,27 @@
+{
+  "index_name": "reactstrap",
+  "start_urls": [
+    "https://reactstrap.github.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "ul.navbar-nav a.active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docSearch-content h2",
+    "lvl2": ".docSearch-content h3",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "selectors_exclude": [
+    ".docs-example"
+  ],
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "555128868"
+  ],
+  "nb_hits": 201
+}

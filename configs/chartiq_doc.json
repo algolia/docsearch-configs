@@ -1,20 +1,29 @@
 {
   "index_name": "chartiq_doc",
   "start_urls": [
+    {
+      "url": "http://documentation.chartiq.com/tutorial.*",
+      "tags": [
+        "tutorial"
+      ]
+    },
     "http://documentation.chartiq.com/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
+      "selector": ".container h1",
+      "default_value": "Tutorial"
     },
-    "lvl1": "#main h2",
-    "lvl2": "#main h3",
-    "lvl3": "#main h4",
-    "lvl4": "#main h1",
-    "lvl5": "#main h5",
-    "text": "#main p, #main li"
+    "lvl1": ".container h2",
+    "lvl2": ".container h3",
+    "lvl3": ".container h4",
+    "lvl4": ".container h5",
+    "lvl5": ".container table td:first-of-type",
+    "text": ".container p, .container li, table td:not(:first-child)"
   },
-  "nb_hits": 11022
+  "conversation_id": [
+    "316287518"
+  ],
+  "nb_hits": 21135
 }

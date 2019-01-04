@@ -1,0 +1,25 @@
+{
+  "index_name": "coffeescript",
+  "start_urls": [
+    "http://coffeescript.org/"
+  ],
+  "stop_urls": [
+    "http://coffeescript.org/.+"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "main > section > h2:not(.header), #changelog > h2:first-child",
+      "default_value": "CoffeeScript"
+    },
+    "lvl1": "main > section > section h2, main > section > h2.header",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "text": "main p, main li"
+  },
+  "keep_tags": [
+    "code"
+  ],
+  "only_content_level": true,
+  "nb_hits": 545
+}

@@ -1,0 +1,30 @@
+{
+  "index_name": "mongodb",
+  "start_urls": [
+    "https://docs.mongodb.com/"
+  ],
+  "stop_urls": [
+    "https://docs.mongodb.com/v\\d",
+    "/release-notes/",
+    "/api/",
+    "/reference/",
+    "/master/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".bc > ul > li:nth-child(1) > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "selectors_exclude": [
+    "#on-this-page"
+  ],
+  "nb_hits": 34375
+}

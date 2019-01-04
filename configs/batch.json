@@ -14,6 +14,9 @@
     "lvl4": "#content_doc h4",
     "text": "#content_doc p, #content_doc li"
   },
-  "nb_hits": 3310,
-  "min_indexed_level": 2
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "198729505"
+  ],
+  "nb_hits": 3310
 }

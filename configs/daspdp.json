@@ -1,0 +1,26 @@
+{
+  "index_name": "daspdp",
+  "start_urls": [
+    "https://help.daspdp.org"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul//a[contains(@class, 'active')][1]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docSearch-content h1",
+    "lvl2": ".docSearch-content h2",
+    "lvl3": ".docSearch-content h3",
+    "lvl4": ".docSearch-content h4",
+    "lvl5": ".docSearch-content h5",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "606782552"
+  ],
+  "nb_hits": 75
+}

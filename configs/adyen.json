@@ -1,0 +1,19 @@
+{
+  "index_name": "adyen",
+  "start_urls": [
+    "https://docs.adyen.com/developers"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article.page-article h1",
+    "lvl1": "article.page-article h2",
+    "lvl2": "article.page-article h3",
+    "lvl3": "article.page-article h4",
+    "lvl4": "article.page-article h5",
+    "text": "article.page-article p, article.page-article li"
+  },
+  "conversation_id": [
+    "527161398"
+  ],
+  "nb_hits": 33425
+}

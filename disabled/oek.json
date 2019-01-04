@@ -1,0 +1,24 @@
+{
+  "index_name": "oek",
+  "start_urls": [
+    "http://oek.occamz.tech/support/",
+    "http://oek.occamz.tech/articles/"
+  ],
+  "sitemap_urls": [
+    "http://oek.occamz.tech/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h2",
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5",
+    "lvl4": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude":[".supportalert"],
+  "conversation_id": [
+    "543254260"
+  ],
+  "nb_hits": 66
+}

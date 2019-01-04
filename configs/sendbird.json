@@ -1,0 +1,46 @@
+{
+  "index_name": "sendbird",
+  "start_urls": [
+    {
+      "url": "https://docs.sendbird.com/(?P<platform>.*?)",
+      "variables": {
+        "platform": [
+          "ios",
+          "android",
+          "javascript",
+          "dotnet",
+          "unity",
+          "platform"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "change_log$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link.is-active .menu__platform-name",
+      "global": true,
+      "default_value": "Platform"
+    },
+    "lvl1": {
+      "selector": "#markdown h2",
+      "default_value": "Chapter"
+    },
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section table tbody td:first-of-type",
+    "text": ".section p, .section li, .section table td:last-of-type"
+  },
+  "selectors_exclude": [
+    "#change_log"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "only_content_level": true,
+  "scrap_start_urls": false,
+  "nb_hits": 2915
+}

@@ -2,7 +2,7 @@
   "index_name": "opendatasoft",
   "start_urls": [
     {
-      "url": "http://docs.opendatasoft.com/(?P<language>.*?)/",
+      "url": "https://help.opendatasoft.com/platform/(?P<language>.*?)/",
       "variables": {
         "language": [
           "en",
@@ -12,8 +12,10 @@
           "nl"
         ]
       }
-    },
-    "http://docs.opendatasoft.com/"
+    }
+  ],
+  "stop_urls": [
+    "404"
   ],
   "selectors": {
     "lvl0": {
@@ -28,5 +30,9 @@
     "text": ".section p, .section td"
   },
   "min_indexed_level": 2,
-  "nb_hits": 31149
+  "conversation_id": [
+    "218937310"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 28726
 }

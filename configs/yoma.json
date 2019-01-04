@@ -1,0 +1,21 @@
+{
+  "index_name": "yoma",
+  "start_urls": [
+    "http://ruby.yoma.nexlabs.co/"
+  ],
+  "stop_urls": [
+    "docked-form.html"
+  ],
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "586406599"
+  ],
+  "nb_hits": 236
+}

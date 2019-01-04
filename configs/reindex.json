@@ -15,7 +15,10 @@
     "lvl4": ".markdown h4",
     "text": ".markdown p"
   },
-  "min_indexed_level": 1,
   "strip_chars": " :;,.#",
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "163139922"
+  ],
   "nb_hits": 765
 }

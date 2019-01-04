@@ -1,0 +1,104 @@
+{
+  "index_name": "search_v3_vue_instantsearch",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/vue-instantsearch/components/",
+      "tags": [
+        "InstantSearch for Vue"
+      ],
+      "selectors_key": "ref",
+      "extra_attributes": {
+        "category": "Components",
+        "type_level": 45,
+        "language": "vueinstantsearch"
+      }
+    },
+    {
+      "url": "https://community.algolia.com/vue-instantsearch/getting-started/getting-started",
+      "tags": [
+        "InstantSearch for Vue"
+      ],
+      "page_rank": 10,
+      "selectors_key": "guide",
+      "extra_attributes": {
+        "category": "Guide",
+        "type_level": 45,
+        "language": "vueinstantsearch"
+      }
+    },
+    {
+      "url": "https://community.algolia.com/vue-instantsearch/",
+      "selectors_key": "guide",
+      "tags": [
+        "InstantSearch for Vue"
+      ],
+      "extra_attributes": {
+        "category": "Guide",
+        "type_level": 100,
+        "language": "vueinstantsearch"
+      }
+    }
+  ],
+  "stop_urls": [
+    "https://community.algolia.com/vue-instantsearch/stories/",
+    "https://community.algolia.com/vue-instantsearch/components/$",
+    "https://community.algolia.com/vue-instantsearch/components/index.html",
+    "https://community.algolia.com/vue-instantsearch/getting-started/getting-started$"
+  ],
+  "selectors": {
+    "guide": {
+      "lvl0": {
+        "selector": "//h1/span[1]",
+        "type": "xpath"
+      },
+      "lvl1": {
+        "selector": "//h1/span[2]",
+        "type": "xpath"
+      },
+      "lvl2": {
+        "selector": "//*[contains(@class, 'content')]/h2[not(position()=1)]",
+        "type": "xpath"
+      },
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li",
+      "page_level": {
+        "selector": "count(//li[contains(@class,'navItem-active')]/preceding::li[ancestor::ul[@class='sidebar-elements']])",
+        "type": "xpath"
+      },
+      "page__title__community__guide": {
+        "selector": "//h1/span[2]",
+        "type": "xpath"
+      }
+    },
+    "ref": {
+      "lvl0": {
+        "selector": "//h1/span[1]",
+        "type": "xpath"
+      },
+      "lvl1": {
+        "selector": "",
+        "default_value": "-"
+      },
+      "lvl2": {
+        "selector": "//*[contains(@class, 'content')]/h2[not(position()=1)]",
+        "type": "xpath"
+      },
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li",
+      "page_level": {
+        "selector": "count(//li[contains(@class,'navItem-active')]/preceding::li[ancestor::ul[@class='sidebar-elements']])",
+        "type": "xpath"
+      },
+      "page__title__community__ref": {
+        "selector": "//h1/span[2]",
+        "type": "xpath"
+      }
+    }
+  },
+  "only_content_level": true,
+  "nb_hits": 341
+}

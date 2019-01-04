@@ -1,0 +1,27 @@
+{
+  "index_name": "smartlyai",
+  "start_urls": [
+    "https://docs.smartly.ai/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//a[contains(@class, 'active')][1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-head h1",
+    "lvl2": ".content-body h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p, section li"
+  },
+  "min_indexed_level": 2,
+  "selectors_exclude": [
+    ".nextSteps"
+  ],
+  "js_render": true,
+  "nb_hits": 564
+}

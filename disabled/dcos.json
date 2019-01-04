@@ -1,0 +1,36 @@
+{
+  "index_name": "dcos",
+  "start_urls": [
+    {
+      "url": "https://dcos.io/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "1.8",
+          "1.9",
+          "1.10"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "https://dcos.io/docs/1.8/$",
+    "https://dcos.io/docs/1.9/$",
+    "https://dcos.io/docs/1.10/$"
+  ],
+  "selectors": {
+    "lvl0": ".docs-menu > li > .nav-wrapper > a.docs-nav__item__title.active",
+    "lvl1": ".docs-layout__docs-article h1",
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "lvl6": "article h5",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "374865594"
+  ],
+  "nb_hits": 12928
+}

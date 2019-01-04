@@ -1,0 +1,31 @@
+{
+  "index_name": "keboola_help",
+  "start_urls": [
+    "https://help.keboola.com/"
+  ],
+  "stop_urls": [
+    ".csv"
+  ],
+  "sitemap_urls": [
+    "https://help.keboola.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "div.navigation > ul.nav > li.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude": [
+    "#markdown-toc"
+  ],
+  "conversation_id": [
+    "510416932"
+  ],
+  "nb_hits": 2442
+}

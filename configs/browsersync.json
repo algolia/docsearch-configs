@@ -6,9 +6,6 @@
   "stop_urls": [
     "https://browsersync.io/docs/[^/]+/$"
   ],
-  "selectors_exclude": [
-    ".back-to-top"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -20,9 +17,15 @@
     "lvl4": "article h5",
     "text": "article p, article li, article td"
   },
+  "selectors_exclude": [
+    ".back-to-top"
+  ],
   "custom_settings": {
     "separatorsToIndex": "-",
     "advancedSyntax": false
   },
+  "conversation_id": [
+    "251763848"
+  ],
   "nb_hits": 579
 }

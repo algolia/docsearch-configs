@@ -13,7 +13,10 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "js_render": true,
   "min_indexed_level": 1,
+  "js_render": true,
+  "conversation_id": [
+    "322718811"
+  ],
   "nb_hits": 630
 }

@@ -1,0 +1,27 @@
+{
+  "index_name": "jamstatic",
+  "start_urls": [
+    "https://jamstatic.fr/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://jamstatic.fr/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "type": "xpath",
+      "default_value": "Articles"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post p, .post li"
+  },
+  "conversation_id": [
+    "450099550"
+  ],
+  "nb_hits": 2797
+}

@@ -1,16 +1,33 @@
 {
   "index_name": "todc-bootstrap",
   "start_urls": [
-    "http://todc.github.io/todc-bootstrap/"
+    "https://todc.github.io/todc-bootstrap/docs/",
+    "http://todc.github.io/todc-bootstrap/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/examples/.+"
+  ],
   "selectors": {
-    "lvl0": ".bs-docs-header h1",
-    "lvl1": ".bs-docs-container h1",
-    "lvl2": ".bs-docs-container h2",
-    "lvl3": ".bs-docs-container h3",
-    "lvl4": ".bs-docs-container h4",
-    "text": ".bs-docs-container p, .bs-docs-container li"
+    "lvl0": {
+      "selector": ".bd-toc-item.active > a, .bs-docs-header h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[role='main'] h1",
+    "lvl2": "[role='main'] h2",
+    "lvl3": "[role='main'] h3",
+    "lvl4": "[role='main'] h4",
+    "lvl5": "[role='main'] h5",
+    "text": "[role='main'] p, [role='main'] li, .bd-example, .bs-docs-header p"
   },
-  "nb_hits": 3007
+  "selectors_exclude": [
+    ".bd-example"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "language"
+    ]
+  },
+  "nb_hits": 9335
 }

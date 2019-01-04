@@ -1,0 +1,26 @@
+{
+  "index_name": "yoi",
+  "start_urls": [
+    "https://yoshino-digital.github.io/yoi/"
+  ],
+  "stop_urls": [
+    "index.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@id, 'menu')]/ul/li[contains(@class, 'is--active')][1]/preceding::*[contains(@class, 'fw-bold')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "527115908"
+  ],
+  "nb_hits": 1420
+}

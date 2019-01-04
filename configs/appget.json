@@ -1,0 +1,20 @@
+{
+  "index_name": "appget",
+  "start_urls": [
+    "https://docs.appget.net"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3, .content .custom-block-title",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "578446917"
+  ],
+  "nb_hits": 117
+}

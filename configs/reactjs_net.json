@@ -7,9 +7,6 @@
     "blog",
     "release\\.html"
   ],
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//div[contains(@class, 'nav-docs')]/ul/li/a[contains(@class, 'active')]/../../preceding::h3[1]",
@@ -22,5 +19,11 @@
     "lvl5": ".inner-content h5",
     "text": ".inner-content p, .inner-content li"
   },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "265145851"
+  ],
   "nb_hits": 428
 }

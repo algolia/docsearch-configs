@@ -1,0 +1,25 @@
+{
+  "index_name": "apprenda",
+  "start_urls": [
+    "http://apprenda-docs.s3-website-us-east-1.amazonaws.com/docs/"
+  ],
+  "stop_urls": [
+    "/docs/release-information"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#main-menu a.active",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h1",
+    "lvl2": "#content h2",
+    "lvl3": "#content h3",
+    "lvl4": "#content h4",
+    "text": "#content p, #content li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "477454300"
+  ],
+  "nb_hits": 6517
+}

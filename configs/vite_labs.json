@@ -1,0 +1,72 @@
+{
+  "index_name": "vite_labs",
+  "start_urls": [
+    {
+      "url": "https://(?P<version>.*?).vite.wiki/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "zh"
+        ],
+        "version": [
+          "test"
+        ]
+      }
+    },
+    {
+      "url": "https://(?P<version>.*?).vite.wiki/",
+      "variables": {
+        "version": [
+          "test"
+        ]
+      },
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ]
+      }
+    },
+    {
+      "url": "https://vite.wiki/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "zh"
+        ]
+      },
+      "extra_attributes": {
+        "version": [
+          "master"
+        ]
+      }
+    },
+    {
+      "url": "https://vite.wiki/",
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ],
+        "version": [
+          "master"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".page .content h1",
+    "lvl2": ".page .content h2",
+    "lvl3": ".page .content h3",
+    "lvl4": ".page .content h4",
+    "lvl5": ".page .content h5",
+    "text": ".page .content p, .page .content li"
+  },
+  "conversation_id": [
+    "550028429"
+  ],
+  "strip_chars": " .,;:#",
+  "nb_hits": 4846
+}

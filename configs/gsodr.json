@@ -1,0 +1,33 @@
+{
+  "index_name": "gsodr",
+  "start_urls": [
+    "https://ropensci.github.io/GSODR/"
+  ],
+  "stop_urls": [
+    "GSODR//"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".contents h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents th",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h5",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+  },
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "sitemap_urls": [
+    "https://ropensci.github.io/GSODR/sitemap.xml"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "608522161"
+  ],
+  "nb_hits": 864
+}

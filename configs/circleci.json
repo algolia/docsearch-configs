@@ -1,11 +1,8 @@
 {
   "index_name": "circleci",
-  "selectors_exclude": [
-    "#site-search"
-  ],
   "start_urls": [
     {
-      "url": "https://circleci.com/docs/(?P<version>.*?)",
+      "url": "https://circleci.com/docs/(?P<version>.*?)/",
       "selectors_key": "enterprise",
       "page_rank": -1,
       "variables": {
@@ -15,7 +12,7 @@
       }
     },
     {
-      "url": "https://circleci.com/docs/(?P<version>.*?)",
+      "url": "https://circleci.com/docs/(?P<version>.*?)/",
       "selectors_key": "v1",
       "variables": {
         "version": [
@@ -24,7 +21,7 @@
       }
     },
     {
-      "url": "https://circleci.com/docs/(?P<version>.*?)",
+      "url": "https://circleci.com/docs/(?P<version>.*?)/",
       "selectors_key": "v2",
       "variables": {
         "version": [
@@ -33,7 +30,7 @@
       }
     },
     {
-      "url": "https://circleci.com/docs/(?P<version>.*?)",
+      "url": "https://circleci.com/docs/(?P<version>.*?)/",
       "selectors_key": "api",
       "variables": {
         "version": [
@@ -42,11 +39,16 @@
       }
     }
   ],
+  "sitemap_urls": [
+    "https://circleci.com/sitemap.xml"
+  ],
   "selectors": {
     "v2": {
       "lvl0": {
-        "selector": "",
-        "default_value": "CircleCI 2.0"
+        "selector": "//*[contains(@class,'main-nav-item')][.//a[contains(@class,'active')]]//span",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
       },
       "lvl1": "article h1",
       "lvl2": "article h2",
@@ -58,7 +60,8 @@
     "v1": {
       "lvl0": {
         "selector": "",
-        "default_value": "CircleCI 1.0"
+        "default_value": "CircleCI 1.0",
+        "global": true
       },
       "lvl1": "article h1",
       "lvl2": "article h2",
@@ -70,7 +73,8 @@
     "enterprise": {
       "lvl0": {
         "selector": "",
-        "default_value": "CircleCI Enterprise"
+        "default_value": "CircleCI Enterprise",
+        "global": true
       },
       "lvl1": "article h1",
       "lvl2": "article h2",
@@ -82,7 +86,8 @@
     "api": {
       "lvl0": {
         "selector": "",
-        "default_value": "API"
+        "default_value": "API",
+        "global": true
       },
       "lvl1": "article h1",
       "lvl2": "article h2",
@@ -92,5 +97,17 @@
       "text": "article p, article li"
     }
   },
-  "nb_hits": 11612
+  "selectors_exclude": [
+    "#site-search",
+    "#nav-button",
+    "#markdown-toc",
+    "footer",
+    "#see-also",
+    "#see-also + p"
+  ],
+  "conversation_id": [
+    "317414915"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 5054
 }

@@ -1,0 +1,22 @@
+{
+  "index_name": "iboxpay",
+  "start_urls": [
+    "http://dev.api01.iboxpay.com/doc/hzui-h5-docs/#/"
+  ],
+  "selectors": {
+    "lvl0": ".content h3",
+    "lvl1": ".content h4",
+    "lvl2": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "use_anchors": true,
+  "stop_urls": [
+    "\\?id="
+  ],
+  "conversation_id": [
+    "540106911"
+  ],
+  "nb_hits": 263
+}

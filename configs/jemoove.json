@@ -1,0 +1,19 @@
+{
+  "index_name": "jemoove",
+  "start_urls": [
+    "https://www.jemoove.fr/cms/foire-aux-questions"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "div.col-xs-12 h1",
+    "lvl1": "div.col-xs-12.col-md-12 h2",
+    "lvl2": "div.col-xs-12.col-md-12 h3",
+    "lvl3": "div.col-xs-12.col-md-12 h4",
+    "lvl4": "div.col-xs-12.col-md-12 h5",
+    "text": "div.col-xs-12.col-md-12 p, div.col-xs-12.col-md-12 li"
+  },
+  "conversation_id": [
+    "563719682"
+  ],
+  "nb_hits": 127
+}

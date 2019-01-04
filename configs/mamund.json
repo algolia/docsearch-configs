@@ -1,0 +1,21 @@
+{
+  "index_name": "mamund",
+  "start_urls": [
+    "http://mamund.site44.com/"
+  ],
+  "stop_urls": [
+    "/books/"
+  ],
+  "selectors": {
+    "lvl0": "body h1",
+    "lvl1": "body a.book-item",
+    "lvl2": "body h2",
+    "lvl3": "body h3",
+    "lvl4": "body h4",
+    "text": "body p, body li"
+  },
+  "conversation_id": [
+    "465967654"
+  ],
+  "nb_hits": 1030
+}

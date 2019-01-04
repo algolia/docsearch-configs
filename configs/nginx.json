@@ -1,0 +1,27 @@
+{
+  "index_name": "nginx",
+  "start_urls": [
+    "https://docs.nginx.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".toctree-l2.current > a",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h5",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    "#page_content > div > ul.simple li a[href^='#']",
+    ".toctree-wrapper",
+    "[class*='table-of-content']",
+    "#table-of-contents"
+  ],
+  "only_content_level": true,
+  "nb_hits": 7173
+}

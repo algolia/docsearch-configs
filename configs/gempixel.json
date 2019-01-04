@@ -1,0 +1,19 @@
+{
+  "index_name": "gempixel",
+  "start_urls": [
+    "https://gempixel.com/doc"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".figure h2",
+    "lvl1": ".blog-items h2",
+    "lvl2": ".blog-items h3",
+    "lvl3": ".blog-items h4",
+    "lvl4": ".blog-items h5",
+    "text": ".blog-items p, .blog-items li"
+  },
+  "conversation_id": [
+    "521899620"
+  ],
+  "nb_hits": 302
+}

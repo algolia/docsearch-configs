@@ -4,12 +4,6 @@
     "https://serge.io/docs/"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    "#SEE-ALSO",
-    "#DESCRIPTION",
-    "#SYNOPSIS",
-    "#OPTIONS"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//li[@class=\"selected\"]/preceding::h3[1]",
@@ -22,6 +16,15 @@
     "lvl4": ".body h4",
     "text": ".body p, .body li"
   },
+  "selectors_exclude": [
+    "#SEE-ALSO",
+    "#DESCRIPTION",
+    "#SYNOPSIS",
+    "#OPTIONS"
+  ],
   "min_indexed_level": 3,
+  "conversation_id": [
+    "200323479"
+  ],
   "nb_hits": 645
 }

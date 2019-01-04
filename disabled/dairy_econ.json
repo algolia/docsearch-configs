@@ -1,0 +1,18 @@
+{
+  "index_name": "dairy_econ",
+  "start_urls": [
+    "https://dairy-econ.herokuapp.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#owner",
+    "lvl1": "#definition > h3 > span > div > a",
+    "lvl2": "#definition > h1 a",
+    "text": "#comment > div.comment.cmt > p"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "483183125"
+  ],
+  "nb_hits": 856
+}

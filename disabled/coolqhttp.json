@@ -1,0 +1,28 @@
+{
+  "index_name": "coolqhttp",
+  "start_urls": [
+    {
+      "url": "https://cqhttp.cc/docs/(?P<version>.*?)/#/",
+      "variables": {
+        "version": [
+          "3.3",
+          "3.4"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-body h1",
+    "lvl1": ".markdown-body h2",
+    "lvl2": ".markdown-body h3",
+    "lvl3": ".markdown-body h4",
+    "lvl4": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "539025257"
+  ],
+  "nb_hits": 44
+}

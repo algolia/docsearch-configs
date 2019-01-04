@@ -1,0 +1,36 @@
+{
+  "index_name": "leaseweb",
+  "start_urls": [
+    {
+      "url": "http://developer.leaseweb.com/api-docs/",
+      "variables": {
+        "tags": [
+          "api"
+        ]
+      },
+      "selectors_key": "api"
+    },
+    "http://developer.leaseweb.com/"
+  ],
+  "stop_urls": [
+    "/contact/",
+    "/changelog/"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".container h1",
+      "lvl1": ".container h4",
+      "text": ".container p, .container li"
+    },
+    "api": {
+      "lvl0": ".api-docs .title h1",
+      "lvl1": ".request h1",
+      "lvl2": ".request h2",
+      "lvl3": ".request h3, .request table td:first-of-type",
+      "lvl4": ".request h4",
+      "lvl5": ".request h5",
+      "text": ".request p, .request li, .doc-content, .request table td:nth-child(3)"
+    }
+  },
+  "nb_hits": 4350
+}

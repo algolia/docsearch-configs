@@ -3,9 +3,6 @@
   "start_urls": [
     "https://www.slimframework.com/docs/"
   ],
-  "selectors_exclude": [
-    ".edit-panel"
-  ],
   "selectors": {
     "lvl0": {
       "selector": ".toc-title.active",
@@ -18,6 +15,12 @@
     "lvl5": ".docs-content h5",
     "text": ".docs-content p, .docs-content li"
   },
+  "selectors_exclude": [
+    ".edit-panel"
+  ],
   "min_indexed_level": 1,
-  "nb_hits": 793
+  "conversation_id": [
+    "195449289"
+  ],
+  "nb_hits": 885
 }

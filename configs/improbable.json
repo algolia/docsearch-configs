@@ -5,8 +5,10 @@
       "url": "https://docs.improbable.io/reference/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "12.0",
           "11.1",
           "11.0",
+          "10.5",
           "10.4",
           "10.3",
           "10.2",
@@ -35,5 +37,8 @@
   "custom_settings": {
     "separatorsToIndex": "#"
   },
-  "nb_hits": 55205
+  "conversation_id": [
+    "443308473"
+  ],
+  "nb_hits": 49049
 }

@@ -1,0 +1,35 @@
+{
+  "index_name": "search_v3_shopify",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/shopify/",
+      "tags": [
+        "Shopify"
+      ],
+      "extra_attributes": {
+        "language": "shopify"
+      },
+      "scrape": false
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'menu') and contains(@class, 'vertical')]/li[contains(@class, 'active')]/preceding::li[contains(@class, 'menu-text')][1]",
+      "type": "xpath",
+      "global": "true"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li",
+    "page_level": {
+      "selector": "count(//li[contains(@class,'active')]/preceding::a[ancestor::ul[@id='main-nav']])",
+      "type": "xpath"
+    }
+  },
+  "only_content_level": true,
+  "nb_hits": 392
+}

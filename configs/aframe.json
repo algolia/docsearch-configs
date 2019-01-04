@@ -4,34 +4,32 @@
     {
       "url": "https://aframe.io/docs/(?P<version>.*?)/",
       "variables": {
-        "version": [
-          "0.6.0",
-          "0.5.0",
-          "0.4.0",
-          "0.3.0",
-          "0.2.0",
-          "0.1.0",
-          "master"
-        ]
+        "version": {
+          "url": "https://aframe.io/docs/",
+          "js": "const options=document.querySelector('select#docs-version').options; const versions=Object.keys(options).map(key=>options[key].text.replace(/\\s*v*/,''));return JSON.stringify(versions)"
+        }
       }
     }
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".mobile-header"
-  ],
   "selectors": {
     "lvl0": {
-      "selector": "//li[contains(@class, 'subnav-item-current')]/../preceding::h3[1]",
-      "type": "xpath"
+      "selector": "",
+      "default_value": "Documentation"
     },
     "lvl1": ".content h1",
-    "lvl2": ".content h2",
+    "lvl2": ".content h",
     "lvl3": ".content h3",
     "lvl4": ".content h4",
     "lvl5": ".content h5",
     "text": ".content p, .content li, .content td"
   },
+  "selectors_exclude": [
+    ".mobile-header"
+  ],
   "min_indexed_level": 1,
-  "nb_hits": 17493
+  "conversation_id": [
+    "268300440"
+  ],
+  "nb_hits": 42891
 }

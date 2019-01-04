@@ -1,0 +1,33 @@
+{
+  "index_name": "replicated",
+  "start_urls": [
+    "https://help.replicated.com/docs/",
+    "https://help.replicated.com/categories/getting-started/",
+    "https://help.replicated.com/categories/packaging-an-application/",
+    "https://help.replicated.com/categories/distributing-an-application/",
+    "https://help.replicated.com/categories/examples/",
+    "https://help.replicated.com/categories/knowledgebase/"
+  ],
+  "stop_urls": [
+    "/edit$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'toc')]//a[contains(@class, 'active')]/../../preceding::a[1]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "text": "article p, article li"
+  },
+  "min_indexed_level": 1,
+  "js_render": true,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "393063638"
+  ],
+  "nb_hits": 7295
+}

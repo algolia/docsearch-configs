@@ -1,0 +1,18 @@
+{
+  "index_name": "ask-utils",
+  "start_urls": [
+    "https://ask-utils.github.io/ask-utils/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h3",
+    "lvl2": "article h4",
+    "lvl3": "article h5",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "689782842"
+  ],
+  "nb_hits": 201
+}

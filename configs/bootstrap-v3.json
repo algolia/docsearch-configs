@@ -1,17 +1,29 @@
 {
   "index_name": "bootstrap-v3",
   "start_urls": [
-    "https://getbootstrap.com/",
-    "http://getbootstrap.com/"
+    "https://getbootstrap.com/docs/3.4/"
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://getbootstrap.com/docs/3.4/sitemap.xml"
+  ],
+  "stop_urls": [
+    "docs/3.4/examples/"
+  ],
   "selectors": {
-    "lvl0": ".bs-docs-header h1",
-    "lvl1": ".bs-docs-container h1",
-    "lvl2": ".bs-docs-container h2",
-    "lvl3": ".bs-docs-container h3",
-    "text": ".bs-docs-container p, .bs-docs-container li"
+    "lvl0": {
+      "selector": ".bs-docs-header h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".bs-docs-section h1",
+    "lvl2": ".bs-docs-section h2",
+    "lvl3": ".bs-docs-section h3",
+    "lvl4": ".bs-docs-section h4",
+    "lvl5": ".bs-docs-section h5",
+    "text": ".bs-docs-section p, .bs-docs-section li, .bs-docs-header p"
   },
-  "min_indexed_level": 1,
-  "nb_hits": 2673
+  "selectors_exclude": [
+    ".bs-example"
+  ],
+  "nb_hits": 2011
 }

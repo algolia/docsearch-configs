@@ -46,6 +46,8 @@
       "text": ".documentation-container p, .documentation-container li, .documentation-container td"
     }
   },
+  "min_indexed_level": 1,
+  "js_render": true,
   "custom_settings": {
     "attributesToIndex": [
       "unordered(hierarchy_radio_camel.lvl0)",
@@ -68,7 +70,8 @@
       "unordered(content)"
     ]
   },
-  "js_render": true,
-  "min_indexed_level": 1,
+  "conversation_id": [
+    "288502405"
+  ],
   "nb_hits": 2300
 }

@@ -1,0 +1,24 @@
+{
+  "index_name": "sequelpro",
+  "start_urls": [
+    "https://sequelpro.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'nav')]//li[contains(@class, 'current')][1]/../../a[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-inner h1",
+    "lvl2": "#content-inner h2",
+    "lvl3": "#content-inner h3",
+    "lvl4": "#content-inner h4",
+    "text": "#content-inner p, #content-inner li"
+  },
+  "conversation_id": [
+    "521689993"
+  ],
+  "nb_hits": 616
+}

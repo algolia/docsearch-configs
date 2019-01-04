@@ -1,20 +1,19 @@
 {
   "index_name": "automotivelinux",
   "start_urls": [
-    "http://docs.automotivelinux.org/docs/docsearch.html",
-    "http://docs.automotivelinux.org/docs",
-    "http://docs.automotivelinux.org/docs/hardware/en/dev/",
-    "http://docs.automotivelinux.org/docs/devguides/en/dev/",
-    "http://docs.automotivelinux.org/docs/architecture/en/dev/",
-    "http://docs.automotivelinux.org/docs/getting_started/en/dev/"
+    "http://docs.automotivelinux.org/docs"
+  ],
+  "sitemap_urls": [
+    "http://docs.automotivelinux.org/sitemap.xml"
   ],
   "stop_urls": [
     "^((?!\\.html).)*$"
   ],
-  "scrap_start_urls": false,
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": "//div[contains(@class, 'site-toc-container')]//a[contains(@class, 'this-page')][1]/preceding::span[1]",
+      "type": "xpath",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": {
@@ -27,5 +26,8 @@
     "lvl5": ".page-content h5",
     "text": ".page-content p, .page-content li, .page-content td"
   },
-  "nb_hits": 2716
+  "conversation_id": [
+    "287326440"
+  ],
+  "nb_hits": 27072
 }

@@ -1,20 +1,44 @@
 {
   "index_name": "pingcap",
   "start_urls": [
-    "https://pingcap.com/docs",
-    "https://pingcap.com/"
+    {
+      "url": "https://pingcap.com/docs-cn",
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://pingcap.com/docs/",
+      "tags": [
+        "en"
+      ]
+    }
   ],
   "stop_urls": [
-    "^((?!https://pingcap.com/doc).)*$"
+    "/meetup"
   ],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
+    "lvl0": {
+      "selector": "header .navigation li.sel a",
+      "global": true,
+      "default_value": "More"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
     "text": ".content p, .content li"
   },
+  "sitemap_urls": [
+    "https://pingcap.com/sitemap.xml"
+  ],
+  "stop_content": [
+    "Sorry... 404"
+  ],
   "min_indexed_level": 1,
-  "nb_hits": 3830
+  "conversation_id": [
+    "428916846"
+  ],
+  "nb_hits": 35269
 }

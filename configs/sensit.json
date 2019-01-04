@@ -1,0 +1,15 @@
+{
+  "index_name": "sensit",
+  "start_urls": [
+    "https://api.sensit.io/v2/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#content h2",
+    "lvl1": "#content h4",
+    "lvl2": "#content h5",
+    "lvl3": "#content h6",
+    "text": "#content p, #content li"
+  },
+  "nb_hits": 89
+}

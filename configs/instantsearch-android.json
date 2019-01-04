@@ -32,8 +32,7 @@
       "selectors_key": "javadoc"
     }
   ],
-  "stop_urls": [
-  ],
+  "stop_urls": [],
   "selectors": {
     "guide": {
       "lvl0": "h2.sidebar-header",
@@ -50,10 +49,11 @@
       "lvl0": "h2.sidebar-header",
       "lvl1": ".sidebar-elements .level-h2 .navItem-active",
       "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
       "text": ".documentation-container p, .documentation-container li, .documentation-container, .documentation-container pre"
     }
   },
   "js_render": true,
   "min_indexed_level": 1,
-  "nb_hits": 1700
+  "nb_hits": 1123
 }

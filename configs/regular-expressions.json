@@ -1,0 +1,16 @@
+{
+  "index_name": "regular-expressions",
+  "start_urls": [
+    "https://www.regular-expressions.info"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#bodytext h1",
+    "lvl1": "#bodytext h2",
+    "lvl2": "#bodytext h3",
+    "lvl3": "#bodytext h4",
+    "lvl4": "#bodytext h5",
+    "text": "#bodytext p, #bodytext li"
+  },
+  "nb_hits": 3242
+}

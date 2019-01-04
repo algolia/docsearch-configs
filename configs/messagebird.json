@@ -1,0 +1,29 @@
+{
+  "index_name": "messagebird",
+  "start_urls": [
+    "https://developers.messagebird.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'sidebar-full')]//a[contains(@class, 'active')][1]/preceding::label[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content table td:first-of-type",
+    "text": ".docs-content p, .docs-content li, .docs-content table td:last-of-type"
+  },
+  "keep_tags": [
+    "code"
+  ],
+  "js_render": true,
+  "conversation_id": [
+    "601872369"
+  ],
+  "nb_hits": 2828
+}

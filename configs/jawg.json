@@ -1,0 +1,26 @@
+{
+  "index_name": "jawg",
+  "start_urls": [
+    "https://www.jawg.io/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.jawg.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@id, 'sidebar-nav')]//a[contains(@class, 'currentPage')][1]/../../../a",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "only_content_level": true,
+  "nb_hits": 665
+}

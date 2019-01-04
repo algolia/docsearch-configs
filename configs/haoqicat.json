@@ -1,0 +1,19 @@
+{
+  "index_name": "haoqicat",
+  "start_urls": [
+    "https://book.haoqicat.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docSearch-content div:first-child",
+    "lvl1": ".docSearch-content h2",
+    "lvl2": ".docSearch-content h3",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "conversation_id": [
+    "534995257"
+  ],
+  "nb_hits": 690
+}

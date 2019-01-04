@@ -1,0 +1,35 @@
+{
+  "index_name": "databricks_staging",
+  "start_urls": [
+    "https://docs.staging.azuredatabricks.net/"
+  ],
+  "stop_urls": [
+    ".jar$",
+    ".avro$",
+    ".net/index.html",
+    "/_"
+  ],
+  "sitemap_urls": [
+    "https://docs.staging.azuredatabricks.net/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".wy-breadcrumbs li:nth-child(2) a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "selectors_exclude": [
+    ".section [class^=toctree]"
+  ],
+  "conversation_id": [
+    "576106937"
+  ],
+  "nb_hits": 8149
+}

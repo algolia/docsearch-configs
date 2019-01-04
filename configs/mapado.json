@@ -1,0 +1,26 @@
+{
+  "index_name": "mapado",
+  "start_urls": [
+    "https://makeup.mapado.net/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//a[contains(@class,'active')]/preceding::*[contains(@class,'lvl-1')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".main-title h1",
+    "lvl2": ".main-content h2",
+    "lvl3": ".main-content h3",
+    "lvl4": ".main-content h4",
+    "text": ".main-content p, .main-content li"
+  },
+  "min_indexed_level": 2,
+  "js_render": true,
+  "conversation_id": [
+    "443296512"
+  ],
+  "nb_hits": 351
+}

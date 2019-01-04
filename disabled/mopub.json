@@ -1,0 +1,22 @@
+{
+  "index_name": "mopub",
+  "start_urls": [
+    "https://developers.mopub.com/"
+  ],
+  "sitemap_urls": [
+    "https://developers.mopub.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "521346237"
+  ],
+  "nb_hits": 8471
+}

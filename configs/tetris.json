@@ -5,9 +5,6 @@
     "https://cdn.lyft.net/tetris"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".kss-title__ref"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -20,5 +17,11 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
+  "selectors_exclude": [
+    ".kss-title__ref"
+  ],
+  "conversation_id": [
+    "271844099"
+  ],
   "nb_hits": 370
 }

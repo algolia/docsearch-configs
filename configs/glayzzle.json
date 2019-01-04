@@ -1,0 +1,23 @@
+{
+  "index_name": "glayzzle",
+  "start_urls": [
+    "https://glayzzle.com/php-parser/"
+  ],
+  "stop_urls": [
+    "/ast_",
+    "index.html$",
+    "\\.js\\."
+  ],
+  "selectors": {
+    "lvl0": "#main h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "643033460"
+  ],
+  "nb_hits": 1879
+}

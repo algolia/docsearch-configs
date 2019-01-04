@@ -14,16 +14,16 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'faq-section-title')]/a[2]",
-      "type": "xpath"
+      "selector": ".breadcrumbs .breadcrumbs-elt:nth-child(3)",
+      "global": true,
+      "default_value": "FAQ"
     },
-    "lvl1": ".faq-section-content h1",
-    "lvl2": ".faq-section-content h3",
-    "lvl3": ".faq-section-content h4",
-    "lvl4": ".faq-section-content h5",
-    "text": ".faq-section-content p, .faq-section-content li"
+    "lvl1": ".faq-section h1",
+    "lvl2": ".faq-section h3",
+    "lvl3": ".faq-section h4",
+    "lvl4": ".faq-section h5",
+    "text": ".faq-section p, .faq-section li"
   },
-  "min_indexed_level": 1,
   "keep_tags": [
     "code"
   ],
@@ -60,5 +60,5 @@
       "asc(weight.position)"
     ]
   },
-  "nb_hits": 506
+  "nb_hits": 150
 }

@@ -1,0 +1,39 @@
+{
+  "index_name": "xsolla",
+  "start_urls": [
+    {
+      "url": "https://developers.xsolla.com/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "ja",
+          "ru",
+          "ko",
+          "zh",
+          "de"
+        ]
+      }
+    },
+    {
+      "url": "https://developers.xsolla.com",
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "538992189"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 25080
+}

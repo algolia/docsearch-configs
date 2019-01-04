@@ -1,0 +1,53 @@
+{
+  "index_name": "verbb",
+  "start_urls": [
+    {
+      "url": "https://verbb.io/craft-plugins/(?P<plugin>.*?)/docs",
+      "variables": {
+        "plugin": [
+          "feed-me",
+          "super-table",
+          "field-manager",
+          "cp-nav",
+          "workflow",
+          "image-resizer",
+          "comments",
+          "social-poster",
+          "expanded-singles",
+          "multi-add",
+          "postie",
+          "gift-voucher",
+          "events"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://verbb.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".plugin-navbar h1",
+      "global": true,
+      "default_value": "Plugin"
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class,'sidebar-menu')]//li[contains(@class,'active')]/preceding::h5[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": ".docs-content h1",
+    "lvl3": ".docs-content h2",
+    "lvl4": ".docs-content h3",
+    "lvl5": ".docs-content h4",
+    "lvl6": ".docs-content h5",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "700312610"
+  ],
+  "nb_hits": 2001
+}

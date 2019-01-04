@@ -1,0 +1,37 @@
+{
+  "index_name": "express-gateway",
+  "start_urls": [
+    {
+      "url": "https://www.express-gateway.io/docs/",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.express-gateway.io/",
+      "page_rank": 0
+    }
+  ],
+  "sitemap_urls": [
+    "http://www.express-gateway.io/sitemap.xml"
+  ],
+  "sitemap_urls_regexs": [],
+  "stop_urls": [
+    "/blog/",
+    "/about/",
+    "/resources/",
+    "/getting-started/"
+  ],
+  "selectors": {
+    "lvl0": ".algoliaLv0",
+    "lvl1": ".algoliaLv1",
+    "lvl2": ".algoliaLv2",
+    "lvl3": "section h1",
+    "lvl4": "section h2",
+    "lvl5": "section h3",
+    "text": "section p, section li, article p"
+  },
+  "conversation_id": [
+    "444614439"
+  ],
+  "only_content_level": true,
+  "nb_hits": 2978
+}

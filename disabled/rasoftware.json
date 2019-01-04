@@ -1,0 +1,28 @@
+{
+  "index_name": "rasoftware",
+  "start_urls": [
+    "https://pruvodce.rasoftware.cz/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav > ul > li.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p, section li"
+  },
+  "selectors_exclude": [
+    ".breadcrumb"
+  ],
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "380548348"
+  ],
+  "nb_hits": 204
+}

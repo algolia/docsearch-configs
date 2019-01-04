@@ -1,0 +1,37 @@
+{
+  "index_name": "aahframework",
+  "start_urls": [
+    {
+      "url": "https://docs.aahframework.org/(?P<version>.*?)",
+      "variables": {
+        "version": {
+          "url": "https://docs.aahframework.org/",
+          "js": "let versions=[]; for (let b of document.querySelectorAll('.docs-version-dd ul li a span.text')){versions.push(b.innerText.replace('Framework ','').replace('.x','').replace('\\n',''))};return JSON.stringify(versions)"
+        }
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.aahframework.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": ".docs-page-content h1",
+      "lvl1": ".docs-page-content h2",
+      "lvl2": ".docs-page-content h3",
+      "lvl3": ".docs-page-content h4",
+      "lvl4": ".docs-page-content h5",
+      "text": ".docs-page-content p, .docs-page-content li"
+    }
+  },
+  "scrap_start_urls": false,
+  "selectors_exclude": [
+    "#table-of-contents",
+    "#table-of-contents + ol"
+  ],
+  "conversation_id": [
+    "543041602"
+  ],
+  "nb_hits": 9944
+}

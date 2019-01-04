@@ -10,7 +10,8 @@
           "v3",
           "v4",
           "v5",
-          "v6"
+          "v6",
+          "v7"
         ],
         "project": [
           "laravel-medialibrary",
@@ -21,7 +22,10 @@
           "laravel-uptime-monitor",
           "image",
           "laravel-server-monitor",
-          "laravel-backup"
+          "laravel-backup",
+          "laravel-html",
+          "laravel-event-projector",
+          "laravel-blade-x"
         ]
       }
     }
@@ -29,10 +33,6 @@
   "stop_urls": [
     "/edit$",
     "/$"
-  ],
-  "selectors_exclude": [
-    "footer",
-    "header"
   ],
   "selectors": {
     "lvl0": "article h1",
@@ -42,5 +42,12 @@
     "lvl4": "article h5",
     "text": "article p"
   },
-  "nb_hits": 2564
+  "selectors_exclude": [
+    "footer",
+    "header"
+  ],
+  "conversation_id": [
+    "229197199"
+  ],
+  "nb_hits": 3576
 }

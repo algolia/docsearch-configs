@@ -1,0 +1,46 @@
+{
+  "index_name": "quanteda",
+  "start_urls": [
+    "https://quanteda.io/"
+  ],
+  "sitemap_urls": [
+    "https://quanteda.io/sitemap.xml"
+  ],
+  "stop_urls": [
+    "LICENSE-text.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".page-header h1",
+      "default_value": "No Header"
+    },
+    "lvl1": {
+      "selector": ".contents h1",
+      "default_value": "Unsorted"
+    },
+    "lvl2": ".contents h2",
+    "lvl3": ".contents h3, .contents th",
+    "lvl4": ".contents h4",
+    "lvl5": ".contents h4",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+  },
+  "selectors_exclude": [
+    ".dont-index",
+    "#see-also"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor"
+    ]
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "553942582"
+  ],
+  "nb_hits": 3932
+}

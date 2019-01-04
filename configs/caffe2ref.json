@@ -15,35 +15,20 @@
       "url": "http://caffe2.ai/doxygen-python/html",
       "selectors_key": "ref"
     },
-    {
-      "url": "https://caffe2.ai/doxygen-python/html",
-      "selectors_key": "ref"
-    },
-    {
-      "url": "http://caffe2.ai/doxygen-c/html",
-      "selectors_key": "ref"
-    },
-    {
-      "url": "https://caffe2.ai/doxygen-c/html",
-      "selectors_key": "ref"
-    },
-    "http://caffe2.ai/docs/getting-started.html",
     "http://caffe2.ai/doxygen-python/html/annotated.html"
+  ],
+  "sitemap_urls": [
+    "https://caffe2.ai/sitemap.xml"
   ],
   "stop_urls": [
     ".*^(?!.*html)",
     "members\\.html",
     "_source.html"
   ],
-  "selectors_exclude": [
-    ".permalink",
-    "#markdown-toc",
-    ".header-link"
-  ],
   "selectors": {
     "doc": {
       "lvl0": {
-        "selector": "//*[@id='doc_nav']//a[contains(@class, 'navItemActive')]/../../../h3",
+        "selector": "//nav//a[contains(@class,'navItemActive')]//preceding::h3[1]",
         "type": "xpath",
         "global": true,
         "default_value": "Documentation"
@@ -74,9 +59,17 @@
       "text": ".textblock"
     }
   },
+  "selectors_exclude": [
+    ".permalink",
+    "#markdown-toc",
+    ".header-link"
+  ],
   "min_indexed_level": {
     "doc": 1,
     "ref": 3
   },
-  "nb_hits": 5908
+  "conversation_id": [
+    "344789353"
+  ],
+  "nb_hits": 3876
 }

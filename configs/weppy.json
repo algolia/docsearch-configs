@@ -11,12 +11,8 @@
       }
     }
   ],
-  "scrap_start_urls": false,
   "stop_urls": [
     "http://weppy.org/docs/...$"
-  ],
-  "selectors_exclude": [
-    ".m20"
   ],
   "selectors": {
     "lvl0": ".pure-u-1 h1",
@@ -27,6 +23,13 @@
     "lvl5": ".pure-u-1 h6",
     "text": ".pure-u-1 p"
   },
+  "selectors_exclude": [
+    ".m20"
+  ],
   "min_indexed_level": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "171105201"
+  ],
   "nb_hits": 11640
 }

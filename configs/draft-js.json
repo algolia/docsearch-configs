@@ -1,0 +1,34 @@
+{
+  "index_name": "draft-js",
+  "start_urls": [
+    "https://draftjs.org/docs/getting-started",
+    "https://draftjs.org/docs/"
+  ],
+  "sitemap_urls": [
+    "https://draftjs.org/sitemap.xml"
+  ],
+  "stop_urls": [
+    "html$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')][1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link",
+    ".edit-page-link"
+  ],
+  "conversation_id": [
+    "178040846"
+  ],
+  "nb_hits": 966
+}

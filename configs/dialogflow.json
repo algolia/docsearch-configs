@@ -1,0 +1,25 @@
+{
+  "index_name": "dialogflow",
+  "start_urls": [
+    "https://dialogflow.com/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://dialogflow.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//ul[contains(@class, 'devsite-nav-list')]//li[contains(@class, 'devsite-nav-item')]/a[contains(@class, 'devsite-nav-active')]//span[contains(@class, 'devsite-nav-title-no-path')]/preceding::li[contains(@class, 'devsite-nav-item-heading')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".devsite-article-inner h1",
+    "lvl2": ".devsite-article-body h2",
+    "lvl3": ".devsite-article-body h3",
+    "lvl4": ".devsite-article-body h4",
+    "lvl5": ".devsite-article-body h5",
+    "text": ".devsite-article-body p, .devsite-article-body li"
+  },
+  "nb_hits": 11590
+}

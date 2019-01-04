@@ -1,0 +1,28 @@
+{
+  "index_name": "aire_zmvm",
+  "start_urls": [
+    "https://hoyodesmog.diegovalle.net/aire.zmvm/"
+  ],
+  "stop_urls": [
+    "https://hoyodesmog.diegovalle.net/aire.zmvm/index.html",
+    "LICENSE-text.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".page-header h1",
+      "default_value": "Unsorted"
+    },
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents th",
+    "lvl3": ".contents h4",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+  },
+  "selectors_exclude": [
+    ".dont-index",
+    "#see-also"
+  ],
+  "conversation_id": [
+    "551699005"
+  ],
+  "nb_hits": 466
+}

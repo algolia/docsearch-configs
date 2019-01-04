@@ -1,0 +1,24 @@
+{
+  "index_name": "julialang",
+  "start_urls": [
+    "https://docs.julialang.org/en/latest/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//header/nav/ul/li[1]",
+      "type": "xpath"
+    },
+    "lvl1": "#docs h1",
+    "lvl2": "#docs h2",
+    "lvl3": "#docs h3",
+    "lvl4": "#docs h4",
+    "lvl5": "#docs h5",
+    "text": "#docs p, #docs li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "558174023"
+  ],
+  "nb_hits": 10077
+}

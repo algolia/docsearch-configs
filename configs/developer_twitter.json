@@ -1,0 +1,39 @@
+{
+  "index_name": "developer_twitter",
+  "start_urls": [
+    "https://developer.twitter.com/en/docs",
+    {
+      "url": "https://developer.twitter.com/(?P<lang>.*?)/docs",
+      "variables": {
+        "lang": [
+          "en"
+        ]
+      }
+    }
+  ],
+  "scrap_start_urls": false,
+  "stop_urls": [
+    ".html",
+    "/changelog/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "li.open > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".main-content h1",
+    "lvl2": ".main-content h2",
+    "lvl3": ".main-content h3",
+    "lvl4": ".main-content h4",
+    "text": ".main-content p, .main-content li"
+  },
+  "selectors_exclude": [
+    ".tabs-nav__toc"
+  ],
+  "min_indexed_level": 2,
+  "stop_content": [
+    "<----Inject HTML content here---->"
+  ],
+  "nb_hits": 14777
+}

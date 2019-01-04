@@ -1,0 +1,23 @@
+{
+  "index_name": "docs_gm",
+  "start_urls": [
+    "https://jhm-ciberman.github.io/docs_gm/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".main-content h1",
+    "lvl1": ".main-content h2",
+    "lvl2": ".main-content h3",
+    "lvl3": ".main-content h4",
+    "lvl4": ".main-content h5",
+    "text": ".main-content p, .main-content li"
+  },
+  "strip_chars": " .,;:#>\ud83d\udcdd",
+  "selectors_exclude": [
+    "footer"
+  ],
+  "conversation_id": [
+    "543978191"
+  ],
+  "nb_hits": 194
+}

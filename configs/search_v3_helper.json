@@ -1,0 +1,71 @@
+{
+  "index_name": "search_v3_helper",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/algoliasearch-helper-js/reference.html",
+      "tags": [
+        "Helper JS"
+      ],
+      "extra_attributes": {
+        "category": "Widgets",
+        "type_level": 45
+      },
+      "selectors_key": "ref"
+    },
+    {
+      "url": "https://community.algolia.com/algoliasearch-helper-js/",
+      "tags": [
+        "Helper JS"
+      ],
+      "extra_attributes": {
+        "category": "Guide",
+        "type_level": 100,
+        "language": "helper"
+      },
+      "selectors_key": "guide"
+    }
+  ],
+  "stop_urls": [
+    "https://community.algolia.com/algoliasearch-helper-js/examples.html"
+  ],
+  "selectors": {
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl1": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "lvl4": ".documentation-container h4",
+      "lvl5": ".documentation-container h5",
+      "text": ".documentation-container p, .documentation-container li",
+      "page__title__community__guide": {
+        "selector": ".hero-container h1"
+      }
+    },
+    "ref": {
+      "lvl0": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl1": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "lvl4": ".documentation-container h4",
+      "lvl5": ".documentation-container h5",
+      "text": ".documentation-container p, .documentation-container li",
+      "page__title__community__guide": {
+        "selector": ".hero-container h1"
+      }
+    }
+  },
+  "only_content_level": true,
+  "nb_hits": 658
+}

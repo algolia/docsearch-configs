@@ -12,7 +12,10 @@
     "lvl4": ".site__content h5",
     "text": ".site__content p, .site__content li"
   },
-  "js_render": true,
   "min_indexed_level": 1,
+  "js_render": true,
+  "conversation_id": [
+    "404772655"
+  ],
   "nb_hits": 60
 }

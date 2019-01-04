@@ -1,0 +1,18 @@
+{
+  "index_name": "xbrick",
+  "start_urls": [
+    "https://xbrick.xteamfe.com/documents/",
+    "https://xbrick.xteamfe.com/documents/getting-started/install"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".doc-content-header h1",
+    "lvl1": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "645970729"
+  ],
+  "selectors_exclude":[".doc-nav nav"],
+  "nb_hits": 478
+}

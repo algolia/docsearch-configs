@@ -6,9 +6,6 @@
   "stop_urls": [
     "js/"
   ],
-  "selectors_exclude": [
-    ".headerlink"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -20,6 +17,12 @@
     "lvl4": ".section h3",
     "text": ".section p, .section ul.simple li"
   },
+  "selectors_exclude": [
+    ".headerlink"
+  ],
   "min_indexed_level": 2,
-  "nb_hits": 2086
+  "conversation_id": [
+    "316740493"
+  ],
+  "nb_hits": 4671
 }

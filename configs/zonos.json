@@ -1,0 +1,45 @@
+{
+  "index_name": "zonos",
+  "start_urls": [
+    "https://docs.zonos.com/"
+  ],
+  "stop_urls": [
+    "/docs/docs/",
+    "docs.zonos.com/ups-ready/",
+    "docs.zonos.com/docs/shipping-calculations/",
+    "docs.zonos.com/docs/currencies",
+    "docs.zonos.com/development/billable-weight",
+    "docs.zonos.com/docs/EUGDPR.org",
+    "docs.zonos.com/case-studies/low-priced-service-levels",
+    "docs.zonos.com/docs/localization-api",
+    "docs.zonos.com/development/docs/carriers",
+    "docs.zonos.com/development/docs/3rd-party-gateways",
+    "docs.zonos.com/docs/shipping-calculations/docs/carriers",
+    "docs.zonos.com/docs/shipping-calculations/docs/3rd-party-gateways",
+    "docs.zonos.com/ups-ready/docs/carriers",
+    "docs.zonos.com/ups-ready/docs/3rd-party-gateways",
+    "docs.zonos.com/apo-fpo-shipping",
+    "docs.zonos.com/home",
+    "docs.zonos.com/docs/3rd-party-gateway",
+    "docs.zonos.com/platform/fedex-setup"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav/ul/li/a[contains(@class,'active')] |//nav//a[contains(@class,'active')]/preceding::div[contains(@class,'menu')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
+  },
+  "scrap_start_urls": false,
+  "js_render": true,
+  "conversation_id": [
+    "469038186"
+  ],
+  "nb_hits": 1964
+}

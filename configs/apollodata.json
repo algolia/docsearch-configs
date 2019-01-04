@@ -1,26 +1,27 @@
 {
   "index_name": "apollodata",
   "start_urls": [
-    "http://dev.apollodata.com/"
+    "https://www.apollographql.com/docs/"
   ],
   "stop_urls": [
     "index\\.html"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": ".nav-group .nav-item.active"
-    },
-    "lvl1": {
-      "selector": "//*[contains(@class, 'item-toc') and contains(@class, 'current')]/../preceding::*[contains(@class, 'heading-toc')][1]",
-      "type": "xpath"
-    },
-    "lvl2": ".content h1",
-    "lvl3": ".content h2",
-    "lvl4": ".content h3",
-    "lvl5": ".content h4",
-    "lvl6": ".content h5",
-    "text": ".content p, .content li"
+    "default": {
+      "lvl0": {
+        "selector": "div.sidebar span.title-sidebar",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".header-wrapper h1",
+      "lvl2": ".content-wrapper h2",
+      "lvl3": ".content-wrapper h3",
+      "lvl4": ".content-wrapper h4",
+      "text": ".content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page"
+    }
   },
   "min_indexed_level": 2,
-  "nb_hits": 2139
+  "conversation_id": [
+    "355172644"
+  ],
+  "nb_hits": 6705
 }

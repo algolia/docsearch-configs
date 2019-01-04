@@ -1,0 +1,30 @@
+{
+  "index_name": "nact",
+  "start_urls": [
+    {
+      "url": "https://nact.io/lesson/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "reasonml",
+          "javascript"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://nact.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "536286457"
+  ],
+  "nb_hits": 227
+}

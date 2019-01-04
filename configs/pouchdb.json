@@ -1,0 +1,20 @@
+{
+  "index_name": "pouchdb",
+  "start_urls": [
+    "https://pouchdb.com/guides/",
+    "https://pouchdb.com/api.html",
+    "https://pouchdb.com/learn.html"
+  ],
+  "stop_urls": [
+    "index.html$"
+  ],
+  "selectors": {
+    "lvl0": ".band h1",
+    "lvl1": "[role='main'] [role='main'] .h2",
+    "lvl2": "[role='main'] [role='main'] .h3",
+    "lvl3": "[role='main'] [role='main'] .h4",
+    "lvl4": "[role='main'] [role='main'] .h5",
+    "text": "[role='main'] [role='main'] p, [role='main'] [role='main'] li"
+  },
+  "nb_hits": 1221
+}

@@ -1,0 +1,45 @@
+{
+  "index_name": "galigeo",
+  "start_urls": [
+    {
+      "url": "https://galigeo-for-salesforce.github.io.*-en$",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://galigeo-for-salesforce.github.io/en",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://galigeo-for-salesforce.github.io",
+      "tags": [
+        "fr"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//a[contains(@class, 'active')][1]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content-body h1",
+    "lvl2": ".content-body h2",
+    "lvl3": ".content-body h3",
+    "lvl4": ".content-body h4",
+    "lvl5": ".content-body h5",
+    "text": ".content-body p, .content-body li"
+  },
+  "conversation_id": [
+    "564476380"
+  ],
+  "selectors_exclude": [
+    "nav"
+  ],
+  "nb_hits": 2207
+}

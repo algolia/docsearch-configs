@@ -1,0 +1,39 @@
+{
+  "index_name": "vi_vuejs",
+  "start_urls": [
+    "https://vi.vuejs.org/"
+  ],
+  "stop_urls": [
+    ".js$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class='menu-root']//a[contains(@class,'current')][1]/preceding::h2[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "640683827"
+  ],
+  "nb_hits": 3415
+}

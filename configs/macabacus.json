@@ -8,6 +8,7 @@
     "lvl0": {
       "selector": "//a[contains(@class, 'active-link')]/preceding::h5[1]",
       "type": "xpath",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": ".topic h1",
@@ -17,7 +18,10 @@
     "lvl5": ".topic h5",
     "text": ".topic p, .topic li"
   },
+  "scrap_start_urls": false,
   "js_render": true,
-  "min_indexed_level": 1,
-  "nb_hits": 2017
+  "conversation_id": [
+    "576873639"
+  ],
+  "nb_hits": 2035
 }

@@ -1,0 +1,25 @@
+{
+  "index_name": "pleio2",
+  "start_urls": [
+    "https://pleio.github.io/pleio2/#/"
+  ],
+  "stop_urls": [
+    "/\\?"
+  ],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "text": "section p, .section li"
+  },
+  "min_indexed_level": 2,
+  "js_render": true,
+  "js_wait": 2,
+  "use_anchors": true,
+  "conversation_id": [
+    "399318425"
+  ],
+  "nb_hits": 56
+}

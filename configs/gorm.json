@@ -1,0 +1,56 @@
+{
+  "index_name": "gorm",
+  "start_urls": [
+    {
+      "url": "http://gorm.io/docs",
+      "selectors_key": "default",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://godoc.org/github.com/jinzhu/gorm",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "http://gorm.io/docs/index.html"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//aside[contains(@id, 'sidebar')]//a[contains(@class, 'current')][1]/preceding::*[contains(@class, 'sidebar-title')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".article .inner h1",
+      "lvl2": ".article .inner h2",
+      "lvl3": ".article .inner h3",
+      "lvl4": ".article .inner h4",
+      "text": ".article .inner p, .article .inner li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".container h2",
+      "lvl2": ".container h3",
+      "lvl3": ".container h4",
+      "lvl4": ".container h5",
+      "text": ".container p, .container li, table td > a"
+    }
+  },
+  "selectors_exclude": [
+    ".list-unstyled"
+  ],
+  "strip_chars": " .,;:#\u00b6",
+  "conversation_id": [
+    "523407086"
+  ],
+  "nb_hits": 2904
+}

@@ -1,0 +1,25 @@
+{
+  "index_name": "commercetools",
+  "start_urls": [
+    "https://docs.commercetools.com"
+  ],
+  "sitemap_urls": [
+    "https://docs.commercetools.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/release-notes",
+    "\\.html$"
+  ],
+  "selectors": {
+    "lvl0": "#content h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "text": "#content p, #content li, #content figure"
+  },
+  "conversation_id": [
+    "707863318"
+  ],
+  "nb_hits": 11779
+}

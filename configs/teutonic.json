@@ -1,0 +1,45 @@
+{
+  "index_name": "teutonic",
+  "start_urls": [
+    {
+      "url": "https://teutonic.co/examples/",
+      "selectors_key": "examples"
+    },
+    "https://teutonic.co"
+  ],
+  "stop_urls": [
+    "https://teutonic.co/examples.html",
+    "https://teutonic.co/examples/.*?/",
+    ".html$"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": "section h1",
+      "lvl1": "main h2",
+      "lvl2": "main h3",
+      "lvl3": "main h4",
+      "lvl4": "main h5",
+      "text": "main p,section p, main li,section li"
+    },
+    "examples": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Examples"
+      },
+      "lvl1": "section h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "text": "main p,section p, main li,section li"
+    }
+  },
+  "selectors_exclude": [
+    ".ma-v_s",
+    ".docs-example"
+  ],
+  "conversation_id": [
+    "617389898"
+  ],
+  "nb_hits": 400
+}

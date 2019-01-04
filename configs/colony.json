@@ -1,0 +1,55 @@
+{
+  "index_name": "colony",
+  "start_urls": [
+    {
+      "url": "https://docs.colony.io/colonynetwork/docs-colony/",
+      "tags": [
+        "colonynetwork"
+      ]
+    },
+    {
+      "url": "https://docs.colony.io/colonynetwork/",
+      "tags": [
+        "colonynetwork"
+      ]
+    },
+    {
+      "url": "https://docs.colony.io/colonyjs/docs-overview/",
+      "tags": [
+        "colonyjs"
+      ]
+    },
+    {
+      "url": "https://docs.colony.io/colonyjs/",
+      "tags": [
+        "colonyjs"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "a[class*=projectLinkActive]",
+      "global": true,
+      "default_value": "Project"
+    },
+    "lvl1": {
+      "selector": "//a[contains(@class,'itemLink')][contains(@class,'active')]/preceding::h5[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": "main h1",
+    "lvl3": "main h2",
+    "lvl4": "main h3",
+    "lvl5": "main h4",
+    "text": "main p, main li"
+  },
+  "selectors_exclude": [
+    ".gatsby-toc + ul"
+  ],
+  "conversation_id": [
+    "600665265"
+  ],
+  "nb_hits": 914
+}

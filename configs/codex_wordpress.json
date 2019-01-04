@@ -1,0 +1,34 @@
+{
+  "index_name": "codex_wordpress",
+  "start_urls": [
+    "https://codex.wordpress.org/"
+  ],
+  "stop_urls": [
+    "\\?",
+    ".org/.*?:",
+    "%D",
+    "s.org/IRC_Meetups/"
+  ],
+  "selectors": {
+    "lvl0": "#bodyContent .pagetitle",
+    "lvl1": "#bodyContent h2:not(.pagetitle)",
+    "lvl2": "#bodyContent h3",
+    "lvl3": "#bodyContent h4",
+    "lvl4": "#bodyContent h5",
+    "text": "#bodyContent p, #bodyContent li",
+    "language": {"selector":".LanguageLinks .selflink","default_value":"English"}
+  },
+  "min_indexed_level": 1,
+  "selectors_exclude": [
+    "#toc",
+    "[href='top']"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
+  "only_content_level": true,
+  "nb_hits": 70779
+}

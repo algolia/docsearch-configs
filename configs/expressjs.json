@@ -1,0 +1,49 @@
+{
+  "index_name": "expressjs",
+  "start_urls": [
+    {
+      "url": "http://expressjs.com/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "fr",
+          "de",
+          "es",
+          "it",
+          "ja",
+          "ru",
+          "zh-cn",
+          "zh-tw",
+          "ko",
+          "pt-br",
+          "sk",
+          "uk",
+          "uz",
+          "tr"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "/resources/",
+    "/2x/",
+    "/3x/"
+  ],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "text": "section p, section li"
+  },
+  "custom_settings": {
+    "attributesToIndex": [
+      "unordered(hierarchy.lvl0)",
+      "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy.lvl3)"
+    ]
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 46741
+}

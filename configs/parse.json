@@ -75,11 +75,6 @@
     }
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    ".h1 a",
-    ".namespace-indent",
-    ".package-indent"
-  ],
   "selectors": {
     "lvl0": ".h1",
     "lvl1": ".guide_content h1",
@@ -89,6 +84,14 @@
     "lvl5": ".guide_content h5",
     "text": ".guide_content p, .guide_content li"
   },
+  "selectors_exclude": [
+    ".h1 a",
+    ".namespace-indent",
+    ".package-indent"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "319659171"
+  ],
   "nb_hits": 7634
 }

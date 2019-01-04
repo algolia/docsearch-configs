@@ -1,0 +1,20 @@
+{
+  "index_name": "activecampaign",
+  "start_urls": [
+    "https://activecampaign.github.io/site/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".m--g-col-9 > section h1",
+    "lvl1": ".m--g-col-9 > section h2",
+    "lvl2": ".m--g-col-9 > section p.tag-source",
+    "lvl3": ".m--g-col-9 > section h4",
+    "lvl4": ".m--g-col-9 > section h5",
+    "lvl5": ".m--g-col-9 > section h6",
+    "text": ".m--g-col-9 > section p:not(.tag-source), .m--g-col-9 > section li"
+  },
+  "conversation_id": [
+    "703116834"
+  ],
+  "nb_hits": 182
+}

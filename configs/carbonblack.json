@@ -1,0 +1,29 @@
+{
+  "index_name": "carbonblack",
+  "start_urls": [
+    "https://developer.carbonblack.com"
+  ],
+  "sitemap_urls": [
+    "https://developer.carbonblack.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "reference/enterprise-response/5.1/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".panel-body > h3",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#panel-content h1",
+    "lvl2": "#panel-content h2",
+    "lvl3": "#panel-content h3",
+    "lvl4": "#panel-content h4",
+    "text": "#panel-content p, #panel-content li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "506693886"
+  ],
+  "nb_hits": 3342
+}

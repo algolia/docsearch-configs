@@ -4,10 +4,6 @@
     "https://echo.labstack.com/"
   ],
   "stop_urls": [],
-  "selectors_exclude": [
-    "footer",
-    "#maintainers"
-  ],
   "selectors": {
     "lvl0": ".menu a.active",
     "lvl1": "article h1",
@@ -17,6 +13,13 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
+  "selectors_exclude": [
+    "footer",
+    "#maintainers"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "305449068"
+  ],
   "nb_hits": 526
 }

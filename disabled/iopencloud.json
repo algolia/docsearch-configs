@@ -1,0 +1,24 @@
+{
+  "index_name": "iopencloud",
+  "start_urls": [
+    "http://antsir.me/docs/",
+    "http://antsir.me/api/"
+  ],
+  "stop_urls": [
+    "http://antsir.me/docs/index.html",
+    "http://antsir.me/api/index.html"
+  ],
+  "selectors": {
+    "lvl0": ".article-header h1",
+    "lvl1": ".article-content h1",
+    "lvl2": ".article-content h2",
+    "lvl3": ".article-content h3",
+    "lvl4": ".article-content h4",
+    "text": ".article-content p"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "350635047"
+  ],
+  "nb_hits": 339
+}

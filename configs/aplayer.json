@@ -1,0 +1,24 @@
+{
+  "index_name": "aplayer",
+  "start_urls": [
+    "https://aplayer.js.org/#/",
+    "https://aplayer.js.org/#/home"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "text": ".content p, .content li"
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "use_anchors": true,
+  "stop_urls": [
+    "\\?id="
+  ],
+  "conversation_id": [
+    "538618521"
+  ],
+  "nb_hits": 334
+}

@@ -1,0 +1,19 @@
+{
+  "index_name": "squadlytics",
+  "start_urls": [
+    "https://docs.squadlytics.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page h1",
+    "lvl1": ".page h2",
+    "lvl2": ".page h3",
+    "lvl3": ".page h4",
+    "lvl4": ".page h5",
+    "text": ".page p, .page li"
+  },
+  "conversation_id": [
+    "522548182"
+  ],
+  "nb_hits": 376
+}

@@ -1,0 +1,26 @@
+{
+  "index_name": "developer_twitch",
+  "start_urls": [
+    "https://dev.twitch.tv/docs"
+  ],
+  "stop_urls": [
+    "docs/$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".open > a, #sidebar > dl > dt > a.active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".main h1",
+    "lvl2": ".main h2",
+    "lvl3": ".main h3",
+    "lvl4": ".main h4",
+    "lvl5": ".main h5, .main table td:first-of-type",
+    "text": ".main p, .main li, .main table td:last-child"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 6753
+}

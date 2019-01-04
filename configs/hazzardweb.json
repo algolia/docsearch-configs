@@ -41,8 +41,11 @@
     "lvl5": ".docs-content h5",
     "text": ".docs-content p"
   },
+  "min_indexed_level": 1,
   "js_render": true,
   "js_wait": 2,
-  "min_indexed_level": 1,
+  "conversation_id": [
+    "171108800"
+  ],
   "nb_hits": 2532
 }

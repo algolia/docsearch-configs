@@ -1,0 +1,20 @@
+{
+  "index_name": "sashido",
+  "start_urls": [
+    "https://docs-sashido.scalabl.cloud/#/js/guide/",
+    "https://docs-sashido.scalabl.cloud/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-body h1",
+    "lvl1": ".markdown-body h2",
+    "lvl2": ".markdown-body h3",
+    "lvl3": ".markdown-body h4",
+    "lvl4": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "conversation_id": [
+    "522836449"
+  ],
+  "nb_hits": 329
+}

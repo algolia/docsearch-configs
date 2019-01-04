@@ -1,0 +1,26 @@
+{
+  "index_name": "modeanalytics",
+  "start_urls": [
+    "https://help.modeanalytics.com/"
+  ],
+  "sitemap_urls": [
+    "https://help.modeanalytics.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".article-container .article-header",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".article-container h3",
+    "lvl2": ".article-container h4",
+    "lvl3": ".article-container h5",
+    "lvl4": ".article-container h6",
+    "text": ".article-container p, .article-container li"
+  },
+  "conversation_id": [
+    "578404089"
+  ],
+  "nb_hits": 2359
+}

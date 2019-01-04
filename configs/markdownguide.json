@@ -3,24 +3,32 @@
   "start_urls": [
     "https://www.markdownguide.org/"
   ],
-  "stop_urls": [
-    "https://www.markdownguide.org/$",
-    "/$"
+  "sitemap_urls": [
+    "https://www.markdownguide.org/sitemap.xml"
   ],
-  "scrap_start_urls": false,
+  "stop_urls": [
+    ".*[^/]$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".col-xs-12.col-sm-12.col-sm-9 > h1",
+    "lvl2": ".col-xs-12.col-sm-12.col-sm-9 > h2",
+    "lvl3": ".col-xs-12.col-sm-12.col-sm-9 > h3",
+    "lvl4": ".col-xs-12.col-sm-12.col-sm-9 > h4",
+    "lvl5": ".col-xs-12.col-sm-12.col-sm-9 > h5",
+    "text": "p, li, td"
+  },
   "selectors_exclude": [
     ".jumbotron",
     "#doc"
   ],
-  "selectors": {
-    "lvl0": "ul.navbar-nav li.active a",
-    "lvl1": ".col-xs-12.col-sm-9 > h1",
-    "lvl2": ".col-xs-12.col-sm-9 > h2",
-    "lvl3": ".col-xs-12.col-sm-9 > h3",
-    "lvl4": ".col-xs-12.col-sm-9 > h4",
-    "lvl5": ".col-xs-12.col-sm-9 > h5",
-    "text": "p, li, td"
-  },
   "js_render": true,
-  "nb_hits": 406
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "337180022"
+  ],
+  "nb_hits": 874
 }

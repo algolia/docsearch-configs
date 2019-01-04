@@ -1,0 +1,29 @@
+{
+  "index_name": "wpack_io",
+  "start_urls": [
+    "https://wpack.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//*[contains(@class,'is-active')]/preceding::p[contains(@class,'menu-label')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section .container h1",
+    "lvl2": "section .container h2",
+    "lvl3": "section .container h3",
+    "lvl4": "section .container h4",
+    "lvl5": "section .container h5",
+    "text": "section .container p, section .container li"
+  },
+  "selectors_exclude": [
+    ".box"
+  ],
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "692443230"
+  ],
+  "nb_hits": 376
+}

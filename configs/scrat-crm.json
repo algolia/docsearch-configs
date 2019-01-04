@@ -1,0 +1,32 @@
+{
+  "index_name": "scrat-crm",
+  "start_urls": [
+    {
+      "url": "http://docs.scrat-crm.de/user-guide/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v1"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'nav')]//li[contains(@class, 'active')][1]/preceding::h2[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".article h1",
+    "lvl2": ".article h2",
+    "lvl3": ".article h3",
+    "lvl4": ".article h4",
+    "text": ".article p, .article li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "515487911"
+  ],
+  "nb_hits": 429
+}

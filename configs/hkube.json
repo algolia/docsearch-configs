@@ -1,0 +1,19 @@
+{
+  "index_name": "hkube",
+  "start_urls": [
+    "http://hkube.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".documentationContent h1",
+    "lvl1": ".documentationContent h2",
+    "lvl2": ".documentationContent h3",
+    "lvl3": ".documentationContent h4",
+    "lvl4": ".documentationContent h5",
+    "text": ".documentationContent p, .documentationContent li"
+  },
+  "conversation_id": [
+    "575664722"
+  ],
+  "nb_hits": 425
+}

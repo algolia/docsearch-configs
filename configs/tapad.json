@@ -1,0 +1,19 @@
+{
+  "index_name": "tapad",
+  "start_urls": [
+    "https://help.tapad.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".article h1.article__title",
+    "lvl1": ".article h1:not(.article__title)",
+    "lvl2": ".article h2",
+    "lvl3": ".article h3",
+    "lvl4": ".article h4",
+    "text": ".article p, .article li"
+  },
+  "conversation_id": [
+    "540497243"
+  ],
+  "nb_hits": 338
+}

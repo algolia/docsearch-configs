@@ -1,0 +1,22 @@
+{
+  "index_name": "programming_0101",
+  "start_urls": [
+    "https://programming-0101.github.io/TheBook/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li",
+    "lvl5": ".content h5"
+  },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "613488354"
+  ],
+  "nb_hits": 2369
+}

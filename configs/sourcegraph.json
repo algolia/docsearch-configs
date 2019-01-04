@@ -1,0 +1,29 @@
+{
+  "index_name": "sourcegraph",
+  "start_urls": [
+    "https://docs.sourcegraph.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".markdown-body nav > a:nth-child(2)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown-body h1",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3",
+    "lvl4": ".markdown-body h4",
+    "lvl5": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li, .markdown-body td"
+  },
+  "conversation_id": [
+    "689616344"
+  ],
+  "min_indexed_level": 2,
+  "selectors_exclude": [
+    "#next-steps",
+    "#next-steps ~ p"
+  ],
+  "nb_hits": 3151
+}

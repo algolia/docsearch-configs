@@ -1,0 +1,28 @@
+{
+  "index_name": "zoomdata",
+  "start_urls": [
+    "https://www.zoomdata.com/developers/docs",
+    "https://www.zoomdata.com/developers/tutorials"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.zoomdata.com/developers/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//a[contains(@class,'nav-link-active')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Unsorted"
+    },
+    "lvl1": ".docSearch-content h1",
+    "lvl2": ".docSearch-content h2",
+    "lvl3": ".docSearch-content h3",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "576001232"
+  ],
+  "nb_hits": 762
+}

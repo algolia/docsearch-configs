@@ -1,0 +1,51 @@
+{
+  "index_name": "golang",
+  "start_urls": [
+    "https://golang.org/doc/",
+    {
+      "url": "https://golang.org/ref/spec",
+      "tags": [
+        "spec"
+      ]
+    },
+    {
+      "url": "https://golang.org/project/",
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "url": "https://golang.org/help/",
+      "tags": [
+        "help"
+      ]
+    },
+    {
+      "url": "https://golang.org/pkg/",
+      "tags": [
+        "packages"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "\\?fileprint",
+    "/wiki",
+    "/doc/go[0-9]\\.?[0-9]?[0-9]?$",
+    "/devel/"
+  ],
+  "selectors": {
+    "lvl0": "#page .container h1",
+    "lvl1": "#page .container h2",
+    "lvl2": "#page .container h3",
+    "lvl3": "#page .container h4",
+    "lvl4": "#page .container h5",
+    "text": "#page .container p, #page .container li"
+  },
+  "strip_chars": " .,;:#\u25b9\u25be\u00b6",
+  "selectors_exclude": [
+    "[id*='nav']",
+    ".pkg-index",
+    ".permalink"
+  ],
+  "nb_hits": 16510
+}

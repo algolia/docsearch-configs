@@ -1,0 +1,36 @@
+{
+  "index_name": "oxid_esales",
+  "start_urls": [
+    {
+      "url": "https://docs.oxid-esales.com/(?P<tag>.*?)/(?P<lang>.*?)/6.0/",
+      "variables": {
+        "lang": [
+          "en",
+          "de"
+        ],
+        "tag": [
+          "eshop",
+          "developer"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav[class*='side'] li[class*='l1'][class*='current'] > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".document h1",
+    "lvl2": ".document h2",
+    "lvl3": ".document h3",
+    "lvl4": ".document h4",
+    "text": ".document p"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "490366355"
+  ],
+  "nb_hits": 2211
+}

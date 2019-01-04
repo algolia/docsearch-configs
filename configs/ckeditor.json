@@ -6,8 +6,6 @@
   "stop_urls": [
     "https://sdk.ckeditor.com/$"
   ],
-  "scrap_start_urls": false,
-  "min_indexed_level": 2,
   "selectors": {
     "lvl0": {
       "selector": "//h3[contains(@class,'active')]/preceding::h2[1]",
@@ -22,5 +20,10 @@
     "lvl6": ".sdk-contents h5",
     "text": ".sdk-contents p, .sdk-contents li"
   },
+  "min_indexed_level": 2,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "445274927"
+  ],
   "nb_hits": 707
 }

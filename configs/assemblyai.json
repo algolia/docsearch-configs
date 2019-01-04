@@ -1,0 +1,31 @@
+{
+  "index_name": "assemblyai",
+  "start_urls": [
+    "https://docs.assemblyai.com/",
+    "https://docs.assemblyai.com/guides/",
+    "https://docs.assemblyai.com/guides/dual_channel_calls/",
+    "https://docs.assemblyai.com/guides/custom_models_101/",
+    "https://docs.assemblyai.com/guides/custom_models_boost_keyword_accuracy/",
+    "https://docs.assemblyai.com/guides/custom_models_custom_vocabulary/",
+    "https://docs.assemblyai.com/guides/custom_models_boost_overall_accuracy/",
+    "https://docs.assemblyai.com/api/",
+    "https://docs.assemblyai.com/clients/",
+    "https://docs.assemblyai.com/help/",
+    "https://docs.assemblyai.com/updates/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "#navWrapper > ul > li.navTitle.active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "js_render": true,
+  "nb_hits": 213
+}

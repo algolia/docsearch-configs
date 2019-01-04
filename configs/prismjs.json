@@ -1,0 +1,26 @@
+{
+  "index_name": "prismjs",
+  "start_urls": [
+    "https://prismjs.com"
+  ],
+  "stop_urls": [
+    "/index.html$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "body > header > h2",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "body > section h1",
+    "lvl2": "body > section h2",
+    "lvl3": "body > section h3",
+    "lvl4": "body > section h4",
+    "lvl5": "body > section h5",
+    "text": "body > section p, body > section li"
+  },
+  "selectors_exclude": [
+    "#toc"
+  ],
+  "nb_hits": 178
+}

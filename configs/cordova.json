@@ -2,26 +2,30 @@
   "index_name": "cordova",
   "start_urls": [
     {
-      "url": "http://cordova.apache.org/docs/(?P<language>.*?)/(?P<version>.*?)/",
+      "url": "https://cordova.apache.org/docs/(?P<language>.*?)/(?P<version>.*?)/",
       "variables": {
         "version": {
-          "url": "http://cordova.apache.org/docs/en/latest/guide/overview/",
-          "js": "var versions = $('ul[aria-labelledby=versionDropdown] a').map(function(i, e) { return $(e).text().replace(/\\(Latest\\)/i, '').trim(); }).toArray(); return JSON.stringify(versions);"
+          "url": "https://cordova.apache.org/docs/en/latest/guide/overview/",
+          "js": "const versions = $('ul[aria-labelledby=versionDropdown] a').map(function(i, e) { return $(e).text().replace('(Latest)', '').trim(); }).toArray(); return JSON.stringify(versions);"
         },
         "language": {
-          "url": "http://cordova.apache.org/docs/en/latest/guide/overview/",
-          "js": "var languages = $('ul[aria-labelledby=languageDropdown] a').map(function(i, e) { return $(e).attr('href').split('/')[2]; }).toArray(); return JSON.stringify(languages);"
+          "url": "https://cordova.apache.org/docs/en/latest/guide/overview/",
+          "js": "const languages = $('ul[aria-labelledby=languageDropdown] a').map(function(i, e) { return $(e).attr('href').split('/')[2]; }).toArray(); return JSON.stringify(languages);"
         }
       }
     }
   ],
+  "sitemap_urls": [
+    "http://cordova.apache.org/sitemap.xml"
+  ],
   "stop_urls": [
-    "/$"
+    "https://cordova.apache.org/docs/[^/]+/[^/]+/index.html$"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//ul[@class=\"site-toc\"]//a[@class=\"this-page\"]/../../preceding::span[1]",
+      "selector": "//div[contains(@class,'docs')]/div/ul[contains(@class,'site-toc')]/li[.//a[@class='this-page']]/*[contains(@class,'toc-section-heading')]",
       "type": "xpath",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": "#page-toc-source h1",
@@ -31,5 +35,8 @@
     "text": "#page-toc-source p"
   },
   "min_indexed_level": 2,
-  "nb_hits": 293381
+  "conversation_id": [
+    "192288401"
+  ],
+  "nb_hits": 376005
 }

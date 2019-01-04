@@ -1,0 +1,40 @@
+{
+  "index_name": "apache_pulsar",
+  "start_urls": [
+    "http://pulsar.apache.org/docs/standalone",
+    "http://pulsar.apache.org/docs/"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "sitemap_urls": [
+    "http://pulsar.apache.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "622864222"
+  ],
+  "user_agent": "Googlebot",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "nb_hits": 99408
+}

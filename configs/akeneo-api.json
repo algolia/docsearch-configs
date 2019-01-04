@@ -4,7 +4,8 @@
     "https://api.akeneo.com/"
   ],
   "stop_urls": [
-    "https://api.akeneo.com/index.html"
+    "https://api.akeneo.com/index.html",
+    ".json$"
   ],
   "selectors": {
     "lvl0": "#mainContent h1",
@@ -14,8 +15,13 @@
     "lvl4": "#mainContent h5",
     "text": "#mainContent p, #mainContent li"
   },
+  "strip_chars": " .,;:#",
   "min_indexed_level": 2,
-  "nb_hits": 3067,
-  "js_render": true,
-  "strip_chars": " .,;:#"
+  "selectors_exclude": [
+    ".nav"
+  ],
+  "conversation_id": [
+    "327917612"
+  ],
+  "nb_hits": 19279
 }

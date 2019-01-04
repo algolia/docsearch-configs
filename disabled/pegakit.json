@@ -1,0 +1,21 @@
+{
+  "index_name": "pegakit",
+  "start_urls": [
+    "https://pegasystems.github.io/patternkit/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h3, article h1",
+    "lvl2": "article h4",
+    "lvl3": "article h5",
+    "text": "article p, article li, article td"
+  },
+  "conversation_id": [
+    "316798140"
+  ],
+  "nb_hits": 11
+}

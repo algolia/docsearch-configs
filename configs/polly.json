@@ -1,0 +1,24 @@
+{
+  "index_name": "polly",
+  "start_urls": [
+    "https://docs.aws.amazon.com/polly/latest/dg/what-is.html",
+    "https://docs.aws.amazon.com/polly/latest/"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#toc > .awstoc > li.awstoc.opened > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#main-content h1",
+    "lvl2": "#main-content h2",
+    "lvl3": "#main-content h3",
+    "lvl4": "#main-content h4",
+    "lvl5": "#main-content h5",
+    "text": "#main-content p, #main-content li"
+  },
+  "nb_hits": 7920
+}

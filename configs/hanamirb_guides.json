@@ -1,0 +1,32 @@
+{
+  "index_name": "hanamirb_guides",
+  "start_urls": [
+    "https://guides.hanamirb.org/"
+  ],
+  "sitemap_urls": [
+    "https://guides.hanamirb.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'ct-sidenav-active')][1]/preceding::*[contains(@class,'ct-toc-link')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "nav .ct-sidenav-active",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "687343765"
+  ],
+  "nb_hits": 2185
+}

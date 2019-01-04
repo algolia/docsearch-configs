@@ -1,0 +1,57 @@
+{
+  "index_name": "pm2docs",
+  "start_urls": [
+    {
+      "url": "https://pm2.io/doc/(?P<language>.*?)/(?P<tool>.*?)/overview/",
+      "variables": {
+        "language": [
+          "en",
+          "zh"
+        ],
+        "tool": [
+          "runtime",
+          "plus",
+          "enterprise"
+        ]
+      }
+    },
+    {
+      "url": "https://pm2.io/doc/(?P<language>.*?)/(?P<tool>.*?)/",
+      "variables": {
+        "language": [
+          "en",
+          "zh"
+        ],
+        "tool": [
+          "runtime",
+          "plus",
+          "enterprise"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://pm2.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav.header-links a.active",
+      "global": true,
+      "default_value": "PM2 Documentation"
+    },
+    "lvl1": "#main section h1",
+    "lvl2": "#main section h2",
+    "lvl3": "#main section h3",
+    "lvl4": "#main section h4",
+    "text": "#main section p, #main section li"
+  },
+  "selectors_exclude": [
+    "#next-steps",
+    "#next-steps + p"
+  ],
+  "conversation_id": [
+    "541109950"
+  ],
+  "nb_hits": 2348
+}

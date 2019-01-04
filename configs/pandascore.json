@@ -1,0 +1,19 @@
+{
+  "index_name": "pandascore",
+  "start_urls": [
+    "https://api.pandascore.co/doc"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".main-content-container h1",
+    "lvl1": ".main-content-container h2",
+    "lvl2": ".main-content-container h3",
+    "lvl3": ".main-content-container h4",
+    "lvl4": ".main-content-container h5",
+    "text": ".main-content-container p, .main-content-container li, .main-content-container td"
+  },
+  "conversation_id": [
+    "571366725"
+  ],
+  "nb_hits": 1057
+}

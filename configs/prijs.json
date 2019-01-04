@@ -1,0 +1,26 @@
+{
+  "index_name": "prijs",
+  "start_urls": [
+    "https://prijs.github.io/pri-docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'left-static-box')]//a[contains(@class, 'active')][1]/preceding::*[contains(@class, 'menu-group-title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown-body h1",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3",
+    "lvl4": ".markdown-body h4",
+    "lvl5": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "567495133"
+  ],
+  "nb_hits": 363
+}

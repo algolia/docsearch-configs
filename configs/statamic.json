@@ -1,0 +1,24 @@
+{
+  "index_name": "statamic",
+  "start_urls": [
+    "https://docs.statamic.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'nav-sidebar')]//li[contains(@class, 'active')][1]/preceding::span[contains(@class, 'font-bold')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "537474924"
+  ],
+  "nb_hits": 5435
+}

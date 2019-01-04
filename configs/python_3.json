@@ -1,0 +1,28 @@
+{
+  "index_name": "python_3",
+  "start_urls": [
+    "https://docs.python.org/3/"
+  ],
+  "stop_urls": [
+    "\\.tar",
+    "\\.epub "
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "body > div:nth-child(1) li.nav-item-1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4, .section .descname",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "strip_chars": " .,;:#\u00bb\u00b6",
+  "nb_hits": 61010
+}

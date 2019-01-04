@@ -32,9 +32,6 @@
       "page_rank": 1
     }
   ],
-  "selectors_exclude": [
-    ".api-endpoint-reqres"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "#filter-carrier option[selected=\"true\"]",
@@ -45,6 +42,12 @@
     "lvl3": "#page-content h4",
     "text": "#page-content p"
   },
+  "selectors_exclude": [
+    ".api-endpoint-reqres"
+  ],
   "min_indexed_level": 1,
+  "conversation_id": [
+    "153753043"
+  ],
   "nb_hits": 2555
 }

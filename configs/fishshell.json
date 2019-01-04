@@ -1,0 +1,28 @@
+{
+  "index_name": "fishshell",
+  "start_urls": [
+    "https://fishshell.com/docs/current"
+  ],
+  "stop_urls": [
+    "https://fishshell.com/docs/current/index.html",
+    "license.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "h1.interior_title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".textblock > div:nth-child(2) h1:not(.interior_title), .design h1:not(.interior_title)",
+    "lvl2": ".textblock > div:nth-child(2) h2, .design h2",
+    "lvl3": ".textblock > div:nth-child(2) h3, .design h3",
+    "lvl4": ".textblock > div:nth-child(2) h4, .design h4",
+    "lvl5": ".textblock > div:nth-child(2) h5, .design h5",
+    "text": ".textblock > div:nth-child(2) p, .textblock > div:nth-child(2) li, .design p, .design li"
+  },
+  "only_content_level": true,
+  "custom_settings": {
+    "separatorsToIndex": "-"
+  },
+  "nb_hits": 1592
+}

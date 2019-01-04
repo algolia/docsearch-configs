@@ -6,9 +6,6 @@
   "stop_urls": [
     "/$"
   ],
-  "selectors_exclude": [
-    ".owner_badge"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -20,5 +17,11 @@
     "lvl4": ".main_col h5",
     "text": ".main_col p"
   },
+  "selectors_exclude": [
+    ".owner_badge"
+  ],
+  "conversation_id": [
+    "166189988"
+  ],
   "nb_hits": 947
 }
