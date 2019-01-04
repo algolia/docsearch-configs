@@ -5,6 +5,7 @@
       "url": "http://boosted.orange.com/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.4",
           "4.0",
           "4.1"
         ]
@@ -14,6 +15,7 @@
       "url": "http://boosted.orange.com/docs/(?P<version>.*?)/getting-started/introduction/",
       "variables": {
         "version": [
+          "3.4",
           "4.0",
           "4.1"
         ]
