@@ -2,7 +2,7 @@
   "index_name": "zephir-lang",
   "start_urls": [
     {
-      "url": "https://docs.zephir-lang.com/(?P<version>.*?)/(?P<lang>.*?)/",
+      "url": "https://docs.zephir-lang.com/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
         "lang": [
           "en",
