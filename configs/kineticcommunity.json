@@ -2,21 +2,21 @@
   "index_name": "kineticcommunity",
   "start_urls": [
     {
-      "url": "https://kineticcommunity.netlify.com/platform/",
+      "url": "https://community.kineticdata.com/platform/",
       "selectors_key": "platform",
       "tags": [
         "Platform"
       ]
     },
     {
-      "url": "https://kineticcommunity.netlify.com/solutions/",
+      "url": "https://community.kineticdata.com/solutions/",
       "selectors_key": "solutions",
       "tags": [
         "Solutions"
       ]
     },
     {
-      "url": "https://kineticcommunity.netlify.com/integrations/",
+      "url": "https://community.kineticdata.com/integrations/",
       "selectors_key": "integrations",
       "tags": [
         "Integrations"
