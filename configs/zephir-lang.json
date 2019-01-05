@@ -6,11 +6,11 @@
       "variables": {
         "lang": [
           "en",
-          "el-GR",
-          "es-ES",
-          "ru-RU",
-          "uk-UA",
-          "zh-CN"
+          "el-gr",
+          "es-es",
+          "ru-ru",
+          "uk-ua",
+          "zh-cn"
         ],
         "version": [
           "latest",
@@ -35,5 +35,5 @@
   "conversation_id": [
     "663902831"
   ],
-  "nb_hits": 8042
+  "nb_hits": 7506
 }
