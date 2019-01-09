@@ -1,14 +1,10 @@
 {
   "index_name": "activepivot",
-  "start_urls": [
-    "https://activeviam.com/activepivot/",
-    "https://activeviam.com/activepivot/5.7.4/docs/copper/copper_intro.html",
-    "https://activeviam.com/activepivot/5.7-next/docs/copper/copper_intro.html"
-  ],
   "sitemap_urls": [
     "https://activeviam.com/activepivot/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
+  "force_sitemap_urls_crawling":true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
