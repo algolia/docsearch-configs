@@ -2,22 +2,24 @@
   "index_name": "boosted-orange",
   "start_urls": [
     {
-      "url": "http://boosted.orange.com/docs/(?P<version>.*?)/",
+      "url": "https://boosted.orange.com/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.4",
           "4.0",
-          "4.1"
+          "4.1",
+          "4.2"
         ]
       }
     },
     {
-      "url": "http://boosted.orange.com/docs/(?P<version>.*?)/getting-started/introduction/",
+      "url": "https://boosted.orange.com/docs/(?P<version>.*?)/getting-started/introduction/",
       "variables": {
         "version": [
           "3.4",
           "4.0",
-          "4.1"
+          "4.1",
+          "4.2"
         ]
       }
     }
