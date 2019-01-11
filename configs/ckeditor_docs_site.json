@@ -1,5 +1,8 @@
 {
   "index_name": "ckeditor_docs_site",
+  "sitemap_urls": [
+    "https://ckeditor.com/docs/sitemap.xml"
+  ],
   "start_urls": [
     {
       "url": "https://ckeditor.com/docs/ckeditor5/latest/api/",
