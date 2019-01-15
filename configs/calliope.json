@@ -1,7 +1,16 @@
 {
   "index_name": "calliope",
   "start_urls": [
-    "https://calliope.readthedocs.io/"
+    {
+      "url": "https://calliope.readthedocs.io/en/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "stable",
+          "latest",
+          "0.6.4"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
