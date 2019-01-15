@@ -1,7 +1,7 @@
 {
-  "index_name": "salestim",
+  "index_name": "salestimhelpcenter",
   "start_urls": [
-    "https://help.salestim.fr/"
+    "https://help.salestim.com/"
   ],
   "stop_urls": [],
   "selectors": {
