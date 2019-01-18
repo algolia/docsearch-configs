@@ -1,8 +1,7 @@
 {
   "index_name": "tendermint",
   "start_urls": [
-    "https://tendermint.com/docs/",
-    "https://tendermint-staging.interblock.io/docs/"
+    "https://tendermint.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
