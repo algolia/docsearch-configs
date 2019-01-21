@@ -1,0 +1,49 @@
+{
+  "index_name": "solace",
+  "start_urls": [
+    {
+      "url": "https://docs.solace.com/",
+      "tags": "docs"
+    },
+    {
+      "url": "https://cloud.solace.com/learn/",
+      "selectors_key": "learning_center",
+      "tags": "learning_center"
+    }
+  ],
+  "stop_urls": [
+    "/API-Developer-Online-Ref-Documentation/"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": "#contentBody div h1",
+      "lvl1": "#contentBody div h2",
+      "lvl2": "#contentBody div h3",
+      "lvl3": "#contentBody div h4",
+      "lvl4": "#contentBody div h5",
+      "lvl5": "#contentBody div h6",
+      "text": "#contentBody div p, #contentBody div li"
+    },
+    "learning_center": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'wy-menu')]//ul[contains(@class,'current')]/preceding::span[contains(@class,'caption-text')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".section h1",
+      "lvl2": ".section h2",
+      "lvl3": ".section h3",
+      "lvl4": ".section h4",
+      "lvl5": ".section h6",
+      "text": ".section p, .section li"
+    }
+  },
+  "selectors_exclude": [
+    "[class^=Code_Snippet]"
+  ],
+  "conversation_id": [
+    "702227168"
+  ],
+  "nb_hits": 24726
+}

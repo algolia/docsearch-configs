@@ -34,8 +34,10 @@
   "selectors_exclude": [
     "#change_log"
   ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "only_content_level": true,
   "scrap_start_urls": false,
-  "js_render": true,
-  "nb_hits": 1741
+  "js_render": true
 }

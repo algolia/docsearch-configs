@@ -1,7 +1,7 @@
 {
   "index_name": "datacarpentry",
   "start_urls": [
-    "http://www.datacarpentry.org/R-ecology-lesson/"
+    "https://datacarpentry.org/R-ecology-lesson/"
   ],
   "stop_urls": [
     "/index.html"
@@ -20,5 +20,5 @@
   "conversation_id": [
     "608939496"
   ],
-  "nb_hits": 876
+  "nb_hits": 884
 }

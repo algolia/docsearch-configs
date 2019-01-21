@@ -1,0 +1,27 @@
+{
+  "index_name": "gridsome",
+  "start_urls": [
+    "https://gridsome.org/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'sidebar')]//a[contains(@class,'active--exact')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "lvl6": ".post h6",
+    "text": ".post p, .post li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "746368732"
+  ],
+  "nb_hits": 546
+}

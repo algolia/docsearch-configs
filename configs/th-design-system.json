@@ -1,0 +1,22 @@
+{
+  "index_name": "th-design-system",
+  "start_urls": [
+    "https://th-design-system.netlify.com"
+  ],
+  "stop_urls": [
+    "/components/"
+  ],
+  "selectors": {
+    "lvl0": ".Document h1",
+    "lvl1": ".Document h2",
+    "lvl2": ".Document h3",
+    "lvl3": ".Document h4",
+    "lvl4": ".Document h5",
+    "lvl5": ".Document h6",
+    "text": ".Document p, .Document li"
+  },
+  "conversation_id": [
+    "730572332"
+  ],
+  "nb_hits": 685
+}

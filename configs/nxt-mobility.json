@@ -1,0 +1,20 @@
+{
+  "index_name": "nxt-mobility",
+  "start_urls": [
+    "https://doc.imobility.azure.altemista.cloud/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".documentation-copy header a",
+    "lvl1": ".documentation-copy h1",
+    "lvl2": ".documentation-copy h2",
+    "lvl3": ".documentation-copy h3",
+    "lvl4": ".documentation-copy h4",
+    "lvl5": ".documentation-copy h5",
+    "text": ".documentation-copy p, .documentation-copy li"
+  },
+  "conversation_id": [
+    "720577276"
+  ],
+  "nb_hits": 23
+}

@@ -1,0 +1,19 @@
+{
+  "index_name": "divio_support",
+  "start_urls": [
+    "https://support.divio.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".article h1",
+    "lvl1": ".article h2",
+    "lvl2": ".article h3",
+    "lvl3": ".article h4",
+    "lvl4": ".article h5",
+    "text": ".article p, .article li"
+  },
+  "conversation_id": [
+    "662955835"
+  ],
+  "nb_hits": 3152
+}

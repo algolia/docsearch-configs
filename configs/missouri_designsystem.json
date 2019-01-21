@@ -1,0 +1,25 @@
+{
+  "index_name": "missouri_designsystem",
+  "start_urls": [
+    "https://designsystem.missouri.edu"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//li[contains(@class,'is-current')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".Document h1",
+    "lvl2": ".Document h2",
+    "lvl3": ".Document h3",
+    "lvl4": ".Document h4",
+    "lvl5": ".Document h5",
+    "text": ".Document p, .Document li"
+  },
+  "conversation_id": [
+    "699585576"
+  ],
+  "nb_hits": 222
+}

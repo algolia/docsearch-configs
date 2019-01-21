@@ -1,0 +1,41 @@
+{
+  "index_name": "braze",
+  "start_urls": [
+    {
+      "url": "https://www.braze.com/(?P<section>.*?)/",
+      "variables": {
+        "section": [
+          "documentation",
+          "academy"
+        ]
+      }
+    },
+    "https://www.braze.com/documentation/Platform_Wide",
+    "https://www.braze.com/academy/Getting_Started"
+  ],
+  "sitemap_urls": [
+    "https://www.braze.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    ".*?[^/]$",
+    "://.*//"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "ul.nav a.heading",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": ".article h1",
+    "lvl2": ".article h2",
+    "lvl3": ".article h3",
+    "lvl4": ".article h4",
+    "text": ".article p, .article li"
+  },
+  "min_indexed_level": 2,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "466776979"
+  ],
+  "nb_hits": 9998
+}

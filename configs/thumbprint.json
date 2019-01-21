@@ -1,27 +1,37 @@
 {
   "index_name": "thumbprint",
   "start_urls": [
-    "https://thumbprint.thumbtack.com/guide/",
-    "https://thumbprint.thumbtack.com/tokens/",
-    "https://thumbprint.thumbtack.com/ui/",
-    "https://thumbprint.thumbtack.com/icons/"
+    "https://thumbprint.design/"
+  ],
+  "stop_urls": [
+    ".xml$",
+    "https://thumbprint.design/api/$"
   ],
   "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": "//*[@data-id='header__links']//a[@data-active='true']",
-        "type": "xpath",
-        "default_value": "Documentation"
-      },
-      "lvl1": "h1",
-      "lvl2": "h2",
-      "lvl3": "h3",
-      "lvl4": "h4",
-      "text": "[data-id='content'] p, [data-id='content'] li, [data-id='content'] table, [data-id='content'] code"
-    }
+    "lvl0": {
+      "selector": "//*[@data-id='header__links']//a[@data-active='true']",
+      "type": "xpath",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class,'mt3')][./a[contains(//h1[contains(@class,'tp-title-1')],text())]]/div",
+      "type": "xpath",
+      "default_value": "Chapter",
+      "global": true
+    },
+    "lvl2": "[data-id='content'] h1",
+    "lvl3": "[data-id='content'] h2",
+    "lvl4": "[data-id='content'] h3",
+    "lvl5": "[data-id='content'] h4",
+    "text": "[data-id='content'] p, [data-id='content'] li, [data-id='content'] table .atomic-class, [data-id='content'] table tr:not(.dn) > td.tl"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
   },
   "conversation_id": [
     "604604086"
   ],
-  "nb_hits": 2677
+  "scrap_start_urls": false,
+  "nb_hits": 3767
 }

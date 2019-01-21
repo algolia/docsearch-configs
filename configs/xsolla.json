@@ -13,11 +13,16 @@
         ]
       }
     },
-    "https://developers.xsolla.com"
+    {
+      "url": "https://developers.xsolla.com",
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ]
+      }
+    }
   ],
-  "stop_urls": [
-    "changelog"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
@@ -26,9 +31,9 @@
     "lvl4": ".content h5",
     "text": ".content p, .content li"
   },
-  "scrap_start_urls": false,
   "conversation_id": [
     "538992189"
   ],
-  "nb_hits": 18706
+  "scrap_start_urls": false,
+  "nb_hits": 25080
 }

@@ -1,0 +1,29 @@
+{
+  "index_name": "bootstrap-v3",
+  "start_urls": [
+    "https://getbootstrap.com/docs/3.4/"
+  ],
+  "sitemap_urls": [
+    "https://getbootstrap.com/docs/3.4/sitemap.xml"
+  ],
+  "stop_urls": [
+    "docs/3.4/examples/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".bs-docs-header h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".bs-docs-section h1",
+    "lvl2": ".bs-docs-section h2",
+    "lvl3": ".bs-docs-section h3",
+    "lvl4": ".bs-docs-section h4",
+    "lvl5": ".bs-docs-section h5",
+    "text": ".bs-docs-section p, .bs-docs-section li, .bs-docs-header p"
+  },
+  "selectors_exclude": [
+    ".bs-example"
+  ],
+  "nb_hits": 2011
+}

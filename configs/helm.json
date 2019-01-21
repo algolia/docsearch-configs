@@ -1,0 +1,17 @@
+{
+  "index_name": "helm",
+  "start_urls": [
+    "https://docs.helm.sh/"
+  ],
+  "stop_urls": [
+    "#"
+  ],
+  "selectors": {
+    "lvl0": ".content-wrap h1",
+    "lvl1": ".content-wrap h2",
+    "lvl2": ".content-wrap h3",
+    "lvl3": ".content-wrap h4",
+    "text": ".content-wrap p, .content-wrap li"
+  },
+  "nb_hits": 2965
+}

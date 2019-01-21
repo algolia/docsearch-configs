@@ -1,7 +1,14 @@
 {
   "index_name": "express-gateway",
   "start_urls": [
-    "https://www.express-gateway.io/"
+    {
+      "url": "https://www.express-gateway.io/docs/",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.express-gateway.io/",
+      "page_rank": 0
+    }
   ],
   "sitemap_urls": [
     "http://www.express-gateway.io/sitemap.xml"
@@ -26,5 +33,5 @@
     "444614439"
   ],
   "only_content_level": true,
-  "nb_hits": 2758
+  "nb_hits": 2978
 }

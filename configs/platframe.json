@@ -1,0 +1,19 @@
+{
+  "index_name": "platframe",
+  "start_urls": [
+    "https://platframe.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h2",
+    "lvl1": "section h3",
+    "lvl2": "section h4",
+    "lvl3": "section h5",
+    "lvl4": "section h6",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "708975811"
+  ],
+  "nb_hits": 411
+}

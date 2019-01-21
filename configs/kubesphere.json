@@ -1,0 +1,20 @@
+{
+  "index_name": "kubesphere",
+  "start_urls": [
+    "https://docs.kubesphere.io/express/zh-CN/basic/",
+    "https://docs.kubesphere.io/express/zh-CN/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".md-body h1",
+    "lvl1": ".md-body h2",
+    "lvl2": ".md-body h3",
+    "lvl3": ".md-body h4",
+    "lvl4": ".md-body h5",
+    "text": ".md-body p, .md-body li"
+  },
+  "conversation_id": [
+    "633752622"
+  ],
+  "nb_hits": 457
+}

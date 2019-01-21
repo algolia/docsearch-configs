@@ -1,0 +1,20 @@
+{
+  "index_name": "kuka",
+  "start_urls": [
+    "https://connect.kuka.com/en-EN/whatsnew.html",
+    "https://connect.kuka.com/en-EN/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main .content2 h1",
+    "lvl1": "main .content2 h2",
+    "lvl2": "main .content2 h3",
+    "lvl3": "main .content2 h4",
+    "lvl4": "main .content2 h5",
+    "text": "main .content2 p, main .content2 li"
+  },
+  "conversation_id": [
+    "615921416"
+  ],
+  "nb_hits": 181
+}

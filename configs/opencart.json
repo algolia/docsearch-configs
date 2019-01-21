@@ -2,15 +2,39 @@
   "index_name": "opencart",
   "start_urls": [
     {
-      "url": "http://opencart.my/documentation/rounding/",
+      "url": "http://opencart.my/documentation/betteroption/",
       "tags": [
-        "rounding"
+        "betteroption"
+      ]
+    },
+    {
+      "url": "http://opencart.my/documentation/custommenu/",
+      "tags": [
+        "custommenu"
+      ]
+    },
+    {
+      "url": "http://opencart.my/documentation/customunit/",
+      "tags": [
+        "customunit"
+      ]
+    },
+    {
+      "url": "http://opencart.my/documentation/globalqty/",
+      "tags": [
+        "globalqty"
       ]
     },
     {
       "url": "http://opencart.my/documentation/livepriceupdate/",
       "tags": [
         "livepriceupdate"
+      ]
+    },
+    {
+      "url": "http://opencart.my/documentation/rounding/",
+      "tags": [
+        "rounding"
       ]
     },
     {
@@ -33,5 +57,5 @@
   "conversation_id": [
     "512945822"
   ],
-  "nb_hits": 553
+  "nb_hits": 1087
 }

@@ -4,22 +4,11 @@
     {
       "url": "https://docs.aahframework.org/(?P<version>.*?)",
       "variables": {
-        "version": [
-          "v0.10",
-          "v0.9",
-          "v0.8",
-          "v0.7",
-          "v0.6",
-          "v0.5"
-        ]
+        "version": {
+          "url": "https://docs.aahframework.org/",
+          "js": "let versions=[]; for (let b of document.querySelectorAll('.docs-version-dd ul li a span.text')){versions.push(b.innerText.replace('Framework ','').replace('.x','').replace('\\n',''))};return JSON.stringify(versions)"
+        }
       }
-    },
-    {
-      "url": "https://docs.aahframework.org/tutorial/",
-      "tags": [
-        "tutorial"
-      ],
-      "selectors_key": "tutorial"
     }
   ],
   "sitemap_urls": [
@@ -34,17 +23,6 @@
       "lvl3": ".docs-page-content h4",
       "lvl4": ".docs-page-content h5",
       "text": ".docs-page-content p, .docs-page-content li"
-    },
-    "tutorial": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Tutorials"
-      },
-      "lvl1": ".docs-page-content h1",
-      "lvl2": ".docs-page-content h2",
-      "lvl3": ".docs-page-content h3",
-      "lvl4": ".docs-page-content h4",
-      "text": ".docs-page-content p, .docs-page-content li"
     }
   },
   "scrap_start_urls": false,
@@ -55,5 +33,5 @@
   "conversation_id": [
     "543041602"
   ],
-  "nb_hits": 8373
+  "nb_hits": 9944
 }

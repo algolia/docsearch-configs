@@ -2,29 +2,28 @@
   "index_name": "easywechat",
   "start_urls": [
     {
-      "url": "https://www.easywechat.com/docs/master(?P<lang>.*?)/",
+      "url": "https://www.easywechat.com/docs/(?P<version>.*?)/",
       "variables": {
-        "lang": [
-          "en",
-          "zh-CN"
+        "version": [
+          "3.x",
+          "master"
         ]
       }
-    },
-    "https://www.easywechat.com/docs/master/"
+    }
   ],
   "stop_urls": [
     "\\?"
   ],
   "selectors": {
-    "lvl0": "article.docs-content h1",
-    "lvl1": "article.docs-content h2",
-    "lvl2": "article.docs-content h3",
-    "lvl3": "article.docs-content h4",
-    "lvl4": "article.docs-content h5",
-    "text": "article.docs-content p, article.docs-content li"
+    "lvl0": ".article h1",
+    "lvl1": ".article h2",
+    "lvl2": ".article h3",
+    "lvl3": ".article h4",
+    "lvl4": ".article h5",
+    "text": ".article p, .article li"
   },
   "conversation_id": [
-    "567642940"
+    "677075804"
   ],
-  "nb_hits": 1259
+  "nb_hits": 2380
 }

@@ -2,7 +2,7 @@
   "index_name": "sonicdicom",
   "start_urls": [
     {
-      "url": "https://sonicdicom.com/documents/(?P<lang>.*?)/",
+      "url": "https://docs.sonicdicom.com/(?P<lang>.*?)/",
       "variables": {
         "lang": [
           "en",
@@ -11,7 +11,7 @@
       }
     },
     {
-      "url": "https://sonicdicom.com/documents/en/install-manual/",
+      "url": "https://docs.sonicdicom.com/(?P<lang>.*?)/install-manual/",
       "variables": {
         "lang": [
           "en",
@@ -39,5 +39,5 @@
   "conversation_id": [
     "597285363"
   ],
-  "nb_hits": 1469
+  "nb_hits": 1622
 }

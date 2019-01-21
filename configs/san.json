@@ -2,7 +2,7 @@
   "index_name": "san",
   "start_urls": [
     "https://baidu.github.io/san/tutorial/start/",
-    "https://baidu.github.io/san/tutorial/",
+    "https://baidu.github.io/san/practice/",
     "https://baidu.github.io/san/doc/api/",
     "https://baidu.github.io/san/doc/main-members/"
   ],
@@ -18,5 +18,5 @@
   "conversation_id": [
     "410466431"
   ],
-  "nb_hits": 656
+  "nb_hits": 429
 }

@@ -2,7 +2,7 @@
   "index_name": "ckeditor_docs_site",
   "start_urls": [
     {
-      "url": "https://docs.ckeditor.com/ckeditor5/latest/api/",
+      "url": "https://ckeditor.com/docs/ckeditor5/latest/api/",
       "selectors_key": "api",
       "tags": [
         "ckeditor5",
@@ -10,35 +10,35 @@
       ]
     },
     {
-      "url": "https://docs.ckeditor.com/ckeditor5/latest/framework/",
+      "url": "https://ckeditor.com/docs/ckeditor5/latest/framework/",
       "tags": [
         "ckeditor5",
         "framework"
       ]
     },
     {
-      "url": "https://docs.ckeditor.com/ckeditor5/latest/builds/",
+      "url": "https://ckeditor.com/docs/ckeditor5/latest/builds/",
       "tags": [
         "ckeditor5",
         "builds"
       ]
     },
     {
-      "url": "https://docs.ckeditor.com/ckeditor5/latest/features/",
+      "url": "https://ckeditor.com/docs/ckeditor5/latest/features/",
       "tags": [
         "ckeditor5",
         "features"
       ]
     },
     {
-      "url": "https://docs.ckeditor.com/ckeditor5/latest/examples/",
+      "url": "https://ckeditor.com/docs/ckeditor5/latest/examples/",
       "tags": [
         "ckeditor5",
         "examples"
       ]
     },
     {
-      "url": "https://docs.ckeditor.com/ckeditor4/latest/api/",
+      "url": "https://ckeditor.com/docs/ckeditor4/latest/api/",
       "selectors_key": "api",
       "tags": [
         "ckeditor4",
@@ -46,46 +46,46 @@
       ]
     },
     {
-      "url": "https://docs.ckeditor.com/ckeditor4/latest/guide/",
+      "url": "https://ckeditor.com/docs/ckeditor4/latest/guide/",
       "tags": [
         "ckeditor4",
         "guide"
       ]
     },
     {
-      "url": "https://docs.ckeditor.com/letters/latest/guides/",
+      "url": "https://ckeditor.com/docs/letters/latest/guides/",
       "tags": [
         "letters",
         "guides"
       ]
     },
     {
-      "url": "https://docs.ckeditor.com/cs/latest/guides/",
+      "url": "https://ckeditor.com/docs/cs/latest/guides/",
       "tags": [
         "cs",
         "guides"
       ]
     },
     {
-      "url": "https://docs.ckeditor.com/"
+      "url": "https://ckeditor.com/docs/"
     }
   ],
   "stop_urls": [
-    "https://docs.ckeditor.com/ckfinder/.*",
-    "https://docs.ckeditor.com/ckeditor5/[0-9].*/.*",
-    "https://docs.ckeditor.com/ckeditor4/[0-9].*/.*",
-    "https://docs.ckeditor.com/letters/[0-9].*/.*",
-    "https://docs.ckeditor.com/cs/[0-9].*/.*",
-    "https://docs.ckeditor.com/ckeditor5/latest/api/index.html",
-    "https://docs.ckeditor.com/ckeditor5/latest/framework/index.html",
-    "https://docs.ckeditor.com/ckeditor5/latest/builds/index.html",
-    "https://docs.ckeditor.com/ckeditor5/latest/features/index.html",
-    "https://docs.ckeditor.com/ckeditor5/latest/examples/index.html",
-    "https://docs.ckeditor.com/ckeditor4/latest/api/index.html",
-    "https://docs.ckeditor.com/ckeditor4/latest/guide/index.html",
-    "https://docs.ckeditor.com/letters/latest/guides/index.html",
-    "https://docs.ckeditor.com/cs/latest/guides/index.html",
-    "https://docs.ckeditor.com/index.html"
+    "https://ckeditor.com/docs/ckfinder/.*",
+    "https://ckeditor.com/docs/ckeditor5/[0-9].*/.*",
+    "https://ckeditor.com/docs/ckeditor4/[0-9].*/.*",
+    "https://ckeditor.com/docs/letters/[0-9].*/.*",
+    "https://ckeditor.com/docs/cs/[0-9].*/.*",
+    "https://ckeditor.com/docs/ckeditor5/latest/api/index.html",
+    "https://ckeditor.com/docs/ckeditor5/latest/framework/index.html",
+    "https://ckeditor.com/docs/ckeditor5/latest/builds/index.html",
+    "https://ckeditor.com/docs/ckeditor5/latest/features/index.html",
+    "https://ckeditor.com/docs/ckeditor5/latest/examples/index.html",
+    "https://ckeditor.com/docs/ckeditor4/latest/api/index.html",
+    "https://ckeditor.com/docs/ckeditor4/latest/guide/index.html",
+    "https://ckeditor.com/docs/letters/latest/guides/index.html",
+    "https://ckeditor.com/docs/cs/latest/guides/index.html",
+    "https://ckeditor.com/docs/index.html"
   ],
   "selectors": {
     "default": {
@@ -130,5 +130,5 @@
   "conversation_id": [
     "445274927"
   ],
-  "nb_hits": 26597
+  "nb_hits": 33503
 }

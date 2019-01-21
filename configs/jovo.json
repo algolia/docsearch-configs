@@ -6,7 +6,16 @@
       "page_rank": -1,
       "tags": [
         "reference"
-      ]
+      ],
+      "selectors_key": "reference"
+    },
+    {
+      "url": "https://www.jovo.tech/tutorials/",
+      "page_rank": 1,
+      "tags": [
+        "tutorials"
+      ],
+      "selectors_key": "tutorials"
     },
     {
       "url": "https://www.jovo.tech/docs/",
@@ -16,7 +25,10 @@
       ]
     }
   ],
-  "stop_urls": ["reference/lib","reference/examples"],
+  "stop_urls": [
+    "reference/lib",
+    "reference/examples"
+  ],
   "selectors": {
     "default": {
       "lvl0": {
@@ -25,11 +37,23 @@
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl1": "section h1",
-      "lvl2": "section h2",
-      "lvl3": "section h3",
-      "lvl4": "section h4",
-      "text": "section p, section li"
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li"
+    },
+    "tutorials": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Tutorials"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li"
     },
     "reference": {
       "lvl0": {
@@ -37,7 +61,7 @@
         "global": true,
         "default_value": "Reference"
       },
-      "lvl1": "section h1",
+      "lvl1": "#main h1",
       "lvl2": "section h2",
       "lvl3": "section h3",
       "lvl4": "section h4",
@@ -54,5 +78,5 @@
   "conversation_id": [
     "536850996"
   ],
-  "nb_hits": 4006
+  "nb_hits": 7145
 }

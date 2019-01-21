@@ -6,19 +6,21 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'sidebar-nav')]//li/a[contains(@class, 'active')]/../../preceding::h4[1]",
+      "selector": "//nav[contains(@id, 'hub-sidebar')]//a[contains(@class, 'active')]/preceding::h3[1]",
+      "defaulr_value": "Documentation",
+      "global": true,
       "type": "xpath"
     },
-    "lvl1": ".body-content h1",
-    "lvl2": ".body-content h2",
-    "lvl3": ".body-content h3",
-    "lvl4": ".body-content h4",
-    "lvl5": ".body-content h5",
-    "text": ".body-content p, .body-content li"
+    "lvl1": "#content-head h1",
+    "lvl2": "#content-container h2",
+    "lvl3": "#content-container h3",
+    "lvl4": "#content-container h4",
+    "lvl5": "#content-container h5",
+    "text": "#content-container p, #content-container li"
   },
   "min_indexed_level": 1,
   "conversation_id": [
     "357992080"
   ],
-  "nb_hits": 2602
+  "nb_hits": 781
 }

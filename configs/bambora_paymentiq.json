@@ -1,0 +1,26 @@
+{
+  "index_name": "bambora_paymentiq",
+  "start_urls": [
+    "https://docs.paymentiq.io/europe/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//*[contains(@class,'is-active')]/preceding::p[contains(@class,'menu-label')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h1",
+    "lvl2": "#content h2",
+    "lvl3": "#content h4",
+    "lvl5": "#content h5",
+    "text": "#content p, #content li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "689734746"
+  ],
+  "min_indexed_level": 2,
+  "nb_hits": 560
+}

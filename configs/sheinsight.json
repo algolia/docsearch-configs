@@ -1,0 +1,30 @@
+{
+  "index_name": "sheinsight",
+  "start_urls": [
+    "https://sheinsight.github.io/shineout/1.0.x/#/components/GetStart",
+    "https://sheinsight.github.io/shineout/1.0.x/#/",
+    "https://sheinsight.github.io/shineout/1.0.x/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'doc-main-menu')][1]//*[contains(@class,'main-active')][1]/preceding::label[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-markdown h2",
+    "lvl2": ".doc-markdown h3",
+    "lvl3": ".doc-markdown h4",
+    "lvl4": ".doc-markdown h5",
+    "lvl5": ".doc-markdown h6",
+    "text": ".doc-markdown p, .doc-markdown li"
+  },
+  "use_anchors": true,
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": [
+    "714172169"
+  ],
+  "nb_hits": 647
+}

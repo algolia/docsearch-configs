@@ -1,0 +1,33 @@
+{
+  "index_name": "tigera",
+  "start_urls": [
+    "https://docs.tigera.io"
+  ],
+  "sitemap_urls": [
+    "https://docs.tigera.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#content-main h1",
+    "lvl1": "#content-main h2",
+    "lvl2": "#content-main h3",
+    "lvl3": "#content-main h4",
+    "lvl4": "#content-main h5",
+    "lvl5": "#content-main h6",
+    "text": "#content-main p, #content-main li",
+    "version": {
+      "selector": "#navbar .dropdown-toggle",
+      "global": true,
+      "default_value": "Version (v0.0)"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "737300877"
+  ],
+  "nb_hits": 14442
+}

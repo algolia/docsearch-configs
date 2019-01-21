@@ -49,7 +49,18 @@
     "lvl2": ".content h2",
     "lvl3": ".content h3",
     "lvl4": ".content h4",
-    "text": ".content p"
+    "text": ".content p",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "version"
+    ]
   },
   "selectors_exclude": [
     ".version-select"
@@ -58,5 +69,5 @@
   "conversation_id": [
     "322242916"
   ],
-  "nb_hits": 3000
+  "nb_hits": 3142
 }

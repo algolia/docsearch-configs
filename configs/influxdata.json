@@ -13,6 +13,8 @@
           "enterprise_kapacitor"
         ],
         "version": [
+          "v1.7",
+          "v1.6",
           "v1.5",
           "v1.4",
           "v1.3",
@@ -47,7 +49,7 @@
     ".old-version"
   ],
   "only_content_level": true,
-  "nb_hits": 88227,
+  "nb_hits": 89091,
   "conversation_id": [
     "609047509"
   ]

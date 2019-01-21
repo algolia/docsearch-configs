@@ -1,0 +1,153 @@
+{
+  "index_name": "kineticcommunity",
+  "start_urls": [
+    {
+      "url": "https://community.kineticdata.com/platform/",
+      "selectors_key": "platform",
+      "tags": [
+        "Platform"
+      ]
+    },
+    {
+      "url": "https://community.kineticdata.com/solutions/",
+      "selectors_key": "solutions",
+      "tags": [
+        "Solutions"
+      ]
+    },
+    {
+      "url": "https://community.kineticdata.com/integrations/",
+      "selectors_key": "integrations",
+      "tags": [
+        "Integrations"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(2)",
+        "global": true
+      },
+      "lvl1": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
+        "global": true
+      },
+      "lvl2": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(4)",
+        "global": true
+      },
+      "lvl3": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(5)",
+        "global": true
+      },
+      "text": ".community-content p, community-content li"
+    },
+    "platform": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Platform"
+      },
+      "lvl1": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
+        "global": true
+      },
+      "lvl2": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(4):not(.active)",
+        "global": true
+      },
+      "lvl3": ".community-content h1",
+      "lvl4": "",
+      "text": ".community-content p, community-content li"
+    },
+    "solutions": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Solutions"
+      },
+      "lvl1": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
+        "global": true
+      },
+      "lvl2": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(4)",
+        "global": true
+      },
+      "lvl3": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(5):not(.active)",
+        "global": true
+      },
+      "lvl4": ".community-content h1",
+      "text": ".community-content p, community-content li"
+    },
+    "integrations": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Integrations"
+      },
+      "lvl1": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
+        "global": true
+      },
+      "lvl2": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(4)",
+        "global": true
+      },
+      "lvl3": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(5)",
+        "global": true
+      },
+      "lvl4": "",
+      "text": ".community-content p, community-content li"
+    }
+  },
+  "min_indexed_level": 2,
+  "custom_settings": {
+    "attributeForDistinct": "url_without_anchor",
+    "ignorePlurals": false,
+    "ranking": [
+      "words",
+      "filters",
+      "typo",
+      "proximity",
+      "attribute",
+      "exact",
+      "custom"
+    ],
+    "attributesForFaceting": [
+      "tags",
+      "hierarchy.lvl0",
+      "hierarchy.lvl1",
+      "hierarchy.lvl2",
+      "hierarchy.lvl3"
+    ]
+  },
+  "synonyms": [
+    [
+      "js",
+      "javascript"
+    ],
+    [
+      "task",
+      "kinetic task",
+      "workflow"
+    ],
+    [
+      "handler",
+      "workflow handler"
+    ],
+    [
+      "ce",
+      "kinetic request"
+    ],
+    [
+      "kinetics",
+      "kinetic"
+    ]
+  ],
+  "conversation_id": [
+    "719291202"
+  ],
+  "nb_hits": 5306
+}

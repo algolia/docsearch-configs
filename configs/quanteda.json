@@ -1,10 +1,12 @@
 {
   "index_name": "quanteda",
   "start_urls": [
-    "https://docs.quanteda.io/"
+    "https://quanteda.io/"
+  ],
+  "sitemap_urls": [
+    "https://quanteda.io/sitemap.xml"
   ],
   "stop_urls": [
-    "https://docs.quanteda.io/index.html",
     "LICENSE-text.html"
   ],
   "selectors": {
@@ -27,10 +29,18 @@
     "#see-also"
   ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor"
+    ]
   },
+  "scrap_start_urls": false,
   "conversation_id": [
     "553942582"
   ],
-  "nb_hits": 2922
+  "nb_hits": 3932
 }

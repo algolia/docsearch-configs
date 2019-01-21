@@ -1,0 +1,29 @@
+{
+  "index_name": "waffle_map",
+  "start_urls": [
+    "https://dorayakikun.github.io/waffle-map/docs/"
+  ],
+  "sitemap_urls": [
+    "https://dorayakikun.github.io/waffle-map/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".siteNavItemActive",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "624698347"
+  ],
+  "nb_hits": 38
+}

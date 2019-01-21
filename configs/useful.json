@@ -1,0 +1,19 @@
+{
+  "index_name": "useful",
+  "start_urls": [
+    "https://docs.useful.academy"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "text": ".content p, .content li"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "713842193"
+  ],
+  "nb_hits": 318
+}

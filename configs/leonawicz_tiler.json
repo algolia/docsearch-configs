@@ -1,0 +1,34 @@
+{
+  "index_name": "leonawicz_tiler",
+  "start_urls": [
+    "https://ropensci.github.io/tiler/"
+  ],
+  "sitemap_urls": [
+    "https://ropensci.github.io/tiler/sitemap.xml"
+  ],
+  "stop_urls": [
+    "LICENSE-text.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".contents h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents th",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h5",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+  },
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "698656217"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 221
+}

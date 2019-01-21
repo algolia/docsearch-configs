@@ -1,0 +1,34 @@
+{
+  "index_name": "zapier",
+  "start_urls": [
+    "https://zapier.com/developer/documentation/v2/"
+  ],
+  "stop_urls": [
+    "/reference/$",
+    "-1/$",
+    "/scripting/$",
+    "app-lifecycle/$"
+  ],
+  "keep_tags": [
+    "code"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'sidebar')]//a[text()=//h1/text()]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude": [
+    ".on-page"
+  ],
+  "strip_chars": " .,;:#",
+  "nb_hits": 3289
+}

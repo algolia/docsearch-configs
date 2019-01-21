@@ -12,14 +12,17 @@
     "lvl1": ".post-content h1",
     "lvl2": ".post-content h2",
     "lvl3": ".post-content h3",
-    "lvl4": ".post-content h4",
+    "lvl4": ".post-content h4, .post-content table td:first-child",
     "lvl5": ".post-content h5",
-    "text": ".post-content p, .post-content li"
+    "text": ".post-content p, .post-content li, .post-content table td:nth-child(3), .post-content table td:nth-child(4)"
   },
   "strip_chars": " .,;:#",
   "min_indexed_level": 1,
   "conversation_id": [
     "319918646"
   ],
-  "nb_hits": 1750
+  "selectors_exclude": [
+    ".post-content > ul > li > a"
+  ],
+  "nb_hits": 2942
 }
