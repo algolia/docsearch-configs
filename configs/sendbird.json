@@ -2,7 +2,7 @@
   "index_name": "sendbird",
   "start_urls": [
     {
-      "url": "https://docs.sendbird.com/(?P<platform>.*?)",
+      "url": "https://docs.sendbird.com/(?P<platform>.*?)/",
       "variables": {
         "platform": [
           "ios",
@@ -39,5 +39,6 @@
   },
   "only_content_level": true,
   "scrap_start_urls": false,
-  "js_render": true
+  "js_render": true,
+  "nb_hits": 7086
 }
