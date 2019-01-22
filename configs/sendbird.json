@@ -20,19 +20,16 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link.is-active .menu__platform-name",
+      "selector": ".sbdNavDocsItem.isActive",
       "global": true,
-      "default_value": "Platform"
+      "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": "#markdown h2",
-      "default_value": "Chapter"
-    },
-    "lvl2": ".section h3",
-    "lvl3": ".section h4",
-    "lvl4": ".section h5",
-    "lvl5": ".section table tbody td:first-of-type",
-    "text": ".section p, .section li, .section table td:last-of-type"
+    "lvl1": "#sbd_contents h2",
+    "lvl2": "#sbd_contents h3",
+    "lvl3": "#sbd_contents h4",
+    "lvl4": "#sbd_contents h5",
+    "lvl5": "#sbd_contents h6",
+    "text": "#sbd_contents p, #sbd_contents li, #sbd_contents a, #sbd_contents blockquote, #sbd_contents table td p"
   },
   "selectors_exclude": [
     "#change_log"
@@ -42,5 +39,5 @@
   },
   "only_content_level": true,
   "scrap_start_urls": false,
-  "nb_hits": 2915
+  "js_render": true
 }
