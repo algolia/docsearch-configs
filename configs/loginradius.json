@@ -1,22 +1,21 @@
 {
   "index_name": "loginradius",
   "start_urls": [
-    "https://www.loginradius.com/docs",
-    "https://www.loginradius.com/docs/api?accesscode=RaQaDLUY"
+    "https://docs.loginradius.com/",
+    "https://docs.loginradius.com/api?accesscode=RaQaDLUY"
   ],
   "sitemap_urls": [
-    "https://www.loginradius.com/docs/sitemap.xml"
+    "https://docs.loginradius.com/sitemap.xml"
   ],
   "stop_urls": [
-    "https://www.loginradius.com/docs/api/changelog/",
-    "https://www.loginradius.com/docs/videos",
-    "https://www.loginradius.com/docs/api/v1/",
-    "https://www.loginradius.com/docs/getting-started/introduction/glossary"
+    "https://docs.loginradius.com/blog/",
+    "https://docs.loginradius.com/api/v1/",
+    "https://docs.loginradius.com/getting-started/glossary"
   ],
   "selectors": {
     "lvl0": {
       "selector": "#content h1, ul label.md-nav__link--active",
-      "default_value": "Documentation"
+      "default_value": "Documenattion"
     },
     "lvl1": "#content h2, #mdcontainer h1",
     "lvl2": "#content h3, .docs-header h3, #mdcontainer h2",
