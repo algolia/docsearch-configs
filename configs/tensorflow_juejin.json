@@ -4,8 +4,6 @@
     "https://tensorflow.juejin.im/"
   ],
   "stop_urls": [
-    "\\?",
-    "org/versions/"
   ],
   "selectors": {
       "lvl0": "main h1",
