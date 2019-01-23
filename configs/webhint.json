@@ -1,0 +1,40 @@
+{
+  "index_name": "webhint",
+  "start_urls": [
+    "https://webhint.io/docs/"
+  ],
+  "sitemap_urls": [
+    "https://webhint.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav.breadcrumb li:nth-child(3)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".toc-section-title--active",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".wrap-text h1",
+    "lvl3": ".wrap-text h2",
+    "lvl4": ".wrap-text h3, .wrap-text table td:first-child",
+    "lvl5": ".wrap-text h4",
+    "lvl6": ".wrap-text h5",
+    "text": ".wrap-text p, .wrap-text li, .wrap-text table td:nth-child(2)"
+  },
+  "selectors_exclude": [
+    "#further-reading",
+    "#further-reading + ul",
+    "figure"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "749228975"
+  ],
+  "nb_hits": 2651
+}
