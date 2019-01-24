@@ -1,0 +1,26 @@
+{
+  "index_name": "baseui",
+  "start_urls": [
+    "https://baseui.design/"
+  ],
+  "stop_urls": [
+    "/legacy/"
+  ],
+  "selectors": {
+    "lvl0": ".dv.dw.dx h1",
+    "lvl1": ".dv.dw.dx h2",
+    "lvl2": ".dv.dw.dx h3",
+    "lvl3": ".dv.dw.dx h4",
+    "lvl4": ".dv.dw.dx h5",
+    "lvl5": ".dv.dw.dx h6",
+    "text": ".dv.dw.dx p, .dv.dw.dx li"
+  },
+  "selectors_exclude": [
+    ".ed.ee",
+    ".dv.dw.dx h3 code:not(:first-child)"
+  ],
+  "conversation_id": [
+    "757221353"
+  ],
+  "nb_hits": 1146
+}
