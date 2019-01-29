@@ -1,8 +1,12 @@
 {
   "index_name": "veui",
   "start_urls": [
-    "https://baidu-design.github.io/development/veui",
-    "https://baidu-design.github.io/development/"
+    {
+      "url": "https://baidu-design.github.io/(?:(?P<locale>.*?)/)?development/veui",
+      "variables": {
+        "locale": ["en-US"]
+      }
+    }
   ],
   "stop_urls": [
     "\\?"
