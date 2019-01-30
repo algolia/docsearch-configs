@@ -2,6 +2,13 @@
   "index_name": "solace",
   "start_urls": [
     {
+      "url": "https://docs.solace.com/Solace-PubSub-Event-Reference/event_ref_boiler",
+      "selectors_key": "event_reference_guide",
+      "tags": [
+        "event_reference"
+      ]
+    },
+    {
       "url": "https://docs.solace.com/Solace-CLI/CLI-Reference/VMR_CLI_Commands",
       "selectors_key": "cli_reference_guide_vmr",
       "tags": [
