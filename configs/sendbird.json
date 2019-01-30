@@ -36,7 +36,7 @@
   ],
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["version(meta)"]
+    "attributesForFaceting": ["version"]
   },
   "only_content_level": true,
   "scrap_start_urls": false,
