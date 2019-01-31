@@ -1,7 +1,8 @@
 {
   "index_name": "graphql-nexus",
   "start_urls": [
-    "https://nexus.js.org/docs/"
+    "https://nexus.js.org/docs/",
+    "https://nexus.js.org/docs/getting-started"
   ],
   "sitemap_urls": [
     "https://nexus.js.org/sitemap.xml"
@@ -34,5 +35,5 @@
   "conversation_id": [
     "747965226"
   ],
-  "nb_hits": 90
+  "nb_hits": 71
 }
