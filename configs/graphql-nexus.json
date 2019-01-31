@@ -1,10 +1,10 @@
 {
   "index_name": "graphql-nexus",
   "start_urls": [
-    "https://graphql-nexus.com/docs/"
+    "https://nexus.js.org/docs/"
   ],
   "sitemap_urls": [
-    "https://graphql-nexus.com/sitemap.xml"
+    "https://nexus.js.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
