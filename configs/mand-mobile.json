@@ -1,7 +1,7 @@
 {
   "index_name": "mand-mobile",
   "start_urls": [
-    "https://mand-mobile.github.io/2x-doc"
+    "https://didi.github.io/mand-mobile"
   ],
   "stop_urls": [],
   "selectors": {
