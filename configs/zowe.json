@@ -5,7 +5,8 @@
       "url": "https://zowe.github.io/docs-site/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "latest"
+          "latest",
+          "v0-9-x"
         ]
       }
     }
