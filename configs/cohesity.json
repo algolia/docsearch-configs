@@ -1,0 +1,55 @@
+{
+  "index_name": "cohesity",
+  "start_urls": [
+    {
+      "url": "https://developer.cohesity.com/apidocs.html",
+      "selectors_key": "apidocs",
+      "tags": [
+        "apidocs"
+      ]
+    },
+    "https://developer.cohesity.com/"
+  ],
+  "sitemap_urls": [
+    "https://developer.cohesity.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".post h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "lvl5": ".post h5",
+      "text": ".post article p, .post article li"
+    },
+    "apidocs": {
+      "lvl0": "#scroll-container h1",
+      "lvl1": "#scroll-container h2",
+      "lvl2": "#scroll-container h3",
+      "lvl3": "#scroll-container h4",
+      "lvl4": "#scroll-container h5",
+      "text": "#scroll-container p, #scroll-container li"
+    }
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "769358601"
+  ],
+  "nb_hits": 25
+}
