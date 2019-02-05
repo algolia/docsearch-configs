@@ -10,16 +10,18 @@
     },
     {
       "url": "https://docs.solace.com/Solace-CLI/CLI-Reference/VMR_CLI_Commands",
-      "selectors_key": "cli_reference_guide_vmr",
+      "selectors_key": "cli_command",
       "tags": [
-        "cli_vmr"
+        "cli_command",
+        "vmr"
       ]
     },
     {
       "url": "https://docs.solace.com/Solace-CLI/CLI-Reference/APPL_CLI_Commands",
-      "selectors_key": "cli_reference_guide_appliance",
+      "selectors_key": "cli_command",
       "tags": [
-        "cli_appliance"
+        "cli_command",
+        "appl"
       ]
     },
     {
@@ -140,11 +142,20 @@
       "lvl4": ".contents h4",
       "lvl5": ".contents h5",
       "text": ".contents p, .contents li"
+    },
+    "cli_command": {
+      "lvl0": ".book-title",
+      "lvl1": ".section-title,blockquote h2",
+      "lvl2": "blockquote h3,.cmd-section-title",
+      "lvl3": "blockquote h4",
+      "lvl4": "blockquote h5",
+      "text": "blockquote li, blockquote p, .cmd-help td:first-child, .cmd-help td:last-child, .cmd-help-text"
     }
   },
   "selectors_exclude": [
     "[class^=Code_Snippet]",
-    "[summary]"
+    "[summary]",
+    ".cli-tree"
   ],
   "custom_settings": {
     "separatorsToIndex": "_"
@@ -152,5 +163,5 @@
   "conversation_id": [
     "702227168"
   ],
-  "nb_hits": 49077
+  "nb_hits": 63129
 }
