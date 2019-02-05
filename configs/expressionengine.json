@@ -12,11 +12,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "#docsearch-content h1",
-      "global": true,
-      "default_value": "Documentation"
-    },
+    "lvl0": "#docsearch-content h1",
     "lvl1": "#docsearch-content h2",
     "lvl2": "#docsearch-content h3",
     "lvl3": "#docsearch-content h4, #docsearch-content table td:first-child",
@@ -33,5 +29,5 @@
   "conversation_id": [
     "732264627"
   ],
-  "nb_hits": 19581
+  "nb_hits": 19934
 }
