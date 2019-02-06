@@ -3,9 +3,6 @@
   "start_urls": [
     "https://francoischalifour.com/"
   ],
-  "sitemap_urls": [
-    "https://francoischalifour.com/rss.xml"
-  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "article h1",
@@ -14,7 +11,7 @@
     "lvl3": ".post h4",
     "lvl4": ".post h5",
     "lvl5": ".post h6",
-    "text": ".post p, .post li, header p"
+    "text": ".post p, .post li"
   },
   "only_content_level": true,
   "scrap_start_urls": false,
@@ -22,8 +19,7 @@
     "547690260"
   ],
   "selectors_exclude": [
-    "article aside",
-    "article p span"
+    ".post p span"
   ],
   "nb_hits": 340
 }
