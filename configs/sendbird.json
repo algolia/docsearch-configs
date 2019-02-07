@@ -36,10 +36,12 @@
   ],
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["version"]
+    "attributesForFaceting": [
+      "version"
+    ]
   },
   "only_content_level": true,
   "scrap_start_urls": false,
   "js_render": true,
-  "nb_hits": 7086
+  "nb_hits": 7131
 }
