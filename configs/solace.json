@@ -5,7 +5,7 @@
       "url": "https://docs.solace.com/Solace-PubSub-Event-Reference/event_ref_boiler",
       "selectors_key": "event_reference_guide",
       "tags": [
-        "event_reference"
+        "event_reference_guide"
       ]
     },
     {
@@ -143,6 +143,14 @@
       "lvl5": ".contents h5",
       "text": ".contents p, .contents li"
     },
+
+    "event_reference_guide": {
+      "lvl0": ".full_section h2",
+      "lvl1": ".module_div > h3",
+      "lvl2": ".module_div > .event_outer_div h3",
+      "text": ".event_inner_div .event_description"
+    },
+
     "cli_command": {
       "lvl0": ".book-title",
       "lvl1": ".section-title,blockquote h2",
