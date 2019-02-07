@@ -35,7 +35,8 @@
     "#change_log"
   ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting": ["version"]
   },
   "only_content_level": true,
   "scrap_start_urls": false,
