@@ -12,14 +12,14 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//div[contains(@class, 'breadcrumbs')]/*[2]",
-      "type": "xpath",
+      "selector": ".docs-sidebar__title",
       "global": true,
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": "//ul[@id='doc_menu']/li/ul/ul[.//li[contains(@class, 'active')]]/preceding::li[contains(@class, 'title')][1]",
+      "selector": "//*[contains(@class,'docs-sidebar__file-tree')]//li[contains(@class,'is-selected')]/preceding::label[1]",
       "type": "xpath",
+      "default_value": "Chapter",
       "global": true
     },
     "lvl2": ".docs-prose h1",
@@ -30,15 +30,16 @@
     "text": ".docs-prose p, .docs-prose li, .docs-prose table td:last-child"
   },
   "selectors_exclude": [
-    ".help-box",
-    "#contents",
-    "#contents + ul",
-    ".feedback-container",
-    "[id^='next-step']",
-    "[id^='next-step'] ~ p"
+    ".docs-help",
+    ".docs-article-footer",
+    "#table-of-contents",
+    "#table-of-contents + .docs-article__list"
   ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "conversation_id": [
-    "564130615"
+    "773482498"
   ],
-  "nb_hits": 86619
+  "nb_hits": 91117
 }
