@@ -6,6 +6,9 @@
   "stop_urls": [
     "/release-notes/"
   ],
+  "sitemap_urls": [
+    "https://docs.sonicdicom.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
