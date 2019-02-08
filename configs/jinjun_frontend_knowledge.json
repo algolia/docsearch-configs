@@ -1,7 +1,7 @@
 {
   "index_name": "jinjun_frontend_knowledge",
   "start_urls": [
-    "https://jinjun.wiki/Frontend-Knowledge/"
+    "https://jinjun1994.github.io/Frontend-Knowledge-Base/"
   ],
   "stop_urls": [],
   "selectors": {
