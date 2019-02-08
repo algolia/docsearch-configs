@@ -37,7 +37,8 @@
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "version"
+      "version",
+      "platform"
     ]
   },
   "only_content_level": true,
