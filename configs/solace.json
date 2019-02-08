@@ -143,14 +143,13 @@
       "lvl5": ".contents h5",
       "text": ".contents p, .contents li"
     },
-
     "event_reference_guide": {
       "lvl0": ".full_section h2",
       "lvl1": ".module_div > h3",
       "lvl2": ".module_div > .event_outer_div h3",
-      "text": ".event_inner_div .event_description"
+      "lvl3": ".event_inner_div [class='event_label']",
+      "text": ".event_inner_div .event_description, .event_inner_div .event_recommended_actions"
     },
-
     "cli_command": {
       "lvl0": ".book-title",
       "lvl1": ".section-title,blockquote h2",
@@ -171,5 +170,5 @@
   "conversation_id": [
     "702227168"
   ],
-  "nb_hits": 63129
+  "nb_hits": 66250
 }
