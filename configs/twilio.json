@@ -19,7 +19,7 @@
     "lvl1": {
       "selector": "//*[contains(@class,'docs-sidebar__file-tree')]//li[contains(@class,'is-selected')]/preceding::label[1]",
       "type": "xpath",
-      "default_value": "Chapter",
+      "default_value": "Tutorial",
       "global": true
     },
     "lvl2": ".docs-prose h1",
