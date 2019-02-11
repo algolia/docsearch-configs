@@ -10,10 +10,12 @@
           "4.0"
         ]
       }
-    }
+    },
+    "https://getbootstrap.com/docs/"
   ],
   "stop_urls": [
-    "/examples/.+"
+    "/examples/.+",
+    "getbootstrap.com/docs/3"
   ],
   "selectors": {
     "lvl0": {
@@ -31,5 +33,5 @@
   "selectors_exclude": [
     ".bd-example"
   ],
-  "nb_hits": 7609
+  "nb_hits": 7563
 }
