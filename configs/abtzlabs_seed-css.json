@@ -7,7 +7,12 @@
         "v1"
       ]
     },
-    "http://abtzlabs.github.io/seed-css/"
+    {
+      "url": "http://abtzlabs.github.io/seed-css/",
+      "tags": [
+        "master"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
