@@ -6,6 +6,9 @@
   "stop_urls": [
     "http://dplyr.tidyverse.org/index.html"
   ],
+  "sitemap_urls": [
+    "https://dplyr.tidyverse.org/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".contents h1",
     "lvl1": ".contents h2",
@@ -17,10 +20,11 @@
   "selectors_exclude": [
     ".dont-index"
   ],
-  "sitemap_urls": [
-    "https://dplyr.tidyverse.org/sitemap.xml"
-  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "conversation_id": [
-    "586121310"	
-  ]
+    "586121310"
+  ],
+  "nb_hits": 3482
 }
