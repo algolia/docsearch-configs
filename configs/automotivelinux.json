@@ -1,33 +1,60 @@
 {
   "index_name": "automotivelinux",
   "start_urls": [
-    "http://docs.automotivelinux.org/docs"
+    {
+      "url": "http://docs.automotivelinux.org/master/docs/getting_started/en/dev/",
+      "tags": [
+        "master"
+      ]
+    },
+    {
+      "url": "http://docs.automotivelinux.org/master/docs/",
+      "tags": [
+        "master"
+      ]
+    },
+    {
+      "url": "http://docs.automotivelinux.org/flounder/docs/getting_started/en/dev/",
+      "tags": [
+        "flounder"
+      ]
+    },
+    {
+      "url": "http://docs.automotivelinux.org/flounder/docs/",
+      "tags": [
+        "flounder"
+      ]
+    }
   ],
   "sitemap_urls": [
-    "http://docs.automotivelinux.org/sitemap.xml"
+    "http://docs.automotivelinux.org/master/sitemap.xml"
   ],
-  "stop_urls": [
-    "^((?!\\.html).)*$"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//div[contains(@class, 'site-toc-container')]//a[contains(@class, 'this-page')][1]/preceding::span[1]",
+      "selector": "//*[contains(@class, 'site-toc')]//a[substring-after(//link[contains(@rel, 'canonical')]/@href,'http://docs.automotivelinux.org')=@href]/preceding::*[contains(@class,'toc-section-heading')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": ".page-content h1",
+      "selector": "#page-toc-source h1",
       "global": true
     },
-    "lvl2": ".page-content h2",
-    "lvl3": ".page-content h3",
-    "lvl4": ".page-content h4",
-    "lvl5": ".page-content h5",
-    "text": ".page-content p, .page-content li, .page-content td"
+    "lvl2": "#page-toc-source h2",
+    "lvl3": "#page-toc-source h3",
+    "lvl4": "#page-toc-source h4",
+    "lvl5": "#page-toc-source h5",
+    "text": "#page-toc-source p, #page-toc-source li, #page-toc-source td"
   },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    ".home"
+  ],
   "conversation_id": [
     "287326440"
   ],
-  "nb_hits": 27072
+  "nb_hits": 41677
 }
