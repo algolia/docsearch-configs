@@ -31,7 +31,7 @@
       "selector": "//meta[contains(@property,'og:locale')]/@content",
       "type": "xpath",
       "global": true,
-      "default_value": "en"
+      "default_value": "ru"
     }
   },
   "custom_settings": {
