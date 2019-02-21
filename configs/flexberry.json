@@ -19,7 +19,7 @@
       "selector": "//nav/ul/li[.//*[contains(@class,'active')]]/a",
       "type": "xpath",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Chapter"
     },
     "lvl2": "#content h1",
     "lvl3": ".post-content h2",
@@ -33,6 +33,11 @@
       "global": true,
       "default_value": "en"
     }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
   "conversation_id": [
     "778813556"
