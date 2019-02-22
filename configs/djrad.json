@@ -18,18 +18,18 @@
       "default_value": "Sub Menu"
     },
     "lvl2": "article h1",
-    "lvl3": "article h2",
+    "lvl3": "article h2, .class > dt .descname, .function > dt .descname",
     "lvl4": "article h3",
     "lvl5": "article h4",
-    "text": "article p, article li"
+    "text": "article p, article li, .attribute .descname"
   },
   "selectors_exclude": [
-    "code",
+    ".code-block",
     ".search-exclude"
   ],
   "js_render": true,
   "conversation_id": [
     "545511921"
   ],
-  "nb_hits": 107
+  "nb_hits": 6181
 }

@@ -1,0 +1,90 @@
+{
+  "index_name": "brew_formulae",
+  "start_urls": [
+    {
+      "url": "https://formulae.brew.sh/analytics/",
+      "selectors_key": "analytics",
+      "tags": [
+        "analytics"
+      ]
+    },
+    {
+      "url": "https://formulae.brew.sh/docs/",
+      "selectors_key": "docs",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://formulae.brew.sh/formula/",
+      "selectors_key": "formula",
+      "tags": [
+        "formula"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://formulae.brew.sh/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\.json"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": "#wrap h1",
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#wrap p, #wrap li"
+    },
+    "formula": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Formulae"
+      },
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#default p:nth-child(-n+4)"
+    },
+    "docs": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "JSON API documentation"
+      },
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#default p:nth-child(-n+4)"
+    },
+    "analytics": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Analytics data"
+      },
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#wrap td:not(.number-data)"
+    }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_+@/"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "771112570"
+  ],
+  "nb_hits": 114098
+}

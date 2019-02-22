@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".markdown-body nav > a:nth-child(2)",
+      "selector": "#breadcrumbs > a:nth-child(2)",
       "global": true,
       "default_value": "Documentation"
     },
@@ -25,5 +25,5 @@
     "#next-steps",
     "#next-steps ~ p"
   ],
-  "nb_hits": 3151
+  "nb_hits": 3138
 }

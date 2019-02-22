@@ -5,7 +5,8 @@
       "url": "https://zowe.github.io/docs-site/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "latest"
+          "latest",
+          "v0-9-x"
         ]
       }
     }
@@ -41,5 +42,5 @@
     "693711568"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 3169
+  "nb_hits": 8306
 }

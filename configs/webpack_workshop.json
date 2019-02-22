@@ -1,7 +1,8 @@
 {
-  "index_name": "salestim",
+  "index_name": "webpack_workshop",
   "start_urls": [
-    "https://help.salestim.fr/"
+    "https://slashgear.github.io/webpack-workshop/index.html",
+    "https://slashgear.github.io/webpack-workshop"
   ],
   "stop_urls": [],
   "selectors": {
@@ -30,8 +31,8 @@
     ]
   },
   "conversation_id": [
-    "742113422"
+    "760483792"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 717
+  "nb_hits": 131
 }

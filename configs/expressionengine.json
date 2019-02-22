@@ -5,31 +5,29 @@
       "url": "https://docs.expressionengine.com/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "latest",
-          "v4",
-          "v3"
+          "latest"
         ]
       }
     }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".top-nav .breadcrumb li + li a",
-      "global": true
-    },
-    "lvl1": {
-      "selector": ".top-nav .breadcrumb li + li + li a",
-      "global": true
-    },
-    "lvl2": "#content h1",
-    "lvl3": "#content h2",
-    "lvl4": "#content h3",
-    "lvl5": "#content h4",
-    "text": "#content p, #content li"
+    "lvl0": "#docsearch-content h1",
+    "lvl1": "#docsearch-content h2",
+    "lvl2": "#docsearch-content h3",
+    "lvl3": "#docsearch-content h4, #docsearch-content table td:first-child",
+    "lvl4": "#docsearch-content h5",
+    "text": "#docsearch-content p, #docsearch-content li, #docsearch-content table td:last-child"
+  },
+  "selectors_exclude": [
+    ".table-of-contents",
+    ".docs-footer"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
   },
   "conversation_id": [
     "732264627"
   ],
-  "nb_hits": 70490
+  "nb_hits": 19934
 }

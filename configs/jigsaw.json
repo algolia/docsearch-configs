@@ -1,23 +1,25 @@
 {
   "index_name": "jigsaw",
   "start_urls": [
-    "http://jigsaw.tighten.co/docs/installation/",
-    "http://jigsaw.tighten.co/docs/.*"
+    "http://jigsaw.tighten.co/docs/"
+  ],
+  "sitemap_urls": [
+    "http://jigsaw.tighten.co/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": ".markdown h4:first-child",
       "default_value": "Documentation"
     },
-    "lvl1": ".documentation-page h2",
-    "lvl2": ".documentation-page h3",
-    "lvl3": ".documentation-page h4",
-    "lvl4": ".documentation-page h5",
-    "text": ".documentation-page p"
+    "lvl1": ".markdown h2",
+    "lvl2": ".markdown h3",
+    "lvl3": ".markdown h4:not(:first-child)",
+    "lvl4": ".markdown h5",
+    "text": ".markdown p"
   },
   "min_indexed_level": 1,
   "conversation_id": [
     "189595729"
   ],
-  "nb_hits": 268
+  "nb_hits": 373
 }

@@ -2,12 +2,6 @@
   "index_name": "tiny",
   "start_urls": [
     {
-      "url": "https://www.tiny.cloud/docs-preview",
-      "tags": [
-        "docs-preview"
-      ]
-    },
-    {
       "url": "https://www.tiny.cloud/docs-beta",
       "tags": [
         "docs-beta"
@@ -17,6 +11,12 @@
       "url": "https://www.tiny.cloud/docs-3x",
       "tags": [
         "docs-3x"
+      ]
+    },
+    {
+      "url": "https://www.tiny.cloud/docs-4x",
+      "tags": [
+        "docs-4x"
       ]
     },
     {
@@ -63,5 +63,5 @@
   "conversation_id": [
     "702337513"
   ],
-  "nb_hits": 14197
+  "nb_hits": 15618
 }

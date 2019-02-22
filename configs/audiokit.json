@@ -1,0 +1,20 @@
+{
+  "index_name": "audiokit",
+  "start_urls": [
+    "https://audiokit.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+
+    "lvl0": ".main-content h1",
+    "lvl1": ".main-content .token",
+    "lvl2": ".main-content h4",
+    "lvl3": ".main-content .nf",
+    "lvl4": "section.section table td:first-child",
+    "text": "section.section > p, .abstract > p, section.section table p"
+  },
+  "conversation_id": [
+    "769144492"
+  ],
+  "nb_hits": 12410
+}

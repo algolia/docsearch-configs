@@ -29,11 +29,12 @@
     "lvl2": ".content h3",
     "lvl3": ".content h4",
     "lvl4": ".content h5",
+    "lvl5": ".content h6",
     "text": ".content p, .content li"
   },
   "conversation_id": [
     "538992189"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 25080
+  "nb_hits": 46610
 }

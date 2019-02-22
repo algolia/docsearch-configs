@@ -1,0 +1,27 @@
+{
+  "index_name": "brightspot",
+  "start_urls": [
+    "http://docs.brightspot.com/"
+  ],
+  "sitemap_urls": [
+    "http://docs.brightspot.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".toctree-l1.current > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".Content-document h1",
+    "lvl2": ".Content-document h2",
+    "lvl3": ".Content-document h3, .Content-document table td:first-child",
+    "lvl4": ".Content-document h4",
+    "text": ".Content-document p, .Content-document li, .Content-document table td:not(:first-child)"
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "767053065"
+  ],
+  "nb_hits": 15968
+}

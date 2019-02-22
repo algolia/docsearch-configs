@@ -1,0 +1,44 @@
+{
+  "index_name": "developers_blend",
+  "start_urls": [
+    "https://developers.blend.com/docs/",
+    "https://developers.blend.com/docs/api/quick-start"
+  ],
+  "sitemap_urls": [
+    "https://developers.blend.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".slidingNav .siteNavGroupActive",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".post h1",
+    "lvl3": ".post h2",
+    "lvl4": ".post h3",
+    "lvl5": ".post h4",
+    "lvl6": ".post h5",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "761640390"
+  ],
+  "nb_hits": 673
+}

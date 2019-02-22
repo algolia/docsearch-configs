@@ -6,22 +6,24 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".bs-sidebar-section-active .bs-sidebar-section-heading",
+      "selector": ".js-search-active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".bs-docs-section h2 a",
-    "lvl2": ".bs-docs-section h3",
-    "lvl3": ".bs-docs-section h4",
-    "lvl4": ".bs-docs-section h5",
-    "text": ".bs-docs-section p, .bs-docs-section li"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4, main td:first-child",
+    "lvl5": "main h5",
+    "text": "main p, main li"
   },
   "selectors_exclude": [
-    "small"
+    "[aria-hidden]",
+    ".sr-only"
   ],
   "strip_chars": " .,;:#",
   "conversation_id": [
     "548368231"
   ],
-  "nb_hits": 1120
+  "nb_hits": 1805
 }

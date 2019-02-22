@@ -1,7 +1,7 @@
 {
   "index_name": "mand-mobile",
   "start_urls": [
-    "https://mand-mobile.github.io/2x-doc"
+    "https://didi.github.io/mand-mobile"
   ],
   "stop_urls": [],
   "selectors": {
@@ -34,5 +34,5 @@
   "conversation_id": [
     "732082320"
   ],
-  "nb_hits": 5214
+  "nb_hits": 5373
 }

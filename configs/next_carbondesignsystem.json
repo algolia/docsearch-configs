@@ -1,0 +1,35 @@
+{
+  "index_name": "next_carbondesignsystem",
+  "start_urls": [
+    "https://next.carbondesignsystem.com"
+  ],
+  "stop_urls": [
+    "/code/$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@class,'nav__navigation')]//*[@aria-current='page']/preceding::*[contains(@class,'nav__submenu-title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "h2#page-title",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".page-content h2",
+    "lvl3": ".page-content h3",
+    "lvl4": ".page-content h4",
+    "lvl5": ".page-content h5",
+    "lvl6": ".page-content h6",
+    "text": ".page-content p, p.page-header__label, .page-content table td, .page-content .page-ul li"
+  },
+  "selectors_exclude": [
+    ".anchor-links"
+  ],
+  "conversation_id": [
+    "772198821"
+  ],
+  "nb_hits": 7880
+}
