@@ -2,21 +2,33 @@
   "index_name": "c_vladislav",
   "start_urls": [
     {
-      "url": "https://vladislav-lyuminarskiy-websites.github.io/C-course-website/",
+      "url": "https://c-course.github.io",
       "tags": [
-        "c"
+        "c-course"
       ]
     },
     {
-      "url": "https://vladislav-lyuminarskiy-websites.github.io/Java-course-website/",
+      "url": "https://java-materials.github.io",
       "tags": [
-        "java"
+        "java-course"
       ]
     },
     {
-      "url": "https://vladislav-lyuminarskiy-websites.github.io/Web-course-website/",
+      "url": "https://web-courses.github.io",
       "tags": [
-        "web"
+        "web-course"
+      ]
+    },
+    {
+      "url": "https://oop-course.github.io",
+      "tags": [
+        "oop-course_ru-RU"
+      ]
+    },
+    {
+      "url": "https://oop-course.github.io/en/",
+      "tags": [
+        "oop-course_en-US"
       ]
     }
   ],
