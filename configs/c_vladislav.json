@@ -20,15 +20,9 @@
       ]
     },
     {
-      "url": "https://oop-course.github.io/(?!en).*?/",
+      "url": "https://oop-course.github.io/",
       "tags": [
-        "oop-course_ru-RU"
-      ]
-    },
-    {
-      "url": "https://oop-course.github.io/en/",
-      "tags": [
-        "oop-course_en-US"
+        "oop-course"
       ]
     }
   ],
@@ -43,13 +37,24 @@
     "lvl2": ".content h2",
     "lvl3": ".content h3",
     "lvl4": ".content h4",
+    "lvl5": ".content h5",
     "text": ".content p, .content li",
-    "lvl5": ".content h5"
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
   "scrap_start_urls": false,
   "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "615072637"
   ],
-  "nb_hits": 1875
+  "nb_hits": 3108
 }
