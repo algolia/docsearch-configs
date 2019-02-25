@@ -6,9 +6,16 @@
       "variables": {
         "lang": [
           "en",
+          "es-ES",
           "fr",
+          "id-ID",
+          "ja",
           "pt-BR",
-          "zh-Hans"
+          "ru",
+          "tr",
+          "uk",
+          "zh-Hans",
+          "zh-Hant"
         ]
       }
     }
