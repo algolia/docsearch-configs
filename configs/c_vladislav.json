@@ -20,7 +20,7 @@
       ]
     },
     {
-      "url": "https://oop-course.github.io",
+      "url": "https://oop-course.github.io/(?!en).*?/",
       "tags": [
         "oop-course_ru-RU"
       ]
