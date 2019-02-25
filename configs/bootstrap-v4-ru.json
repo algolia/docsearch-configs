@@ -5,6 +5,7 @@
       "url": "http://bootstrap-4.ru/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "4.3.1",
           "4.2.1",
           "4.1",
           "4.0"
@@ -12,7 +13,12 @@
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/examples/"
+  ],
+  "sitemap_urls": [
+    "http://bootstrap-4.ru/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".bd-toc-item.active > a",
     "lvl1": ".bd-content h1",
@@ -22,7 +28,7 @@
   },
   "min_indexed_level": 1,
   "conversation_id": [
-    "423628659"
+    "786529004"
   ],
-  "nb_hits": 9488
+  "nb_hits": 12756
 }
