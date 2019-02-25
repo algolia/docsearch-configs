@@ -1,10 +1,11 @@
 {
   "index_name": "loginradius",
   "start_urls": [
-    "https://www.loginradius.com/docs/api?accesscode=RaQaDLUY"
+    "https://www.loginradius.com/docs/api?accesscode=RaQaDLUY",
+    "https://www.loginradius.com/docs/"
   ],
   "sitemap_urls": [
-    "https://www.loginradius.com/docs/sitemap.xml",
+    "https://www.loginradius.com/docs/sitemap.xml"
   ],
   "stop_urls": [
     "https://www.loginradius.com/docs/api/v1/",
@@ -28,5 +29,5 @@
   "conversation_id": [
     "432571474"
   ],
-  "nb_hits": 0 
+  "nb_hits": 24109
 }
