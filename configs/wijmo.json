@@ -8,7 +8,9 @@
     {
       "url": "http://us.grapecitydev.com/wijmo/demos/",
       "selectors_key": "demos",
-      "tags": ["demos"]
+      "tags": [
+        "demos"
+      ]
     }
   ],
   "sitemap_urls": [
@@ -18,24 +20,24 @@
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-      "docs": {
-        "lvl0": ".post article h1",
-        "lvl1": ".post article h1",
-        "lvl2": ".post h2",
-        "lvl3": ".post h3",
-        "lvl4": ".post h4",
-        "lvl5": ".post h5",
-        "text": ".post article p, .post article li"
-      },
-      "demos": {
-        "lvl0": ".app-right h1",
-        "lvl1": ".app-right h1",
-        "lvl2": ".app-right h2",
-        "lvl3": ".app-right h3",
-        "lvl4": ".app-right h4",
-        "lvl5": ".app-right h5",
-        "text": ".post article p, .post article li"
-      }
+    "docs": {
+      "lvl0": ".post article h1",
+      "lvl1": ".post article h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "lvl5": ".post h5",
+      "text": ".post article p, .post article li"
+    },
+    "demos": {
+      "lvl0": ".app-right h1",
+      "lvl1": ".app-right h1",
+      "lvl2": ".app-right h2",
+      "lvl3": ".app-right h3",
+      "lvl4": ".app-right h4",
+      "lvl5": ".app-right h5",
+      "text": ".post article p, .post article li"
+    }
   },
   "selectors_exclude": [
     ".hash-link"
@@ -49,5 +51,5 @@
   "conversation_id": [
     "726462690"
   ],
-  "nb_hits": 584
+  "nb_hits": 5016
 }
