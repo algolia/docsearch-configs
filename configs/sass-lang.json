@@ -1,15 +1,16 @@
 {
   "index_name": "sass-lang",
   "start_urls": [
-    "http://staging.sass-lang.com/",
+     {
+      "url": "http://staging.sass-lang.com/functions/css",
+      "selectors_key": "default"
+    }
     {
       "url": "http://staging.sass-lang.com/functions/",
       "selectors_key": "functions"
     },
-    {
-      "url": "http://staging.sass-lang.com/functions/css",
-      "selectors_key": "default"
-    }
+    "http://staging.sass-lang.com/"
+   
   ],
   "sitemap_urls": [
     "http://staging.sass-lang.com/sitemap.xml"
