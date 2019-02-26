@@ -1,28 +1,48 @@
 {
   "index_name": "sass-lang",
   "start_urls": [
+     {
+      "url": "http://staging.sass-lang.com/functions/css",
+      "selectors_key": "default"
+    }
+    {
+      "url": "http://staging.sass-lang.com/functions/",
+      "selectors_key": "functions"
+    },
     "http://staging.sass-lang.com/"
+   
   ],
   "sitemap_urls": [
     "http://staging.sass-lang.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "main h1",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "main h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".docSearch-content h2",
+      "lvl2": ".docSearch-content :not(.code-example) > :not(aside) > h3, .docSearch-content > :not(aside) > h3, .docSearch-content > h3",
+      "lvl3": ".docSearch-content h4",
+      "lvl4": ".docSearch-content h5",
+      "lvl5": ".docSearch-content h6",
+      "text": ".docSearch-content p, .docSearch-content li"
     },
-    "lvl1": "[class*='grail__main'] h2",
-    "lvl2": "[class*='grail__main'] h3",
-    "lvl3": "[class*='grail__main'] h4",
-    "lvl4": "[class*='grail__main'] h5",
-    "lvl5": "[class*='grail__main'] h6",
-    "text": "[class*='grail__main'] p, [class*='grail__main'] li"
+    "functions": {
+      "lvl0": {
+        "selector": "main h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".docSearch-function",
+      "text": ".function p, .function li"
+    },
   },
   "only_content_level": true,
   "custom_settings": {
-    "separatorsToIndex": "#_"
+    "separatorsToIndex": "@-&#{_"
   },
   "conversation_id": [
     "785935668"
