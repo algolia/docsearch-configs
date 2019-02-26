@@ -16,6 +16,9 @@
     "lvl4": ".markdown-body h4",
     "text": ".markdown-body p, .markdown-body li"
   },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "conversation_id": [
     "504447721"
   ],
