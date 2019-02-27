@@ -1,21 +1,7 @@
 {
   "index_name": "caffe2ref",
   "start_urls": [
-    {
-      "url": "http://caffe2.ai/docs",
-      "selectors_key": "doc",
-      "page_rank": 1
-    },
-    {
-      "url": "https://caffe2.ai/docs",
-      "selectors_key": "doc",
-      "page_rank": 1
-    },
-    {
-      "url": "http://caffe2.ai/doxygen-python/html",
-      "selectors_key": "ref"
-    },
-    "http://caffe2.ai/doxygen-python/html/annotated.html"
+    "https://caffe2.ai/docs"
   ],
   "sitemap_urls": [
     "https://caffe2.ai/sitemap.xml"
@@ -26,50 +12,26 @@
     "_source.html"
   ],
   "selectors": {
-    "doc": {
-      "lvl0": {
-        "selector": "//nav//a[contains(@class,'navItemActive')]//preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": ".post-header h1.post-title",
-      "lvl2": ".post-content h2",
-      "lvl3": ".post-content h3",
-      "lvl4": ".post-content h4",
-      "lvl5": ".post-content h5",
-      "text": "article.post-content p, article.post-content li"
+    "lvl0": {
+      "selector": "//nav//a[contains(@class,'navItemActive')]//preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "ref": {
-      "lvl0": "#projectname",
-      "lvl1": {
-        "selector": "//*[@id='nav-path']/ul/li[1]/a",
-        "type": "xpath"
-      },
-      "lvl2": {
-        "selector": "//*[@id='nav-path']/ul/li[2]/a",
-        "type": "xpath"
-      },
-      "lvl3": {
-        "selector": "//*[@id='nav-path']/ul/li[3]/a",
-        "type": "xpath"
-      },
-      "lvl4": ".groupheader",
-      "lvl5": "td.memItemRight, .memtitle, td.memname",
-      "text": ".textblock"
-    }
+    "lvl1": ".post-header h1.post-title",
+    "lvl2": ".post-content h2",
+    "lvl3": ".post-content h3",
+    "lvl4": ".post-content h4, .post-content td:first-child code",
+    "lvl5": ".post-content h5",
+    "text": "article.post-content p, article.post-content li, .post-content td:last-child"
   },
   "selectors_exclude": [
     ".permalink",
     "#markdown-toc",
     ".header-link"
   ],
-  "min_indexed_level": {
-    "doc": 1,
-    "ref": 3
-  },
   "conversation_id": [
     "344789353"
   ],
-  "nb_hits": 3876
+  "nb_hits": 7639
 }
