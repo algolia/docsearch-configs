@@ -1,0 +1,33 @@
+{
+  "index_name": "rivet_iu",
+  "start_urls": [
+    "https://rivet.iu.edu/components/",
+    "https://rivet.iu.edu/content-guide/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://rivet.iu.edu/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@class,'rvtd-nav')]//*[contains(@class,'current')]/preceding::*[contains(@class,'rvt-m-bottom-sm')][1]",
+      "type":"xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".rvtd-tube__inner h1",
+    "lvl2": ".rvtd-tube__inner h2",
+    "lvl3": ".rvtd-tube__inner h3",
+    "lvl4": ".rvtd-tube__inner h4",
+    "lvl5": ".rvtd-tube__inner h5",
+    "lvl6": ".rvtd-tube__inner h6",
+    "text": ".rvtd-tube__inner p, .rvtd-tube__inner li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "781813436"
+  ],
+  "nb_hits": 1264
+}
