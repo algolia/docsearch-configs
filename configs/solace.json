@@ -80,7 +80,12 @@
   "stop_urls": [
     "html\\?",
     "/API-Developer-Online-Ref-Documentation/java/index-all.html",
-    "-example.html$"
+    "-example.html$",
+    "\\.js$",
+    "\\.png$",
+    "\\.gif$",
+    "\\.png$",
+    "Not-Found.htm"
   ],
   "sitemap_urls": [
     "https://docs.solace.com/Sitemap.xml"
@@ -208,5 +213,5 @@
   "conversation_id": [
     "702227168"
   ],
-  "nb_hits": 93134
+  "nb_hits": 70459
 }
