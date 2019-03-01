@@ -7,6 +7,7 @@
   "stop_urls": [
     "/_"
   ],
+  "sitemap_urls": ["https://calliope.readthedocs.io/sitemap.xml"],
   "selectors": {
     "lvl0": ".section h1",
     "lvl1": ".section h2",
