@@ -6,14 +6,16 @@
       "selectors_key": "api",
       "tags": [
         "api"
-      ]
+      ],
+      "page_rank": 10
     },
     {
       "url": "https://stripe.com/docs",
       "selectors_key": "docs",
       "tags": [
         "docs"
-      ]
+      ],
+      "page_rank": 1
     },
     {
       "url": "https://support.stripe.com/questions",
@@ -111,5 +113,5 @@
       "content"
     ]
   },
-  "nb_hits": 24044
+  "nb_hits": 24272
 }
