@@ -84,10 +84,11 @@
   "selectors_exclude": [
     "hr ~ div",
     "#next-steps",
-    "#next-steps ~ p"
+    "#next-steps ~ p",
+    "h3 span"
   ],
   "conversation_id": [
     "487785557"
   ],
-  "nb_hits": 7942
+  "nb_hits": 10026
 }
