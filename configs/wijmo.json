@@ -3,7 +3,10 @@
   "start_urls": [
     {
       "url": "http://us.grapecitydev.com/wijmo/docs/",
-      "selectors_key": "docs"
+      "selectors_key": "docs",
+      "tags": [
+        "docs"
+      ]
     },
     {
       "url": "http://us.grapecitydev.com/wijmo/demos/",
@@ -45,7 +48,8 @@
   "custom_settings": {
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "tags"
     ]
   },
   "conversation_id": [
