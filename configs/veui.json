@@ -1,7 +1,7 @@
 {
   "index_name": "veui",
   "start_urls": [
-    "https://baidu-design.github.io/"
+    "https://veui.dev/"
   ],
   "stop_urls": [
     "\\?"
