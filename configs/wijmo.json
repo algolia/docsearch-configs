@@ -30,13 +30,13 @@
       "text": ".post article p, .post article li"
     },
     "demos": {
-      "lvl0": ".app-right h1",
-      "lvl1": ".app-right h1",
-      "lvl2": ".app-right h2",
-      "lvl3": ".app-right h3",
-      "lvl4": ".app-right h4",
-      "lvl5": ".app-right h5",
-      "text": ".post article p, .post article li"
+      "lvl0": ".app-content-description h1",
+      "lvl1": ".app-content-description h1",
+      "lvl2": ".app-content-description h2",
+      "lvl3": ".app-content-description h3",
+      "lvl4": ".app-content-description h4",
+      "lvl5": ".app-content-description h5",
+      "text": ".app-content-description p, .app-content-description li"
     }
   },
   "selectors_exclude": [
@@ -51,5 +51,5 @@
   "conversation_id": [
     "726462690"
   ],
-  "nb_hits": 5016
+  "nb_hits": 6707
 }
