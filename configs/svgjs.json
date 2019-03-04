@@ -1,8 +1,7 @@
 {
   "index_name": "svgjs",
   "start_urls": [
-    "http://svgjs.com/",
-    "https://svgdotjs.github.io/"
+    "http://svgjs.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,5 +21,10 @@
   "conversation_id": [
     "335727050"
   ],
-  "nb_hits": 1438
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "nb_hits": 1516
 }

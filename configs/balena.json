@@ -1,0 +1,23 @@
+{
+  "index_name": "balena",
+  "start_urls": [
+    "https://www.balena.io/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".site-navigation .nav-tabs li.active",
+    "lvl1": ".page-content-wrapper h1",
+    "lvl2": ".page-content-wrapper h2",
+    "lvl3": ".page-content-wrapper h3",
+    "lvl4": ".page-content-wrapper h4",
+    "text": ".page-content-wrapper p, .page-content-wrapper li"
+  },
+  "stop_content": [
+    "Page not found"
+  ],
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "487686322"
+  ],
+  "nb_hits": 5394
+}

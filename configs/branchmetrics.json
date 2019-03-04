@@ -19,7 +19,7 @@
     "lvl3": "article.md-content__inner h3",
     "lvl4": "article.md-content__inner h4",
     "lvl5": "article.md-content__inner h5",
-    "text": "article.md-content__inner p, article.md-content__inner li"
+    "text": "article.md-content__inner p"
   },
   "selectors_exclude": [
     "#next-steps",
@@ -31,5 +31,5 @@
   "conversation_id": [
     "597089613"
   ],
-  "nb_hits": 23647
+  "nb_hits": 35052
 }

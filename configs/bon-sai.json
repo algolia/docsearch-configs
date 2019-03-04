@@ -3,20 +3,23 @@
   "start_urls": [
     "http://docs.bons.ai/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?"
+  ],
   "selectors": {
-    "lvl0": ".header_menu_item.selected > a",
-    "lvl1": ".page-title",
-    "lvl2": ".content h1",
-    "lvl3": ".content h2",
-    "lvl4": ".content h3",
-    "lvl5": ".content h4",
+    "lvl0": {
+      "selector": ".page-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
     "text": ".content p, .content li"
   },
-  "min_indexed_level": 1,
-  "js_render": true,
   "conversation_id": [
     "360290355"
   ],
-  "nb_hits": 1663
+  "nb_hits": 2486
 }

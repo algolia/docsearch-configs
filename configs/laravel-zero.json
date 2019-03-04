@@ -1,0 +1,29 @@
+{
+  "index_name": "laravel-zero",
+  "start_urls": [
+    "https://laravel-zero.com/docs"
+  ],
+  "sitemap_urls": [
+    "https://laravel-zero.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav/ul/li/a[contains(@class,'active')]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "div.w-full h1",
+    "lvl2": "div.w-full h2",
+    "lvl3": "div.w-full h3, div.w-full table td:first-child",
+    "lvl4": "div.w-full h4",
+    "lvl5": "div.w-full h5",
+    "lvl6": "div.w-full h6",
+    "text": "div.w-full p, .divw-full li, div.w-full table td:last-child"
+  },
+  "conversation_id": [
+    "742157365"
+  ],
+  "nb_hits": 165
+}

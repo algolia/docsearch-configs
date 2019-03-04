@@ -1,0 +1,30 @@
+{
+  "index_name": "docs_skeleton",
+  "start_urls": [
+    "http://jigsaw-docs-staging.tighten.co/docs/"
+  ],
+  "sitemap_urls": [
+    "http://jigsaw-docs-staging.tighten.co/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav .lvl0-active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docSearch-content h1",
+    "lvl2": ".docSearch-content h2",
+    "lvl3": ".docSearch-content h3",
+    "lvl4": ".docSearch-content h4",
+    "lvl5": ".docSearch-content h5",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "selectors_exclude": [
+    ".example"
+  ],
+  "conversation_id": [
+    "723992236"
+  ],
+  "nb_hits": 36
+}

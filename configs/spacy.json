@@ -1,0 +1,40 @@
+{
+  "index_name": "spacy",
+  "start_urls": [
+    "https://spacy.io"
+  ],
+  "stop_urls": [
+    "\\?",
+    "index$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'c-sidebar')]//*[contains(@class,'is-active')][1]/preceding::*[contains(@class,'u-color-dark')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//article//h1/text()",
+      "type": "xpath"
+    },
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4, article table td:first-child, .c-table__row--foot td:nth-child(2)",
+    "lvl5": "article h5",
+    "text": "article p, article li, article .u-heading__teaser, article table td:last-child"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    "[data-tooltip]",
+    "aside ol",
+    ".c-table__row--foot td:first-child"
+  ],
+  "conversation_id": [
+    "753259253"
+  ],
+  "js_render": true,
+  "nb_hits": 6198
+}

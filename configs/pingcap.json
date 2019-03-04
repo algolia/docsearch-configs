@@ -15,7 +15,10 @@
     }
   ],
   "stop_urls": [
-    "/meetup"
+    "/docs/v1.0/",
+    "/docs/v2.0/",
+    "/docs-cn/v1.0/",
+    "/docs-cn/v2.0/"
   ],
   "selectors": {
     "lvl0": {
@@ -40,5 +43,5 @@
   "conversation_id": [
     "428916846"
   ],
-  "nb_hits": 12484
+  "nb_hits": 34501
 }

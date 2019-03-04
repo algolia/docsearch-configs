@@ -11,6 +11,7 @@
           "v1.1",
           "v2.0",
           "v2.1",
+          "v2.2",
           "v19.1",
           "stable"
         ]
@@ -18,6 +19,9 @@
     }
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.cockroachlabs.com/docs/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".post-header h1",
     "lvl1": ".post-content h2",
@@ -37,10 +41,10 @@
     "#toc"
   ],
   "conversation_id": [
-    "524670340"
+    "707076316"
   ],
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 69822
+  "nb_hits": 94410
 }

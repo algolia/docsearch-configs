@@ -1,0 +1,22 @@
+{
+  "index_name": "taiko",
+  "start_urls": [
+    "https://taiko-preview.gauge.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content-section h2",
+    "lvl2": ".content-section h3",
+    "lvl3": ".content-section h4",
+    "lvl4": ".content-section h5",
+    "lvl5": ".content-section h6",
+    "text": ".content-section p"
+  },
+  "selectors_exclude": [
+    ".sidebar"
+  ],
+  "conversation_id": [
+    "666098067"
+  ],
+  "nb_hits": 280
+}

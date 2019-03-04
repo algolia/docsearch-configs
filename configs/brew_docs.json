@@ -1,0 +1,26 @@
+{
+  "index_name": "brew_docs",
+  "start_urls": [
+    "https://docs.brew.sh/"
+  ],
+  "sitemap_urls": [
+    "https://docs.brew.sh/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#page h1",
+    "lvl1": "#page h2",
+    "lvl2": "#page h3",
+    "lvl3": "#page h4, #page td:first-child",
+    "lvl4": "#page h5",
+    "lvl5": "#page h6",
+    "text": "#page p, #page li, #page td:nth-child(2)"
+  },
+  "conversation_id": [
+    "771112570"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 2529
+}

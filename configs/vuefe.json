@@ -2,15 +2,13 @@
   "index_name": "vuefe",
   "start_urls": [
     {
-      "url": "https://vuefe.cn/v2/api/",
+      "url": "https://vue.docschina.org/v2/api/",
       "page_rank": 1
     },
-    {
-      "url": "https://vuefe.cn/v2/guide/"
-    }
+    "https://vue.docschina.org/v2/guide/"
   ],
   "stop_urls": [
-    "https://vuefe.cn/v2/api/index.html"
+    "https://vue.docschina.org/v2/api/index.html"
   ],
   "selectors": {
     "lvl0": {
@@ -26,9 +24,8 @@
   "selectors_exclude": [
     ".version-select"
   ],
-  "min_indexed_level": 1,
   "conversation_id": [
     "495385998"
   ],
-  "nb_hits": 2430
+  "nb_hits": 2574
 }

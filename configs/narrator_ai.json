@@ -1,0 +1,23 @@
+{
+  "index_name": "narrator_ai",
+  "start_urls": [
+    "https://www.narrator.ai/docs"
+  ],
+  "sitemap_urls": [
+    "https://www.narrator.ai/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='article__DocTemplateWrapper'] h1",
+    "lvl1": "[class*='article__DocTemplateWrapper'] h2",
+    "lvl2": "[class*='article__DocTemplateWrapper'] h3",
+    "lvl3": "[class*='article__DocTemplateWrapper'] h4",
+    "lvl4": "[class*='article__DocTemplateWrapper'] h5",
+    "lvl5": "[class*='article__DocTemplateWrapper'] h6",
+    "text": "[class*='article__DocTemplateWrapper'] p, [class*='article__DocTemplateWrapper'] li"
+  },
+  "conversation_id": [
+    "744812447"
+  ],
+  "nb_hits": 617
+}

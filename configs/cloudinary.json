@@ -1,0 +1,40 @@
+{
+  "index_name": "cloudinary",
+  "start_urls": [
+    "https://cloudinary.com/documentation"
+  ],
+  "sitemap_urls": [
+    "https://cloudinary.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\?",
+    "\\.txt$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".breadcrumbs li:nth-child(3) a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs_content h1",
+    "lvl2": ".docs_content h2",
+    "lvl3": ".docs_content h3",
+    "lvl4": ".docs_content h4, .docs_content tbody td:first-child",
+    "lvl5": ".docs_content h5",
+    "text": {
+      "selector": "//*[contains(@class,'docs_content')]//p | //*[contains(@class,'docs_content')]//li[not(.//p)] | //*[contains(@class,'docs_content')]//tbody//td[position()>1]",
+      "type": "xpath"
+    }
+  },
+  "conversation_id": [
+    "656925916"
+  ],
+  "selectors_exclude": [
+    ".md_autotoc:not(.md_special)"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "js_render": true,
+  "nb_hits": 11896
+}

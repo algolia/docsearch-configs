@@ -22,10 +22,12 @@
   },
   "selectors_exclude": [
     "#gitment_container",
-    "#__comments"
+    "#__comments",
+    ".page-copyright",
+    "#gitalk-form"
   ],
   "conversation_id": [
     "641928475"
   ],
-  "nb_hits": 3074
+  "nb_hits": 5302
 }

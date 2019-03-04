@@ -2,45 +2,54 @@
   "index_name": "stripe-docs-v3",
   "start_urls": [
     {
+      "url": "https://stripe.com/docs/api",
       "selectors_key": "api",
-      "url": "https://stripe.com/docs/api"
+      "tags": [
+        "api"
+      ],
+      "page_rank": 10
     },
     {
+      "url": "https://stripe.com/docs",
       "selectors_key": "docs",
-      "url": "https://stripe.com/docs"
+      "tags": [
+        "docs"
+      ],
+      "page_rank": 1
     },
     {
+      "url": "https://support.stripe.com/questions",
       "selectors_key": "questions",
-      "url": "https://support.stripe.com/questions"
+      "tags": [
+        "questions"
+      ]
     }
-  ],
-  "stop_urls": [
-    "\\?"
   ],
   "sitemap_urls": [
     "https://stripe.com/sitemap.xml"
   ],
+  "stop_urls": [
+    "\\?",
+    "docs/api.+"
+  ],
   "selectors": {
     "api": {
       "lvl0": {
-        "default_value": "API",
-        "selector": ""
+        "selector": "",
+        "global": true,
+        "default_value": "API"
       },
       "lvl1": "#content .method-copy h1",
       "lvl2": "#content .method-copy h2",
       "lvl3": "#content .method-copy h3, #errors h3",
       "lvl4": "#content .method-copy h4, #content .method-list .method-list-item-label, #errors .method-example-part tbody tr .table-row-property",
-      "text": "#content .method-copy p, #errors .method-example-part tbody tr .table-row-definition",
-      "techno": {
-        "selector": ".language-toggle input[checked='checked'] + label",
-        "global": true,
-        "default_value": "None"
-      }
+      "text": "#content .method-copy p, #errors .method-example-part tbody tr .table-row-definition"
     },
     "docs": {
       "lvl0": {
-        "default_value": "Documentation",
-        "selector": ""
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
       },
       "lvl1": {
         "selector": "//div[contains(@id,'sidebar')]/nav//a[contains(@class,'selected')]/preceding::h1[1]",
@@ -57,8 +66,9 @@
     },
     "questions": {
       "lvl0": {
-        "default_value": "Questions",
-        "selector": ""
+        "selector": "",
+        "global": true,
+        "default_value": "Questions"
       },
       "lvl1": {
         "selector": "//*[@id='content']/ul/li[2]/ul/li",
@@ -68,13 +78,24 @@
       "text": "#content .article-content .answer p, #content .article-content .answer li"
     }
   },
+  "selectors_exclude": [
+    ".method-list-item-label-details",
+    ".method-list-item-label-badge",
+    ".method-list-item-validation",
+    ".next-steps",
+    ".note",
+    "footer"
+  ],
   "keep_tags": [
     "code"
   ],
+  "min_indexed_level": {
+    "default": 0,
+    "api": 4,
+    "docs": 5,
+    "questions": 2
+  },
   "custom_settings": {
-    "attributesForFaceting": [
-      "techno"
-    ],
     "separatorsToIndex": "_",
     "attributesToIndex": [
       "unordered(hierarchy_camel.lvl1)",
@@ -92,20 +113,5 @@
       "content"
     ]
   },
-  "min_indexed_level": {
-    "default": 0,
-    "api": 4,
-    "docs": 6,
-    "questions": 2
-  },
-  "selectors_exclude": [
-    ".method-list-item-label-details",
-    ".method-list-item-label-badge",
-    ".method-list-item-validation",
-    ".next-steps",
-    ".note",
-    "footer"
-  ],
-  "user_agent": "Googlebot",
-  "nb_hits": 49982
+  "nb_hits": 24272
 }

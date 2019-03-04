@@ -3,10 +3,14 @@
   "start_urls": [
     "https://arrow-kt.io/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://arrow-kt.io/docs/arrow/data/nonemptylist/",
+    "docs/apidocs/.*html$"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": ".sidebar-nav > .active > a",
+      "selector": "//*[@class='sidebar-nav']//a[contains(//*[@id='doc-wrapper']//a[@target='_blank']/@href,@href)][@href!='/docs/'][1]/ancestor::*[contains(@class,'sidebar-nav-item')][1]/a",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -16,9 +20,8 @@
     "lvl4": ".doc-content h5",
     "text": ".doc-content p, .doc-content li"
   },
-  "js_render": true,
   "conversation_id": [
     "601115880"
   ],
-  "nb_hits": 3777
+  "nb_hits": 3219
 }

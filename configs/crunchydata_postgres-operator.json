@@ -1,0 +1,22 @@
+{
+  "index_name": "crunchydata_postgres-operator",
+  "start_urls": [
+    "https://crunchydata.github.io/postgres-operator/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#body-inner h1",
+    "lvl1": "#body-inner h2",
+    "lvl2": "#body-inner h3",
+    "lvl3": "#body-inner h4",
+    "lvl4": "#body-inner h5",
+    "text": "#body-inner p, #body-inner li"
+  },
+  "selectors_exclude": [
+    "#toc"
+  ],
+  "conversation_id": [
+    "665763362"
+  ],
+  "nb_hits": 1326
+}

@@ -3,6 +3,9 @@
   "start_urls": [
     "https://jaredpalmer.com/formik/docs/"
   ],
+  "sitemap_urls": [
+    "https://jaredpalmer.com/formik/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -20,8 +23,15 @@
   "selectors_exclude": [
     ".hash-link"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "656480739"
   ],
-  "nb_hits": 339
+  "nb_hits": 3989
 }

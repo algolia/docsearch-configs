@@ -1,7 +1,7 @@
 {
   "index_name": "livechatinc",
   "start_urls": [
-    "https://docs.livechatinc.com/"
+    "https://developers.livechatinc.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -16,8 +16,11 @@
     "lvl4": ".markdown-body h4",
     "text": ".markdown-body p, .markdown-body li"
   },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "conversation_id": [
     "504447721"
   ],
-  "nb_hits": 1595
+  "nb_hits": 2395
 }

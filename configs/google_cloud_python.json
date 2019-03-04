@@ -15,7 +15,7 @@
     "lvl4": "[role='main'] h5",
     "text": "[role='main'] p, [role='main'] li"
   },
-  "keep_tag": [
+  "keep_tags": [
     "code"
   ],
   "custom_settings": {
@@ -28,5 +28,5 @@
   ],
   "only_content_level": true,
   "strip_chars": " .,;:#",
-  "nb_hits": 15463
+  "nb_hits": 17383
 }

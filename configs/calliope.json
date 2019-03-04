@@ -1,0 +1,35 @@
+{
+  "index_name": "calliope",
+  "start_urls": [
+    "https://calliope.readthedocs.io/"
+  ],
+  "stop_urls": [
+    "/_"
+  ],
+  "sitemap_urls": [
+    "https://calliope.readthedocs.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3, .section .descname",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ],
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    ".toctree-wrapper"
+  ],
+  "conversation_id": [
+    "720660324"
+  ],
+  "nb_hits": 3512
+}

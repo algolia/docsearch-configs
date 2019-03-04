@@ -1,0 +1,25 @@
+{
+  "index_name": "fibos",
+  "start_urls": [
+    "https://fibos.io/docs/document/basic/fibosmainnet.md.html",
+    "https://fibos.io/docs/document/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'sidebar')]//li[contains(@class, 'active')][1]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content-container h1",
+    "lvl2": ".content-container h3",
+    "lvl3": ".content-container h4",
+    "lvl4": ".content-container h5",
+    "text": ".content-container p, .content-container li"
+  },
+  "conversation_id": [
+    "668558112"
+  ],
+  "nb_hits": 664
+}

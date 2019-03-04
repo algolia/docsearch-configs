@@ -1,0 +1,59 @@
+{
+  "index_name": "wijmo",
+  "start_urls": [
+    {
+      "url": "http://us.grapecitydev.com/wijmo/docs/",
+      "selectors_key": "docs",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "http://us.grapecitydev.com/wijmo/demos/",
+      "selectors_key": "demos",
+      "tags": [
+        "demos"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "http://us.grapecitydev.com/wijmo/docs/sitemap.xml",
+    "http://us.grapecitydev.com/wijmo/demos/resource/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "docs": {
+      "lvl0": ".post article h1",
+      "lvl1": ".post article h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "lvl5": ".post h5",
+      "text": ".post article p, .post article li"
+    },
+    "demos": {
+      "lvl0": ".app-content-description h1",
+      "lvl1": ".app-content-description h1",
+      "lvl2": ".app-content-description h2",
+      "lvl3": ".app-content-description h3",
+      "lvl4": ".app-content-description h4",
+      "lvl5": ".app-content-description h5",
+      "text": ".app-content-description p, .app-content-description li"
+    }
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
+  },
+  "conversation_id": [
+    "726462690"
+  ],
+  "nb_hits": 6707
+}

@@ -1,0 +1,26 @@
+{
+  "index_name": "v-play",
+  "start_urls": [
+    "https://v-play.net/doc/",
+    "https://v-play.net/doc/vplayapps-appbutton/"
+  ],
+  "stop_urls": [
+    "\\?utm"
+  ],
+  "selectors": {
+    "lvl0": ".doc-page h1",
+    "lvl1": ".doc-page h2",
+    "lvl2": ".doc-page h3",
+    "lvl3": ".doc-page h4",
+    "lvl4": ".doc-page h5",
+    "text": ".doc-page p, .doc-page li"
+  },
+  "selectors_exclude": [
+    ".toc",
+    ".breadcrumb"
+  ],
+  "conversation_id": [
+    "518344062"
+  ],
+  "nb_hits": 48251
+}

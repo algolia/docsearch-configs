@@ -24,7 +24,8 @@
           "laravel-server-monitor",
           "laravel-backup",
           "laravel-html",
-          "laravel-event-projector"
+          "laravel-event-projector",
+          "laravel-blade-x"
         ]
       }
     }
@@ -48,5 +49,5 @@
   "conversation_id": [
     "229197199"
   ],
-  "nb_hits": 3507
+  "nb_hits": 3576
 }

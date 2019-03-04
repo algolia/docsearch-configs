@@ -1,5 +1,8 @@
 {
   "index_name": "ckeditor_docs_site",
+  "sitemap_urls": [
+    "https://ckeditor.com/docs/sitemap.xml"
+  ],
   "start_urls": [
     {
       "url": "https://ckeditor.com/docs/ckeditor5/latest/api/",
@@ -53,6 +56,13 @@
       ]
     },
     {
+      "url": "https://ckeditor.com/docs/ckeditor4/latest/examples/",
+      "tags": [
+        "ckeditor4",
+        "examples"
+      ]
+    },
+    {
       "url": "https://ckeditor.com/docs/letters/latest/guides/",
       "tags": [
         "letters",
@@ -83,6 +93,7 @@
     "https://ckeditor.com/docs/ckeditor5/latest/examples/index.html",
     "https://ckeditor.com/docs/ckeditor4/latest/api/index.html",
     "https://ckeditor.com/docs/ckeditor4/latest/guide/index.html",
+    "https://ckeditor.com/docs/ckeditor4/latest/examples/index.html",
     "https://ckeditor.com/docs/letters/latest/guides/index.html",
     "https://ckeditor.com/docs/cs/latest/guides/index.html",
     "https://ckeditor.com/docs/index.html"
@@ -130,5 +141,5 @@
   "conversation_id": [
     "445274927"
   ],
-  "nb_hits": 33503
+  "nb_hits": 37116
 }

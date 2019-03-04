@@ -1,0 +1,37 @@
+{
+  "index_name": "kicad",
+  "start_urls": [
+    "http://docs.kicad-pcb.org"
+  ],
+  "stop_urls": [
+    "\\.epub"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".nav li.dropdown:first-child > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docSearch-content h2",
+    "lvl2": ".docSearch-content h3",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "lvl5": ".docSearch-content h6",
+    "text": ".docSearch-content p"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ],
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    "#toc-nav",
+    "#preamble"
+  ],
+  "conversation_id": [
+    "761474330"
+  ],
+  "nb_hits": 104734
+}

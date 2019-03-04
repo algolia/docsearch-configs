@@ -1,0 +1,28 @@
+{
+  "index_name": "twine",
+  "start_urls": [
+    "https://twine.phlak.net/docs/what-is-twine/",
+    "https://twine.phlak.net/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//a[contains(@class,'active')]/preceding::p[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docSearch-content h1",
+    "lvl2": ".docSearch-content h2",
+    "lvl3": ".docSearch-content h3",
+    "lvl4": ".docSearch-content h4",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "selectors_exclude": [
+    "[class^='border']"
+  ],
+  "conversation_id": [
+    "660352135"
+  ],
+  "nb_hits": 296
+}

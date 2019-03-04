@@ -17,10 +17,10 @@
     "text": ".content p, .content li",
     "lvl5": ".content h5"
   },
-  "scrap_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
     "633369098"
   ],
-  "nb_hits": 34
+  "scrap_start_urls": false,
+  "nb_hits": 142
 }

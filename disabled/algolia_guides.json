@@ -2,63 +2,78 @@
   "index_name": "algolia_guides",
   "start_urls": [
     {
-      "url": "https://www.algolia.com/doc/getting-started/quick-start",
+      "url": "https://www.algolia.com/doc/guides/",
       "page_rank": 1
     },
     {
-      "url": "https://www.algolia.com/doc/search/auto-complete$",
-      "page_rank": 1
+      "url": "https://www.algolia.com/doc/tutorials/",
+      "page_rank": 0
     },
-    {
-      "url": "https://www.algolia.com/doc/search/instant-search$",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/search/instant-search/instantsearchjs",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/indexing/formatting-your-data",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/indexing/import-synchronize-data",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/search/filtering-faceting",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/search/distinct",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/relevance/sorting",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/relevance/ranking",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/relevance/synonyms",
-      "page_rank": 1
-    },
-    {
-      "url": "https://www.algolia.com/doc/security/api-keys",
-      "page_rank": 1
-    }
+    "https://www.algolia.com/doc/rest-api/monitoring/",
+    "https://www.algolia.com/doc/rest-api/analytics/",
+    "https://www.algolia.com/doc/rest-api/vault/"
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.algolia.com/doc/sitemap.xml"
+  ],
+  "stop_urls": [
+    "https://www.algolia.com/doc/api-reference/$",
+    "https://www.algolia.com/doc/guides/$"
+  ],
   "selectors_exclude": [
-    ".btn"
+    ".btn",
+    "#parameters-list",
+    ".next-previous-links",
+    "section .nav-tabs",
+    "#end-page-feedback"
   ],
   "selectors": {
-    "lvl0": "#doc-tab-wrapper h1",
-    "lvl1": ".markdown-page h1",
-    "lvl2": ".markdown-page h2",
-    "text": ".markdown-page p, .markdown-page li"
+    "lvl0": {
+      "selector": "//*[contains(@class, 'breadcrumbs')]/span[2]",
+      "type": "xpath"
+    },
+    "lvl1": ".content-inner h1",
+    "lvl2": ".content-inner h2",
+    "lvl3": ".content-inner h3",
+    "lvl4": ".content-inner h4",
+    "lvl5": ".content-inner h5",
+    "text": ".content-inner p, .content-inner li"
   },
-  "nb_hits": 2213
+  "min_indexed_level": 1,
+  "keep_tags": [
+    "code"
+  ],
+  "custom_settings": {
+    "attributeForDistinct": "hierarchy.lvl1",
+    "ignorePlurals": false,
+    "attributesToIndex": [
+      "unordered(hierarchy_camel.lvl1)",
+      "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy_camel.lvl0)",
+      "unordered(hierarchy.lvl0)",
+      "unordered(hierarchy_camel.lvl2)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy_camel.lvl3)",
+      "unordered(hierarchy.lvl3)",
+      "unordered(hierarchy_camel.lvl4)",
+      "unordered(hierarchy.lvl4)",
+      "unordered(hierarchy_camel.lvl5)",
+      "unordered(hierarchy.lvl5)",
+      "content"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "hierarchy_camel",
+      "content",
+      "anchor",
+      "url",
+      "description",
+      "type",
+      "languages",
+      "language",
+      "enterprise",
+      "url_without_language"
+    ]
+  },
+  "nb_hits": 5592
 }

@@ -1,0 +1,23 @@
+{
+  "index_name": "period_thephpleague",
+  "start_urls": [
+    "https://period.thephpleague.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "text": "article p, article li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "679702498"
+  ],
+  "nb_hits": 504
+}

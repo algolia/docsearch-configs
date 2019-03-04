@@ -1,0 +1,22 @@
+{
+  "index_name": "baseui",
+  "start_urls": [
+    "https://baseui.design/"
+  ],
+  "stop_urls": [
+    "/legacy/"
+  ],
+  "selectors": {
+    "lvl0": "#docSearch-content h1",
+    "lvl1": "#docSearch-content h2",
+    "lvl2": "#docSearch-content h3",
+    "lvl3": "#docSearch-content h4",
+    "lvl4": "#docSearch-content h5",
+    "lvl5": "#docSearch-content h6",
+    "text": "#docSearch-content p, #docSearch-content li, #docSearch-content [role=columnheader], #docSearch-content [role=gridcell]"
+  },
+  "conversation_id": [
+    "757221353"
+  ],
+  "nb_hits": 1780
+}

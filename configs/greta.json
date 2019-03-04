@@ -1,0 +1,27 @@
+{
+  "index_name": "greta",
+  "start_urls": [
+    "https://greta-stats.org"
+  ],
+  "stop_urls": [
+    "/index.html"
+  ],
+  "selectors": {
+    "lvl0": ".toc-content h1",
+    "lvl1": ".toc-content h2",
+    "lvl2": ".toc-content h3",
+    "lvl3": ".toc-content h4",
+    "lvl4": ".toc-content h5",
+    "text": ".toc-content p, .toc-content li"
+  },
+  "selectors_exclude": [
+    "author"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "680074269"
+  ],
+  "nb_hits": 686
+}
