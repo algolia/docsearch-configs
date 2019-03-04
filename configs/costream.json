@@ -1,8 +1,8 @@
 {
   "index_name": "costream",
   "start_urls": [
-    "https://cn.costream.site/guide/",
-    "https://cn.costream.site/api/"
+    "https://cn.costream.org/guide/",
+    "https://cn.costream.org/api/"
   ],
   "stop_urls": [],
   "selectors": {
