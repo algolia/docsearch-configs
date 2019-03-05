@@ -1,7 +1,14 @@
 {
   "index_name": "material-ui",
   "start_urls": [
-    "https://material-ui.com/"
+    {
+      "url": "https://material-ui.com/",
+      "version": "v3"
+    },
+    {
+      "url": "https://next.material-ui.com/",
+      "version": "v4"
+    }
   ],
   "stop_urls": [
     "\\?expend-path"
@@ -15,14 +22,17 @@
     "lvl2": ".markdown-body h2",
     "lvl3": ".markdown-body h3, .markdown-body table td:first-of-type",
     "lvl4": ".markdown-body h4",
-    "text": ".markdown-body p, .markdown-body li,.markdown-body .home-text-wrap, .markdown-body table td:last-child"
+    "text": ".markdown-body p, .markdown-body li, .markdown-body table td:last-child"
   },
-  "selectors_exclude": [
-    ".anchor-link-style"
-  ],
   "only_content_level": true,
   "conversation_id": [
     "357227758"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "language"
+    ]
+  },
   "nb_hits": 4234
 }
