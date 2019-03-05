@@ -1,7 +1,7 @@
 {
   "index_name": "cubejs",
   "start_urls": [
-    "https://statsbot.co/cubejs/docs"
+    "https://cube.dev/docs"
   ],
   "stop_urls": [],
   "selectors": {
