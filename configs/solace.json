@@ -25,6 +25,14 @@
       ]
     },
     {
+      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/index.html",
+      "selectors_key": "api_reference_guide_c",
+      "tags": [
+        "api_reference_guide",
+        "c"
+      ]
+    },
+    {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/",
       "selectors_key": "api_reference_guide_c",
       "tags": [
@@ -33,11 +41,27 @@
       ]
     },
     {
-      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/net",
+      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/index.html",
       "selectors_key": "api_reference_guide_net",
       "tags": [
         "api_reference_guide",
         "net"
+      ]
+    },
+    {
+      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/",
+      "selectors_key": "api_reference_guide_net",
+      "tags": [
+        "api_reference_guide",
+        "net"
+      ]
+    },
+    {
+      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/jrto/index.html",
+      "selectors_key": "api_reference_guide",
+      "tags": [
+        "api_reference_guide",
+        "jrto"
       ]
     },
     {
@@ -46,6 +70,14 @@
       "tags": [
         "api_reference_guide",
         "jrto"
+      ]
+    },
+    {
+      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/java/index.html",
+      "selectors_key": "api_reference_guide",
+      "tags": [
+        "api_reference_guide",
+        "java"
       ]
     },
     {
@@ -79,13 +111,14 @@
   ],
   "stop_urls": [
     "html\\?",
-    "/API-Developer-Online-Ref-Documentation/java/index-all.html",
+    "/API-Developer-Online-Ref-Documentation/java/index-all.html$",
     "-example.html$",
     "\\.js$",
     "\\.png$",
     "\\.gif$",
     "\\.png$",
-    "Not-Found.htm"
+    "Not-Found.htm",
+    "jcsmp/class-use/"
   ],
   "sitemap_urls": [
     "https://docs.solace.com/Sitemap.xml"
@@ -131,18 +164,13 @@
         "default_value": "NOT USED"
       },
       "lvl1": {
-        "selector": "",
-        "global": true,
-        "default_value": "API Developer Online Ref"
-      },
-      "lvl2": {
         "selector": ".header h2.title",
         "global": true
       },
-      "lvl3": ".summary, .details h3",
-      "lvl4": ".summary h4, .details h4",
-      "lvl5": ".details .strong",
-      "text": ".contentContainer .block, .contentContainer dd"
+      "lvl2": ".details h3",
+      "lvl3": ".details h4",
+      "lvl4": ".details dt",
+      "text": ".contentContainer .block, .details dd"
     },
     "api_reference_guide_net": {
       "lvl0": {
@@ -213,5 +241,5 @@
   "conversation_id": [
     "702227168"
   ],
-  "nb_hits": 70472
+  "nb_hits": 86450
 }
