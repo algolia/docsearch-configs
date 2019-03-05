@@ -1,22 +1,10 @@
 {
   "index_name": "nemtech",
   "start_urls": [
-    {
-      "url": "https://nemtech.github.io/(?P<lang>.*?)/",
-      "variables": {
-        "lang": [
-          "ja"
-        ]
-      }
-    },
     "https://nemtech.github.io/"
   ],
   "stop_urls": [
-    "/nem2-workshop-document-notarization/",
-    "/nem2-workshop-nem-applied-to-supply-chain/",
-    "/nem2-curricular-framework/",
-    "/nem2-sdk-typescript-javascript/",
-    "/nem2-sdk-java/",
+    "/nem2-",
     "/_"
   ],
   "selectors": {
