@@ -21,7 +21,14 @@
     ".dont-index"
   ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor"
+    ]
   },
   "conversation_id": [
     "586121310"
