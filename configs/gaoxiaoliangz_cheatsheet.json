@@ -1,10 +1,10 @@
 {
   "index_name": "gaoxiaoliangz_cheatsheet",
   "start_urls": [
-    "https://gaoxiaoliangz.gitlab.io/cheatsheet/docs/"
+    "https://cheatsheet.now.sh/docs/"
   ],
   "sitemap_urls": [
-    "https://gaoxiaoliangz.gitlab.io/cheatsheet/sitemap.xml"
+    "https://cheatsheet.now.sh/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
