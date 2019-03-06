@@ -16,10 +16,10 @@
     "lvl3": ".markdown h3",
     "lvl4": ".markdown h4",
     "lvl5": ".markdown h5",
-    "text": ".markdown p, .markdown li"
+    "text": ".markdown p, .markdown li, .markdown td:first-child"
   },
   "conversation_id": [
     "459164857"
   ],
-  "nb_hits": 1170
+  "nb_hits": 2103
 }
