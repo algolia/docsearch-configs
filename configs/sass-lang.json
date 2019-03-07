@@ -2,11 +2,11 @@
   "index_name": "sass-lang",
   "start_urls": [
     {
-      "url": "http://staging.sass-lang.com/functions/css",
+      "url": "http://staging.sass-lang.com/documentation/functions/css",
       "selectors_key": "default"
     },
     {
-      "url": "http://staging.sass-lang.com/functions/",
+      "url": "http://staging.sass-lang.com/documentation/functions/",
       "selectors_key": "functions"
     },
     "http://staging.sass-lang.com/"
