@@ -9,6 +9,19 @@
       ]
     },
     {
+      "url": "https://nus-te3201.github.io/2019/admin/",
+      "tags": [
+        "admin"
+      ]
+    },
+    {
+      "url": "https://nus-te3201.github.io/2019/programming/",
+      "selectors_key": "programming",
+      "tags": [
+        "programming"
+      ]
+    },
+    {
       "url": "https://nus-te3201.github.io/2019/se-book-adapted/",
       "selectors_key": "se-book-adapted",
       "tags": [
@@ -19,9 +32,7 @@
   ],
   "stop_urls": [
     "printable",
-    "/toc/",
     "\\d/index.html",
-    "/programming/",
     "schedule/index\\.html"
   ],
   "selectors": {
@@ -36,6 +47,14 @@
       "lvl3": ".website-content h4",
       "lvl4": ".website-content h5",
       "lvl5": ".website-content h6",
+      "text": ".website-content p, .website-content li, .website-content .table td"
+    },
+    "programming": {
+      "lvl0": ".website-content h1",
+      "lvl1": ".website-content h3",
+      "lvl2": ".website-content h4",
+      "lvl3": ".website-content h5",
+      "lvl4": ".website-content h6",
       "text": ".website-content p, .website-content li, .website-content .table td"
     },
     "schedule": {
@@ -67,6 +86,7 @@
   },
   "selectors_exclude": [
     "[id$='-toc']",
+    "#toc",
     ".alert"
   ],
   "custom_settings": {
@@ -76,5 +96,5 @@
   "conversation_id": [
     "775254692"
   ],
-  "nb_hits": 4318
+  "nb_hits": 5522
 }
