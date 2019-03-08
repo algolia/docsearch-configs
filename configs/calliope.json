@@ -1,11 +1,13 @@
 {
   "index_name": "calliope",
   "start_urls": [
-    "https://calliope.readthedocs.io/",
-    "https://calliope.readthedocs.io/en/latest/"
+    "https://calliope.readthedocs.io/"
   ],
   "stop_urls": [
     "/_"
+  ],
+  "sitemap_urls": [
+    "https://calliope.readthedocs.io/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".section h1",
@@ -29,5 +31,5 @@
   "conversation_id": [
     "720660324"
   ],
-  "nb_hits": 3024
+  "nb_hits": 3512
 }

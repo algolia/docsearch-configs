@@ -1,0 +1,27 @@
+{
+  "index_name": "devicebook_applinks",
+  "start_urls": [
+    "https://applinks.devicebook.com/docs/",
+    "https://applinks.devicebook.com/docs/html/"
+  ],
+  "stop_urls": [
+    "/index\\.html$"
+  ],
+  "selectors": {
+    "lvl0": "#main h1",
+    "lvl1": "#main h3",
+    "lvl2": "#main h4",
+    "lvl3": "#main h5",
+    "lvl4": "#main h6, #main td.name",
+    "text": "#main p, #main li"
+  },
+  "selectors_exclude": [
+    ".signature",
+    ".type-signature"
+  ],
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "760570621"
+  ],
+  "nb_hits": 1525
+}

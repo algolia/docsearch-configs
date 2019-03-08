@@ -29,7 +29,7 @@
     "lvl3": "main h3",
     "lvl4": "main h4",
     "lvl5": "main h5",
-    "text": "main p, main li, .bd-example"
+    "text": "main p, main li"
   },
   "selectors_exclude": [
     ".bd-example"
@@ -40,5 +40,5 @@
       "language"
     ]
   },
-  "nb_hits": 10249
+  "nb_hits": 10256
 }

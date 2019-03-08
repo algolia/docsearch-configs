@@ -51,21 +51,16 @@
         "global": true,
         "default_value": "Tutorial"
       },
+
       "lvl1": {
-        "selector": "//a[@aria-current]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Unsorted"
-      },
-      "lvl2": {
         "selector": "//a[@aria-current]",
         "type": "xpath",
         "global": true,
         "default_value": "Unsorted"
       },
-      "lvl3": ".docSearch-content h2",
-      "lvl4": ".docSearch-content h4",
-      "lvl5": ".docSearch-content h5",
+      "lvl2": ".docSearch-content h2",
+      "lvl3": ".docSearch-content h4",
+      "lvl4": ".docSearch-content h5",
       "text": ".docSearch-content p, .docSearch-content li"
     },
     "blog": {
@@ -84,10 +79,11 @@
   "selectors_exclude": [
     "hr ~ div",
     "#next-steps",
-    "#next-steps ~ p"
+    "#next-steps ~ p",
+    "h3 span"
   ],
   "conversation_id": [
     "487785557"
   ],
-  "nb_hits": 7942
+  "nb_hits": 10026
 }
