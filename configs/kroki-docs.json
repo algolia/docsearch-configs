@@ -19,8 +19,7 @@
   "selectors": {
     "default": {
       "lvl0": {
-
-				"selector": ".navigation-explore .context .title",
+        "selector": ".navigation-explore .context .title",
         "global": true
       },
       "lvl1": ".doc > h1:first-of-type",
@@ -30,8 +29,8 @@
       "text": ".doc p, .doc dt, .doc td.context, .doc th.tableblock"
     },
     "versionless": {
-			"lvl0": {
-				"selector": ".navigation-explore .context .title",
+      "lvl0": {
+        "selector": ".navigation-explore .context .title",
         "global": true
       },
       "lvl1": ".doc > h1:first-of-type",
@@ -62,7 +61,7 @@
       "asc(weight.position)"
     ]
   },
-	"conversation_id": [
+  "conversation_id": [
     "774875398"
   ],
   "nb_hits": 238
