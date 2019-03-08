@@ -1,0 +1,34 @@
+{
+  "index_name": "powershell_fyi",
+  "start_urls": [
+    "https://powershell.fyi",
+    "https://PowerShell.fyi/"
+  ],
+  "sitemap_urls": [
+    "https://powershell.fyi/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/hashtag/",
+    "/hash/",
+    "/page/"
+  ],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "lvl5": ".post h6",
+    "text": ".post p, .post li"
+  },
+  "only_content_level": true,
+  "selectors_exclude": [
+    ".post__toc",
+    ".msg--info",
+    ".post footer"
+  ],
+  "conversation_id": [
+    "758616576"
+  ],
+  "nb_hits": 2946
+}
