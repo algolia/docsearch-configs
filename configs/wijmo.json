@@ -23,8 +23,9 @@
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
+
     "docs": {
-      "lvl0": ".post article h1",
+      "lvl0": "#lvl0",
       "lvl1": ".post article h1",
       "lvl2": ".post h2",
       "lvl3": ".post h3",
@@ -33,7 +34,7 @@
       "text": ".post article p, .post article li"
     },
     "demos": {
-      "lvl0": ".app-content-description h1",
+      "lvl0": "#demo_source_name",
       "lvl1": ".app-content-description h1",
       "lvl2": ".app-content-description h2",
       "lvl3": ".app-content-description h3",
