@@ -1,14 +1,8 @@
 {
   "index_name": "material-ui",
   "start_urls": [
-    {
-      "url": "https://material-ui.com/",
-      "version": "v3"
-    },
-    {
-      "url": "https://next.material-ui.com/",
-      "version": "v4"
-    }
+    "https://material-ui.com/",
+    "https://next.material-ui.com/"
   ],
   "stop_urls": [
     "\\?expend-path"
@@ -34,5 +28,5 @@
       "language"
     ]
   },
-  "nb_hits": 4234
+  "nb_hits": 8431
 }
