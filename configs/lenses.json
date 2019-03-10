@@ -1,0 +1,30 @@
+{
+  "index_name": "lenses",
+  "start_urls": [
+    "https://docs.lenses.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[role='main'] h1",
+    "lvl1": "[role='main'] h2",
+    "lvl2": "[role='main'] h3",
+    "lvl3": "[role='main'] h4",
+    "lvl4": "[role='main'] h5",
+    "lvl5": "[role='main'] h6",
+    "text": "[role='main'] p, [role='main'] li",
+    "version": {
+      "selector": "[data-toggle='rst-current-version']",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "792333048"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 34000
+}
