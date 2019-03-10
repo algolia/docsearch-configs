@@ -1,0 +1,20 @@
+{
+  "index_name": "mashupgarage",
+  "start_urls": [
+    "https://www.mashupgarage.com/playbook"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class^='MarkdownSection-module'] h1",
+    "lvl1": "[class^='MarkdownSection-module'] h2",
+    "lvl2": "[class^='MarkdownSection-module'] h3",
+    "lvl3": "[class^='MarkdownSection-module'] h4",
+    "lvl4": "[class^='MarkdownSection-module'] h5",
+    "lvl5": "[class^='MarkdownSection-module'] h6",
+    "text": "[class^='MarkdownSection-module'] p, [class^='MarkdownSection-module'] li"
+  },
+  "conversation_id": [
+    "788754011"
+  ],
+  "nb_hits": 1843
+}
