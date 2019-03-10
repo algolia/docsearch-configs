@@ -23,9 +23,12 @@
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-
     "docs": {
-      "lvl0": "#lvl0",
+      "lvl0": {
+        "selector": "#lvl0",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": ".post article h1",
       "lvl2": ".post h2",
       "lvl3": ".post h3",
@@ -34,7 +37,11 @@
       "text": ".post article p, .post article li"
     },
     "demos": {
-      "lvl0": "#demo_source_name",
+      "lvl0": {
+        "selector": "#demo_source_name",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": ".app-content-description h1",
       "lvl2": ".app-content-description h2",
       "lvl3": ".app-content-description h3",
@@ -53,8 +60,9 @@
       "tags"
     ]
   },
+  "min_indexed_level": 1,
   "conversation_id": [
     "726462690"
   ],
-  "nb_hits": 6707
+  "nb_hits": 4135
 }
