@@ -1,7 +1,6 @@
 {
   "index_name": "accengage",
   "start_urls": [
-    "https://documentation.accengage.com",
     "https://documentation.accengage.com/sdk",
     "https://documentation.accengage.com/api",
     "https://documentation.accengage.com/dataflow/introduction",
@@ -10,22 +9,26 @@
     {
       "url": "https://documentation.accengage.com/faq",
       "selectors_key": "faq"
-    }
+    },
+    "https://documentation.accengage.com"
   ],
   "stop_urls": ["https://documentation.accengage.com/admin"],
   "selectors": {
     "default": {
-      "lvl0": "h1, #title-text",
-      "lvl1": "h2",
-      "lvl2": "h3",
-      "lvl3": "h4",
-      "lvl4": "h5",
-      "text": "p, li, ul, ol"
+      "lvl0": ".main-content h1",
+      "lvl1": ".main-content h2",
+      "lvl2": ".main-content h3",
+      "lvl3": ".main-content h4",
+      "lvl4": ".main-content h5",
+      "text": ".main-content p, .main-content li"
     },
     "faq": {
-      "lvl0": "p, li, h1, #title-text",
-      "lvl1": "h2",
-      "lvl2": "h3"
+      "lvl0": ".block_questions--link a, .main-content h1",
+      "lvl1": ".main-content h2",
+      "lvl2": ".main-content h3",
+      "lvl3": ".main-content h4",
+      "lvl4": ".main-content h5",
+      "text": ".main-content p, .main-content li"
     }
   },
   "selectors_exclude": [
