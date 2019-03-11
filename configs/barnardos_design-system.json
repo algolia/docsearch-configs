@@ -10,16 +10,17 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".Title",
-    "lvl2": ".Content h2",
-    "lvl3": ".Content h3",
-    "lvl4": ".Content h4",
-    "lvl5": ".Content h5",
-    "text": ".Content p:not(.Topic), .Content li"
+    "lvl1": ".Main h1",
+    "lvl2": ".Main h2",
+    "lvl3": ".Main h3",
+    "lvl4": ".Main h4",
+    "lvl5": ".Main h5",
+    "text": ".Main p:not(.Topic), .Main li"
   },
   "selectors_exclude": [
     "nav",
-    ".Example"
+    ".Example",
+    ".Figure
   ],
   "conversation_id": [
     "782889902"
