@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'q-router-link--exact-active')]//preceding::*[contains(@class,'q-item__label')][1]",
+      "selector": "//*[contains(@class,'app-menu')]/*[.//*[contains(@class,'q-router-link--exact-active')]]/descendant::*[contains(@class,'q-item__label')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -28,5 +28,5 @@
   "conversation_id": [
     "786485472"
   ],
-  "nb_hits": 3370
+  "nb_hits": 3388
 }
