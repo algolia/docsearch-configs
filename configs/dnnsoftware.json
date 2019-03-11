@@ -1,5 +1,6 @@
 {
   "index_name": "dnnsoftware",
+  "sitemap_urls": ["https://dnndocs.com/sitemap.xml"],
   "start_urls": [
     {
       "url": "https://dnndocs.com/api/",
