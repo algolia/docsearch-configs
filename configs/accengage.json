@@ -12,7 +12,10 @@
     },
     "https://documentation.accengage.com"
   ],
-  "stop_urls": ["https://documentation.accengage.com/admin"],
+  "stop_urls": [
+    "https://documentation.accengage.com/admin",
+    "documentation.accengage.com//"
+  ],
   "selectors": {
     "default": {
       "lvl0": ".main-content h1",
@@ -37,8 +40,12 @@
     ".top-navbar",
     ".toc-container"
   ],
-  "sitemap_urls": ["https://documentation.accengage.com/sitemap.xml"],
+  "sitemap_urls": [
+    "https://documentation.accengage.com/sitemap.xml"
+  ],
   "min_indexed_level": 2,
-  "conversation_id": ["481913855"],
-  "nb_hits": 69
+  "conversation_id": [
+    "481913855"
+  ],
+  "nb_hits": 8870
 }
