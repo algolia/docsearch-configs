@@ -17,10 +17,9 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//a[contains(@class, 'active')][1]/preceding::h5[1]",
-      "type": "xpath",
+      "selector": ".docs-navigation > a",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Kong"
     },
     "lvl1": ".content h1",
     "lvl2": ".content h2",
