@@ -33,7 +33,8 @@
   "stop_urls": [
     "printable",
     "\\d/index.html",
-    "schedule/index\\.html"
+    "schedule/index\\.html",
+    "print\\.html$"
   ],
   "selectors": {
     "default": {
@@ -78,9 +79,10 @@
       },
       "lvl1": ".website-content h1",
       "lvl2": ".website-content h2",
-      "lvl3": ".website-content h4",
-      "lvl4": ".website-content h5",
-      "lvl5": ".website-content h6",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
+      "lvl6": ".website-content h6",
       "text": ".website-content panel p, .website-content panel li, .website-content panel .table td"
     }
   },
@@ -96,5 +98,5 @@
   "conversation_id": [
     "775254692"
   ],
-  "nb_hits": 5522
+  "nb_hits": 5171
 }
