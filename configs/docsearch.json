@@ -15,10 +15,10 @@
     "lvl2": ".documentation-content h2",
     "lvl3": ".documentation-content h3",
     "lvl4": ".documentation-content h4",
-    "text": ".documentation-content p, .documentation-content li"
+    "text": ".documentation-content p, .documentation-content li, .documentation-content .hljs-comment"
   },
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 386
+  "nb_hits": 416
 }
