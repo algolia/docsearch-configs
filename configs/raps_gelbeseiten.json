@@ -12,7 +12,7 @@
     "lvl3": ".Document h4",
     "lvl4": ".Document h5",
     "lvl5": ".Document h6",
-    "text": ".Document p, .Document li, .Document .fractal-iconbox__title"
+    "text": ".Document p, .Document li"
   },
   "conversation_id": [
     "797018673"
