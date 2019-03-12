@@ -16,5 +16,6 @@
     "lvl5": "section h6",
     "text": "section p, section li"
   },
-  "nb_hits": 721
+  "scrap_start_urls": false,
+  "nb_hits": 696
 }
