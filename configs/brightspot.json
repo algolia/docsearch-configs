@@ -6,7 +6,7 @@
   "sitemap_urls": [
     "http://docs.brightspot.com/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": ["http://docs.brightspot.com/cms/editorial/index.html", "http://docs.brightspot.com/cms/developers-guide/index.html", "http://docs.brightspot.com/cms/plugins/index.html", "http://docs.brightspot.com/dari/index.html", "http://docs.brightspot.com/styleguide/index.html", "http://docs.brightspot.com/themes/index.html", "http://docs.brightspot.com/genindex.html", "http://docs.brightspot.com/search.html"],
   "selectors": {
     "lvl0": {
       "selector": ".toctree-l1.current > a",
