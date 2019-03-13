@@ -1,28 +1,44 @@
 {
   "index_name": "cronofy",
   "start_urls": [
-    {
-      "url": "https://www.cronofy.com/developers/(?P<section>.*?)/",
-      "variables": {
-        "section": [
-          "api",
-          "tutorials",
-          "faqs"
-        ]
-      }
-    }
+    "https://docs.cronofy.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/categories/",
+    "/tags/"
+  ],
+  "sitemap_urls": [
+    "https://docs.cronofy.com/sitemap.xml"
+  ],
   "selectors": {
-    "lvl0": ".documentation-content h2, .post h2",
-    "lvl1": ".documentation-content h3, .post h3",
-    "lvl2": ".documentation-content h4, .post h4",
-    "lvl3": ".documentation-content h5, .post h5",
-    "lvl4": ".documentation-content h6, .post h6",
-    "text": ".documentation-content p, .documentation-content li, .post p, .post li"
+    "lvl0": {
+      "selector": ".menu--primary .menu__item--parent",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content section h1",
+    "lvl2": ".content section h2",
+    "lvl3": ".content section h3",
+    "lvl4": ".content section h4",
+    "lvl5": ".content section h5",
+    "text": ".content section p, .content section li:not(.breadcrumbs__item)",
+    "language": {
+      "selector": "select[name='language'] [selected]",
+      "global": true,
+      "default_value": "English"
+    }
+  },
+  "selectors_exclude": [
+    "section.card--list",
+    ".param-anchor"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
   },
   "conversation_id": [
-    "206478198"
+    "777202490"
   ],
-  "nb_hits": 2038
+  "nb_hits": 3307
 }
