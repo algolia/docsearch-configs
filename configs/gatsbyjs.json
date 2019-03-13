@@ -69,10 +69,11 @@
         "default_value": "Blog"
       },
       "lvl1": ".post h1",
-      "lvl2": ".post-body h2",
-      "lvl3": ".post-body h4",
-      "lvl4": ".post-body h5",
-      "text": ".post-body p, .post-body li"
+      "lvl2": "section.post-body h2",
+      "lvl3": "section.post-body h3",
+      "lvl4": "section.post-body h4",
+      "lvl5": "section.post-body h5",
+      "text": "section.post-body p, section.post-body li"
     }
   },
   "selectors_exclude": [
@@ -80,10 +81,10 @@
     "#next-steps",
     "#next-steps ~ p",
     "h3 span",
-    "h3 style"
+    "body style"
   ],
   "conversation_id": [
     "487785557"
   ],
-  "nb_hits": 10937
+  "nb_hits": 10764
 }
