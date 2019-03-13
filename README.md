@@ -4,7 +4,7 @@ This repository holds configuration files used by each documentation DocSearch
 is indexing.
 
 If you're looking for a way to add DocSearch to your site, you should visit the
-main [main website instead][1]. If you want to have a look at existing
+[main website instead][1]. If you want to have a look at existing
 configurations and see yours, you've come to the right place.
 
 ## Options
