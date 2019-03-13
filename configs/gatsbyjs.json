@@ -51,7 +51,6 @@
         "global": true,
         "default_value": "Tutorial"
       },
-
       "lvl1": {
         "selector": "//a[@aria-current]",
         "type": "xpath",
@@ -80,10 +79,11 @@
     "hr ~ div",
     "#next-steps",
     "#next-steps ~ p",
-    "h3 span"
+    "h3 span",
+    "h3 style"
   ],
   "conversation_id": [
     "487785557"
   ],
-  "nb_hits": 10026
+  "nb_hits": 10937
 }
