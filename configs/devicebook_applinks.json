@@ -1,15 +1,15 @@
 {
   "index_name": "devicebook_applinks",
   "start_urls": [
-    "https://applinks.devicebook.com/docs/",
-    "https://applinks.devicebook.com/docs/html/",
     {
       "url": "https://applinks.devicebook.com/docs/html/tutorial-",
       "tags": [
         "tutorials"
       ],
       "selectors_key": "tutorials"
-    }
+    },
+    "https://applinks.devicebook.com/docs/html/",
+    "https://applinks.devicebook.com/docs/"
   ],
   "stop_urls": [
     "/index\\.html$",
@@ -47,5 +47,5 @@
   "conversation_id": [
     "760570621"
   ],
-  "nb_hits": 2896
+  "nb_hits": 2916
 }
