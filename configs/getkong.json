@@ -17,7 +17,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".docs-navigation > a",
+      "selector": ".docs-navigation > a.active",
       "global": true,
       "default_value": "Kong"
     },
