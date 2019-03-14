@@ -1,0 +1,27 @@
+{
+  "index_name": "wedoaddons",
+  "start_urls": [
+    "http://wedoaddons.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".parent > a > span",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#body-inner h1",
+    "lvl2": "#body-inner h2",
+    "lvl3": "#body-inner h3",
+    "lvl4": "#body-inner h4",
+    "lvl5": "#body-inner h5",
+    "text": "#body-inner p, #body-inner li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "772509000"
+  ],
+  "nb_hits": 437
+}
