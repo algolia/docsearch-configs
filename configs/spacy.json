@@ -7,9 +7,12 @@
     "\\?",
     "index$"
   ],
+  "sitemap_urls": [
+    "https://spacy.io/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'is-active')][1]/preceding::*[contains(@class,'.h0')][1]",
+      "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'is-active')][1]/preceding::*[contains(@class,'h0')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -34,5 +37,5 @@
     "753259253"
   ],
   "js_render": true,
-  "nb_hits": 6198
+  "nb_hits": 7203
 }
