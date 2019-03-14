@@ -31,7 +31,8 @@
     "[data-tooltip]",
     ".table-footer:nth-child(1)",
     ".table-footer:nth-child(2)",
-    "#toc"
+    "#toc",
+    ".search-exclude"
   ],
   "conversation_id": [
     "753259253"
