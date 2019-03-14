@@ -11,12 +11,7 @@
     "https://spacy.io/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class,'is-active')]/preceding::*[contains(@class,'h0')][1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
+    "lvl0": ".h0",
     "lvl1": "article header h1 .heading-text",
     "lvl2": "article h2 .heading-text",
     "lvl3": "article h3 .heading-text",
