@@ -10,6 +10,7 @@
     },
     {
       "url": "https://nus-te3201.github.io/2019/admin/",
+      "selectors_key": "admin",
       "tags": [
         "admin"
       ]
@@ -48,6 +49,19 @@
       "lvl3": ".website-content h4",
       "lvl4": ".website-content h5",
       "lvl5": ".website-content h6",
+      "text": ".website-content p, .website-content li, .website-content .table td"
+    },
+    "admin": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Admin Info"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h2",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
       "text": ".website-content p, .website-content li, .website-content .table td"
     },
     "programming": {
