@@ -51,11 +51,16 @@
       "text": ".website-content p, .website-content li, .website-content .table td"
     },
     "programming": {
-      "lvl0": ".website-content h1",
-      "lvl1": ".website-content h3",
-      "lvl2": ".website-content h4",
-      "lvl3": ".website-content h5",
-      "lvl4": ".website-content h6",
+       "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Programming Textbook"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h3",
+      "lvl3": ".website-content h4",
+      "lvl4": ".website-content h5",
+      "lvl5": ".website-content h6",
       "text": ".website-content p, .website-content li, .website-content .table td"
     },
     "schedule": {
@@ -75,7 +80,7 @@
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "SE topics"
+        "default_value": "SE Textbook"
       },
       "lvl1": ".website-content h1",
       "lvl2": ".website-content h2",
