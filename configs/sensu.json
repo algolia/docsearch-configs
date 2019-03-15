@@ -62,15 +62,15 @@
       ]
     },
     {
-      "url": "https://docs.sensu.io/extensions/(?P<version>.*?)/",
+      "url": "https://docs.sensu.io/sensu-go/(?P<version>.*?)/",
       "variables": {
         "version": {
-          "url": "https://docs.sensu.io/extensions/latest/",
+          "url": "https://docs.sensu.io/sensu-go/latest/",
           "js": "let versions=[]; for (let b of document.querySelectorAll('#versionButton a.versionButtonTitle, .hiddenVersions a')){versions.push(b.text)};return JSON.stringify(versions)"
         }
       },
       "tags": [
-        "extensions"
+        "sensu-go"
       ]
     }
   ],
@@ -86,7 +86,7 @@
     "lvl4": "article.article h5",
     "text": "article.article p, article.article li"
   },
-  "min_indexed_level":1,
+  "min_indexed_level": 1,
   "conversation_id": [
     "615045060"
   ],
