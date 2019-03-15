@@ -12,8 +12,9 @@
   ],
   "selectors": {
     "lvl0": {
-        "selector": ".h0",
-        "defaultValue": "Documentation"
+      "selector": ".h0",
+      "global": true,
+      "default_value": "Documentation"
     },
     "lvl1": "article header h1 .heading-text",
     "lvl2": "article h2 .heading-text",
@@ -36,5 +37,5 @@
     "753259253"
   ],
   "js_render": true,
-  "nb_hits": 7117
+  "nb_hits": 6995
 }
