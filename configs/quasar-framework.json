@@ -17,7 +17,7 @@
     "lvl4": "main h4",
     "lvl5": "main h5",
     "lvl6": "main h6",
-    "text": "main p, main li"
+    "text": "main p, main li, main td"
   },
   "min_indexed_level": 2,
   "selectors_exclude": [
