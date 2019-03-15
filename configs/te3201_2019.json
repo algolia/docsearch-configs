@@ -44,14 +44,14 @@
         "default_value": "Documentation"
       },
       "lvl1": ".website-content h1:not(:first-child)",
-      "lvl2": ".website-content h2",
+      "lvl2": ".website-content h3",
       "lvl3": ".website-content h4",
       "lvl4": ".website-content h5",
       "lvl5": ".website-content h6",
       "text": ".website-content p, .website-content li, .website-content .table td"
     },
     "programming": {
-       "lvl0": {
+      "lvl0": {
         "selector": "",
         "global": true,
         "default_value": "Programming Textbook"
@@ -103,5 +103,5 @@
   "conversation_id": [
     "775254692"
   ],
-  "nb_hits": 5171
+  "nb_hits": 5186
 }
