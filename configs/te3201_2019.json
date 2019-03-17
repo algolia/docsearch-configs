@@ -1,5 +1,7 @@
 {
   "index_name": "te3201_2019",
+  "js_render": true,
+  "js_wait": 10,
   "start_urls": [
     {
       "url": "https://nus-te3201.github.io/2019/schedule/",
