@@ -35,7 +35,8 @@
     "printable",
     "\\d/index.html",
     "schedule/index\\.html",
-    "print\\.html$"
+    "print\\.html$",
+    "/schedule/"
   ],
   "selectors": {
     "default": {
@@ -113,9 +114,10 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
+  "js_render": true,
   "scrap_start_urls": false,
   "conversation_id": [
     "775254692"
   ],
-  "nb_hits": 5209
+  "nb_hits": 1886
 }
