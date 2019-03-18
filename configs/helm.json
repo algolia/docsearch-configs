@@ -1,9 +1,14 @@
 {
   "index_name": "helm",
   "start_urls": [
-    "https://docs.helm.sh/"
+    "https://helm.sh/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/developing_charts/"
+  ],
+  "sitemap_urls": [
+    "https://helm.sh/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".content-wrap h1",
@@ -15,8 +20,11 @@
     "lvl4": ".content-wrap h5",
     "text": ".content-wrap p, .content-wrap li"
   },
+  "selectors_exclude": [
+    ".content-wrap > h3:first-child"
+  ],
   "conversation_id": [
     "749661449"
   ],
-  "nb_hits": 2478
+  "nb_hits": 3024
 }
