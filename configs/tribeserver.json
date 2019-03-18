@@ -20,6 +20,7 @@
   "conversation_id": [
     "567591378"
   ],
+  "sitemap_urls": ["https://tribeserver.com/sitemap.xml"],
   "scrap_start_urls": false,
   "custom_settings": {
     "attributesForFaceting": [
