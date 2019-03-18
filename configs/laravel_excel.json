@@ -2,7 +2,7 @@
   "index_name": "laravel_excel",
   "start_urls": [
     {
-      "url": "https://laravel-excel.maatwebsite.nl/(?P<version>.*?)/",
+      "url": "https://docs.laravel-excel.com/(?P<version>.*?)/",
       "variables": {
         "version": [
           "2.1",
