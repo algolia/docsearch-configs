@@ -1,19 +1,23 @@
 {
   "index_name": "bee_tinper",
   "start_urls": [
-    "http://bee.tinper.org/"
+    "https://bee.tinper.org/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".demo-container h2",
-    "lvl1": ".demo-container h3",
-    "lvl2": ".demo-container h4, .demo-container table td:first-child",
-    "lvl3": ".demo-container h5",
-    "lvl4": ".demo-container h6",
-    "text": ".demo-container p, .demo-container table td:not(:first-child)"
+    "lvl0": ".docs h2",
+    "lvl1": ".docs h3",
+    "lvl2": ".docs h4, .docs table td:first-child",
+    "lvl3": ".docs h5",
+    "lvl4": ".docs h6",
+    "text": ".docs p, .docs table td:not(:first-child)"
   },
+  "selectors_exclude": [
+    ".demoPadding"
+  ],
+  "js_render": true,
   "conversation_id": [
     "757411054"
   ],
-  "nb_hits": 5536
+  "nb_hits": 2956
 }
