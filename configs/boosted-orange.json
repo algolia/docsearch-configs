@@ -25,7 +25,7 @@
     }
   ],
   "sitemap_urls": [
-    "http://boosted.orange.com/sitemap.xml"
+    "https://boosted.orange.com/sitemap.xml"
   ],
   "stop_urls": [
     "/examples/.+"
@@ -48,5 +48,5 @@
   "selectors_exclude": [
     ".bd-example"
   ],
-  "nb_hits": 12618
+  "nb_hits": 12662
 }
