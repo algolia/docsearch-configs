@@ -2,7 +2,9 @@
   "index_name": "bumo",
   "start_urls": [
     "https://docs.bumo.io/docs/",
-    "https://docs.bumo.io/docs/introduction_to_bumo"
+    "https://docs.bumo.io/docs/introduction_to_bumo",
+    "https://docs.bumo.io/cn/docs/",
+    "https://docs.bumo.io/cn/docs/introduction_to_bumo/"
   ],
   "sitemap_urls": [
     "https://docs.bumo.io/sitemap.xml"
@@ -35,5 +37,5 @@
   "conversation_id": [
     "801637474"
   ],
-  "nb_hits": 5321
+  "nb_hits": 10611
 }
