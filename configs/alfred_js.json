@@ -1,10 +1,10 @@
 {
   "index_name": "alfred_js",
   "start_urls": [
-    "http://alfred.js.org/docs/"
+    "https://alfred.js.org/docs/"
   ],
   "sitemap_urls": [
-    "http://alfred.js.org/sitemap.xml"
+    "https://alfred.js.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
