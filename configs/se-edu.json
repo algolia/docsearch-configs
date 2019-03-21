@@ -14,6 +14,9 @@
     "lvl4": ".website-content h6",
     "text": ".website-content p, .website-content li"
   },
+  "selectors_exclude": [
+    ".algolia-no-index"
+  ],
   "conversation_id": [
     "738224875"
   ],
