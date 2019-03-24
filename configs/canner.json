@@ -1,7 +1,7 @@
 {
   "index_name": "canner",
   "start_urls": [
-    "https://www.canner.io/docs/"
+    "https://www.cannercms.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
