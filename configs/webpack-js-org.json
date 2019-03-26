@@ -31,13 +31,10 @@
         "versioning",
         "hashing",
         "renaming",
-        "revving",
-        "content addressable",
-        "persistent caching",
-        "consistent file hashing"
+        "revving"
       ]
     ],
     "separatorsToIndex": "_"
   },
-  "nb_hits": 6944
+  "nb_hits": 7177
 }
