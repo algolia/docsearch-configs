@@ -1,0 +1,37 @@
+{
+  "index_name": "kuma-cheatsheet_python",
+  "start_urls": [
+    "https://kuma-cheatsheet.github.io/python/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "811265107"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 947
+}
