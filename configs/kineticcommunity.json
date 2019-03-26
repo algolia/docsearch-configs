@@ -121,33 +121,33 @@
       "hierarchy.lvl1",
       "hierarchy.lvl2",
       "hierarchy.lvl3"
+    ],
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "task",
+        "kinetic task",
+        "workflow"
+      ],
+      [
+        "handler",
+        "workflow handler"
+      ],
+      [
+        "ce",
+        "kinetic request"
+      ],
+      [
+        "kinetics",
+        "kinetic"
+      ]
     ]
   },
-  "synonyms": [
-    [
-      "js",
-      "javascript"
-    ],
-    [
-      "task",
-      "kinetic task",
-      "workflow"
-    ],
-    [
-      "handler",
-      "workflow handler"
-    ],
-    [
-      "ce",
-      "kinetic request"
-    ],
-    [
-      "kinetics",
-      "kinetic"
-    ]
-  ],
   "conversation_id": [
     "719291202"
   ],
-  "nb_hits": 5306
+  "nb_hits": 6242
 }
