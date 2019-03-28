@@ -14,20 +14,6 @@
       "tags": [
         "en"
       ]
-    },
-    {
-      "url": "https://pingcap.com/blog-cn/",
-      "selectors_key": "blog_cn",
-      "tags": [
-        "cn"
-      ]
-    },
-    {
-      "url": "https://pingcap.com/blog/",
-      "selectors_key": "blog",
-      "tags": [
-        "en"
-      ]
     }
   ],
   "stop_urls": [
@@ -69,38 +55,13 @@
       "lvl3": ".content h3",
       "lvl4": ".content h4",
       "text": ".content p, .content li, .content table, .content pre, .content code"
-    },
-    "blog_cn": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "博客"
-      },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
-      "text": ".content p, .content li, .content table, .content pre, .content code"
-    },
-    "blog": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Blog"
-      },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
-      "text": ".content p, .content li"
     }
   },
   "selectors_exclude": [
-    ".blog-post-meta",
     ".error"
   ],
   "conversation_id": [
     "428916846"
   ],
-  "nb_hits": 48342
+  "nb_hits": 34632
 }
