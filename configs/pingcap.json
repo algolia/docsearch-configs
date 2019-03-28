@@ -2,46 +2,95 @@
   "index_name": "pingcap",
   "start_urls": [
     {
-      "url": "https://pingcap.com/docs-cn",
-      "tags": [
-        "cn"
-      ]
+      "url": "https://pingcap.com/docs-cn/",
+      "selectors_key": "docs_cn",
+      "tags": ["cn"]
     },
     {
       "url": "https://pingcap.com/docs/",
-      "tags": [
-        "en"
-      ]
+      "selectors_key": "docs",
+      "tags": ["en"]
+    },
+    {
+      "url": "https://pingcap.com/blog-cn/",
+      "selectors_key": "blog_cn",
+      "tags": ["cn"]
+    },
+    {
+      "url": "https://pingcap.com/blog/",
+      "selectors_key": "blog",
+      "tags": ["en"]
     }
   ],
   "stop_urls": [
     "/docs/v1.0/",
     "/docs/v2.0/",
+    "/docs/v2.1/",
     "/docs-cn/v1.0/",
-    "/docs-cn/v2.0/"
+    "/docs-cn/v2.0/",
+    "/docs-cn/v2.1/"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "header .navigation li.sel a",
-      "global": true,
-      "default_value": "More"
+    "default": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li"
+    "docs_cn": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "文档"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li, .content table, .content pre, .content code"
+    },
+    "docs": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li, .content table, .content pre, .content code"
+    },
+    "blog_cn": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "博客"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li, .content table, .content pre, .content code"
+    },
+    "blog": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li, .content table, .content pre, .content code"
+    }
   },
-  "sitemap_urls": [
-    "https://pingcap.com/sitemap.xml"
-  ],
-  "stop_content": [
-    "Sorry... 404"
-  ],
+  "sitemap_urls": ["https://pingcap.com/sitemap.xml"],
+  "stop_content": ["Sorry... 404"],
   "min_indexed_level": 1,
-  "conversation_id": [
-    "428916846"
-  ],
+  "conversation_id": ["428916846"],
   "nb_hits": 34501
 }
