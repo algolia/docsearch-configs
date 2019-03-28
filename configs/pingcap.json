@@ -4,22 +4,22 @@
     {
       "url": "https://pingcap.com/docs-cn/",
       "selectors_key": "docs_cn",
-      "tags": ["docs_cn"]
+      "tags": ["cn"]
     },
     {
       "url": "https://pingcap.com/docs/",
       "selectors_key": "docs",
-      "tags": ["docs"]
+      "tags": ["en"]
     },
     {
       "url": "https://pingcap.com/blog-cn/",
       "selectors_key": "blog_cn",
-      "tags": ["blog_cn"]
+      "tags": ["cn"]
     },
     {
       "url": "https://pingcap.com/blog/",
       "selectors_key": "blog",
-      "tags": ["blog"]
+      "tags": ["en"]
     }
   ],
   "stop_urls": [
