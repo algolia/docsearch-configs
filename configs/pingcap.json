@@ -50,7 +50,7 @@
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "\u6587\u6863"
+        "default_value": "文档"
       },
       "lvl1": ".content h1",
       "lvl2": ".content h2",
@@ -74,7 +74,7 @@
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "\u535a\u5ba2"
+        "default_value": "博客"
       },
       "lvl1": ".content h1",
       "lvl2": ".content h2",
@@ -96,10 +96,11 @@
     }
   },
   "selectors_exclude": [
-    ".blog-post-meta"
+    ".blog-post-meta",
+    ".error"
   ],
   "conversation_id": [
     "428916846"
   ],
-  "nb_hits": 48414
+  "nb_hits": 48342
 }
