@@ -1,0 +1,50 @@
+{
+  "index_name": "bootstrap-select",
+  "start_urls": [
+    {
+      "url": "https://developer.snapappointments.com/bootstrap-select/$",
+      "selectors_key": "homepage"
+    },
+    "https://developer.snapappointments.com/bootstrap-select/"
+  ],
+  "sitemap_urls": [
+    "https://developer.snapappointments.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".bs-docs-header h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "[role='main'] h1",
+      "lvl2": "[role='main'] h2, [role='main'] td:first-child",
+      "lvl3": "[role='main'] h4",
+      "lvl4": "[role='main'] h5",
+      "lvl5": "[role='main'] h6",
+      "text": "[role='main'] p, [role='main'] li"
+    },
+    "homepage": {
+      "lvl0": {
+        "selector": ".bs-docs-header h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".container.pb-4 h1",
+      "lvl2": ".container.pb-4 h2",
+      "lvl3": ".container.pb-4 h3",
+      "lvl4": ".container.pb-4 h4",
+      "lvl5": ".container.pb-4 h5",
+      "lvl6": ".container.pb-4 h6",
+      "text": ".container.pb-4 p, .container.pb-4 li,.container.pb-4 .small, .bs-docs-header .lead"
+    }
+  },
+  "selectors_exclude": [
+    "[class='bs-docs-example']"
+  ],
+  "conversation_id": [
+    "813688427"
+  ],
+  "nb_hits": 218
+}
