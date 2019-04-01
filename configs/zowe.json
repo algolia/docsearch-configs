@@ -6,6 +6,7 @@
       "variables": {
         "version": [
           "latest",
+          "v1-0-x",
           "v0-9-x"
         ]
       }
