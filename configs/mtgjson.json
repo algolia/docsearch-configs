@@ -9,7 +9,7 @@
   "selectors": {
     "lvl0": {
       "selector": "(//*[contains(@class,'open')])[1]",
-      "type": "xpath",
+      "type":"xpath",
       "global": true,
       "default_value": "Documentation"
     },
