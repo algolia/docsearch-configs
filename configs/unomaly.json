@@ -3,7 +3,12 @@
   "start_urls": [
     "https://docs.unomaly.com/"
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.unomaly.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "https://docs.unomaly.com/\\d"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "#category",
@@ -20,5 +25,5 @@
   "conversation_id": [
     "594292102"
   ],
-  "nb_hits": 2411
+  "nb_hits": 585
 }
