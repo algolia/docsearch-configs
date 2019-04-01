@@ -23,14 +23,14 @@
     }
   },
   "scrap_start_urls": false,
-  "conversation_id": [
-    "561346943"
-  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
-  "nb_hits": 2307
+  "conversation_id": [
+    "561346943"
+  ],
+  "nb_hits": 1067
 }
