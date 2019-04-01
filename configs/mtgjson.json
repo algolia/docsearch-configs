@@ -7,20 +7,35 @@
     "/json/"
   ],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content > h3",
-    "lvl3": ".content h4, .content td:first-child,  .content .txt-wrap h3",
-    "lvl4": ".content h5",
-    "lvl5": ".content h6",
-    "text": ".content p, .content li, .content td:last-child"
+    "lvl0": {
+      "selector": "(//*[contains(@class,'open')])[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4, .content td:first-child",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li, .content td:last-child",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
   "strip_chars": " .,;:#",
   "selectors_exclude": [
     "blockquote"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
   "conversation_id": [
     "787070360"
   ],
-  "nb_hits": 1811
+  "nb_hits": 1026
 }
