@@ -5,6 +5,7 @@
     "https://pulsar.apache.org/docs/"
   ],
   "stop_urls": [
+    "-incubating",
     "\\?",
     "\\.html$"
   ],
@@ -37,5 +38,5 @@
       "version"
     ]
   },
-  "nb_hits": 103112
+  "nb_hits": 70438
 }
