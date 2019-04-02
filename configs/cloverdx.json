@@ -1,10 +1,10 @@
 {
   "index_name": "cloverdx",
   "start_urls": [
-    "https://d1bh0y2lv6klys.cloudfront.net"
+    "https://doc.cloverdx.com"
   ],
   "sitemap_urls": [
-    "https://d1bh0y2lv6klys.cloudfront.net/latest/sitemap.xml"
+    "https://doc.cloverdx.com/latest/sitemap.xml"
   ],
   "stop_urls": [
     "index.html$"
