@@ -18,7 +18,7 @@
     "lvl3": ".section h3",
     "lvl4": ".section h4, .section .descname",
     "lvl5": ".section h5",
-    "text": ".section p, .section li"
+    "text": ".section p"
   },
   "custom_settings": {
     "separatorsToIndex": "_"
