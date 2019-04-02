@@ -1,8 +1,7 @@
 {
   "index_name": "graphql-compose",
   "start_urls": [
-    "https://graphql-compose.github.io/docs/intro/quick-start.html",
-    "https://graphql-compose.github.io"
+    "https://graphql-compose.github.io/docs/intro/quick-start.html"
   ],
   "stop_urls": [],
   "selectors": {
