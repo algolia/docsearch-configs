@@ -1,0 +1,29 @@
+{
+  "index_name": "codesandbox",
+  "start_urls": [
+    "https://codesandbox.io/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://codesandbox.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "[class^='docs__Article'] h1",
+    "lvl1": "[class^='docs__Article'] h2",
+    "lvl2": "[class^='docs__Article'] h3",
+    "lvl3": "[class^='docs__Article'] h4, [class^='docs__Article'] td:first-child",
+    "lvl4": "[class^='docs__Article'] h5",
+    "lvl5": "[class^='docs__Article'] h6",
+    "text": "[class^='docs__Article'] p, [class^='docs__Article'] li, [class^='docs__Article'] td:nth-child(2)"
+  },
+  "selectors_exclude": [
+    "p .language-text"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "816410659"
+  ],
+  "nb_hits": 241
+}
