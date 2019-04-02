@@ -29,7 +29,8 @@
     "attributesForFaceting": [
       "language",
       "version"
-    ]
+    ],
+    "separatorsToIndex": "_"
   },
   "conversation_id": [
     "816797859"
