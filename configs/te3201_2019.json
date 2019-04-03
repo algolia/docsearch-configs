@@ -107,6 +107,7 @@
     }
   },
   "selectors_exclude": [
+    ".algolia-no-index",
     "[id$='-toc']",
     "#toc",
     ".alert"
@@ -114,7 +115,6 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "js_render": true,
   "scrap_start_urls": false,
   "conversation_id": [
     "775254692"
