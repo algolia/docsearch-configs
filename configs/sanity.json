@@ -21,5 +21,12 @@
     "lvl5": ".documentation-page__content h5",
     "text": ".documentation-page__content p, .documentation-page__content li"
   },
-  "nb_hits": 2361
+  "selectors_exclude": [
+    ".BlockContent",
+    ".documentation-page__bottom-navigation"
+  ],
+  "conversation_id": [
+    "702740700"
+  ],
+  "nb_hits": 378
 }
