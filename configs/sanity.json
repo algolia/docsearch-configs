@@ -22,11 +22,11 @@
     "text": ".documentation-page__content p, .documentation-page__content li"
   },
   "selectors_exclude": [
-    ".BlockContent",
+    ".lowlight",
     ".documentation-page__bottom-navigation"
   ],
   "conversation_id": [
     "702740700"
   ],
-  "nb_hits": 378
+  "nb_hits": 2977
 }
