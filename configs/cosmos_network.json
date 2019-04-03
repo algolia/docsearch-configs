@@ -1,8 +1,7 @@
 {
   "index_name": "cosmos_network",
   "start_urls": [
-    "https://cosmos.network/docs/",
-    "https://cosmos-staging.interblock.io/docs/"
+    "https://cosmos.network/docs/"
   ],
   "stop_urls": [],
   "selectors": {
