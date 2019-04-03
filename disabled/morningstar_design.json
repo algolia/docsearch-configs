@@ -13,8 +13,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//li[contains(@class, 'highlighted')][1]/preceding::li[contains(@class, '--header')][1]",
-      "type": "xpath",
+      "selector": ".mds-doc-site-navigation--horizontal [class*='active']",
       "global": true,
       "default_value": "Documentation"
     },
@@ -28,7 +27,6 @@
     ".mds-doc-page-nav"
   ],
   "scrap_start_urls": false,
-  "js_render": true,
   "conversation_id": [
     "546559123"
   ],
