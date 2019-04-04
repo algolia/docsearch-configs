@@ -20,14 +20,15 @@
     "lvl2": "#body-inner h1",
     "lvl3": "#body-inner h2",
     "lvl4": "#body-inner h3",
-    "lvl5": "#body-inner h4",
+    "lvl5": "#body-inner h4, #body-inner td:first-child",
     "lvl6": "#body-inner h5",
     "text": "#body-inner p"
   },
   "selectors_exclude": [
     ".toc",
     "validator-toc-2",
-    ".note"
+    ".note",
+    ".titlepage + table"
   ],
   "custom_settings": {
     "separatorsToIndex": "_"
@@ -36,5 +37,5 @@
   "conversation_id": [
     "798803918"
   ],
-  "nb_hits": 21448
+  "nb_hits": 27968
 }
