@@ -1,12 +1,10 @@
 {
   "index_name": "grafana",
   "start_urls": [
-    "http://docs.grafana.org/"
+    "https://grafana.com/docs/"
   ],
   "stop_urls": [
-    "http://docs.grafana.org/$",
-    "v2.1",
-    "archive"
+    "https://grafana.com/(?!docs/)"
   ],
   "selectors": {
     "lvl0": {
