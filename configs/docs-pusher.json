@@ -2,33 +2,26 @@
   "index_name": "docs-pusher",
   "start_urls": [
     {
-      "url": "https://docs.pusher.com/chatkit",
+      "url": "https://pusher.com/docs/channels",
+      "selectors_key": "channels",
+      "tags": [
+        "channels"
+      ]
+    },
+    {
+      "url": "https://pusher.com/docs/chatkit",
       "selectors_key": "chatkit",
       "tags": [
         "chatkit"
       ]
     },
     {
-      "url": "https://docs.pusher.com/feeds",
-      "selectors_key": "feeds",
-      "tags": [
-        "feeds"
-      ]
-    },
-    {
-      "url": "https://docs.pusher.com/beams",
+      "url": "https://pusher.com/docs/beams",
       "selectors_key": "beams",
       "tags": [
         "beams"
       ]
     },
-    {
-      "url": "https://docs.pusher.com/textsync",
-      "selectors_key": "textsync",
-      "tags": [
-        "textsync"
-      ]
-    }
   ],
   "stop_urls": [],
   "selectors": {
