@@ -1,0 +1,29 @@
+{
+  "index_name": "exokit",
+  "start_urls": [
+    "https://exokit.org/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".docs-header a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".copy__wrap h1",
+    "lvl2": ".copy__wrap h2",
+    "lvl3": ".copy__wrap h3",
+    "lvl4": ".copy__wrap h4",
+    "lvl5": ".copy__wrap h5",
+    "lvl6": ".copy__wrap h6",
+    "text": ".copy__wrap p, .copy__wrap li"
+  },
+  "strip_chars": "\u203a",
+  "selectors_exclude": [
+    "footer"
+  ],
+  "conversation_id": [
+    "821582051"
+  ],
+  "nb_hits": 787
+}
