@@ -1,0 +1,40 @@
+{
+  "index_name": "segment",
+  "start_urls": [
+    "https://segment.com/docs/"
+  ],
+  "stop_urls": [
+    "/docs/legal/"
+  ],
+  "sitemap_urls": [
+    "https://segment.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'Navigation-middle')]/a[contains(//head//link[@rel='canonical']/@href,@href)]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Guides"
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class,'SidebarLink')][contains(//head//link[@rel='canonical']/@href,@href)]/preceding::*[contains(@class,'item-header')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Introduction"
+    },
+    "lvl2": "main h1",
+    "lvl3": ".Page-contents h2",
+    "lvl4": ".Page-contents h3",
+    "lvl5": ".Page-contents h4, .Page-contents tr:not(:first-child) td:first-child",
+    "lvl6": ".Page-contents h5",
+    "text": ".Page-contents p, .Page-contents li, .Page-contents tr:not(:first-child) td:last-child"
+  },
+  "stop_content": [
+    "This is currently in beta"
+  ],
+  "min_indexed_level": 3,
+  "custom_settings": {
+    "separatorsToIndex": "_>@"
+  },
+  "nb_hits": 25058
+}
