@@ -2,21 +2,21 @@
   "index_name": "sgvignali-sdmtune",
   "start_urls": [
     {
-      "url": "https://sgvignali.github.io/SDMtune/index.html",
+      "url": "https://consbiol-unibern.github.io/SDMtune/index.html",
       "tags": [
         "homepage"
       ],
       "selectors_key": "homepage"
     },
     {
-      "url": "https://sgvignali.github.io/SDMtune/reference",
+      "url": "https://consbiol-unibern.github.io/SDMtune/reference",
       "tags": [
         "reference"
       ],
       "selectors_key": "reference"
     },
     {
-      "url": "https://sgvignali.github.io/SDMtune/articles",
+      "url": "https://consbiol-unibern.github.io/SDMtune/articles",
       "tags": [
         "articles"
       ],
@@ -24,7 +24,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://sgvignali.github.io/SDMtune/sitemap.xml"
+    "https://consbiol-unibern.github.io/SDMtune/sitemap.xml"
   ],
   "stop_urls": [
     "/reference/$",
@@ -93,5 +93,5 @@
   "conversation_id": [
     "818278476"
   ],
-  "nb_hits": 691
+  "nb_hits": 945
 }
