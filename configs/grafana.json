@@ -4,7 +4,8 @@
     "https://grafana.com/docs/"
   ],
   "stop_urls": [
-    "https://grafana.com/(?!docs/)"
+    "https://grafana.com/(?!docs/)",
+    "https://grafana.com/docs/v\\d+\\.\\d+/"
   ],
   "selectors": {
     "lvl0": {
