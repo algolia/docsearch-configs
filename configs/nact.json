@@ -2,12 +2,13 @@
   "index_name": "nact",
   "start_urls": [
     {
-      "url": "https://nact.io/lesson/(?P<version>.*?)/",
+      "url": "https://nact.io/(?P<lang>.*?)/lesson/(?P<version>.*?)/",
       "variables": {
         "version": [
           "reasonml",
           "javascript"
-        ]
+        ],       
+        "lang": ["en_uk", "ko_kr"]              
       }
     }
   ],
