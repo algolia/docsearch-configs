@@ -75,6 +75,13 @@
         "default_value": "Context"
       },
       "text": ".contents p, .contents li, .tempate-article .contents .pre"
+    },
+    "default": {
+      "lvl1": ".contents h2",
+      "lvl2": ".contents h3, .contents th",
+      "lvl3": ".contents h4",
+      "lvl4": ".contents h5",
+      "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
     }
   },
   "selectors_exclude": [
@@ -90,5 +97,8 @@
       "url",
       "url_without_anchor"
     ]
-  }
+  },
+  "conversation_id": [
+    "641427970"
+  ]
 }
