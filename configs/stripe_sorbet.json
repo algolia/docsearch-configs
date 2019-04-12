@@ -1,10 +1,10 @@
 {
   "index_name": "stripe_sorbet",
   "start_urls": [
-    " https://sorbet.org/docs/"
+    "https://sorbet.org/docs/"
   ],
   "sitemap_urls": [
-    " https://sorbet.org/sitemap.xml"
+    "https://sorbet.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -35,5 +35,5 @@
   "conversation_id": [
     "816797859"
   ],
-  "nb_hits": 775
+  "nb_hits": 857
 }
