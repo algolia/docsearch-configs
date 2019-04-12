@@ -1,10 +1,10 @@
 {
   "index_name": "stripe_sorbet",
   "start_urls": [
-    "https://stripe.dev/sorbet/super-secret-private-beta/docs/"
+    " https://sorbet.org/docs/"
   ],
   "sitemap_urls": [
-    "https://stripe.dev/sorbet/super-secret-private-beta/sitemap.xml"
+    " https://sorbet.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
