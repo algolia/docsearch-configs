@@ -3,7 +3,10 @@
   "start_urls": [
     "https://bee.tinper.org/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/changelog",
+    "tag="
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".docs h1",
