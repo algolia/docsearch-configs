@@ -6,7 +6,8 @@
       "tags": [
         "release"
       ],
-      "selectors_key": "release"
+      "selectors_key": "release",
+      "page_rank": -2
     },
     {
       "url": "http://www.typescriptlang.org/samples/",
@@ -15,13 +16,17 @@
       ],
       "selectors_key": "sample"
     },
-    "http://www.typescriptlang.org/docs/"
+    {
+      "url": "http://www.typescriptlang.org/docs/",
+      "page_rank": 1
+    }
   ],
   "sitemap_urls": [
     "http://www.typescriptlang.org/sitemap.xml"
   ],
   "stop_urls": [
-    "/global-plugin/"
+    "/global-plugin/",
+    "declaration-files/templates/"
   ],
   "selectors": {
     "release": {
@@ -63,14 +68,17 @@
       "lvl2": "article h1",
       "lvl3": "article h2",
       "lvl4": "article h3",
-      "lvl5": "article h4",
+      "lvl5": "article h4, article td:first-child",
       "lvl6": "article h5",
-      "text": "article p, article li"
+      "text": "article p, article li, article td:last-child"
     }
   },
   "scrap_start_urls": false,
   "selectors_exclude": [
     ".toc-item"
   ],
-  "nb_hits": 3532
+  "custom_settings": {
+    "separatorsToIndex": "_@"
+  },
+  "nb_hits": 3882
 }
