@@ -2,14 +2,14 @@
   "index_name": "wijmo-dev-en",
   "start_urls": [
     {
-      "url": "http://us.grapecitydev.com/wijmo/docs/",
+      "url": "https://us.grapecitydev.com/wijmo/docs/",
       "selectors_key": "docs",
       "tags": [
         "docs"
       ]
     },
     {
-      "url": "http://us.grapecitydev.com/wijmo/demos/",
+      "url": "https://us.grapecitydev.com/wijmo/demos/",
       "selectors_key": "demos",
       "tags": [
         "demos"
@@ -17,8 +17,8 @@
     }
   ],
   "sitemap_urls": [
-    "http://us.grapecitydev.com/wijmo/docs/sitemap.xml",
-    "http://us.grapecitydev.com/wijmo/demos/resource/sitemap.xml"
+    "https://us.grapecitydev.com/wijmo/docs/sitemap.xml",
+    "https://us.grapecitydev.com/wijmo/demos/resource/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -64,5 +64,5 @@
   "conversation_id": [
     "817808010"
   ],
-  "nb_hits": 4063
+  "nb_hits": 7242
 }
