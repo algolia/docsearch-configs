@@ -1,0 +1,70 @@
+{
+  "index_name": "sensu",
+  "start_urls": [
+    {
+      "url": "https://docs.sensu.io/sensu-core/",
+      "tags": [
+        "sensu-core"
+      ]
+    },
+    {
+      "url": "https://docs.sensu.io/sensu-enterprise/",
+      "tags": [
+        "sensu-enterprise"
+      ]
+    },
+    {
+      "url": "https://docs.sensu.io/sensu-enterprise-dashboard/",
+      "tags": [
+        "sensu-enterprise-dashboard"
+      ]
+    },
+    {
+      "url": "https://docs.sensu.io/uchiwa/",
+      "tags": [
+        "uchiwa"
+      ]
+    },
+    {
+      "url": "https://docs.sensu.io/plugins/",
+      "tags": [
+        "plugins"
+      ]
+    },
+    {
+      "url": "https://docs.sensu.io/sensu-go/",
+      "tags": [
+        "sensu-go"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.sensu.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li",
+    "version": {
+      "selector": ".versionButtonTitle",
+      "global": true
+    }
+  },
+  "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "selectors_exclude": [
+    "article h1 + ul"
+  ],
+  "conversation_id": [
+    "615045060"
+  ],
+  "nb_hits": 71265
+}
