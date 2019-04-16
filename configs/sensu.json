@@ -57,6 +57,7 @@
   "min_indexed_level": 1,
   "custom_settings": {
     "attributesForFaceting": [
+      "tags",
       "version"
     ]
   },
@@ -66,5 +67,5 @@
   "conversation_id": [
     "825649018"
   ],
-  "nb_hits": 71264
+  "nb_hits": 71265
 }
