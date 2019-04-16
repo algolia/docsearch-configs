@@ -10,7 +10,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://www.patternfly.org/v4/sitemap.xml"
+    "https://www.patternfly.org/sitemap.xml"
   ],
   "stop_urls": [
     "/blog/",
@@ -25,7 +25,7 @@
         "default_value": "Documentation"
       },
       "lvl1": {
-        "selector": "#page-sidebar li.pf-m-current a",
+        "selector": "#page-sidebar li.pf-m-current > a",
         "global": true,
         "default_value": "Category"
       },
@@ -64,11 +64,11 @@
     ".pf4-l-footer",
     "[class*='live-preview']"
   ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "conversation_id": [
     "772189694"
   ],
-  "nb_hits": 15754,
-  "custom_settings": {
-    "separatorsToIndex": "_"
-  }
+  "nb_hits": 15994
 }
