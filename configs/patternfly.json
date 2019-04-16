@@ -1,10 +1,16 @@
 {
   "index_name": "patternfly",
   "start_urls": [
-    "https://v2.patternfly.org/"
+    {
+      "url": "https://www.patternfly.org/v4/get-started/",
+      "selectors_key": "getStarted"
+    },
+    {
+      "url": "https://www.patternfly.org/v4/"
+    }
   ],
   "sitemap_urls": [
-    "https://v2.patternfly.org/sitemap.xml"
+    "https://www.patternfly.org/v4/sitemap.xml"
   ],
   "stop_urls": [
     "/blog/",
@@ -12,31 +18,57 @@
     "/examples/"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "header nav [aria-current]",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "header nav [aria-current]",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "#page-sidebar li.pf-m-current a",
+        "global": true,
+        "default_value": "Category"
+      },
+      "lvl2": {
+        "selector": "#page-sidebar li [aria-current]",
+        "global": true,
+        "default_value": "Page"
+      },
+      "lvl3": "main h1",
+      "lvl4": "main h2",
+      "lvl5": "main h3",
+      "lvl6": "main h4",
+      "lvl7": "main h5",
+      "text": "main p, main li, main td"
     },
-    "lvl1": {
-      "selector": "#page-sidebar [aria-expanded='true']",
-      "global": true,
-      "default_value": "Chapter"
-    },
-    "lvl2": "main h1",
-    "lvl3": "main h2",
-    "lvl4": "main h3",
-    "lvl5": "main h4",
-    "lvl6": "main h5",
-    "text": "main p, main li, main td"
+    "getStarted": {
+      "lvl0": {
+        "selector": "header nav [aria-current]",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "#page-sidebar li [aria-current]",
+        "global": true,
+        "default_value": "Page"
+      },
+      "lvl2": "main h1",
+      "lvl3": "main h2",
+      "lvl4": "main h3",
+      "lvl5": "main h4",
+      "lvl6": "main h5",
+      "text": "main p, main li, main td"
+    }
   },
   "selectors_exclude": [
+    ".pf4-l-footer",
     "[class*='live-preview']"
   ],
-  "custom_settings": {
-    "separatorsToIndex": "_"
-  },
   "conversation_id": [
     "772189694"
   ],
-  "nb_hits": 15754
+  "nb_hits": 15754,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  }
 }
