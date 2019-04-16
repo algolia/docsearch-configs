@@ -1,0 +1,26 @@
+{
+  "index_name": "bootstrap-vue-arsenicjs",
+  "start_urls": [
+    "https://bootstrap-vue-arsenic.js.org/docs/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".bd-toc-item.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "selectors_exclude": [
+    ".bd-example"
+  ],
+  "conversation_id": [
+    "827583802"
+  ],
+  "nb_hits": 147
+}
