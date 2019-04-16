@@ -1,10 +1,16 @@
 {
   "index_name": "patternfly",
   "start_urls": [
-    "https://v2.patternfly.org/"
+    {
+      "url": "https://www.patternfly.org/v4/get-started/",
+      "selectors_key": "getStarted"
+    },
+    {
+      "url": "https://www.patternfly.org/v4/"
+    }
   ],
   "sitemap_urls": [
-    "https://v2.patternfly.org/sitemap.xml"
+    "https://www.patternfly.org/v4/sitemap.xml"
   ],
   "stop_urls": [
     "/blog/",
@@ -12,27 +18,47 @@
     "/examples/"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "header nav li a",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "header nav [aria-current]",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "#page-sidebar li.pf-m-current a",
+        "global": true,
+        "default_value": "Category"
+      },
+      "lvl2": {
+        "selector": "#page-sidebar li [aria-current]",
+        "global": true,
+        "default_value": "Page"
+      },
+      "lvl3": "main h1",
+      "lvl4": "main h2",
+      "lvl5": "main h3",
+      "lvl6": "main h4",
+      "lvl7": "main h5",
+      "text": "main p, main li, main td"
     },
-    "lvl1": {
-      "selector": "#page-sidebar li a",
-      "global": true,
-      "default_value": "Chapter"
-    },
-    "lvl2": {
-      "selector": "#page-sidebar section li a",
-      "global": true,
-      "default_value": "Chapter"
-    },
-    "lvl3": "main h1",
-    "lvl4": "main h2",
-    "lvl5": "main h3",
-    "lvl6": "main h4",
-    "lvl7": "main h5",
-    "text": "main p, main li, main td"
+    "getStarted": {
+      "lvl0": {
+        "selector": "header nav [aria-current]",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "#page-sidebar li [aria-current]",
+        "global": true,
+        "default_value": "Page"
+      },
+      "lvl2": "main h1",
+      "lvl3": "main h2",
+      "lvl4": "main h3",
+      "lvl5": "main h4",
+      "lvl6": "main h5",
+      "text": "main p, main li, main td"
+    }
   },
   "selectors_exclude": [
     ".pf4-l-footer",
@@ -43,287 +69,6 @@
   ],
   "nb_hits": 15754,
   "custom_settings": {
-    "separatorsToIndex": "_",
-    "synonyms": [
-      [
-        "about modal",
-        "about-modal",
-        "modal"
-      ],
-      [
-        "alert",
-        "inline-notification",
-        "notification",
-        "success",
-        "info",
-        "warning",
-        "danger"
-      ],
-      [
-        "application launcher",
-        "applicationlauncher",
-        "launcher",
-        "app launcher"
-      ],
-      [
-        "area chart",
-        "areachart",
-        "area-chart",
-        "chart",
-        "trend chart"
-      ],
-      [
-        "avatar",
-        "icon",
-        "profile picture"
-      ],
-      [
-        "backdrop",
-        "back layer",
-        "background"
-      ],
-      [
-        "backgroundimage",
-        "background image",
-        "background",
-        "backdrop",
-        "imagebackground"
-      ],
-      [
-        "badge",
-        "label"
-      ],
-      [
-        "barchart",
-        "bar-chart",
-        "bar graph"
-      ],
-      [
-        "brand",
-        "logotype",
-        "logo"
-      ],
-      [
-        "breadcrumb",
-        "breadcrumbs",
-        "navigation path",
-        "site hierarchy",
-        "site flow"
-      ],
-      [
-        "button",
-        "actions",
-        "buttons-on-forms",
-        "call to action",
-        "cta"
-      ],
-      [
-        "card",
-        "base-card",
-        "card-view",
-        "utilization-bar-card",
-        "utilization-trend-card",
-        "container"
-      ],
-      [
-        "check",
-        "checkbox",
-        "checkbox-filter",
-        "selection control"
-      ],
-      [
-        "chip",
-        "labels",
-        "filter chips"
-      ],
-      [
-        "chipgroup",
-        "compound label",
-        "grouped filter chips"
-      ],
-      [
-        "content",
-        "styledsystem",
-        "Text",
-        "Title",
-        "typography"
-      ],
-      [
-        "data list",
-        "datalist",
-        "styledsystem",
-        "list-view",
-        "tree-list-view",
-        "structured list",
-        "list"
-      ],
-      [
-        "donut chart",
-        "donutchart",
-        "donut-chart",
-        "doughnut chart",
-        "progress completion chart",
-        "donut graph"
-      ],
-      [
-        "dropdown",
-        "kebab",
-        "bootstrap select"
-      ],
-      [
-        "empty state",
-        "emptystate",
-        "empty-state",
-        "zero-data state"
-      ],
-      [
-        "form",
-        "field-labeling",
-        "forms",
-        "input field"
-      ],
-      [
-        "form control",
-        "data-input",
-        "help-on-forms",
-        "buttons-on-forms",
-        "form message",
-        "select form"
-      ],
-      [
-        "input group",
-        "textarea",
-        "textinput",
-        "data-input",
-        "buttons-on-forms",
-        "input field with button",
-        "form control"
-      ],
-      [
-        "label",
-        "tag"
-      ],
-      [
-        "line chart",
-        "linechart",
-        "line-chart",
-        "line graph",
-        "segment graph"
-      ],
-      [
-        "list",
-        "list-group",
-        "ordered list",
-        "unordered list",
-        "simple list",
-        "basic list"
-      ],
-      [
-        "login",
-        "loginpage",
-        "login-page",
-        "sign in"
-      ],
-      [
-        "modal",
-        "modal-overlay",
-        "dialog",
-        "lightbox",
-        "popup box"
-      ],
-      [
-        "modal box",
-        "modalbox",
-        "modal",
-        "modal-overlay",
-        "lightbox",
-        "dialog",
-        "popup box"
-      ],
-      [
-        "nav",
-        "horizontal-navigation",
-        "vertical-navigation",
-        "navbar",
-        "left nav",
-        "main navigation"
-      ],
-      [
-        "page",
-        "layout",
-        "template"
-      ],
-      [
-        "pie chart",
-        "piechart",
-        "pie-chart",
-        "circle chart",
-        "circle graph",
-        "pie graph"
-      ],
-      [
-        "popover",
-        "interactive tooltip",
-        "infopop"
-      ],
-      [
-        "progress",
-        "progress bar",
-        "progress indicator",
-        "linear progress"
-      ],
-      [
-        "radio",
-        "data input",
-        "radio button"
-      ],
-      [
-        "select",
-        "dropdown",
-        "bootstrap select",
-        "select input"
-      ],
-      [
-        "stackchart",
-        "bar-chart",
-        "stacked bar chart",
-        "stacked bar graph"
-      ],
-      [
-        "switch",
-        "bootstrap switch",
-        "toggle",
-        "on/off"
-      ],
-      [
-        "table",
-        "table-view",
-        "data table"
-      ],
-      [
-        "textarea",
-        "input group",
-        "textinput",
-        "data-input",
-        "text input",
-        "text box",
-        "input field"
-      ],
-      [
-        "title",
-        "typography",
-        "heading"
-      ],
-      [
-        "toolbar",
-        "toolbardemo",
-        "toolbar",
-        "action container"
-      ],
-      [
-        "tooltip",
-        "hover helper text"
-      ]
-    ]
+    "separatorsToIndex": "_"
   }
 }
