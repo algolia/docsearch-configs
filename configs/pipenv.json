@@ -20,7 +20,7 @@
     "text": ".section p, .section li"
   },
   "min_indexed_level": 1,
-  "strip_chars": "\u2624",
+  "strip_chars": "☤",
   "selectors_exclude": [
     ".toctree-wrapper",
     ".headerlink"
