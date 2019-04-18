@@ -1,0 +1,26 @@
+{
+  "index_name": "cython",
+  "start_urls": [
+    "https://cython.readthedocs.io/en/latest/"
+  ],
+  "stop_urls": [
+    "/_sources/"
+  ],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3, .section .descname",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "selectors_exclude": [
+    ".toctree-wrapper"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "scrap_start_urls": false,
+  "nb_hits": 2978
+}
