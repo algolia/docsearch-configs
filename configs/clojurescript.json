@@ -1,0 +1,25 @@
+{
+  "index_name": "clojurescript",
+  "start_urls": [
+    "https://clojurescript.org/"
+  ],
+  "stop_urls": [
+    "/news/"
+  ],
+  "sitemap_urls": [
+    "https://clojurescript.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".clj-content-container h1",
+    "lvl1": ".clj-content-container h2",
+    "lvl2": ".clj-content-container h3",
+    "lvl3": ".clj-content-container h4",
+    "lvl4": ".clj-content-container h5",
+    "lvl5": ".clj-content-container h6",
+    "text": ".clj-content-container p, .clj-content-container li"
+  },
+  "selectors_exclude": [
+    ".toc"
+  ],
+  "nb_hits": 2512
+}
