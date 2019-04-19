@@ -1,0 +1,26 @@
+{
+  "index_name": "pandoc",
+  "start_urls": [
+    "https://pandoc.org"
+  ],
+  "stop_urls": [
+    "/demo/"
+  ],
+  "selectors": {
+    "lvl0": "main h1:first-child",
+    "lvl1": "main h1:not(:first-child)",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4, main dt",
+    "lvl5": "main h5",
+    "lvl6": "main h6",
+    "text": "main p, main li, main dd"
+  },
+  "selectors_exclude": [
+    "#toc"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 11392
+}
