@@ -1,0 +1,38 @@
+{
+  "index_name": "docusaurus-2",
+  "start_urls": [
+    "https://docusaurus-2.netlify.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://docusaurus-2.netlify.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'menu')]//*[contains(@class,'active')]/preceding::a[@href='#!'][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".container h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
+    "text": ".markdown p, .markdown li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "833762294"
+  ],
+  "nb_hits": 34
+}
