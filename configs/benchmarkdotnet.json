@@ -11,7 +11,8 @@
     "https://benchmarkdotnet.org"
   ],
   "stop_urls": [
-    "/changelog/"
+    "/changelog/",
+    "/index.html$"
   ],
   "selectors": {
     "default": {
@@ -41,5 +42,5 @@
       "text": ".content p, .content li"
     }
   },
-  "nb_hits": 13942
+  "nb_hits": 13879
 }
