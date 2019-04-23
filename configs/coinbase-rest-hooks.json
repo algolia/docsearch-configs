@@ -1,10 +1,10 @@
 {
   "index_name": "coinbase-rest-hooks",
   "start_urls": [
-    "http://www.resthooks.io/docs/"
+    "https://resthooks.io/docs/"
   ],
   "sitemap_urls": [
-    "http://www.resthooks.io/sitemap.xml"
+    "https://resthooks.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
