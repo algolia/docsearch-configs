@@ -1,0 +1,45 @@
+{
+  "index_name": "benchmarkdotnet",
+  "start_urls": [
+    {
+      "url": "https://benchmarkdotnet.org/api",
+      "tags": [
+        "api"
+      ],
+      "selectors_key": "api"
+    },
+    "https://benchmarkdotnet.org"
+  ],
+  "stop_urls": [
+    "/changelog/"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".content h1",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "lvl6": ".content h6",
+      "text": ".content p, .content li"
+    }
+  },
+  "nb_hits": 13942
+}
