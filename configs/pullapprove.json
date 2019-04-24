@@ -1,0 +1,20 @@
+{
+  "index_name": "pullapprove",
+  "start_urls": [
+    "https://docs.pullapprove.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class='md:w-3/5'] h1",
+    "lvl1": "[class='md:w-3/5'] h2",
+    "lvl2": "[class='md:w-3/5'] h3",
+    "lvl3": "[class='md:w-3/5'] h4",
+    "lvl4": "[class='md:w-3/5'] h5",
+    "lvl5": "[class='md:w-3/5'] h6",
+    "text": "[class='md:w-3/5'] p, [class='md:w-3/5'] li"
+  },
+  "conversation_id": [
+    "835436462"
+  ],
+  "nb_hits": 218
+}
