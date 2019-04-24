@@ -2,17 +2,17 @@
   "index_name": "sass-lang",
   "start_urls": [
     {
-      "url": "http://staging.sass-lang.com/documentation/functions/css",
+      "url": "https://sass-lang.com/documentation/functions/css",
       "selectors_key": "default"
     },
     {
-      "url": "http://staging.sass-lang.com/documentation/functions/",
+      "url": "https://sass-lang.com/documentation/functions/",
       "selectors_key": "functions"
     },
-    "http://staging.sass-lang.com/"
+    "https://sass-lang.com/"
   ],
   "sitemap_urls": [
-    "http://staging.sass-lang.com/sitemap.xml"
+    "https://sass-lang.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -46,5 +46,5 @@
   "conversation_id": [
     "785935668"
   ],
-  "nb_hits": 1103
+  "nb_hits": 1543
 }
