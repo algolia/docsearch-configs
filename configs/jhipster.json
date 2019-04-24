@@ -23,7 +23,8 @@
     }
   ],
   "stop_urls": [
-    "/documentation-archive/"
+    "/documentation-archive/",
+    "tech/cn/"
   ],
   "sitemap_urls": [
     "https://www.jhipster.tech/sitemap.xml"
@@ -76,5 +77,5 @@
   "conversation_id": [
     "800768950"
   ],
-  "nb_hits": 9209
+  "nb_hits": 9343
 }
