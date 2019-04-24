@@ -1,7 +1,7 @@
 {
   "index_name": "jet.js",
   "start_urls": [
-    "https://jet.js.org/"
+    "https://www.jetjs.dev"
   ],
   "stop_urls": [],
   "selectors": {
