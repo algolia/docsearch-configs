@@ -5,12 +5,18 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "text": ".content p, .content li"
+    "lvl0": {
+      "selector": "//*[contains(@class,'sidebar')]//a[./text()=//*[contains(@class,'markdown')]//h1]/preceding::h2[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
+    "text": ".markdown p, .markdown li"
   },
   "conversation_id": [
     "602485407"
@@ -19,5 +25,5 @@
     "#footer"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 16867
+  "nb_hits": 2899
 }
