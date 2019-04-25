@@ -2,21 +2,21 @@
   "index_name": "dbmss",
   "start_urls": [
     {
-      "url": "https://ericmarcon.github.io/dbmss//index.html",
+      "url": "https://ericmarcon.github.io/dbmss/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://ericmarcon.github.io/dbmss//reference",
+      "url": "https://ericmarcon.github.io/dbmss/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://ericmarcon.github.io/dbmss//articles",
+      "url": "https://ericmarcon.github.io/dbmss/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -30,7 +30,7 @@
     "/articles/index.html"
   ],
   "sitemap_urls": [
-    "https://ericmarcon.github.io/dbmss//sitemap.xml"
+    "https://ericmarcon.github.io/dbmss/sitemap.xml"
   ],
   "selectors": {
     "homepage": {
