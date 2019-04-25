@@ -27,7 +27,7 @@
       "lvl0": {
         "selector": "#lvl0",
         "global": true,
-        "default_value": "Documentation"
+        "default_value": "参考文档"
       },
       "lvl1": ".post article h1",
       "lvl2": ".post h2",
@@ -40,7 +40,7 @@
       "lvl0": {
         "selector": "#demo_source_name",
         "global": true,
-        "default_value": "Documentation"
+        "default_value": "示例"
       },
       "lvl1": ".app-content-description h1",
       "lvl2": ".app-content-description h2",
