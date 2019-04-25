@@ -10,7 +10,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[@id='docs-sidebar']//*[contains(@class,'current')]/../../../a",
+      "selector": "//*[@id='docs-sidebar']//*[contains(@class,'current')]/preceding::h4[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -23,9 +23,12 @@
     "lvl6": "#inner h6",
     "text": "#inner p, #inner li"
   },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "strip_chars": " .,;:#\u00bb",
   "conversation_id": [
     "490888557"
   ],
-  "nb_hits": 120678
+  "nb_hits": 120650
 }
