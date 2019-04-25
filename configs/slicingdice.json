@@ -1,0 +1,28 @@
+{
+  "index_name": "slicingdice",
+  "start_urls": [
+    "https://docs.slicingdice.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "header h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    ".nav-toc-1"
+  ],
+  "conversation_id": [
+    "836511237"
+  ],
+  "nb_hits": 3264
+}
