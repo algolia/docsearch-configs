@@ -7,7 +7,8 @@
       "tags": [
         "api"
       ]
-    },{
+    },
+    {
       "url": "http://expressjs.com/.*/changelog",
       "selectors_key": "changelog",
       "tags": [
@@ -19,7 +20,8 @@
   "stop_urls": [
     "/resources/",
     "/2x/",
-    "/3x/"
+    "/3x/",
+    "/4x/"
   ],
   "selectors": {
     "default": {
@@ -79,5 +81,5 @@
       "lang"
     ]
   },
-  "nb_hits": 38344
+  "nb_hits": 25269
 }
