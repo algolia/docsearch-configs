@@ -9,7 +9,7 @@
     "lvl0": {
       "selector": ".main-menu [aria-expanded]",
       "global": true,
-      "default_value":"Documentation"
+      "default_value": "Documentation"
     },
     "lvl1": ".markdown h1",
     "lvl2": ".markdown h2",
@@ -25,5 +25,5 @@
   "conversation_id": [
     "824873200"
   ],
-  "nb_hits": 227
+  "nb_hits": 22
 }
