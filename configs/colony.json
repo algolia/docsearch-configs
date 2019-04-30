@@ -2,7 +2,7 @@
   "index_name": "colony",
   "start_urls": [
     {
-      "url": "https://docs.colony.io/colonynetwork/docs-colony/",
+      "url": "http://docs.colony.io/colonynetwork/intro-welcome/",
       "tags": [
         "colonynetwork"
       ]
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "url": "https://docs.colony.io/colonyjs/docs-overview/",
+      "url": "https://docs.colony.io/colonyjs/intro-welcome",
       "tags": [
         "colonyjs"
       ]
@@ -51,5 +51,5 @@
   "conversation_id": [
     "600665265"
   ],
-  "nb_hits": 914
+  "nb_hits": 2686
 }
