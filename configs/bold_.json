@@ -1,0 +1,25 @@
+{
+  "index_name": "bold_",
+  "start_urls": [
+    "https://bold.bridge.ufsc.br/"
+  ],
+  "stop_urls": [
+    "/static/"
+  ],
+  "sitemap_urls": [
+    "https://bold.bridge.ufsc.br/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "840239858"
+  ],
+  "nb_hits": 284
+}
