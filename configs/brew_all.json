@@ -65,6 +65,18 @@
           "formulae"
         ]
       }
+    },
+    {
+      "url": "https://formulae.brew.sh/cask/",
+      "selectors_key": "cask",
+      "tags": [
+        "cask"
+      ],
+      "extra_attributes": {
+        "site": [
+          "cask"
+        ]
+      }
     }
   ],
   "sitemap_urls": [
@@ -192,5 +204,5 @@
   "conversation_id": [
     "771112570"
   ],
-  "nb_hits": 118768
+  "nb_hits": 147795
 }
