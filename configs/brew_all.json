@@ -70,11 +70,12 @@
       "url": "https://formulae.brew.sh/cask/",
       "selectors_key": "cask",
       "tags": [
-        "cask"
+        "cask",
+        "formula"
       ],
       "extra_attributes": {
         "site": [
-          "cask"
+          "formulae"
         ]
       }
     }
