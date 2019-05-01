@@ -9,23 +9,28 @@
     ".sketch",
     ".ait",
     "path/",
+    "test/",
     "sink-pages/",
+    "/release-history.html",
     "morningstar.com/index.html"
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".mds-doc-site-navigation--horizontal [class*='active']",
+      "selector": ".mds-site-navigation .mds-site-navigation__list-item--active a",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".mds-doc__content-wrap h1",
-    "lvl2": ".mds-doc__content-wrap h2",
-    "lvl3": ".mds-doc__content-wrap h3",
-    "lvl4": ".mds-doc__content-wrap h4",
-    "text": ".mds-doc__content-wrap p, .mds-doc__content-wrap li"
+    "lvl1": ".mds-doc__template-intro > h1",
+    "lvl2": "h2.mds-doc-page-nav__page-header",
+    "lvl3": "h3.mds-doc-page-nav__page-header",
+    "lvl4": ".mds-doc__content h4",
+    "text": ".mds-page-shell__content"
   },
   "selectors_exclude": [
-    ".mds-doc-page-nav"
+    ".mds-doc-page-nav",
+    ".mds-doc-component-status-header-tag",
+    ".mds-doc-do-dont",
+    ".mds-doc-footer"
   ],
   "scrap_start_urls": false,
   "conversation_id": [
