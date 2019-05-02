@@ -8,11 +8,11 @@
       ],
       "selectors_key": "api"
     },
+    "https://benchmarkdotnet.org/articles/configs/orderers.html",
     "https://benchmarkdotnet.org"
   ],
   "stop_urls": [
-    "/changelog/",
-    "/index.html$"
+    "/changelog/"
   ],
   "selectors": {
     "default": {
@@ -42,5 +42,5 @@
       "text": ".content p, .content li"
     }
   },
-  "nb_hits": 13879
+  "nb_hits": 13963
 }
