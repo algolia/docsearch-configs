@@ -1,11 +1,11 @@
 {
   "index_name": "spektrix",
   "start_urls": [
-    "https://kilroyandy.github.io/docs/Introduction",
-    "https://kilroyandy.github.io/docs/"
+    "https://integrate.spektrix.com/docs/Introduction",
+    "https://integrate.spektrix.com/docs/"
   ],
   "sitemap_urls": [
-    "https://kilroyandy.github.io/sitemap.xml"
+    "https://integrate.spektrix.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -35,5 +35,5 @@
   "conversation_id": [
     "793596864"
   ],
-  "nb_hits": 886
+  "nb_hits": 2099
 }
