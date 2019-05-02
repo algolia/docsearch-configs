@@ -24,7 +24,7 @@
     "lvl2": "h2.mds-doc-page-nav__page-header",
     "lvl3": "h3.mds-doc-page-nav__page-header",
     "lvl4": ".mds-doc__content h4",
-    "text": ".mds-page-shell__content"
+    "text": ".mds-page-shell__content p, .mds-page-shell__content li"
   },
   "selectors_exclude": [
     ".mds-doc-page-nav",
@@ -36,5 +36,5 @@
   "conversation_id": [
     "840078344"
   ],
-  "nb_hits": 11137
+  "nb_hits": 7620
 }
