@@ -1,7 +1,9 @@
 {
   "index_name": "ax",
   "start_urls": [
-    "https://ax.dev/docs/"
+    "https://ax.dev/docs/",
+    "https://ax.dev/api/",
+    "https://ax.dev/tutorials/"
   ],
   "sitemap_urls": [
     "https://ax.dev/sitemap.xml"
@@ -34,5 +36,5 @@
   "conversation_id": [
     "843378114"
   ],
-  "nb_hits": 296
+  "nb_hits": 297
 }
