@@ -1,0 +1,42 @@
+{
+  "index_name": "flowable",
+  "start_urls": [
+    "https://flowable.com/documentation"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://flowable.com/sitemap_index.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "h3.title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "[aria-label='breadcrumbs'] li:nth-child(2) > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": ".doc h1",
+    "lvl3": ".doc h2",
+    "lvl4": ".doc h3",
+    "lvl5": ".doc h4",
+    "lvl6": ".doc h5",
+    "text": ".doc p, .doc li",
+    "version": {
+      "selector": "span.version",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ],
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "846981864"
+  ],
+  "nb_hits": 3969
+}
