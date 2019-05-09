@@ -1,0 +1,19 @@
+{
+  "index_name": "enkelt",
+  "start_urls": [
+    "https://enkelt.ml/dokumentation.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content-inner h2",
+    "lvl1": ".content-inner h3",
+    "lvl2": ".content-inner h4",
+    "lvl3": ".content-inner h5",
+    "lvl4": ".content-inner h6",
+    "text": ".content-inner p, .content-inner li"
+  },
+  "conversation_id": [
+    "845398188"
+  ],
+  "nb_hits": 116
+}
