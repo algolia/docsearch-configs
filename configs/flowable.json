@@ -174,7 +174,7 @@
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://flowable.com/sitemap_index.xml"
+    "https://documentation.flowable.com/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
