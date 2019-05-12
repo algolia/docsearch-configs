@@ -1,12 +1,19 @@
 {
   "index_name": "docuty",
   "start_urls": [
-    "https://docs.docuty.se"
+    {
+      "url": "https://docs.docuty.se/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "1.0"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class, 'sidebar-desktop')]//a[contains(//link[@rel='canonical']/@href,@href)]/preceding::h2[1]",
+      "selector": "//*[contains(@class, 'sidebar')]//a[contains(//link[@rel='canonical']/@href,@href)]/preceding::h2[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
