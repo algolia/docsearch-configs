@@ -4,7 +4,7 @@
     "https://moo.bot/docs"
   ],
   "sitemap_urls": [
-    "https://moo.bot/docs/sitemap.xml"
+    "https://moo.bot/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +34,5 @@
   "conversation_id": [
     "851919715"
   ],
-  "nb_hits": 816
+  "nb_hits": 786
 }
