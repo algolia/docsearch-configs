@@ -6,13 +6,20 @@
       "tags": [
         "api"
       ],
-      "selectors_key": "api"
+      "selectors_key": "api",
+      "page_rank": -1
     },
-    "https://benchmarkdotnet.org/articles/configs/orderers.html",
+    {
+      "url": "https://benchmarkdotnet.org/articles/",
+      "page_rank": 5
+    },
     "https://benchmarkdotnet.org"
   ],
   "stop_urls": [
     "/changelog/"
+  ],
+  "sitemap_urls": [
+    "https://benchmarkdotnet.org/sitemap.xml"
   ],
   "selectors": {
     "default": {
@@ -42,5 +49,5 @@
       "text": ".content p, .content li"
     }
   },
-  "nb_hits": 13963
+  "nb_hits": 15153
 }
