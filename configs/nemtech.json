@@ -1,7 +1,24 @@
 {
   "index_name": "nemtech",
   "start_urls": [
-    "https://nemtech.github.io/"
+    {
+      "url": "https://nemtech.github.io/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://nemtech.github.io/ja",
+      "tags": [
+        "ja"
+      ]
+    },
+    {
+      "url": "https://nemtech.github.io/zh_CN",
+      "tags": [
+        "zh_CN"
+      ]
+    }
   ],
   "stop_urls": [
     "/nem2-",
