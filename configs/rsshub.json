@@ -4,7 +4,7 @@
     "https://docs.rsshub.app/"
   ],
   "stop_urls": [
-    "\\.html$"
+    "^((?!\\.html).)*$"
   ],
   "selectors": {
     "lvl0": {
@@ -35,5 +35,5 @@
     "851486320"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 5648
+  "nb_hits": 4625
 }
