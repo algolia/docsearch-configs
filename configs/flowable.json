@@ -187,8 +187,8 @@
     "lvl4": ".doc .sect3 > h4:first-child",
     "text": ".doc p, .doc dt, .doc td.context, .doc th.tableblock",
     "version": {
-       "selector": "span.version",
-       "global": true
+      "selector": "span.version",
+      "global": true
     }
   },
   "custom_settings": {
@@ -200,5 +200,5 @@
   "conversation_id": [
     "846981864"
   ],
-  "nb_hits": 901
+  "nb_hits": 643
 }
