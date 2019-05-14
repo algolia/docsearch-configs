@@ -177,25 +177,20 @@
     "https://documentation.flowable.com/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "h3.title",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": {
-      "selector": "[aria-label='breadcrumbs'] li:nth-child(2) > a",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl2": ".doc h1",
-    "lvl3": ".doc h2",
-    "lvl4": ".doc h3",
-    "lvl5": ".doc h4",
-    "lvl6": ".doc h5",
-    "text": ".doc p, .doc li",
-    "version": {
-      "selector": "span.version",
-      "global": true
+    "default": {
+      "lvl0": {
+        "global": true,
+        "selector": ".navigation-explore .context"
+      },
+      "lvl1": ".doc > h1:first-of-type",
+      "lvl2": ".doc .sect1 > h2:first-child",
+      "lvl3": ".doc .sect2 > h3:first-child",
+      "lvl4": ".doc .sect3 > h4:first-child",
+      "text": ".doc p, .doc dt, .doc td.context, .doc th.tableblock"
+      "version": {
+         "selector": "span.version",
+         "global": true
+      }
     }
   },
   "custom_settings": {
