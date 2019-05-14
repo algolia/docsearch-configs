@@ -3,9 +3,7 @@
   "start_urls": [
     "https://docs.rsshub.app/"
   ],
-  "stop_urls": [
-    "\\.html$"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
