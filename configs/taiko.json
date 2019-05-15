@@ -1,7 +1,7 @@
 {
   "index_name": "taiko",
   "start_urls": [
-    "https://taiko-preview.gauge.org/"
+    "https://taiko.gauge.org/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,5 +18,5 @@
   "conversation_id": [
     "666098067"
   ],
-  "nb_hits": 280
+  "nb_hits": 219
 }
