@@ -50,7 +50,7 @@
     "lvl4": "article h5",
     "text": "article p, article li",
     "version": {
-      "selector": ".versionButtonTitle",
+      "selector": "main .dropdown--versions > a",
       "global": true
     }
   },
@@ -67,5 +67,5 @@
   "conversation_id": [
     "825649018"
   ],
-  "nb_hits": 80738
+  "nb_hits": 80801
 }
