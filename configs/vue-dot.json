@@ -1,7 +1,7 @@
 {
   "index_name": "vue-dot",
   "start_urls": [
-    "https://assurance-maladie-digital.github.io/vue-dot/"
+    "https://assurance-maladie-digital.github.io/vue-dot/en/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -33,5 +33,5 @@
     "715573818"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 186
+  "nb_hits": 388
 }
