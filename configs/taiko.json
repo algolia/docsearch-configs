@@ -1,7 +1,8 @@
 {
   "index_name": "taiko",
   "start_urls": [
-    "https://taiko.gauge.org/"
+    "https://taiko.gauge.org/",
+    "https://taiko-preview.gauge.org/"
   ],
   "stop_urls": [],
   "selectors": {
