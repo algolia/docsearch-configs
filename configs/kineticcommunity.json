@@ -4,23 +4,22 @@
     {
       "url": "https://community.kineticdata.com/platform/",
       "selectors_key": "platform",
-      "tags": [
-        "Platform"
-      ]
+      "tags": ["Platform"]
     },
     {
       "url": "https://community.kineticdata.com/solutions/",
       "selectors_key": "solutions",
-      "tags": [
-        "Solutions"
-      ]
+      "tags": ["Solutions"]
     },
     {
       "url": "https://community.kineticdata.com/integrations/",
       "selectors_key": "integrations",
-      "tags": [
-        "Integrations"
-      ]
+      "tags": ["Integrations"]
+    },
+    {
+      "url": "https://community.kineticdata.com/support/",
+      "selectors_key": "support",
+      "tags": ["Support"]
     }
   ],
   "stop_urls": [],
@@ -100,7 +99,24 @@
       },
       "lvl4": "",
       "text": ".community-content p, community-content li"
-    }
+    },
+    "support": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Support"
+      },
+      "lvl1": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
+        "global": true
+      },
+      "lvl2": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(4):not(.active)",
+        "global": true
+      },
+      "lvl3": ".community-content h1",
+      "lvl4": "",
+      "text": ".community-content p, community-content li"
+    },
   },
   "min_indexed_level": 2,
   "custom_settings": {
@@ -121,33 +137,16 @@
       "hierarchy.lvl1",
       "hierarchy.lvl2",
       "hierarchy.lvl3"
-    ],
-    "synonyms": [
-      [
-        "js",
-        "javascript"
-      ],
-      [
-        "task",
-        "kinetic task",
-        "workflow"
-      ],
-      [
-        "handler",
-        "workflow handler"
-      ],
-      [
-        "ce",
-        "kinetic request"
-      ],
-      [
-        "kinetics",
-        "kinetic"
-      ]
     ]
   },
-  "conversation_id": [
-    "719291202"
+  "synonyms": [
+    ["js", "javascript"],
+    ["task", "kinetic task", "workflow"],
+    ["handler", "workflow handler"],
+    ["ce", "kinetic request"],
+    ["kinetics", "kinetic"],
+    ["analytics","metrics"]
   ],
-  "nb_hits": 6242
+  "conversation_id": ["719291202"],
+  "nb_hits": 5277
 }
