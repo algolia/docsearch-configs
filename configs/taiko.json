@@ -1,8 +1,14 @@
 {
   "index_name": "taiko",
   "start_urls": [
-    "https://taiko.gauge.org/",
-    "https://taiko-preview.gauge.org/"
+    {
+      "url": "https://taiko.gauge.org/",
+      "selectors_key": "prod"
+    },
+    {
+      "url": "https://taiko-preview.gauge.org/",
+      "selectors_key": "preview"
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -19,5 +25,5 @@
   "conversation_id": [
     "666098067"
   ],
-  "nb_hits": 219
+  "nb_hits": 392
 }
