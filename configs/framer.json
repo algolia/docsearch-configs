@@ -1,0 +1,17 @@
+{
+  "index_name": "framer",
+  "start_urls": [
+    "https://www.framer.com/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.framer.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h3",
+    "lvl2": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "nb_hits": 235
+}
