@@ -1,7 +1,30 @@
 {
   "index_name": "avoka",
   "start_urls": [
-    "https://docs.avoka.com/sdk/docs"
+    {
+      "url": "https://docs.avoka.com/sdk/v1811",
+      "tags": [
+        "v1811"
+      ]
+    },
+    {
+      "url": "https://docs.avoka.com/sdk/v1805",
+      "tags": [
+        "v1805"
+      ]
+    },
+    {
+      "url": "https://docs.avoka.com/sdk/v1710",
+      "tags": [
+        "v1710"
+      ]
+    },
+    {
+      "url": "https://docs.avoka.com/sdk/docs",
+      "tags": [
+        "latest"
+      ]
+    }
   ],
   "sitemap_urls": [
     "https://docs.avoka.com/sdk/sitemap.xml"
@@ -34,5 +57,5 @@
   "conversation_id": [
     "794632501"
   ],
-  "nb_hits": 19192
+  "nb_hits": 30938
 }
