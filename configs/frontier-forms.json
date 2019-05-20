@@ -1,7 +1,7 @@
 {
   "index_name": "frontier-forms",
   "start_urls": [
-    "https://frontier-forms.dev/"
+    "https://frontier-forms.dev"
   ],
   "stop_urls": [],
   "selectors": {
