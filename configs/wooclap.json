@@ -3,43 +3,61 @@
   "start_urls": [
     {
       "url": "https://www.wooclap.com/en/features/votes/",
-      "tags": ["features"]
+      "tags": [
+        "features"
+      ]
     },
     {
       "url": "https://www.wooclap.com/es/features/votos/",
-      "tags": ["features"]
+      "tags": [
+        "features"
+      ]
     },
     {
       "url": "https://www.wooclap.com/fr/fonctionnalites/votes/",
-      "tags": ["features"]
+      "tags": [
+        "features"
+      ]
     },
     {
       "url": "https://www.wooclap.com/ru/instrumenty/ochnoye-obucheniye/",
-      "tags": ["features"]
+      "tags": [
+        "features"
+      ]
     },
     {
       "url": "https://www.wooclap.com/de/",
-      "tags": ["features"]
+      "tags": [
+        "features"
+      ]
     },
     {
       "url": "https://docs.wooclap.com/",
       "selectors_key": "faq",
-      "tags": ["faq"]
+      "tags": [
+        "faq"
+      ]
     },
     {
       "url": "https://www.wooclap.com/en/blog/",
       "selectors_key": "blog",
-      "tags": ["blog"]
+      "tags": [
+        "blog"
+      ]
     },
     {
       "url": "https://www.wooclap.com/fr/blog/",
       "selectors_key": "blog",
-      "tags": ["blog"]
+      "tags": [
+        "blog"
+      ]
     },
     {
       "url": "https://www.wooclap.com/es/blog/",
       "selectors_key": "blog",
-      "tags": ["blog"]
+      "tags": [
+        "blog"
+      ]
     }
   ],
   "stop_urls": [],
@@ -118,5 +136,5 @@
   "conversation_id": [
     "852968610"
   ],
-  "nb_hits": 1733
+  "nb_hits": 4803
 }
