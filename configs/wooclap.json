@@ -32,8 +32,15 @@
       ]
     },
     {
-      "url": "https://docs.wooclap.com/",
+      "url": "https://docs.wooclap.com/faq-(?P<lang>[a-z]{2}?)",
       "selectors_key": "faq",
+      "variables": {
+        "lang": [
+          "en",
+          "es",
+          "fr"
+        ]
+      },
       "tags": [
         "faq"
       ]
@@ -101,12 +108,7 @@
       "lvl4": ".content h4",
       "lvl5": ".content h5",
       "lvl6": ".content h6",
-      "text": ".content p, .content li, .content .article__desc",
-      "lang": {
-        "selector": "/html/@lang",
-        "type": "xpath",
-        "global": true
-      }
+      "text": ".content p, .content li, .content .article__desc"
     },
     "blog": {
       "lvl0": {
@@ -115,7 +117,7 @@
         "default_value": "Blog"
       },
       "lvl1": ".entry-content h1",
-      "lvl2": ".entry-content h2",
+      "lvl2": ".entry-content h2:not(.cta-content-title)",
       "lvl3": ".entry-content h3",
       "lvl4": ".entry-content h4",
       "lvl5": ".entry-content h5",
