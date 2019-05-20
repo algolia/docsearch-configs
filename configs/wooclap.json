@@ -116,7 +116,7 @@
         "global": true,
         "default_value": "Blog"
       },
-      "lvl1": ".entry-content h1",
+      "lvl1": "h1.entry-title, .entry-content h1",
       "lvl2": ".entry-content h2:not(.cta-content-title)",
       "lvl3": ".entry-content h3",
       "lvl4": ".entry-content h4",
