@@ -1,0 +1,72 @@
+{
+  "index_name": "wooclap",
+  "start_urls": [
+    "https://www.wooclap.com/en/features/votes/",
+    "https://www.wooclap.com/en/features",
+    "https://www.wooclap.com/de/features",
+    "https://www.wooclap.com/es/features",
+    "https://www.wooclap.com/fr/fonctionnalites",
+    "https://www.wooclap.com/nl/functies",
+    "https://www.wooclap.com/ru/instrumenty",
+    {
+      "url": "https://docs.wooclap.com",
+      "selectors_key": "faq",
+      "tags": [
+        "faq"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.wooclap.com/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "main nav h2",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "main section h1",
+      "lvl2": "main section h2",
+      "lvl3": "main section h3",
+      "lvl4": "main section h4",
+      "lvl5": "main section h5",
+      "lvl6": "main section h6",
+      "text": "main section p, main section li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    },
+    "faq": {
+      "lvl0": {
+        "selector": "body > div.container > div > section > div.breadcrumb > div:nth-child(3) > a",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "lvl6": ".content h6",
+      "text": ".content p, .content li, .content .article__desc",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "852968610"
+  ],
+  "nb_hits": 1734
+}
