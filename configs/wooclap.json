@@ -98,21 +98,21 @@
     },
     "faq": {
       "lvl0": {
-        "selector": "body > div.container > div > section > div.breadcrumb > div:nth-child(3) > a",
+        "selector": "div.breadcrumb > div:nth-child(3) > a",
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
-      "lvl5": ".content h5",
-      "lvl6": ".content h6",
-      "text": ".content p, .content li, .content .article__desc"
+      "lvl1": ".content .section__article h1",
+      "lvl2": ".content .section__article h2",
+      "lvl3": ".content .section__article h3",
+      "lvl4": ".content .section__article h4",
+      "lvl5": ".content .section__article h5",
+      "lvl6": ".content .section__article h6",
+      "text": ".content .section__article p, .content li, .content .article__desc"
     },
     "blog": {
       "lvl0": {
-        "selector": "h1.entry-title",
+        "selector": ".bread-navigation > li:nth-child(2) > a",
         "global": true,
         "default_value": "Blog"
       },
