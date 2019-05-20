@@ -108,7 +108,7 @@
       "lvl4": ".content .section__article h4",
       "lvl5": ".content .section__article h5",
       "lvl6": ".content .section__article h6",
-      "text": ".content .section__article p, .content li, .content .article__desc"
+      "text": ".content .section__article p, .content .section__article li, .content .section__article .article__desc"
     },
     "blog": {
       "lvl0": {
