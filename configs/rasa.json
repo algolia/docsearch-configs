@@ -5,12 +5,12 @@
   ],
   "stop_urls": [
     "http://rasa.com/docs/.*?/\\d",
-    "http://rasa.com/docs/nlu/(?!master)",
+    "http://rasa.com/docs/rasa/(?!master)",
     ".rst.txt$",
     "http://rasa.com/docs/about/$",
     "/_",
     "/dev/",
-    "/core/master"
+    "/rasa-x/master"
   ],
   "selectors": {
     "lvl0": {
