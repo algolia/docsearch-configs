@@ -1,7 +1,12 @@
 {
   "index_name": "vant",
   "start_urls": [
-    "https://youzan.github.io/vant/"
+    {
+      "url": "https://youzan.github.io/vant/#/(?P<lang>.*?)/",
+      "variables": {
+        "lang": ["en-US", "zh-CN"]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
