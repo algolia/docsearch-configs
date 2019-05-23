@@ -3,6 +3,7 @@
   "start_urls": [
     {
       "url": "https://kyma-project.io/docs/",
+      "selectors_key": "docs",
       "tags": [
         "docs"
       ]
@@ -15,12 +16,14 @@
     "root/kyma/"
   ],
   "selectors": {
-    "lvl0": "[class*='DocsContentWrapper'] h2",
-    "lvl1": "[class*='DocsContentWrapper'] h3",
-    "lvl2": "[class*='DocsContentWrapper'] h4",
-    "lvl3": "[class*='DocsContentWrapper'] h5",
-    "lvl4": "[class*='DocsContentWrapper'] h6",
-    "text": "[class*='DocsContentWrapper'] p, [class*='DocsContentWrapper'] li"
+    "docs": {
+      "lvl0": "[class*='DocsContentWrapper'] h2",
+      "lvl1": "[class*='DocsContentWrapper'] h3",
+      "lvl2": "[class*='DocsContentWrapper'] h4",
+      "lvl3": "[class*='DocsContentWrapper'] h5",
+      "lvl4": "[class*='DocsContentWrapper'] h6",
+      "text": "[class*='DocsContentWrapper'] p, [class*='DocsContentWrapper'] li"
+    }
   },
   "custom_settings": {
     "attributesForFaceting": ["language", "version"]
