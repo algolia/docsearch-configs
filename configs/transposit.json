@@ -4,7 +4,7 @@
     "https://www.transposit.com/docs/"
   ],
   "sitemap_urls": [
-    "https://www.transposit.com/sitemap.xml"
+    "https://www.transposit.com/docs-sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
