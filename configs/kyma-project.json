@@ -1,7 +1,15 @@
 {
   "index_name": "kyma-project",
   "start_urls": [
-    "https://kyma-project.io/docs/"
+    {
+      "url": "https://kyma-project.io/docs/",
+      "tags": [
+        "docs"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://kyma-project.io/sitemap.xml"
   ],
   "stop_urls": [
     "root/kyma/"
@@ -13,6 +21,9 @@
     "lvl3": "[class*='DocsContentWrapper'] h5",
     "lvl4": "[class*='DocsContentWrapper'] h6",
     "text": "[class*='DocsContentWrapper'] p, [class*='DocsContentWrapper'] li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["language", "version"]
   },
   "conversation_id": [
     "855687472"
