@@ -8,13 +8,13 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "main section h1",
-    "lvl1": "main section h2",
-    "lvl2": "main section h3",
-    "lvl3": "main section h4",
-    "lvl4": "main section h5",
-    "lvl5": "main section h6",
-    "text": "main section p, main section li",
+    "lvl0": ".s-post h1",
+    "lvl1": ".s-post h2",
+    "lvl2": ".s-post h3",
+    "lvl3": ".s-post h4",
+    "lvl4": ".s-post h5",
+    "lvl5": ".s-post h6",
+    "text": ".s-post p, .s-post li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -29,5 +29,5 @@
   "conversation_id": [
     "840880270"
   ],
-  "nb_hits": 7832
+  "nb_hits": 10566
 }
