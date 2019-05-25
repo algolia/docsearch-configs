@@ -16,7 +16,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".mds-site-navigation.mds-doc-site-navigation--horizontal .mds-site-navigation__list-item.mds-site-navigation__list-item--active a",
+      "selector": ".mds-site-navigation__list-item--active",
       "global": true,
       "default_value": "Documentation"
     },
