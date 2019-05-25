@@ -13,7 +13,8 @@
     "https://kyma-project.io/sitemap.xml"
   ],
   "stop_urls": [
-    "root/kyma/"
+    "docs/latest/",
+    "docs/root/kyma/"
   ],
   "selectors": {
     "docs": {
