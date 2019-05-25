@@ -1,8 +1,7 @@
 {
   "index_name": "material-ui",
   "start_urls": [
-    "https://material-ui.com/",
-    "https://next.material-ui.com/"
+    "https://material-ui.com/"
   ],
   "stop_urls": [
     "\\?expend-path"
