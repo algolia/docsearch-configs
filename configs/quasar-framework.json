@@ -1,7 +1,7 @@
 {
   "index_name": "quasar-framework",
   "start_urls": [
-    "https://v1.quasar-framework.org"
+    "https://quasar.dev"
   ],
   "stop_urls": [],
   "selectors": {
