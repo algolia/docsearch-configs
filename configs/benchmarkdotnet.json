@@ -81,6 +81,11 @@
       "unordered(hierarchy_camel.lvl6)",
       "unordered(hierarchy.lvl6)",
       "unordered(content)"
+    ],
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "asc(weight.position)",
+      "desc(weight.level)"
     ]
   },
   "nb_hits": 15089
