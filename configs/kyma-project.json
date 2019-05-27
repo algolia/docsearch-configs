@@ -27,10 +27,13 @@
     }
   },
   "custom_settings": {
-    "attributesForFaceting": ["language", "version"]
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
   },
   "conversation_id": [
     "855687472"
   ],
-  "nb_hits": 2665
+  "nb_hits": 28391
 }
