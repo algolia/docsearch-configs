@@ -3,7 +3,6 @@
   "start_urls": [
     {
       "url": "https://kyma-project.io/docs/",
-      "selectors_key": "docs",
       "tags": [
         "docs"
       ]
@@ -13,11 +12,11 @@
     "https://kyma-project.io/sitemap.xml"
   ],
   "stop_urls": [
-    "docs/latest/",
-    "docs/root/kyma/"
+    "/root/kyma",
+    "/docs/latest"
   ],
   "selectors": {
-    "docs": {
+    "default": {
       "lvl0": "[class*='DocsContentWrapper'] h2",
       "lvl1": "[class*='DocsContentWrapper'] h3",
       "lvl2": "[class*='DocsContentWrapper'] h4",
