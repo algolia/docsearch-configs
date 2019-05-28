@@ -11,7 +11,9 @@
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/changelog"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'router-link-exact-active')]/preceding::a[not(@class)][1]",
@@ -26,6 +28,7 @@
     "lvl5": "section h5",
     "text": "section p, section li"
   },
+  "js_wait": 1,
   "js_render": true,
   "use_anchors": true,
   "conversation_id": [
