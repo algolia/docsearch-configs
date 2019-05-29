@@ -3,7 +3,11 @@
   "start_urls": [
     "https://docs.branch.io/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/ko/",
+    "/zh/",
+    "/ja/"
+  ],
   "sitemap_urls": [
     "https://docs.branch.io/sitemap.xml"
   ],
