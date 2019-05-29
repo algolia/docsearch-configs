@@ -1,7 +1,7 @@
 {
   "index_name": "lwc",
   "start_urls": [
-    "https://staging.lwc.dev"
+    "https://lwc.dev"
   ],
   "stop_urls": [],
   "selectors": {
