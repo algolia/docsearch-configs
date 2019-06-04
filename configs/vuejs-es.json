@@ -1,0 +1,41 @@
+{
+  "index_name": "vuejs-es",
+  "start_urls": [
+  "https://es.vuejs.org"
+  ],
+  "stop_urls": [
+    "api/index.html$",
+    "guide/index.html$",
+    "cookbook/index.html$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".sidebar h2",
+      "global": true
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "text": ".content p",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "version"
+    ]
+  },
+  "selectors_exclude": [
+    ".version-select"
+  ],
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "322242916"
+  ],
+  "nb_hits": 3313
+}
