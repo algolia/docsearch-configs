@@ -1,8 +1,12 @@
 {
   "index_name": "weepower",
   "start_urls": [
-    "https://www.weepower.com/v3",
-    "https://www.weepower.com/v4"
+    {
+      "url": "https://www.weepower.com/(?P<version>.*?)/",
+      "variables": {
+        "version": ["v3", "v4"]
+      }
+    }
   ],
   "selectors": {
     "lvl0": ".content h1",
