@@ -4,7 +4,10 @@
     {
       "url": "https://www.weepower.com/(?P<version>.*?)/",
       "variables": {
-        "version": ["v3", "v4"]
+        "version": [
+          "v3",
+          "v4"
+        ]
       }
     }
   ],
@@ -19,5 +22,5 @@
   "conversation_id": [
     "869991007"
   ],
-  "nb_hits": 7590
+  "nb_hits": 2362
 }
