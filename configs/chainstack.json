@@ -1,7 +1,8 @@
 {
   "index_name": "chainstack",
   "start_urls": [
-    "https://docs.chainstack.com"
+    "https://docs.chainstack.com",
+    "https://docs.chainstack.com/guides/getting-started#chainstack-documentation"
   ],
   "stop_urls": [],
   "selectors": {
@@ -33,5 +34,5 @@
     "866274868"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 12
+  "nb_hits": 222
 }
