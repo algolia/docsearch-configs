@@ -3,13 +3,16 @@
   "start_urls": [
     "https://docs.yapstone.com"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://docs.yapstone.com/login",
+    "https://docs.yapstone.com/register"
+  ],
   "selectors": {
-    "lvl0": ".content h1, .content h2.title",
-    "lvl1": ".content h4",
-    "lvl2": ".content h5",
-    "lvl3": ".content h6",
-    "text": ".content p, .content li"
+    "lvl0": ".main-menu__navigation a",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "text": ".content p, .content td, .code-block__code-block code, .content li"
   },
   "js_render": true,
   "js_wait": 1,
