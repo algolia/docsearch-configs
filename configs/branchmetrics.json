@@ -1,12 +1,12 @@
 {
   "index_name": "branchmetrics",
   "start_urls": [
-    "https://docs.branch.io/"
-  ],
-  "stop_urls": [
-    "/ko/",
-    "/zh/",
-    "/ja/"
+    {
+      "url": "https://docs.branch.io/(?P<lang>.*?)/",
+      "variables": {
+        "lang": ["ko", "ja", "zh"]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://docs.branch.io/sitemap.xml"
