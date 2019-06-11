@@ -4,7 +4,7 @@
     {
       "url": "https://docs.branch.io/(?P<lang>.*?)/",
       "variables": {
-        "lang": ["ko", "ja", "zh"]
+        "lang": ["", "ko", "ja", "zh"]
       }
     }
   ],
