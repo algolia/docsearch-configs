@@ -21,7 +21,11 @@
     "https://www.grapecity.com/wijmo/demos/resource/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    ".*/angular.*",
+    ".*/vue.*",
+    ".*/react.*"
+  ],
   "selectors": {
     "docs": {
       "lvl0": {
