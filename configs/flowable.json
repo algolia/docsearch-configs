@@ -229,7 +229,7 @@
     "lvl2": ".doc .sect1 > h2:first-child",
     "lvl3": ".doc .sect2 > h3:first-child",
     "lvl4": ".doc .sect3 > h4:first-child",
-    "text": ".doc p, .doc dt, .doc td.context, .doc th.tableblock",
+      "text": ".doc p, .doc dt, .doc td.context, .doc th.tableblock, .doc pre, .doc code",
     "version": {
       "selector": "span.version",
       "global": true
