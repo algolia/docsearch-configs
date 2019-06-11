@@ -12,7 +12,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/work-user-guide/(?P<version>.*?)/10-introduction.html",
+      "url": "https://documentation.flowable.com/work-user-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -22,7 +22,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/engage-user-guide/(?P<version>.*?)/100-general-information.html",
+      "url": "https://documentation.flowable.com/engage-user-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/design-user-guide/(?P<version>.*?)/10-introduction.html",
+      "url": "https://documentation.flowable.com/design-user-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -41,7 +41,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/engage-ios-guide/(?P<version>.*?)/100-general-information.html",
+      "url": "https://documentation.flowable.com/engage-ios-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -50,7 +50,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/control-user-guide/(?P<version>.*?)/100-general-information.html",
+      "url": "https://documentation.flowable.com/control-user-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0"
@@ -58,7 +58,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/modeler-bpmn/(?P<version>.*?)/01-bpmn-sample.html",
+      "url": "https://documentation.flowable.com/modeler-bpmn/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/modeler-dmn/(?P<version>.*?)/dmn_example.html",
+      "url": "https://documentation.flowable.com/modeler-dmn/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/modeler-expert/(?P<version>.*?)/00-expert.html",
+      "url": "https://documentation.flowable.com/modeler-expert/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/core-install/(?P<version>.*?)/100-instructions.html",
+      "url": "https://documentation.flowable.com/core-install/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/qwork-install/(?P<version>.*?)/100-instructions.html",
+      "url": "https://documentation.flowable.com/qwork-install/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -104,7 +104,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/control-install/(?P<version>.*?)/100-instructions.html",
+      "url": "https://documentation.flowable.com/control-install/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0"
@@ -112,7 +112,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/design-install/(?P<version>.*?)/100-instructions.html",
+      "url": "https://documentation.flowable.com/design-install/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0"
@@ -120,7 +120,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/engage-install/(?P<version>.*?)/100-purpose.html",
+      "url": "https://documentation.flowable.com/engage-install/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/work-install/(?P<version>.*?)/100-purpose.html",
+      "url": "https://documentation.flowable.com/work-install/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -140,7 +140,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/tech-notes/(?P<version>.*?)/10-introduction.html",
+      "url": "https://documentation.flowable.com/tech-notes/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -150,7 +150,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/core-swagger/(?P<version>.*?)/100-overview.html",
+      "url": "https://documentation.flowable.com/core-swagger/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -159,7 +159,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/appdev-swagger/(?P<version>.*?)/100-overview.html",
+      "url": "https://documentation.flowable.com/appdev-swagger/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -169,7 +169,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/core-javadoc/(?P<version>.*?)/100-overview.html",
+      "url": "https://documentation.flowable.com/core-javadoc/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -178,7 +178,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/appdev-javadoc/(?P<version>.*?)/100-overview.html",
+      "url": "https://documentation.flowable.com/appdev-javadoc/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -188,7 +188,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/appdev-dbschema/(?P<version>.*?)/100-overview.html",
+      "url": "https://documentation.flowable.com/appdev-dbschema/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -198,7 +198,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/dev-guide/(?P<version>.*?)/10-introduction.html",
+      "url": "https://documentation.flowable.com/dev-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -207,7 +207,7 @@
       }
     },
     {
-      "url": "https://documentation.flowable.com/main/(?P<version>.*?)/100-oss-comparison-overview.html",
+      "url": "https://documentation.flowable.com/main/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.2.0",
@@ -239,7 +239,7 @@
     "attributesForFaceting": [
       "version"
     ],
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_{}"
   },
   "conversation_id": [
     "846981864"
