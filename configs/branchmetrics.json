@@ -4,7 +4,30 @@
     {
       "url": "https://docs.branch.io/(?P<lang>.*?)/",
       "variables": {
-        "lang": ["", "ko", "ja", "zh"]
+        "lang": [
+          "ko",
+          "ja",
+          "zh"
+        ]
+      },
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ],
+        "version": [
+          "latest"
+        ]
+      }
+    },
+    {
+      "url": "https://docs.branch.io/",
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ],
+        "version": [
+          "latest"
+        ]
       }
     }
   ],
@@ -32,8 +55,15 @@
     "#disqus_thread",
     "#__comments"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "597089613"
   ],
-  "nb_hits": 62469
+  "nb_hits": 65737
 }
