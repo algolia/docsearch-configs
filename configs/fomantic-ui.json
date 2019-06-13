@@ -30,8 +30,9 @@
     ".main.container .ui.right",
     "#toc"
   ],
+  "js_render": true,
   "conversation_id": [
     "837350754"
   ],
-  "nb_hits": 6833
+  "nb_hits": 7285
 }
