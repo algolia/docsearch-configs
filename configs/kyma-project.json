@@ -4,7 +4,19 @@
     {
       "url": "https://kyma-project.io/docs/(?P<version>.*?)/",
       "variables": {
-        "version": ["latest", "master", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0", "1.1", "1.2"]
+        "version": [
+          "latest",
+          "master",
+          "0.4",
+          "0.5",
+          "0.6",
+          "0.7",
+          "0.8",
+          "0.9",
+          "1.0",
+          "1.1",
+          "1.2"
+        ]
       },
       "tags": [
         "docs"
@@ -35,5 +47,5 @@
   "conversation_id": [
     "855687472"
   ],
-  "nb_hits": 28391
+  "nb_hits": 25115
 }
