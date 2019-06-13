@@ -2,7 +2,10 @@
   "index_name": "kyma-project",
   "start_urls": [
     {
-      "url": "https://kyma-project.io/docs/",
+      "url": "https://kyma-project.io/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": ["latest", "master", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0", "1.1", "1.2"]
+      },
       "tags": [
         "docs"
       ]
@@ -12,8 +15,7 @@
     "https://kyma-project.io/sitemap.xml"
   ],
   "stop_urls": [
-    "/root/kyma",
-    "/docs/latest"
+    "/root/kyma"
   ],
   "selectors": {
     "default": {
@@ -27,7 +29,6 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "language",
       "version"
     ]
   },
