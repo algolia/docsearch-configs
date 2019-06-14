@@ -39,13 +39,13 @@
     "lvl2": ".document h2",
     "lvl3": ".document h3",
     "lvl4": ".document h4",
-    "lvl5": ".document h5",
-    "text": ".document p, .document li"
+    "lvl5": ".document h5, .document td:first-child",
+    "text": ".document p, .document li, .document td:not(:first-child)"
   },
   "min_indexed_level": 1,
   "scrap_start_urls": false,
   "conversation_id": [
     "349866832"
   ],
-  "nb_hits": 15875
+  "nb_hits": 22137
 }
