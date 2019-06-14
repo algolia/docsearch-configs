@@ -1,7 +1,8 @@
 {
   "index_name": "e-mos",
   "start_urls": [
-    "https://www.proj-e.com/docs/"
+    "https://www.proj-e.com/docs/",
+    "https://www.proj-e.com/docs/giris/"
   ],
   "sitemap_urls": [
     "https://www.proj-e.com/sitemap.xml"
@@ -34,5 +35,5 @@
   "conversation_id": [
     "860786174"
   ],
-  "nb_hits": 151
+  "nb_hits": 159
 }
