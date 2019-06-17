@@ -1,6 +1,7 @@
 {
   "index_name": "substrate",
   "start_urls": [
+    "https://substrate.dev",
     "https://substrate.dev/docs/",
     "https://substrate.dev/docs/en/quickstart/installing-substrate"
   ],
