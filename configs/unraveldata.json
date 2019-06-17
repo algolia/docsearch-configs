@@ -19,9 +19,27 @@
     }
   },
   "custom_settings": {
+    "allowTyposOnNumericTokens": "false",
     "attributesForFaceting": [
       "lang"
-    ]
+    ],
+	"allowTyposOnNumericTokens" : "false",
+	"hitsPerPage": "25",
+	"minWordSizefor1Typo": 20,
+	"minWordSizefor2Typos": 20,
+	"ranking": [
+      "typo",
+      "geo",
+      "words",
+      "filters",
+      "proximity",
+      "attribute",
+      "exact",
+      "custom"
+	],
+	"restrictHighlightAndSnippetArrays": "true",
+	"separatorsToIndex": ".{}-_/&",
+	"typoTolerance": "min",
   },
   "conversation_id": [
     "837625595"
