@@ -41,11 +41,12 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "version"
+      "version",
+      "tags"
     ]
   },
   "conversation_id": [
     "855687472"
   ],
-  "nb_hits": 25115
+  "nb_hits": 25377
 }
