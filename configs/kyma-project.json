@@ -1,49 +1,21 @@
 {
   "index_name": "kyma-project",
   "start_urls": [
-    {
-      "url": "https://kyma-project.io/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "latest",
-          "master",
-          "0.4",
-          "0.5",
-          "0.6",
-          "0.7",
-          "0.8",
-          "0.9",
-          "1.0",
-          "1.1",
-          "1.2"
-        ]
-      },
-      "tags": [
-        "docs"
-      ]
-    }
+    "https://kyma-project.io/docs/"
   ],
   "sitemap_urls": [
     "https://kyma-project.io/sitemap.xml"
   ],
   "stop_urls": [
-    "/root/kyma"
+    "root/kyma/"
   ],
   "selectors": {
-    "default": {
-      "lvl0": "[class*='DocsContentWrapper'] h2",
-      "lvl1": "[class*='DocsContentWrapper'] h3",
-      "lvl2": "[class*='DocsContentWrapper'] h4",
-      "lvl3": "[class*='DocsContentWrapper'] h5",
-      "lvl4": "[class*='DocsContentWrapper'] h6",
-      "text": "[class*='DocsContentWrapper'] p, [class*='DocsContentWrapper'] li"
-    }
-  },
-  "custom_settings": {
-    "attributesForFaceting": [
-      "version",
-      "tags"
-    ]
+    "lvl0": "[class*='DocsContentWrapper'] h2",
+    "lvl1": "[class*='DocsContentWrapper'] h3",
+    "lvl2": "[class*='DocsContentWrapper'] h4",
+    "lvl3": "[class*='DocsContentWrapper'] h5",
+    "lvl4": "[class*='DocsContentWrapper'] h6",
+    "text": "[class*='DocsContentWrapper'] p, [class*='DocsContentWrapper'] li"
   },
   "conversation_id": [
     "855687472"
