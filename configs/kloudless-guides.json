@@ -3,7 +3,6 @@
   "start_urls": [
     "https://developers.kloudless.com/docs/"
   ],
-  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "#content-header h2",
