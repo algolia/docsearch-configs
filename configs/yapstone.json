@@ -11,12 +11,13 @@
     "^http://"
   ],
   "selectors": {
-    "lvl0": ".content h1, .content h2.title",
+    "lvl0": ".main-menu__navigation a.is-current, .content h1",
+    "lvl1": ".content h2",
     "lvl2": ".content h3",
     "lvl3": ".content h4",
     "lvl4": ".content h5",
     "lvl5": ".content h6",
-    "text": ".content p, .content li, .content td"
+    "text": ".content p, .content td, .content li"
   },
   "js_render": true,
   "js_wait": 1,
