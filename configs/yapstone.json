@@ -11,16 +11,15 @@
     "^http://"
   ],
   "selectors": {
-    "lvl0": ".main-menu__navigation a, .content h1",
-    "lvl1": ".content h2",
+    "lvl0": ".content h1, .content h2.title",
     "lvl2": ".content h3",
     "lvl3": ".content h4",
     "lvl4": ".content h5",
     "lvl5": ".content h6",
-    "text": ".content p, .content td, .content li"
+    "text": ".content p, .content li, .content td"
   },
   "js_render": true,
-  "js_wait": 3,
+  "js_wait": 1,
   "conversation_id": [
     "875707779"
   ],
