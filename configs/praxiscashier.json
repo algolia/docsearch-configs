@@ -1,0 +1,29 @@
+{
+  "index_name": "praxiscashier",
+  "start_urls": [
+    "https://doc.praxiscashier.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".documentation h1",
+    "lvl1": ".documentation h2",
+    "lvl2": ".documentation h3",
+    "lvl3": ".documentation h4",
+    "lvl4": ".documentation h5",
+    "lvl5": ".documentation h6",
+    "text": ".documentation p, .documentation li",
+    "version": {
+      "selector": "div.navbar-nav.ml-lg-auto > li > button",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "885442418"
+  ],
+  "nb_hits": 6026
+}
