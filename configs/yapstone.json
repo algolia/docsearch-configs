@@ -24,5 +24,9 @@
   "conversation_id": [
     "875707779"
   ],
+   "min_indexed_level": 1,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "nb_hits": 16829
 }
