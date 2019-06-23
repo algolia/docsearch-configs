@@ -1,0 +1,22 @@
+{
+  "index_name": "fesco",
+  "start_urls": [
+    "http://fns.fesco.com.cn/docs/",
+    "http://fns.fesco.com.cn/docs/ns/ns-cn"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".main-container h1",
+    "lvl1": ".main-container h2",
+    "lvl2": ".main-container h3",
+    "lvl3": ".main-container h4",
+    "lvl4": ".main-container h5",
+    "lvl5": ".main-container h6",
+    "text": ".main-container p, .main-container li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "884938588"
+  ],
+  "nb_hits": 2407
+}
