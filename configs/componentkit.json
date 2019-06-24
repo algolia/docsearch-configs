@@ -1,19 +1,9 @@
 {
   "index_name": "componentkit",
   "start_urls": [
-    {
-      "url": "https://componentkit.org/docs",
-      "selectors_key": "doc",
-      "page_rank": 1
-    },
-    {
-      "url": "https://componentkit.org/appledoc/html/index.html",
-      "selectors_key": "api"
-    },
-    {
-      "url": "https://componentkit.org/appledoc/",
-      "selectors_key": "api"
-    }
+    "https://componentkit.org/docs",
+    "https://componentkit.org/appledoc/html/index.html",
+    "https://componentkit.org/appledoc/"
   ],
   "sitemap_urls": [
     "https://componentkit.org/sitemap.xml"
