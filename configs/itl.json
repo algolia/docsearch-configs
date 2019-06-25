@@ -1,10 +1,9 @@
 {
   "index_name": "itl",
   "start_urls": [
-    "https://itl.gitbooks.io/itl-field-guides/"
+    "https://pratt-itl.github.io/field-guides/"
   ],
   "stop_urls": [
-    "https://itl.gitbooks.io/itl-field-guides/content/"
   ],
   "selectors": {
     "lvl0": {
