@@ -1,7 +1,9 @@
 {
   "index_name": "componentkit",
   "start_urls": [
-    "https://componentkit.org/docs/"
+    "https://componentkit.org/docs",
+    "https://componentkit.org/appledoc/html/index.html",
+    "https://componentkit.org/appledoc/"
   ],
   "sitemap_urls": [
     "https://componentkit.org/sitemap.xml"
