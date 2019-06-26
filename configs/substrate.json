@@ -9,7 +9,7 @@
     "https://substrate.dev"
 
   ],
-  "stop_urls":["https://substrate.dev/rustdocs/v1.0/typenum/consts/type"],
+  "stop_urls":["https://substrate.dev/rustdocs/v1.0/typenum/"],
   "sitemap_urls": [
     "https://substrate.dev/sitemap.xml"
   ],
