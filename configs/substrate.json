@@ -1,14 +1,15 @@
 {
   "index_name": "substrate",
   "start_urls": [
-    "https://substrate.dev",
-    "https://substrate.dev/docs/",
-    "https://substrate.dev/docs/en/getting-started/",
     {
-      "url": "https://substrate.dev/rustdocs/v1.0/substrate_service/index.html",
+      "url": "https://substrate.dev/rustdocs/",
       "selectors_key": "rustdocs"
-    }
+    },
+    "https://substrate.dev/docs/",
+    "https://substrate.dev"
+
   ],
+  "stop_urls":["https://substrate.dev/rustdocs/v1.0/typenum/consts/type"],
   "sitemap_urls": [
     "https://substrate.dev/sitemap.xml"
   ],
@@ -34,7 +35,7 @@
       "lvl1": ".docblock h1 a, h2.section-header",
       "lvl2": ".docblock h2 a",
       "lvl3": ".docblock h3 a",
-      "text": ".docblock li, .docblock p, .content table",
+      "text": ".docblock li, .docblock p, .content table"
     }
   },
   "selectors_exclude": [
