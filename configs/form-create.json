@@ -1,7 +1,18 @@
 {
   "index_name": "form-create",
   "start_urls": [
-    "http://form-create.com/"
+    {
+      "url": "http://www.form-create.com/v2",
+      "tags": [
+        "v2"
+      ]
+    },
+    {
+      "url": "http://www.form-create.com/",
+      "tags": [
+        "v1"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -26,6 +37,7 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
+      "tags",
       "lang"
     ]
   },
@@ -33,5 +45,5 @@
     "825818962"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 2545
+  "nb_hits": 2662
 }
