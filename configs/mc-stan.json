@@ -1,0 +1,23 @@
+{
+  "index_name": "mc-stan",
+  "start_urls": [
+    "https://mc-stan.org/users/documentation/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://mc-stan.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "article h1, .main-container h1",
+    "lvl1": "article h2, .main-container h2",
+    "lvl2": "article h3, .main-container h3",
+    "lvl3": "article h4, .main-container h4",
+    "lvl4": "article h5, .main-container h5",
+    "lvl5": "article h6, .main-container h6",
+    "text": "article p, .main-container p, article li, .main-container li"
+  },
+  "conversation_id": [
+    "889029740"
+  ],
+  "nb_hits": 3398
+}
