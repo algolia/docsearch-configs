@@ -17,6 +17,7 @@
     "lvl2": ".p-5 h3",
     "lvl3": ".p-5 h4",
     "lvl4": ".p-5 h5",
+    "lvl5": ".p-5 h6",
     "text": ".p-5 p, .p-5 li"
   },
   "conversation_id": [
