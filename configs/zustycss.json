@@ -1,0 +1,23 @@
+{
+  "index_name": "zustycss",
+  "start_urls": [
+    "https://zustycss.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": "h3",
+    "lvl3": "h4",
+    "lvl4": "h5",
+    "lvl5": "h6",
+    "text": "p, li"
+  },
+  "selectors_exclude": [
+    "body > div"
+  ],
+  "conversation_id": [
+    "890049964"
+  ],
+  "nb_hits": 567
+}
