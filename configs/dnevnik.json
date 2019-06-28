@@ -1,0 +1,39 @@
+{
+  "index_name": "dnevnik",
+  "start_urls": [
+    "http://docs-dnevnik.ciela.net/docs/",
+    "http://docs-dnevnik.ciela.net/docs/%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F/%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BD%D0%B0-%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB/"
+  ],
+  "sitemap_urls": [
+    "http://docs-dnevnik.ciela.net/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "889905254"
+  ],
+  "nb_hits": 3041
+}
