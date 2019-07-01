@@ -1,7 +1,7 @@
 {
   "index_name": "paladinbot",
   "start_urls": [
-    "https://www.paladinbot.online/docs"
+    "https://potato.community/docs"
   ],
   "stop_urls": [],
   "selectors": {
