@@ -1,34 +1,71 @@
 {
   "index_name": "chocorail",
   "start_urls": [
-    "https://chocorail.com/"
+    {
+      "url": "https://chocorail.com/references",
+      "selectors_key": "docs",
+      "page_rank": 6
+    },
+    {
+      "url": "https://chocorail.com/manual",
+      "selectors_key": "docs",
+      "page_rank": 5
+    },
+    {
+      "url": "https://chocorail.com/",
+      "selectors_key": "default",
+      "page_rank": 1
+    }
   ],
   "sitemap_urls": [
     "https://chocorail.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "https://chocorail.com/privacy/",
+    "https://chocorail.com/terms/",
+    "https://chocorail.com/law/"
+  ],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li, .content blockquote"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "lvl5": ".post h5",
-    "text": ".post article p, .post article li"
+    "docs": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::a[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".post h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "lvl5": ".post h5",
+      "text": ".post article p, .post article li, .post article blockquote"
+    }
   },
   "selectors_exclude": [
     ".hash-link"
   ],
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
+    "separatorsToIndex": "_-",
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "choco",
+        "chocorail",
+        "ちょこれ～る",
+        "ちょこれーる"
+      ]
     ]
   },
   "conversation_id": [
