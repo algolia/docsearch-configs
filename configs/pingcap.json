@@ -17,8 +17,12 @@
     }
   ],
   "stop_urls": [
-    "/docs/v\\d",
-    "/docs-cn/v\\d"
+    "/docs/v2.1-legacy",
+    "/docs/v2.0",
+    "/docs/v1.0",
+    "/docs-cn/v2.1-legacy",
+    "/docs-cn/v2.0",
+    "/docs-cn/v1.0"
   ],
   "sitemap_urls": [
     "https://pingcap.com/sitemap.xml"
