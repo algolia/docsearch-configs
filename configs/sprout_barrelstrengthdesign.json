@@ -22,11 +22,25 @@
     "lvl3": "[class='content'] h3",
     "lvl4": "[class='content'] h4",
     "lvl5": "[class='content'] h5",
-    "text": "[class='content'] p, [class='content'] li"
+    "text": "[class='content'] p, [class='content'] li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "596308196"
   ],
-  "strip_chars": " .,;:#",
-  "nb_hits": 2090
+  "nb_hits": 2731
 }
