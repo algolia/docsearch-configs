@@ -1,9 +1,23 @@
 {
   "index_name": "hull",
-  "sitemap_urls": ["https://www.hull.io/sitemap.xml"],
+  "sitemap_urls": [
+    "https://www.hull.io/sitemap.xml"
+  ],
   "start_urls": [
-    { "url": "https://www.hull.io/docs/", "selectors_key": "docs", "tags": ["docs"] },
-    { "url": "https://www.hull.io/blog/", "selectors_key": "blog", "tags": ["blog"] }
+    {
+      "url": "https://www.hull.io/docs/",
+      "selectors_key": "docs",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://www.hull.io/blog/",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -28,5 +42,5 @@
   "conversation_id": [
     "724165962"
   ],
-  "nb_hits": 1779
+  "nb_hits": 10467
 }
