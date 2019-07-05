@@ -7,14 +7,12 @@
     },
     "https://substrate.dev/docs/",
     "https://substrate.dev"
-
   ],
-  "stop_urls":["https://substrate.dev/rustdocs/v1.0/typenum/"],
+  "stop_urls": [],
   "sitemap_urls": [
     "https://substrate.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
   "selectors": {
     "default": {
       "lvl0": {
@@ -50,5 +48,5 @@
   "conversation_id": [
     "877661255"
   ],
-  "nb_hits": 2038
+  "nb_hits": 141960
 }

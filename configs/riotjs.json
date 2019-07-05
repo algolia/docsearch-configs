@@ -20,8 +20,7 @@
   "conversation_id": [
     "580098926"
   ],
-  "selectors_exclude": [
-  ],
+  "selectors_exclude": [],
   "js_render": true,
-  "nb_hits": 784
+  "nb_hits": 1982
 }

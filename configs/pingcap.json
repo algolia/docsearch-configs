@@ -40,7 +40,7 @@
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "文档"
+        "default_value": "\u6587\u6863"
       },
       "lvl1": ".content h1",
       "lvl2": ".content h2",
@@ -67,5 +67,5 @@
   "conversation_id": [
     "428916846"
   ],
-  "nb_hits": 34632
+  "nb_hits": 136724
 }
