@@ -1,12 +1,12 @@
 {
-  "index_name": "ebertapp",
+  "index_name": "sourcelevel",
   "start_urls": [
     {
-      "url": "https://docs.ebertapp.io/guides/",
+      "url": "https://docs.sourcelevel.io/guides/",
       "selectors_key": "guides"
     },
     {
-      "url": "https://docs.ebertapp.io/",
+      "url": "https://docs.sourcelevel.io/",
       "selectors_key": "default"
     }
   ],
