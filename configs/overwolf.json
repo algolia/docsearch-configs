@@ -1,10 +1,10 @@
 {
   "index_name": "overwolf",
   "start_urls": [
-    "https://overwolf.github.io/developers-site/docs/"
+    "https://overwolf.github.io/"
   ],
   "sitemap_urls": [
-    "https://overwolf.github.io/developers-site/sitemap.xml"
+    "https://overwolf.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
