@@ -1,7 +1,7 @@
 {
   "index_name": "featurepeek",
   "start_urls": [
-    "https://docs.featurepeek.com/docs/"
+    "https://docs.featurepeek.com/"
   ],
   "sitemap_urls": [
     "https://docs.featurepeek.com/sitemap.xml"
