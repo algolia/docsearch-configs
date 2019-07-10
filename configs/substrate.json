@@ -1,8 +1,5 @@
 {
   "index_name": "substrate",
-  "js_render": true,
-  "js_wait": 2,
-  "use_anchors": true,
   "start_urls": [
     {
       "url": "https://substrate.dev/rustdocs/",
