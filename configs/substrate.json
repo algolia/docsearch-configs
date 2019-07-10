@@ -3,10 +3,17 @@
   "start_urls": [
     {
       "url": "https://substrate.dev/rustdocs/",
-      "selectors_key": "rustdocs"
+      "selectors_key": "rustdocs",
+      "page_rank": 50
     },
-    "https://substrate.dev/docs/",
-    "https://substrate.dev"
+    {
+      "url": "https://substrate.dev/docs/",
+      "page_rank": 100
+    },
+    {
+      "url": "https://substrate.dev",
+      "page_rank": 10
+    }
   ],
   "stop_urls": [],
   "selectors": {
