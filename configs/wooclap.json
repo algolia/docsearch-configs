@@ -33,6 +33,7 @@
     },
     {
       "url": "https://docs.wooclap.com/",
+      "selectors_key": "faq",
       "tags": [
         "faq"
       ]
