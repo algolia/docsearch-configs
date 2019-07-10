@@ -11,7 +11,7 @@
     "https://sendgrid.com/docs/"
   ],
   "sitemap_urls": [
-    "https://sendgrid.com/sitemap.xml"
+    "https://sendgrid.com/docs/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -36,5 +36,5 @@
   "selectors_exclude": [
     ".doc-main h1 + div ul:first-child"
   ],
-  "nb_hits": 16741
+  "nb_hits": 16984
 }
