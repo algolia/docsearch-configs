@@ -3,16 +3,24 @@
   "start_urls": [
     {
       "url": "https://substrate.dev/rustdocs/",
-      "selectors_key": "rustdocs"
+      "selectors_key": "rustdocs",
+      "page_rank": 50
     },
-    "https://substrate.dev/docs/",
-    "https://substrate.dev"
+    {
+      "url": "https://substrate.dev/recipes/",
+      "selectors_key": "mdbook",
+      "page_rank": 25
+    },
+    {
+      "url": "https://substrate.dev/docs/",
+      "page_rank": 100
+    },
+    {
+      "url": "https://substrate.dev",
+      "page_rank": 10
+    }
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://substrate.dev/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "selectors": {
     "default": {
       "lvl0": {
@@ -34,6 +42,15 @@
       "lvl2": ".docblock h2 a",
       "lvl3": ".docblock h3 a",
       "text": ".docblock li, .docblock p, .content table"
+    },
+    "mdbook": {
+      "lvl0": "h1.menu-title",
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content li, .content p, .content table"
     }
   },
   "selectors_exclude": [
