@@ -1,7 +1,7 @@
 {
   "index_name": "getbench",
   "start_urls": [
-    "https://getbench.io/docs/"
+    "https://getbench.io/"
   ],
   "stop_urls": [],
   "selectors": {
