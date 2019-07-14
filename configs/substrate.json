@@ -4,12 +4,12 @@
     {
       "url": "https://substrate.dev/rustdocs/",
       "selectors_key": "rustdocs",
-      "page_rank": 50
+      "page_rank": 25
     },
     {
       "url": "https://substrate.dev/recipes/",
       "selectors_key": "mdbook",
-      "page_rank": 25
+      "page_rank": 50
     },
     {
       "url": "https://substrate.dev/docs/",
@@ -20,7 +20,9 @@
       "page_rank": 10
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "print.html"
+  ],
   "selectors": {
     "default": {
       "lvl0": {
