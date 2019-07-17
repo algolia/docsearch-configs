@@ -21,8 +21,7 @@
       "global": true
     }
   },
-  "selectors_exclude": [
-  ],
+  "selectors_exclude": [],
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
@@ -33,5 +32,5 @@
   "conversation_id": [
     "596820326"
   ],
-  "nb_hits": 84
+  "nb_hits": 175
 }
