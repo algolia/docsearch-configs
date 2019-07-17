@@ -1,10 +1,22 @@
 {
-  "index_name": "getanalytics",
+  "index_name": "apollodata",
   "start_urls": [
-
-    "http://getanalytics.io/"
+    "https://www.apollographql.com/docs/",
+    {
+      "url": "https://www.apollographql.com/docs/platform/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://www.apollographql.com/docs/react/",
+      "page_rank": 2
+    },
+    {
+      "url": "https://www.apollographql.com/docs/apollo-server/",
+      "page_rank": 1
+    }
   ],
   "stop_urls": [
+    "index\\.html"
   ],
   "selectors": {
     "default": {
