@@ -1,13 +1,59 @@
 {
   "index_name": "browserstack",
   "start_urls": [
-    "https://www.browserstack.com/"
+    "https://www.browserstack.com/docs/",
+    "https://www.browserstack.com/local-testing/",
+    "https://www.browserstack.com/developer-tools/",
+    "https://www.browserstack.com/integrations/",
+    "https://www.browserstack.com/security/",
+    "https://www.browserstack.com/emulators-simulators/",
+    "https://www.browserstack.com/enterprise-features/",
+    "https://www.browserstack.com/geolocation-testing/",
+    "https://www.browserstack.com/github-integration/",
+    "https://www.browserstack.com/ip-geolocation/",
+    "https://www.browserstack.com/jira-integration/",
+    "https://www.browserstack.com/slack-integration/",
+    "https://www.browserstack.com/trello-integration/",
+    "https://www.browserstack.com/selenium/",
+    "https://www.browserstack.com/cross-browser-testing/",
+    "https://www.browserstack.com/responsive-design/",
+    "https://www.browserstack.com/android-emulators/",
+    "https://www.browserstack.com/ios-testing/",
+    "https://www.browserstack.com/android-testing/",
+    "https://www.browserstack.com/test-on-ios-simulator/",
+    "https://www.browserstack.com/open-source/",
+    "https://www.browserstack.com/test-on-ipad/",
+    "https://www.browserstack.com/test-on-galaxy/",
+    "https://www.browserstack.com/test-on-iphone/",
+    "https://www.browserstack.com/mobile-features/",
+    "https://www.browserstack.com/live/features/",
+    "https://www.browserstack.com/screenshots/api/",
+    {
+      "url": "https://www.browserstack.com/automate/(?P<topic>.*?)/",
+      "variables": {
+        "topic": ["python", "ruby", "java", "c-sharp", "php", "perl", "node", "capabilities", "timeouts", "rest-api", "jenkins", "travisci", "teamcity", "bamboo", "nunit", "pnunit", "mbunit", "specflow", "junit", "testng", "jbehave", "serenity", "protractor", "nightwatch", "intern", "webdriverio", "cucumberjs", "wd", "codeception", "phpunit", "behat", "lettuce", "behave", "rspec", "capybara", "gauge", "selenide", "debugging", "azure", "features"]
+      }
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/(?P<topic>.*?)/",
+      "variables": {
+        "topic": ["xcuitest", "earlgrey", "features", "timeouts"]
+      }
+    },
+    {
+      "url": "https://www.browserstack.com/app-live/(?P<topic>.*?)/",
+      "variables": {
+        "topic": ["fastlane", "gradle", "hockeyapp", "rest-api", "features"]
+      }
+    },
+    {
+      "url": "https://www.browserstack.com/question/(?P<qno>.*?)/",
+      "variables": {
+        "qno": ["475","476","477","478","479","480","482","483","484","486","487","488","489","490","495","496","499","500","501","502","504","506","507","508","509","510","515","516","517","518","519","520","523","524","525","526","528","533","535","536","537","539","540","546","548","551","553","554","555","556","557","558","559","560","561","562","563","566","570","574","575","576","577","581","582","583","584","585","586","588","590","592","593","594","595","596","598","599","600","602","604","605","606","608","609","610","611","613","614","615","616","617","618","619","620","621","622","623","624","626","631","632","633","634","635","636","637","638","640","641","642","646","647","648","650","651","652","653","654","655","656","657","658","659","660","661","662","663","664","665","667","668","669","670","680","681","701","702","711","712","713","714","721","722","723","724","725","726","727","728","755","756","757","758","759","760","761","762","763","731","732","733","741","742","743","744","745","746","747","748","749","750","751","752","753","754"]
+      }
+    }
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://www.browserstack.com/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
