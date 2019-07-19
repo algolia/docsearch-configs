@@ -6,6 +6,7 @@
       "selectors_key": "installation",
       "variables": {
         "version": [
+          "latest",
           "v1.4",
           "v1.3",
           "v1.2",
@@ -24,6 +25,7 @@
       "url": "https://docs.timescale.com/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "latest",
           "v1.4",
           "v1.3",
           "v1.2",
