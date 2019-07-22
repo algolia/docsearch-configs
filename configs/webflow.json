@@ -13,6 +13,8 @@
     "lvl2": ".post-container h4",
     "lvl3": ".post-container h5",
     "lvl4": ".post-container h6",
+    "lvl5": ".type-text",
+    "lvl6": ".type-list",
     "text": ".post-container p, .post-container li"
   },
   "conversation_id": [
