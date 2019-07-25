@@ -4,7 +4,6 @@
     "https://seed.run/docs/"
   ],
   "stop_urls": [
-    "html$"
   ],
   "sitemap_urls": [
     "https://seed.run/sitemap.xml"
