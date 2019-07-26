@@ -8,14 +8,16 @@
     "https://helpcenter-cms.webflow.io/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": ".post-container h1",
-    "lvl1": ".post-container h3",
-    "lvl2": ".post-container h4",
-    "lvl3": ".post-container h5",
-    "lvl4": ".post-container h6",
-    "lvl5": ".type-text",
-    "lvl6": ".type-list",
-    "text": ".post-container p, .post-container li"
+    "lvl0": "h1",
+    "text": ".post"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "attributes", 
+      "links",
+      "carrd",
+      "hide-carrd"
+    ]
   },
   "conversation_id": [
     "907701323"
