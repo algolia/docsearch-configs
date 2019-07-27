@@ -1,7 +1,13 @@
 {
   "index_name": "kubesphere",
   "start_urls": [
-    "https://kubesphere.io/docs/"
+    {
+      "url": "https://kubesphere.io/docs/(?P<version>.*?)/(?P<lang>.*?)/",
+      "variables": {
+        "lang": ["zh-CN", "en"],
+        "version": ["advanced-v2.0", "advanced-v1.0", "express"]
+      }
+    },
   ],
   "stop_urls": [],
   "sitemap_urls": [
