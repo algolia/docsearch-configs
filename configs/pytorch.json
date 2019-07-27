@@ -49,7 +49,12 @@
       "lvl3": "article h3",
       "lvl4": "article h4",
       "lvl5": "article h5",
-      "text": "article p, article li"
+      "text": "article p, article li",
+      "category": {
+        "selector": ".category",
+        "global": true,
+        "default_value": "all"
+      }
     },
     "index": {
       "lvl0": {
@@ -59,7 +64,12 @@
       },
       "lvl1": ".key-features-module h2",
       "lvl2": ".key-features-module h5",
-      "text": ".key-features-module p, .key-features-module li, p.lead"
+      "text": ".key-features-module p, .key-features-module li, p.lead",
+      "category": {
+        "selector": ".category",
+        "global": true,
+        "default_value": "all"
+      }
     },
     "features": {
       "lvl0": {
@@ -69,7 +79,12 @@
       },
       "lvl1": ".feature-content h3",
       "lvl2": ".feature-content h5",
-      "text": ".feature-content p, .feature-content li, p.lead"
+      "text": ".feature-content p, .feature-content li, p.lead",
+      "category": {
+        "selector": ".category",
+        "global": true,
+        "default_value": "all"
+      }
     },
     "blog": {
       "lvl0": {
@@ -86,7 +101,12 @@
       "lvl3": "article h3",
       "lvl4": "article h4",
       "lvl5": "article h5",
-      "text": "article p, article li"
+      "text": "article p, article li",
+      "category": {
+        "selector": ".category",
+        "global": true,
+        "default_value": "all"
+      }
     },
     "tutorials": {
       "lvl0": {
@@ -104,7 +124,12 @@
       "lvl3": ".section h2",
       "lvl4": ".section h3",
       "lvl5": ".section h4",
-      "text": ".section p, .section li"
+      "text": ".section p, .section li",
+      "category": {
+        "selector": ".category",
+        "global": true,
+        "default_value": "all"
+      }
     },
     "master": {
       "lvl0": {
@@ -118,8 +143,18 @@
       "lvl3": ".section h3",
       "lvl4": ".section h4",
       "lvl5": ".section h5",
-      "text": ".section p, .section li"
+      "text": ".section p, .section li",
+      "category": {
+        "selector": ".category",
+        "default_value": "all"
+      }
     }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "category"
+    ]
   },
   "selectors_exclude": [
     "#markdown-toc",
@@ -130,5 +165,5 @@
   "conversation_id": [
     "672318908"
   ],
-  "nb_hits": 17863
+  "nb_hits": 18143
 }
