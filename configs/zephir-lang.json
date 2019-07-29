@@ -9,11 +9,13 @@
           "el-gr",
           "es-es",
           "ru-ru",
+          "tr-tr",
           "uk-ua",
           "zh-cn"
         ],
         "version": [
           "latest",
+          "0.12",
           "0.11",
           "0.10"
         ]
