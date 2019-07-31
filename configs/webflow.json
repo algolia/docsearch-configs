@@ -1,0 +1,26 @@
+{
+  "index_name": "webflow",
+  "start_urls": [
+    "https://helpcenter-cms.webflow.io/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://helpcenter-cms.webflow.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "h1",
+    "text": ".post"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "attributes", 
+      "links",
+      "carrd",
+      "hide-carrd"
+    ]
+  },
+  "conversation_id": [
+    "907701323"
+  ],
+  "nb_hits": 424
+}

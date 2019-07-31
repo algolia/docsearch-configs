@@ -3,7 +3,9 @@
   "start_urls": [
     "https://milucai.github.io/milucai/"
   ],
-  "stop_urls": ["niko.html"],
+  "stop_urls": [
+    "niko.html"
+  ],
   "selectors": {
     "lvl0": "[class*='content '] h1",
     "lvl1": "[class*='content '] h2",
@@ -31,5 +33,5 @@
     "887618835"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 14
+  "nb_hits": 33
 }

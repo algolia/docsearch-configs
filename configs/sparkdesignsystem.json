@@ -1,0 +1,20 @@
+{
+  "index_name": "sparkdesignsystem",
+  "start_urls": [
+    "https://sparkdesignsystem.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class$='_main'] h1",
+    "lvl1": "[class$='_main'] h2",
+    "lvl2": "[class$='_main'] h3",
+    "lvl3": "[class$='_main'] h4",
+    "lvl4": "[class$='_main'] h5",
+    "lvl5": "[class$='_main'] h6",
+    "text": "[class$='_main'] p, [class$='_main'] li"
+  },
+  "conversation_id": [
+    "893782390"
+  ],
+  "nb_hits": 3918
+}

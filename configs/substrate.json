@@ -2,19 +2,32 @@
   "index_name": "substrate",
   "start_urls": [
     {
-      "url": "https://substrate.dev/rustdocs/",
-      "selectors_key": "rustdocs"
+      "url": "https://substrate.dev/docs/",
+      "page_rank": 100
     },
-    "https://substrate.dev/docs/",
-    "https://substrate.dev"
-
+    {
+      "url": "https://substrate.dev/tutorials/",
+      "selectors_key": "tutorial-catalog",
+      "page_rank": 75
+    },
+    {
+      "url": "https://substrate.dev/recipes/",
+      "selectors_key": "mdbook",
+      "page_rank": 50
+    },
+    {
+      "url": "https://substrate.dev/rustdocs/",
+      "selectors_key": "rustdocs",
+      "page_rank": 25
+    },
+    {
+      "url": "https://substrate.dev",
+      "page_rank": 10
+    }
   ],
-  "stop_urls":["https://substrate.dev/rustdocs/v1.0/typenum/"],
-  "sitemap_urls": [
-    "https://substrate.dev/sitemap.xml"
+  "stop_urls": [
+    "print.html"
   ],
-  "sitemap_alternate_links": true,
-  "stop_urls": [],
   "selectors": {
     "default": {
       "lvl0": {
@@ -36,6 +49,24 @@
       "lvl2": ".docblock h2 a",
       "lvl3": ".docblock h3 a",
       "text": ".docblock li, .docblock p, .content table"
+    },
+    "mdbook": {
+      "lvl0": "h1.menu-title",
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content li, .content p, .content table"
+    },
+    "tutorial-catalog": {
+      "lvl0": "h1.projectTitle",
+      "lvl1": ".mainContainer h1",
+      "lvl2": ".mainContainer h2",
+      "lvl3": ".mainContainer h3",
+      "lvl4": ".mainContainer h4",
+      "lvl5": ".mainContainer h5",
+      "text": ".mainContainer li, .mainContainer p"
     }
   },
   "selectors_exclude": [
@@ -50,5 +81,5 @@
   "conversation_id": [
     "877661255"
   ],
-  "nb_hits": 2038
+  "nb_hits": 145073
 }

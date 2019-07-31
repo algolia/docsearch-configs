@@ -5,12 +5,10 @@
   ],
   "stop_urls": [
     "http://rasa.com/docs/.*?/\\d",
-    "http://rasa.com/docs/rasa/(?!master)",
+    "http://rasa.com/docs/.*?/master",
     ".rst.txt$",
-    "http://rasa.com/docs/about/$",
     "/_",
-    "/dev/",
-    "/rasa-x/master"
+    "/dev/"
   ],
   "selectors": {
     "lvl0": {
@@ -32,5 +30,5 @@
   "conversation_id": [
     "627630474"
   ],
-  "nb_hits": 426
+  "nb_hits": 2533
 }

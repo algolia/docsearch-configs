@@ -20,9 +20,9 @@
       ]
     },
     {
-      "url": "https://docs.avoka.com/sdk/docs",
+      "url": "https://docs.avoka.com/sdk/v1905",
       "tags": [
-        "latest"
+        "v1905"
       ]
     }
   ],
@@ -57,5 +57,5 @@
   "conversation_id": [
     "794632501"
   ],
-  "nb_hits": 11746
+  "nb_hits": 17223
 }

@@ -24,6 +24,42 @@
       "tags": [
         "colonyjs"
       ]
+    },
+    {
+      "url": "http://docs.colony.io/colonystarter/docs-overview/",
+      "tags": [
+        "colonystarter"
+      ]
+    },
+    {
+      "url": "https://docs.colony.io/colonystarter/",
+      "tags": [
+        "colonystarter"
+      ]
+    },
+    {
+      "url": "http://docs.colony.io/purser/docs-overview/",
+      "tags": [
+        "purser"
+      ]
+    },
+    {
+      "url": "https://docs.colony.io/purser/",
+      "tags": [
+        "purser"
+      ]
+    },
+    {
+      "url": "http://docs.colony.io/tailor/docs-overview/",
+      "tags": [
+        "tailor"
+      ]
+    },
+    {
+      "url": "https://docs.colony.io/tailor/",
+      "tags": [
+        "tailor"
+      ]
     }
   ],
   "stop_urls": [],
@@ -51,5 +87,5 @@
   "conversation_id": [
     "600665265"
   ],
-  "nb_hits": 2686
+  "nb_hits": 4518
 }

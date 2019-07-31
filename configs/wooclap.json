@@ -32,15 +32,8 @@
       ]
     },
     {
-      "url": "https://docs.wooclap.com/faq-(?P<lang>[a-z]{2}?)",
+      "url": "https://docs.wooclap.com/",
       "selectors_key": "faq",
-      "variables": {
-        "lang": [
-          "en",
-          "es",
-          "fr"
-        ]
-      },
       "tags": [
         "faq"
       ]
@@ -91,7 +84,7 @@
       "lvl6": "main section h6",
       "text": "main section p, main section li",
       "lang": {
-        "selector": "/html/@lang",
+        "selector": "substring(//div[contains(@class,'breadcrumb')]/div[2]/a/text(), string-length(//div[contains(@class,'breadcrumb')]/div[2]/a/text()) - 2, 2), /html/@lang",
         "type": "xpath",
         "global": true
       }
@@ -138,5 +131,5 @@
   "conversation_id": [
     "852968610"
   ],
-  "nb_hits": 3740
+  "nb_hits": 4859
 }

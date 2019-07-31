@@ -1,7 +1,7 @@
 {
   "index_name": "tribeserver",
   "start_urls": [
-    "https://tribeserver.com"
+    "https://wayfinder.coventry.ac.uk"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,7 +22,7 @@
     "567591378"
   ],
   "sitemap_urls": [
-    "https://tribeserver.com/sitemap.xml"
+    "https://wayfinder.coventry.ac.uk/sitemap.xml"
   ],
   "scrap_start_urls": false,
   "custom_settings": {
@@ -31,5 +31,5 @@
     ]
   },
   "strip_chars": " .,;:#",
-  "nb_hits": 518
+  "nb_hits": 521
 }
