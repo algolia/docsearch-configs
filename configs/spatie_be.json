@@ -25,7 +25,10 @@
           "laravel-backup",
           "laravel-html",
           "laravel-event-projector",
-          "laravel-blade-x"
+          "laravel-blade-x",
+          "laravel-permission",
+          "laravel-query-builder",
+          "enum",
         ]
       }
     }
