@@ -28,7 +28,7 @@
           "laravel-blade-x",
           "laravel-permission",
           "laravel-query-builder",
-          "enum",
+          "enum"
         ]
       }
     }
