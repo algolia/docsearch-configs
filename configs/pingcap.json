@@ -72,7 +72,7 @@
     },
     "docs_cn": {
       "lvl0": {
-        "selector": "button#dropdownMenuButton",
+        "selector": "#dropdownMenuButton",
         "global": true,
         "default_value": "\u6587\u6863"
       },
@@ -84,7 +84,7 @@
     },
     "docs": {
       "lvl0": {
-        "selector": "button#dropdownMenuButton",
+        "selector": "#dropdownMenuButton",
         "global": true,
         "default_value": "Documentation"
       },
