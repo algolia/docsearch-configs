@@ -1,7 +1,6 @@
 {
   "index_name": "expo",
   "start_urls": [
-    "https://docs.expo.io/",
     {
       "url": "https://docs.expo.io/versions/(?P<version>.*?)/",
       "variables": {
@@ -14,7 +13,8 @@
           "latest",
           "unversioned"
         ]
-      }
+      },
+     "https://docs.expo.io/"
     }
   ],
   "stop_urls": [],
