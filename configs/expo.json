@@ -13,9 +13,9 @@
           "latest",
           "unversioned"
         ]
-      },
-     "https://docs.expo.io/"
-    }
+      }
+    },
+    "https://docs.expo.io/"
   ],
   "stop_urls": [],
   "selectors": {
