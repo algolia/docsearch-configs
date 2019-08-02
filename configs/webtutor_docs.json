@@ -1,7 +1,7 @@
 {
   "index_name": "webtutor_docs",
   "start_urls": [
-    "https://webtutor-docs.netlify.com/"
+    "https://webtutor-docs.firebaseapp.com/"
   ],
   "stop_urls": [],
   "selectors": {
