@@ -34,7 +34,7 @@
       "page_rank": 1
     },
     {
-      "url": "https://pingcap.com/docs/v3.0/",
+      "url": "https://pingcap.com/docs/dev",
       "selectors_key": "docs",
       "tags": [
         "en"
