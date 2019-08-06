@@ -5,19 +5,17 @@
       "url": "https://docs.expo.io/versions/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "v26.0.0",
-          "v27.0.0",
-          "v28.0.0",
-          "v29.0.0",
           "v30.0.0",
           "v31.0.0",
           "v32.0.0",
           "v33.0.0",
+          "v34.0.0",
           "latest",
           "unversioned"
         ]
       }
-    }
+    },
+    "https://docs.expo.io/"
   ],
   "stop_urls": [],
   "selectors": {
