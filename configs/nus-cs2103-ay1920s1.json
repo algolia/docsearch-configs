@@ -28,8 +28,7 @@
     "printable",
     "\\d/index.html",
     "schedule/index\\.html",
-    "print\\.html$",
-    "/schedule/"
+    "print\\.html$"
   ],
   "selectors": {
     "default": {
