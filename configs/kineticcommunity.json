@@ -20,6 +20,11 @@
       "url": "https://community.kineticdata.com/support/",
       "selectors_key": "support",
       "tags": ["Support"]
+    },
+    {
+      "url": "https://community.kineticdata.com/events/",
+      "selectors_key": "events",
+      "tags": ["Events"]
     }
   ],
   "stop_urls": [],
@@ -104,6 +109,23 @@
       "lvl0": {
         "selector": "",
         "default_value": "Support"
+      },
+      "lvl1": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
+        "global": true
+      },
+      "lvl2": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(4):not(.active)",
+        "global": true
+      },
+      "lvl3": ".community-content h1",
+      "lvl4": "",
+      "text": ".community-content p, community-content li"
+    },
+    "events": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Events"
       },
       "lvl1": {
         "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
