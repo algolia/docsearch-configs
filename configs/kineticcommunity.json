@@ -25,7 +25,7 @@
       "url": "https://community.kineticdata.com/events/",
       "selectors_key": "events",
       "tags": ["Events"]
-    }
+    },
   ],
   "stop_urls": [],
   "selectors": {
