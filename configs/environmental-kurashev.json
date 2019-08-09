@@ -1,0 +1,22 @@
+{
+  "index_name": "environmental-kurashev",
+  "start_urls": [
+    "https://environmental.kurashev.com"
+  ],
+  "sitemap_urls": [
+    "https://environmental.kurashev.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".bd-toc-item.active > a",
+    "lvl1": ".bd-content h1",
+    "lvl2": ".bd-content h2",
+    "lvl3": ".bd-content h3",
+    "text": ".bd-content p, .bd-content li, .bd-example"
+  },
+  "conversation_id": [
+    "867964437"
+  ],
+  "nb_hits": 206
+}

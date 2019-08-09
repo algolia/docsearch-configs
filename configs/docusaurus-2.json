@@ -1,10 +1,10 @@
 {
   "index_name": "docusaurus-2",
   "start_urls": [
-    "https://docusaurus-2.netlify.com/docs/"
+    "https://v2.docusaurus.io/docs/"
   ],
   "sitemap_urls": [
-    "https://docusaurus-2.netlify.com/sitemap.xml"
+    "https://v2.docusaurus.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -30,5 +30,5 @@
   "conversation_id": [
     "833762294"
   ],
-  "nb_hits": 162
+  "nb_hits": 203
 }

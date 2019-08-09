@@ -6,7 +6,9 @@
   "sitemap_urls": [
     "https://docs.hackerone.com/sitemap.xml"
   ],
-  "stop_urls": ["/changelog/"],
+  "stop_urls": [
+    "/changelog/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "a.navigation__link--active",
@@ -27,8 +29,9 @@
   "selectors_exclude": [
     ".footer__inner"
   ],
+  "strip_chars": " .,;:#+",
   "conversation_id": [
     "535135855"
   ],
-  "nb_hits": 1679
+  "nb_hits": 2588
 }

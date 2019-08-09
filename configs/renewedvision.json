@@ -21,9 +21,11 @@
     "lvl6": "#body-inner h6",
     "text": "#body-inner p, #body-inner li"
   },
-  "selectors_exclude":[".topics > .dd-item.parent b"],
+  "selectors_exclude": [
+    ".topics > .dd-item.parent b"
+  ],
   "conversation_id": [
     "789316777"
   ],
-  "nb_hits": 892
+  "nb_hits": 6
 }

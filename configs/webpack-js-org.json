@@ -7,7 +7,8 @@
     "https://webpack.js.org/sitemap.xml"
   ],
   "stop_urls": [
-    "index\\.html"
+    "index\\.html",
+    "/printable/"
   ],
   "selectors_exclude": [],
   "selectors": {
@@ -36,5 +37,5 @@
     ],
     "separatorsToIndex": "_"
   },
-  "nb_hits": 7177
+  "nb_hits": 7281
 }

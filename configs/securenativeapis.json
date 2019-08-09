@@ -1,10 +1,11 @@
 {
   "index_name": "securenativeapis",
   "start_urls": [
-    "https://docs.securenativeapis.com/docs/"
+    "https://docs.securenative.com/docs/",
+    "https://docs.securenative.com/docs/intro/"
   ],
   "sitemap_urls": [
-    "https://docs.securenativeapis.com/sitemap.xml"
+    "https://docs.securenative.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +35,5 @@
   "conversation_id": [
     "799612730"
   ],
-  "nb_hits": 520
+  "nb_hits": 567
 }

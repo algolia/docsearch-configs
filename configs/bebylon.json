@@ -1,0 +1,20 @@
+{
+  "index_name": "bebylon",
+  "start_urls": [
+    "https://bebylon.dev/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".container-fluid h1",
+    "lvl1": ".container-fluid h2",
+    "lvl2": ".container-fluid h3",
+    "lvl3": ".container-fluid h4",
+    "lvl4": ".container-fluid h5",
+    "lvl5": ".container-fluid h6",
+    "text": ".container-fluid p, .container-fluid li"
+  },
+  "conversation_id": [
+    "879800422"
+  ],
+  "nb_hits": 144
+}

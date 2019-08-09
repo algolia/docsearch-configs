@@ -10,7 +10,9 @@
   "stop_urls": [
     "https://www.loginradius.com/docs/api/v1/",
     "https://www.loginradius.com/docs/getting-started/glossary",
-    "https://www.loginradius.com/docs/api/changelog"
+    "https://www.loginradius.com/docs/api/changelog",
+    "\\?action",
+    "return_url"
   ],
   "selectors": {
     "lvl0": {
@@ -29,5 +31,5 @@
   "conversation_id": [
     "432571474"
   ],
-  "nb_hits": 2513
+  "nb_hits": 38116
 }

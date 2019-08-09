@@ -1,7 +1,8 @@
 {
   "index_name": "wepay_developer",
   "start_urls": [
-    "https://developer.wepay.com/docs/"
+    "https://developer.wepay.com/docs/",
+    "https://developer.wepay.com/api/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -30,5 +31,5 @@
   "conversation_id": [
     "807012111"
   ],
-  "nb_hits": 2608
+  "nb_hits": 4954
 }

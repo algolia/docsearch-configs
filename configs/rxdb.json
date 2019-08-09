@@ -1,0 +1,20 @@
+{
+  "index_name": "rxdb",
+  "start_urls": [
+    "https://rxdb.info/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-section h1",
+    "lvl1": ".markdown-section h2",
+    "lvl2": ".markdown-section h3",
+    "lvl3": ".markdown-section h4",
+    "lvl4": ".markdown-section h5",
+    "lvl5": ".markdown-section h6",
+    "text": ".markdown-section p, .markdown-section li"
+  },
+  "conversation_id": [
+    "858195896"
+  ],
+  "nb_hits": 600
+}

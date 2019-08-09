@@ -3,11 +3,17 @@
   "start_urls": [
     {
       "url": "https://taiko.gauge.org/",
-      "selectors_key": "prod"
+      "selectors_key": "prod",
+      "tags": [
+        "prod"
+      ]
     },
     {
       "url": "https://taiko-preview.gauge.org/",
-      "selectors_key": "preview"
+      "selectors_key": "preview",
+      "tags": [
+        "preview"
+      ]
     }
   ],
   "stop_urls": [],

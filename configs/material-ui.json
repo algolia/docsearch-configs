@@ -2,10 +2,11 @@
   "index_name": "material-ui",
   "start_urls": [
     "https://material-ui.com/",
-    "https://next.material-ui.com/"
+    "https://v3.material-ui.com/"
   ],
   "stop_urls": [
-    "\\?expend-path"
+    "\\?expend-path",
+    "/blog/"
   ],
   "selectors": {
     "lvl0": {
@@ -28,5 +29,5 @@
       "language"
     ]
   },
-  "nb_hits": 35124
+  "nb_hits": 37027
 }

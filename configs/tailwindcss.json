@@ -2,7 +2,7 @@
   "index_name": "tailwindcss",
   "start_urls": [
     {
-      "url": "https://tailwindcss.com/docs/",
+      "url": "https://tailwindcss.com/",
       "selectors_key": "v1",
       "extra_attributes": {
         "version": [
@@ -65,5 +65,5 @@
   "conversation_id": [
     "459164857"
   ],
-  "nb_hits": 5727
+  "nb_hits": 5858
 }

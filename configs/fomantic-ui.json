@@ -27,10 +27,12 @@
   },
   "selectors_exclude": [
     ".article h1 .sub.header iframe",
-    ".main.container .ui.right"
+    ".main.container .ui.right",
+    "#toc"
   ],
+  "js_render": true,
   "conversation_id": [
     "837350754"
   ],
-  "nb_hits": 6739
+  "nb_hits": 7285
 }

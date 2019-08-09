@@ -12,12 +12,6 @@
       "tags": [
         "ja"
       ]
-    },
-    {
-      "url": "https://nemtech.github.io/zh_CN",
-      "tags": [
-        "zh_CN"
-      ]
     }
   ],
   "stop_urls": [
@@ -38,5 +32,5 @@
   "conversation_id": [
     "782254190"
   ],
-  "nb_hits": 8233
+  "nb_hits": 5766
 }

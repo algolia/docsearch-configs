@@ -1,7 +1,7 @@
 {
   "index_name": "quasar-framework",
   "start_urls": [
-    "https://v1.quasar-framework.org"
+    "https://quasar.dev"
   ],
   "stop_urls": [],
   "selectors": {
@@ -28,5 +28,5 @@
   "conversation_id": [
     "786485472"
   ],
-  "nb_hits": 5249
+  "nb_hits": 5939
 }

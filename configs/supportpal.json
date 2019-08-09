@@ -6,6 +6,7 @@
       "variables": {
         "version": [
           "current",
+          "2.5.0",
           "2.4.1",
           "2.4.0",
           "2.3.1",
@@ -32,5 +33,5 @@
   "selectors_exclude": [
     ".contents"
   ],
-  "nb_hits": 20658
+  "nb_hits": 25132
 }

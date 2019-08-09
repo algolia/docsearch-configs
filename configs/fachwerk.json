@@ -1,0 +1,39 @@
+{
+  "index_name": "fachwerk",
+  "start_urls": [
+    "https://weave.fachwerk.io/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://weave.fachwerk.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//*[contains(@class,'is-active')][1]/preceding::*[contains(@class,'menu-label')][1]",
+      "global": true,
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li",
+    "version": {
+      "selector": "select option:first-child",
+      "global": true
+    }
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "861685247"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "version"
+    ]
+  },
+  "nb_hits": 181
+}

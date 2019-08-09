@@ -2,23 +2,11 @@
   "index_name": "collab",
   "start_urls": [
     {
-      "url": "http://docs.collab.net/dlm174/",
+      "url": "http://docs.collab.net/teamforge192/",
       "tags": [
-        "dlm17.4"
+        "teamforge192"
       ]
-    },
-    {
-      "url": "http://docs.collab.net/dlm178/",
-      "tags": [
-        "dlm17.8"
-      ]
-    },
-    {
-      "url": "http://docs.collab.net/dlm20-integrations/",
-      "tags": [
-        "dlm2.0"
-      ]
-    },
+    },    
     {
       "url": "http://docs.collab.net/teamforge191/",
       "tags": [
@@ -82,5 +70,5 @@
   "conversation_id": [
     "555093088"
   ],
-  "nb_hits": 88803
+  "nb_hits": 88872
 }

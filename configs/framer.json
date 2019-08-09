@@ -1,0 +1,42 @@
+{
+  "index_name": "framer",
+  "start_urls": [
+    {
+      "url": "https://www.framer.com/docs/",
+      "tags": [
+        "doc"
+      ]
+    },
+    {
+      "url": "https://www.framer.com/api/",
+      "tags": [
+        "api"
+      ],
+      "selectors_key": "api"
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.framer.com/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h3",
+      "lvl2": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "api": {
+      "lvl0": "[class*='Markdown'] h1",
+      "lvl1": "[class*='Markdown'] h2",
+      "lvl2": "[class*='Markdown'] h3",
+      "lvl4": "[class*='Markdown'] h4",
+      "lvl5": "[class*='Markdown'] h5",
+      "lvl6": "[class*='Markdown'] h6",
+      "text": "[class*='Markdown'] p, [class*='Markdown'] li"
+    }
+  },
+  "strip_chars": " .,;:#",
+  
+  "nb_hits": 1404
+}

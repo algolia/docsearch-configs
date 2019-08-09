@@ -1,0 +1,25 @@
+{
+  "index_name": "gammapy",
+  "start_urls": [
+    "https://docs.gammapy.org/"
+  ],
+  "stop_urls": [
+    "/_"
+  ],
+  "selectors": {
+    "lvl0": "[role='main'] h1",
+    "lvl1": "[role='main'] h2",
+    "lvl2": "[role='main'] h3",
+    "lvl3": "[role='main'] h4",
+    "lvl4": "[role='main'] h5",
+    "lvl5": "[role='main'] h6",
+    "text": "[role='main'] p, [role='main'] li"
+  },
+  "conversation_id": [
+    "902018754"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 13281
+}

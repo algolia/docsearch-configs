@@ -5,20 +5,16 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "h1.hero-subheader__title",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li, .hero-subheader__desc"
+
+    "lvl0": ".content-body h1",
+    "lvl1": ".content-body h2",
+    "lvl2": ".content-body h3",
+    "lvl3": ".content-body h4",
+    "lvl4": ".content-body h5",
+    "text": ".content-body p, .content-body li"
   },
   "conversation_id": [
-    "597987239"
+    "878963419"
   ],
-  "nb_hits": 305
+  "nb_hits": 607
 }

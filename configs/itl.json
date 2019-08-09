@@ -1,26 +1,19 @@
 {
   "index_name": "itl",
   "start_urls": [
-    "https://itl.gitbooks.io/itl-field-guides/"
+    "https://pratt-itl.github.io/field-guides/"
   ],
-  "stop_urls": [
-    "https://itl.gitbooks.io/itl-field-guides/content/"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//nav//li[contains(@class,'chapter')][.//li[contains(@class,'active')]]/a",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".markdown-section h1",
-    "lvl2": ".markdown-section h2",
-    "lvl3": ".markdown-section h3",
-    "lvl4": ".markdown-section h4",
-    "text": ".markdown-section p, .markdown-section li"
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
   },
   "conversation_id": [
     "572384941"
   ],
-  "nb_hits": 826
+  "nb_hits": 817
 }

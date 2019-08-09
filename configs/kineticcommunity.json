@@ -4,17 +4,23 @@
     {
       "url": "https://community.kineticdata.com/platform/",
       "selectors_key": "platform",
-      "tags": ["Platform"]
+      "tags": [
+        "Platform"
+      ]
     },
     {
       "url": "https://community.kineticdata.com/solutions/",
       "selectors_key": "solutions",
-      "tags": ["Solutions"]
+      "tags": [
+        "Solutions"
+      ]
     },
     {
       "url": "https://community.kineticdata.com/integrations/",
       "selectors_key": "integrations",
-      "tags": ["Integrations"]
+      "tags": [
+        "Integrations"
+      ]
     },
     {
       "url": "https://community.kineticdata.com/support/",
@@ -162,13 +168,34 @@
     ]
   },
   "synonyms": [
-    ["js", "javascript"],
-    ["task", "kinetic task", "workflow"],
-    ["handler", "workflow handler"],
-    ["ce", "kinetic request"],
-    ["kinetics", "kinetic"],
-    ["analytics","metrics"]
+    [
+      "js",
+      "javascript"
+    ],
+    [
+      "task",
+      "kinetic task",
+      "workflow"
+    ],
+    [
+      "handler",
+      "workflow handler"
+    ],
+    [
+      "ce",
+      "kinetic request"
+    ],
+    [
+      "kinetics",
+      "kinetic"
+    ],
+    [
+      "analytics",
+      "metrics"
+    ]
   ],
-  "conversation_id": ["719291202"],
-  "nb_hits": 5277
+  "conversation_id": [
+    "719291202"
+  ],
+  "nb_hits": 6661
 }
