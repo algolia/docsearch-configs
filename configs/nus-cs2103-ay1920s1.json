@@ -2,7 +2,7 @@
   "index_name": "nus-cs2103-ay1920s1",
   "start_urls": [
     {
-      "url": "https://nus-cs2103-ay1920s1.github.io/website/schedule/",
+      "url": "https://nus-cs2103-ay1920s1.github.io/website/schedule/timeline.html",
       "selectors_key": "schedule",
       "tags": [
         "schedule"
