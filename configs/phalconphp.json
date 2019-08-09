@@ -51,9 +51,11 @@
           "ur-in",
           "zh-cn"
         ],
-        "version": [
-          "3.4"
-        ]
+        "extra_attributes": {
+          "version": [
+            "3.4"
+          ]
+        }
       }
     }
   ],
@@ -88,5 +90,3 @@
   ],
   "nb_hits": 499439
 }
-
-
