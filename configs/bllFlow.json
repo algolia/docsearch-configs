@@ -1,14 +1,14 @@
 {
-  "index_name": "bllFlow",
+  "index_name": "bllflow",
   "start_urls": [
-    "https://big-life-lab.github.io/bllFlow/"
+    "https://big-life-lab.github.io/bllflow/"
   ],
   "sitemap_urls": [
-    "https://big-life-lab.github.io/bllFlow/sitemap.xml"
+    "https://big-life-lab.github.io/bllflow/sitemap.xml"
   ],
   "stop_urls": [
     "LICENSE-text.html",
-    "bllFlow//"
+    "bllflow//"
   ],
   "selectors": {
     "lvl0": {
