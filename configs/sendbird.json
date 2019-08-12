@@ -15,6 +15,7 @@
       }
     }
   ],
+  "sitemap_urls": ["https://docs.sendbird.com/sitemap.xml"],
   "stop_urls": [
     "change_log$"
   ],
