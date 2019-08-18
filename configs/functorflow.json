@@ -1,0 +1,34 @@
+{
+  "index_name": "functorflow",
+  "start_urls": [
+    "https://functorflow.org/docs/"
+  ],
+  "sitemap_urls": [
+    "https://functorflow.org/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "lvl5": ".post h6",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ],
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "929099122"
+  ],
+  "nb_hits": 526
+}
