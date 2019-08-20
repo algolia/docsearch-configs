@@ -1,7 +1,7 @@
 {
   "index_name": "pomerium",
   "start_urls": [
-    "https://www.pomerium.io/docs/"
+    "https://www.pomerium.io/"
   ],
   "stop_urls": [],
   "selectors": {
