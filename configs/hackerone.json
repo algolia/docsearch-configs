@@ -33,5 +33,6 @@
   "conversation_id": [
     "535135855"
   ],
-  "nb_hits": 2588
+  "nb_hits": 2588,
+  "use_anchors": false
 }
