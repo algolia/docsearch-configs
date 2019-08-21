@@ -5,43 +5,37 @@
       "url": "https://www.kirupa.com/learn/",
       "tags": [
         "learn"
-      ],
-      "selectors_key": "developer"
+      ]
     },
     {
       "url": "https://www.kirupa.com/react/",
       "tags": [
         "react"
-      ],
-      "selectors_key": "developer"
+      ]
     },
     {
       "url": "https://www.kirupa.com/html5/",
       "tags": [
         "web"
-      ],
-      "selectors_key": "developer"
+      ]
     },
     {
       "url": "https://www.kirupa.com/canvas/",
       "tags": [
         "canvas"
-      ],
-      "selectors_key": "developer"
+      ]
     },
     {
       "url": "https://www.kirupa.com/data_structures_algorithms/",
       "tags": [
         "algorithms"
-      ],
-      "selectors_key": "developer"
+      ]
     },
     {
       "url": "https://www.kirupa.com/javascript/",
       "tags": [
         "javascript"
-      ],
-      "selectors_key": "developer"
+      ]
     },
     {
       "url": "https://www.kirupa.com/developer/",
@@ -72,7 +66,8 @@
     "/me/",
     "/css/",
     "/sotw/",
-    "/interviews/"
+    "/interviews/",
+    "/blend"
   ],
   "selectors": {
     "default": {
@@ -105,5 +100,5 @@
   "conversation_id": [
     "922334053"
   ],
-  "nb_hits": 37757
+  "nb_hits": 28252
 }
