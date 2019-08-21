@@ -28,8 +28,11 @@
       "lang"
     ]
   },
+  "selectors_exclude": [
+    ".toctree-l1"
+  ],
   "conversation_id": [
     "929992315"
   ],
-  "nb_hits": 3462
+  "nb_hits": 3268
 }
