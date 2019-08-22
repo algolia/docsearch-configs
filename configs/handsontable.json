@@ -1,17 +1,37 @@
 {
   "index_name": "handsontable",
   "start_urls": [
-    {
-      "url": "https://handsontable.com/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "7.1.1",
-          "6.0.0"
-        ]
-      }
-    }
+    "https://handsontable.com/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/docs/1.14.0",
+    "/docs/1.14.1",
+    "/docs/1.14.2",
+    "/docs/1.14.3",
+    "/docs/1.15.0",
+    "/docs/1.15.1",
+    "/docs/1.16.0",
+    "/docs/1.17.0",
+    "/docs/1.18.0",
+    "/docs/1.18.1",
+    "/docs/2.0.0",
+    "/docs/3.0.0",
+    "/docs/4.0.0",
+    "/docs/5.0.0",
+    "/docs/5.0.1",
+    "/docs/5.0.2",
+    "/docs/6.0.0",
+    "/docs/6.0.1",
+    "/docs/6.1.0",
+    "/docs/6.1.1",
+    "/docs/6.2.0",
+    "/docs/6.2.1",
+    "/docs/6.2.2",
+    "/docs/7.0.0",
+    "/docs/7.0.1",
+    "/docs/7.0.2",
+    "/docs/7.0.3"
+  ],
   "sitemap_urls": [
     "https://handsontable.com/sitemap.xml"
   ],
@@ -28,7 +48,10 @@
     "text": "article p, article li, article td:last-child"
   },
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "version"
+    ]
   },
   "selectors_exclude": [
     ".edit-doc",
