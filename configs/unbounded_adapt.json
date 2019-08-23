@@ -1,10 +1,10 @@
 {
-  "index_name": "sider",
+  "index_name": "unbounded_adapt",
   "start_urls": [
-    "https://help.sider.review/"
+    "https://adapt.unbounded.systems/docs/"
   ],
   "sitemap_urls": [
-    "https://help.sider.review/sitemap.xml"
+    "https://adapt.unbounded.systems/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -32,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "916393994"
+    "931542525"
   ],
-  "nb_hits": 1056
+  "nb_hits": 10443
 }

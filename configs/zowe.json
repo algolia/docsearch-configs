@@ -5,6 +5,7 @@
       "url": "https://zowe.org/docs-site/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "active-development",
           "latest",
           "v1-3-x",
           "v1-2-x",

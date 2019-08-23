@@ -1,10 +1,10 @@
 {
-  "index_name": "sider",
+  "index_name": "spacehal",
   "start_urls": [
-    "https://help.sider.review/"
+    "https://spacehal.github.io/docs/"
   ],
   "sitemap_urls": [
-    "https://help.sider.review/sitemap.xml"
+    "https://spacehal.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -32,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "916393994"
+    "918649266"
   ],
-  "nb_hits": 1056
+  "nb_hits": 324
 }

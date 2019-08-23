@@ -1,10 +1,10 @@
 {
-  "index_name": "bllFlow",
+  "index_name": "bllflow",
   "start_urls": [
-    "https://big-life-lab.github.io/bllFlow/"
+    "https://bllflow.projectbiglife.ca/"
   ],
   "sitemap_urls": [
-    "https://big-life-lab.github.io/bllFlow/sitemap.xml"
+    "https://bllflow.projectbiglife.ca/sitemap.xml"
   ],
   "stop_urls": [
     "LICENSE-text.html",
@@ -32,5 +32,5 @@
     "727592385"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 235
+  "nb_hits": 458
 }

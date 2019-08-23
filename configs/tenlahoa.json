@@ -1,7 +1,7 @@
 {
-  "index_name": "webpack_workshop",
+  "index_name": "tenlahoa",
   "start_urls": [
-    "https://webpack-workshop.netlify.com"
+    "https://tenlahoa.com"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,18 +18,15 @@
       "global": true
     }
   },
-  "selectors_exclude": [
-    ".table-of-contents"
-  ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
-  "scrap_start_urls": false,
-  "strip_chars": " .,;:#",
   "conversation_id": [
-    "760483792"
+    "914322202"
   ],
-  "nb_hits": 319
+  "scrap_start_urls": false,
+  "nb_hits": 42
 }

@@ -1,10 +1,11 @@
 {
-  "index_name": "sider",
+  "index_name": "stagingost",
   "start_urls": [
-    "https://help.sider.review/"
+    "https://dev.stagingost.com/platform/docs/",
+    "https://dev.stagingost.com/platform/docs/getting-started/"
   ],
   "sitemap_urls": [
-    "https://help.sider.review/sitemap.xml"
+    "https://dev.stagingost.com/platform/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -32,7 +33,7 @@
     ]
   },
   "conversation_id": [
-    "916393994"
+    "929416481"
   ],
-  "nb_hits": 1056
+  "nb_hits": 1483
 }

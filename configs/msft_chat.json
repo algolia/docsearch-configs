@@ -1,7 +1,7 @@
 {
-  "index_name": "webpack_workshop",
+  "index_name": "msft_chat",
   "start_urls": [
-    "https://webpack-workshop.netlify.com"
+    "https://msft.chat"
   ],
   "stop_urls": [],
   "selectors": {
@@ -29,7 +29,7 @@
   "scrap_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
-    "760483792"
+    "919622171"
   ],
-  "nb_hits": 319
+  "nb_hits": 126
 }
