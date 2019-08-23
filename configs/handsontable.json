@@ -1,15 +1,7 @@
 {
   "index_name": "handsontable",
   "start_urls": [
-    {
-      "url": "https://handsontable.com/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "7.1.1",
-          "6.0.0"
-        ]
-      }
-    }
+     "https://handsontable.com/docs/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -28,7 +20,12 @@
     "text": "article p, article li, article td:last-child"
   },
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
   },
   "selectors_exclude": [
     ".edit-doc",
