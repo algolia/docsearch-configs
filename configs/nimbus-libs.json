@@ -1,0 +1,21 @@
+{
+  "index_name": "nimbus-libs",
+  "start_urls": [
+    "https://nimbus-libs.status.im/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content article p, .content article li"
+  },
+  "selectors_exclude":["[aria-hidden]"],
+  "conversation_id": [
+    "932974056"
+  ],
+  "nb_hits": 1024
+}

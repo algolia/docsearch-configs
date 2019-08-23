@@ -15,6 +15,9 @@
     },
     "https://zenaton.com/documentation"
   ],
+  "sitemap_urls": [
+    "https://zenaton.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".mb-32 > .w-full h1",
@@ -28,5 +31,5 @@
   "conversation_id": [
     "879341107"
   ],
-  "nb_hits": 1958
+  "nb_hits": 2975
 }

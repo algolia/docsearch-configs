@@ -1,7 +1,7 @@
 {
-  "index_name": "webpack_workshop",
+  "index_name": "ifs-rsvp-bot",
   "start_urls": [
-    "https://webpack-workshop.netlify.com"
+    "https://ifs-rsvp-bot.joincygress.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -10,26 +10,24 @@
     "lvl2": "[class*='content '] h3",
     "lvl3": "[class*='content '] h4",
     "lvl4": "[class*='content '] h5",
-    "lvl5": "[class*='content '] h5",
+    "lvl5": "[class*='content '] h6",
     "text": "[class*='content '] p, [class*='content '] li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
-      "global": true
+      "global": true,
+      "default_value": "en-US"
     }
   },
-  "selectors_exclude": [
-    ".table-of-contents"
-  ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
-  "scrap_start_urls": false,
-  "strip_chars": " .,;:#",
   "conversation_id": [
-    "760483792"
+    "923604725"
   ],
-  "nb_hits": 319
+  "scrap_start_urls": false,
+  "nb_hits": 434
 }

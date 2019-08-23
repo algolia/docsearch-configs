@@ -1,10 +1,10 @@
 {
-  "index_name": "uniforms",
+  "index_name": "rav1e",
   "start_urls": [
-    "http://uniforms.tools/docs/"
+    "https://mindfreeze.videolan.me/rav1e/docs/"
   ],
   "sitemap_urls": [
-    "http://uniforms.tools/sitemap.xml"
+    "https://mindfreeze.videolan.me/rav1e/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -15,7 +15,7 @@
     "lvl3": "main h4",
     "lvl4": "main h5",
     "lvl5": "main h6",
-    "text": "main p, main li, main table td, main table th"
+    "text": "main p, main li"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -27,7 +27,7 @@
     ]
   },
   "conversation_id": [
-    "909555426"
+    "920989608"
   ],
-  "nb_hits": 628
+  "nb_hits": 116
 }

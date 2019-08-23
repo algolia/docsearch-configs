@@ -1,0 +1,41 @@
+{
+  "index_name": "handsontable",
+  "start_urls": [
+    {
+      "url": "https://handsontable.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "7.1.1",
+          "6.0.0"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://handsontable.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".page-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h3",
+    "lvl2": "article h4",
+    "lvl3": "article h5",
+    "lvl4": "article h6",
+    "text": "article p, article li, article td:last-child"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    ".edit-doc",
+    ".index-list"
+  ],
+  "conversation_id": [
+    "924594540"
+  ],
+  "nb_hits": 13328
+}
