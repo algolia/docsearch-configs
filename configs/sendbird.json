@@ -13,6 +13,14 @@
           "platform"
         ]
       }
+    },
+    {
+      "url": "https://docs.sendbird.com/platform/data_privacy",
+      "extra_attributes": {
+        "platform": [
+          "platform"
+        ]
+      }
     }
   ],
   "sitemap_urls": [
@@ -47,5 +55,5 @@
   "only_content_level": true,
   "scrap_start_urls": false,
   "js_render": true,
-  "nb_hits": 8730
+  "nb_hits": 11901
 }
