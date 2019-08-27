@@ -5,17 +5,19 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "lvl5": ".content h6",
-    "text": ".content article p, .content article li"
+    "lvl0": ".content__default h1",
+    "lvl1": ".content__default h2",
+    "lvl2": ".content__default h3",
+    "lvl3": ".content__default h4",
+    "lvl4": ".content__default h5",
+    "lvl5": ".content__default h6",
+    "text": ".content__default p, .content__default li"
   },
-  "selectors_exclude":["[aria-hidden]"],
+  "selectors_exclude": [
+    "[aria-hidden]"
+  ],
   "conversation_id": [
     "932974056"
   ],
-  "nb_hits": 1024
+  "nb_hits": 2348
 }
