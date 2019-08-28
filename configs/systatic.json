@@ -1,0 +1,20 @@
+{
+  "index_name": "systatic",
+  "start_urls": [
+    "https://systatic.co/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article #page-title",
+    "lvl1": "article h2:not(#page-title)",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "933964451"
+  ],
+  "nb_hits": 225
+}
