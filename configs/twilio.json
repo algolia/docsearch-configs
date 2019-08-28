@@ -1,6 +1,10 @@
 {
   "index_name": "twilio",
   "start_urls": [
+    {
+     "url": "https://www.twilio.com/docs/studio",
+     "tags": ["studio"]
+   },
     "https://www.twilio.com/docs"
   ],
   "sitemap_urls": [
