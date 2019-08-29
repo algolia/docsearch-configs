@@ -13,7 +13,7 @@
     "lvl5": "article h6",
     "text": "article p, article li",
     "lang": {
-      "selector": "/html/@lang",
+      "selector": "/html/@class",
       "type": "xpath",
       "global": true
     }
