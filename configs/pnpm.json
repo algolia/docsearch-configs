@@ -1,7 +1,7 @@
 {
   "index_name": "pnpm",
   "start_urls": [
-    "https://pnpm.js.org/docs/"
+    "https://pnpm.js.org/"
   ],
   "sitemap_urls": [
     "https://pnpm.js.org/sitemap.xml"
