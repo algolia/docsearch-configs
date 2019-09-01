@@ -1,0 +1,21 @@
+{
+  "index_name": "availity",
+  "start_urls": [
+    "https://availity.github.io/",
+    "https://availity.github.io/availity-workflow/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".h-100.w-100 h1",
+    "lvl1": ".h-100.w-100 h2",
+    "lvl2": ".h-100.w-100 h3",
+    "lvl3": ".h-100.w-100 h4",
+    "lvl4": ".h-100.w-100 h5",
+    "lvl5": ".h-100.w-100 h6",
+    "text": ".h-100.w-100 p, .h-100.w-100 li"
+  },
+  "conversation_id": [
+    "936988941"
+  ],
+  "nb_hits": 274
+}
