@@ -22,6 +22,8 @@
     }
   },
   "selectors_exclude": [
+    "span.param",
+    "span.badge"
   ],
   "custom_settings": {
     "attributesForFaceting": [
