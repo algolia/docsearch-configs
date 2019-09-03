@@ -1,8 +1,12 @@
 {
   "index_name": "ng-alain",
   "start_urls": [
-    "https://ng-alain.com/docs/",
-    "https://ng-alain.com/docs/getting-started/en"
+    {
+      "url": "https://ng-alain.com/docs/",
+      "tags": [
+        "en"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -16,13 +20,15 @@
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
-      "global": true
+      "global": true,
+      "default_value": "en"
     }
   },
   "js_render": true,
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "tags"
     ]
   },
   "strip_chars": " .,;:#",
