@@ -4,7 +4,9 @@
     "https://docs.chainstack.com",
     "https://docs.chainstack.com/guides/getting-started#chainstack-documentation"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://docs.chainstack.com/404"
+  ],
   "sitemap_urls": [
     "https://docs.chainstack.com/sitemap.xml"
   ],
@@ -37,5 +39,5 @@
     "866274868"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 1437
+  "nb_hits": 1425
 }
