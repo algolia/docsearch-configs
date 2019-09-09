@@ -4,7 +4,9 @@
     "https://infographopedia.adioma.com/"
   ],
   "stop_urls": [
-    "/example/"
+    "/example/",
+    "/function/",
+    "/chart-definitions"
   ],
   "sitemap_urls": [
     "https://infographopedia.adioma.com/sitemap.xml"
