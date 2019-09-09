@@ -1,19 +1,19 @@
 {
   "index_name": "handsontable",
   "start_urls": [
-    {
-      "url": "https://handsontable.com/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "7.1.1",
-          "6.0.0"
-        ]
-      }
-    }
+    "https://handsontable.com/docs/",
+    "https://handsontable.com/docs/7.1.0/tutorial-introduction.html"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\.com/docs/6",
+    "\\.com/docs/5",
+    "\\.com/docs/4",
+    "\\.com/docs/3",
+    "\\.com/docs/4",
+    "\\.com/docs/1"
+  ],
   "sitemap_urls": [
-    "https://handsontable.com/sitemap.xml"
+    "https://handsontable.com/docs/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -28,7 +28,12 @@
     "text": "article p, article li, article td:last-child"
   },
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
   },
   "selectors_exclude": [
     ".edit-doc",
@@ -37,5 +42,5 @@
   "conversation_id": [
     "924594540"
   ],
-  "nb_hits": 13328
+  "nb_hits": 18373
 }

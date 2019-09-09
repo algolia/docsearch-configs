@@ -1,0 +1,23 @@
+{
+  "index_name": "graphcms",
+  "start_urls": [
+    "https://graphcms.com/docs"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://graphcms.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "[class*='docs-layout__DocsBody'] h1",
+    "lvl1": ".doc-block h2",
+    "lvl2": ".doc-block h3",
+    "lvl3": ".doc-block h4",
+    "lvl4": ".doc-block h5",
+    "lvl5": ".doc-block h6",
+    "text": ".doc-block p, .doc-block li"
+  },
+  "conversation_id": [
+    "939402783"
+  ],
+  "nb_hits": 3365
+}
