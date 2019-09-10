@@ -106,10 +106,11 @@
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl2": "article h2",
-      "lvl3": "article h3",
-      "lvl4": "article h4",
-      "lvl5": "article h5",
+      "lvl2": ".jumbotron p.lead-summary",
+      "lvl3": "article h2",
+      "lvl4": "article h3",
+      "lvl5": "article h4",
+      "lvl6": "article h5",
       "text": "article p, article li"
     },
     "tutorials": {
