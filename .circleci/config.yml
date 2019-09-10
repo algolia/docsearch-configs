@@ -6,7 +6,7 @@ jobs:
     steps:
       - run: sudo apt-get update
       - run: sudo apt-get install jq
-      - run: .cicircleci/json_check.sh
+      - run: /.cicircleci/json_check.sh
 workflows:
   version: 2
   one_and_two:
