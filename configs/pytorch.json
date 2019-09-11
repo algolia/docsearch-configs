@@ -107,9 +107,6 @@
         "default_value": "Documentation"
       },
       "lvl2": "article h2",
-      "lvl3": "article h3",
-      "lvl4": "article h4",
-      "lvl5": "article h5",
       "text": "article p, article li"
     },
     "tutorials": {
@@ -154,5 +151,5 @@
   "conversation_id": [
     "672318908"
   ],
-  "nb_hits": 19333
+  "nb_hits": 19375
 }
