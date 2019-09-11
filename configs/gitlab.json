@@ -30,6 +30,16 @@
       "extra_attributes": {
         "product": "GitLab Runner"
       }
+    },
+    {
+      "url": "https://docs.gitlab.com/charts/",
+      "selectors_key": "charts",
+      "tags": [
+        "charts"
+      ],
+      "extra_attributes": {
+        "product": "GitLab Helm Charts"
+      }
     }
   ],
   "stop_urls": [
