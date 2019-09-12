@@ -66,6 +66,7 @@
   ],
   "only_content_level": true,
   "custom_settings": {
+    "attributesForFaceting": ["version:master"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
