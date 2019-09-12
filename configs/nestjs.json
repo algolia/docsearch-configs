@@ -20,5 +20,6 @@
     "text": ".content p, .content li"
   },
   "js_render": true,
-  "nb_hits": 1457
+  "strip_chars": " .,;:#",
+  "nb_hits": 1675
 }

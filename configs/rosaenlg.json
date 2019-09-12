@@ -1,7 +1,7 @@
 {
   "index_name": "rosaenlg",
   "start_urls": [
-    "https://rosaenlg.org/rosaenlg/0.18.10/"
+    "https://rosaenlg.org/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -15,6 +15,9 @@
     "lvl4": "article h5",
     "lvl5": "article h6",
     "text": "article p, article li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["version"]
   },
   "conversation_id": [
     "948916559"
