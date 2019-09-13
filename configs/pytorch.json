@@ -153,8 +153,11 @@
     "[class*=download-link-note]",
     ".detail-arrow"
   ],
+  "custom_settings": {
+    "attributeForDistinct": "url_without_anchor"
+  },
   "conversation_id": [
     "672318908"
   ],
-  "nb_hits": 19465
+  "nb_hits": 19455
 }
