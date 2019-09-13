@@ -66,7 +66,9 @@
   ],
   "only_content_level": true,
   "custom_settings": {
-    "attributesForFaceting": ["version:master"],
+    "attributesForFaceting": [
+      "version:master"
+    ],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -82,5 +84,5 @@
   "conversation_id": [
     "434475832"
   ],
-  "nb_hits": 42792
+  "nb_hits": 43097
 }
