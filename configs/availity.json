@@ -24,13 +24,17 @@
   ],
   "stop_urls": ["/examples/"],
   "selectors": {
-    "lvl0": ".header-wrapper h1",
-    "lvl1": ".content-wrapper h2",
-    "lvl2": ".content-wrapper h3",
-    "lvl3": ".content-wrapper h4",
-    "lvl4": ".content-wrapper h5",
-    "lvl5": ".content-wrapper h6",
-    "text": ".h-100.w-100 p, .h-100.w-100 li"
+    "lvl0": {
+      "selector": "ul.navbar-nav span p.text-primary",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".header-wrapper h1",
+    "lvl2": ".content-wrapper h2",
+    "lvl3": ".content-wrapper h3",
+    "lvl4": ".content-wrapper h4",
+    "lvl5": ".content-wrapper h5",
+    "text": ".content-wrapper p, .content-wrapper li, .content-wrapper tbody, .header-wrapper h3"
+
   },
   "conversation_id": [
     "936988941"
