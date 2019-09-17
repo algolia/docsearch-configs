@@ -27,7 +27,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "ul.navbar-nav span p.text-primary",
+      "selector": "ul.navbar-nav:first-child:first-child :first-child :first-child",
       "default_value": "Documentation"
     },
     "lvl1": ".header-wrapper h1",
