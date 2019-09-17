@@ -7,6 +7,7 @@
     "https://cloudinary.com/sitemap.xml"
   ],
   "stop_urls": [
+    "https://cloudinary.com/documentation/upload_widget_1",
     "\\?",
     "\\.txt$"
   ],
@@ -36,5 +37,5 @@
     "separatorsToIndex": "_"
   },
   "js_render": true,
-  "nb_hits": 14445
+  "nb_hits": 14216
 }

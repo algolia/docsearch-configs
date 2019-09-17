@@ -1,19 +1,23 @@
 {
-  "index_name": "advancedcustomfields",
+  "index_name": "titleleaf",
   "start_urls": [
-    "https://www.advancedcustomfields.com/resources/"
+    "https://titleleaf.com"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://titleleaf.com/sitemap.xml"
+  ],
   "selectors": {
-    "lvl0": "#sub-header h1",
+    "lvl0": "#content h1",
     "lvl1": "#content h2",
     "lvl2": "#content h3",
     "lvl3": "#content h4",
     "lvl4": "#content h5",
+    "lvl5": "#content h6",
     "text": "#content p, #content li"
   },
   "conversation_id": [
-    "639204566"
+    "933598193"
   ],
-  "nb_hits": 3291
+  "nb_hits": 2094
 }

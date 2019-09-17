@@ -1,15 +1,15 @@
 {
   "index_name": "bitsrc",
   "start_urls": [
-    "https://docs.bitsrc.io/"
+    "https://docs.bit.dev/"
   ],
   "stop_urls": [
     "/docs/docs/",
-    "docs/bitsrc.io",
+    "docs/bit.dev",
     ".com",
-    ".io/bitsrc.io",
-    ".io/docs.bitsrc.io/",
-    ".io/tutorial/bitsrc.io",
+    ".dev/bit.dev",
+    ".dev/docs.bit.dev/",
+    ".dev/tutorial/bit.dev",
     "/logs$"
   ],
   "selectors": {
@@ -29,5 +29,5 @@
   "conversation_id": [
     "512059914"
   ],
-  "nb_hits": 1233
+  "nb_hits": 3385
 }
