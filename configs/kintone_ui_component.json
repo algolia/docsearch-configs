@@ -1,10 +1,10 @@
 {
   "index_name": "kintone_ui_component",
   "start_urls": [
-    "https://phongnhat19.github.io/kuc-doc/docs/"
+    "https://phongnhat19.github.io/kintone-ui-component/docs/"
   ],
   "sitemap_urls": [
-    "https://phongnhat19.github.io/kuc-doc/sitemap.xml"
+    "https://phongnhat19.github.io/kintone-ui-component/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
