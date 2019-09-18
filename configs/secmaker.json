@@ -7,7 +7,8 @@
         "component": [
           "general"
         ]
-      }
+			},
+      "selectors_key": "headings-only"
     },
     {
       "url": "https://docs.secmaker.com/net-id-access/latest/",
@@ -115,5 +116,8 @@
       "asc(weight.position)"
     ]
   },
+  "conversation_id": [
+		"952015104"
+  ],
   "nb_hits": 15856
 }
