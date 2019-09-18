@@ -12,10 +12,5 @@ set -o pipefail
 FILES=./configs/*
 for f in $FILES
 do
-  echo $f
-
-  if [ ! jq -e -f $f ] then
-    echo 'Failed to parse configuration $f, or got false/null'
-    exit 1
-  fi
+  jq -e '.nb_hits' 1>/dev/null < "$f" || { echo "Issue with ${f} is not well formated and/or missing nb_hits key"; exit 1;}
 done
