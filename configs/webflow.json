@@ -13,7 +13,7 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "attributes", 
+      "attributes",
       "links",
       "carrd",
       "hide-carrd",
@@ -23,5 +23,5 @@
   "conversation_id": [
     "907701323"
   ],
-  "nb_hits": 424
+  "nb_hits": 160
 }
