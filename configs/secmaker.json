@@ -1,0 +1,123 @@
+{
+  "index_name": "secmaker",
+  "start_urls": [
+    {
+      "url": "https://docs.secmaker.com/general/",
+      "extra_attributes": {
+        "component": [
+          "general"
+        ]
+			},
+      "selectors_key": "headings-only"
+    },
+    {
+      "url": "https://docs.secmaker.com/net-id-access/latest/",
+      "extra_attributes": {
+        "component": [
+          "net-id-access"
+        ],
+        "version": [
+          "latest"
+        ]
+      }
+    },
+    {
+      "url": "https://docs.secmaker.com/net-id-access/2.1/",
+      "extra_attributes": {
+        "component": [
+          "net-id-access"
+        ],
+        "version": [
+          "2.1"
+        ]
+      }
+    },
+    {
+      "url": "https://docs.secmaker.com/net-id-enterprise/6.6/",
+      "extra_attributes": {
+        "component": [
+          "net-id-enterprise"
+        ],
+        "version": [
+          "6.6"
+        ]
+      }
+    },
+    {
+      "url": "https://docs.secmaker.com/net-id-portal/5.6/",
+      "extra_attributes": {
+        "component": [
+          "net-id-portal"
+        ],
+        "version": [
+          "5.6"
+        ]
+      }
+    },
+    {
+      "url": "https://docs.secmaker.com/net-id-portal-front/1.0/",
+      "extra_attributes": {
+        "component": [
+          "net-id-portal"
+        ],
+        "version": [
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.secmaker.com/sitemap.xml"
+  ],
+  "scrape_start_urls": false,
+	"stop_urls":["/_"],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "global": true,
+        "selector": ".navbar .component"
+      },
+      "lvl1": ".doc h1",
+      "lvl2": ".doc h2",
+      "lvl3": ".doc h3",
+      "lvl4": ".doc h4",
+      "text": ".doc p, .doc td.content, .doc th.tableblock"
+    },
+    "headings-only": {
+      "lvl0": {
+        "global": true,
+        "selector": ".navbar .component"
+      },
+      "lvl1": ".doc h1",
+      "lvl2": ".doc h2",
+      "lvl3": ".doc h3",
+      "lvl4": ".doc h4",
+      "text": ".doc p, .doc td.content, .doc th.tableblock"
+    }
+  },
+  "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "component",
+      "version"
+    ],
+    "attributesToRetrieve": [
+      "anchor",
+      "content",
+      "hierarchy",
+      "url",
+      "component",
+      "version"
+    ],
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "desc(version)",
+      "desc(weight.level)",
+      "asc(weight.position)"
+    ]
+  },
+  "conversation_id": [
+		"952015104"
+  ],
+  "nb_hits": 15856
+}

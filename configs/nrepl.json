@@ -16,7 +16,7 @@
     "lvl5": "article h6",
     "text": "article p, article li",
     "version": {
-      "selector": ".versions-menu-toggle",
+      "selector": ".version-menu .version.is-current",
       "global": true
     }
   },

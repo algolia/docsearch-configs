@@ -106,10 +106,7 @@
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl2": "article h2",
-      "lvl3": "article h3",
-      "lvl4": "article h4",
-      "lvl5": "article h5",
+      "lvl2": ".jumbotron p.lead-summary",
       "text": "article p, article li"
     },
     "tutorials": {
@@ -149,10 +146,11 @@
     "#markdown-toc",
     "h1 br",
     ".section [class^=toctree]",
-    "[class*=download-link-note]"
+    "[class*=download-link-note]",
+    ".detail-arrow"
   ],
   "conversation_id": [
     "672318908"
   ],
-  "nb_hits": 19333
+  "nb_hits": 19465
 }
