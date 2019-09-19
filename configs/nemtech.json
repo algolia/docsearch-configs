@@ -6,17 +6,12 @@
       "tags": [
         "en"
       ]
-    },
-    {
-      "url": "https://nemtech.github.io/ja",
-      "tags": [
-        "ja"
-      ]
     }
   ],
   "stop_urls": [
     "/nem2-",
-    "/_"
+    "/_",
+    "/ja"
   ],
   "selectors": {
     "default": {
