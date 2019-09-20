@@ -4,7 +4,8 @@
     "https://docs.projectcalico.org/"
   ],
   "sitemap_urls": [
-    "https://docs.projectcalico.org/sitemap.xml"
+    "https://docs.projectcalico.org/sitemap.xml",
+    "https://docs.projectcalico.org/sitemap-older.xml"
   ],
   "stop_urls": [],
   "selectors": {
