@@ -42,6 +42,12 @@
       "tags": [
         "account-management"
       ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/commerce/docs/",
+      "tags": [
+        "commerce"
+      ]
     }
   ],
   "sitemap_urls": [
@@ -51,7 +57,8 @@
     "https://documentation.elasticpath.com/cloudops-azure/sitemap.xml",
     "https://documentation.elasticpath.com/chatbot/sitemap.xml",
     "https://documentation.elasticpath.com/alexa-skill/sitemap.xml",
-    "https://documentation.elasticpath.com/account-management/sitemap.xml"
+    "https://documentation.elasticpath.com/account-management/sitemap.xml",
+    "https://documentation.elasticpath.com/commerce/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -82,5 +89,5 @@
   "conversation_id": [
     "924021424"
   ],
-  "nb_hits": 12368
+  "nb_hits": 28638
 }
