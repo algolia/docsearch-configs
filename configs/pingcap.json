@@ -4,6 +4,11 @@
     {
       "url": "https://pingcap.com/docs-cn/v3.0/",
       "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "v3.0"
+        ]
+      },
       "tags": [
         "cn"
       ],
@@ -12,6 +17,11 @@
     {
       "url": "https://pingcap.com/docs-cn/v2.1/",
       "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "v2.1"
+        ]
+      },
       "tags": [
         "cn"
       ],
@@ -20,6 +30,11 @@
     {
       "url": "https://pingcap.com/docs-cn/dev/",
       "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "dev"
+        ]
+      },
       "tags": [
         "cn"
       ],
@@ -28,6 +43,11 @@
     {
       "url": "https://pingcap.com/docs/v3.0/",
       "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "v3.0"
+        ]
+      },
       "tags": [
         "en"
       ],
@@ -36,6 +56,11 @@
     {
       "url": "https://pingcap.com/docs/v2.1/",
       "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "v2.1"
+        ]
+      },
       "tags": [
         "en"
       ],
@@ -44,6 +69,11 @@
     {
       "url": "https://pingcap.com/docs/dev/",
       "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "dev"
+        ]
+      },
       "tags": [
         "en"
       ],
