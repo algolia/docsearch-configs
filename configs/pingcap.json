@@ -128,8 +128,14 @@
   "selectors_exclude": [
     ".error"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "428916846"
   ],
-  "nb_hits": 167488
+  "nb_hits": 168847
 }
