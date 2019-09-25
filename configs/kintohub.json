@@ -1,7 +1,7 @@
 {
   "index_name": "kintohub",
   "start_urls": [
-    "https://docs.kintohub.com/docs/introduction/getting-started"
+    "https://docs.kintohub.com/docs/"
   ],
   "sitemap_urls": ["https://docs.kintohub.com/sitemap.xml"],
   "stop_urls": [],
