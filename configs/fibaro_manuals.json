@@ -4,8 +4,7 @@
     "http://manuals.fibaro.com/"
   ],
   "stop_urls": [
-    "\\?kb_tag",
-    "\\?kb_cat"
+    "\\?"
   ],
   "sitemap_urls": [
     "https://manuals.fibaro.com/sitemap.xml"
@@ -20,10 +19,12 @@
     "text": ".main p, .main li"
   },
   "custom_settings": {
-    "attributesForFaceting": ["language"]
+    "attributesForFaceting": [
+      "language"
+    ]
   },
   "conversation_id": [
     "922423998"
   ],
-  "nb_hits": 29595
+  "nb_hits": 34937
 }
