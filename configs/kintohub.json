@@ -3,7 +3,7 @@
   "start_urls": [
     "https://docs.kintohub.com/docs/introduction/getting-started"
   ],
-  "sitemap_urls": ["https://docs.kintohub.com/sitemap.xml"]
+  "sitemap_urls": ["https://docs.kintohub.com/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
