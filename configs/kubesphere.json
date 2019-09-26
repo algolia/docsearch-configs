@@ -1,20 +1,29 @@
 {
   "index_name": "kubesphere",
   "start_urls": [
-    "https://docs.kubesphere.io/express/zh-CN/basic/",
-    "https://docs.kubesphere.io/express/zh-CN/"
+    {
+      "url": "https://kubesphere.io/docs/(?P<version>.*?)/(?P<lang>.*?)/",
+      "variables": {
+        "lang": ["zh-CN", "en"],
+        "version": ["advanced-v2.0", "advanced-v1.0", "express"]
+      }
+    }
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://kubesphere.io/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".md-body h1",
     "lvl1": ".md-body h2",
     "lvl2": ".md-body h3",
     "lvl3": ".md-body h4",
     "lvl4": ".md-body h5",
+    "lvl5": ".md-body h6",
     "text": ".md-body p, .md-body li"
   },
   "conversation_id": [
     "633752622"
   ],
-  "nb_hits": 457
+  "nb_hits": 3656
 }

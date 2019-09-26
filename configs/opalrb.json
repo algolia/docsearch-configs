@@ -1,0 +1,21 @@
+{
+  "index_name": "opalrb",
+  "start_urls": [
+    "http://opalrb.com/docs/guides/master",
+    "http://opalrb.com/docs/api/master"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "nav + .container h1, #content h1",
+    "lvl1": "nav + .container h2, #content h2",
+    "lvl2": "nav + .container h3, #content h3",
+    "lvl3": "nav + .container h4, #content h4",
+    "lvl4": "nav + .container h5, #content h5",
+    "lvl5": "nav + .container h6, #content h6",
+    "text": "nav + .container p, nav + .container li, #content p, #content li"
+  },
+  "conversation_id": [
+    "945567620"
+  ],
+  "nb_hits": 14527
+}

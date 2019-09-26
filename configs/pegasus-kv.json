@@ -1,0 +1,25 @@
+{
+  "index_name": "pegasus-kv",
+  "start_urls": [
+    "https://pegasus-kv.github.io"
+  ],
+  "stop_urls": [
+    "/blogs"
+  ],
+  "sitemap_urls": [
+    "https://pegasus-kv.github.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".hero-body .title",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "926251898"
+  ],
+  "nb_hits": 3320
+}

@@ -1,0 +1,23 @@
+{
+  "index_name": "kencc",
+  "start_urls": [
+    "https://kencc.github.io/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://kencc.github.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".main-content-wrap h1",
+    "lvl1": ".main-content-wrap h2",
+    "lvl2": ".main-content-wrap h3",
+    "lvl3": ".main-content-wrap h4",
+    "lvl4": ".main-content-wrap h5",
+    "lvl5": ".main-content-wrap h6",
+    "text": ".main-content-wrap p, .main-content-wrap li"
+  },
+  "conversation_id": [
+    "942356806"
+  ],
+  "nb_hits": 640
+}
