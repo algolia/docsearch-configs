@@ -1,10 +1,10 @@
 {
   "index_name": "near",
   "start_urls": [
-    "https://docs-3bgv.onrender.com/"
+    "https://docs.nearprotocol.com/"
   ],
   "sitemap_urls": [
-    "https://docs-3bgv.onrender.com/sitemap.xml"
+    "https://docs.nearprotocol.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
