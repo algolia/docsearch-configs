@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  one:
+    docker:
+      - image: circleci/ruby:2.4.1
+    steps:
+      - checkout 
+      - run: sudo apt-get update
+      - run: sudo apt-get install jq
+      - run: ./.circleci/json_check.sh
+workflows:
+  version: 2
+  one_and_two:
+    jobs:
+      - one

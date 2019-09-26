@@ -2,18 +2,82 @@
   "index_name": "pingcap",
   "start_urls": [
     {
-      "url": "https://pingcap.com/docs-cn/",
+      "url": "https://pingcap.com/docs-cn/v3.0/",
       "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "v3.0"
+        ]
+      },
       "tags": [
         "cn"
-      ]
+      ],
+      "page_rank": 3
     },
     {
-      "url": "https://pingcap.com/docs/",
+      "url": "https://pingcap.com/docs-cn/v2.1/",
+      "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "v2.1"
+        ]
+      },
+      "tags": [
+        "cn"
+      ],
+      "page_rank": 2
+    },
+    {
+      "url": "https://pingcap.com/docs-cn/dev/",
+      "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "dev"
+        ]
+      },
+      "tags": [
+        "cn"
+      ],
+      "page_rank": 1
+    },
+    {
+      "url": "https://pingcap.com/docs/v3.0/",
       "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "v3.0"
+        ]
+      },
       "tags": [
         "en"
-      ]
+      ],
+      "page_rank": 3
+    },
+    {
+      "url": "https://pingcap.com/docs/v2.1/",
+      "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "v2.1"
+        ]
+      },
+      "tags": [
+        "en"
+      ],
+      "page_rank": 2
+    },
+    {
+      "url": "https://pingcap.com/docs/dev/",
+      "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "dev"
+        ]
+      },
+      "tags": [
+        "en"
+      ],
+      "page_rank": 1
     }
   ],
   "stop_urls": [
@@ -38,7 +102,7 @@
     },
     "docs_cn": {
       "lvl0": {
-        "selector": "",
+        "selector": "#dropdownMenuButton",
         "global": true,
         "default_value": "\u6587\u6863"
       },
@@ -50,7 +114,7 @@
     },
     "docs": {
       "lvl0": {
-        "selector": "",
+        "selector": "#dropdownMenuButton",
         "global": true,
         "default_value": "Documentation"
       },
@@ -64,8 +128,14 @@
   "selectors_exclude": [
     ".error"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "428916846"
   ],
-  "nb_hits": 140037
+  "nb_hits": 168809
 }

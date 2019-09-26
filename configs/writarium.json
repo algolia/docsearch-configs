@@ -1,0 +1,55 @@
+{
+  "index_name": "writarium",
+  "start_urls": [
+    {
+      "url": "https://writarium.github.io/commands/",
+      "selectors_key": "commands"
+    },
+    "https://writarium.github.io/"
+  ],
+  "stop_urls": [
+    "/zh/",
+    "/categories/"
+  ],
+  "sitemap_urls": [
+    "https://writarium.github.io/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "nav a.primary-color[href='javascript:void(0)']",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "lvl6": "article h6",
+      "text": "article p, article li"
+    },
+    "commands": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Commands"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "lvl6": "article h6",
+      "text": "article p, article li"
+    }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "953255802"
+  ],
+  "nb_hits": 4306
+}

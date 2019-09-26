@@ -32,6 +32,7 @@
     "text": ".post-content p, .post-content li"
   },
   "only_content_level": true,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "h2#whats-next",
     "h2#whats-next ~ ul",
@@ -47,5 +48,5 @@
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 81908
+  "nb_hits": 118762
 }
