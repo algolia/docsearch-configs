@@ -1,7 +1,18 @@
 {
   "index_name": "axelor",
   "start_urls": [
-    "http://docs.axelor.com/adk/5.0/"
+    {
+      "url": "http://docs.axelor.com/adk/",
+      "tags": [
+        "adk"
+      ]
+    },
+    {
+      "url": "http://docs.axelor.com/abs/",
+      "tags": [
+        "abs"
+      ]
+    }
   ],
   "sitemap_urls": [
     "http://docs.axelor.com/sitemap.xml"
@@ -22,8 +33,14 @@
     "lvl5": "article.doc h5",
     "text": "article.doc p, article.doc li"
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "598004250"
   ],
-  "nb_hits": 3193
+  "nb_hits": 21894
 }
