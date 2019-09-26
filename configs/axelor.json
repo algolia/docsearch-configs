@@ -2,13 +2,13 @@
   "index_name": "axelor",
   "start_urls": [
     {
-      "url": "http://docs.axelor.com/adk/",
+      "url": "https://docs.axelor.com/adk/",
       "tags": [
         "adk"
       ]
     },
     {
-      "url": "http://docs.axelor.com/abs/",
+      "url": "https://docs.axelor.com/abs/",
       "tags": [
         "abs"
       ]
