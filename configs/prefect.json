@@ -4,8 +4,7 @@
     "http://docs.prefect.io"
   ],
   "stop_urls": [
-    "/api\\/([0-9]+\\.[0-9]+\\.[0-9]+)\\/.*",
-    "/unreleased/"
+    "/api\\/([0-9]+\\.[0-9]+\\.[0-9]+)\\/.*"
   ],
   "selectors": {
     "lvl0": "[class*='content '] h1",
