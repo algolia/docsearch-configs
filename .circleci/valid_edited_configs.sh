@@ -12,8 +12,8 @@ set -o pipefail
 FILES=$(git diff master --name-only ./configs)
 for f in $FILES
 do
-  # Valid JSON and look for nb_hits
-  jq -e '.nb_hits' 1>/dev/null < "$f" || { echo "Issue with ${f} is not well formated and/or missing nb_hits key"; exit 1;}
-  # Valid config according to JSON schema
-  jq -e 'tojson | {config:.}' < "$f" | curl -X POST -d @- -H "Content-Type: application/json" https://docsearch-hub.herokuapp.com/api/docsearch/validator/
+    # Valid JSON and look for nb_hits
+    jq -e '.nb_hits' 1>/dev/null < "$f" || { echo "Issue with ${f} is not well formated and/or missing nb_hits key"; exit 1;}
+    # Valid config according to JSON schema
+    jq -e 'tojson | {config:.}' < "$f" | curl -X POST -s -d @- -H "Content-Type: application/json" https://docsearch-hub.herokuapp.com/api/docsearch/validator/ 2>&1 | jq -e '.[0].message' && { echo "Config ${f} is not compliant with JSON schema due to ^"; exit 1;}
 done
