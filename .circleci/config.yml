@@ -8,7 +8,6 @@ jobs:
       - run: git remote add original_repo git@github.com:algolia/docsearch-configs.git
       - run: git fetch original_repo
       - run: sudo apt-get update
-      - run: sudo apt-get update
       - run: sudo apt-get install jq
       - run: ./.circleci/valid_edited_configs.sh
 workflows:
