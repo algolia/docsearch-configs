@@ -1,5 +1,5 @@
 {
-  "index_name": "docsearch",
+  "not_good": "docsearch",
   "start_urls": [
     "https://community.algolia.com/docsearch/"
   ],
