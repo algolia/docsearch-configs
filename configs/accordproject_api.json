@@ -1,5 +1,5 @@
 {
-  "index_dsdsname": "accordproject_api",
+  "index_name": "accordproject_api",
   "start_urls": [
     "https://docs.accordproject.org/docs/"
   ],
