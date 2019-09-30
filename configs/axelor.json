@@ -18,7 +18,8 @@
     "http://docs.axelor.com/sitemap.xml"
   ],
   "stop_urls": [
-    "/javadoc/"
+    "/javadoc/",
+    "/latest/"
   ],
   "selectors": {
     "lvl0": {
