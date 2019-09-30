@@ -1,8 +1,8 @@
 {
   "index_name": "stancl-tenancy",
   "start_urls": [
-    "https://tenancy.samuelstancl.me/docs/",
-    "https://tenancy.samuelstancl.me/docs/v2/getting-started/"
+    "https://tenancy.samuelstancl.me/docs/v1/",
+    "https://tenancy.samuelstancl.me/docs/v2/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
