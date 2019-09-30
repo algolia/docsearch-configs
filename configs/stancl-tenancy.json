@@ -1,11 +1,12 @@
 {
   "index_name": "stancl-tenancy",
   "start_urls": [
-    "https://stancl-tenancy.netlify.com/docs/"
+    "https://tenancy.samuelstancl.me/docs/",
+    "https://tenancy.samuelstancl.me/docs/v2/getting-started/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://stancl-tenancy.netlify.com/sitemap.xml"
+    "https://tenancy.samuelstancl.me/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -22,8 +23,14 @@
     "lvl6": "div.w-full h6",
     "text": "div.w-full p, div.w-full li"
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "conversation_id": [
     "933880635"
   ],
-  "nb_hits": 270
+  "nb_hits": 257
 }
