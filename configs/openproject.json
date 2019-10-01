@@ -1,0 +1,53 @@
+{
+  "index_name": "openproject",
+  "start_urls": [
+    {
+      "url": "https://finnlabs.github.io/openproject-docs/api/",
+      "tags": [
+        "api"
+      ],
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://finnlabs.github.io/openproject-docs/",
+      "tags": [
+        "doc"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://finnlabs.github.io/openproject-docs/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": "[role='main'] h1",
+      "lvl1": "[role='main'] h2",
+      "lvl2": "[role='main'] h3",
+      "lvl3": "[role='main'] h4",
+      "lvl4": "[role='main'] h5",
+      "lvl5": "[role='main'] h6",
+      "text": "[role='main'] p, [role='main'] li"
+    },
+    "api": {
+      "lvl0": "#op-api-content header h1",
+      "lvl1": "#op-api-content .panel h1",
+      "lvl2": "#op-api-content .panel h2",
+      "lvl3": "#op-api-content .panel h3, #op-api-content td:first-child",
+      "lvl4": "#op-api-content .panel h4",
+      "lvl5": "#op-api-content .panel h5",
+      "lvl6": "#op-api-content .panel h6",
+      "text": "#op-api-content p, #op-api-content li, #op-api-content td:nth-child(2)"
+    }
+  },
+  "keep_tags": [
+    "code"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "969244119"
+  ],
+  "nb_hits": 4346
+}

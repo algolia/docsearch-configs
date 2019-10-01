@@ -3,7 +3,9 @@
   "start_urls": [
     "http://docs.prefect.io"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/api\\/([0-9]+\\.[0-9]+\\.[0-9]+)\\/.*"
+  ],
   "selectors": {
     "lvl0": "[class*='content '] h1",
     "lvl1": "[class*='content '] h2",
@@ -31,5 +33,5 @@
   "conversation_id": [
     "953631434"
   ],
-  "nb_hits": 25675
+  "nb_hits": 7135
 }
