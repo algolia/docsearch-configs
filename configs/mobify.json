@@ -6,7 +6,28 @@
   "sitemap_urls": [
     "https://docs.mobify.com/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/amp-sdk/0",
+    "/amp-sdk/1",
+    "/amp/0",
+    "/amp/1",
+    "/amp/dev/",
+    "/amp/v",
+    "/connection-center/0",
+    "/connection-center/1",
+    "/design/0",
+    "/design/1",
+    "/engagement-engine/0",
+    "/engagement-engine/1",
+    "/messaging/",
+    "/native-apps/0",
+    "/native-apps/1",
+    "/progressive-web/0",
+    "/progressive-web/1",
+    "/progressive-web/dev/",
+    "/progressive-web/v",
+    "/store-drivers/"
+  ],
   "selectors": {
     "lvl0": "header h1",
     "lvl1": "main h2",
@@ -19,5 +40,5 @@
   "conversation_id": [
     "964891109"
   ],
-  "nb_hits": 18508
+  "nb_hits": 12068
 }
