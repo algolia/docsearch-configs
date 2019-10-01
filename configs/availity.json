@@ -28,7 +28,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".site-link-title",
+      "selector": ".site-title-link",
       "default_value": "Documentation"
     },
     "lvl1": ".page-header-title h1",
