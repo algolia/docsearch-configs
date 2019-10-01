@@ -30,6 +30,12 @@
       "global": true
     }
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "conversation_id": [
     "963864193"
   ],
