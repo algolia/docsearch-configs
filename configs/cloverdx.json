@@ -22,7 +22,7 @@
     "lvl4": "#body-inner h3",
     "lvl5": "#body-inner h4, #body-inner td:first-child",
     "lvl6": "#body-inner h5",
-    "text": "#body-inner td, p, pre"
+    "text": "#body-inner td, #body-inner p, #body-inner pre"
   },
   "selectors_exclude": [
     ".toc",
@@ -37,5 +37,5 @@
   "conversation_id": [
     "798803918"
   ],
-  "nb_hits": 28145
+  "nb_hits": 37065
 }
