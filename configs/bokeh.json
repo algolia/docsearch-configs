@@ -1,0 +1,32 @@
+{
+  "index_name": "bokeh",
+  "start_urls": [
+    "https://docs.bokeh.org"
+  ],
+  "stop_urls": [
+    "/_",
+    "/docs/gallery/"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    },
+    "version": {
+      "selector": ".version-link:first-child a",
+      "global": true
+    }
+  },
+  "conversation_id": [
+    "963864193"
+  ],
+  "nb_hits": 24845
+}
