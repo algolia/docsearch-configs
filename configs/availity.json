@@ -23,7 +23,8 @@
     }
   ],
   "stop_urls": [
-    "/examples/"
+    "/examples/",
+    "/storybook/"
   ],
   "selectors": {
     "lvl0": {
