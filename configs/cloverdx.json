@@ -22,7 +22,7 @@
     "lvl4": "#body-inner h3",
     "lvl5": "#body-inner h4, #body-inner td:first-child",
     "lvl6": "#body-inner h5",
-    "text": "#body-inner p"
+    "text": "#body-inner td, p, pre"
   },
   "selectors_exclude": [
     ".toc",
