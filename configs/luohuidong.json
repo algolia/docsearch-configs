@@ -1,7 +1,7 @@
 {
   "index_name": "luohuidong",
   "start_urls": [
-    "https://luohuidong.github.io/notes/"
+    "https://notes.luohuidong.cn"
   ],
   "stop_urls": [],
   "selectors": {
