@@ -4,7 +4,7 @@
     {
       "url": "https://docs.bokeh.org/(?P<lang>.*?)/(?P<version>.*?)/user_guide/",
       "selectors_key": "user_guide",
-      "page_range": 3,
+      "page_rank": 3,
       "variables": {
         "lang": ["en"],
         "version": ["dev", "latest", "1.3.4", "1.2.0", "1.1.0", "1.0.4", "0.12.16", "0.12.15", "0.12.14", "0.11.0"]
