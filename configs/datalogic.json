@@ -1,10 +1,10 @@
 {
   "index_name": "datalogic",
   "start_urls": [
-    "https://www.datalogic.dev/"
+    "https://datalogic.github.io/"
   ],
   "sitemap_urls": [
-    "https://www.datalogic.dev/sitemap.xml"
+    "https://datalogic.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
