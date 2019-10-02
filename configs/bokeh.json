@@ -48,7 +48,7 @@
     },
     "user_guide": {
       "lvl0": {
-        "selector": "#junk",
+        "selector": "",
         "global": true,
         "default_value": "User Guide"
       },
