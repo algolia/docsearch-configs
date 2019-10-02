@@ -1,35 +1,88 @@
 {
   "index_name": "bokeh",
   "start_urls": [
-    "https://docs.bokeh.org"
+    {
+      "url": "https://docs.bokeh.org/(?P<lang>.*?)/(?P<version>.*?)/user_guide/",
+      "selectors_key": "user_guide",
+      "page_range": 3,
+      "variables": {
+        "lang": ["en"],
+        "version": ["dev", "latest", "1.3.4", "1.2.0", "1.1.0", "1.0.4", "0.12.16", "0.12.15", "0.12.14", "0.11.0"]
+      }
+    },
+    {
+      "url": "https://docs.bokeh.org/(?P<lang>.*?)/(?P<version>.*?)/reference/",
+      "selectors_key": "reference",
+      "page_range": 2,
+      "variables": {
+        "lang": ["en"],
+        "version": ["dev", "latest", "1.3.4", "1.2.0", "1.1.0", "1.0.4", "0.12.16", "0.12.15", "0.12.14", "0.11.0"]
+      }
+    },
+    {
+      "url": "https://docs.bokeh.org/(?P<lang>.*?)/(?P<version>.*?)/dev_guide/",
+      "selectors_key": "dev_guide",
+      "page_range": 1,
+      "variables": {
+        "lang": ["en"],
+        "version": ["dev", "latest", "1.3.4", "1.2.0", "1.1.0", "1.0.4", "0.12.16", "0.12.15", "0.12.14", "0.11.0"]
+      }
+    }
   ],
   "stop_urls": [
     "/_",
     "/docs/gallery/"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": ".current .toctree-l1:nth-child(2)",
-      "global": true,
-      "default_value": "Documentation"
+    "strip_chars": "¶",
+    "default": {
+      "lvl0": {
+        "selector": ".current .toctree-l1:nth-child(2)",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "title",
+      "lvl2": ".content h2, .class > dt .descname",
+      "lvl3": ".content h3, .method .descname",
+      "text": ".content p, .content li"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2, .class > dt .descname",
-    "lvl3": ".content h3, .method .descname",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "lvl6": ".content h6",
-    "text": ".content p, .content li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true
+    "user_guide": {
+      "lvl0": {
+        "selector": "#junk",
+        "global": true,
+        "default_value": "User Guide"
+      },
+      "lvl1": "h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl3": ".content h4",
+      "text": ".content p, .content li"
     },
-    "version": {
-      "selector": ".version-link:first-child a",
-      "global": true
+    "reference": {
+      "lvl0": {
+        "selector": "#junk",
+        "global": true,
+        "default_value": "Reference Guide"
+      },
+      "lvl1": "h1",
+      "lvl2": ".content h2, .class > dt .descname, .function > dt .descname, .data > dt .descname",
+      "lvl3": ".content h3, .method .descname",
+      "text": ".content p, .content li"
+    },
+    "dev_guide": {
+      "lvl0": {
+        "selector": "#junk",
+        "global": true,
+        "default_value": "Developer's Guide"
+      },
+      "lvl1": "h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl3": ".content h4",
+      "text": ".content p, .content li"
     }
   },
+  "selectors_exclude": [".toc", ".header", ".footer", ".second-nav"],
   "keep_tags": [
     "code"
   ],
@@ -38,6 +91,12 @@
     "attributesForFaceting": [
       "lang",
       "version"
+    ],
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ]
     ]
   },
   "conversation_id": [
