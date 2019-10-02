@@ -40,11 +40,19 @@
   "keep_tags": [
     "code"
   ],
+  "strip_chars": "¶",
+  "selectors_exclude": [".toc", ".header", ".footer", ".second-nav"],
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
       "lang",
       "version"
+    ],
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ]
     ]
   },
   "conversation_id": [
