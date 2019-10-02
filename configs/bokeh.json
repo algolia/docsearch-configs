@@ -1,7 +1,14 @@
 {
   "index_name": "bokeh",
   "start_urls": [
-    "https://docs.bokeh.org"
+    "https://docs.bokeh.org",
+    "https://bokeh.pydata.org/en/1.2.0/",
+    "https://bokeh.pydata.org/en/1.1.0/",
+    "https://bokeh.pydata.org/en/1.0.4/",
+    "https://bokeh.pydata.org/en/0.12.16/",
+    "https://bokeh.pydata.org/en/0.12.15/",
+    "https://bokeh.pydata.org/en/0.12.14/",
+    "https://bokeh.pydata.org/en/0.11.0/"
   ],
   "stop_urls": [
     "/_",
@@ -43,5 +50,5 @@
   "conversation_id": [
     "963864193"
   ],
-  "nb_hits": 27107
+  "nb_hits": 154611
 }
