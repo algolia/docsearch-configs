@@ -16,7 +16,11 @@
     }
   ],
   "stop_urls": [
-    "index\\.html"
+    "index\\.html",
+    "https://www.apollographql.com/docs/angular/",
+    "https://www.apollographql.com/docs/android/",
+    "https://www.apollographql.com/docs/scala/",
+    "https://www.apollographql.com/docs/graphql-subscriptions/"
   ],
   "selectors": {
     "default": {
