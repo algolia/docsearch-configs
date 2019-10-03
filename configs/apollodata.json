@@ -3,7 +3,7 @@
   "start_urls": [
     "https://www.apollographql.com/docs/",
     {
-      "url": "https://www.apollographql.com/docs/platform/",
+      "url": "https://www.apollographql.com/docs/graph-manager/",
       "page_rank": 3
     },
     {
