@@ -8,7 +8,9 @@
     "/docs/gallery/",
     "/examples/"
   ],
-  "sitemap_urls":["http://docs.bokeh.org/sitemap_index.xml"],
+  "sitemap_urls": [
+    "http://docs.bokeh.org/sitemap_index.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".current .toctree-l1:nth-child(2)",
@@ -35,8 +37,12 @@
   "keep_tags": [
     "code"
   ],
-  "strip_chars": "¶",
-  "selectors_exclude": [".toc", ".header", ".footer", ".second-nav"],
+  "strip_chars": "\u00b6",
+  "selectors_exclude": [
+    ".toc",
+    ".header",
+    ".footer"
+  ],
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -53,5 +59,5 @@
   "conversation_id": [
     "963864193"
   ],
-  "nb_hits": 154611
+  "nb_hits": 653748
 }
