@@ -1,19 +1,14 @@
 {
   "index_name": "bokeh",
   "start_urls": [
-    "https://docs.bokeh.org",
-    "https://bokeh.pydata.org/en/1.2.0/",
-    "https://bokeh.pydata.org/en/1.1.0/",
-    "https://bokeh.pydata.org/en/1.0.4/",
-    "https://bokeh.pydata.org/en/0.12.16/",
-    "https://bokeh.pydata.org/en/0.12.15/",
-    "https://bokeh.pydata.org/en/0.12.14/",
-    "https://bokeh.pydata.org/en/0.11.0/"
+    "https://docs.bokeh.org"
   ],
   "stop_urls": [
     "/_",
-    "/docs/gallery/"
+    "/docs/gallery/",
+    "/examples/"
   ],
+  "sitemap_urls":["http://docs.bokeh.org/sitemap_index.xml"],
   "selectors": {
     "lvl0": {
       "selector": ".current .toctree-l1:nth-child(2)",
