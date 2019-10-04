@@ -1,0 +1,28 @@
+{
+  "index_name": "roomfortea",
+  "start_urls": [
+    "https://help.roomfortea.com"
+  ],
+  "sitemap_urls": [
+    "https://help.roomfortea.com/sitemap.xml"
+  ],
+  "stop_urls": ["/page/","/tag/"],
+  "selectors": {
+    "lvl0": {
+      "selector": "header h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post__entry h1",
+    "lvl2": ".post__entry h2",
+    "lvl3": ".post__entry h3",
+    "lvl4": ".post__entry h4",
+    "lvl5": ".post__entry h5",
+    "text": ".post__entry p, .post__entry li"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "966557905"
+  ],
+  "nb_hits": 82
+}
