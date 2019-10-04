@@ -5,7 +5,8 @@
   ],
   "stop_urls": [
     "/_",
-    "/docs/gallery/"
+    "/docs/gallery/",
+    "/examples/"
   ],
   "sitemap_urls":["http://docs.bokeh.org/sitemap_index.xml"],
   "selectors": {
