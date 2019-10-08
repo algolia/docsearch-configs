@@ -11,8 +11,7 @@
       },
       "tags": [
         "cn"
-      ],
-      "page_rank": 3
+      ]
     },
     {
       "url": "https://pingcap.com/docs-cn/v2.1/",
@@ -24,8 +23,7 @@
       },
       "tags": [
         "cn"
-      ],
-      "page_rank": 2
+      ]
     },
     {
       "url": "https://pingcap.com/docs-cn/dev/",
@@ -37,8 +35,7 @@
       },
       "tags": [
         "cn"
-      ],
-      "page_rank": 1
+      ]
     },
     {
       "url": "https://pingcap.com/docs/v3.0/",
@@ -50,8 +47,7 @@
       },
       "tags": [
         "en"
-      ],
-      "page_rank": 3
+      ]
     },
     {
       "url": "https://pingcap.com/docs/v2.1/",
@@ -63,8 +59,7 @@
       },
       "tags": [
         "en"
-      ],
-      "page_rank": 2
+      ]
     },
     {
       "url": "https://pingcap.com/docs/dev/",
@@ -76,8 +71,7 @@
       },
       "tags": [
         "en"
-      ],
-      "page_rank": 1
+      ]
     }
   ],
   "stop_urls": [
@@ -101,27 +95,19 @@
       "text": ".content p, .content li"
     },
     "docs_cn": {
-      "lvl0": {
-        "selector": "#dropdownMenuButton",
-        "global": true,
-        "default_value": "\u6587\u6863"
-      },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
       "text": ".content p, .content li, .content table, .content pre, .content code"
     },
     "docs": {
-      "lvl0": {
-        "selector": "#dropdownMenuButton",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
       "text": ".content p, .content li, .content table, .content pre, .content code"
     }
   },
@@ -137,5 +123,5 @@
   "conversation_id": [
     "428916846"
   ],
-  "nb_hits": 168809
+  "nb_hits": 168847
 }
