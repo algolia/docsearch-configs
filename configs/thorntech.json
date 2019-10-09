@@ -2,7 +2,9 @@
   "index_name": "thorntech",
   "start_urls": [
     "https://help2.thorntech.com/docs/",
-    "https://help2.thorntech.com/docs/sftp-gateway-2.0/getting-started-with-sftp-gateway-2.0/"
+    "https://help2.thorntech.com/docs/sftp-gateway-2.0/getting-started-with-sftp-gateway-2.0/",
+    "https://help2.thorntech.com/docs/sftp-gateway-classic/initial-setup/",
+    "https://help2.thorntech.com/docs/sftp-gateway-azure/azure-getting-started/"
   ],
   "sitemap_urls": [
     "https://help2.thorntech.com/sitemap.xml"
