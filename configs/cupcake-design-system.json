@@ -1,0 +1,20 @@
+{
+  "index_name": "cupcake-design-system",
+  "start_urls": [
+    "https://cupcake-design-system.github.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class^=docs-bg-img] h1",
+    "lvl1": "[class^=docs-bg-img] h2",
+    "lvl2": "[class^=docs-bg-img] h3",
+    "lvl3": "[class^=docs-bg-img] h4",
+    "lvl4": "[class^=docs-bg-img] h5",
+    "lvl5": "[class^=docs-bg-img] h6",
+    "text": "[class^=docs-bg-img] p, [class^=docs-bg-img] li"
+  },
+  "conversation_id": [
+    "935358728"
+  ],
+  "nb_hits": 108
+}

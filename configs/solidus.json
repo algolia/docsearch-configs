@@ -1,0 +1,20 @@
+{
+  "index_name": "solidus",
+  "start_urls": [
+    "https://guides.solidus.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content-block h1",
+    "lvl1": ".content-block h2",
+    "lvl2": ".content-block h3",
+    "lvl3": ".content-block h4",
+    "lvl4": ".content-block h5",
+    "lvl5": ".content-block h6",
+    "text": ".content-block p, .content-block li"
+  },
+  "conversation_id": [
+    "945201445"
+  ],
+  "nb_hits": 2513
+}

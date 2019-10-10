@@ -1,7 +1,7 @@
 {
   "index_name": "marfeel-techatenea",
   "start_urls": [
-    "https://marfeel.github.io/TechAtenea/"
+    "https://marfeel.github.io/MarfeelDocs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -31,5 +31,5 @@
     "907372374"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 788
+  "nb_hits": 1265
 }

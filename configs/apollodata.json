@@ -3,7 +3,7 @@
   "start_urls": [
     "https://www.apollographql.com/docs/",
     {
-      "url": "https://www.apollographql.com/docs/platform/",
+      "url": "https://www.apollographql.com/docs/graph-manager/",
       "page_rank": 3
     },
     {
@@ -16,7 +16,12 @@
     }
   ],
   "stop_urls": [
-    "index\\.html"
+    "index\\.html",
+    "https://www.apollographql.com/docs/angular/",
+    "https://www.apollographql.com/docs/android/",
+    "https://www.apollographql.com/docs/scala/",
+    "https://www.apollographql.com/docs/graphql-tools/",
+    "https://www.apollographql.com/docs/graphql-subscriptions/"
   ],
   "selectors": {
     "default": {
@@ -35,5 +40,5 @@
   "conversation_id": [
     "355172644"
   ],
-  "nb_hits": 6231
+  "nb_hits": 7887
 }

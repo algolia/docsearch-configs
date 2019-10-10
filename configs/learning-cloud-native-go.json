@@ -1,0 +1,27 @@
+{
+  "index_name": "learning-cloud-native-go",
+  "start_urls": [
+    "https://learning-cloud-native-go.github.io/docs/"
+  ],
+  "sitemap_urls": [
+    "https://learning-cloud-native-go.github.io/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class^='docItemContainer'] h1",
+    "lvl1": "[class^='docItemContainer'] h2",
+    "lvl2": "[class^='docItemContainer'] h3",
+    "lvl3": "[class^='docItemContainer'] h4",
+    "lvl4": "[class^='docItemContainer'] h5",
+    "lvl5": "[class^='docItemContainer'] h5",
+    "text": "[class^='docItemContainer'] p, [class^='docItemContainer'] li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "975362664"
+  ],
+  "nb_hits": 319
+}

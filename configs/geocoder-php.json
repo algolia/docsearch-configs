@@ -1,0 +1,23 @@
+{
+  "index_name": "geocoder-php",
+  "start_urls": [
+    "https://geocoder-php.org/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://geocoder-php.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".w-full:not(main) h1",
+    "lvl1": ".w-full:not(main) h2",
+    "lvl2": ".w-full:not(main) h3",
+    "lvl3": ".w-full:not(main) h4",
+    "lvl4": ".w-full:not(main) h5",
+    "lvl5": ".w-full:not(main) h6",
+    "text": ".w-full:not(main) p, .w-full:not(main) li"
+  },
+  "conversation_id": [
+    "948825088"
+  ],
+  "nb_hits": 361
+}
