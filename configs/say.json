@@ -1,0 +1,20 @@
+{
+  "index_name": "say",
+  "start_urls": [
+    "https://docs.say.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='StyledMarkdownContainer'] h1",
+    "lvl1": "[class*='StyledMarkdownContainer'] h2",
+    "lvl2": "[class*='StyledMarkdownContainer'] h3",
+    "lvl3": "[class*='StyledMarkdownContainer'] h4",
+    "lvl4": "[class*='StyledMarkdownContainer'] h5",
+    "lvl5": "[class*='StyledMarkdownContainer'] h6",
+    "text": "[class*='StyledMarkdownContainer'] p, [class*='StyledMarkdownContainer'] li"
+  },
+  "conversation_id": [
+    "954158307"
+  ],
+  "nb_hits": 1082
+}

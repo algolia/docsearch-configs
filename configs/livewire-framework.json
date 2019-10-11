@@ -1,10 +1,10 @@
 {
   "index_name": "livewire-framework",
   "start_urls": [
-    "https://livewire-framework.com/docs/"
+    "https://laravel-livewire.com/docs/"
   ],
   "sitemap_urls": [
-    "https://livewire-framework.com/sitemap.xml"
+    "https://laravel-livewire.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -20,5 +20,5 @@
   "conversation_id": [
     "923279915"
   ],
-  "nb_hits": 216
+  "nb_hits": 313
 }

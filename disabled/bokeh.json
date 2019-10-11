@@ -1,0 +1,124 @@
+{
+  "index_name": "bokeh",
+  "start_urls": [
+  "http://docs.bokeh.org/"
+  ],
+  "stop_urls": [
+    "/_",
+    "/docs/gallery/",
+    "/examples/"
+  ],
+  "sitemap_urls": [
+    "http://docs.bokeh.org/sitemap_index.xml"
+  ],
+  "selectors": {
+     "default": {
+       "lvl0": {
+         "selector": ".current .toctree-l1:nth-child(2)",
+         "global": true,
+         "default_value": "Documentation"
+       },
+       "lvl1": "title",
+       "lvl2": ".content h2",
+       "lvl3": ".content h3",
+       "text": ".content p, .content li",
+       "lang": {
+         "selector": "/html/@lang",
+         "type": "xpath",
+         "global": true
+       },
+       "version": {
+         "selector": ".version-link:first-child a",
+         "global": true
+       }
+     },
+     "user_guide": {
+       "lvl0": {
+         "selector": "",
+         "global": true,
+         "default_value": "User Guide"
+       },
+       "lvl1": "h1",
+       "lvl2": ".content h2",
+       "lvl3": ".content h3",
+       "lvl4": ".content h4",
+       "text": ".content p, .content li",
+       "lang": {
+         "selector": "/html/@lang",
+         "type": "xpath",
+         "global": true
+       },
+       "version": {
+         "selector": ".version-link:first-child a",
+         "global": true
+       }
+     },
+     "reference": {
+       "lvl0": {
+         "selector": "",
+         "global": true,
+         "default_value": "Reference Guide"
+       },
+       "lvl1": "h1",
+       "lvl2": ".content h2, .class > dt .descname, .function > dt .descname, .data > dt .descname",
+       "lvl3": ".content h3, .method .descname",
+       "text": ".content p, .content li",
+       "lang": {
+         "selector": "/html/@lang",
+         "type": "xpath",
+         "global": true
+       },
+       "version": {
+         "selector": ".version-link:first-child a",
+         "global": true
+       }
+     },
+     "dev_guide": {
+       "lvl0": {
+         "selector": "",
+         "global": true,
+         "default_value": "Developer's Guide"
+       },
+       "lvl1": "h1",
+       "lvl2": ".content h2",
+       "lvl3": ".content h3",
+       "lvl4": ".content h4",
+       "text": ".content p, .content li",
+       "lang": {
+         "selector": "/html/@lang",
+         "type": "xpath",
+         "global": true
+       },
+       "version": {
+         "selector": ".version-link:first-child a",
+         "global": true
+       }
+     }
+  },
+  "keep_tags": [
+    "code"
+  ],
+  "strip_chars": "\u00b6",
+  "selectors_exclude": [
+    ".toc",
+    ".header",
+    ".footer"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "lang",
+      "version"
+    ],
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ]
+    ]
+  },
+  "conversation_id": [
+    "963864193"
+  ],
+  "nb_hits": 653748
+}

@@ -2,7 +2,7 @@
   "index_name": "pm2docs",
   "start_urls": [
     {
-      "url": "https://pm2.io/doc/(?P<language>.*?)/(?P<tool>.*?)/overview/",
+      "url": "https://doc.pm2.io/(?P<language>.*?)/(?P<tool>.*?)/overview/",
       "variables": {
         "language": [
           "en",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "url": "https://pm2.io/doc/(?P<language>.*?)/(?P<tool>.*?)/",
+      "url": "https://doc.pm2.io/(?P<language>.*?)/(?P<tool>.*?)/",
       "variables": {
         "language": [
           "en",
@@ -32,7 +32,7 @@
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://pm2.io/sitemap.xml"
+    "https://doc.pm2.io/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -53,5 +53,5 @@
   "conversation_id": [
     "541109950"
   ],
-  "nb_hits": 2781
+  "nb_hits": 2486
 }
