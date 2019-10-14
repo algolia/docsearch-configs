@@ -1,13 +1,18 @@
 {
   "index_name": "ory",
   "start_urls": [
-     "https://www.ory.sh/docs/"
+     {
+       "url": "https://www.ory.sh/docs",
+       "tags": [
+         "docs"
+       ]
+     }
   ],
   "sitemap_urls": [
     "https://ory.sh/docs/sitemap.xml"
   ],
   "stop_urls": [
-    "https://www.ory.sh/docs/deprecated/.*",
+    "https://www.ory.sh/docs/deprecated/.*"
   ],
   "selectors": {
     "lvl0": {
