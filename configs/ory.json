@@ -1,26 +1,44 @@
 {
   "index_name": "ory",
   "start_urls": [
-    "https://www.ory.sh/docs"
+     {
+       "url": "https://www.ory.sh/docs",
+       "tags": [
+         "docs"
+       ]
+     }
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://ory.sh/docs/sitemap.xml"
+  ],
+  "stop_urls": [
+    "https://www.ory.sh/docs/deprecated/.*"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//li[contains(@class,'active')]/preceding::li[contains(@class,'header')][1]",
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".markdown-section h1",
-    "lvl2": ".markdown-section h2",
-    "lvl3": ".markdown-section h3",
-    "lvl4": ".markdown-section h4",
-    "lvl5": ".markdown-section h5",
-    "text": ".markdown-section p, .markdown-section li"
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "lvl6": ".post h6",
+    "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
-    "#toc"
+    ".hash-link"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "704914956"
   ],
