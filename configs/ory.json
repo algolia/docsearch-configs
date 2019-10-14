@@ -1,12 +1,7 @@
 {
   "index_name": "ory",
   "start_urls": [
-    {
-      "url": "https://www.ory.sh/docs/",
-      "tags": [
-        "docs"
-      ]
-    },
+     "https://www.ory.sh/docs/"
   ],
   "sitemap_urls": [
     "https://ory.sh/docs/sitemap.xml"
