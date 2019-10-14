@@ -1,0 +1,28 @@
+{
+  "index_name": "trixcms",
+  "start_urls": [
+    "https://docs.trixcms.eu"
+  ],
+  "stop_urls": [
+    "/cdn-cgi/"
+  ],
+  "selectors": {
+    "lvl0": ".content h2",
+    "lvl1": ".content h3",
+    "lvl2": {
+      "selector": "//*[contains(@class,'content')]/p[.=strong]",
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl3": ".content td:first-child",
+    "text": ".content p, .content li, .content td:nth-child(n+2)"
+  },
+  "strip_chars": " .,;:#",
+  "selectors_exclude": [
+    ".content > pre"
+  ],
+  "conversation_id": [
+    "972800942"
+  ],
+  "nb_hits": 596
+}
