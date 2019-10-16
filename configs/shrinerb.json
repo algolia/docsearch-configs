@@ -1,19 +1,13 @@
 {
-  "index_name": "ory",
+  "index_name": "shrinerb",
   "start_urls": [
-    {
-      "url": "https://www.ory.sh/docs",
-      "tags": [
-        "docs"
-      ]
-    }
+    "https://shrinerb.com/docs/"
   ],
   "sitemap_urls": [
-    "https://ory.sh/docs/sitemap.xml"
+    "https://shrinerb.com/sitemap.xml"
   ],
-  "stop_urls": [
-    "https://www.ory.sh/docs/deprecated/.*"
-  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
@@ -26,7 +20,6 @@
     "lvl3": ".post h3",
     "lvl4": ".post h4",
     "lvl5": ".post h5",
-    "lvl6": ".post h6",
     "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
@@ -35,12 +28,11 @@
   "custom_settings": {
     "attributesForFaceting": [
       "language",
-      "version",
-      "tags"
+      "version"
     ]
   },
   "conversation_id": [
-    "704914956"
+    "980167256"
   ],
-  "nb_hits": 18321
+  "nb_hits": 3464
 }
