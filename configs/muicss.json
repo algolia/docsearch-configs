@@ -1,0 +1,32 @@
+{
+  "index_name": "muicss",
+  "start_urls": [
+    "https://www.muicss.com/docs/v1"
+  ],
+  "stop_urls": [
+    "\\?",
+    "/examples/",
+    "/feedback/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "[class='appbar-brand']",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-wrapper .mui-row h1",
+    "lvl2": "#content-wrapper .mui-row h2",
+    "lvl3": "#content-wrapper .mui-row h3",
+    "lvl4": "#content-wrapper .mui-row h4",
+    "lvl5": "#content-wrapper .mui-row h5",
+    "lvl6": "#content-wrapper .mui-row h6",
+    "text": "#content-wrapper .mui-row p, #content-wrapper .mui-row li"
+  },
+  "selectors_exclude": [
+    ".mui-panel"
+  ],
+  "conversation_id": [
+    "977258463"
+  ],
+  "nb_hits": 529
+}
