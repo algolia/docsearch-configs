@@ -2,14 +2,14 @@
   "index_name": "openproject",
   "start_urls": [
     {
-      "url": "https://finnlabs.github.io/openproject-docs/api/",
+      "url": "https://docs.openproject-edge.com/api/",
       "tags": [
         "api"
       ],
       "selectors_key": "api"
     },
     {
-      "url": "https://finnlabs.github.io/openproject-docs/",
+      "url": "https://docs.openproject-edge.com/",
       "tags": [
         "doc"
       ]
@@ -17,7 +17,7 @@
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://finnlabs.github.io/openproject-docs/sitemap.xml"
+    "https://docs.openproject-edge.com/sitemap.xml"
   ],
   "selectors": {
     "default": {
