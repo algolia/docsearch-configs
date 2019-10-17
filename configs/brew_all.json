@@ -122,7 +122,11 @@
       }
     },
     "docs": {
-      "lvl0": "#page h1",
+      "lvl0": {
+        "selector": "#page h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": "#page h2",
       "lvl2": "#page h3",
       "lvl3": "#page h4, #page td:first-child",
@@ -205,5 +209,5 @@
   "conversation_id": [
     "771112570"
   ],
-  "nb_hits": 143190
+  "nb_hits": 143290
 }
