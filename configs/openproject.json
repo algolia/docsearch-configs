@@ -9,7 +9,7 @@
       "selectors_key": "api"
     },
     {
-      "url": "https://docs.openproject-edge.com/",
+      "url": "https://docs.openproject-edge.com",
       "tags": [
         "doc"
       ]
@@ -49,5 +49,5 @@
   "conversation_id": [
     "969244119"
   ],
-  "nb_hits": 4346
+  "nb_hits": 4705
 }
