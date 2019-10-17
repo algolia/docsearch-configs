@@ -15,7 +15,10 @@
       ]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "com/de/",
+    "443"
+  ],
   "sitemap_urls": [
     "https://docs.openproject-edge.com/sitemap.xml"
   ],
@@ -49,5 +52,5 @@
   "conversation_id": [
     "969244119"
   ],
-  "nb_hits": 8239
+  "nb_hits": 5491
 }
