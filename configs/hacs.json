@@ -1,10 +1,10 @@
 {
   "index_name": "hacs",
   "start_urls": [
-    "https://hacs.netlify.com/docs/"
+    "https://hacs.xyz/docs/"
   ],
   "sitemap_urls": [
-    "https://hacs.netlify.com/sitemap.xml"
+    "https://hacs.xyz/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
