@@ -1,7 +1,8 @@
 {
   "index_name": "hacs",
   "start_urls": [
-    "https://hacs.xyz/docs/"
+    "https://hacs.xyz/docs/",
+    "https://hacs.xyz/docs/installation/prerequisites"
   ],
   "sitemap_urls": [
     "https://hacs.xyz/sitemap.xml"
@@ -27,5 +28,5 @@
   "conversation_id": [
     "979484137"
   ],
-  "nb_hits": 621
+  "nb_hits": 531
 }
