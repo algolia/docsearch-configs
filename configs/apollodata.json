@@ -1,10 +1,13 @@
 {
   "index_name": "apollodata",
   "start_urls": [
-    "https://www.apollographql.com/docs/",
+    {
+      "url": "https://www.apollographql.com/docs/",
+      "page_rank": 3
+    },
     {
       "url": "https://www.apollographql.com/docs/graph-manager/",
-      "page_rank": 3
+      "page_rank": 2
     },
     {
       "url": "https://www.apollographql.com/docs/react/",
@@ -12,6 +15,10 @@
     },
     {
       "url": "https://www.apollographql.com/docs/apollo-server/",
+      "page_rank": 2
+    },
+    {
+      "url": "https://www.apollographql.com/docs/ios/",
       "page_rank": 1
     }
   ],
@@ -30,13 +37,9 @@
         "default_value": "Documentation"
       },
       "lvl1": ".header-wrapper h1",
-      "lvl2": ".content-wrapper h2",
-      "lvl3": ".content-wrapper h3",
-      "lvl4": ".content-wrapper h4",
-      "text": ".content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page"
+      "text": ".content-wrapper h2, .content-wrapper h3, .content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page"
     }
   },
-  "min_indexed_level": 2,
   "conversation_id": [
     "355172644"
   ],
