@@ -37,11 +37,11 @@
         "default_value": "Documentation"
       },
       "lvl1": ".header-wrapper h1",
-      "text": ".content-wrapper h2, .content-wrapper h3, .content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page"
+      "text": ".content-wrapper h2, .content-wrapper h3, .content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page, .header-wrapper h3"
     }
   },
   "conversation_id": [
     "355172644"
   ],
-  "nb_hits": 7990
+  "nb_hits": 8115
 }
