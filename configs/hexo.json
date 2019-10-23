@@ -9,8 +9,13 @@
     "https://hexo.io/api/index.html"
   ],
   "selectors": {
-    "lvl0": ".article-header h1",
-    "lvl1": ".article-content h1",
+    "lvl0": {
+      "selector": "//aside[@id='sidebar']//*[contains(@class,'current')]/preceding::strong[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".article-header h1",
     "lvl2": ".article-content h2",
     "lvl3": ".article-content h3",
     "lvl4": ".article-content h4",
@@ -20,5 +25,5 @@
   "conversation_id": [
     "155148023"
   ],
-  "nb_hits": 669
+  "nb_hits": 803
 }
