@@ -1,0 +1,75 @@
+{
+  "index_name": "ktorm",
+  "start_urls": [
+    {
+      "url": "https://ktorm.liuwj.me/api-docs/",
+      "tags": [
+        "api-docs"
+      ],
+      "selectors_key": "api-docs"
+    },
+    {
+      "url": "https://ktorm.liuwj.me/",
+      "tags": [
+        "doc"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'doc-sidebar-content')]/*/li[contains(@class,'current')]/preceding::*[contains(@class,'--label')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".dc-page h1",
+      "lvl2": ".dc-page h2",
+      "lvl3": ".dc-page h3",
+      "lvl4": ".dc-page h4",
+      "lvl5": ".dc-page h5",
+      "lvl6": ".dc-page h6",
+      "text": ".dc-page p, .dc-page li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    },
+    "api-docs": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API-Docs"
+      },
+      "lvl1": "#page-content h1",
+      "lvl2": "#page-content h3",
+      "lvl3": "#page-content h4, .api-docs-table td:first-child",
+      "lvl4": "#page-content h5",
+      "lvl5": "#page-content h6",
+      "text": "#page-content > p",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "tags"
+    ],
+    "separatorsToIndex": "_"
+  },
+  "scrap_start_urls": false,
+  "selectors_exclude": [
+    "#support-footer-container",
+    ".api-docs > p:first-child"
+  ],
+  "conversation_id": [
+    "986021217"
+  ],
+  "nb_hits": 6929
+}
