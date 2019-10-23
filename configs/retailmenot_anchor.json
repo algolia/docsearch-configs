@@ -1,0 +1,28 @@
+{
+  "index_name": "retailmenot_anchor",
+  "start_urls": [
+    "http://anchor.retailmenot.design"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//section[contains(@class,'anchor-collapse-content')]/preceding::button[1]",
+      "global": true,
+      "type": "xpath",
+      "default_value": "Blog"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h3",
+    "lvl3": "main h6",
+    "lvl4": "main td:first-child",
+    "lvl5": "main h6",
+    "text": "main p, main li, main td:nth-child(2)"
+  },
+  "selectors_exclude": [
+    "main article"
+  ],
+  "conversation_id": [
+    "970853696"
+  ],
+  "nb_hits": 964
+}
