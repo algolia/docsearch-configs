@@ -14,9 +14,27 @@
       ]
     },
     {
-      "url": "https://at-design.alibaba-inc.com/doc/layout-pattern/",
+      "url": "https://at-design.alibaba-inc.com/basic/",
       "tags": [
-        "doc"
+        "basic"
+      ]
+    },
+    {
+      "url": "https://at-design.alibaba-inc.com/biz/",
+      "tags": [
+        "biz"
+      ]
+    },
+    {
+      "url": "https://at-design.alibaba-inc.com/uiless/",
+      "tags": [
+        "uiless"
+      ]
+    },
+    {
+      "url": "https://at-design.alibaba-inc.com/resource/",
+      "tags": [
+        "resource"
       ]
     }
   ],
