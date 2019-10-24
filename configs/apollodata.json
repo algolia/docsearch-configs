@@ -28,7 +28,8 @@
     "https://www.apollographql.com/docs/android/",
     "https://www.apollographql.com/docs/scala/",
     "https://www.apollographql.com/docs/graphql-tools/",
-    "https://www.apollographql.com/docs/graphql-subscriptions/"
+    "https://www.apollographql.com/docs/graphql-subscriptions/",
+    "https://www.apollographql.com/([\w-]+)/v(\d+\.[\d-\w]+)/"
   ],
   "selectors": {
     "default": {
