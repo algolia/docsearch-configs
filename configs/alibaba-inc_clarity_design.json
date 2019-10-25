@@ -8,18 +8,37 @@
       ]
     },
     {
+      "url": "https://at-design.alibaba-inc.com/doc/layout-pattern/",
+      "tags": [
+        "doc"
+      ]
+    },
+    {
       "url": "https://at-design.alibaba-inc.com/doc/",
       "tags": [
         "doc"
       ]
     },
     {
-      "url": "https://at-design.alibaba-inc.com/doc/layout-pattern/",
+      "url": "https://at-design.alibaba-inc.com/basic/",
       "tags": [
-        "doc"
+        "basic"
+      ]
+    },
+    {
+      "url": "https://at-design.alibaba-inc.com/biz/",
+      "tags": [
+        "biz"
+      ]
+    },
+    {
+      "url": "https://at-design.alibaba-inc.com/uiless/",
+      "tags": [
+        "uiless"
       ]
     }
   ],
+  "sitemap_urls": ["https://at-design.alibaba-inc.com/public/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".doc-page-body-wrapper header h1",
