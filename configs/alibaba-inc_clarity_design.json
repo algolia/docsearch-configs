@@ -38,7 +38,9 @@
       ]
     }
   ],
-  "sitemap_urls": ["https://at-design.alibaba-inc.com/public/sitemap.xml"],
+  "sitemap_urls": [
+    "https://at-design.alibaba-inc.com/public/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".doc-page-body-wrapper header h1",
@@ -58,5 +60,5 @@
   "conversation_id": [
     "985530458"
   ],
-  "nb_hits": 177
+  "nb_hits": 189
 }
