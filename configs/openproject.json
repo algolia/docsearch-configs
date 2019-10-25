@@ -46,11 +46,12 @@
   "keep_tags": [
     "code"
   ],
+  "min_indexed_level": 3,
   "custom_settings": {
     "separatorsToIndex": "_"
   },
   "conversation_id": [
     "969244119"
   ],
-  "nb_hits": 5491
+  "nb_hits": 5661
 }
