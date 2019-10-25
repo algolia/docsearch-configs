@@ -8,6 +8,12 @@
       ]
     },
     {
+      "url": "https://at-design.alibaba-inc.com/doc/layout-pattern/",
+      "tags": [
+        "doc"
+      ]
+    },
+    {
       "url": "https://at-design.alibaba-inc.com/doc/",
       "tags": [
         "doc"
@@ -30,14 +36,9 @@
       "tags": [
         "uiless"
       ]
-    },
-    {
-      "url": "https://at-design.alibaba-inc.com/resource/",
-      "tags": [
-        "resource"
-      ]
     }
   ],
+  "sitemap_urls": ["https://at-design.alibaba-inc.com/public/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".doc-page-body-wrapper header h1",
