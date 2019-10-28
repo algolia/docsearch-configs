@@ -1,7 +1,7 @@
 {
   "index_name": "laravel-notification-channels",
   "start_urls": [
-    "https://laravel-notification-channels.com/about/"
+    "https://laravel-notification-channels.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -35,5 +35,5 @@
   "conversation_id": [
     "988578230"
   ],
-  "nb_hits": 64
+  "nb_hits": 2080
 }
