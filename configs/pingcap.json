@@ -75,12 +75,18 @@
     }
   ],
   "stop_urls": [
+    "/docs/v2.1/TOC",
+    "/docs/v3.0/TOC",
+    "/docs/dev/TOC",
     "/docs/v2.1-legacy",
     "/docs/v2.0",
     "/docs/v1.0",
     "/docs-cn/v2.1-legacy",
     "/docs-cn/v2.0",
-    "/docs-cn/v1.0"
+    "/docs-cn/v1.0",
+    "/docs-cn/v2.1/TOC",
+    "/docs-cn/v3.0/TOC",
+    "/docs-cn/dev/TOC"
   ],
   "sitemap_urls": [
     "https://pingcap.com/sitemap.xml"
