@@ -4,25 +4,33 @@
     "https://storybook.js.org",
     "https://storybook.js.org/basics/introduction/"
   ],
+  "sitemap_urls": [
+    "https://storybook.js.org/docs/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@id, 'nav')]//li/a[contains(@class, 'selected')]/../../preceding::h3[1]",
-      "type": "xpath"
+      "selector": "//*[@id='nav']//a[contains(@class, 'selected')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li"
+    "lvl1": "#docs-content h2.title",
+    "lvl2": "#docs-content h2:not(.title)",
+    "lvl3": "#docs-content h3",
+    "lvl4": "#docs-content h4",
+    "lvl5": "#docs-content h4",
+    "lvl6": "#docs-content h5",
+    "text": "#docs-content p, #docs-content li"
   },
   "selectors_exclude": [
     ".header-anchor"
   ],
-  "min_indexed_level": 1,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "conversation_id": [
     "374048318"
   ],
-  "nb_hits": 1035
+  "nb_hits": 1277
 }
