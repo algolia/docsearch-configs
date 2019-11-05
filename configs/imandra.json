@@ -1,0 +1,20 @@
+{
+  "index_name": "imandra",
+  "start_urls": [
+    "https://docs.imandra.ai/imandra-docs/"
+  ],
+  "stop_urls": ["/odoc/"],
+  "selectors": {
+    "lvl0": ".text_cell_render h1",
+    "lvl1": ".text_cell_render h2",
+    "lvl2": ".text_cell_render h3",
+    "lvl3": ".text_cell_render h4",
+    "lvl4": ".text_cell_render h5",
+    "lvl5": ".text_cell_render h6",
+    "text": ".text_cell_render p, .text_cell_render li"
+  },
+  "conversation_id": [
+    "992897441"
+  ],
+  "nb_hits": 1483
+}
