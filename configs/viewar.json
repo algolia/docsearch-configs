@@ -1,7 +1,7 @@
 {
   "index_name": "viewar",
   "start_urls": [
-    "https://viewar.gitbooks.io/sdk-documentation"
+    "https://viewar.github.io/documentation/"
   ],
   "stop_urls": [],
   "selectors": {
