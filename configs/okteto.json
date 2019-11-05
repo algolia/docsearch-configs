@@ -1,0 +1,23 @@
+{
+  "index_name": "okteto",
+  "start_urls": [
+    "https://okteto.com/docs"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://okteto.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".doc-formatting h1",
+    "lvl1": ".doc-formatting h2",
+    "lvl2": ".doc-formatting h3",
+    "lvl3": ".doc-formatting h4",
+    "lvl4": ".doc-formatting h5",
+    "lvl5": ".doc-formatting h6",
+    "text": ".doc-formatting p, .doc-formatting li"
+  },
+  "conversation_id": [
+    "995822935"
+  ],
+  "nb_hits": 827
+}
