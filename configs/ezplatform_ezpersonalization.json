@@ -2,7 +2,7 @@
   "index_name": "ezplatform_ezservices",
   "start_urls": [
     {
-      "url": "https://doc.ezplatform.com/projects/ezservices/(?P<lang>.*?)/(?P<version>.*?)/",
+      "url": "https://doc.ezplatform.com/projects/ezpersonalization/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
         "lang": [
           "en"
