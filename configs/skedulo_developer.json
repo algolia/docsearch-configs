@@ -1,7 +1,8 @@
 {
   "index_name": "skedulo_developer",
   "start_urls": [
-    "https://developer.skedulo.com/docs/"
+    "https://developer.skedulo.com/docs/",
+    "https://developer.skedulo.com/skedulo-api/"
   ],
   "sitemap_urls": [
     "https://developer.skedulo.com/sitemap.xml"
