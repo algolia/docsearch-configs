@@ -2,11 +2,11 @@
   "index_name": "pingcap",
   "start_urls": [
     {
-      "url": "https://pingcap.com/docs-cn/v3.0/",
+      "url": "https://pingcap.com/docs-cn/stable/",
       "selectors_key": "docs_cn",
       "extra_attributes": {
         "version": [
-          "v3.0"
+          "stable"
         ]
       },
       "tags": [
@@ -38,11 +38,23 @@
       ]
     },
     {
-      "url": "https://pingcap.com/docs/v3.0/",
+      "url": "https://pingcap.com/docs-cn/v3.1/",
+      "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "v3.1"
+        ]
+      },
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://pingcap.com/docs/stable/",
       "selectors_key": "docs",
       "extra_attributes": {
         "version": [
-          "v3.0"
+          "stable"
         ]
       },
       "tags": [
@@ -72,12 +84,25 @@
       "tags": [
         "en"
       ]
+    },
+    {
+      "url": "https://pingcap.com/docs/v3.1/",
+      "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "v3.1"
+        ]
+      },
+      "tags": [
+        "en"
+      ]
     }
   ],
   "stop_urls": [
     "/docs/v2.1/TOC",
-    "/docs/v3.0/TOC",
+    "/docs/stable/TOC",
     "/docs/dev/TOC",
+    "/docs/v3.1/TOC",
     "/docs/v2.1-legacy",
     "/docs/v2.0",
     "/docs/v1.0",
@@ -85,8 +110,9 @@
     "/docs-cn/v2.0",
     "/docs-cn/v1.0",
     "/docs-cn/v2.1/TOC",
-    "/docs-cn/v3.0/TOC",
-    "/docs-cn/dev/TOC"
+    "/docs-cn/stable/TOC",
+    "/docs-cn/dev/TOC",
+    "/docs-cn/v3.1/TOC"
   ],
   "sitemap_urls": [
     "https://pingcap.com/sitemap.xml"
