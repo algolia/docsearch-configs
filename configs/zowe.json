@@ -8,6 +8,7 @@
           "stable",
           "active-development",
           "latest",
+          "v1-6-x",
           "v1-5-x",
           "v1-4-x",
           "v1-3-x",
@@ -50,5 +51,5 @@
     "693711568"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 45710
+  "nb_hits": 52658
 }

@@ -5,6 +5,7 @@
       "url": "https://larecipe.binarytorch.com.my/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "2.2",
           "2.0",
           "1.3",
           "1.2",
@@ -37,5 +38,5 @@
   "conversation_id": [
     "664433264"
   ],
-  "nb_hits": 1235
+  "nb_hits": 1557
 }

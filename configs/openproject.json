@@ -1,19 +1,7 @@
 {
   "index_name": "openproject",
   "start_urls": [
-    {
-      "url": "https://docs.openproject-edge.com/api/",
-      "tags": [
-        "api"
-      ],
-      "selectors_key": "api"
-    },
-    {
-      "url": "https://docs.openproject-edge.com",
-      "tags": [
-        "doc"
-      ]
-    }
+    "https://docs.openproject-edge.com"
   ],
   "stop_urls": [
     "com/de/",
@@ -23,25 +11,13 @@
     "https://docs.openproject-edge.com/sitemap.xml"
   ],
   "selectors": {
-    "default": {
-      "lvl0": "[role='main'] h1",
-      "lvl1": "[role='main'] h2",
-      "lvl2": "[role='main'] h3",
-      "lvl3": "[role='main'] h4",
-      "lvl4": "[role='main'] h5",
-      "lvl5": "[role='main'] h6",
-      "text": "[role='main'] p, [role='main'] li"
-    },
-    "api": {
-      "lvl0": "#op-api-content header h1",
-      "lvl1": "#op-api-content .panel h1",
-      "lvl2": "#op-api-content .panel h2",
-      "lvl3": "#op-api-content .panel h3, #op-api-content td:first-child",
-      "lvl4": "#op-api-content .panel h4",
-      "lvl5": "#op-api-content .panel h5",
-      "lvl6": "#op-api-content .panel h6",
-      "text": "#op-api-content p, #op-api-content li, #op-api-content td:nth-child(2)"
-    }
+    "lvl0": "[role='main'] h1",
+    "lvl1": "[role='main'] h2",
+    "lvl2": "[role='main'] h3",
+    "lvl3": "[role='main'] h4",
+    "lvl4": "[role='main'] h5",
+    "lvl5": "[role='main'] h6",
+    "text": "[role='main'] p, [role='main'] li"
   },
   "keep_tags": [
     "code"
@@ -53,5 +29,5 @@
   "conversation_id": [
     "969244119"
   ],
-  "nb_hits": 5661
+  "nb_hits": 4785
 }

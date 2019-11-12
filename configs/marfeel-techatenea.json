@@ -3,6 +3,9 @@
   "start_urls": [
     "https://marfeel.github.io/MarfeelDocs/"
   ],
+  "sitemap_urls": [
+    "https://marfeel.github.io/MarfeelDocs/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "[class*='content '] h1",
@@ -31,5 +34,5 @@
     "907372374"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 1265
+  "nb_hits": 5119
 }

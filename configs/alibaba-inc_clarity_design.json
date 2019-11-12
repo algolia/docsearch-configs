@@ -43,7 +43,11 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".doc-page-body-wrapper header h1",
+    "lvl0": {
+      "selector": ".doc-page-body-wrapper header h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": ".markdown-body h1",
     "lvl2": ".markdown-body h2",
     "lvl3": ".markdown-body h3",
@@ -52,13 +56,12 @@
     "lvl6": ".markdown-body h6",
     "text": ".markdown-body p, .markdown-body li"
   },
-  "js_render": true,
-  "js_wait": 1,
   "selectors_exclude": [
     ".demo-section"
   ],
   "conversation_id": [
     "985530458"
   ],
-  "nb_hits": 157
+  "min_indexed_level": 2,
+  "nb_hits": 1471
 }
