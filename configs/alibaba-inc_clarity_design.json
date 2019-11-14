@@ -38,6 +38,9 @@
       ]
     }
   ],
+  "sitemap_urls": [
+    "https://at-design.alibaba-inc.com/public/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
