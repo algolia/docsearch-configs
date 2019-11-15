@@ -2,10 +2,10 @@
   "index_name": "skedulo_developer",
   "start_urls": [
     "https://developer.skedulo.com/docs/",
-{
+    {
       "url": "https://developer.skedulo.com/skedulo-api/",
       "selectors_key": "skedulo-api"
-}
+    }
   ],
   "sitemap_urls": [
     "https://developer.skedulo.com/sitemap.xml"
@@ -33,5 +33,5 @@
   "conversation_id": [
     "997238560"
   ],
-  "nb_hits": 1718
+  "nb_hits": 1757
 }
