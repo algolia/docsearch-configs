@@ -24,10 +24,12 @@
     "text": "main p, main li"
   },
   "custom_settings": {
-    "attributesForFaceting": ["language"]
+    "attributesForFaceting": [
+      "language"
+    ]
   },
   "conversation_id": [
     "840239858"
   ],
-  "nb_hits": 721
+  "nb_hits": 719
 }
