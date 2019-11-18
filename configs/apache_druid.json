@@ -1,0 +1,51 @@
+{
+  "index_name": "apache_druid",
+  "start_urls": [
+    {
+      "url": "https://druid.apache.org/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://druid.apache.org/",
+      "tags": [
+        "misc"
+      ],
+      "selectors_key": "misc"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": ".post h1, .doc-content h1",
+      "lvl1": ".post h2, .doc-content h2",
+      "lvl2": ".post h3, .doc-content h3",
+      "lvl3": ".post h4, .doc-content h4",
+      "lvl4": ".post h5, .doc-content h5",
+      "lvl5": ".post h6, .doc-content h6",
+      "text": ".post p, .post lo, .doc-content p, .doc-content li"
+    },
+    "misc": {
+      "lvl0": ".druid-header h1",
+      "lvl1": ".col-md-10.col-md-offset-1 h2",
+      "lvl2": ".col-md-10.col-md-offset-1 h3",
+      "lvl3": ".col-md-10.col-md-offset-1 h4",
+      "lvl4": ".col-md-10.col-md-offset-1 h5",
+      "lvl5": ".col-md-10.col-md-offset-1 h6",
+      "text": ".col-md-10.col-md-offset-1 p, .col-md-10.col-md-offset-1 li"
+    }
+  },
+  "conversation_id": [
+    "967578984"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 39403
+}
