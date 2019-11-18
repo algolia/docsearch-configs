@@ -18,7 +18,8 @@
     "text": ".documentation-content p, .documentation-content li, .documentation-content .hljs-comment"
   },
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting": ['type']
   },
   "nb_hits": 446
 }
