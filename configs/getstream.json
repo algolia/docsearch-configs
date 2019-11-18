@@ -3,19 +3,18 @@
   "start_urls": [
     "https://getstream.io/docs/"
   ],
+  "sitemap_urls": [],
   "selectors": {
     "lvl0": "article h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5",
-    "lvl6": "article .table td[data-title=\"Name\"]",
-    "text": "article p, article .table td[data-title=\"Desc\"], article li"
+    "lvl6": "article .table td[data-title='Name']",
+    "text": "article p, article .table td[data-title='Desc'], article li"
   },
-  "js_render": true,
-  "js_wait": 1,
   "conversation_id": [
     "155434594"
   ],
-  "nb_hits": 862
+  "nb_hits": 872
 }
