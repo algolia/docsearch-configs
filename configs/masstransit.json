@@ -1,7 +1,7 @@
 {
   "index_name": "masstransit",
   "start_urls": [
-    "http://masstransit-project.com/MassTransit/"
+    "http://masstransit-project.com/"
   ],
   "stop_urls": [],
   "selectors": {
