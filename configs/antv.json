@@ -2,7 +2,13 @@
   "index_name": "antv",
   "start_urls": [
     {
-      "url": "https://antvis.github.io/zh.*",
+      "url": "https://antvis.github.io/zh",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://antvis.github.io/zh/.*",
       "tags": [
         "zh"
       ]
@@ -14,37 +20,55 @@
       ]
     },
     {
-      "url": "https://antvis.github.io/en.*",
+      "url": "https://antvis.github.io/en",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antvis.github.io/.*/en.*",
+      "url": "https://antvis.github.io/en/.*",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antv.alipay.com/zh.*",
+      "url": "https://antvis.github.io/.*/en/.*",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://antv.alipay.com/zh",
       "tags": [
         "zh"
       ]
     },
     {
-      "url": "https://antv.alipay.com/.*/zh.*",
+      "url": "https://antv.alipay.com/zh/.*",
       "tags": [
         "zh"
       ]
     },
     {
-      "url": "https://antv.alipay.com/en.*",
+      "url": "https://antv.alipay.com/.*/zh/.*",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://antv.alipay.com/en",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antv.alipay.com/.*/en.*",
+      "url": "https://antv.alipay.com/en/.*",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://antv.alipay.com/.*/en/.*",
       "tags": [
         "en"
       ]
@@ -55,16 +79,16 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "header nav ul > li.header-menu-item-active",
+      "selector": "header h2",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
+    "lvl1": "article h1, .banner-title",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5",
-    "text": "article p, article li, article table td"
+    "text": "article p, article li, article table td, .banner-description"
   },
   "strip_chars": "#",
   "conversation_id": [
