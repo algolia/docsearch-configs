@@ -4,7 +4,9 @@
     "https://design-system.barnardos.org.uk/"
   ],
   "stop_urls": [],
-  "sitemap_urls":["https://design-system.barnardos.org.uk/sitemap.xml"],
+  "sitemap_urls": [
+    "https://design-system.barnardos.org.uk/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".Topic",
@@ -28,5 +30,5 @@
   ],
   "min_indexed_level": 2,
   "scrap_start_urls": false,
-  "nb_hits": 581
+  "nb_hits": 633
 }
