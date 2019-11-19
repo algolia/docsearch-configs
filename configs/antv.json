@@ -2,6 +2,12 @@
   "index_name": "antv",
   "start_urls": [
     {
+      "url": "https://antvis.github.io/zh",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
       "url": "https://antvis.github.io/zh/.*",
       "tags": [
         "zh"
@@ -47,6 +53,12 @@
       "url": "https://antv.alipay.com/.*/zh/.*",
       "tags": [
         "zh"
+      ]
+    },
+    {
+      "url": "https://antv.alipay.com/en",
+      "tags": [
+        "en"
       ]
     },
     {
