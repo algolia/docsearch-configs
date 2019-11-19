@@ -67,9 +67,9 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "header nav ul > li.header-menu-item-active",
+      "selector": "header h2",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "AntV"
     },
     "lvl1": "article h1",
     "lvl2": "article h2",
