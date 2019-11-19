@@ -38,7 +38,13 @@
       ]
     },
     {
-      "url": "https://antv.alipay.com/zh.*",
+      "url": "https://antv.alipay.com/zh",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://antv.alipay.com/zh/.*",
       "tags": [
         "zh"
       ]
@@ -50,7 +56,13 @@
       ]
     },
     {
-      "url": "https://antv.alipay.com/en.*",
+      "url": "https://antv.alipay.com/en",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://antv.alipay.com/en/.*",
       "tags": [
         "en"
       ]
