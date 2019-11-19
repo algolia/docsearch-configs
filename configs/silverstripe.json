@@ -1,7 +1,7 @@
 {
   "index_name": "silverstripe",
   "start_urls": [
-    "https://ss-docs.netlify.com"
+    "https://docs.silverstripe.org"
   ],
   "stop_urls": [],
   "selectors": {
