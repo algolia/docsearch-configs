@@ -1,0 +1,160 @@
+{
+  "index_name": "itential_doc",
+  "start_urls": [
+    {
+      "url": "https://docs.itential.io/admin/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/api/",
+      "selectors_key": "api",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/changelog/",
+      "selectors_key": "changelogs",
+      "page_rank": 2
+    },
+    {
+      "url": "https://docs.itential.io/developer/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/faq/",
+      "selectors_key": "faqs",
+      "page_rank": 4
+    },
+    {
+      "url": "https://docs.itential.io/product/",
+      "selectors_key": "product",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/user/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/admin/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/api/",
+      "selectors_key": "api",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/changelog/",
+      "selectors_key": "changelogs",
+      "page_rank": 2
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/developer/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/product/",
+      "selectors_key": "product",
+      "page_rank": 4
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/user/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/admin/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/api/",
+      "selectors_key": "api",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/changelog/",
+      "selectors_key": "changelogs",
+      "page_rank": 2
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/developer/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/product/",
+      "selectors_key": "product",
+      "page_rank": 4
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/user/",
+      "page_rank": 3
+    }
+  ],
+  "stop_urls": [
+    "Open%20Source%20Notices"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
+        "global": true
+      },
+      "lvl1": ".markdown-doc .table-of-contents > h3",
+      "lvl2": ".markdown-doc h1.content-title",
+      "lvl3": ".markdown-doc .content-body h2",
+      "lvl4": ".markdown-doc .content-body h3",
+      "text": ".markdown-doc .content-body p"
+    },
+    "api": {
+      "lvl0": {
+        "selector": ".api-method-doc .breadcrumb > li:nth-child(2) > a",
+        "global": true
+      },
+      "lvl1": {
+        "selector": ".api-method-doc .table-of-contents > h3",
+        "global": true
+      },
+      "lvl2": {
+        "selector": ".api-method-doc h1.content-title",
+        "global": true
+      },
+      "text": ".api-method-doc .content-body #summary + p, .api-method-doc .content-body #description + p"
+    },
+    "changelogs": {
+      "lvl0": {
+        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
+        "global": true
+      },
+      "lvl1": ".markdown-doc h1.content-title",
+      "lvl2": ".markdown-doc .content-body > h1",
+      "lvl3": ".markdown-doc .content-body > h2",
+      "text": ".markdown-doc .content-body p"
+    },
+    "faqs": {
+      "lvl0": ".markdown-doc h1.content-title",
+      "lvl1": {
+        "selector": "#gAoEGMHB_this_should_not_exist_82fLegVf",
+        "default": "FAQs"
+      },
+      "lvl2": ".markdown-doc .content-body h2",
+      "lvl3": ".markdown-doc .content-body h3",
+      "text": ".markdown-doc .content-body p"
+    },
+    "product": {
+      "lvl0": {
+        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
+        "global": true
+      },
+      "lvl1": {
+        "selector": ".api-method-doc .table-of-contents > h3",
+        "global": true
+      },
+      "lvl2": ".api-method-doc h1.content-title",
+      "lvl3": ".markdown-doc .content-body > h2",
+      "text": ".markdown-doc .content-body p"
+    }
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "998577915"
+  ],
+  "nb_hits": 11276
+}
