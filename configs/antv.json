@@ -2,37 +2,7 @@
   "index_name": "antv",
   "start_urls": [
     {
-      "url": "https://antvis.github.io/zh.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antvis.github.io/.*/zh.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antvis.github.io/en.*",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://antvis.github.io/.*/en/.*",
-      "tags": [
-        "en"
-      ]
-    },
-    {
       "url": "https://antv.vision/zh.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.vision/.*/zh/.*",
       "tags": [
         "zh"
       ]
@@ -44,14 +14,19 @@
       ]
     },
     {
-      "url": "https://antv.vision/.*/en/.*",
+      "url": "https://*.antv.vision/zh.*",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://*.antv.vision/en.*",
       "tags": [
         "en"
       ]
-    }
+    },
   ],
   "stop_urls": [
-    "/demo/"
   ],
   "selectors": {
     "lvl0": {
