@@ -1,107 +1,86 @@
 {
-  "index_name": "itential_doc",
+  "index_name": "content",
   "start_urls": [
     {
-      "url": "https://docs.itential.io/admin/",
+      "url": "https://docs.itential.io/(?P<version>.*?)/admin/",
+      "variables": {
+        "version": {
+          "url": "https://docs.itential.io/admin/",
+          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
+        }
+      },
+      "selectors_key": "guide",
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/api/",
+      "url": "https://docs.itential.io/(?P<version>.*?)/api/",
+      "variables": {
+        "version": {
+          "url": "https://docs.itential.io/admin/",
+          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
+        }
+      },
       "selectors_key": "api",
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/changelog/",
+      "url": "https://docs.itential.io/(?P<version>.*?)/changelog/",
+      "variables": {
+        "version": {
+          "url": "https://docs.itential.io/admin/",
+          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
+        }
+      },
       "selectors_key": "changelogs",
       "page_rank": 2
     },
     {
-      "url": "https://docs.itential.io/developer/",
+      "url": "https://docs.itential.io/(?P<version>.*?)/developer/",
+      "variables": {
+        "version": {
+          "url": "https://docs.itential.io/admin/",
+          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
+        }
+      },
+      "selectors_key": "guide",
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/faq/",
-      "selectors_key": "faqs",
-      "page_rank": 4
-    },
-    {
-      "url": "https://docs.itential.io/product/",
-      "selectors_key": "product",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/user/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/admin/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/api/",
-      "selectors_key": "api",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/changelog/",
-      "selectors_key": "changelogs",
-      "page_rank": 2
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/developer/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/product/",
+      "url": "https://docs.itential.io/(?P<version>.*?)/product/",
+      "variables": {
+        "version": {
+          "url": "https://docs.itential.io/admin/",
+          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
+        }
+      },
       "selectors_key": "product",
       "page_rank": 4
     },
     {
-      "url": "https://docs.itential.io/2019.1/user/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/admin/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/api/",
-      "selectors_key": "api",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/changelog/",
-      "selectors_key": "changelogs",
-      "page_rank": 2
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/developer/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/product/",
-      "selectors_key": "product",
-      "page_rank": 4
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/user/",
+      "url": "https://docs.itential.io/(?P<version>.*?)/user/",
+      "variables": {
+        "version": {
+          "url": "https://docs.itential.io/admin/",
+          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
+        }
+      },
+      "selectors_key": "guide",
       "page_rank": 3
     }
   ],
   "stop_urls": [
-    "Open%20Source%20Notices"
+    "Open%20Source%20Notices",
+    "/docs.itential.io/schema//",
+    "/docs.itential.io/.*/schema//"
   ],
   "selectors": {
     "default": {
-      "lvl0": {
-        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
-        "global": true
-      },
-      "lvl1": ".markdown-doc .table-of-contents > h3",
-      "lvl2": ".markdown-doc h1.content-title",
-      "lvl3": ".markdown-doc .content-body h2",
-      "lvl4": ".markdown-doc .content-body h3",
-      "text": ".markdown-doc .content-body p"
+      "lvl0": "#do-not-create-record-21fdlusb h6",
+      "lvl1": "#do-not-create-record-21fdlusb h6",
+      "lvl2": "#do-not-create-record-21fdlusb h6",
+      "lvl3": "#do-not-create-record-21fdlusb h6",
+      "lvl4": "#do-not-create-record-21fdlusb h6",
+      "text": "#do-not-create-record-21fdlusb h6"
     },
     "api": {
       "lvl0": {
@@ -128,6 +107,17 @@
       "lvl3": ".markdown-doc .content-body > h2",
       "text": ".markdown-doc .content-body p"
     },
+    "guide": {
+      "lvl0": {
+        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
+        "global": true
+      },
+      "lvl1": ".markdown-doc .table-of-contents > h3",
+      "lvl2": ".markdown-doc h1.content-title",
+      "lvl3": ".markdown-doc .content-body h2",
+      "lvl4": ".markdown-doc .content-body h3",
+      "text": ".markdown-doc .content-body p"
+    },
     "faqs": {
       "lvl0": ".markdown-doc h1.content-title",
       "lvl1": {
@@ -152,9 +142,5 @@
       "text": ".markdown-doc .content-body p"
     }
   },
-  "min_indexed_level": 2,
-  "conversation_id": [
-    "998577915"
-  ],
-  "nb_hits": 11276
+  "min_indexed_level": 2
 }
