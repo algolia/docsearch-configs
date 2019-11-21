@@ -2,56 +2,31 @@
   "index_name": "antv",
   "start_urls": [
     {
-      "url": "https://antvis.github.io/zh.*",
+      "url": "https://antv.vision/zh.*",
       "tags": [
         "zh"
       ]
     },
     {
-      "url": "https://antvis.github.io/.*/zh.*",
+      "url": "https://*.antv.vision/zh.*",
       "tags": [
         "zh"
       ]
     },
     {
-      "url": "https://antvis.github.io/en.*",
+      "url": "https://antv.vision/en.*",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antvis.github.io/.*/en.*",
+      "url": "https://*.antv.vision/en.*",
       "tags": [
         "en"
       ]
     },
-    {
-      "url": "https://antv.alipay.com/zh.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/.*/zh.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/en.*",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/.*/en.*",
-      "tags": [
-        "en"
-      ]
-    }
   ],
   "stop_urls": [
-    "/demo/"
   ],
   "selectors": {
     "lvl0": {
