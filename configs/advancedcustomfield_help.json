@@ -1,7 +1,7 @@
 {
-  "index_name": "badfl",
+  "index_name": "advancedcustomfield_help",
   "start_urls": [
-    "https://document.badfl.com/"
+    "https://help.advancedcustomfield.com"
   ],
   "stop_urls": [],
   "selectors": {
@@ -10,12 +10,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "text": ".content p, .content li",
-    "lvl5": ".content h5",
+    "lvl1": ".theme-default-content h1",
+    "lvl2": ".theme-default-content h2",
+    "lvl3": ".theme-default-content h3",
+    "lvl4": ".theme-default-content h4",
+    "lvl5": ".theme-default-content h5",
+    "text": ".theme-default-content p, .theme-default-content li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -23,6 +23,9 @@
       "default_value": "en-US"
     }
   },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
@@ -30,8 +33,8 @@
     ]
   },
   "conversation_id": [
-    "681980610"
+    "1007652054"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 1239
+  "nb_hits": 278
 }

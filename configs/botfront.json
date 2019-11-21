@@ -1,7 +1,8 @@
 {
   "index_name": "botfront",
   "start_urls": [
-    "https://docs.botfront.io"
+    "https://docs.botfront.io",
+    "https://botfront.io/docs"
   ],
   "stop_urls": [],
   "selectors": {
@@ -31,5 +32,5 @@
   "conversation_id": [
     "849408251"
   ],
-  "nb_hits": 339
+  "nb_hits": 437
 }
