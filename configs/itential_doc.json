@@ -1,5 +1,5 @@
 {
-  "index_name": "content",
+  "index_name": "itential_doc",
   "start_urls": [
     {
       "url": "https://docs.itential.io/(?P<version>.*?)/admin/",
@@ -9,7 +9,6 @@
           "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
         }
       },
-      "selectors_key": "guide",
       "page_rank": 3
     },
     {
@@ -42,7 +41,6 @@
           "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
         }
       },
-      "selectors_key": "guide",
       "page_rank": 3
     },
     {
@@ -64,7 +62,6 @@
           "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
         }
       },
-      "selectors_key": "guide",
       "page_rank": 3
     }
   ],
@@ -75,12 +72,15 @@
   ],
   "selectors": {
     "default": {
-      "lvl0": "#do-not-create-record-21fdlusb h6",
-      "lvl1": "#do-not-create-record-21fdlusb h6",
-      "lvl2": "#do-not-create-record-21fdlusb h6",
-      "lvl3": "#do-not-create-record-21fdlusb h6",
-      "lvl4": "#do-not-create-record-21fdlusb h6",
-      "text": "#do-not-create-record-21fdlusb h6"
+      "lvl0": {
+        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
+        "global": true
+      },
+      "lvl1": ".markdown-doc .table-of-contents > h3",
+      "lvl2": ".markdown-doc h1.content-title",
+      "lvl3": ".markdown-doc .content-body h2",
+      "lvl4": ".markdown-doc .content-body h3",
+      "text": ".markdown-doc .content-body p"
     },
     "api": {
       "lvl0": {
@@ -107,17 +107,6 @@
       "lvl3": ".markdown-doc .content-body > h2",
       "text": ".markdown-doc .content-body p"
     },
-    "guide": {
-      "lvl0": {
-        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
-        "global": true
-      },
-      "lvl1": ".markdown-doc .table-of-contents > h3",
-      "lvl2": ".markdown-doc h1.content-title",
-      "lvl3": ".markdown-doc .content-body h2",
-      "lvl4": ".markdown-doc .content-body h3",
-      "text": ".markdown-doc .content-body p"
-    },
     "faqs": {
       "lvl0": ".markdown-doc h1.content-title",
       "lvl1": {
@@ -142,5 +131,9 @@
       "text": ".markdown-doc .content-body p"
     }
   },
-  "min_indexed_level": 2
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "998577915"
+  ],
+  "nb_hits": 11276
 }
