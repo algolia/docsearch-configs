@@ -1,7 +1,7 @@
 {
   "index_name": "reason-react-native",
   "start_urls": [
-    "https://reasonml-community.github.io/reason-react-native/en/docs/"
+    "https://reason-react-native.github.io/en/docs/"
   ],
   "stop_urls": [],
   "selectors": {
