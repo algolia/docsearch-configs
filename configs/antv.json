@@ -2,80 +2,91 @@
   "index_name": "antv",
   "start_urls": [
     {
-      "url": "https://antvis.github.io/zh",
+      "url": "https://antv.vision/zh.*",
       "tags": [
         "zh"
       ]
     },
     {
-      "url": "https://antvis.github.io/zh/.*",
+      "url": "https://g2.antv.vision/zh.*",
       "tags": [
         "zh"
       ]
     },
     {
-      "url": "https://antvis.github.io/.*/zh.*",
+      "url": "https://g2plot.antv.vision/zh.*",
       "tags": [
         "zh"
       ]
     },
     {
-      "url": "https://antvis.github.io/en",
+      "url": "https://g6.antv.vision/zh.*",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://f2.antv.vision/zh.*",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://l7.antv.vision/zh.*",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://graphin.antv.vision/zh.*",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://antv.vision/en.*",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antvis.github.io/en/.*",
+      "url": "https://g2.antv.vision/en.*",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antvis.github.io/.*/en/.*",
+      "url": "https://g2plot.antv.vision/en.*",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antv.alipay.com/zh",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/zh/.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/.*/zh/.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/en",
+      "url": "https://g6.antv.vision/en.*",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antv.alipay.com/en/.*",
+      "url": "https://f2.antv.vision/en.*",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antv.alipay.com/.*/en/.*",
+      "url": "https://l7.antv.vision/en.*",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://graphin.antv.vision/en.*",
       "tags": [
         "en"
       ]
     }
   ],
   "stop_urls": [
-    "/demo/"
   ],
   "selectors": {
     "lvl0": {
