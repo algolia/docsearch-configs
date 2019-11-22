@@ -1,0 +1,23 @@
+{
+  "index_name": "3playground",
+  "start_urls": [
+    "https://www.3playground.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "section.section h2",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section.section h3",
+    "lvl2": "section.section h4",
+    "lvl3": "section.section h5",
+    "lvl4": "section.section h6",
+    "text": "section.section p, section.section li"
+  },
+  "conversation_id": [
+    "1004758927"
+  ],
+  "nb_hits": 105
+}
