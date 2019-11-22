@@ -1,8 +1,8 @@
 {
-  "index_name": "helm",
+  "index_name": "helm_v2",
   "start_urls": [
     {
-      "url": "https://helm.sh/docs/",
+      "url": "https://v2.helm.sh/docs/",
       "tags": [
         "docs"
       ]
@@ -19,7 +19,7 @@
     "/developing_charts/"
   ],
   "sitemap_urls": [
-    "https://helm.sh/sitemap.xml"
+    "https://v2.helm.sh/sitemap.xml"
   ],
   "selectors": {
     "default": {
@@ -54,5 +54,5 @@
   "conversation_id": [
     "749661449"
   ],
-  "nb_hits": 2589
+  "nb_hits": 3696
 }
