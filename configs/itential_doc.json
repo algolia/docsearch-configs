@@ -1,67 +1,88 @@
 {
   "index_name": "itential_doc",
+  "sitemap_urls": [
+    "https://docs.itential.io/sitemap.xml"
+  ],
   "start_urls": [
     {
-      "url": "https://docs.itential.io/(?P<version>.*?)/admin/",
-      "variables": {
-        "version": {
-          "url": "https://docs.itential.io/admin/",
-          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
-        }
-      },
+      "url": "https://docs.itential.io/2019.2/admin/",
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/(?P<version>.*?)/api/",
-      "variables": {
-        "version": {
-          "url": "https://docs.itential.io/admin/",
-          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
-        }
-      },
+      "url": "https://docs.itential.io/2019.2/api/",
       "selectors_key": "api",
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/(?P<version>.*?)/changelog/",
-      "variables": {
-        "version": {
-          "url": "https://docs.itential.io/admin/",
-          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
-        }
-      },
+      "url": "https://docs.itential.io/2019.2/changelogs/",
       "selectors_key": "changelogs",
-      "page_rank": 2
-    },
-    {
-      "url": "https://docs.itential.io/(?P<version>.*?)/developer/",
-      "variables": {
-        "version": {
-          "url": "https://docs.itential.io/admin/",
-          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
-        }
-      },
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/(?P<version>.*?)/product/",
-      "variables": {
-        "version": {
-          "url": "https://docs.itential.io/admin/",
-          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
-        }
-      },
-      "selectors_key": "product",
-      "page_rank": 4
+      "url": "https://docs.itential.io/2019.2/developer/",
+      "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/(?P<version>.*?)/user/",
-      "variables": {
-        "version": {
-          "url": "https://docs.itential.io/admin/",
-          "js": "const versions = Array.from(document.querySelector('.dropdown-container>.dropdown-menu.left').querySelectorAll('a')) .map(item => item.textContent) .filter(v => v !== 'latest') .map(v => {let toReturn = v.split('.'); toReturn.pop(); return toReturn.join('.'); }); return JSON.stringify(versions);"
-        }
-      },
+      "url": "https://docs.itential.io/2019.2/product/",
+      "selectors_key": "product",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.2/user/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/admin/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/api/",
+      "selectors_key": "api",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/changelogs/",
+      "selectors_key": "changelogs",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/developer/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/product/",
+      "selectors_key": "product",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2019.1/user/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/admin/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/api/",
+      "selectors_key": "api",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/changelogs/",
+      "selectors_key": "changelogs",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/developer/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/product/",
+      "selectors_key": "product",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/2018.3/user/",
       "page_rank": 3
     }
   ],
@@ -110,7 +131,7 @@
     "faqs": {
       "lvl0": ".markdown-doc h1.content-title",
       "lvl1": {
-        "selector": "#gAoEGMHB_this_should_not_exist_82fLegVf",
+        "selector": "",
         "default": "FAQs"
       },
       "lvl2": ".markdown-doc .content-body h2",
