@@ -5,85 +5,84 @@
   ],
   "start_urls": [
     {
-      "url": "https://docs.itential.io/2019.2/admin/",
-      "page_rank": 3
+      "url": "https://docs.itential.io/(?P<version>.*?)/admin/",
+      "page_rank": 3,
+      "variables": {
+        "version": [
+          "2019.3",
+          "2019.2",
+          "2019.1",
+          "2018.3"
+        ]
+      }
     },
     {
-      "url": "https://docs.itential.io/2019.2/api/",
+      "url": "https://docs.itential.io/(?P<version>.*?)/api/",
       "selectors_key": "api",
-      "page_rank": 3
+      "page_rank": 3,
+      "variables": {
+        "version": [
+          "2019.3",
+          "2019.2",
+          "2019.1",
+          "2018.3"
+        ]
+      }
     },
     {
-      "url": "https://docs.itential.io/2019.2/changelogs/",
+      "url": "https://docs.itential.io/(?P<version>.*?)/changelogs/",
       "selectors_key": "changelogs",
-      "page_rank": 3
+      "page_rank": 3,
+      "variables": {
+        "version": [
+          "2019.3",
+          "2019.2",
+          "2019.1",
+          "2018.3"
+        ]
+      }
     },
     {
-      "url": "https://docs.itential.io/2019.2/developer/",
-      "page_rank": 3
+      "url": "https://docs.itential.io/(?P<version>.*?)/developer/",
+      "page_rank": 3,
+      "variables": {
+        "version": [
+          "2019.3",
+          "2019.2",
+          "2019.1",
+          "2018.3"
+        ]
+      }
     },
     {
-      "url": "https://docs.itential.io/2019.2/product/",
+      "url": "https://docs.itential.io/faq/",
+      "selectors_key": "faqs",
+      "page_rank": 4
+    },
+    {
+      "url": "https://docs.itential.io/(?P<version>.*?)/product/",
       "selectors_key": "product",
-      "page_rank": 3
+      "page_rank": 3,
+      "variables": {
+        "version": [
+          "2019.3",
+          "2019.2",
+          "2019.1",
+          "2018.3"
+        ]
+      }
     },
     {
-      "url": "https://docs.itential.io/2019.2/user/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/admin/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/api/",
-      "selectors_key": "api",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/changelogs/",
-      "selectors_key": "changelogs",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/developer/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/product/",
-      "selectors_key": "product",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2019.1/user/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/admin/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/api/",
-      "selectors_key": "api",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/changelogs/",
-      "selectors_key": "changelogs",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/developer/",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/product/",
-      "selectors_key": "product",
-      "page_rank": 3
-    },
-    {
-      "url": "https://docs.itential.io/2018.3/user/",
-      "page_rank": 3
+      "url": "https://docs.itential.io/(?P<version>.*?)/user/",
+      "page_rank": 3,
+      "variables": {
+        "version": [
+          "2019.3",
+          "2019.2",
+          "2019.1",
+          "2018.3"
+        ]
+      }
     }
   ],
   "stop_urls": [
