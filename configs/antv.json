@@ -8,33 +8,21 @@
       ]
     },
     {
-      "url": "https://antvis.github.io/zh/.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antvis.github.io/.*/zh.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
       "url": "https://antvis.github.io/en",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antvis.github.io/en/.*",
+      "url": "https://antvis.github.io/.*/en/",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://antvis.github.io/.*/en/.*",
+      "url": "https://antvis.github.io/.*/zh",
       "tags": [
-        "en"
+        "zh"
       ]
     }
   ],
