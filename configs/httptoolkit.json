@@ -1,0 +1,27 @@
+{
+  "index_name": "httptoolkit",
+  "start_urls": [
+    "https://httptoolkit.tech/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls":["https://httptoolkit.tech/sitemap.xml"],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'active')]/preceding::button[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1004553184"
+  ],
+  "nb_hits": 587
+}

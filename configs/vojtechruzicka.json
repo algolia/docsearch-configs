@@ -8,7 +8,7 @@
     "lvl0": {
       "selector": "",
       "global": true,
-        "default_value": "Search Results"
+      "default_value": "Search Results"
     },
     "lvl1": ".docSearch-content h1",
     "lvl2": ".docSearch-content h2",
@@ -19,5 +19,5 @@
   "conversation_id": [
     "593663647"
   ],
-  "nb_hits": 1890
+  "nb_hits": 4804
 }
