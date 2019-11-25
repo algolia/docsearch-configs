@@ -36,42 +36,6 @@
       "tags": [
         "en"
       ]
-    },
-    {
-      "url": "https://antv.alipay.com/zh",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/zh/.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/.*/zh/.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/en",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/en/.*",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/.*/en/.*",
-      "tags": [
-        "en"
-      ]
     }
   ],
   "stop_urls": [
