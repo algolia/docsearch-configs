@@ -87,6 +87,7 @@
     }
   ],
   "stop_urls": [
+    "/demo/"
   ],
   "selectors": {
     "lvl0": {
