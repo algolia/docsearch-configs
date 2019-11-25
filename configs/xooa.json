@@ -1,0 +1,20 @@
+{
+  "index_name": "xooa",
+  "start_urls": [
+    "https://docs.xooa.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".doc-title",
+    "lvl1": ".doc-content h2",
+    "lvl2": ".doc-content h3",
+    "lvl3": ".doc-content h4",
+    "lvl4": ".doc-content h5",
+    "lvl5": ".doc-content h6",
+    "text": ".doc-content p, .doc-content li"
+  },
+  "conversation_id": [
+    "1007267478"
+  ],
+  "nb_hits": 1444
+}

@@ -1,0 +1,50 @@
+{
+  "index_name": "princexml",
+  "start_urls": [
+    "https://www.princexml.com/doc/"
+  ],
+  "sitemap_urls": [
+    "https://www.princexml.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "/doc/5.1/",
+    "/doc/6.0/",
+    "/doc/7.0/",
+    "/doc/7.1/",
+    "/doc/8.0/",
+    "/doc/8.1/",
+    "/doc/9.0/",
+    "/doc/10/",
+    "/doc/11/",
+    "/doc/12/",
+    "/assets/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1011479657"
+  ],
+  "nb_hits": 2966
+}

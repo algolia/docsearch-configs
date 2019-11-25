@@ -1,0 +1,58 @@
+{
+  "index_name": "helm_v2",
+  "start_urls": [
+    {
+      "url": "https://v2.helm.sh/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://helm.sh/blog/",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "/developing_charts/"
+  ],
+  "sitemap_urls": [
+    "https://v2.helm.sh/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".content-wrap h1",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content-wrap h2",
+      "lvl2": ".content-wrap h3",
+      "lvl3": ".content-wrap h4",
+      "lvl4": ".content-wrap h5",
+      "text": ".content-wrap p, .content-wrap li"
+    },
+    "blog": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": ".content-wrap h1",
+      "lvl2": ".content-wrap h2",
+      "lvl3": ".content-wrap h3",
+      "lvl4": ".content-wrap h4",
+      "lvl5": ".content-wrap h5",
+      "text": ".content-wrap p, .content-wrap li"
+    }
+  },
+  "selectors_exclude": [
+    ".content-wrap > h3:first-child"
+  ],
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "749661449"
+  ],
+  "nb_hits": 3696
+}
