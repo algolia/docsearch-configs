@@ -13,9 +13,12 @@
     "lvl5": ".content h6",
     "text": ".content p, .content li"
   },
-  "selectors_exclude":[".breadcrumbs"],
+  "selectors_exclude": [
+    ".breadcrumbs"
+  ],
+  "scrap_start_urls": false,
   "conversation_id": [
     "999746648"
   ],
-  "nb_hits": 731
+  "nb_hits": 718
 }
