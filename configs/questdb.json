@@ -1,11 +1,11 @@
 {
-  "index_name": "e-mos",
+  "index_name": "questdb",
   "start_urls": [
-    "https://www.proj-e.com/docs/",
-    "https://www.proj-e.com/docs/giris/"
+    "https://www.questdb.io/docs/",
+    "https://www.questdb.io/docs/documentation"
   ],
   "sitemap_urls": [
-    "https://www.proj-e.com/sitemap.xml"
+    "https://www.questdb.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -19,9 +19,9 @@
     "lvl1": ".post h1",
     "lvl2": ".post h2",
     "lvl3": ".post h3",
-    "lvl4": ".post h4, .post td:first-child",
+    "lvl4": ".post h4",
     "lvl5": ".post h5",
-    "text": ".post article p, .post article li, .post td:last-child"
+    "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -33,7 +33,7 @@
     ]
   },
   "conversation_id": [
-    "860786174"
+    "1015685812"
   ],
-  "nb_hits": 4647
+  "nb_hits": 782
 }
