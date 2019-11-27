@@ -5,6 +5,8 @@
       "url": "https://getbootstrap.com/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "4.4",
+          "4.3",
           "4.2",
           "4.1",
           "4.0"
