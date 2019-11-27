@@ -1,39 +1,6 @@
 {
   "index_name": "bootstrap",
   "start_urls": [
-    {
-      "url": "https://getbootstrap.com/docs/4.0/",
-      "extra_attributes": {
-        "language": [
-          "en"
-        ],
-        "version": [
-          "4.0"
-        ]
-      }
-    },
-    {
-      "url": "https://getbootstrap.com/docs/4.1/",
-      "extra_attributes": {
-        "language": [
-          "en"
-        ],
-        "version": [
-          "4.1"
-        ]
-      }
-    },
-    {
-      "url": "https://getbootstrap.com/docs/4.2/",
-      "extra_attributes": {
-        "language": [
-          "en"
-        ],
-        "version": [
-          "4.2"
-        ]
-      }
-    },
     "https://getbootstrap.com/docs/"
   ],
   "stop_urls": [
