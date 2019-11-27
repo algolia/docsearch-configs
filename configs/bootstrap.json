@@ -50,9 +50,9 @@
     "lvl1": "main h1",
     "lvl2": "main h2",
     "lvl3": "main h3",
-    "lvl4": "main h4",
+    "lvl4": "main h4, main td:first-child",
     "lvl5": "main h5",
-    "text": "main p, main li"
+    "text": "main p, main li, main td:last-child"
   },
   "selectors_exclude": [
     ".bd-example"
@@ -63,5 +63,5 @@
       "language"
     ]
   },
-  "nb_hits": 12987
+  "nb_hits": 15013
 }
