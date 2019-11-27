@@ -3,8 +3,7 @@
   "start_urls": [
     "https://www.pomerium.io/docs/",
     "https://www.pomerium.io/configuration/",
-    "https://www.pomerium.io/recipes/",
-    "https://www.pomerium.io/community/"
+    "https://www.pomerium.io/recipes/"
   ],
   "stop_urls": [],
   "selectors": {
