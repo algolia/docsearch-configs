@@ -15,7 +15,7 @@
     "text": ".docsearch-content p, .docsearch-content li"
   },
   "custom_settings": {
-    "attributesForFaceting": ["language", "version", "package"]
+    "attributesForFaceting": ["language", "version", "package", "page"]
   },
   "js_render": true,
   "strip_chars": " .,;:#",
