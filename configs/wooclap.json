@@ -84,7 +84,7 @@
       "lvl6": "main section h6",
       "text": "main section p, main section li",
       "lang": {
-        "selector": "substring(//div[contains(@class,'breadcrumb')]/div[2]/a/text(), string-length(//div[contains(@class,'breadcrumb')]/div[2]/a/text()) - 2, 2), /html/@lang",
+        "selector": "/html/@lang",
         "type": "xpath",
         "global": true
       }
@@ -131,5 +131,5 @@
   "conversation_id": [
     "852968610"
   ],
-  "nb_hits": 4859
+  "nb_hits": 9547
 }
