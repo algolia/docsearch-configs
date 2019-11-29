@@ -1,0 +1,34 @@
+{
+  "index_name": "coderello_docs",
+  "start_urls": [
+    "https://coderello.com"
+  ],
+  "scrap_start_urls": false,
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://coderello.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".docsearch-content h1",
+    "lvl1": ".docsearch-content h2",
+    "lvl2": ".docsearch-content h3",
+    "lvl3": ".docsearch-content h4",
+    "lvl4": ".docsearch-content h5",
+    "lvl5": ".docsearch-content h6",
+    "text": ".docsearch-content p, .docsearch-content li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "package",
+      "page"
+    ]
+  },
+  "js_render": true,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1010373163"
+  ],
+  "nb_hits": 114
+}
