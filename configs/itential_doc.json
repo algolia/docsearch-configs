@@ -111,10 +111,10 @@
         "global": true
       },
       "lvl1": {
-        "selector": ".api-method-doc .table-of-contents > h3",
+        "selector": ".markdown-doc .table-of-contents > h3",
         "global": true
       },
-      "lvl2": ".api-method-doc h1.content-title",
+      "lvl2": ".markdown-doc h1.content-title",
       "lvl3": ".markdown-doc .content-body > h2",
       "text": ".markdown-doc .content-body p",
       "version": {
