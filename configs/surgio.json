@@ -3,7 +3,12 @@
   "start_urls": [
     "https://surgio.royli.dev"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "^(.(?!.*\\.html)).*?/guide/.+$"
+  ],
+  "sitemap_ulrs": [
+    "https://surgio.royli.dev/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -36,5 +41,5 @@
     "1013553089"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 893
+  "nb_hits": 713
 }
