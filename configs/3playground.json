@@ -14,7 +14,7 @@
     },
     "lvl1": "div.section h2",
     "lvl2": "div.section h3",
-    "lvl3": "div.content h3", "div.content h4", "div.content h5", "div.section h3", "div.section h4", "div.section h5", 
+    "lvl3": "div.content h3, div.content h4, div.content h5, div.section h3, div.section h4, div.section h5", 
     "text": "section.section p, section.section li, div.content p, div.section p, div.content li, div.section li"
   },
   "conversation_id": [
