@@ -2,21 +2,21 @@
   "index_name": "kwb_flusshygiene",
   "start_urls": [
     {
-      "url": "https://kwb-r.github.io/kwb.flusshygiene.app/index.html",
+      "url": "https://kwb-r.github.io/kwb.flusshygiene/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://kwb-r.github.io/kwb.flusshygiene.app/reference",
+      "url": "https://kwb-r.github.io/kwb.flusshygiene/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://kwb-r.github.io/kwb.flusshygiene.app/articles",
+      "url": "https://kwb-r.github.io/kwb.flusshygiene/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -24,7 +24,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://kwb-r.github.io/kwb.flusshygiene.app/sitemap.xml"
+    "https://kwb-r.github.io/kwb.flusshygiene/sitemap.xml"
   ],
   "stop_urls": [
     "/reference/$",
@@ -91,7 +91,7 @@
     ]
   },
   "conversation_id": [
-    "994484316"
+    "1017322200"
   ],
-  "nb_hits": 221
+  "nb_hits": 249
 }
