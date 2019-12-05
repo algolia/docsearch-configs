@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "nav > ul > li.-active > div",
+      "selector": "aside.docs-body__aside > nav > ul > li.-active > div",
       "global": true,
       "default_value": "Documentation"
     },
