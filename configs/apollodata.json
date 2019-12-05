@@ -29,6 +29,7 @@
     "https://www.apollographql.com/docs/scala/",
     "https://www.apollographql.com/docs/graphql-tools/",
     "https://www.apollographql.com/docs/graphql-subscriptions/",
+    "https://www.apollographql.com/docs/ios/api/",
     "https:\\/\\/www\\.apollographql\\.com\\/docs/[A-Za-z0-9_-]+\\/v[0-9]+\\.",
     "https:\\/\\/www\\.apollographql\\.com\\/docs/v[0-9]+\\."
   ],
@@ -47,5 +48,5 @@
   "conversation_id": [
     "355172644"
   ],
-  "nb_hits": 6049
+  "nb_hits": 5490
 }
