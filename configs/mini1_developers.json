@@ -1,7 +1,7 @@
 {
-  "index_name": "salestimhelpcenter",
+  "index_name": "mini1_developers",
   "start_urls": [
-    "https://developers.salestim.com/"
+    "https://developers.mini1.cn/wiki/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -10,12 +10,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content__default h1",
-    "lvl2": ".content__default h2",
-    "lvl3": ".content__default h3",
-    "lvl4": ".content__default h4",
-    "lvl5": ".content__default h5",
-    "text": ".content__default p, .content__default li",
+    "lvl1": ".theme-default-content h1",
+    "lvl2": ".theme-default-content h2",
+    "lvl3": ".theme-default-content h3",
+    "lvl4": ".theme-default-content h4",
+    "lvl5": ".theme-default-content h5",
+    "text": ".theme-default-content p, .theme-default-content li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -23,6 +23,9 @@
       "default_value": "en-US"
     }
   },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
@@ -30,8 +33,8 @@
     ]
   },
   "conversation_id": [
-    "742113422"
+    "1024475099"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 477
+  "nb_hits": 2872
 }

@@ -4,9 +4,11 @@
     "https://surgio.royli.dev"
   ],
   "stop_urls": [
-    "^(.(?!.*\\.html)).*?/guide/.+$"
+    "^(.(?!.*\\.html)).*?/guide/.+$",
+    "https://surgio.royli.dev/404.html",
+    "https://surgio.royli.dev/support.html"
   ],
-  "sitemap_ulrs": [
+  "sitemap_urls": [
     "https://surgio.royli.dev/sitemap.xml"
   ],
   "selectors": {
@@ -41,5 +43,5 @@
     "1013553089"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 713
+  "nb_hits": 722
 }
