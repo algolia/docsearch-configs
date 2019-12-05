@@ -19,8 +19,6 @@
   "js_render": true,
   "js_wait": 2,
   "use_anchors": true,
-  "docker_memory": 2048,
-  "docker_cpu": 1,
   "conversation_id": [
     "169265994"
   ],
