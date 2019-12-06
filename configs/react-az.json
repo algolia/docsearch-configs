@@ -1,0 +1,16 @@
+{
+  "indexName": "react-az",
+  "startUrls": [
+    "https://az.reactjs.org/tutorial/tutorial.html"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".css-15weewl p, .css-15weewl li",
+    "lvl0": ".css-15weewl h1",
+    "lvl1": ".css-15weewl h2",
+    "lvl2": ".css-15weewl h3",
+    "lvl3": ".css-15weewl h4",
+    "lvl4": ".css-15weewl h5",
+    "lvl5": ".css-15weewl h6"
+  }
+}
