@@ -1,0 +1,16 @@
+{
+  "indexName": "aaudoc",
+  "startUrls": [
+    "https://aaudoc.netlify.com/contributing/"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".css-he40t2 p, .css-he40t2 li",
+    "lvl0": ".css-he40t2 h1",
+    "lvl1": ".css-he40t2 h2",
+    "lvl2": ".css-he40t2 h3",
+    "lvl3": ".css-he40t2 h4",
+    "lvl4": ".css-he40t2 h5",
+    "lvl5": ".css-he40t2 h6"
+  }
+}
