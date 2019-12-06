@@ -1,0 +1,16 @@
+{
+  "indexName": "microcks",
+  "startUrls": [
+    "https://microcks.io/documentation/getting-started"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".prose p, .prose li",
+    "lvl0": ".prose h1",
+    "lvl1": ".prose h2",
+    "lvl2": ".prose h3",
+    "lvl3": ".prose h4",
+    "lvl4": ".prose h5",
+    "lvl5": ".prose h6"
+  }
+}
