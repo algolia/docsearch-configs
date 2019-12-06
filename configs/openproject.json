@@ -1,14 +1,14 @@
 {
   "index_name": "openproject",
   "start_urls": [
-    "https://docs.openproject-edge.com"
+    "https://docs.openproject.org"
   ],
   "stop_urls": [
-    "com/de/",
+    "org/de/",
     "443"
   ],
   "sitemap_urls": [
-    "https://docs.openproject-edge.com/sitemap.xml"
+    "https://docs.openproject.org/sitemap.xml"
   ],
   "selectors": {
     "lvl0": "[role='main'] h1",
