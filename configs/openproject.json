@@ -16,13 +16,13 @@
   ],
   "selectors": {
     "default": {
-      "lvl0": "[role='main'] h1",
-      "lvl1": "[role='main'] h2",
-      "lvl2": "[role='main'] h3",
-      "lvl3": "[role='main'] h4",
-      "lvl4": "[role='main'] h5",
-      "lvl5": "[role='main'] h6",
-      "text": "[role='main'] p, [role='main'] li"
+      "lvl0": ".article-content h1",
+      "lvl1": ".article-content h2",
+      "lvl2": ".article-content h3",
+      "lvl3": ".article-content h4",
+      "lvl4": ".article-content h5",
+      "lvl5": ".article-content h6",
+      "text": ".article-content p, .article-content li"
     },
     "release-notes": {
       "lvl0": {
@@ -30,11 +30,11 @@
         "global": true,
         "default_value": "Release notes"
       },
-      "lvl1": "[role='main'] h1",
-      "lvl2": "[role='main'] h4",
-      "lvl3": "[role='main'] h5",
-      "lvl4": "[role='main'] h6",
-      "text": "[role='main'] p, [role='main'] li"
+      "lvl1": ".article-content h1",
+      "lvl2": ".article-content h4",
+      "lvl3": ".article-content h5",
+      "lvl4": ".article-content h6",
+      "text": ".article-content p, .article-content li"
     }
   },
   "keep_tags": [
