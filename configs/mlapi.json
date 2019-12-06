@@ -1,0 +1,16 @@
+{
+  "indexName": "mlapi",
+  "startUrls": [
+    "https://mlapi.network/blog/2019/06/12/diffie-hellman-introduction-secure-handshakes/"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".col-md-8 p, .col-md-8 li",
+    "lvl0": ".col-md-8 h1",
+    "lvl1": ".col-md-8 h2",
+    "lvl2": ".col-md-8 h3",
+    "lvl3": ".col-md-8 h4",
+    "lvl4": ".col-md-8 h5",
+    "lvl5": ".col-md-8 h6"
+  }
+}
