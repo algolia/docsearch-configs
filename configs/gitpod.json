@@ -1,0 +1,16 @@
+{
+  "indexName": "gitpod",
+  "startUrls": [
+    "https://www.gitpod.io/pricing/"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".css-h1s266 p, .css-h1s266 li",
+    "lvl0": ".css-h1s266 h1",
+    "lvl1": ".css-h1s266 h2",
+    "lvl2": ".css-h1s266 h3",
+    "lvl3": ".css-h1s266 h4",
+    "lvl4": ".css-h1s266 h5",
+    "lvl5": ".css-h1s266 h6"
+  }
+}
