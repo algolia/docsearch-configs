@@ -1,6 +1,10 @@
 {
   "index_name": "openproject",
   "start_urls": [
+    {
+      "url": "https://docs.openproject.org/release-notes/",
+      "selectors_key": "release-notes"
+    },
     "https://docs.openproject.org"
   ],
   "stop_urls": [
@@ -11,13 +15,27 @@
     "https://docs.openproject.org/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": "[role='main'] h1",
-    "lvl1": "[role='main'] h2",
-    "lvl2": "[role='main'] h3",
-    "lvl3": "[role='main'] h4",
-    "lvl4": "[role='main'] h5",
-    "lvl5": "[role='main'] h6",
-    "text": "[role='main'] p, [role='main'] li"
+    "default": {
+      "lvl0": "[role='main'] h1",
+      "lvl1": "[role='main'] h2",
+      "lvl2": "[role='main'] h3",
+      "lvl3": "[role='main'] h4",
+      "lvl4": "[role='main'] h5",
+      "lvl5": "[role='main'] h6",
+      "text": "[role='main'] p, [role='main'] li"
+    },
+    "release-notes": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Release notes"
+      },
+      "lvl1": "[role='main'] h1",
+      "lvl2": "[role='main'] h4",
+      "lvl3": "[role='main'] h5",
+      "lvl4": "[role='main'] h6",
+      "text": "[role='main'] p, [role='main'] li"
+    }
   },
   "keep_tags": [
     "code"
@@ -26,8 +44,11 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
+  "selectors_exclude": [
+    ".breadcrumb"
+  ],
   "conversation_id": [
     "969244119"
   ],
-  "nb_hits": 5122
+  "nb_hits": 5102
 }
