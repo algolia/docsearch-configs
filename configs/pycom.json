@@ -1,0 +1,19 @@
+{
+  "indexName": "pycom",
+  "startUrls": [
+    "https://docs.pycom.io/pytrackpysense/"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".fancyScroll p, .fancyScroll li",
+    "lvl0": ".fancyScroll h1",
+    "lvl1": ".fancyScroll h2",
+    "lvl2": ".fancyScroll h3",
+    "lvl3": ".fancyScroll h4",
+    "lvl4": ".fancyScroll h5",
+    "lvl5": ".fancyScroll h6"
+  },
+  "sitemapUrls": [
+    "https://docs.pycom.io/pytrackpysense/sitemap.xml"
+  ]
+}
