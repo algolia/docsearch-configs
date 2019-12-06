@@ -1,0 +1,16 @@
+{
+  "indexName": "remax",
+  "startUrls": [
+    "https://remaxjs.org/guide/framework"
+  ],
+  "stopUrls": [],
+  "selectors": {
+    "text": ".mainWrapper p, .mainWrapper li",
+    "lvl0": ".mainWrapper h1",
+    "lvl1": ".mainWrapper h2",
+    "lvl2": ".mainWrapper h3",
+    "lvl3": ".mainWrapper h4",
+    "lvl4": ".mainWrapper h5",
+    "lvl5": ".mainWrapper h6"
+  }
+}
