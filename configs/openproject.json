@@ -22,7 +22,7 @@
       "lvl3": ".article-content h4",
       "lvl4": ".article-content h5",
       "lvl5": ".article-content h6",
-      "text": ".article-content p, .article-content li"
+      "text": ".article-content p, .article-content li:not([id])"
     },
     "release-notes": {
       "lvl0": {
@@ -34,7 +34,7 @@
       "lvl2": ".article-content h4",
       "lvl3": ".article-content h5",
       "lvl4": ".article-content h6",
-      "text": ".article-content p, .article-content li"
+      "text": ".article-content p, .article-content li:not([id])"
     }
   },
   "keep_tags": [
@@ -50,5 +50,5 @@
   "conversation_id": [
     "969244119"
   ],
-  "nb_hits": 5102
+  "nb_hits": 4711
 }
