@@ -4,7 +4,10 @@
     {
       "url": "https://docs.wpcontentcrawler.com/(?P<version>.*?)/",
       "variables": {
-        "version": ["master", "1.9"]
+        "version": [
+          "master",
+          "1.9"
+        ]
       }
     },
     "https://docs.wpcontentcrawler.com/"
@@ -31,5 +34,5 @@
   "conversation_id": [
     "1010054031"
   ],
-  "nb_hits": 10080
+  "nb_hits": 10089
 }
