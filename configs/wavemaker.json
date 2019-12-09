@@ -1,10 +1,10 @@
 {
-  "index_name": "unbxd",
+  "index_name": "wavemaker",
   "start_urls": [
-    "https://amitunbxd.github.io/docs/"
+    "https://www.wavemaker.com/learn/"
   ],
   "sitemap_urls": [
-    "https://amitunbxd.github.io/sitemap.xml"
+    "https://www.wavemaker.com/learn/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -32,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "1003631806"
+    "1018166887"
   ],
-  "nb_hits": 608
+  "nb_hits": 26743
 }

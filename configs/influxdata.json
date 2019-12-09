@@ -127,6 +127,5 @@
     ".old-version"
   ],
   "only_content_level": true,
-  "nb_hits": 121495,
-  "docker_image": null
+  "nb_hits": 121401
 }
