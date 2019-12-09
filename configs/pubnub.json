@@ -1,0 +1,16 @@
+{
+  "index_name": "pubnub",
+  "start_urls": [
+    "https://www.pubnub.com/solutions/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".null p, .null li",
+    "lvl0": ".null h1",
+    "lvl1": ".null h2",
+    "lvl2": ".null h3",
+    "lvl3": ".null h4",
+    "lvl4": ".null h5",
+    "lvl5": ".null h6"
+  }
+}
