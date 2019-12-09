@@ -1,7 +1,7 @@
 {
   "index_name": "terra-project",
   "start_urls": [
-    "https://docs.terra.money/docs/index.html"
+    "https://docs.terra.money/docs/"
   ],
   "sitemap_urls": [
     "https://docs.terra.money/sitemap.xml"
