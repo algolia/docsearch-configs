@@ -1,0 +1,29 @@
+{
+  "index_name": "remaxjs",
+  "start_urls": [
+    "https://remaxjs.org/"
+  ],
+  "sitemap_urls": [
+    "https://remaxjs.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'visible')]//aside//*[@aria-current]/../../../a",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "h1.title",
+    "lvl2": ".mainWrapper h2",
+    "lvl3": ".mainWrapper h3",
+    "lvl4": ".mainWrapper h4",
+    "lvl5": ".mainWrapper h5",
+    "lvl6": ".mainWrapper h6",
+    "text": ".mainWrapper p, .mainWrapper li"
+  },
+  "conversation_id": [
+    "1010400299"
+  ],
+  "nb_hits": 308
+}
