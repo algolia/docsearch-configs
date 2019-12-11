@@ -1,0 +1,28 @@
+{
+  "index_name": "microcks",
+  "start_urls": [
+    "https://microcks.github.io/documentation/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://microcks.github.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "header a",
+      "global": true,
+      "default_value": "Using"
+    },
+    "lvl1": "header h1",
+    "lvl2": "#prose h2",
+    "lvl3": "#prose h3",
+    "lvl4": "#prose h4",
+    "lvl5": "#prose h5",
+    "lvl6": "#prose h6",
+    "text": "#prose p, #prose li"
+  },
+  "conversation_id": [
+    "1017262332"
+  ],
+  "nb_hits": 351
+}
