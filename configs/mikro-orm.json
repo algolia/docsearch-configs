@@ -13,7 +13,8 @@
       "url": "https://mikro-orm.io/docs/",
       "extra_attributes": {
         "version": [
-          "v1", "v3"
+          "v1",
+          "v3"
         ]
       }
     }
@@ -43,5 +44,5 @@
   "conversation_id": [
     "1013781084"
   ],
-  "nb_hits": 367
+  "nb_hits": 1457
 }
