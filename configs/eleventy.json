@@ -1,27 +1,30 @@
 {
   "index_name": "eleventy",
   "start_urls": [
-    "https://www.11ty.io/docs/"
+    "https://www.11ty.dev/docs/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "(//li[contains(@class, 'elv-toc-active')]//a[1]|//ul[contains(@class, 'elv-toc-active')]/li[contains(@class, 'elv-toc-active')]/ancestor::li/a[1])[1]",
-      "type": "xpath",
-      "global": true
+      "selector": "//*[contains(@class,'elv-toc-list')]/*[.//*[contains(@class,'active')] or contains(@class,'active')]/a",
+      "type":"xpath",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "lvl1": "ul.elv-toc-active > li.elv-toc-active",
-    "lvl2": ".elv-layout-toc h2",
-    "lvl3": ".elv-layout-toc h3",
-    "lvl4": ".elv-layout-toc h4",
-    "text": ".elv-layout-toc p"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "lvl6": "main h6",
+    "text": "main p, main li"
   },
   "selectors_exclude": [
-    "[aria-hidden='true']"
+    ".direct-link"
   ],
   "min_indexed_level": 2,
   "conversation_id": [
     "613912686"
   ],
-  "nb_hits": 834
+  "nb_hits": 5532
 }
