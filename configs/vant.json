@@ -28,11 +28,10 @@
     "lvl5": "section h5",
     "text": "section p, section li"
   },
-  "js_wait": 1,
   "js_render": true,
   "use_anchors": true,
   "conversation_id": [
     "854645757"
   ],
-  "nb_hits": 2155
+  "nb_hits": 2392
 }
