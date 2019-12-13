@@ -9,6 +9,7 @@
           "go",
           "ruby",
           "node",
+          "node-old",
           "python"
         ]
       }
