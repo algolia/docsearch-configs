@@ -7,9 +7,6 @@
     "https://codecept.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [
-    "/$"
-  ],
   "selectors": {
     "lvl0": {
       "selector": ".article-title",
@@ -35,5 +32,5 @@
   "conversation_id": [
     "740322937"
   ],
-  "nb_hits": 636
+  "nb_hits": 6402
 }
