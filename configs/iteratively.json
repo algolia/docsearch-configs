@@ -1,0 +1,37 @@
+{
+  "index_name": "iteratively",
+  "start_urls": [
+    "https://iterative.ly/docs/"
+  ],
+  "sitemap_urls": [
+    "https://iterative.ly/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'sidebar')]//*[contains(@class,'active')]/preceding::*[contains(@class,'menu__link')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "tex5": "article p, article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1024259177"
+  ],
+  "nb_hits": 100
+}
