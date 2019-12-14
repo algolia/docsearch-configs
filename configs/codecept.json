@@ -12,8 +12,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
+      "selector": ".article-title",
       "global": true,
       "default_value": "Documentation"
     },
