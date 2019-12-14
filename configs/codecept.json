@@ -13,7 +13,6 @@
   "selectors": {
     "lvl0": {
       "selector": ".article-title",
-      "type": "css",
       "global": true,
       "default_value": "Documentation"
     },
