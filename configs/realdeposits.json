@@ -1,7 +1,14 @@
 {
   "index_name": "realdeposits",
   "start_urls": [
-    "https://doc.realdeposits.com/integration_docs/latest"
+    {
+      "url": "https://doc.realdeposits.com/integration_docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
