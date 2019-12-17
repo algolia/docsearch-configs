@@ -1,0 +1,84 @@
+{
+  "index_name": "rethinkdb",
+  "start_urls": [
+    {
+      "url": "https://rethinkdb.com/api/javascript/",
+      "tags": [
+        "api",
+        "javascript"
+      ]
+    },
+    {
+      "url": "https://rethinkdb.com/api/python/",
+      "tags": [
+        "api",
+        "python"
+      ]
+    },
+    {
+      "url": "https://rethinkdb.com/api/ruby/",
+      "tags": [
+        "api",
+        "ruby"
+      ]
+    },
+    {
+      "url": "https://rethinkdb.com/api/java/",
+      "tags": [
+        "api",
+        "java"
+      ]
+    },
+    {
+      "url": "https://rethinkdb.com/faq",
+      "selectors_key": "faq",
+      "tags": [
+        "faq"
+      ]
+    },
+    {
+      "url": "https://rethinkdb.com/docs",
+      "tags": [
+        "docs"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "[^/]$"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//nav[contains(@class,'docs-nav')]//*[contains(@class,'active')]/preceding::h1[1]",
+        "global": true,
+        "type": "xpath",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".docs-article h1.title",
+      "lvl2": ".docs-article h1:not(.title)",
+      "lvl3": ".docs-article h2",
+      "lvl4": ".docs-article h3",
+      "lvl5": ".docs-article h4",
+      "lvl6": ".docs-article h5",
+      "text": ".docs-article p, .docs-article li"
+    },
+    "faq": {
+      "lvl0": ".docs-article h1.title",
+      "lvl1": ".docs-article h2",
+      "lvl2": ".docs-article h3",
+      "lvl3": ".docs-article h4",
+      "lvl4": ".docs-article h5",
+      "text": ".docs-article p, .docs-article li"
+    }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    "#markdown-toc"
+  ],
+  "conversation_id": [
+    "1033809363"
+  ],
+  "nb_hits": 25365
+}
