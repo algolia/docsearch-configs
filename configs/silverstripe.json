@@ -1,7 +1,8 @@
 {
   "index_name": "silverstripe",
   "start_urls": [
-    "https://docs.silverstripe.org"
+    "https://docs.silverstripe.org",
+    "https://ss-userhelp.netlify.com"
   ],
   "stop_urls": [],
   "selectors": {
@@ -19,7 +20,8 @@
   "nb_hits": 21730,
   "custom_settings": {
     "attributesForFaceting": [
-      "version"
+      "version",
+      "context"
     ]
   }
 }
