@@ -8,13 +8,15 @@
     "https://docs.ficsit.app/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+    "lvl0": {
+      "global": true,
+      "selector": ".nav-panel-explore .context"
+    },
+    "lvl1": ".doc > h1.page",
+    "lvl2": ".doc .sect1 > h2:first-child, .doc > h1.sect0",
+    "lvl3": ".doc .sect2 > h3:first-child",
+    "lvl4": ".doc .sect3 > h4:first-child",
+    "text": ".doc p, .doc dt, .doc td.context, .doc th.tableblock"
   },
   "conversation_id": [
     "1032191366"
