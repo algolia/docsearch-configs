@@ -1,7 +1,7 @@
 {
   "index_name": "smooth-code-svgr",
   "start_urls": [
-    "https://www.smooth-code.com/open-source/svgr/docs/"
+    "https://react-svgr.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -25,5 +25,5 @@
   "custom_settings": {
     "separatorsToIndex": "_+@/"
   },
-  "nb_hits": 180
+  "nb_hits": 203
 }
