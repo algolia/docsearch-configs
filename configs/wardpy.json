@@ -1,0 +1,20 @@
+{
+  "index_name": "wardpy",
+  "start_urls": [
+    "https://wardpy.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main section h1",
+    "lvl1": "main section h2",
+    "lvl2": "main section h3",
+    "lvl3": "main section h4",
+    "lvl4": "main section h5",
+    "lvl5": "main section h6",
+    "text": "main section p, main section li"
+  },
+  "conversation_id": [
+    "1040055888"
+  ],
+  "nb_hits": 320
+}
