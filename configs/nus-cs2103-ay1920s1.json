@@ -27,7 +27,7 @@
   "stop_urls": [
     "printable",
     "\\d/index.html",
-    "schedule/index\\.html",
+    "/book/",
     "print\\.html$"
   ],
   "selectors": {
@@ -73,11 +73,11 @@
     },
     "schedule": {
       "lvl0": {
-        "selector": ".website-content h1:first-child",
+        "selector": "",
         "global": true,
         "default_value": "Schedule"
       },
-      "lvl1": ".website-content h1:not(:first-child)",
+      "lvl1": ".website-content h1",
       "lvl2": ".website-content h2",
       "lvl3": ".website-content h3",
       "lvl4": ".website-content h4",
