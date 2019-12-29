@@ -1,8 +1,6 @@
 {
   "index_name": "smooth-code-xstyled",
-  "start_urls": [
-    "https://www.smooth-code.com/open-source/xstyled/docs/"
-  ],
+  "start_urls": ["https://xstyled.dev/docs/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -19,9 +17,7 @@
     "lvl6": "article h6",
     "text": "article p, article li"
   },
-  "conversation_id": [
-    "863830312"
-  ],
+  "conversation_id": ["863830312"],
   "custom_settings": {
     "separatorsToIndex": "_+@/"
   },
