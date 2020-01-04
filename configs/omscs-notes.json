@@ -1,7 +1,7 @@
 {
   "index_name": "omscs-notes",
   "start_urls": [
-    "https://www.omscs-notes.com"
+    "https://www.omscs-notes.com/"
   ],
   "stop_urls": ["https://www.omscs-notes.com/privacy"],
   "selectors": {
