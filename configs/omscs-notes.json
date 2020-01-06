@@ -3,7 +3,9 @@
   "start_urls": [
     "https://www.omscs-notes.com/"
   ],
-  "stop_urls": ["https://www.omscs-notes.com/privacy"],
+  "stop_urls": [
+    "https://www.omscs-notes.com/privacy"
+  ],
   "selectors": {
     "lvl0": ".Content .note-header h1",
     "lvl1": ".Content .note-header h2",
@@ -16,5 +18,5 @@
   "conversation_id": [
     "821599804"
   ],
-  "nb_hits": 10460
+  "nb_hits": 10362
 }
