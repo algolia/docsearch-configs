@@ -10,21 +10,11 @@
     },
     "https://help.blip.ai/"
   ],
-  "stop_urls": [
-    "https://help.blip.ai/botanalytics/",
-    "https://help.blip.ai/chatbase/",
-    "https://help.blip.ai/dashbot/",
-    "https://help.blip.ai/en/dialogflow/",
-    "https://help.blip.ai/en/watson/",
-    "https://help.blip.ai/luis/",
-    "https://help.blip.ai/en/rdstation/",
-    "https://help.blip.ai/webhooks/"
-  ],
+  "stop_urls": [],
   "sitemap_urls": [
     "https://help.blip.ai/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
   "selectors": {
     "default": {
       "lvl0": ".title",
@@ -57,5 +47,5 @@
   "conversation_id": [
     "923933521"
   ],
-  "nb_hits": 3376
+  "nb_hits": 4057
 }
