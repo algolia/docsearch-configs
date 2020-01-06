@@ -1,8 +1,7 @@
 {
   "index_name": "botfront",
   "start_urls": [
-    "https://docs.botfront.io",
-    "https://botfront.io/docs"
+    "https://botfront.io"
   ],
   "stop_urls": [],
   "selectors": {
