@@ -2,7 +2,8 @@
   "index_name": "thinkwise",
   "start_urls": [
     "https://docs.thinkwisesoftware.com/",
-    "https://docs.thinkwisesoftware.com/docs/sf/sf_general.html"
+    "https://docs.thinkwisesoftware.com/docs/sf/sf_general.html",
+    "https://docs.thinkwisesoftware.com/blog/"
   ],
   "sitemap_urls": [
     "https://docs.thinkwisesoftware.com/sitemap.xml"
