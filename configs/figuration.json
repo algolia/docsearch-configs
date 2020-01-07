@@ -5,7 +5,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".cf-sidebar .h4",
+    "lvl0": ".cf-sidebar-header-title.active-section",
     "lvl1": ".cf-content h1",
     "lvl2": ".cf-content h2",
     "lvl3": ".cf-content h3",
@@ -13,8 +13,14 @@
     "text": ".cf-content p, .cf-content li"
   },
   "min_indexed_level": 2,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "language"
+    ]
+  },
   "conversation_id": [
     "280523305"
   ],
-  "nb_hits": 2976
+  "nb_hits": 9106
 }
