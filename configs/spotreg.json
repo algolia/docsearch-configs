@@ -1,0 +1,32 @@
+{
+  "index_name": "spotreg",
+  "start_urls": [
+    "https://docs.spotreg.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://docs.spotreg.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".main-wrapper h1",
+    "lvl1": ".main-wrapper h2",
+    "lvl2": ".main-wrapper h3",
+    "lvl3": ".main-wrapper h4",
+    "lvl4": ".main-wrapper h5",
+    "text": ".main-wrapper p, .main-wrapper li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1047444792"
+  ],
+  "nb_hits": 16
+}
