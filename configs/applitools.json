@@ -1,17 +1,38 @@
 {
   "index_name": "applitools",
   "start_urls": [
-    "https://applitools.com/docs/"
+    {
+      "url": "https://applitools.com/docs",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://applitools.com/tutorials",
+      "tags": [
+        "tutorials"
+      ],
+      "selectors_key": "tutorials"
+    }
   ],
   "stop_urls": [],
   "selectors": {
-
-    "lvl0": "#document-body h1",
-    "lvl1": "#document-body h2",
-    "lvl2": "#document-body h3",
-    "lvl3": "#document-body h4",
-    "lvl4": "#document-body h5",
-    "text": "#document-body p, #document-body li"
+    "default": {
+      "lvl0": "#document-body h1",
+      "lvl1": "#document-body h2",
+      "lvl2": "#document-body h3",
+      "lvl3": "#document-body h4",
+      "lvl4": "#document-body h5",
+      "text": "#document-body p, #document-body li"
+    },
+    "tutorials": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li"
+    }
   },
   "selectors_exclude": [
     ".table-of-contents"
@@ -21,5 +42,5 @@
   "conversation_id": [
     "659247269"
   ],
-  "nb_hits": 13386
+  "nb_hits": 15546
 }
