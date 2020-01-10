@@ -1,0 +1,20 @@
+{
+  "index_name": "humanitec",
+  "start_urls": [
+    "https://docs.humanitec.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".card--main-content h1",
+    "lvl1": ".card--main-content h2",
+    "lvl2": ".card--main-content h3",
+    "lvl3": ".card--main-content h4",
+    "lvl4": ".card--main-content h5",
+    "lvl5": ".card--main-content h6",
+    "text": ".card--main-content p, .card--main-content li"
+  },
+  "conversation_id": [
+    "1051520669"
+  ],
+  "nb_hits": 335
+}
