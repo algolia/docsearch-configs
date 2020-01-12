@@ -1,0 +1,35 @@
+{
+  "index_name": "ipfs-docs-v2",
+  "start_urls": [
+    "https://docs-beta.ipfs.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".content p, .content li",
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "min_indexed_level": 0,
+  "nb_hits": 0
+}
