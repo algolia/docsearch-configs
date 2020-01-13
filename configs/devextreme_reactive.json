@@ -35,7 +35,6 @@
   "conversation_id": [
     "636395992"
   ],
-  "nb_hits": 3340,
   "custom_settings": {
     "synonyms": [
       [
@@ -64,4 +63,5 @@
       ]
     ]
   },
+  "nb_hits": 3729
 }
