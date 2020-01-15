@@ -1,7 +1,7 @@
 {
   "index_name": "backtracks",
   "start_urls": [
-    "https://documentation-hub.ojas.now.sh/"
+    "https://documentation-hub-five-gold.now.sh/"
   ],
   "stop_urls": [],
   "selectors": {
