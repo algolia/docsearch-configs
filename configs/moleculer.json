@@ -6,7 +6,7 @@
       "variables": {
         "version": {
           "url": "https://moleculer.services/docs/",
-          "js": "const options=document.querySelector('div.version-selector select').options; const versions=Object.keys(options).map(key=>options[key].text.replace(/\\s*v*/,'')); return JSON.stringify(versions)"
+          "js": "const options=document.querySelector('div.version-selector select').options; const versions=Object.keys(options).map(key=>options[key].getAttribute('value').replace(/\/docs\//,'')); console.log(JSON.stringify(versions))"
         }
       }
     }
