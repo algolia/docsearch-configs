@@ -1,0 +1,20 @@
+{
+  "index_name": "platformos",
+  "start_urls": [
+    "https://documentation.platformos.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content__main h1",
+    "lvl1": ".content__main h2",
+    "lvl2": ".content__main h3",
+    "lvl3": ".content__main h4",
+    "lvl4": ".content__main h5",
+    "lvl5": ".content__main h6",
+    "text": ".content__main p, .content__main li"
+  },
+  "conversation_id": [
+    "1059048607"
+  ],
+  "nb_hits": 11003
+}
