@@ -3,7 +3,7 @@
   "start_urls": [
     "https://documentation.platformos.com"
   ],
-  "stop_urls": [],
+  "stop_urls": ["https://documentation.platformos.com/release-notes", "https://documentation.platformos.com/roadmap"],
   "selectors": {
     "lvl0": ".content__main h1",
     "lvl1": ".content__main h2",
@@ -13,6 +13,11 @@
     "lvl5": ".content__main h6",
     "text": ".content__main p, .content__main li"
   },
+  "selectors_exclude": [
+    ".feedback-form",
+    ".footer",
+    ".content__aside"
+  ],
   "conversation_id": [
     "1059048607"
   ],
