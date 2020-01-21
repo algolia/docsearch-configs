@@ -5,7 +5,11 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#content h1",
+    "lvl0": {
+      "selector": "#content h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": "#content h2",
     "lvl2": "#content h3",
     "lvl3": "#content h4",
@@ -19,12 +23,13 @@
     }
   },
   "custom_settings": {
-  "attributesForFaceting": [
-    "lang"
-  ]
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
+  "min_indexed_level": 2,
   "conversation_id": [
     "1058861561"
   ],
-  "nb_hits": 56465
+  "nb_hits": 50105
 }
