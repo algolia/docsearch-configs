@@ -1,10 +1,10 @@
 {
-  "index_name": "fiskaly",
+  "index_name": "magicscript_api",
   "start_urls": [
-    "http://developer.fiskaly.com/"
+    "https://api.magicscript.org/docs/"
   ],
   "sitemap_urls": [
-    "http://developer.fiskaly.com/sitemap.xml"
+    "https://api.magicscript.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -25,7 +25,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1001275147"
+    "1057902778"
   ],
-  "nb_hits": 344
+  "nb_hits": 54787
 }

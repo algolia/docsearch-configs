@@ -1,10 +1,10 @@
 {
-  "index_name": "fiskaly",
+  "index_name": "hydra",
   "start_urls": [
-    "http://developer.fiskaly.com/"
+    "https://hydra.cc/docs/"
   ],
   "sitemap_urls": [
-    "http://developer.fiskaly.com/sitemap.xml"
+    "https://hydra.cc/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -25,7 +25,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1001275147"
+    "1056224082"
   ],
-  "nb_hits": 344
+  "nb_hits": 805
 }

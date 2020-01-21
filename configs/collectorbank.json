@@ -1,10 +1,11 @@
 {
-  "index_name": "fiskaly",
+  "index_name": "collectorbank",
   "start_urls": [
-    "http://developer.fiskaly.com/"
+    "https://web-collector-payments-docs-prod.azurewebsites.net/docs/",
+    "https://web-collector-payments-docs-prod.azurewebsites.net/docs/checkout/introduction"
   ],
   "sitemap_urls": [
-    "http://developer.fiskaly.com/sitemap.xml"
+    "https://web-collector-payments-docs-prod.azurewebsites.net/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -25,7 +26,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1001275147"
+    "1058374753"
   ],
-  "nb_hits": 344
+  "nb_hits": 450
 }
