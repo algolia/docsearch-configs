@@ -1,7 +1,7 @@
 {
   "index_name": "littleskin",
   "start_urls": [
-    "https://littleskin.cn/manual/"
+    "https://manual.littleskin.cn/"
   ],
   "stop_urls": [],
   "selectors": {
