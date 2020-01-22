@@ -1,7 +1,6 @@
 {
   "index_name": "cloudinary",
   "start_urls": [
-    "https://cloudinary.com/documentation",
     {
       "url": "https://cloudinary.com/documentation/image_transformations",
       "page_rank": 3
@@ -77,7 +76,11 @@
     {
       "url": "https://cloudinary.com/documentation/product_gallery_reference",
       "page_rank": 1
-    },     
+    },
+    {
+      "url": "https://cloudinary.com/documentation/",
+      "page_rank": 0
+    }    
   ],
   "sitemap_urls": [
     "https://cloudinary.com/sitemap.xml"
