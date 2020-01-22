@@ -5,6 +5,10 @@
       "url": "https://docs.openproject.org/release-notes/",
       "selectors_key": "release-notes"
     },
+    {
+      "url": "https://docs.openproject.org/api/",
+      "selectors_key": "api"
+    },
     "https://docs.openproject.org"
   ],
   "stop_urls": [
@@ -35,7 +39,14 @@
       "lvl3": ".article-content h5",
       "lvl4": ".article-content h6",
       "text": ".article-content p, .article-content li:not([id])"
-    }
+    },
+     "api": {
+      "lvl0": ".article-content h1",
+      "lvl1": ".article-content h2",
+      "lvl2": ".article-content h3",
+      "lvl3": ".article-content h4",
+      "text": ".article-content p, .article-content li:not([id])"
+     }
   },
   "keep_tags": [
     "code"
