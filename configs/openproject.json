@@ -40,13 +40,13 @@
       "lvl4": ".article-content h6",
       "text": ".article-content p, .article-content li:not([id])"
     },
-     "api": {
+    "api": {
       "lvl0": ".article-content h1",
       "lvl1": ".article-content h2",
       "lvl2": ".article-content h3",
       "lvl3": ".article-content h4",
       "text": ".article-content p, .article-content li:not([id])"
-     }
+    }
   },
   "keep_tags": [
     "code"
@@ -61,5 +61,5 @@
   "conversation_id": [
     "969244119"
   ],
-  "nb_hits": 4711
+  "nb_hits": 4490
 }
