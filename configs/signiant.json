@@ -1,7 +1,17 @@
 {
   "index_name": "signiant",
   "start_urls": [
-    "http://help.signiant.com"
+    {
+      "url": "https://help.signiant.com/(?P<product>.*?)",
+      "variables": {
+        "product": [
+          "jet",
+          "flight",
+          "manager-agents",
+          "media-shuttle"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -19,5 +29,5 @@
   "conversation_id": [
     "720095617"
   ],
-  "nb_hits": 7689
+  "nb_hits": 7881
 }
