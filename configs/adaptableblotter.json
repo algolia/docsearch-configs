@@ -1,7 +1,7 @@
 {
   "index_name": "adaptableblotter",
   "start_urls": [
-    "http://demo.adaptableblotter.com/"
+    "https://demo.adaptabletools.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -13,5 +13,5 @@
   "conversation_id": [
     "1023580403"
   ],
-  "nb_hits": 502
+  "nb_hits": 557
 }
