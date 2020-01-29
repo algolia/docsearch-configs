@@ -1,11 +1,11 @@
 {
   "index_name": "packet",
   "start_urls": [
-    "https://support.packet.com/kb/"
+    "https://www.packet.com/developers/docs/",
+    "https://www.packet.com/developers/api/",
+    "https://www.packet.com/resources/guides/"
   ],
   "stop_urls": [
-    "kb/articles/pdf/",
-    "/vote-"
   ],
   "selectors": {
     "lvl0": {
