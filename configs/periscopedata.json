@@ -1,7 +1,7 @@
 {
   "index_name": "periscopedata",
   "start_urls": [
-    "https://doc.periscopedata.com/"
+    "https://dtdocs.sisense.com/"
   ],
   "stop_urls": [
     "\\.pub$",
@@ -9,7 +9,7 @@
     "/doc/"
   ],
   "sitemap_urls": [
-    "https://doc.periscopedata.com/sitemap.xml"
+    "https://dtdocs.sisense.com/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -27,5 +27,5 @@
   "conversation_id": [
     "215537166"
   ],
-  "nb_hits": 3739
+  "nb_hits": 5599
 }
