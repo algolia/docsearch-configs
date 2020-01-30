@@ -1,7 +1,10 @@
 {
   "index_name": "nette",
   "start_urls": [
-    "https://doc.nette.org"
+    "https://doc.nette.org",
+    "https://latte.nette.org",
+    "https://tracy.nette.org",
+    "https://tester.nette.org"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,7 +21,7 @@
       "global": true
     },
     "version": {
-      "selector": ".versionmenu > div",
+      "selector": "//meta[@name='doc:version']/@content",
       "global": true
     }
   },
