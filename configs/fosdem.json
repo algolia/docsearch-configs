@@ -103,8 +103,7 @@
       "selector": "//*[@id='main']/ul[3]/li/a[contains(@href,'github')]/@href",
       "type": "xpath",
       "global": true
-    }
-    ,
+    },
     "about": {
       "selector": "//*[@id='main']/ul/li/a[contains(text(),'About')]/@href",
       "type": "xpath",
@@ -113,11 +112,11 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "room",
-      "day",
-      "track",
-      "tags",
-      "speaker"
+      "searchable(room)",
+      "searchable(day)",
+      "searchable(track)",
+      "searchable(tags)",
+      "searchable(speaker)"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -143,7 +142,22 @@
       "github",
       "twitter",
       "feedback"
-    ]
+    ],
+    "attributesToIndex": [
+      "unordered(hierarchy_radio_camel.lvl0)",
+      "unordered(hierarchy_radio.lvl0)",
+      "unordered(hierarchy_radio_camel.lvl1)",
+      "unordered(hierarchy_radio.lvl1)",
+      "unordered(hierarchy_camel.lvl0)",
+      "unordered(hierarchy.lvl0)",
+      "unordered(hierarchy_camel.lvl1)",
+      "unordered(hierarchy.lvl1)",
+      "content",
+      "speaker",
+      "track",
+      "room"
+    ],
+    "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 3332
+  "nb_hits": 3333
 }
