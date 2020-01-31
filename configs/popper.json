@@ -13,14 +13,9 @@
         "v1"
       ]
     },
-    {
-      "url": "https://popper.js.org/docs/v2/modifiers/prevent-overflow/",
-      "tags": [
-        "v2"
-      ]
-    },
     "https://popper.js.org/docs/"
   ],
+  "sitemap_urls": ["http:/popper.js.org/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": "main h1",
