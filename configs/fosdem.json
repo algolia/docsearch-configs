@@ -14,77 +14,118 @@
         "2020",
         "event"
       ]
+    },
+    {
+      "url": "https://fosdem.org/2020/stands/",
+      "tags": [
+        "2020",
+        "stands"
+      ],
+      "selectors_key": "stands"
     }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "#main h1",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "#main h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "#main h2",
+      "text": ".event-blurb p",
+      "speaker": {
+        "selector": "#main > table > tbody > tr > td:nth-child(2) > a",
+        "global": true
+      },
+      "speaker_url": {
+        "selector": "//*[@id='main']/table/tbody/tr/td[2]/a/@href",
+        "type": "xpath",
+        "global": true
+      },
+      "room": {
+        "selector": "#main > ul.side-box > li:nth-child(2) > a",
+        "global": true
+      },
+      "start": {
+        "selector": "#main > ul.side-box > li:nth-child(4) > a",
+        "global": true
+      },
+      "end": {
+        "selector": "#main > ul.side-box > li:nth-child(5) > a",
+        "global": true
+      },
+      "day": {
+        "selector": "#main > ul.side-box > li:nth-child(3) > a",
+        "global": true
+      },
+      "track": {
+        "selector": "#main > ul.side-box > li:nth-child(1) > a",
+        "global": true
+      },
+      "link0": {
+        "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
+        "type": "xpath",
+        "global": true
+      },
+      "link1": {
+        "selector": "//*[@id='main']/ul[3]/li[2]/a/@href",
+        "type": "xpath",
+        "global": true
+      },
+      "link2": {
+        "selector": "//*[@id='main']/ul[3]/li[3]/a/@href",
+        "type": "xpath",
+        "global": true
+      },
+      "link3": {
+        "selector": "//*[@id='main']/ul[3]/li[4]/a/@href",
+        "type": "xpath",
+        "global": true
+      },
+      "link4": {
+        "selector": "//*[@id='main']/ul[3]/li[5]/a/@href",
+        "type": "xpath",
+        "global": true
+      },
+      "link5": {
+        "selector": "//*[@id='main']/ul[3]/li[6]/a/@href",
+        "type": "xpath",
+        "global": true
+      }
     },
-    "lvl1": "#main h2",
-    "text": ".event-abstract p",
-    "room": {
-      "selector": "#main > ul.side-box > li:nth-child(2) > a",
-      "global": true
-    },
-    "start": {
-      "selector": "#main > ul.side-box > li:nth-child(4) > a",
-      "global": true
-    },
-    "end": {
-      "selector": "#main > ul.side-box > li:nth-child(5) > a",
-      "global": true
-    },
-    "day": {
-      "selector": "#main > ul.side-box > li:nth-child(3) > a",
-      "global": true
-    },
-    "track": {
-      "selector": "#main > ul.side-box > li:nth-child(1) > a",
-      "global": true
-    },
-    "link0": {
-      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
-      "type": "xpath",
-      "global": true
-    },
-    "link1": {
-      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
-      "type": "xpath",
-      "global": true
-    },
-    "link2": {
-      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
-      "type": "xpath",
-      "global": true
-    },
-    "link3": {
-      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
-      "type": "xpath",
-      "global": true
-    },
-    "link4": {
-      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
-      "type": "xpath",
-      "global": true
-    },
-    "link5": {
-      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
-      "type": "xpath",
-      "global": true
+    "stands": {
+      "lvl0": "#main h3",
+      "lvl1": "#main h4",
+      "lvl2": "#main h5",
+      "text": "#main  table > tbody td:nth-child(2)"
     }
   },
   "custom_settings": {
     "attributesForFaceting": [
       "room",
       "day",
-      "track"
+      "track",
+      "tags"
     ],
-      "attributesToRetrieve": [
-
-      ]
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "start",
+      "end",
+      "day",
+      "room",
+      "track",
+      "link0",
+      "link1",
+      "link2",
+      "link3",
+      "link4",
+      "link5"
+    ]
   },
-  "nb_hits": 1916
+  "nb_hits": 3424
 }
