@@ -83,6 +83,32 @@
       "selector": "//*[@id='main']/ul[3]/li[6]/a/@href",
       "type": "xpath",
       "global": true
+    },
+    "live": {
+      "selector": "//*[@id='main']/ul[3]/li/a[contains(@href,'live.fosdem')]/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "feedback": {
+      "selector": "//*[@id='main']/ul[3]/li/a[contains(@href,'submission.fosdem')]/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "twitter": {
+      "selector": "//*[@id='main']/ul[3]/li/a[contains(@href,'twitter')]/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "github": {
+      "selector": "//*[@id='main']/ul[3]/li/a[contains(@href,'github')]/@href",
+      "type": "xpath",
+      "global": true
+    }
+    ,
+    "about": {
+      "selector": "//*[@id='main']/ul/li/a[contains(text(),'About')]/@href",
+      "type": "xpath",
+      "global": true
     }
   },
   "custom_settings": {
@@ -90,7 +116,8 @@
       "room",
       "day",
       "track",
-      "tags"
+      "tags",
+      "speaker"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -110,7 +137,12 @@
       "link2",
       "link3",
       "link4",
-      "link5"
+      "link5",
+      "live",
+      "about",
+      "github",
+      "twitter",
+      "feedback"
     ]
   },
   "nb_hits": 3332
