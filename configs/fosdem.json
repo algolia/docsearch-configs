@@ -7,29 +7,26 @@
         "2020",
         "event"
       ]
-    },
-    {
-      "url": "https://fosdem.org/2020/schedule/event/iottarantool/",
-      "tags": [
-        "2020",
-        "event"
-      ]
     }
+  ],
+  "sitemap_urls": [
+    "https://fosdem.org/2020/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "#main h1",
-      "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "#main h2",
+    "lvl1": {
+      "selector": "#main h2"
+    },
     "description": {
       "selector": ".event-blurb p",
       "global": true
     },
     "speaker": {
-      "selector": "#main > table > tbody > tr > td:nth-child(2) > a",
+      "selector": "#main > table > tbody > tr > td:last-child > a",
       "global": true
     },
     "speaker_url": {
@@ -88,22 +85,22 @@
       "global": true
     },
     "live": {
-      "selector": "//*[@id='main']/ul[3]/li/a[contains(@href,'live.fosdem')]/@href",
+      "selector": "//*[@id='main']/ul/li/a[contains(@href,'live.fosdem')]/@href",
       "type": "xpath",
       "global": true
     },
     "feedback": {
-      "selector": "//*[@id='main']/ul[3]/li/a[contains(@href,'submission.fosdem')]/@href",
+      "selector": "//*[@id='main']/ul/li/a[contains(@href,'submission.fosdem')]/@href",
       "type": "xpath",
       "global": true
     },
     "twitter": {
-      "selector": "//*[@id='main']/ul[3]/li/a[contains(@href,'twitter')]/@href",
+      "selector": "//*[@id='main']/ul/li/a[contains(@href,'twitter')]/@href",
       "type": "xpath",
       "global": true
     },
     "github": {
-      "selector": "//*[@id='main']/ul[3]/li/a[contains(@href,'github')]/@href",
+      "selector": "//*[@id='main']/ul/li/a[contains(@href,'github')]/@href",
       "type": "xpath",
       "global": true
     },
@@ -121,7 +118,8 @@
       "searchable(tags)",
       "searchable(speaker)",
       "start",
-      "end"
+      "end",
+      "searchable(github_handle)"
     ],
     "attributesToHighlight": [
       "hierarchy",
@@ -146,7 +144,8 @@
       "about",
       "github",
       "twitter",
-      "feedback"
+      "feedback",
+      "github_handle"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -171,7 +170,8 @@
       "about",
       "github",
       "twitter",
-      "feedback"
+      "feedback",
+      "github_handle"
     ],
     "attributesToIndex": [
       "unordered(hierarchy.lvl0)",
@@ -179,7 +179,8 @@
       "unordered(hierarchy.lvl1)",
       "description",
       "speaker",
-      "room"
+      "room",
+      "github_handle"
     ],
     "ranking": [
       "typo",
@@ -193,5 +194,6 @@
     ],
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 481
+  "scrap_start_urls": false,
+  "nb_hits": 1368
 }
