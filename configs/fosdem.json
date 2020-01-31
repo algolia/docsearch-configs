@@ -157,7 +157,7 @@
       "track",
       "room"
     ],
-    "attributeForDistinct": "url_without_anchor"
+    "distinct": false
   },
   "nb_hits": 3333
 }
