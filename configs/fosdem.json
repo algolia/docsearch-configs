@@ -44,6 +44,36 @@
     "track": {
       "selector": "#main > ul.side-box > li:nth-child(1) > a",
       "global": true
+    },
+    "link0": {
+      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "link1": {
+      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "link2": {
+      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "link3": {
+      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "link4": {
+      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "link5": {
+      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
+      "type": "xpath",
+      "global": true
     }
   },
   "custom_settings": {
@@ -51,7 +81,10 @@
       "room",
       "day",
       "track"
-    ]
+    ],
+      "attributesToRetrieve": [
+
+      ]
   },
   "nb_hits": 1916
 }
