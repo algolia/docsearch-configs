@@ -24,7 +24,10 @@
       "default_value": "Documentation"
     },
     "lvl1": "#main h2",
-    "text": ".event-blurb p",
+    "description": {
+      "selector": ".event-blurb p",
+      "global": true
+    },
     "speaker": {
       "selector": "#main > table > tbody > tr > td:nth-child(2) > a",
       "global": true
@@ -116,11 +119,38 @@
       "searchable(day)",
       "searchable(track)",
       "searchable(tags)",
-      "searchable(speaker)"
+      "searchable(speaker)",
+      "start",
+      "end"
+    ],
+    "attributesToHighlight": [
+      "hierarchy",
+      "description",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "start",
+      "end",
+      "day",
+      "room",
+      "track",
+      "speaker",
+      "speaker_url",
+      "link0",
+      "link1",
+      "link2",
+      "link3",
+      "link4",
+      "link5",
+      "live",
+      "about",
+      "github",
+      "twitter",
+      "feedback"
     ],
     "attributesToRetrieve": [
       "hierarchy",
-      "content",
+      "description",
       "anchor",
       "url",
       "url_without_anchor",
@@ -144,20 +174,24 @@
       "feedback"
     ],
     "attributesToIndex": [
-      "unordered(hierarchy_radio_camel.lvl0)",
-      "unordered(hierarchy_radio.lvl0)",
-      "unordered(hierarchy_radio_camel.lvl1)",
-      "unordered(hierarchy_radio.lvl1)",
-      "unordered(hierarchy_camel.lvl0)",
       "unordered(hierarchy.lvl0)",
-      "unordered(hierarchy_camel.lvl1)",
-      "unordered(hierarchy.lvl1)",
-      "content",
-      "speaker",
       "track",
+      "unordered(hierarchy.lvl1)",
+      "description",
+      "speaker",
       "room"
     ],
-    "distinct": false
+    "ranking": [
+      "typo",
+      "geo",
+      "words",
+      "filters",
+      "proximity",
+      "attribute",
+      "exact",
+      "custom"
+    ],
+    "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 3333
+  "nb_hits": 481
 }
