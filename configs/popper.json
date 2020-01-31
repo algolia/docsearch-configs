@@ -16,7 +16,7 @@
     "https://popper.js.org/docs/"
   ],
   "sitemap_urls": [
-    "http:/popper.js.org/sitemap.xml"
+    "https://popper.js.org/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -31,5 +31,5 @@
   "conversation_id": [
     "1066590852"
   ],
-  "nb_hits": 481
+  "nb_hits": 832
 }
