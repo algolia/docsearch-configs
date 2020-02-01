@@ -31,7 +31,7 @@
       "selector": ".event-blurb p",
       "global": true
     },
-    "speaker": {
+    "speakers": {
       "selector": "#main > table > tbody > tr > td:last-child > a",
       "global": true
     },
@@ -122,10 +122,11 @@
       "searchable(day)",
       "searchable(track)",
       "searchable(tags)",
-      "searchable(speaker)",
+      "searchable(speakers)",
       "start",
       "end",
-      "searchable(github_handle)"
+      "searchable(github_handle)",
+      "time_period"
     ],
     "attributesToHighlight": [
       "hierarchy",
@@ -138,7 +139,7 @@
       "day",
       "room",
       "track",
-      "speaker",
+      "speakers",
       "speaker_url",
       "link0",
       "link1",
@@ -164,7 +165,7 @@
       "day",
       "room",
       "track",
-      "speaker",
+      "speakers",
       "speaker_url",
       "link0",
       "link1",
@@ -177,16 +178,18 @@
       "github",
       "twitter",
       "feedback",
-      "github_handle"
+      "github_handle",
+      "time_period"
     ],
     "attributesToIndex": [
       "unordered(hierarchy.lvl0)",
       "track",
       "unordered(hierarchy.lvl1)",
       "description",
-      "speaker",
+      "speakers",
       "room",
-      "github_handle"
+      "github_handle",
+      "time_period"
     ],
     "ranking": [
       "typo",
@@ -202,5 +205,5 @@
   },
   "min_indexed_level": 2,
   "scrap_start_urls": false,
-  "nb_hits": 886
+  "nb_hits": 893
 }
