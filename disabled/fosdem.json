@@ -16,10 +16,16 @@
   "selectors": {
     "lvl0": {
       "selector": "#main h1",
-      "default_value": "Documentation"
+      "default_value": "Documentation",
+      "global": true
     },
     "lvl1": {
-      "selector": "#main h2"
+      "selector": "#main h2",
+      "global": true
+    },
+    "lvl2": {
+      "selector": "#main h1",
+      "default_value": "Documentation"
     },
     "description": {
       "selector": ".event-blurb p",
@@ -192,8 +198,9 @@
       "exact",
       "custom"
     ],
-    "attributeForDistinct": "url_without_anchor"
+    "distinct": false
   },
+  "min_indexed_level": 2,
   "scrap_start_urls": false,
-  "nb_hits": 1368
+  "nb_hits": 886
 }
