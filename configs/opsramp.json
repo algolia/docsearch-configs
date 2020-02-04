@@ -1,0 +1,25 @@
+{
+  "index_name": "opsramp",
+  "start_urls": [
+    "https://opsramp.markwaterous.dev/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav > ul >  .td-sidebar-nav__section-title a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".td-content h1",
+    "lvl2": ".td-content h2",
+    "lvl3": ".td-content h3",
+    "lvl4": ".td-content h4",
+    "lvl5": ".td-content h5",
+    "lvl6": ".td-content h6",
+    "text": ".td-content p, .td-content li"
+  },
+  "conversation_id": [
+    "1051940069"
+  ],
+  "nb_hits": 13706
+}
