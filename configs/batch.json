@@ -1,7 +1,11 @@
 {
   "index_name": "batch",
-  "start_urls": ["https://doc.batch.com/"],
-  "sitemap_urls": ["https://doc.batch.com/sitemap.xml"],
+  "start_urls": [
+    "https://doc.batch.com/"
+  ],
+  "sitemap_urls": [
+    "https://doc.batch.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".lvl0",
     "lvl1": "#doc_page_title",
@@ -14,5 +18,5 @@
   "conversation_id": [
     "198729505"
   ],
-  "nb_hits": 6233
+  "nb_hits": 5747
 }
