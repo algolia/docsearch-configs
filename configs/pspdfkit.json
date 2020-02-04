@@ -3,18 +3,25 @@
   "start_urls": [
     {
       "url": "https://pspdfkit.com/api/web/",
-      "tags": ["web"],
+      "tags": [
+        "web"
+      ],
       "selectors_key": "web"
     },
     {
       "url": "https://pspdfkit.com/api/android/reference/",
-      "tags": ["android"],
+      "tags": [
+        "android"
+      ],
       "selectors_key": "android"
     }
   ],
-  "stop_urls": ["https://pspdfkit.com/api/android/reference/packages.html", "package-summary.html"],
+  "stop_urls": [
+    "https://pspdfkit.com/api/android/reference/packages.html",
+    "package-summary.html"
+  ],
   "selectors": {
-    "default" : {
+    "default": {
       "lvl0": ".card h1",
       "lvl1": ".card h2",
       "lvl2": ".card h3",
@@ -22,7 +29,7 @@
       "lvl4": ".card h5",
       "text": ".card p, .card li"
     },
-    "web" : {
+    "web": {
       "lvl0": ".card h1",
       "lvl1": ".card h2",
       "lvl2": ".card h3",
@@ -42,5 +49,5 @@
   "conversation_id": [
     "665157930"
   ],
-  "nb_hits": 8315
+  "nb_hits": 30895
 }
