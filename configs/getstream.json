@@ -7,7 +7,12 @@
         "chat"
       ]
     },
-    "https://getstream.io/docs/"
+    {
+      "url": "https://getstream.io/docs/",
+      "tags": [
+        "docs"
+      ]
+    }
   ],
   "sitemap_urls": [
     "https://getstream.io/sitemap.xml"
