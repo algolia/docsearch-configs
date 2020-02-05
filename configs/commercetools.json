@@ -2,7 +2,7 @@
   "index_name": "commercetools",
   "start_urls": ["https://docs.commercetools.com"],
   "sitemap_urls": [],
-  "stop_urls": ["/release-notes", "\\.html$"],
+  "stop_urls": ["/release-notes", "/merchant-center-releases"],
   "selectors": {
     "lvl0": "#content h1",
     "lvl1": "#content h2",
