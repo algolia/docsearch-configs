@@ -1,0 +1,66 @@
+{
+  "index_name": "processing",
+  "start_urls": [
+    {
+      "url": "https://processing.org/reference/",
+      "tags": [
+        "reference"
+      ],
+      "selectors_key": "reference"
+    },
+    {
+      "url": "https://processing.org/tutorials/",
+      "tags": [
+        "tutorials"
+      ],
+      "selectors_key": "tutorials"
+    },
+    {
+      "url": "https://processing.org/",
+      "tags": [
+        "doc"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "/examples/",
+    "/exhibition/"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".content h1 span",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "lvl5": ".content h6",
+      "text": ".content p, .content li, .content h1"
+    },
+    "tutorials": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h3",
+      "lvl2": ".content h4",
+      "lvl3": ".content h5",
+      "lvl4": ".content h6",
+      "text": ".content p, .content li, .content h1"
+    },
+    "reference": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Reference"
+      },
+      "lvl1": ".content h3",
+      "lvl2": ".content > table > tbody > tr:nth-child(n+5) > th",
+      "lvl3": ".content > table > tbody > tr:nth-child(n+5) th.code",
+      "text": ".content > table > tbody > tr:nth-child(n+5) td"
+    }
+  },
+  "selectors_exclude": [
+    ".license"
+  ],
+  "conversation_id": [
+    "1075798085"
+  ],
+  "nb_hits": 2358
+}
