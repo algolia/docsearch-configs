@@ -22,6 +22,7 @@
     },
     "version": {
       "selector": "//meta[@name='doc:version']/@content",
+      "type": "xpath",
       "global": true
     }
   },
@@ -34,5 +35,5 @@
   "conversation_id": [
     "910886313"
   ],
-  "nb_hits": 24467
+  "nb_hits": 25871
 }
