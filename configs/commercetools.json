@@ -4,12 +4,12 @@
   "sitemap_urls": [],
   "stop_urls": ["/release-notes", "/merchant-center-releases"],
   "selectors": {
-    "lvl0": "#content h1",
-    "lvl1": "#content h2",
-    "lvl2": "#content h3",
-    "lvl3": "#content h4",
-    "lvl4": "#content h5",
-    "text": "#content p, #content li, #content figure, #content .lead, #content tr"
+    "lvl0": "#content h1, ___gatsby main h1",
+    "lvl1": "#content h2, ___gatsby article h2",
+    "lvl2": "#content h3, ___gatsby article h3",
+    "lvl3": "#content h4, ___gatsby article h4",
+    "lvl4": "#content h5, ___gatsby article h5",
+    "text": "#content p, #content li, #content figure, #content .lead, #content tr, ___gatsby article p, ___gatsby article li, ___gatsby article figure, ___gatsby article tr"
   },
   "conversation_id": ["707863318"],
   "nb_hits": 11779
