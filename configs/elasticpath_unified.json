@@ -48,6 +48,12 @@
       "tags": [
         "commerce"
       ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/cloudops-kubernetes/docs/",
+      "tags": [
+        "cloudops-kubernetes"
+      ]
     }
   ],
   "sitemap_urls": [
@@ -58,7 +64,8 @@
     "https://documentation.elasticpath.com/chatbot/sitemap.xml",
     "https://documentation.elasticpath.com/alexa-skill/sitemap.xml",
     "https://documentation.elasticpath.com/account-management/sitemap.xml",
-    "https://documentation.elasticpath.com/commerce/sitemap.xml"
+    "https://documentation.elasticpath.com/commerce/sitemap.xml",
+    "https://documentation.elasticpath.com/cloudops-kubernetes/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -89,5 +96,5 @@
   "conversation_id": [
     "924021424"
   ],
-  "nb_hits": 52990
+  "nb_hits": 56892
 }
