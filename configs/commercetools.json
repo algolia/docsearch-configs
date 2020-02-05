@@ -9,7 +9,7 @@
     "lvl2": "#content h3, ___gatsby article h3",
     "lvl3": "#content h4, ___gatsby article h4",
     "lvl4": "#content h5, ___gatsby article h5",
-    "text": "#content p, #content li, #content figure, #content .lead, #content tr, ___gatsby article p, ___gatsby article li, ___gatsby article figure, ___gatsby article tr"
+    "text": "#content p, #content li, #content figure, #content .lead, ___gatsby article p, ___gatsby article li, ___gatsby article figure"
   },
   "conversation_id": ["707863318"],
   "nb_hits": 11779
