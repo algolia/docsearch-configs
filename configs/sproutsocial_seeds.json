@@ -1,10 +1,10 @@
 {
   "index_name": "sproutsocial_seeds",
   "start_urls": [
-    "https://sproutsocial.com/seeds/"
+    "https://seeds.sproutsocial.com/"
   ],
   "sitemap_urls": [
-    "https://sproutsocial.com/seeds/sitemap.xml"
+    "https://seeds.sproutsocial.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
