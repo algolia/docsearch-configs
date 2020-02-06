@@ -31,6 +31,8 @@
       "version"
     ]
   },
-  "min_indexed_level": 0,
+    "conversation_id": [
+    "1074172045"
+  ],
   "nb_hits": 109
 }
