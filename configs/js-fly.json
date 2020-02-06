@@ -1,5 +1,5 @@
 {
-  "index_name": "fly",
+  "index_name": "js-fly",
   "start_urls": [
     "https://js.fly.io/docs/"
   ],
