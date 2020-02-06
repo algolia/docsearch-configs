@@ -58,7 +58,7 @@
     {
       "url": "https://documentation.elasticpath.com/elasticpath_bloomreach-feed/docs/",
       "tags": [
-        "elasticpath_bloomreach-feed"
+        "bloomreach-feed"
       ]
     }
   ],
@@ -72,7 +72,7 @@
     "https://documentation.elasticpath.com/account-management/sitemap.xml",
     "https://documentation.elasticpath.com/commerce/sitemap.xml",
     "https://documentation.elasticpath.com/cloudops-kubernetes/sitemap.xml",
-    "https://documentation.elasticpath.com/elasticpath_bloomreach-feed/sitemap.xml"
+    "https://documentation.elasticpath.com/bloomreach-feed/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -105,3 +105,4 @@
   ],
   "nb_hits": 56899
 }
+
