@@ -30,6 +30,8 @@
       "lang"
     ]
   },
-  "min_indexed_level": 0,
+    "conversation_id": [
+    "1071649336"
+  ],
   "nb_hits": 2560
 }
