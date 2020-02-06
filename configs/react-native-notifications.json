@@ -13,6 +13,8 @@
     "lvl4": ".pt-10 h5",
     "lvl5": ".pt-10 h6"
   },
-  "min_indexed_level": 0,
+    "conversation_id": [
+    "1070839317"
+  ],
   "nb_hits": 25
 }
