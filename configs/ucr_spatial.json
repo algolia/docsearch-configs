@@ -1,0 +1,17 @@
+{
+  "index_name": "ucr_spatial",
+  "start_urls": [
+    "https://spatial.ucr.edu/publications/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h2",
+    "lvl1": "section h3",
+    "lvl2": "section h4",
+    "text": "section h5"
+  },
+  "conversation_id": [
+    "1076077561"
+  ],
+  "nb_hits": 176
+}
