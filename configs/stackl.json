@@ -1,0 +1,33 @@
+{
+  "index_name": "stackl",
+  "start_urls": [
+    "https://www.stackl.io/docs//",
+    "https://www.stackl.io/docs/latest/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'dashboard-panel-content')]//a[contains(@class,'is-active')][contains(@class,'item')]//preceding::*[contains(@class,'title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".hero .title",
+    "lvl2": "section.section h2",
+    "lvl3": "section.section h3",
+    "lvl4": "section.section h4",
+    "lvl5": "section.section h5",
+    "lvl6": "section.section h6",
+    "text": "section.section p, section.section li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1073456753"
+  ],
+  "nb_hits": 255
+}
