@@ -1,0 +1,23 @@
+{
+  "index_name": "js-fly",
+  "start_urls": [
+    "https://js.fly.io/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://js.fly.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1077497837"
+  ],
+  "nb_hits": 68
+}
