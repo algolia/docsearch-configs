@@ -1,0 +1,32 @@
+{
+  "index_name": "loganpowell_spule",
+  "start_urls": [
+    "https://loganpowell.github.io/spule/",
+    "https://loganpowell.github.io/spule/0.1.24/"
+  ],
+  "stop_urls": [
+    "\\.js\\.html",
+    "/index\\.html$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#main .page-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#main h3",
+    "lvl2": "#main h4",
+    "lvl3": "#main h5",
+    "lvl4": "#main h6, #main td.name",
+    "text": "#main p, #main li"
+  },
+  "selectors_exclude": [
+    ".signature",
+    ".type-signature",
+    ".details"
+  ],
+  "conversation_id": [
+    "1072879000"
+  ],
+  "nb_hits": 396
+}
