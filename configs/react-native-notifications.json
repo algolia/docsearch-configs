@@ -2,7 +2,8 @@
   "index_name": "react-native-notifications",
   "start_urls": [
     "https://notifee.app/react-native/docs/",
-    "https://notifee.app/react-native/docs/overview"
+    "https://notifee.app/react-native/docs/overview",
+    "https://notifee.app/react-native/reference"
   ],
   "stop_urls": [],
   "selectors": {
