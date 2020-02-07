@@ -1,7 +1,7 @@
 {
   "index_name": "uvap",
   "start_urls": [
-    "http://test-docs.ultinous.com/uvap/"
+    "http://docs.ultinous.com/uvap/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,7 +22,7 @@
     ".hash-link"
   ],
   "sitemap_urls": [
-    "http://test-docs.ultinous.com/uvap/sitemap.xml"
+    "http://docs.ultinous.com/uvap/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "custom_settings": {
