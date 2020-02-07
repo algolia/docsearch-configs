@@ -1,8 +1,13 @@
 {
   "index_name": "commercetools",
-  "start_urls": ["https://docs.commercetools.com"],
+  "start_urls": [
+    "https://docs.commercetools.com"
+  ],
   "sitemap_urls": [],
-  "stop_urls": ["/release-notes", "/merchant-center-releases"],
+  "stop_urls": [
+    "/release-notes",
+    "/merchant-center-releases"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "#site-title",
@@ -15,6 +20,8 @@
     "lvl4": "main article h4",
     "text": "main article p, main article li, main article figure, main article .lead"
   },
-  "conversation_id": ["707863318"],
-  "nb_hits": 11779
+  "conversation_id": [
+    "707863318"
+  ],
+  "nb_hits": 25547
 }
