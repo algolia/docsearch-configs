@@ -1,7 +1,7 @@
 {
   "index_name": "opsramp",
   "start_urls": [
-    "https://opsramp.markwaterous.dev/"
+    "https://docs-beta.opsramp.com/"
   ],
   "stop_urls": [],
   "selectors": {
