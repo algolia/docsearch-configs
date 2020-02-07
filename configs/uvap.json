@@ -1,7 +1,7 @@
 {
   "index_name": "uvap",
   "start_urls": [
-    "http://test-docs.ultinous.com/uvap/"
+    "http://docs.ultinous.com/uvap/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,7 +22,7 @@
     ".hash-link"
   ],
   "sitemap_urls": [
-    "http://test-docs.ultinous.com/uvap/sitemap.xml"
+    "http://docs.ultinous.com/uvap/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "custom_settings": {
@@ -31,8 +31,6 @@
       "version"
     ]
   },
-    "conversation_id": [
-    "1074107896"
-  ],
+  "min_indexed_level": 0,
   "nb_hits": 1911
 }
