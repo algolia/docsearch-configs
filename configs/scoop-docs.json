@@ -1,7 +1,7 @@
 {
   "index_name": "scoop-docs",
   "start_urls": [
-    "https://scoop-docs.now.sh/docs/"
+    "https://scoop-docs.netlify.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
