@@ -3,6 +3,9 @@
   "start_urls": [
     "http://uniform.hudl.com/"
   ],
+  "sitemap_urls": [
+    "http://uniform.hudl.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "[class*='--gridMain--'] h2",
@@ -15,5 +18,5 @@
   "conversation_id": [
     "1055674683"
   ],
-  "nb_hits": 3430
+  "nb_hits": 8982
 }

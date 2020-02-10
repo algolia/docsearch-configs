@@ -1,7 +1,7 @@
 {
-  "index_name": "uvap",
+  "index_name": "code-inspector",
   "start_urls": [
-    "http://docs.ultinous.com/uvap/"
+    "https://doc.code-inspector.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,7 +22,7 @@
     ".hash-link"
   ],
   "sitemap_urls": [
-    "http://docs.ultinous.com/uvap/sitemap.xml"
+    "https://doc.code-inspector.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "custom_settings": {
@@ -32,7 +32,7 @@
     ]
   },
     "conversation_id": [
-    "1074107896"
+    "1070868071"
   ],
-  "nb_hits": 1911
+  "nb_hits": 535
 }

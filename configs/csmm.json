@@ -1,21 +1,21 @@
 {
-  "index_name": "ipfs-docs-v2",
+  "index_name": "csmm",
   "start_urls": [
-    "https://docs-beta.ipfs.io/"
+    "https://docs.csmm.app/"
   ],
   "stop_urls": [],
   "selectors": {
+    "text": ".theme-default-content p, .theme-default-content li",
     "lvl0": {
       "selector": "p.sidebar-heading.open",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content__default h2",
-    "lvl2": ".content__default h3",
-    "lvl3": ".content__default h4",
-    "lvl4": ".content__default h5",
-    "lvl5": ".content__default h6",
-    "text": ".content__default p, .content__default li",
+    "lvl1": ".theme-default-content h2",
+    "lvl2": ".theme-default-content h3",
+    "lvl3": ".theme-default-content h4",
+    "lvl4": ".theme-default-content h5",
+    "lvl5": ".theme-default-content h6",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -30,5 +30,8 @@
       "lang"
     ]
   },
-  "nb_hits": 2173
+    "conversation_id": [
+    "1071649336"
+  ],
+  "nb_hits": 2560
 }

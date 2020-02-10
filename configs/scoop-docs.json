@@ -1,7 +1,7 @@
 {
   "index_name": "scoop-docs",
   "start_urls": [
-    "https://scoop-docs.now.sh/docs/"
+    "https://scoop-docs.netlify.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -31,5 +31,5 @@
     "899309389"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 728
+  "nb_hits": 725
 }
