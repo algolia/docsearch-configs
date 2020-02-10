@@ -6,7 +6,8 @@
   "sitemap_urls": [],
   "stop_urls": [
     "/release-notes",
-    "/merchant-center-releases"
+    "/merchant-center-releases",
+    ".html$"
   ],
   "selectors": {
     "lvl0": {
