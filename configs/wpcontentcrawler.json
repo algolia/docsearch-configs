@@ -6,7 +6,8 @@
       "variables": {
         "version": [
           "master",
-          "1.9"
+          "1.9",
+          "1.10"
         ]
       }
     },
