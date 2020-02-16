@@ -22,7 +22,8 @@
         "se-book-adapted"
       ]
     },
-    "https://nus-cs2113-ay1920s2.github.io/website/"
+    "https://nus-cs2113-ay1920s2.github.io/website/",
+    "https://nus-cs2113-ay1920s2.github.io/website/coding-standards/java/basic.html"
   ],
   "stop_urls": [
     "printable",
