@@ -1,7 +1,22 @@
 {
   "index_name": "thephpleague_csv",
   "start_urls": [
-    "https://csv.thephpleague.com"
+    {
+      "url": "https://csv.thephpleague.com/7.0/",
+      "extra_attributes": {
+        "version": [
+          "7.0"
+        ]
+      }
+    },
+    {
+      "url": "https://csv.thephpleague.com/8.0/",
+      "extra_attributes": {
+        "version": [
+          "8.0"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -21,7 +36,7 @@
     "version": {
       "selector": "nav h2",
       "global": true,
-      "default_value": "v1.0"
+      "default_value": "1.0"
     }
   },
   "custom_settings": {
@@ -32,5 +47,5 @@
   "conversation_id": [
     "1084374233"
   ],
-  "nb_hits": 2214
+  "nb_hits": 967
 }
