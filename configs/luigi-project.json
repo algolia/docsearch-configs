@@ -3,7 +3,11 @@
   "start_urls": [
     {
       "url": "https://docs.luigi-project.io/docu-microfrontend/docs/faq",
-      "selectors_key": "faq"
+      "selectors_key": "accordion"
+    },
+    {
+      "url": "https://docs.luigi-project.io/docu-microfrontend/docs/tutorials",
+      "selectors_key": "accordion"
     },
     "https://docs.luigi-project.io/docu-microfrontend/docs"
   ],
@@ -15,18 +19,17 @@
       "lvl3": ".h4Wrapper > h4",
       "lvl4": ".h5Wrapper > h5",
       "lvl5": ".h6Wrapper > h6",
-      "text": "section blockquote, section p, section ul, section ol"
+      "text": "section blockquote, section p, section ul, section ol, section pre"
     },
-    "faq": {
+    "accordion": {
       "lvl0": ".h1Wrapper > h1",
       "lvl1": {
         "selector": ".h2Wrapper > h2",
         "default_value": "FAQ"
       },
       "lvl2": ".accordion-item-title > h3",
-      "lvl3": ".accordion-item-title > h4",
-      "lvl4": ".accordion-item-title > h5",
-      "text": "p, ul, ol, .accordion-item-content p, .accordion-item-content ul, .accordion-item-content ol"
+      "lvl3": ".accordion-item-content > h4",
+      "text": "p, .accordion-item-content p, .accordion-item-content ul, .accordion-item-content ol, .accordion-item-content pre"
     }
   },
   "conversation_id": [
