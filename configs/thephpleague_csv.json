@@ -1,0 +1,36 @@
+{
+  "index_name": "thephpleague_csv",
+  "start_urls": [
+    "https://csv.thephpleague.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//menu//*[contains(@class,'section')]//*[contains(@class,'selected')]/preceding::h2[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li",
+    "version": {
+      "selector": "nav h2",
+      "global": true,
+      "default_value": "v1.0"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1084374233"
+  ],
+  "nb_hits": 2214
+}
