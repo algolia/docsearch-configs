@@ -1,0 +1,24 @@
+{
+  "index_name": "trimble",
+  "start_urls": [
+    "https://developer.trimblemaps.com/restful-apis/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".highlightable p, .highlightable li",
+    "lvl0": ".highlightable h1",
+    "lvl1": ".highlightable h2",
+    "lvl2": ".highlightable h3",
+    "lvl3": ".highlightable h4",
+    "lvl4": ".highlightable h5",
+    "lvl5": ".highlightable h6"
+  },
+  "sitemap_urls": [
+    "https://developer.trimblemaps.com/restful-apis/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1082893279"
+  ],
+  "nb_hits": 19228
+}

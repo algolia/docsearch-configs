@@ -1,12 +1,9 @@
 {
-  "index_name": "cavep-undc",
+  "index_name": "prismic",
   "start_urls": [
-    "https://undc.ep.phy.cam.ac.uk/docs/"
+    "https://prismic.io/docs"
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://undc.ep.phy.cam.ac.uk/sitemap.xml"
-  ],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
@@ -17,7 +14,7 @@
     "text": "article p, article li"
   },
   "conversation_id": [
-    "1030229255"
+    "1087344940"
   ],
-  "nb_hits": 168
+  "nb_hits": 11173
 }
