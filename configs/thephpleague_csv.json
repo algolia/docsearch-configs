@@ -32,12 +32,7 @@
     "lvl4": "article h4",
     "lvl5": "article h5",
     "lvl6": "article h6",
-    "text": "article p, article li",
-    "version": {
-      "selector": "nav h2",
-      "global": true,
-      "default_value": "1.0"
-    }
+    "text": "article p, article li"
   },
   "custom_settings": {
     "attributesForFaceting": [
