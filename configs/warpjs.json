@@ -4,7 +4,7 @@
     "https://warpjs.dev/docs/"
   ],
   "sitemap_urls": [
-    "https://warpjs.dev/docs/sitemap.xml"
+    "https://warpjs.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
