@@ -1,7 +1,7 @@
 {
   "index_name": "chargetrip",
   "start_urls": [
-    "https://staging.docs.chargetrip.com"
+    "https://docs.chargetrip.com"
   ],
   "stop_urls": [],
   "selectors": {
