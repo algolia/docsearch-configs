@@ -1,10 +1,10 @@
 {
   "index_name": "omisego",
   "start_urls": [
-    "https://omgnetwork-docs-demo.netlify.com/"
+    "https://docs.omg.network/"
   ],
   "sitemap_urls": [
-    "https://omgnetwork-docs-demo.netlify.com/sitemap.xml"
+    "https://docs.omg.network/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
