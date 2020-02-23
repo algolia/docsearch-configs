@@ -5,6 +5,7 @@
       "url": "https://csv.thephpleague.com/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "9.0",
           "8.0",
           "7.0"
         ]
