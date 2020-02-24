@@ -19,8 +19,9 @@
     "lvl6": "main h6",
     "text": "main p, main li"
   },
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "1082400241"
   ],
-  "nb_hits": 2424
+  "nb_hits": 2426
 }
