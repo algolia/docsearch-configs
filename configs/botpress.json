@@ -5,7 +5,7 @@
   ],
   "sitemap_alternate_links": true,
   "start_urls": [
-    "https://botpress.io/docs/"
+    "https://botpress.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
