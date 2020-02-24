@@ -6,7 +6,9 @@
   "sitemap_urls": [
     "https://palette.artsy.net/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/changelog/"
+  ],
   "selectors": {
     "lvl0": ".DocSearch-content h1",
     "lvl1": ".DocSearch-content h2",
