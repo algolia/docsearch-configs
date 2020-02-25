@@ -1,0 +1,24 @@
+{
+  "index_name": "monolithic",
+  "start_urls": [
+    "https://lancache.net/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".shell p, .shell li",
+    "lvl0": ".shell h1",
+    "lvl1": ".shell h2",
+    "lvl2": ".shell h3",
+    "lvl3": ".shell h4",
+    "lvl4": ".shell h5",
+    "lvl5": ".shell h6"
+  },
+  "sitemap_urls": [
+    "https://lancache.net/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1092008789"
+  ],
+  "nb_hits": 10
+}
