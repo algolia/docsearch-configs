@@ -4,7 +4,7 @@
     "http://help.afosto.com/"
   ],
   "sitemap_urls": [
-    "https://community.algolia.com/docsearch/documentation/docsearch/how-it-works/"
+    "http://help.afosto.com/sitemap.xml"
   ],
   "stop_urls": [
     "/blog/"
