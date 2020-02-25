@@ -1,5 +1,5 @@
 {
-  "index_name": "cavep-undc",
+  "index_name": "cavep",
   "start_urls": [
     "https://undc.ep.phy.cam.ac.uk/docs/"
   ],
