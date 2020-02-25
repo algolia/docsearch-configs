@@ -1,7 +1,15 @@
 {
   "index_name": "mapeditor",
   "start_urls": [
-    "https://doc.mapeditor.org/en/stable"
+    {
+      "url": "https://doc.mapeditor.org/en/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "stable",
+          "latest"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://doc.mapeditor.org/sitemap.xml"
@@ -22,5 +30,5 @@
   "conversation_id": [
     "861225350"
   ],
-  "nb_hits": 1271
+  "nb_hits": 3019
 }
