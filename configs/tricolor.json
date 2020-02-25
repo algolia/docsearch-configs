@@ -1,0 +1,38 @@
+{
+  "index_name": "tricolor",
+  "start_urls": [
+    "https://davidebolo1993.github.io/tricolordoc"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".theme-default-content p, .theme-default-content li",
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".theme-default-content h2",
+    "lvl2": ".theme-default-content h3",
+    "lvl3": ".theme-default-content h4",
+    "lvl4": ".theme-default-content h5",
+    "lvl5": ".theme-default-content h6",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1092063024"
+  ],
+  "nb_hits": 88
+}
