@@ -1,0 +1,21 @@
+{
+  "index_name": "miragejs",
+  "start_urls": [
+    "https://miragejs.com/docs/",
+    "https://miragejs.com/docs/getting-started/introduction"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1079933253"
+  ],
+  "nb_hits": 1222
+}
