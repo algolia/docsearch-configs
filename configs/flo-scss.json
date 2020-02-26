@@ -5,7 +5,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "text": ".flo-scss-content p, .p-5 li",
+    "text": ".flo-scss-content p, .flo-scss-content li",
     "lvl0": ".flo-scss-content h1",
     "lvl1": ".flo-scss-content h2",
     "lvl2": ".flo-scss-content h3",
