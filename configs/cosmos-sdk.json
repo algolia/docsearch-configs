@@ -1,0 +1,24 @@
+{
+  "index_name": "cosmos-sdk",
+  "start_urls": [
+    "https://docs.cosmos.network/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".content__default p, .content__default li",
+    "lvl0": ".content__default h1",
+    "lvl1": ".content__default h2",
+    "lvl2": ".content__default h3",
+    "lvl3": ".content__default h4",
+    "lvl4": ".content__default h5",
+    "lvl5": ".content__default h6"
+  },
+  "sitemap_urls": [
+    "https://docs.cosmos.network/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1068887099"
+  ],
+  "nb_hits": 2738
+}
