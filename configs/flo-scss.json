@@ -5,13 +5,13 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "text": ".p-5 p, .p-5 li",
-    "lvl0": ".p-5 h1",
-    "lvl1": ".p-5 h2",
-    "lvl2": ".p-5 h3",
-    "lvl3": ".p-5 h4",
-    "lvl4": ".p-5 h5",
-    "lvl5": ".p-5 h6"
+    "text": ".flo-scss-content p, .flo-scss-content li",
+    "lvl0": ".flo-scss-content h1",
+    "lvl1": ".flo-scss-content h2",
+    "lvl2": ".flo-scss-content h3",
+    "lvl3": ".flo-scss-content h4",
+    "lvl4": ".flo-scss-content h5",
+    "lvl5": ".flo-scss-content h6"
   },
   "sitemap_urls": [
     "https://flo-scss.flo.center/sitemap.xml"
