@@ -1,20 +1,28 @@
 {
   "index_name": "monolithic",
   "start_urls": [
-    "https://lancache.net/"
+    "https://lancache.net/docs/"
+  ],
+  "sitemap_urls": [
+    "https://lancache.net/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "text": ".shell p, .shell li",
-    "lvl0": ".shell h1",
-    "lvl1": ".shell h2",
-    "lvl2": ".shell h3",
-    "lvl3": ".shell h4",
-    "lvl4": ".shell h5",
-    "lvl5": ".shell h6"
+    "lvl0": {
+      "selector": "//aside//*[contains(@class,'current')]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
   },
-  "sitemap_urls": [
-    "https://lancache.net/sitemap.xml"
+  "selectors_exclude": [
+    ".note"
   ],
   "min_indexed_level": 0,
   "conversation_id": [
