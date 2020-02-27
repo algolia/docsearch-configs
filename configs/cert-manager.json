@@ -1,7 +1,12 @@
 {
   "index_name": "cert-manager",
   "start_urls": [
-    "https://cert-manager.io/docs/"
+    {
+      "url": "https://cert-manager.io/(?P<version>.*?)/",
+      "variables": {
+        "version": ["docs", "v0.12-docs"]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
