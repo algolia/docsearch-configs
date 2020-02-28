@@ -34,8 +34,7 @@
     }
   ],
   "stop_urls": [
-    "/edit$",
-    "/$"
+    "/edit$"
   ],
   "selectors": {
     "lvl0": "article h1",
@@ -52,5 +51,5 @@
   "conversation_id": [
     "229197199"
   ],
-  "nb_hits": 4160
+  "nb_hits": 4466
 }
