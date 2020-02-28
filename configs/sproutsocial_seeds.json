@@ -20,7 +20,8 @@
     "text": "main p, main li"
   },
   "selectors_exclude": [
-    "[class^='Base']"
+    "[class^='Base']",
+    ".algolia-ignore"
   ],
   "conversation_id": [
     "670882437"
