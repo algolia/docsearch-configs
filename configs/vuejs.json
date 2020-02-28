@@ -65,9 +65,9 @@
   "selectors_exclude": [
     ".version-select"
   ],
-  "min_indexed_level": 1,
+  "min_indexed_level": 3,
   "conversation_id": [
     "322242916"
   ],
-  "nb_hits": 3376
+  "nb_hits": 3032
 }
