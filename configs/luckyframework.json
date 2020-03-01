@@ -13,8 +13,9 @@
     "lvl2": "section h3",
     "lvl3": "section h4",
     "lvl4": "section h5",
-    "text": "section p, section li, pre code, section blockquote"
+    "text": "section p, section li, section blockquote"
   },
+  "strip_chars": "#›.,;:",
   "conversation_id": [
     "604333363"
   ],
