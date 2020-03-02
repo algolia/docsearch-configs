@@ -2,7 +2,7 @@
   "index_name": "laravel",
   "start_urls": [
     {
-      "url": "http://laravel.com/docs/(?P<version>.*?)/",
+      "url": "https://laravel.com/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
           "master",
