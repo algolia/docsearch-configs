@@ -15,9 +15,9 @@
     "lvl4": "section h5",
     "text": "section p, section li, section blockquote"
   },
-  "strip_chars": "#›.,;:",
+  "strip_chars": "#\u203a.,;:",
   "conversation_id": [
     "604333363"
   ],
-  "nb_hits": 2151
+  "nb_hits": 1765
 }
