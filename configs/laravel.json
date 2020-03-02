@@ -1,0 +1,38 @@
+{
+  "index_name": "laravel",
+  "start_urls": [
+    {
+      "url": "https://laravel.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "6.x",
+          "7.x",
+          "5.8",
+          "5.7",
+          "5.6",
+          "5.5",
+          "5.4",
+          "5.3",
+          "5.2",
+          "5.1",
+          "5.0",
+          "4.2"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs_main h1",
+    "lvl1": ".docs_main h2",
+    "lvl2": ".docs_main h3",
+    "lvl3": ".docs_main h4",
+    "lvl4": ".docs_main h5",
+    "lvl5": ".docs_main h6",
+    "text": ".docs_main p, .docs_main li"
+  },
+  "conversation_id": [
+    "1098245173"
+  ],
+  "nb_hits": 7104
+}
