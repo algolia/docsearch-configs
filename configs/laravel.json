@@ -2,7 +2,7 @@
   "index_name": "laravel",
   "start_urls": [
     {
-      "url": "http://php-plus.com/docs/(?P<version>.*?)/",
+      "url": "http://laravel.com/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
           "master",
@@ -45,5 +45,5 @@
   "conversation_id": [
     "1098245173"
   ],
-  "nb_hits": 60651
+  "nb_hits": 60658
 }
