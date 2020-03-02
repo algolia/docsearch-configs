@@ -3,13 +3,11 @@
   "start_urls": [
     "https://developer.apple.com/documentation/"
   ],
-  "stop_urls": ["\\?"],
+  "stop_urls": [
+    "\\?",
+    "/publishers/merge"
+  ],
   "selectors": {
-    "lvl0": {
-            "selector": ".eyebrow",
-            "default_value": "Documentation",
-            "global": true
-        },
     "lvl0": "main h1",
     "lvl1": "main h2",
     "lvl2": "main h3",
@@ -20,5 +18,6 @@
   },
   "conversation_id": [
     "1098332015"
-  ]
+  ],
+  "nb_hits": 3499871
 }
