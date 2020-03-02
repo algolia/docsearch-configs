@@ -24,17 +24,24 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".docs_main h1",
-    "lvl1": ".docs_main h2",
-    "lvl2": ".docs_main h3",
-    "lvl3": ".docs_main h4",
-    "lvl4": ".docs_main h5",
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'active')]/preceding::h2[1]",
+      "default_value": "None",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": ".docs_main h1",
+    "lvl2": ".docs_main h2",
+    "lvl3": ".docs_main h3",
+    "lvl4": ".docs_main h4",
+    "lvl5": ".docs_main h5",
     "text": ".docs_main p, .docs_main li"
   },
   "scrap_start_urls": false,
   "selectors_exclude": [
     "h1 + ul"
   ],
+  "js_render": true,
   "conversation_id": [
     "1098245173"
   ],
