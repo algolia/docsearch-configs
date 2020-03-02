@@ -5,8 +5,9 @@
       "url": "https://laravel.com/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "6.x",
+          "master",
           "7.x",
+          "6.x",
           "5.8",
           "5.7",
           "5.6",
