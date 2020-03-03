@@ -1,0 +1,21 @@
+{
+  "index_name": "paystack",
+  "start_urls": [
+    "https://documentation-v2.netlify.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".main__content p, .main__content li",
+    "lvl0": ".main__content h1",
+    "lvl1": ".main__content h2",
+    "lvl2": ".main__content h3",
+    "lvl3": ".main__content h4",
+    "lvl4": ".main__content h5",
+    "lvl5": ".main__content h6"
+  },
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1098321391"
+  ],
+  "nb_hits": 544
+}
