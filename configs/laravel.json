@@ -30,12 +30,7 @@
       "type": "xpath",
       "global": true
     },
-    "lvl1": {
-      "selector": "//nav//*[contains(@class,'active')]",
-      "default_value": "None",
-      "type": "xpath",
-      "global": true
-    },
+    "lvl1": ".docs_main h1",
     "lvl2": ".docs_main h2",
     "lvl3": ".docs_main h3",
     "lvl4": ".docs_main h4",
