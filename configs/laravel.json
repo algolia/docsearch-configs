@@ -26,18 +26,22 @@
   "selectors": {
     "lvl0": {
       "selector": "//nav//*[contains(@class,'active')]/preceding::h2[1]",
-      "default_value": "None",
+      "default_value": "Documentation",
       "type": "xpath",
       "global": true
     },
-    "lvl1": ".docs_main h1",
+    "lvl1": {
+        "selector": "//nav//*[contains(@class,'active')]",
+        "default_value": "Chapter",
+        "type": "xpath",
+        "global": true
+      },
     "lvl2": ".docs_main h2",
     "lvl3": ".docs_main h3",
     "lvl4": ".docs_main h4",
     "lvl5": ".docs_main h5",
     "text": ".docs_main p, .docs_main li"
   },
-  "min_indexed_level": 2,
   "scrap_start_urls": false,
   "selectors_exclude": [
     "h1 + ul"
