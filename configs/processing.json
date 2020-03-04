@@ -56,6 +56,9 @@
       "text": ".content > table > tbody > tr:nth-child(n+5) td"
     }
   },
+  "custom_settings": {
+    "attributesForFaceting": ["language"]
+  },
   "selectors_exclude": [
     ".license"
   ],
