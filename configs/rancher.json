@@ -1,35 +1,39 @@
 {
   "index_name": "rancher",
   "start_urls": [
-    "https://docs.rancher.cn/"
+    "https://rancher-2-3.docs.rancher.cn/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "[class*='content '] h1",
-    "lvl1": "[class*='content '] h2",
-    "lvl2": "[class*='content '] h3",
-    "lvl3": "[class*='content '] h4",
-    "lvl4": "[class*='content '] h5",
-    "lvl5": "[class*='content '] h5",
-    "text": "[class*='content '] p, [class*='content '] li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true
+    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li",
+    "lvl1": "[class^='docItemContainer_'] h1",
+    "lvl2": "[class^='docItemContainer_'] h2",
+    "lvl3": "[class^='docItemContainer_'] h3",
+    "lvl4": "[class^='docItemContainer_'] h4",
+    "lvl5": "[class^='docItemContainer_'] h5",
+    "lvl6": "[class^='docItemContainer_'] h6",
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
     }
   },
   "selectors_exclude": [
-    ".table-of-contents"
+    ".hash-link"
   ],
+  "sitemap_urls": [
+    "https://rancher-2-3.docs.rancher.cn/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "language",
+      "version"
     ]
   },
-  "scrap_start_urls": false,
-  "strip_chars": " .,;:#",
+  "min_indexed_level": 0,
   "conversation_id": [
-    "967188640"
+    "1099719207"
   ],
-  "nb_hits": 10842
+  "nb_hits": 429
 }
