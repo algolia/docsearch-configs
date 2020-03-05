@@ -1,0 +1,24 @@
+{
+  "index_name": "jpedro",
+  "start_urls": [
+    "https://docs.jpedro.no/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".DocSearch-content p, .DocSearch-content li",
+    "lvl0": ".DocSearch-content h1",
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6"
+  },
+  "sitemap_urls": [
+    "https://docs.jpedro.no/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1101266435"
+  ],
+  "nb_hits": 379
+}
