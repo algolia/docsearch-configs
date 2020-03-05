@@ -1,0 +1,21 @@
+{
+  "index_name": "gee-ui",
+  "start_urls": [
+    "https://gui.geetest.design/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".null p, .null li",
+    "lvl0": ".null h1",
+    "lvl1": ".null h2",
+    "lvl2": ".null h3",
+    "lvl3": ".null h4",
+    "lvl4": ".null h5",
+    "lvl5": ".null h6"
+  },
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1100443972"
+  ],
+  "nb_hits": 379
+}
