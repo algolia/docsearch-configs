@@ -11,12 +11,22 @@
     "lvl2": "section h3",
     "lvl3": "section h4",
     "lvl4": "section h5",
-    "text": "section p, section li"
+    "text": "section p, section li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
   "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
   "js_render": true,
   "conversation_id": [
     "1071511468"
   ],
-  "nb_hits": 5186
+  "nb_hits": 5266
 }
