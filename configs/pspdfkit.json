@@ -46,6 +46,10 @@
       "text": "#jd-content p, #jd-content li"
     }
   },
+  "selectors_exclude": [
+    ".web-seealso-subsection",
+    ".web-seealso-list li"
+  ],
   "conversation_id": [
     "665157930"
   ],
