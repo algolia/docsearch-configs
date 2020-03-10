@@ -8,23 +8,17 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//nav[contains(@id, 'bd-docs-nav')]//li[contains(@class, 'active')][1]/preceding::a[contains(@class, 'bd-toc-link')][1] | //div[contains(@class,'active')]/a",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".bd-content h1",
-    "lvl2": ".bd-content h2",
-    "lvl3": ".bd-content h3",
-    "lvl4": ".bd-content h4",
-    "text": ".bd-content p, .bd-content li"
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
   },
   "selectors_exclude": [
-    ".chevrons",
-    ".nav-select"
+    ".hash-link",
+    ".edit-page-link"
   ],
-  "only_content_level": true,
   "conversation_id": [
     "521300904"
   ],
