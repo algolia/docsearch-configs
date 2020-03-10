@@ -1,11 +1,11 @@
 {
   "index_name": "hamlet",
   "start_urls": [
-    "https://hamlet-docs.now.sh/docs/",
-    "https://hamlet-docs.now.sh/docs/index"
+    "https://hamlet.io/docs/",
+    "https://hamlet.io/docs/index"
   ],
   "sitemap_urls": [
-    "https://hamlet-docs.now.sh/sitemap.xml"
+    "https://hamlet.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
