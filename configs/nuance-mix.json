@@ -13,9 +13,7 @@
     "lvl4": ".content h5",
     "lvl5": ".content h6"
   },
-  {
-  "selectors_exclude": [".products-container"]
-  },
+  "selectors_exclude": [".products-container"],
   "conversation_id": [
     "1076829139"
   ],
