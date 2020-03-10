@@ -3,7 +3,7 @@
   "start_urls": [
     "https://beta.mix.nuance.com/mix/documentation/"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/$"],
   "selectors": {
     "text": ".content p, .content li",
     "lvl0": ".content h1",
@@ -13,6 +13,7 @@
     "lvl4": ".content h5",
     "lvl5": ".content h6"
   },
+  "selectors_exclude": [".products-container"],
   "conversation_id": [
     "1076829139"
   ],
