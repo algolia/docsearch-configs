@@ -1,9 +1,14 @@
 {
   "index_name": "familysearch_frontier",
   "start_urls": [
-    "https://www.familysearch.org/frontier/docs/"
+    "https://www.familysearch.org/frontier/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://www.familysearch.org/frontier/app-react/",
+    "https://www.familysearch.org/frontier/legacy/",
+    "https://www.familysearch.org/frontier/status/",
+    "https://www.familysearch.org/frontier/catalog/"
+  ],
   "selectors": {
     "lvl0": "[class*='Page__Container'] h1",
     "lvl1": "[class*='Page__Container'] h2",
