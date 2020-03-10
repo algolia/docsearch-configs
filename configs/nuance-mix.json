@@ -3,7 +3,7 @@
   "start_urls": [
     "https://beta.mix.nuance.com/mix/documentation/"
   ],
-  "stop_urls": ["\\/$"],
+  "stop_urls": ["/$"],
   "selectors": {
     "text": ".content p, .content li",
     "lvl0": ".content h1",
