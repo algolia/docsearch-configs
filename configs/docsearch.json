@@ -28,9 +28,6 @@
       "type"
     ]
   },
-  "selectors_exclude": [
-    ".anchor",
-    ".hash-link"
-  ],
+  "strip_chars": ".,;:#",
   "nb_hits": 429
 }
