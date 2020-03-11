@@ -25,7 +25,7 @@
         "global": true,
         "default_value": "Chapter"
       },
-      "lvl2": "[itemprop='articleBody'] h1",
+      "lvl2": "h1",
       "lvl3": "[itemprop='articleBody'] h2",
       "lvl4": "[itemprop='articleBody'] h3",
       "lvl5": "[itemprop='articleBody'] h4",
