@@ -8,7 +8,6 @@
   ],
   "stop_urls": [],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
@@ -23,9 +22,15 @@
     "lvl6": "article h6",
     "text": "article p, article li"
   },
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "type"
+    ]
+  },
   "selectors_exclude": [
     ".anchor",
     ".hash-link"
   ],
-  "nb_hits": 302
+  "nb_hits": 429
 }
