@@ -26,6 +26,14 @@
     "separatorsToIndex": "_",
     "attributesForFaceting": [
       "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "strip_chars": ".,;:#",
