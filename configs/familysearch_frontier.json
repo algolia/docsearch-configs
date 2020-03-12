@@ -18,7 +18,6 @@
     "lvl5": "[class*='Page__Container'] h6",
     "text": "[class*='Page__Container'] p, [class*='Page__Container'] li"
   },
-  "js_render": true,
   "conversation_id": [
     "1080299963"
   ],
