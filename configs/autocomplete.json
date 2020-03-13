@@ -21,6 +21,20 @@
     "lvl5": "[class^='docItemContainer_'] h5",
     "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
   },
+   "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "selectors_exclude": [
     ".hash-link"
   ],
