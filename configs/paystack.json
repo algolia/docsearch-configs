@@ -16,5 +16,6 @@
   "conversation_id": [
     "1098321391"
   ],
-  "nb_hits": 636
+  "only_content_level": true,
+  "nb_hits": 440
 }
