@@ -4,7 +4,7 @@
     {
       "url": "https://cert-manager.io/(?P<version>.*?)/",
       "variables": {
-        "version": ["docs", "v0.12-docs"]
+        "version": ["docs", "v0.12-docs", "v0.13-docs"]
       }
     }
   ],
