@@ -1,12 +1,39 @@
 {
   "index_name": "craftcms_commerce",
   "start_urls": [
-    "https://docs.craftcms.com/commerce"
+    {
+      "url": "https://docs.craftcms.com/commerce/(?P<version>.*?)",
+      "variables": {
+        "version": [
+          "v1",
+          "v2",
+          "v3"
+        ]
+      },
+      "tags": [
+        "doc",
+        "en"
+      ]
+    },
+    {
+      "url": "https://docs.craftcms.com/commerce/api/(?P<version>.*?)",
+      "variables": {
+        "version": [
+          "v2",
+          "v3"
+        ]
+      },
+      "tags": [
+        "api",
+        "en"
+      ],
+      "selectors_key": "api"
+    }
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.open",
+      "selector": "span.site-name",
       "global": true,
       "default_value": "Documentation"
     },
