@@ -4,7 +4,11 @@
     {
       "url": "https://cert-manager.io/(?P<version>.*?)/",
       "variables": {
-        "version": ["docs", "v0.12-docs", "v0.13-docs"]
+        "version": [
+          "docs",
+          "v0.12-docs",
+          "v0.13-docs"
+        ]
       }
     }
   ],
@@ -22,5 +26,5 @@
   "conversation_id": [
     "1094019769"
   ],
-  "nb_hits": 2888
+  "nb_hits": 8289
 }
