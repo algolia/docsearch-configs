@@ -6,18 +6,18 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "#subheader h1",
+      "selector": "main h1",
       "default_value": "Documentation"
     },
-    "lvl1": "#main-content h2",
-    "lvl2": "#main-content h3",
-    "lvl3": "#main-content h4",
-    "lvl4": "#main-content h5",
-    "text": "#main-content p, #main-content li"
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "text": "main p, main li"
   },
   "min_indexed_level": 1,
   "conversation_id": [
     "425815218"
   ],
-  "nb_hits": 5864
+  "nb_hits": 6217
 }
