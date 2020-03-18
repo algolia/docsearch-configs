@@ -13,6 +13,7 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
+  "js_render": true,
   "strip_chars": " .,;:#",
-  "nb_hits": 564
+  "nb_hits": 667
 }
