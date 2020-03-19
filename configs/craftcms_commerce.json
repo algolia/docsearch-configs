@@ -56,7 +56,9 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "version",
+      "tags"
     ]
   },
   "conversation_id": [
