@@ -13,8 +13,12 @@
     "lvl5": "main h6",
     "text": "main p, main li"
   },
+  "selectors_exclude": [
+    ".style"
+  ],
   "conversation_id": [
     "1113924890"
   ],
+
   "nb_hits": 2213
 }
