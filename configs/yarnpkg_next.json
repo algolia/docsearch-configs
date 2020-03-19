@@ -1,7 +1,7 @@
 {
   "index_name": "yarnpkg_next",
   "start_urls": [
-    "https://next.yarnpkg.com/"
+    "https://yarnpkg.com/"
   ],
   "stop_urls": [],
   "selectors": {
