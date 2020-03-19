@@ -14,11 +14,10 @@
     "text": "main p, main li"
   },
   "selectors_exclude": [
-    ".style"
+    "main style"
   ],
   "conversation_id": [
     "1113924890"
   ],
-
-  "nb_hits": 2213
+  "nb_hits": 2212
 }
