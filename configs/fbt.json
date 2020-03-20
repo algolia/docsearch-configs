@@ -1,7 +1,8 @@
 {
   "index_name": "fbt",
   "start_urls": [
-    "https://facebookincubator.github.io/fbt/"
+    "https://facebook.github.io/fbt/docs/",
+    "https://facebook.github.io/fbt/docs/getting_started"
   ],
   "stop_urls": [],
   "selectors": {
@@ -34,5 +35,5 @@
   "conversation_id": [
     "1087985078"
   ],
-  "nb_hits": 268
+  "nb_hits": 269
 }
