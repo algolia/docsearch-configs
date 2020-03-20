@@ -1,7 +1,7 @@
 {
   "index_name": "shipjs",
   "start_urls": [
-    "https://shipjs.netlify.com"
+    "https://community.algolia.com/shipjs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -36,5 +36,5 @@
     "1040461505"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 323
+  "nb_hits": 336
 }
