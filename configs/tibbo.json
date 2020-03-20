@@ -1,7 +1,11 @@
 {
   "index_name": "tibbo",
   "start_urls": [
-    "https://docs.tibbo.com/taiko"
+    "https://docs.tibbo.com/taiko",
+    "https://docs.tibbo.com/phm",
+    "https://docs.tibbo.com/soism",
+    "https://docs.tibbo.com/opc",
+    "https://docs.tibbo.com/tmgm"
   ],
   "stop_urls": [
     "\\?"
