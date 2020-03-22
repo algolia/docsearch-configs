@@ -1,7 +1,7 @@
 {
   "index_name": "wso2",
   "start_urls": [
-    "https://apim.docs.wso2.com/en/latest"
+    "https://apim.docs.wso2.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,7 +14,8 @@
     "lvl5": ".md-content__inner h6"
   },
   "sitemap_urls": [
-    "https://apim.docs.wso2.com/en/sitemap.xml"
+    "https://apim.docs.wso2.com/en/latest/sitemap.xml",
+    "https://apim.docs.wso2.com/en/next/sitemap.xml"
   ],
   "conversation_id": [
     "1070576193"
