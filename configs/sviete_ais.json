@@ -1,10 +1,10 @@
 {
   "index_name": "sviete_ais",
   "start_urls": [
-    "https://sviete.github.io/AIS-docs/docs/"
+    "http://ai-speaker.com/docs/"
   ],
   "sitemap_urls": [
-    "https://sviete.github.io/AIS-docs/sitemap.xml"
+    "https://ai-speaker.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
