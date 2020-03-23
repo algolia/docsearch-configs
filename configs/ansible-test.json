@@ -1,6 +1,7 @@
 {
   "index_name": "ansible-test",
   "start_urls": [
+    "https://docs.ansible.com/ansible/devel/",
     "https://docs.ansible.com/ansible/devel/user_guide/intro_getting_started.html"
   ],
   "stop_urls": [],
@@ -14,5 +15,5 @@
     "lvl5": ".section h6"
   },
   "min_indexed_level": 0,
-  "nb_hits": 45
+  "nb_hits": 182916
 }
