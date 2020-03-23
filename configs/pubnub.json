@@ -7,7 +7,7 @@
   "selectors": {
     "lvl0": {
       "selector": "//aside//*[contains(@class,'active-trail active')]/preceding::*[contains(@class,'active-trail')][1]",
-      "type":"xpath",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -20,7 +20,7 @@
     "text": ".content .content p, .content .content li",
     "sdk": {
       "selector": "(//*[@id='language-list']/li[position()<19]/a[contains(/html/head/link[@rel='canonical']/@href,@href)])[1]",
-      "type":"xpath",
+      "type": "xpath",
       "global": true,
       "default_value": "none"
     }
@@ -39,5 +39,5 @@
   "conversation_id": [
     "1023908121"
   ],
-  "nb_hits": 71431
+  "nb_hits": 72736
 }

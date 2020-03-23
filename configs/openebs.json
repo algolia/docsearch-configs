@@ -1,30 +1,35 @@
 {
   "index_name": "openebs",
   "start_urls": [
-    "https://docs.openebs.io/docs/next"
+    "https://docs.openebs.io/"
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://docs.openebs.io/sitemap.xml"
-  ],
   "selectors": {
+    "text": ".post article p, .post article li",
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "lvl5": ".post h6"
   },
   "selectors_exclude": [
     ".hash-link"
   ],
-  "conversation_id": [
-    "526516272"
+  "sitemap_urls": [
+    "https://docs.openebs.io/sitemap.xml"
   ],
-  "nb_hits": 2701
+  "sitemap_alternate_links": true,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "nb_hits": 63144
 }
