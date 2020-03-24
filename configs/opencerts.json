@@ -3,7 +3,9 @@
   "start_urls": [
     "https://docs.opencerts.io"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "^https://docs.opencerts.io/v1"
+  ],
   "selectors": {
     "lvl0": ".markdown-body h1",
     "lvl1": ".markdown-body h2",
