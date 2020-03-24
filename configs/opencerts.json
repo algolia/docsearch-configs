@@ -6,17 +6,35 @@
   "stop_urls": [
     "^https://docs.opencerts.io/v1"
   ],
+  "sitemap_urls": [
+    "https://docs.opencerts/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "selectors": {
-    "lvl0": ".markdown-body h1",
-    "lvl1": ".markdown-body h2",
-    "lvl2": ".markdown-body h3",
-    "lvl3": ".markdown-body h4",
-    "lvl4": ".markdown-body h5",
-    "lvl5": ".markdown-body h6",
-    "text": ".markdown-body p, .markdown-body li"
+    "lvl0": {
+      "selector": "//*[contains(@class,'menu ')]/ul/li[.//*[@aria-current='page']]/a",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
   },
   "conversation_id": [
     "868842676"
   ],
-  "nb_hits": 488
+  "nb_hits": 164
 }
