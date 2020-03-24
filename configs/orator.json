@@ -1,0 +1,18 @@
+{
+  "index_name": "orator",
+  "start_urls": [
+    "https://orator-orm.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".section p, .section li",
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6"
+  },
+  "min_indexed_level": 0,
+  "nb_hits": 2122
+}
