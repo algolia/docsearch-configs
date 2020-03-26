@@ -1,22 +1,7 @@
 {
   "index_name": "kubesphere",
   "start_urls": [
-    {
-      "url": "https://kubesphere.io/docs/(?P<version>.*?)/(?P<lang>.*?)/",
-      "variables": {
-        "lang": [
-          "zh-CN",
-          "en"
-        ],
-        "version": [
-          "v2.1",
-          "v2.0",
-          "v1.0",
-          "express"
-        ]
-      }
-    },
-    "https://kubesphere.io/docs/v2.1/zh-CN/release/release-v200/"
+    "https://kubesphere.io/docs/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -34,5 +19,5 @@
   "conversation_id": [
     "633752622"
   ],
-  "nb_hits": 8128
+  "nb_hits": 2112
 }

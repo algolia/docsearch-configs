@@ -8,7 +8,8 @@
       ],
       "selectors_key": "api"
     },
-    "https://arrow-kt.io/docs/"
+    "https://arrow-kt.io/docs/0.10/",
+    "https://arrow-kt.io/docs/0.10/core/"
   ],
   "stop_urls": [
     "https://arrow-kt.io/docs/arrow/data/nonemptylist/"
@@ -47,5 +48,5 @@
   "conversation_id": [
     "601115880"
   ],
-  "nb_hits": 36963
+  "nb_hits": 17444
 }

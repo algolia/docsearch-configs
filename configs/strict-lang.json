@@ -1,10 +1,10 @@
 {
   "index_name": "strict-lang",
   "start_urls": [
-    "https://strict-lang.github.io/strict.dev/docs/"
+    "https://strict.dev/docs/"
   ],
   "sitemap_urls": [
-    "https://strict-lang.github.io/strict.dev/sitemap.xml"
+    "https://strict.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +34,5 @@
   "conversation_id": [
     "1058226197"
   ],
-  "nb_hits": 198
+  "nb_hits": 205
 }

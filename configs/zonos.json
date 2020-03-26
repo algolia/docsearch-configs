@@ -25,21 +25,20 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//nav/ul/li/a[contains(@class,'active')] |//nav//a[contains(@class,'active')]/preceding::div[contains(@class,'menu')][1]",
-      "type": "xpath",
+      "selector": "nav header h3",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "text": "article p, article li"
+    "lvl1": "#main-content h1",
+    "lvl2": "#main-content h2",
+    "lvl3": "#main-content h3",
+    "lvl4": "#main-content h4",
+    "text": "#main-content p, #main-content li"
   },
   "scrap_start_urls": false,
   "js_render": true,
   "conversation_id": [
     "469038186"
   ],
-  "nb_hits": 4304
+  "nb_hits": 17970
 }
