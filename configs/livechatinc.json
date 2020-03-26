@@ -1,7 +1,7 @@
 {
   "index_name": "livechatinc",
   "start_urls": [
-    "https://developers.livechatinc.com/docs/"
+    "https://developers.livechat.com/docs/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -26,5 +26,5 @@
   "conversation_id": [
     "504447721"
   ],
-  "nb_hits": 4132
+  "nb_hits": 6609
 }
