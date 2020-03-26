@@ -1,5 +1,6 @@
 {
   "index_name": "caddyserver",
+  "js_render": true,
   "start_urls": [
     "https://caddyserver.com/docs/"
   ],
