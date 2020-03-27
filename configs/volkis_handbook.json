@@ -5,6 +5,7 @@
   ],
   "stop_urls": [],
   "selectors": {
+    "title": ".main-heading h1",
     "lvl0": ".content h1",
     "lvl1": ".content h2",
     "lvl2": ".content h3",
