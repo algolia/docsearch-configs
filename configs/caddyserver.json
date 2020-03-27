@@ -1,5 +1,6 @@
 {
   "index_name": "caddyserver",
+  "js_render": true,
   "start_urls": [
     "https://caddyserver.com/docs/"
   ],
@@ -16,5 +17,5 @@
   "conversation_id": [
     "1119104529"
   ],
-  "nb_hits": 1546
+  "nb_hits": 1547
 }
