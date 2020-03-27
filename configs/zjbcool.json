@@ -1,0 +1,26 @@
+{
+  "index_name": "zjbcool",
+  "start_urls": [
+    "https://zjbcool.com"
+  ],
+  "stop_urls": [
+    "/blog/",
+    "/author/",
+    "/page/",
+    "/v3d",
+    "/tag/"
+  ],
+  "selectors": {
+    "lvl0": "header h2",
+    "lvl1": ".entry-content h2",
+    "lvl2": ".entry-content h3",
+    "lvl3": ".entry-content h4",
+    "lvl4": ".entry-content h5",
+    "lvl5": ".entry-content h6",
+    "text": ".entry-content p, .entry-content li"
+  },
+  "conversation_id": [
+    "1120974883"
+  ],
+  "nb_hits": 3375
+}
