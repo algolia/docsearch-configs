@@ -6,12 +6,18 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#app h1",
-    "lvl1": "#app h2",
-    "lvl2": "#app h3",
-    "lvl3": "#app h4",
-    "lvl4": "#app h5",
-    "lvl5": "#app h6",
+    "lvl0": {
+      "selector": "//nav//span[contains(@class,'relative')][text()=//h1]/preceding::h5[1]",
+    "type": "xpath",
+    "global": true,
+    "default_value": "Documentation"
+  },
+    "lvl1": "#app h1",
+    "lvl2": "#app h2",
+    "lvl3": "#app h3",
+    "lvl4": "#app h4",
+    "lvl5": "#app h5",
+    "lvl6": "#app h6",
     "text": "#app p, #app li"
   },
   "conversation_id": [
