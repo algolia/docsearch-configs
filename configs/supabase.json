@@ -13,7 +13,8 @@
     "lvl5": "[class^='docItemContainer_'] h5",
     "lvl6": "[class^='docItemContainer_'] h6",
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "//*[contains(@class,'main-wrapper')]//*[contains(@class,'sidebar')]//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     }
@@ -34,5 +35,5 @@
   "conversation_id": [
     "1087983878"
   ],
-  "nb_hits": 762
+  "nb_hits": 824
 }
