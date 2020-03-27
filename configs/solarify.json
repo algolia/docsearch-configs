@@ -1,12 +1,10 @@
 {
   "index_name": "solarify",
   "start_urls": [
-    "https://solarify.io/",
+    "https://solarify.io/en/docs/",
     "https://solarify.io/tr/docs/"
   ],
   "stop_urls": [
-    "\\?",
-    "/blog/"
   ],
   "selectors": {
     "lvl0": "article h1",
