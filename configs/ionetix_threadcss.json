@@ -1,0 +1,21 @@
+{
+  "index_name": "ionetix_threadcss",
+  "start_urls": [
+    "https://dsm.ionetix.com/docs",
+    "https://dsm.ionetix.com/docs/installation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#app h1",
+    "lvl1": "#app h2",
+    "lvl2": "#app h3",
+    "lvl3": "#app h4",
+    "lvl4": "#app h5",
+    "lvl5": "#app h6",
+    "text": "#app p, #app li"
+  },
+  "conversation_id": [
+    "1120696006"
+  ],
+  "nb_hits": 2713
+}
