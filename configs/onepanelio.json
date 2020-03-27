@@ -1,10 +1,10 @@
 {
   "index_name": "onepanelio",
   "start_urls": [
-    "https://onepanelio.github.io/core-docs/docs/"
+    "https://docs.onepanel.ai/"
   ],
   "sitemap_urls": [
-    "https://onepanelio.github.io/core-docs/sitemap.xml"
+    "https://docs.onepanel.ai/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
