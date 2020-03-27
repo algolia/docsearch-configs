@@ -2,7 +2,30 @@
   "index_name": "aws_amplify_new",
   "start_urls": [
     "https://docs.amplify.aws/",
-    "https://docs.amplify.aws/lib?platform=js"
+    "https://docs.amplify.aws/start?integration=android",
+    "https://docs.amplify.aws/start?integration=angular",
+    "https://docs.amplify.aws/start?integration=ionic",
+    "https://docs.amplify.aws/start?integration=ios",
+    "https://docs.amplify.aws/start?integration=js",
+    "https://docs.amplify.aws/start?integration=ios",
+    "https://docs.amplify.aws/start?integration=react",
+    "https://docs.amplify.aws/start?integration=react-native",
+    "https://docs.amplify.aws/start?integration=vue",
+    "https://docs.amplify.aws/lib?platform=js",
+    "https://docs.amplify.aws/lib?platform=ios",
+    "https://docs.amplify.aws/lib?platform=android",
+    "https://docs.amplify.aws/sdk?platform=ios",
+    "https://docs.amplify.aws/sdk?platform=android",
+    "https://docs.amplify.aws/ui?platform=react",
+    "https://docs.amplify.aws/ui?platform=angular",
+    "https://docs.amplify.aws/ui?platform=ionic",
+    "https://docs.amplify.aws/ui?platform=react-native",
+    "https://docs.amplify.aws/ui?platform=vue",
+    "https://docs.amplify.aws/ui-legacy?platform=angular",
+    "https://docs.amplify.aws/ui-legacy?platform=ionic",
+    "https://docs.amplify.aws/ui-legacy?platform=react-native",
+    "https://docs.amplify.aws/ui-legacy?platform=vue",
+    "https://docs.amplify.aws/cli"
   ],
   "stop_urls": [
     "\\?"
