@@ -10,8 +10,8 @@
     "lvl2": "article h3",
     "lvl3": "article h4",
     "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+    "lvl5": "article h6, article dt",
+    "text": "article p, article li, article dd"
   },
   "selectors_exclude": [
     ".anchor-link"
