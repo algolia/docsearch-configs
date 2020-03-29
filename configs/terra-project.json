@@ -1,10 +1,10 @@
 {
   "index_name": "terra-project",
   "start_urls": [
-    "https://ouiliame.github.io/terra-docs/docs/"
+    "https://docs.terra.money/docs/"
   ],
   "sitemap_urls": [
-    "https://ouiliame.github.io/terra-docs/sitemap.xml"
+    "https://docs.terra.money/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -33,5 +33,5 @@
   "conversation_id": [
     "1010700158"
   ],
-  "nb_hits": 1405
+  "nb_hits": 2054
 }

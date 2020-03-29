@@ -1,11 +1,11 @@
 {
   "index_name": "wacom-ink-layer",
   "start_urls": [
-    "https://will3-docs-eu.azurewebsites.net/docs/",
-    "https://will3-docs-eu.azurewebsites.net/docs/api.html"
+    "http://will-docs.westeurope.cloudapp.azure.com/docs/",
+    "http://will-docs.westeurope.cloudapp.azure.com/docs/wdk-overview"
   ],
   "sitemap_urls": [
-    "https://will3-docs-eu.azurewebsites.net/sitemap.xml"
+    "http://will-docs.westeurope.cloudapp.azure.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -35,5 +35,5 @@
   "conversation_id": [
     "898857072"
   ],
-  "nb_hits": 349
+  "nb_hits": 193
 }

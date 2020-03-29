@@ -10,12 +10,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "text": ".content p, .content li",
-    "lvl5": ".content h5",
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -34,5 +34,5 @@
     "659253718"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 179
+  "nb_hits": 298
 }

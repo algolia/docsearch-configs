@@ -1,0 +1,30 @@
+{
+  "index_name": "wso2",
+  "start_urls": [
+    "https://apim.docs.wso2.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".md-content__inner p, .md-content__inner li",
+    "lvl0": ".md-content__inner h1",
+    "lvl1": ".md-content__inner h2",
+    "lvl2": ".md-content__inner h3",
+    "lvl3": ".md-content__inner h4",
+    "lvl4": ".md-content__inner h5",
+    "lvl5": ".md-content__inner h6"
+  },
+  "sitemap_urls": [
+    "https://apim.docs.wso2.com/en/latest/sitemap.xml",
+    "https://apim.docs.wso2.com/en/next/sitemap.xml"
+  ],
+  "conversation_id": [
+    "1070576193"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "nb_hits": 14880
+}

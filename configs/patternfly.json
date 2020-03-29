@@ -6,6 +6,10 @@
       "selectors_key": "getStarted"
     },
     {
+      "url": "https://www.patternfly.org/v4/documentation/",
+      "selectors_key": "documentation"
+    },
+    {
       "url": "https://www.patternfly.org/v4/"
     }
   ],
@@ -29,16 +33,29 @@
         "global": true,
         "default_value": "Category"
       },
-      "lvl2": {
-        "selector": "#page-sidebar li [aria-current]",
+      "lvl2": "main h1",
+      "lvl3": "main h2",
+      "lvl4": "main h3",
+      "lvl5": "main h4",
+      "lvl6": "main h5",
+      "text": "main p, main li, main td"
+    },
+    "documentation": {
+      "lvl0": {
+        "selector": "#page-sidebar .ws-org-context-switcher-dropdown .pf-c-dropdown__toggle-text",
         "global": true,
-        "default_value": "Page"
+        "default_value": "Documentation"
       },
-      "lvl3": "main h1",
-      "lvl4": "main h2",
-      "lvl5": "main h3",
-      "lvl6": "main h4",
-      "lvl7": "main h5",
+      "lvl1": {
+        "selector": "#page-sidebar li.pf-m-current > a",
+        "global": true,
+        "default_value": "Category"
+      },
+      "lvl2": "main .ws-page-title",
+      "lvl3": "main h2",
+      "lvl4": "main h3",
+      "lvl5": "main h4",
+      "lvl6": "main h5",
       "text": "main p, main li, main td"
     },
     "getStarted": {
@@ -70,5 +87,5 @@
   "conversation_id": [
     "772189694"
   ],
-  "nb_hits": 34223
+  "nb_hits": 34486
 }

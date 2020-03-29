@@ -1,0 +1,21 @@
+{
+  "index_name": "pdftron",
+  "start_urls": [
+    "https://www.pdftron.com/api/android/javadoc/reference/packages.html",
+    "https://www.pdftron.com/api/android/javadoc/reference"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#doc-content h1",
+    "lvl1": "#doc-content h2",
+    "lvl2": "#doc-content h3",
+    "lvl3": "#doc-content h4",
+    "lvl4": "#doc-content h5",
+    "lvl5": "#doc-content h6",
+    "text": "#doc-content p, #doc-content li"
+  },
+  "conversation_id": [
+    "1119718036"
+  ],
+  "nb_hits": 36508
+}

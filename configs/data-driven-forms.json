@@ -12,10 +12,10 @@
     "lvl3": ".DocSearch-content h4",
     "lvl4": ".DocSearch-content h5",
     "lvl5": ".DocSearch-content h6",
-    "text": ".DocSearch-content p, .DocSearch-content li"
+    "text": ".DocSearch-content p, .DocSearch-content li, .DocSearch-content .DocTable"
   },
   "conversation_id": [
     "952910917"
   ],
-  "nb_hits": 300
+  "nb_hits": 325
 }

@@ -1,10 +1,11 @@
 {
   "index_name": "bcarroll22-native-testing-library",
   "start_urls": [
-    "https://native-testing-library.com/docs/"
+    "https://www.native-testing-library.com/docs/",
+    "https://www.native-testing-library.com/docs/next/intro"
   ],
   "sitemap_urls": [
-    "https://native-testing-library.com/sitemap.xml"
+    "https://www.native-testing-library.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +35,5 @@
   "conversation_id": [
     "816955981"
   ],
-  "nb_hits": 195
+  "nb_hits": 546
 }

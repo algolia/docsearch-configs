@@ -1,6 +1,16 @@
 {
   "index_name": "wpcontentcrawler",
   "start_urls": [
+    {
+      "url": "https://docs.wpcontentcrawler.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "master",
+          "1.9",
+          "1.10"
+        ]
+      }
+    },
     "https://docs.wpcontentcrawler.com/"
   ],
   "stop_urls": [
@@ -25,5 +35,5 @@
   "conversation_id": [
     "1010054031"
   ],
-  "nb_hits": 10080
+  "nb_hits": 13490
 }

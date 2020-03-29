@@ -1,0 +1,25 @@
+{
+  "index_name": "familysearch_frontier",
+  "start_urls": [
+    "https://www.familysearch.org/frontier/"
+  ],
+  "stop_urls": [
+    "https://www.familysearch.org/frontier/app-react/",
+    "https://www.familysearch.org/frontier/legacy/",
+    "https://www.familysearch.org/frontier/status/",
+    "https://www.familysearch.org/frontier/catalog/"
+  ],
+  "selectors": {
+    "lvl0": "[class*='Page__Container'] h1",
+    "lvl1": "[class*='Page__Container'] h2",
+    "lvl2": "[class*='Page__Container'] h3",
+    "lvl3": "[class*='Page__Container'] h4",
+    "lvl4": "[class*='Page__Container'] h5",
+    "lvl5": "[class*='Page__Container'] h6",
+    "text": "[class*='Page__Container'] p, [class*='Page__Container'] li"
+  },
+  "conversation_id": [
+    "1080299963"
+  ],
+  "nb_hits": 1322
+}

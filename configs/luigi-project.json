@@ -1,0 +1,40 @@
+{
+  "index_name": "luigi-project",
+  "start_urls": [
+    {
+      "url": "https://docs.luigi-project.io/docu-microfrontend/docs/faq",
+      "selectors_key": "accordion"
+    },
+    {
+      "url": "https://docs.luigi-project.io/docu-microfrontend/docs/tutorials",
+      "selectors_key": "accordion"
+    },
+    "https://docs.luigi-project.io/docu-microfrontend/docs"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".h1Wrapper > h1",
+      "lvl1": ".h2Wrapper > h2",
+      "lvl2": ".h3Wrapper > h3",
+      "lvl3": ".h4Wrapper > h4",
+      "lvl4": ".h5Wrapper > h5",
+      "lvl5": ".h6Wrapper > h6",
+      "text": "section blockquote, section p, section ul, section ol, section pre"
+    },
+    "accordion": {
+      "lvl0": ".h1Wrapper > h1",
+      "lvl1": {
+        "selector": ".h2Wrapper > h2",
+        "default_value": "FAQ"
+      },
+      "lvl2": ".accordion-item-title > h3",
+      "lvl3": ".accordion-item-content > h4",
+      "text": "p, .accordion-item-content p, .accordion-item-content ul, .accordion-item-content ol, .accordion-item-content pre"
+    }
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "1080706551"
+  ],
+  "nb_hits": 741
+}

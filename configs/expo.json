@@ -8,6 +8,7 @@
           "v33.0.0",
           "v34.0.0",
           "v35.0.0",
+          "v36.0.0",
           "latest",
           "unversioned"
         ]
@@ -33,5 +34,5 @@
   "conversation_id": [
     "569512966"
   ],
-  "nb_hits": 36730
+  "nb_hits": 49901
 }

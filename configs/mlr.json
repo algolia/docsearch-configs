@@ -29,75 +29,69 @@
     "/articles/$",
     "/articles/index.html"
   ],
-  "sitemap_urls": [
-    "https://mlr.mlr-org.com/sitemap.xml"
-  ],
   "selectors": {
     "homepage": {
       "lvl0": {
-        "selector": ".nav .dropdown.active > a",
-        "global": true,
-        "default_value": "Homepage"
+        "selector": ".contents h1",
+        "default_value": "pkgdown Home page"
       },
-      "lvl1": ".contents h1",
-      "lvl2": ".contents h2",
-      "lvl3": ".contents h3",
-      "lvl4": ".contents h4",
-      "text": ".contents p, .contents li"
+      "lvl1": ".contents h2",
+      "lvl2": {
+        "selector": ".contents h3",
+        "default_value": "Context"
+      },
+      "lvl3": ".ref-arguments td, .ref-description",
+      "text": ".contents p, .contents li, .contents .pre"
     },
     "reference": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Appendix"
-      },
-      "lvl1": ".contents h1",
-      "lvl2": {
+      "lvl0": ".contents h1",
+      "lvl1": {
         "selector": ".contents .name",
         "default_value": "Argument"
       },
-      "lvl3": {
+      "lvl2": {
         "selector": ".ref-arguments th",
         "default_value": "Description"
       },
-      "text": ".contents p, .contents li, .usage"
+      "lvl3": ".ref-arguments td, .ref-description",
+      "text": ".contents p, .contents li"
     },
     "articles": {
-      "lvl0": {
-        "selector": ".page-header h1",
-        "global": true,
-        "default_value": "Advanced"
+      "lvl0": ".contents h1",
+      "lvl1": ".contents .name",
+      "lvl2": {
+        "selector": ".contents h2, .contents h3",
+        "default_value": "Context"
       },
-      "lvl1": ".contents h1",
-      "lvl2": ".contents h2",
-      "lvl3": ".contents h3",
-      "lvl4": ".contents h4",
       "text": ".contents p, .contents li"
     },
     "default": {
-      "lvl0": {
-        "selector": ".nav .dropdown.active > a",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": ".page-header h1",
-      "lvl2": ".contents h1",
-      "lvl3": ".contents h2",
-      "lvl4": ".contents h3",
-      "lvl5": ".contents h4",
-      "text": ".contents p, .contents li"
+      "lvl1": ".contents h2",
+      "lvl2": ".contents h3, .contents th",
+      "lvl3": ".contents h4",
+      "lvl4": ".contents h5",
+      "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
     }
   },
   "selectors_exclude": [
-    ".dont-index",
-    "#toc"
+    ".dont-index"
   ],
-  "min_indexed_level": 2,
+  "sitemap_urls": [
+    "https://mlr.mlr-org.com/sitemap.xml"
+  ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor"
+    ]
   },
   "conversation_id": [
     "549872564"
   ],
-  "nb_hits": 4643
+  "min_indexed_level": 2,
+  "nb_hits": 5761
 }

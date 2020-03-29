@@ -5,6 +5,7 @@
       "url": "https://docs.bolt.cm/(?P<version>.*?)/getting-started/introduction",
       "variables": {
         "version": [
+          "4.0",
           "3.7",
           "3.6",
           "3.5",
@@ -21,6 +22,7 @@
       "url": "https://docs.bolt.cm/(?P<version>.*?)/.*",
       "variables": {
         "version": [
+          "4.0",
           "3.7",
           "3.6",
           "3.5",
@@ -52,5 +54,5 @@
   "conversation_id": [
     "183246755"
   ],
-  "nb_hits": 75880
+  "nb_hits": 81985
 }

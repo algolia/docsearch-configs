@@ -13,10 +13,11 @@
     "lvl2": "section h3",
     "lvl3": "section h4",
     "lvl4": "section h5",
-    "text": "section p, section li"
+    "text": "section p, section li, section blockquote"
   },
+  "strip_chars": "#\u203a.,;:",
   "conversation_id": [
     "604333363"
   ],
-  "nb_hits": 1131
+  "nb_hits": 1765
 }

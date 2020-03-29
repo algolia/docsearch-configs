@@ -1,33 +1,23 @@
 {
   "index_name": "getpostman",
   "start_urls": [
-    "https://learning.getpostman.com/docs/"
+    "https://learning.postman.com/docs/"
   ],
   "stop_urls": [
-    "https://learning.getpostman.com/docs/v6/",
+    "https://learning.postman.com/docs/v6/",
     "\\.pm"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "[class*='table-of-contents-container'] > [role='tablist'] > div > [aria-selected='true'] h3",
-      "global": true,
-      "default_value": "Tool"
-    },
-    "lvl1": {
-      "selector": ".accordion__item [role='tabpanel'] .accordion__title[aria-selected=true] h3",
-      "global": true,
-      "default_value": "Chapter"
-    },
-    "lvl2": "[class*='doc-module---doc--'] h1",
-    "lvl3": "[class*='doc-module---doc--'] h2",
-    "lvl4": "[class*='doc-module---doc--'] h3",
-    "lvl5": "[class*='doc-module---doc--'] h4",
-    "lvl6": "[class*='doc-module---doc--'] h5",
-    "text": "[class*='doc-module---doc--'] p, [class*='doc-module---doc--'] li"
+    "lvl0": ".doc-page h1",
+    "lvl1": ".doc-page h2",
+    "lvl2": ".doc-page h3",
+    "lvl3": ".doc-page h4",
+    "lvl4": ".doc-page h5",
+    "text": ".doc-page p, .doc-page li"
   },
   "conversation_id": [
     "656356572"
   ],
   "js_render": true,
-  "nb_hits": 8873
+  "nb_hits": 7147
 }

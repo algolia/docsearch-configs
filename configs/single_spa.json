@@ -1,28 +1,34 @@
 {
   "index_name": "single_spa",
   "start_urls": [
-    "https://single-spa.js.org/docs/",
-    "https://single-spa.js.org/docs/building-applications.html"
+    "https://single-spa.js.org/docs/"
   ],
+  "sitemap_urls": [
+    "https://single-spa.js.org/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
   },
   "selectors_exclude": [
     ".hash-link"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "conversation_id": [
     "591912117"
   ],
-  "nb_hits": 796
+  "js_render": true,
+  "nb_hits": 2813
 }

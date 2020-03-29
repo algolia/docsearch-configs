@@ -7,7 +7,9 @@
         "version": [
           "stable",
           "active-development",
-          "latest",
+          "v1-9-x",
+          "v1-8-x",
+          "v1-7-x",
           "v1-6-x",
           "v1-5-x",
           "v1-4-x",
@@ -51,5 +53,5 @@
     "693711568"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 52658
+  "nb_hits": 68055
 }

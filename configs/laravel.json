@@ -1,0 +1,72 @@
+{
+  "index_name": "laravel",
+  "start_urls": [
+    {
+      "url": "https://laravel.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+            "master",
+            "7.x",
+            "6.x",
+            "5.8",
+            "5.7",
+            "5.6",
+            "5.5",
+            "5.4",
+            "5.3",
+            "5.2",
+            "5.1",
+            "5.0",
+            "4.2"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'active')]/preceding::h2[1]",
+      "default_value": "Documentation",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": {
+        "selector": "//nav//*[contains(@class,'active')]",
+        "default_value": "Chapter",
+        "type": "xpath",
+        "global": true
+      },
+    "lvl2": ".docs_main h2",
+    "lvl3": ".docs_main h3",
+    "lvl4": ".docs_main h4",
+    "lvl5": ".docs_main h5",
+    "text": ".docs_main p, .docs_main li"
+  },
+  "scrap_start_urls": false,
+  "selectors_exclude": [
+    "h1 + ul"
+  ],
+  "js_render": true,
+  "conversation_id": [
+    "1098245173"
+  ],
+  "custom_settings": {
+    "attributesToIndex": [
+        "unordered(hierarchy_camel.lvl0)",
+        "unordered(hierarchy.lvl0)",
+        "unordered(hierarchy_camel.lvl1)",
+        "unordered(hierarchy.lvl1)",
+        "unordered(hierarchy_camel.lvl2)",
+        "unordered(hierarchy.lvl2)",
+        "unordered(hierarchy_camel.lvl3)",
+        "unordered(hierarchy.lvl3)",
+        "unordered(hierarchy_camel.lvl4)",
+        "unordered(hierarchy.lvl4)",
+        "unordered(hierarchy_camel.lvl5)",
+        "unordered(hierarchy.lvl5)",
+        "content"
+    ],
+    "attributeForDistinct": "url_without_anchor"
+  },
+  "nb_hits": 59822
+}

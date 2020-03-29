@@ -17,9 +17,7 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -30,5 +28,5 @@
   "conversation_id": [
     "833762294"
   ],
-  "nb_hits": 855
+  "nb_hits": 4050
 }

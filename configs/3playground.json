@@ -3,21 +3,22 @@
   "start_urls": [
     "https://www.3playground.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://www.3playground.com/cms-help"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "section.section h2",
+      "selector": "div.section h1",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "section.section h3",
-    "lvl2": "section.section h4",
-    "lvl3": "section.section h5",
-    "lvl4": "section.section h6",
-    "text": "section.section p, section.section li"
+    "lvl1": "div.section h2",
+    "lvl2": "div.section h3",
+    "lvl3": "div.content h3, div.content h4, div.content h5, div.section h3, div.section h4, div.section h5",
+    "text": ".section p, .section li, .content p"
   },
   "conversation_id": [
     "1004758927"
   ],
-  "nb_hits": 105
+  "nb_hits": 169
 }

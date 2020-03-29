@@ -27,8 +27,16 @@
   "selectors_exclude": [
     ".scv-banner"
   ],
+  "custom_settings": {
+    "synonyms": [
+      [
+        "speech",
+        "voice"
+      ]
+    ]
+  },
   "conversation_id": [
     "627630474"
   ],
-  "nb_hits": 2533
+  "nb_hits": 5004
 }

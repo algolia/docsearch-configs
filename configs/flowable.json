@@ -5,6 +5,7 @@
       "url": "https://documentation.flowable.com/main/(?P<version>.*?)",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -17,6 +18,7 @@
       "url": "https://documentation.flowable.com/work-user-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -29,6 +31,7 @@
       "url": "https://documentation.flowable.com/engage-user-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -41,6 +44,7 @@
       "url": "https://documentation.flowable.com/design-user-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -52,6 +56,7 @@
       "url": "https://documentation.flowable.com/engage-ios-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -63,6 +68,7 @@
       "url": "https://documentation.flowable.com/control-user-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0"
@@ -73,6 +79,7 @@
       "url": "https://documentation.flowable.com/modeler-bpmn/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -85,6 +92,7 @@
       "url": "https://documentation.flowable.com/modeler-dmn/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -96,6 +104,7 @@
       "url": "https://documentation.flowable.com/modeler-expert/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -107,6 +116,7 @@
       "url": "https://documentation.flowable.com/trial-tutorial/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0"
         ]
@@ -116,6 +126,7 @@
       "url": "https://documentation.flowable.com/core-install/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -127,6 +138,7 @@
       "url": "https://documentation.flowable.com/qwork-install/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -138,6 +150,7 @@
       "url": "https://documentation.flowable.com/control-install/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0"
@@ -148,6 +161,7 @@
       "url": "https://documentation.flowable.com/design-install/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0"
@@ -158,6 +172,7 @@
       "url": "https://documentation.flowable.com/engage-install/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -170,6 +185,7 @@
       "url": "https://documentation.flowable.com/work-install/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -182,6 +198,7 @@
       "url": "https://documentation.flowable.com/tech-notes/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -194,6 +211,7 @@
       "url": "https://documentation.flowable.com/core-swagger/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -205,6 +223,7 @@
       "url": "https://documentation.flowable.com/appdev-swagger/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -217,6 +236,7 @@
       "url": "https://documentation.flowable.com/core-javadoc/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -228,6 +248,7 @@
       "url": "https://documentation.flowable.com/appdev-javadoc/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -240,6 +261,7 @@
       "url": "https://documentation.flowable.com/appdev-dbschema/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -252,6 +274,7 @@
       "url": "https://documentation.flowable.com/dev-guide/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -263,6 +286,7 @@
       "url": "https://documentation.flowable.com/main/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "3.5.0",
           "3.4.0",
           "3.3.0",
           "3.2.0",
@@ -299,5 +323,5 @@
   "conversation_id": [
     "846981864"
   ],
-  "nb_hits": 51371
+  "nb_hits": 65600
 }

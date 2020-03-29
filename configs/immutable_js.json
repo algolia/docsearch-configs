@@ -1,9 +1,9 @@
 {
   "index_name": "immutable_js",
   "start_urls": [
-    "https://facebook.github.io/immutable-js/docs/",
+    "https://immutable-js.github.io/immutable-js/docs/",
     {
-      "url": "https://facebook.github.io/immutable-js/",
+      "url": "https://immutable-js.github.io/immutable-js/",
       "selectors_key": "home",
       "tags": [
         "home"
@@ -11,7 +11,7 @@
     }
   ],
   "stop_urls": [
-    "https://facebook.github.io/immutable-js/docs/#/[A-Za-z.]+/.+",
+    "https://immutable-js.github.io/immutable-js/docs/#/[A-Za-z.]+/.+",
     "CONTRIBUTING.md$"
   ],
   "selectors": {

@@ -1,10 +1,11 @@
 {
   "index_name": "openbci",
   "start_urls": [
-    "https://openbci.github.io/Documentation/docs/"
+    "https://docs.openbci.com/docs/",
+    "https://docs.openbci.com/docs/Welcome.html"
   ],
   "sitemap_urls": [
-    "https://openbci.github.io/Documentation/sitemap.xml"
+    "https://docs.openbci.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +35,5 @@
   "conversation_id": [
     "935618417"
   ],
-  "nb_hits": 4455
+  "nb_hits": 4763
 }

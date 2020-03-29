@@ -1,0 +1,20 @@
+{
+  "index_name": "shorthand",
+  "start_urls": [
+    "https://shorthandcss.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".p-l2 p, .p-l2 li",
+    "lvl0": ".p-l2 h1",
+    "lvl1": ".p-l2 h2",
+    "lvl2": ".p-l2 h3",
+    "lvl3": ".p-l2 h4",
+    "lvl4": ".p-l2 h5",
+    "lvl5": ".p-l2 h6"
+  },
+  "conversation_id": [
+    "1084832211"
+  ],
+  "nb_hits": 628
+}

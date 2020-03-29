@@ -2,12 +2,8 @@
   "index_name": "pm2docs",
   "start_urls": [
     {
-      "url": "https://doc.pm2.io/(?P<language>.*?)/(?P<tool>.*?)/overview/",
+      "url": "https://pm2.io/docs/(?P<tool>.*?)/overview/",
       "variables": {
-        "language": [
-          "en",
-          "zh"
-        ],
         "tool": [
           "runtime",
           "plus",
@@ -16,42 +12,65 @@
       }
     },
     {
-      "url": "https://doc.pm2.io/(?P<language>.*?)/(?P<tool>.*?)/",
+      "url": "https://pm2.io/docs/(?P<tool>.*?)/",
       "variables": {
-        "language": [
-          "en",
-          "zh"
-        ],
         "tool": [
           "runtime",
           "plus",
-          "enterprise"
+          "enterprise",
+          "usage"
+        ]
+      }
+    },
+    {
+      "url": "https://pm2.keymetrics.io/docs/usage",
+      "extra_attributes": {
+        "tool": [
+          "usage"
         ]
       }
     }
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://doc.pm2.io/sitemap.xml"
+    "https://pm2.io/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "nav.header-links a.active",
+      "selector": "//nav//*[contains(@class,'active')][contains(@class,'nav-section-entry')]/preceding::*[contains(@class,'nav-section-title')][1]",
       "global": true,
-      "default_value": "PM2 Documentation"
+      "type": "xpath",
+      "default_value": "Documentation"
     },
-    "lvl1": "#main section h1",
-    "lvl2": "#main section h2",
-    "lvl3": "#main section h3",
-    "lvl4": "#main section h4",
-    "text": "#main section p, #main section li"
+    "lvl1": {
+      "selector": "main h1",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li",
+    "language": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
   "selectors_exclude": [
     "#next-steps",
     "#next-steps + p"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tool",
+      "language"
+    ]
+  },
   "conversation_id": [
     "541109950"
   ],
-  "nb_hits": 2486
+  "nb_hits": 3223
 }

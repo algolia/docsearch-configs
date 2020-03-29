@@ -1,0 +1,27 @@
+{
+  "index_name": "santiment_academy",
+  "start_urls": [
+    "https://academy.santiment.net/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "[class*='Breadcrumb'][class*='title']:nth-child(2) a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h3",
+    "lvl2": "[class*='Markdown'][class*='wrapper'] h2",
+    "lvl3": "[class*='Markdown'][class*='wrapper'] h5",
+    "lvl4": "[class*='Markdown'][class*='wrapper'] h6, [class*='Markdown'][class*='wrapper'] td:first-child",
+    "text": "[class*='Markdown'][class*='wrapper'] p, [class*='Markdown'][class*='wrapper'] li, [class*='Markdown'][class*='wrapper'] td:last-child"
+  },
+  "min_indexed_level": 2,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1020400649"
+  ],
+  "nb_hits": 4212
+}

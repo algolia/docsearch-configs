@@ -5,7 +5,11 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "article h1",
+    "lvl0": {
+      "selector": "article h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": "article h2",
     "lvl2": "article h3",
     "lvl3": "article h4",
@@ -13,6 +17,7 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
+  "js_render": true,
   "strip_chars": " .,;:#",
-  "nb_hits": 564
+  "nb_hits": 667
 }

@@ -1,0 +1,22 @@
+{
+  "index_name": "react-native-notifications",
+  "start_urls": [
+    "https://notifee.app/react-native/docs/",
+    "https://notifee.app/react-native/docs/overview",
+    "https://notifee.app/react-native/reference"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".pt-10 p, .pt-10 li",
+    "lvl0": ".pt-10 h1",
+    "lvl1": ".pt-10 h2",
+    "lvl2": ".pt-10 h3",
+    "lvl3": ".pt-10 h4",
+    "lvl4": ".pt-10 h5",
+    "lvl5": ".pt-10 h6"
+  },
+  "conversation_id": [
+    "1070839317"
+  ],
+  "nb_hits": 1744
+}
