@@ -6,11 +6,7 @@
     "http://fibjs.org/docs/manual/module/",
     "http://fibjs.org/docs/manual/object/readme.md.html"
   ],
-  "stop_urls": [
-    ".*\\/docs\\/.*\\/docs\\/",
-    "/[a-z]{2}/[a-z]{2}",
-    "\\/download\\/download\\/"
-  ],
+  "stop_urls": ["\\/[a-z]{2}\\/[a-z]{2}\\/"],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
@@ -23,5 +19,5 @@
   "conversation_id": [
     "428418431"
   ],
-  "nb_hits": 14893
+  "nb_hits": 12875
 }
