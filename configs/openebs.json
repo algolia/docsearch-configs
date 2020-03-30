@@ -1,7 +1,7 @@
 {
   "index_name": "openebs",
   "start_urls": [
-    "https://docs.openebs.io/"
+    "https://docs.openebs.io/docs/next/"
   ],
   "stop_urls": [],
   "selectors": {
