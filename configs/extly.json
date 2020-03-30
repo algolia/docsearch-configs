@@ -3,7 +3,7 @@
   "start_urls": [
     "https://www.extly.com/docs"
   ],
-  "stop_urls": [],
+  "stop_urls": ["wiki"],
   "sitemap_urls": [
     "https://www.extly.com/docs/sitemap.xml"
   ],
