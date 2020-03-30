@@ -1,7 +1,7 @@
 {
   "index_name": "vendr",
   "start_urls": [
-    "https://staging.vendr.net/docs/"
+    "https://vendr.net/docs/"
   ],
   "stop_urls": [],
   "selectors": {
