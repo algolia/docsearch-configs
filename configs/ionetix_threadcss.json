@@ -1,8 +1,7 @@
 {
   "index_name": "ionetix_threadcss",
   "start_urls": [
-    "https://dsm.ionetix.com/docs",
-    "https://dsm.ionetix.com/docs/installation/"
+    "https://dsm.ionetix.com/docs/installation/index.html"
   ],
   "stop_urls": [],
   "selectors": {
