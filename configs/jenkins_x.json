@@ -1,7 +1,15 @@
 {
   "index_name": "jenkins_x",
   "start_urls": [
-    "https://jenkins-x.io/"
+    {
+      "url": "http://www.example.com/(?P<lang>.*?)/",
+      "variables": {
+        "lang": ["es", "zh"]
+      }
+    },
+    {
+      "url": "https://jenkins-x.io/"
+    }
   ],
   "sitemap_urls": [
     "https://jenkins-x.io/sitemap.xml"
