@@ -4,7 +4,10 @@
     {
       "url": "http://www.example.com/(?P<lang>.*?)/",
       "variables": {
-        "lang": ["es", "zh"]
+        "lang": [
+          "es",
+          "zh"
+        ]
       }
     },
     {
@@ -13,7 +16,7 @@
         "lang": [
           "en"
         ]
-        }
+      }
     }
   ],
   "sitemap_urls": [
@@ -48,5 +51,5 @@
   "conversation_id": [
     "965668499"
   ],
-  "nb_hits": 19935
+  "nb_hits": 19415
 }
