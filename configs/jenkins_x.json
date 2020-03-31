@@ -8,7 +8,12 @@
       }
     },
     {
-      "url": "https://jenkins-x.io/"
+      "url": "https://jenkins-x.io/",
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ]
+        }
     }
   ],
   "sitemap_urls": [
