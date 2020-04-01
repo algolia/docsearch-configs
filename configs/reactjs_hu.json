@@ -1,8 +1,9 @@
 {
   "index_name": "reactjs_hu",
   "start_urls": [
-    "https://react-docs-hu.netlify.com/docs/",
-    "https://react-docs-hu.netlify.com/docs/getting-started.html"
+    "https://hu.reactjs.org/"
+    "https://hu.reactjs.org/docs/",
+    "https://hu.reactjs.org/docs/getting-started.html"
   ],
   "stop_urls": [],
   "selectors": {
