@@ -1,7 +1,7 @@
 {
   "index_name": "reactjs_hu",
   "start_urls": [
-    "https://hu.reactjs.org/"
+    "https://hu.reactjs.org/",
     "https://hu.reactjs.org/docs/",
     "https://hu.reactjs.org/docs/getting-started.html"
   ],
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1035873178"
   ],
-  "nb_hits": 4424
+  "nb_hits": 10468
 }
