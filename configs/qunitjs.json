@@ -1,81 +1,21 @@
 {
   "index_name": "qunitjs",
   "start_urls": [
-    {
-      "url": "https://qunitjs.com/changelog/",
-      "tags": ["changelog"],
-      "selectors_key": "changelog",
-      "page_rank": -1
-    },
-    {
-      "url": "https://qunitjs.com/download/",
-      "tags": ["download"],
-      "selectors_key": "download",
-      "page_rank": -1
-    },
-    {
-      "url": "https://qunitjs.com/upgrade-guide/",
-      "tags": ["upgrade-guide"],
-      "selectors_key": "upgrade-guide",
-      "page_rank": -1
-    },
     "https://qunitjs.com/"
   ],
-  "stop_urls": ["\\?", ".com/category/", "/resources/"],
+  "stop_urls": [
+    "\\?",
+    ".com/category/",
+    "/resources/"
+  ],
   "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": "//aside//*[text()=//h1]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": "#content h1",
-      "lvl2": "#content h2, #content h4.name",
-      "lvl3": "#content h3, #content h4:not(.name)",
-      "lvl4": "#content h5, #content strong:first-child",
-      "text": "#content p, #content li"
-    },
-    "changelog": {
-      "lvl0": {
-        "selector": "//aside//*[text()=//h1]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Changelog"
-      },
-      "lvl1": "#content h1",
-      "lvl2": "#content h2, #content h4.name",
-      "lvl3": "#content h3, #content h4:not(.name)",
-      "lvl4": "#content h5, #content strong:first-child",
-      "text": "#content p, #content li"
-    },
-    "upgrade-guide": {
-      "lvl0": {
-        "selector": "//aside//*[text()=//h1]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Upgrade Guide"
-      },
-      "lvl1": "#content h1",
-      "lvl2": "#content h2, #content h4.name",
-      "lvl3": "#content h3, #content h4:not(.name)",
-      "lvl4": "#content h5, #content strong:first-child",
-      "text": "#content p, #content li"
-    },
-    "download": {
-      "lvl0": {
-        "selector": "//aside//*[text()=//h1]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Download"
-      },
-      "lvl1": "#content h1",
-      "lvl2": "#content h2, #content h4.name",
-      "lvl3": "#content h3, #content h4:not(.name)",
-      "lvl4": "#content h5, #content strong:first-child",
-      "text": "#content p, #content li"
-    }
-  },"custom_settings": {
+    "lvl0": "#content h1",
+    "lvl1": "#content h2, #content h4.name",
+    "lvl2": "#content h3, #content h4:not(.name)",
+    "lvl4": "#content h5, #content strong:first-child",
+    "text": "#content p, #content li"
+  },
+  "custom_settings": {
     "attributesToIndex": [
       "unordered(hierarchy_radio_camel.lvl0)",
       "unordered(hierarchy_radio.lvl0)",
@@ -106,7 +46,8 @@
       "unordered(hierarchy_camel.lvl6)",
       "unordered(hierarchy.lvl6)",
       "unordered(content)"
-    ]},
+    ]
+  },
   "selectors_exclude": [
     "header ~ article",
     ".returns",
@@ -117,5 +58,5 @@
   ],
   "min_indexed_level": 2,
   "scrap_start_urls": false,
-  "nb_hits": 582
+  "nb_hits": 315
 }
