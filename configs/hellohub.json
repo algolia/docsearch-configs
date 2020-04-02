@@ -1,7 +1,7 @@
 {
-  "index_name": "hellohub",
+  "index_name": "qapp-chimera",
   "start_urls": [
-    "https://www.hellohub.cn/"
+    "https://qapp-chimera.vivo.com.cn/"
   ],
   "stop_urls": [],
   "selectors": {
