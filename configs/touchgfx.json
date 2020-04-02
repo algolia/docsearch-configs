@@ -1,10 +1,10 @@
 {
   "index_name": "touchgfx",
   "start_urls": [
-    "https://touchgfx.github.io/docs/"
+    "https://support.touchgfx.com/docs/"
   ],
   "sitemap_urls": [
-    "https://touchgfx.github.io/sitemap.xml"
+    "https://support.touchgfx.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1119277578"
   ],
-  "nb_hits": 5353
+  "nb_hits": 6052
 }
