@@ -1,0 +1,133 @@
+{
+  "index_name": "jqueryui",
+  "start_urls": [
+    {
+      "url": "https://jqueryui.com/changelog/",
+      "tags": [
+        "changelog"
+      ],
+      "selectors_key": "changelog",
+      "page_rank": -1
+    },
+    {
+      "url": "https://jqueryui.com/download/",
+      "tags": [
+        "download"
+      ],
+      "selectors_key": "download",
+      "page_rank": -1
+    },
+    {
+      "url": "https://jqueryui.com/upgrade-guide/",
+      "tags": [
+        "upgrade-guide"
+      ],
+      "selectors_key": "upgrade-guide",
+      "page_rank": -1
+    },
+    "https://jqueryui.com/"
+  ],
+  "stop_urls": [
+    "\\?",
+    ".com/category/",
+    "/resources/"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//aside//*[text()=//h1]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "#content h1",
+      "lvl2": "#content h2, #content h4.name",
+      "lvl3": "#content h3, #content h4:not(.name)",
+      "lvl4": "#content h5, #content strong:first-child",
+      "text": "#content p, #content li"
+    },
+    "changelog": {
+      "lvl0": {
+        "selector": "//aside//*[text()=//h1]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Changelog"
+      },
+      "lvl1": "#content h1",
+      "lvl2": "#content h2, #content h4.name",
+      "lvl3": "#content h3, #content h4:not(.name)",
+      "lvl4": "#content h5, #content strong:first-child",
+      "text": "#content p, #content li"
+    },
+    "upgrade-guide": {
+      "lvl0": {
+        "selector": "//aside//*[text()=//h1]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Upgrade Guide"
+      },
+      "lvl1": "#content h1",
+      "lvl2": "#content h2, #content h4.name",
+      "lvl3": "#content h3, #content h4:not(.name)",
+      "lvl4": "#content h5, #content strong:first-child",
+      "text": "#content p, #content li"
+    },
+    "download": {
+      "lvl0": {
+        "selector": "//aside//*[text()=//h1]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Download"
+      },
+      "lvl1": "#content h1",
+      "lvl2": "#content h2, #content h4.name",
+      "lvl3": "#content h3, #content h4:not(.name)",
+      "lvl4": "#content h5, #content strong:first-child",
+      "text": "#content p, #content li"
+    }
+  },
+  "custom_settings": {
+    "attributesToIndex": [
+      "unordered(hierarchy_radio_camel.lvl0)",
+      "unordered(hierarchy_radio.lvl0)",
+      "unordered(hierarchy_camel.lvl0)",
+      "unordered(hierarchy.lvl0)",
+      "unordered(hierarchy_radio_camel.lvl1)",
+      "unordered(hierarchy_radio.lvl1)",
+      "unordered(hierarchy_camel.lvl1)",
+      "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy_radio_camel.lvl2)",
+      "unordered(hierarchy_radio.lvl2)",
+      "unordered(hierarchy_camel.lvl2)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy_radio_camel.lvl3)",
+      "unordered(hierarchy_radio.lvl3)",
+      "unordered(hierarchy_camel.lvl3)",
+      "unordered(hierarchy.lvl3)",
+      "unordered(hierarchy_radio_camel.lvl4)",
+      "unordered(hierarchy_radio.lvl4)",
+      "unordered(hierarchy_camel.lvl4)",
+      "unordered(hierarchy.lvl4)",
+      "unordered(hierarchy_radio_camel.lvl5)",
+      "unordered(hierarchy_radio.lvl5)",
+      "unordered(hierarchy_camel.lvl5)",
+      "unordered(hierarchy.lvl5)",
+      "unordered(hierarchy_radio_camel.lvl6)",
+      "unordered(hierarchy_radio.lvl6)",
+      "unordered(hierarchy_camel.lvl6)",
+      "unordered(hierarchy.lvl6)",
+      "unordered(content)"
+    ]
+  },
+  "selectors_exclude": [
+    "header ~ article",
+    ".returns",
+    ".version-details",
+    ".section-title",
+    "[class^=toclevel]",
+    "#toctitle"
+  ],
+  "min_indexed_level": 2,
+  "scrap_start_urls": false,
+  "nb_hits": 5822
+}
