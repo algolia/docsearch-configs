@@ -2,6 +2,13 @@
   "index_name": "jqueryui",
   "start_urls": [
     {
+      "url": "https://api.jqueryui.com/",
+      "tags": [
+        "api"
+      ],
+      "selectors_key": "api"
+    },
+    {
       "url": "https://jqueryui.com/changelog/",
       "tags": [
         "changelog"
@@ -30,7 +37,8 @@
   "stop_urls": [
     "\\?",
     ".com/category/",
-    "/resources/"
+    "/resources/",
+    "api.jqueryui.com\\/\\d\\."
   ],
   "selectors": {
     "default": {
@@ -84,6 +92,18 @@
       "lvl3": "#content h3, #content h4:not(.name)",
       "lvl4": "#content h5, #content strong:first-child",
       "text": "#content p, #content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "#categories .cat-item.current-cat > a",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": "#content h1",
+      "lvl2": "#content h2, #content h4.name",
+      "lvl3": "#content h3, #content h4:not(.name)",
+      "lvl4": "#content h5, #content strong:first-child",
+      "text": ".entry-content p, .entry-content li"
     }
   },
   "custom_settings": {
@@ -129,5 +149,5 @@
   ],
   "min_indexed_level": 2,
   "scrap_start_urls": false,
-  "nb_hits": 5822
+  "nb_hits": 12068
 }
