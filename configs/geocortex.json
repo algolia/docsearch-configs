@@ -1,7 +1,8 @@
 {
   "index_name": "geocortex",
   "start_urls": [
-    "https://developers.geocortex.com/docs/"
+    "https://developers.geocortex.com/docs/",
+    "https://developers.geocortex.com/docs/web/overview"
   ],
   "sitemap_urls": [
     "https://developers.geocortex.com/sitemap.xml"
@@ -30,5 +31,5 @@
   "conversation_id": [
     "1115718446"
   ],
-  "nb_hits": 802
+  "nb_hits": 1157
 }
