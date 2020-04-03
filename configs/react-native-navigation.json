@@ -3,7 +3,9 @@
   "start_urls": [
     "https://wix.github.io/react-native-navigation"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?"
+  ],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
@@ -18,5 +20,5 @@
   "conversation_id": [
     "1110397192"
   ],
-  "nb_hits": 17837
+  "nb_hits": 396
 }
