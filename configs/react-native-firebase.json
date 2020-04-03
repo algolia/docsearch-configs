@@ -1,38 +1,24 @@
 {
   "index_name": "react-native-firebase",
   "start_urls": [
-    "https://invertase.io/oss/react-native-firebase/"
+    "https://rnfirebase.io",
+    "https://rnfirebase.io/reference"
   ],
   "stop_urls": [
     "\\?"
   ],
   "sitemap_urls": [
-    "https://invertase.io/oss/react-native-firebase/sitemap.xml"
+    "https://rnfirebase.io/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "(//nav//a[@aria-current]/preceding::button[1]|//*[contains(@class,'Breadcrumbs-sc')]/li[1]//*[@itemprop='name'])[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": {
-      "selector": "article h1",
-      "default_value": "Class"
-    },
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "lvl6": "article h6",
-    "text": "article p, article li"
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
   },
-  "selectors_exclude": [
-    "[class^='MarketFooter__Container']",
-    "button i",
-    "[class^=TableOfContents__List]",
-    "[class^='Grid__StyledGrid']"
-  ],
   "conversation_id": [
     "968430420"
   ],
