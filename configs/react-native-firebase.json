@@ -5,6 +5,7 @@
     "https://rnfirebase.io/reference"
   ],
   "stop_urls": [
+    "https://rnfirebase.io/about",
     "\\?"
   ],
   "sitemap_urls": [
