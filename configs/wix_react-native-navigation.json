@@ -1,0 +1,34 @@
+{
+  "index_name": "wix_react-native-navigation",
+  "start_urls": [
+    "https://wix.github.io/react-native-navigation/",
+    "https://wix.github.io/react-native-navigation/#/docs/Installing"
+  ],
+  "sitemap_urls": [
+    "https://wix.github.io/react-native-navigation/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "="
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside/div/ul/li[.//*[contains(@class,'active')]]/text()",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "js_render": true,
+  "use_anchors": true,
+  "conversation_id": [
+    "1126587597"
+  ],
+  "nb_hits": 921
+}
