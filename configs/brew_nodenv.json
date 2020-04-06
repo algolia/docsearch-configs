@@ -1,0 +1,55 @@
+{
+  "index_name": "brew_nodenv",
+  "start_urls": [
+    {
+      "url": "https://nodenv.github.io/formulae/",
+      "tags": [
+        "cask",
+        "formula"
+      ],
+      "extra_attributes": {
+        "site": [
+          "formulae"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://nodenv.github.io/formulae/sitemap.xml"
+  ],
+  "stop_urls": [
+    "https://brew.sh/blog/",
+    "\\.json"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Cask"
+    },
+    "lvl1": "#wrap h2",
+    "lvl2": "#wrap h3",
+    "lvl3": "#wrap h4",
+    "lvl4": "#wrap h5",
+    "lvl5": "#wrap h6",
+    "text": "#wrap p, #wrap li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "tags",
+      "site"
+    ],
+    "separatorsToIndex": "_+@/"
+  },
+  "conversation_id": [
+    "1128607002"
+  ],
+  "nb_hits": 284
+}
