@@ -2,7 +2,7 @@
   "index_name": "questdb",
   "start_urls": [
     "https://www.questdb.io/docs/",
-    "https://www.questdb.io/docs/docstructure"
+    "https://www.questdb.io/docs/documentationOverview"
   ],
   "sitemap_urls": [
     "https://www.questdb.io/sitemap.xml"
