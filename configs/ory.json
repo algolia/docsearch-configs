@@ -43,7 +43,7 @@
     "https://www.ory.sh/hydra/docs/sitemap.xml",
     "https://www.ory.sh/oathkeeper/docs/sitemap.xml",
     "https://www.ory.sh/keto/docs/sitemap.xml",
-    "https://www.ory.sh/kratos/docs/sitemap.xml",
+    "https://www.ory.sh/kratos/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
