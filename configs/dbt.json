@@ -1,10 +1,10 @@
 {
   "index_name": "dbt",
   "start_urls": [
-    "https://tutorial.getdbt.com/docs/"
+    "https://docs.getdbt.com/docs/"
   ],
   "sitemap_urls": [
-    "https://tutorial.getdbt.com/sitemap.xml"
+    "https://docs.getdbt.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
