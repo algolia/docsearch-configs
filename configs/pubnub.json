@@ -1,28 +1,209 @@
 {
   "index_name": "pubnub",
-  "start_urls": [
-    "https://www.pubnub.com/docs"
+  "sitemap_urls": [
+    "https://www.pubnub.com/docs/chat/sitemap.xml", 
+    "https://www.pubnub.com/docs/sitemap.xml", 
+    "https://www.pubnub.com/docs/platform/sitemap.xml"
   ],
-  "stop_urls": [],
-  "selectors": {
-    "lvl0": {
-      "selector": "//aside//*[contains(@class,'active-trail active')]/preceding::*[contains(@class,'active-trail')][1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+  "start_urls": [
+    {
+      "url": "https://www.pubnub.com/docs/(?P\/(web|nodejs)-javascript\/(.*)$?)",
+      "selectors_key": "docs",
+      "page_rank": 1,
+      "tags": ["js", "javascript", "nodejs"]
+    },    
+    {
+      "url": "https://www.pubnub.com/docs/(?P\/(android|java-se)-java\/(.*)$?)",
+      "selectors_key": "docs",
+      "page_rank": 2,
+      "tags": ["java", "android"]
+    },    
+    {
+      "url": "https://www.pubnub.com/docs/swift-native/(?P\/(.*)$?)",
+      "selectors_key": "docs",
+      "page_rank": 3,
+      "tags": ["swift", "ios", "iOS", "swift iOS", "swift cocoa"]
+    },    
+    {
+      "url": "https://www.pubnub.com/docs/ios-objective-c/(?P\/(.*)$?)",
+      "selectors_key": "docs",
+      "page_rank": 4,
+      "tags": ["objective-c", "ios", "iOS", "cocoa"]
+    },    
+    {
+      "url": "https://www.pubnub.com/docs/c-sharp-dot-net-c-sharp/(?P\/(.*)$?)",
+      "selectors_key": "docs",
+      "page_rank": 5,
+      "tags": ["c#", "c-sharp"]
+    },    
+    {
+      "url": "https://www.pubnub.com/docs/(?P\/(python|python-twisted|python-tornado|python-aiohttp)\/(.*)$?)",
+      "selectors_key": "docs",
+      "page_rank": 6,
+      "tags": ["python"]
+    },    
+    {
+      "url": "https://www.pubnub.com/docs/(?P\/(posix-cpp|windows-cpp|posix-c|windows-c|freertos|mbed)\/(.*)$?)",
+      "selectors_key": "docs",
+      "page_rank": 7,
+      "tags": ["c", "c-core", "windows c", "posix c", "c++"]
+    },    
+    {
+      "url": "https://www.pubnub.com/docs/unity3d-c-sharp/(?P\/(.*)$?)",
+      "selectors_key": "docs",
+      "page_rank": 8,
+      "tags": ["unity"]
+    },    
+    {
+      "url": "https://www.pubnub.com/docs/ruby/(?P\/(.*)$?)",
+      "selectors_key": "docs",
+      "page_rank": 9,
+      "tags": ["ruby"]
+    },    
+    {
+      "url": "https://www.pubnub.com/docs/go/(?P\/(.*)$?)",
+      "selectors_key": "docs",
+      "page_rank": 10,
+      "tags": ["go", "golang"]
+    }, 
+    {
+      "url": "https://www.pubnub.com/docs/(?P(\/(.*))$?)",
+      "selectors_key": "docs",
+      "page_rank": 11,
+      "tags": ["docs", "documentation"]
+    },       
+    {
+      "url": "https://www.pubnub.com/docs/chat/",
+      "selectors_key": "chat",
+      "tags": ["chat", "chat documentation"]
     },
-    "lvl1": "h1.page-title",
-    "lvl2": ".content .content h2",
-    "lvl3": ".content .content h3",
-    "lvl4": ".content .content h4",
-    "lvl5": ".content .content h5",
-    "lvl6": ".content .content h6",
-    "text": ".content .content p, .content .content li",
-    "sdk": {
-      "selector": "(//*[@id='language-list']/li[position()<19]/a[contains(/html/head/link[@rel='canonical']/@href,@href)])[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "none"
+    {      
+      "url": "https://www.pubnub.com/docs/blocks-catalog/",
+      "selectors_key": "blocks",
+      "tags": ["blocks catalog", "blocks"]
+    },
+    {
+      "url": "https://www.pubnub.com/docs/pubnub-rest-api-documentation/",
+      "selectors_key": "rest",
+      "tags": ["rest", "rest api", "rest api docs", "rest docs"]
+    },
+    {
+      "url": "https://www.pubnub.com/docs/console/",
+      "selectors_key": "console",
+      "tags": ["console", "developer console", "Debug Console"]
+    },
+    {
+      "url": "https://www.pubnub.com/docs/platform/functions/",
+      "selectors_key": "functions",
+      "tags": ["functions"]
+    },
+    {
+      "url": "https://www.pubnub.com/docs/platform/",
+      "selectors_key": "platform",
+      "tags": ["platform docs", "platform"]
+    }
+
+  ],
+  "stop_urls": [
+    "https://www.pubnub.com/docs/(?P(\/(.*)-sdk-v3)$?)"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//aside//*[contains(@class,'active-trail active')]/preceding::*[contains(@class,'active-trail')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "h1.page-title",
+      "lvl2": ".content .content h2",
+      "lvl3": ".content .content h3",
+      "lvl4": ".content .content h4",
+      "lvl5": ".content .content h5",
+      "lvl6": ".content .content h6",
+      "text": ".content .content p, .content .content li",
+      "sdk": {
+        "selector": "(//*[@id='language-list']/li[position()<19]/a[contains(/html/head/link[@rel='canonical']/@href,@href)])[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "none"
+      }
+    },
+    "docs":{
+      "lvl0": "h1.page-title",
+      "lvl1": "div.unify-124[data-mdesc]",
+      "lvl2": ".content .content h2",
+      "lvl3": ".content .content h3",
+      "lvl4": ".content .content h4",
+      "lvl5": ".content .content h5",
+      "lvl6": ".content .content h6",
+      "text": ".content .content p, .content .content li",
+      "sdk": {
+        "selector": "(//*[@id='language-list']/li[position()<19]/a[contains(/html/head/link[@rel='canonical']/@href,@href)])[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "none"
+      }      
+    },
+    "chat":{
+      "lvl0": "h1.postHeaderTitle",
+      "lvl1": ".wrapper .post p",
+      "lvl2": ".content .content h2",
+      "lvl3": ".content .content h3",
+      "lvl4": ".content .content h4",
+      "lvl5": ".content .content h5",
+      "lvl6": ".content .content h6",
+      "text": ".wrapper .post p, .wrapper .post li"            
+    },
+    "blocks":{
+      "lvl0": "h1.block-page-title",
+      "lvl1": "div.sub-heading",
+      "lvl2": ".content .content h2",
+      "lvl3": ".content .content h3",
+      "lvl4": ".content .content h4",
+      "lvl5": ".content .content h5",
+      "lvl6": ".content .content h6",
+      "text": "div.block-detail"                  
+    },
+    "functions":{
+      "lvl0": "h1.page-title",
+      "lvl1": "div.field-item.even p",
+      "lvl2": ".content .content h2",
+      "lvl3": ".content .content h3",
+      "lvl4": ".content .content h4",
+      "lvl5": ".content .content h5",
+      "lvl6": ".content .content h6",
+      "text": "h1.main-page-title"                              
+    },    
+    "rest":{
+      "lvl0": "h1.page-title",
+      "lvl1": "h1.main-page-title",
+      "lvl2": ".content .content h2",
+      "lvl3": ".content .content h3",
+      "lvl4": ".content .content h4",
+      "lvl5": ".content .content h5",
+      "lvl6": ".content .content h6",
+      "text": "h1.main-page-title"                              
+    },
+    "console":{
+      "lvl0": "a[title=Developer]",
+      "lvl1": "h1.main-page-title",
+      "lvl2": ".content .content h2",
+      "lvl3": ".content .content h3",
+      "lvl4": ".content .content h4",
+      "lvl5": ".content .content h5",
+      "lvl6": ".content .content h6",
+      "text": "h1.main-page-title"                        
+    },
+    "platform":{
+      "lvl0": "h1.postHeaderTitle",
+      "lvl1": ".wrapper .post p",
+      "lvl2": ".content .content h2",
+      "lvl3": ".content .content h3",
+      "lvl4": ".content .content h4",
+      "lvl5": ".content .content h5",
+      "lvl6": ".content .content h6",
+      "text": ".wrapper .post p, .wrapper .post li"      
     }
   },
   "custom_settings": {
