@@ -1,7 +1,7 @@
 {
   "index_name": "animaapp",
   "start_urls": [
-    "https://animaapp.github.io/docs/"
+    "https://docs.animaapp.com/"
   ],
   "selectors": {
     "lvl0": ".content h1",
@@ -15,5 +15,5 @@
   "conversation_id": [
     "311496216"
   ],
-  "nb_hits": 1195
+  "nb_hits": 888
 }
