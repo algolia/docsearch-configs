@@ -1,0 +1,37 @@
+{
+  "index_name": "justa_api",
+  "start_urls": [
+    "https://api.justa.com.vc/docs/",
+    "https://api.justa.com.vc/docs/subscription/subscription"
+  ],
+  "sitemap_urls": [
+    "https://api.justa.com.vc/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "\\/docs\\/.*?\\/docs\\/",
+    "\\/docs\\/docs\\/"
+  ],
+  "selectors": {
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "strip_chars": " .,;:#",
+  "js_render": true,
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1130151006"
+  ],
+  "nb_hits": 605
+}
