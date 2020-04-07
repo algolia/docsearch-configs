@@ -2,16 +2,16 @@
   "index_name": "dgraph",
   "start_urls": [
     {
-      "url": "https://docs.dgraph.io/(?P<version>.*?)/",
+      "url": "https://dgraph.io/docs/(?P<version>.*?)/",
       "variables": {
         "version": {
-          "url": "https://docs.dgraph.io/",
+          "url": "https://dgraph.io/docs",
           "js": "var versions = $('select.version-selector option').map(function(i, e) { return $(e).text(); }).toArray(); return JSON.stringify(versions);"
         }
       }
     },
     {
-      "url": "https://docs.dgraph.io/",
+      "url": "https://dgraph.io/docs",
       "extra_attributes": {
         "version": "latest"
       }
