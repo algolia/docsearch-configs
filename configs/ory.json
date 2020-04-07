@@ -65,6 +65,7 @@
     "704914956"
   ],
   "strip_chars": " .,;:#",
+  "js_render": true,
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -72,5 +73,5 @@
       "language"
     ]
   },
-  "nb_hits": 310
+  "nb_hits": 9899
 }
