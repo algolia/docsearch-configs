@@ -69,9 +69,10 @@
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
+      "tags",
       "version",
       "language"
     ]
   },
-  "nb_hits": 9899
+  "nb_hits": 9895
 }
