@@ -10,7 +10,17 @@
     "lvl2": ".offset-md-1 h4",
     "lvl3": ".offset-md-1 h5",
     "lvl4": ".offset-md-1 h6",
-    "text": ".offset-md-1 p, .offset-md-1 li"
+    "text": ".offset-md-1 p, .offset-md-1 li",
+    "version": {
+      "selector": "#dropdownMenuButton",
+      "global": true,
+      "default_value": "Documentation"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
   },
   "conversation_id": [
     "1131083348"
