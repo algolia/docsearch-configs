@@ -1,7 +1,6 @@
 {
   "index_name": "marmelab-react-admin",
   "start_urls": [
-    "https://marmelab.com/react-admin/doc/3.1/",
     "https://marmelab.com/react-admin/Readme.html"
   ],
   "stop_urls": [
