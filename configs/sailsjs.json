@@ -20,8 +20,11 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
   "conversation_id": [
     "1131068061"
   ],
-  "nb_hits": 5910
+  "nb_hits": 5623
 }
