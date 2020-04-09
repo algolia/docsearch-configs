@@ -13,7 +13,8 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".topic-item-head.current",
+      "selector": "//aside//*[text()=//h1]/preceding::*[contains(@class,'head')][1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -24,8 +25,11 @@
     "lvl5": ".column-article h5",
     "text": ".column-article p, .column-article li"
   },
+  "selectors_exclude": [
+    ".column-article p div ul"
+  ],
   "conversation_id": [
     "215537166"
   ],
-  "nb_hits": 5599
+  "nb_hits": 5665
 }
