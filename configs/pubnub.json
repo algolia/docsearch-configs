@@ -7,7 +7,7 @@
   ],
   "start_urls": [
     {
-      "url": "https://www.pubnub.com/docs/(web|nodejs)-javascript\\/(.*)$",
+      "url": "https://www.pubnub.com/docs/(web|nodejs)-javascript\\/",
       "selectors_key": "docs",
       "page_rank": 1,
       "tags": [
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/(android|java-se)-java\\/(.*)$",
+      "url": "https://www.pubnub.com/docs/(android|java-se)-java\\/",
       "selectors_key": "docs",
       "page_rank": 2,
       "tags": [
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/swift-native/(.*)$",
+      "url": "https://www.pubnub.com/docs/swift-native/",
       "selectors_key": "docs",
       "page_rank": 3,
       "tags": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/ios-objective-c/(.*)$",
+      "url": "https://www.pubnub.com/docs/ios-objective-c/",
       "selectors_key": "docs",
       "page_rank": 4,
       "tags": [
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/c-sharp-dot-net-c-sharp/(.*)$",
+      "url": "https://www.pubnub.com/docs/c-sharp-dot-net-c-sharp/",
       "selectors_key": "docs",
       "page_rank": 5,
       "tags": [
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/(python|python-twisted|python-tornado|python-aiohttp)\\/(.*)$",
+      "url": "https://www.pubnub.com/docs/(python|python-twisted|python-tornado|python-aiohttp)\\/",
       "selectors_key": "docs",
       "page_rank": 6,
       "tags": [
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/(posix-cpp|windows-cpp|posix-c|windows-c|freertos|mbed)\\/(.*)$",
+      "url": "https://www.pubnub.com/docs/(posix-cpp|windows-cpp|posix-c|windows-c|freertos|mbed)\\/",
       "selectors_key": "docs",
       "page_rank": 7,
       "tags": [
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/unity3d-c-sharp/(.*)$",
+      "url": "https://www.pubnub.com/docs/unity3d-c-sharp/",
       "selectors_key": "docs",
       "page_rank": 8,
       "tags": [
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/ruby/(.*)$",
+      "url": "https://www.pubnub.com/docs/ruby/",
       "selectors_key": "docs",
       "page_rank": 9,
       "tags": [
@@ -94,21 +94,12 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/go/(.*)$",
+      "url": "https://www.pubnub.com/docs/go/",
       "selectors_key": "docs",
       "page_rank": 10,
       "tags": [
         "go",
         "golang"
-      ]
-    },
-    {
-      "url": "https://www.pubnub.com/docs/.*",
-      "selectors_key": "docs",
-      "page_rank": 11,
-      "tags": [
-        "docs",
-        "documentation"
       ]
     },
     {
@@ -160,10 +151,19 @@
         "platform docs",
         "platform"
       ]
+    },
+    {
+      "url": "https://www.pubnub.com/docs/",
+      "selectors_key": "docs",
+      "page_rank": 11,
+      "tags": [
+        "docs",
+        "documentation"
+      ]
     }
   ],
   "stop_urls": [
-    "https://www.pubnub.com/docs/(.*)-sdk-v3$"
+    "-sdk-v3$"
   ],
   "selectors": {
     "default": {
@@ -278,5 +278,5 @@
   "conversation_id": [
     "1023908121"
   ],
-  "nb_hits": 44332
+  "nb_hits": 48425
 }
