@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "h3.heading",
+      "selector": ".page-name",
       "global": true,
       "default_value": "Documentation"
     },
