@@ -1,7 +1,7 @@
 {
   "index_name": "haul",
   "start_urls": [
-    "https://react-slate.surge.sh/"
+    "https://callstack.github.io/haul/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,7 +22,7 @@
     ".hash-link"
   ],
   "sitemap_urls": [
-    "https://react-slate.surge.sh/sitemap.xml"
+    "https://callstack.github.io/haul/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "custom_settings": {
@@ -32,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "1088035895"
+    "1134406797"
   ],
-  "nb_hits": 209
+  "nb_hits": 176
 }
