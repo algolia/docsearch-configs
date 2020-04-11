@@ -18,9 +18,11 @@
     "lvl6": "main h6",
     "text": "main p, main li, .subheading"
   },
-  "selectors_exclude": [".search-exclude"],
+  "selectors_exclude": [
+    ".search-exclude"
+  ],
   "conversation_id": [
     "1131163100"
   ],
-  "nb_hits": 988
+  "nb_hits": 858
 }
