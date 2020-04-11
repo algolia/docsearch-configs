@@ -1,0 +1,44 @@
+{
+  "index_name": "codeforiati_codelists",
+  "start_urls": [
+    "https://codelists.codeforiati.org/"
+  ],
+  "stop_urls": [
+    "/api/json/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".theme-default-content h1",
+    "lvl2": ".theme-default-content h2, .theme-default-content h2 td:nth-child(2)",
+    "lvl3": ".theme-default-content h3",
+    "lvl4": ".theme-default-content h4",
+    "lvl5": ".theme-default-content h5",
+    "text": ".theme-default-content p, .theme-default-content li, .theme-default-content h2 td:last-child",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "js_render": true,
+  "js_wait": 3,
+  "conversation_id": [
+    "1134433023"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 2018
+}
