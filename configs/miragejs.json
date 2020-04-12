@@ -1,7 +1,7 @@
 {
   "index_name": "miragejs",
   "start_urls": [
-    "https://miragejs.com/docs/",
+    "https://miragejs.com/",
     "https://miragejs.com/docs/getting-started/introduction"
   ],
   "stop_urls": [],
