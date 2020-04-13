@@ -1,7 +1,7 @@
 {
   "index_name": "knorm",
   "start_urls": [
-    "https://knorm.netlify.com/"
+    "https://knorm.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {
