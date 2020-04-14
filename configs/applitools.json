@@ -23,7 +23,12 @@
       "lvl2": "#document-body h3",
       "lvl3": "#document-body h4",
       "lvl4": "#document-body h5",
-      "text": "#document-body p, #document-body li"
+      "text": "#document-body p, #document-body li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
     },
     "tutorials": {
       "lvl0": ".content h1",
@@ -31,7 +36,12 @@
       "lvl2": ".content h3",
       "lvl3": ".content h4",
       "lvl4": ".content h5",
-      "text": ".content p, .content li"
+      "text": ".content p, .content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
     }
   },
   "selectors_exclude": [
@@ -39,8 +49,14 @@
   ],
   "strip_chars": " .,;:#",
   "scrap_start_urls": false,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "659247269"
   ],
-  "nb_hits": 15546
+  "nb_hits": 19607
 }
