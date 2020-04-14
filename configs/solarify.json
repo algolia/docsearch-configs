@@ -4,8 +4,7 @@
     "https://solarify.io/en/docs/",
     "https://solarify.io/tr/docs/"
   ],
-  "stop_urls": [
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
@@ -28,5 +27,5 @@
   "conversation_id": [
     "1119739970"
   ],
-  "nb_hits": 366
+  "nb_hits": 884
 }
