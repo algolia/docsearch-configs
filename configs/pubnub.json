@@ -188,14 +188,13 @@
       }
     },
     "docs": {
-      "lvl0": "h1.page-title > .unify-active",
-      "lvl1": "div.unify-124[data-mdesc]",
-      "lvl2": ".content .content h2",
-      "lvl3": ".content .content h3",
-      "lvl4": ".content .content h4",
-      "lvl5": ".content .content h5",
-      "lvl6": ".content .content h6",
-      "text": ".content .content p, .content .content li",
+      "lvl0": "h1.page-title",
+      "lvl1": ".content .content h2",
+      "lvl2": ".content .content h3",
+      "lvl3": ".content .content h4",
+      "lvl4": ".content .content h5, .content .content td:first-child",
+      "lvl5": ".content .content h6",
+      "text": ".content .content p, .content .content li,  .content .content td:last-child",
       "sdk": {
         "selector": "(//*[@id='language-list']/li[position()<19]/a[contains(/html/head/link[@rel='canonical']/@href,@href)])[1]",
         "type": "xpath",
@@ -275,10 +274,12 @@
     ".information",
     "[id^='unify']:not(.unify-active)",
     "#slct-lng",
-    ".block-categories"
+    ".block-categories",
+    ".btn",
+    ".slct-sub-lng"
   ],
   "conversation_id": [
     "1023908121"
   ],
-  "nb_hits": 47246
+  "nb_hits": 75926
 }
