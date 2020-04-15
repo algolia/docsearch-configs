@@ -1,7 +1,7 @@
 {
   "index_name": "wot-design",
   "start_urls": [
-    "http://jdftf.top/wot-design/"
+    "https://ftf.jd.com/wot-design/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,8 +14,10 @@
     "text": "section p, section li"
   },
   "js_render": true,
+  "js_wait": 2,
+  "use_anchors": true,
   "conversation_id": [
     "1055283632"
   ],
-  "nb_hits": 16
+  "nb_hits": 2144
 }
