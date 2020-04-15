@@ -18,11 +18,10 @@
     "lvl4": ".post h4",
     "text": ".post article p, .post article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
-  "conversation_id": [
-    "591776394"
-  ],
+  "selectors_exclude": [".hash-link"],
+  "custom_settings": {
+    "attributesForFaceting": ["version"]
+  },
+  "conversation_id": ["591776394"],
   "nb_hits": 3386
 }
