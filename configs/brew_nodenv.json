@@ -55,7 +55,6 @@
     "https://nodenv.github.io/formulae/sitemap.xml"
   ],
   "stop_urls": [
-    "https://brew.sh/blog/",
     "\\.json"
   ],
   "selectors": {
