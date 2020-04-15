@@ -1,10 +1,10 @@
 {
   "index_name": "milyli",
   "start_urls": [
-    "https://milyli.github.io/ca-knowledgebase/docs/"
+    "https://support.milyli.com/docs/"
   ],
   "sitemap_urls": [
-    "https://milyli.github.io/ca-knowledgebase/sitemap.xml"
+    "https://support.milyli.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
