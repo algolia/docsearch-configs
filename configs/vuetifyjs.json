@@ -14,7 +14,7 @@
     "/store/"
   ],
   "selectors": {
-    "lvl0": ".layout h1",
+    "lvl0": ".layout h1, .comp-name",
     "lvl1": ".layout h2",
     "lvl2": ".layout h3",
     "lvl3": ".layout h4",
