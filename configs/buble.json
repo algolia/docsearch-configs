@@ -1,0 +1,16 @@
+{
+  "index_name": "buble",
+  "start_urls": [
+    "https://buble.surge.sh/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h2",
+    "lvl1": "section h3",
+    "lvl2": "section h4",
+    "lvl3": "section h5",
+    "lvl4": "section h6",
+    "text": "section p, section li"
+  },
+  "nb_hits": 133
+}

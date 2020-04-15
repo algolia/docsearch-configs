@@ -1,0 +1,19 @@
+{
+  "index_name": "snips-nlu",
+  "start_urls": [
+    "https://snips-nlu.readthedocs.io/en/latest/tutorial.html",
+    "https://snips-nlu.readthedocs.io/en/latest"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "scrap_start_urls": false,
+  "nb_hits": 696
+}
