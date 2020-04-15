@@ -2,7 +2,44 @@
   "index_name": "brew_nodenv",
   "start_urls": [
     {
-      "url": "https://nodenv.github.io/formulae/",
+      "url": "https://nodenv.github.io/formulae/analytics/",
+      "selectors_key": "analytics",
+      "tags": [
+        "analytics"
+      ],
+      "extra_attributes": {
+        "site": [
+          "formulae"
+        ]
+      }
+    },
+    {
+      "url": "https://nodenv.github.io/formulae/docs/",
+      "selectors_key": "formulae_docs",
+      "tags": [
+        "formulae_docs"
+      ],
+      "extra_attributes": {
+        "site": [
+          "formulae"
+        ]
+      }
+    },
+    {
+      "url": "https://nodenv.github.io/formulae/formula/",
+      "selectors_key": "formula",
+      "tags": [
+        "formula"
+      ],
+      "extra_attributes": {
+        "site": [
+          "formulae"
+        ]
+      }
+    },
+    {
+      "url": "https://nodenv.github.io/formulae/cask/",
+      "selectors_key": "cask",
       "tags": [
         "cask",
         "formula"
@@ -18,26 +55,99 @@
     "https://nodenv.github.io/formulae/sitemap.xml"
   ],
   "stop_urls": [
-    "https://brew.sh/blog/",
     "\\.json"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "global": true,
-      "default_value": "Cask"
+    "default": {
+      "lvl0": "#wrap h1",
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#wrap p, #wrap li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en"
+      }
     },
-    "lvl1": "#wrap h2",
-    "lvl2": "#wrap h3",
-    "lvl3": "#wrap h4",
-    "lvl4": "#wrap h5",
-    "lvl5": "#wrap h6",
-    "text": "#wrap p, #wrap li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true,
-      "default_value": "en"
+    "formula": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Formulae"
+      },
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#default p:nth-child(-n+4)",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en"
+      }
+    },
+    "cask": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Cask"
+      },
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#wrap p, #wrap li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en"
+      }
+    },
+    "formulae_docs": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "JSON API documentation"
+      },
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#default p:nth-child(-n+4)",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en"
+      }
+    },
+    "analytics": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Analytics data"
+      },
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#wrap td:not(.number-data)",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en"
+      }
     }
   },
   "custom_settings": {
