@@ -2,7 +2,44 @@
   "index_name": "brew_nodenv",
   "start_urls": [
     {
-      "url": "https://nodenv.github.io/formulae/",
+      "url": "https://nodenv.github.io/formulae/analytics/",
+      "selectors_key": "analytics",
+      "tags": [
+        "analytics"
+      ],
+      "extra_attributes": {
+        "site": [
+          "formulae"
+        ]
+      }
+    },
+    {
+      "url": "https://nodenv.github.io/formulae/docs/",
+      "selectors_key": "formulae_docs",
+      "tags": [
+        "formulae_docs"
+      ],
+      "extra_attributes": {
+        "site": [
+          "formulae"
+        ]
+      }
+    },
+    {
+      "url": "https://nodenv.github.io/formulae/formula/",
+      "selectors_key": "formula",
+      "tags": [
+        "formula"
+      ],
+      "extra_attributes": {
+        "site": [
+          "formulae"
+        ]
+      }
+    },
+    {
+      "url": "https://nodenv.github.io/formulae/cask/",
+      "selectors_key": "cask",
       "tags": [
         "cask",
         "formula"
