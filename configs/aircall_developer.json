@@ -1,0 +1,26 @@
+{
+  "index_name": "aircall_developer",
+  "start_urls": [
+    "https://developer.aircall.io/api-references/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": ".api-references--content-area--desc-copy h3, .attributes-table > strong",
+    "lvl3": ".api-references--content-area--desc-copy h4, .attributes-table--title",
+    "lvl4": ".api-references--content-area--desc-copy h5",
+    "lvl5": ".api-references--content-area--desc-copy h6",
+    "text": ".api-references--content-area--desc-copy p, .api-references--content-area--desc-copy li, .attributes-table--description"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    "body > div > div > div.api-references--content > div:nth-child(1) > div > div"
+  ],
+  "conversation_id": [
+    "1136565689"
+  ],
+  "nb_hits": 1465
+}
