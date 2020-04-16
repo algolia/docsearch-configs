@@ -3,11 +3,15 @@
   "start_urls": [
     {
       "url": "https://sprout.barrelstrengthdesign.com/docs/",
-      "tags": ["latest"]
+      "tags": [
+        "latest"
+      ]
     },
     {
       "url": "https://sprout.barrelstrengthdesign.com/docs/craft-v2/",
-      "tags": ["craft-v2"]
+      "tags": [
+        "craft-v2"
+      ]
     }
   ],
   "stop_urls": [],
@@ -43,5 +47,5 @@
   "conversation_id": [
     "596308196"
   ],
-  "nb_hits": 3124
+  "nb_hits": 4903
 }
