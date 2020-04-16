@@ -1,10 +1,10 @@
 {
   "index_name": "marfeel-techatenea",
   "start_urls": [
-    "https://marfeel.com/docs/"
+    "https://www.marfeel.com/docs/"
   ],
   "sitemap_urls": [
-    "https://marfeel.com/docs/sitemap.xml"
+    "https://www.marfeel.com/docs/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
