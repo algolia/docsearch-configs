@@ -3,11 +3,11 @@
   "start_urls": [
     {
       "url": "https://sprout.barrelstrengthdesign.com/docs/",
-      "selectors_key": "latest"
+      "tags": ["latest"]
     },
     {
       "url": "https://sprout.barrelstrengthdesign.com/docs/craft-v2/",
-      "selectors_key": "craft-v2"
+      "tags": ["craft-v2"]
     }
   ],
   "stop_urls": [],
