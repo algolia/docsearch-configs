@@ -623,7 +623,7 @@
     },
     "lvl2": "body h1",
     "lvl3": "body h2",
-    "lvl4": "body h3",
+    "lvl4": "body h3 a",
     "lvl5": "body h4",
     "lvl6": "body h5",
     "text": "body p, body li",
@@ -633,10 +633,15 @@
       "default_value": "en"
     }
   },
+  "strip_chars": " .:#",
+  "selectors_exclude": [
+    ".param",
+    ".permalink"
+  ],
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
-  "nb_hits": 17472
+  "nb_hits": 16873
 }
