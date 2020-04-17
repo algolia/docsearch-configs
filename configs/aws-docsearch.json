@@ -1,11 +1,11 @@
 {
   "index_name": "aws-docsearch",
   "start_urls": [
-    "https://aws-docsearch.netlify.com/docs",
-    "https://aws-docsearch.netlify.com/docs/Welcome"
+    "https://aws-docsearch.netlify.app/docs",
+    "https://aws-docsearch.netlify.app/docs/Welcome"
   ],
   "sitemap_urls": [
-    "https://aws-docsearch.netlify.com/sitemap.xml"
+    "https://aws-docsearch.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

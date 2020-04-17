@@ -1,7 +1,7 @@
 {
   "index_name": "chartjs-plugin-datalabels",
   "start_urls": [
-    "https://chartjs-plugin-datalabels.netlify.com"
+    "https://chartjs-plugin-datalabels.netlify.app"
   ],
   "stop_urls": [],
   "selectors": {

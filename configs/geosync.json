@@ -1,11 +1,11 @@
 {
   "index_name": "geosync",
   "start_urls": [
-    "https://geosync.netlify.com/docs/",
-    "https://geosync.netlify.com/docs/overview/products.html"
+    "https://geosync.netlify.app/docs/",
+    "https://geosync.netlify.app/docs/overview/products.html"
   ],
   "sitemap_urls": [
-    "https://geosync.netlify.com/sitemap.xml"
+    "https://geosync.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

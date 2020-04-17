@@ -1,10 +1,10 @@
 {
   "index_name": "react-nativescript",
   "start_urls": [
-    "https://react-nativescript.netlify.com/docs/"
+    "https://react-nativescript.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://react-nativescript.netlify.com/sitemap.xml"
+    "https://react-nativescript.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

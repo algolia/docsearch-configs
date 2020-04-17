@@ -1,11 +1,11 @@
 {
   "index_name": "orbis",
   "start_urls": [
-    "https://orbis-api-doc-test.netlify.com/docs/",
-    "https://orbis-api-doc-test.netlify.com/docs/doc1"
+    "https://orbis-api-doc-test.netlify.app/docs/",
+    "https://orbis-api-doc-test.netlify.app/docs/doc1"
   ],
   "sitemap_urls": [
-    "https://orbis-api-doc-test.netlify.com/sitemap.xml"
+    "https://orbis-api-doc-test.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

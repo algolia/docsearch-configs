@@ -1,10 +1,10 @@
 {
   "index_name": "docusaurus-powershell",
   "start_urls": [
-    "https://docusaurus-powershell.netlify.com/docs/"
+    "https://docusaurus-powershell.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://docusaurus-powershell.netlify.com/sitemap.xml"
+    "https://docusaurus-powershell.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

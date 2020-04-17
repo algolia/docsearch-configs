@@ -1,10 +1,10 @@
 {
   "index_name": "minerva-ui",
   "start_urls": [
-    "https://minerva-ui.netlify.com/docs/"
+    "https://minerva-ui.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://minerva-ui.netlify.com/sitemap.xml"
+    "https://minerva-ui.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
