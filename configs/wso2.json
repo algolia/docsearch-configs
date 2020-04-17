@@ -15,7 +15,8 @@
   },
   "sitemap_urls": [
     "https://apim.docs.wso2.com/en/latest/sitemap.xml",
-    "https://apim.docs.wso2.com/en/next/sitemap.xml"
+    "https://apim.docs.wso2.com/en/next/sitemap.xml",
+    "https://apim.docs.wso2.com/en/3.0.0/sitemap.xml"
   ],
   "conversation_id": [
     "1070576193"
