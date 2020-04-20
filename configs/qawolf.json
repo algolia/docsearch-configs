@@ -2,7 +2,7 @@
   "index_name": "qawolf",
   "start_urls": [
     "https://docs.qawolf.com/docs/",
-    "https://docs.qawolf.com/docs/get_started"
+    "https://docs.qawolf.com/docs/install"
   ],
   "sitemap_urls": [
     "https://docs.qawolf.com/sitemap.xml"
