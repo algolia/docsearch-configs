@@ -1,11 +1,10 @@
 {
-  "index_name": "joincolony",
+  "index_name": "kryptokrona",
   "start_urls": [
-    "https://help.colony.io/docs/",
-    "https://help.colony.io/docs/doc2.html"
+    "https://docs.kryptokrona.se/"
   ],
   "sitemap_urls": [
-    "https://help.colony.io/sitemap.xml"
+    "https://docs.kryptokrona.se/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -33,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "1139165847"
+    "1141304544"
   ],
-  "nb_hits": 174
+  "nb_hits": 1547
 }
