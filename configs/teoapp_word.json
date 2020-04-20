@@ -7,7 +7,7 @@
     "https://word.teoapp.fr/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": ["docs/confidentialite", "docs/licence-utilisateur"],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
