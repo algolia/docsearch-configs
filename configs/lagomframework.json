@@ -5,13 +5,9 @@
       "url": "https://www.lagomframework.com/documentation/(?P<version>.*?)/(?P<language>.*?)/",
       "variables": {
         "version": [
-          "1.0.x",
-          "1.1.x",
-          "1.2.x",
-          "1.3.x",
-          "1.4.x",
-          "current",
-          "latest"
+          "1.5.x",
+          "1.6.x",
+          "current"
         ],
         "language": [
           "scala",
@@ -23,13 +19,9 @@
       "url": "https://www.lagomframework.com/documentation/(?P<version>.*?)/(?P<language>.*?)/Home.html",
       "variables": {
         "version": [
-          "1.0.x",
-          "1.1.x",
-          "1.2.x",
-          "1.3.x",
-          "1.4.x",
-          "current",
-          "latest"
+          "1.5.x",
+          "1.6.x",
+          "current"
         ],
         "language": [
           "scala",
