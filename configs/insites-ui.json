@@ -1,7 +1,7 @@
 {
   "index_name": "insites-ui",
   "start_urls": [
-    "https://insites-ui-docs.netlify.com/"
+    "https://insites-ui-docs.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {

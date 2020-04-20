@@ -1,7 +1,7 @@
 {
   "index_name": "ti-track",
   "start_urls": [
-    "https://ti-track.netlify.com/"
+    "https://ti-track.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {

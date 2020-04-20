@@ -1,7 +1,7 @@
 {
   "index_name": "qtpromise",
   "start_urls": [
-    "https://qtpromise.netlify.com"
+    "https://qtpromise.netlify.app"
   ],
   "stop_urls": [],
   "selectors": {

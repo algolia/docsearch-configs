@@ -1,9 +1,9 @@
 {
   "index_name": "aw",
   "start_urls": [
-    "http://aw.netlify.com/docs/",
-    "http://aw.netlify.com/docs/installation.html",
-    "https://aw.netlify.com/versions.html"
+    "http://aw.netlify.app/docs/",
+    "http://aw.netlify.app/docs/installation.html",
+    "https://aw.netlify.app/versions.html"
   ],
   "stop_urls": [],
   "selectors": {

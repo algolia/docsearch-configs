@@ -1,10 +1,10 @@
 {
   "index_name": "autocomplete",
   "start_urls": [
-    "https://autocomplete-experimental.netlify.com/docs/"
+    "https://autocomplete-experimental.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://autocomplete-experimental.netlify.com/sitemap.xml"
+    "https://autocomplete-experimental.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

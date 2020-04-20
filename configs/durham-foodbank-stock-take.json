@@ -1,7 +1,7 @@
 {
   "index_name": "durham-foodbank-stock-take",
   "start_urls": [
-    "https://se-docs.netlify.com/"
+    "https://se-docs.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,7 +22,7 @@
     ".hash-link"
   ],
   "sitemap_urls": [
-    "https://se-docs.netlify.com/sitemap.xml"
+    "https://se-docs.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "custom_settings": {
@@ -35,5 +35,5 @@
   "conversation_id": [
     "1101493420"
   ],
-  "nb_hits": 566
+  "nb_hits": 586
 }

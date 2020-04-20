@@ -1,10 +1,10 @@
 {
   "index_name": "pegaextensions",
   "start_urls": [
-    "https://pegaextensions.netlify.com/docs/"
+    "https://pegaextensions.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://pegaextensions.netlify.com/sitemap.xml"
+    "https://pegaextensions.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

@@ -1,7 +1,7 @@
 {
   "index_name": "webpack_workshop",
   "start_urls": [
-    "https://webpack-workshop.netlify.com"
+    "https://webpack-workshop.netlify.app"
   ],
   "stop_urls": [],
   "selectors": {

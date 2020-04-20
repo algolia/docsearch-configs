@@ -1,8 +1,8 @@
 {
   "index_name": "revit",
   "start_urls": [
-    "https://revit.netlify.com/docs/",
-    "https://revit.netlify.com/docs/intro1_1.html"
+    "https://revit.netlify.app/docs/",
+    "https://revit.netlify.app/docs/intro1_1.html"
   ],
   "stop_urls": [],
   "selectors": {

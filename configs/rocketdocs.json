@@ -1,7 +1,7 @@
 {
   "index_name": "rocketdocs",
   "start_urls": [
-    "https://rocketdocs.netlify.com/"
+    "https://rocketdocs.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {

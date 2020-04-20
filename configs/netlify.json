@@ -1,7 +1,7 @@
 {
   "index_name": "netlify",
   "start_urls": [
-    "https://docs.netlify.com/"
+    "https://docs.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {

@@ -1,7 +1,7 @@
 {
   "index_name": "dayta",
   "start_urls": [
-    "https://daytadocs01.netlify.com/"
+    "https://daytadocs01.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {

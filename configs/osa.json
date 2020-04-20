@@ -1,7 +1,7 @@
 {
   "index_name": "osa",
   "start_urls": [
-    "https://osa-documentation.netlify.com"
+    "https://osa-documentation.netlify.app"
   ],
   "stop_urls": [
     ".atn",
