@@ -7,7 +7,8 @@
     "http://fibjs.org/docs/manual/object/readme.md.html"
   ],
   "stop_urls": [
-    "\\/[a-z]{2}\\/[a-z]{2}\\/"
+    "\\/[a-z]{2}\\/[a-z]{2}\\/",
+    "/module/"
   ],
   "selectors": {
     "lvl0": ".content h1",
@@ -21,5 +22,5 @@
   "conversation_id": [
     "428418431"
   ],
-  "nb_hits": 3266
+  "nb_hits": 9007
 }
