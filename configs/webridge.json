@@ -1,0 +1,23 @@
+{
+  "index_name": "webridge",
+  "start_urls": [
+    "http://webridge.com.cn/",
+    "http://webridge.com.cn/#/wpm"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "use_anchors": true,
+  "js_render": true,
+  "conversation_id": [
+    "1139451867"
+  ],
+  "nb_hits": 64
+}
