@@ -1,11 +1,11 @@
 {
-  "index_name": "qawolf",
+  "index_name": "egret_uieditor",
   "start_urls": [
-    "https://docs.qawolf.com/docs/",
-    "https://docs.qawolf.com/docs/install"
+    "https://docs.egret.com/uieditor/docs/",
+    "https://docs.egret.com/uieditor/docs/uieditor/update/update181"
   ],
   "sitemap_urls": [
-    "https://docs.qawolf.com/sitemap.xml"
+    "https://docs.egret.com/uieditor/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,7 +26,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1006754778"
+    "1141622633"
   ],
-  "nb_hits": 746
+  "nb_hits": 6
 }
