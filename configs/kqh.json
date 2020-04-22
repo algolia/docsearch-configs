@@ -1,0 +1,29 @@
+{
+  "index_name": "kqh",
+  "start_urls": [
+    "https://kqh.me"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".DocSearch-lvl0",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".DocSearch-lvl1",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".DocSearch-content h1",
+    "lvl3": ".DocSearch-content h2",
+    "lvl4": ".DocSearch-content h3",
+    "lvl5": ".DocSearch-content h4",
+    "lvl6": ".DocSearch-content h5",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "conversation_id": [
+    "1139381198"
+  ],
+  "nb_hits": 16262
+}

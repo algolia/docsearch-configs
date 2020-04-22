@@ -1,7 +1,8 @@
 {
   "index_name": "dbt",
   "start_urls": [
-    "https://docs.getdbt.com/docs/"
+    "https://docs.getdbt.com/docs/",
+    "https://docs.getdbt.com/reference/dbt_project.yml"
   ],
   "sitemap_urls": [
     "https://docs.getdbt.com/sitemap.xml"
@@ -27,5 +28,5 @@
   "conversation_id": [
     "1106517947"
   ],
-  "nb_hits": 3721
+  "nb_hits": 3841
 }

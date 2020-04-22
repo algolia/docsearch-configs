@@ -1,11 +1,10 @@
 {
-  "index_name": "easymoney",
+  "index_name": "react-toastify",
   "start_urls": [
-    "https://easymoney.now.sh/docs/",
-    "https://easymoney.now.sh/docs/introduction/getting-started"
+    "https://fkhadra.github.io/react-toastify/"
   ],
   "sitemap_urls": [
-    "https://easymoney.now.sh/sitemap.xml"
+    "https://fkhadra.github.io/react-toastify/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,7 +25,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1135815685"
+    "1143578445"
   ],
-  "nb_hits": 494
+  "nb_hits": 239
 }
