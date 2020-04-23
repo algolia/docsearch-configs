@@ -31,7 +31,6 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
-  "selectors_exclude": [],
   "custom_settings": {
     "attributesForFaceting": [
       "language",
