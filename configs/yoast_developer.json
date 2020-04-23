@@ -3,7 +3,7 @@
   "start_urls": [
     "https://developer.yoast.com"
   ],
-  "stop_urls": [],
+  "stop_urls": [ "https:\/\/developer.yoast.com\/blog\/?(.*)?" ],
   "selectors": {
     "lvl0": "[aria-current='page']",
     "lvl1": "article h2",
