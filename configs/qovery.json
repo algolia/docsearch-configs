@@ -1,10 +1,10 @@
 {
   "index_name": "qovery",
   "start_urls": [
-    "https://docsv2.qovery.com/docs/"
+    "https://docs.qovery.com/docs/"
   ],
   "sitemap_urls": [
-    "https://docsv2.qovery.com/sitemap.xml"
+    "https://docs.qovery.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
