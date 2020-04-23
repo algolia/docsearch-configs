@@ -1,7 +1,7 @@
 {
   "index_name": "bootstrap-vue",
   "start_urls": [
-    "https://bootstrap-vue.js.org/docs/"
+    "https://bootstrap-vue.org/docs/"
   ],
   "stop_urls": [],
   "selectors": {
