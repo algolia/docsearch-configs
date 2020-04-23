@@ -1,0 +1,29 @@
+{
+  "index_name": "bitcoin",
+  "start_urls": [
+    "https://bitcoin.org/"
+  ],
+  "stop_urls": [
+    "/bin/"
+  ],
+  "selectors": {
+    "lvl0": "#content h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "lvl5": "#content h6",
+    "text": "#content p, #content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "nb_hits": 156534
+}
