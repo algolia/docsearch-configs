@@ -1,7 +1,8 @@
 {
   "index_name": "qovery",
   "start_urls": [
-    "https://docs.qovery.com/docs/"
+    "https://docs.qovery.com/docs/",
+    "https://docs.qovery.com/docs/getting-started/what-is-qovery/"
   ],
   "sitemap_urls": [
     "https://docs.qovery.com/sitemap.xml"
@@ -27,5 +28,5 @@
   "conversation_id": [
     "1145082386"
   ],
-  "nb_hits": 310
+  "nb_hits": 315
 }
