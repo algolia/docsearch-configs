@@ -6,8 +6,10 @@
   ],
   "stop_urls": [],
   "sitemap_ulrs": [
-    "https://sdk.gooddata.com/gooddata-ui/sotemap.xml"
+    "https://sdk.gooddata.com/gooddata-ui/sitemap.xml"
   ],
+  "sitemap_alternate_links": true,
+  
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
