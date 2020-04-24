@@ -1,7 +1,8 @@
 {
   "index_name": "centurylink_chi",
   "start_urls": [
-    "https://assets.ctl.io/chi/"
+    "https://assets.ctl.io/chi/",
+    "https://assets.ctl.io/chi/2.0.0/getting-started/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -27,11 +28,8 @@
       "version"
     ]
   },
-  "selectors_exclude": [
-    ""
-  ],
   "conversation_id": [
     "991544223"
   ],
-  "nb_hits": 21935
+  "nb_hits": 4780
 }
