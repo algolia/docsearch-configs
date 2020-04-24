@@ -1,0 +1,17 @@
+{
+  "index_name": "java-design-patterns",
+  "start_urls": [
+    "https://java-design-patterns.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content-area h1",
+    "lvl1": ".content-area h2",
+    "lvl2": ".content-area h3",
+    "lvl3": ".content-area h4",
+    "lvl4": ".content-area h5",
+    "lvl5": ".content-area h6",
+    "text": ".content-area p, .content-area li"
+  },
+  "nb_hits": 2583
+}
