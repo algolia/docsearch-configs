@@ -1,7 +1,7 @@
 {
   "index_name": "insites-ui",
   "start_urls": [
-    "https://insites-ui-docs.netlify.app/"
+    "https://insites.sodify.co/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -16,5 +16,5 @@
   "conversation_id": [
     "1136638401"
   ],
-  "nb_hits": 96
+  "nb_hits": 104
 }
