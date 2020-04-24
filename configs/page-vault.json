@@ -1,0 +1,24 @@
+{
+  "index_name": "page-vault",
+  "start_urls": [
+    "http://help.page-vault.com/"
+  ],
+  "sitemap_urls": [
+    "http://help.page-vault.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1.articleTitle",
+    "lvl1": ".articleContent h2",
+    "lvl2": ".articleContent h3",
+    "lvl3": ".articleContent h4",
+    "lvl4": ".articleContent h5",
+    "lvl5": ".articleContent h6",
+    "text": ".articleContent p, .articleContent li"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "1145904185"
+  ],
+  "nb_hits": 296
+}
