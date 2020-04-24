@@ -6,17 +6,17 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "aside.docs-body__aside > nav > ul > li.-active > div",
+      "selector": "nav.docs-sidenav > ul > li.-active > div",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".docs-body__content h1",
-    "lvl2": ".docs-body__content h2",
-    "lvl3": ".docs-body__content h3",
-    "lvl4": ".docs-body__content h4",
-    "lvl5": ".docs-body__content h5",
-    "lvl6": ".docs-body__content h6",
-    "text": ".docs-body__content p, .docs-body__content li",
+    "lvl1": "header.docs-titlebar h1.docs-titlebar__title",
+    "lvl2": "section.chi-grid__container h2",
+    "lvl3": "section.chi-grid__container h3",
+    "lvl4": "section.chi-grid__container h4",
+    "lvl5": "section.chi-grid__container h5",
+    "lvl6": "section.chi-grid__container h6",
+    "text": "header.docs-titlebar .docs-titlebar__description, section.chi-grid__container p, section.chi-grid__container .chi-tab__description, section.chi-table, section.chi-grid__container li",
     "version": {
       "selector": "#version-dropdown",
       "global": true
@@ -28,7 +28,7 @@
     ]
   },
   "selectors_exclude": [
-    ".example"
+    ""
   ],
   "conversation_id": [
     "991544223"
