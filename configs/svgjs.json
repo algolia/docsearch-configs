@@ -1,7 +1,14 @@
 {
   "index_name": "svgjs",
   "start_urls": [
-    "http://svgjs.com/"
+    "http://svgjs.com/docs/2.7",
+    "http://svgjs.com/docs/3.0",
+    "http://svgjs.com/docs/3.1"
+  ],
+  "sitemap_urls": [
+    "https://svgjs.com/docs/2.7/sitemap/",
+    "https://svgjs.com/docs/3.0/sitemap/",
+    "https://svgjs.com/docs/3.1/sitemap/"
   ],
   "stop_urls": [],
   "selectors": {
