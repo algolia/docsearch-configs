@@ -13,8 +13,12 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
+  "selectors_exclude": [
+    "style"
+  ],
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "1140072394"
   ],
-  "nb_hits": 199
+  "nb_hits": 205
 }
