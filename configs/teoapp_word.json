@@ -8,7 +8,10 @@
     "https://word.teoapp.fr/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "https://word.teoapp.fr/docs/confidentialite",
+    "https://word.teoapp.fr/docs/licence-utilisateur"
+  ],
   "selectors": {
     "lvl0": "header h1",
     "lvl1": "article h2",
