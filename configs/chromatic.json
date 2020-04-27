@@ -3,7 +3,9 @@
   "start_urls": [
     "https://www.chromatic.com/docs/"
   ],
-  "stop_urls": ["chromatic(\\?!\\.com\\/docs)"],
+  "stop_urls": [
+    "chromatic(\\?!\\.com\\/docs)"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'sidebar-nav')]//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
@@ -22,5 +24,5 @@
   "conversation_id": [
     "1106623821"
   ],
-  "nb_hits": 451
+  "nb_hits": 529
 }
