@@ -1,7 +1,7 @@
 {
   "index_name": "formatjs",
   "start_urls": [
-    "https://formatjs.io/guides/"
+    "https://formatjs.io/docs/"
   ],
   "stop_urls": [],
   "selectors": {
