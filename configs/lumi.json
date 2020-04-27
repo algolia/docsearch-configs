@@ -1,0 +1,33 @@
+{
+  "index_name": "lumi",
+  "start_urls": [
+    "http://doc.hdsd.lumi.com.vn/docs/",
+    "http://doc.hdsd.lumi.com.vn/docs/hdsd/thiet_bi/bo_dieu_khien_trung_tam/bo_dieu_khien_trung_tam/"
+  ],
+  "sitemap_urls": [
+    "http://doc.hdsd.lumi.com.vn/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1148398515"
+  ],
+  "nb_hits": 1205
+}
