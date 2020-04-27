@@ -4,16 +4,23 @@
     {
       "url": "https://popper.js.org/docs/v2/",
       "tags": [
-        "v2"
+        "popper-v2"
       ]
     },
     {
       "url": "https://popper.js.org/docs/v1/",
       "tags": [
-        "v1"
+        "popper-v1"
       ]
     },
-    "https://popper.js.org/docs/"
+    {
+      "url": "https://popper.js.org/react-popper/v2/",
+      "tags": [
+        "react-popper-v2"
+      ]
+    },
+    "https://popper.js.org/docs/",
+    "https://popper.js.org/react-popper/"
   ],
   "sitemap_urls": [
     "https://popper.js.org/sitemap.xml"
