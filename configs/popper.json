@@ -4,19 +4,22 @@
     {
       "url": "https://popper.js.org/docs/v2/",
       "tags": [
-        "popper-v2"
+        "popper-v2",
+        "v2"
       ]
     },
     {
       "url": "https://popper.js.org/docs/v1/",
       "tags": [
-        "popper-v1"
+        "popper-v1",
+        "v1"
       ]
     },
     {
       "url": "https://popper.js.org/react-popper/v2/",
       "tags": [
-        "react-popper-v2"
+        "react-popper-v2",
+        "v2"
       ]
     },
     "https://popper.js.org/docs/",
