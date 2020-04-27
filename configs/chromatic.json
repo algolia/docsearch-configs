@@ -1,9 +1,9 @@
 {
   "index_name": "chromatic",
   "start_urls": [
-    "https://docs.chromatic.com"
+    "https://www.chromatic.com/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": ["chromatic(\\?!\\.com\\/docs)"],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'sidebar-nav')]//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
