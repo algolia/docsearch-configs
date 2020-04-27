@@ -1,20 +1,29 @@
 {
   "index_name": "formatjs",
   "start_urls": [
-    "https://formatjs.io/docs/"
+    "https://formatjs.io/docs/",
+    "https://formatjs.io/docs/basic-internationalization-principles"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".main h1",
-    "lvl1": ".main h2",
-    "lvl2": ".main h3",
-    "lvl3": ".main h4",
-    "lvl4": ".main h5",
-    "lvl5": ".main h6",
-    "text": ".main p, .main li"
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
   },
   "conversation_id": [
     "1147080988"
   ],
-  "nb_hits": 141
+  "nb_hits": 936
 }
