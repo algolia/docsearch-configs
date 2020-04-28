@@ -1,7 +1,7 @@
 {
   "index_name": "nuance-mix",
   "start_urls": [
-    "https://beta.mix.nuance.com/mix/documentation/"
+    "https://mix.nuance.com/v3/documentation/"
   ],
   "stop_urls": [
     "/$"
