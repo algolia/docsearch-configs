@@ -1,0 +1,21 @@
+{
+  "index_name": "apache_doris",
+  "start_urls": [
+    "https://doris.apache.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "1149574376"
+  ],
+  "nb_hits": 15665
+}
