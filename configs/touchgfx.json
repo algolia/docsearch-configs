@@ -27,5 +27,6 @@
   "conversation_id": [
     "1119277578"
   ],
-  "nb_hits": 19745
+  "nb_hits": 19745,
+  "hitsPerPage": 10
 }
