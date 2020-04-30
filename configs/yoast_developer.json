@@ -6,8 +6,11 @@
   "stop_urls": [
     "https://developer.yoast.com/blog/?(.*)?"
   ],
+  "sitemap_urls": [
+    "https://developer.yoast.com/sitemap.xml"
+  ],
   "selectors": {
-    "lvl0": "[aria-current='page']",
+    "lvl0": "header h1",
     "lvl1": "article h2",
     "lvl2": "article h3",
     "lvl3": "article h4",
@@ -15,6 +18,7 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "1082863669"
   ],
