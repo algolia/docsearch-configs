@@ -1,5 +1,6 @@
 {
   "index_name": "devtut",
+  "sitemap_urls": ["https://devtut.github.io/sitemap.xml"],
   "start_urls": [
     "https://devtut.github.io/"
   ],
