@@ -7,8 +7,8 @@
   "selectors": {
     "lvl0": "h1",
     "lvl1": "h2",
-    "lvl2": ".api-references--content-area--desc-copy h3, .attributes-table > strong",
-    "lvl3": ".api-references--content-area--desc-copy h4, .attributes-table--title",
+    "lvl2": ".api-references--content-area--desc-copy h3",
+    "lvl3": ".api-references--content-area--desc-copy h4",
     "lvl4": ".api-references--content-area--desc-copy h5",
     "lvl5": ".api-references--content-area--desc-copy h6",
     "text": ".api-references--content-area--desc-copy p, .api-references--content-area--desc-copy li, .attributes-table--description"
@@ -22,5 +22,5 @@
   "conversation_id": [
     "1136565689"
   ],
-  "nb_hits": 1469
+  "nb_hits": 1052
 }
