@@ -1,0 +1,26 @@
+{
+  "index_name": "react-slate",
+  "start_urls": [
+    "https://zamotany.github.io/react-slate/"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside/div/ul/li[.//*[contains(@class,'active')]]/p",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Blog"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h4",
+    "lvl3": "article h5",
+    "lvl4": "article h6",
+    "text": "article p, article li"
+  },
+  "use_anchors": true,
+  "js_wait": 1,
+  "js_render": true,
+  "nb_hits": 189
+}
