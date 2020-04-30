@@ -1,6 +1,8 @@
 {
   "index_name": "devtut",
-  "sitemap_urls": ["https://devtut.github.io/sitemap.xml"],
+  "sitemap_urls": [
+    "https://devtut.github.io/sitemap.xml"
+  ],
   "start_urls": [
     "https://devtut.github.io/"
   ],
@@ -37,5 +39,5 @@
     "1147265484"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 7160
+  "nb_hits": 16370
 }
