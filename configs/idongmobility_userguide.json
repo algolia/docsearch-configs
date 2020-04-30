@@ -1,0 +1,27 @@
+{
+  "index_name": "idongmobility_userguide",
+  "start_urls": [
+    "http://userguide.idongmobility.cn/"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [],
+  "strip_chars": " .,;:#",
+  "js_render": true,
+  "use_anchors": true,
+  "conversation_id": [
+    "1151527011"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 5322
+}
