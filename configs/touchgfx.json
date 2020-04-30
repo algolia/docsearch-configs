@@ -1,7 +1,30 @@
 {
   "index_name": "touchgfx",
   "start_urls": [
-    "https://support.touchgfx.com/docs/"
+    {
+      "url": "https://support.touchgfx.com/docs/development/",
+      "page_rank": 6
+    },
+    {
+      "url": "https://support.touchgfx.com/docs/basic-concepts/",
+      "page_rank": 5
+    },
+    {
+      "url": "https://support.touchgfx.com/docs/tutorials/",
+      "page_rank": 4
+    },
+        {
+      "url": "https://support.touchgfx.com/docs/miscellaneous/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://support.touchgfx.com/docs/api/",
+      "page_rank": 2
+    },
+    {
+      "url": "https://support.touchgfx.com/docs/introduction/",
+      "page_rank": 1
+    }    
   ],
   "sitemap_urls": [
     "https://support.touchgfx.com/sitemap.xml"
