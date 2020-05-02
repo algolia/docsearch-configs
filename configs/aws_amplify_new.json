@@ -1,28 +1,23 @@
 {
   "index_name": "aws_amplify_new",
-  "start_urls": [
-    "https://docs.amplify.aws/",
-    "https://docs.amplify.aws/lib?platform=js"
-  ],
+  "sitemap_urls": ["https://docs.amplify.aws/sitemap.xml"],
+  "start_urls": ["https://docs.amplify.aws"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "docs-secondary-nav stencil-route-link[class*='css'] span",
-      "global": true,
-      "default_value": "Documentation"
+      "selector": "docs-secondary-nav .link-active",
+      "default_value": "Landing"
     },
-    "lvl1": "amplify-toc-contents h1",
-    "lvl2": "amplify-toc-contents h2",
-    "lvl3": "amplify-toc-contents h3",
-    "lvl4": "amplify-toc-contents h4",
-    "lvl5": "amplify-toc-contents h5",
-    "lvl6": "amplify-toc-contents h6",
-    "text": "amplify-toc-contents p, amplify-toc-contents li"
+    "lvl1": "amplify-toc-contents h1:nth-of-type(1)",
+    "lvl2": "amplify-toc-contents h1:nth-of-type(2)",
+    "lvl3": "amplify-toc-contents h2",
+    "lvl4": "amplify-toc-contents h3",
+    "lvl5": "amplify-toc-contents h4, amplify-toc-content th",
+    "lvl6": "amplify-toc-contents h5",
+    "text": "amplify-toc-contents p, amplify-toc-contents li, amplify-toc-content td"
   },
   "js_render": true,
   "js_wait": 2,
-  "conversation_id": [
-    "1115766863"
-  ],
+  "conversation_id": ["1115766863"],
   "nb_hits": 11524
 }
