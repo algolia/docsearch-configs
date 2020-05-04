@@ -1,0 +1,24 @@
+{
+  "index_name": "darwintantuco",
+  "start_urls": [
+    "https://darwintantuco.com/notes/",
+    "https://darwintantuco.com/notes/css/adding-css"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".ant-page-header-heading-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h3",
+    "lvl2": "main h4",
+    "lvl3": "main h5",
+    "lvl4": "main h6",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1155230645"
+  ],
+  "nb_hits": 4
+}
