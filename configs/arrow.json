@@ -2,14 +2,14 @@
   "index_name": "arrow",
   "start_urls": [
     {
-      "url": "https://arrow-kt.io/docs/apidocs/",
+      "url": "https://arrow-kt.io/docs/current/apidocs/",
       "tags": [
         "api"
       ],
       "selectors_key": "api"
     },
-    "https://arrow-kt.io/docs/0.10/",
-    "https://arrow-kt.io/docs/0.10/core/"
+    "https://arrow-kt.io/docs/current/",
+    "https://arrow-kt.io/docs/current/core/"
   ],
   "stop_urls": [
     "https://arrow-kt.io/docs/arrow/data/nonemptylist/"
@@ -24,6 +24,7 @@
         "global": true,
         "default_value": "Documentation"
       },
+      "lvl0": ".doc-content h1",
       "lvl1": ".doc-content h2",
       "lvl2": ".doc-content h3",
       "lvl3": ".doc-content h4",
