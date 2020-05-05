@@ -1,0 +1,28 @@
+{
+  "index_name": "dagster",
+  "start_urls": [
+    "https://docs.dagster.io/docs/"
+  ],
+  "sitemap_urls": [
+    "https://docs.dagster.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav/div[2]//*[contains(@class,'bg-blue-200')]//preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main article p, main article li"
+  },
+  "conversation_id": [
+    "1155794981"
+  ],
+  "nb_hits": 342
+}
