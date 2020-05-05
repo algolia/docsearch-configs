@@ -27,7 +27,8 @@
     }
   },
   "selectors_exclude": [
-    ".table-of-contents"
+    ".table-of-contents",
+    ".badge"
   ],
   "custom_settings": {
     "attributesForFaceting": [
