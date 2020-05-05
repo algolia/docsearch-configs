@@ -1,10 +1,10 @@
 {
   "index_name": "configcat",
   "start_urls": [
-    "https://docs.configcat.com"
+    "https://configcat.com"
   ],
   "sitemap_urls": [
-    "https://docs.configcat.comsitemap.xml"
+    "https://configcat.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -33,5 +33,5 @@
   "conversation_id": [
     "678063035"
   ],
-  "nb_hits": 322
+  "nb_hits": 1135
 }

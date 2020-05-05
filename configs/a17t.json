@@ -1,0 +1,28 @@
+{
+  "index_name": "a17t",
+  "start_urls": [
+    "https://a17t.rmrm.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".page-name",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "lvl6": "main h6",
+    "text": "main p, main li, .subheading"
+  },
+  "selectors_exclude": [
+    ".search-exclude"
+  ],
+  "conversation_id": [
+    "1131163100"
+  ],
+  "nb_hits": 858
+}

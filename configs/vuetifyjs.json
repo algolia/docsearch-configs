@@ -14,7 +14,7 @@
     "/store/"
   ],
   "selectors": {
-    "lvl0": ".layout h1",
+    "lvl0": ".layout h1, .comp-name",
     "lvl1": ".layout h2",
     "lvl2": ".layout h3",
     "lvl3": ".layout h4",
@@ -24,5 +24,5 @@
   "conversation_id": [
     "421371997"
   ],
-  "nb_hits": 2338
+  "nb_hits": 3333
 }

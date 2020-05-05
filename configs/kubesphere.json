@@ -2,10 +2,19 @@
   "index_name": "kubesphere",
   "start_urls": [
     {
-      "url": "https://kubesphere.io/docs/(?P<version>.*?)/(?P<lang>.*?)/",
-      "variables": {
-        "lang": ["zh-CN", "en"],
-        "version": ["advanced-v2.0", "advanced-v1.0", "express"]
+      "url": "https://kubesphere.io/docs/zh-CN",
+      "extra_attributes": {
+        "lang": [
+          "zh-CN"
+        ]
+      }
+    },
+    {
+      "url": "https://kubesphere.io/docs/",
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ]
       }
     }
   ],
@@ -22,8 +31,13 @@
     "lvl5": ".md-body h6",
     "text": ".md-body p, .md-body li"
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
   "conversation_id": [
     "633752622"
   ],
-  "nb_hits": 3656
+  "nb_hits": 6572
 }

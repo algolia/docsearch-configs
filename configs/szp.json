@@ -1,0 +1,23 @@
+{
+  "index_name": "szp",
+  "start_urls": [
+    "https://szp15.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude": [],
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1044795652"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 3310
+}

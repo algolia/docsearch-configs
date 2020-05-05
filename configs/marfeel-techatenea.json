@@ -1,20 +1,20 @@
 {
   "index_name": "marfeel-techatenea",
   "start_urls": [
-    "https://marfeel.github.io/MarfeelDocs/"
+    "https://www.marfeel.com/docs/"
   ],
   "sitemap_urls": [
-    "https://marfeel.github.io/MarfeelDocs/sitemap.xml"
+    "https://www.marfeel.com/docs/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "[class*='content '] h1",
-    "lvl1": "[class*='content '] h2",
-    "lvl2": "[class*='content '] h3",
-    "lvl3": "[class*='content '] h4",
-    "lvl4": "[class*='content '] h5",
-    "lvl5": "[class*='content '] h5",
-    "text": "[class*='content '] p, [class*='content '] li",
+    "lvl0": ".content__default h1",
+    "lvl1": ".content__default h2",
+    "lvl2": ".content__default h3",
+    "lvl3": ".content__default h4",
+    "lvl4": ".content__default h5",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -34,5 +34,5 @@
     "907372374"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 5119
+  "nb_hits": 6901
 }

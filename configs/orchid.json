@@ -8,25 +8,19 @@
     "https://orchid.run/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "h1.home-title",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": "[role='main'] h2",
-    "lvl2": "[role='main'] h3",
-    "lvl3": "[role='main'] h4",
-    "lvl4": "[role='main'] h5",
-    "lvl5": "[role='main'] h6",
-    "text": "[role='main'] p, [role='main'] li"
+    "lvl0": ".column-main-right .content h1.title",
+    "lvl1": ".column-main-right .content h2",
+    "lvl2": ".column-main-right .content h3",
+    "lvl3": ".column-main-right .content h4",
+    "lvl4": ".column-main-right .content h5",
+    "lvl5": ".column-main-right .content h6",
+    "text": ".column-main-right .content p, .column-main-right .content li"
   },
   "selectors_exclude": [
-    "[role='main'] nav",
-    "#table-of-contents",
-    "#table-of-contents + ul"
+    ".column-main-right .page-footer .content"
   ],
   "conversation_id": [
     "991115452"
   ],
-  "nb_hits": 1454
+  "nb_hits": 946
 }

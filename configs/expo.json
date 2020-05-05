@@ -5,9 +5,10 @@
       "url": "https://docs.expo.io/versions/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "v33.0.0",
           "v34.0.0",
           "v35.0.0",
+          "v36.0.0",
+          "v37.0.0",
           "latest",
           "unversioned"
         ]
@@ -33,5 +34,5 @@
   "conversation_id": [
     "569512966"
   ],
-  "nb_hits": 62550
+  "nb_hits": 48074
 }

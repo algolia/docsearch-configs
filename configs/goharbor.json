@@ -1,0 +1,20 @@
+{
+  "index_name": "goharbor",
+  "start_urls": [
+    "https://goharbor.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".title",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "1107181212"
+  ],
+  "nb_hits": 2214
+}

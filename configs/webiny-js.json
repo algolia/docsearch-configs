@@ -1,0 +1,38 @@
+{
+  "index_name": "webiny-js",
+  "start_urls": [
+    "https://docs.webiny.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li",
+    "lvl1": "[class^='docItemContainer_'] h1",
+    "lvl2": "[class^='docItemContainer_'] h2",
+    "lvl3": "[class^='docItemContainer_'] h3",
+    "lvl4": "[class^='docItemContainer_'] h4",
+    "lvl5": "[class^='docItemContainer_'] h5",
+    "lvl6": "[class^='docItemContainer_'] h6",
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    }
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "sitemap_urls": [
+    "https://docs.webiny.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1073173003"
+  ],
+  "nb_hits": 606
+}

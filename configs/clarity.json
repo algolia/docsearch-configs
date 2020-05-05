@@ -1,0 +1,32 @@
+{
+  "index_name": "clarity",
+  "start_urls": [
+    "https://clarity.design/documentation/",
+    "https://clarity.design/documentation/get-started"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "text": "section p, section li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1071511468"
+  ],
+  "nb_hits": 5266
+}

@@ -1,0 +1,29 @@
+{
+  "index_name": "salesforce_developer",
+  "start_urls": [
+    "https://developer.salesforce.com/docs/"
+  ],
+  "stop_urls": [
+    "\\d"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "dfc-nav-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".topic-content h1",
+    "lvl2": ".topic-content h2",
+    "lvl3": ".topic-content h3",
+    "lvl4": ".topic-content h4",
+    "lvl5": ".topic-content h5",
+    "lvl6": ".topic-content h6",
+    "text": ".topic-content p, .topic-content li"
+  },
+  "js_wait": 1,
+  "js_render": true,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 106986
+}

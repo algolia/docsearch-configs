@@ -1,0 +1,21 @@
+{
+  "index_name": "ninecat-ui",
+  "start_urls": [
+    "https://ninecat-ui.github.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1063488859"
+  ],
+  "nb_hits": 12
+}

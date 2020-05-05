@@ -41,9 +41,6 @@
       }
     }
   ],
-  "sitemap_urls": [
-    "http://docs-new.timescale.com/sitemap.xml"
-  ],
   "stop_urls": [],
   "selectors": {
     "default": {
@@ -73,5 +70,5 @@
     "628616287"
   ],
   "js_render": true,
-  "nb_hits": 23327
+  "nb_hits": 26996
 }

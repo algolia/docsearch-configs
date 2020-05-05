@@ -1,0 +1,26 @@
+{
+  "index_name": "fiction-com_factor",
+  "start_urls": [
+    "https://factor.dev/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'sidebar-inner')]//*[contains(@class,'active')]/preceding::*[contains(@class,'group')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-container h1",
+    "lvl2": ".doc-container h2",
+    "lvl3": ".doc-container h3",
+    "lvl4": ".doc-container h4",
+    "lvl5": ".doc-container h5",
+    "lvl6": ".doc-container h6",
+    "text": ".doc-container p, .doc-container li"
+  },
+  "conversation_id": [
+    "1122814836"
+  ],
+  "nb_hits": 333
+}

@@ -1,0 +1,20 @@
+{
+  "index_name": "pestphp",
+  "start_urls": [
+    "https://next.pestphp.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".DocSearch-content h1",
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "conversation_id": [
+    "1151031943"
+  ],
+  "nb_hits": 111
+}

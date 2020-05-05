@@ -1,7 +1,8 @@
 {
   "index_name": "automationforjira",
   "start_urls": [
-    "https://docs.automationforjira.com/"
+    "https://support.atlassian.com/jira-software-cloud/docs/",
+    "https://support.atlassian.com/jira-software-cloud/docs/automate-your-jira-cloud-processes-and-workflows/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -33,5 +34,5 @@
       "lang"
     ]
   },
-  "nb_hits": 1709
+  "nb_hits": 63656
 }

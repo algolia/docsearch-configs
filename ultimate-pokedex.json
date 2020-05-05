@@ -1,0 +1,281 @@
+{
+  "index_name": "ultimate-pokedex",
+  "start_urls": [
+    "https://serebii.net/pokedex-swsh/12.shtml",
+    "https://serebii.net/pokedex-swsh/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(2) > td:nth-child(1)",
+      "default_value": "None",
+      "global": true
+    },
+    "content": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(1)",
+    "name": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(2) > td:nth-child(1)",
+      "default_value": "None",
+      "global": true
+    },
+    "name_jp": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(2) > td:nth-child(2) > table > tbody > tr:nth-child(1) > td:nth-child(2)",
+      "default_value": "Documentation"
+    },
+    "name_fr": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(2) > td:nth-child(2) > table > tbody > tr:nth-child(2) > td:nth-child(2)",
+      "global": true
+    },
+    "name_ge": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(2) > td:nth-child(2) > table > tbody > tr:nth-child(3)",
+      "global": true
+    },
+    "name_kr": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(2) > td:nth-child(2) > table > tbody > tr:nth-child(4) > td:nth-child(2)",
+      "global": true
+    },
+    "nb": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(2) > td:nth-child(3) > table > tbody > tr:nth-child(1) > td:nth-child(2)",
+      "global": true
+    },
+    "gender": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(2) > td:nth-child(4)",
+      "global": true
+    },
+    "classification": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(4) > td:nth-child(1)",
+      "global": true
+    },
+    "type": {
+      "selector": "//*[@id='content']/main/div[2]/table[4]/tbody/tr[2]/td[5]/a/img/@alt",
+      "type": "xpath",
+      "global": true
+    },
+    "height": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(4) > td:nth-child(2)",
+      "global": true
+    },
+    "weight": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(4) > td:nth-child(3)",
+      "global": true
+    },
+    "capture_rate": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(4) > td:nth-child(4)",
+      "global": true
+    },
+    "base_egg_step": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(5) > tbody > tr:nth-child(4) > td:nth-child(5)",
+      "global": true
+    },
+    "ability": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(6) > tbody > tr:nth-child(2) > td",
+      "global": true
+    },
+    "experience_growth": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(6) > tbody > tr:nth-child(4) > td:nth-child(1)",
+      "global": true
+    },
+    "effort_value_earned": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(6) > tbody > tr:nth-child(4) > td:nth-child(3)",
+      "global": true
+    },
+    "dynamax": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(6) > tbody > tr:nth-child(4) > td:nth-child(4)",
+      "global": true
+    },
+    "normal": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(1)",
+      "global": true
+    },
+    "fire": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(2)",
+      "global": true
+    },
+    "water": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(3)",
+      "global": true
+    },
+    "electr": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(4)",
+      "global": true
+    },
+    "grass": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(5)",
+      "global": true
+    },
+    "ice": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(6)",
+      "global": true
+    },
+    "fight": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(7)",
+      "global": true
+    },
+    "poison": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(8)",
+      "global": true
+    },
+    "ground": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(9)",
+      "global": true
+    },
+    "flying": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(10)",
+      "global": true
+    },
+    "psychc": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(11)",
+      "global": true
+    },
+    "bug": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(12)",
+      "global": true
+    },
+    "rock": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(13)",
+      "global": true
+    },
+    "dragon": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(14)",
+      "global": true
+    },
+    "dark": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(15)",
+      "global": true
+    },
+    "steel": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(16)",
+      "global": true
+    },
+    "fairy": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(7) > tbody > tr:nth-child(3) > td:nth-child(17)",
+      "global": true
+    },
+    "egg_group": {
+      "selector": "#content > main > div:nth-child(2) > table:nth-child(8) > tbody > tr:nth-child(2) > td.fooinfo",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "searchable(room)",
+      "searchable(day)",
+      "searchable(track)",
+      "searchable(tags)",
+      "searchable(speakers)",
+      "start",
+      "end",
+      "searchable(github_handle)",
+      "time_period"
+    ],
+    "attributesToHighlight": [
+      "hierarchy",
+      "description",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "name",
+      "name_jp",
+      "name_fr",
+      "name_ge",
+      "name_kr",
+      "nb",
+      "gender",
+      "classification",
+      "type",
+      "height",
+      "weight",
+      "capture_rate",
+      "base_egg_step",
+      "ability",
+      "experience_growth",
+      "effort_value_earned",
+      "dynamax",
+      "normal",
+      "fire",
+      "water",
+      "electr",
+      "grass",
+      "ice",
+      "fight",
+      "poison",
+      "ground",
+      "flying",
+      "psychc",
+      "bug",
+      "rock",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy",
+      "egg_group"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "description",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "start",
+      "end",
+      "name",
+      "name_jp",
+      "name_fr",
+      "name_ge",
+      "name_kr",
+      "nb",
+      "gender",
+      "classification",
+      "type",
+      "height",
+      "weight",
+      "capture_rate",
+      "base_egg_step",
+      "ability",
+      "experience_growth",
+      "effort_value_earned",
+      "dynamax",
+      "normal",
+      "fire",
+      "water",
+      "electr",
+      "grass",
+      "ice",
+      "fight",
+      "poison",
+      "ground",
+      "flying",
+      "psychc",
+      "bug",
+      "rock",
+      "dragon",
+      "dark",
+      "steel",
+      "fairy",
+      "egg_group"
+    ],
+    "attributesToIndex": [
+      "unordered(hierarchy.lvl0)",
+      "track",
+      "unordered(hierarchy.lvl1)",
+      "description",
+      "speakers",
+      "room",
+      "github_handle",
+      "time_period"
+    ],
+    "ranking": [
+      "typo",
+      "geo",
+      "words",
+      "filters",
+      "proximity",
+      "attribute",
+      "exact",
+      "custom"
+    ],
+    "distinct": false
+  },
+  "only_content_level": true,
+  "js_render": true,
+  "nb_hits": 1308
+}

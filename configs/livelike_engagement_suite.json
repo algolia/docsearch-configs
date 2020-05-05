@@ -1,0 +1,20 @@
+{
+  "index_name": "livelike_engagement_suite",
+  "start_urls": [
+    "https://willis-pinaud.github.io/orchid-ll/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".sourcedoc-section h1",
+    "lvl1": ".sourcedoc-section h2",
+    "lvl2": ".sourcedoc-section h3",
+    "lvl3": ".sourcedoc-section h4",
+    "lvl4": ".sourcedoc-section h5",
+    "lvl5": ".sourcedoc-section h6",
+    "text": ".sourcedoc-section p, .sourcedoc-section li"
+  },
+  "conversation_id": [
+    "1129466557"
+  ],
+  "nb_hits": 1563
+}

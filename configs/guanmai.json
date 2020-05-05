@@ -1,19 +1,19 @@
 {
   "index_name": "guanmai",
   "start_urls": [
-    "https://document.guanmai.cn/"
+    "https://help.guanmai.cn/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://document.guanmai.cn/sitemap.xml"
+    "https://help.guanmai.cn/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": "#yuque-book-container h1",
-    "lvl1": "#yuque-book-container h2",
-    "lvl2": "#yuque-book-container h3",
-    "lvl3": "#yuque-book-container h4",
-    "lvl4": "#yuque-book-container h5",
-    "text": "#yuque-book-container p, #yuque-book-container li",
+    "lvl0": "#docBodyContainer h1",
+    "lvl1": "#docBodyContainer h2",
+    "lvl2": "#docBodyContainer h3",
+    "lvl3": "#docBodyContainer h4",
+    "lvl4": "#docBodyContainer h5",
+    "text": "#docBodyContainer p, #docBodyContainer li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -31,5 +31,5 @@
     "657561591"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 2772
+  "nb_hits": 792
 }

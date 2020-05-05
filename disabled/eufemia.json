@@ -1,0 +1,21 @@
+{
+  "index_name": "eufemia",
+  "start_urls": [
+    "https://eufemia.dnb.no/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".dev-grid p, .dev-grid li",
+    "lvl0": ".dev-grid h1",
+    "lvl1": ".dev-grid h2",
+    "lvl2": ".dev-grid h3",
+    "lvl3": ".dev-grid h4",
+    "lvl4": ".dev-grid h5",
+    "lvl5": ".dev-grid h6"
+  },
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1078901697"
+  ],
+  "nb_hits": 12733
+}

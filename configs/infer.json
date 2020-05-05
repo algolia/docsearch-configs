@@ -1,7 +1,7 @@
 {
   "index_name": "infer",
   "start_urls": [
-    "https://infer.netlify.com/"
+    "https://infer.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -19,7 +19,7 @@
     ".dont-index"
   ],
   "sitemap_urls": [
-    "https://infer.netlify.com/sitemap.xml"
+    "https://infer.netlify.app/sitemap.xml"
   ],
   "custom_settings": {
     "separatorsToIndex": "_"
@@ -28,5 +28,5 @@
     "579122944"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 370
+  "nb_hits": 792
 }

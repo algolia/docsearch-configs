@@ -1,0 +1,38 @@
+{
+  "index_name": "hazelcast-jet",
+  "start_urls": [
+    "https://jet-start.sh/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".post article p, .post article li",
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "lvl5": ".post h6"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "sitemap_urls": [
+    "https://jet-start.sh/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1079553345"
+  ],
+  "nb_hits": 3961
+}

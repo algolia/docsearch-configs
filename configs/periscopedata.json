@@ -1,7 +1,7 @@
 {
   "index_name": "periscopedata",
   "start_urls": [
-    "https://doc.periscopedata.com/"
+    "https://dtdocs.sisense.com/"
   ],
   "stop_urls": [
     "\\.pub$",
@@ -9,11 +9,12 @@
     "/doc/"
   ],
   "sitemap_urls": [
-    "https://doc.periscopedata.com/sitemap.xml"
+    "https://dtdocs.sisense.com/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".topic-item-head.current",
+      "selector": "//aside//*[text()=//h1]/preceding::*[contains(@class,'head')][1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -24,8 +25,11 @@
     "lvl5": ".column-article h5",
     "text": ".column-article p, .column-article li"
   },
+  "selectors_exclude": [
+    ".column-article p div ul"
+  ],
   "conversation_id": [
     "215537166"
   ],
-  "nb_hits": 3739
+  "nb_hits": 5665
 }

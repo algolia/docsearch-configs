@@ -1,0 +1,26 @@
+{
+  "index_name": "docsite",
+  "start_urls": [
+    "https://docsite.js.org/",
+    "https://docsite.js.org/en-us/docs/installation.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//section//a[contains(//h2/text(),text())]/preceding::span[1]",
+        "global": true,
+        "type": "xpath",
+        "default_value": "Documentation"
+      },
+    "lvl1": ".doc-content h2",
+    "lvl2": ".doc-content h3",
+    "lvl3": ".doc-content h4",
+    "lvl4": ".doc-content h5",
+    "lvl5": ".doc-content h6",
+    "text": ".doc-content p, .doc-content li"
+  },
+  "conversation_id": [
+    "1145240515"
+  ],
+  "nb_hits": 184
+}

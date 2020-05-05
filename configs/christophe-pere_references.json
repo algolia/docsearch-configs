@@ -1,0 +1,23 @@
+{
+  "index_name": "christophe-pere_references",
+  "start_urls": [
+    "https://christophe-pere.github.io/references-articles-computer-science/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "selectors_exclude": [
+    "#table-of-contents"
+  ],
+  "conversation_id": [
+    "1135174639"
+  ],
+  "nb_hits": 757
+}

@@ -1,11 +1,13 @@
 {
   "index_name": "v-play",
   "start_urls": [
-    "https://v-play.net/doc/",
-    "https://v-play.net/doc/vplayapps-appbutton/"
+    "https://felgo.com/doc/",
+    "https://felgo.com/doc/vplayapps-appbutton/"
   ],
   "stop_urls": [
-    "\\?utm"
+    "\\?utm",
+    "//felgo.com/doc/qt/qsggeometrynode/qsgsimpletexturenode/qsgsimplerectnode",
+    "(\\/([a-z][A-Z])*\\/){6}"
   ],
   "selectors": {
     "lvl0": ".doc-page h1",
@@ -22,5 +24,5 @@
   "conversation_id": [
     "518344062"
   ],
-  "nb_hits": 48251
+  "nb_hits": 500324
 }

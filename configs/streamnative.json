@@ -1,0 +1,21 @@
+{
+  "index_name": "streamnative",
+  "start_urls": [
+    "https://streamnative.io/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content-container h1.doc-markdown-title",
+    "lvl1": ".content-container h1:not(.doc-markdown-title)",
+    "lvl2": ".content-container h2",
+    "lvl3": ".content-container h3",
+    "lvl4": ".content-container h4",
+    "lvl5": ".content-container h5",
+    "lvl6": ".content-container h6",
+    "text": ".content-container p, .content-container li"
+  },
+  "conversation_id": [
+    "1123029347"
+  ],
+  "nb_hits": 3875
+}

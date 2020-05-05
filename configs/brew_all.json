@@ -159,6 +159,25 @@
         "default_value": "en"
       }
     },
+    "cask": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Cask"
+      },
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#wrap p, #wrap li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en"
+      }
+    },
     "formulae_docs": {
       "lvl0": {
         "selector": "",
@@ -209,5 +228,5 @@
   "conversation_id": [
     "771112570"
   ],
-  "nb_hits": 143394
+  "nb_hits": 140200
 }

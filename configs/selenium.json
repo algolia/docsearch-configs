@@ -1,0 +1,40 @@
+{
+  "index_name": "selenium",
+  "start_urls": [
+    "https://www.selenium.dev/documentation/",
+    "https://selenium.dev/documentation/",
+    "https://selenium.dev/documentation/de/getting_started/quick/",
+    "https://selenium.dev/documentation/en/getting_started/quick/",
+    "https://selenium.dev/documentation/es/getting_started/quick/",
+    "https://selenium.dev/documentation/nl/getting_started/quick/",
+    "https://selenium.dev/documentation/zh-cn/getting_started/quick/",
+    "https://selenium.dev/documentation/fr/getting_started/quick/",
+    "https://selenium.dev/documentation/ja/getting_started/quick/",
+    "https://selenium.dev/documentation/ko/getting_started/quick/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.selenium.dev/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "#body-inner h1",
+    "lvl1": "#body-inner h2",
+    "lvl2": "#body-inner h3",
+    "lvl3": "#body-inner h4",
+    "lvl4": "#body-inner h5",
+    "lvl5": "#body-inner h6",
+    "text": "#body-inner p, #body-inner li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "nb_hits": 14194
+}

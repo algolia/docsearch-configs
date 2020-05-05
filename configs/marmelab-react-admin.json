@@ -4,19 +4,20 @@
     "https://marmelab.com/react-admin/"
   ],
   "stop_urls": [
-    "index.html$"
+    "index.html$",
+    "https://marmelab.com/react-admin/doc/\\d"
   ],
   "selectors": {
-    "lvl0": "section h1",
-    "lvl1": "section h2",
-    "lvl2": "section h3",
-    "lvl3": "section h4",
-    "lvl4": "section h5",
-    "lvl5": "section h6",
-    "text": "section p, section li"
+    "lvl0": ".DocSearch-content h1",
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
   },
   "conversation_id": [
     "902970135"
   ],
-  "nb_hits": 1695
+  "nb_hits": 2023
 }

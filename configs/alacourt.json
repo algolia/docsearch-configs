@@ -1,11 +1,11 @@
 {
   "index_name": "alacourt",
   "start_urls": [
-    "http://support.olis.com/alacourt/v2/docs/",
-    "http://support.olis.com/alacourt/v2/docs/faqs.html"
+    "http://support.alacourt.com/docs/",
+    "http://support.alacourt.com/docs/faqs.html"
   ],
   "sitemap_urls": [
-    "http://support.olis.com/alacourt/v2/sitemap.xml"
+    "http://support.alacourt.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -35,5 +35,5 @@
   "conversation_id": [
     "931574375"
   ],
-  "nb_hits": 49
+  "nb_hits": 72
 }

@@ -1,0 +1,27 @@
+{
+  "index_name": "longhorn",
+  "start_urls": [
+    "https://longhorn.io/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://longhorn.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs-content h2",
+    "lvl2": ".docs-content h3",
+    "lvl3": ".docs-content h4",
+    "lvl4": ".docs-content h5",
+    "lvl5": ".docs-content h6",
+    "text": ".docs-content p, .docs-content li, .subtitle"
+  },
+  "conversation_id": [
+    "1137891565"
+  ],
+  "nb_hits": 1027
+}

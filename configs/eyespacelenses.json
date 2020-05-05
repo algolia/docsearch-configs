@@ -1,0 +1,23 @@
+{
+  "index_name": "eyespacelenses",
+  "start_urls": [
+    "https://www.eyespacelenses.com/kb/",
+    "https://www.eyespacelenses.com/kb/eyespace-error-faq"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.eyespacelenses.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "#blog-post h2",
+    "lvl1": "#blog-post h3",
+    "lvl2": "#blog-post h4",
+    "lvl3": "#blog-post h5",
+    "lvl4": "#blog-post h6",
+    "text": "#blog-post p, #blog-post li"
+  },
+  "conversation_id": [
+    "1108635225"
+  ],
+  "nb_hits": 2237
+}

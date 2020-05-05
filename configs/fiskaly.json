@@ -1,7 +1,7 @@
 {
   "index_name": "fiskaly",
   "start_urls": [
-    "http://developer.fiskaly.com/docs/"
+    "http://developer.fiskaly.com/"
   ],
   "sitemap_urls": [
     "http://developer.fiskaly.com/sitemap.xml"
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1001275147"
   ],
-  "nb_hits": 301
+  "nb_hits": 877
 }

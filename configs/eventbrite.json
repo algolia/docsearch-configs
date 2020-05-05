@@ -1,23 +1,24 @@
 {
   "index_name": "eventbrite",
   "start_urls": [
-    "https://www.eventbrite.com/developer/v3/"
+    "https://www.eventbrite.com/platform/docs/",
+    "https://www.eventbrite.com/platform/docs/introduction"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'side-nav ')]//a[./text()=//*[contains(@class,'prose ')]//h1[1]/text()]/preceding::h3[1]",
+      "selector": "//aside//*[contains(@class,'selected')]/preceding::*[contains(@class,'eds-nav-list__item__contents')]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".prose h1",
-    "lvl2": ".prose h2",
-    "lvl3": ".prose h3",
-    "lvl4": ".prose h4",
-    "lvl5": ".prose h5",
-    "text": ".prose p, .prose li"
+    "lvl1": ".markdown-body h1",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3",
+    "lvl4": ".markdown-body h4",
+    "lvl5": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
   },
-  "only_content_level": true,
-  "nb_hits": 1841
+  "js_render": true,
+  "nb_hits": 1048
 }

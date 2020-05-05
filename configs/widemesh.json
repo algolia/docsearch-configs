@@ -1,0 +1,23 @@
+{
+  "index_name": "widemesh",
+  "start_urls": [
+    "https://widemesh.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".markdown h2",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h3",
+    "lvl2": ".markdown h4",
+    "lvl3": ".markdown h5",
+    "lvl4": ".markdown h6",
+    "text": ".markdown p, .markdown li"
+  },
+  "conversation_id": [
+    "1124159393"
+  ],
+  "nb_hits": 485
+}

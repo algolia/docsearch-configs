@@ -1,35 +1,30 @@
 {
   "index_name": "packet",
   "start_urls": [
-    "https://support.packet.com/kb/"
+    "https://www.packet.com/developers/docs/",
+    "https://www.packet.com/developers/api/",
+    "https://www.packet.com/resources/guides/"
   ],
-  "stop_urls": [
-    "kb/articles/pdf/",
-    "/vote-"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".breadcrumbs > ul > li:nth-child(2)",
+      "selector": "#sidebar .stick_in_parent > .active > a",
       "global": true,
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": ".breadcrumbs > ul > li:nth-child(3)",
+      "selector": "#sidebar .active .active > a",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl2": {
-      "selector": ".kb-article header h1",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl3": ".article-content h1",
-    "lvl4": ".article-content h2",
-    "lvl5": ".article-content h3",
-    "text": ".article-content p, .article-content li"
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "text": "article p, article li"
   },
   "conversation_id": [
     "673723252"
   ],
-  "nb_hits": 2029
+  "nb_hits": 3158
 }

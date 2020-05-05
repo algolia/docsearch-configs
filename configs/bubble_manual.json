@@ -1,7 +1,7 @@
 {
   "index_name": "bubble_manual",
   "start_urls": [
-    "https://manual.bubble.is/"
+    "https://manual.bubble.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -19,5 +19,5 @@
   "conversation_id": [
     "326927328"
   ],
-  "nb_hits": 1067
+  "nb_hits": 1369
 }

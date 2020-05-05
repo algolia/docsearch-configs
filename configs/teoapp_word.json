@@ -1,0 +1,36 @@
+{
+  "index_name": "teoapp_word",
+  "start_urls": [
+    "https://word.teoapp.fr/docs/",
+    "https://word.teoapp.fr/docs/se-connecter"
+  ],
+  "sitemap_urls": [
+    "https://word.teoapp.fr/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "https://word.teoapp.fr/docs/confidentialite",
+    "https://word.teoapp.fr/docs/licence-utilisateur"
+  ],
+  "selectors": {
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1139252947"
+  ],
+  "nb_hits": 106
+}

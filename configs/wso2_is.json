@@ -1,0 +1,20 @@
+{
+  "index_name": "wso2_is",
+  "start_urls": [
+    "https://is.docs.wso2.com/en/latest/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".md-content__inner p, .md-content__inner li",
+    "lvl0": ".md-content__inner h1",
+    "lvl1": ".md-content__inner h2",
+    "lvl2": ".md-content__inner h3",
+    "lvl3": ".md-content__inner h4",
+    "lvl4": ".md-content__inner h5",
+    "lvl5": ".md-content__inner h6"
+  },
+  "conversation_id": [
+    "1102450000"
+  ],
+  "nb_hits": 25666
+}

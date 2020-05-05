@@ -1,7 +1,8 @@
 {
   "index_name": "draftail",
   "start_urls": [
-    "https://www.draftail.org/docs/"
+    "https://www.draftail.org/docs/",
+    "https://www.draftail.org/docs/getting-started"
   ],
   "sitemap_urls": [
     "https://www.draftail.org/sitemap.xml"
@@ -34,5 +35,5 @@
   "conversation_id": [
     "707386181"
   ],
-  "nb_hits": 1756
+  "nb_hits": 429
 }

@@ -1,0 +1,20 @@
+{
+  "index_name": "modx",
+  "start_urls": [
+    "https://docs.modx.pro"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content-page h1",
+    "lvl1": ".content-page h2",
+    "lvl2": ".content-page h3",
+    "lvl3": ".content-page h4",
+    "lvl4": ".content-page h5",
+    "lvl5": ".content-page h6",
+    "text": ".content-page p, .content-page li"
+  },
+  "conversation_id": [
+    "1140722301"
+  ],
+  "nb_hits": 17538
+}

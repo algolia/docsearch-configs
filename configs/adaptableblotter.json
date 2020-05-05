@@ -1,0 +1,17 @@
+{
+  "index_name": "adaptableblotter",
+  "start_urls": [
+    "https://demo.adaptabletools.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".main h4",
+    "lvl1": ".main h5",
+    "lvl2": ".main h6",
+    "text": ".main p, .main li"
+  },
+  "conversation_id": [
+    "1023580403"
+  ],
+  "nb_hits": 557
+}

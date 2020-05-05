@@ -1,0 +1,93 @@
+{
+  "index_name": "ies",
+  "start_urls": [
+    {
+      "url": "https://ies-ingredients.com/en/produit/",
+      "tags": [
+        "produit"
+      ],
+      "selectors_key": "produit"
+    },
+    {
+      "url": "https://ies-ingredients.com/produit/",
+      "tags": [
+        "produit"
+      ],
+      "selectors_key": "produit"
+    },
+    {
+      "url": "https://ies-ingredients.com/equipe/",
+      "tags": [
+        "team"
+      ],
+      "selectors_key": "team"
+    },
+    "https://ies-ingredients.com/"
+  ],
+  "sitemap_urls": [
+    "https://ies-ingredients.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".post-type-page h1",
+      "lvl1": ".post-type-page h2",
+      "lvl2": ".post-type-page h3",
+      "lvl3": ".post-type-page h4",
+      "lvl4": ".post-type-page h5",
+      "lvl5": ".post-type-page h6",
+      "text": ".post-type-page p, .post-type-page li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    },
+    "produit": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Produit"
+      },
+      "lvl1": ".post-type-page h2, .prodnom h2",
+      "lvl2": ".post-type-page h1, .prodnom h1",
+      "lvl3": ".prodinfo > div > p",
+      "text": ".flexfull .span p, .flexitem p span, .pad li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    },
+    "team": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Equipe"
+      },
+      "lvl1": ".equipes h3",
+      "lvl2": ".flexitem span",
+      "text": ".flexitem p",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    }
+  },
+  "selectors_exclude": [
+    ".prodsuggest"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "1133534102"
+  ],
+  "strip_chars": ".,;:#",
+  "nb_hits": 13322
+}

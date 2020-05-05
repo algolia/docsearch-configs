@@ -1,0 +1,23 @@
+{
+  "index_name": "hole",
+  "start_urls": [
+    "https://hole.build/docs"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://hole.build/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".docs-main h1",
+    "lvl1": ".docs-main h2",
+    "lvl2": ".docs-main h3",
+    "lvl3": ".docs-main h4",
+    "lvl4": ".docs-main h5",
+    "lvl5": ".docs-main h6",
+    "text": ".docs-main p, .docs-main li"
+  },
+  "conversation_id": [
+    "1084641849"
+  ],
+  "nb_hits": 123
+}

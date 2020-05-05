@@ -48,11 +48,7 @@
     "lvl2": "article h3",
     "lvl3": "article h4",
     "lvl4": "article h5",
-    "text": "article p, article li",
-    "version": {
-      "selector": "main .dropdown--versions > a",
-      "global": true
-    }
+    "text": "article p, article li"
   },
   "min_indexed_level": 1,
   "custom_settings": {
@@ -67,5 +63,5 @@
   "conversation_id": [
     "825649018"
   ],
-  "nb_hits": 109665
+  "nb_hits": 87943
 }

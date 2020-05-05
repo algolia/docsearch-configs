@@ -1,0 +1,32 @@
+{
+  "index_name": "contentful_forma-36",
+  "start_urls": [
+    "https://f36.contentful.com",
+    "https://f36.contentful.com/foundation/color/",
+    "https://f36.contentful.com/guidelines/accessibility/",
+    "https://f36.contentful.com/components/button/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//nav/ul/li[.//*[@aria-current='page']]/a/span)[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl6": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
+  },
+  "selectors_exclude": [
+    "body style"
+  ],
+  "conversation_id": [
+    "1073244323"
+  ],
+  "nb_hits": 486
+}

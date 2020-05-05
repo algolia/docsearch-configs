@@ -1,37 +1,62 @@
 {
   "index_name": "applitools",
   "start_urls": [
-    "https://applitools.com/tutorials"
+    {
+      "url": "https://applitools.com/docs",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://applitools.com/tutorials",
+      "tags": [
+        "tutorials"
+      ],
+      "selectors_key": "tutorials"
+    }
   ],
-  "stop_urls": [
-    "utm_source"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "text": ".content p, .content li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true,
-      "default_value": "en-US"
+    "default": {
+      "lvl0": "#document-body h1",
+      "lvl1": "#document-body h2",
+      "lvl2": "#document-body h3",
+      "lvl3": "#document-body h4",
+      "lvl4": "#document-body h5",
+      "text": "#document-body p, #document-body li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    },
+    "tutorials": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
     }
   },
-  "strip_chars": " .,;:",
   "selectors_exclude": [
-    "a.header-anchor"
+    ".table-of-contents"
   ],
+  "strip_chars": " .,;:#",
+  "scrap_start_urls": false,
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "tags"
     ]
   },
   "conversation_id": [
     "659247269"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 2128
+  "nb_hits": 19619
 }

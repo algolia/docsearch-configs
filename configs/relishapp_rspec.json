@@ -1,0 +1,21 @@
+{
+  "index_name": "relishapp_rspec",
+  "start_urls": [
+    "https://relishapp.com/rspec"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section.inner h1",
+    "lvl1": "section.inner h2",
+    "lvl2": "section.inner h3",
+    "lvl3": "section.inner h4",
+    "lvl4": "section.inner h5",
+    "lvl5": "section.inner h6",
+    "text": "section.inner p, section.inner li"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "1146257922"
+  ],
+  "nb_hits": 180898
+}

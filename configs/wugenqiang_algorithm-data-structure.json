@@ -1,0 +1,24 @@
+{
+  "index_name": "wugenqiang_algorithm-data-structure",
+  "start_urls": [
+    "https://wugenqiang.github.io/algorithm-data-structure",
+    "https://wugenqiang.github.io/algorithm-data-structure/#/home"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "1147290282"
+  ],
+  "use_anchors": true,
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 975
+}

@@ -1,0 +1,23 @@
+{
+  "index_name": "tenacious-turtle",
+  "start_urls": [
+    "https://tenacious-turtle.gitlab.io/docs-site"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://tenacious-turtle.gitlab.io/docs-site/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1036164787"
+  ],
+  "nb_hits": 3078
+}

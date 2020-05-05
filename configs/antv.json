@@ -2,75 +2,27 @@
   "index_name": "antv",
   "start_urls": [
     {
-      "url": "https://antvis.github.io/zh",
+      "url": "https://antv.vision/zh",
       "tags": [
         "zh"
       ]
     },
     {
-      "url": "https://antvis.github.io/zh/.*",
+      "url": "https://antv.vision/en",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://antv.vision/.*/en/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://antv.vision/.*/zh",
       "tags": [
         "zh"
-      ]
-    },
-    {
-      "url": "https://antvis.github.io/.*/zh.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antvis.github.io/en",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://antvis.github.io/en/.*",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://antvis.github.io/.*/en/.*",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/zh",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/zh/.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/.*/zh/.*",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/en",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/en/.*",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://antv.alipay.com/.*/en/.*",
-      "tags": [
-        "en"
       ]
     }
   ],
@@ -95,5 +47,5 @@
     "1009469654"
   ],
   "min_indexed_level": 1,
-  "nb_hits": 45505
+  "nb_hits": 897
 }

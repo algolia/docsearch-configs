@@ -1,0 +1,29 @@
+{
+  "index_name": "projectcontour",
+  "start_urls": [
+    "https://projectcontour.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".documentation-container h1",
+    "lvl1": ".documentation-container h2",
+    "lvl2": ".documentation-container h3",
+    "lvl3": ".documentation-container h4",
+    "lvl4": ".documentation-container h5",
+    "text": ".documentation-container p, .documentation-container li",
+    "version": {
+      "selector": "#dropdownMenuButton",
+      "global": true,
+      "default_value": "Documentation"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1131082876"
+  ],
+  "nb_hits": 4597
+}

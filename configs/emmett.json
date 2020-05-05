@@ -1,0 +1,20 @@
+{
+  "index_name": "emmett",
+  "start_urls": [
+    "https://emmett.sh/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs h1",
+    "lvl1": ".docs h2",
+    "lvl2": ".docs h3",
+    "lvl3": ".docs h4",
+    "lvl4": ".docs h5",
+    "lvl5": ".docs h6",
+    "text": ".docs p, .docs li"
+  },
+  "conversation_id": [
+    "1124159426"
+  ],
+  "nb_hits": 1647
+}

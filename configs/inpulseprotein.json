@@ -1,0 +1,110 @@
+{
+  "index_name": "inpulseprotein",
+  "start_urls": [
+    {
+      "url": "https://www.inpulseprotein.com/blogs/coach",
+      "tags": [
+        "coach"
+      ],
+      "selectors_key": "coach",
+      "page_rank": -10
+    },
+    {
+      "url": "https://www.inpulseprotein.com/blogs/recettes",
+      "tags": [
+        "recipe"
+      ],
+      "selectors_key": "recipe",
+      "page_rank": -10
+    },
+    {
+      "url": "https://www.inpulseprotein.com/collections/",
+      "tags": [
+        "products"
+      ],
+      "selectors_key": "products",
+      "page_rank": 10
+    },
+    {
+      "url": "https://www.inpulseprotein.com/",
+      "page_rank": -10
+    }
+  ],
+  "stop_urls": [
+    "\\?",
+    "/tagged/"
+  ],
+  "selectors": {
+    "recipe": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": {
+        "selector": "",
+        "global": true,
+        "default_value": "Recettes"
+      },
+      "lvl2": {
+        "selector": "article h1.section-header__title",
+        "global": true,
+        "default_value": "Recettes"
+      },
+      "lvl3": "article h3, article h1:not(.section-header__title)",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "lvl6": "article h6",
+      "text": "article p, article li"
+    },
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h3",
+      "lvl3": "article h4",
+      "lvl4": "article h5",
+      "lvl5": "article h6",
+      "text": "article p, article li"
+    },
+    "coach": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": {
+        "selector": "",
+        "global": true,
+        "default_value": "Coach"
+      },
+      "lvl2": "article h1",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "lvl6": "article h6",
+      "text": "article p, article li"
+    },
+    "products": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Produits"
+      },
+      "lvl1": {
+        "selector": ".gf_product-title",
+        "global": true,
+        "default_value": "Produits"
+      },
+      "lvl2": ".text-edit p b:only-child, main h2",
+      "text": ".module-wrap p, .article__date, main h1"
+    }
+  },
+  "selectors_exclude": [
+    "[data-limit]"
+  ],
+  "nb_hits": 1856
+}

@@ -1,0 +1,28 @@
+{
+  "index_name": "platformos",
+  "start_urls": [
+    "https://documentation.platformos.com"
+  ],
+  "stop_urls": [
+    "https://documentation.platformos.com/release-notes",
+    "https://documentation.platformos.com/roadmap"
+  ],
+  "selectors": {
+    "lvl0": ".content__main h1",
+    "lvl1": ".content__main h2",
+    "lvl2": ".content__main h3",
+    "lvl3": ".content__main h4",
+    "lvl4": ".content__main h5",
+    "lvl5": ".content__main h6",
+    "text": ".content__main p, .content__main li"
+  },
+  "selectors_exclude": [
+    ".feedback-form",
+    ".footer",
+    ".content__aside"
+  ],
+  "conversation_id": [
+    "1059048607"
+  ],
+  "nb_hits": 8600
+}

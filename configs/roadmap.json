@@ -1,0 +1,47 @@
+{
+  "index_name": "roadmap",
+  "start_urls": [
+    {
+      "url": "https://roadmap.sh/guides/",
+      "tags": [
+        "guides"
+      ],
+      "selectors_key": "guides"
+    },
+    "https://roadmap.sh"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "h1[class*='Title-']",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "[class*='Summary-'] h1",
+      "lvl2": "[class*='Summary-'] h2",
+      "lvl3": "[class*='Summary-'] h3",
+      "lvl4": "[class*='Summary-'] h4",
+      "lvl5": "[class*='Summary-'] h5",
+      "lvl6": "[class*='Summary-'] h6",
+      "text": "[class*='Summary-'] p, [class*='Summary-'] li, p[class*='Description-']"
+    },
+    "guides": {
+      "lvl0": {
+        "selector": "h1[class*='Title-']",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "[class*='GuideBodyWrap-'] h2",
+      "lvl2": "[class*='GuideBodyWrap-'] h3",
+      "lvl3": "[class*='GuideBodyWrap-'] h4",
+      "lvl4": "[class*='GuideBodyWrap-'] h5",
+      "lvl5": "[class*='GuideBodyWrap-'] h6",
+      "text": "[class*='GuideBodyWrap-'] p, [class*='GuideBodyWrap-'] li, p[class*='GuideSubtitle-']"
+    }
+  },
+  "conversation_id": [
+    "1127719684"
+  ],
+  "nb_hits": 746
+}

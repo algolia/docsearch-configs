@@ -1,10 +1,11 @@
 {
   "index_name": "react-isomorphic-data",
   "start_urls": [
-    "https://react-isomorphic-data.netlify.com/docs/"
+    "https://react-isomorphic-data.netlify.app/docs/",
+    "https://react-isomorphic-data.netlify.app/docs/intro"
   ],
   "sitemap_urls": [
-    "https://react-isomorphic-data.netlify.com/sitemap.xml"
+    "https://react-isomorphic-data.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -27,5 +28,5 @@
   "conversation_id": [
     "978016850"
   ],
-  "nb_hits": 111
+  "nb_hits": 17
 }

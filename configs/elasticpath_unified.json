@@ -48,6 +48,18 @@
       "tags": [
         "commerce"
       ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/cloudops-kubernetes/docs/",
+      "tags": [
+        "cloudops-kubernetes"
+      ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/bloomreach-feed/docs/",
+      "tags": [
+        "bloomreach-feed"
+      ]
     }
   ],
   "sitemap_urls": [
@@ -58,7 +70,9 @@
     "https://documentation.elasticpath.com/chatbot/sitemap.xml",
     "https://documentation.elasticpath.com/alexa-skill/sitemap.xml",
     "https://documentation.elasticpath.com/account-management/sitemap.xml",
-    "https://documentation.elasticpath.com/commerce/sitemap.xml"
+    "https://documentation.elasticpath.com/commerce/sitemap.xml",
+    "https://documentation.elasticpath.com/cloudops-kubernetes/sitemap.xml",
+    "https://documentation.elasticpath.com/bloomreach-feed/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -89,5 +103,5 @@
   "conversation_id": [
     "924021424"
   ],
-  "nb_hits": 28638
+  "nb_hits": 57021
 }

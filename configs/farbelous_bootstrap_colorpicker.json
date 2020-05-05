@@ -1,7 +1,8 @@
 {
   "index_name": "farbelous_bootstrap_colorpicker",
   "start_urls": [
-    "https://farbelous.io/bootstrap-colorpicker/"
+    "https://farbelous.io/bootstrap-colorpicker/",
+    "https://itsjavi.com/bootstrap-colorpicker/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,5 +16,5 @@
   "conversation_id": [
     "467982773"
   ],
-  "nb_hits": 658
+  "nb_hits": 735
 }

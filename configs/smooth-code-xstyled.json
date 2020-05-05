@@ -1,7 +1,7 @@
 {
   "index_name": "smooth-code-xstyled",
   "start_urls": [
-    "https://www.smooth-code.com/open-source/xstyled/docs/"
+    "https://xstyled.dev/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -25,5 +25,5 @@
   "custom_settings": {
     "separatorsToIndex": "_+@/"
   },
-  "nb_hits": 266
+  "nb_hits": 443
 }
