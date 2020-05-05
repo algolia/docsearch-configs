@@ -24,13 +24,20 @@
       "tags": [
         "react-relay-offline"
       ]
+    },
+    {
+      "url": "https://morrys.github.io/relay-angular/docs/",
+      "tags": [
+        "relay-angular"
+      ]
     }
   ],
   "sitemap_urls": [
     "https://relay-tools.github.io/relay-hooks/sitemap.xml",
     "https://morrys.github.io/wora/sitemap.xml",
     "https://morrys.github.io/react-relay-appsync/sitemap.xml",
-    "https://morrys.github.io/react-relay-offline/sitemap.xml"
+    "https://morrys.github.io/react-relay-offline/sitemap.xml",
+    "https://morrys.github.io/relay-angular/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
