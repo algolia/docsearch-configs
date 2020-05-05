@@ -1,8 +1,7 @@
 {
   "index_name": "theodocs",
   "start_urls": [
-    "https://docs.portal.theoplayer.com/docs/",
-    "https://docs.portal.theoplayer.com/docs/docs/getting-started/installation"
+    "https://docs.portal.theoplayer.com/"
   ],
   "sitemap_urls": [
     "https://docs.portal.theoplayer.com/sitemap.xml"
@@ -10,26 +9,16 @@
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": "header h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
-  },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
-  "custom_settings": {
-    "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": "h3",
+    "lvl3": "h4",
+    "lvl4": "h5",
+    "lvl5": "h6",
+    "text": "p, li"
   },
   "conversation_id": [
     "970380721"
   ],
-  "nb_hits": 8700
+  "nb_hits": 8448
 }
