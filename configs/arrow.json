@@ -4,7 +4,7 @@
     "https://arrow-kt.io/docs/core/",
     "https://arrow-kt.io/docs/fx/",
     "https://arrow-kt.io/docs/optics/dsl/",
-    "https://arrow-kt.io/docs/aql/intro/",
+    "https://arrow-kt.io/docs/aql/intro/"
   ],
   "stop_urls": [
     "https://arrow-kt.io/docs/0.9",
