@@ -15,7 +15,6 @@
     "lvl4": "amplify-toc-contents h3",
     "text": "amplify-toc-contents p, amplify-toc-contents li, amplify-toc-content td"
   },
-  "selectors_exclude": ["docs-filter-target *"],
   "js_render": true,
   "js_wait": 2,
   "conversation_id": ["1115766863"],
