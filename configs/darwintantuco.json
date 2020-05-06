@@ -1,8 +1,8 @@
 {
   "index_name": "darwintantuco",
+  "sitemap_urls": ["http:/darwintantuco.com/notes/sitemap.xml"],
   "start_urls": [
-    "https://darwintantuco.com/notes/",
-    "https://darwintantuco.com/notes/css/adding-css"
+    "https://darwintantuco.com/notes/"
   ],
   "stop_urls": [],
   "selectors": {
