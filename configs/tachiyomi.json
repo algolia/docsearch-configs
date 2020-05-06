@@ -1,12 +1,7 @@
 {
   "index_name": "tachiyomi",
   "start_urls": [
-    "https://tachiyomi.org/help/",
-    "https://tachiyomi.org/help/faq/",
-    "https://tachiyomi.org/help/guides/",
-    "https://tachiyomi.org/help/contribution/",
-    "https://tachiyomi.org/forks/",
-    "https://tachiyomi.org/extensions/"
+    "https://tachiyomi.org/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -40,5 +35,5 @@
   "conversation_id": [
     "973604839"
   ],
-  "nb_hits": 520
+  "nb_hits": 759
 }
