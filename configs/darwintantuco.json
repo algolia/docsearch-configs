@@ -1,6 +1,8 @@
 {
   "index_name": "darwintantuco",
-  "sitemap_urls": ["http:/darwintantuco.com/notes/sitemap.xml"],
+  "sitemap_urls": [
+    "http:/darwintantuco.com/notes/sitemap.xml"
+  ],
   "start_urls": [
     "https://darwintantuco.com/notes/"
   ],
@@ -20,5 +22,5 @@
   "conversation_id": [
     "1155230645"
   ],
-  "nb_hits": 4
+  "nb_hits": 1
 }
