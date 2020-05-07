@@ -22,7 +22,9 @@
     "569512966"
   ],
   "custom_settings": {
-    "attributesForFaceting": ["version"]
+    "attributesForFaceting": [
+      "version"
+    ]
   },
-  "nb_hits": 40888
+  "nb_hits": 40980
 }
