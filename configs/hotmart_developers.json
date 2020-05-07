@@ -14,9 +14,11 @@
     "lvl5": "[class^='styles-module--wrapper'] h6",
     "text": "[class^='styles-module--wrapper'] p, [class^='styles-module--wrapper'] li"
   },
-  "sitemap_urls": ["https://developers.hotmart.com/docs/sitemap.xml"],
+  "sitemap_urls": [
+    "https://developers.hotmart.com/docs/sitemap.xml"
+  ],
   "conversation_id": [
     "1157936029"
   ],
-  "nb_hits": 8
+  "nb_hits": 260
 }
