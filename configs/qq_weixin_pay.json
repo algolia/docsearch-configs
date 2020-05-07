@@ -1,0 +1,27 @@
+{
+  "index_name": "qq_weixin_pay",
+  "start_urls": [
+    "https://pay.weixin.qq.com/wiki/doc/",
+    "https://pay.weixin.qq.com/wiki/doc/apiv3/wxpay/pages/index.shtml"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".doc-dl.open > dt, p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-main h2,.content h1",
+    "lvl2": ".doc-main h3,.content h2",
+    "lvl3": ".doc-main h4,.content h3",
+    "lvl4": ".doc-main h5,.content h4",
+    "lvl5": ".doc-main h6,.content h6",
+    "text": ".doc-main p, .content p, .doc-main li, .content li"
+  },
+  "conversation_id": [
+    "1158306968"
+  ],
+  "nb_hits": 8439
+}
