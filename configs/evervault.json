@@ -1,7 +1,7 @@
 {
   "index_name": "evervault",
   "start_urls": [
-    "https://evervault-docs.netlify.app/"
+    "https://docs.evervault.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -20,5 +20,5 @@
   "conversation_id": [
     "1140072394"
   ],
-  "nb_hits": 310
+  "nb_hits": 307
 }
