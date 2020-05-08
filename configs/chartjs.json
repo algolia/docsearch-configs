@@ -10,15 +10,24 @@
       }
     },
     {
-      "url": "https://www.chartjs.org/docs/master/",
+      "url": "https://www.chartjs.org/docs/2.9.3/",
       "extra_attributes": {
         "version": [
-          "master"
+          "master",
+          "2.9.3"
         ]
       }
     },
     {
       "url": "https://www.chartjs.org/docs/next/",
+      "extra_attributes": {
+        "version": [
+          "next"
+        ]
+      }
+    },
+    {
+      "url": "https://www.chartjs.org/docs/next/getting-started/README",
       "extra_attributes": {
         "version": [
           "next"
@@ -55,5 +64,5 @@
   "conversation_id": [
     "1156842901"
   ],
-  "nb_hits": 962
+  "nb_hits": 1924
 }
