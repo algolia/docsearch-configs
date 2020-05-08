@@ -29,6 +29,7 @@
     }
   },
   "selectors_exclude": [
+    ".header-link",
     ".doc-content td:last-child a",
     ".doc-content td:last-child code",
     ".doc-content p:first-child"
