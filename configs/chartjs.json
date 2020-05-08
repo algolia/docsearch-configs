@@ -10,10 +10,10 @@
       }
     },
     {
-      "url": "https://www.chartjs.org/docs/2.9.3/",
+      "url": "https://www.chartjs.org/docs/master/",
       "extra_attributes": {
         "version": [
-          "2.9.3"
+          "master"
         ]
       }
     },
@@ -26,7 +26,7 @@
       }
     },
     "https://www.chartjs.org/docs/",
-    "https://www.chartjs.org/docs/next/getting-started/README"
+    "https://www.chartjs.org/docs/next/index"
   ],
   "sitemap_urls": [
     "https://www.chartjs.org/docs/next/sitemap.xml"
