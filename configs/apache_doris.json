@@ -4,8 +4,15 @@
     {
       "url": "https://doris.apache.org/(?P<version>.*?)/(?P<lang>.*?)/",
       "variables": {
-        "lang": ["en", "zh-CN"],
-        "version": ["master", "branch-0.12", "branch-0.11"]
+        "lang": [
+          "en",
+          "zh-CN"
+        ],
+        "version": [
+          "master",
+          "branch-0.12",
+          "branch-0.11"
+        ]
       }
     }
   ],
@@ -27,5 +34,5 @@
   "conversation_id": [
     "1149574376"
   ],
-  "nb_hits": 15665
+  "nb_hits": 37161
 }
