@@ -16,21 +16,23 @@
           "2.9.3"
         ]
       }
-    },  {
-      "url": "https://www.chartjs.org/docs/master/index",
-        "extra_attributes": {
-          "version": [
-            "master"
-          ]
-        }
-      },{
-        "url": "https://www.chartjs.org/docs/master/index",
-          "extra_attributes": {
-            "version": [
-              "master"
-            ]
-          }
-        },
+    },
+    {
+      "url": "https://www.chartjs.org/docs/master/",
+      "extra_attributes": {
+        "version": [
+          "master"
+        ]
+      }
+    },
+    {
+      "url": "https://www.chartjs.org/docs/master/getting-started/index",
+      "extra_attributes": {
+        "version": [
+          "master"
+        ]
+      }
+    },
     {
       "url": "https://www.chartjs.org/docs/next/",
       "extra_attributes": {
@@ -76,5 +78,5 @@
   "conversation_id": [
     "1156842901"
   ],
-  "nb_hits": 3066
+  "nb_hits": 4206
 }
