@@ -13,11 +13,24 @@
       "url": "https://www.chartjs.org/docs/2.9.3/",
       "extra_attributes": {
         "version": [
-          "master",
           "2.9.3"
         ]
       }
-    },
+    },  {
+      "url": "https://www.chartjs.org/docs/master/index",
+        "extra_attributes": {
+          "version": [
+            "master"
+          ]
+        }
+      },{
+        "url": "https://www.chartjs.org/docs/master/index",
+          "extra_attributes": {
+            "version": [
+              "master"
+            ]
+          }
+        },
     {
       "url": "https://www.chartjs.org/docs/next/",
       "extra_attributes": {
