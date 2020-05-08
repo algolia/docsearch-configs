@@ -27,7 +27,7 @@
       }
     },
     {
-      "url": "https://www.chartjs.org/docs/next/index",
+      "url": "https://www.chartjs.org/docs/next/getting-started/installation",
       "extra_attributes": {
         "version": [
           "next"
@@ -63,5 +63,5 @@
   "conversation_id": [
     "1156842901"
   ],
-  "nb_hits": 1924
+  "nb_hits": 3066
 }
