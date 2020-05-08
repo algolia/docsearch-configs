@@ -27,15 +27,14 @@
       }
     },
     {
-      "url": "https://www.chartjs.org/docs/next/getting-started/README",
+      "url": "https://www.chartjs.org/docs/next/index",
       "extra_attributes": {
         "version": [
           "next"
         ]
       }
     },
-    "https://www.chartjs.org/docs/",
-    "https://www.chartjs.org/docs/next/index"
+    "https://www.chartjs.org/docs/"
   ],
   "sitemap_urls": [
     "https://www.chartjs.org/docs/next/sitemap.xml"
