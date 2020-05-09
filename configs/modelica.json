@@ -1,7 +1,86 @@
 {
   "index_name": "modelica",
   "start_urls": [
-    "https://doc.modelica.org/"
+    {
+      "url": "https://doc.modelica.org/(?P<library>.*?) (?P<version>.*?)/Resources/help(?P<tool>.*?)/Modelica.html",
+      "variables": {
+        "library": ["Modelica"],
+        "tool": ["Dymola"],
+        "version": ["4.0.0", "3.2.3"]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/(?P<library>.*?) (?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaReference.html",
+      "variables": {
+        "library": ["ModelicaReference"],
+        "tool": ["Dymola"],
+        "version": ["4.0.0", "3.2.3"]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/(?P<library>.*?) (?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaService.html",
+      "variables": {
+        "library": ["ModelicaService"],
+        "tool": ["Dymola"],
+        "version": ["4.0.0", "3.2.3"]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/(?P<library>.*?) (?P<version>.*?)/Resources/help(?P<tool>.*?)/Complex.html",
+      "variables": {
+        "library": ["Complex"],
+        "tool": ["Dymola"],
+        "version": ["4.0.0", "3.2.3"]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/(?P<library>.*?) (?P<version>.*?)/Resources/help(?P<tool>.*?)/index.html",
+      "variables": {
+        "library": ["Modelica", "ModelicaReference", "ModelicaService", "Complex", "ObsoleteModelica3"],
+        "tool": ["MapleSim"],
+        "version": ["4.0.0", "3.2.3"]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica (?P<version>.*?)/Resources/help(?P<tool>.*?)/(?P<library>.*?).html",
+      "variables": {
+        "library": ["Modelica", "ModelicaReference", "ModelicaService", "Complex", "ObsoleteModelica3"],
+        "tool": ["OM"],
+        "version": ["4.0.0", "3.2.3"]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica (?P<version>.*?)/Resources/help(?P<tool>.*?)/Modelica/(?P<library>.*?).html",
+      "variables": {
+        "library": ["Modelica"],
+        "tool": ["WSM"],
+        "version": ["4.0.0", "3.2.3"]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica (?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaReference/(?P<library>.*?).html",
+      "variables": {
+        "library": ["ModelicaReference"],
+        "tool": ["WSM"],
+        "version": ["4.0.0", "3.2.3"]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica (?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaService/(?P<library>.*?).html",
+      "variables": {
+        "library": ["ModelicaService"],
+        "tool": ["WSM"],
+        "version": ["4.0.0", "3.2.3"]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica (?P<version>.*?)/Resources/help(?P<tool>.*?)/Complex/(?P<library>.*?).html",
+      "variables": {
+        "library": ["Complex"],
+        "tool": ["WSM"],
+        "version": ["4.0.0", "3.2.3"]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
