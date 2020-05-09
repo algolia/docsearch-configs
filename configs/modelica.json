@@ -160,6 +160,9 @@
       }
     }
   ],
+  "sitemap_urls": [
+    "https://doc.modelica.org/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "h1",
