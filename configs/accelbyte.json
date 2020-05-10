@@ -1,7 +1,8 @@
 {
   "index_name": "accelbyte",
   "start_urls": [
-    "https://docs.accelbyte.io/docs/"
+    "https://docs.accelbyte.io/docs/",
+    "https://docs.accelbyte.io/docs/cloud-dev-guides/sdk-guides/sdk-getting-started/"
   ],
   "sitemap_urls": [
     "https://docs.accelbyte.io/sitemap.xml"
@@ -28,5 +29,5 @@
   "conversation_id": [
     "1077299860"
   ],
-  "nb_hits": 999
+  "nb_hits": 1979
 }
