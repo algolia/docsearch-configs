@@ -5,66 +5,6 @@
       "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
       "variables": {
         "library": [
-          "Modelica"
-        ],
-        "tool": [
-          "Dymola"
-        ],
-        "version": [
-          "4.0.0",
-          "3.2.3"
-        ]
-      }
-    },
-    {
-      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
-      "variables": {
-        "library": [
-          "ModelicaReference"
-        ],
-        "tool": [
-          "Dymola"
-        ],
-        "version": [
-          "4.0.0",
-          "3.2.3"
-        ]
-      }
-    },
-    {
-      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
-      "variables": {
-        "library": [
-          "ModelicaServices"
-        ],
-        "tool": [
-          "Dymola"
-        ],
-        "version": [
-          "4.0.0",
-          "3.2.3"
-        ]
-      }
-    },
-    {
-      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
-      "variables": {
-        "library": [
-          "Complex"
-        ],
-        "tool": [
-          "Dymola"
-        ],
-        "version": [
-          "4.0.0",
-          "3.2.3"
-        ]
-      }
-    },
-    {
-      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
-      "variables": {
-        "library": [
           "Modelica",
           "ModelicaReference",
           "ModelicaServices",
@@ -72,6 +12,7 @@
           "ObsoleteModelica3"
         ],
         "tool": [
+          "Dymola",
           "MapleSim"
         ],
         "version": [
