@@ -117,6 +117,9 @@
     {
       "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaReference/",
       "variables": {
+        "library": [
+          "ModelicaReference"
+        ],
         "tool": [
           "WSM"
         ],
@@ -129,6 +132,9 @@
     {
       "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaServices/",
       "variables": {
+        "library": [
+          "ModelicaServices"
+        ],
         "tool": [
           "WSM"
         ],
@@ -141,6 +147,9 @@
     {
       "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Complex/",
       "variables": {
+        "library": [
+          "Complex"
+        ],
         "tool": [
           "WSM"
         ],
