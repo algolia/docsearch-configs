@@ -35,7 +35,7 @@
       "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
       "variables": {
         "library": [
-          "ModelicaService"
+          "ModelicaServices"
         ],
         "tool": [
           "Dymola"
@@ -67,7 +67,7 @@
         "library": [
           "Modelica",
           "ModelicaReference",
-          "ModelicaService",
+          "ModelicaServices",
           "Complex",
           "ObsoleteModelica3"
         ],
@@ -86,7 +86,7 @@
         "library": [
           "Modelica",
           "ModelicaReference",
-          "ModelicaService",
+          "ModelicaServices",
           "Complex",
           "ObsoleteModelica3"
         ],
@@ -127,7 +127,7 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaService/",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaServices/",
       "variables": {
         "tool": [
           "WSM"
