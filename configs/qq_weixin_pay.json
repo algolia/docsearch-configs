@@ -9,7 +9,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".doc-dl.open > dt, p.sidebar-heading.open",
+      "selector": "div.bread-crumb.title-top > a:nth-child(2), p.sidebar-heading.open",
       "global": true,
       "default_value": "Documentation"
     },
