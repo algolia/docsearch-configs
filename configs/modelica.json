@@ -2,7 +2,7 @@
   "index_name": "modelica",
   "start_urls": [
     {
-      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Modelica.html",
+      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
       "variables": {
         "library": [
           "Modelica"
@@ -17,7 +17,7 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaReference.html",
+      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
       "variables": {
         "library": [
           "ModelicaReference"
@@ -32,7 +32,7 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaService.html",
+      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
       "variables": {
         "library": [
           "ModelicaService"
@@ -47,7 +47,7 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Complex.html",
+      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
       "variables": {
         "library": [
           "Complex"
@@ -81,7 +81,7 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/(?P<library>.*?).html",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/(?P<library>.*?)",
       "variables": {
         "library": [
           "Modelica",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Modelica/(?P<library>.*?).html",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Modelica/",
       "variables": {
         "library": [
           "Modelica"
@@ -115,11 +115,8 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaReference/(?P<library>.*?).html",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaReference/",
       "variables": {
-        "library": [
-          "ModelicaReference"
-        ],
         "tool": [
           "WSM"
         ],
@@ -130,11 +127,8 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaService/(?P<library>.*?).html",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaService/",
       "variables": {
-        "library": [
-          "ModelicaService"
-        ],
         "tool": [
           "WSM"
         ],
@@ -145,11 +139,8 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Complex/(?P<library>.*?).html",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Complex/",
       "variables": {
-        "library": [
-          "Complex"
-        ],
         "tool": [
           "WSM"
         ],
@@ -173,5 +164,5 @@
     "lvl5": "h6",
     "text": "p, li"
   },
-  "nb_hits": 1042
+  "nb_hits": 301868
 }
