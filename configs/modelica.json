@@ -62,7 +62,7 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/index.html",
+      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
       "variables": {
         "library": [
           "Modelica",
