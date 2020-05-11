@@ -5,6 +5,7 @@
       "url": "https://cert-manager.io/(?P<version>.*?)/",
       "variables": {
         "version": [
+          "next-docs",
           "docs",
           "v0.12-docs",
           "v0.13-docs",
