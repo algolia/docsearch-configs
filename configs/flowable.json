@@ -1,7 +1,7 @@
 {
   "index_name": "flowable",
   "start_urls": [
-    "https://documentation.flowable.com/latest/"
+    "https://documentation.flowable.com/latest/",
     "https://forms.flowable.com/"
   ],
   "sitemap_urls": [
