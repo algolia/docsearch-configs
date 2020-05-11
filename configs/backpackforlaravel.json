@@ -17,6 +17,7 @@
       "global": true
     }
   },
+  "min_indexed_level": 1,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
@@ -29,5 +30,5 @@
   "conversation_id": [
     "1159359948"
   ],
-  "nb_hits": 9404
+  "nb_hits": 9221
 }
