@@ -22,7 +22,7 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/(?P<library>.*?)",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/(?P<library>.*?).",
       "variables": {
         "library": [
           "Modelica",
