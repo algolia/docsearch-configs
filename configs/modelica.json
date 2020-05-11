@@ -22,7 +22,7 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaReference.html",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaReference",
       "variables": {
         "library": [
           "ModelicaReference"
@@ -37,7 +37,7 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaServices.html",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaServices",
       "variables": {
         "library": [
           "ModelicaServices"
@@ -52,11 +52,39 @@
       }
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/(?P<library>.*?).html",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Modelica",
       "variables": {
         "library": [
-          "Modelica",
-          "Complex",
+          "Modelica"
+        ],
+        "tool": [
+          "OM"
+        ],
+        "version": [
+          "4.0.0",
+          "3.2.3"
+        ]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Complex",
+      "variables": {
+        "library": [
+          "Complex"
+        ],
+        "tool": [
+          "OM"
+        ],
+        "version": [
+          "4.0.0",
+          "3.2.3"
+        ]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ObsoleteModelica3",
+      "variables": {
+        "library": [
           "ObsoleteModelica3"
         ],
         "tool": [
