@@ -4,6 +4,9 @@
     "https://nx.dev"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://nx.dev/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".main-content h1",
     "lvl1": ".main-content h2",
@@ -16,5 +19,5 @@
   "conversation_id": [
     "1152538732"
   ],
-  "nb_hits": 4686
+  "nb_hits": 4237
 }
