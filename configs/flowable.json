@@ -5,7 +5,7 @@
     "https://forms.flowable.com/"
   ],
   "sitemap_urls": [
-    "https://documentation.flowable.com/latest/sitemap.xml"
+    "https://documentation.flowable.com/latest/sitemap.xml",
     "https://forms.flowable.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
