@@ -1,10 +1,12 @@
 {
   "index_name": "flowable",
   "start_urls": [
-    "https://documentation.flowable.com/latest/"
+    "https://documentation.flowable.com/latest/",
+    "https://forms.flowable.com/"
   ],
   "sitemap_urls": [
-    "https://documentation.flowable.com/latest/sitemap.xml"
+    "https://documentation.flowable.com/latest/sitemap.xml",
+    "https://forms.flowable.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "selectors": {
