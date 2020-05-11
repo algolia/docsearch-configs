@@ -27,8 +27,10 @@
   "selectors_exclude": [
     "#table-of-contents"
   ],
+  "js_wait": 1,
+  "js_render": true,
   "conversation_id": [
     "1159359948"
   ],
-  "nb_hits": 9221
+  "nb_hits": 9435
 }
