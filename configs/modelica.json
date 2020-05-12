@@ -114,6 +114,29 @@
           "3.2.3"
         ]
       }
+    },
+    {
+      "url": "https://specification.modelica.org/v(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "3.5",
+          "3.4"
+        ]
+      },
+      "tags": [
+        "specification"
+      ]
+    },
+    {
+      "url": "https://specification.modelica.org/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "master"
+        ]
+      },
+      "tags": [
+        "specification"
+      ]
     }
   ],
   "sitemap_urls": [
