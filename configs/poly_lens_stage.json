@@ -1,7 +1,7 @@
 {
   "index_name": "poly_lens_stage",
   "start_urls": [
-    "http://info.stage.lens.poly.com/docs/"
+    "http://info.stage.lens.poly.com/"
   ],
   "sitemap_urls": [
     "http://info.stage.lens.poly.com/sitemap.xml"
@@ -34,5 +34,5 @@
   "conversation_id": [
     "1156854438"
   ],
-  "nb_hits": 352
+  "nb_hits": 470
 }
