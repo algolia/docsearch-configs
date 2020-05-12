@@ -1,7 +1,7 @@
 {
   "index_name": "pqina_doka",
   "start_urls": [
-    "https://pqina.nl/doka/"
+    "https://pqina.nl/doka/docs/"
   ],
   "stop_urls": [],
   "selectors": {
