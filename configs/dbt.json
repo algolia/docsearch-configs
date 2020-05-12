@@ -1,6 +1,7 @@
 {
   "index_name": "dbt",
   "start_urls": [
+    "https://docs.getdbt.com/",
     "https://docs.getdbt.com/docs/",
     "https://docs.getdbt.com/reference/dbt_project.yml"
   ],
