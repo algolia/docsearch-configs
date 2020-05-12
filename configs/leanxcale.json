@@ -38,7 +38,7 @@
     ".body .toc",
     ".doc .toc"
   ],
-  "nb_hits": 700,
+  "nb_hits": 1132,
   "custom_settings": {
     "attributesForFaceting": [
       "component",
@@ -59,5 +59,4 @@
       "asc(weight.position)"
     ]
   }
-
 }
