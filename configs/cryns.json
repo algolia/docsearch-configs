@@ -1,11 +1,11 @@
 {
   "index_name": "cryns",
   "start_urls": [
-    "https://jonasbostoen.github.io/cryns-docs/docs/",
-    "https://jonasbostoen.github.io/cryns-docs/docs/home.html"
+    "https://cryns-docs.onrender.com/docs/",
+    "https://cryns-docs.onrender.com/docs/home.html"
   ],
   "sitemap_urls": [
-    "https://jonasbostoen.github.io/cryns-docs/docs/sitemap.xml"
+    "https://cryns-docs.onrender.com/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
