@@ -19,14 +19,14 @@
           "4.0.0",
           "3.2.3"
         ]
-      }
+      },
+      "tags": [
+        "library"
+      ]
     },
     {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaReference",
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
       "variables": {
-        "library": [
-          "ModelicaReference"
-        ],
         "tool": [
           "OM"
         ],
@@ -34,67 +34,10 @@
           "4.0.0",
           "3.2.3"
         ]
-      }
-    },
-    {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaServices",
-      "variables": {
-        "library": [
-          "ModelicaServices"
-        ],
-        "tool": [
-          "OM"
-        ],
-        "version": [
-          "4.0.0",
-          "3.2.3"
-        ]
-      }
-    },
-    {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Modelica",
-      "variables": {
-        "library": [
-          "Modelica"
-        ],
-        "tool": [
-          "OM"
-        ],
-        "version": [
-          "4.0.0",
-          "3.2.3"
-        ]
-      }
-    },
-    {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Complex",
-      "variables": {
-        "library": [
-          "Complex"
-        ],
-        "tool": [
-          "OM"
-        ],
-        "version": [
-          "4.0.0",
-          "3.2.3"
-        ]
-      }
-    },
-    {
-      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ObsoleteModelica3",
-      "variables": {
-        "library": [
-          "ObsoleteModelica3"
-        ],
-        "tool": [
-          "OM"
-        ],
-        "version": [
-          "4.0.0",
-          "3.2.3"
-        ]
-      }
+      },
+      "tags": [
+        "library"
+      ]
     },
     {
       "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/(?P<library>.*?)/",
@@ -113,7 +56,10 @@
           "4.0.0",
           "3.2.3"
         ]
-      }
+      },
+      "tags": [
+        "library"
+      ]
     },
     {
       "url": "https://specification.modelica.org/v(?P<version>.*?)/",
