@@ -1,11 +1,10 @@
 {
-  "index_name": "malegaze",
+  "index_name": "muta",
   "start_urls": [
-    "https://doc-malegaze.netlify.app"
+    "https://docs.muta.dev/"
   ],
   "stop_urls": [
-    "index.html$",
-    "/three_"
+    "\\?"
   ],
   "selectors": {
     "lvl0": "article h1",
@@ -16,8 +15,11 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
+  "js_render": true,
+  "use_anchors": true,
+  "js_wait": 1,
   "conversation_id": [
-    "1152469771"
+    "1161625400"
   ],
-  "nb_hits": 552
+  "nb_hits": 2089
 }

@@ -13,7 +13,7 @@
       "url": "https://support.touchgfx.com/docs/tutorials/",
       "page_rank": 4
     },
-        {
+    {
       "url": "https://support.touchgfx.com/docs/miscellaneous/",
       "page_rank": 3
     },
@@ -24,7 +24,7 @@
     {
       "url": "https://support.touchgfx.com/docs/introduction/",
       "page_rank": 1
-    }    
+    }
   ],
   "sitemap_urls": [
     "https://support.touchgfx.com/sitemap.xml"
@@ -50,5 +50,5 @@
   "conversation_id": [
     "1119277578"
   ],
-  "nb_hits": 19745
+  "nb_hits": 19740
 }

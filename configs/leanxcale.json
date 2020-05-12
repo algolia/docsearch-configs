@@ -1,20 +1,62 @@
 {
   "index_name": "leanxcale",
   "start_urls": [
-    "https://docs.leanxcale.com/"
+    {
+      "url": "https://docs.leanxcale.com/(?P<component>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "component": [
+          "leanxcale"
+        ],
+        "version": [
+          "0.400"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+    "default": {
+      "lvl0": {
+        "global": true,
+        "selector": ".nav-panel-explore .context"
+      },
+      "lvl1": ".doc > h1.page",
+      "lvl2": ".doc .sect1 > h2:first-child, .doc > h1.sect0",
+      "lvl3": ".doc .sect2 > h3:first-child",
+      "lvl4": ".doc .sect3 > h4:first-child",
+      "text": ".doc p, .doc dt, .doc td.context, .doc th.tableblock"
+    }
   },
+  "sitemap_urls": [
+    "https://docs.leanxcale.com/sitemap.xml"
+  ],
+  "scrape_start_urls": false,
   "conversation_id": [
     "1161077772"
   ],
-  "nb_hits": 700
+  "selectors_exclude": [
+    ".body .toc",
+    ".doc .toc"
+  ],
+  "nb_hits": 1132,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "component",
+      "version"
+    ],
+    "attributesToRetrieve": [
+      "anchor",
+      "content",
+      "hierarchy",
+      "url",
+      "component",
+      "version"
+    ],
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "desc(version)",
+      "desc(weight.level)",
+      "asc(weight.position)"
+    ]
+  }
 }
