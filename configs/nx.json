@@ -4,7 +4,10 @@
     {
       "url": "http://nx.dev/(?P<framework>.*?)/",
       "variables": {
-        "framework": ["react", "angular"]
+        "framework": [
+          "react",
+          "angular"
+        ]
       }
     }
   ],
@@ -22,9 +25,9 @@
     "lvl5": ".document-view h6",
     "text": ".document-view p, .document-view li"
   },
-  "strip_chars": "#›",
+  "strip_chars": "#\u203a",
   "conversation_id": [
     "1152538732"
   ],
-  "nb_hits": 4237
+  "nb_hits": 3838
 }
