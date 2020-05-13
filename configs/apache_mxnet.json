@@ -20,7 +20,7 @@
       "global": true
     }
   },
-  "strip_chars": " .,;:#",
+  "strip_chars": " .,;:#¶",
   "custom_settings": {
     "attributesForFaceting": [
       "version"
