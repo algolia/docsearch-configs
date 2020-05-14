@@ -8,7 +8,11 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "h2 .ant-breadcrumb",
+    "lvl0": {
+      "selector": "h2 .ant-breadcrumb",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": "main h3",
     "lvl2": "main h4",
     "lvl3": "main h5",
