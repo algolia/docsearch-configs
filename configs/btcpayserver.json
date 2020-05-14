@@ -5,13 +5,13 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "[class*='pageContainer'] h1",
-    "lvl1": "[class*='pageContainer'] h2",
-    "lvl2": "[class*='pageContainer'] h3",
-    "lvl3": "[class*='pageContainer'] h4",
-    "lvl4": "[class*='pageContainer'] h5",
-    "lvl5": "[class*='pageContainer'] h6",
-    "text": "[class*='pageContainer'] p, [class*='pageContainer'] li"
+    "lvl0": ".page h1",
+    "lvl1": ".page h2",
+    "lvl2": ".page h3",
+    "lvl3": ".page h4",
+    "lvl4": ".page h5",
+    "lvl5": ".page h6",
+    "text": ".page p, .page li"
   },
   "conversation_id": [
     "1156147543"
