@@ -8,13 +8,13 @@
     "lvl0": ".content-container h1",
     "lvl1": ".content-container h2",
     "lvl2": ".content-container h3",
-    "lvl3": ".content-container h4",
+    "lvl3": ".content-container h4, .content-container td:first-child",
     "lvl4": ".content-container h5",
     "lvl5": ".content-container h6",
-    "text": ".content-container p, .content-container li"
+    "text": ".content-container p, .content-container li, .content-container td:last-child"
   },
   "conversation_id": [
     "1164743037"
   ],
-  "nb_hits": 688
+  "nb_hits": 1206
 }
