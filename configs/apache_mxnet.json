@@ -4,7 +4,9 @@
     "https://mxnet.apache.org/"
   ],
   "stop_urls": [
+    "/scala/docs/",
     "\\/_",
+    "/doxygen/",
     "/cpp/"
   ],
   "selectors": {
@@ -20,7 +22,7 @@
       "global": true
     }
   },
-  "strip_chars": " .,;:#¶",
+  "strip_chars": " .,;:#\u00b6",
   "custom_settings": {
     "attributesForFaceting": [
       "version"
@@ -29,5 +31,5 @@
   "conversation_id": [
     "1151361772"
   ],
-  "nb_hits": 349827
+  "nb_hits": 348435
 }
