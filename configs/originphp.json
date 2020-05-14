@@ -1,9 +1,11 @@
 {
   "index_name": "originphp",
   "start_urls": [
-    "https://www.originphp.com/"
+    "https://www.originphp.com/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?"
+  ],
   "selectors": {
     "lvl0": "section .w-full h1",
     "lvl1": "section .w-full h2",
@@ -16,5 +18,5 @@
   "conversation_id": [
     "1163519587"
   ],
-  "nb_hits": 5063
+  "nb_hits": 2911
 }
