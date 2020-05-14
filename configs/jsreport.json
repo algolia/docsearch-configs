@@ -1,0 +1,20 @@
+{
+  "index_name": "jsreport",
+  "start_urls": [
+    "https://jsreport.net/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": "#documentation h2",
+    "lvl2": "#documentation h3",
+    "lvl3": "#documentation h4",
+    "lvl4": "#documentation h5",
+    "lvl5": "#documentation h6",
+    "text": "#documentation p, #documentation li"
+  },
+  "conversation_id": [
+    "1163986462"
+  ],
+  "nb_hits": 3694
+}

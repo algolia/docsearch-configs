@@ -1,0 +1,31 @@
+{
+  "index_name": "siliconmilkroundabout",
+  "start_urls": [
+    {
+      "url": "https://www.siliconmilkroundabout.com/companies/help/",
+      "tags": [
+        "companies"
+      ]
+    },
+    {
+      "url": "https://www.siliconmilkroundabout.com/help/",
+      "tags": [
+        "applicants"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article article h1",
+    "lvl1": "article article h2",
+    "lvl2": "article article h3",
+    "lvl3": "article article h4",
+    "lvl4": "article article h5",
+    "lvl5": "article article h6",
+    "text": "article article p, article article li"
+  },
+  "conversation_id": [
+    "1164549182"
+  ],
+  "nb_hits": 886
+}
