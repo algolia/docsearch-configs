@@ -30,7 +30,12 @@
       "selectors_key": "contribute"
     }
   ],
-  "stop_urls": ["\\/_", "/cpp/"],
+  "stop_urls": [
+    "/scala/docs/",
+    "\\/_",
+    "/doxygen/",
+    "/cpp/"
+  ],
   "selectors": {
     "default": {
       "lvl0": "article h1, .section h1",
@@ -148,7 +153,7 @@
       }
     }
   },
-  "strip_chars": " .,;:#¶",
+  "strip_chars": " .,;:#\u00b6",
   "custom_settings": {
     "attributesForFaceting": ["version"]
   },
@@ -158,5 +163,5 @@
     "body > footer.site-footer2"
   ],
   "conversation_id": ["1151361772"],
-  "nb_hits": 349827
+  "nb_hits": 348435
 }
