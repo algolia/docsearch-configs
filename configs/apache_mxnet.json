@@ -19,7 +19,7 @@
       "lvl5": "article h6, .section h6",
       "text": ".section p, .section li, article p, article li",
       "version": {
-        "selector": "body > header > div > nav > div > div > span, body > header > div > nav > div > div > div > a.dropdown-option-active, #dropdown-menu-position-anchor-version > a",
+        "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
         "global": true
       }
     }
