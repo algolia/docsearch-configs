@@ -2,6 +2,22 @@
   "index_name": "apache_mxnet",
   "start_urls": [
     {
+      "url": "https://mxnet.apache.org/versions/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "1.6",
+          "1.5.0",
+          "1.4.1",
+          "1.3.1",
+          "1.2.1",
+          "1.1.0",
+          "1.0.0",
+          "0.12.1",
+          "0.11.0"
+        ]
+      }
+    },
+    {
       "url": "https://mxnet.apache.org/get_started",
       "selectors_key": "get_started"
     },
@@ -17,15 +33,12 @@
       "url": "https://mxnet.apache.org/ecosystem",
       "selectors_key": "ecosystem"
     },
-    "https://mxnet.apache.org/api",
     {
       "url": "https://mxnet.apache.org/community/contribute",
       "selectors_key": "contribute"
     },
-    {
-      "url": "https://mxnet.apache.org/",
-      "selectors_key": "home"
-    }
+    "https://mxnet.apache.org/api",
+    "https://mxnet.apache.org/"
   ],
   "stop_urls": [
     "/scala/docs/",
@@ -42,19 +55,6 @@
       "lvl4": "article h5, .section h5",
       "lvl5": "article h6, .section h6",
       "text": ".section p, .section li, article p, article li",
-      "version": {
-        "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
-        "global": true
-      }
-    },
-    "home": {
-      "lvl0": {
-        "selector": ".home h1",
-        "default_value": "Home"
-      },
-      "lvl1": ".key-features-section h2",
-      "lvl2": ".key-features-section h3",
-      "text": ".home p, .key-features-section .key-features p",
       "version": {
         "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
         "global": true
