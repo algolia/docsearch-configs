@@ -1,31 +1,7 @@
 {
   "index_name": "apache_mxnet",
   "start_urls": [
-    {
-      "url": "https://mxnet.apache.org/get_started",
-      "selectors_key": "get_started"
-    },
-    {
-      "url": "https://mxnet.apache.org/blog",
-      "selectors_key": "blog"
-    },
-    {
-      "url": "https://mxnet.apache.org/features",
-      "selectors_key": "features"
-    },
-    {
-      "url": "https://mxnet.apache.org/ecosystem",
-      "selectors_key": "ecosystem"
-    },
-    "https://mxnet.apache.org/api",
-    {
-      "url": "https://mxnet.apache.org/community/contribute",
-      "selectors_key": "contribute"
-    },
-    {
-      "url": "https://mxnet.apache.org/",
-      "selectors_key": "home"
-    }
+    "https://mxnet.apache.org/"
   ],
   "stop_urls": [
     "/scala/docs/",
@@ -46,93 +22,6 @@
         "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
         "global": true
       }
-    },
-    "home": {
-      "lvl0": {
-        "selector": ".home h1",
-        "default_value": "Home"
-      },
-      "lvl1": ".key-features-section h2",
-      "lvl2": ".key-features-section h3",
-      "text": ".home p, .key-features-section .key-features p",
-      "version": {
-        "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
-        "global": true
-      }
-    },
-    "get_started": {
-      "lvl0": {
-        "selector": "article header h1",
-        "default_value": "Get started"
-      },
-      "lvl1": ".install-selector h2",
-      "lvl2": ".get-started-from-source h2",
-      "text": ".get-started-from-source p",
-      "version": {
-        "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
-        "global": true
-      }
-    },
-    "blog": {
-      "lvl0": {
-        "selector": "article header h1",
-        "global": true,
-        "default_value": "Blog"
-      },
-      "lvl1": {
-        "selector": "article header h3",
-        "global": true,
-        "default_value": "Latest News"
-      },
-      "lvl2": "article .post-content section a",
-      "text": "article .post-content section .medium-widget-article__description",
-      "version": {
-        "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
-        "global": true
-      }
-    },
-    "features": {
-      "lvl0": {
-        "selector": "article header h1",
-        "global": true,
-        "default_value": "Features"
-      },
-      "lvl1": "article header h3",
-      "lvl2": "article .post-content h3",
-      "text": "article .post-content p",
-      "version": {
-        "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
-        "global": true
-      }
-    },
-    "ecosystem": {
-      "lvl0": {
-        "selector": "article header h1",
-        "global": true,
-        "default_value": "Ecosystem"
-      },
-      "lvl1": "article header h3",
-      "lvl2": "article .post-content h2",
-      "text": "article .post-content p",
-      "version": {
-        "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
-        "global": true
-      }
-    },
-    "contribute": {
-      "lvl0": {
-        "selector": "article header h1",
-        "global": true,
-        "default_value": "Contribute"
-      },
-      "lvl1": "article header h3",
-      "lvl2": ".post-content h1",
-      "lvl3": ".post-content h2",
-      "text": ".post-content p",
-      "version": {
-        "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
-        "global": true
-      }
     }
   },
   "strip_chars": " .,;:#\u00b6",
@@ -141,11 +30,6 @@
       "version"
     ]
   },
-  "selectors_exclude": [
-    "body > header",
-    "body > footer.site-footer.h-card",
-    "body > footer.site-footer2"
-  ],
   "conversation_id": [
     "1151361772"
   ],
