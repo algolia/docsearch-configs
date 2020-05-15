@@ -188,10 +188,10 @@
       }
     },
     "docs": {
-      "lvl0": "h1.page-title",
-      "lvl1": ".content .content h2",
-      "lvl2": ".content .content h3",
-      "lvl3": ".content .content h4",
+      "lvl0": "div.doc-search-title",
+      "lvl1": "div.doc-search-description",
+      "lvl2": "h1.page-title, .content .content h2",
+      "lvl3": ".content .content h3, .content .content h4",
       "lvl4": ".content .content h5, .content .content td:first-child",
       "lvl5": ".content .content h6",
       "text": ".content .content p, .content .content li,  .content .content td:last-child",
