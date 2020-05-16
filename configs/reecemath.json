@@ -1,10 +1,10 @@
 {
-  "index_name": "wix_yoshi",
+  "index_name": "reecemath",
   "start_urls": [
-    "https://wix.github.io/yoshi/"
+    "https://blog.reecemath.com/"
   ],
   "sitemap_urls": [
-    "https://wix.github.io/yoshi/sitemap.xml"
+    "https://blog.reecemath.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -17,17 +17,16 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
       "version"
     ]
   },
   "conversation_id": [
-    "672002480"
+    "1164089884"
   ],
-  "nb_hits": 2825
+  "nb_hits": 68
 }

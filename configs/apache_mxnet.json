@@ -4,23 +4,27 @@
     "https://mxnet.apache.org/"
   ],
   "stop_urls": [
+    "/scala/docs/",
     "\\/_",
+    "/doxygen/",
     "/cpp/"
   ],
   "selectors": {
-    "lvl0": "article h1, .section h1",
-    "lvl1": "article h2, .section h2",
-    "lvl2": "article h3, .section h3",
-    "lvl3": "article h4, .section h4",
-    "lvl4": "article h5, .section h5",
-    "lvl5": "article h6, .section h6",
-    "text": ".section p, .section li, article p, article li",
-    "version": {
-      "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
-      "global": true
+    "default": {
+      "lvl0": "article h1, .section h1",
+      "lvl1": "article h2, .section h2",
+      "lvl2": "article h3, .section h3",
+      "lvl3": "article h4, .section h4",
+      "lvl4": "article h5, .section h5",
+      "lvl5": "article h6, .section h6",
+      "text": ".section p, .section li, article p, article li",
+      "version": {
+        "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
+        "global": true
+      }
     }
   },
-  "strip_chars": " .,;:#",
+  "strip_chars": " .,;:#\u00b6",
   "custom_settings": {
     "attributesForFaceting": [
       "version"
@@ -29,5 +33,5 @@
   "conversation_id": [
     "1151361772"
   ],
-  "nb_hits": 349827
+  "nb_hits": 347382
 }

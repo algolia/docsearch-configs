@@ -9,7 +9,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".ant-page-header-heading-title",
+      "selector": "h2 .ant-breadcrumb",
       "global": true,
       "default_value": "Documentation"
     },
@@ -22,5 +22,5 @@
   "conversation_id": [
     "1155230645"
   ],
-  "nb_hits": 133
+  "nb_hits": 146
 }

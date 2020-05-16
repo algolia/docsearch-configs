@@ -1,7 +1,7 @@
 {
-  "index_name": "mcstudio_mc-dev",
+  "index_name": "vaop",
   "start_urls": [
-    "http://mc.163.com/mcstudio/mc-dev/"
+    "https://vaop.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -13,9 +13,9 @@
     "lvl1": ".theme-default-content h1",
     "lvl2": ".theme-default-content h2",
     "lvl3": ".theme-default-content h3",
-    "lvl4": ".theme-default-content h4, .theme-default-content td:first-child",
+    "lvl4": ".theme-default-content h4",
     "lvl5": ".theme-default-content h5",
-    "text": ".theme-default-content p, .theme-default-content li, .theme-default-content td:last-child",
+    "text": ".theme-default-content p, .theme-default-content li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -33,8 +33,8 @@
     ]
   },
   "conversation_id": [
-    "1157091167"
+    "1162631276"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 17352
+  "nb_hits": 221
 }

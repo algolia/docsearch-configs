@@ -1,7 +1,7 @@
 {
-  "index_name": "addition_postcode",
+  "index_name": "dsarc",
   "start_urls": [
-    "https://support.postcode.addition.app/"
+    "https://dsarc.us"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,7 +14,7 @@
     "text": "article p, article li"
   },
   "conversation_id": [
-    "1133983142"
+    "1162408779"
   ],
-  "nb_hits": 1357
+  "nb_hits": 1638
 }

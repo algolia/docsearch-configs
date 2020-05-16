@@ -1,13 +1,12 @@
 {
-  "index_name": "wix_yoshi",
+  "index_name": "litmuschaos",
   "start_urls": [
-    "https://wix.github.io/yoshi/"
+    "https://docs.litmuschaos.io/docs/"
   ],
   "sitemap_urls": [
-    "https://wix.github.io/yoshi/sitemap.xml"
+    "https://docs.litmuschaos.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
   "selectors": {
     "lvl0": "header h1",
     "lvl1": "article h2",
@@ -17,17 +16,16 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
       "version"
     ]
   },
   "conversation_id": [
-    "672002480"
+    "1165029302"
   ],
-  "nb_hits": 2825
+  "nb_hits": 7818
 }

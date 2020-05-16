@@ -1,7 +1,7 @@
 {
-  "index_name": "btcpayserver",
+  "index_name": "claymoreminiatures",
   "start_urls": [
-    "https://docs.btcpayserver.org/"
+    "https://claymoreminiatures.com"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,7 +14,7 @@
     "text": ".page p, .page li"
   },
   "conversation_id": [
-    "1156147543"
+    "1162758711"
   ],
-  "nb_hits": 3360
+  "nb_hits": 124
 }

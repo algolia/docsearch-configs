@@ -1,11 +1,10 @@
 {
-  "index_name": "uvap_beta",
+  "index_name": "candelic_console",
   "start_urls": [
-    "http://beta-docs.ultinous.com/uvap/docs/",
-    "http://beta-docs.ultinous.com/uvap/docs/install/uvap_install_sysreq.html"
+    "https://console-docs.candelic.io/docs/"
   ],
   "sitemap_urls": [
-    "http://beta-docs.ultinous.com/uvap/sitemap.xml"
+    "https://console-docs.candelic.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -33,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "1155593012"
+    "1163652488"
   ],
-  "nb_hits": 2058
+  "nb_hits": 266
 }
