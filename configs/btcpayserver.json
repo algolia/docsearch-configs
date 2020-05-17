@@ -11,10 +11,20 @@
     "lvl3": ".page h4",
     "lvl4": ".page h5",
     "lvl5": ".page h6",
-    "text": ".page p, .page li"
+    "text": ".page p, .page li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
   "conversation_id": [
     "1156147543"
   ],
-  "nb_hits": 3360
+  "nb_hits": 3380
 }
