@@ -23,6 +23,7 @@
       "lang"
     ]
   },
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "1156147543"
   ],
