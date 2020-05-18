@@ -1,10 +1,10 @@
 {
   "index_name": "exoclick",
   "start_urls": [
-    "https://docs0.exoclick.com/"
+    "https://docs.exoclick.com/docs/"
   ],
   "sitemap_urls": [
-    "https://docs0.exoclick.com/sitemap.xml"
+    "https://docs.exoclick.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +34,5 @@
   "conversation_id": [
     "1164075860"
   ],
-  "nb_hits": 4007
+  "nb_hits": 5624
 }
