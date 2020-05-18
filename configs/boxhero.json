@@ -2,7 +2,9 @@
   "index_name": "boxhero",
   "start_urls": [
     "https://docs-en.boxhero.io/docs/",
-    "https://docs-en.boxhero.io/docs/en-home.html"
+    "https://docs-en.boxhero.io/docs/en-home.html",
+    "https://docs-ko.boxhero.io/docs/",
+    "https://docs-ko.boxhero.io/docs/ko-home.html"
   ],
   "sitemap_urls": [
     "https://docs-en.boxhero.io/sitemap.xml"
@@ -35,5 +37,5 @@
   "conversation_id": [
     "1168345554"
   ],
-  "nb_hits": 483
+  "nb_hits": 984
 }
