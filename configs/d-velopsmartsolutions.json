@@ -17,10 +17,13 @@
     "text": "main p, main li"
   },
   "custom_settings": {
-    "attributesForFaceting": ["language", "version"]
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
   },
   "conversation_id": [
     "1165924256"
   ],
-  "nb_hits": 1724
+  "nb_hits": 3448
 }
