@@ -1,7 +1,7 @@
 {
   "index_name": "teddy",
   "start_urls": [
-    "https://teddy.js.org/docs"
+    "https://teddytags.now.sh/docs"
   ],
   "stop_urls": [],
   "selectors": {
