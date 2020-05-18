@@ -1,13 +1,25 @@
 {
   "index_name": "apache_mxnet",
   "start_urls": [
-    "https://mxnet.apache.org/"
+    {
+      "url": "https://mxnet.apache.org/versions/1.6/api/python/docs/",
+      "selectors_key": "pythonAPI"
+    },
+    {
+      "url": "https://mxnet.apache.org/api/python/docs/",
+      "selectors_key": "pythonAPI"
+    },
+    "https://mxnet.apache.org"
   ],
   "stop_urls": [
-    "/scala/docs/",
+    "/scala/docs/api/",
+    "/java/docs/api/",
+    "/clojure/docs/api/",
+    "/cpp/docs/api/",
+    "/julia/docs/api/",
     "\\/_",
     "/doxygen/",
-    "/cpp/"
+    "\\?"
   ],
   "selectors": {
     "default": {
@@ -18,6 +30,23 @@
       "lvl4": "article h5, .section h5",
       "lvl5": "article h6, .section h6",
       "text": ".section p, .section li, article p, article li",
+      "version": {
+        "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
+        "global": true
+      }
+    },
+    "pythonAPI": {
+      "lvl0": {
+        "selector": "header.mdl-layout__header nav.mdl-navigation.breadcrumb > a:nth-child(1)",
+        "global": true,
+        "default_value": "Python Docs"
+      },
+      "lvl1": ".page-content h1",
+      "lvl2": ".page-content h2",
+      "lvl3": ".page-content h3",
+      "lvl4": ".page-content h4",
+      "lvl5": ".page-content h5",
+      "text": ".page-content p, .page-content li",
       "version": {
         "selector": "body > header > div > nav > div > div > span, #dropdown-menu-position-anchor-version > a",
         "global": true
