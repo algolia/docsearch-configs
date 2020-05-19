@@ -9,7 +9,7 @@
       "selectors_key": "web"
     },
     {
-      "url": "https://pspdfkit.com/api/android/javadoc/",
+      "url": "https://pspdfkit.com/api/android/javadoc/reference/",
       "tags": [
         "android",
         "javadoc"
@@ -17,7 +17,7 @@
       "selectors_key": "android"
     },
     {
-      "url": "https://pspdfkit.com/api/android/kdoc/",
+      "url": "https://pspdfkit.com/api/android/kdoc/pspdfkit/",
       "tags": [
         "android",
         "kdoc"
