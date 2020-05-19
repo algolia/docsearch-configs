@@ -9,15 +9,24 @@
       "selectors_key": "web"
     },
     {
-      "url": "https://pspdfkit.com/api/android/reference/",
+      "url": "https://pspdfkit.com/api/android/javadoc/",
       "tags": [
-        "android"
+        "android",
+        "javadoc"
+      ],
+      "selectors_key": "android"
+    },
+    {
+      "url": "https://pspdfkit.com/api/android/kdoc/",
+      "tags": [
+        "android",
+        "kdoc"
       ],
       "selectors_key": "android"
     }
   ],
   "stop_urls": [
-    "https://pspdfkit.com/api/android/reference/packages.html",
+    "https://pspdfkit.com/api/android/javadoc/reference/packages.html",
     "package-summary.html"
   ],
   "selectors": {
