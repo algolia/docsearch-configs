@@ -13,8 +13,9 @@
     "lvl5": "main h6",
     "text": "main p, main li"
   },
+  "js_render": true,
   "conversation_id": [
     "1169601961"
   ],
-  "nb_hits": 5
+  "nb_hits": 154
 }
