@@ -11,16 +11,10 @@
     "lvl3": ".doc-content h4",
     "lvl4": ".doc-content h5",
     "lvl5": ".doc-content h6",
-    "text": ".doc-content p, .doc-content li",
-    "version": {
-      "selector": "[selected='selected']",
-      "default_value": "2.18",
-      "global": true
-    }
+    "text": ".doc-content p, .doc-content li"
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "version",
       "prometheus-version"
     ]
   },
