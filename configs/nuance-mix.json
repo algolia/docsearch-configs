@@ -8,12 +8,12 @@
   ],
   "selectors": {
     "text": ".content p, .content li",
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "lvl5": ".content h6"
+    "lvl0": "title",
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5"
   },
   "selectors_exclude": [
     ".products-container"
