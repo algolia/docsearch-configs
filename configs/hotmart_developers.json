@@ -19,6 +19,9 @@
     "https://developers.hotmart.com/docs/es/sitemap.xml",
     "https://developers.hotmart.com/docs/pt-BR/sitemap.xml"
   ],
+  "custom_settings": {
+    "attributesForFaceting": ["language"]
+  },
   "conversation_id": [
     "1157936029"
   ],
