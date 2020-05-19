@@ -14,12 +14,14 @@
     "text": ".doc-content p, .doc-content li",
     "version": {
       "selector": "[selected='selected']",
+      "default_value": "2.18",
       "global": true
     }
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "version"
+      "version",
+      "prometheus-version"
     ]
   },
   "selectors_exclude": [
