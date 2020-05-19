@@ -1,7 +1,7 @@
 {
   "index_name": "poly_lens",
   "start_urls": [
-    "http://info.lens.poly.com/docs/"
+    "http://info.lens.poly.com/"
   ],
   "sitemap_urls": [
     "http://info.lens.poly.com/sitemap.xml"
@@ -34,5 +34,5 @@
   "conversation_id": [
     "1156854438"
   ],
-  "nb_hits": 328
+  "nb_hits": 507
 }
