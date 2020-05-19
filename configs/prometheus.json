@@ -11,7 +11,7 @@
     "lvl3": ".doc-content h4",
     "lvl4": ".doc-content h5",
     "lvl5": ".doc-content h6",
-    "text": ".doc-content p, .doc-content li"
+    "text": ".doc-content p, .doc-content li, .doc-content pre, .doc-content table, .doc-content div"
   },
   "custom_settings": {
     "attributesForFaceting": [
