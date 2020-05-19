@@ -15,7 +15,9 @@
     "text": "[class^='styles-module--wrapper'] p, [class^='styles-module--wrapper'] li"
   },
   "sitemap_urls": [
-    "https://developers.hotmart.com/docs/sitemap.xml"
+    "https://developers.hotmart.com/docs/en/sitemap.xml",
+    "https://developers.hotmart.com/docs/es/sitemap.xml",
+    "https://developers.hotmart.com/docs/pt-BR/sitemap.xml"
   ],
   "conversation_id": [
     "1157936029"
