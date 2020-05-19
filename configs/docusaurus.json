@@ -42,7 +42,16 @@
     "attributesForFaceting": [
       "language",
       "version",
-      "tags"
+      "tags",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "conversation_id": [
