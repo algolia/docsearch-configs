@@ -8,10 +8,10 @@
     "lvl0": ".doc-content h1",
     "lvl1": ".doc-content h2",
     "lvl2": ".doc-content h3",
-    "lvl3": ".doc-content h4",
+    "lvl3": ".doc-content h4, .doc-content td:first-child",
     "lvl4": ".doc-content h5",
     "lvl5": ".doc-content h6",
-    "text": ".doc-content p, .doc-content li"
+    "text": ".doc-content p, .doc-content li, .doc-content pre, .doc-content td:not(:first-child)"
   },
   "custom_settings": {
     "attributesForFaceting": [
@@ -24,5 +24,5 @@
   "conversation_id": [
     "1167427942"
   ],
-  "nb_hits": 16853
+  "nb_hits": 22185
 }
