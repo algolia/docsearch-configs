@@ -13,7 +13,7 @@
     "https://mix.nuance.com/v3/documentation/mix-datapack/v6_x/"
   ],
   "selectors": {
-    "text": ".content p, .content li",
+    "text": ".content p, .content li, .content table",
     "lvl0": "title",
     "lvl1": ".content h1",
     "lvl2": ".content h2",
