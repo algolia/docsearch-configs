@@ -12,7 +12,7 @@
     "lvl3": "[class^='styles-module--wrapper'] h4",
     "lvl4": "[class^='styles-module--wrapper'] h5",
     "lvl5": "[class^='styles-module--wrapper'] h6",
-    "text": "[class^='styles-module--wrapper'] p, [class^='styles-module--wrapper'] li"
+    "text": "[class^='styles-module--wrapper'] p, [class^='styles-module--wrapper'] li, [class^='styles-module--wrapper'] td"
   },
   "sitemap_urls": [
     "https://developers.hotmart.com/docs/en/sitemap.xml",
