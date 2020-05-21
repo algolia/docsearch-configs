@@ -19,8 +19,7 @@
   "sitemap_urls": [
     "https://docs.circonus.com/sitemap.xml"
   ],
-  "js_render": true,
   "use_anchors": true,
   "only_content_level": true,
-  "nb_hits": 693276
+  "nb_hits": 8906
 }
