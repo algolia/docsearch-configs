@@ -15,10 +15,18 @@
     "text": "[class^='styles-module--wrapper'] p, [class^='styles-module--wrapper'] li"
   },
   "sitemap_urls": [
-    "https://developers.hotmart.com/docs/sitemap.xml"
+    "https://developers.hotmart.com/docs/en/sitemap.xml",
+    "https://developers.hotmart.com/docs/es/sitemap.xml",
+    "https://developers.hotmart.com/docs/pt-BR/sitemap.xml"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
   "conversation_id": [
     "1157936029"
   ],
-  "nb_hits": 260
+  "min_indexed_level": 1,
+  "nb_hits": 746
 }

@@ -6,7 +6,9 @@
   "sitemap_urls": [
     "https://docsearch.algolia.com/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?"
+  ],
   "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
@@ -37,5 +39,5 @@
     ]
   },
   "strip_chars": ".,;:#",
-  "nb_hits": 432
+  "nb_hits": 431
 }

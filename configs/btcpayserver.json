@@ -5,16 +5,31 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".page h1",
-    "lvl1": ".page h2",
-    "lvl2": ".page h3",
-    "lvl3": ".page h4",
-    "lvl4": ".page h5",
-    "lvl5": ".page h6",
-    "text": ".page p, .page li"
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "1156147543"
   ],
-  "nb_hits": 3360
+  "nb_hits": 3322
 }

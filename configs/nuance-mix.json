@@ -1,19 +1,25 @@
 {
   "index_name": "nuance-mix",
   "start_urls": [
-    "https://mix.nuance.com/v3/documentation/"
+    "https://mix.nuance.com/v3/documentation/",
+    "https://mix.nuance.com/v3/documentation/nlu-trsx-app-spec/",
+    "https://mix.nuance.com/v3/documentation/dialog-app-spec/",
+    "https://mix.nuance.com/v3/documentation/technical-requirements/",
+    "https://mix.nuance.com/v3/documentation/languages/",
+    "https://mix.nuance.com/v3/documentation/glossary/"
   ],
   "stop_urls": [
-    "/$"
+    "/$",
+    "https://mix.nuance.com/v3/documentation/mix-datapack/v6_x/"
   ],
   "selectors": {
     "text": ".content p, .content li",
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "lvl5": ".content h6"
+    "lvl0": "title",
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5"
   },
   "selectors_exclude": [
     ".products-container"
@@ -21,5 +27,8 @@
   "conversation_id": [
     "1076829139"
   ],
-  "nb_hits": 4180
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 3912
 }

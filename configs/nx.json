@@ -2,7 +2,7 @@
   "index_name": "nx",
   "start_urls": [
     {
-      "url": "http://nx.dev/(?P<framework>.*?)/",
+      "url": "https://nx.dev/(?P<framework>.*?)/",
       "variables": {
         "framework": [
           "react",
@@ -29,5 +29,5 @@
   "conversation_id": [
     "1152538732"
   ],
-  "nb_hits": 3838
+  "nb_hits": 8867
 }
