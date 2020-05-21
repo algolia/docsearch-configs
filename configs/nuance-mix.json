@@ -30,5 +30,6 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
+  "hitsPerPage": 10,
   "nb_hits": 3912
 }
