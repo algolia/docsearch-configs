@@ -1,7 +1,7 @@
 {
   "index_name": "taro",
   "start_urls": [
-    "https://nervjs.github.io/taro/docs/README/"
+    "https://nervjs.github.io/taro/docs/"
   ],
   "sitemap_urls": [
     "https://nervjs.github.io/taro/sitemap.xml"
@@ -41,5 +41,5 @@
       "type"
     ]
   },
-  "nb_hits": 53
+  "nb_hits": 23692
 }
