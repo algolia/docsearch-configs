@@ -10,16 +10,21 @@
   ],
   "stop_urls": [
     "/$",
+    "/downloads/",
     "https://mix.nuance.com/v3/documentation/mix-datapack/v6_x/"
   ],
   "selectors": {
-    "text": ".content p, .content li",
-    "lvl0": "title",
+    "lvl0": {
+    "selector": "title",
+    "global": true,
+    "default_value": "Documentation"
+  },
     "lvl1": ".content h1",
     "lvl2": ".content h2",
-    "lvl3": ".content h3",
+    "lvl3": ".content h3, .content td:first-child",
     "lvl4": ".content h4",
-    "lvl5": ".content h5"
+    "lvl5": ".content h5",
+    "text": ".content p, .content li, .content td:not(:first-child)"
   },
   "selectors_exclude": [
     ".products-container"
