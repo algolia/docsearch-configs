@@ -2,6 +2,7 @@
   "index_name": "facetwp",
   "start_urls": [
     "https://facetwp.com/documentation/",
+    "https://facetwp.com/documentation/tutorials/?_per_page=500",
     "https://facetwp.com/"
   ],
   "stop_urls": [
