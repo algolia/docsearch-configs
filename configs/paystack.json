@@ -1,7 +1,7 @@
 {
   "index_name": "paystack",
   "start_urls": [
-    "https://documentation-v2.netlify.app/"
+    "https://documentation-v2.netlify.app/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -17,5 +17,5 @@
     "1098321391"
   ],
   "only_content_level": true,
-  "nb_hits": 440
+  "nb_hits": 378
 }

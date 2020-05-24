@@ -1,0 +1,20 @@
+{
+  "index_name": "kausalflow",
+  "start_urls": [
+    "http://tools.kausalflow.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".container[class*='text'] h1",
+    "lvl1": ".container[class*='text'] h2",
+    "lvl2": ".container[class*='text'] h3",
+    "lvl3": ".container[class*='text'] h4",
+    "lvl4": ".container[class*='text'] h5",
+    "lvl5": ".container[class*='text'] h6",
+    "text": ".container[class*='text'] p, .container[class*='text'] li"
+  },
+  "conversation_id": [
+    "1148506305"
+  ],
+  "nb_hits": 400
+}

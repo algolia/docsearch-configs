@@ -11,7 +11,8 @@
           "v4",
           "v5",
           "v6",
-          "v7"
+          "v7",
+          "v8"
         ],
         "project": [
           "laravel-medialibrary",
@@ -25,9 +26,12 @@
           "laravel-backup",
           "laravel-html",
           "laravel-event-projector",
+          "laravel-event-sourcing",
+          "laravel-backup-server",
           "laravel-blade-x",
           "laravel-permission",
           "laravel-query-builder",
+          "laravel-multitenancy",
           "enum"
         ]
       }
@@ -51,5 +55,5 @@
   "conversation_id": [
     "229197199"
   ],
-  "nb_hits": 4466
+  "nb_hits": 6121
 }

@@ -1,0 +1,33 @@
+{
+  "index_name": "tidalcycles",
+  "start_urls": [
+    "https://tidalcycles.org/"
+  ],
+  "stop_urls": [
+    "\\?return",
+    "&return",
+    "\\?filter",
+    "&filter",
+    "=",
+    "\\?asc",
+    "&asc",
+    "\\?diff",
+    "&diff",
+    "\\?limit",
+    "&limit",
+    "\\?printable"
+  ],
+  "selectors": {
+    "lvl0": "#content h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "lvl5": "#content h6",
+    "text": "#content p, #content li"
+  },
+  "conversation_id": [
+    "1146256274"
+  ],
+  "nb_hits": 19786
+}

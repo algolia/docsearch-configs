@@ -13,13 +13,26 @@
     "lvl5": ".post h6",
     "text": ".post p, .post li"
   },
-  "only_content_level": true,
   "scrap_start_urls": false,
   "conversation_id": [
     "547690260"
   ],
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "selectors_exclude": [
     ".post p span"
   ],
-  "nb_hits": 334
+  "nb_hits": 503
 }

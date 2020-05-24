@@ -50,23 +50,23 @@
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
-      "text": ".content p, .content li"
+      "lvl1": ".theme-default-content h1",
+      "lvl2": ".theme-default-content h2",
+      "lvl3": ".theme-default-content h3",
+      "lvl4": ".theme-default-content h4",
+      "text": ".theme-default-content p, .theme-default-content li"
     },
     "api": {
       "lvl0": {
-        "selector": ".content h1",
+        "selector": ".theme-default-content h1",
         "global": true,
         "default_value": "Api"
       },
-      "lvl1": ".content h2",
-      "lvl2": ".content h3 code",
-      "lvl3": ".content h4",
-      "lvl4": ".content h5",
-      "text": ".content p, .content li"
+      "lvl1": ".theme-default-content h2",
+      "lvl2": ".theme-default-content h3 code",
+      "lvl3": ".theme-default-content h4",
+      "lvl4": ".theme-default-content h5",
+      "text": ".theme-default-content p, .theme-default-content li"
     }
   },
   "selectors_exclude": [
@@ -76,5 +76,5 @@
   "conversation_id": [
     "555461426"
   ],
-  "nb_hits": 91117
+  "nb_hits": 92950
 }

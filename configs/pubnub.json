@@ -188,10 +188,14 @@
       }
     },
     "docs": {
-      "lvl0": "h1.page-title",
-      "lvl1": ".content .content h2",
-      "lvl2": ".content .content h3",
-      "lvl3": ".content .content h4",
+      "lvl0": {
+        "selector": "div.doc-search-title",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "div.doc-search-description",
+      "lvl2": "h1.page-title, .content .content h2",
+      "lvl3": ".content .content h3, .content .content h4",
       "lvl4": ".content .content h5, .content .content td:first-child",
       "lvl5": ".content .content h6",
       "text": ".content .content p, .content .content li,  .content .content td:last-child",
@@ -203,7 +207,11 @@
       }
     },
     "chat": {
-      "lvl0": "h1.postHeaderTitle",
+      "lvl0": {
+        "selector": "h1.postHeaderTitle",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": ".wrapper .post p",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -213,7 +221,11 @@
       "text": ".wrapper .post p, .wrapper .post li"
     },
     "blocks": {
-      "lvl0": "h1.block-page-title",
+      "lvl0": {
+        "selector": "h1.block-page-title",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": "div.sub-heading",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -223,7 +235,11 @@
       "text": "div.block-detail"
     },
     "functions": {
-      "lvl0": "h1.page-title",
+      "lvl0": {
+        "selector": "h1.page-title",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": "div.field-item.even p",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -233,7 +249,11 @@
       "text": "h1.main-page-title"
     },
     "rest": {
-      "lvl0": "h1.page-title",
+      "lvl0": {
+        "selector": "h1.page-title",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": "h1.main-page-title",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -243,7 +263,11 @@
       "text": "h1.main-page-title"
     },
     "console": {
-      "lvl0": "a[title=Developer]",
+      "lvl0": {
+        "selector": "a[title=Developer]",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": "h1.main-page-title",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -253,7 +277,11 @@
       "text": "h1.main-page-title"
     },
     "platform": {
-      "lvl0": "h1.postHeaderTitle",
+      "lvl0": {
+        "selector": "h1.postHeaderTitle",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": ".wrapper .post p",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -282,5 +310,5 @@
   "conversation_id": [
     "1023908121"
   ],
-  "nb_hits": 73999
+  "nb_hits": 70773
 }

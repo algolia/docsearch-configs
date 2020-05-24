@@ -1,11 +1,10 @@
 {
-  "index_name": "nervjs_taro",
+  "index_name": "cobrain",
   "start_urls": [
-    "https://taro-docs.jd.com/taro/docs/README.html",
-    "https://taro-docs.jd.com/taro/docs/"
+    "https://docs.cobrain.io/docs/"
   ],
   "sitemap_urls": [
-    "https://taro-docs.jd.com/sitemap.xml"
+    "https://docs.cobrain.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -33,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "1132455978"
+    "1150715897"
   ],
-  "nb_hits": 4365
+  "nb_hits": 3784
 }

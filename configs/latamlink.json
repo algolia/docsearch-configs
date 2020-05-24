@@ -1,11 +1,11 @@
 {
   "index_name": "latamlink",
   "start_urls": [
-    "https://docs.latamlink.io/docs/",
-    "https://docs.latamlink.io/docs/en/eosio"
+    "http://latamlink.io/docs/",
+    "http://latamlink.io/docs/eosio"
   ],
   "sitemap_urls": [
-    "https://docs.latamlink.io/sitemap.xml"
+    "http://latamlink.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -35,5 +35,5 @@
   "conversation_id": [
     "1130150645"
   ],
-  "nb_hits": 351
+  "nb_hits": 513
 }

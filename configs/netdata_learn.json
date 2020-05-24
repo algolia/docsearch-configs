@@ -19,7 +19,7 @@
     "lvl3": "[class^='docItemContainer_'] h3",
     "lvl4": "[class^='docItemContainer_'] h4",
     "lvl5": "[class^='docItemContainer_'] h5",
-    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li, [class^='docItemContainer_'] table td"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1131815629"
   ],
-  "nb_hits": 13098
+  "nb_hits": 14868
 }

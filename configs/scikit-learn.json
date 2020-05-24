@@ -1,0 +1,19 @@
+{
+  "index_name": "scikit-learn",
+  "start_urls": [
+    "https://scikit-learn.org/stable/"
+  ],
+  "stop_urls": [
+    "\\/_"
+  ],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "nb_hits": 40688
+}

@@ -1,0 +1,18 @@
+{
+  "index_name": "dlux",
+  "start_urls": [
+    "https://www.dlux.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h3",
+    "lvl1": "article h4",
+    "lvl2": "article h5",
+    "lvl3": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1148906292"
+  ],
+  "nb_hits": 264
+}

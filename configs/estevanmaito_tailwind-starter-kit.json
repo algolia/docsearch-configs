@@ -1,0 +1,24 @@
+{
+  "index_name": "estevanmaito_tailwind-starter-kit",
+  "start_urls": [
+    "https://estevanmaito.github.io/tailwind-starter-kit/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav h5",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".max-w-full h2",
+    "lvl2": ".max-w-full h3",
+    "lvl3": ".max-w-full h4",
+    "lvl4": ".max-w-full h5",
+    "lvl5": ".max-w-full h6",
+    "text": ".max-w-full p, .max-w-full li"
+  },
+  "conversation_id": [
+    "1160844800"
+  ],
+  "nb_hits": 151
+}
