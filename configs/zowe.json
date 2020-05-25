@@ -7,6 +7,7 @@
         "version": [
           "stable",
           "active-development",
+          "v1-11-x",
           "v1-10-x",
           "v1-9-x",
           "v1-8-x",
@@ -17,8 +18,7 @@
           "v1-3-x",
           "v1-2-x",
           "v1-1-x",
-          "v1-0-x",
-          "v0-9-x"
+          "v1-0-x"
         ]
       }
     }
