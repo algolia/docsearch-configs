@@ -9,6 +9,7 @@
     "https://mix.nuance.com/v3/documentation/glossary/"
   ],
   "stop_urls": [
+    "[^n]/$",
     "/downloads/",
     "https://mix.nuance.com/v3/documentation/mix-datapack/v6_x/"
   ],
@@ -34,5 +35,5 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 19403
+  "nb_hits": 6108
 }
