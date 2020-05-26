@@ -9,16 +9,15 @@
     "https://mix.nuance.com/v3/documentation/glossary/"
   ],
   "stop_urls": [
-    "/$",
     "/downloads/",
     "https://mix.nuance.com/v3/documentation/mix-datapack/v6_x/"
   ],
   "selectors": {
     "lvl0": {
-    "selector": "title",
-    "global": true,
-    "default_value": "Documentation"
-  },
+      "selector": "title",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": ".content h1",
     "lvl2": ".content h2",
     "lvl3": ".content h3, .content td:first-child",
@@ -35,5 +34,5 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 3912
+  "nb_hits": 19403
 }
