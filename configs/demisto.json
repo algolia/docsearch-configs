@@ -28,15 +28,6 @@
   "custom_settings": {
     "attributesForFaceting": [
       "anchor"
-    ],
-    "separatorsToIndex": "_",
-    "attributesToRetrieve": [
-      "hierarchy",
-      "content",
-      "anchor",
-      "url",
-      "url_without_anchor",
-      "type"
     ]
   },
   "conversation_id": [
