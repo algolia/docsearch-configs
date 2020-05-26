@@ -13,6 +13,7 @@
     "lvl5": "#page-content h6",
     "text": "#page-content p, #page-content li"
   },
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "1175975762"
   ],
