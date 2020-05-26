@@ -1,0 +1,24 @@
+{
+  "index_name": "lifecycle_one",
+  "start_urls": [
+    "https://docs.Lifecycle.one"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".main .article h1",
+    "lvl1": ".main .article h2",
+    "lvl2": ".main .article h3, .main .article td:first-child",
+    "lvl3": ".main .article h4",
+    "lvl4": ".main .article h5",
+    "lvl5": ".main .article h6",
+    "text": ".main .article p, .main .article li, .main .article td:not(:first-child)"
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "1176179023"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 22
+}
