@@ -9,7 +9,7 @@
   ],
   "selectors": {
     "lvl0": ".header-wrapper h1, article h1",
-    "lvl1": ".content-wrapper h2, article h2",
+    "lvl1": ".content-wrapper h2, p strong:first-child:last-child, article h2",
     "lvl2": ".content-wrapper h3, article h3",
     "lvl3": ".content-wrapper h4, article h4",
     "lvl4": ".content-wrapper h5, article h5",
@@ -19,5 +19,5 @@
   "conversation_id": [
     "1177399733"
   ],
-  "nb_hits": 622
+  "nb_hits": 687
 }
