@@ -16,7 +16,6 @@
   },
   "selectors_exclude": [
     ".breadcrumb",
-    "td.linenos",
     ".toc--embedded"
   ],
   "custom_settings": {
