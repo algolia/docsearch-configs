@@ -16,6 +16,9 @@
     "lvl5": ".content-wrapper h6, article h6",
     "text": ".content-wrapper p, .content-wrapper li, .header-wrapper h3, article p, article li"
   },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "conversation_id": [
     "1177399733"
   ],
