@@ -3,6 +3,7 @@
   "start_urls": [
     "https://symfony.com/doc/current"
   ],
+  "sitemap_urls": ["https://symfony.com/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": "main h1",
@@ -11,11 +12,15 @@
     "lvl3": "main h4",
     "lvl4": "main h5",
     "lvl5": "main h6",
-    "text": "main p, main li"
+    "text": "main p, main li, main dt, main dd, main blockquote"
   },
   "selectors_exclude": [
     ".breadcrumb",
+    "td.linenos",
     ".toc--embedded"
   ],
+  "custom_settings": {
+    "attributesForFaceting": ["version"]
+  },
   "nb_hits": 29339
 }
