@@ -3,6 +3,9 @@
   "start_urls": [
     "https://developers.wultra.com/"
   ],
+  "sitemap_urls": [
+    "https://developers.wultra.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "section h1",
@@ -14,10 +17,16 @@
     "text": "section p, section li"
   },
   "selectors_exclude": [
-    ".sidebar-toc"
+    ".sidebar-toc", ".sidebar"
   ],
   "conversation_id": [
     "1176317311"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "nb_hits": 26198
 }
