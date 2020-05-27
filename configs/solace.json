@@ -104,7 +104,7 @@
       "lvl3": ".section h3",
       "lvl4": ".section h4",
       "lvl5": ".section h6",
-      "text": ".section p, .section li"
+      "text": ".section p, .section li, .sample_snippet"
     },
     "api_reference_guide": {
       "lvl0": {
