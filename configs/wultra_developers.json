@@ -17,7 +17,8 @@
     "text": "section p, section li"
   },
   "selectors_exclude": [
-    ".sidebar-toc", ".sidebar"
+    ".sidebar-toc",
+    ".sidebar"
   ],
   "conversation_id": [
     "1176317311"
@@ -28,5 +29,5 @@
       "version"
     ]
   },
-  "nb_hits": 26198
+  "nb_hits": 26160
 }
