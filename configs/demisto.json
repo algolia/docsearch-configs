@@ -14,14 +14,13 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+    "lvl1": "[class^='docItemContainer_'] h1",
+    "lvl2": "[class^='docItemContainer_'] h2",
+    "lvl3": "[class^='docItemContainer_'] h3",
+    "lvl4": "[class^='docItemContainer_'] h4",
+    "lvl5": "[class^='docItemContainer_'] h5",
+    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
   },
-  "strip_chars": " .,;:#",
   "selectors_exclude": [
     ".hash-link"
   ],
@@ -33,5 +32,5 @@
   "conversation_id": [
     "1106052758"
   ],
-  "nb_hits": 53450
+  "nb_hits": 49654
 }
