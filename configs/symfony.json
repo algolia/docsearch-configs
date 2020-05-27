@@ -3,7 +3,9 @@
   "start_urls": [
     "https://symfony.com/doc/current"
   ],
-  "sitemap_urls": ["https://symfony.com/sitemap.xml"],
+  "sitemap_urls": [
+    "https://symfony.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "main h1",
@@ -19,7 +21,9 @@
     ".toc--embedded"
   ],
   "custom_settings": {
-    "attributesForFaceting": ["version"]
+    "attributesForFaceting": [
+      "version"
+    ]
   },
-  "nb_hits": 29339
+  "nb_hits": 30582
 }
