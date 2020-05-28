@@ -1,7 +1,29 @@
 {
   "index_name": "symfony",
   "start_urls": [
-    "https://symfony.com/doc/current"
+    {
+      "url": "https://symfony.com/doc/(?P<version>.*?)",
+      "page_rank": 100,
+      "variables": {
+        "version": ["2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "3.0", "3.1", "3.2", "3.3", "3.4", "4.0", "4.1", "4.2", "4.3", "4.4", "5.0", "5.1", "5.2", "current", "master"]
+      }
+    },
+    {
+      "url": "https://symfony.com/doc/(?P<version>.*?)/bundles",
+      "page_rank": 50,
+      "variables": {
+        "version": ["current", "master"],
+        "tags": ["bundles"]
+      }
+    },
+    {
+      "url": "https://symfony.com/doc/(?P<version>.*?)/cmf",
+      "page_rank": 0,
+      "variables": {
+        "version": ["current"],
+        "tags": ["cmf"]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://symfony.com/sitemap.xml"
@@ -23,6 +45,107 @@
   "custom_settings": {
     "attributesForFaceting": [
       "version"
+    ],
+    "synonyms": [
+      [
+        "yaml",
+        "yml"
+      ],
+      [
+        "env var",
+        "env vars",
+        "environment variable",
+        "environment variables"
+      ],
+      [
+        "i18n",
+        "internationalization",
+        "internationalize",
+        "multilingual",
+        "translate",
+        "translating",
+        "translation",
+        "translator"
+      ],
+      [
+        "route",
+        "router",
+        "routes",
+        "routing"
+      ],
+      [
+        "URI",
+        "URIs",
+        "URL",
+        "URLs"
+      ],
+      [
+        "param",
+        "parameter",
+        "parameters",
+        "params"
+      ],
+      [
+        "console",
+        "terminal"
+      ],
+      [
+        "container",
+        "dependency injection",
+        "DI",
+        "IoC",
+        "service container",
+        "services"
+      ],
+      [
+        "env",
+        "environment",
+        "environments",
+        "envs"
+      ],
+      [
+        "log",
+        "logger",
+        "logging",
+        "logs",
+        "monolog"
+      ],
+      [
+        "test",
+        "tester",
+        "testing",
+        "tests"
+      ],
+      [
+        "database",
+        "db",
+        "doctrine"
+      ],
+      [
+        "template engine",
+        "template",
+        "templates",
+        "templating",
+        "twig"
+      ],
+      [
+        "config",
+        "configs",
+        "configuration"
+      ],
+      [
+        "deploy",
+        "deployment"
+      ],
+      [
+        "event dispatcher",
+        "event listener",
+        "event listeners",
+        "event subscriber",
+        "event subscribers",
+        "event",
+        "events"
+      ]
     ]
   },
   "nb_hits": 30582
