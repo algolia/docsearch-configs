@@ -1,7 +1,7 @@
 {
   "index_name": "scapp_ecdocs",
   "start_urls": [
-    "https://ecdocs-vuepress.scapp.io/"
+    "https://docs.entcloud.swisscom.com/"
   ],
   "stop_urls": [],
   "selectors": {
