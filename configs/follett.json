@@ -12,9 +12,14 @@
     "lvl4": "fds-drawer-content h6",
     "text": "fds-drawer-content p, fds-drawer-content li"
   },
+  "selectors_exclude": [
+    "app-live-editor",
+    "app-code-editor",
+    "app-code-snippet"
+  ],
   "js_render": true,
   "conversation_id": [
     "1178380234"
   ],
-  "nb_hits": 406
+  "nb_hits": 278
 }
