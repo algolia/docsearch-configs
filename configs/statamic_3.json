@@ -1,7 +1,27 @@
 {
   "index_name": "statamic_3",
   "start_urls": [
-    "https://statamic.dev"
+    "https://statamic.dev",
+    {
+      "url": "https://statamic.dev/tags",
+      "page_rank": 5
+    },
+    {
+      "url": "https://statamic.dev/fieldtypes",
+      "page_rank": 4
+    },
+    {
+      "url": "https://statamic.dev/modifiers",
+      "page_rank": 3
+    },
+    {
+      "url": "https://statamic.dev/variables",
+      "page_rank": 2
+    },
+    {
+      "url": "https://statamic.dev/extending",
+      "page_rank": 0
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -10,8 +30,14 @@
     "lvl2": "#content h3",
     "lvl3": "#content h4",
     "lvl4": "#content h5",
-    "lvl5": "#content h6",
-    "text": "#content p, #content li"
+    "text": "#content header p,#content article p,#content article li,#content article blockquote"
+  },
+  "selectors_exclude": [".ignored", ".deprecated"],
+  "custom_settings": {
+    "synonyms": [
+      ["js", "javascript"],
+      ["views", "templates"]
+    ]
   },
   "conversation_id": [
     "1177617554"
