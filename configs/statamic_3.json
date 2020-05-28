@@ -32,15 +32,24 @@
     "lvl4": "#content h5",
     "text": "#content header p,#content article p,#content article li,#content article blockquote"
   },
-  "selectors_exclude": [".ignored", ".deprecated"],
+  "selectors_exclude": [
+    ".ignored",
+    ".deprecated"
+  ],
   "custom_settings": {
     "synonyms": [
-      ["js", "javascript"],
-      ["views", "templates"]
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "views",
+        "templates"
+      ]
     ]
   },
   "conversation_id": [
     "1177617554"
   ],
-  "nb_hits": 4797
+  "nb_hits": 4881
 }
