@@ -3,7 +3,9 @@
   "start_urls": [
     "https://awslabs.github.io/aws-lambda-powertools-python"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://awslabs.github.io/aws-lambda-powertools-python/api"
+  ],
   "sitemap_urls": [
     "https://awslabs.github.io/aws-lambda-powertools-python/sitemap.xml"
   ],
