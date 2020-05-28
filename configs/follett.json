@@ -1,0 +1,20 @@
+{
+  "index_name": "follett",
+  "start_urls": [
+    "https://follett.design/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "fds-drawer-content h1",
+    "lvl1": "fds-drawer-content h3",
+    "lvl2": "fds-drawer-content h4",
+    "lvl3": "fds-drawer-content h5",
+    "lvl4": "fds-drawer-content h6",
+    "text": "fds-drawer-content p, fds-drawer-content li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1178380234"
+  ],
+  "nb_hits": 16
+}
