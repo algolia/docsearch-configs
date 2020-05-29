@@ -13,12 +13,16 @@
           "11",
           "12",
           "13",
-          "14"
+          "14",
+          "15"
         ]
       }
     }
   ],
   "stop_urls": [
+    "http://docs.artec-group.com/as/15/en/$",
+    "http://docs.artec-group.com/as/14/de/$",
+    "http://docs.artec-group.com/as/14/ru/$",
     "http://docs.artec-group.com/as/14/en/$",
     "http://docs.artec-group.com/as/13/en/$",
     "http://docs.artec-group.com/as/13/ru/$",
