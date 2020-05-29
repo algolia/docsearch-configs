@@ -1,11 +1,20 @@
 {
   "index_name": "home-assistant",
   "start_urls": [
+    {
+      "url": "https://www.home-assistant.io/integrations/",
+      "page_rank": 5
+    },
+    {
+      "url": "https://www.home-assistant.io/getting-started/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://www.home-assistant.io/lovelace/",
+      "page_rank": 2
+    },
     "https://www.home-assistant.io/docs/",
-    "https://www.home-assistant.io/hassio/",
-    "https://www.home-assistant.io/lovelace/",
-    "https://www.home-assistant.io/getting-started/",
-    "https://www.home-assistant.io/developers/"
+    "https://www.home-assistant.io/hassio/"
   ],
   "sitemap_urls": [
     "https://www.home-assistant.io/sitemap.xml"
