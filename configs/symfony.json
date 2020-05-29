@@ -2,6 +2,30 @@
   "index_name": "symfony",
   "start_urls": [
     {
+      "url": "https://symfony.com/doc/(?P<version>.*?)/bundles",
+      "page_rank": 50,
+      "variables": {
+        "version": [
+          "current",
+          "master"
+        ]
+      },
+      "tags": [
+        "bundles"
+      ]
+    },
+    {
+      "url": "https://symfony.com/doc/(?P<version>.*?)/cmf",
+      "variables": {
+        "version": [
+          "current"
+        ]
+      },
+      "tags": [
+        "cmf"
+      ]
+    },
+    {
       "url": "https://symfony.com/doc/(?P<version>.*?)",
       "page_rank": 100,
       "variables": {
@@ -34,29 +58,11 @@
       }
     },
     {
-      "url": "https://symfony.com/doc/(?P<version>.*?)/bundles",
+      "url": "https://symfony.com/doc/bundles/",
       "page_rank": 50,
-      "variables": {
-        "version": [
-          "current",
-          "master"
-        ],
-        "tags": [
-          "bundles"
-        ]
-      }
-    },
-    {
-      "url": "https://symfony.com/doc/(?P<version>.*?)/cmf",
-      "page_rank": 0,
-      "variables": {
-        "version": [
-          "current"
-        ],
-        "tags": [
-          "cmf"
-        ]
-      }
+      "tags": [
+        "bundles"
+      ]
     }
   ],
   "sitemap_urls": [
@@ -182,5 +188,5 @@
       ]
     ]
   },
-  "nb_hits": 505913
+  "nb_hits": 512609
 }
