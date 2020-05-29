@@ -1,7 +1,7 @@
 {
   "index_name": "ipfs-docs-v2",
   "start_urls": [
-    "https://docs-beta.ipfs.io/"
+    "https://docs.ipfs.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -30,5 +30,5 @@
       "lang"
     ]
   },
-  "nb_hits": 2173
+  "nb_hits": 4316
 }
