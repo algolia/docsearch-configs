@@ -1,11 +1,11 @@
 {
   "index_name": "unicommerce",
   "start_urls": [
-    "http://unicommerce.s3-website-us-east-1.amazonaws.com/docs/",
-    "http://unicommerce.s3-website-us-east-1.amazonaws.com/docs/user-authentication.html"
+    "http://documentation.unicommerce.com/docs/",
+    "http://documentation.unicommerce.com/docs/user-authentication.html"
   ],
   "sitemap_urls": [
-    "http://unicommerce.s3-website-us-east-1.amazonaws.com/sitemap.xml"
+    "http://documentation.unicommerce.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -43,5 +43,5 @@
   "conversation_id": [
     "1178108693"
   ],
-  "nb_hits": 240
+  "nb_hits": 214
 }
