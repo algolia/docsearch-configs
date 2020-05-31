@@ -1,11 +1,11 @@
 {
   "index_name": "stancl-tenancy",
   "start_urls": [
-    "https://tenancy.samuelstancl.me/docs/"
+    "https://tenancyforlaravel.com/docs/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://tenancy.samuelstancl.me/docs/sitemap.xml"
+    "https://tenancyforlaravel.com/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
