@@ -87,6 +87,7 @@
   ],
   "stop_urls": [
     "https://cloudinary.com/documentation/upload_widget_1",
+    "https://cloudinary.com/documentation/sdks/*",
     "\\?",
     "\\.txt$"
   ],
