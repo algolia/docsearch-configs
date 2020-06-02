@@ -4,7 +4,9 @@
     "https://bulmajs.tomerbe.co.uk/"
   ],
   "stop_urls": [],
-  "sitemap_urls": ["https://bulmajs.tomerbe.co.uk/sitemap.xml"],
+  "sitemap_urls": [
+    "https://bulmajs.tomerbe.co.uk/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".content h1",
@@ -40,5 +42,5 @@
   "conversation_id": [
     "1178623420"
   ],
-  "nb_hits": 45
+  "nb_hits": 665
 }
