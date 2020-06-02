@@ -15,17 +15,6 @@
       ]
     },
     {
-      "url": "https://symfony.com/doc/(?P<version>.*?)/cmf",
-      "variables": {
-        "version": [
-          "current"
-        ]
-      },
-      "tags": [
-        "cmf"
-      ]
-    },
-    {
       "url": "https://symfony.com/doc/(?P<version>.*?)",
       "page_rank": 100,
       "variables": {
@@ -56,14 +45,10 @@
           "master"
         ]
       }
-    },
-    {
-      "url": "https://symfony.com/doc/bundles/",
-      "page_rank": 50,
-      "tags": [
-        "bundles"
-      ]
     }
+  ],
+  "stop_urls": [
+    "https://symfony.com/doc/.*/cmf/.*"
   ],
   "sitemap_urls": [
     "https://symfony.com/sitemap.xml"
