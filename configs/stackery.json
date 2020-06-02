@@ -9,6 +9,7 @@
   "sitemap_alternate_links": true,
   "stop_urls": [
     "https://docs.stackery.io/docs/next",
+    "https://docs.stackery.io/docs/4.1.0",
     "https://docs.stackery.io/docs/4.0.2",
     "https://docs.stackery.io/docs/4.0.1",
     "https://docs.stackery.io/docs/4.0.0",
