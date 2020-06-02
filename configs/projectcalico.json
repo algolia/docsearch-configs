@@ -10,7 +10,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "#navbar .active, #sidebar .panel-title.current-page",
+      "selector": "#navbar .active, #sidebar .panel-heading.current-page",
       "global": true,
       "default_value": "Documentation"
     },
