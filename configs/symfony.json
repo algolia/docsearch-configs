@@ -47,13 +47,10 @@
       }
     }
   ],
-  "stop_urls": [
-    "https://symfony.com/doc/.*/cmf/.*"
-  ],
+  "stop_urls": [],
   "sitemap_urls": [
     "https://symfony.com/sitemap.xml"
   ],
-  "stop_urls": [],
   "selectors": {
     "lvl0": "main h1",
     "lvl1": "main h2",
@@ -173,5 +170,5 @@
       ]
     ]
   },
-  "nb_hits": 512609
+  "nb_hits": 505850
 }
