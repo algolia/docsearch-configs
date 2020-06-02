@@ -5,14 +5,16 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
+    "lvl0": "article .title",
+    "lvl1": "article .section-title",
+    "lvl2": "article .parent-fname",
+    "lvl3": "article .section-subtitle",
+    "lvl4": "article .fname",
     "text": "article p, article li"
   },
+  "selectors_exclude": [
+    "details.source"
+  ],
   "conversation_id": [
     "1180882098"
   ],
