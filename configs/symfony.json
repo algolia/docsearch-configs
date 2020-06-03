@@ -47,7 +47,9 @@
       }
     }
   ],
-  "stop_urls": ["https://symfony.com/doc/.*/cmf/.*"],
+  "stop_urls": [
+    "https://symfony.com/doc/.*/cmf/.*"
+  ],
   "sitemap_urls": [
     "https://symfony.com/sitemap.xml"
   ],
@@ -170,5 +172,5 @@
       ]
     ]
   },
-  "nb_hits": 505850
+  "nb_hits": 495285
 }
