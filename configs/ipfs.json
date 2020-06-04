@@ -1,7 +1,7 @@
 {
   "index_name": "ipfs",
   "start_urls": [
-    "https://docs-beta.ipfs.io/"
+    "https://docs.ipfs.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -10,12 +10,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".theme-default-content h1",
-    "lvl2": ".theme-default-content h2",
-    "lvl3": ".theme-default-content h3",
-    "lvl4": ".theme-default-content h4",
-    "lvl5": ".theme-default-content h5",
-    "text": ".theme-default-content p, .theme-default-content li",
+    "lvl1": ".content__default h2",
+    "lvl2": ".content__default h3",
+    "lvl3": ".content__default h4",
+    "lvl4": ".content__default h5",
+    "lvl5": ".content__default h6",
+    "text": ".content__default p, .content__default li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -23,18 +23,12 @@
       "default_value": "en-US"
     }
   },
-  "selectors_exclude": [
-    ".table-of-contents"
-  ],
+  "scrap_start_urls": false,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
-  "conversation_id": [
-    "1052550505"
-  ],
-  "scrap_start_urls": false,
-  "nb_hits": 4457
+  "nb_hits": 4312
 }
