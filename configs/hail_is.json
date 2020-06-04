@@ -16,11 +16,8 @@
     "text": ".section p, .section li"
   },
   "strip_chars": " .,;:#",
-  "custom_settings": {
-    "separatorsToIndex": "_"
-  },
   "conversation_id": [
     "1172540378"
   ],
-  "nb_hits": 10103
+  "nb_hits": 10125
 }
