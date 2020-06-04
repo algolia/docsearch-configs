@@ -45,6 +45,13 @@
           "master"
         ]
       }
+    },
+    {
+      "url": "https://symfony.com/doc/bundles/",
+      "page_rank": 50,
+      "tags": [
+        "bundles"
+      ]
     }
   ],
   "stop_urls": [
