@@ -15,11 +15,8 @@
     "lvl5": ".col-sm-9 h6",
     "text": ".col-sm-9 p, .col-sm-9 li, .col-sm-9 summary"
   },
-  "selectors_exclude": [
-    "details"
-  ],
   "conversation_id": [
     "1158925481"
   ],
-  "nb_hits": 1024
+  "nb_hits": 2036
 }
