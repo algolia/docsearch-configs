@@ -1,7 +1,7 @@
 {
   "index_name": "ipfs-docs",
   "start_urls": [
-    "https://docs-beta.ipfs.io/"
+    "https://docs.ipfs.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -35,6 +35,5 @@
   "conversation_id": [
     "1052550505"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 4457
+  "nb_hits": 4398
 }
