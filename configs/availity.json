@@ -1,0 +1,45 @@
+{
+  "index_name": "availity",
+  "start_urls": [
+    {
+      "url": "https://availity.github.io/availity-react",
+      "page_rank": 3
+    },
+    {
+      "url": "https://availity.github.io/availity-workflow",
+      "page_rank": 2
+    },
+    {
+      "url": "https://availity.github.io/sdk-js",
+      "page_rank": 2
+    },
+    {
+      "url": "https://availity.github.io/gatsby-theme-availity",
+      "page_rank": 1
+    },
+    {
+      "url": "https://availity.github.io/availity-uikit",
+      "page_rank": 2
+    }
+  ],
+  "stop_urls": [
+    "/examples/",
+    "/storybook/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".site-title-link",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".page-header-title h1",
+    "lvl2": ".content-wrapper h2",
+    "lvl3": ".content-wrapper h3",
+    "lvl4": ".content-wrapper h4",
+    "lvl5": ".content-wrapper h5",
+    "text": ".content-wrapper p, .content-wrapper li, .content-wrapper tbody, .page-header-title h3"
+  },
+  "conversation_id": [
+    "936988941"
+  ],
+  "nb_hits": 2752
+}

@@ -1,0 +1,37 @@
+{
+  "index_name": "vant",
+  "start_urls": [
+    {
+      "url": "https://youzan.github.io/vant/#/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en-US",
+          "zh-CN"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "/changelog"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'router-link-exact-active')]/preceding::a[not(@class)][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p, section li"
+  },
+  "js_render": true,
+  "use_anchors": true,
+  "conversation_id": [
+    "854645757"
+  ],
+  "nb_hits": 2392
+}

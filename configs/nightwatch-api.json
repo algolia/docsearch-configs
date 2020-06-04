@@ -1,7 +1,7 @@
 {
   "index_name": "nightwatch-api",
   "start_urls": [
-    "https://nightwatch-api.netlify.com/"
+    "https://nightwatch-api.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -16,5 +16,5 @@
   "conversation_id": [
     "705010826"
   ],
-  "nb_hits": 49
+  "nb_hits": 103
 }

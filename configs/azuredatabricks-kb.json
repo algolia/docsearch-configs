@@ -1,0 +1,34 @@
+{
+  "index_name": "azuredatabricks-kb",
+  "start_urls": [
+    "https://docs.microsoft.com/en-us/azure/databricks/kb/"
+  ],
+  "stop_urls": [
+    ".jar$",
+    ".avro$",
+    ".net/index.html"
+  ],
+  "sitemap_urls": [
+    "https://docs.microsoft.com/en-us/azure/databricks/kb/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "[aria-expanded='true'] > span",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "selectors_exclude": [
+    "main [class^=toctree]"
+  ],
+  "conversation_id": [
+    "858336523"
+  ],
+  "nb_hits": 2103
+}

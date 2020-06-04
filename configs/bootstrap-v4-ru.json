@@ -1,28 +1,33 @@
 {
   "index_name": "bootstrap-v4-ru",
   "start_urls": [
-    {
-      "url": "http://bootstrap-4.ru/docs/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "4.2.1",
-          "4.1",
-          "4.0"
-        ]
-      }
-    }
+    "http://bootstrap-4.ru/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/examples/",
+    "/docs/3.",
+    "/docs/2."
+  ],
+  "sitemap_urls": [
+    "http://bootstrap-4.ru/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".bd-toc-item.active > a",
     "lvl1": ".bd-content h1",
     "lvl2": ".bd-content h2",
     "lvl3": ".bd-content h3",
+    "lvl4": ".bd-content h4",
     "text": ".bd-content p, .bd-content li, .bd-example"
   },
   "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "conversation_id": [
-    "423628659"
+    "786529004"
   ],
-  "nb_hits": 9488
+  "nb_hits": 20169
 }

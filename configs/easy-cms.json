@@ -1,0 +1,29 @@
+{
+  "index_name": "easy-cms",
+  "start_urls": [
+    "http://www.easy-cms.art/docs/",
+    "http://www.easy-cms.art/docs/getting-started"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".main-menu [aria-expanded]",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4, .markdown td:first-child",
+    "text": ".markdown p, .markdown li, .markdown td:last-child"
+  },
+  "js_render": true,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "824873200"
+  ],
+  "nb_hits": 22
+}

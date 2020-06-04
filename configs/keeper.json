@@ -1,0 +1,21 @@
+{
+  "index_name": "keeper",
+  "start_urls": [
+    "https://docs.keeper.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1[class*='pageTitle']",
+    "lvl1": "[class*='pageBody'] h2",
+    "lvl2": "[class*='pageBody'] h3",
+    "lvl3": "[class*='pageBody'] h4",
+    "lvl4": "[class*='pageBody'] h5",
+    "lvl5": "[class*='pageBody'] h6",
+    "text": "[class*='pageBody'] p, [class*='pageBody'] li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "830236481"
+  ],
+  "nb_hits": 22282
+}

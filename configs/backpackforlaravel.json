@@ -1,0 +1,36 @@
+{
+  "index_name": "backpackforlaravel",
+  "start_urls": [
+    "https://backpackforlaravel.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#documentation-box h1",
+    "lvl1": "#documentation-box h2",
+    "lvl2": "#documentation-box h3",
+    "lvl3": "#documentation-box h4",
+    "lvl4": "#documentation-box h5",
+    "lvl5": "#documentation-box h6",
+    "text": "#documentation-box p, #documentation-box li",
+    "version": {
+      "selector": "#dropdownMenuButton",
+      "global": true
+    }
+  },
+  "min_indexed_level": 1,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "selectors_exclude": [
+    "#table-of-contents"
+  ],
+  "js_wait": 1,
+  "js_render": true,
+  "conversation_id": [
+    "1159359948"
+  ],
+  "nb_hits": 9435
+}

@@ -5,24 +5,22 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "p.sidebar-heading.open",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "text": ".content p, .content li",
-    "lvl5": ".content h5",
+    "lvl0": "[class*='content '] h1",
+    "lvl1": "[class*='content '] h2",
+    "lvl2": "[class*='content '] h3",
+    "lvl3": "[class*='content '] h4",
+    "lvl4": "[class*='content '] h5",
+    "lvl5": "[class*='content '] h5",
+    "text": "[class*='content '] p, [class*='content '] li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+      "global": true
     }
   },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
@@ -33,5 +31,5 @@
     "654267297"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 2557
+  "nb_hits": 6701
 }

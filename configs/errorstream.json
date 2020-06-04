@@ -1,0 +1,27 @@
+{
+  "index_name": "errorstream",
+  "start_urls": [
+    "https://docs.errorstream.com/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.errorstream.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".lvl0-active, .lvl0.active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocSearch-content h1",
+    "lvl2": ".DocSearch-content h2",
+    "lvl3": ".DocSearch-content h3",
+    "lvl4": ".DocSearch-content h4",
+    "lvl5": ".DocSearch-content h5",
+    "text": ".DocSearch-content p"
+  },
+  "conversation_id": [
+    "797301305"
+  ],
+  "nb_hits": 153
+}

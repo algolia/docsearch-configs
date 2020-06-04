@@ -1,0 +1,23 @@
+{
+  "index_name": "metricly",
+  "start_urls": [
+    "https://docs.metricly.com"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.metricly.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "#body-inner h1",
+    "lvl1": "#body-inner h2",
+    "lvl2": "#body-inner h3",
+    "lvl3": "#body-inner h4",
+    "lvl4": "#body-inner h5",
+    "lvl5": "#body-inner h6",
+    "text": "#body-inner p, #body-inner li"
+  },
+  "conversation_id": [
+    "890179418"
+  ],
+  "nb_hits": 5291
+}

@@ -1,7 +1,7 @@
 {
   "index_name": "omnisci",
   "start_urls": [
-    "https://www.omnisci.com/docs/latest/"
+    "https://docs.omnisci.com/latest/"
   ],
   "stop_urls": [],
   "selectors": {

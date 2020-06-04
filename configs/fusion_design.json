@@ -2,21 +2,35 @@
   "index_name": "fusion_design",
   "start_urls": [
     "http://alibaba.fusion.design",
-    "http://alibaba.fusion.design/brands",
-    "http://alibaba.fusion.design/guidelines"
+    "http://alibaba.fusion.design/en/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".layout-container header h1",
-    "lvl1": ".content h1",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "text": ".content p, .content li"
+    "lvl0": {
+      "selector": ".menu .active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".layout-container header h1",
+    "lvl2": ".content h1",
+    "lvl3": ".content h2",
+    "lvl4": ".content h3",
+    "lvl5": ".content h4",
+    "lvl6": ".content h5",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
-  "js_render": true,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
   "conversation_id": [
     "696658203"
   ],
-  "nb_hits": 355
+  "nb_hits": 1442
 }

@@ -1,0 +1,21 @@
+{
+  "index_name": "chakra-ui_vue",
+  "start_urls": [
+    "https://vue.chakra-ui.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#page-content h1",
+    "lvl1": "#page-content h2",
+    "lvl2": "#page-content h3",
+    "lvl3": "#page-content h4",
+    "lvl4": "#page-content h5",
+    "lvl5": "#page-content h6",
+    "text": "#page-content p, #page-content li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1175975762"
+  ],
+  "nb_hits": 1351
+}

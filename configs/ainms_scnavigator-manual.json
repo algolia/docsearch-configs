@@ -1,0 +1,28 @@
+{
+  "index_name": "ainms_scnavigator-manual",
+  "start_urls": [
+    "https://scnavigator-manual.aimms.com/"
+  ],
+  "stop_urls": [
+    "/_"
+  ],
+  "sitemap_urls": [
+    "https://scnavigator-manual.aimms.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".document h1",
+    "lvl1": ".document h2",
+    "lvl2": ".document h3",
+    "lvl3": ".document h4",
+    "lvl4": ".document h5",
+    "lvl5": ".document h6",
+    "text": ".document p, .document li"
+  },
+  "selectors_exclude": [
+    "toctree-wrapper"
+  ],
+  "conversation_id": [
+    "1003576676"
+  ],
+  "nb_hits": 1637
+}

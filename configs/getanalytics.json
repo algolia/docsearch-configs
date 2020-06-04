@@ -1,0 +1,25 @@
+{
+  "index_name": "getanalytics",
+  "start_urls": [
+    "http://getanalytics.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "div.sidebar span.title-sidebar",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".header-wrapper h1",
+      "lvl2": ".content-wrapper h2",
+      "lvl3": ".content-wrapper h3",
+      "lvl4": ".content-wrapper h4",
+      "text": ".content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page"
+    }
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "903297326"
+  ],
+  "nb_hits": 802
+}

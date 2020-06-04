@@ -1,0 +1,24 @@
+{
+  "index_name": "coderdojo",
+  "start_urls": [
+    "https://coderdojo.jp/docs/"
+  ],
+  "sitemap_urls": [
+    "https://coderdojo.jp/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "796519865"
+  ],
+  "nb_hits": 547
+}

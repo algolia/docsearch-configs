@@ -1,0 +1,33 @@
+{
+  "index_name": "claycli",
+  "start_urls": [
+    "https://docs.clayplatform.com/claycli/docs/",
+    "https://docs.clayplatform.com/claycli/docs/cli.html"
+  ],
+  "sitemap_urls": [
+    "https://docs.clayplatform.com/claycli/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "801148606"
+  ],
+  "nb_hits": 464
+}

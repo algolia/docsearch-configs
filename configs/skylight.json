@@ -1,0 +1,25 @@
+{
+  "index_name": "skylight",
+  "start_urls": [
+    "https://www.skylight.io/support"
+  ],
+  "stop_urls": [
+    "/$"
+  ],
+  "selectors": {
+    "lvl0": ".support-content h1",
+    "lvl1": ".support-content h2",
+    "lvl2": ".support-content h3",
+    "lvl3": ".support-content h4",
+    "lvl4": ".support-content h5",
+    "lvl5": ".support-content h6",
+    "text": ".support-content p, .support-content li, .support-content .interaction-bubble-text"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "813694736"
+  ],
+  "nb_hits": 887
+}

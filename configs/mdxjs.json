@@ -1,0 +1,28 @@
+{
+  "index_name": "mdxjs",
+  "start_urls": [
+    "https://mdxjs.com"
+  ],
+  "stop_urls": [
+    "/$"
+  ],
+  "selectors": {
+    "lvl0": ".searchable-content h1",
+    "lvl1": ".searchable-content h2",
+    "lvl2": ".searchable-content h3",
+    "lvl3": ".searchable-content h4",
+    "lvl4": ".searchable-content h5, .searchable-content table td:first-child",
+    "lvl5": ".searchable-content h6",
+    "text": ".searchable-content p, .searchable-content li, .searchable-content table td:last-child"
+  },
+  "selectors_exclude": [
+    ".searchable-content style",
+    "#table-of-contents",
+    "#table-of-contents + ul"
+  ],
+  "separatorsToIndex": "_+@/",
+  "conversation_id": [
+    "818681482"
+  ],
+  "nb_hits": 786
+}

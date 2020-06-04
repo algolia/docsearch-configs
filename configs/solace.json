@@ -17,11 +17,19 @@
       ]
     },
     {
-      "url": "https://docs.solace.com/Solace-CLI/CLI-Reference/APPL_CLI_Commands",
+      "url": "https://docs.solace.com/Solace-CLI/CLI-Reference/APPL_CLI_Commands.html",
       "selectors_key": "cli_command",
       "tags": [
         "cli_command",
         "appl"
+      ]
+    },
+    {
+      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/index.html",
+      "selectors_key": "api_reference_guide_c",
+      "tags": [
+        "api_reference_guide",
+        "c"
       ]
     },
     {
@@ -33,11 +41,27 @@
       ]
     },
     {
-      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/net",
+      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/index.html",
       "selectors_key": "api_reference_guide_net",
       "tags": [
         "api_reference_guide",
         "net"
+      ]
+    },
+    {
+      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/",
+      "selectors_key": "api_reference_guide_net",
+      "tags": [
+        "api_reference_guide",
+        "net"
+      ]
+    },
+    {
+      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/jrto/index.html",
+      "selectors_key": "api_reference_guide",
+      "tags": [
+        "api_reference_guide",
+        "jrto"
       ]
     },
     {
@@ -46,6 +70,14 @@
       "tags": [
         "api_reference_guide",
         "jrto"
+      ]
+    },
+    {
+      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/java/index.html",
+      "selectors_key": "api_reference_guide",
+      "tags": [
+        "api_reference_guide",
+        "java"
       ]
     },
     {
@@ -79,83 +111,122 @@
   ],
   "stop_urls": [
     "html\\?",
-    "/API-Developer-Online-Ref-Documentation/java/index-all.html",
-    "-example.html$"
+    "/API-Developer-Online-Ref-Documentation/java/index-all.html$",
+    "-example.html$",
+    "\\.js$",
+    "\\.png$",
+    "\\.gif$",
+    "\\.png$",
+    "Not-Found.htm",
+    "jcsmp/class-use/"
+  ],
+  "sitemap_urls": [
+    "https://docs.solace.com/Sitemap.xml"
   ],
   "selectors": {
     "default": {
-      "lvl0": "#contentBody div h1",
-      "lvl1": "#contentBody div h2",
-      "lvl2": "#contentBody div h3",
-      "lvl3": "#contentBody div h4",
-      "lvl4": "#contentBody div h5",
-      "lvl5": "#contentBody div h6",
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "NOT USED"
+      },
+      "lvl1": "#contentBody div h1",
+      "lvl2": "#contentBody div h2",
+      "lvl3": "#contentBody div h3",
+      "lvl4": "#contentBody div h4",
+      "lvl5": "#contentBody div h5",
+      "lvl6": "#contentBody div h6",
       "text": "#contentBody div p, #contentBody div li"
     },
     "learning_center": {
       "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "NOT USED"
+      },
+      "lvl1": {
         "selector": "//*[contains(@class,'wy-menu')]//ul[contains(@class,'current')]/preceding::span[contains(@class,'caption-text')][1]",
         "type": "xpath",
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl1": ".section h1",
-      "lvl2": ".section h2",
-      "lvl3": ".section h3",
-      "lvl4": ".section h4",
-      "lvl5": ".section h6",
-      "text": ".section p, .section li, .sample_snippet"
+      "lvl2": ".section h1",
+      "lvl3": ".section h2",
+      "lvl4": ".section h3",
+      "lvl5": ".section h4",
+      "lvl6": ".section h6",
+      "text": ".section p, .section li"
     },
     "api_reference_guide": {
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "API Developer Online Ref"
+        "default_value": "NOT USED"
       },
       "lvl1": {
         "selector": ".header h2.title",
         "global": true
       },
-      "lvl2": ".summary, .details h3",
-      "lvl3": ".summary h4, .details h4",
-      "lvl4": ".details .strong",
-      "text": ".contentContainer .block, .contentContainer dd"
+      "lvl2": ".details h3",
+      "lvl3": ".details h4",
+      "lvl4": ".details dt",
+      "text": ".contentContainer .block, .details dd"
     },
     "api_reference_guide_net": {
       "lvl0": {
         "selector": "",
         "global": true,
+        "default_value": "NOT USED"
+      },
+      "lvl1": {
+        "selector": "",
+        "global": true,
         "default_value": "API Developer Online Ref"
       },
-      "lvl1": ".titleColumn h1",
+      "lvl2": ".titleColumn h1",
       "text": ".topicContent > p, .topicContent > .summary"
     },
     "api_reference_guide_c": {
       "lvl0": {
         "selector": "",
         "global": true,
+        "default_value": "NOT USED"
+      },
+      "lvl1": {
+        "selector": "",
+        "global": true,
         "default_value": "API Developer Online Ref"
       },
-      "lvl1": ".contents h1",
-      "lvl2": ".contents h2",
-      "lvl3": ".contents h3,.contents  td.memname",
-      "lvl4": ".contents h4",
-      "lvl5": ".contents h5",
+      "lvl2": ".contents h1",
+      "lvl3": ".contents h2",
+      "lvl4": ".contents h3,.contents  td.memname",
+      "lvl5": ".contents h4",
+      "lvl6": ".contents h5",
       "text": ".contents p, .contents li"
     },
     "event_reference_guide": {
-      "lvl0": ".full_section h2",
-      "lvl1": ".module_div > h3",
-      "lvl2": ".module_div > .event_outer_div h3",
-      "lvl3": ".event_inner_div [class='event_label']",
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "NOT USED"
+      },
+      "lvl1": ".full_section h2",
+      "lvl2": ".module_div > h3",
+      "lvl3": ".module_div > .event_outer_div h3",
+      "lvl4": ".event_inner_div [class='event_label']",
       "text": ".event_inner_div .event_description, .event_inner_div .event_recommended_actions"
     },
     "cli_command": {
-      "lvl0": ".book-title",
-      "lvl1": ".section-title,blockquote h2",
-      "lvl2": "blockquote h3,.cmd-section-title",
-      "lvl3": "blockquote h4",
-      "lvl4": "blockquote h5",
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "NOT USED"
+      },
+      "lvl1": ".book-title",
+      "lvl2": ".section-title,blockquote h2",
+      "lvl3": "blockquote h3,.cmd-section-title",
+      "lvl4": "blockquote h4",
+      "lvl5": "blockquote h5",
       "text": "blockquote li, blockquote p, .cmd-help td:first-child, .cmd-help td:last-child, .cmd-help-text"
     }
   },
@@ -170,5 +241,5 @@
   "conversation_id": [
     "702227168"
   ],
-  "nb_hits": 66250
+  "nb_hits": 93456
 }

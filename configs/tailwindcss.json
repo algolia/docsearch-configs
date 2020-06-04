@@ -1,25 +1,69 @@
 {
   "index_name": "tailwindcss",
   "start_urls": [
-    "https://tailwindcss.com/docs"
+    {
+      "url": "https://tailwindcss.com/",
+      "selectors_key": "v1",
+      "extra_attributes": {
+        "version": [
+          "v1"
+        ]
+      }
+    },
+    {
+      "url": "https://v0.tailwindcss.com/docs",
+      "extra_attributes": {
+        "version": [
+          "v0"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//nav[contains(@id, 'nav')]//a[contains(@class, 'font-semibold')][1]/preceding::p[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "//nav[contains(@id, 'nav')]//a[contains(@class, 'font-semibold')][1]/preceding::p[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".markdown h1",
+      "lvl2": ".markdown h2",
+      "lvl3": ".markdown h3",
+      "lvl4": ".markdown h4",
+      "lvl5": ".markdown h5",
+      "text": ".markdown > p, .markdown > ul li, .markdown td:first-child, .markdown .text-xl"
     },
-    "lvl1": ".markdown h1",
-    "lvl2": ".markdown h2",
-    "lvl3": ".markdown h3",
-    "lvl4": ".markdown h4",
-    "lvl5": ".markdown h5",
-    "text": ".markdown p, .markdown li"
+    "v1": {
+      "lvl0": {
+        "selector": "//nav[contains(@id, 'nav')]//*[contains(@class, 'opacity-25')][1]/preceding::h5[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".markdown h1",
+      "lvl2": ".markdown h2",
+      "lvl3": ".markdown h3",
+      "lvl4": ".markdown h4",
+      "lvl5": ".markdown h5",
+      "text": ".markdown > p, .markdown > ul li, .markdown td:first-child, .markdown .text-gray-600"
+    }
+  },
+  "selectors_exclude": [
+    "p.text-base",
+    ".list-inside",
+    ".bg-gray-200"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "tags"
+    ],
+    "separatorsToIndex": "@_"
   },
   "conversation_id": [
     "459164857"
   ],
-  "nb_hits": 1170
+  "nb_hits": 6249
 }

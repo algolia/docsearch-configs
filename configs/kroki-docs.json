@@ -1,0 +1,68 @@
+{
+  "index_name": "kroki-docs",
+  "start_urls": [
+    {
+      "url": "https://docs.kroki.io/(?P<component>.*?)/",
+      "variables": {
+        "component": [
+          "kroki"
+        ]
+      },
+      "selectors_key": "versionless"
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.kroki.io/sitemap.xml"
+  ],
+  "scrape_start_urls": true,
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".navigation-explore .context .title",
+        "global": true
+      },
+      "lvl1": ".doc > h1:first-of-type",
+      "lvl2": ".doc .sect1 > h2:first-child",
+      "lvl3": ".doc .sect2 > h3:first-child",
+      "lvl4": ".doc .sect3 > h4:first-child",
+      "text": ".doc p, .doc dt, .doc td.context, .doc th.tableblock"
+    },
+    "versionless": {
+      "lvl0": {
+        "selector": ".navigation-explore .context .title",
+        "global": true
+      },
+      "lvl1": ".doc > h1:first-of-type",
+      "lvl2": ".doc .sect1 > h2:first-child",
+      "lvl3": ".doc .sect2 > h3:first-child",
+      "lvl4": ".doc .sect3 > h4:first-child",
+      "text": ".doc p, .doc dt, .doc td.context, .doc th.tableblock"
+    }
+  },
+  "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "component",
+      "version"
+    ],
+    "attributesToRetrieve": [
+      "anchor",
+      "content",
+      "hierarchy",
+      "url",
+      "component",
+      "version"
+    ],
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "desc(version)",
+      "desc(weight.level)",
+      "asc(weight.position)"
+    ]
+  },
+  "conversation_id": [
+    "774875398"
+  ],
+  "nb_hits": 240
+}

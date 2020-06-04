@@ -1,0 +1,43 @@
+{
+  "index_name": "kloudless",
+  "start_urls": [
+    {
+      "url": "https://developers.kloudless.com/guides/",
+      "selectors_key": "guides",
+      "tags": [
+        "guides"
+      ]
+    },
+    "https://developers.kloudless.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "#content-header h2",
+        "globa": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "#content h1",
+      "lvl2": "#content h2",
+      "lvl3": "#content h3",
+      "lvl4": "#content h4",
+      "lvl5": "#content h5",
+      "lvl6": "#content h6",
+      "text": "#content p, #content li"
+    },
+    "guides": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "lvl5": ".content h6",
+      "text": ".content p, .content li"
+    }
+  },
+  "conversation_id": [
+    "883685987"
+  ],
+  "nb_hits": 15998
+}

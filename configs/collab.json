@@ -2,21 +2,39 @@
   "index_name": "collab",
   "start_urls": [
     {
-      "url": "http://docs.collab.net/dlm174/",
+      "url": "http://docs.collab.net/teamforge201/",
       "tags": [
-        "dlm17.4"
+        "teamforge201"
       ]
     },
     {
-      "url": "http://docs.collab.net/dlm178/",
+      "url": "http://docs.collab.net/teamforge200/",
       "tags": [
-        "dlm17.8"
+        "teamforge200"
       ]
     },
     {
-      "url": "http://docs.collab.net/dlm20-integrations/",
+      "url": "http://docs.collab.net/teamforge193/",
       "tags": [
-        "dlm2.0"
+        "teamforge193"
+      ]
+    },
+    {
+      "url": "http://docs.collab.net/teamforge192/",
+      "tags": [
+        "teamforge192"
+      ]
+    },
+    {
+      "url": "http://docs.collab.net/teamforge191/",
+      "tags": [
+        "teamforge191"
+      ]
+    },
+    {
+      "url": "http://docs.collab.net/teamforge190/",
+      "tags": [
+        "teamforge190"
       ]
     },
     {
@@ -47,24 +65,28 @@
     "lvl0": {
       "selector": "//*[@id='mysidebar']/li/ul/li[contains(@class, 'active')]/a/../../../a",
       "type": "xpath",
-      "global": true
+      "global": true,
+      "default_value": "Documentation"
     },
     "lvl1": {
       "selector": "//*[@id='mysidebar']/li/ul/li[contains(@class, 'active')]/a",
       "type": "xpath",
       "global": true
     },
-    "lvl2": "#tg-sb-content h1",
-    "lvl3": "#tg-sb-content h2",
-    "lvl4": "#tg-sb-content h3",
-    "lvl5": "#tg-sb-content h4",
-    "lvl6": "#tg-sb-content h5",
-    "text": "#tg-sb-content p, #tg-sb-content li"
+    "lvl2": ".post-header h1",
+    "lvl3": ".post-content h2",
+    "lvl4": ".post-content h3",
+    "lvl5": ".post-content h4",
+    "lvl6": ".post-content h5",
+    "text": ".post-content p, .post-content li, .post-content .summary"
   },
   "min_indexed_level": 1,
   "scrap_start_urls": false,
+  "selectors_exclude": [
+    "#toc"
+  ],
   "conversation_id": [
     "555093088"
   ],
-  "nb_hits": 52361
+  "nb_hits": 166197
 }

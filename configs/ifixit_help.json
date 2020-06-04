@@ -1,0 +1,28 @@
+{
+  "index_name": "ifixit_help",
+  "start_urls": [
+    "https://help.ifixit.com/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://help.ifixit.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "aside .active  ",
+      "global": true,
+      "default_value": "Guides"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1115633984"
+  ],
+  "nb_hits": 1120
+}

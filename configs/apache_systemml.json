@@ -1,0 +1,30 @@
+{
+  "index_name": "apache_systemml",
+  "start_urls": [
+    "http://systemml.apache.org/docs/1.2.0"
+  ],
+  "stop_urls": [
+    "\\?",
+    "/api/",
+    "^((?!\\.html).)*$",
+    "/files/"
+  ],
+  "selectors": {
+    "lvl0": "#content h1.title",
+    "lvl1": "#content h1:not(.title)",
+    "lvl2": "#content h2",
+    "lvl3": "#content h3",
+    "lvl4": "#content h4, #content td:first-child",
+    "lvl5": "#content h5",
+    "lvl6": "#content h6",
+    "text": "#content p, #content li, #content td:nth-child(n+2)"
+  },
+  "selectors_exclude": [
+    "#markdown-toc",
+    ".title + ul"
+  ],
+  "conversation_id": [
+    "791339348"
+  ],
+  "nb_hits": 4372
+}

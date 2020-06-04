@@ -1,0 +1,20 @@
+{
+  "index_name": "simpay",
+  "start_urls": [
+    "https://docs.simpay.pl"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4, .content td:first-child",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li, .content td:last-child"
+  },
+  "conversation_id": [
+    "1163982860"
+  ],
+  "nb_hits": 218
+}

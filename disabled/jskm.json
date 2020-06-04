@@ -1,0 +1,29 @@
+{
+  "index_name": "jskm",
+  "start_urls": [
+    "https://jinseob2kim.github.io/jskm"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".contents h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3, .contents th",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h5",
+    "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+  },
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "679207049"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 210
+}

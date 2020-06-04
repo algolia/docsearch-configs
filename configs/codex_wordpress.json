@@ -16,7 +16,10 @@
     "lvl3": "#bodyContent h4",
     "lvl4": "#bodyContent h5",
     "text": "#bodyContent p, #bodyContent li",
-    "language": {"selector":".LanguageLinks .selflink","default_value":"English"}
+    "language": {
+      "selector": ".LanguageLinks .selflink",
+      "default_value": "English"
+    }
   },
   "min_indexed_level": 1,
   "selectors_exclude": [
@@ -30,5 +33,5 @@
     ]
   },
   "only_content_level": true,
-  "nb_hits": 70779
+  "nb_hits": 49008
 }

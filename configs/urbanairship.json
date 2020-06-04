@@ -15,15 +15,14 @@
       "selector": ".article__heading h1",
       "default_value": "Documentation"
     },
-    "lvl1": ".article__body h1",
-    "lvl2": ".article__body h2",
-    "lvl3": ".article__body h3",
-    "lvl4": ".article__body h4",
-    "lvl5": ".article__body h5",
+    "lvl1": ".article__body h2",
+    "lvl2": ".article__body h3",
+    "lvl3": ".article__body h4",
+    "lvl4": ".article__body h5",
     "text": ".article__body p, .article__body li"
   },
   "conversation_id": [
     "377464724"
   ],
-  "nb_hits": 13529
+  "nb_hits": 27167
 }

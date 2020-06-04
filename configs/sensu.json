@@ -2,75 +2,39 @@
   "index_name": "sensu",
   "start_urls": [
     {
-      "url": "https://docs.sensu.io/sensu-core/(?P<version>.*?)/",
-      "variables": {
-        "version": {
-          "url": "https://docs.sensu.io/sensu-core/latest/",
-          "js": "let versions=[]; for (let b of document.querySelectorAll('#versionButton a.versionButtonTitle, .hiddenVersions a')){versions.push(b.text)};return JSON.stringify(versions)"
-        }
-      },
+      "url": "https://docs.sensu.io/sensu-core/",
       "tags": [
         "sensu-core"
       ]
     },
     {
-      "url": "https://docs.sensu.io/sensu-enterprise/(?P<version>.*?)/",
-      "variables": {
-        "version": {
-          "url": "https://docs.sensu.io/sensu-enterprise/latest/",
-          "js": "let versions=[]; for (let b of document.querySelectorAll('#versionButton a.versionButtonTitle, .hiddenVersions a')){versions.push(b.text)};return JSON.stringify(versions)"
-        }
-      },
+      "url": "https://docs.sensu.io/sensu-enterprise/",
       "tags": [
         "sensu-enterprise"
       ]
     },
     {
-      "url": "https://docs.sensu.io/sensu-enterprise-dashboard/(?P<version>.*?)/",
-      "variables": {
-        "version": {
-          "url": "https://docs.sensu.io/sensu-enterprise-dashboard/latest/",
-          "js": "let versions=[]; for (let b of document.querySelectorAll('#versionButton a.versionButtonTitle, .hiddenVersions a')){versions.push(b.text)};return JSON.stringify(versions)"
-        }
-      },
+      "url": "https://docs.sensu.io/sensu-enterprise-dashboard/",
       "tags": [
         "sensu-enterprise-dashboard"
       ]
     },
     {
-      "url": "https://docs.sensu.io/uchiwa/(?P<version>.*?)/",
-      "variables": {
-        "version": {
-          "url": "https://docs.sensu.io/uchiwa/latest/",
-          "js": "let versions=[]; for (let b of document.querySelectorAll('#versionButton a.versionButtonTitle, .hiddenVersions a')){versions.push(b.text)};return JSON.stringify(versions)"
-        }
-      },
+      "url": "https://docs.sensu.io/uchiwa/",
       "tags": [
         "uchiwa"
       ]
     },
     {
-      "url": "https://docs.sensu.io/plugins/(?P<version>.*?)/",
-      "variables": {
-        "version": {
-          "url": "https://docs.sensu.io/plugins/latest/",
-          "js": "let versions=[]; for (let b of document.querySelectorAll('#versionButton a.versionButtonTitle, .hiddenVersions a')){versions.push(b.text)};return JSON.stringify(versions)"
-        }
-      },
+      "url": "https://docs.sensu.io/plugins/",
       "tags": [
         "plugins"
       ]
     },
     {
-      "url": "https://docs.sensu.io/extensions/(?P<version>.*?)/",
-      "variables": {
-        "version": {
-          "url": "https://docs.sensu.io/extensions/latest/",
-          "js": "let versions=[]; for (let b of document.querySelectorAll('#versionButton a.versionButtonTitle, .hiddenVersions a')){versions.push(b.text)};return JSON.stringify(versions)"
-        }
-      },
+      "url": "https://docs.sensu.io/sensu-go/",
       "tags": [
-        "extensions"
+        "sensu-go"
       ]
     }
   ],
@@ -79,16 +43,25 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "article.article h1",
-    "lvl1": "article.article h2",
-    "lvl2": "article.article h3",
-    "lvl3": "article.article h4",
-    "lvl4": "article.article h5",
-    "text": "article.article p, article.article li"
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
   },
-  "min_indexed_level":1,
-  "conversation_id": [
-    "615045060"
+  "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "version"
+    ]
+  },
+  "selectors_exclude": [
+    "article h1 + ul"
   ],
-  "nb_hits": 30860
+  "conversation_id": [
+    "825649018"
+  ],
+  "nb_hits": 93577
 }

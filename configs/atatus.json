@@ -1,0 +1,24 @@
+{
+  "index_name": "atatus",
+  "start_urls": [
+    "https://docs.atatus.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".post-header h1",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": ".post-content h2",
+    "lvl2": ".post-content h3",
+    "lvl3": ".post-content h4",
+    "lvl4": ".post-content h5",
+    "lvl5": ".post-content h6",
+    "text": ".post-content p, .post-content li"
+  },
+  "conversation_id": [
+    "843099898"
+  ],
+  "nb_hits": 2684
+}

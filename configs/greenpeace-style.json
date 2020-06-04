@@ -1,0 +1,28 @@
+{
+  "index_name": "greenpeace-style",
+  "start_urls": [
+    "https://style.greenpeace.org.uk/"
+  ],
+  "sitemap_urls": [
+    "https://style.greenpeace.org.uk/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".active-parent > span",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "911769847"
+  ],
+  "nb_hits": 304
+}

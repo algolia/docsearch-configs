@@ -35,5 +35,33 @@
   "conversation_id": [
     "636395992"
   ],
-  "nb_hits": 3151
+  "custom_settings": {
+    "synonyms": [
+      [
+        "paging",
+        "pagination"
+      ],
+      [
+        "tablecontainer",
+        "tablecomponent"
+      ],
+      [
+        "download",
+        "install"
+      ],
+      [
+        "styles",
+        "appearance",
+        "themes",
+        "colors"
+      ],
+      [
+        "datagrid",
+        "react grid",
+        "data grid",
+        "getting started"
+      ]
+    ]
+  },
+  "nb_hits": 3729
 }

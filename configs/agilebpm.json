@@ -1,0 +1,34 @@
+{
+  "index_name": "agilebpm",
+  "start_urls": [
+    "http://www.agilebpm.cn/"
+  ],
+  "sitemap_urls_regexs": [
+    "/docs/"
+  ],
+  "stop_urls": [
+    "index.html",
+    "/more/$"
+  ],
+  "sitemap_urls": [
+    "http://www.agilebpm.cn/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//*[contains(@class,'current')]/preceding::*[contains(@class,'sidebar-title')][1]|//h1[@class='article-title']",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".article-content h2",
+    "lvl2": ".article-content h3",
+    "lvl3": ".article-content h4",
+    "lvl4": ".article-content h5",
+    "lvl5": ".article-content h6",
+    "text": ".article-content p, .article-content li"
+  },
+  "conversation_id": [
+    "767315134"
+  ],
+  "nb_hits": 2456
+}

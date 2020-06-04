@@ -1,0 +1,30 @@
+{
+  "index_name": "laravel_nova",
+  "start_urls": [
+    "https://nova.laravel.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".theme-default-content h1",
+    "lvl1": ".theme-default-content h2",
+    "lvl2": ".theme-default-content h3",
+    "lvl3": ".theme-default-content h4",
+    "lvl4": ".theme-default-content h5",
+    "lvl5": ".theme-default-content h6",
+    "text": ".theme-default-content p, .theme-default-content li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "tags"
+    ]
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "935132805"
+  ],
+  "nb_hits": 2991
+}

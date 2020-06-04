@@ -1,0 +1,30 @@
+{
+  "index_name": "developer_tradier",
+  "start_urls": [
+    "https://documentation.tradier.com"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://documentation.tradier.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#documentation h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#documentation h2",
+    "lvl2": "#documentation h3",
+    "lvl3": "#documentation h4, #documentation td:first-child",
+    "lvl4": "#documentation h5",
+    "lvl5": "#documentation h6",
+    "text": "#documentation p, #documentation li, #documentation td:last-child"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "835157540"
+  ],
+  "nb_hits": 3288
+}

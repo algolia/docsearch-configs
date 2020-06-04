@@ -1,0 +1,81 @@
+{
+  "index_name": "jhipster",
+  "start_urls": [
+    {
+      "url": "https://www.jhipster.tech/\\d{4}/\\d{2}/\\d{2}/",
+      "selectors_key": "release",
+      "tags": [
+        "release"
+      ]
+    },
+    {
+      "url": "https://www.jhipster.tech/tips/",
+      "selectors_key": "tips",
+      "tags": [
+        "tips"
+      ]
+    },
+    {
+      "url": "https://www.jhipster.tech/",
+      "tags": [
+        "documentation"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "/documentation-archive/",
+    "tech/cn/"
+  ],
+  "sitemap_urls": [
+    "https://www.jhipster.tech/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'nav')]//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".page-content-wrapper h1",
+      "lvl2": ".page-content-wrapper h2",
+      "lvl3": ".page-content-wrapper h3",
+      "lvl4": ".page-content-wrapper h4",
+      "lvl5": ".page-content-wrapper h5",
+      "lvl6": ".page-content-wrapper h6",
+      "text": ".page-content-wrapper p, .page-content-wrapper li"
+    },
+    "release": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Release"
+      },
+      "lvl1": ".page-content-wrapper h1",
+      "lvl2": ".page-content-wrapper h2",
+      "lvl3": ".page-content-wrapper h3",
+      "lvl4": ".page-content-wrapper h4",
+      "lvl5": ".page-content-wrapper h5",
+      "lvl6": ".page-content-wrapper h6",
+      "text": ".page-content-wrapper p, .page-content-wrapper li"
+    },
+    "tips": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Tips"
+      },
+      "lvl1": ".page-content-wrapper h1",
+      "lvl2": ".page-content-wrapper h2",
+      "lvl3": ".page-content-wrapper h3",
+      "lvl4": ".page-content-wrapper h4",
+      "lvl5": ".page-content-wrapper h5",
+      "lvl6": ".page-content-wrapper h6",
+      "text": ".page-content-wrapper p, .page-content-wrapper li"
+    }
+  },
+  "conversation_id": [
+    "800768950"
+  ],
+  "nb_hits": 9343
+}

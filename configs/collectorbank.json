@@ -1,0 +1,32 @@
+{
+  "index_name": "collectorbank",
+  "start_urls": [
+    "https://web-collector-payments-docs-prod.azurewebsites.net/docs/",
+    "https://web-collector-payments-docs-prod.azurewebsites.net/docs/checkout/introduction"
+  ],
+  "sitemap_urls": [
+    "https://web-collector-payments-docs-prod.azurewebsites.net/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class^='docItemContainer_'] h1",
+    "lvl2": "[class^='docItemContainer_'] h2",
+    "lvl3": "[class^='docItemContainer_'] h3",
+    "lvl4": "[class^='docItemContainer_'] h4",
+    "lvl5": "[class^='docItemContainer_'] h5",
+    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "1058374753"
+  ],
+  "nb_hits": 2517
+}

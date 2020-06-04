@@ -1,0 +1,29 @@
+{
+  "index_name": "zulipchat",
+  "start_urls": [
+    "https://zulipchat.com/help/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'sidebar')]//a[./text()=//*[contains(@class,'markdown')]//h1]/preceding::h2[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
+    "text": ".markdown p, .markdown li"
+  },
+  "conversation_id": [
+    "873318282"
+  ],
+  "selectors_exclude": [
+    "#footer"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 2963
+}

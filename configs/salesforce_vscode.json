@@ -1,0 +1,29 @@
+{
+  "index_name": "salesforce_vscode",
+  "start_urls": [],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://developer.salesforce.com/tools/vscode/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav > ul > li.slds-is-selected > *:nth-child(1)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".site-main h1",
+    "lvl2": ".docs h2",
+    "lvl3": ".docs h3",
+    "lvl4": ".docs h4",
+    "lvl5": ".docs h5",
+    "lvl6": ".docs h6",
+    "text": ".docs p, .docs li"
+  },
+  "keep_tags": [
+    "code"
+  ],
+  "conversation_id": [
+    "774362537"
+  ],
+  "nb_hits": 2294
+}

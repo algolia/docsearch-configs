@@ -1,0 +1,35 @@
+{
+  "index_name": "textrazor",
+  "start_urls": [
+    {
+      "url": "https://www.textrazor.com/blog",
+      "tags": [
+        "blog"
+      ],
+      "selectors_key": "blog"
+    },
+    "https://www.textrazor.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": ".docs-description h1, .doc-row h1,#tagline h1",
+      "lvl1": ".docs-description h2, .doc-row h2, .span9 h3",
+      "lvl2": ".docs-description h3, .doc-row h3, .span9 h5",
+      "lvl3": ".docs-description h4, .doc-row h4, .span9 h5",
+      "lvl4": ".docs-description h5, .doc-row h5, .span9 h6",
+      "lvl5": ".docs-description h6, .doc-row h6",
+      "text": ".docs-description p, .doc-row p, .span9 p , .docs-description li, .doc-row li, .span9 li, #tagline p"
+    },
+    "blog": {
+      "lvl0": "#tagline h1",
+      "lvl1": "section h2",
+      "lvl2": "section h3",
+      "lvl3": "section h4",
+      "lvl4": "section h5",
+      "lvl5": "section h6",
+      "text": "section p, section li"
+    }
+  },
+  "nb_hits": 1259
+}

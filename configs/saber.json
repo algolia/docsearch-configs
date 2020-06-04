@@ -1,0 +1,21 @@
+{
+  "index_name": "saber",
+  "start_urls": [
+    "https://saber.land"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page-title",
+    "lvl1": ".page-content h2",
+    "lvl2": ".page-content h3",
+    "lvl3": ".page-content h4",
+    "lvl4": ".page-content h5",
+    "lvl5": ".page-content h6",
+    "text": ".page-content p, .page-content li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "888676970"
+  ],
+  "nb_hits": 717
+}

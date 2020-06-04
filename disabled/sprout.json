@@ -1,52 +1,26 @@
 {
   "index_name": "sprout",
   "start_urls": [
-    {
-      "url": "http://sprout.barrelstrengthdesign.com/craft-plugins/(?P<project>.*?)/docs/getting-started/introduction",
-      "variables": {
-        "project": [
-          "seo",
-          "forms",
-          "email",
-          "reports",
-          "support",
-          "active",
-          "encode-email",
-          "fields",
-          "invisible-captcha",
-          "notes"
-        ]
-      }
-    },
-    {
-      "url": "http://sprout.barrelstrengthdesign.com/craft-plugins/(?P<project>.*?)/docs/.*",
-      "variables": {
-        "project": [
-          "seo",
-          "forms",
-          "email",
-          "reports",
-          "support",
-          "active",
-          "encode-email",
-          "fields",
-          "invisible-captcha",
-          "notes"
-        ]
-      }
-    }
+    "https://fieldguide.sproutfund.org/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://fieldguide.sproutfund.org/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[@class=\"fa fa-leaf fa-fw\"]/../../../../span",
-      "type": "xpath"
-    },
-    "lvl1": ".docs-body h1",
-    "lvl2": ".docs-body h2",
-    "lvl3": ".docs-body h3",
-    "lvl4": ".docs-body h4",
-    "text": ".docs-body p"
+    "lvl0": ".bd-content h1",
+    "lvl1": ".bd-content h2",
+    "lvl2": ".bd-content h3",
+    "lvl3": ".bd-content h4",
+    "lvl4": ".bd-content h5",
+    "text": ".bd-content p, .bd-content li"
   },
-  "min_indexed_level": 2,
-  "nb_hits": 699
+  "selectors_exclude": [
+    "#summary-table-of-contents",
+    "footer"
+  ],
+  "conversation_id": [
+    "586226926"
+  ],
+  "nb_hits": 2260
 }

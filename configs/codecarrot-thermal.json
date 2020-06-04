@@ -1,0 +1,21 @@
+{
+  "index_name": "codecarrot-thermal",
+  "start_urls": [
+    "https://thermal.codecarrot.net/docs/getting-started",
+    "https://thermal.codecarrot.net/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "lvl5": ".post h6",
+    "text": ".post p, .post li"
+  },
+  "conversation_id": [
+    "895345891"
+  ],
+  "nb_hits": 232
+}

@@ -1,0 +1,24 @@
+{
+  "index_name": "flo-scss",
+  "start_urls": [
+    "https://flo-scss.flo.center/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".flo-scss-content p, .flo-scss-content li",
+    "lvl0": ".flo-scss-content h1",
+    "lvl1": ".flo-scss-content h2",
+    "lvl2": ".flo-scss-content h3",
+    "lvl3": ".flo-scss-content h4",
+    "lvl4": ".flo-scss-content h5",
+    "lvl5": ".flo-scss-content h6"
+  },
+  "sitemap_urls": [
+    "https://flo-scss.flo.center/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1092287484"
+  ],
+  "nb_hits": 3376
+}

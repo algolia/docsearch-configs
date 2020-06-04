@@ -2,22 +2,24 @@
   "index_name": "dgraph",
   "start_urls": [
     {
-      "url": "https://docs.dgraph.io/(?P<version>.*?)/",
+      "url": "https://dgraph.io/docs/(?P<version>.*?)/",
       "variables": {
         "version": {
-          "url": "https://docs.dgraph.io/",
+          "url": "https://dgraph.io/docs",
           "js": "var versions = $('select.version-selector option').map(function(i, e) { return $(e).text(); }).toArray(); return JSON.stringify(versions);"
         }
       }
     },
     {
-      "url": "https://docs.dgraph.io/",
+      "url": "https://dgraph.io/docs",
       "extra_attributes": {
         "version": "latest"
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    ".*(?<!/)$"
+  ],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
@@ -31,5 +33,5 @@
   "conversation_id": [
     "528483574"
   ],
-  "nb_hits": 19386
+  "nb_hits": 42072
 }

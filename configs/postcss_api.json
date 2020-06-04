@@ -3,14 +3,28 @@
   "start_urls": [
     "http://api.postcss.org/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\.js\\.html",
+    "\\.es6\\.html",
+    "/index\\.html$"
+  ],
   "selectors": {
-    "lvl0": "#main h1",
+    "lvl0": {
+      "selector": "#main .page-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": "#main h3",
-    "lvl2": "#main h4:not(span):not(a)",
+    "lvl2": "#main h4",
     "lvl3": "#main h5",
+    "lvl4": "#main h6, #main td.name",
     "text": "#main p, #main li"
   },
+  "selectors_exclude": [
+    ".signature",
+    ".type-signature",
+    ".details"
+  ],
   "only_content_level": true,
-  "nb_hits": 1474
+  "nb_hits": 1038
 }

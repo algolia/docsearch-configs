@@ -2,46 +2,159 @@
   "index_name": "pingcap",
   "start_urls": [
     {
-      "url": "https://pingcap.com/docs-cn",
+      "url": "https://pingcap.com/docs-cn/stable/",
+      "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "stable"
+        ]
+      },
       "tags": [
         "cn"
       ]
     },
     {
-      "url": "https://pingcap.com/docs/",
+      "url": "https://pingcap.com/docs-cn/v2.1/",
+      "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "v2.1"
+        ]
+      },
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://pingcap.com/docs-cn/dev/",
+      "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "dev"
+        ]
+      },
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://pingcap.com/docs-cn/v3.1/",
+      "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "v3.1"
+        ]
+      },
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://pingcap.com/docs/stable/",
+      "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "stable"
+        ]
+      },
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://pingcap.com/docs/v2.1/",
+      "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "v2.1"
+        ]
+      },
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://pingcap.com/docs/dev/",
+      "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "dev"
+        ]
+      },
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://pingcap.com/docs/v3.1/",
+      "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "v3.1"
+        ]
+      },
       "tags": [
         "en"
       ]
     }
   ],
   "stop_urls": [
-    "/docs/v1.0/",
-    "/docs/v2.0/",
-    "/docs-cn/v1.0/",
-    "/docs-cn/v2.0/"
+    "/docs/v2.1/TOC",
+    "/docs/stable/TOC",
+    "/docs/dev/TOC",
+    "/docs/v3.1/TOC",
+    "/docs/v2.1-legacy",
+    "/docs/v2.0",
+    "/docs/v1.0",
+    "/docs-cn/v2.1-legacy",
+    "/docs-cn/v2.0",
+    "/docs-cn/v1.0",
+    "/docs-cn/v2.1/TOC",
+    "/docs-cn/stable/TOC",
+    "/docs-cn/dev/TOC",
+    "/docs-cn/v3.1/TOC"
   ],
-  "selectors": {
-    "lvl0": {
-      "selector": "header .navigation li.sel a",
-      "global": true,
-      "default_value": "More"
-    },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li"
-  },
   "sitemap_urls": [
     "https://pingcap.com/sitemap.xml"
   ],
-  "stop_content": [
-    "Sorry... 404"
+  "selectors": {
+    "default": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "docs_cn": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li, .content table, .content pre, .content code"
+    },
+    "docs": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li, .content table, .content pre, .content code"
+    }
+  },
+  "selectors_exclude": [
+    ".error"
   ],
-  "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "428916846"
   ],
-  "nb_hits": 34501
+  "only_content_level": true,
+  "nb_hits": 223632
 }

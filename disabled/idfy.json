@@ -1,0 +1,25 @@
+{
+  "index_name": "idfy",
+  "start_urls": [
+    "https://dev.idfy.io/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1:first-child",
+    "lvl1": "article h1:not(:first-child)",
+    "lvl2": "article h3",
+    "lvl3": "article h4, article td:first-child",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li, article td:last-child"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "selectors_exclude": [
+    ".toc-indentation"
+  ],
+  "conversation_id": [
+    "763033501"
+  ],
+  "nb_hits": 5309
+}

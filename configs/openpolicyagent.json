@@ -1,0 +1,32 @@
+{
+  "index_name": "openpolicyagent",
+  "start_urls": [
+    "https://www.openpolicyagent.org/docs"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.openpolicyagent.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li",
+    "version": {
+      "selector": "div.dropdown-trigger > button > span:nth-child(1) > strong",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "883786640"
+  ],
+  "nb_hits": 11121
+}

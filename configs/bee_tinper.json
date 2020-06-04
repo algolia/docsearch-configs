@@ -1,0 +1,31 @@
+{
+  "index_name": "bee_tinper",
+  "start_urls": [
+    "https://bee.tinper.org/"
+  ],
+  "stop_urls": [
+    "/changelog",
+    "tag="
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".docs h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs h2",
+    "lvl2": ".docs h3",
+    "lvl3": ".docs h4, .docs table td:first-child",
+    "lvl4": ".docs h5",
+    "lvl5": ".docs h6",
+    "text": ".docs p, .docs table td:not(:first-child)"
+  },
+  "selectors_exclude": [
+    ".demoPadding"
+  ],
+  "js_render": true,
+  "conversation_id": [
+    "757411054"
+  ],
+  "nb_hits": 14863
+}

@@ -1,0 +1,95 @@
+{
+  "index_name": "ax",
+  "start_urls": [
+    "https://ax.dev/docs/",
+    {
+      "url": "https://ax.dev/api/",
+      "tags": [
+        "api"
+      ],
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://ax.dev/tutorials/",
+      "tags": [
+        "tutorials"
+      ],
+      "selectors_key": "tutorials"
+    }
+  ],
+  "sitemap_urls": [
+    "https://ax.dev/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "/_",
+    "genindex.html"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Docs"
+      },
+      "lvl1": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": ".post h1",
+      "lvl3": ".post h2",
+      "lvl4": ".post h3",
+      "lvl5": ".post h4",
+      "lvl6": ".post h5",
+      "text": ".post article p, .post article li"
+    },
+    "tutorials": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Tutorials"
+      },
+      "lvl1": {
+        "selector": "//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": ".tutorialBody h1",
+      "lvl3": ".tutorialBody h2",
+      "lvl4": ".tutorialBody h3",
+      "lvl5": ".tutorialBody h4",
+      "lvl6": ".tutorialBody h5",
+      "text": ".tutorialBody p, .tutorialBody li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": "[role='main'] h1",
+      "lvl2": "[role='main'] h2",
+      "lvl3": "[role='main'] h3",
+      "lvl4": "[role='main'] h4, [role='main'] .descname",
+      "lvl5": "[role='main'] h5",
+      "text": "[role='main'] p, [role='main'] li"
+    }
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ],
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "843378114"
+  ],
+  "nb_hits": 5701
+}

@@ -1,0 +1,24 @@
+{
+  "index_name": "newtonsoft",
+  "start_urls": [
+    "https://www.newtonsoft.com/json/help/html/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'tocExpanded')]/following::a[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value":"Documentation"
+    },
+    "lvl1": ".topicContent h1",
+    "lvl2": ".topicContent h2",
+    "lvl3": ".topicContent h3",
+    "lvl4": ".topicContent h4",
+    "lvl5": ".topicContent h5",
+    "lvl6": ".topicContent h6",
+    "text": ".topicContent p, .topicContent li"
+  },
+  "selectors_exclude":["script"],
+  "nb_hits": 6761
+}

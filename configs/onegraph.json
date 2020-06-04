@@ -1,13 +1,12 @@
 {
   "index_name": "onegraph",
   "start_urls": [
-    "https://dash.onegraph.com/docs/intro.html",
     "https://dash.onegraph.com/docs"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -16,13 +15,20 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
+    "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
     ".hash-link"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "conversation_id": [
     "525113234"
   ],
-  "nb_hits": 126
+  "nb_hits": 364
 }

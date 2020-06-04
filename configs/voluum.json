@@ -1,0 +1,27 @@
+{
+  "index_name": "voluum",
+  "start_urls": [
+    "https://doc.voluum.com/"
+  ],
+  "stop_urls": [
+    "/files/"
+  ],
+  "sitemap_urls": [
+    "https://doc.voluum.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "section .titlepage .title .title",
+    "lvl1": "section h5",
+    "lvl2": "section h6, section .caution h3",
+    "text": ".site-content p"
+  },
+  "selectors_exclude": [
+    ".example",
+    ".phrase"
+  ],
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "801681718"
+  ],
+  "nb_hits": 14593
+}

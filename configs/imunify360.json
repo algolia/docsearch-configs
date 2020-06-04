@@ -1,0 +1,39 @@
+{
+  "index_name": "imunify360",
+  "start_urls": [
+    "https://docs.imunify360.com/"
+  ],
+  "stop_urls": [
+    "/#"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "js_render": true,
+  "js_wait": 1,
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "812529495"
+  ],
+  "nb_hits": 2078
+}

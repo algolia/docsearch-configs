@@ -1,0 +1,20 @@
+{
+  "index_name": "react-native-with-moxy",
+  "start_urls": [
+    "https://react-native-with.moxy.tech/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-body h1",
+    "lvl1": ".markdown-body h2",
+    "lvl2": ".markdown-body h3",
+    "lvl3": ".markdown-body h4",
+    "lvl4": ".markdown-body h5",
+    "lvl5": ".markdown-body h6",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "conversation_id": [
+    "1113927910"
+  ],
+  "nb_hits": 7
+}

@@ -1,0 +1,26 @@
+{
+  "index_name": "wot-design-mini",
+  "start_urls": [
+    "https://ftf.jd.com/wot-design-mini/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://ftf.jd.com/wot-design-mini/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "use_anchors": true,
+  "conversation_id": [
+    "1121080993"
+  ],
+  "nb_hits": 4519
+}

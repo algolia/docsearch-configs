@@ -1,0 +1,50 @@
+{
+  "index_name": "stellarburrito",
+  "start_urls": [
+    {
+      "url": "https://www.winetrack.it/stellarburrito/global",
+      "tags": [
+        "global"
+      ],
+      "selectors_key": "global"
+    },
+    {
+      "url": "https://www.winetrack.it/stellarburrito/",
+      "tags": [
+        "docs"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "\\.js\\.html",
+    "/index\\.html$"
+  ],
+  "selectors": {
+    "global": {
+      "lvl0": "#main h1",
+      "lvl1": "#main h3",
+      "lvl2": "#main h4",
+      "lvl3": "#main h5",
+      "lvl4": "#main h6, #main td.name",
+      "text": "#main p, #main li"
+    },
+    "default": {
+      "lvl0": "article h1",
+      "lvl1": "article h2",
+      "lvl2": "article h3",
+      "lvl3": "article h4",
+      "lvl4": "article h5",
+      "lvl5": "article h6",
+      "text": "article p, article li"
+    }
+  },
+  "selectors_exclude": [
+    ".signature",
+    ".type-signature"
+  ],
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "750923851"
+  ],
+  "nb_hits": 180
+}

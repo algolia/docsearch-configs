@@ -1,0 +1,40 @@
+{
+  "index_name": "botfront",
+  "start_urls": [
+    "https://botfront.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@data-testid='nav-group']/*[.//*[contains(@class,'active')]]/preceding::div[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[data-testid='main-container'] h1",
+    "lvl2": "[data-testid='main-container'] h2",
+    "lvl3": "[data-testid='main-container'] h3",
+    "lvl4": "[data-testid='main-container'] h4",
+    "text": "[data-testid='main-container'] p, [data-testid='main-container'] li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents",
+    "div style"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "849408251"
+  ],
+  "nb_hits": 559
+}

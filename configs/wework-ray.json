@@ -1,0 +1,23 @@
+{
+  "index_name": "wework-ray",
+  "start_urls": [
+    "https://ray.wework.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page-header h4",
+    "lvl1": ".main-content h2",
+    "lvl2": ".page-content h3",
+    "lvl3": ".page-content h4",
+    "lvl4": ".page-content h5",
+    "lvl5": ".page-content h6",
+    "text": ".page-content p, .page-content li"
+  },
+  "selectors_exclude": [
+    ".anchor"
+  ],
+  "conversation_id": [
+    "873566903"
+  ],
+  "nb_hits": 304
+}

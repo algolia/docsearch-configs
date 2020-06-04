@@ -1,0 +1,26 @@
+{
+  "index_name": "previz",
+  "start_urls": [
+    "https://previz.co/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'opacity-25')]/preceding::h5[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1138537687"
+  ],
+  "nb_hits": 460
+}

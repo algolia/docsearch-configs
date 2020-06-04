@@ -1,0 +1,22 @@
+{
+  "index_name": "omscs-notes",
+  "start_urls": [
+    "https://www.omscs-notes.com/"
+  ],
+  "stop_urls": [
+    "https://www.omscs-notes.com/privacy"
+  ],
+  "selectors": {
+    "lvl0": ".Content .note-header h1",
+    "lvl1": ".Content .note-header h2",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3",
+    "lvl4": ".markdown-body h4",
+    "lvl5": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "conversation_id": [
+    "821599804"
+  ],
+  "nb_hits": 10362
+}

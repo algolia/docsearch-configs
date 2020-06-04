@@ -9,7 +9,7 @@
       "selector": "//nav/a[text()=//h1/text()]/preceding::h2[1]",
       "type": "xpath",
       "global": true,
-      "default_value":"Documentation"
+      "default_value": "Documentation"
     },
     "lvl1": "main h1",
     "lvl2": "main h2",
@@ -22,5 +22,5 @@
   "conversation_id": [
     "648476753"
   ],
-  "nb_hits": 377
+  "nb_hits": 859
 }

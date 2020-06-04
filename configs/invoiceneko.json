@@ -1,0 +1,28 @@
+{
+  "index_name": "invoiceneko",
+  "start_urls": [
+    "https://invoiceneko.com/docs"
+  ],
+  "sitemap_urls": [
+    "https://invoiceneko.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'sidebar')]//li/a[text()=//div[contains(@class, 'article')]//h1[1]/text()]/preceding::h2[1]",
+      "global": true,
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": "div.article h1",
+    "lvl2": "div.article h2",
+    "lvl3": "div.article h3",
+    "lvl4": "div.article h4",
+    "lvl5": "div.article h5",
+    "text": "div.article p, div.article li"
+  },
+  "conversation_id": [
+    "774711233"
+  ],
+  "nb_hits": 36
+}

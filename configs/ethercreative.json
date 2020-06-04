@@ -1,0 +1,36 @@
+{
+  "index_name": "ethercreative",
+  "start_urls": [
+    "https://docs.ethercreative.co.uk/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".site-header--logo span",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//aside[@class='nav']//*[contains(@class,'active')]/preceding::strong[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "lvl6": "article h5",
+    "text": "article p, article li"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "hierarchy.lvl0"
+    ]
+  },
+  "conversation_id": [
+    "981289758"
+  ],
+  "nb_hits": 260
+}

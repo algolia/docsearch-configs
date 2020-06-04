@@ -1,0 +1,44 @@
+{
+  "index_name": "sourcelevel",
+  "start_urls": [
+    {
+      "url": "https://docs.sourcelevel.io/guides/",
+      "selectors_key": "guides"
+    },
+    {
+      "url": "https://docs.sourcelevel.io/",
+      "selectors_key": "default"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": ".breadcrumbs a:nth-child(3)",
+      "lvl1": ".page-title",
+      "lvl2": ".page-content h2",
+      "lvl3": ".page-content h3",
+      "lvl4": ".page-content h4",
+      "text": ".page-content p, .page-content li"
+    },
+    "guides": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guides"
+      },
+      "lvl1": ".breadcrumbs a:nth-child(1)",
+      "lvl2": ".page-title",
+      "lvl3": ".page-content h2",
+      "lvl4": ".page-content h3",
+      "lvl5": ".page-content h4",
+      "text": ".page-content p, .page-content li"
+    }
+  },
+  "selectors_exclude": [
+    "article.guide-entry"
+  ],
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "391646780"
+  ],
+  "nb_hits": 5507
+}

@@ -7,19 +7,20 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".nav-heading.active > a span",
+      "selector": "//nav//li[contains(@class,'active')][not(contains(@class,'heading'))]/ancestor::*[contains(@class,'nav-heading')][1]/a/span",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "header h1",
-    "lvl2": ".col-md-12 h3",
-    "lvl3": ".col-md-12 h4",
-    "lvl4": ".col-md-12 h5",
-    "text": ".col-md-12 p, .col-md-12 li"
+    "lvl1": ".clay-site-container h1",
+    "lvl2": ".clay-site-container h3",
+    "lvl3": ".clay-site-container h4",
+    "lvl4": ".clay-site-container h5",
+    "text": ".clay-site-container p, .clay-site-container li"
   },
   "min_indexed_level": 2,
   "conversation_id": [
     "604563273"
   ],
-  "nb_hits": 2406
+  "nb_hits": 3926
 }

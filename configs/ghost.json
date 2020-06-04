@@ -1,21 +1,27 @@
 {
   "index_name": "ghost",
   "start_urls": [
-    "https://newdocs.ghost.org/"
+    "https://docs.ghost.org"
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.ghost.org/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/integrations/"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "main > [class^='bg']  a:first-child",
+      "selector": "main h1 .link:first-child",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "lvl1": "section h1",
+    "lvl2": ".post-content h2",
+    "lvl3": ".post-content h3",
+    "lvl4": ".post-content h4",
+    "lvl5": ".post-content h5",
+    "lvl6": ".post-content h6",
+    "text": ".post-content p, .post-content li"
   },
-  "nb_hits": 2401
+  "nb_hits": 3892
 }

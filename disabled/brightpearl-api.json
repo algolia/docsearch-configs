@@ -1,0 +1,30 @@
+{
+  "index_name": "brightpearl-api",
+  "start_urls": [
+    "http://api-docs.brightpearl.com/"
+  ],
+  "stop_urls": [
+    ".com/.+/$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#nav > ul > .active > a",
+    "global": true,
+    "default_value": "Documentation"
+  },
+    "lvl1": "#doc h1",
+    "lvl2": "#doc h2",
+    "lvl3": "#doc h3",
+    "lvl4": "#doc h4, #doc td:first-child",
+    "lvl5": "#doc h5",
+    "lvl6": "#doc h6",
+    "text": "#doc p, #doc li, #doc td:last-child"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "819994597"
+  ],
+  "nb_hits": 6018
+}

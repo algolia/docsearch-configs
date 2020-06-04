@@ -1,21 +1,23 @@
 {
   "index_name": "loginradius",
   "start_urls": [
-    "https://docs.loginradius.com/",
-    "https://docs.loginradius.com/api?accesscode=RaQaDLUY"
+    "https://www.loginradius.com/docs/api?accesscode=RaQaDLUY",
+    "https://www.loginradius.com/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.loginradius.com/sitemap.xml"
+    "https://www.loginradius.com/docs/sitemap.xml"
   ],
   "stop_urls": [
-    "https://docs.loginradius.com/blog/",
-    "https://docs.loginradius.com/api/v1/",
-    "https://docs.loginradius.com/getting-started/glossary"
+    "https://www.loginradius.com/docs/api/v1/",
+    "https://www.loginradius.com/docs/getting-started/glossary",
+    "https://www.loginradius.com/docs/api/changelog",
+    "\\?action",
+    "return_url"
   ],
   "selectors": {
     "lvl0": {
       "selector": "#content h1, ul label.md-nav__link--active",
-      "default_value": "Documenattion"
+      "default_value": "Documentation"
     },
     "lvl1": "#content h2, #mdcontainer h1",
     "lvl2": "#content h3, .docs-header h3, #mdcontainer h2",
@@ -24,10 +26,10 @@
     "text": "#content p, #content li, #mdcontainer p, #mdcontainer li"
   },
   "min_indexed_level": 1,
-  "js_render": true,
   "js_wait": 1,
+  "js_render": true,
   "conversation_id": [
     "432571474"
   ],
-  "nb_hits": 23429
+  "nb_hits": 37823
 }

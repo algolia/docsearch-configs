@@ -8,7 +8,8 @@
     "\\.json",
     "\\.sh",
     "Dockerfile",
-    "\\.cft"
+    "\\.cft",
+    "/_"
   ],
   "selectors": {
     "lvl0": {
@@ -24,7 +25,7 @@
   },
   "min_indexed_level": 2,
   "conversation_id": [
-    "235059130"
+    "851507984"
   ],
-  "nb_hits": 3117
+  "nb_hits": 4266
 }

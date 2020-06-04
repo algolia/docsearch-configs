@@ -1,0 +1,35 @@
+{
+  "index_name": "bold_",
+  "start_urls": [
+    "https://bold.bridge.ufsc.br/"
+  ],
+  "stop_urls": [
+    "/static/"
+  ],
+  "sitemap_urls": [
+    "https://bold.bridge.ufsc.br/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='page-parent-title']",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
+  "conversation_id": [
+    "840239858"
+  ],
+  "nb_hits": 803
+}

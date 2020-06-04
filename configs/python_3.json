@@ -5,7 +5,8 @@
   ],
   "stop_urls": [
     "\\.tar",
-    "\\.epub "
+    "\\.epub",
+    "/archives/"
   ],
   "selectors": {
     "lvl0": {
@@ -18,11 +19,11 @@
     "lvl3": ".section h3",
     "lvl4": ".section h4, .section .descname",
     "lvl5": ".section h5",
-    "text": ".section p, .section li"
+    "text": ".section p"
   },
   "custom_settings": {
     "separatorsToIndex": "_"
   },
   "strip_chars": " .,;:#\u00bb\u00b6",
-  "nb_hits": 61010
+  "nb_hits": 68850
 }

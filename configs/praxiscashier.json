@@ -1,0 +1,31 @@
+{
+  "index_name": "praxiscashier",
+  "start_urls": [
+    {
+      "url": "https://doc.praxiscashier.com/integration_docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "3.2",
+          "3.1",
+          "3.0",
+          "2.24b"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".documentation h1",
+    "lvl1": ".documentation h2",
+    "lvl2": ".documentation h3",
+    "lvl3": ".documentation h4",
+    "lvl4": ".documentation h5",
+    "lvl5": ".documentation h6",
+    "text": ".documentation p, .documentation li"
+  },
+  "conversation_id": [
+    "885442418"
+  ],
+  "nb_hits": 2494
+}

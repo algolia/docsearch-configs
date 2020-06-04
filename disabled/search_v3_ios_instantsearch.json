@@ -1,0 +1,115 @@
+{
+  "index_name": "search_v3_ios_instantsearch",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/instantsearch-ios/reference/",
+      "selectors_key": "ios-reference",
+      "tags": [
+        "InstantSearch for iOS"
+      ],
+      "page_rank": -1,
+      "extra_attributes": {
+        "language": "swift"
+      }
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-ios/widgets.html",
+      "selectors_key": "widgets",
+      "tags": [
+        "InstantSearch for iOS"
+      ],
+      "extra_attributes": {
+        "category": "Widgets",
+        "type_level": 45,
+        "language": "swift"
+      }
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-ios/getting-started.html",
+      "selectors_key": "ios",
+      "tags": [
+        "InstantSearch for iOS"
+      ],
+      "page_rank": 10,
+      "extra_attributes": {
+        "language": "swift",
+        "type_level": 45
+      }
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-ios",
+      "selectors_key": "ios",
+      "tags": [
+        "InstantSearch for iOS"
+      ],
+      "extra_attributes": {
+        "language": "swift",
+        "type_level": 100
+      }
+    },
+    {
+      "url": "http://community.algolia.com/instantsearch-ios",
+      "selectors_key": "ios",
+      "tags": [
+        "InstantSearch for iOS"
+      ],
+      "extra_attributes": {
+        "language": "swift",
+        "type_level": 100
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "widgets": {
+      "lvl0": ".hero h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li, .content pre"
+    },
+    "ios": {
+      "lvl0": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl1": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "lvl4": ".documentation-container h4",
+      "lvl5": ".documentation-container h5",
+      "text": ".documentation-container p, .documentation-container li",
+      "page_level": {
+        "selector": "count(//li[contains(@class,'navItem-active')]/preceding::li[ancestor::nav[contains(@class, 'sidebar')]])",
+        "type": "xpath",
+        "global": true
+      },
+      "page__title__community__guide": {
+        "selector": ".hero h1"
+      }
+    },
+    "ios-reference": {
+      "lvl0": {
+        "selector": "//*[contains(@class, 'nav-group-task')]/a[text()=//h1/text()]/../../preceding::a[1]",
+        "type": "xpath"
+      },
+      "lvl1": {
+        "selector": "",
+        "default_value": ""
+      },
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li",
+      "page__title__community__guide": {
+        "selector": "article h1"
+      }
+    }
+  },
+  "only_content_level": true,
+  "nb_hits": 402
+}

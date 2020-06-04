@@ -2,83 +2,49 @@
   "index_name": "sass-lang",
   "start_urls": [
     {
-      "url": "https://sass-lang.com/documentation/$",
-      "selectors_key": "root",
-      "tags": [
-        "root"
-      ]
+      "url": "https://sass-lang.com/documentation/functions/css",
+      "selectors_key": "default"
     },
     {
-      "url": "https://sass-lang.com/documentation/[^/]+.html$",
-      "selectors_key": "root"
+      "url": "https://sass-lang.com/documentation/functions/",
+      "selectors_key": "functions"
     },
-    {
-      "url": "https://sass-lang.com/documentation/file.FAQ.html",
-      "selectors_key": "root",
-      "tags": [
-        "faq"
-      ]
-    },
-    {
-      "url": "https://sass-lang.com/documentation/file.SASS_CHANGELOG",
-      "selectors_key": "changelog",
-      "tags": [
-        "changelog"
-      ]
-    },
-    "https://sass-lang.com/documentation/"
+    "https://sass-lang.com/"
   ],
-  "stop_urls": [
-    "//sass-lang.com/documentation/file.SASS_CHANGELOG.html$",
-    "https://sass-lang.com/documentation/Sass/Script/Functions/",
-    "/documentation/index.html$",
-    "https://sass-lang.com/documentation/file_list.html"
+  "sitemap_urls": [
+    "https://sass-lang.com/sitemap.xml"
   ],
-  "keep_tags": [
-    "code"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "root": {
-      "lvl0": "#filecontents h1",
-      "lvl1": "#filecontents h2",
-      "lvl2": "#filecontents h3",
-      "lvl3": "#filecontents h4",
-      "lvl4": "#filecontents h5",
-      "text": "#filecontents p, #filecontents li"
-    },
-    "changelog": {
-      "lvl0": "#filecontents h1",
-      "lvl1": "#filecontents h2",
-      "lvl2": "#filecontents h3",
-      "lvl3": "#filecontents h4",
-      "lvl4": "#filecontents h5",
-      "text": "#filecontents p, #filecontents li"
-    },
     "default": {
       "lvl0": {
-        "selector": "#menu > span:nth-child(3)",
+        "selector": "main h1",
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl1": {
-        "selector": "#menu > span:last-of-type",
+      "lvl1": ".docSearch-content h2",
+      "lvl2": ".docSearch-content :not(.code-example) > :not(aside) > h3, .docSearch-content > :not(aside) > h3, .docSearch-content > h3",
+      "lvl3": ".docSearch-content h4",
+      "lvl4": ".docSearch-content h5",
+      "lvl5": ".docSearch-content h6",
+      "text": ".docSearch-content p, .docSearch-content li"
+    },
+    "functions": {
+      "lvl0": {
+        "selector": "main h1",
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl2": "#content h2",
-      "lvl3": "#content h3 strong",
-      "lvl4": "#content h4, #content .summary_signature, #content p.tag_title",
-      "lvl5": "#content h5",
-      "text": "#content p:not(.tag_title), #content li"
+      "lvl1": "[class*='docSearch-function']",
+      "text": ".docSearch-content p"
     }
   },
-  "selectors_exclude": [
-    "#content h2 small",
-    "#content .box"
-  ],
   "only_content_level": true,
   "custom_settings": {
     "separatorsToIndex": "#_"
   },
-  "nb_hits": 8647
+  "conversation_id": [
+    "785935668"
+  ],
+  "nb_hits": 1543
 }

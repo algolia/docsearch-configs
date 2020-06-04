@@ -1,7 +1,7 @@
 {
   "index_name": "asyncy",
   "start_urls": [
-    "https://docs.asyncy.com/"
+    "https://docs.storyscript.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +24,5 @@
     ".table-of-contents"
   ],
   "strip_chars": " .,;:#",
-  "nb_hits": 307
+  "nb_hits": 563
 }

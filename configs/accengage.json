@@ -1,30 +1,51 @@
 {
   "index_name": "accengage",
   "start_urls": [
-    "https://docs-alpha.accengage.com"
+    "https://documentation.accengage.com/sdk",
+    "https://documentation.accengage.com/api",
+    "https://documentation.accengage.com/dataflow/introduction",
+    "https://documentation.accengage.com/user-guide/en",
+    "https://documentation.accengage.com/user-guide/fr",
+    {
+      "url": "https://documentation.accengage.com/faq",
+      "selectors_key": "faq"
+    },
+    "https://documentation.accengage.com"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://documentation.accengage.com/admin",
+    "documentation.accengage.com//"
+  ],
   "selectors": {
-    "lvl0": {
-      "selector": "(//nav//a[contains(@class, 'active')])[1]/../../preceding::a[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": ".main-content h1",
+      "lvl1": ".main-content h2",
+      "lvl2": ".main-content h3",
+      "lvl3": ".main-content h4",
+      "lvl4": ".main-content h5",
+      "text": ".main-content p, .main-content li"
     },
-    "lvl1": {
-      "selector": "(//nav//a[contains(@class, 'active')])[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Chapter"
-    },
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "text": "main p, main li"
+    "faq": {
+      "lvl0": ".block_questions--link a, .main-content h1",
+      "lvl1": ".main-content h2",
+      "lvl2": ".main-content h3",
+      "lvl3": ".main-content h4",
+      "lvl4": ".main-content h5",
+      "text": ".main-content p, .main-content li"
+    }
   },
+  "selectors_exclude": [
+    ".sidebar-container",
+    ".footer",
+    ".top-navbar",
+    ".toc-container"
+  ],
+  "sitemap_urls": [
+    "https://documentation.accengage.com/sitemap.xml"
+  ],
   "min_indexed_level": 2,
   "conversation_id": [
     "481913855"
   ],
-  "nb_hits": 69
+  "nb_hits": 19539
 }

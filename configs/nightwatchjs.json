@@ -8,6 +8,9 @@
     "/author/",
     "/blog/"
   ],
+  "sitemap_urls": [
+    "http://nightwatchjs.org/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".jumbotron h1",
     "lvl1": ".docs-section h2",
@@ -25,12 +28,15 @@
     "[data-uri='/cloud'] section:not([data-page-uri='/cloud'])",
     "[data-uri='/gettingstarted'] section:not([data-page-uri='/gettingstarted'])",
     "[data-uri='/cloud'] section:not([data-page-uri='/cloud'])",
-    "[data-uri='/api/$method'] section:not([data-page-uri='/api/$method'])"
+    "[data-uri='/api/$method'] section:not([data-page-uri='/api/$method'])",
+    "a[title]"
   ],
-  "js_render": true,
   "conversation_id": [
     "566766489"
   ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "scrap_start_urls": false,
-  "nb_hits": 567
+  "nb_hits": 178237
 }

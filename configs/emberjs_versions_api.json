@@ -1,7 +1,7 @@
 {
   "index_name": "emberjs_versions_api",
   "start_urls": [
-    "https://emberjs.com/api/ember/release"
+    "https://api.emberjs.com/ember/release"
   ],
   "stop_urls": [
     "\\?"
@@ -33,5 +33,5 @@
   "stop_content": [
     "ACK! 404 FRIEND"
   ],
-  "nb_hits": 1895
+  "nb_hits": 1960
 }

@@ -1,0 +1,29 @@
+{
+  "index_name": "oroinc",
+  "start_urls": [
+    "https://doc.oroinc.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".wy-menu li.toctree-l1.current > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li, .section dt, .section dd"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "893895024"
+  ],
+  "nb_hits": 118013
+}

@@ -1,8 +1,7 @@
 {
   "index_name": "nebular",
   "start_urls": [
-    "https://akveo.github.io/nebular/docs/",
-    "https://akveo.github.io/nebular/docs/getting-started/what-is-nebular"
+    "https://akveo.github.io/nebular/docs/"
   ],
   "stop_urls": [
     "/themes/"
@@ -13,7 +12,7 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
+    "lvl1": ".content h1, nb-card-header",
     "lvl2": ".content h2",
     "lvl3": ".content h3",
     "lvl4": ".content h4, .content p.block-title",
@@ -21,9 +20,8 @@
     "text": ".content p:not(.block-title), .content li"
   },
   "js_render": true,
-  "js_wait": 1,
   "conversation_id": [
     "589593654"
   ],
-  "nb_hits": 6452
+  "nb_hits": 11818
 }

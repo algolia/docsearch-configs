@@ -1,0 +1,30 @@
+{
+  "index_name": "scylladb",
+  "start_urls": [
+    "https://docs.scylladb.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".toctree-l1.current > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "lvl6": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "min_indexed_level": 2,
+  "selectors_exclude": [
+    "#contents",
+    ".panel.callout"
+  ],
+  "conversation_id": [
+    "716200122"
+  ],
+  "nb_hits": 11980
+}

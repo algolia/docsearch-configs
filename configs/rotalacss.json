@@ -1,0 +1,20 @@
+{
+  "index_name": "rotalacss",
+  "start_urls": [
+    "https://rotalacss.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main section h1",
+    "lvl1": "main section h2",
+    "lvl2": "main section h3",
+    "lvl3": "main section h4",
+    "lvl4": "main section h5",
+    "lvl5": "main section h6",
+    "text": "main section p, main section li"
+  },
+  "conversation_id": [
+    "1131826396"
+  ],
+  "nb_hits": 513
+}

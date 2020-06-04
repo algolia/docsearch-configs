@@ -5,17 +5,19 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "main .widget-title",
-    "lvl1": "main article h1",
-    "lvl2": "main article h2",
-    "lvl3": "main article h3",
-    "lvl4": "main article h4",
-    "text": "main article p, main article li"
+    "lvl0": {
+      "selector": "main .widget-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".entry-content h1",
+    "lvl2": ".entry-content h2",
+    "lvl3": ".entry-content h3",
+    "lvl4": ".entry-content h4",
+    "text": ".entry-content p, .entry-content li"
   },
-  "min_indexed_level": 2,
-  "js_render": true,
   "conversation_id": [
     "229287802"
   ],
-  "nb_hits": 1195
+  "nb_hits": 1423
 }

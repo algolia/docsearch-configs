@@ -9,7 +9,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "#toc > .awstoc > li.awstoc.opened > a",
+      "selector": ".breadcrumb > a:nth-child(4)",
       "global": true,
       "default_value": "Documentation"
     },
@@ -20,5 +20,5 @@
     "lvl5": "#main-content h5",
     "text": "#main-content p, #main-content li"
   },
-  "nb_hits": 7697
+  "nb_hits": 7883
 }

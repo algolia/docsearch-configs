@@ -1,0 +1,41 @@
+{
+  "index_name": "nette",
+  "start_urls": [
+    "https://nette.org",
+    "https://blog.nette.org",
+    "https://doc.nette.org",
+    "https://latte.nette.org",
+    "https://tracy.nette.org",
+    "https://tester.nette.org"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".wiki h1",
+    "lvl1": ".wiki h2",
+    "lvl2": ".wiki h3",
+    "lvl3": ".wiki h4",
+    "lvl4": ".wiki h5",
+    "lvl5": ".wiki h6",
+    "text": ".wiki p, .wiki li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    },
+    "version": {
+      "selector": "//meta[@name='doc:version']/@content",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "910886313"
+  ],
+  "nb_hits": 28836
+}

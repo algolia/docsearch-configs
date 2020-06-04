@@ -1,0 +1,122 @@
+{
+  "index_name": "te3201_2019",
+  "start_urls": [
+    {
+      "url": "https://nus-te3201.github.io/2020/schedule/",
+      "selectors_key": "schedule",
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "url": "https://nus-te3201.github.io/2020/admin/te3201-admin.html",
+      "selectors_key": "admin",
+      "tags": [
+        "admin"
+      ]
+    },
+    {
+      "url": "https://nus-te3201.github.io/2020/programming/",
+      "selectors_key": "programming",
+      "tags": [
+        "programming"
+      ]
+    },
+    {
+      "url": "https://nus-te3201.github.io/2020/se-book-adapted/",
+      "selectors_key": "se-book-adapted",
+      "tags": [
+        "se-book-adapted"
+      ]
+    },
+    "https://nus-te3201.github.io/2020/"
+  ],
+  "stop_urls": [
+    "printable",
+    "\\d/index.html",
+    "/book/",
+    "schedule/index\\.html",
+    "print\\.html$"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Other"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h2",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
+      "text": ".website-content p, .website-content li, .website-content .table td"
+    },
+    "admin": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Admin Info"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h2",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
+      "text": ".website-content p, .website-content li, .website-content .table td"
+    },
+    "programming": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Programming Textbook"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h3",
+      "lvl3": ".website-content h4",
+      "lvl4": ".website-content h5",
+      "lvl5": ".website-content h6",
+      "text": ".website-content p, .website-content li, .website-content .table td"
+    },
+    "schedule": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Schedule"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h2",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
+      "text": ".website-content p, .website-content li, .website-content .table td"
+    },
+    "se-book-adapted": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "SE Textbook"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h2",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
+      "lvl6": ".website-content h6",
+      "text": ".website-content panel p, .website-content panel li, .website-content panel .table td"
+    }
+  },
+  "selectors_exclude": [
+    ".algolia-no-index",
+    "[id$='-toc']",
+    "#toc",
+    ".alert"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "775254692"
+  ],
+  "nb_hits": 6450
+}

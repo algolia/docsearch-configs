@@ -17,12 +17,11 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//a[contains(@class, 'active')][1]/preceding::h5[1]",
-      "type": "xpath",
+      "selector": ".docs-navigation > a.active",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Kong"
     },
-    "lvl1": ".content h1",
+    "lvl1": "h1",
     "lvl2": ".content h2",
     "lvl3": ".content h3",
     "lvl4": ".content h4",
@@ -36,5 +35,5 @@
   "conversation_id": [
     "534091583"
   ],
-  "nb_hits": 8740
+  "nb_hits": 27926
 }

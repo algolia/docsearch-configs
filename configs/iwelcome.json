@@ -1,0 +1,24 @@
+{
+  "index_name": "iwelcome",
+  "start_urls": [
+    "https://developers.iwelcome.com"
+  ],
+  "sitemap_urls": [
+    "https://developers.iwelcome.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='-content']:nth-child(3) h1,article h1",
+    "lvl1": "[class*='-content']:nth-child(3) h2,article h2",
+    "lvl2": "[class*='-content']:nth-child(3) h3,article h3",
+    "lvl3": "[class*='-content']:nth-child(3) h4,article h4",
+    "lvl4": "[class*='-content']:nth-child(3) h5,article h5",
+    "lvl5": "[class*='-content']:nth-child(3) h6,article h6",
+    "text": "[class*='-content']:nth-child(3) p, [class*='-content']:nth-child(3) li,article p, article li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "905515627"
+  ],
+  "nb_hits": 5638
+}

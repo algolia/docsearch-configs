@@ -1,0 +1,26 @@
+{
+  "index_name": "rapid7",
+  "start_urls": [
+    "https://nexpose.help.rapid7.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'sidebar')]//a[contains(@class, 'active')][1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-head h1",
+    "lvl2": "#content-container h2",
+    "lvl3": "#content-container h3",
+    "lvl4": "#content-container h4",
+    "text": "#content-container p, #content-container li"
+  },
+  "only_content_level": true,
+  "js_render": true,
+  "conversation_id": [
+    "491789687"
+  ],
+  "nb_hits": 12289
+}

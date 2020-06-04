@@ -1,0 +1,27 @@
+{
+  "index_name": "react-native-firebase",
+  "start_urls": [
+    "https://rnfirebase.io",
+    "https://rnfirebase.io/reference"
+  ],
+  "stop_urls": [
+    "https://rnfirebase.io/about",
+    "\\?"
+  ],
+  "sitemap_urls": [
+    "https://rnfirebase.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "968430420"
+  ],
+  "nb_hits": 6852
+}

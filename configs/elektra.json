@@ -26,5 +26,6 @@
     "#see-also + ul"
   ],
   "js_render": true,
-  "nb_hits": 5495
+  "js_wait": 1,
+  "nb_hits": 6337
 }

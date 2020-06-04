@@ -1,11 +1,67 @@
 {
   "index_name": "phalconphp",
   "start_urls": [
-    "https://docs.phalconphp.com/4.0/"
+    {
+      "url": "https://docs.phalcon.io/(?P<version>.*?)/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "cs-cz",
+          "de-de",
+          "el-gr",
+          "es-es",
+          "fa-ir",
+          "fr-fr",
+          "id-id",
+          "it-it",
+          "ja-jp",
+          "nl-nl",
+          "pl-pl",
+          "pt-br",
+          "ru-ru",
+          "sr-sp",
+          "th-th",
+          "tr-tr",
+          "uk-ua",
+          "zh-cn,"
+        ],
+        "version": [
+          "latest",
+          "4.0"
+        ]
+      }
+    },
+    {
+      "url": "https://docs.phalcon.io/3.4/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "cs-cz",
+          "de-de",
+          "es-es",
+          "fa-ir",
+          "fr-fr",
+          "id-id",
+          "it-it",
+          "ja-jp",
+          "pl-pl",
+          "ru-ru",
+          "tr-tr",
+          "uk-ua",
+          "ur-in",
+          "zh-cn"
+        ],
+        "extra_attributes": {
+          "version": [
+            "3.4"
+          ]
+        }
+      }
+    }
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://docs.phalconphp.com/sitemap.xml"
+    "https://docs.phalcon.io/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".docSearch-content h1",
@@ -32,5 +88,5 @@
   "conversation_id": [
     "761639486"
   ],
-  "nb_hits": 334486
+  "nb_hits": 620429
 }

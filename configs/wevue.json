@@ -5,12 +5,12 @@
       "url": "https://wevue.org/doc/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "v1_6",
-          "v2_0"
+          "v2",
+          "v3"
         ]
       }
     },
-    "https://wevue.org/doc/v2_0/index"
+    "https://wevue.org/doc/v2/index"
   ],
   "stop_urls": [],
   "selectors": {
@@ -31,5 +31,5 @@
   "conversation_id": [
     "582596045"
   ],
-  "nb_hits": 386
+  "nb_hits": 387
 }

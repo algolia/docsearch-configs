@@ -1,0 +1,47 @@
+{
+  "index_name": "yandex_clickhouse",
+  "start_urls": [
+    "https://clickhouse.tech/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "#content h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "lvl5": "#content h6",
+    "text": "#content p, #content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    },
+    "version": {
+      "selector": "/html/@data-version",
+      "type": "xpath",
+      "global": true
+    },
+    "single-page": {
+      "selector": "/html/@data-single-page",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "version",
+      "single-page"
+    ]
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "1058861561"
+  ],
+  "nb_hits": 324117
+}

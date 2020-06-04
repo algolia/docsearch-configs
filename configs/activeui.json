@@ -4,7 +4,7 @@
     "https://activeviam.com/activeui/documentation/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "force_sitemap_urls_crawling":true,
+  "force_sitemap_urls_crawling": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -32,5 +32,5 @@
   "conversation_id": [
     "728521704"
   ],
-  "nb_hits": 4442
+  "nb_hits": 442085
 }

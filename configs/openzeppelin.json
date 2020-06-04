@@ -1,0 +1,23 @@
+{
+  "index_name": "openzeppelin",
+  "start_urls": [
+    "https://docs.openzeppelin.com"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.openzeppelin.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".article-wrapper h1",
+    "lvl1": ".article-wrapper h2",
+    "lvl2": ".article-wrapper h3",
+    "lvl3": ".article-wrapper h4",
+    "lvl4": ".article-wrapper h5",
+    "lvl5": ".article-wrapper h6",
+    "text": ".article-wrapper p, .article-wrapper li"
+  },
+  "conversation_id": [
+    "908739393"
+  ],
+  "nb_hits": 17872
+}

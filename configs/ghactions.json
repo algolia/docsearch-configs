@@ -2,21 +2,21 @@
   "index_name": "ghactions",
   "start_urls": [
     {
-      "url": "http://www.maxheld.de/ghactions/index.html",
+      "url": "https://www.maxheld.de/ghactions/index.html",
       "tags": [
         "homepage"
       ],
       "selectors_key": "homepage"
     },
     {
-      "url": "http://www.maxheld.de/ghactions/reference",
+      "url": "https://www.maxheld.de/ghactions/reference",
       "tags": [
         "reference"
       ],
       "selectors_key": "reference"
     },
     {
-      "url": "http://www.maxheld.de/ghactions/articles",
+      "url": "https://www.maxheld.de/ghactions/articles",
       "tags": [
         "articles"
       ],
@@ -24,7 +24,7 @@
     }
   ],
   "sitemap_urls": [
-    "http://www.maxheld.de/ghactions/sitemap.xml"
+    "https://www.maxheld.de/ghactions/sitemap.xml"
   ],
   "stop_urls": [
     "/reference/$",
@@ -93,5 +93,5 @@
   "conversation_id": [
     "769352472"
   ],
-  "nb_hits": 76
+  "nb_hits": 352
 }

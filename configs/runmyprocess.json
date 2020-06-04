@@ -1,0 +1,28 @@
+{
+  "index_name": "runmyprocess",
+  "start_urls": [
+    "https://docs.beta.runmyprocess.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "h2.tree",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#main-content h1",
+    "lvl2": "#main-content h2",
+    "lvl3": "#main-content h3",
+    "lvl4": "#main-content h4",
+    "lvl5": "#main-content h5",
+    "lvl6": "#main-content h6",
+    "text": "#main-content p, #main-content li"
+  },
+  "selectors_exclude": [
+    ".toc"
+  ],
+  "conversation_id": [
+    "837880878"
+  ],
+  "nb_hits": 8894
+}

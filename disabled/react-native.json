@@ -1,0 +1,32 @@
+{
+  "index_name": "react-native",
+  "start_urls": [
+    "http://facebook.github.io/react-native/docs/getting-started.html",
+    "http://facebook.github.io/react-native/docs/.*"
+  ],
+  "sitemap_urls": [
+    "http://facebook.github.io/react-native/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@class,'toc')]//a[contains(@class,'ctive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "text": ".post p, .post li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "155138852"
+  ],
+  "user_agent": "Googlebot",
+  "nb_hits": 343225
+}

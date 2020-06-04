@@ -1,0 +1,31 @@
+{
+  "index_name": "buildkite",
+  "start_urls": [
+    "https://buildkite.com/docs"
+  ],
+  "stop_urls": [
+    "/v2/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".Docs__nav__section-heading:not(.Docs__nav__section-heading--link)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".Docs__article h1",
+    "lvl2": ".Docs__article h2",
+    "lvl3": ".Docs__article h3",
+    "lvl4": ".Docs__article h4, .Docs__article td:first-child",
+    "lvl5": ".Docs__article h5",
+    "lvl6": ".Docs__article h6",
+    "text": ".Docs__article p, .Docs__article li, .Docs__article td:last-child"
+  },
+  "selectors_exclude": [
+    ".Docs__toc",
+    ".Docs__note--footer-typo"
+  ],
+  "conversation_id": [
+    "787834576"
+  ],
+  "nb_hits": 2347
+}

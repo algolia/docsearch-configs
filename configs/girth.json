@@ -1,0 +1,32 @@
+{
+  "index_name": "girth",
+  "start_urls": [
+    "https://eribean.github.io/girth/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav > ol > li:nth-child(1) > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "nav > ol > li:nth-child(3) > a",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".td-content h1",
+    "lvl3": ".td-content h2",
+    "lvl4": ".td-content h3, .name",
+    "lvl5": ".td-content h4, section section dt",
+    "lvl6": ".td-content h5",
+    "text": ".td-content p, .td-content li, .lead"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1137894095"
+  ],
+  "nb_hits": 480
+}

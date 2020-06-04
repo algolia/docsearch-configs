@@ -1,0 +1,28 @@
+{
+  "index_name": "ucloud",
+  "start_urls": [
+    "https://docs.ucloud.cn/"
+  ],
+  "stop_urls": [
+    "\\?",
+    "/index$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".sidebar-header",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": ".docs-main-content h1",
+    "lvl2": ".docs-main-content h2",
+    "lvl3": ".docs-main-content h3",
+    "lvl4": ".docs-main-content h4",
+    "lvl5": ".docs-main-content h5",
+    "lvl6": ".docs-main-content h6",
+    "text": ".docs-main-content p, .docs-main-content li"
+  },
+  "conversation_id": [
+    "845252278"
+  ],
+  "nb_hits": 16728
+}

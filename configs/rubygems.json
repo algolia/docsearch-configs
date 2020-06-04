@@ -5,7 +5,6 @@
   ],
   "stop_urls": [],
   "selectors": {
-
     "lvl0": {
       "selector": ".t-body > p:first-child",
       "global": true,
@@ -20,5 +19,5 @@
   "selectors_exclude": [
     ".t-body > ul > li > a[href]"
   ],
-  "nb_hits": 1818
+  "nb_hits": 1896
 }

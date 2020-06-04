@@ -2,17 +2,10 @@
   "index_name": "parceljs",
   "start_urls": [
     {
-      "url": "https://parceljs.org",
-      "extra_attributes": {
-        "lang": [
-          "en"
-        ]
-      }
-    },
-    {
       "url": "https://(?P<lang>.*?).parceljs.org/",
       "variables": {
         "lang": [
+          "en",
           "es",
           "fr",
           "it",
@@ -42,5 +35,5 @@
     "678588606"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 2831
+  "nb_hits": 3673
 }

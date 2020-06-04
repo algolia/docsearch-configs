@@ -1,9 +1,36 @@
 {
   "index_name": "branchmetrics",
   "start_urls": [
-    "https://docs.branch.io/"
+    {
+      "url": "https://docs.branch.io/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "ko",
+          "ja",
+          "zh"
+        ]
+      },
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ],
+        "version": [
+          "latest"
+        ]
+      }
+    },
+    {
+      "url": "https://docs.branch.io/",
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ],
+        "version": [
+          "latest"
+        ]
+      }
+    }
   ],
-  "stop_urls": [],
   "sitemap_urls": [
     "https://docs.branch.io/sitemap.xml"
   ],
@@ -28,8 +55,15 @@
     "#disqus_thread",
     "#__comments"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "597089613"
   ],
-  "nb_hits": 35052
+  "nb_hits": 44
 }

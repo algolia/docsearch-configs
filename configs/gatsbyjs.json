@@ -52,20 +52,14 @@
         "default_value": "Tutorial"
       },
       "lvl1": {
-        "selector": "//a[@aria-current]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Unsorted"
-      },
-      "lvl2": {
         "selector": "//a[@aria-current]",
         "type": "xpath",
         "global": true,
         "default_value": "Unsorted"
       },
-      "lvl3": ".docSearch-content h2",
-      "lvl4": ".docSearch-content h4",
-      "lvl5": ".docSearch-content h5",
+      "lvl2": ".docSearch-content h2",
+      "lvl3": ".docSearch-content h4",
+      "lvl4": ".docSearch-content h5",
       "text": ".docSearch-content p, .docSearch-content li"
     },
     "blog": {
@@ -75,19 +69,22 @@
         "default_value": "Blog"
       },
       "lvl1": ".post h1",
-      "lvl2": ".post-body h2",
-      "lvl3": ".post-body h4",
-      "lvl4": ".post-body h5",
-      "text": ".post-body p, .post-body li"
+      "lvl2": "section.post-body h2",
+      "lvl3": "section.post-body h3",
+      "lvl4": "section.post-body h4",
+      "lvl5": "section.post-body h5",
+      "text": "section.post-body p, section.post-body li"
     }
   },
   "selectors_exclude": [
     "hr ~ div",
     "#next-steps",
-    "#next-steps ~ p"
+    "#next-steps ~ p",
+    "h3 span",
+    "body style"
   ],
   "conversation_id": [
     "487785557"
   ],
-  "nb_hits": 7942
+  "nb_hits": 43441
 }

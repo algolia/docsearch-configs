@@ -1,0 +1,33 @@
+{
+  "index_name": "pep8",
+  "start_urls": [
+    "https://pep8.org/"
+  ],
+  "stop_urls": [
+    "\\.rst\\.txt$",
+    "/_",
+    "index.html$"
+  ],
+  "sitemap_urls": [
+    "https://pep8.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".container > div > .nine.columns h1",
+    "lvl1": ".container > div > .nine.columns h2",
+    "lvl2": ".container > div > .nine.columns h3",
+    "lvl3": ".container > div > .nine.columns h4",
+    "lvl4": ".container > div > .nine.columns h5",
+    "lvl5": ".container > div > .nine.columns h6, .container > div > .nine.columns dt",
+    "text": ".container > div > .nine.columns p, .container > div > .nine.columns li"
+  },
+  "min_indexed_level": 1,
+  "strip_chars": "\u2624",
+  "selectors_exclude": [
+    ".toctree-wrapper",
+    ".headerlink"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_-"
+  },
+  "nb_hits": 368
+}

@@ -1,7 +1,7 @@
 {
   "index_name": "babeljs",
   "start_urls": [
-    "http://babeljs.io/docs/",
+    "https://babeljs.io/docs/",
     "https://babeljs.io/learn-es2015/"
   ],
   "sitemap_urls": [
@@ -14,7 +14,7 @@
     "https://babeljs.io/docs/en/next/",
     "https://babeljs.io/docs/en/next$",
     "html$",
-    "http://babeljs.io/docs/.+/$",
+    "https://babeljs.io/docs/.+/$",
     "https://babeljs.io/docs/en/\\d"
   ],
   "selectors": {
@@ -38,5 +38,5 @@
   "conversation_id": [
     "276264648"
   ],
-  "nb_hits": 5171
+  "nb_hits": 5295
 }

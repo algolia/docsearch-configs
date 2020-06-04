@@ -1,10 +1,10 @@
 {
   "index_name": "ajaymore",
   "start_urls": [
-    "https://ajaymore.github.io/docs"
+    "https://ajaymore.github.io/dev/docs/"
   ],
   "sitemap_urls": [
-    "https://ajaymore.github.io/sitemap.xml"
+    "https://ajaymore.github.io/dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +34,5 @@
   "conversation_id": [
     "717372542"
   ],
-  "nb_hits": 80
+  "nb_hits": 293
 }

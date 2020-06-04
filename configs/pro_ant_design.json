@@ -1,0 +1,46 @@
+{
+  "index_name": "pro_ant_design",
+  "start_urls": [
+    {
+      "url": "https://pro.ant.design/index-cn/",
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://pro.ant.design/.*-cn",
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://pro.ant.design/",
+      "tags": [
+        "en"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "/changelog"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'ant-menu-item-group')]//*[contains(@class,'selected')]/preceding::*[contains(@class,'ant-menu-item-group-title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "strip_chars": "#",
+  "conversation_id": [
+    "845302465"
+  ],
+  "min_indexed_level": 1,
+  "nb_hits": 1529
+}

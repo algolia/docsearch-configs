@@ -1,26 +1,22 @@
 {
   "index_name": "baseui",
   "start_urls": [
-    "https://baseui.design/"
+    "https://baseweb.design/"
   ],
   "stop_urls": [
     "/legacy/"
   ],
   "selectors": {
-    "lvl0": ".dv.dw.dx h1",
-    "lvl1": ".dv.dw.dx h2",
-    "lvl2": ".dv.dw.dx h3",
-    "lvl3": ".dv.dw.dx h4",
-    "lvl4": ".dv.dw.dx h5",
-    "lvl5": ".dv.dw.dx h6",
-    "text": ".dv.dw.dx p, .dv.dw.dx li"
+    "lvl0": "#docSearch-content h1",
+    "lvl1": "#docSearch-content h2",
+    "lvl2": "#docSearch-content h3",
+    "lvl3": "#docSearch-content h4",
+    "lvl4": "#docSearch-content h5",
+    "lvl5": "#docSearch-content h6",
+    "text": "#docSearch-content p, #docSearch-content li, #docSearch-content [role=columnheader], #docSearch-content [role=gridcell]"
   },
-  "selectors_exclude": [
-    ".ed.ee",
-    ".dv.dw.dx h3 code:not(:first-child)"
-  ],
   "conversation_id": [
     "757221353"
   ],
-  "nb_hits": 1146
+  "nb_hits": 7710
 }

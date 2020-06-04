@@ -1,0 +1,26 @@
+{
+  "index_name": "webpivottable_zh",
+  "start_urls": [
+    "https://zh.webpivottable.com/doc/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'App')]//nav//*[contains(@class,'nuxt-link-active')][1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".Content h1",
+    "lvl2": ".Content h2",
+    "lvl3": ".Content h3",
+    "lvl4": ".Content h4",
+    "lvl5": ".Content h5",
+    "lvl6": ".Content h6",
+    "text": ".Content p, .Content li"
+  },
+  "conversation_id": [
+    "920617287"
+  ],
+  "nb_hits": 65
+}

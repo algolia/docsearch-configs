@@ -1,0 +1,72 @@
+{
+  "index_name": "wijmo-onboarding-zh",
+  "start_urls": [
+    {
+      "url": "https://demo.grapecity.com.cn/wijmo/docs/",
+      "selectors_key": "docs",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://demo.grapecity.com.cn/wijmo/demos/",
+      "selectors_key": "demos",
+      "tags": [
+        "demos"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://demo.grapecity.com.cn/wijmo/docs/sitemap.xml",
+    "https://demo.grapecity.com.cn/wijmo/demos/resource/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    ".*/angular.*",
+    ".*/vue.*",
+    ".*/react.*"
+  ],
+  "selectors": {
+    "docs": {
+      "lvl0": {
+        "selector": "#lvl0",
+        "global": true,
+        "default_value": "\u53c2\u8003\u6587\u6863"
+      },
+      "lvl1": ".post article h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "lvl5": ".post h5",
+      "text": ".post article p, .post article li"
+    },
+    "demos": {
+      "lvl0": {
+        "selector": "#demo_source_name",
+        "global": true,
+        "default_value": "\u793a\u4f8b"
+      },
+      "lvl1": ".app-content-description h1",
+      "lvl2": ".app-content-description h2",
+      "lvl3": ".app-content-description h3",
+      "lvl4": ".app-content-description h4",
+      "lvl5": ".app-content-description h5",
+      "text": ".app-content-description p, .app-content-description li"
+    }
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "817808010"
+  ],
+  "nb_hits": 5071
+}

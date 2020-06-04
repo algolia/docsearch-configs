@@ -2,41 +2,37 @@
   "index_name": "agora",
   "start_urls": [
     {
-      "url": "https://docs.agora.io/(?P<language>.*?)/(?P<version>.*?)/",
+      "url": "https://docs.agora.io/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
-        "language": [
+        "lang": [
           "en",
           "cn"
         ],
         "version": [
-          "1.7",
-          "1.8",
-          "1.8.1",
-          "1.8.3",
-          "1.9",
-          "1.9.1",
-          "1.10",
-          "1.10.1",
-          "1.11",
-          "1.11.1",
-          "game_1.1"
+          "1.13",
+          "1.14",
+          "2.0",
+          "2.0.2",
+          "2.1"
         ]
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\undefined",
+    "\\?platform"
+  ],
   "selectors": {
-    "lvl0": {
-      "selector": ".toctree-l1.current > a",
-      "default_value": "Documentation"
-    },
-    "lvl1": ".section h1",
-    "lvl2": ".section h2",
-    "lvl3": ".section h3",
-    "lvl4": ".section h4",
-    "lvl5": ".section h5",
-    "text": ".section p, .section li"
+    "lvl0": ".select.products > .cur",
+    "lvl1": ".level1.cur",
+    "lvl2": ".level2.cur",
+    "lvl3": ".level3.cur",
+    "lvl4": ".article-main h1",
+    "text": ".article-main p, .article-main li"
   },
-  "min_indexed_level": 1,
-  "nb_hits": 240465
+  "only_content_level": true,
+  "conversation_id": [
+    "520965188"
+  ],
+  "nb_hits": 16313
 }

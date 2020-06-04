@@ -1,0 +1,37 @@
+{
+  "index_name": "pomerium",
+  "start_urls": [
+    "https://www.pomerium.io/docs/",
+    "https://www.pomerium.io/configuration/",
+    "https://www.pomerium.io/recipes/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.pomerium.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "[class*='content '] h1",
+    "lvl1": "[class*='content '] h2",
+    "lvl2": "[class*='content '] h3",
+    "lvl3": "[class*='content '] h4",
+    "lvl4": "[class*='content '] h5",
+    "lvl5": "[class*='content '] h6",
+    "text": "[class*='content '] p, [class*='content '] li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "914097876"
+  ],
+  "nb_hits": 2362
+}

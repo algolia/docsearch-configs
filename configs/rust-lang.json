@@ -1,0 +1,24 @@
+{
+  "index_name": "rust-lang",
+  "start_urls": [
+    "https://doc.rust-lang.org/book/"
+  ],
+  "stop_urls": [
+    "book/print.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//nav//*[contains(@class,'active')]/../../../preceding::a[1]|//nav/ol/li/a[contains(@class,'active')])[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
+  },
+  "nb_hits": 4295
+}

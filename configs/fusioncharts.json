@@ -7,26 +7,33 @@
     "https://www.fusioncharts.com/sitemap.xml"
   ],
   "stop_urls": [
-    "https://www.fusioncharts.com/dev/maps/",
-    "\\?"
+    "\\?attribute",
+    "\\?chart",
+    "https://www.fusioncharts.com/dev/maps/spec-sheets/",
+    "https://www.fusioncharts.com/dev/chart-attributes/.+"
   ],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "text": ".content p, .content li"
+    "lvl0": {
+      "selector": ".navbar:not([class*='expand']) li:first-child > a ",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl1": {
+      "selector": "//*[@id='mainTreeContainer']//*[contains(@class,'lvl-0')][.//*[contains(@class,'active')]]/descendant::span[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".page-content h1",
+    "lvl3": ".page-content h2",
+    "lvl4": ".page-content h3",
+    "lvl5": ".page-content h4",
+    "lvl6": ".page-content h5",
+    "text": ".page-content p, .page-content li"
   },
-  "selectors_exclude": [
-    "nav[aria-label='breadcrumb']",
-    ".app-block",
-    "[id^='further-links']+ul",
-    "[id^='further-links']"
-  ],
-  "only_content_level": true,
+  "selectors_exclude": [],
   "conversation_id": [
     "497887173"
   ],
-  "nb_hits": 31199
+  "nb_hits": 41920
 }

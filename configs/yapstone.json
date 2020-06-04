@@ -1,0 +1,27 @@
+{
+  "index_name": "yapstone",
+  "start_urls": [
+    "https://docs.yapstone.com"
+  ],
+  "stop_urls": [
+    "https://docs.yapstone.com/login",
+    "https://docs.yapstone.com/register"
+  ],
+  "selectors": {
+    "lvl0": ".main-menu__navigation a, .content h1, .content .title",
+    "lvl1": ".content h4",
+    "lvl2": ".content h5",
+    "lvl3": ".content h6",
+    "text": ".content p, .content td, .content li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "min_indexed_level": 1,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "875707779"
+  ],
+  "nb_hits": 23179
+}

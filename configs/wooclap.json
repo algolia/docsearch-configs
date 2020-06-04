@@ -1,0 +1,135 @@
+{
+  "index_name": "wooclap",
+  "start_urls": [
+    {
+      "url": "https://www.wooclap.com/en/features/votes/",
+      "tags": [
+        "features"
+      ]
+    },
+    {
+      "url": "https://www.wooclap.com/es/features/votos/",
+      "tags": [
+        "features"
+      ]
+    },
+    {
+      "url": "https://www.wooclap.com/fr/fonctionnalites/votes/",
+      "tags": [
+        "features"
+      ]
+    },
+    {
+      "url": "https://www.wooclap.com/ru/instrumenty/ochnoye-obucheniye/",
+      "tags": [
+        "features"
+      ]
+    },
+    {
+      "url": "https://www.wooclap.com/de/",
+      "tags": [
+        "features"
+      ]
+    },
+    {
+      "url": "https://docs.wooclap.com/",
+      "selectors_key": "faq",
+      "tags": [
+        "faq"
+      ]
+    },
+    {
+      "url": "https://www.wooclap.com/en/blog/",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "url": "https://www.wooclap.com/fr/blog/",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "url": "https://www.wooclap.com/es/blog/",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.wooclap.com/sitemap.xml",
+    "https://www.wooclap.com/landing-sitemap.xml",
+    "https://www.wooclap.com/en/sitemap.xml",
+    "https://www.wooclap.com/es/sitemap.xml",
+    "https://www.wooclap.com/fr/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "main nav h2",
+        "global": true,
+        "default_value": "Features"
+      },
+      "lvl1": "main section h1",
+      "lvl2": "main section h2",
+      "lvl3": "main section h3",
+      "lvl4": "main section h4",
+      "lvl5": "main section h5",
+      "lvl6": "main section h6",
+      "text": "main section p, main section li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    },
+    "faq": {
+      "lvl0": {
+        "selector": "div.breadcrumb > div:nth-child(3) > a",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content .section__article h1",
+      "lvl2": ".content .section__article h2",
+      "lvl3": ".content .section__article h3",
+      "lvl4": ".content .section__article h4",
+      "lvl5": ".content .section__article h5",
+      "lvl6": ".content .section__article h6",
+      "text": ".content .section__article p, .content .section__article li, .content .section__article .article__desc"
+    },
+    "blog": {
+      "lvl0": {
+        "selector": ".bread-navigation > li:nth-child(2) > a",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": "h1.entry-title, .entry-content h1",
+      "lvl2": ".entry-content h2:not(.cta-content-title)",
+      "lvl3": ".entry-content h3",
+      "lvl4": ".entry-content h4",
+      "lvl5": ".entry-content h5",
+      "lvl6": ".entry-content h6",
+      "text": ".entry-content p, .entry-content blockquote, .entry-content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "852968610"
+  ],
+  "nb_hits": 9547
+}

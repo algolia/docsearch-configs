@@ -1,0 +1,45 @@
+{
+  "index_name": "serverless-stack",
+  "start_urls": [
+    "https://serverless-stack.com/chapters/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://serverless-stack.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='toc-sidebar']//*[contains(@class,'active')]/preceding::*[contains(@class,'section')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//*[@id='toc-sidebar']//*[contains(@class,'active')]/preceding::*[contains(@class,'step')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".post h1",
+    "lvl3": ".post-content h3",
+    "lvl4": ".post-content h4",
+    "lvl5": ".post-content h5",
+    "lvl6": ".post-content h6",
+    "text": ".post-content p, .post-content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "822639319"
+  ],
+  "nb_hits": 4082
+}

@@ -1,0 +1,19 @@
+{
+  "index_name": "zillet",
+  "start_urls": [
+    "https://support.zillet.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "text": ".post p, .post li"
+  },
+  "conversation_id": [
+    "850256426"
+  ],
+  "nb_hits": 321
+}

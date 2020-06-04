@@ -1,0 +1,33 @@
+{
+  "index_name": "uniforms",
+  "start_urls": [
+    "http://uniforms.tools/docs/"
+  ],
+  "sitemap_urls": [
+    "http://uniforms.tools/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li, main table td, main table th"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "909555426"
+  ],
+  "nb_hits": 1440
+}

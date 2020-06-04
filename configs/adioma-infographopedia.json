@@ -1,0 +1,27 @@
+{
+  "index_name": "adioma-infographopedia",
+  "start_urls": [
+    "https://infographopedia.adioma.com/"
+  ],
+  "stop_urls": [
+    "/example/",
+    "/function/",
+    "/chart-definitions"
+  ],
+  "sitemap_urls": [
+    "https://infographopedia.adioma.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "[class*='page'] h1",
+    "lvl1": "[class*='page'] h2",
+    "lvl2": "[class*='page'] h3",
+    "lvl3": "[class*='page'] h4",
+    "lvl4": "[class*='page'] h5",
+    "lvl5": "[class*='page'] h6",
+    "text": "[class*='page'] p, [class*='page'] li"
+  },
+  "conversation_id": [
+    "845433270"
+  ],
+  "nb_hits": 1920
+}

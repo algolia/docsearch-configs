@@ -1,0 +1,22 @@
+{
+  "index_name": "aliceo2group",
+  "start_urls": [
+    "https://aliceo2group.github.io/"
+  ],
+  "stop_urls": [
+    "/AliceO2/",
+    "/Monitoring/"
+  ],
+  "selectors": {
+    "lvl0": "#main h1",
+    "lvl1": "#main h2",
+    "lvl2": "#main h3",
+    "lvl3": "#main h4",
+    "lvl4": "#main h5",
+    "text": "#main p, #main li"
+  },
+  "conversation_id": [
+    "843118055"
+  ],
+  "nb_hits": 205
+}

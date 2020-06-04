@@ -1,0 +1,47 @@
+{
+  "index_name": "instantsearch-ios",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/instantsearch-ios/reference/",
+      "selectors_key": "reference"
+    },
+    "https://community.algolia.com/instantsearch-ios"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".hero h1",
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "lvl4": ".documentation-container h4",
+      "lvl5": ".documentation-container h5",
+      "text": ".documentation-container p, .documentation-container li"
+    },
+    "reference": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Reference"
+      },
+      "lvl1": {
+        "selector": "//*[contains(@class, 'nav-group-task')]/a[text()=//h1/text()]/../../../a",
+        "global": true,
+        "type": "xpath"
+      },
+      "lvl2": ".main-content h1",
+      "lvl3": ".main-content h2",
+      "lvl4": ".main-content h3",
+      "lvl5": ".main-content h4",
+      "text": ".main-content p, .main-content li"
+    }
+  },
+  "selectors_exclude": [
+    ".abstract"
+  ],
+  "nb_hits": 478
+}

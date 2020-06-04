@@ -2,88 +2,43 @@
   "index_name": "docs-pusher",
   "start_urls": [
     {
-      "url": "https://docs.pusher.com/chatkit",
-      "selectors_key": "chatkit",
+      "url": "https://pusher.com/docs/channels",
+      "tags": [
+        "channels"
+      ]
+    },
+    {
+      "url": "https://pusher.com/docs/chatkit",
       "tags": [
         "chatkit"
       ]
     },
     {
-      "url": "https://docs.pusher.com/feeds",
-      "selectors_key": "feeds",
-      "tags": [
-        "feeds"
-      ]
-    },
-    {
-      "url": "https://docs.pusher.com/beams",
-      "selectors_key": "beams",
+      "url": "https://pusher.com/docs/beams",
       "tags": [
         "beams"
-      ]
-    },
-    {
-      "url": "https://docs.pusher.com/textsync",
-      "selectors_key": "textsync",
-      "tags": [
-        "textsync"
       ]
     }
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://pusher.com/sitemap.xml"
+  ],
   "selectors": {
-    "chatkit": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Chatkit"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article p, main article li"
+    "lvl0": {
+      "selector": "nav h1",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "feeds": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Feeds"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article p, main article li"
-    },
-    "beams": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Beams"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article p, main article li"
-    },
-    "textsync": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "TextSync"
-      },
-      "lvl1": "main article h1",
-      "lvl2": "main article h2",
-      "lvl3": "main article h3",
-      "lvl4": "main article h4",
-      "text": "main article p, main article li"
-    }
+    "lvl1": "main article h1",
+    "lvl2": "main article h2",
+    "lvl3": "main article h3",
+    "lvl4": "main article h4",
+    "text": "main article p, main article li"
   },
   "strip_chars": " .,;:#",
   "conversation_id": [
     "531520145"
   ],
-  "nb_hits": 2615
+  "nb_hits": 4731
 }

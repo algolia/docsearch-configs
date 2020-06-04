@@ -1,33 +1,29 @@
 {
   "index_name": "exokit",
   "start_urls": [
-    "https://docs.webmr.io/docs/",
-    "https://docs.webmr.io/docs/exokitEngine.html"
+    "https://exokit.org/docs"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
+      "selector": ".docs-header a",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "lvl1": ".copy__wrap h1",
+    "lvl2": ".copy__wrap h2",
+    "lvl3": ".copy__wrap h3",
+    "lvl4": ".copy__wrap h4",
+    "lvl5": ".copy__wrap h5",
+    "lvl6": ".copy__wrap h6",
+    "text": ".copy__wrap p, .copy__wrap li"
   },
+  "strip_chars": "\u203a",
   "selectors_exclude": [
-    ".hash-link"
+    "footer"
   ],
-  "custom_settings": {
-    "attributesForFaceting": [
-      "language"
-    ]
-  },
   "conversation_id": [
-    "622028090"
+    "821582051"
   ],
-  "nb_hits": 405
+  "nb_hits": 296
 }

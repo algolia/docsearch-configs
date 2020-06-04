@@ -1,0 +1,35 @@
+{
+  "index_name": "bazaarvoice_knowledge",
+  "start_urls": [
+    "https://knowledge.bazaarvoice.com/wp-content/"
+  ],
+  "stop_urls": [
+    "/wp-content//"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4, article td:first-child",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li, article td:last-child",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en"
+    }
+  },
+  "min_indexed_level": 1,
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "808845551"
+  ],
+  "nb_hits": 29469
+}

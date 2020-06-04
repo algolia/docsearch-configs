@@ -3,7 +3,10 @@
   "start_urls": [
     "http://api.coala.io/en/latest/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/_",
+    "index.html"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -16,8 +19,11 @@
     "lvl5": ".section h5",
     "text": ".section p, .section li"
   },
+  "selectors_exclude": [
+    ".toctree-wrapper"
+  ],
   "conversation_id": [
     "422630246"
   ],
-  "nb_hits": 3659
+  "nb_hits": 3319
 }

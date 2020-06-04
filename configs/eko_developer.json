@@ -1,0 +1,25 @@
+{
+  "index_name": "eko_developer",
+  "start_urls": [
+    "http://developer.eko.com/docs/",
+    "http://developer.eko.com/api/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://developer.eko.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".article-header h1",
+    "lvl1": ".article-content h3",
+    "lvl2": ".article-content h4",
+    "lvl3": ".article-content h5",
+    "lvl4": ".article-content h6",
+    "text": ".article-content p, .article-content li"
+  },
+  "conversation_id": [
+    "1005985373"
+  ],"custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 3400
+}

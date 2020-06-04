@@ -1,0 +1,32 @@
+{
+  "index_name": "databricks-kb",
+  "start_urls": [
+    "https://kb.databricks.com/"
+  ],
+  "stop_urls": [
+    ".jar$"
+  ],
+  "sitemap_urls": [
+    "https://kb.databricks.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".wy-breadcrumbs li:nth-child(2) a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "selectors_exclude": [
+    ".section [class^=toctree]"
+  ],
+  "conversation_id": [
+    "858336523"
+  ],
+  "nb_hits": 1300
+}

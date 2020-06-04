@@ -1,0 +1,85 @@
+{
+  "index_name": "substrate",
+  "start_urls": [
+    {
+      "url": "https://substrate.dev/docs/",
+      "page_rank": 100
+    },
+    {
+      "url": "https://substrate.dev/tutorials/",
+      "selectors_key": "tutorial-catalog",
+      "page_rank": 75
+    },
+    {
+      "url": "https://substrate.dev/recipes/",
+      "selectors_key": "mdbook",
+      "page_rank": 50
+    },
+    {
+      "url": "https://substrate.dev/rustdocs/",
+      "selectors_key": "rustdocs",
+      "page_rank": 25
+    },
+    {
+      "url": "https://substrate.dev",
+      "page_rank": 10
+    }
+  ],
+  "stop_urls": [
+    "print.html"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".post h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "lvl5": ".post h5",
+      "text": ".post article p, .post article li"
+    },
+    "rustdocs": {
+      "lvl0": "h1.fqn .in-band",
+      "lvl1": ".docblock h1 a, h2.section-header",
+      "lvl2": ".docblock h2 a",
+      "lvl3": ".docblock h3 a",
+      "text": ".docblock li, .docblock p, .content table"
+    },
+    "mdbook": {
+      "lvl0": "h1.menu-title",
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content li, .content p, .content table"
+    },
+    "tutorial-catalog": {
+      "lvl0": "h1.projectTitle",
+      "lvl1": ".mainContainer h1",
+      "lvl2": ".mainContainer h2",
+      "lvl3": ".mainContainer h3",
+      "lvl4": ".mainContainer h4",
+      "lvl5": ".mainContainer h5",
+      "text": ".mainContainer li, .mainContainer p"
+    }
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "877661255"
+  ],
+  "nb_hits": 330099
+}

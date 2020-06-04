@@ -12,14 +12,19 @@
           "v2.0",
           "v2.1",
           "v2.2",
-          "stable"
+          "v19.1",
+          "v19.2",
+          "v20.1",
+          "stable",
+          "cockroachcloud"
         ]
       }
     }
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://www.cockroachlabs.com/docs/sitemap.xml"
+    "https://www.cockroachlabs.com/docs/sitemap.xml",
+    "https://www.cockroachlabs.com/docs/cockroachcloud/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".post-header h1",
@@ -30,6 +35,7 @@
     "text": ".post-content p, .post-content li"
   },
   "only_content_level": true,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "h2#whats-next",
     "h2#whats-next ~ ul",
@@ -45,5 +51,5 @@
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 94410
+  "nb_hits": 149187
 }

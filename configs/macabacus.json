@@ -1,7 +1,7 @@
 {
   "index_name": "macabacus",
   "start_urls": [
-    "https://www.macabacus.com/docs"
+    "https://macabacus.com/docs"
   ],
   "stop_urls": [],
   "selectors": {
@@ -23,5 +23,5 @@
   "conversation_id": [
     "576873639"
   ],
-  "nb_hits": 2035
+  "nb_hits": 2573
 }

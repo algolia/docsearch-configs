@@ -8,31 +8,87 @@
       ]
     },
     {
-      "url": "https://weex.apache.org/references/",
+      "url": "https://weex.apache.org/tools/",
       "tags": [
-        "references"
+        "tools"
+      ],
+      "selectors_key": "tools"
+    },
+    {
+      "url": "https://weex.apache.org/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://weex.apache.org/[\\w]+/guide/",
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://weex.apache.org/[\\w]+/tools/",
+      "tags": [
+        "tools"
+      ],
+      "selectors_key": "tools"
+    },
+    {
+      "url": "https://weex.apache.org/[\\w]+/docs/",
+      "tags": [
+        "docs"
       ]
     }
   ],
-  "stop_urls": [
-    "references/$",
-    "references/index.html$"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//div[@id='sidebar']//a[contains(@class, 'sidebar-link')][contains(@class, 'current')]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "p.sidebar-heading.open",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5, .content p.custom-block-title",
+      "text": ".content p:not(.custom-block-title), .content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
     },
-    "lvl1": ".article-header h1",
-    "lvl2": ".article-entry h2",
-    "lvl3": ".article-entry h3",
-    "text": ".article-entry p, .article-entry li"
+    "tools": {
+      "lvl0": {
+        "selector": ".sidebar-links > li > .active.sidebar-link",
+        "global": true,
+        "default_value": "Tools"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5, .content p.custom-block-title",
+      "text": ".content p:not(.custom-block-title), .content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    }
   },
-  "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "tags"
+    ]
+  },
+  "strip_chars": " .,;:#",
+  "scrap_start_urls": false,
   "conversation_id": [
-    "383792948"
+    "794058072"
   ],
-  "nb_hits": 2146
+  "nb_hits": 5011
 }

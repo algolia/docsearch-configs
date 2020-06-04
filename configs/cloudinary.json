@@ -1,12 +1,93 @@
 {
   "index_name": "cloudinary",
   "start_urls": [
-    "https://cloudinary.com/documentation"
+    {
+      "url": "https://cloudinary.com/documentation/image_transformations",
+      "page_rank": 3
+    },
+    {
+      "url": "https://cloudinary.com/documentation/video_manipulation_and_delivery",
+      "page_rank": 3
+    },
+    {
+      "url": "https://cloudinary.com/documentation/upload_images",
+      "page_rank": 3
+    },
+    {
+      "url": "https://cloudinary.com/documentation/upload_videos",
+      "page_rank": 3
+    },
+    {
+      "url": "https://cloudinary.com/documentation/image_upload_api_reference",
+      "page_rank": 3
+    },
+    {
+      "url": "https://cloudinary.com/documentation/image_transformation_reference",
+      "page_rank": 3
+    },
+    {
+      "url": "https://cloudinary.com/documentation/video_transformation_reference",
+      "page_rank": 3
+    },
+    {
+      "url": "https://cloudinary.com/documentation/admin_api",
+      "page_rank": 2
+    },
+    {
+      "url": "https://cloudinary.com/documentation/search_api",
+      "page_rank": 2
+    },
+    {
+      "url": "https://cloudinary.com/documentation/image_optimization",
+      "page_rank": 2
+    },
+    {
+      "url": "https://cloudinary.com/documentation/responsive_images",
+      "page_rank": 2
+    },
+    {
+      "url": "https://cloudinary.com/documentation/upload_widget",
+      "page_rank": 1
+    },
+    {
+      "url": "https://cloudinary.com/documentation/product_gallery",
+      "page_rank": 1
+    },
+    {
+      "url": "https://cloudinary.com/documentation/cloudinary_video_player",
+      "page_rank": 1
+    },
+    {
+      "url": "https://cloudinary.com/documentation/how_to_integrate_cloudinary",
+      "page_rank": 1
+    },
+    {
+      "url": "https://cloudinary.com/documentation/dam_advanced_search",
+      "page_rank": 1
+    },
+    {
+      "url": "https://cloudinary.com/documentation/dam_manage_individual_assets",
+      "page_rank": 1
+    },
+    {
+      "url": "https://cloudinary.com/documentation/video_player_api_reference",
+      "page_rank": 1
+    },
+    {
+      "url": "https://cloudinary.com/documentation/product_gallery_reference",
+      "page_rank": 1
+    },
+    {
+      "url": "https://cloudinary.com/documentation/",
+      "page_rank": 0
+    }
   ],
   "sitemap_urls": [
     "https://cloudinary.com/sitemap.xml"
   ],
   "stop_urls": [
+    "https://cloudinary.com/documentation/upload_widget_1",
+    "https://cloudinary.com/documentation/sdks/*",
     "\\?",
     "\\.txt$"
   ],
@@ -36,5 +117,5 @@
     "separatorsToIndex": "_"
   },
   "js_render": true,
-  "nb_hits": 11896
+  "nb_hits": 16748
 }

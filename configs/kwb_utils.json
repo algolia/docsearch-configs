@@ -9,7 +9,7 @@
       ]
     },
     {
-      "url": "https://kwb-r.github.io/kwb.utils/reference",
+      "url": "https?://kwb-r.github.io/kwb.utils/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
@@ -93,5 +93,5 @@
   "conversation_id": [
     "729042816"
   ],
-  "nb_hits": 2364
+  "nb_hits": 2777
 }

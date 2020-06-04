@@ -1,0 +1,38 @@
+{
+  "index_name": "marfeel-techatenea",
+  "start_urls": [
+    "https://www.marfeel.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://www.marfeel.com/docs/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content__default h1",
+    "lvl1": ".content__default h2",
+    "lvl2": ".content__default h3",
+    "lvl3": ".content__default h4",
+    "lvl4": ".content__default h5",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "907372374"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 7595
+}

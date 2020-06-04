@@ -1,0 +1,24 @@
+{
+  "index_name": "ark_api_hub",
+  "start_urls": [
+    "https://api.ark.dev/"
+  ],
+  "sitemap_urls": [
+    "https://api.ark.dev/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='--pageContainer-'] h1",
+    "lvl1": "[class*='--pageContainer-'] h2",
+    "lvl2": "[class*='--pageContainer-'] h3",
+    "lvl3": "[class*='--pageContainer-'] h4",
+    "lvl4": "[class*='--pageContainer-'] h5",
+    "lvl5": "[class*='--pageContainer-'] h6",
+    "text": "[class*='--pageContainer-'] p, [class*='--pageContainer-'] li"
+  },
+  "conversation_id": [
+    "864144113"
+  ],
+  "nb_hits": 3953
+}

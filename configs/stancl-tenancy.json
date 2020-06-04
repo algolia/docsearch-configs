@@ -1,0 +1,35 @@
+{
+  "index_name": "stancl-tenancy",
+  "start_urls": [
+    "https://tenancy.samuelstancl.me/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://tenancy.samuelstancl.me/docs/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav/ul/li[.//*[contains(@class,'active')]]/a",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "div.w-full h1",
+    "lvl2": "div.w-full h2",
+    "lvl3": "div.w-full h3",
+    "lvl4": "div.w-full h4",
+    "lvl5": "div.w-full h5",
+    "lvl6": "div.w-full h6",
+    "text": "div.w-full p, div.w-full li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "933880635"
+  ],
+  "nb_hits": 621
+}

@@ -1,0 +1,41 @@
+{
+  "index_name": "ezplatform_userguide",
+  "start_urls": [
+    {
+      "url": "https://doc.ezplatform.com/projects/userguide/(?P<lang>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "lang": [
+          "en"
+        ],
+        "version": [
+          "latest",
+          "3.0",
+          "2.5",
+          "1.13",
+          "1.7",
+          "master"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//a[contains(@class,'md-nav__link--active')]/preceding::label[contains(@class,'md-nav__title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "a.md-nav__link--active",
+    "lvl2": ".md-content h2",
+    "lvl3": ".md-content h3",
+    "lvl4": ".md-content h4",
+    "lvl5": ".md-content h5",
+    "lvl6": ".md-content h6",
+    "text": ".md-content p, .md-content ul li, .md-content .code pre, .md-content table tr td"
+  },
+  "conversation_id": [
+    "549525560"
+  ],
+  "nb_hits": 2820
+}

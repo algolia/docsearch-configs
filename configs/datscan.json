@@ -1,0 +1,20 @@
+{
+  "index_name": "datscan",
+  "start_urls": [
+    "https://docs.datscan.myedukit.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".doc-wrapper h1",
+    "lvl1": ".doc-wrapper h2",
+    "lvl2": ".doc-wrapper h3",
+    "lvl3": ".doc-wrapper h4",
+    "lvl4": ".doc-wrapper h5",
+    "lvl5": ".doc-wrapper h6",
+    "text": ".doc-wrapper p, .doc-wrapper li"
+  },
+  "conversation_id": [
+    "837119570"
+  ],
+  "nb_hits": 102
+}

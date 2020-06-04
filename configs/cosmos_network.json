@@ -1,38 +1,26 @@
 {
   "index_name": "cosmos_network",
   "start_urls": [
-    "https://cosmos.network/docs/",
-    "https://cosmos-staging.interblock.io/docs/"
+    "https://docs.cosmos.network/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.open",
+      "selector": ".section > div > div > .item__selected",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true,
-      "default_value": "en-US"
-    }
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li"
   },
   "strip_chars": " .,;:#",
-  "custom_settings": {
-    "attributesForFaceting": [
-      "lang"
-    ]
-  },
   "conversation_id": [
     "730319897"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 3806
+  "nb_hits": 2738
 }

@@ -1,0 +1,33 @@
+{
+  "index_name": "polyswarm",
+  "start_urls": [
+    "https://docs.polyswarm.io/"
+  ],
+  "sitemap_urls": [
+    "https://docs.polyswarm.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".s-post h1",
+    "lvl1": ".s-post h2",
+    "lvl2": ".s-post h3",
+    "lvl3": ".s-post h4",
+    "lvl4": ".s-post h5",
+    "lvl5": ".s-post h6",
+    "text": ".s-post p, .s-post li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "840880270"
+  ],
+  "nb_hits": 1222
+}

@@ -1,0 +1,28 @@
+{
+  "index_name": "canopsis",
+  "start_urls": [
+    "https://doc.canopsis.net"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://doc.canopsis.net/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".md-nav__item--active > nav[data-md-level='1'] > label",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".md-content__inner h1",
+    "lvl2": ".md-content__inner h2",
+    "lvl3": ".md-content__inner h3",
+    "lvl4": ".md-content__inner h4",
+    "lvl5": ".md-content__inner h5",
+    "lvl6": ".md-content__inner h6",
+    "text": ".md-content__inner p, .md-content__inner li"
+  },
+  "conversation_id": [
+    "847002404"
+  ],
+  "nb_hits": 3559
+}

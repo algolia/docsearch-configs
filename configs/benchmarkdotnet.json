@@ -1,0 +1,92 @@
+{
+  "index_name": "benchmarkdotnet",
+  "start_urls": [
+    {
+      "url": "https://benchmarkdotnet.org/api",
+      "tags": [
+        "api"
+      ],
+      "selectors_key": "api",
+      "page_rank": -1
+    },
+    {
+      "url": "https://benchmarkdotnet.org/articles/",
+      "page_rank": 5
+    },
+    "https://benchmarkdotnet.org"
+  ],
+  "stop_urls": [
+    "/changelog/",
+    "index.html"
+  ],
+  "sitemap_urls": [
+    "https://benchmarkdotnet.org/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".content h1",
+        "global": true,
+        "default_value": "Article"
+      },
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "lvl6": ".content h6",
+      "text": ".content p, .content li"
+    }
+  },
+  "custom_settings": {
+    "attributesToIndex": [
+      "unordered(hierarchy_radio_camel.lvl0)",
+      "unordered(hierarchy_radio.lvl0)",
+      "unordered(hierarchy_camel.lvl0)",
+      "unordered(hierarchy.lvl0)",
+      "unordered(hierarchy_radio_camel.lvl1)",
+      "unordered(hierarchy_radio.lvl1)",
+      "unordered(hierarchy_camel.lvl1)",
+      "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy_radio_camel.lvl2)",
+      "unordered(hierarchy_radio.lvl2)",
+      "unordered(hierarchy_camel.lvl2)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy_radio_camel.lvl3)",
+      "unordered(hierarchy_radio.lvl3)",
+      "unordered(hierarchy_camel.lvl3)",
+      "unordered(hierarchy.lvl3)",
+      "unordered(hierarchy_radio_camel.lvl4)",
+      "unordered(hierarchy_radio.lvl4)",
+      "unordered(hierarchy_camel.lvl4)",
+      "unordered(hierarchy.lvl4)",
+      "unordered(hierarchy_radio_camel.lvl5)",
+      "unordered(hierarchy_radio.lvl5)",
+      "unordered(hierarchy_camel.lvl5)",
+      "unordered(hierarchy.lvl5)",
+      "unordered(hierarchy_radio_camel.lvl6)",
+      "unordered(hierarchy_radio.lvl6)",
+      "unordered(hierarchy_camel.lvl6)",
+      "unordered(hierarchy.lvl6)",
+      "unordered(content)"
+    ],
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "asc(weight.position)",
+      "desc(weight.level)"
+    ]
+  },
+  "nb_hits": 15740
+}

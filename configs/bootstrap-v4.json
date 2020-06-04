@@ -3,7 +3,9 @@
   "start_urls": [
     "https://getbootstrap.com/docs/4.0/"
   ],
-  "stop_urls": ["/examples/.+"],
+  "stop_urls": [
+    "/examples/.+"
+  ],
   "selectors": {
     "lvl0": ".bd-toc-item.active > a",
     "lvl1": ".bd-content h1",
@@ -15,5 +17,5 @@
   "conversation_id": [
     "423628659"
   ],
-  "nb_hits": 3068
+  "nb_hits": 3039
 }

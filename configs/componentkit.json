@@ -1,0 +1,40 @@
+{
+  "index_name": "componentkit",
+  "start_urls": [
+    "https://componentkit.org/docs",
+    "https://componentkit.org/appledoc/html/index.html",
+    "https://componentkit.org/appledoc/"
+  ],
+  "sitemap_urls": [
+    "https://componentkit.org/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'menu__list')]//*[contains(@class,'active')]/preceding::*[contains(@class,'__link')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class*='docItemContainer'] h1",
+    "lvl2": "[class*='docItemContainer'] h2",
+    "lvl3": "[class*='docItemContainer'] h3",
+    "lvl4": "[class*='docItemContainer'] h4",
+    "lvl5": "[class*='docItemContainer'] h5",
+    "text": "[class*='docItemContainer'] p, [class*='docItemContainer'] li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "884680943"
+  ],
+  "nb_hits": 696
+}

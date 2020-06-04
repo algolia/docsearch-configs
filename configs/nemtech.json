@@ -1,0 +1,31 @@
+{
+  "index_name": "nemtech",
+  "start_urls": [
+    {
+      "url": "https://nemtech.github.io/",
+      "tags": [
+        "en"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "/nem2-",
+    "/_",
+    "/ja"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".section h1",
+      "lvl1": ".section h2",
+      "lvl2": ".section h3",
+      "lvl3": ".section h4",
+      "lvl4": ".section h5",
+      "lvl5": ".section h6",
+      "text": ".section p, .section li, .section td"
+    }
+  },
+  "conversation_id": [
+    "782254190"
+  ],
+  "nb_hits": 3775
+}

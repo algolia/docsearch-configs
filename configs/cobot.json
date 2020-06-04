@@ -1,0 +1,17 @@
+{
+  "index_name": "cobot",
+  "start_urls": [
+    "https://www.cobot.me/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".cb-site-main > div:nth-child(2) h2, .cb-site-main > div:nth-child(1) > div > div > div:nth-child(2) > h1",
+    "lvl1": ".cms-content h2",
+    "lvl2": ".cms-content h3",
+    "lvl3": ".cms-content h4",
+    "lvl4": ".cms-content h5",
+    "lvl5": ".cms-content h6",
+    "text": ".cms-content p, .cms-content li"
+  },
+  "nb_hits": 82
+}

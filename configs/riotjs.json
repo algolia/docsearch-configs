@@ -1,31 +1,26 @@
 {
   "index_name": "riotjs",
   "start_urls": [
-    "https://riot.js.org/guide/",
-    "https://riot.js.org/api/",
-    "https://riot.js.org/faq/",
-    "https://riot.js.org/play/"
+    "https://riot.js.org/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "#nav a.current",
+      "selector": ".main-menu a.active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "#main h1",
-    "lvl2": "#main h2",
-    "lvl3": "#main h3",
-    "lvl4": "#main h4",
-    "lvl5": "#main h5",
-    "text": "#main p, #main li"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
   },
   "conversation_id": [
     "580098926"
   ],
-  "selectors_exclude": [
-    "#toc"
-  ],
+  "selectors_exclude": [],
   "js_render": true,
-  "nb_hits": 778
+  "nb_hits": 2092
 }

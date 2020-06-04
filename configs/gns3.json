@@ -1,7 +1,7 @@
 {
   "index_name": "gns3",
   "start_urls": [
-    "http://docs.gns3.com/"
+    "https://docs.gns3.com/"
   ],
   "selectors": {
     "lvl0": {
@@ -18,5 +18,5 @@
   "conversation_id": [
     "266997549"
   ],
-  "nb_hits": 5811
+  "nb_hits": 6679
 }

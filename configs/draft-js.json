@@ -12,16 +12,15 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')][1]/preceding::h3[1]",
-      "type": "xpath",
+      "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li"
   },
   "selectors_exclude": [
     ".hash-link",
@@ -30,5 +29,5 @@
   "conversation_id": [
     "178040846"
   ],
-  "nb_hits": 966
+  "nb_hits": 974
 }

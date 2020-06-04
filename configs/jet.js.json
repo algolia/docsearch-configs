@@ -1,7 +1,7 @@
 {
   "index_name": "jet.js",
   "start_urls": [
-    "https://jet.js.org/"
+    "https://www.jetjs.dev"
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,5 +15,5 @@
   "conversation_id": [
     "418862110"
   ],
-  "nb_hits": 23
+  "nb_hits": 2473
 }

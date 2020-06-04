@@ -7,7 +7,11 @@
         "glossary"
       ]
     },
+    "https://sendgrid.com/docs/ui/sending-email/migrating-from-legacy-marketing-campaigns",
     "https://sendgrid.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://sendgrid.com/docs/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -32,5 +36,5 @@
   "selectors_exclude": [
     ".doc-main h1 + div ul:first-child"
   ],
-  "nb_hits": 15904
+  "nb_hits": 16984
 }

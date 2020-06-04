@@ -1,0 +1,36 @@
+{
+  "index_name": "zenaton",
+  "start_urls": [
+    {
+      "url": "https://zenaton.com/documentation/(?P<language>.*?)/",
+      "variables": {
+        "language": [
+          "php",
+          "go",
+          "ruby",
+          "node",
+          "node-old",
+          "python"
+        ]
+      }
+    },
+    "https://zenaton.com/documentation"
+  ],
+  "sitemap_urls": [
+    "https://zenaton.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#documentation-container h1",
+    "lvl1": ".doc_part h2",
+    "lvl2": ".doc_part h3",
+    "lvl3": ".doc_part h4",
+    "lvl4": ".doc_part h5",
+    "lvl5": ".doc_part h6",
+    "text": ".doc_part p, .doc_part li"
+  },
+  "conversation_id": [
+    "879341107"
+  ],
+  "nb_hits": 4673
+}

@@ -4,17 +4,19 @@
     "http://designsystem.morningstar.com/"
   ],
   "stop_urls": [
+    "\\?",
     "v/",
     ".sketch",
     ".ait",
     "path/",
+    "test/",
     "sink-pages/",
+    "/release-history.html",
     "morningstar.com/index.html"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//li[contains(@class, 'highlighted')][1]/preceding::li[contains(@class, '--header')][1]",
-      "type": "xpath",
+      "selector": ".mds-site-navigation__list-item--active",
       "global": true,
       "default_value": "Documentation"
     },
@@ -22,15 +24,17 @@
     "lvl2": ".mds-doc__content-wrap h2",
     "lvl3": ".mds-doc__content-wrap h3",
     "lvl4": ".mds-doc__content-wrap h4",
-    "text": ".mds-doc__content-wrap p, .mds-doc__content-wrap li"
+    "text": ".mds-doc__content-wrap p, .mds-page-shell__content li"
   },
   "selectors_exclude": [
-    ".mds-doc-page-nav"
+    ".mds-doc-page-nav",
+    ".mds-doc-component-status-header-tag",
+    ".mds-doc-do-dont",
+    ".mds-doc-footer"
   ],
   "scrap_start_urls": false,
-  "js_render": true,
   "conversation_id": [
-    "546559123"
+    "840078344"
   ],
-  "nb_hits": 5638
+  "nb_hits": 9075
 }

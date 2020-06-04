@@ -1,28 +1,28 @@
 {
   "index_name": "front-commerce",
   "start_urls": [
-    "https://developers.front-commerce.com/docs/welcome.html",
     "https://developers.front-commerce.com/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "index\\.html",
+    "https://developers.front-commerce.com/docs/essentials/add-a-page-client-side$"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
+      "selector": "//*[contains(@class,'list-toc')]//*[contains(@class,'current')]/preceding::*[contains(@class,'heading-toc')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+    "lvl1": ".header-wrapper h1",
+    "lvl2": ".content-wrapper h2",
+    "lvl3": ".content-wrapper h3",
+    "lvl4": ".content-wrapper h4",
+    "text": ".content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "min_indexed_level": 2,
   "conversation_id": [
     "541631444"
   ],
-  "nb_hits": 268
+  "nb_hits": 2373
 }

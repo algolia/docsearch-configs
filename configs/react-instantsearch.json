@@ -28,26 +28,45 @@
   ],
   "selectors": {
     "guide": {
-      "lvl0": "h2.sidebar-header",
-      "lvl1": ".sidebar-elements .level-h2 .navItem-active",
+      "lvl0": {
+        "selector": "h2.sidebar-header",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "h1 .text-normal",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl2": ".documentation-container h2",
       "text": ".documentation-container p, .documentation-container li, .documentation-container td"
     },
     "api": {
-      "lvl0": "h2.sidebar-header",
-      "lvl1": ".sidebar-elements .level-h2 .navItem-active",
+      "lvl0": {
+        "selector": "h2.sidebar-header",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "h1 .text-normal",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl2": ".documentation-container h2",
       "lvl3": ".documentation-container .proptypes .api-entry",
       "text": ".documentation-container p, .documentation-container li, .documentation-container td"
     },
     "getting-started": {
-      "lvl0": "h2.sidebar-header",
+      "lvl0": {
+        "selector": "h2.sidebar-header",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": ".sidebar-elements level-h2 > .active",
       "text": ".documentation-container p, .documentation-container li, .documentation-container td"
     }
   },
   "min_indexed_level": 1,
-  "js_render": true,
   "custom_settings": {
     "attributesToIndex": [
       "unordered(hierarchy_radio_camel.lvl0)",
@@ -73,5 +92,5 @@
   "conversation_id": [
     "288502405"
   ],
-  "nb_hits": 2300
+  "nb_hits": 3313
 }

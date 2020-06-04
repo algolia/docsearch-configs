@@ -1,0 +1,38 @@
+{
+  "index_name": "kubedb",
+  "start_urls": [
+    "https://kubedb.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://kubedb.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "-rc",
+    "-beta"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".current-page a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".article h1",
+    "lvl2": ".article h2",
+    "lvl3": ".article h3",
+    "lvl4": ".article h4",
+    "lvl5": ".article h5",
+    "lvl6": ".article h6",
+    "text": ".article p, .article li",
+    "lang": {
+      "selector": "#versions .active a",
+      "global": true
+    }
+  },
+  "selectors_exclude": [
+    ".article blockquote"
+  ],
+  "conversation_id": [
+    "807990706"
+  ],
+  "nb_hits": 18601
+}

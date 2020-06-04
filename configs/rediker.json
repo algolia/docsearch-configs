@@ -1,0 +1,32 @@
+{
+  "index_name": "rediker",
+  "start_urls": [
+    "https://docs.rediker.com/guides/",
+    "https://docs.rediker.com/"
+  ],
+  "stop_urls": [
+    "https://docs.rediker.com/media/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//footer//*[contains(@class,'selected')]/preceding::h4[1] | //*[contains(@class,'navbar-nav')]/*[.//*[contains(@class,'selected')] | ./*[contains(@href,'../../')]]/a)[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    ".relatedTopics"
+  ],
+  "conversation_id": [
+    "813460352"
+  ],
+  "nb_hits": 3780
+}

@@ -5,12 +5,10 @@
   ],
   "stop_urls": [
     "http://rasa.com/docs/.*?/\\d",
-    "http://rasa.com/docs/nlu/(?!master)",
+    "http://rasa.com/docs/.*?/master",
     ".rst.txt$",
-    "http://rasa.com/docs/about/$",
     "/_",
-    "/dev/",
-    "/core/master"
+    "/dev/"
   ],
   "selectors": {
     "lvl0": {
@@ -29,8 +27,16 @@
   "selectors_exclude": [
     ".scv-banner"
   ],
+  "custom_settings": {
+    "synonyms": [
+      [
+        "speech",
+        "voice"
+      ]
+    ]
+  },
   "conversation_id": [
     "627630474"
   ],
-  "nb_hits": 1997
+  "nb_hits": 5004
 }

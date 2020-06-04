@@ -30,6 +30,13 @@
         "blog"
       ]
     },
+    {
+      "url": "https://pytorch.org/hub/",
+      "selectors_key": "hub",
+      "tags": [
+        "hub"
+      ]
+    },
     "https://pytorch.org/get-started/",
     "https://pytorch.org/get-started/locally/"
   ],
@@ -88,6 +95,20 @@
       "lvl5": "article h5",
       "text": "article p, article li"
     },
+    "hub": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Hub"
+      },
+      "lvl1": {
+        "selector": ".jumbotron h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": ".jumbotron p.lead-summary",
+      "text": "article p, article li"
+    },
     "tutorials": {
       "lvl0": {
         "selector": "",
@@ -125,10 +146,11 @@
     "#markdown-toc",
     "h1 br",
     ".section [class^=toctree]",
-    "[class*=download-link-note]"
+    "[class*=download-link-note]",
+    ".detail-arrow"
   ],
   "conversation_id": [
     "672318908"
   ],
-  "nb_hits": 11301
+  "nb_hits": 24300
 }

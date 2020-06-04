@@ -2,7 +2,7 @@
   "index_name": "lianlianpay",
   "start_urls": [
     "https://openllp.lianlianpay.com/docs/guides/overview",
-    "https://openllp.lianlianpay.com/docs/"
+    "https://openllp.lianlianpay.com/docs"
   ],
   "stop_urls": [],
   "selectors": {
@@ -16,5 +16,6 @@
   "conversation_id": [
     "617635990"
   ],
-  "nb_hits": 4429
+  "js_render": true,
+  "nb_hits": 731
 }

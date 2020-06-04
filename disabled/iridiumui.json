@@ -1,0 +1,28 @@
+{
+  "index_name": "iridiumui",
+  "start_urls": [
+    "https://iridiumui.com/docs/",
+    "https://iridiumui.com/docs/getting-started/what-is-iridium/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//nav//*[contains(@class,'router-link-active')]/preceding::h3[1]",
+      "global": true,
+      "type": "xpath",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5, .content table td:first-child",
+    "lvl6": ".content h6",
+    "text": ".content p, .content li, .content table td:nth-child(2)"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "764391253"
+  ],
+  "nb_hits": 422
+}

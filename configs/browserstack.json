@@ -1,0 +1,38 @@
+{
+  "index_name": "browserstack",
+  "start_urls": [
+    "https://www.browserstack.com/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.browserstack.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article:not(.base-support) h1",
+    "lvl2": "article:not(.base-support) h2",
+    "lvl3": "article:not(.base-support) h3",
+    "lvl4": "article:not(.base-support) h4",
+    "lvl5": "article:not(.base-support) h5",
+    "text": "article:not(.base-support) p, article:not(.base-support) li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "902451080"
+  ],
+  "nb_hits": 20741
+}

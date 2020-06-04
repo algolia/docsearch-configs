@@ -1,0 +1,33 @@
+{
+  "index_name": "commonmark-thephpleague",
+  "start_urls": [
+    "https://commonmark.thephpleague.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//menu//*[contains(@class,'menu-section')]//*[contains(@class,'selected')]/preceding::h2[1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li",
+    "version": {
+      "selector": ".versions li.selected a",
+      "global": true
+    }
+  },
+  "conversation_id": [
+    "823091217"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "nb_hits": 4712
+}

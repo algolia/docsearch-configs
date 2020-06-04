@@ -1,0 +1,32 @@
+{
+  "index_name": "docuty",
+  "start_urls": [
+    {
+      "url": "https://docs.docuty.se/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "1.0"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class, 'sidebar')]//a[contains(//link[@rel='canonical']/@href,@href)]/preceding::h2[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".documentation h1",
+    "lvl2": ".documentation h2",
+    "lvl3": ".documentation h3",
+    "lvl4": ".documentation h4",
+    "lvl5": ".documentation h5",
+    "text": ".documentation p, .documentation li"
+  },
+  "conversation_id": [
+    "845123737"
+  ],
+  "nb_hits": 178
+}

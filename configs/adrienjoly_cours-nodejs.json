@@ -1,0 +1,25 @@
+{
+  "index_name": "adrienjoly_cours-nodejs",
+  "start_urls": [
+    "http://adrienjoly.com/cours-nodejs/"
+  ],
+  "stop_urls": [
+    "/slides/"
+  ],
+  "selectors": {
+    "lvl0": ".markdown-body h1",
+    "lvl1": ".markdown-body h2",
+    "lvl2": ".markdown-body h3",
+    "lvl3": ".markdown-body h4",
+    "lvl4": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "selectors_exclude": [
+    ".markdown-body h1 a"
+  ],
+  "strip_chars": " -",
+  "conversation_id": [
+    "820234560"
+  ],
+  "nb_hits": 457
+}

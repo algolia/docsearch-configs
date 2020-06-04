@@ -1,0 +1,44 @@
+{
+  "index_name": "cronofy",
+  "start_urls": [
+    "https://docs.cronofy.com/"
+  ],
+  "stop_urls": [
+    "/categories/",
+    "/tags/"
+  ],
+  "sitemap_urls": [
+    "https://docs.cronofy.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu--primary .menu__item--parent",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content section h1",
+    "lvl2": ".content section h2",
+    "lvl3": ".content section h3",
+    "lvl4": ".content section h4",
+    "lvl5": ".content section h5",
+    "text": ".content section p, .content section li:not(.breadcrumbs__item)",
+    "language": {
+      "selector": "select[name='language'] [selected]",
+      "global": true,
+      "default_value": "English"
+    }
+  },
+  "selectors_exclude": [
+    "section.card--list",
+    ".param-anchor"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
+  "conversation_id": [
+    "777202490"
+  ],
+  "nb_hits": 3307
+}

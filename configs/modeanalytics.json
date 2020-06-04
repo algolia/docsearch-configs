@@ -1,12 +1,14 @@
 {
   "index_name": "modeanalytics",
   "start_urls": [
-    "https://help.modeanalytics.com/"
+    "https://mode.com/help/"
   ],
   "sitemap_urls": [
-    "https://help.modeanalytics.com/sitemap.xml"
+    "https://mode.com/help/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://mode.com/help/articles/beta/."
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".article-container .article-header",
@@ -22,5 +24,5 @@
   "conversation_id": [
     "578404089"
   ],
-  "nb_hits": 2359
+  "nb_hits": 2215
 }

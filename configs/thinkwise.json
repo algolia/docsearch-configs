@@ -1,11 +1,12 @@
 {
   "index_name": "thinkwise",
   "start_urls": [
-    "https://office.thinkwisesoftware.com/docs/",
-    "https://office.thinkwisesoftware.com/docs/docs/sf/sf_general.html"
+    "https://docs.thinkwisesoftware.com/",
+    "https://docs.thinkwisesoftware.com/docs/sf/sf_general.html",
+    "https://docs.thinkwisesoftware.com/blog/"
   ],
   "sitemap_urls": [
-    "https://office.thinkwisesoftware.com/docs/sitemap.xml"
+    "https://docs.thinkwisesoftware.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -33,5 +34,5 @@
   "conversation_id": [
     "645963849"
   ],
-  "nb_hits": 9839
+  "nb_hits": 25057
 }

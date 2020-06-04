@@ -13,12 +13,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".docSearch-content h1",
-    "lvl2": ".docSearch-content h2",
-    "lvl3": ".docSearch-content h3",
-    "lvl4": ".docSearch-content h4",
-    "lvl5": ".docSearch-content h5",
-    "text": ".docSearch-content p, .docSearch-content li"
+    "lvl1": ".pb-16 h1",
+    "lvl2": ".pb-16 h2",
+    "lvl3": ".pb-16 h3",
+    "lvl4": ".pb-16 h4",
+    "lvl5": ".pb-16 h5",
+    "text": ".pb-16 p, .pb-16 li"
   },
   "selectors_exclude": [
     ".example"

@@ -56,6 +56,13 @@
       ]
     },
     {
+      "url": "https://ckeditor.com/docs/ckeditor4/latest/features/",
+      "tags": [
+        "ckeditor4",
+        "features"
+      ]
+    },
+    {
       "url": "https://ckeditor.com/docs/ckeditor4/latest/examples/",
       "tags": [
         "ckeditor4",
@@ -93,6 +100,7 @@
     "https://ckeditor.com/docs/ckeditor5/latest/examples/index.html",
     "https://ckeditor.com/docs/ckeditor4/latest/api/index.html",
     "https://ckeditor.com/docs/ckeditor4/latest/guide/index.html",
+    "https://ckeditor.com/docs/ckeditor4/latest/features/index.html",
     "https://ckeditor.com/docs/ckeditor4/latest/examples/index.html",
     "https://ckeditor.com/docs/letters/latest/guides/index.html",
     "https://ckeditor.com/docs/cs/latest/guides/index.html",
@@ -141,5 +149,5 @@
   "conversation_id": [
     "445274927"
   ],
-  "nb_hits": 37116
+  "nb_hits": 54202
 }

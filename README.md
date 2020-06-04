@@ -4,7 +4,7 @@ This repository holds configuration files used by each documentation DocSearch
 is indexing.
 
 If you're looking for a way to add DocSearch to your site, you should visit the
-main [main website instead][1]. If you want to have a look at existing
+[main website instead][1]. If you want to have a look at existing
 configurations and see yours, you've come to the right place.
 
 ## Options
@@ -25,8 +25,8 @@ DocSearch is made of 3 repositories:
   a Docker image
 
 
-[1]: https://community.algolia.com/docsearch/
-[2]: https://community.algolia.com/docsearch/config-file.html
+[1]: https://docsearch.algolia.com/docs/
+[2]: https://docsearch.algolia.com/docs/config-file
 [3]: https://github.com/algolia/docsearch
 [4]: https://github.com/algolia/docsearch-configs
 [5]: https://github.com/algolia/docsearch-scraper

@@ -1,42 +1,20 @@
 {
   "index_name": "mollie",
   "start_urls": [
-    {
-      "url": "https://docs.mollie.com/reference/(?P<version>.*?)",
-      "variables": {
-        "version": [
-          "v1",
-          "v2"
-        ]
-      },
-      "tags": [
-        "reference"
-      ]
-    },
-    {
-      "url": "https://docs.mollie.com",
-      "tags": [
-        "doc"
-      ]
-    }
+    "https://docs.mollie.com/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//div[contains(@class,'sidebar')]//li[contains(@class,'current')]/preceding::p[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".document h1",
-    "lvl2": ".document h2",
-    "lvl3": ".document h3, .document table td:first-child code.literal",
-    "lvl4": ".document h4",
-    "lvl5": ".document h5",
-    "text": ".document p, .document li, .document table td:last-child:not(.code)"
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
   },
   "conversation_id": [
-    "586333505"
+    "894705849"
   ],
-  "nb_hits": 4359
+  "nb_hits": 5146
 }

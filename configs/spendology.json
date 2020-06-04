@@ -1,0 +1,27 @@
+{
+  "index_name": "spendology",
+  "start_urls": [
+    "https://docs.spendology.dev/docs/",
+    "https://docs.spendology.dev/docs/getting-started/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.spendology.dev/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".p-5 h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".p-5 h2",
+    "lvl2": ".p-5 h3",
+    "lvl3": ".p-5 h4",
+    "lvl4": ".p-5 h5",
+    "lvl5": ".p-5 h6",
+    "text": ".p-5 p, .p-5 li"
+  },
+  "conversation_id": [
+    "877676230"
+  ],
+  "nb_hits": 297
+}

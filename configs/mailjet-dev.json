@@ -16,10 +16,8 @@
     "lvl6": ".content h6",
     "text": ".content p, .content li"
   },
-  "scrap_start_urls": false,
-  "js_render": true,
   "conversation_id": [
     "277094403"
   ],
-  "nb_hits": 1146
+  "nb_hits": 2190
 }

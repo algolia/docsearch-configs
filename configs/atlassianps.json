@@ -1,12 +1,11 @@
 {
   "index_name": "atlassianps",
-  "start_urls": [
-    "https://atlassianps.org/docs/"
-  ],
   "sitemap_urls": [
     "https://atlassianps.org/sitemap.xml"
   ],
-  "sitemap_urls_regexs": "/docs/",
+  "sitemap_urls_regexs": [
+    "/docs/"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".page.documentation *[data-algolia=\"lvl0\"]",
@@ -22,5 +21,5 @@
   "conversation_id": [
     "434891628"
   ],
-  "nb_hits": 4062
+  "nb_hits": 5349
 }

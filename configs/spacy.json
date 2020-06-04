@@ -1,0 +1,41 @@
+{
+  "index_name": "spacy",
+  "start_urls": [
+    "https://spacy.io/"
+  ],
+  "stop_urls": [
+    "\\?",
+    "index$"
+  ],
+  "sitemap_urls": [
+    "https://spacy.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".h0",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article header h1 .heading-text",
+    "lvl2": "article h2 .heading-text",
+    "lvl3": "article h3 .heading-text",
+    "lvl4": "article h4 .heading-text, article table td:first-child, article aside h4 .heading-text, article .accordion h4 .heading-text",
+    "lvl5": "article h5",
+    "text": "article p, article li, article table td:last-child"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    "[data-tooltip]",
+    ".table-footer:nth-child(1)",
+    ".table-footer:nth-child(2)",
+    "#toc",
+    ".search-exclude"
+  ],
+  "conversation_id": [
+    "753259253"
+  ],
+  "js_render": true,
+  "nb_hits": 7179
+}

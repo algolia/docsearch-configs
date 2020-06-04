@@ -1,8 +1,10 @@
 {
   "index_name": "kintohub",
   "start_urls": [
-    "https://docs.kintohub.com/docs/getting-started.html",
     "https://docs.kintohub.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://docs.kintohub.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +26,5 @@
   "conversation_id": [
     "550159762"
   ],
-  "nb_hits": 631
+  "nb_hits": 1655
 }

@@ -3,16 +3,30 @@
   "start_urls": [
     "https://docs.python-guide.org"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\.rst\\.txt$",
+    "/_"
+  ],
+  "sitemap_urls": [
+    "https://docs.python-guide.org/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".section h1",
     "lvl1": ".section h2",
     "lvl2": ".section h3",
     "lvl3": ".section h4",
-    "lvl4": ".section h5",
-    "lvl5": ".section h6",
+    "lvl4": ".section h5, .section .rubric",
+    "lvl5": ".section h6, .section dt",
     "text": ".section p, .section li"
   },
   "min_indexed_level": 1,
-  "nb_hits": 1960
+  "strip_chars": "\u2624",
+  "selectors_exclude": [
+    ".toctree-wrapper",
+    ".headerlink"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_-"
+  },
+  "nb_hits": 1801
 }

@@ -1,10 +1,10 @@
 {
   "index_name": "all-contributors",
   "start_urls": [
-    "https://all-contributors.js.org"
+    "https://allcontributors.org/docs/"
   ],
   "sitemap_urls": [
-    "https://all-contributors.js.org/sitemap.xml"
+    "https://allcontributors.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,10 +26,15 @@
     ".hash-link"
   ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
   },
   "conversation_id": [
     "761520230"
   ],
-  "nb_hits": 253
+  "nb_hits": 4092
 }

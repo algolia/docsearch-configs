@@ -1,45 +1,71 @@
 {
   "index_name": "typescriptlang",
   "start_urls": [
-    "http://www.typescriptlang.org/docs/",
     {
-      "url": "http://www.typescriptlang.org/samples/",
+      "url": "http://www.typescriptlang.org/docs/handbook/release-notes/",
       "tags": [
-        "sample", "example"
+        "release"
       ],
-      "selectors_key": "sample"
+      "selectors_key": "release",
+      "page_rank": -2
+    },
+    {
+      "url": "http://www.typescriptlang.org/docs/",
+      "page_rank": 1
     }
   ],
   "sitemap_urls": [
     "http://www.typescriptlang.org/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/global-plugin/",
+    "declaration-files/templates/",
+    "release-notes/overview.html"
+  ],
   "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": ".doc-content-container h1.post-title",
-        "global": true,
-        "default_value": "MISSING POST TITLE"
-      },
-      "lvl1": ".doc-content-container h1:not(.post-title)",
-      "lvl2": ".doc-content-container h2",
-      "lvl3": ".doc-content-container h3",
-      "lvl4": ".doc-content-container h4",
-      "lvl5": ".doc-content-container h5",
-      "text": ".doc-content-container p, .doc-content-container li"
-    },
-    "sample": {
+    "release": {
       "lvl0": {
         "selector": "",
-        "default_value": "Samples"
+        "global": true,
+        "default_value": "Releases"
       },
-      "lvl1": ".exampleBox h3.exampleHeadline",
-      "text": ".exampleSummary"
+      "lvl1": {
+        "selector": "header h1",
+        "global": true
+      },
+      "lvl2": "article h1",
+      "lvl3": "article h2",
+      "lvl4": "article h3",
+      "lvl5": "article h4",
+      "lvl6": "article h5",
+      "text": "article p, article li"
+    },
+    "default": {
+      "lvl0": {
+        "selector": "//nav//*[contains(@class,'active')]/preceding::h2[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "header h1",
+        "global": true
+      },
+      "lvl2": "article h1",
+      "lvl3": "article h2",
+      "lvl4": "article h3",
+      "lvl5": "article h4, article td:first-child",
+      "lvl6": "article h5",
+      "text": "article p, article li, article td:last-child"
     }
   },
   "scrap_start_urls": false,
   "selectors_exclude": [
     ".toc-item"
   ],
-  "nb_hits": 3729
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_@"
+  },
+  "nb_hits": 11699
 }

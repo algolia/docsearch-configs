@@ -1,0 +1,66 @@
+{
+  "index_name": "form-create",
+  "start_urls": [
+    {
+      "url": "http://www.form-create.com/v2",
+      "tags": [
+        "v2"
+      ],
+      "selectors_key": "v2"
+    },
+    {
+      "url": "http://www.form-create.com/",
+      "tags": [
+        "v1"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "p.sidebar-heading.open, ul.sidebar-links > li > a.active",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "v2": {
+      "lvl0": "[class*='content '] h1",
+      "lvl1": "[class*='content '] h2",
+      "lvl2": "[class*='content '] h3",
+      "lvl3": "[class*='content '] h4",
+      "lvl4": "[class*='content '] h5",
+      "lvl5": "[class*='content '] h5",
+      "text": "[class*='content '] p, [class*='content '] li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "825818962"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 4412
+}

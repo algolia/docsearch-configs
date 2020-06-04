@@ -1,0 +1,21 @@
+{
+  "index_name": "react-native-ui-kitten",
+  "start_urls": [
+    "https://akveo.github.io/react-native-ui-kitten/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docSearch-content h1",
+    "lvl1": ".docSearch-content h2",
+    "lvl2": ".docSearch-content h3",
+    "lvl3": ".docSearch-content h4, .docSearch-content td:first-child",
+    "lvl4": ".docSearch-content h5",
+    "lvl5": ".docSearch-content h6",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "879246138"
+  ],
+  "nb_hits": 2948
+}

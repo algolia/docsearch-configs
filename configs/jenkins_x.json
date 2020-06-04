@@ -2,57 +2,45 @@
   "index_name": "jenkins_x",
   "start_urls": [
     {
-      "url": "https://jenkins-x.io/commands/",
-      "selectors_key": "commands"
+      "url": "https://jenkins-x.io/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "es",
+          "zh"
+        ]
+      }
     },
-    "https://jenkins-x.io/"
+    {
+      "url": "https://jenkins-x.io/",
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://jenkins-x.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": "nav[role='navigation'] > ul > li > .primary-color",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": ".documentation-copy h1",
-      "lvl2": ".documentation-copy h2",
-      "lvl3": ".documentation-copy h3",
-      "lvl4": ".documentation-copy h4",
-      "lvl5": ".documentation-copy h5",
-      "text": ".documentation-copy p, .documentation-copy li",
-      "lang": {
-        "selector": "/html/@lang",
-        "type": "xpath",
-        "global": true,
-        "default_value": "en-us"
-      }
-    },
-    "commands": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Commands"
-      },
-      "lvl1": ".documentation-copy h2",
-      "lvl2": ".documentation-copy h3",
-      "lvl3": ".documentation-copy h4",
-      "lvl4": ".documentation-copy h5",
-      "text": ".documentation-copy p, .documentation-copy li",
-      "lang": {
-        "selector": "/html/@lang",
-        "type": "xpath",
-        "global": true,
-        "default_value": "en-us"
-      }
+    "lvl0": ".td-content h1, .documentation-copy h1",
+    "lvl1": ".td-content h2, .documentation-copy h2",
+    "lvl2": ".td-content h3, .documentation-copy h3",
+    "lvl3": ".td-content h4, .documentation-copy h4",
+    "lvl4": ".td-content h5, .documentation-copy h5",
+    "lvl5": ".td-content h6, .documentation-copy h6",
+    "text": ".td-content p, .td-content li, .documentation-copy p, .documentation-copy li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-us"
     }
   },
   "selectors_exclude": [
-    "#see-also",
-    "#see-also + ul"
+    "[class^='feedback--']",
+    ".section-index"
   ],
   "scrap_start_urls": false,
   "custom_settings": {
@@ -61,7 +49,7 @@
     ]
   },
   "conversation_id": [
-    "677074897"
+    "965668499"
   ],
-  "nb_hits": 4694
+  "nb_hits": 14859
 }

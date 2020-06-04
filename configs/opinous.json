@@ -1,0 +1,30 @@
+{
+  "index_name": "opinous",
+  "start_urls": [
+    "https://developers.opinous.com"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://developers.opinous.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "[class*='Content'] h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class*='Markdown'] h2",
+    "lvl2": "[class*='Markdown'] h3",
+    "lvl3": "[class*='Markdown'] h4",
+    "lvl4": "[class*='Markdown'] h5",
+    "lvl5": "[class*='Markdown'] h6",
+    "text": "[class*='Markdown'] p, [class*='Markdown'] li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "845550314"
+  ],
+  "nb_hits": 157
+}

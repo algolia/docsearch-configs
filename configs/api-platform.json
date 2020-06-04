@@ -1,7 +1,22 @@
 {
   "index_name": "api-platform",
   "start_urls": [
-    "https://api-platform.com/docs"
+    {
+      "url": "https://api-platform.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "master",
+          "2.5",
+          "2.4",
+          "2.3",
+          "2.2",
+          "2.1"
+        ]
+      }
+    },
+    {
+      "url": "https://api-platform.com/docs"
+    }
   ],
   "sitemap_urls": [
     "https://api-platform.com/sitemap.xml"
@@ -27,5 +42,5 @@
   "conversation_id": [
     "266860983"
   ],
-  "nb_hits": 1170
+  "nb_hits": 10473
 }

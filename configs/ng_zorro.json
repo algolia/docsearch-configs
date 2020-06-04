@@ -17,7 +17,8 @@
   ],
   "stop_urls": [
     "/changelog",
-    "/issue-helper"
+    "/issue-helper",
+    "/blog"
   ],
   "selectors_exclude": [
     ".code-box-demo"
@@ -43,5 +44,5 @@
   "conversation_id": [
     "608880365"
   ],
-  "nb_hits": 216
+  "nb_hits": 4544
 }

@@ -1,22 +1,31 @@
 {
   "index_name": "uport",
   "start_urls": [
-    "https://developer.uport.me"
+    "https://developer.uport.me/",
+    "https://developer.uport.me/messages/claims/"
   ],
   "sitemap_urls": [
     "https://developer.uport.me/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".docSearch-content h1",
+    "lvl0": {
+      "selector": ".docSearch-content h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": ".docSearch-content h2",
     "lvl2": ".docSearch-content h3",
     "lvl3": ".docSearch-content h4, .docSearch-content table td:first-of-type",
     "lvl4": ".docSearch-content h5",
     "text": ".docSearch-content p, .docSearch-content li, .docSearch-content table td:last-child"
   },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "js_render": true,
   "conversation_id": [
     "577830504"
   ],
-  "nb_hits": 1040
+  "nb_hits": 806
 }

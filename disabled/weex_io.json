@@ -1,0 +1,38 @@
+{
+  "index_name": "weex_io",
+  "start_urls": [
+    {
+      "url": "https://weex.apache.org/guide/",
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://weex.apache.org/docs/",
+      "tags": [
+        "docs"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "references/$",
+    "references/index.html$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[@id='sidebar']//a[contains(@class, 'sidebar-link')][contains(@class, 'current')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".article-header h1",
+    "lvl2": ".article-entry h2",
+    "lvl3": ".article-entry h3",
+    "text": ".article-entry p, .article-entry li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "383792948"
+  ],
+  "nb_hits": 2146
+}

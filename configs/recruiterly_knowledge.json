@@ -1,0 +1,23 @@
+{
+  "index_name": "recruiterly_knowledge",
+  "start_urls": [
+    "https://knowledge.recruiterly.com/"
+  ],
+  "sitemap_urls": [
+    "https://knowledge.recruiterly.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".kb-article h1",
+    "lvl1": ".kb-article h2",
+    "lvl2": ".kb-article h3",
+    "lvl3": ".kb-article h4",
+    "lvl4": ".kb-article h5",
+    "lvl5": ".kb-article h6",
+    "text": ".kb-article p, .kb-article li"
+  },
+  "conversation_id": [
+    "928629094"
+  ],
+  "nb_hits": 262
+}

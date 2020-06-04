@@ -1,0 +1,32 @@
+{
+  "index_name": "ewelink-api",
+  "start_urls": [
+    "https://ewelink-api.now.sh/docs/",
+    "https://ewelink-api.now.sh/docs/getting-started"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://ewelink-api.now.sh/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".lvl0-active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".break-words h1",
+    "lvl2": ".break-words h2",
+    "lvl3": ".break-words h3",
+    "lvl4": ".break-words h4",
+    "lvl5": ".break-words h5",
+    "lvl6": ".break-words h6",
+    "text": ".break-words p, .break-words li"
+  },
+  "selectors_exclude": [
+    ".example"
+  ],
+  "conversation_id": [
+    "921115660"
+  ],
+  "nb_hits": 120
+}

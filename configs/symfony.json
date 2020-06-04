@@ -2,7 +2,21 @@
   "index_name": "symfony",
   "start_urls": [
     {
-      "url": "https://symfony.com/doc/(?P<version>.*?)/",
+      "url": "https://symfony.com/doc/(?P<version>.*?)/bundles",
+      "page_rank": 50,
+      "variables": {
+        "version": [
+          "current",
+          "master"
+        ]
+      },
+      "tags": [
+        "bundles"
+      ]
+    },
+    {
+      "url": "https://symfony.com/doc/(?P<version>.*?)",
+      "page_rank": 100,
       "variables": {
         "version": [
           "2.0",
@@ -19,37 +33,144 @@
           "3.2",
           "3.3",
           "3.4",
+          "4.0",
+          "4.1",
+          "4.2",
+          "4.3",
+          "4.4",
+          "5.0",
+          "5.1",
+          "5.2",
           "current",
           "master"
         ]
       }
-    },
-    "https://symfony.com/doc/bundles"
+    }
   ],
   "stop_urls": [
-    ".*^(?!.*Bundle).*index.html"
+    "https://symfony.com/doc/.*/cmf/.*"
+  ],
+  "sitemap_urls": [
+    "https://symfony.com/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[@class='breadcrumb']/li[3]",
-      "type": "xpath"
-    },
-    "lvl1": {
-      "selector": "//*[@class='breadcrumb']/li[4]",
-      "type": "xpath"
-    },
-    "lvl2": "main h1",
-    "lvl3": "main h2",
-    "lvl4": "main h3",
-    "lvl5": "main h4",
-    "text": "main p"
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li, main dt, main dd, main blockquote"
   },
   "selectors_exclude": [
-    "body.doc #main .page h1"
+    ".breadcrumb",
+    ".toc--embedded"
   ],
-  "min_indexed_level": 2,
-  "conversation_id": [
-    "169623383"
-  ],
-  "nb_hits": 218116
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ],
+    "synonyms": [
+      [
+        "yaml",
+        "yml"
+      ],
+      [
+        "env var",
+        "env vars",
+        "environment variable",
+        "environment variables"
+      ],
+      [
+        "i18n",
+        "internationalization",
+        "internationalize",
+        "multilingual",
+        "translate",
+        "translating",
+        "translation",
+        "translator"
+      ],
+      [
+        "route",
+        "router",
+        "routes",
+        "routing"
+      ],
+      [
+        "URI",
+        "URIs",
+        "URL",
+        "URLs"
+      ],
+      [
+        "param",
+        "parameter",
+        "parameters",
+        "params"
+      ],
+      [
+        "console",
+        "terminal"
+      ],
+      [
+        "container",
+        "dependency injection",
+        "DI",
+        "IoC",
+        "service container",
+        "services"
+      ],
+      [
+        "env",
+        "environment",
+        "environments",
+        "envs"
+      ],
+      [
+        "log",
+        "logger",
+        "logging",
+        "logs",
+        "monolog"
+      ],
+      [
+        "test",
+        "tester",
+        "testing",
+        "tests"
+      ],
+      [
+        "database",
+        "db",
+        "doctrine"
+      ],
+      [
+        "template engine",
+        "template",
+        "templates",
+        "templating",
+        "twig"
+      ],
+      [
+        "config",
+        "configs",
+        "configuration"
+      ],
+      [
+        "deploy",
+        "deployment"
+      ],
+      [
+        "event dispatcher",
+        "event listener",
+        "event listeners",
+        "event subscriber",
+        "event subscribers",
+        "event",
+        "events"
+      ]
+    ]
+  },
+  "nb_hits": 495285
 }

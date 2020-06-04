@@ -1,0 +1,46 @@
+{
+  "index_name": "typo3",
+  "start_urls": [
+    "https://docs.typo3.org/"
+  ],
+  "stop_urls": [
+    "/_",
+    "/getthedocs/files/",
+    "/services/",
+    "/typo3cms/drafts/",
+    "/typo3cms/Teams/",
+    "/~mbless/",
+    "/Changelog/",
+    "sphinx/[\\w\\-]*/\\d",
+    "sphinx/\\d",
+    "Reference/\\d"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".project",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "lvl6": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "selectors_exclude": [
+    "table.docutils",
+    ".toctree-wrapper",
+    ".contents",
+    "[class*='cell-examples']",
+    "#next-steps",
+    "#next-step",
+    ".sitemap"
+  ],
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "809027593"
+  ],
+  "nb_hits": 150608
+}

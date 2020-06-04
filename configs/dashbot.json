@@ -7,7 +7,7 @@
     ".*[^/]$"
   ],
   "sitemap_urls": [
-    "https://www.dashbot.io/sitemap.xml"
+    "https://www.dashbot.io/sitemap_index.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -20,7 +20,8 @@
     "lvl2": ".elementor-widget-wrap h2",
     "lvl3": ".elementor-widget-wrap h3",
     "lvl4": ".elementor-widget-wrap h4",
+    "lvl5": ".elementor-widget-wrap h5",
     "text": ".elementor-widget-wrap p, .elementor-widget-wrap li"
   },
-  "nb_hits": 1327
+  "nb_hits": 1557
 }

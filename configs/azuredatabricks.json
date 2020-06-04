@@ -1,7 +1,7 @@
 {
   "index_name": "azuredatabricks",
   "start_urls": [
-    "https://docs.azuredatabricks.net"
+    "https://docs.microsoft.com/en-us/azure/databricks/"
   ],
   "stop_urls": [
     ".jar$",
@@ -9,26 +9,26 @@
     ".net/index.html"
   ],
   "sitemap_urls": [
-    "https://docs.azuredatabricks.net/sitemap.xml"
+    "https://docs.microsoft.com/en-us/azure/databricks/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".wy-breadcrumbs li:nth-child(2) a",
+      "selector": "[aria-expanded='true'] > span",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".section h1",
-    "lvl2": ".section h2",
-    "lvl3": ".section h3",
-    "lvl4": ".section h4",
-    "lvl5": ".section h5",
-    "text": ".section p, .section li"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
   },
   "selectors_exclude": [
-    ".section [class^=toctree]"
+    "main [class^=toctree]"
   ],
   "conversation_id": [
-    "576106937"
+    "858336523"
   ],
-  "nb_hits": 7298
+  "nb_hits": 18251
 }

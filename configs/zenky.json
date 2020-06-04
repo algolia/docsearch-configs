@@ -5,23 +5,24 @@
       "url": "https://developer.zenky.io/docs/(?P<version>.*?)",
       "variables": {
         "version": [
-          "1.0"
+          "1.0",
+          "2.0"
         ]
       }
     }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".main-content h1",
-    "lvl1": ".main-content h2",
-    "lvl2": ".main-content h3",
-    "lvl3": ".main-content h4",
-    "lvl4": ".main-content h5",
-    "text": ".main-content p, .main-content li"
+    "lvl0": ".zenky-docs-content h1",
+    "lvl1": ".zenky-docs-content h2",
+    "lvl2": ".zenky-docs-content h3",
+    "lvl3": ".zenky-docs-content h4",
+    "lvl4": ".zenky-docs-content h5",
+    "text": ".zenky-docs-content p, .zenky-docs-content li"
   },
   "conversation_id": [
     "577989260"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 646
+  "nb_hits": 927
 }

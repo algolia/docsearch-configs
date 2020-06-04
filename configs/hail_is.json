@@ -1,0 +1,26 @@
+{
+  "index_name": "hail_is",
+  "start_urls": [
+    "https://hail.is/docs/0.2/"
+  ],
+  "stop_urls": [
+    "/_"
+  ],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1172540378"
+  ],
+  "nb_hits": 10103
+}

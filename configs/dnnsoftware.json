@@ -1,29 +1,63 @@
 {
   "index_name": "dnnsoftware",
+  "sitemap_urls": [
+    "https://dnndocs.com/sitemap.xml"
+  ],
   "start_urls": [
-    "http://www.dnnsoftware.com/docs/"
-  ],
-  "stop_urls": [
-    "/docs/[A-Za-z-]+/.+index.html$"
-  ],
-  "selectors": {
-    "lvl0": {
-      "selector": "nav[role='toc'] > ul > li > a",
-      "global": true,
-      "default_value": "Documentation"
+    {
+      "url": "https://dnndocs.com/api/",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
     },
-    "lvl1": "main article h1",
-    "lvl2": "main article h2",
-    "lvl3": "main article h3",
-    "lvl4": "main article h4",
-    "lvl5": "main article h5",
-    "text": "main article p, main article li"
+    {
+      "url": "https://dnndocs.com/api/DotNetNuke.Common.Lists.ListInfoCollection.html",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "url": "https://dnndocs.com/",
+      "tags": [
+        "docs"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": {
+        "selector": ".content h1",
+        "global": true
+      },
+      "lvl2": ".content h1",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li"
+    }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
   },
   "selectors_exclude": [
-    ".related-links",
-    ".breadcrumbs",
-    ".postreq"
+    ".inheritedMembers",
+    ".inheritance"
   ],
-  "strip_chars": "\u2014",
-  "nb_hits": 20839
+  "scrap_start_url": false,
+  "nb_hits": 68685
 }

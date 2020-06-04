@@ -1,0 +1,24 @@
+{
+  "index_name": "secureauth",
+  "start_urls": [
+    "https://docs.secureauth.com/"
+  ],
+  "stop_urls": [
+    "\\?",
+    "/label/"
+  ],
+  "selectors": {
+    "lvl0": ".rw_content h1#title-text",
+    "lvl1": ".rw_content h1:not(#title-text)",
+    "lvl2": ".rw_content h2",
+    "lvl3": ".rw_content h3",
+    "lvl4": ".rw_content h4",
+    "lvl5": ".rw_content h5",
+    "lvl6": ".rw_content h6",
+    "text": ".rw_content p, .rw_content li"
+  },
+  "conversation_id": [
+    "1071099184"
+  ],
+  "nb_hits": 168803
+}

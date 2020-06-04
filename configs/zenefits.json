@@ -1,0 +1,21 @@
+{
+  "index_name": "zenefits",
+  "start_urls": [
+    "http://ui.zenefits.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main > section > section h1",
+    "lvl1": "main > section > section h2",
+    "lvl2": "main > section > section h3",
+    "lvl3": "main > section > section h4",
+    "lvl4": "main > section > section h5",
+    "lvl5": "main > section > section h6",
+    "text": "main > section > section p, main > section > section li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "885602678"
+  ],
+  "nb_hits": 39
+}

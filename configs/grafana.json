@@ -1,12 +1,11 @@
 {
   "index_name": "grafana",
   "start_urls": [
-    "http://docs.grafana.org/"
+    "https://grafana.com/docs/grafana/latest/"
   ],
   "stop_urls": [
-    "http://docs.grafana.org/$",
-    "v2.1",
-    "archive"
+    "https://grafana.com/(?!docs/)",
+    "https://grafana.com/docs/v\\d+\\.\\d+/"
   ],
   "selectors": {
     "lvl0": {
@@ -25,5 +24,5 @@
   "conversation_id": [
     "261040552"
   ],
-  "nb_hits": 2781
+  "nb_hits": 11917
 }

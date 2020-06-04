@@ -1,0 +1,26 @@
+{
+  "index_name": "rubyonrails-guides",
+  "start_urls": [
+    "https://guides.rubyonrails.org/"
+  ],
+  "stop_urls": [
+    "/kindle/",
+    ".org/v\\d"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#feature h2",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": "#container h3",
+    "lvl2": "#container h4",
+    "lvl3": "#container h5",
+    "lvl4": "#container h6",
+    "text": "#container p, #container li,#feature p, #feature li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 15947
+}

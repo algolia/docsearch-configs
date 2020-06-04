@@ -1,0 +1,84 @@
+{
+  "index_name": "kirupa",
+  "start_urls": [
+    {
+      "url": "https://www.kirupa.com/learn/",
+      "tags": [
+        "learn"
+      ]
+    },
+    {
+      "url": "https://www.kirupa.com/react/",
+      "tags": [
+        "react"
+      ]
+    },
+    {
+      "url": "https://www.kirupa.com/html5/",
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "url": "https://www.kirupa.com/canvas/",
+      "tags": [
+        "canvas"
+      ]
+    },
+    {
+      "url": "https://www.kirupa.com/data_structures_algorithms/",
+      "tags": [
+        "algorithms"
+      ]
+    },
+    {
+      "url": "https://www.kirupa.com/javascript/",
+      "tags": [
+        "javascript"
+      ]
+    },
+    {
+      "url": "https://www.kirupa.com/apps/",
+      "tags": [
+        "web"
+      ]
+    },
+    "https://www.kirupa.com"
+  ],
+  "stop_urls": [
+    "/examples/",
+    "/code/",
+    "/me/",
+    "/css/",
+    "/sotw/",
+    "/interviews/",
+    "/blend",
+    "/developer",
+    "/motiongraphics"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": "#mainContent h1",
+      "lvl1": "#mainContent h2",
+      "lvl2": "#mainContent h3",
+      "lvl3": "#mainContent h4",
+      "lvl4": "#mainContent h5",
+      "lvl5": "#mainContent h6",
+      "text": "#mainContent > p, #mainContent > li"
+    }
+  },
+  "scrap_start_urls": false,
+  "selectors_exclude": [
+    ".tutorialInfo",
+    ".homeList",
+    "#sigNewsletter + p",
+    ".centerImage",
+    "#table1",
+    "#pageComments",
+    "#bookPromo"
+  ],
+  "conversation_id": [
+    "922334053"
+  ],
+  "nb_hits": 12368
+}

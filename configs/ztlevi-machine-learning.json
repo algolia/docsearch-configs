@@ -1,0 +1,20 @@
+{
+  "index_name": "ztlevi-machine-learning",
+  "start_urls": [
+    "https://ztlevi.github.io/Gitbook_Machine_Learning_Questions/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-section h1",
+    "lvl1": ".markdown-section h2",
+    "lvl2": ".markdown-section h3",
+    "lvl3": ".markdown-section h4",
+    "lvl4": ".markdown-section h5",
+    "lvl5": ".markdown-section h6",
+    "text": ".markdown-section p, .markdown-section li"
+  },
+  "conversation_id": [
+    "869538460"
+  ],
+  "nb_hits": 1267
+}

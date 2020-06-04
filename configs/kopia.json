@@ -1,0 +1,25 @@
+{
+  "index_name": "kopia",
+  "start_urls": [
+    "https://kopia.io/docs"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://kopia.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "[class*='content'] h1",
+    "lvl1": "[class*='content'] h3",
+    "lvl2": "[class*='content'] h4",
+    "lvl3": "[class*='content'] h5",
+    "lvl4": "[class*='content'] h6",
+    "text": "[class*='content'] p, [class*='content'] li"
+  },
+  "conversation_id": [
+    "851405503"
+  ],
+  "selectors_exclude": [
+    "[class^='feedback']"
+  ],
+  "nb_hits": 324
+}

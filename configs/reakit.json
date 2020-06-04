@@ -1,0 +1,25 @@
+{
+  "index_name": "reakit",
+  "start_urls": [
+    "https://reakit.io/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='___gatsby']//nav//*[@aria-current]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#main h1",
+    "lvl2": "#main h2",
+    "lvl3": "#main h3",
+    "lvl4": "#main h4",
+    "text": "#main p, #main li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "855187913"
+  ],
+  "nb_hits": 1538
+}

@@ -1,0 +1,33 @@
+{
+  "index_name": "platyplus",
+  "start_urls": [
+    "https://platyplus.github.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='content'] h1",
+    "lvl1": "[class*='content'] h2",
+    "lvl2": "[class*='content'] h3",
+    "lvl3": "[class*='content'] h4",
+    "lvl4": "[class*='content'] h5",
+    "lvl5": "[class*='content'] h6",
+    "text": "[class*='content'] p, [class*='content'] li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "883068399"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 71
+}

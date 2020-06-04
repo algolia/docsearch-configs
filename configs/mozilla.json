@@ -132,27 +132,27 @@
       "no_variables",
       "extra_attributes",
       "hierarchy_camel.lvl1"
+    ],
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "es6",
+        "ECMAScript6",
+        "ECMAScript 6"
+      ],
+      [
+        "es5",
+        "ECMAScript5",
+        "ECMAScript 5"
+      ],
+      [
+        "mdn",
+        "Mozilla Developer Network"
+      ]
     ]
   },
-  "synonyms": [
-    [
-      "js",
-      "javascript"
-    ],
-    [
-      "es6",
-      "ECMAScript6",
-      "ECMAScript 6"
-    ],
-    [
-      "es5",
-      "ECMAScript5",
-      "ECMAScript 5"
-    ],
-    [
-      "mdn",
-      "Mozilla Developer Network"
-    ]
-  ],
-  "nb_hits": 23807
+  "nb_hits": 40011
 }

@@ -1,0 +1,20 @@
+{
+  "index_name": "sparkdesignsystem",
+  "start_urls": [
+    "https://sparkdesignsystem.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='layout__content'] h1",
+    "lvl1": "[class*='layout__content'] h2",
+    "lvl2": "[class*='layout__content'] h3",
+    "lvl3": "[class*='layout__content'] h4",
+    "lvl4": "[class*='layout__content'] h5",
+    "lvl5": "[class*='layout__content'] h6",
+    "text": "[class*='layout__content'] p, [class*='layout__content'] li"
+  },
+  "conversation_id": [
+    "893782390"
+  ],
+  "nb_hits": 1767
+}

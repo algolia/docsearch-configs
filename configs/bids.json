@@ -1,11 +1,11 @@
 {
   "index_name": "bids",
   "start_urls": [
-    "https://bids-documentacao.surge.sh/docs/",
-    "https://bids-documentacao.surge.sh/docs/apresentacao"
+    "http://doc.bids.sogo.com.br/docs/apresentacao/",
+    "http://doc.bids.sogo.com.br/docs/"
   ],
   "sitemap_urls": [
-    "https://bids-documentacao.surge.sh/sitemap.xml"
+    "http://doc.bids.sogo.com.br/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,6 +20,7 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
+    "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
@@ -32,7 +33,7 @@
     ]
   },
   "conversation_id": [
-    "685789119"
+    "767654472"
   ],
-  "nb_hits": 55
+  "nb_hits": 285
 }

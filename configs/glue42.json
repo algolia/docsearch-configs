@@ -1,25 +1,24 @@
 {
   "index_name": "glue42",
   "start_urls": [
-    "https://docs.glue42.com/g4e/"
+    "https://docs.glue42.com/"
   ],
   "sitemap_urls": [
-    "https://docs.glue42.com/g4e/sitemap.xml"
+    "https://docs.glue42.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".code-item-content-container h1",
-      "default_value": "Documentation"
-    },
-    "lvl1": ".code-item-content-container h2",
-    "lvl2": ".code-item-content-container h3",
-    "lvl3": ".code-item-content-container h4",
-    "lvl4": ".code-item-content-container h5",
-    "text": ".code-item-content-container p, .code-item-content-container li"
+    "default": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p .content ul li"
+    }
   },
   "conversation_id": [
     "461445616"
   ],
-  "nb_hits": 5342
+  "nb_hits": 2998
 }

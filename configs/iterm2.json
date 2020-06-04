@@ -1,0 +1,45 @@
+{
+  "index_name": "iterm2",
+  "start_urls": [
+    {
+      "url": "https://iterm2.com/documentation",
+      "selectors_key": "documentation"
+    },
+    "https://iterm2.com/"
+  ],
+  "stop_urls": [
+    "/utilities/",
+    "/_",
+    "/3",
+    "/2",
+    "downloads"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "nav .active",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".main h3",
+      "lvl2": ".main h4",
+      "lvl3": ".main h5",
+      "lvl4": ".main h6",
+      "text": ".main p, .main li"
+    },
+    "documentation": {
+      "lvl0": {
+        "selector": "nav .active",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".doc-section h1",
+      "lvl2": ".doc-section h3",
+      "lvl3": ".doc-section h4",
+      "lvl4": ".doc-section h5, .doc-section td:first-child",
+      "lvl5": ".doc-section h6",
+      "text": ".doc-section p, .doc-section li, .doc-section td:last-child"
+    }
+  },
+  "nb_hits": 6109
+}

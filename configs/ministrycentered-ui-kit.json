@@ -1,0 +1,32 @@
+{
+  "index_name": "ministrycentered-ui-kit",
+  "start_urls": [
+    "https://ministrycentered.github.io/ui-kit/"
+  ],
+  "sitemap_urls": [
+    "https://ministrycentered.github.io/ui-kit/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//*[contains(@class,'active')]/preceding::h6[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocSearch-content h1",
+    "lvl2": ".DocSearch-content h2",
+    "lvl3": ".DocSearch-content h3",
+    "lvl4": ".DocSearch-content h4",
+    "lvl5": ".DocSearch-content h5",
+    "lvl6": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "selectors_exclude": [
+    ".react-live"
+  ],
+  "conversation_id": [
+    "823942216"
+  ],
+  "nb_hits": 733
+}

@@ -1,0 +1,25 @@
+{
+  "index_name": "signrequest",
+  "start_urls": [
+    "https://signrequest.com/api/v1/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".api-content h1",
+    "lvl1": ".api-content h2",
+    "lvl2": ".api-content h3",
+    "lvl3": ".api-content h5",
+    "lvl4": ".api-content h6,.api-content td:first-child ",
+    "text": ".api-content p, .api-content li"
+  },
+  "selectors_exclude":["h5 span"],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "conversation_id": [
+    "818690867"
+  ],
+  "nb_hits": 3082
+}

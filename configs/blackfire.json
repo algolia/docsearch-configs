@@ -19,9 +19,8 @@
   },
   "min_indexed_level": 1,
   "js_render": true,
-  "docker_memory": 2048,
   "conversation_id": [
     "359451084"
   ],
-  "nb_hits": 3414
+  "nb_hits": 3619
 }

@@ -12,7 +12,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".nav li.active",
+      "selector": "nav li.active",
       "global": true,
       "default_value": "Documentation"
     },
@@ -32,5 +32,5 @@
   "conversation_id": [
     "568622233"
   ],
-  "nb_hits": 31268
+  "nb_hits": 41109
 }

@@ -1,0 +1,22 @@
+{
+  "index_name": "teddy",
+  "start_urls": [
+    "https://teddytags.now.sh/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "js_wait": 1,
+  "js_render": true,
+  "conversation_id": [
+    "1115317002"
+  ],
+  "nb_hits": 91
+}

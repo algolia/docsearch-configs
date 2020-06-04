@@ -1,0 +1,41 @@
+{
+  "index_name": "relayr_gwa",
+  "start_urls": [
+    "https://gwa.relayr.io/docs/"
+  ],
+  "sitemap_urls": [
+    "https://gwa.relayr.io/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "\\.html$",
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5, .post td:first-child",
+    "text": ".post article p, .post article li, .post article :nth-child(2)"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "971404280"
+  ],
+  "nb_hits": 23241
+}

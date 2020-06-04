@@ -1,0 +1,34 @@
+{
+  "index_name": "sncf_design-bootstrap",
+  "start_urls": [
+    "https://design-bootstrap.sncf.fr/docs/4.0/getting-started/introduction/",
+    "https://design-bootstrap.sncf.fr/docs/"
+  ],
+  "stop_urls": [
+    "/examples/",
+    ".*(?<!/)$"
+  ],
+  "sitemap_urls": [
+    "https://design-bootstrap.sncf.fr/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".bd-toc-item.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "selectors_exclude": [
+    ".bd-example"
+  ],
+  "conversation_id": [
+    "794100873"
+  ],
+  "nb_hits": 1861
+}

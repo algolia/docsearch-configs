@@ -1,0 +1,20 @@
+{
+  "index_name": "render",
+  "start_urls": [
+    "https://render.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".r-doc-content h1",
+    "lvl1": ".r-doc-content h2",
+    "lvl2": ".r-doc-content h3",
+    "lvl3": ".r-doc-content h4",
+    "lvl4": ".r-doc-content h5",
+    "lvl5": ".r-doc-content h6",
+    "text": ".r-doc-content p, .r-doc-content li"
+  },
+  "conversation_id": [
+    "1109662452"
+  ],
+  "nb_hits": 1360
+}

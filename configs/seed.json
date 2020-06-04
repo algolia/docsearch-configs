@@ -1,0 +1,22 @@
+{
+  "index_name": "seed",
+  "start_urls": [
+    "https://seed.run/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://seed.run/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".post-header h1",
+    "lvl1": ".post-content h3",
+    "lvl2": ".post-content h4",
+    "lvl3": ".post-content h5",
+    "lvl4": ".post-content h6",
+    "text": ".post-content p, .post-content li"
+  },
+  "conversation_id": [
+    "891888753"
+  ],
+  "nb_hits": 1624
+}

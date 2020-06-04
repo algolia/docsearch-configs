@@ -1,0 +1,17 @@
+{
+  "index_name": "quantopian",
+  "start_urls": [
+    "https://www.quantopian.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".section h4",
+    "lvl1": ".section h5",
+    "lvl2": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "conversation_id": [
+    "838044517"
+  ],
+  "nb_hits": 9175
+}

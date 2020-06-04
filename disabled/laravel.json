@@ -4,19 +4,17 @@
     {
       "url": "https://laravel.com/docs/(?P<version>.*?)/",
       "variables": {
-        "version": {
-          "url": "https://laravel.com/docs/master",
-          "js": "var versions = $('.switcher').find('li > a').map(function (i, li) { return $(li).text(); }).toArray(); return JSON.stringify(versions);"
-        }
+        "version": [
+          "master",
+          "5.5",
+          "5.4"
+        ]
       }
     }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
-    },
+    "lvl0": ".sidebar h2.is-active",
     "lvl1": "article h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
@@ -24,5 +22,9 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "nb_hits": 28214
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "434180355"
+  ],
+  "nb_hits": 19113
 }

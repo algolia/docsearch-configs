@@ -1,0 +1,55 @@
+{
+  "index_name": "symfony",
+  "start_urls": [
+    {
+      "url": "https://symfony.com/doc/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "2.0",
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5",
+          "2.6",
+          "2.7",
+          "2.8",
+          "3.0",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "current",
+          "master"
+        ]
+      }
+    },
+    "https://symfony.com/doc/bundles"
+  ],
+  "stop_urls": [
+    ".*^(?!.*Bundle).*index.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@class='breadcrumb']/li[3]",
+      "type": "xpath"
+    },
+    "lvl1": {
+      "selector": "//*[@class='breadcrumb']/li[4]",
+      "type": "xpath"
+    },
+    "lvl2": "main h1",
+    "lvl3": "main h2",
+    "lvl4": "main h3",
+    "lvl5": "main h4",
+    "text": "main p"
+  },
+  "selectors_exclude": [
+    "body.doc #main .page h1"
+  ],
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "169623383"
+  ],
+  "nb_hits": 218116
+}

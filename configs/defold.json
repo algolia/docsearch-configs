@@ -1,0 +1,45 @@
+{
+  "index_name": "defold",
+  "start_urls": [
+    {
+      "url": "https://www.defold.com/faq/",
+      "selectors_key": "faq"
+    },
+    "https://www.defold.com/tutorials/",
+    "https://www.defold.com/ref/",
+    "https://www.defold.com/manuals/",
+    "https://www.defold.com/learn/",
+    "https://www.defold.com/examples/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'menu-doc')]//*[contains(@class,'active')]/preceding::h4[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "[class^='body'] h1",
+      "lvl2": "[class^='body'] h2",
+      "lvl3": "[class^='body'] h3",
+      "lvl4": "[class^='body'] h4",
+      "lvl5": "[class^='body'] h5",
+      "lvl6": "[class^='body'] h6",
+      "text": "[class^='body'] p, [class^='body'] li"
+    },
+    "faq": {
+      "lvl0": ".body h1",
+      "lvl1": ".body-wide h2",
+      "lvl2": ".body-wide h3",
+      "lvl3": ".body-wide h4",
+      "lvl4": ".body-wide h5",
+      "lvl5": ".body-wide h6",
+      "text": ".body-wide p, .body-wide li"
+    }
+  },
+  "conversation_id": [
+    "765801374"
+  ],
+  "nb_hits": 19373
+}

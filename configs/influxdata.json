@@ -9,10 +9,15 @@
           "telegraf",
           "chronograf",
           "kapacitor",
+          "flux",
           "enterprise_influxdb",
           "enterprise_kapacitor"
         ],
         "version": [
+          "1.11",
+          "1.10",
+          "v1.9",
+          "v1.8",
           "v1.7",
           "v1.6",
           "v1.5",
@@ -21,36 +26,106 @@
           "v1.2",
           "v1.1",
           "v1.0",
+          "v0.36",
+          "v0.24",
           "v0.13",
           "v0.12",
           "v0.11",
           "v0.10",
           "v0.9",
-          "v0.8"
+          "v0.8",
+          "v0.7"
         ]
       }
+    },
+    {
+      "url": "https://docs.influxdata.com/platform/"
+    },
+    {
+      "url": "https://v2.docs.influxdata.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v2.0"
+        ]
+      },
+      "selectors_key": "v2"
     }
   ],
   "stop_urls": [
     "^[^/]*//.*//"
   ],
   "sitemap_urls": [
-    "https://docs.influxdata.com/sitemap.xml"
+    "https://docs.influxdata.com/sitemap.xml",
+    "https://v2.docs.influxdata.com/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": ".article-heading h1",
-    "lvl1": ".article-content h1",
-    "lvl2": ".article-content h2",
-    "lvl3": ".article-content h4",
-    "text": ".article-content p"
+    "default": {
+      "lvl0": ".article-heading h1",
+      "lvl1": ".article-content h1",
+      "lvl2": ".article-content h2",
+      "lvl3": ".article-content h3",
+      "lvl4": ".article-content h4",
+      "lvl5": ".article-content h5",
+      "text": ".article-content p"
+    },
+    "v2": {
+      "lvl0": ".article--content h1",
+      "lvl1": ".article--content h2",
+      "lvl2": ".article--content h3",
+      "lvl3": ".article--content h4",
+      "lvl4": ".article--content h5",
+      "lvl5": ".article--content h6",
+      "text": ".article--content p,.article--content ol,.article--content ul,.article--content pre,.article--content table"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "no_variables",
+      "extra_attributes",
+      "project",
+      "version",
+      "latest"
+    ],
+    "synonyms": [
+      [
+        "changelog",
+        "release notes"
+      ],
+      [
+        "kapacitor",
+        "continuous query",
+        "cq",
+        "task"
+      ],
+      [
+        "ui",
+        "chronograf"
+      ],
+      [
+        "ingest",
+        "collect",
+        "pull",
+        "scrape"
+      ],
+      [
+        "database",
+        "bucket"
+      ],
+      [
+        "regular expression",
+        "regex"
+      ],
+      [
+        "template variable",
+        "dashboard variable"
+      ]
+    ]
   },
   "selectors_exclude": [
     ".article-footer",
     ".old-version"
   ],
   "only_content_level": true,
-  "nb_hits": 89091,
-  "conversation_id": [
-    "609047509"
-  ]
+  "nb_hits": 121401
 }

@@ -1,0 +1,30 @@
+{
+  "index_name": "screamingcircuits",
+  "start_urls": [
+    "http://beyondbeta.screamingcircuits.com/resource-center",
+    "http://beyondbeta.screamingcircuits.com/resource-center/services",
+    "http://beyondbeta.screamingcircuits.com/resource-center/process",
+    "http://beyondbeta.screamingcircuits.com/resource-center/tips",
+    "http://beyondbeta.screamingcircuits.com/resource-center/tutorials"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".hero-area h6 a.active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".hero-area h1, .ib h1",
+    "lvl2": ".article-heading",
+    "lvl3": ".article-subhead",
+    "text": ".article-p, .article-list li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "392991384"
+  ],
+  "selectors_exclude": [
+    ".col-md-offset-1"
+  ],
+  "nb_hits": 487
+}

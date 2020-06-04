@@ -1,0 +1,23 @@
+{
+  "index_name": "delta_io",
+  "start_urls": [
+    "https://docs.delta.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".document h1",
+    "lvl1": ".document h2",
+    "lvl2": ".document h3",
+    "lvl3": ".document h4",
+    "lvl4": ".document h5",
+    "lvl5": ".document h6",
+    "text": ".document p, .document li"
+  },
+  "selectors_exclude": [
+    "#in-this-topic"
+  ],
+  "conversation_id": [
+    "832410089"
+  ],
+  "nb_hits": 629
+}

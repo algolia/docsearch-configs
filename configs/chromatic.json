@@ -1,0 +1,28 @@
+{
+  "index_name": "chromatic",
+  "start_urls": [
+    "https://www.chromatic.com/docs/"
+  ],
+  "stop_urls": [
+    "chromatic(\\?!\\.com\\/docs)"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'sidebar-nav')]//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Blog"
+    },
+    "lvl1": ".main h1",
+    "lvl2": ".main h2",
+    "lvl3": ".main h3",
+    "lvl4": ".main h4",
+    "lvl5": ".main h5",
+    "lvl6": ".main h6",
+    "text": ".main p, .main li"
+  },
+  "conversation_id": [
+    "1106623821"
+  ],
+  "nb_hits": 560
+}

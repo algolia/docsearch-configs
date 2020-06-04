@@ -1,0 +1,23 @@
+{
+  "index_name": "ssui",
+  "start_urls": [
+    "https://ssui.club/",
+    "https://d.ssui.club/",
+    "https://d.ssui.club/html/charts/index.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1159310425"
+  ],
+  "nb_hits": 386
+}

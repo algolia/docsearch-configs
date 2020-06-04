@@ -1,0 +1,34 @@
+{
+  "index_name": "mapeditor",
+  "start_urls": [
+    {
+      "url": "https://doc.mapeditor.org/en/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "stable",
+          "latest"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://doc.mapeditor.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "selectors_exclude": [
+    ".section [class^=toctree]"
+  ],
+  "conversation_id": [
+    "861225350"
+  ],
+  "nb_hits": 3019
+}

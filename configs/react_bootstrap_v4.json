@@ -1,28 +1,29 @@
 {
   "index_name": "react_bootstrap_v4",
   "start_urls": [
-    "https://react-bootstrap.netlify.com/"
+    "https://react-bootstrap.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".js-search-toc-item.js-search-active",
+      "selector": ".js-search-active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "#rb-docs-content h1",
-    "lvl2": "#rb-docs-content h2",
-    "lvl3": "#rb-docs-content h3",
-    "lvl4": "#rb-docs-content h4",
-    "lvl5": "#rb-docs-content h5",
-    "text": "#rb-docs-content p, #rb-docs-content li"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4, main td:first-child",
+    "lvl5": "main h5",
+    "text": "main p, main li"
   },
   "selectors_exclude": [
-    ".js-search-exclude"
+    "[aria-hidden]",
+    ".sr-only"
   ],
   "strip_chars": " .,;:#",
   "conversation_id": [
     "663753006"
   ],
-  "nb_hits": 1187
+  "nb_hits": 1627
 }

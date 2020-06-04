@@ -3,21 +3,31 @@
   "start_urls": [
     "https://docs.cxjs.io"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/examples/"
+  ],
   "selectors": {
-    "lvl0": ".dxe-article-body h1",
-    "lvl1": ".dxe-article-body h2",
-    "lvl2": ".dxe-article-body h4",
-    "lvl3": ".dxe-article-body h5",
+    "lvl0": {
+      "selector": "//*[contains(@class,'dxb-contents')]//*[contains(@class,'cxs-active')]/preceding::*[contains(@class,'cxe-sidenav-topic')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".dxb-contents .cxs-active",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".dxe-article-body h2",
+    "lvl3": ".dxe-article-body h4",
+    "lvl4": ".dxe-article-body h5",
     "text": ".dxe-article-body p, .dxe-article-body li"
   },
-  "min_indexed_level": 1,
-  "js_render": true,
   "selectors_exclude": [
     ".dxb-codesplit"
   ],
   "conversation_id": [
     "460415949"
   ],
-  "nb_hits": 4237
+  "nb_hits": 4287
 }

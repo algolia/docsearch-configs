@@ -1,6 +1,12 @@
 {
   "index_name": "twilio",
   "start_urls": [
+    {
+      "url": "https://www.twilio.com/docs/studio",
+      "tags": [
+        "studio"
+      ]
+    },
     "https://www.twilio.com/docs"
   ],
   "sitemap_urls": [
@@ -19,7 +25,7 @@
     "lvl1": {
       "selector": "//*[contains(@class,'docs-sidebar__file-tree')]//li[contains(@class,'is-selected')]/preceding::label[1]",
       "type": "xpath",
-      "default_value": "Chapter",
+      "default_value": "Tutorial",
       "global": true
     },
     "lvl2": ".docs-prose h1",
@@ -39,7 +45,7 @@
     "separatorsToIndex": "_"
   },
   "conversation_id": [
-    "773482498"
+    "1181878457"
   ],
-  "nb_hits": 90665
+  "nb_hits": 119558
 }

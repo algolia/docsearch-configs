@@ -1,0 +1,46 @@
+{
+  "index_name": "bulma_js",
+  "start_urls": [
+    "https://bulmajs.tomerbe.co.uk/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://bulmajs.tomerbe.co.uk/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".content h1",
+      "global": true
+    },
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li",
+    "version": {
+      "selector": ".version-selector > select > option",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ],
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "es6",
+        "ECMAScript6",
+        "ECMAScript2015"
+      ]
+    ]
+  },
+  "conversation_id": [
+    "1178623420"
+  ],
+  "nb_hits": 665
+}

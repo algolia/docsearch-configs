@@ -2,11 +2,11 @@
   "index_name": "konvajs",
   "start_urls": [
     {
-      "url": "https://konvajs.github.io/docs/",
+      "url": "https://konvajs.org/docs/",
       "page_rank": 5
     },
     {
-      "url": "https://konvajs.github.io/api/",
+      "url": "https://konvajs.org/api/",
       "selectors_key": "api",
       "page_rank": 1
     }
@@ -25,7 +25,7 @@
         "global": true,
         "default_value": "Chapter"
       },
-      "lvl2": "[itemprop='articleBody'] h1",
+      "lvl2": "h1",
       "lvl3": "[itemprop='articleBody'] h2",
       "lvl4": "[itemprop='articleBody'] h3",
       "lvl5": "[itemprop='articleBody'] h4",
@@ -52,5 +52,5 @@
   "conversation_id": [
     "686005040"
   ],
-  "nb_hits": 10486
+  "nb_hits": 11240
 }

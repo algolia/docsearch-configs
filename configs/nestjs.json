@@ -1,0 +1,25 @@
+{
+  "index_name": "nestjs",
+  "start_urls": [
+    "https://docs.nestjs.com/"
+  ],
+  "stop_urls": [
+    ".com/v\\d"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//app-menu-item//*[contains(@class,'active')]/preceding::h3[1] ",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5",
+    "lvl4": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "js_render": true,
+  "strip_chars": " .,;:#",
+  "nb_hits": 1675
+}

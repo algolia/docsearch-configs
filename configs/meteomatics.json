@@ -1,20 +1,21 @@
 {
   "index_name": "meteomatics",
   "start_urls": [
-    "http://api.meteomatics.com/"
+    "https://www.meteomatics.com/en/api/",
+    "https://www.meteomatics.com/en/api/getting-started/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".side-body h1",
-    "lvl1": ".side-body h2",
-    "lvl2": ".side-body h3",
-    "lvl3": ".side-body h4",
-    "lvl4": ".side-body h5",
-    "text": ".side-body p, .side-body li"
+    "lvl0": ".page h1",
+    "lvl1": ".page h2",
+    "lvl2": ".page h3",
+    "lvl3": ".page h4",
+    "lvl4": ".page h5",
+    "text": ".page p, .page li"
   },
-  "min_indexed_level": 2,
+  "js_render": true,
   "conversation_id": [
     "396118973"
   ],
-  "nb_hits": 1802
+  "nb_hits": 8434
 }

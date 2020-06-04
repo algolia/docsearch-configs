@@ -1,0 +1,26 @@
+{
+  "index_name": "appsignal",
+  "start_urls": [
+    "https://docs.appsignal.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'active')]//preceding::h2[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "802517598"
+  ],
+  "nb_hits": 4266
+}

@@ -1,8 +1,7 @@
 {
   "index_name": "expo",
   "start_urls": [
-    "https://docs.expo.io/versions/v28.0.0/introduction/installation",
-    "https://docs.expo.io/versions/v28.0.0/"
+    "https://docs.expo.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,5 +21,10 @@
   "conversation_id": [
     "569512966"
   ],
-  "nb_hits": 15569
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "nb_hits": 38392
 }

@@ -1,0 +1,34 @@
+{
+  "index_name": "barnardos_design-system",
+  "start_urls": [
+    "https://design-system.barnardos.org.uk/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://design-system.barnardos.org.uk/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".Topic",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".Main h1",
+    "lvl2": ".Main h2",
+    "lvl3": ".Main h3",
+    "lvl4": ".Main h4",
+    "lvl5": ".Main h5",
+    "text": ".Main p:not(.Topic), .Main li"
+  },
+  "selectors_exclude": [
+    "nav",
+    ".Example",
+    ".Figure"
+  ],
+  "conversation_id": [
+    "782889902"
+  ],
+  "min_indexed_level": 2,
+  "scrap_start_urls": false,
+  "nb_hits": 633
+}

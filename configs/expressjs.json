@@ -2,48 +2,84 @@
   "index_name": "expressjs",
   "start_urls": [
     {
-      "url": "http://expressjs.com/(?P<lang>.*?)/",
-      "variables": {
-        "lang": [
-          "en",
-          "fr",
-          "de",
-          "es",
-          "it",
-          "ja",
-          "ru",
-          "zh-cn",
-          "zh-tw",
-          "ko",
-          "pt-br",
-          "sk",
-          "uk",
-          "uz",
-          "tr"
-        ]
-      }
-    }
+      "url": "http://expressjs.com/.*/api",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "url": "http://expressjs.com/.*/changelog",
+      "selectors_key": "changelog",
+      "tags": [
+        "changelog"
+      ]
+    },
+    "http://expressjs.com/"
   ],
   "stop_urls": [
     "/resources/",
     "/2x/",
-    "/3x/"
+    "/3x/",
+    "/4x/"
   ],
   "selectors": {
-    "lvl0": "section h1",
-    "lvl1": "section h2",
-    "lvl2": "section h3",
-    "lvl3": "section h4",
-    "text": "section p, section li"
+    "default": {
+      "lvl0": {
+        "selector": "#navmenu .active",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "#page-doc h1",
+      "lvl2": "#page-doc h2",
+      "lvl3": "#page-doc h3",
+      "lvl4": "#page-doc h4",
+      "lvl5": "#page-doc h5",
+      "text": "#page-doc p, #page-doc li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "api": {
+      "lvl0": "#api-doc h1",
+      "lvl1": "#api-doc h2",
+      "lvl2": "#api-doc h3",
+      "lvl3": "#api-doc h4",
+      "lvl4": "#api-doc h5",
+      "lvl5": "#api-doc td:first-child",
+      "text": "#api-doc p, #api-doc li, #api-doc td:nth-child(2)",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "changelog": {
+      "lvl0": "#page-doc h1",
+      "lvl1": "#page-doc h2",
+      "lvl2": "#page-doc h3",
+      "lvl3": "#page-doc h4",
+      "lvl4": "#page-doc h5",
+      "text": "#page-doc p, #page-doc li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    }
   },
+  "selectors_exclude": [
+    "[id^='previous-']"
+  ],
   "custom_settings": {
-    "attributesToIndex": [
-      "unordered(hierarchy.lvl0)",
-      "unordered(hierarchy.lvl1)",
-      "unordered(hierarchy.lvl2)",
-      "unordered(hierarchy.lvl3)"
+    "attributesForFaceting": [
+      "lang"
     ]
   },
-  "min_indexed_level": 2,
-  "nb_hits": 46741
+  "nb_hits": 25303
 }

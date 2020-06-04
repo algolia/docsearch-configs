@@ -1,0 +1,19 @@
+{
+  "index_name": "realdeposits",
+  "start_urls": [
+    "https://doc.realdeposits.com/integration_docs/latest"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".article h2",
+    "lvl1": ".article h3",
+    "lvl2": ".article h4",
+    "lvl3": ".article h5",
+    "lvl4": ".article h6",
+    "text": ".article p, .article li"
+  },
+  "conversation_id": [
+    "1022335272"
+  ],
+  "nb_hits": 402
+}

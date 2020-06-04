@@ -1,8 +1,11 @@
 {
   "index_name": "relay",
   "start_urls": [
-    "https://facebook.github.io/relay/docs/en/introduction-to-relay.html",
-    "https://facebook.github.io/relay/docs/en/.*\\.html"
+    "https://relay.dev/docs/en/introduction-to-relay.html",
+    "https://relay.dev/docs/"
+  ],
+  "sitemap_urls": [
+    "https://relay.dev/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -13,15 +16,22 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
+    "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
     ".hash-link",
     ".edit-page-link"
   ],
-  "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "499581257"
   ],
-  "nb_hits": 948
+  "nb_hits": 36451
 }

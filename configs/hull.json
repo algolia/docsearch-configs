@@ -1,20 +1,46 @@
 {
   "index_name": "hull",
+  "sitemap_urls": [
+    "https://www.hull.io/sitemap.xml"
+  ],
   "start_urls": [
-    "https://www.hull.io/docs/"
+    {
+      "url": "https://www.hull.io/docs/",
+      "selectors_key": "docs",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://www.hull.io/blog/",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".nav--docs__sidebar__title",
-    "lvl1": ".content--docs h1",
-    "lvl2": ".content--docs h2",
-    "lvl3": ".content--docs h3",
-    "lvl4": ".content--docs h4",
-    "text": ".content--docs p, .content--docs li"
+    "docs": {
+      "lvl0": ".content--docs .header__title",
+      "lvl1": ".content--docs h1",
+      "lvl2": ".content--docs h2",
+      "lvl3": ".content--docs h3",
+      "lvl4": ".content--docs h4",
+      "text": ".content--docs p, .content--docs li"
+    },
+    "blog": {
+      "lvl0": ".post__header .post__title",
+      "lvl1": ".post__text h1",
+      "lvl2": ".post__text h2",
+      "lvl3": ".post__text h3",
+      "lvl4": ".post__text h4",
+      "text": ".post__text p, .post__text li"
+    }
   },
   "min_indexed_level": 1,
   "conversation_id": [
     "724165962"
   ],
-  "nb_hits": 1779
+  "nb_hits": 10780
 }

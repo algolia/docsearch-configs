@@ -1,0 +1,46 @@
+{
+  "index_name": "flexberry",
+  "start_urls": [
+    "https://flexberry.github.io/"
+  ],
+  "sitemap_urls": [
+    "https://flexberry.github.io/sitemap.xml"
+  ],
+  "stop_urls": [
+    "://.+//"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".sidebarTitle",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//nav/ul/li[.//*[contains(@class,'active')]]/a",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": "#content h1",
+    "lvl3": ".post-content h2",
+    "lvl4": ".post-content h3",
+    "lvl5": ".post-content h4",
+    "lvl6": ".post-content h5",
+    "text": ".post-content p, .post-content li, .post-content .summary, .post-content alert",
+    "lang": {
+      "selector": "//meta[contains(@property,'og:locale')]/@content",
+      "type": "xpath",
+      "global": true,
+      "default_value": "ru"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "778813556"
+  ],
+  "nb_hits": 42546
+}

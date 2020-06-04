@@ -1,36 +1,28 @@
 {
   "index_name": "webpack-js-org",
   "start_urls": [
-    "https://webpack.js.org/concepts/",
-    "https://webpack.js.org/guides/",
-    "https://webpack.js.org/api/",
-    "https://webpack.js.org/configuration/",
-    "https://webpack.js.org/loaders/",
-    "https://webpack.js.org/plugins/",
-    "https://webpack.js.org/development/",
-    "https://webpack.js.org/contribute/"
+    "https://webpack.js.org/"
   ],
   "sitemap_urls": [
     "https://webpack.js.org/sitemap.xml"
   ],
   "stop_urls": [
-    "index.html"
+    "index\\.html",
+    "/printable/"
   ],
-  "js_render": true,
-  "js_wait": 0,
-  "selectors_exclude": [
-    ".contributors",
-    ".todo",
-    ".page__edit"
-  ],
+  "selectors_exclude": [],
   "selectors": {
-    "lvl0": ".navigation .navigation__link--active",
-    "lvl1": ".page__content h1",
-    "lvl2": ".page__content h2",
-    "lvl3": ".page__content h3",
-    "lvl4": ".page__content h4",
-    "lvl5": ".page__content h5",
-    "text": ".page__content p"
+    "lvl0": {
+      "selector": "nav.navigation__items [class*='active']",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4, .markdown td.content",
+    "lvl5": ".markdown h5",
+    "text": ".markdown > div > p, .markdown td.description.desktop, .markdown .warning , .markdown blockquote p, .markdown li"
   },
   "custom_settings": {
     "synonyms": [
@@ -40,13 +32,10 @@
         "versioning",
         "hashing",
         "renaming",
-        "revving",
-        "content addressable",
-        "persistent caching",
-        "consistent file hashing"
+        "revving"
       ]
-    ]
+    ],
+    "separatorsToIndex": "_"
   },
-  "min_indexed_level": 1,
-  "nb_hits": 7036
+  "nb_hits": 7281
 }

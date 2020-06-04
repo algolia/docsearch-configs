@@ -1,0 +1,39 @@
+{
+  "index_name": "wpcontentcrawler",
+  "start_urls": [
+    {
+      "url": "https://docs.wpcontentcrawler.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "master",
+          "1.9",
+          "1.10"
+        ]
+      }
+    },
+    "https://docs.wpcontentcrawler.com/"
+  ],
+  "stop_urls": [
+    "/_",
+    "/$"
+  ],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3, #change-log strong",
+    "lvl3": ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
+    "lvl4": ".section h5",
+    "text": ".section p:not(.admonition-title), .section li,  .section td:nth-child(2)"
+  },
+  "selectors_exclude": [
+    "#contents",
+    ".toctree-wrapper"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1010054031"
+  ],
+  "nb_hits": 13490
+}

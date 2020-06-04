@@ -1,0 +1,209 @@
+{
+  "index_name": "fosdem",
+  "start_urls": [
+    {
+      "url": "https://fosdem.org/2020/schedule/event",
+      "tags": [
+        "2020",
+        "event"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://fosdem.org/2020/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "#main h1",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "#main h2",
+      "global": true
+    },
+    "lvl2": {
+      "selector": "#main h1",
+      "default_value": "Documentation"
+    },
+    "description": {
+      "selector": ".event-blurb p",
+      "global": true
+    },
+    "speakers": {
+      "selector": "#main > table > tbody > tr > td:last-child > a",
+      "global": true
+    },
+    "speaker_url": {
+      "selector": "//*[@id='main']/table/tbody/tr/td[2]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "room": {
+      "selector": "#main > ul.side-box > li:nth-child(2) > a",
+      "global": true
+    },
+    "start": {
+      "selector": "#main > ul.side-box > li:nth-child(4) > a",
+      "global": true
+    },
+    "end": {
+      "selector": "#main > ul.side-box > li:nth-child(5) > a",
+      "global": true
+    },
+    "day": {
+      "selector": "#main > ul.side-box > li:nth-child(3) > a",
+      "global": true
+    },
+    "track": {
+      "selector": "#main > ul.side-box > li:nth-child(1) > a",
+      "global": true
+    },
+    "link0": {
+      "selector": "//*[@id='main']/ul[3]/li[1]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "link1": {
+      "selector": "//*[@id='main']/ul[3]/li[2]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "link2": {
+      "selector": "//*[@id='main']/ul[3]/li[3]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "link3": {
+      "selector": "//*[@id='main']/ul[3]/li[4]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "link4": {
+      "selector": "//*[@id='main']/ul[3]/li[5]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "link5": {
+      "selector": "//*[@id='main']/ul[3]/li[6]/a/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "live": {
+      "selector": "//*[@id='main']/ul/li/a[contains(@href,'live.fosdem')]/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "feedback": {
+      "selector": "//*[@id='main']/ul/li/a[contains(@href,'submission.fosdem')]/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "twitter": {
+      "selector": "//*[@id='main']/ul/li/a[contains(@href,'twitter')]/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "github": {
+      "selector": "//*[@id='main']/ul/li/a[contains(@href,'github')]/@href",
+      "type": "xpath",
+      "global": true
+    },
+    "about": {
+      "selector": "//*[@id='main']/ul/li/a[contains(text(),'About')]/@href",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "searchable(room)",
+      "searchable(day)",
+      "searchable(track)",
+      "searchable(tags)",
+      "searchable(speakers)",
+      "start",
+      "end",
+      "searchable(github_handle)",
+      "time_period"
+    ],
+    "attributesToHighlight": [
+      "hierarchy",
+      "description",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "start",
+      "end",
+      "day",
+      "room",
+      "track",
+      "speakers",
+      "speaker_url",
+      "link0",
+      "link1",
+      "link2",
+      "link3",
+      "link4",
+      "link5",
+      "live",
+      "about",
+      "github",
+      "twitter",
+      "feedback",
+      "github_handle"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "description",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "start",
+      "end",
+      "day",
+      "room",
+      "track",
+      "speakers",
+      "speaker_url",
+      "link0",
+      "link1",
+      "link2",
+      "link3",
+      "link4",
+      "link5",
+      "live",
+      "about",
+      "github",
+      "twitter",
+      "feedback",
+      "github_handle",
+      "time_period"
+    ],
+    "attributesToIndex": [
+      "unordered(hierarchy.lvl0)",
+      "track",
+      "unordered(hierarchy.lvl1)",
+      "description",
+      "speakers",
+      "room",
+      "github_handle",
+      "time_period"
+    ],
+    "ranking": [
+      "typo",
+      "geo",
+      "words",
+      "filters",
+      "proximity",
+      "attribute",
+      "exact",
+      "custom"
+    ],
+    "distinct": false
+  },
+  "min_indexed_level": 2,
+  "scrap_start_urls": false,
+  "nb_hits": 903
+}

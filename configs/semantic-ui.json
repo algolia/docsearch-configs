@@ -1,0 +1,33 @@
+{
+  "index_name": "semantic-ui",
+  "start_urls": [
+    "https://semantic-ui.com/"
+  ],
+  "stop_urls": [
+    "/examples/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'toc')]//*[contains(@class,'active')]/preceding::*[contains(@class,'header')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "//*[contains(@class,'article')]//h1[contains(@class,'header')]/text()[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": ".main.container h2",
+    "lvl3": ".main.container h3",
+    "lvl4": ".main.container h4",
+    "lvl5": ".main.container h5, .main.container td:first-child",
+    "text": ".main.container p, .main.container li, .article h1 .sub.header,.main.container td:nth-child(2), .main.container .info.message, .main.container .comment"
+  },
+  "selectors_exclude": [
+    ".article h1 .sub.header iframe",
+    ".main.container .ui.right"
+  ],
+  "nb_hits": 5980
+}

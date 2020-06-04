@@ -1,0 +1,30 @@
+{
+  "index_name": "unraveldata",
+  "start_urls": [
+    "https://docs.unraveldata.com/"
+  ],
+  "stop_urls": [
+    "\\?",
+    "/downloads/"
+  ],
+  "selectors": {
+    "lvl0": "section[data-topic-level] > .titlepage h6, section[data-topic-level] > .titlepage h5",
+    "lvl1": "section:not([data-topic-level]) h6.title",
+    "lvl2": "section h3",
+    "text": "section p",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "837625595"
+  ],
+  "nb_hits": 49580
+}

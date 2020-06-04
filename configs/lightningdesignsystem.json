@@ -52,8 +52,8 @@
   "selectors": {
     "lvl0": ".docsearch-category",
     "lvl1": "h1",
-    "lvl2": ".docsearch-level-2 .slds-hide, #overview",
-    "text": ".site-content p, .docsearch-text, .slds-text-longform p, .site-content th"
+    "lvl2": ".docsearch-level-2 .slds-hide, #overview, div.lead.doc",
+    "text": ".docsearch-text, .site-main-stage__content p, .site-main-stage__content th, .site-content p, .docsearch-text, .slds-text-longform p, .site-content th"
   },
   "selectors_exclude": [
     "span.slds-badge",
@@ -66,5 +66,5 @@
   "conversation_id": [
     "178329287"
   ],
-  "nb_hits": 5937
+  "nb_hits": 2156
 }

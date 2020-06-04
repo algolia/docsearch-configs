@@ -1,20 +1,6 @@
 {
   "index_name": "gradle",
-  "sitemap_urls": [
-    "https://docs.gradle.org/current/sitemap.xml"
-  ],
   "start_urls": [
-    {
-      "url": "https://docs.gradle.org/current/",
-      "extra_attributes": {
-        "version": [
-          "current"
-        ]
-      },
-      "selectors_key": "userguide",
-      "page_rank": 6,
-      "tags": "userguide"
-    },
     {
       "url": "https://docs.gradle.org/current/userguide/plugin_reference.html",
       "extra_attributes": {
@@ -24,7 +10,9 @@
       },
       "selectors_key": "plugin_reference",
       "page_rank": 4,
-      "tags": "plugin_reference"
+      "tags": [
+        "plugin_reference"
+      ]
     },
     {
       "url": "https://docs.gradle.org/current/dsl/",
@@ -35,12 +23,28 @@
       },
       "selectors_key": "dsl",
       "page_rank": 1,
-      "tags": "dsl"
+      "tags": [
+        "dsl"
+      ]
+    },
+    {
+      "url": "https://docs.gradle.org/current/",
+      "extra_attributes": {
+        "version": [
+          "current"
+        ]
+      },
+      "page_rank": 6,
+      "tags": [
+        "userguide"
+      ]
     }
+  ],
+  "sitemap_urls": [
+    "https://docs.gradle.org/current/sitemap.xml"
   ],
   "selectors_exclude": [
     ".docs-navigation",
-    ".site-header",
     ".site-footer",
     ".toc",
     ".chapter-meta",
@@ -52,8 +56,11 @@
     "/release-notes.html"
   ],
   "selectors": {
-    "userguide": {
-      "lvl0": ".site-header__doc-type",
+    "default": {
+      "lvl0": {
+        "selector": ".site-header__doc-type",
+        "global": true
+      },
       "lvl1": ".chapter h1",
       "lvl2": ".chapter h2",
       "lvl3": ".chapter h3",
@@ -68,17 +75,20 @@
       "text": ".chapter p, .chapter .dlist dt ~ dd p"
     },
     "dsl": {
-      "lvl0": ".site-header__doc-type",
-      "lvl1": ".chapter h1",
-      "lvl2": ".chapter h2",
-      "lvl3": ".chapter h3",
-      "lvl4": ".chapter h4",
-      "lvl5": ".chapter .title",
-      "text": ".chapter p"
+      "lvl0": {
+        "selector": ".site-header__doc-type",
+        "global": true
+      },
+      "lvl1": ".chapter h1, .book h1",
+      "lvl2": ".chapter h2, .book h2",
+      "lvl3": ".chapter h3, .book h3",
+      "lvl4": ".chapter h4, .book h4",
+      "lvl5": ".chapter .title, .book .title",
+      "text": ".chapter p, .book p"
     }
   },
   "conversation_id": [
     "641563788"
   ],
-  "nb_hits": 20037
+  "nb_hits": 22617
 }

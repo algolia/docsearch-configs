@@ -1,0 +1,42 @@
+{
+  "index_name": "mtgjson",
+  "start_urls": [
+    "https://www.mtgjson.com"
+  ],
+  "stop_urls": [
+    "/json/",
+    "/files/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//*[contains(@class,'open')])[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4, .content__default td:first-child",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li, .content__default td:last-child",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "strip_chars": " .,;:#",
+  "selectors_exclude": [
+    "blockquote"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "787070360"
+  ],
+  "nb_hits": 2061
+}

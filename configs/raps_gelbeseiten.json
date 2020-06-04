@@ -1,0 +1,21 @@
+{
+  "index_name": "raps_gelbeseiten",
+  "start_urls": [
+    "https://raps.gelbeseiten.de/docs/",
+    "https://raps.gelbeseiten.de/docs/guidelines/spacing.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".Document h1",
+    "lvl1": ".Document h2",
+    "lvl2": ".Document h3",
+    "lvl3": ".Document h4",
+    "lvl4": ".Document h5",
+    "lvl5": ".Document h6",
+    "text": ".Document p, .Document li"
+  },
+  "conversation_id": [
+    "797018673"
+  ],
+  "nb_hits": 45
+}

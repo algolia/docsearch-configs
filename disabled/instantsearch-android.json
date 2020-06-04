@@ -1,0 +1,59 @@
+{
+  "index_name": "instantsearch-android",
+  "start_urls": [
+    {
+      "url": "https://community.algolia.com/instantsearch-android/getting-started.html",
+      "page_rank": 1,
+      "selectors_key": "documentation"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/concepts.html",
+      "page_rank": 2,
+      "selectors_key": "documentation"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/widgets.html",
+      "page_rank": 3,
+      "selectors_key": "documentation"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/troubleshooting.html",
+      "page_rank": 4,
+      "selectors_key": "documentation"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/examples.html",
+      "page_rank": 5,
+      "selectors_key": "documentation"
+    },
+    {
+      "url": "https://community.algolia.com/instantsearch-android/javadoc/",
+      "page_rank": 10,
+      "selectors_key": "javadoc"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "guide": {
+      "lvl0": "h2.sidebar-header",
+      "lvl1": ".sidebar-elements .level-h2 .navItem-active",
+      "lvl2": ".documentation-container h2",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container td"
+    },
+    "javadoc": {
+      "lvl0": "h2.title",
+      "lvl1": "table.memberSummary td code",
+      "text": "div.description div.block, div.summary div.block, div.details div.block, div.details code"
+    },
+    "documentation": {
+      "lvl0": "h2.sidebar-header",
+      "lvl1": ".sidebar-elements .level-h2 .navItem-active",
+      "lvl2": ".documentation-container h2",
+      "lvl3": ".documentation-container h3",
+      "text": ".documentation-container p, .documentation-container li, .documentation-container, .documentation-container pre"
+    }
+  },
+  "js_render": true,
+  "min_indexed_level": 1,
+  "nb_hits": 2296
+}

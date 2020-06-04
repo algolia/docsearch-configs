@@ -2,7 +2,15 @@
   "index_name": "fortrabbit",
   "start_urls": [
     {
-      "url": "https://help.fortrabbit.com/_WIP/install-craft-3-uni",
+      "url": "https://help.fortrabbit.com/craft-3-about",
+      "page_rank": 5
+    },
+    {
+      "url": "https://help.fortrabbit.com/install-laravel-5-uni",
+      "page_rank": 2
+    },
+    {
+      "url": "https://help.fortrabbit.com/install-wordpress-5-uni",
       "page_rank": 2
     },
     {
@@ -27,5 +35,5 @@
   "conversation_id": [
     "390171235"
   ],
-  "nb_hits": 3270
+  "nb_hits": 4087
 }

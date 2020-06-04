@@ -2,18 +2,49 @@
   "index_name": "bootstrap",
   "start_urls": [
     {
-      "url": "https://getbootstrap.com/docs/(?P<version>.*?)/",
-      "variables": {
+      "url": "https://getbootstrap.com/docs/4.0/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ],
         "version": [
-          "4.2",
-          "4.1",
           "4.0"
         ]
       }
-    }
+    },
+    {
+      "url": "https://getbootstrap.com/docs/4.1/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ],
+        "version": [
+          "4.1"
+        ]
+      }
+    },
+    {
+      "url": "https://getbootstrap.com/docs/4.2/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ],
+        "version": [
+          "4.2"
+        ]
+      }
+    },
+    "https://getbootstrap.com/docs/4.3/",
+    "https://getbootstrap.com/docs/4.4/",
+    "https://getbootstrap.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://getbootstrap.com/sitemap.xml"
   ],
   "stop_urls": [
-    "/examples/.+"
+    "/examples/.+",
+    "getbootstrap.com/docs/3",
+    "getbootstrap.com/docs/versions/"
   ],
   "selectors": {
     "lvl0": {
@@ -21,15 +52,21 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".bd-content h1",
-    "lvl2": ".bd-content h2",
-    "lvl3": ".bd-content h3",
-    "lvl4": ".bd-content h4",
-    "lvl5": ".bd-content h5",
-    "text": ".bd-content p, .bd-content li, .bd-example"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4, main td:first-child",
+    "lvl5": "main h5",
+    "text": "main p, main li, main td:last-child"
   },
   "selectors_exclude": [
     ".bd-example"
   ],
-  "nb_hits": 7609
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "language"
+    ]
+  },
+  "nb_hits": 18206
 }

@@ -1,0 +1,31 @@
+{
+  "index_name": "neo4j",
+  "start_urls": [
+    "https://neo4j.com/docs/"
+  ],
+  "stop_urls": [
+    "/java-reference/",
+    "-driver/",
+    "/javadocs/"
+  ],
+  "sitemap_urls": [
+    "https://neo4j.com/sitemap_index.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".nav-title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "body > section h2",
+    "lvl2": "body > section h3",
+    "lvl3": "body > section h4",
+    "lvl4": "body > section h5",
+    "lvl5": "body > section h6",
+    "text": "body > section p, body > section li"
+  },
+  "conversation_id": [
+    "858912849"
+  ],
+  "nb_hits": 125463
+}

@@ -11,19 +11,19 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@id, 'sidebar')]//a[contains(@class, 'current')][1]/preceding::*[contains(@class, 'sidebar-title')][1]",
+      "selector": "//main//nav//*[contains(@class,'active')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".article .inner h1",
-    "lvl2": ".article .inner h2",
-    "lvl3": ".article .inner h3",
-    "lvl4": ".article .inner h4",
-    "text": ".article .inner p, .article .inner li, .plugin-list a, .plugin-list p"
+    "lvl1": ".o-standard-page h1",
+    "lvl2": ".o-standard-page h2",
+    "lvl3": ".o-standard-page h3",
+    "lvl4": ".o-standard-page h4",
+    "text": ".o-standard-page p, .o-standard-page li"
   },
   "conversation_id": [
     "567660646"
   ],
-  "nb_hits": 542
+  "nb_hits": 1281
 }

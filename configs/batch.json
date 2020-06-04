@@ -1,22 +1,22 @@
 {
   "index_name": "batch",
   "start_urls": [
-    "https://batch.com/doc"
+    "https://doc.batch.com/"
   ],
-  "stop_urls": [
-    "https://batch.com/doc/$"
+  "sitemap_urls": [
+    "https://doc.batch.com/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".lvl0",
-    "lvl1": ".doc__content__header h1",
+    "lvl1": "#doc_page_title",
     "lvl2": "#content_doc h2",
     "lvl3": "#content_doc h3",
     "lvl4": "#content_doc h4",
-    "text": "#content_doc p, #content_doc li"
+    "text": "#content_doc p, #content_doc li, #content_doc pre"
   },
   "min_indexed_level": 2,
   "conversation_id": [
     "198729505"
   ],
-  "nb_hits": 3310
+  "nb_hits": 5747
 }

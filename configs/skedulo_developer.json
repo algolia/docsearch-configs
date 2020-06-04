@@ -1,0 +1,37 @@
+{
+  "index_name": "skedulo_developer",
+  "start_urls": [
+    "https://developer.skedulo.com/docs/",
+    {
+      "url": "https://developer.skedulo.com/skedulo-api/",
+      "selectors_key": "skedulo-api"
+    }
+  ],
+  "sitemap_urls": [
+    "https://developer.skedulo.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": ".td-content h1",
+      "lvl1": ".td-content h2",
+      "lvl2": ".td-content h3",
+      "lvl3": ".td-content h4",
+      "lvl4": ".td-content h5",
+      "lvl5": ".td-content h6",
+      "text": ".td-content p, .td-content li"
+    },
+    "skedulo-api": {
+      "lvl0": ".api-content h1",
+      "lvl1": ".api-content h2",
+      "lvl2": ".api-content h3",
+      "lvl3": ".api-content h4",
+      "lvl4": ".api-content h5",
+      "text": ".redoc-markdown p, .redoc-markdown li"
+    }
+  },
+  "conversation_id": [
+    "997238560"
+  ],
+  "nb_hits": 1757
+}

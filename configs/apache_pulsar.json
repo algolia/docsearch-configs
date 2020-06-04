@@ -1,14 +1,16 @@
 {
   "index_name": "apache_pulsar",
   "start_urls": [
-    "http://pulsar.apache.org/docs/standalone",
-    "http://pulsar.apache.org/docs/"
+    "https://pulsar.apache.org/docs/standalone",
+    "https://pulsar.apache.org/docs/"
   ],
   "stop_urls": [
-    "\\?"
+    "-incubating",
+    "\\?",
+    "\\.html$"
   ],
   "sitemap_urls": [
-    "http://pulsar.apache.org/sitemap.xml"
+    "https://pulsar.apache.org/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -36,5 +38,5 @@
       "version"
     ]
   },
-  "nb_hits": 99408
+  "nb_hits": 451500
 }

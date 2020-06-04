@@ -1,14 +1,15 @@
 {
   "index_name": "veui",
   "start_urls": [
-    "https://baidu-design.github.io/"
+    "https://veui.dev/"
   ],
   "stop_urls": [
     "\\?"
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".menu-link-active",
+      "selector": ".//menu//*[contains(@class,'menu-link-active')]/preceding::span[contains(@class,'menu-link')][1]",
+      "type":"xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -24,7 +25,6 @@
       "global": true
     }
   },
-  "js_render": true,
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
@@ -33,5 +33,5 @@
   "conversation_id": [
     "651081642"
   ],
-  "nb_hits": 2233
+  "nb_hits": 1465
 }

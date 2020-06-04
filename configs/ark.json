@@ -1,21 +1,16 @@
 {
   "index_name": "ark",
   "start_urls": [
-    "https://docs.ark.io"
+    "https://learn.ark.dev/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "p.sidebar-heading.open",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "text": ".content p, .content li",
-    "lvl5": ".content h5"
+    "lvl0": "[class*='wholeContentPage'] h1",
+    "lvl1": "[class*='wholeContentPage'] h2",
+    "lvl2": "[class*='wholeContentPage'] h3",
+    "lvl3": "[class*='wholeContentPage'] h4",
+    "lvl4": "[class*='wholeContentPage'] h5",
+    "text": "[class*='wholeContentPage'] p, [class*='wholeContentPage'] li"
   },
   "scrap_start_urls": false,
   "selectors_exclude": [
@@ -25,5 +20,5 @@
   "conversation_id": [
     "644608285"
   ],
-  "nb_hits": 2556
+  "nb_hits": 3305
 }

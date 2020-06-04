@@ -3,16 +3,25 @@
   "start_urls": [
     "https://ask-utils.github.io/ask-utils/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\.js\\.html",
+    "/index\\.html$"
+  ],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h3",
-    "lvl2": "article h4",
-    "lvl3": "article h5",
-    "text": "article p, article li"
+    "lvl0": "#main h1",
+    "lvl1": "#main h3",
+    "lvl2": "#main h4",
+    "lvl3": "#main h5",
+    "lvl4": "#main h6, #main td.name",
+    "text": "#main p, #main li"
   },
+  "selectors_exclude": [
+    ".signature",
+    ".type-signature"
+  ],
+  "min_indexed_level": 2,
   "conversation_id": [
     "689782842"
   ],
-  "nb_hits": 201
+  "nb_hits": 275
 }
