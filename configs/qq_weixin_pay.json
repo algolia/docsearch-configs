@@ -1,8 +1,8 @@
 {
   "index_name": "qq_weixin_pay",
   "start_urls": [
-    "https://pay.weixin.qq.com/wiki/doc/",
     "https://pay.weixin.qq.com/wiki/doc/apiv3/wxpay/pages/index.shtml"
+    "https://pay.weixin.qq.com/wiki/doc/",
   ],
   "stop_urls": [
     "\\?"
@@ -11,7 +11,6 @@
     "lvl0": {
       "selector": "div.bread-crumb.title-top > a:nth-child(2), p.sidebar-heading.open",
       "global": true,
-      "default_value": "Documentation"
     },
     "lvl1": ".doc-main h2,.content h1",
     "lvl2": ".doc-main h3,.content h2",
