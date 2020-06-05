@@ -1,10 +1,10 @@
 {
-  "index_name": "pact",
+  "index_name": "eveningkid_denodb",
   "start_urls": [
-    "https://docs.pact.io/"
+    "https://eveningkid.github.io/denodb-docs/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.pact.io/sitemap.xml"
+    "https://eveningkid.github.io/denodb-docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -32,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "1176949907"
+    "1185678755"
   ],
-  "nb_hits": 1868
+  "nb_hits": 189
 }
