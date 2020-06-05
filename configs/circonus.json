@@ -5,13 +5,13 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#content h1",
-    "lvl1": "#content h2",
-    "lvl2": "#content h3",
-    "lvl3": "#content h4",
-    "lvl4": "#content h5",
-    "lvl5": "#content h6",
-    "text": "#content p, #content li"
+    "lvl0": ".DocSearch-content h1",
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
   },
   "conversation_id": [
     "1139468845"
