@@ -15,11 +15,12 @@
   "selectors_exclude": [
     "app-live-editor",
     "app-code-editor",
-    "app-code-snippet"
+    "app-code-snippet",
+    ".search--hide"
   ],
   "js_render": true,
   "conversation_id": [
     "1178380234"
   ],
-  "nb_hits": 278
+  "nb_hits": 16
 }

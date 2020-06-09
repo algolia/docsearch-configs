@@ -155,7 +155,7 @@
       "lvl4": ".section h3",
       "lvl5": ".section h4",
       "lvl6": ".section h6",
-      "text": ".section p, .section li"
+      "text": ".section p, .section li, .sample_snippet"
     },
     "api_reference_guide": {
       "lvl0": {
@@ -241,5 +241,5 @@
   "conversation_id": [
     "702227168"
   ],
-  "nb_hits": 93456
+  "nb_hits": 94628
 }

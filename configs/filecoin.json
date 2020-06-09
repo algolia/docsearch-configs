@@ -1,7 +1,7 @@
 {
   "index_name": "filecoin",
   "start_urls": [
-    "https://filecoin-docs.netlify.app/"
+    "https://docs.filecoin.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -36,5 +36,5 @@
     "1143519731"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 479
+  "nb_hits": 500
 }
