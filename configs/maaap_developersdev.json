@@ -1,11 +1,11 @@
 {
-  "index_name": "maaap_developersdev",
+  "index_name": "getwemap_developers",
   "start_urls": [
-    "https://developersdev.maaap.it/docs/",
-    "https://developersdev.maaap.it/docs/getting-started"
+    "https://developers.getwemap.com/docs/",
+    "https://developers.getwemap.com/docs/getting-started"
   ],
   "sitemap_urls": [
-    "https://developersdev.maaap.it/sitemap.xml"
+    "https://developers.getwemap.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
