@@ -12,12 +12,12 @@
     "lvl2": ".section h3",
     "lvl3": ".section h4",
     "lvl4": ".section h5",
-    "lvl5": ".section h6",
+    "lvl5": ".section dl dt",
     "text": ".section p, .section li"
   },
   "strip_chars": " .,;:#",
   "conversation_id": [
     "1172540378"
   ],
-  "nb_hits": 10125
+  "nb_hits": 11431
 }
