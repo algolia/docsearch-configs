@@ -28,7 +28,8 @@
   "custom_settings": {
     "attributesForFaceting": [
       "anchor",
-      "hierarchy"
+      "hierarchy",
+      "type"
     ]
   },
   "conversation_id": [
