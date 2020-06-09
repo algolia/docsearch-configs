@@ -12,7 +12,7 @@
     "lvl2": ".section h3",
     "lvl3": ".section h4",
     "lvl4": ".section h5",
-    "lvl5": ".section dl dt .descname",
+    "lvl5": ".section dl dt",
     "text": ".section p, .section li"
   },
   "strip_chars": " .,;:#",
