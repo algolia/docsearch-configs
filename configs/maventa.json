@@ -11,9 +11,9 @@
     "lvl1": ".col-sm-9 h2",
     "lvl2": ".col-sm-9 h3",
     "lvl3": ".col-sm-9 h4",
-    "lvl4": ".col-sm-9 h5",
+    "lvl4": ".col-sm-9 h5, .col-sm-9 summary",
     "lvl5": ".col-sm-9 h6",
-    "text": ".col-sm-9 p, .col-sm-9 li, .col-sm-9 summary"
+    "text": ".col-sm-9 p, .col-sm-9 li"
   },
   "conversation_id": [
     "1158925481"
