@@ -1,11 +1,11 @@
 {
   "index_name": "maventa",
   "start_urls": [
-    "https://documentation.maventa.com/",
     {
       "url": "https://documentation.maventa.com/overview/",
       "selectors_key": "overview"
-    }
+    },
+    "https://documentation.maventa.com/"
   ],
   "stop_urls": [
     "//.*//"
@@ -22,7 +22,8 @@
     },
     "overview": {
       "lvl0": ".col-sm-9 h1",
-      "lvl1": ".col-sm-9 h2"
+      "lvl1": ".col-sm-9 h2",
+      "text": ".col-sm-9 p, .col-sm-9 li"
     }
   },
   "conversation_id": [
