@@ -23,7 +23,7 @@
     "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
   },
   "selectors_exclude": [
-    ".hash-link"
+    ".hash-link","style"
   ],
   "conversation_id": [
     "1148527228"
