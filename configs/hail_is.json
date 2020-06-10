@@ -22,7 +22,10 @@
     "lvl5": ".section dl dt",
     "text": ".section p, .section li"
   },
-  "selectors_exclude": [".viewcode-link", ".headerlink"],
+  "selectors_exclude": [
+    ".viewcode-link",
+    ".headerlink"
+  ],
   "strip_chars": " .,;:#",
   "conversation_id": [
     "1172540378"
