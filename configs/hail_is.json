@@ -3,7 +3,7 @@
   "start_urls": [
     {
       "url": "https://hail.is/docs/0.2/change_log.html",
-      "page_rank": 0
+      "page_rank": -100
     },
     {
       "url": "https://hail.is/docs/0.2/",
