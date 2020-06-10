@@ -8,7 +8,7 @@
     {
       "url": "https://hail.is/docs/0.2/",
       "page_rank": 1
-    },
+    }
   ],
   "stop_urls": [
     "/_"
@@ -22,7 +22,7 @@
     "lvl5": ".section dl dt",
     "text": ".section p, .section li"
   },
-  "selectors_exclude": [".viewcode-link", ".headerlink"], 
+  "selectors_exclude": [".viewcode-link", ".headerlink"],
   "strip_chars": " .,;:#",
   "conversation_id": [
     "1172540378"
