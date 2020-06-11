@@ -2,15 +2,12 @@
   "index_name": "hail_is",
   "start_urls": [
     {
-      "url": "https://hail.is/docs/0.2/change_log.html",
-      "page_rank": -100
-    },
-    {
       "url": "https://hail.is/docs/0.2/",
       "page_rank": 1
     }
   ],
   "stop_urls": [
+    "https://hail.is/docs/0.2/change_log.html",
     "/_"
   ],
   "selectors": {
