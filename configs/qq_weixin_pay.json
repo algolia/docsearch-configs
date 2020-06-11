@@ -2,7 +2,9 @@
   "index_name": "qq_weixin_pay",
   "start_urls": [
     "https://pay.weixin.qq.com/wiki/doc/apiv3/wxpay/pages/index.shtml",
-    "https://pay.weixin.qq.com/wiki/doc/"
+    "https://pay.weixin.qq.com/wiki/doc/apiv3/wxpay/",
+    "https://pay.weixin.qq.com/wiki/doc/api/index.html",
+    "https://pay.weixin.qq.com/wiki/doc/api/"
   ],
   "stop_urls": [
     "\\?"
