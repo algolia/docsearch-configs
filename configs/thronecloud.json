@@ -1,10 +1,10 @@
 {
   "index_name": "thronecloud",
   "start_urls": [
-    "https://thronecloud.github.io/docs/"
+    "https://support.qredo.com/"
   ],
   "sitemap_urls": [
-    "https://thronecloud.github.io/docs/sitemap.xml"
+    "https://support.qredo.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
