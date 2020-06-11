@@ -24,7 +24,9 @@
   },
   "selectors_exclude": [
     ".viewcode-link",
-    ".headerlink"
+    ".headerlink",
+    ".section dl dt .sig-paren",
+    ".section dl dt em"
   ],
   "strip_chars": " .,;:#",
   "conversation_id": [
