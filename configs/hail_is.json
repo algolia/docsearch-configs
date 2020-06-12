@@ -8,6 +8,7 @@
   ],
   "stop_urls": [
     "https://hail.is/docs/0.2/change_log.html",
+    "https://hail.is/docs/0.2/index.html",
     "/_"
   ],
   "selectors": {
