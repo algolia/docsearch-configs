@@ -1,5 +1,6 @@
 {
   "index_name": "hail_is",
+  "scrape_start_urls": false,
   "start_urls": [
     {
       "url": "https://hail.is/docs/0.2/",
