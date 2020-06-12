@@ -1,17 +1,34 @@
 {
   "index_name": "paystack",
   "start_urls": [
-    "https://documentation-v2.netlify.app/docs/"
+    {
+      "url": "https://documentation-v2.netlify.app/docs/api/",
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://documentation-v2.netlify.app/docs/"
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "main h1",
-    "lvl1": "main h2",
-    "lvl2": "main h3",
-    "lvl3": "main h4",
-    "lvl4": "main h5",
-    "lvl5": "main h6",
-    "text": "main p, main li"
+    "default": {
+      "lvl0": "main h1",
+      "lvl1": "main h2",
+      "lvl2": "main h3",
+      "lvl3": "main h4",
+      "lvl4": "main h5",
+      "lvl5": "main h6",
+      "text": "main p, main li"
+    },
+    "api": {
+      "lvl0": "section h1",
+      "lvl1": "section h2",
+      "lvl2": "section h3",
+      "lvl3": "section h4",
+      "lvl4": "section h5",
+      "lvl5": "section h6",
+      "text": "section p, section li"
+    }
   },
   "conversation_id": [
     "1098321391"
