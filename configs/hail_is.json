@@ -9,7 +9,8 @@
   "stop_urls": [
     "https://hail.is/docs/0.2/change_log.html",
     "https://hail.is/docs/0.2/index.html",
-    "/_"
+    "/_",
+    "\\?"
   ],
   "selectors": {
     "lvl0": ".section h1",
@@ -28,5 +29,5 @@
   "conversation_id": [
     "1172540378"
   ],
-  "nb_hits": 10438
+  "nb_hits": 9180
 }
