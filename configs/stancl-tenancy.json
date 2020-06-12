@@ -1,26 +1,26 @@
 {
   "index_name": "stancl-tenancy",
   "start_urls": [
-    "https://tenancy.samuelstancl.me/docs/"
+    "https://tenancyforlaravel.com/docs/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://tenancy.samuelstancl.me/docs/sitemap.xml"
+    "https://tenancyforlaravel.com/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//nav/ul/li[.//*[contains(@class,'active')]]/a",
+      "selector": "//nav//*[contains(@class,'active')]/preceding::p[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "div.w-full h1",
-    "lvl2": "div.w-full h2",
-    "lvl3": "div.w-full h3",
-    "lvl4": "div.w-full h4",
-    "lvl5": "div.w-full h5",
-    "lvl6": "div.w-full h6",
-    "text": "div.w-full p, div.w-full li"
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
+    "lvl6": ".markdown h6",
+    "text": ".markdown p, .markdown li"
   },
   "custom_settings": {
     "attributesForFaceting": [
@@ -31,5 +31,5 @@
   "conversation_id": [
     "933880635"
   ],
-  "nb_hits": 621
+  "nb_hits": 1507
 }

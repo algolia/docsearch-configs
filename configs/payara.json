@@ -1,0 +1,29 @@
+{
+  "index_name": "payara",
+  "start_urls": [
+    "https://docs.payara.fish/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li",
+    "version": {
+      "selector": ".page-versions > button",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1162684047"
+  ],
+  "nb_hits": 127208
+}

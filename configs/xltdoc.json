@@ -1,0 +1,20 @@
+{
+  "index_name": "xltdoc",
+  "start_urls": [
+    "https://xltdoc.xceptance.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1161693171"
+  ],
+  "nb_hits": 6636
+}

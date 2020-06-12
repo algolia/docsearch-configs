@@ -1,0 +1,21 @@
+{
+  "index_name": "bootstrap-x",
+  "start_urls": [
+    "https://bootstrap-x.now.sh/"
+  ],
+  "stop_urls": [
+    "/examples/.+"
+  ],
+  "selectors": {
+    "lvl0": ".bd-toc-item.active > a",
+    "lvl1": ".bd-content h1",
+    "lvl2": ".bd-content h2",
+    "lvl3": ".bd-content h3",
+    "text": ".bd-content p, .bd-content li, .bd-example"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "1135269232"
+  ],
+  "nb_hits": 34
+}

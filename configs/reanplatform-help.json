@@ -1,0 +1,23 @@
+{
+  "index_name": "reanplatform-help",
+  "start_urls": [
+    "https://reanplatform-help.reancloud.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#resize h1",
+    "lvl1": "#resize h2",
+    "lvl2": "#resize h3",
+    "lvl3": "#resize h4",
+    "lvl4": "#resize h5",
+    "lvl5": "#resize h6",
+    "text": "#resize p, #resize li"
+  },
+  "js_wait": 1,
+  "js_render": true,
+  "use_anchors": true,
+  "conversation_id": [
+    "1164848943"
+  ],
+  "nb_hits": 311192
+}

@@ -1,51 +1,58 @@
 {
-    "index_name": "mlapi",
-    "start_urls": [{
-        "url": "https://mlapi.network/api/",
-        "selectors_key": "api",
-        "tags": ["api"]
-    }, {
-        "url": "https://mlapi.network/",
-        "tags": ["docs"]
-    }],
-    "stop_urls": [
-        ","
-    ],
-    "sitemap_urls": [
-        "https://mlapi.network/sitemap.xml"
-    ],
-    "selectors": {
-        "default": {
-            "lvl0": ".container h1",
-            "lvl1": "#markdown-content-container h2",
-            "lvl2": "#markdown-content-container h3",
-            "lvl3": "#markdown-content-container h4",
-            "lvl4": "#markdown-content-container h5",
-            "lvl5": "#markdown-content-container h6",
-            "text": "#markdown-content-container p, #markdown-content-container li"
-        },
-        "api": {
-            "lvl0": {
-              "selector": "",
-              "global": true,
-              "default_value": "API"
-            },
-            "lvl1": {
-              "selector": "//*[@id='accordion']//*[contains(@class,'active')]/preceding::h4[1]",
-              "type":"xpath",
-              "global": true,
-              "default_value": "Documentation"
-            },
-            "lvl2": "#markdown-content-container h2",
-            "lvl3": "#markdown-content-container h3",
-            "lvl4": "#markdown-content-container h4",
-            "lvl5": "#markdown-content-container h5",
-            "lvl6": "#markdown-content-container h6",
-            "text": "#markdown-content-container p, #markdown-content-container li"
-        }
+  "index_name": "mlapi",
+  "start_urls": [
+    {
+      "url": "https://mlapi.network/api/",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
     },
-    "conversation_id": [
-        "1023977816"
-    ],
-    "nb_hits": 65069
+    {
+      "url": "https://mlapi.network/",
+      "tags": [
+        "docs"
+      ]
+    }
+  ],
+  "stop_urls": [
+    ","
+  ],
+  "sitemap_urls": [
+    "https://mlapi.network/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".container h1",
+      "lvl1": "#markdown-content-container h2",
+      "lvl2": "#markdown-content-container h3",
+      "lvl3": "#markdown-content-container h4",
+      "lvl4": "#markdown-content-container h5",
+      "lvl5": "#markdown-content-container h6",
+      "text": "#markdown-content-container p, #markdown-content-container li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": {
+        "selector": "//*[@id='accordion']//*[contains(@class,'active')]/preceding::h4[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": "#markdown-content-container h2",
+      "lvl3": "#markdown-content-container h3",
+      "lvl4": "#markdown-content-container h4",
+      "lvl5": "#markdown-content-container h5",
+      "lvl6": "#markdown-content-container h6",
+      "text": "#markdown-content-container p, #markdown-content-container li"
+    }
+  },
+  "conversation_id": [
+    "1023977816"
+  ],
+  "nb_hits": 65076
 }

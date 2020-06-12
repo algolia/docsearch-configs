@@ -1,0 +1,23 @@
+{
+  "index_name": "malegaze",
+  "start_urls": [
+    "https://doc-malegaze.netlify.app"
+  ],
+  "stop_urls": [
+    "index.html$",
+    "/three_"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1152469771"
+  ],
+  "nb_hits": 577
+}

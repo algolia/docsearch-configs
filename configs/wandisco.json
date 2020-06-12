@@ -2,7 +2,7 @@
   "index_name": "wandisco",
   "start_urls": [
     "https://wandisco.github.io/wandisco-documentation/docs/",
-    "https://wandisco.github.io/wandisco-documentation/docs/doc1"
+    "https://wandisco.github.io/wandisco-documentation/docs/why-fusion/benefits"
   ],
   "sitemap_urls": [
     "https://wandisco.github.io/wandisco-documentation/sitemap.xml"
@@ -35,5 +35,5 @@
   "conversation_id": [
     "984131360"
   ],
-  "nb_hits": 279
+  "nb_hits": 1951
 }

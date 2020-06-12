@@ -1,7 +1,7 @@
 {
-  "index_name": "ipfs",
+  "index_name": "scapp_ecdocs",
   "start_urls": [
-    "https://docs-beta.ipfs.io/"
+    "https://docs.entcloud.swisscom.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -33,8 +33,8 @@
     ]
   },
   "conversation_id": [
-    "1052550505"
+    "1147172345"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 2219
+  "nb_hits": 5037
 }

@@ -3,7 +3,9 @@
   "start_urls": [
     "https://twill.io/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://twill.io/docs/1.x"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -35,6 +37,5 @@
   "conversation_id": [
     "1105622490"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 542
+  "nb_hits": 601
 }

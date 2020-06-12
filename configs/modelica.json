@@ -1,0 +1,166 @@
+{
+  "index_name": "modelica",
+  "start_urls": [
+    {
+      "url": "https://doc.modelica.org/(?P<library>.*?)%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/",
+      "variables": {
+        "library": [
+          "Modelica",
+          "ModelicaReference",
+          "ModelicaServices",
+          "Complex",
+          "ObsoleteModelica3"
+        ],
+        "tool": [
+          "Dymola",
+          "MapleSim"
+        ],
+        "version": [
+          "4.0.0",
+          "3.2.3"
+        ]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaReference",
+      "variables": {
+        "tool": [
+          "OM"
+        ],
+        "version": [
+          "4.0.0",
+          "3.2.3"
+        ]
+      },
+      "extra_attributes": {
+        "library": [
+          "ModelicaReference"
+        ]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ModelicaServices",
+      "variables": {
+        "tool": [
+          "OM"
+        ],
+        "version": [
+          "4.0.0",
+          "3.2.3"
+        ]
+      },
+      "extra_attributes": {
+        "library": [
+          "ModelicaServices"
+        ]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Modelica",
+      "variables": {
+        "tool": [
+          "OM"
+        ],
+        "version": [
+          "4.0.0",
+          "3.2.3"
+        ]
+      },
+      "extra_attributes": {
+        "library": [
+          "Modelica"
+        ]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/Complex",
+      "variables": {
+        "tool": [
+          "OM"
+        ],
+        "version": [
+          "4.0.0",
+          "3.2.3"
+        ]
+      },
+      "extra_attributes": {
+        "library": [
+          "Complex"
+        ]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ObsoleteModelica3",
+      "variables": {
+        "tool": [
+          "OM"
+        ],
+        "version": [
+          "4.0.0",
+          "3.2.3"
+        ]
+      },
+      "extra_attributes": {
+        "library": [
+          "ObsoleteModelica3"
+        ]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/(?P<library>.*?)/",
+      "variables": {
+        "library": [
+          "Modelica",
+          "ModelicaReference",
+          "ModelicaServices",
+          "Complex",
+          "ObsoleteModelica3"
+        ],
+        "tool": [
+          "WSM"
+        ],
+        "version": [
+          "4.0.0",
+          "3.2.3"
+        ]
+      }
+    },
+    {
+      "url": "https://specification.modelica.org/v(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "3.5",
+          "3.4"
+        ]
+      },
+      "tags": [
+        "specification"
+      ]
+    },
+    {
+      "url": "https://specification.modelica.org/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "master"
+        ]
+      },
+      "tags": [
+        "specification"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://doc.modelica.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": "h3",
+    "lvl3": "h4",
+    "lvl4": "h5",
+    "lvl5": "h6",
+    "text": "p, li"
+  },
+  "nb_hits": 407726
+}

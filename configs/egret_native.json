@@ -1,10 +1,10 @@
 {
   "index_name": "egret_native",
   "start_urls": [
-    "https://docs.egret.com/native/docs/"
+    "https://docs.egret.com/"
   ],
   "sitemap_urls": [
-    "https://docs.egret.com/native/sitemap.xml"
+    "https://docs.egret.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1142803466"
   ],
-  "nb_hits": 1162
+  "nb_hits": 10520
 }

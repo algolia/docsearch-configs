@@ -22,7 +22,7 @@
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
-      ".*/angular.*",
+    ".*/angular.*",
     ".*/vue.*",
     ".*/react.*"
   ],
@@ -31,7 +31,7 @@
       "lvl0": {
         "selector": "#lvl0",
         "global": true,
-        "default_value": "参考文档"
+        "default_value": "\u53c2\u8003\u6587\u6863"
       },
       "lvl1": ".post article h1",
       "lvl2": ".post h2",
@@ -44,7 +44,7 @@
       "lvl0": {
         "selector": "#demo_source_name",
         "global": true,
-        "default_value": "示例"
+        "default_value": "\u793a\u4f8b"
       },
       "lvl1": ".app-content-description h1",
       "lvl2": ".app-content-description h2",
@@ -68,5 +68,5 @@
   "conversation_id": [
     "817808010"
   ],
-  "nb_hits": 5069
+  "nb_hits": 5071
 }

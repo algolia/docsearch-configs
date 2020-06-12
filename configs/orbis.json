@@ -2,7 +2,7 @@
   "index_name": "orbis",
   "start_urls": [
     "https://orbis-api-doc-test.netlify.app/docs/",
-    "https://orbis-api-doc-test.netlify.app/docs/doc1"
+    "https://orbis-api-doc-test.netlify.app/docs/guide-portal-admin"
   ],
   "sitemap_urls": [
     "https://orbis-api-doc-test.netlify.app/sitemap.xml"
@@ -35,5 +35,5 @@
   "conversation_id": [
     "1133061866"
   ],
-  "nb_hits": 1460
+  "nb_hits": 1817
 }

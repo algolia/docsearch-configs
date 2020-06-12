@@ -1,7 +1,11 @@
 {
   "index_name": "realgrid",
   "start_urls": [
-    "https://docs.realgrid.com"
+    "https://docs.realgrid.com/",
+    "https://docs.realgrid.com/overview"
+  ],
+  "sitemap_urls": [
+    "https://docs.realgrid.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -16,5 +20,5 @@
   "conversation_id": [
     "1100101266"
   ],
-  "nb_hits": 6175
+  "nb_hits": 10231
 }
