@@ -4,7 +4,7 @@
     "https://docs.entcloud.swisscom.com/"
   ],
   "stop_urls": [
-    "^.*\/misc\/.*$"
+    "^.*/misc/.*$"
   ],
   "selectors": {
     "lvl0": {
@@ -38,5 +38,5 @@
     "1147172345"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 5037
+  "nb_hits": 5083
 }
