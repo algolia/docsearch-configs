@@ -3,7 +3,9 @@
   "start_urls": [
     "https://docs.entcloud.swisscom.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "^.*\/misc\/.*$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
