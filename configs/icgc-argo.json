@@ -2,7 +2,7 @@
   "index_name": "icgc-argo",
   "start_urls": [
     "https://docs.icgc-argo.org/docs/",
-    "https://docs.icgc-argo.org/docs/registering-samples/"
+    "https://docs.icgc-argo.org/docs/submission/submission-overview"
   ],
   "sitemap_urls": [
     "https://docs.icgc-argo.org/sitemap.xml"
@@ -28,5 +28,5 @@
   "conversation_id": [
     "1117733064"
   ],
-  "nb_hits": 354
+  "nb_hits": 524
 }
