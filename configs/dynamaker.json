@@ -20,7 +20,7 @@
     "lvl3": ".post h3",
     "lvl4": ".post h4",
     "lvl5": ".post h5",
-    "text": ".post article p, .post article li"
+    "text": ".post article p, .post article li, .post article pre"
   },
   "selectors_exclude": [
     ".hash-link"
