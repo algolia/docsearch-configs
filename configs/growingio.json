@@ -12,6 +12,18 @@
       "tags": [
         "mp"
       ]
+    },
+    {
+      "url": "https://docs.growingio.com/v3",
+      "tags": [
+        "v3"
+      ]
+    },
+    {
+      "url": "https://docs.growingio.com/op",
+      "tags": [
+        "op"
+      ]
     }
   ],
   "stop_urls": [],
