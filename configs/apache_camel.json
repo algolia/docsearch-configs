@@ -9,6 +9,13 @@
       ],
       "selectors_key": "article"
     },
+    "https://camel.apache.org/manual/latest",
+    "https://camel.apache.org/components/latest/",
+    "https://camel.apache.org/camel-k/latest/",
+    "https://camel.apache.org/camel-quarkus/latest/",
+    "https://camel.apache.org/camel-kafka-connector/latest/",
+    "https://camel.apache.org/camel-karaf/latest/",
+    "https://camel.apache.org/camel-spring-boot/latest/",
     "https://camel.apache.org/community/"
   ],
   "stop_urls": [],
@@ -37,5 +44,5 @@
   "conversation_id": [
     "934065128"
   ],
-  "nb_hits": 592
+  "nb_hits": 212853
 }
