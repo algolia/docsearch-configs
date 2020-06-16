@@ -1,7 +1,8 @@
 {
   "index_name": "mosip",
   "start_urls": [
-    "https://test.mosip.io/docs/"
+    "https://test.mosip.io/docs/",
+    "https://docs.mosip.io/"
   ],
   "sitemap_urls": [
     "https://test.mosip.io/sitemap.xml"
@@ -14,12 +15,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "[class^='docItemContainer_'] h1",
-    "lvl2": "[class^='docItemContainer_'] h2",
-    "lvl3": "[class^='docItemContainer_'] h3",
-    "lvl4": "[class^='docItemContainer_'] h4",
-    "lvl5": "[class^='docItemContainer_'] h5",
-    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+    "lvl1": "[class^='docItemContainer_'] h1,[class*='pageContainer'] h1",
+    "lvl2": "[class^='docItemContainer_'] h2,[class*='pageContainer'] h2",
+    "lvl3": "[class^='docItemContainer_'] h3,[class*='pageContainer'] h3",
+    "lvl4": "[class^='docItemContainer_'] h4,[class*='pageContainer'] h4",
+    "lvl5": "[class^='docItemContainer_'] h5,[class*='pageContainer'] h5",
+    "text": "[class^='docItemContainer_'] p,[class*='pageContainer'] p, [class^='docItemContainer_'] li,[class*='pageContainer'] li"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -27,5 +28,5 @@
   "conversation_id": [
     "1190040315"
   ],
-  "nb_hits": 82
+  "nb_hits": 38498
 }
