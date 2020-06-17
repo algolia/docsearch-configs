@@ -75,7 +75,7 @@
     },
     "v5": {
       "lvl0": {
-        "selector": ".bd-sidebar .active.my-1",
+        "selector": ".bd-sidebar .active.my-1 > a",
         "global": true,
         "default_value": "Documentation"
       },
