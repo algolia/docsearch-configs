@@ -1,7 +1,31 @@
 {
   "index_name": "prismatic",
   "start_urls": [
-    "https://www.prismatic.io/docs"
+    {
+      "url": "https://www.prismatic.io/docs/components/",
+      "page_rank": -1
+    },
+    {
+      "url": "https://www.prismatic.io/docs/getting-started/",
+      "page_rank": -3
+    },
+    {
+      "url": "https://www.prismatic.io/docs/cli/",
+      "page_rank": -5
+    },
+    {
+      "url": "https://www.prismatic.io/docs/spectral/",
+      "page_rank": -7
+    },
+    {
+      "url": "https://www.prismatic.io/docs/api/",
+      "page_rank": -10,
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    },
+    "https://www.prismatic.io/docs/"
   ],
   "sitemap_urls": [
     "https://www.prismatic.io/docs/sitemap.xml"
@@ -9,17 +33,35 @@
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "//a[@aria-current=\"page\"]/../../../child::a",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "[class^='docItemContainer_'] h1",
+      "lvl2": "[class^='docItemContainer_'] h2",
+      "lvl3": "[class^='docItemContainer_'] h3",
+      "lvl4": "[class^='docItemContainer_'] h4",
+      "lvl5": "[class^='docItemContainer_'] h5",
+      "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
     },
-    "lvl1": "[class^='docItemContainer_'] h1",
-    "lvl2": "[class^='docItemContainer_'] h2",
-    "lvl3": "[class^='docItemContainer_'] h3",
-    "lvl4": "[class^='docItemContainer_'] h4",
-    "lvl5": "[class^='docItemContainer_'] h5",
-    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": {
+        "selector": "//a[@aria-current=\"page\"]/../../../child::a",
+        "type": "xpath"
+      },
+      "lvl2": "[class^='docItemContainer_'] h1",
+      "lvl3": "[class^='docItemContainer_'] h2",
+      "lvl4": "[class^='docItemContainer_'] h3",
+      "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+    }
   },
   "selectors_exclude": [
     ".hash-link"
@@ -27,5 +69,5 @@
   "conversation_id": [
     "1195285207"
   ],
-  "nb_hits": 3705
+  "nb_hits": 4041
 }
