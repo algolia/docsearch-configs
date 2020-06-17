@@ -1,0 +1,22 @@
+{
+  "index_name": "lbcs",
+  "start_urls": [
+    "https://docs.lbcs.dev"
+  ],
+  "stop_urls": [
+    "index.html"
+  ],
+  "selectors": {
+    "lvl0": "#docs h1",
+    "lvl1": "#docs h2",
+    "lvl2": "#docs h3",
+    "lvl3": "#docs h4",
+    "lvl4": "#docs h5",
+    "lvl5": "#docs h6",
+    "text": "#docs p, #docs li"
+  },
+  "conversation_id": [
+    "1163779279"
+  ],
+  "nb_hits": 555
+}

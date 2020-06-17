@@ -1,19 +1,6 @@
 {
   "index_name": "expo",
   "start_urls": [
-    {
-      "url": "https://docs.expo.io/versions/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "v34.0.0",
-          "v35.0.0",
-          "v36.0.0",
-          "v37.0.0",
-          "latest",
-          "unversioned"
-        ]
-      }
-    },
     "https://docs.expo.io/"
   ],
   "stop_urls": [],
@@ -34,5 +21,10 @@
   "conversation_id": [
     "569512966"
   ],
-  "nb_hits": 61228
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "nb_hits": 38392
 }

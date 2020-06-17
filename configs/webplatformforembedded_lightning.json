@@ -1,11 +1,11 @@
 {
   "index_name": "webplatformforembedded_lightning",
   "start_urls": [
-    "https://webplatformforembedded.github.io/Lightning/docs/",
-    "https://webplatformforembedded.github.io/Lightning/docs/introduction/introduction"
+    "https://rdkcentral.github.io/Lightning/docs/",
+    "https://rdkcentral.github.io/Lightning/docs/introduction/introduction"
   ],
   "sitemap_urls": [
-    "https://webplatformforembedded.github.io/Lightning/sitemap.xml"
+    "https://rdkcentral.github.io/Lightning/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -35,5 +35,5 @@
   "conversation_id": [
     "1017479515"
   ],
-  "nb_hits": 403
+  "nb_hits": 576
 }

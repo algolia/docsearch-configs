@@ -2,13 +2,13 @@
   "index_name": "abtzlabs_seed-css",
   "start_urls": [
     {
-      "url": "http://abtzlabs.github.io/seed-css/v1",
+      "url": "https://rogeriotaques.github.io/seed-css/v1",
       "tags": [
         "v1"
       ]
     },
     {
-      "url": "http://abtzlabs.github.io/seed-css/",
+      "url": "https://rogeriotaques.github.io/seed-css/",
       "tags": [
         "master"
       ]
@@ -28,5 +28,5 @@
   "conversation_id": [
     "760128475"
   ],
-  "nb_hits": 824
+  "nb_hits": 797
 }

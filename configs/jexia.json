@@ -1,7 +1,7 @@
 {
-  "index_name": "ipfs-docs-v2",
+  "index_name": "jexia",
   "start_urls": [
-    "https://docs-beta.ipfs.io/"
+    "https://docs.jexia.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -10,17 +10,16 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content__default h2",
-    "lvl2": ".content__default h3",
-    "lvl3": ".content__default h4",
-    "lvl4": ".content__default h5",
-    "lvl5": ".content__default h6",
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
+    "lvl5": ".content__default h5",
     "text": ".content__default p, .content__default li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
-      "global": true,
-      "default_value": "en-US"
+      "global": true
     }
   },
   "scrap_start_urls": false,
@@ -30,5 +29,5 @@
       "lang"
     ]
   },
-  "nb_hits": 2173
+  "nb_hits": 474
 }

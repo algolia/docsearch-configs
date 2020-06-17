@@ -5,11 +5,10 @@
     "https://sdk.gooddata.com/gooddata-ui/docs/about_gooddataui.html"
   ],
   "stop_urls": [],
-  "sitemap_ulrs": [
+  "sitemap_urls": [
     "https://sdk.gooddata.com/gooddata-ui/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroupActive')]//a[contains(@class,'navItemActive')]/preceding::h3[1]",
@@ -34,5 +33,5 @@
   "conversation_id": [
     "591776394"
   ],
-  "nb_hits": 3585
+  "nb_hits": 25185
 }

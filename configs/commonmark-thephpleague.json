@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//menu//*[contains(@class,'selected')]/preceding::h2[1]",
+      "selector": "//menu//*[contains(@class,'menu-section')]//*[contains(@class,'selected')]/preceding::h2[1]",
       "type": "xpath",
       "global": true
     },
@@ -29,5 +29,5 @@
       "version"
     ]
   },
-  "nb_hits": 3087
+  "nb_hits": 4712
 }
