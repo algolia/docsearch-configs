@@ -34,12 +34,24 @@
         ]
       }
     },
+    {
+      "url": "https://v5.getbootstrap.com/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ],
+        "version": [
+          "5.0"
+        ]
+      }
+    },
     "https://getbootstrap.com/docs/4.3/",
     "https://getbootstrap.com/docs/4.4/",
     "https://getbootstrap.com/docs/"
   ],
   "sitemap_urls": [
-    "https://getbootstrap.com/sitemap.xml"
+    "https://getbootstrap.com/sitemap.xml",
+    "https://v5.getbootstrap.com/sitemap.xml"
   ],
   "stop_urls": [
     "/examples/.+",
@@ -68,5 +80,5 @@
       "language"
     ]
   },
-  "nb_hits": 18206
+  "nb_hits": 21152
 }
