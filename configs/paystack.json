@@ -2,11 +2,11 @@
   "index_name": "paystack",
   "start_urls": [
     {
-      "url": "https://documentation-v2.netlify.app/docs/api/",
+      "url": "https://paystack.com/docs/api/",
       "selectors_key": "api"
     },
     {
-      "url": "https://documentation-v2.netlify.app/docs/"
+      "url": "https://paystack.com/docs/"
     }
   ],
   "stop_urls": [],
