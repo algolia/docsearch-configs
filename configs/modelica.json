@@ -96,13 +96,28 @@
           "OM"
         ],
         "version": [
-          "4.0.0",
           "3.2.3"
         ]
       },
       "extra_attributes": {
         "library": [
           "ObsoleteModelica3"
+        ]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ObsoleteModelica4",
+      "variables": {
+        "tool": [
+          "OM"
+        ],
+        "version": [
+          "4.0.0"
+        ]
+      },
+      "extra_attributes": {
+        "library": [
+          "ObsoleteModelica4"
         ]
       }
     },
@@ -162,5 +177,5 @@
     "lvl5": "h6",
     "text": "p, li"
   },
-  "nb_hits": 407726
+  "nb_hits": 439288
 }

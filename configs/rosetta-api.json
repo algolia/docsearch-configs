@@ -1,26 +1,29 @@
 {
-  "index_name": "dynamaker",
+  "index_name": "rosetta-api",
   "start_urls": [
-    "https://skymakerstudio.github.io/dynamaker-docs/docs/"
+    "https://www.rosetta-api.org/docs",
+    "https://www.rosetta-api.org/docs/welcome.html"
   ],
   "sitemap_urls": [
-    "https://skymakerstudio.github.io/dynamaker-docs/sitemap.xml"
+    "https://www.rosetta-api.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "/help",
+    "/users"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Blog"
     },
     "lvl1": ".post h1",
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
-    "lvl5": ".post h5",
-    "text": ".post article p, .post article li, .post article pre"
+    "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -28,11 +31,21 @@
   "custom_settings": {
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "tags",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "conversation_id": [
-    "1138390999"
+    "1197101225"
   ],
-  "nb_hits": 1449
+  "nb_hits": 520
 }

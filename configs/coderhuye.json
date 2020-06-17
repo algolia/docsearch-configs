@@ -1,11 +1,9 @@
 {
-  "index_name": "scapp_ecdocs",
+  "index_name": "coderhuye",
   "start_urls": [
-    "https://docs.entcloud.swisscom.com/"
+    "https://github.coderhuye.com/"
   ],
-  "stop_urls": [
-    "^.*/misc/.*$"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -35,8 +33,7 @@
     ]
   },
   "conversation_id": [
-    "1147172345"
+    "1191529465"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 5083
+  "nb_hits": 462
 }

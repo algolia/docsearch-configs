@@ -4,7 +4,8 @@
     "https://strapi.io/documentation/"
   ],
   "stop_urls": [
-    "https://strapi.io/documentation/3.0.0-alpha.x/"
+    "https://strapi.io/documentation/3.0.0-alpha.x/",
+    "https://strapi.io/documentation/3.0.0-beta.x/"
   ],
   "selectors": {
     "lvl0": {
@@ -34,5 +35,5 @@
   "conversation_id": [
     "835903303"
   ],
-  "nb_hits": 4491
+  "nb_hits": 4492
 }

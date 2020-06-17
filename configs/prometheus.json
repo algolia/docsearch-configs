@@ -15,7 +15,8 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "prometheus-version"
+      "prometheus-version",
+      "include"
     ]
   },
   "selectors_exclude": [
@@ -24,5 +25,5 @@
   "conversation_id": [
     "1167427942"
   ],
-  "nb_hits": 22399
+  "nb_hits": 8377
 }
