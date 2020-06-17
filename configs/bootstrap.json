@@ -43,7 +43,8 @@
         "version": [
           "5.0"
         ]
-      }
+      },
+      "selectors_key": "v5"
     },
     "https://getbootstrap.com/docs/4.3/",
     "https://getbootstrap.com/docs/4.4/",
@@ -59,17 +60,32 @@
     "getbootstrap.com/docs/versions/"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": ".bd-toc-item.active > a",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": ".bd-toc-item.active > a",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4, main td:first-child",
+      "lvl5": "main h5",
+      "text": "main p, main li, main td:last-child"
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4, main td:first-child",
-    "lvl5": "main h5",
-    "text": "main p, main li, main td:last-child"
+    "v5": {
+      "lvl0": {
+        "selector": ".bd-sidebar .active.my-1",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".bd-layout h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4, main td:first-child",
+      "lvl5": "main h5",
+      "text": "main p, main li, main td:last-child"
+    }
   },
   "selectors_exclude": [
     ".bd-example"
@@ -80,5 +96,5 @@
       "language"
     ]
   },
-  "nb_hits": 21152
+  "nb_hits": 21240
 }
