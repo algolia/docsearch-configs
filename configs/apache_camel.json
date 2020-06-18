@@ -1,48 +1,20 @@
 {
   "index_name": "apache_camel",
-  "start_urls": [
-    "https://camel.apache.org/docs/",
-    {
-      "url": "https://camel.apache.org/community/article",
-      "tags": [
-        "article"
-      ],
-      "selectors_key": "article"
-    },
-    "https://camel.apache.org/manual/latest",
-    "https://camel.apache.org/components/latest/",
-    "https://camel.apache.org/camel-k/latest/",
-    "https://camel.apache.org/camel-quarkus/latest/",
-    "https://camel.apache.org/camel-kafka-connector/latest/",
-    "https://camel.apache.org/camel-karaf/latest/",
-    "https://camel.apache.org/camel-spring-boot/latest/",
-    "https://camel.apache.org/community/"
-  ],
   "stop_urls": [],
   "sitemap_urls": [
     "https://camel.apache.org/sitemap.xml"
   ],
   "selectors": {
-    "default": {
-      "lvl0": "article h1",
-      "lvl1": "article h2",
-      "lvl2": "article h3",
-      "lvl3": "article h4",
-      "lvl4": "article h5",
-      "lvl5": "article h6",
-      "text": "article p, article li"
-    },
-    "article": {
-      "lvl0": "article h1",
-      "lvl1": "article h3",
-      "lvl2": "article h4",
-      "lvl3": "article h5",
-      "lvl4": "article h6",
-      "text": "article p, article li"
-    }
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
   },
   "conversation_id": [
     "934065128"
   ],
-  "nb_hits": 212853
+  "nb_hits": 384880
 }
