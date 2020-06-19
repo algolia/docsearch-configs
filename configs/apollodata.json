@@ -48,7 +48,8 @@
     "synonyms": [
       [
         "engine",
-        "manager"
+        "manager",
+        "studio"
       ],
       [
         "visual",
@@ -66,6 +67,10 @@
       [
         "automatic",
         "apq"
+      ],
+      [
+        "validation",
+        "checks"
       ]
     ]
   },
