@@ -1,0 +1,23 @@
+{
+  "index_name": "metarouter",
+  "start_urls": [
+    "https://docs.metarouter.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "selectors_exclude": [
+    ".toc"
+  ],
+  "conversation_id": [
+    "1137055391"
+  ],
+  "nb_hits": 3326
+}

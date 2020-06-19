@@ -1,0 +1,39 @@
+{
+  "index_name": "demisto",
+  "start_urls": [
+    "https://xsoar.pan.dev/docs/"
+  ],
+  "sitemap_urls": [
+    "https://xsoar.pan.dev/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "anchor",
+      "hierarchy",
+      "type"
+    ]
+  },
+  "conversation_id": [
+    "1106052758"
+  ],
+  "nb_hits": 56539
+}

@@ -4,7 +4,10 @@
     {
       "url": "https://doc.akka.io/docs/akka-http/current/",
       "extra_attributes": {
-         "language": ["scala","java"]
+        "language": [
+          "scala",
+          "java"
+        ]
       }
     }
   ],
@@ -37,5 +40,5 @@
   "conversation_id": [
     "299459375"
   ],
-  "nb_hits": 1626
+  "nb_hits": 1650
 }

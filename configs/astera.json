@@ -1,0 +1,38 @@
+{
+  "index_name": "astera",
+  "start_urls": [
+    "https://docs.astera.com"
+  ],
+  "stop_urls": [
+    "latest/index.html$"
+  ],
+  "sitemap_urls": [
+    "https://docs.astera.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "selectors_exclude": [
+    ".toctree-l1"
+  ],
+  "conversation_id": [
+    "929992315"
+  ],
+  "nb_hits": 14559
+}

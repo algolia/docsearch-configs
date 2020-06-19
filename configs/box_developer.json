@@ -1,0 +1,48 @@
+{
+  "index_name": "box_developer",
+  "start_urls": [
+    {
+      "url": "https://developer.box.com/reference/",
+      "tags": [
+        "reference"
+      ],
+      "selectors_key": "reference"
+    },
+    "https://developer.box.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": "[class*='Content-module--content'] h1",
+      "lvl1": "[class*='Content-module--content'] h2",
+      "lvl2": "[class*='Content-module--content'] h3",
+      "lvl3": "[class*='Content-module--content'] h4",
+      "lvl4": "[class*='Content-module--content'] h5",
+      "lvl5": "[class*='Content-module--content'] h6",
+      "text": "[class*='Content-module--content'] p, [class*='Content-module--content'] li"
+    },
+    "reference": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API Reference"
+      },
+      "lvl1": {
+        "selector": "//aside//*[@aria-current='page']/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": "[class*='TwoColumnContent-module--left'] h1",
+      "lvl3": "[class*='TwoColumnContent-module--left'] h2",
+      "lvl4": "[class*='TwoColumnContent-module--left'] h3",
+      "lvl5": "[class*='TwoColumnContent-module--left'] h4",
+      "lvl6": "[class*='TwoColumnContent-module--left'] h5",
+      "text": "[class*='TwoColumnContent-module--left'] p, [class*='TwoColumnContent-module--left'] li"
+    }
+  },
+  "conversation_id": [
+    "1127372388"
+  ],
+  "nb_hits": 8252
+}

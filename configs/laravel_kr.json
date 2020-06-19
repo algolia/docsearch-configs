@@ -1,0 +1,33 @@
+{
+  "index_name": "laravel_kr",
+  "start_urls": [
+    "https://laravel.kr/docs/"
+  ],
+  "stop_urls": [
+    "api/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "#selected_version li a strong",
+      "global": true,
+      "default_value": "Version"
+    },
+    "lvl1": "#kr-article h1",
+    "lvl2": "#kr-article h2",
+    "lvl3": "#kr-article h3",
+    "lvl4": "#kr-article h4",
+    "lvl5": "#kr-article h5",
+    "text": "#kr-article p"
+  },
+  "selectors_exclude": [],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "953771229"
+  ],
+  "nb_hits": 38896
+}

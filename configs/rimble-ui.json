@@ -5,15 +5,15 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "nav + [width='1'] > div:first-child h1",
-    "lvl1": "nav + [width='1'] > div:first-child h3",
-    "lvl2": "nav + [width='1'] > div:first-child h4",
-    "lvl3": "nav + [width='1'] > div:first-child h5",
-    "lvl4": "nav + [width='1'] > div:first-child h6",
-    "text": "nav + [width='1'] > div:first-child p, nav + [width='1'] > div:first-child li"
+    "lvl0": "[class*='Content__Article'] h1",
+    "lvl1": "[class*='Content__Article'] h3",
+    "lvl2": "[class*='Content__Article'] h4",
+    "lvl3": "[class*='Content__Article'] h5",
+    "lvl4": "[class*='Content__Article'] h6",
+    "text": "[class*='Content__Article'] p, [class*='Content__Article'] li"
   },
   "conversation_id": [
     "905951547"
   ],
-  "nb_hits": 470
+  "nb_hits": 1359
 }

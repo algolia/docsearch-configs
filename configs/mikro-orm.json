@@ -1,0 +1,48 @@
+{
+  "index_name": "mikro-orm",
+  "start_urls": [
+    {
+      "url": "https://mikro-orm.io/docs/v2/",
+      "extra_attributes": {
+        "version": [
+          "v2"
+        ]
+      }
+    },
+    {
+      "url": "https://mikro-orm.io/docs/",
+      "extra_attributes": {
+        "version": [
+          "v1",
+          "v3"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://mikro-orm.io/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li, article blockquote"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1013781084"
+  ],
+  "nb_hits": 5775
+}

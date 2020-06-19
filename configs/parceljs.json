@@ -15,7 +15,8 @@
           "ru",
           "uk",
           "zh",
-          "zh-tw"
+          "zh-tw",
+          "v2"
         ]
       }
     }
@@ -35,5 +36,5 @@
     "678588606"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 3673
+  "nb_hits": 5711
 }

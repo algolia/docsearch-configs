@@ -1,0 +1,23 @@
+{
+  "index_name": "wot-design",
+  "start_urls": [
+    "https://ftf.jd.com/wot-design/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "use_anchors": true,
+  "conversation_id": [
+    "1055283632"
+  ],
+  "nb_hits": 1087
+}

@@ -21,7 +21,7 @@
       "global": true,
       "default_value": "Kong"
     },
-    "lvl1": ".content h1",
+    "lvl1": "h1",
     "lvl2": ".content h2",
     "lvl3": ".content h3",
     "lvl4": ".content h4",
@@ -35,5 +35,5 @@
   "conversation_id": [
     "534091583"
   ],
-  "nb_hits": 18645
+  "nb_hits": 27926
 }

@@ -1,0 +1,22 @@
+{
+  "index_name": "netgate",
+  "start_urls": [
+    "https://docs.netgate.com/"
+  ],
+  "stop_urls": [
+    "/index.html$",
+    "/\\d\\/"
+  ],
+  "selectors": {
+    "lvl0": "[itemprop='articleBody'] h1",
+    "lvl1": "[itemprop='articleBody'] h2",
+    "lvl2": "[itemprop='articleBody'] h3",
+    "lvl3": "[itemprop='articleBody'] h4",
+    "lvl4": "[itemprop='articleBody'] h5",
+    "text": "[itemprop='articleBody'] p, [itemprop='articleBody'] li"
+  },
+  "conversation_id": [
+    "949344822"
+  ],
+  "nb_hits": 50459
+}

@@ -1,37 +1,40 @@
 {
   "index_name": "botfront",
   "start_urls": [
-    "https://docs.botfront.io"
+    "https://botfront.io"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.open",
+      "selector": "//*[@data-testid='nav-group']/*[.//*[contains(@class,'active')]]/preceding::div[1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li",
+    "lvl1": "[data-testid='main-container'] h1",
+    "lvl2": "[data-testid='main-container'] h2",
+    "lvl3": "[data-testid='main-container'] h3",
+    "lvl4": "[data-testid='main-container'] h4",
+    "text": "[data-testid='main-container'] p, [data-testid='main-container'] li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
-      "global": true,
-      "default_value": "en-US"
+      "global": true
     }
   },
-  "strip_chars": " .,;:#",
+  "selectors_exclude": [
+    ".table-of-contents",
+    "div style"
+  ],
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "849408251"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 392
+  "nb_hits": 559
 }

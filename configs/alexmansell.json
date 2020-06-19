@@ -1,0 +1,38 @@
+{
+  "index_name": "alexmansell",
+  "start_urls": [
+    "https://docs.alexmansell.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "body > div.toolbar > nav > ul > li:nth-child(1)",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "body > div.toolbar > nav > ul > li:nth-child(2)",
+      "global": true,
+      "default_value": "Chapter"
+    },
+    "lvl2": "article h1",
+    "lvL3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "lvl6": "article h5",
+    "text": "article p, article li",
+    "version": {
+      "selector": "span.version",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1141877201"
+  ],
+  "nb_hits": 45432
+}

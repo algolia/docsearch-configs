@@ -1,0 +1,20 @@
+{
+  "index_name": "strongdm",
+  "start_urls": [
+    "https://www.strongdm.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#docsContent h1",
+    "lvl1": "#docsContent h2",
+    "lvl2": "#docsContent h3",
+    "lvl3": "#docsContent h4",
+    "lvl4": "#docsContent h5",
+    "lvl5": "#docsContent h6",
+    "text": "#docsContent p, #docsContent li"
+  },
+  "conversation_id": [
+    "1129443811"
+  ],
+  "nb_hits": 2848
+}

@@ -14,5 +14,5 @@
     "text": "#root > div[class] > div[class] > div[class] > div:not([class]) p, #root > div[class] > div[class] > div[class] > div:not([class]) li"
   },
   "js_render": true,
-  "nb_hits": 222
+  "nb_hits": 117
 }

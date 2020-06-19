@@ -1,0 +1,28 @@
+{
+  "index_name": "aimms_how-to",
+  "start_urls": [
+    "https://how-to.aimms.com"
+  ],
+  "stop_urls": [
+    "/_"
+  ],
+  "sitemap_urls": [
+    "https://how-to.aimms.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".document h1",
+    "lvl1": ".document h2",
+    "lvl2": ".document h3",
+    "lvl3": ".document h4",
+    "lvl4": ".document h5",
+    "lvl5": ".document h6",
+    "text": ".document p, .document li"
+  },
+  "selectors_exclude": [
+    "toctree-wrapper"
+  ],
+  "conversation_id": [
+    "981296822"
+  ],
+  "nb_hits": 4879
+}

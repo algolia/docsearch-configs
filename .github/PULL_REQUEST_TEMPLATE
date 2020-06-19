@@ -5,6 +5,7 @@
     - double check [the dedicated documentation available here](https://community.algolia.com/docsearch/documentation/)
     - try [to implement the recommendations](https://community.algolia.com/docsearch/documentation/docsearch/recommendations/)
     - please feature [a sitemap](https://www.sitemaps.org/), it will be the most complete source of truth for our crawling.
+    - [Allow edits from maintainer](https://help.github.com/en/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork)
 -->
 
 
@@ -12,6 +13,7 @@
   Explain the **motivation** for making this change.
   What existing problem does the pull request solve?
   Are there any linked issues?
+  Please attach also a URL showing that you are a maintainer of the project.
 -->
 # Pull request motivation(s)
 
@@ -27,3 +29,7 @@
 
 
 ##### NB2: Any other feedback / questions ?
+
+<!--
+  The CI will check that the configuration is compliant with the JSON schema we have defined, please make sure the check is passed. Let us know if you do not get the issue.
+-->

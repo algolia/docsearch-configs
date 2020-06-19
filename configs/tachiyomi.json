@@ -1,0 +1,39 @@
+{
+  "index_name": "tachiyomi",
+  "start_urls": [
+    "https://tachiyomi.org/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://tachiyomi.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "[class*='content '] h1",
+    "lvl1": "[class*='content '] h2",
+    "lvl2": "[class*='content '] h3",
+    "lvl3": "[class*='content '] h4",
+    "lvl4": "[class*='content '] h5",
+    "lvl5": "[class*='content '] h5",
+    "text": "[class*='content '] p, [class*='content '] li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents",
+    ".badge"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "973604839"
+  ],
+  "nb_hits": 759
+}

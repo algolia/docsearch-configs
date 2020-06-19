@@ -1,0 +1,24 @@
+{
+  "index_name": "livewire-framework",
+  "start_urls": [
+    "https://laravel-livewire.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://laravel-livewire.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main section > div > div h1",
+    "lvl1": "main section > div > div h2",
+    "lvl2": "main section > div > div h3",
+    "lvl3": "main section > div > div h4",
+    "lvl4": "main section > div > div h5",
+    "lvl5": "main section > div > div h6",
+    "text": "main section > div > div p, main section > div > div li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "923279915"
+  ],
+  "nb_hits": 313
+}

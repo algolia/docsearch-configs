@@ -1,0 +1,20 @@
+{
+  "index_name": "seithan",
+  "start_urls": [
+    "https://seithan.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "body > div h1",
+    "lvl1": "body > div h2",
+    "lvl2": "body > div h3",
+    "lvl3": "body > div h4",
+    "lvl4": "body > div h5",
+    "lvl5": "body > div h6",
+    "text": "body > div p, body > div li"
+  },
+  "conversation_id": [
+    "1155685573"
+  ],
+  "nb_hits": 812
+}

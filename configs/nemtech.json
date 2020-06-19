@@ -6,17 +6,12 @@
       "tags": [
         "en"
       ]
-    },
-    {
-      "url": "https://nemtech.github.io/ja",
-      "tags": [
-        "ja"
-      ]
     }
   ],
   "stop_urls": [
     "/nem2-",
-    "/_"
+    "/_",
+    "/ja"
   ],
   "selectors": {
     "default": {
@@ -32,5 +27,5 @@
   "conversation_id": [
     "782254190"
   ],
-  "nb_hits": 5766
+  "nb_hits": 3775
 }

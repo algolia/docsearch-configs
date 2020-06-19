@@ -1,0 +1,41 @@
+{
+  "index_name": "imandra",
+  "start_urls": [
+    {
+      "url": "https://docs.imandra.ai/imandra-docs/",
+      "selectors_key": "imandra-docs"
+    },
+    "https://docs.imandra.ai/ipl/",
+    "https://docs.imandra.ai/fix-engine/",
+    "https://docs.imandra.ai/idf-py/"
+  ],
+  "stop_urls": [
+    "/odoc/",
+    "/_",
+    "ipl//"
+  ],
+  "selectors": {
+    "imandra-docs": {
+      "lvl0": ".text_cell_render h1",
+      "lvl1": ".text_cell_render h2",
+      "lvl2": ".text_cell_render h3",
+      "lvl3": ".text_cell_render h4",
+      "lvl4": ".text_cell_render h5",
+      "lvl5": ".text_cell_render h6",
+      "text": ".text_cell_render p, .text_cell_render li"
+    },
+    "default": {
+      "lvl0": ".main-content h1",
+      "lvl1": ".main-content h2",
+      "lvl2": ".main-content h3",
+      "lvl3": ".main-content h4",
+      "lvl4": ".main-content h5",
+      "lvl5": ".main-content h6",
+      "text": ".main-content p"
+    }
+  },
+  "conversation_id": [
+    "992897441"
+  ],
+  "nb_hits": 2119
+}

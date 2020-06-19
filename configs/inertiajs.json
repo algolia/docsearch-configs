@@ -1,0 +1,20 @@
+{
+  "index_name": "inertiajs",
+  "start_urls": [
+    "https://inertiajs.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#top h1",
+    "lvl1": "#top h2",
+    "lvl2": "#top h3",
+    "lvl3": "#top h4",
+    "lvl4": "#top h5",
+    "lvl5": "#top h6",
+    "text": "#top p, #top li"
+  },
+  "conversation_id": [
+    "969082194"
+  ],
+  "nb_hits": 248
+}

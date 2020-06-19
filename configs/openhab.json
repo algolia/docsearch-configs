@@ -16,7 +16,7 @@
     }
   ],
   "stop_urls": [
-    "\\?file=",
+    "https://www.openhab.org/addons/bindings/zwave/thing.html",
     "/index.html$",
     "docs/configuration/sitemaps$",
     "/openhabian$"
@@ -77,5 +77,5 @@
     ".table-of-contents",
     "#table-of-contents"
   ],
-  "nb_hits": 40317
+  "nb_hits": 42667
 }

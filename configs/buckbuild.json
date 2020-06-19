@@ -1,7 +1,7 @@
 {
   "index_name": "buckbuild",
   "start_urls": [
-    "https://buckbuild.com/"
+    "https://buck.build/"
   ],
   "stop_urls": [
     "javadoc"
@@ -25,5 +25,5 @@
   "conversation_id": [
     "295633389"
   ],
-  "nb_hits": 3838
+  "nb_hits": 6059
 }

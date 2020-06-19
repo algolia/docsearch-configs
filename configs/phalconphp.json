@@ -1,11 +1,11 @@
 {
   "index_name": "phalconphp",
   "start_urls": [
-    "https://docs.phalconphp.com/4.0/"
+    "https://docs.phalcon.io/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://docs.phalconphp.com/sitemap.xml"
+    "https://docs.phalcon.io/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".docSearch-content h1",
@@ -22,9 +22,11 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
-    ],
-    "separatorsToIndex": "_"
+      "lang",
+      "language",
+      "version",
+      "type"
+    ]
   },
   "selectors_exclude": [
     ".docSearch-content > p:first-child strong"
@@ -32,5 +34,5 @@
   "conversation_id": [
     "761639486"
   ],
-  "nb_hits": 499439
+  "nb_hits": 663434
 }

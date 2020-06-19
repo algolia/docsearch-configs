@@ -1,0 +1,29 @@
+{
+  "index_name": "helpscout",
+  "start_urls": [
+    "https://docs.helpscout.com/"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "sitemap_urls": [
+    "https://docs.helpscout.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav .active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    ".index-list"
+  ],
+  "nb_hits": 3616
+}

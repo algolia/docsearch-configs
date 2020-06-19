@@ -1,0 +1,51 @@
+{
+  "index_name": "blip",
+  "start_urls": [
+    {
+      "url": "https://help.blip.ai/docs/",
+      "tags": [
+        "docs"
+      ],
+      "selectors_key": "docs"
+    },
+    "https://help.blip.ai/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://help.blip.ai/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "selectors": {
+    "default": {
+      "lvl0": ".title",
+      "lvl1": ".main h2",
+      "lvl2": ".main h3",
+      "lvl3": ".main h4",
+      "lvl4": ".main h5",
+      "lvl5": ".main h6",
+      "text": ".info p:not(.title), .info li"
+    },
+    "docs": {
+      "lvl0": ".post h1",
+      "lvl1": ".post h2",
+      "lvl2": ".post h3",
+      "lvl3": ".post h4",
+      "lvl4": ".post h5",
+      "lvl5": ".post h6",
+      "text": ".post article p, .post article li"
+    }
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "923933521"
+  ],
+  "nb_hits": 4057
+}

@@ -1,0 +1,22 @@
+{
+  "index_name": "gestalt",
+  "start_urls": [
+    "https://gestalt.netlify.app/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docSearch-content h1",
+    "lvl1": ".docSearch-content h2",
+    "lvl2": ".docSearch-content h3, .docSearch-content td:first-child",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "lvl5": ".docSearch-content h6",
+    "text": ".docSearch-content p,  .docSearch-content td:not(:first-child), .docSearch-content li"
+  },
+  "js_render": true,
+  "use_anchors": true,
+  "conversation_id": [
+    "1177771090"
+  ],
+  "nb_hits": 1793
+}

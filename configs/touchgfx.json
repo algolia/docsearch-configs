@@ -1,0 +1,54 @@
+{
+  "index_name": "touchgfx",
+  "start_urls": [
+    {
+      "url": "https://support.touchgfx.com/docs/development/",
+      "page_rank": 6
+    },
+    {
+      "url": "https://support.touchgfx.com/docs/basic-concepts/",
+      "page_rank": 5
+    },
+    {
+      "url": "https://support.touchgfx.com/docs/tutorials/",
+      "page_rank": 4
+    },
+    {
+      "url": "https://support.touchgfx.com/docs/miscellaneous/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://support.touchgfx.com/docs/api/",
+      "page_rank": 2
+    },
+    {
+      "url": "https://support.touchgfx.com/docs/introduction/",
+      "page_rank": 1
+    }
+  ],
+  "sitemap_urls": [
+    "https://support.touchgfx.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class^='docItemContainer_'] h1",
+    "lvl2": "[class^='docItemContainer_'] h2",
+    "lvl3": "[class^='docItemContainer_'] h3",
+    "lvl4": "[class^='docItemContainer_'] h4",
+    "lvl5": "[class^='docItemContainer_'] h5",
+    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "1119277578"
+  ],
+  "nb_hits": 19740
+}

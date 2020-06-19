@@ -24,14 +24,14 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": ".content-wrap h1",
+        "selector": "article h1",
         "default_value": "Documentation"
       },
-      "lvl1": ".content-wrap h2",
-      "lvl2": ".content-wrap h3",
-      "lvl3": ".content-wrap h4",
-      "lvl4": ".content-wrap h5",
-      "text": ".content-wrap p, .content-wrap li"
+      "lvl1": "article h2",
+      "lvl2": "article h3",
+      "lvl3": "article h4",
+      "lvl4": "article h5",
+      "text": "article p, article li"
     },
     "blog": {
       "lvl0": {
@@ -39,20 +39,20 @@
         "global": true,
         "default_value": "Blog"
       },
-      "lvl1": ".content-wrap h1",
-      "lvl2": ".content-wrap h2",
-      "lvl3": ".content-wrap h3",
-      "lvl4": ".content-wrap h4",
-      "lvl5": ".content-wrap h5",
-      "text": ".content-wrap p, .content-wrap li"
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
     }
   },
   "selectors_exclude": [
-    ".content-wrap > h3:first-child"
+    "article > h3:first-child"
   ],
   "scrap_start_urls": false,
   "conversation_id": [
     "749661449"
   ],
-  "nb_hits": 3173
+  "nb_hits": 3394
 }

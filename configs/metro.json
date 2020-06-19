@@ -1,44 +1,29 @@
 {
   "index_name": "metro",
   "start_urls": [
-    {
-      "url": "http://facebook.github.io/metro/docs/(?P<lang>.*?)/getting-started.html",
-      "variables": {
-        "lang": [
-          "en"
-        ]
-      }
-    },
-    {
-      "url": "http://facebook.github.io/metro/docs/(?P<lang>.*?)/",
-      "variables": {
-        "lang": [
-          "en"
-        ]
-      }
-    }
+    "https://facebook.github.io/metro/docs/getting-started",
+    "http://facebook.github.io/metro/docs/"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "//nav//*[contains(@class,'navListItemActive')]/../../h3",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".post header h1",
-    "lvl2": ".post article h2",
-    "lvl3": ".post article h3",
-    "lvl4": ".post article h4",
-    "lvl5": ".post article h5",
-    "text": ".post article p, .post article li"
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
   },
-  "selectors_exclude": [
-    ".hash-link",
-    ".edit-page-link"
-  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "min_indexed_level": 2,
   "conversation_id": [
     "472785487"
   ],
-  "nb_hits": 368
+  "nb_hits": 258
 }

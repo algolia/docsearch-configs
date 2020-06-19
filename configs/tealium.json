@@ -1,0 +1,28 @@
+{
+  "index_name": "tealium",
+  "start_urls": [
+    "https://docs.tealium.com/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.tealium.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "header a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "#prose h2",
+    "lvl3": "#prose h3",
+    "lvl4": "#prose h4, #prose td:first-child",
+    "lvl5": "#prose h5",
+    "lvl6": "#prose h6",
+    "text": "#prose p, #prose li, aside f4, #prose td:last-child"
+  },
+  "conversation_id": [
+    "922926931"
+  ],
+  "nb_hits": 5216
+}

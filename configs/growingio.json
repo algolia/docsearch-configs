@@ -1,7 +1,30 @@
 {
   "index_name": "growingio",
   "start_urls": [
-    "https://docs.growingio.com/docs/"
+    {
+      "url": "https://docs.growingio.com/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://docs.growingio.com/mp/",
+      "tags": [
+        "mp"
+      ]
+    },
+    {
+      "url": "https://docs.growingio.com/v3",
+      "tags": [
+        "v3"
+      ]
+    },
+    {
+      "url": "https://docs.growingio.com/op",
+      "tags": [
+        "op"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,5 +38,5 @@
   "conversation_id": [
     "635346076"
   ],
-  "nb_hits": 11060
+  "nb_hits": 38185
 }

@@ -1,0 +1,66 @@
+{
+  "index_name": "alibaba-inc_clarity_design",
+  "start_urls": [
+    {
+      "url": "https://at-design.alibaba-inc.com/dev-doc/",
+      "tags": [
+        "dev-doc"
+      ]
+    },
+    {
+      "url": "https://at-design.alibaba-inc.com/doc/layout-pattern/",
+      "tags": [
+        "doc"
+      ]
+    },
+    {
+      "url": "https://at-design.alibaba-inc.com/doc/",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "url": "https://at-design.alibaba-inc.com/basic/",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "url": "https://at-design.alibaba-inc.com/biz/",
+      "tags": [
+        "biz"
+      ]
+    },
+    {
+      "url": "https://at-design.alibaba-inc.com/uiless/",
+      "tags": [
+        "uiless"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://at-design.alibaba-inc.com/public/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".side-menu .next-menu-item.next-opened .subnav-label-text",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-page-body-wrapper header h1",
+    "lvl2": ".markdown-body h1",
+    "lvl3": ".markdown-body h2",
+    "lvl4": ".markdown-body h3",
+    "lvl5": ".markdown-body h4",
+    "lvl6": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "selectors_exclude": [
+    ".demo-section"
+  ],
+  "conversation_id": [
+    "985530458"
+  ],
+  "nb_hits": 4393
+}

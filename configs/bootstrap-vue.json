@@ -1,7 +1,7 @@
 {
   "index_name": "bootstrap-vue",
   "start_urls": [
-    "https://bootstrap-vue.js.org/docs/"
+    "https://bootstrap-vue.org/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -23,5 +23,5 @@
   "conversation_id": [
     "814687052"
   ],
-  "nb_hits": 3886
+  "nb_hits": 7482
 }

@@ -1,0 +1,32 @@
+{
+  "index_name": "elemental-ui-next",
+  "start_urls": [
+    "https://elemental-ui-next.netlify.app/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//*[contains(@class,'active')]/preceding::h4[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "lvl6": "main h6",
+    "text": "main p, main li"
+  },
+  "selectors_exclude": [
+    "#doc-content > div > div:last-child",
+    "[aria-label='link']",
+    "h1 a, h2 a, h3 a, h4 a",
+    "body style"
+  ],
+  "conversation_id": [
+    "1142594316"
+  ],
+  "nb_hits": 1383
+}

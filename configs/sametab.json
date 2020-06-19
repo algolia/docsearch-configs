@@ -1,0 +1,21 @@
+{
+  "index_name": "sametab",
+  "start_urls": [
+    "https://docs.sametab.com/",
+    "https://docs.sametab.com/getting-started/overview/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".st-main-content h1",
+    "lvl1": ".st-main-content h2",
+    "lvl2": ".st-main-content h3",
+    "lvl3": ".st-main-content h4",
+    "lvl4": ".st-main-content h5",
+    "lvl5": ".st-main-content h6",
+    "text": ".st-main-content p, .st-main-content li"
+  },
+  "conversation_id": [
+    "943008968"
+  ],
+  "nb_hits": 1227
+}

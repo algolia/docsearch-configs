@@ -1,0 +1,29 @@
+{
+  "index_name": "speedway",
+  "start_urls": [
+    "https://speedway.app/docs"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://speedway.app/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='documentation-menu']//*[contains(@class,'current')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".documentation-content h1",
+    "lvl2": ".documentation-content h2",
+    "lvl3": ".documentation-content h3",
+    "lvl4": ".documentation-content h4",
+    "lvl5": ".documentation-content h5",
+    "lvl6": ".documentation-content h6",
+    "text": ".documentation-content p, .documentation-content li"
+  },
+  "conversation_id": [
+    "1037281652"
+  ],
+  "nb_hits": 211
+}

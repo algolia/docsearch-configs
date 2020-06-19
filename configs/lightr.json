@@ -2,21 +2,21 @@
   "index_name": "lightr",
   "start_urls": [
     {
-      "url": "https://bisaloo.github.io/lightr/index.html",
+      "url": "https://docs.ropensci.org/lightr/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://bisaloo.github.io/lightr/reference",
+      "url": "https://docs.ropensci.org/lightr/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://bisaloo.github.io/lightr/articles",
+      "url": "https://docs.ropensci.org/lightr/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -30,7 +30,7 @@
     "/articles/index.html"
   ],
   "sitemap_urls": [
-    "https://bisaloo.github.io/lightr/sitemap.xml"
+    "https://docs.ropensci.org/lightr/sitemap.xml"
   ],
   "selectors": {
     "homepage": {
@@ -91,5 +91,5 @@
       "url_without_anchor"
     ]
   },
-  "nb_hits": 242
+  "nb_hits": 271
 }

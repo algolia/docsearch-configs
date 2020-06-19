@@ -1,0 +1,20 @@
+{
+  "index_name": "adonisjs_next",
+  "start_urls": [
+    "https://preview.adonisjs.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs-wrapper > div > div h1, .article h1",
+    "lvl1": ".docs-wrapper > div > div h2, .article h2",
+    "lvl2": ".docs-wrapper > div > div h3, .article h3",
+    "lvl3": ".docs-wrapper > div > div h4, .article h4",
+    "lvl4": ".docs-wrapper > div > div h5, .article h5",
+    "lvl5": ".docs-wrapper > div > div h6, .article h6",
+    "text": ".docs-wrapper > div > div p, .article p, .docs-wrapper > div > div li, .article li"
+  },
+  "conversation_id": [
+    "1156190793"
+  ],
+  "nb_hits": 2035
+}

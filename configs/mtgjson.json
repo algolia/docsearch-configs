@@ -4,21 +4,22 @@
     "https://www.mtgjson.com"
   ],
   "stop_urls": [
-    "/json/"
+    "/json/",
+    "/files/"
   ],
   "selectors": {
     "lvl0": {
       "selector": "(//*[contains(@class,'open')])[1]",
-      "type":"xpath",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4, .content td:first-child",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li, .content td:last-child",
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4, .content__default td:first-child",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li, .content__default td:last-child",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -37,5 +38,5 @@
   "conversation_id": [
     "787070360"
   ],
-  "nb_hits": 1026
+  "nb_hits": 2061
 }

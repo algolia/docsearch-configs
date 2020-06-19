@@ -1,0 +1,61 @@
+{
+  "index_name": "airgram",
+  "start_urls": [
+    {
+      "url": "https://airgram.io/api-reference/",
+      "tags": [
+        "api-reference"
+      ],
+      "selectors_key": "api-reference"
+    },
+    {
+      "url": "https://airgram.io",
+      "tags": [
+        "documentation"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//aside//*[contains(@class,'bg-cyan-')]/preceding::*[contains(@class,'q-item__label--header')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".app__article h1",
+      "lvl2": ".app__article h2",
+      "lvl3": ".app__article h3",
+      "lvl4": ".app__article h4",
+      "lvl5": ".app__article h5",
+      "lvl6": ".app__article h6",
+      "text": ".app__article p, .app__article li"
+    },
+    "api-reference": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": {
+        "selector": "aside [class*='bg-cyan-'] .q-item__section--main",
+        "global": true,
+        "default_value": "Chapter"
+      },
+      "lvl2": "main h1",
+      "lvl3": "main h2, main td:first-child",
+      "lvl4": "main h3",
+      "lvl5": "main h4",
+      "lvl6": "main h5",
+      "text": "main p, main li, main td:last-child"
+    }
+  },
+  "js_render": true,
+  "conversation_id": [
+    "955623370"
+  ],
+  "nb_hits": 5686
+}

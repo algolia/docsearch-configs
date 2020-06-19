@@ -1,0 +1,18 @@
+{
+  "index_name": "fastai",
+  "start_urls": [
+    "https://docs.fast.ai/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post-content h1",
+    "lvl1": ".post-content h2",
+    "lvl2": ".post-content h3",
+    "lvl3": ".post-content h4",
+    "lvl4": ".post-content h5",
+    "lvl5": ".post-content h6",
+    "text": ".post-content p, .post-content li"
+  },
+  "scrap_start_urls": false,
+  "nb_hits": 8144
+}

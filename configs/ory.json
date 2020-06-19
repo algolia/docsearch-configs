@@ -1,28 +1,78 @@
 {
   "index_name": "ory",
   "start_urls": [
-    "https://www.ory.sh/docs"
-  ],
-  "stop_urls": [],
-  "selectors": {
-    "lvl0": {
-      "selector": "//nav//li[contains(@class,'active')]/preceding::li[contains(@class,'header')][1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    {
+      "url": "https://www.ory.sh/docs",
+      "tags": [
+        "cloud"
+      ]
     },
-    "lvl1": ".markdown-section h1",
-    "lvl2": ".markdown-section h2",
-    "lvl3": ".markdown-section h3",
-    "lvl4": ".markdown-section h4",
-    "lvl5": ".markdown-section h5",
-    "text": ".markdown-section p, .markdown-section li"
-  },
-  "selectors_exclude": [
-    "#toc"
+    {
+      "url": "https://www.ory.sh/docs/ecosystem",
+      "tags": [
+        "ecosystem"
+      ]
+    },
+    {
+      "url": "https://www.ory.sh/hydra/docs",
+      "tags": [
+        "hydra"
+      ]
+    },
+    {
+      "url": "https://www.ory.sh/keto/docs",
+      "tags": [
+        "keto"
+      ]
+    },
+    {
+      "url": "https://www.ory.sh/oathkeeper/docs",
+      "tags": [
+        "oathkeeper"
+      ]
+    },
+    {
+      "url": "https://www.ory.sh/kratos/docs",
+      "tags": [
+        "kratos"
+      ]
+    }
   ],
+  "sitemap_urls": [
+    "https://www.ory.sh/docs/sitemap.xml",
+    "https://www.ory.sh/hydra/docs/sitemap.xml",
+    "https://www.ory.sh/oathkeeper/docs/sitemap.xml",
+    "https://www.ory.sh/keto/docs/sitemap.xml",
+    "https://www.ory.sh/kratos/docs/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "https://www.ory.sh/docs/deprecated",
+    "https://www.ory.sh/docs/oryOS",
+    "https://www.ory.sh/docs/next",
+    "https://www.ory.sh/.*?/docs/next"
+  ],
+  "selectors": {
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
   "conversation_id": [
     "704914956"
   ],
-  "nb_hits": 1438
+  "strip_chars": " .,;:#",
+  "js_render": true,
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "tags",
+      "version",
+      "language"
+    ]
+  },
+  "nb_hits": 20460
 }

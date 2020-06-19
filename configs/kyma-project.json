@@ -10,15 +10,16 @@
     "root/kyma/"
   ],
   "selectors": {
-    "lvl0": "[class*='DocsContentWrapper'] h2",
-    "lvl1": "[class*='DocsContentWrapper'] h3",
-    "lvl2": "[class*='DocsContentWrapper'] h4",
-    "lvl3": "[class*='DocsContentWrapper'] h5",
-    "lvl4": "[class*='DocsContentWrapper'] h6",
-    "text": "[class*='DocsContentWrapper'] p, [class*='DocsContentWrapper'] li"
+    "lvl0": "#documentation-content h1",
+    "lvl1": "#documentation-content h2",
+    "lvl2": "#documentation-content h3",
+    "lvl3": "#documentation-content h4",
+    "lvl4": "#documentation-content h5",
+    "lvl5": "#documentation-content h6",
+    "text": "#documentation-content p, #documentation-content li, #documentation-content td span"
   },
   "conversation_id": [
     "855687472"
   ],
-  "nb_hits": 28273
+  "nb_hits": 60884
 }

@@ -1,0 +1,39 @@
+{
+  "index_name": "liveperson",
+  "start_urls": [
+    "https://developers.liveperson.com"
+  ],
+  "stop_urls": [
+    "assets",
+    "https://developers.liveperson.com/customer-facing-bots-deploying-bots-to-liveengage.html"
+  ],
+  "sitemap_urls": [
+    "https://developers.liveperson.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "type": "xpath",
+      "selector": "//nav/a[@class='breadcrumb-item'][1]"
+    },
+    "lvl1": {
+      "type": "xpath",
+      "selector": "//nav/a[@class='breadcrumb-item'][2]"
+    },
+    "lvl2": {
+      "type": "xpath",
+      "selector": "//nav/a[@class='breadcrumb-item'][3]"
+    },
+    "lvl3": {
+      "type": "xpath",
+      "selector": "//nav/a[@class='breadcrumb-item'][4]"
+    },
+    "lvl4": ".post-content h3",
+    "lvl5": ".post-content h4",
+    "text": ".post-content p, .post-content li, .post-content td, .post-content .nx"
+  },
+  "min_indexed_level": 3,
+  "conversation_id": [
+    "429047681"
+  ],
+  "nb_hits": 47087
+}

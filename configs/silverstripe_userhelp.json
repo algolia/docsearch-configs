@@ -1,0 +1,25 @@
+{
+  "index_name": "silverstripe_userhelp",
+  "start_urls": [
+    "https://userhelp.silverstripe.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs-article h1",
+    "lvl1": ".docs-article h2",
+    "lvl2": ".docs-article h3",
+    "lvl3": ".docs-article h4",
+    "lvl4": ".docs-article h5",
+    "lvl5": ".docs-article h6",
+    "text": ".docs-article p, .docs-article li"
+  },
+  "conversation_id": [
+    "1035381396"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },  
+  "nb_hits": 1460
+}

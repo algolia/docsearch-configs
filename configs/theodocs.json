@@ -1,0 +1,24 @@
+{
+  "index_name": "theodocs",
+  "start_urls": [
+    "https://docs.portal.theoplayer.com/"
+  ],
+  "sitemap_urls": [
+    "https://docs.portal.theoplayer.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": "h3",
+    "lvl3": "h4",
+    "lvl4": "h5",
+    "lvl5": "h6",
+    "text": "p, li"
+  },
+  "conversation_id": [
+    "970380721"
+  ],
+  "nb_hits": 13653
+}

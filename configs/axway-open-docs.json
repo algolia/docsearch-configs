@@ -1,0 +1,23 @@
+{
+  "index_name": "axway-open-docs",
+  "start_urls": [
+    "https://axway-open-docs.netlify.app/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://axway-open-docs.netlify.app/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".td-content h1",
+    "lvl1": ".td-content h2",
+    "lvl2": ".td-content h3",
+    "lvl3": ".td-content h4",
+    "lvl4": ".td-content h5",
+    "lvl5": ".td-content h6",
+    "text": ".td-content p, .td-content li"
+  },
+  "conversation_id": [
+    "952869895"
+  ],
+  "nb_hits": 19351
+}

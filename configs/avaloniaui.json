@@ -1,0 +1,26 @@
+{
+  "index_name": "avaloniaui",
+  "start_urls": [
+    "https://avaloniaui.net/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".treeview.active > a:first-child",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content-header h1",
+    "lvl2": ".content h1",
+    "lvl3": ".content h2",
+    "lvl4": ".content h3",
+    "lvl5": ".content h4",
+    "lvl6": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "1042053793"
+  ],
+  "nb_hits": 902
+}

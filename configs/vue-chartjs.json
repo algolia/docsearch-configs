@@ -1,28 +1,7 @@
 {
   "index_name": "vue-chartjs",
   "start_urls": [
-    {
-      "url": "http://vue-chartjs.org/#/(?P<language>.*?)/",
-      "variables": {
-        "language": [
-          "de",
-          "fr-fr",
-          "ja",
-          "pt-br",
-          "zh-cn",
-          "ru",
-          "id"
-        ]
-      }
-    },
-    {
-      "url": "http://vue-chartjs.org/#/",
-      "extra_attributes": {
-        "language": [
-          "en"
-        ]
-      }
-    }
+    "http://vue-chartjs.org/"
   ],
   "stop_urls": [
     "\\?id=",
@@ -32,18 +11,32 @@
     "Cannot find"
   ],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "text": ".content p, .content li"
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
-  "js_render": true,
-  "js_wait": 1,
-  "use_anchors": true,
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
   "conversation_id": [
     "343303239"
   ],
-  "nb_hits": 932
+  "nb_hits": 486
 }
