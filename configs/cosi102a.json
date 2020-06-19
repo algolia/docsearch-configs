@@ -16,5 +16,9 @@
   "conversation_id": [
     "1194725308"
   ],
-  "nb_hits": 10705
+  "custom_settings": {
+    "attributeForDistinct": "url_without_anchor",
+    "distinct": 2
+  },
+  "nb_hits": 10708
 }
