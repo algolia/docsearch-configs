@@ -30,6 +30,12 @@
       "tags": [
         "relay-angular"
       ]
+    },
+    {
+      "url": "https://morrys.github.io/relay-forms/docs/",
+      "tags": [
+        "relay-forms"
+      ]
     }
   ],
   "sitemap_urls": [
@@ -37,7 +43,8 @@
     "https://morrys.github.io/wora/sitemap.xml",
     "https://morrys.github.io/react-relay-appsync/sitemap.xml",
     "https://morrys.github.io/react-relay-offline/sitemap.xml",
-    "https://morrys.github.io/relay-angular/sitemap.xml"
+    "https://morrys.github.io/relay-angular/sitemap.xml",
+    "https://morrys.github.io/relay-forms/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
