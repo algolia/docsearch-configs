@@ -187,8 +187,7 @@
       "hierarchy.lvl1",
       "hierarchy.lvl2",
       "hierarchy.lvl3"
-    ]
-  },
+    ],
   "synonyms": [
     [
       "js",
@@ -216,6 +215,7 @@
       "metrics"
     ]
   ],
+  },
   "conversation_id": [
     "719291202"
   ],
