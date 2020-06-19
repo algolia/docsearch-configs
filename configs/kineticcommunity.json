@@ -149,8 +149,7 @@
       "lvl3": ".community-content h1",
       "lvl4": "",
       "text": ".community-content p, community-content li"
-    }
-  },
+    },
   "training": {
     "lvl0": {
       "selector": "",
