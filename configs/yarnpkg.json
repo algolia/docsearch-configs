@@ -2,7 +2,7 @@
   "index_name": "yarnpkg",
   "start_urls": [
     {
-      "url": "https://yarnpkg.com/(?P<lang>.*?)/docs/",
+      "url": "https://classic.yarnpkg.com/(?P<lang>.*?)/docs/",
       "variables": {
         "lang": [
           "en",
@@ -39,5 +39,5 @@
   "conversation_id": [
     "262167207"
   ],
-  "nb_hits": 10931
+  "nb_hits": 10913
 }

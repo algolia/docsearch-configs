@@ -1,10 +1,13 @@
 {
   "index_name": "apollodata",
   "start_urls": [
-    "https://www.apollographql.com/docs/",
     {
-      "url": "https://www.apollographql.com/docs/platform/",
+      "url": "https://www.apollographql.com/docs/",
       "page_rank": 3
+    },
+    {
+      "url": "https://www.apollographql.com/docs/graph-manager/",
+      "page_rank": 2
     },
     {
       "url": "https://www.apollographql.com/docs/react/",
@@ -12,11 +15,23 @@
     },
     {
       "url": "https://www.apollographql.com/docs/apollo-server/",
+      "page_rank": 2
+    },
+    {
+      "url": "https://www.apollographql.com/docs/ios/",
       "page_rank": 1
     }
   ],
   "stop_urls": [
-    "index\\.html"
+    "index\\.html",
+    "https://www.apollographql.com/docs/angular/",
+    "https://www.apollographql.com/docs/android/",
+    "https://www.apollographql.com/docs/scala/",
+    "https://www.apollographql.com/docs/graphql-tools/",
+    "https://www.apollographql.com/docs/graphql-subscriptions/",
+    "https://www.apollographql.com/docs/ios/api/",
+    "https:\\/\\/www\\.apollographql\\.com\\/docs/[A-Za-z0-9_-]+\\/v[0-9]+\\.",
+    "https:\\/\\/www\\.apollographql\\.com\\/docs/v[0-9]+\\."
   ],
   "selectors": {
     "default": {
@@ -26,14 +41,37 @@
       },
       "lvl1": ".header-wrapper h1",
       "lvl2": ".content-wrapper h2",
-      "lvl3": ".content-wrapper h3",
-      "lvl4": ".content-wrapper h4",
-      "text": ".content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page"
+      "text": ".content-wrapper h3, .content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page, .header-wrapper h3"
     }
   },
-  "min_indexed_level": 2,
+  "custom_settings": {
+    "synonyms": [
+      [
+        "engine",
+        "manager"
+      ],
+      [
+        "visual",
+        "vs"
+      ],
+      [
+        "metrics",
+        "analytics",
+        "traces"
+      ],
+      [
+        "cli",
+        "command"
+      ],
+      [
+        "automatic",
+        "apq"
+      ]
+    ]
+  },
+  "only_content_level": true,
   "conversation_id": [
     "355172644"
   ],
-  "nb_hits": 6231
+  "nb_hits": 5280
 }

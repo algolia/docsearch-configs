@@ -1,0 +1,19 @@
+{
+  "index_name": "berkeleyvision_caffe",
+  "start_urls": [
+    "http://caffe.berkeleyvision.org/"
+  ],
+  "stop_urls": [
+    "/doxygen/"
+  ],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "nb_hits": 1505
+}

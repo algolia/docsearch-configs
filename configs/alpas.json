@@ -1,0 +1,20 @@
+{
+  "index_name": "alpas",
+  "start_urls": [
+    "https://alpas.dev/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs_content h1",
+    "lvl1": ".docs_content h2",
+    "lvl2": ".docs_content h3",
+    "lvl3": ".docs_content h4",
+    "lvl4": ".docs_content h5",
+    "lvl5": ".docs_content h6",
+    "text": ".docs_content p, .docs_content li"
+  },
+  "conversation_id": [
+    "1046518995"
+  ],
+  "nb_hits": 1311
+}

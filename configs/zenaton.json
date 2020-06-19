@@ -9,24 +9,28 @@
           "go",
           "ruby",
           "node",
+          "node-old",
           "python"
         ]
       }
     },
     "https://zenaton.com/documentation"
   ],
+  "sitemap_urls": [
+    "https://zenaton.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".mb-32 > .w-full h1",
-    "lvl1": ".mb-32 > .w-full h2",
-    "lvl2": ".mb-32 > .w-full h3",
-    "lvl3": ".mb-32 > .w-full h4",
-    "lvl4": ".mb-32 > .w-full h5",
-    "lvl5": ".mb-32 > .w-full h6",
-    "text": ".mb-32 > .w-full p, .mb-32 > .w-full li"
+    "lvl0": "#documentation-container h1",
+    "lvl1": ".doc_part h2",
+    "lvl2": ".doc_part h3",
+    "lvl3": ".doc_part h4",
+    "lvl4": ".doc_part h5",
+    "lvl5": ".doc_part h6",
+    "text": ".doc_part p, .doc_part li"
   },
   "conversation_id": [
     "879341107"
   ],
-  "nb_hits": 1958
+  "nb_hits": 4673
 }

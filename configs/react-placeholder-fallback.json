@@ -1,10 +1,10 @@
 {
   "index_name": "react-placeholder-fallback",
   "start_urls": [
-    "https://react-placeholder-fallback.netlify.com/docs/"
+    "https://react-placeholder-fallback.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://react-placeholder-fallback.netlify.com/sitemap.xml"
+    "https://react-placeholder-fallback.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

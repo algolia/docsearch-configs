@@ -1,7 +1,7 @@
 {
   "index_name": "grafana",
   "start_urls": [
-    "https://grafana.com/docs/"
+    "https://grafana.com/docs/grafana/latest/"
   ],
   "stop_urls": [
     "https://grafana.com/(?!docs/)",
@@ -24,5 +24,5 @@
   "conversation_id": [
     "261040552"
   ],
-  "nb_hits": 4040
+  "nb_hits": 11917
 }

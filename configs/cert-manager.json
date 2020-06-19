@@ -1,0 +1,32 @@
+{
+  "index_name": "cert-manager",
+  "start_urls": [
+    {
+      "url": "https://cert-manager.io/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "next-docs",
+          "docs",
+          "v0.12-docs",
+          "v0.13-docs",
+          "v0.14-docs"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".td-content p, .td-content li",
+    "lvl0": ".td-content h1",
+    "lvl1": ".td-content h2",
+    "lvl2": ".td-content h3",
+    "lvl3": ".td-content h4",
+    "lvl4": ".td-content h5",
+    "lvl5": ".td-content h6"
+  },
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1094019769"
+  ],
+  "nb_hits": 14589
+}

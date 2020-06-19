@@ -1,8 +1,8 @@
 {
   "index_name": "civitynl",
   "start_urls": [
-    "https://civitynl.github.io/civity-docs/docs/",
-    "https://civitynl.github.io/civity-docs/docs/Welcome"
+    "https://www.docs.civity.nl/",
+    "https://www.docs.civity.nl/Welcome"
   ],
   "sitemap_urls": [
     "https://civitynl.github.io/civity-docs/sitemap.xml"
@@ -35,5 +35,5 @@
   "conversation_id": [
     "822588727"
   ],
-  "nb_hits": 188
+  "nb_hits": 822
 }

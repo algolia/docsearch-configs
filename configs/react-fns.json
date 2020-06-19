@@ -1,8 +1,8 @@
 {
   "index_name": "react-fns",
   "start_urls": [
-    "https://react-fns.netlify.com/docs/",
-    "https://react-fns.netlify.com/docs/en/installation.html"
+    "https://react-fns.netlify.app/docs/",
+    "https://react-fns.netlify.app/docs/en/installation.html"
   ],
   "stop_urls": [],
   "selectors": {

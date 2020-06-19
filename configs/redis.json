@@ -2,15 +2,15 @@
   "index_name": "redis",
   "start_urls": [
     {
-      "url": "https://docsearch-redis.netlify.com/documentation"
+      "url": "https://docsearch-redis.netlify.app/documentation"
     },
     {
-      "url": "https://docsearch-redis.netlify.com/commands",
+      "url": "https://docsearch-redis.netlify.app/commands",
       "selectors_key": "commands",
       "page_rank": 5
     },
     {
-      "url": "https://docsearch-redis.netlify.com/topics",
+      "url": "https://docsearch-redis.netlify.app/topics",
       "selectors_key": "topics",
       "page_rank": 1
     }

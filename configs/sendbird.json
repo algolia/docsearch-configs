@@ -15,6 +15,9 @@
       }
     }
   ],
+  "sitemap_urls": [
+    "https://docs.sendbird.com/sitemap.xml"
+  ],
   "stop_urls": [
     "change_log$"
   ],
@@ -44,5 +47,5 @@
   "only_content_level": true,
   "scrap_start_urls": false,
   "js_render": true,
-  "nb_hits": 7553
+  "nb_hits": 12915
 }

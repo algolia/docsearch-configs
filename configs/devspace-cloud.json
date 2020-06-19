@@ -1,0 +1,24 @@
+{
+  "index_name": "devspace-cloud",
+  "start_urls": [
+    "https://devspace.cloud/cloud/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".markdown p, .markdown li",
+    "lvl0": ".markdown h1",
+    "lvl1": ".markdown h2",
+    "lvl2": ".markdown h3",
+    "lvl3": ".markdown h4",
+    "lvl4": ".markdown h5",
+    "lvl5": ".markdown h6"
+  },
+  "sitemap_urls": [
+    "https://devspace.cloud/cloud/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1095047322"
+  ],
+  "nb_hits": 354
+}

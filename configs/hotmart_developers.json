@@ -1,0 +1,32 @@
+{
+  "index_name": "hotmart_developers",
+  "start_urls": [
+    "https://developers.hotmart.com/docs/",
+    "https://developers.hotmart.com/docs/pt-BR/start/about/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class^='styles-module--wrapper'] h1",
+    "lvl1": "[class^='styles-module--wrapper'] h2",
+    "lvl2": "[class^='styles-module--wrapper'] h3",
+    "lvl3": "[class^='styles-module--wrapper'] h4",
+    "lvl4": "[class^='styles-module--wrapper'] h5",
+    "lvl5": "[class^='styles-module--wrapper'] h6",
+    "text": "[class^='styles-module--wrapper'] p, [class^='styles-module--wrapper'] li, [class^='styles-module--wrapper'] td"
+  },
+  "sitemap_urls": [
+    "https://developers.hotmart.com/docs/en/sitemap.xml",
+    "https://developers.hotmart.com/docs/es/sitemap.xml",
+    "https://developers.hotmart.com/docs/pt-BR/sitemap.xml"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
+  "conversation_id": [
+    "1157936029"
+  ],
+  "min_indexed_level": 1,
+  "nb_hits": 910
+}

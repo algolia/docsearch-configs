@@ -5,7 +5,7 @@
       "url": "https://docs.rudder.io/reference/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "5.0"
+          "6.0"
         ]
       }
     },
@@ -32,5 +32,5 @@
   "conversation_id": [
     "304263392"
   ],
-  "nb_hits": 5447
+  "nb_hits": 6351
 }

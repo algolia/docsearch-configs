@@ -1,0 +1,39 @@
+{
+  "index_name": "questdb",
+  "start_urls": [
+    "https://www.questdb.io/docs/",
+    "https://www.questdb.io/docs/documentationOverview"
+  ],
+  "sitemap_urls": [
+    "https://www.questdb.io/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1015685812"
+  ],
+  "nb_hits": 1652
+}

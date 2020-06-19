@@ -22,7 +22,7 @@
   "stop_urls": [],
   "selectors": {
     "docs": {
-      "lvl0": ".nav--docs__sidebar__title",
+      "lvl0": ".content--docs .header__title",
       "lvl1": ".content--docs h1",
       "lvl2": ".content--docs h2",
       "lvl3": ".content--docs h3",
@@ -42,5 +42,5 @@
   "conversation_id": [
     "724165962"
   ],
-  "nb_hits": 10467
+  "nb_hits": 10780
 }

@@ -5,7 +5,9 @@
     "https://djrad.herokuapp.com/components/",
     "https://djrad.herokuapp.com/api/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/_"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".ant-menu-horizontal li.ant-menu-item-selected",
@@ -31,5 +33,5 @@
   "conversation_id": [
     "545511921"
   ],
-  "nb_hits": 4247
+  "nb_hits": 3624
 }

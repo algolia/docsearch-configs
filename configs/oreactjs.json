@@ -1,0 +1,21 @@
+{
+  "index_name": "oreactjs",
+  "start_urls": [
+    "https://oreactjs.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-body h1",
+    "lvl1": ".markdown-body h2",
+    "lvl2": ".markdown-body h3",
+    "lvl3": ".markdown-body h4",
+    "lvl4": ".markdown-body h5",
+    "lvl5": ".markdown-body h6",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "conversation_id": [
+    "1184186702"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 412
+}

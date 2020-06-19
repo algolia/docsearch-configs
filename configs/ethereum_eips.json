@@ -1,0 +1,27 @@
+{
+  "index_name": "ethereum_eips",
+  "start_urls": [
+    "https://eips.ethereum.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".post h1, .home h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h2, .home h2",
+    "lvl2": ".post h3, .home h3",
+    "lvl3": ".post h4, .home h4",
+    "lvl4": ".post h5, .home h5",
+    "lvl5": ".post h6, .home h6",
+    "text": ".post p, .home p, .post li, .home li, .post td"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1137090847"
+  ],
+  "nb_hits": 16362
+}

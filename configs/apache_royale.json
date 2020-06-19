@@ -1,0 +1,23 @@
+{
+  "index_name": "apache_royale",
+  "start_urls": [
+    "https://apache.github.io/royale-docs/"
+  ],
+  "stop_urls": [
+    "/assets/"
+  ],
+  "selectors": {
+    "lvl0": "#content h1",
+    "lvl1": "#content h2",
+    "lvl2": "#content h3",
+    "lvl3": "#content h4",
+    "lvl4": "#content h5",
+    "lvl5": "#content h6",
+    "text": "#content p, #content li"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "941174079"
+  ],
+  "nb_hits": 1192
+}

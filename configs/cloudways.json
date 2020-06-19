@@ -19,6 +19,8 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "lvl6": ".post h6",
     "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
@@ -31,7 +33,7 @@
     ]
   },
   "conversation_id": [
-    "675061855"
+    "1011690777"
   ],
-  "nb_hits": 172
+  "nb_hits": 232
 }

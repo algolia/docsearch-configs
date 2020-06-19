@@ -1,0 +1,26 @@
+{
+  "index_name": "sidemail",
+  "start_urls": [
+    "https://sidemail.io/docs"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://sidemail.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "selectors_exclude": [
+    ".outline"
+  ],
+  "conversation_id": [
+    "1059856626"
+  ],
+  "nb_hits": 166
+}

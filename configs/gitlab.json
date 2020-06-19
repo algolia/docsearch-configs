@@ -30,6 +30,16 @@
       "extra_attributes": {
         "product": "GitLab Runner"
       }
+    },
+    {
+      "url": "https://docs.gitlab.com/charts/",
+      "selectors_key": "charts",
+      "tags": [
+        "charts"
+      ],
+      "extra_attributes": {
+        "product": "GitLab Helm Charts"
+      }
     }
   ],
   "stop_urls": [
@@ -46,8 +56,8 @@
     "lvl1": ".article-content h2",
     "lvl2": ".article-content h3",
     "lvl3": ".article-content h4",
-    "lvl4": ".article-content h5",
-    "text": ".article-content p, .article-content li"
+    "lvl4": ".article-content h5, .article-content td:first-child",
+    "text": ".article-content p, .article-content li, .article-content td:last-child"
   },
   "stop_content": [
     "This document was moved to",
@@ -56,16 +66,25 @@
   ],
   "only_content_level": true,
   "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "version",
+      "language"
+    ],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
       "anchor",
       "url",
       "tags"
-    ]
+    ],
+    "separatorsToIndex": "_"
   },
+  "selectors_exclude": [
+    "#markdown-toc"
+  ],
   "conversation_id": [
     "434475832"
   ],
-  "nb_hits": 34269
+  "nb_hits": 46275
 }

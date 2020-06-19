@@ -1,23 +1,29 @@
 {
   "index_name": "oroinc",
   "start_urls": [
-    "https://oroinc.com/b2b-ecommerce/doc/current/"
+    "https://doc.oroinc.com/"
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://oroinc.com/b2b-ecommerce/sitemap_index.xml"
-  ],
   "selectors": {
-    "lvl0": ".section h1",
-    "lvl1": ".section h2",
-    "lvl2": ".section h3",
-    "lvl3": ".section h4",
-    "lvl4": ".section h5",
-    "lvl5": ".section h6",
-    "text": ".section p, .section li"
+    "lvl0": {
+      "selector": ".wy-menu li.toctree-l1.current > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li, .section dt, .section dd"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
   },
   "conversation_id": [
     "893895024"
   ],
-  "nb_hits": 33346
+  "nb_hits": 118013
 }

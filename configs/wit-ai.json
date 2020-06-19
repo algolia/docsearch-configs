@@ -1,0 +1,21 @@
+{
+  "index_name": "wit-ai",
+  "start_urls": [
+    "https://wit.ai/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".o-excerpt p, .o-excerpt li",
+    "lvl0": ".o-excerpt h1",
+    "lvl1": ".o-excerpt h2",
+    "lvl2": ".o-excerpt h3",
+    "lvl3": ".o-excerpt h4",
+    "lvl4": ".o-excerpt h5",
+    "lvl5": ".o-excerpt h6"
+  },
+  "sitemap_urls": [
+    "https://wit.ai/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "nb_hits": 299
+}

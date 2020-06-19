@@ -14,14 +14,17 @@
           "v2.2",
           "v19.1",
           "v19.2",
-          "stable"
+          "v20.1",
+          "stable",
+          "cockroachcloud"
         ]
       }
     }
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://www.cockroachlabs.com/docs/sitemap.xml"
+    "https://www.cockroachlabs.com/docs/sitemap.xml",
+    "https://www.cockroachlabs.com/docs/cockroachcloud/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".post-header h1",
@@ -48,5 +51,5 @@
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 81908
+  "nb_hits": 149187
 }

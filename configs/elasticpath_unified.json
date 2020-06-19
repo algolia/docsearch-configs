@@ -1,0 +1,107 @@
+{
+  "index_name": "elasticpath_unified",
+  "start_urls": [
+    {
+      "url": "https://documentation.elasticpath.com/commerce-manager/docs/",
+      "tags": [
+        "commerce-manager"
+      ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/storefront-react/docs/",
+      "tags": [
+        "react_pwa"
+      ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/cloudops-aws/docs/",
+      "tags": [
+        "cloudops-aws"
+      ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/cloudops-azure/docs/",
+      "tags": [
+        "cloudops-azure"
+      ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/chatbot/docs/",
+      "tags": [
+        "chatbot"
+      ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/alexa-skill/docs/",
+      "tags": [
+        "alexa-skill"
+      ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/account-management/docs/",
+      "tags": [
+        "account-management"
+      ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/commerce/docs/",
+      "tags": [
+        "commerce"
+      ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/cloudops-kubernetes/docs/",
+      "tags": [
+        "cloudops-kubernetes"
+      ]
+    },
+    {
+      "url": "https://documentation.elasticpath.com/bloomreach-feed/docs/",
+      "tags": [
+        "bloomreach-feed"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://documentation.elasticpath.com/storefront-react/sitemap.xml",
+    "https://documentation.elasticpath.com/commerce-manager/sitemap.xml",
+    "https://documentation.elasticpath.com/cloudops-aws/sitemap.xml",
+    "https://documentation.elasticpath.com/cloudops-azure/sitemap.xml",
+    "https://documentation.elasticpath.com/chatbot/sitemap.xml",
+    "https://documentation.elasticpath.com/alexa-skill/sitemap.xml",
+    "https://documentation.elasticpath.com/account-management/sitemap.xml",
+    "https://documentation.elasticpath.com/commerce/sitemap.xml",
+    "https://documentation.elasticpath.com/cloudops-kubernetes/sitemap.xml",
+    "https://documentation.elasticpath.com/bloomreach-feed/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "924021424"
+  ],
+  "nb_hits": 57021
+}

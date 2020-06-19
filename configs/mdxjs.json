@@ -7,13 +7,13 @@
     "/$"
   ],
   "selectors": {
-    "lvl0": ".searchable-content > div:first-child h1",
-    "lvl1": ".searchable-content > div:first-child h2",
-    "lvl2": ".searchable-content > div:first-child h3",
-    "lvl3": ".searchable-content > div:first-child h4",
-    "lvl4": ".searchable-content > div:first-child h5, .searchable-content > div:first-child table td:first-child",
-    "lvl5": ".searchable-content > div:first-child h6",
-    "text": ".searchable-content > div:first-child p, .searchable-content > div:first-child li, .searchable-content > div:first-child table td:last-child"
+    "lvl0": ".searchable-content h1",
+    "lvl1": ".searchable-content h2",
+    "lvl2": ".searchable-content h3",
+    "lvl3": ".searchable-content h4",
+    "lvl4": ".searchable-content h5, .searchable-content table td:first-child",
+    "lvl5": ".searchable-content h6",
+    "text": ".searchable-content p, .searchable-content li, .searchable-content table td:last-child"
   },
   "selectors_exclude": [
     ".searchable-content style",
@@ -24,5 +24,5 @@
   "conversation_id": [
     "818681482"
   ],
-  "nb_hits": 536
+  "nb_hits": 786
 }

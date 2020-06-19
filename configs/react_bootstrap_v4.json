@@ -1,7 +1,7 @@
 {
   "index_name": "react_bootstrap_v4",
   "start_urls": [
-    "https://react-bootstrap.netlify.com/"
+    "https://react-bootstrap.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {

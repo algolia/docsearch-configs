@@ -1,0 +1,82 @@
+{
+  "index_name": "chartjs",
+  "start_urls": [
+    {
+      "url": "https://www.chartjs.org/docs/latest/",
+      "extra_attributes": {
+        "version": [
+          "latest"
+        ]
+      }
+    },
+    {
+      "url": "https://www.chartjs.org/docs/2.9.3/",
+      "extra_attributes": {
+        "version": [
+          "2.9.3"
+        ]
+      }
+    },
+    {
+      "url": "https://www.chartjs.org/docs/master/",
+      "extra_attributes": {
+        "version": [
+          "master"
+        ]
+      }
+    },
+    {
+      "url": "https://www.chartjs.org/docs/master/getting-started/index",
+      "extra_attributes": {
+        "version": [
+          "master"
+        ]
+      }
+    },
+    {
+      "url": "https://www.chartjs.org/docs/next/",
+      "extra_attributes": {
+        "version": [
+          "next"
+        ]
+      }
+    },
+    {
+      "url": "https://www.chartjs.org/docs/next/getting-started/installation",
+      "extra_attributes": {
+        "version": [
+          "next"
+        ]
+      }
+    },
+    "https://www.chartjs.org/docs/"
+  ],
+  "sitemap_urls": [
+    "https://www.chartjs.org/docs/next/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "\\/_"
+  ],
+  "selectors": {
+    "lvl0": "header h1, section h1",
+    "lvl1": "article h2, section h2",
+    "lvl2": "article h3, section h3",
+    "lvl3": "article h4, article td:first-child, section h4",
+    "lvl4": "article h5, section h5",
+    "lvl5": "article h6, section h6",
+    "text": "article p, section p, article li, section li, article td:last-child"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1156842901"
+  ],
+  "nb_hits": 6397
+}

@@ -1,0 +1,31 @@
+{
+  "index_name": "mydataasia",
+  "start_urls": [
+    "https://mydataasia.org/"
+  ],
+  "sitemap_urls": [
+    "https://mydataasia.org/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "1190055079"
+  ],
+  "nb_hits": 95
+}

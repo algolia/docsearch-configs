@@ -1,22 +1,23 @@
 {
   "index_name": "atom",
   "start_urls": [
-    "https://atom.io/docs"
+    "https://atom.io/docs",
+    "https://flight-manual.atom.io/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav[contains(@class, 'side-nav')]//li[contains(@class, 'active')][1]/preceding::h3[1]",
+      "selector": "//*[contains(@class, 'toc')]//*[@class='selected'][1]/preceding::h4[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".main-column h2",
-    "lvl2": ".main-column h3",
-    "lvl3": ".main-column h4",
-    "lvl4": ".main-column h5",
-    "text": ".main-column p, .main-column li"
+    "lvl1": ".markdown-body h3",
+    "lvl2": ".markdown-body h4",
+    "lvl3": ".markdown-body h5",
+    "lvl4": ".markdown-body h6",
+    "text": ".markdown-body p, .markdown-body li"
   },
   "only_content_level": true,
-  "nb_hits": 3510
+  "nb_hits": 6807
 }

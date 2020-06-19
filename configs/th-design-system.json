@@ -1,7 +1,7 @@
 {
   "index_name": "th-design-system",
   "start_urls": [
-    "https://th-design-system.netlify.com"
+    "https://th-design-system.netlify.app"
   ],
   "stop_urls": [
     "/components/"

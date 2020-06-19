@@ -1,0 +1,22 @@
+{
+  "index_name": "revops",
+  "start_urls": [
+    "https://www.revops.io/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs-body h1",
+    "lvl1": ".docs-body h2",
+    "lvl2": ".docs-body h3",
+    "lvl3": ".docs-body h4",
+    "lvl4": ".docs-body h5",
+    "lvl5": ".docs-body h6",
+    "text": ".docs-body p, .docs-body li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": [
+    "1021907575"
+  ],
+  "nb_hits": 574
+}

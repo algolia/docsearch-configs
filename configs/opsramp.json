@@ -1,0 +1,25 @@
+{
+  "index_name": "opsramp",
+  "start_urls": [
+    "https://docs-beta.opsramp.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".title-group .active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "lvl6": "main h6",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1051940069"
+  ],
+  "nb_hits": 25346
+}

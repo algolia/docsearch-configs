@@ -1,0 +1,24 @@
+{
+  "index_name": "dry-rb",
+  "start_urls": [
+    "https://dry-rb.org"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".intro-page__inner h1",
+      "global": true,
+      "default_value": "News"
+    },
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "975238905"
+  ],
+  "nb_hits": 2974
+}

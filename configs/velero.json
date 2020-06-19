@@ -1,0 +1,41 @@
+{
+  "index_name": "velero",
+  "start_urls": [
+    "https://velero.io/docs"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://velero.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[text()=//h1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".documentation-container h1",
+    "lvl2": ".documentation-container h2",
+    "lvl3": ".documentation-container h3",
+    "lvl4": ".documentation-container h4",
+    "lvl5": ".documentation-container h5",
+    "lvl6": ".documentation-container h6",
+    "text": ".documentation-container p, .documentation-container li",
+    "version": {
+      "selector": "#dropdownMenuButton",
+      "global": true,
+      "default_value": "none"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1119740833"
+  ],
+  "nb_hits": 13993
+}

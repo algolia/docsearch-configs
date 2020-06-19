@@ -1,0 +1,30 @@
+{
+  "index_name": "python",
+  "start_urls": [
+    "https://docs.python.org/3/"
+  ],
+  "stop_urls": [
+    "/3/archives/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "body > div:nth-child(1) .nav-item-1 > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2, .section  dt",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "lvl6": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1122947746"
+  ],
+  "nb_hits": 85206
+}

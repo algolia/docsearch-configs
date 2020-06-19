@@ -1,0 +1,26 @@
+{
+  "index_name": "tibbo",
+  "start_urls": [
+    "https://docs.tibbo.com/taiko",
+    "https://docs.tibbo.com/phm",
+    "https://docs.tibbo.com/soism",
+    "https://docs.tibbo.com/opc",
+    "https://docs.tibbo.com/tmgm"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1113982334"
+  ],
+  "nb_hits": 40326
+}

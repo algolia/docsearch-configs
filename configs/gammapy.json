@@ -13,13 +13,19 @@
     "lvl3": "[role='main'] h4",
     "lvl4": "[role='main'] h5",
     "lvl5": "[role='main'] h6",
-    "text": "[role='main'] p, [role='main'] li"
+    "text": "[role='main'] p, [role='main'] li",
+    "version": {
+      "selector": ".version",
+      "global": true
+    }
   },
   "conversation_id": [
     "902018754"
   ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "attributesForFaceting": [
+      "version"
+    ]
   },
-  "nb_hits": 13281
+  "nb_hits": 65213
 }

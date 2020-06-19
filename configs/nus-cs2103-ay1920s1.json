@@ -2,46 +2,46 @@
   "index_name": "nus-cs2103-ay1920s1",
   "start_urls": [
     {
-      "url": "https://nus-cs2103-ay1920s1.github.io/website/schedule/timeline.html",
+      "url": "https://nus-cs2103-ay1920s2.github.io/website/schedule/",
       "selectors_key": "schedule",
       "tags": [
         "schedule"
       ]
     },
     {
-      "url": "https://nus-cs2103-ay1920s1.github.io/website/admin/",
+      "url": "https://nus-cs2103-ay1920s2.github.io/website/admin/",
       "selectors_key": "admin",
       "tags": [
         "admin"
       ]
     },
     {
-      "url": "https://nus-cs2103-ay1920s1.github.io/website/se-book-adapted/",
+      "url": "https://nus-cs2103-ay1920s2.github.io/website/se-book-adapted/",
       "selectors_key": "se-book-adapted",
       "tags": [
         "se-book-adapted"
       ]
     },
-    "https://nus-cs2103-ay1920s1.github.io/website/"
+    "https://nus-cs2103-ay1920s2.github.io/website/"
   ],
   "stop_urls": [
     "printable",
     "\\d/index.html",
-    "schedule/index\\.html",
+    "/book/",
     "print\\.html$"
   ],
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": ".website-content h1:first-child",
+        "selector": "",
         "global": true,
         "default_value": "Other"
       },
-      "lvl1": ".website-content h1:not(:first-child)",
-      "lvl2": ".website-content h3",
-      "lvl3": ".website-content h4",
-      "lvl4": ".website-content h5",
-      "lvl5": ".website-content h6",
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h2",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
       "text": ".website-content p, .website-content li, .website-content .table td"
     },
     "admin": {
@@ -73,11 +73,11 @@
     },
     "schedule": {
       "lvl0": {
-        "selector": ".website-content h1:first-child",
+        "selector": "",
         "global": true,
         "default_value": "Schedule"
       },
-      "lvl1": ".website-content h1:not(:first-child)",
+      "lvl1": ".website-content h1",
       "lvl2": ".website-content h2",
       "lvl3": ".website-content h3",
       "lvl4": ".website-content h4",
@@ -97,5 +97,5 @@
   "conversation_id": [
     "911651337"
   ],
-  "nb_hits": 13568
+  "nb_hits": 11628
 }

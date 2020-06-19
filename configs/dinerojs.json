@@ -1,7 +1,7 @@
 {
   "index_name": "dinerojs",
   "start_urls": [
-    "https://sarahdayan.github.io/dinero.js"
+    "https://dinerojs.com"
   ],
   "stop_urls": [],
   "selectors": {
@@ -20,5 +20,5 @@
   "selectors_exclude": [
     ".type-signature"
   ],
-  "nb_hits": 235
+  "nb_hits": 269
 }

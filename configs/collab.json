@@ -2,44 +2,62 @@
   "index_name": "collab",
   "start_urls": [
     {
-      "url": "http://docs.collab.net/teamforge192/",
+      "url": "https://docs.collab.net/teamforge201/",
+      "tags": [
+        "teamforge201"
+      ]
+    },
+    {
+      "url": "https://docs.collab.net/teamforge200/",
+      "tags": [
+        "teamforge200"
+      ]
+    },
+    {
+      "url": "https://docs.collab.net/teamforge193/",
+      "tags": [
+        "teamforge193"
+      ]
+    },
+    {
+      "url": "https://docs.collab.net/teamforge192/",
       "tags": [
         "teamforge192"
       ]
-    },    
+    },
     {
-      "url": "http://docs.collab.net/teamforge191/",
+      "url": "https://docs.collab.net/teamforge191/",
       "tags": [
         "teamforge191"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge190/",
+      "url": "https://docs.collab.net/teamforge190/",
       "tags": [
         "teamforge190"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge183/",
+      "url": "https://docs.collab.net/teamforge183/",
       "tags": [
         "teamforge183"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge182/",
+      "url": "https://docs.collab.net/teamforge182/",
       "tags": [
         "teamforge182"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge181/",
+      "url": "https://docs.collab.net/teamforge181/",
       "tags": [
         "teamforge181"
       ]
     }
   ],
   "stop_urls": [
-    "http://docs.collab.net/teamforge181/index.html",
+    "https://docs.collab.net/teamforge181/index.html",
     "\\?",
     "/javadoc/"
   ],
@@ -70,5 +88,5 @@
   "conversation_id": [
     "555093088"
   ],
-  "nb_hits": 88872
+  "nb_hits": 166197
 }

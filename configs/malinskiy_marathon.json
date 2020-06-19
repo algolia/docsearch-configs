@@ -1,0 +1,18 @@
+{
+  "index_name": "malinskiy_marathon",
+  "start_urls": [
+    "https://malinskiy.github.io/marathon/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".doc-content h3",
+    "lvl1": ".doc-content h4",
+    "lvl2": ".doc-content h5",
+    "lvl3": ".doc-content h6",
+    "text": ".doc-content p, .doc-content li"
+  },
+  "conversation_id": [
+    "797418640"
+  ],
+  "nb_hits": 266
+}

@@ -1,0 +1,27 @@
+{
+  "index_name": "martide_developers",
+  "start_urls": [
+    "https://developers.martide.com"
+  ],
+  "stop_urls": [
+    "\\/cdn"
+  ],
+  "selectors": {
+    "lvl0": "section h2",
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5, .content .title",
+    "lvl4": ".content dt",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude": [
+    ".note"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "953758910"
+  ],
+  "nb_hits": 3034
+}

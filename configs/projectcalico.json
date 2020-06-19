@@ -4,12 +4,13 @@
     "https://docs.projectcalico.org/"
   ],
   "sitemap_urls": [
-    "https://docs.projectcalico.org/sitemap.xml"
+    "https://docs.projectcalico.org/sitemap.xml",
+    "https://docs.projectcalico.org/sitemap-older.xml"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "#navbar .active",
+      "selector": "#navbar .active, #sidebar .panel-heading.current-page",
       "global": true,
       "default_value": "Documentation"
     },
@@ -33,5 +34,5 @@
     "#markdown-toc"
   ],
   "min_indexed_level": 2,
-  "nb_hits": 67223
+  "nb_hits": 236745
 }

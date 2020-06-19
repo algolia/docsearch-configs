@@ -1,8 +1,8 @@
 {
   "index_name": "react_native_gesture_handler",
   "start_urls": [
-    "https://kmagiera.github.io/react-native-gesture-handler/docs/getting-started.html",
-    "https://kmagiera.github.io/react-native-gesture-handler/docs/"
+    "https://software-mansion.github.io/react-native-gesture-handler/docs/",
+    "https://software-mansion.github.io/react-native-gesture-handler/docs/getting-started.html"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +24,5 @@
   "conversation_id": [
     "581634754"
   ],
-  "nb_hits": 492
+  "nb_hits": 588
 }

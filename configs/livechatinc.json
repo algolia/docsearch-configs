@@ -1,26 +1,30 @@
 {
   "index_name": "livechatinc",
   "start_urls": [
-    "https://developers.livechatinc.com/docs/"
+    "https://developers.livechat.com/docs/"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://developers.livechatinc.com/docs/sitemap.xml"
+  ],
   "selectors": {
-    "lvl0": {
-      "selector": ".docs__logo__title",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".markdown-body h1",
-    "lvl2": ".markdown-body h2",
-    "lvl3": ".markdown-body h3",
-    "lvl4": ".markdown-body h4",
-    "text": ".markdown-body p, .markdown-body li"
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
   },
   "custom_settings": {
     "separatorsToIndex": "_"
   },
+  "selectors_exclude": [
+    "h1 + p",
+    "h1 + style + p",
+    "style"
+  ],
   "conversation_id": [
     "504447721"
   ],
-  "nb_hits": 2395
+  "nb_hits": 6609
 }

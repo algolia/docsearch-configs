@@ -1,0 +1,59 @@
+{
+  "index_name": "department-of-veterans-affairs",
+  "start_urls": [
+    {
+      "url": "https://github.com/department-of-veterans-affairs/va.gov-team",
+      "selectors_key": "repo"
+    },
+    {
+      "url": "https://department-of-veterans-affairs.github.io/va.gov-team/",
+      "selectors_key": "github_pages"
+    }
+  ],
+  "stop_urls": [
+    "/actions",
+    "/blame",
+    "/branches",
+    "/commit",
+    "/compare",
+    "/find",
+    "/graphs",
+    "/issue",
+    "/network",
+    "/packages",
+    "/project",
+    "/pull",
+    "/pulse",
+    "/release",
+    "/security",
+    "/stargazers",
+    "/tags",
+    "/watchers",
+    "/wiki",
+    "\\?"
+  ],
+  "selectors": {
+    "repo": {
+      "lvl0": ".markdown-body h1",
+      "lvl1": ".markdown-body h2",
+      "lvl2": ".markdown-body h3",
+      "lvl3": ".markdown-body h4",
+      "lvl4": ".markdown-body h5",
+      "lvl5": ".markdown-body h6",
+      "text": ".markdown-body p, .markdown-body li"
+    },
+    "default": {
+      "lvl0": "h1",
+      "lvl1": "h2",
+      "lvl2": "h3",
+      "lvl3": "h4",
+      "lvl4": "h5",
+      "lvl5": "h6",
+      "text": "p, li"
+    }
+  },
+  "conversation_id": [
+    "1082146536"
+  ],
+  "nb_hits": 4465
+}
