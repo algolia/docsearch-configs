@@ -24,7 +24,8 @@
   },
   "selectors_exclude": [
     ".viewcode-link",
-    ".headerlink"
+    ".headerlink",
+    ".admonition-title"
   ],
   "strip_chars": " .,;:#",
   "conversation_id": [
