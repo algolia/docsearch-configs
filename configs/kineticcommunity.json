@@ -2,35 +2,51 @@
   "index_name": "kineticcommunity",
   "start_urls": [
     {
-      "url": "https://community.kineticdata.com/platform/",
-      "selectors_key": "platform",
+      "url": "https://community.kineticdata.com/admin-docs",
+      "selectors_key": "admin-docs",
       "tags": [
-        "Platform"
+        "Platform",
+        "Admin Docs"
       ]
     },
     {
-      "url": "https://community.kineticdata.com/solutions/",
-      "selectors_key": "solutions",
+      "url": "https://community.kineticdata.com/user-guides",
+      "selectors_key": "user-guides",
       "tags": [
-        "Solutions"
+        "Solutions",
+        "Guides",
+        "User Guides"
       ]
     },
     {
-      "url": "https://community.kineticdata.com/integrations/",
+      "url": "https://community.kineticdata.com/admin-docs/integration/plugins",
       "selectors_key": "integrations",
       "tags": [
-        "Integrations"
+        "Integrations",
+        "plugins",
+        "Plugins"
       ]
     },
     {
       "url": "https://community.kineticdata.com/support/",
       "selectors_key": "support",
-      "tags": ["Support"]
+      "tags": [
+        "Support"
+      ]
     },
     {
       "url": "https://community.kineticdata.com/events/",
       "selectors_key": "events",
-      "tags": ["Events"]
+      "tags": [
+        "Events"
+      ]
+    },
+    {
+      "url": "https://community.kineticdata.com/training/",
+      "selectors_key": "training",
+      "tags": [
+        "Training"
+      ]
     }
   ],
   "stop_urls": [],
@@ -54,10 +70,10 @@
       },
       "text": ".community-content p, community-content li"
     },
-    "platform": {
+    "admin-docs": {
       "lvl0": {
         "selector": "",
-        "default_value": "Platform"
+        "default_value": "Admin Docs"
       },
       "lvl1": {
         "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
@@ -71,10 +87,10 @@
       "lvl4": "",
       "text": ".community-content p, community-content li"
     },
-    "solutions": {
+    "user-guides": {
       "lvl0": {
         "selector": "",
-        "default_value": "Solutions"
+        "default_value": "User Guides"
       },
       "lvl1": {
         "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
@@ -91,10 +107,10 @@
       "lvl4": ".community-content h1",
       "text": ".community-content p, community-content li"
     },
-    "integrations": {
+    "plugins": {
       "lvl0": {
         "selector": "",
-        "default_value": "Integrations"
+        "default_value": "Plugins"
       },
       "lvl1": {
         "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
@@ -144,6 +160,23 @@
       "lvl3": ".community-content h1",
       "lvl4": "",
       "text": ".community-content p, community-content li"
+    },
+    "training": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Training"
+      },
+      "lvl1": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
+        "global": true
+      },
+      "lvl2": {
+        "selector": ".breadcrumb .breadcrumb-item:nth-child(4):not(.active)",
+        "global": true
+      },
+      "lvl3": ".community-content h1",
+      "lvl4": "",
+      "text": ".community-content p, community-content li"
     }
   },
   "min_indexed_level": 2,
@@ -165,37 +198,37 @@
       "hierarchy.lvl1",
       "hierarchy.lvl2",
       "hierarchy.lvl3"
+    ],
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "task",
+        "kinetic task",
+        "workflow"
+      ],
+      [
+        "handler",
+        "workflow handler"
+      ],
+      [
+        "ce",
+        "kinetic request"
+      ],
+      [
+        "kinetics",
+        "kinetic"
+      ],
+      [
+        "analytics",
+        "metrics"
+      ]
     ]
   },
-  "synonyms": [
-    [
-      "js",
-      "javascript"
-    ],
-    [
-      "task",
-      "kinetic task",
-      "workflow"
-    ],
-    [
-      "handler",
-      "workflow handler"
-    ],
-    [
-      "ce",
-      "kinetic request"
-    ],
-    [
-      "kinetics",
-      "kinetic"
-    ],
-    [
-      "analytics",
-      "metrics"
-    ]
-  ],
   "conversation_id": [
     "719291202"
   ],
-  "nb_hits": 6661
+  "nb_hits": 8714
 }
