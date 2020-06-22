@@ -9,7 +9,7 @@
       "url": "https://paystack.com/docs/"
     }
   ],
-  "stop_urls": [],
+  "stop_urls": ["https://paystack.com/docs/payments/dedicated-nuban", "https://paystack.com/docs/payments/charge-card"],
   "selectors": {
     "default": {
       "lvl0": "main h1",
