@@ -1,10 +1,10 @@
 {
   "index_name": "zap-hosting",
   "start_urls": [
-    "https://docs.zap-hosting.com/docs/"
+    "https://zap-hosting.com/guides/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.zap-hosting.com/sitemap.xml"
+    "https://zap-hosting.com/guides/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
