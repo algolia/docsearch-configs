@@ -8,7 +8,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".nav__item--current-ancestor > a",
+    "lvl0": ".navMain-sectionTitle",
     "lvl1": "article h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
@@ -20,6 +20,11 @@
     ".toc"
   ],
   "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
   "conversation_id": [
     "400989728"
   ],
