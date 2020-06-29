@@ -1,10 +1,11 @@
 {
   "index_name": "eae-docs",
   "start_urls": [
-    "https://eae-docs.netlify.app/docs/"
+    "https://eaedocs.elementoraddons.com/docs/",
+    "https://eaedocs.elementoraddons.com/docs/getting-started/installation"
   ],
   "sitemap_urls": [
-    "https://eae-docs.netlify.app/sitemap.xml"
+    "https://eaedocs.elementoraddons.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -27,5 +28,5 @@
   "conversation_id": [
     "1203130391"
   ],
-  "nb_hits": 726
+  "nb_hits": 712
 }
