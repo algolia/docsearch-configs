@@ -3,7 +3,9 @@
   "start_urls": [
     "http://cosi102r.s3-website-us-east-1.amazonaws.com/"
   ],
-  "stop_urls": ["/images/"],
+  "stop_urls": [
+    "/images/"
+  ],
   "selectors": {
     "lvl0": ".DocSearch-content h1",
     "lvl1": ".DocSearch-content h2",
@@ -11,7 +13,7 @@
     "lvl3": ".DocSearch-content h4",
     "lvl4": ".DocSearch-content h5",
     "lvl5": ".DocSearch-content h6",
-    "text": ".DocSearch-content p, .DocSearch-content li"
+    "text": ".DocSearch-content p"
   },
   "conversation_id": [
     "1194725308"
@@ -20,5 +22,5 @@
     "attributeForDistinct": "url_without_anchor",
     "distinct": 2
   },
-  "nb_hits": 4128
+  "nb_hits": 847
 }
