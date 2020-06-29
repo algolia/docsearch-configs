@@ -41,10 +41,10 @@
       "lvl4": ".content h4",
       "lvl5": ".content h5",
       "text": ".content p, .content li"
-    }    
+    }
   },
   "conversation_id": [
     "1206204455"
   ],
-  "nb_hits": 7468
+  "nb_hits": 4293
 }
