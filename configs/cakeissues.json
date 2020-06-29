@@ -1,0 +1,20 @@
+{
+  "index_name": "cakeissues",
+  "start_urls": [
+    "https://cakeissues.net/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content-header h1",
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "1206204455"
+  ],
+  "nb_hits": 7468
+}
