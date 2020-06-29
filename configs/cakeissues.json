@@ -1,17 +1,47 @@
 {
   "index_name": "cakeissues",
   "start_urls": [
-    "https://cakeissues.net/"
+    {
+      "url": "https://cakeissues.net/api/Cake.Issues/",
+      "tags": [
+        "api"
+      ],
+      "selectors_key": "api",
+      "page_rank": -1
+    },
+    {
+      "url": "https://cakeissues.net/docs/",
+      "page_rank": 5
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content-header h1",
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li"
+    "default": {
+      "lvl0": {
+        "selector": ".content-header h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    }    
   },
   "conversation_id": [
     "1206204455"
