@@ -4,7 +4,8 @@
     "https://codelists.codeforiati.org/"
   ],
   "stop_urls": [
-    "/api/json/"
+    "/api/json/",
+    "/api/xml/"
   ],
   "selectors": {
     "lvl0": {
@@ -35,7 +36,7 @@
     ]
   },
   "js_render": true,
-  "js_wait": 3,
+  "js_wait": 1,
   "conversation_id": [
     "1134433023"
   ],
