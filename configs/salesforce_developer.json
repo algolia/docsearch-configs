@@ -4,7 +4,8 @@
     "https://developer.salesforce.com/docs/"
   ],
   "stop_urls": [
-    "\\d"
+    "\\d",
+    "en-us.*en-us"
   ],
   "selectors": {
     "lvl0": {
@@ -25,5 +26,5 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 124787
+  "nb_hits": 77578
 }
