@@ -1,0 +1,25 @@
+{
+  "index_name": "speechly",
+  "start_urls": [
+    "https://www.speechly.com/docs/"
+  ],
+  "stop_urls": [
+    "index.html$"
+  ],
+  "selectors": {
+    "lvl0": ".title",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude": [
+    ".admonition"
+  ],
+  "conversation_id": [
+    "1208776989"
+  ],
+  "nb_hits": 353
+}
