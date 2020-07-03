@@ -1,0 +1,24 @@
+{
+  "index_name": "intuit_auto",
+  "start_urls": [
+    "https://intuit.github.io/auto/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".DocSearch-content h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "conversation_id": [
+    "1210223995"
+  ],
+  "nb_hits": 1148
+}
