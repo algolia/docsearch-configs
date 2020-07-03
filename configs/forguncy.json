@@ -1,0 +1,19 @@
+{
+  "index_name": "forguncy",
+  "start_urls": [
+    "https://docs.forguncy.com/v6/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".i-page-title-text",
+    "lvl1": "#i-body-content h2",
+    "lvl2": "#i-body-content h3",
+    "lvl3": "#i-body-content h4",
+    "lvl4": "#i-body-content h6",
+    "text": "#i-body-content p, #i-body-content li"
+  },
+  "conversation_id": [
+    "1208776930"
+  ],
+  "nb_hits": 16364
+}
