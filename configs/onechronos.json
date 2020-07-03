@@ -1,0 +1,23 @@
+{
+  "index_name": "onechronos",
+  "start_urls": [
+    "https://www.onechronos.com/docs",
+    "https://www.onechronos.com/docs/fix/fix-42/#beta"
+  ],
+  "stop_urls": [
+    "https://www.onechronos.com/docs/fix/fix-42/v1"
+  ],
+  "selectors": {
+    "lvl0": ".docs-col h1",
+    "lvl1": ".docs-col h2",
+    "lvl2": ".docs-col h3",
+    "lvl3": ".docs-col h4",
+    "lvl4": ".docs-col h5",
+    "lvl5": ".docs-col h6",
+    "text": ".docs-col p, .docs-col li"
+  },
+  "conversation_id": [
+    "1211843188"
+  ],
+  "nb_hits": 918
+}
