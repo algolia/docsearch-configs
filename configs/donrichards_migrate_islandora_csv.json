@@ -1,0 +1,23 @@
+{
+  "index_name": "donrichards_migrate_islandora_csv",
+  "start_urls": [
+    "https://donrichards.github.io/migrate_islandora_csv"
+  ],
+  "sitemap_urls": [
+    "https://donrichards.github.io/migrate_islandora_csv/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "1209079402"
+  ],
+  "nb_hits": 769
+}
