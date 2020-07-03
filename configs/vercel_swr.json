@@ -1,7 +1,7 @@
 {
   "index_name": "vercel_swr",
   "start_urls": [
-    "https://swr.now.sh"
+    "https://swr.vercel.app"
   ],
   "stop_urls": [],
   "selectors": {
