@@ -2,13 +2,13 @@
   "index_name": "intuit_auto",
   "start_urls": [
     {
-      "url": "https://intuit.github.io/auto/",
-      "page_rank": 5,
+      "url": "https://intuit.github.io/auto/docs/plugins",
+      "page_rank": 4,
       "tags": ["docs"]
     },
     {
-      "url": "https://intuit.github.io/auto/plugins",
-      "page_rank": 4,
+      "url": "https://intuit.github.io/auto/docs",
+      "page_rank": 5,
       "tags": ["docs"]
     },
     {
