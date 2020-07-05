@@ -1,7 +1,7 @@
 {
   "index_name": "nervos_ckbd",
   "start_urls": [
-    "http://docs.nervos.org/docs/"
+    "http://docs.nervos.org/"
   ],
   "sitemap_urls": [
     "http://docs.nervos.org/sitemap.xml"
