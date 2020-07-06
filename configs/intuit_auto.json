@@ -4,18 +4,24 @@
     {
       "url": "https://intuit.github.io/auto/docs/plugins",
       "page_rank": 4,
-      "tags": ["docs"]
+      "tags": [
+        "docs"
+      ]
     },
     {
       "url": "https://intuit.github.io/auto/docs",
       "page_rank": 5,
-      "tags": ["docs"]
+      "tags": [
+        "docs"
+      ]
     },
     {
       "url": "https://intuit.github.io/auto/blog",
       "selectors_key": "blog",
       "page_rank": 1,
-      "tags": ["blog"]
+      "tags": [
+        "blog"
+      ]
     }
   ],
   "stop_urls": [],
@@ -50,6 +56,8 @@
       "text": ".blog-post p, .blog-post li"
     }
   },
-  "conversation_id": ["1210223995"],
-  "nb_hits": 1148
+  "conversation_id": [
+    "1210223995"
+  ],
+  "nb_hits": 1431
 }
