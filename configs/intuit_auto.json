@@ -31,7 +31,8 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": ".sidebar-root .lvl0",
+        "selector": "//a[contains(@class, 'sidebar-active')][1]/preceding::p[contains(@class, 'lvl0')][1]",
+        "type": "xpath",
         "global": true,
         "default_value": "Documentation"
       },
