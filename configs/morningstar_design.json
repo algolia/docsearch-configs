@@ -1,7 +1,7 @@
 {
   "index_name": "morningstar_design",
   "start_urls": [
-    "http://designsystem.morningstar.com/"
+    "http://designsystem.morningstar.com/legacy/"
   ],
   "stop_urls": [
     "\\?",
@@ -12,7 +12,7 @@
     "test/",
     "sink-pages/",
     "/release-history.html",
-    "morningstar.com/index.html"
+    "morningstar.com/legacy/index.html"
   ],
   "selectors": {
     "lvl0": {
