@@ -12,7 +12,7 @@
     "text": ".content p, .content li"
   },
   "min_indexed_level": 1,
-  "scrap_start_url": false,
+  "scrap_start_urls": false,
   "conversation_id": [
     "377943789"
   ],
