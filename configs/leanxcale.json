@@ -31,7 +31,7 @@
   "sitemap_urls": [
     "https://docs.leanxcale.com/sitemap.xml"
   ],
-  "scrape_start_urls": false,
+  "scrap_start_urls": false,
   "conversation_id": [
     "1161077772"
   ],
@@ -39,7 +39,7 @@
     ".body .toc",
     ".doc .toc"
   ],
-  "nb_hits": 6763,
+  "nb_hits": 15322,
   "custom_settings": {
     "attributesForFaceting": [
       "component",
