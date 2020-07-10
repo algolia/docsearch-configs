@@ -1,17 +1,33 @@
 {
   "index_name": "mdanalysis",
   "sitemap_urls": [
-    "https://www.mdanalysis.org/sitemap.xml"
+    "https://www.mdanalysis.org/sitemapindex.xml"
   ],
   "start_urls": [
-    "https://www.mdanalysis.org"
   ],
   "stop_urls": [
     "https://www.mdanalysis.org/.*?//.*?",
+    "https://www.mdanalysis.org/blog/page.*",
     "https://www.mdanalysis.org/mdanalysis",
-    "https://www.mdanalysis.org/docs/_modules/",
-    "https://www.mdanalysis.org/docs/_sources",
-    "https://www.mdanalysis.org/blog/page.*"
+    "https://www.mdanalysis.org/docs",
+    {
+      "url": "https://www.mdanalysis.org/.*?/(?P<generated>.*?)/",
+      "variables": {
+        "generated": ["_modules", "_sources"]
+      }
+    },    
+    {
+      "url": "https://docs.mdanalysis.org/.*?/(?P<generated>.*?)/",
+      "variables": {
+        "generated": ["_modules", "_sources"]
+      }
+    },
+    {
+      "url": "https://userguide.mdanalysis.org/.*?/(?P<generated>.*?)/",
+      "variables": {
+        "generated": ["_modules", "_sources"]
+      }
+    },      
   ],
   "selectors": {
     "lvl0": {
