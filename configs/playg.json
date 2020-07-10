@@ -22,6 +22,7 @@
     "lvl6": "article h6",
     "text": "article p, article li"
   },
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "1220761690"
   ],
