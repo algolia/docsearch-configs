@@ -186,7 +186,9 @@
       "hierarchy.lvl0",
       "hierarchy.lvl1",
       "hierarchy.lvl2",
-      "hierarchy.lvl3"
+      "hierarchy.lvl3",
+      "intendedAudience",
+      "version"
     ],
     "synonyms": [
       [
