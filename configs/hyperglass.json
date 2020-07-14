@@ -1,39 +1,50 @@
 {
   "index_name": "hyperglass",
   "start_urls": [
-    "https://hyperglass.io/docs/",
-    "https://hyperglass.io/docs/installation"
+    "https://hyperglass.io/docs/introduction"
   ],
   "sitemap_urls": [
-    "https://hyperglass.io/docs/sitemap.xml"
+    "https://hyperglass.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
+      "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "lvl5": ".post h5",
-    "text": ".post article p, .post article li"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
   },
+  "strip_chars": " .,;:#",
   "selectors_exclude": [
     ".hash-link"
   ],
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "conversation_id": [
     "973823901"
   ],
+  "scrap_start_urls": false,
   "nb_hits": 73
 }
