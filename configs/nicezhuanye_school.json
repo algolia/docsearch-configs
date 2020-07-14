@@ -1,0 +1,32 @@
+{
+  "index_name": "nicezhuanye_school",
+  "start_urls": [
+    "http://school.nicezhuanye.com/opendocs/docs/",
+    "http://school.nicezhuanye.com/opendocs/docs/open/guide/%e6%8e%a5%e5%85%a5%e6%b5%81%e7%a8%8b"
+  ],
+  "sitemap_urls": [
+    "http://school.nicezhuanye.com/opendocs/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class^='docItemContainer_'] h1",
+    "lvl2": "[class^='docItemContainer_'] h2",
+    "lvl3": "[class^='docItemContainer_'] h3",
+    "lvl4": "[class^='docItemContainer_'] h4",
+    "lvl5": "[class^='docItemContainer_'] h5",
+    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "1203829090"
+  ],
+  "nb_hits": 326
+}

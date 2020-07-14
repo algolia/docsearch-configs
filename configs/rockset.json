@@ -1,0 +1,22 @@
+{
+  "index_name": "rockset",
+  "start_urls": [
+    "https://docs.rockset.com"
+  ],
+  "stop_urls": [
+    "/client/"
+  ],
+  "selectors": {
+    "lvl0": ".center-pane-internal h1",
+    "lvl1": ".center-pane-internal h2",
+    "lvl2": ".center-pane-internal h3",
+    "lvl3": ".center-pane-internal h4",
+    "lvl4": ".center-pane-internal h5",
+    "lvl5": ".center-pane-internal h6",
+    "text": ".center-pane-internal p, .center-pane-internal li"
+  },
+  "conversation_id": [
+    "1211835794"
+  ],
+  "nb_hits": 3906
+}

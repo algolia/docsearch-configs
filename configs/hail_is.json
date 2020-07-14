@@ -24,11 +24,12 @@
   },
   "selectors_exclude": [
     ".viewcode-link",
-    ".headerlink"
+    ".headerlink",
+    ".admonition-title"
   ],
   "strip_chars": " .,;:#",
   "conversation_id": [
     "1172540378"
   ],
-  "nb_hits": 9180
+  "nb_hits": 8804
 }

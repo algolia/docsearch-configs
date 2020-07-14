@@ -17,5 +17,7 @@
   "conversation_id": [
     "952910917"
   ],
-  "nb_hits": 3573
+  "nb_hits": 4004,
+  "js_render": true,
+  "js_wait": 1
 }

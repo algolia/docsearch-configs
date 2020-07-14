@@ -1,0 +1,64 @@
+{
+  "index_name": "intuit_auto",
+  "start_urls": [
+    {
+      "url": "https://intuit.github.io/auto/docs/plugins",
+      "page_rank": 4,
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://intuit.github.io/auto/docs",
+      "page_rank": 5,
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://intuit.github.io/auto/blog",
+      "selectors_key": "blog",
+      "page_rank": 1,
+      "tags": [
+        "blog"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://intuit.github.io/auto/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//a[contains(@class, 'sidebar-active')][1]/preceding::p[contains(@class, 'lvl0')][1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".DocSearch-content .lvl1",
+      "lvl2": ".DocSearch-content .lvl2",
+      "lvl3": ".DocSearch-content .lvl3",
+      "lvl4": ".DocSearch-content .lvl4",
+      "lvl5": ".DocSearch-content .lvl5",
+      "text": ".DocSearch-content p, .DocSearch-content li"
+    },
+    "blog": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": ".blog-post h1",
+      "lvl2": ".blog-post h2",
+      "lvl3": ".blog-post h3",
+      "lvl4": ".blog-post h4",
+      "lvl5": ".blog-post h5",
+      "text": ".blog-post p, .blog-post li"
+    }
+  },
+  "conversation_id": [
+    "1210223995"
+  ],
+  "nb_hits": 1211
+}

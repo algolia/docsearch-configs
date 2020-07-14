@@ -137,7 +137,7 @@
       "lvl4": "#contentBody div h4",
       "lvl5": "#contentBody div h5",
       "lvl6": "#contentBody div h6",
-      "text": "#contentBody div p, #contentBody div li"
+      "text": "#contentBody div p, #contentBody div li, .sample_snippet"
     },
     "learning_center": {
       "lvl0": {
@@ -156,7 +156,7 @@
       "lvl4": ".section h3",
       "lvl5": ".section h4",
       "lvl6": ".section h6",
-      "text": ".section p, .section li, .sample_snippet"
+      "text": ".section p, .section li"
     },
     "api_reference_guide": {
       "lvl0": {
@@ -242,5 +242,5 @@
   "conversation_id": [
     "702227168"
   ],
-  "nb_hits": 91606
+  "nb_hits": 94925
 }

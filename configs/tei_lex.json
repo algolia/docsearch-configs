@@ -1,0 +1,20 @@
+{
+  "index_name": "tei_lex",
+  "start_urls": [
+    "https://dariah-eric.github.io/lexicalresources/pages/TEILex0/TEILex0.html",
+    "https://dariah-eric.github.io/lexicalresources/pages/TEILex0"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#main h2",
+    "lvl1": "#main h3",
+    "lvl2": "#main h4",
+    "lvl3": "#main h5",
+    "lvl4": "#main h6",
+    "text": "#main p, #main li"
+  },
+  "conversation_id": [
+    "1205214224"
+  ],
+  "nb_hits": 350
+}

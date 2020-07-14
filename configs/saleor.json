@@ -9,18 +9,13 @@
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "lvl5": ".post h5",
-    "text": ".post article p, .post article li"
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -34,5 +29,5 @@
   "conversation_id": [
     "924604329"
   ],
-  "nb_hits": 10797
+  "nb_hits": 20405
 }

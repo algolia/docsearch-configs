@@ -1,0 +1,23 @@
+{
+  "index_name": "ironcorelabs",
+  "start_urls": [
+    "https://ironcorelabs.com/docs"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://ironcorelabs.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "main > div h1",
+    "lvl1": "main > div h2",
+    "lvl2": "main > div h3",
+    "lvl3": "main > div h4",
+    "lvl4": "main > div h5",
+    "lvl5": "main > div h6",
+    "text": "main > div p, main > div li"
+  },
+  "conversation_id": [
+    "1205622950"
+  ],
+  "nb_hits": 1505
+}

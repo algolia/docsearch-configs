@@ -1,8 +1,7 @@
 {
   "index_name": "payid",
   "start_urls": [
-    "https://docs.payid.org/docs/",
-    "https://docs.payid.org/docs/payid-overview"
+    "https://docs.payid.org/"
   ],
   "sitemap_urls": [
     "https://docs.payid.org/sitemap.xml"
@@ -28,5 +27,5 @@
   "conversation_id": [
     "1161625432"
   ],
-  "nb_hits": 310
+  "nb_hits": 381
 }

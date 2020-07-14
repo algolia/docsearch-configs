@@ -1,11 +1,11 @@
 {
   "index_name": "shakebugs",
   "start_urls": [
-    "https://sample-docs-shakebugs.imfast.io/docs/",
-    "https://sample-docs-shakebugs.imfast.io/docs/android/setup"
+    "https://www.shakebugs.com/docs/",
+    "https://www.shakebugs.com/docs/android/setup"
   ],
   "sitemap_urls": [
-    "https://sample-docs-shakebugs.imfast.io/sitemap.xml"
+    "https://www.shakebugs.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -28,5 +28,5 @@
   "conversation_id": [
     "1181730786"
   ],
-  "nb_hits": 651
+  "nb_hits": 674
 }

@@ -9,7 +9,10 @@
       "url": "https://paystack.com/docs/"
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://paystack.com/docs/payments/dedicated-nuban",
+    "https://paystack.com/docs/payments/charge-card"
+  ],
   "selectors": {
     "default": {
       "lvl0": "main h1",
@@ -34,5 +37,5 @@
     "1098321391"
   ],
   "only_content_level": true,
-  "nb_hits": 624
+  "nb_hits": 658
 }
