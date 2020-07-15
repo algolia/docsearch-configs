@@ -1,7 +1,7 @@
 {
   "index_name": "flarum",
   "start_urls": [
-    "https://flarum.org/docs/"
+    "https://docs.flarum.org/"
   ],
   "stop_urls": [],
   "selectors": {
