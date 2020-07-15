@@ -1,7 +1,8 @@
 {
   "index_name": "hyperglass",
   "start_urls": [
-    "https://hyperglass.io/docs/introduction"
+    "https://hyperglass.io/docs/introduction",
+    "https://hyperglass.io/docs/"
   ],
   "sitemap_urls": [
     "https://hyperglass.io/sitemap.xml"
@@ -46,5 +47,5 @@
     "973823901"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 73
+  "nb_hits": 300
 }
