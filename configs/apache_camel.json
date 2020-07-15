@@ -1,17 +1,55 @@
 {
   "index_name": "apache_camel",
-  "stop_urls": [],
+  "only_content_level": true,
+  "stop_urls": [
+    "https://camel.apache.org/categories/",
+    "https://camel.apache.org/blog/page/",
+    "index.html"
+  ],
+  "start_urls": [
+    { "url": "https://camel.apache.org/blog/", "selectors_key": "blog" },
+    { "url": "https://camel.apache.org/camel-k/", "selectors_key": "antora-pages" },
+    { "url": "https://camel.apache.org/camel-quarkus/", "selectors_key": "antora-pages" },
+    { "url": "https://camel.apache.org/camel-kafka-connector/", "selectors_key": "antora-pages" },
+    { "url": "https://camel.apache.org/camel-spring-boot/", "selectors_key": "antora-pages" },
+    { "url": "https://camel.apache.org/camel-karaf/", "selectors_key": "antora-pages" },
+    { "url": "https://camel.apache.org/components/", "selectors_key": "antora-pages" },
+    { "url": "https://camel.apache.org/manual/", "selectors_key": "antora-pages" },
+    "https://camel.apache.org/download/",
+    "https://camel.apache.org/community/books",
+    "https://camel.apache.org/community/articles",
+    "https://camel.apache.org/docs/"
+  ],
   "sitemap_urls": [
     "https://camel.apache.org/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+    "default": {
+      "lvl0": { "selector": "", "default_value": null },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "text": "article p, article li"
+    },
+    "antora-pages": {
+      "lvl0": "div.nav-panel-explore .version.is-current a",
+      "lvl1": "div.toolbar ul li:nth-child(1) a",
+      "lvl2": "div.toolbar ul li:nth-child(2) a",
+      "lvl3": "div.toolbar ul li:nth-child(3) a",
+      "lvl4": "div.toolbar ul li:nth-child(4) a",
+      "lvl5": "article h2",
+      "lvl6": "article h3",
+      "text": "article p, article li"
+    },
+    "blog": {
+      "lvl0": { "selector": "", "default_value": null },
+      "lvl1": { "selector": "", "default_value": "Blog" },
+      "lvl2": "header a.category:nth-child(1)",
+      "lvl3": "header a.category:nth-child(2)",
+      "lvl4": "article h1",
+      "lvl5": "article h2",
+      "text": "article .post-content p, article .post-content li"
+    }
   },
   "conversation_id": [
     "934065128"
