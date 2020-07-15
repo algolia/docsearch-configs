@@ -10,24 +10,7 @@
     "https://www.mdanalysis.org/blog/page.*",
     "https://www.mdanalysis.org/mdanalysis",
     "https://www.mdanalysis.org/docs",
-    {
-      "url": "https://www.mdanalysis.org/.*?/(?P<generated>.*?)/",
-      "variables": {
-        "generated": ["_modules", "_sources"]
-      }
-    },    
-    {
-      "url": "https://docs.mdanalysis.org/.*?/(?P<generated>.*?)/",
-      "variables": {
-        "generated": ["_modules", "_sources"]
-      }
-    },
-    {
-      "url": "https://userguide.mdanalysis.org/.*?/(?P<generated>.*?)/",
-      "variables": {
-        "generated": ["_modules", "_sources"]
-      }
-    }      
+    "\\/_"
   ],
   "selectors": {
     "lvl0": {
