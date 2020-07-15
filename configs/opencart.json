@@ -60,8 +60,9 @@
     "text": ".markdown-body p, .markdown-body li"
   },
   "js_render": true,
+  "js_wait": 1,
   "conversation_id": [
     "512945822"
   ],
-  "nb_hits": 1087
+  "nb_hits": 1885
 }
