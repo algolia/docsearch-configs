@@ -1,7 +1,9 @@
 {
   "index_name": "sirv",
   "start_urls": [
-    "https://sirv.com/help/articles/"
+    "https://sirv.com/help/articles/",
+    "https://sirv.com/help/section/",
+    "https://sirv.com/help/section/getting-started/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,5 +17,5 @@
   "conversation_id": [
     "569939187"
   ],
-  "nb_hits": 818
+  "nb_hits": 4771
 }
