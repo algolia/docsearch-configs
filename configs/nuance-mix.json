@@ -11,7 +11,13 @@
   "stop_urls": [
     "[^n]/$",
     "/downloads/",
-    "https://mix.nuance.com/v3/documentation/mix-datapack/v6_x/"
+    "https://mix.nuance.com/v3/documentation/mix-datapack/v6_x/",
+    "https://mix.nuance.com/v3/documentation/dialog-grpc/v1beta1/",
+    "https://mix.nuance.com/v3/documentation/dialog-grpc/v1beta2/",
+    "https://mix.nuance.com/v3/documentation/asr-grpc/v1beta1/",
+    "https://mix.nuance.com/v3/documentation/asr-grpc/v1beta2/",
+    "https://mix.nuance.com/v3/documentation/nlu-grpc/v1beta1/",
+    "https://mix.nuance.com/v3/documentation/tts-grpc/v1beta1/"
   ],
   "selectors": {
     "lvl0": {
