@@ -13,16 +13,13 @@
     "\\/_"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
-    },
-    "lvl1": ".content h1, .body h1",
-    "lvl2": ".content h2, .body h2",
-    "lvl3": ".content h3, .body h3",
-    "lvl4": ".content h4, .body h4",
-    "lvl5": ".content h5, .body h5",
-    "text": ".content p, .body p, .content li, .body li"
+
+    "lvl0": "[itemprop='articleBody'] > .section h1",
+    "lvl1": "[itemprop='articleBody'] > .section h2",
+    "lvl2": "[itemprop='articleBody'] > .section h3",
+    "lvl3": "[itemprop='articleBody'] > .section h4",
+    "lvl4": "[itemprop='articleBody'] > .section h5",
+    "text": "[itemprop='articleBody'] > .section p, [itemprop='articleBody'] > .section li"
   },
   "conversation_id": [
     "569445928"
