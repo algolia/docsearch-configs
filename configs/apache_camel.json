@@ -7,14 +7,38 @@
     "index.html"
   ],
   "start_urls": [
-    { "url": "https://camel.apache.org/blog/", "selectors_key": "blog" },
-    { "url": "https://camel.apache.org/camel-k/", "selectors_key": "antora-pages" },
-    { "url": "https://camel.apache.org/camel-quarkus/", "selectors_key": "antora-pages" },
-    { "url": "https://camel.apache.org/camel-kafka-connector/", "selectors_key": "antora-pages" },
-    { "url": "https://camel.apache.org/camel-spring-boot/", "selectors_key": "antora-pages" },
-    { "url": "https://camel.apache.org/camel-karaf/", "selectors_key": "antora-pages" },
-    { "url": "https://camel.apache.org/components/", "selectors_key": "antora-pages" },
-    { "url": "https://camel.apache.org/manual/", "selectors_key": "antora-pages" },
+    {
+      "url": "https://camel.apache.org/blog/",
+      "selectors_key": "blog"
+    },
+    {
+      "url": "https://camel.apache.org/camel-k/",
+      "selectors_key": "antora-pages"
+    },
+    {
+      "url": "https://camel.apache.org/camel-quarkus/",
+      "selectors_key": "antora-pages"
+    },
+    {
+      "url": "https://camel.apache.org/camel-kafka-connector/",
+      "selectors_key": "antora-pages"
+    },
+    {
+      "url": "https://camel.apache.org/camel-spring-boot/",
+      "selectors_key": "antora-pages"
+    },
+    {
+      "url": "https://camel.apache.org/camel-karaf/",
+      "selectors_key": "antora-pages"
+    },
+    {
+      "url": "https://camel.apache.org/components/",
+      "selectors_key": "antora-pages"
+    },
+    {
+      "url": "https://camel.apache.org/manual/",
+      "selectors_key": "antora-pages"
+    },
     "https://camel.apache.org/download/",
     "https://camel.apache.org/community/books",
     "https://camel.apache.org/community/articles",
@@ -25,7 +49,10 @@
   ],
   "selectors": {
     "default": {
-      "lvl0": { "selector": "", "default_value": null },
+      "lvl0": {
+        "selector": "",
+        "default_value": null
+      },
       "lvl1": "article h1",
       "lvl2": "article h2",
       "lvl3": "article h3",
@@ -42,8 +69,14 @@
       "text": "article p, article li"
     },
     "blog": {
-      "lvl0": { "selector": "", "default_value": null },
-      "lvl1": { "selector": "", "default_value": "Blog" },
+      "lvl0": {
+        "selector": "",
+        "default_value": null
+      },
+      "lvl1": {
+        "selector": "",
+        "default_value": "Blog"
+      },
       "lvl2": "header a.category:nth-child(1)",
       "lvl3": "header a.category:nth-child(2)",
       "lvl4": "article h1",
