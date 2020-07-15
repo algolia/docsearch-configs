@@ -1,0 +1,19 @@
+{
+  "index_name": "octant",
+  "start_urls": [
+    "https://octant.dev/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".documentation-container h2",
+    "lvl1": ".documentation-container h3",
+    "lvl2": ".documentation-container h4",
+    "lvl3": ".documentation-container h5",
+    "lvl4": ".documentation-container h6",
+    "text": ".documentation-container p, .documentation-container li"
+  },
+  "conversation_id": [
+    "1131083705"
+  ],
+  "nb_hits": 343
+}

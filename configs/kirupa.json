@@ -38,25 +38,10 @@
       ]
     },
     {
-      "url": "https://www.kirupa.com/developer/",
+      "url": "https://www.kirupa.com/apps/",
       "tags": [
-        "developer"
-      ],
-      "selectors_key": "developer"
-    },
-    {
-      "url": "https://www.kirupa.com/motiongraphics/",
-      "tags": [
-        "motiongraphics"
-      ],
-      "selectors_key": "developer"
-    },
-    {
-      "url": "https://www.kirupa.com/flash/",
-      "tags": [
-        "flash"
-      ],
-      "selectors_key": "developer"
+        "web"
+      ]
     },
     "https://www.kirupa.com"
   ],
@@ -67,7 +52,9 @@
     "/css/",
     "/sotw/",
     "/interviews/",
-    "/blend"
+    "/blend",
+    "/developer",
+    "/motiongraphics"
   ],
   "selectors": {
     "default": {
@@ -78,15 +65,6 @@
       "lvl4": "#mainContent h5",
       "lvl5": "#mainContent h6",
       "text": "#mainContent > p, #mainContent > li"
-    },
-    "developer": {
-      "lvl0": "td[valign='top']:nth-of-type(2) h1, .style6 h1, td[valign='top']:nth-of-type(2) td > b",
-      "lvl1": "td[valign='top']:nth-of-type(2) h2, .style6 h2, td[valign='top']:nth-of-type(2) td > font[size='4']",
-      "lvl2": "td[valign='top']:nth-of-type(2) h3, .style6 h3",
-      "lvl3": "td[valign='top']:nth-of-type(2) h4, .style6 h4",
-      "lvl4": "td[valign='top']:nth-of-type(2) h5, .style6 h5",
-      "lvl5": "td[valign='top']:nth-of-type(2) h6, .style6 h6",
-      "text": "td[valign='top']:nth-of-type(2) p, td[valign='top']:nth-of-type(2) li, .style6 p, .style6 li"
     }
   },
   "scrap_start_urls": false,
@@ -95,10 +73,12 @@
     ".homeList",
     "#sigNewsletter + p",
     ".centerImage",
-    "#table1"
+    "#table1",
+    "#pageComments",
+    "#bookPromo"
   ],
   "conversation_id": [
     "922334053"
   ],
-  "nb_hits": 28252
+  "nb_hits": 12368
 }

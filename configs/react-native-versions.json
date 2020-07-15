@@ -1,11 +1,11 @@
 {
   "index_name": "react-native-versions",
   "start_urls": [
-    "https://facebook.github.io/react-native/docs/"
+    "https://reactnative.dev/docs/"
   ],
   "sitemap_alternate_links": true,
   "sitemap_urls": [
-    "https://facebook.github.io/react-native/sitemap.xml"
+    "https://reactnative.dev/sitemap.xml"
   ],
   "stop_urls": [
     "\\.html$"
@@ -34,5 +34,5 @@
   "conversation_id": [
     "477313987"
   ],
-  "nb_hits": 342755
+  "nb_hits": 365335
 }

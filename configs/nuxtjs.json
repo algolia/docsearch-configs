@@ -74,28 +74,30 @@
       ]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/logos/"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "ul.Menu a[class*='active']",
+      "selector": "header [class*='active']",
       "global": true,
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": "//*[contains(@class, 'category')]/nav/ul/li/a[contains(@class, 'nuxt-link-active')]/../../preceding::h3[1]",
+      "selector": "//nav//*[contains(@class,'active')][1]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Chapter"
     },
-    "lvl2": ".Content h1",
-    "lvl3": ".Content h2",
-    "lvl4": ".Content h3",
-    "lvl5": ".Content h4",
-    "lvl6": ".Content h5",
-    "text": ".Content p, .Content li"
+    "lvl2": "article h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "lvl6": "article h5",
+    "text": "article p, article li"
   },
   "conversation_id": [
     "305423545"
   ],
-  "nb_hits": 12518
+  "nb_hits": 17818
 }

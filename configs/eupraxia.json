@@ -1,0 +1,23 @@
+{
+  "index_name": "eupraxia",
+  "start_urls": [
+    "https://docs.eupraxia.io/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.eupraxia.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".bd-content-inner h1",
+    "lvl1": ".bd-content-inner h2",
+    "lvl2": ".bd-content-inner h3",
+    "lvl3": ".bd-content-inner h4",
+    "lvl4": ".bd-content-inner h5",
+    "lvl5": ".bd-content-inner h6",
+    "text": ".bd-content-inner p, .bd-content-inner li"
+  },
+  "conversation_id": [
+    "968672497"
+  ],
+  "nb_hits": 7391
+}

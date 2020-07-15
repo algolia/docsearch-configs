@@ -1,0 +1,22 @@
+{
+  "index_name": "meethue_developers",
+  "start_urls": [
+    "https://developers.meethue.com/"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1099578017"
+  ],
+  "nb_hits": 387
+}

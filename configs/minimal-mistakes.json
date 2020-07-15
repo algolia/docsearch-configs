@@ -1,0 +1,20 @@
+{
+  "index_name": "minimal-mistakes",
+  "start_urls": [
+    "https://kamonohashi.ai/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".page__content p, .page__content li",
+    "lvl0": ".page__content h1",
+    "lvl1": ".page__content h2",
+    "lvl2": ".page__content h3",
+    "lvl3": ".page__content h4",
+    "lvl4": ".page__content h5",
+    "lvl5": ".page__content h6"
+  },
+  "conversation_id": [
+    "1085995723"
+  ],
+  "nb_hits": 698
+}

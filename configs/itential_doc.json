@@ -1,0 +1,139 @@
+{
+  "index_name": "itential_doc",
+  "start_urls": [
+    {
+      "url": "https://docs.itential.io/[\\d\\.]*/admin/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/[\\d\\.]*/api/",
+      "selectors_key": "api",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/[\\d\\.]*/changelogs/",
+      "selectors_key": "changelogs",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/[\\d\\.]*/developer/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/faq/",
+      "selectors_key": "faqs",
+      "page_rank": 4
+    },
+    {
+      "url": "https://docs.itential.io/[\\d\\.]*/product/",
+      "selectors_key": "product",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.itential.io/[\\d\\.]*/user/",
+      "page_rank": 3
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.itential.io/sitemap.xml"
+  ],
+  "stop_urls": [
+    "Open%20Source%20Notices",
+    "/schema//",
+    "/schema//"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
+        "global": true
+      },
+      "lvl1": ".markdown-doc .table-of-contents > h3",
+      "lvl2": ".markdown-doc h1.content-title",
+      "lvl3": ".markdown-doc .content-body h2",
+      "lvl4": ".markdown-doc .content-body h3",
+      "text": ".markdown-doc .content-body p",
+      "version": {
+        "selector": ".desktop-only .dropdown-container",
+        "global": true
+      }
+    },
+    "api": {
+      "lvl0": {
+        "selector": ".api-method-doc .breadcrumb > li:nth-child(2) > a",
+        "global": true
+      },
+      "lvl1": {
+        "selector": ".api-method-doc .table-of-contents > h3",
+        "global": true
+      },
+      "lvl2": {
+        "selector": ".api-method-doc h1.content-title",
+        "global": true
+      },
+      "text": ".api-method-doc .content-body #summary + p, .api-method-doc .content-body #description + p",
+      "version": {
+        "selector": ".desktop-only .dropdown-container",
+        "global": true
+      }
+    },
+    "changelogs": {
+      "lvl0": {
+        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
+        "global": true
+      },
+      "lvl1": ".markdown-doc h1.content-title",
+      "lvl2": ".markdown-doc .content-body > h1",
+      "lvl3": ".markdown-doc .content-body > h2",
+      "text": ".markdown-doc .content-body p",
+      "version": {
+        "selector": ".desktop-only .dropdown-container",
+        "global": true
+      }
+    },
+    "faqs": {
+      "lvl0": ".markdown-doc h1.content-title",
+      "lvl1": {
+        "selector": "",
+        "default": "FAQs"
+      },
+      "lvl2": ".markdown-doc .content-body h2",
+      "lvl3": ".markdown-doc .content-body h3",
+      "text": ".markdown-doc .content-body p",
+      "version": {
+        "selector": ".desktop-only .dropdown-container",
+        "global": true
+      }
+    },
+    "product": {
+      "lvl0": {
+        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
+        "global": true
+      },
+      "lvl1": {
+        "selector": ".markdown-doc .table-of-contents > h3",
+        "global": true
+      },
+      "lvl2": ".markdown-doc h1.content-title",
+      "lvl3": ".markdown-doc .content-body > h2",
+      "text": ".markdown-doc .content-body p",
+      "version": {
+        "selector": ".desktop-only .dropdown-container",
+        "global": true
+      }
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "min_indexed_level": 2,
+  "selectors_exclude": [
+    ".desktop-only .dropdown-container .dropdown-menu.left"
+  ],
+  "conversation_id": [
+    "998577915"
+  ],
+  "nb_hits": 20710
+}

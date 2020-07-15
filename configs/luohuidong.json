@@ -1,7 +1,7 @@
 {
   "index_name": "luohuidong",
   "start_urls": [
-    "https://luohuidong.github.io/notes/"
+    "https://notes.luohuidong.cn"
   ],
   "stop_urls": [],
   "selectors": {
@@ -31,5 +31,5 @@
   "conversation_id": [
     "939444200"
   ],
-  "nb_hits": 276
+  "nb_hits": 1267
 }

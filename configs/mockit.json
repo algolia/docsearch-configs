@@ -1,10 +1,10 @@
 {
   "index_name": "mockit",
   "start_urls": [
-    "https://mockit.netlify.com/"
+    "https://mockit.netlify.app/"
   ],
   "sitemap_urls": [
-    "https://mockit.netlify.com/sitemap.xml"
+    "https://mockit.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

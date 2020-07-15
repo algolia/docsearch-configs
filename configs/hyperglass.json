@@ -1,0 +1,51 @@
+{
+  "index_name": "hyperglass",
+  "start_urls": [
+    "https://hyperglass.io/docs/introduction",
+    "https://hyperglass.io/docs/"
+  ],
+  "sitemap_urls": [
+    "https://hyperglass.io/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "strip_chars": " .,;:#",
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "conversation_id": [
+    "973823901"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 300
+}

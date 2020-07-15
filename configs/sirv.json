@@ -1,19 +1,21 @@
 {
   "index_name": "sirv",
   "start_urls": [
-    "https://sirv.com/help/resources/"
+    "https://sirv.com/help/articles/",
+    "https://sirv.com/help/section/",
+    "https://sirv.com/help/section/getting-started/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".ht-container h1",
-    "lvl1": ".entry-content h2",
-    "lvl2": ".entry-content h3",
-    "lvl3": ".entry-content h4",
-    "lvl4": ".entry-content h5",
-    "text": ".entry-content p, .entry-content li"
+    "lvl0": ".article h1, .categories__content h1",
+    "lvl1": ".article h2, .categories__content h2",
+    "lvl2": ".article h3, .categories__content h3",
+    "lvl3": ".article h4, .categories__content h4",
+    "lvl4": ".article h5, .categories__content h5",
+    "text": ".article p, .article li, .categories__content p, .categories__content li"
   },
   "conversation_id": [
     "569939187"
   ],
-  "nb_hits": 3156
+  "nb_hits": 4771
 }

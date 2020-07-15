@@ -10,13 +10,6 @@
       "page_rank": -2
     },
     {
-      "url": "http://www.typescriptlang.org/samples/",
-      "tags": [
-        "sample"
-      ],
-      "selectors_key": "sample"
-    },
-    {
       "url": "http://www.typescriptlang.org/docs/",
       "page_rank": 1
     }
@@ -26,7 +19,8 @@
   ],
   "stop_urls": [
     "/global-plugin/",
-    "declaration-files/templates/"
+    "declaration-files/templates/",
+    "release-notes/overview.html"
   ],
   "selectors": {
     "release": {
@@ -45,14 +39,6 @@
       "lvl5": "article h4",
       "lvl6": "article h5",
       "text": "article p, article li"
-    },
-    "sample": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Samples"
-      },
-      "lvl1": ".exampleBox h3.exampleHeadline",
-      "text": ".exampleSummary"
     },
     "default": {
       "lvl0": {
@@ -77,8 +63,9 @@
   "selectors_exclude": [
     ".toc-item"
   ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_@"
   },
-  "nb_hits": 3882
+  "nb_hits": 4510
 }

@@ -1,7 +1,23 @@
 {
   "index_name": "jenkins_x",
   "start_urls": [
-    "https://jenkins-x.io/"
+    {
+      "url": "https://jenkins-x.io/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "es",
+          "zh"
+        ]
+      }
+    },
+    {
+      "url": "https://jenkins-x.io/",
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://jenkins-x.io/sitemap.xml"
@@ -35,5 +51,5 @@
   "conversation_id": [
     "965668499"
   ],
-  "nb_hits": 19935
+  "nb_hits": 14859
 }

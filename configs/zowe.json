@@ -7,13 +7,19 @@
         "version": [
           "stable",
           "active-development",
-          "latest",
+          "v1-12-x",
+          "v1-11-x",
+          "v1-10-x",
+          "v1-9-x",
+          "v1-8-x",
+          "v1-7-x",
+          "v1-6-x",
+          "v1-5-x",
           "v1-4-x",
           "v1-3-x",
           "v1-2-x",
           "v1-1-x",
-          "v1-0-x",
-          "v0-9-x"
+          "v1-0-x"
         ]
       }
     }
@@ -49,5 +55,5 @@
     "693711568"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 38510
+  "nb_hits": 93160
 }

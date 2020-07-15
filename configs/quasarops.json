@@ -1,0 +1,20 @@
+{
+  "index_name": "quasarops",
+  "start_urls": [
+    "https://quasarops.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#body-inner h1",
+    "lvl1": "#body-inner h2",
+    "lvl2": "#body-inner h3",
+    "lvl3": "#body-inner h4",
+    "lvl4": "#body-inner h5",
+    "lvl5": "#body-inner h6",
+    "text": "#body-inner p, #body-inner li"
+  },
+  "conversation_id": [
+    "1165786600"
+  ],
+  "nb_hits": 206
+}

@@ -1,0 +1,29 @@
+{
+  "index_name": "mozaic-design-system",
+  "start_urls": [
+    "http://mozaic.adeo.cloud"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "[class*='_HeaderCategory-']",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": "[class*='_HeaderTitle-']",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": "[class*='_PageContent-'] h1",
+    "lvl3": "[class*='_PageContent-'] h3",
+    "lvl4": "[class*='_PageContent-'] h4",
+    "lvl5": "[class*='_PageContent-'] h5",
+    "lvl6": "[class*='_PageContent-'] h6",
+    "text": "[class*='_PageContent-'] p, [class*='_PageContent-'] li"
+  },
+  "conversation_id": [
+    "1068860561"
+  ],
+  "nb_hits": 4570
+}

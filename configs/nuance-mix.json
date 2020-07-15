@@ -1,0 +1,45 @@
+{
+  "index_name": "nuance-mix",
+  "start_urls": [
+    "https://mix.nuance.com/v3/documentation/",
+    "https://mix.nuance.com/v3/documentation/nlu-trsx-app-spec/",
+    "https://mix.nuance.com/v3/documentation/dialog-app-spec/",
+    "https://mix.nuance.com/v3/documentation/technical-requirements/",
+    "https://mix.nuance.com/v3/documentation/languages/",
+    "https://mix.nuance.com/v3/documentation/glossary/"
+  ],
+  "stop_urls": [
+    "[^n]/$",
+    "/downloads/",
+    "https://mix.nuance.com/v3/documentation/mix-datapack/v6_x/",
+    "https://mix.nuance.com/v3/documentation/dialog-grpc/v1beta1/",
+    "https://mix.nuance.com/v3/documentation/dialog-grpc/v1beta2/",
+    "https://mix.nuance.com/v3/documentation/asr-grpc/v1beta1/",
+    "https://mix.nuance.com/v3/documentation/asr-grpc/v1beta2/",
+    "https://mix.nuance.com/v3/documentation/nlu-grpc/v1beta1/",
+    "https://mix.nuance.com/v3/documentation/tts-grpc/v1beta1/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3, .content td:first-child",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li, .content td:not(:first-child)"
+  },
+  "selectors_exclude": [
+    ".products-container"
+  ],
+  "conversation_id": [
+    "1076829139"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 8948
+}

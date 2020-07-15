@@ -1,0 +1,94 @@
+{
+  "index_name": "ropensci-lawn",
+  "start_urls": [
+    {
+      "url": "https://docs.ropensci.org/lawn/index.html",
+      "selectors_key": "homepage",
+      "tags": [
+        "homepage"
+      ]
+    },
+    {
+      "url": "https://docs.ropensci.org/lawn/reference",
+      "selectors_key": "reference",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "url": "https://docs.ropensci.org/lawn/articles",
+      "selectors_key": "articles",
+      "tags": [
+        "articles"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "/reference/$",
+    "/reference/index.html",
+    "/articles/$",
+    "/articles/index.html"
+  ],
+  "selectors": {
+    "homepage": {
+      "lvl0": {
+        "selector": ".contents h1",
+        "default_value": "pkgdown Home page"
+      },
+      "lvl1": ".contents h2",
+      "lvl2": {
+        "selector": ".contents h3",
+        "default_value": "Context"
+      },
+      "lvl3": ".ref-arguments td, .ref-description",
+      "text": ".contents p, .contents li, .contents .pre"
+    },
+    "reference": {
+      "lvl0": ".contents h1",
+      "lvl1": {
+        "selector": ".contents .name",
+        "default_value": "Argument"
+      },
+      "lvl2": {
+        "selector": ".ref-arguments th",
+        "default_value": "Description"
+      },
+      "lvl3": ".ref-arguments td, .ref-description",
+      "text": ".contents p, .contents li"
+    },
+    "articles": {
+      "lvl0": ".contents h1",
+      "lvl1": ".contents .name",
+      "lvl2": {
+        "selector": ".contents h2, .contents h3",
+        "default_value": "Context"
+      },
+      "text": ".contents p, .contents li"
+    },
+    "default": {
+      "lvl1": ".contents h2",
+      "lvl2": ".contents h3, .contents th",
+      "lvl3": ".contents h4",
+      "lvl4": ".contents h5",
+      "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+    }
+  },
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "sitemap_urls": [
+    "https://docs.ropensci.org/lawn/sitemap.xml"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor"
+    ]
+  },
+  "min_indexed_level": 2,
+  "nb_hits": 1443
+}

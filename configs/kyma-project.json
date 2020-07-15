@@ -16,10 +16,10 @@
     "lvl3": "#documentation-content h4",
     "lvl4": "#documentation-content h5",
     "lvl5": "#documentation-content h6",
-    "text": "#documentation-content p, #documentation-content li, #documentation-content td > span"
+    "text": "#documentation-content p, #documentation-content li, #documentation-content td span"
   },
   "conversation_id": [
     "855687472"
   ],
-  "nb_hits": 50200
+  "nb_hits": 18345
 }

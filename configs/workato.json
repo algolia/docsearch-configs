@@ -4,17 +4,37 @@
     "https://docs.workato.com/"
   ],
   "stop_urls": [],
+  "scrap_start_urls": false,
   "selectors": {
-    "lvl0": ".markdown-section h1",
-    "lvl1": ".markdown-section h2",
-    "lvl2": ".markdown-section h3",
-    "lvl3": ".markdown-section h4",
-    "lvl4": ".markdown-section h5",
-    "lvl5": ".markdown-section h6",
-    "text": ".markdown-section p, .markdown-section li"
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".theme-default-content h1",
+    "lvl2": ".theme-default-content h2",
+    "lvl3": ".theme-default-content h3",
+    "lvl4": ".theme-default-content h4",
+    "lvl5": ".theme-default-content h5",
+    "text": ".theme-default-content p, .theme-default-content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
   "conversation_id": [
     "952339719"
   ],
-  "nb_hits": 14537
+  "nb_hits": 17228
 }

@@ -1,10 +1,10 @@
 {
   "index_name": "the-core",
   "start_urls": [
-    "https://the-core.netlify.com/"
+    "https://the-core.netlify.app/"
   ],
   "sitemap_urls": [
-    "https://the-core.netlify.com/sitemap.xml"
+    "https://the-core.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +34,5 @@
   "conversation_id": [
     "944463475"
   ],
-  "nb_hits": 766
+  "nb_hits": 393
 }

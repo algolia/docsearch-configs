@@ -1,24 +1,43 @@
 {
   "index_name": "docsearch",
   "start_urls": [
-    "https://community.algolia.com/docsearch/"
+    "https://docsearch.algolia.com/"
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docsearch.algolia.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
-      "selector": "//div[contains(@class, 'navigation-sidebar')]//a[contains(@class, 'current-page')][1]/preceding::*[contains(@class, 'category')][1]",
-      "type": "xpath",
+      "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".documentation-content .custom-main-title",
-    "lvl2": ".documentation-content h2",
-    "lvl3": ".documentation-content h3",
-    "lvl4": ".documentation-content h4",
-    "text": ".documentation-content p, .documentation-content li, .documentation-content .hljs-comment"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
   },
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
   },
-  "nb_hits": 447
+  "strip_chars": ".,;:#",
+  "nb_hits": 431
 }

@@ -1,20 +1,25 @@
 {
   "index_name": "silverstripe",
   "start_urls": [
-    "https://ss-docs-gatsby.netlify.com"
+    "https://docs.silverstripe.org"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "lvl5": ".content h6",
-    "text": ".content p, .content li"
+    "lvl0": ".docs-article h1",
+    "lvl1": ".docs-article h2",
+    "lvl2": ".docs-article h3",
+    "lvl3": ".docs-article h4",
+    "lvl4": ".docs-article h5",
+    "lvl5": ".docs-article h6",
+    "text": ".docs-article p, .docs-article li"
   },
   "conversation_id": [
     "929873676"
   ],
-  "nb_hits": 16971
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "nb_hits": 24584
 }

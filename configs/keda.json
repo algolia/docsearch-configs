@@ -1,0 +1,20 @@
+{
+  "index_name": "keda",
+  "start_urls": [
+    "https://keda.sh"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".hero .title",
+    "lvl1": ".is-content-column .card-header-title, .is-content-column h2",
+    "lvl2": ".is-content-column h3",
+    "lvl3": ".is-content-column h4",
+    "lvl4": ".is-content-column h5",
+    "lvl5": ".is-content-column h6",
+    "text": ".is-content-column p, .is-content-column li"
+  },
+  "conversation_id": [
+    "1129940893"
+  ],
+  "nb_hits": 515
+}

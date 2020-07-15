@@ -122,7 +122,11 @@
       }
     },
     "docs": {
-      "lvl0": "#page h1",
+      "lvl0": {
+        "selector": "#page h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": "#page h2",
       "lvl2": "#page h3",
       "lvl3": "#page h4, #page td:first-child",
@@ -148,6 +152,25 @@
       "lvl4": "#wrap h5",
       "lvl5": "#wrap h6",
       "text": "#default p:nth-child(-n+4)",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en"
+      }
+    },
+    "cask": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Cask"
+      },
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h3",
+      "lvl3": "#wrap h4",
+      "lvl4": "#wrap h5",
+      "lvl5": "#wrap h6",
+      "text": "#wrap p, #wrap li",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -205,5 +228,5 @@
   "conversation_id": [
     "771112570"
   ],
-  "nb_hits": 928
+  "nb_hits": 145098
 }

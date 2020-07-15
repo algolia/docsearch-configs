@@ -3,7 +3,9 @@
   "start_urls": [
     "https://www.extly.com/docs"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "wiki"
+  ],
   "sitemap_urls": [
     "https://www.extly.com/docs/sitemap.xml"
   ],
@@ -34,5 +36,5 @@
   "conversation_id": [
     "635735647"
   ],
-  "nb_hits": 7759
+  "nb_hits": 5884
 }

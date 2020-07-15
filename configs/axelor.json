@@ -18,7 +18,8 @@
     "http://docs.axelor.com/sitemap.xml"
   ],
   "stop_urls": [
-    "/javadoc/"
+    "/javadoc/",
+    "/latest/"
   ],
   "selectors": {
     "lvl0": {
@@ -42,5 +43,5 @@
   "conversation_id": [
     "598004250"
   ],
-  "nb_hits": 21894
+  "nb_hits": 15765
 }

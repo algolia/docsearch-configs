@@ -17,10 +17,12 @@
     "text": "article p, article li"
   },
   "custom_settings": {
-    "attributesForFaceting": ["version"]
+    "attributesForFaceting": [
+      "version"
+    ]
   },
   "conversation_id": [
     "948916559"
   ],
-  "nb_hits": 2378
+  "nb_hits": 92384
 }

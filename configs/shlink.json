@@ -1,0 +1,24 @@
+{
+  "index_name": "shlink",
+  "start_urls": [
+    "https://shlink.io/documentation"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".docs-article p, .docs-article li",
+    "lvl0": ".docs-article h1",
+    "lvl1": ".docs-article h2",
+    "lvl2": ".docs-article h3",
+    "lvl3": ".docs-article h4",
+    "lvl4": ".docs-article h5",
+    "lvl5": ".docs-article h6"
+  },
+  "sitemap_urls": [
+    "https://shlink.io/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1092947190"
+  ],
+  "nb_hits": 75
+}

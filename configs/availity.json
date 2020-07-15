@@ -23,22 +23,23 @@
     }
   ],
   "stop_urls": [
-    "/examples/"
+    "/examples/",
+    "/storybook/"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "ul.navbar-nav:first-child:first-child :first-child :first-child",
+      "selector": ".site-title-link",
       "default_value": "Documentation"
     },
-    "lvl1": ".header-wrapper h1",
+    "lvl1": ".page-header-title h1",
     "lvl2": ".content-wrapper h2",
     "lvl3": ".content-wrapper h3",
     "lvl4": ".content-wrapper h4",
     "lvl5": ".content-wrapper h5",
-    "text": ".content-wrapper p, .content-wrapper li, .content-wrapper tbody, .header-wrapper h3"
+    "text": ".content-wrapper p, .content-wrapper li, .content-wrapper tbody, .page-header-title h3"
   },
   "conversation_id": [
     "936988941"
   ],
-  "nb_hits": 765
+  "nb_hits": 2752
 }

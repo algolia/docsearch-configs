@@ -1,0 +1,23 @@
+{
+  "index_name": "fur2",
+  "start_urls": [
+    "https://fur2.now.sh/"
+  ],
+  "stop_urls": [
+    "https://fur2.now.sh/gua-he-chu-xue-zhe/"
+  ],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "lvl5": ".post h6",
+    "text": ".post p, .post li"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "1059084244"
+  ],
+  "nb_hits": 23
+}

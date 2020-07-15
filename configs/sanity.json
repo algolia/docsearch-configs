@@ -9,17 +9,17 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'docsSideBar__section')]//*[contains(@class,'selected-item')]/preceding::*[contains(@class,'docsSideBar__section-title')][1]",
+      "selector": "//nav[contains(@class,'Sidebar')]//*[@data-is-active='true']/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".documentation-page__content h1",
-    "lvl2": ".documentation-page__content h2",
-    "lvl3": ".documentation-page__content h3",
-    "lvl4": ".documentation-page__content h4",
-    "lvl5": ".documentation-page__content h5",
-    "text": ".documentation-page__content p, .documentation-page__content li"
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
   },
   "selectors_exclude": [
     ".lowlight",
@@ -28,5 +28,5 @@
   "conversation_id": [
     "702740700"
   ],
-  "nb_hits": 2977
+  "nb_hits": 5242
 }

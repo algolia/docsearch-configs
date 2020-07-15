@@ -1,0 +1,19 @@
+{
+  "index_name": "naboris",
+  "start_urls": [
+    "https://naboris.dev"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h2, header h1",
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5",
+    "lvl4": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "1136264730"
+  ],
+  "nb_hits": 356
+}

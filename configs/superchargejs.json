@@ -1,0 +1,37 @@
+{
+  "index_name": "superchargejs",
+  "start_urls": [
+    "https://superchargejs.com/docs/",
+    "https://superchargejs.com/docs/master"
+  ],
+  "sitemap_urls": [
+    "https://superchargejs.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li",
+    "version":{
+      "selector":"section .version-switch button",
+      "global":true
+    }
+  },
+  "selectors_exclude": [
+    "section .version-switch button .caret"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "976839954"
+  ],
+  "nb_hits": 3456
+}

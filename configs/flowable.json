@@ -1,279 +1,38 @@
 {
   "index_name": "flowable",
   "start_urls": [
-    {
-      "url": "https://documentation.flowable.com/main/(?P<version>.*?)",
-      "variables": {
-        "version": [
-    	  "3.3.0",
-          "3.2.0",
-          "3.1.0",
-          "3.0.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/work-user-guide/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0",
-          "3.0.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/engage-user-guide/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-    	  "3.3.0",
-          "3.2.0",
-          "3.1.0",
-          "3.0.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/design-user-guide/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/engage-ios-guide/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/control-user-guide/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-    	  "3.3.0",
-          "3.2.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/modeler-bpmn/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0",
-          "3.0.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/modeler-dmn/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/modeler-expert/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/trial-tutorial/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/core-install/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/qwork-install/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/control-install/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/design-install/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/engage-install/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0",
-          "3.0.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/work-install/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0",
-          "3.0.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/tech-notes/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0",
-          "3.0.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/core-swagger/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/appdev-swagger/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0",
-          "3.0.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/core-javadoc/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/appdev-javadoc/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0",
-          "3.0.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/appdev-dbschema/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0",
-          "3.0.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/dev-guide/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0"
-        ]
-      }
-    },
-    {
-      "url": "https://documentation.flowable.com/main/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "3.3.0",
-          "3.2.0",
-          "3.1.0"
-        ]
-      }
-    }
+    "https://documentation.flowable.com/latest/",
+    "https://forms.flowable.com/"
   ],
-  "stop_urls": [],
   "sitemap_urls": [
-    "https://documentation.flowable.com/sitemap.xml"
+    "https://documentation.flowable.com/latest/sitemap.xml",
+    "https://forms.flowable.com/sitemap.xml"
   ],
+  "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
       "global": true,
-      "selector": ".navigation-explore .context"
+      "default_value": "Documentation"
     },
-    "lvl1": ".doc > h1:first-of-type",
-    "lvl2": ".doc .sect1 > h2:first-child",
-    "lvl3": ".doc .sect2 > h3:first-child",
-    "lvl4": ".doc .sect3 > h4:first-child",
-    "text": ".doc p, .doc dt, .doc td.context, .doc th.tableblock, .doc pre, .doc code",
-    "version": {
-      "selector": "span.version",
-      "global": true
-    }
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post article p, .post article li"
   },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
   "custom_settings": {
     "attributesForFaceting": [
       "version"
-    ],
-    "separatorsToIndex": "_{}"
+    ]
   },
   "conversation_id": [
     "846981864"
   ],
-  "nb_hits": 21811
+  "nb_hits": 14162
 }

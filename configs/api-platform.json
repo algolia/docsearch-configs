@@ -6,6 +6,7 @@
       "variables": {
         "version": [
           "master",
+          "2.5",
           "2.4",
           "2.3",
           "2.2",
@@ -41,5 +42,5 @@
   "conversation_id": [
     "266860983"
   ],
-  "nb_hits": 8029
+  "nb_hits": 10473
 }

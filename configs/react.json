@@ -4,6 +4,9 @@
     "https://reactjs.org/docs/getting-started.html",
     "https://reactjs.org/docs/.*"
   ],
+  "stop_urls": [
+    "docs/concurrent-mode"
+  ],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
@@ -20,5 +23,5 @@
   "conversation_id": [
     "178040846"
   ],
-  "nb_hits": 2882
+  "nb_hits": 3749
 }

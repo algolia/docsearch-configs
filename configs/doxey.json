@@ -1,0 +1,62 @@
+{
+  "index_name": "doxey",
+  "start_urls": [
+    {
+      "url": "https://help.doxey.io/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "de"
+        ]
+      }
+    },
+    {
+      "url": "https://help.doxey.io/(?P<lang>.*?)/support/overview.html",
+      "variables": {
+        "lang": [
+          "en",
+          "de"
+        ]
+      }
+    },
+    {
+      "url": "https://help.doxey.io/(?P<lang>.*?)/templates/overview.html",
+      "variables": {
+        "lang": [
+          "en",
+          "de"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://help.doxey.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "header .navbar-nav li.active > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
+      "selector": ".fs-sub-sidebar a[aria-expanded=true]",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": "[role='main'] h1",
+    "lvl3": "[role='main'] h3",
+    "lvl4": "[role='main'] h4",
+    "lvl5": "[role='main'] h5",
+    "text": "[role='main'] p, [role='main'] li"
+  },
+  "only_content_level": true,
+  "selectors_exclude": [
+    "#feedback",
+    "#feedback ~ p"
+  ],
+  "conversation_id": [
+    "997526055"
+  ],
+  "nb_hits": 3646
+}

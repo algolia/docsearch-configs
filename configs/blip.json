@@ -10,11 +10,11 @@
     },
     "https://help.blip.ai/"
   ],
+  "stop_urls": [],
   "sitemap_urls": [
     "https://help.blip.ai/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
   "selectors": {
     "default": {
       "lvl0": ".title",
@@ -47,5 +47,5 @@
   "conversation_id": [
     "923933521"
   ],
-  "nb_hits": 3122
+  "nb_hits": 4057
 }

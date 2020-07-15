@@ -1,0 +1,30 @@
+{
+  "index_name": "people-doc",
+  "start_urls": [
+    "https://doc.people-doc.com/client/index.html",
+    "https://doc.people-doc.com/client"
+  ],
+  "stop_urls": [
+    "/_",
+    "/$"
+  ],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3, #change-log strong",
+    "lvl3": ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
+    "lvl4": ".section h5",
+    "text": ".section p:not(.admonition-title), .section li,  .section td:nth-child(2)"
+  },
+  "selectors_exclude": [
+    "#contents",
+    ".toctree-wrapper"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "982900315"
+  ],
+  "nb_hits": 2614
+}

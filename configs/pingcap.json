@@ -2,17 +2,16 @@
   "index_name": "pingcap",
   "start_urls": [
     {
-      "url": "https://pingcap.com/docs-cn/v3.0/",
+      "url": "https://pingcap.com/docs-cn/stable/",
       "selectors_key": "docs_cn",
       "extra_attributes": {
         "version": [
-          "v3.0"
+          "stable"
         ]
       },
       "tags": [
         "cn"
-      ],
-      "page_rank": 3
+      ]
     },
     {
       "url": "https://pingcap.com/docs-cn/v2.1/",
@@ -24,8 +23,7 @@
       },
       "tags": [
         "cn"
-      ],
-      "page_rank": 2
+      ]
     },
     {
       "url": "https://pingcap.com/docs-cn/dev/",
@@ -37,21 +35,31 @@
       },
       "tags": [
         "cn"
-      ],
-      "page_rank": 1
+      ]
     },
     {
-      "url": "https://pingcap.com/docs/v3.0/",
+      "url": "https://pingcap.com/docs-cn/v3.1/",
+      "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "version": [
+          "v3.1"
+        ]
+      },
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://pingcap.com/docs/stable/",
       "selectors_key": "docs",
       "extra_attributes": {
         "version": [
-          "v3.0"
+          "stable"
         ]
       },
       "tags": [
         "en"
-      ],
-      "page_rank": 3
+      ]
     },
     {
       "url": "https://pingcap.com/docs/v2.1/",
@@ -63,8 +71,7 @@
       },
       "tags": [
         "en"
-      ],
-      "page_rank": 2
+      ]
     },
     {
       "url": "https://pingcap.com/docs/dev/",
@@ -76,17 +83,36 @@
       },
       "tags": [
         "en"
-      ],
-      "page_rank": 1
+      ]
+    },
+    {
+      "url": "https://pingcap.com/docs/v3.1/",
+      "selectors_key": "docs",
+      "extra_attributes": {
+        "version": [
+          "v3.1"
+        ]
+      },
+      "tags": [
+        "en"
+      ]
     }
   ],
   "stop_urls": [
+    "/docs/v2.1/TOC",
+    "/docs/stable/TOC",
+    "/docs/dev/TOC",
+    "/docs/v3.1/TOC",
     "/docs/v2.1-legacy",
     "/docs/v2.0",
     "/docs/v1.0",
     "/docs-cn/v2.1-legacy",
     "/docs-cn/v2.0",
-    "/docs-cn/v1.0"
+    "/docs-cn/v1.0",
+    "/docs-cn/v2.1/TOC",
+    "/docs-cn/stable/TOC",
+    "/docs-cn/dev/TOC",
+    "/docs-cn/v3.1/TOC"
   ],
   "sitemap_urls": [
     "https://pingcap.com/sitemap.xml"
@@ -101,27 +127,19 @@
       "text": ".content p, .content li"
     },
     "docs_cn": {
-      "lvl0": {
-        "selector": "#dropdownMenuButton",
-        "global": true,
-        "default_value": "\u6587\u6863"
-      },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
       "text": ".content p, .content li, .content table, .content pre, .content code"
     },
     "docs": {
-      "lvl0": {
-        "selector": "#dropdownMenuButton",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
       "text": ".content p, .content li, .content table, .content pre, .content code"
     }
   },
@@ -137,5 +155,6 @@
   "conversation_id": [
     "428916846"
   ],
-  "nb_hits": 168809
+  "only_content_level": true,
+  "nb_hits": 128251
 }

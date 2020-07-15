@@ -1,0 +1,65 @@
+{
+  "index_name": "openproject",
+  "start_urls": [
+    {
+      "url": "https://docs.openproject.org/release-notes/",
+      "selectors_key": "release-notes"
+    },
+    {
+      "url": "https://docs.openproject.org/api/",
+      "selectors_key": "api"
+    },
+    "https://docs.openproject.org"
+  ],
+  "stop_urls": [
+    "org/de/",
+    "443"
+  ],
+  "sitemap_urls": [
+    "https://docs.openproject.org/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".article-content h1",
+      "lvl1": ".article-content h2",
+      "lvl2": ".article-content h3",
+      "lvl3": ".article-content h4",
+      "lvl4": ".article-content h5",
+      "lvl5": ".article-content h6",
+      "text": ".article-content p, .article-content li:not([id])"
+    },
+    "release-notes": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Release notes"
+      },
+      "lvl1": ".article-content h1",
+      "lvl2": ".article-content h4",
+      "lvl3": ".article-content h5",
+      "lvl4": ".article-content h6",
+      "text": ".article-content p, .article-content li:not([id])"
+    },
+    "api": {
+      "lvl0": ".article-content h1",
+      "lvl1": ".article-content h2",
+      "lvl2": ".article-content h3",
+      "lvl3": ".article-content h4",
+      "text": ".article-content p, .article-content li:not([id])"
+    }
+  },
+  "keep_tags": [
+    "code"
+  ],
+  "min_indexed_level": 3,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    ".breadcrumb"
+  ],
+  "conversation_id": [
+    "969244119"
+  ],
+  "nb_hits": 4490
+}

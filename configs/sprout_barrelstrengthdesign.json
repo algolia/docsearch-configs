@@ -1,46 +1,51 @@
 {
   "index_name": "sprout_barrelstrengthdesign",
   "start_urls": [
-    "https://sprout.barrelstrengthdesign.com/docs/"
+    {
+      "url": "https://sprout.barrelstrengthdesign.com/docs/",
+      "tags": [
+        "latest"
+      ]
+    },
+    {
+      "url": "https://sprout.barrelstrengthdesign.com/docs/craft-v2/",
+      "tags": [
+        "craft-v2"
+      ]
+    }
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://sprout.barrelstrengthdesign.com/sitemap.xml"
+    "https://sprout.barrelstrengthdesign.com/docs/sitemap.xml",
+    "https://sprout.barrelstrengthdesign.com/docs/craft-v2/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".sidebar-heading.open > span",
+      "selector": "p.sidebar-heading.open",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": "[class='content'] h1",
-      "global": true,
-      "default_value": "Chapter"
-    },
-    "lvl2": "[class='content'] h2",
-    "lvl3": "[class='content'] h3",
-    "lvl4": "[class='content'] h4",
-    "lvl5": "[class='content'] h5",
-    "text": "[class='content'] p, [class='content'] li",
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
       "global": true
     }
   },
-  "selectors_exclude": [
-    ".table-of-contents"
-  ],
+  "scrap_start_urls": false,
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
-  "scrap_start_urls": false,
-  "strip_chars": " .,;:#",
   "conversation_id": [
     "596308196"
   ],
-  "nb_hits": 2731
+  "nb_hits": 4741
 }

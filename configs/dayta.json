@@ -1,7 +1,7 @@
 {
   "index_name": "dayta",
   "start_urls": [
-    "https://daytadocs01.netlify.com/"
+    "https://daytadocs01.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -20,5 +20,5 @@
   "conversation_id": [
     "684142799"
   ],
-  "nb_hits": 628
+  "nb_hits": 8
 }

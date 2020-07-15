@@ -18,7 +18,7 @@
     "lvl3": ".bd-content h3",
     "lvl4": ".bd-content h4",
     "lvl5": ".bd-content h5",
-    "text": ".bd-content p, .bd-content li"
+    "text": ".bd-content p, .bd-content li, .bd-content table"
   },
   "selectors_exclude": [
     ".nextSteps"
@@ -27,5 +27,5 @@
   "conversation_id": [
     "510102157"
   ],
-  "nb_hits": 3618
+  "nb_hits": 8300
 }

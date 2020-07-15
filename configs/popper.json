@@ -1,0 +1,45 @@
+{
+  "index_name": "popper",
+  "start_urls": [
+    {
+      "url": "https://popper.js.org/docs/v2/",
+      "tags": [
+        "popper-v2",
+        "v2"
+      ]
+    },
+    {
+      "url": "https://popper.js.org/docs/v1/",
+      "tags": [
+        "popper-v1",
+        "v1"
+      ]
+    },
+    {
+      "url": "https://popper.js.org/react-popper/v2/",
+      "tags": [
+        "react-popper-v2",
+        "v2"
+      ]
+    },
+    "https://popper.js.org/docs/",
+    "https://popper.js.org/react-popper/"
+  ],
+  "sitemap_urls": [
+    "https://popper.js.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1066590852"
+  ],
+  "nb_hits": 927
+}

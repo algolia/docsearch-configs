@@ -1,0 +1,26 @@
+{
+  "index_name": "hitao123_hui",
+  "start_urls": [
+    "https://hitao123.github.io/hui/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".h-doc-content section h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".h-doc-content section h2",
+    "lvl2": ".h-doc-content section h3",
+    "lvl3": ".h-doc-content section h4",
+    "lvl4": ".h-doc-content section h5",
+    "lvl5": ".h-doc-content section h6",
+    "text": ".h-doc-content section p, .h-doc-content section li"
+  },
+  "js_render": true,
+  "use_anchors": true,
+  "conversation_id": [
+    "999219959"
+  ],
+  "nb_hits": 619
+}

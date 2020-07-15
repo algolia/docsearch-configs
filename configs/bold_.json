@@ -23,8 +23,13 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
   "conversation_id": [
     "840239858"
   ],
-  "nb_hits": 348
+  "nb_hits": 803
 }

@@ -1,0 +1,21 @@
+{
+  "index_name": "jooq",
+  "start_urls": [
+    "https://jooq.diamondfsd.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1045714960"
+  ],
+  "nb_hits": 462
+}

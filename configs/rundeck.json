@@ -1,7 +1,7 @@
 {
   "index_name": "rundeck",
   "start_urls": [
-    "https://rundeck.github.io/docs-vuepress/"
+    "https://docs.rundeck.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -31,5 +31,5 @@
     "900371591"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 17880
+  "nb_hits": 14743
 }

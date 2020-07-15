@@ -1,0 +1,22 @@
+{
+  "index_name": "thetis-ims_procedures",
+  "start_urls": [
+    "https://procedures.thetis-ims.com",
+    "https://data.thetis-ims.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "title",
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1151737675"
+  ],
+  "nb_hits": 3366
+}

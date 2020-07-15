@@ -1,0 +1,51 @@
+{
+  "index_name": "antv",
+  "start_urls": [
+    {
+      "url": "https://antv.vision/zh",
+      "tags": [
+        "zh"
+      ]
+    },
+    {
+      "url": "https://antv.vision/en",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://antv.vision/.*/en/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://antv.vision/.*/zh",
+      "tags": [
+        "zh"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "/demo/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "header h2",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1, .banner-title",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li, article table td, .banner-description"
+  },
+  "strip_chars": "#",
+  "conversation_id": [
+    "1009469654"
+  ],
+  "min_indexed_level": 1,
+  "nb_hits": 897
+}

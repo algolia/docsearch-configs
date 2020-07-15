@@ -1,0 +1,25 @@
+{
+  "index_name": "yarnpkg_next",
+  "start_urls": [
+    "https://yarnpkg.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "header .active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1113982325"
+  ],
+  "nb_hits": 1318
+}

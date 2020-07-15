@@ -1,28 +1,31 @@
 {
   "index_name": "vuetifyjs",
   "start_urls": [
-    {
-      "url": "https://vuetifyjs.com/(?P<lang>.*?)/",
-      "variables": {
-        "lang": [
-          "en"
-        ]
-      }
-    }
+    "https://vuetifyjs.com/"
   ],
   "stop_urls": [
     "/store/"
   ],
   "selectors": {
-    "lvl0": ".layout h1",
+    "lvl0": ".layout h1, .comp-name",
     "lvl1": ".layout h2",
     "lvl2": ".layout h3",
     "lvl3": ".layout h4",
     "lvl4": ".layout h5",
-    "text": ".layout p, .layout li"
+    "text": ".layout p, .layout li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
   "conversation_id": [
     "421371997"
   ],
-  "nb_hits": 2338
+  "nb_hits": 3479
 }

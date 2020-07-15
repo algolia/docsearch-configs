@@ -3,18 +3,30 @@
   "start_urls": [
     "https://loki.js.org"
   ],
+  "sitemap_urls": [
+    "https://loki.js.org/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".markdown-section h1",
-    "lvl1": ".markdown-section h2",
-    "lvl2": ".markdown-section h3",
-    "lvl3": ".markdown-section h4",
-    "lvl4": ".markdown-section h5",
-    "lvl5": ".markdown-section h6",
-    "text": ".markdown-section p, .markdown-section li"
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
   },
   "conversation_id": [
-    "955884135"
+    "1152004186"
   ],
-  "nb_hits": 88
+  "nb_hits": 108
 }

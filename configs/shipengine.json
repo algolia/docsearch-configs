@@ -1,0 +1,28 @@
+{
+  "index_name": "shipengine",
+  "start_urls": [
+    "https://www.shipengine.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".subgroup.selected",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section-group h1",
+    "lvl2": ".section-group h2",
+    "lvl3": ".section-group h3, .section-group td:nth-last-child(2)",
+    "lvl4": ".section-group h4",
+    "lvl5": ".section-group h5",
+    "lvl6": ".section-group h6",
+    "text": ".section-group p, .section-group li, .section-group td:nth-last-child(1)"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1129893190"
+  ],
+  "nb_hits": 3905
+}

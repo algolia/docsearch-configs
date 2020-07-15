@@ -1,9 +1,9 @@
 {
   "index_name": "thegooddocs",
   "start_urls": [
-    "https://thegooddocs.netlify.com/",
-    "https://www.thegooddocs.netlify.com/",
-    "https://thegooddocs.netlify.com/api/get-started.html"
+    "https://thegooddocs.netlify.app/",
+    "https://www.thegooddocs.netlify.app/",
+    "https://thegooddocs.netlify.app/api/get-started.html"
   ],
   "stop_urls": [],
   "selectors": {

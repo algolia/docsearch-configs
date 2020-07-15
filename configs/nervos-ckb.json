@@ -1,10 +1,10 @@
 {
   "index_name": "nervos-ckb",
   "start_urls": [
-    "https://docs.nervos.org/"
+    "https://docs-old.nervos.org/"
   ],
   "sitemap_urls": [
-    "https://docs.nervos.org/sitemap.xml"
+    "https://docs-old.nervos.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +34,5 @@
   "conversation_id": [
     "851825700"
   ],
-  "nb_hits": 459
+  "nb_hits": 1966
 }

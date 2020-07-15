@@ -3,7 +3,11 @@
   "start_urls": [
     "https://docs.esper.io"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\.html$",
+    "home/console$",
+    "home/console/$"
+  ],
   "selectors": {
     "lvl0": "[class*='content']:not([class*='menu']) h1, [class*='content']:not([class*='menu']) :first-child .router-link-active,  [class*='content']:not([class*='menu']) :first-child a",
     "lvl1": "[class*='content']:not([class*='menu']) h2",
@@ -27,5 +31,5 @@
   "conversation_id": [
     "881063855"
   ],
-  "nb_hits": 1068
+  "nb_hits": 549
 }

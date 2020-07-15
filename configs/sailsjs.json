@@ -1,0 +1,30 @@
+{
+  "index_name": "sailsjs",
+  "start_urls": [
+    "https://sailsjs.com/documentation"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".side-nav-inner h4",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[is='doc-template-contents'] h1",
+    "lvl2": "[is='doc-template-contents'] h3",
+    "lvl3": "[is='doc-template-contents'] h4",
+    "lvl4": "[is='doc-template-contents'] h5",
+    "lvl5": "[is='doc-template-contents'] h6",
+    "text": "[is='doc-template-contents'] p, [is='doc-template-contents'] li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "conversation_id": [
+    "1131068061"
+  ],
+  "nb_hits": 5623
+}

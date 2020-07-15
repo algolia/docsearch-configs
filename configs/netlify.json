@@ -1,23 +1,21 @@
 {
   "index_name": "netlify",
   "start_urls": [
-    "https://www.netlify.com/docs/"
+    "https://docs.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "nav a.nav-link.active",
+      "selector": ".content__default h1",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article.docs-content h2",
-    "lvl2": "article.docs-content h3",
-    "lvl3": "article.docs-content h4",
-    "lvl4": "article.docs-content h5",
-    "text": "article.docs-content p, article.docs-content li"
+    "lvl1": ".content__default h2",
+    "lvl2": ".content__default h3",
+    "lvl3": ".content__default h4",
+    "lvl4": ".content__default h5",
+    "text": ".content__default p, .content__default li"
   },
-  "selectors_exclude": [
-    "article.docs-content p:last-child"
-  ],
-  "nb_hits": 1653
+  "selectors_exclude": [],
+  "nb_hits": 3487
 }

@@ -5,7 +5,8 @@
     "https://aws-amplify.github.io/amplify-js/"
   ],
   "stop_urls": [
-    "index.html$"
+    "index.html$",
+    "\\?"
   ],
   "sitemap_urls": [
     "https://aws-amplify.github.io/docs/sitemap.xml"
@@ -23,11 +24,11 @@
     "text": "section p, section li, .content p, .content li"
   },
   "conversation_id": [
-    "533429853"
+    "1115766863"
   ],
   "selectors_exclude": [
     ".tsd-index-panel"
   ],
   "only_content_level": true,
-  "nb_hits": 12221
+  "nb_hits": 22665
 }

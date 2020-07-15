@@ -11,7 +11,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//ul[@class='tree']/li[.//*[contains(@class,'active')]]/a/span",
+      "selector": "//ul[contains(@class,'treemenu-root')]/li[.//*[contains(@class,'active')]]/a/span",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -22,7 +22,7 @@
     "lvl4": "#body-inner h3",
     "lvl5": "#body-inner h4, #body-inner td:first-child",
     "lvl6": "#body-inner h5",
-    "text": "#body-inner p"
+    "text": "#body-inner td, #body-inner p, #body-inner pre"
   },
   "selectors_exclude": [
     ".toc",
@@ -37,5 +37,5 @@
   "conversation_id": [
     "798803918"
   ],
-  "nb_hits": 28145
+  "nb_hits": 37195
 }

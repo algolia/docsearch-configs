@@ -1,0 +1,38 @@
+{
+  "index_name": "openhim",
+  "start_urls": [
+    "http://openhim.org/docs/",
+    "http://openhim.org/docs/introduction/about/"
+  ],
+  "sitemap_urls": [
+    "http://openhim.org/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1004334085"
+  ],
+  "nb_hits": 2033
+}

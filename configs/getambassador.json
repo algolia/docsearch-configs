@@ -7,7 +7,9 @@
     "https://www.getambassador.io/user-guide/",
     "https://www.getambassador.io/reference/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://www.getambassador.io/docs/1.*"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "(//*[contains(@class,'Sidebar')][1]//a[contains(//aside/a/@href,@href)])[2]/preceding::button[1]/span[1]",
@@ -25,5 +27,5 @@
   "conversation_id": [
     "685947392"
   ],
-  "nb_hits": 2166
+  "nb_hits": 8589
 }

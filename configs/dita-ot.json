@@ -14,11 +14,11 @@
     "lvl3": "main h3",
     "lvl4": "main h4",
     "lvl5": "main h5",
-    "text": "main p, main li"
+    "text": "main blockquote, main dd, main div.note, main div.p, main div.pre, main dt, main figcaption, main li, main p, main pre, main td, main th, main title, main tr"
   },
   "min_indexed_level": 1,
   "conversation_id": [
     "497667252"
   ],
-  "nb_hits": 2172
+  "nb_hits": 5874
 }

@@ -8,13 +8,13 @@
     "https://codesandbox.io/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": "[class^='docs__Article'] h1",
-    "lvl1": "[class^='docs__Article'] h2",
-    "lvl2": "[class^='docs__Article'] h3",
-    "lvl3": "[class^='docs__Article'] h4, [class^='docs__Article'] td:first-child",
-    "lvl4": "[class^='docs__Article'] h5",
-    "lvl5": "[class^='docs__Article'] h6",
-    "text": "[class^='docs__Article'] p, [class^='docs__Article'] li, [class^='docs__Article'] td:nth-child(2)"
+    "lvl0": "main h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4, section td:first-child",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li, section td:nth-child(2)"
   },
   "selectors_exclude": [
     "p .language-text"
@@ -25,5 +25,5 @@
   "conversation_id": [
     "816410659"
   ],
-  "nb_hits": 241
+  "nb_hits": 528
 }

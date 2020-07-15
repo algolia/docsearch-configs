@@ -1,0 +1,26 @@
+{
+  "index_name": "smooth-ui",
+  "start_urls": [
+    "https://www.smooth-code.com/open-source/smooth-ui/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//*[contains(@class,'active')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "970833963"
+  ],
+  "nb_hits": 425
+}

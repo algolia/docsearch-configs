@@ -1,0 +1,22 @@
+{
+  "index_name": "dagger",
+  "start_urls": [
+    "https://dagger.dev/"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": ".c-header__title",
+    "lvl1": ".c-article__main h2",
+    "lvl2": ".c-article__main h3",
+    "lvl3": ".c-article__main h4",
+    "lvl4": ".c-article__main h5",
+    "lvl5": ".c-article__main h6",
+    "text": ".c-article__main p, .c-article__main li"
+  },
+  "conversation_id": [
+    "1146253794"
+  ],
+  "nb_hits": 1829
+}

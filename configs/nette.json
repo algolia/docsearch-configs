@@ -1,24 +1,30 @@
 {
   "index_name": "nette",
   "start_urls": [
-    "https://doc.nette.org"
+    "https://nette.org",
+    "https://blog.nette.org",
+    "https://doc.nette.org",
+    "https://latte.nette.org",
+    "https://tracy.nette.org",
+    "https://tester.nette.org"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content-wiki h1",
-    "lvl1": ".content-wiki h2",
-    "lvl2": ".content-wiki h3",
-    "lvl3": ".content-wiki h4",
-    "lvl4": ".content-wiki h5",
-    "lvl5": ".content-wiki h6",
-    "text": ".content-wiki p, .content-wiki li",
+    "lvl0": ".wiki h1",
+    "lvl1": ".wiki h2",
+    "lvl2": ".wiki h3",
+    "lvl3": ".wiki h4",
+    "lvl4": ".wiki h5",
+    "lvl5": ".wiki h6",
+    "text": ".wiki p, .wiki li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
       "global": true
     },
     "version": {
-      "selector": ".versionmenu > div",
+      "selector": "//meta[@name='doc:version']/@content",
+      "type": "xpath",
       "global": true
     }
   },
@@ -31,5 +37,5 @@
   "conversation_id": [
     "910886313"
   ],
-  "nb_hits": 24258
+  "nb_hits": 28836
 }

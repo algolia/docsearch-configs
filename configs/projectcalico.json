@@ -10,7 +10,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "#navbar .active",
+      "selector": "#navbar .active, #sidebar .panel-heading.current-page",
       "global": true,
       "default_value": "Documentation"
     },
@@ -34,5 +34,5 @@
     "#markdown-toc"
   ],
   "min_indexed_level": 2,
-  "nb_hits": 117289
+  "nb_hits": 236745
 }

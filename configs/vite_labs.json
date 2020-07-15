@@ -57,16 +57,16 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".page .content h1",
-    "lvl2": ".page .content h2",
-    "lvl3": ".page .content h3",
-    "lvl4": ".page .content h4",
-    "lvl5": ".page .content h5",
-    "text": ".page .content p, .page .content li"
+    "lvl1": ".page .theme-default-content h1",
+    "lvl2": ".page .theme-default-content h2",
+    "lvl3": ".page .theme-default-content h3",
+    "lvl4": ".page .theme-default-content h4",
+    "lvl5": ".page .theme-default-content h5",
+    "text": ".page .theme-default-content p, .page .theme-default-content li"
   },
   "conversation_id": [
     "550028429"
   ],
   "strip_chars": " .,;:#",
-  "nb_hits": 12848
+  "nb_hits": 11578
 }
