@@ -49,7 +49,11 @@
   ],
   "selectors": {
     "default": {
-      "lvl0": "div.nav-panel-explore .version.is-current a",
+      "lvl0": {
+        "selector": "div.nav-panel-explore .version.is-current a",
+        "global": true,
+        "default_value": "Documentation"
+      },
       "lvl1": "article h1",
       "lvl2": "article h2",
       "lvl3": "article h3",
@@ -68,17 +72,13 @@
     "blog": {
       "lvl0": {
         "selector": "div.nav-panel-explore .version.is-current a",
-        "global": true
+        "global": true,
+        "default_value": "Blog"
       },
-      "lvl1": {
-        "selector": "",
-        "default_value": "Blog",
-        "global": true
-      },
-      "lvl2": "header a.category:nth-child(1)",
-      "lvl3": "header a.category:nth-child(2)",
-      "lvl4": "article h1",
-      "lvl5": "article h2",
+      "lvl1": "header a.category:nth-child(1)",
+      "lvl2": "header a.category:nth-child(2)",
+      "lvl3": "article h1",
+      "lvl4": "article h2",
       "text": "article .post-content p, article .post-content li"
     }
   },
