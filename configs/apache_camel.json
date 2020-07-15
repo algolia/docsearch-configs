@@ -49,10 +49,7 @@
   ],
   "selectors": {
     "default": {
-      "lvl0": {
-        "selector": "",
-        "default_value": null
-      },
+      "lvl0": "div.nav-panel-explore .version.is-current a",
       "lvl1": "article h1",
       "lvl2": "article h2",
       "lvl3": "article h3",
@@ -69,10 +66,7 @@
       "text": "article p, article li"
     },
     "blog": {
-      "lvl0": {
-        "selector": "",
-        "default_value": null
-      },
+      "lvl0": "div.nav-panel-explore .version.is-current a",
       "lvl1": {
         "selector": "",
         "default_value": "Blog"
