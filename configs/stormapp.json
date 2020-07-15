@@ -3,6 +3,9 @@
   "start_urls": [
     "https://docs2.stormapp.com/"
   ],
+  "sitemap_urls": [
+    "https://docs2.stormapp.com/sitemap.xml"
+  ],
   "stop_urls": [
     "\\?"
   ],
