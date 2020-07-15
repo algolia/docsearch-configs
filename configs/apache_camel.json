@@ -66,10 +66,14 @@
       "text": "article p, article li"
     },
     "blog": {
-      "lvl0": "div.nav-panel-explore .version.is-current a",
+      "lvl0": {
+        "selector": "div.nav-panel-explore .version.is-current a",
+        "global": true
+      }
       "lvl1": {
         "selector": "",
-        "default_value": "Blog"
+        "default_value": "Blog",
+        "global": true
       },
       "lvl2": "header a.category:nth-child(1)",
       "lvl3": "header a.category:nth-child(2)",
