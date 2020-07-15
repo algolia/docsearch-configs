@@ -69,7 +69,7 @@
       "lvl0": {
         "selector": "div.nav-panel-explore .version.is-current a",
         "global": true
-      }
+      },
       "lvl1": {
         "selector": "",
         "default_value": "Blog",
