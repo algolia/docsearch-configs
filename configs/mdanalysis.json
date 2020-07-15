@@ -4,6 +4,9 @@
     "https://www.mdanalysis.org/sitemapindex.xml"
   ],
   "start_urls": [
+    "https://docs.mdanalysis.org",
+    "https://userguide.mdanalysis.org",
+    "https://www.mdanalysis.org"
   ],
   "stop_urls": [
     "https://www.mdanalysis.org/.*?//.*?",
@@ -13,7 +16,6 @@
     "\\/_"
   ],
   "selectors": {
-
     "lvl0": "[itemprop='articleBody'] > .section h1",
     "lvl1": "[itemprop='articleBody'] > .section h2",
     "lvl2": "[itemprop='articleBody'] > .section h3",
@@ -24,5 +26,5 @@
   "conversation_id": [
     "569445928"
   ],
-  "nb_hits": 1700
+  "nb_hits": 30885
 }
