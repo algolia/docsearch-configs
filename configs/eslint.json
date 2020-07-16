@@ -51,6 +51,5 @@
   },
   "scrap_start_urls": false,
   "js_render": true,
-  "use_anchors": true,
   "nb_hits": 17888
 }
