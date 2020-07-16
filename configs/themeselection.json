@@ -1,0 +1,27 @@
+{
+  "index_name": "themeselection",
+  "start_urls": [
+    "https://themeselection.com/demo/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//*[contains(@class,'active')]/preceding::*[contains(@class,'menu-header')][1]",
+      "type": "xpath",
+      "gloabl": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h4",
+    "lvl3": ".DocSearch-content h5",
+    "lvl4": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "selectors_exclude": [
+    "[data-label='Example']"
+  ],
+  "conversation_id": [
+    "1222658020"
+  ],
+  "nb_hits": 2518
+}
