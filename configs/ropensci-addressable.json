@@ -2,21 +2,21 @@
   "index_name": "ropensci-addressable",
   "start_urls": [
     {
-      "url": "https://docs.ropensci.org/addressable/index.html",
+      "url": "https://docs.ropensci.org/taxspell/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://docs.ropensci.org/addressable/reference",
+      "url": "https://docs.ropensci.org/taxspell/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://docs.ropensci.org/addressable/articles",
+      "url": "https://docs.ropensci.org/taxspell/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -77,7 +77,7 @@
     ".dont-index"
   ],
   "sitemap_urls": [
-    "https://docs.ropensci.org/addressable/sitemap.xml"
+    "https://docs.ropensci.org/taxspell/sitemap.xml"
   ],
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -91,7 +91,7 @@
   },
   "min_indexed_level": 2,
   "conversation_id": [
-    "1227513343"
+    "taxspell"
   ],
-  "nb_hits": 199
+  "nb_hits": 79
 }
