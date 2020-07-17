@@ -1,7 +1,8 @@
 {
   "index_name": "tencent_wechatpay",
   "start_urls": [
-    "https://pay.weixin.qq.com/wiki/doc/",
+    "https://pay.weixin.qq.com/wiki/doc/wxpay/en/",
+    "https://pay.weixin.qq.com/wiki/doc/wxpay/ch/",
     "https://pay.weixin.qq.com/wiki/doc/api/wxpay/en/pages/index.shtml"
   ],
   "stop_urls": [
