@@ -1,10 +1,10 @@
 {
   "index_name": "darklang",
   "start_urls": [
-    "https://darklang.github.io/docs/"
+    "https://docs.darklang.com"
   ],
   "sitemap_urls": [
-    "https://darklang.github.io/docs/sitemap.xml"
+    "https://docs.darklang.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
