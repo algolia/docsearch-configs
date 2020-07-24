@@ -7,7 +7,7 @@
   "sitemap_urls": [
     "http://docs.payara.fish/community/sitemap.xml",
     "http://docs.payara.fish/enterprise/sitemap.xml"
-  ]
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "article h1",
