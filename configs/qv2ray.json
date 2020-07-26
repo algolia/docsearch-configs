@@ -1,7 +1,7 @@
 {
   "index_name": "qv2ray",
   "start_urls": [
-    "https://qv2ray.github.io/"
+    "https://qv2ray.net/"
   ],
   "stop_urls": [],
   "selectors": {
