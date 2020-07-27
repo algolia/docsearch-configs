@@ -2,28 +2,28 @@
   "index_name": "nus-cs2113-ay1920s2",
   "start_urls": [
     {
-      "url": "https://nus-cs2113-ay1920s2.github.io/website/schedule/",
+      "url": "https://nus-cs2113-ay2021s1.github.io/website/schedule/",
       "selectors_key": "schedule",
       "tags": [
         "schedule"
       ]
     },
     {
-      "url": "https://nus-cs2113-ay1920s2.github.io/website/admin/",
+      "url": "https://nus-cs2113-ay2021s1.github.io/website/admin/",
       "selectors_key": "admin",
       "tags": [
         "admin"
       ]
     },
     {
-      "url": "https://nus-cs2113-ay1920s2.github.io/website/se-book-adapted/",
+      "url": "https://nus-cs2113-ay2021s1.github.io/website/se-book-adapted/",
       "selectors_key": "se-book-adapted",
       "tags": [
         "se-book-adapted"
       ]
     },
-    "https://nus-cs2113-ay1920s2.github.io/website/",
-    "https://nus-cs2113-ay1920s2.github.io/website/coding-standards/java/basic.html"
+    "https://nus-cs2113-ay2021s1.github.io/website/",
+    "https://nus-cs2113-ay2021s1.github.io/website/coding-standards/java/basic.html"
   ],
   "stop_urls": [
     "printable",
