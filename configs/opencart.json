@@ -2,49 +2,49 @@
   "index_name": "opencart",
   "start_urls": [
     {
-      "url": "http://opencart.my/documentation/betteroption/",
+      "url": "https://opencart.my/documentation/betteroption/",
       "tags": [
         "betteroption"
       ]
     },
     {
-      "url": "http://opencart.my/documentation/custommenu/",
+      "url": "https://opencart.my/documentation/custommenu/",
       "tags": [
         "custommenu"
       ]
     },
     {
-      "url": "http://opencart.my/documentation/customunit/",
+      "url": "https://opencart.my/documentation/customunit/",
       "tags": [
         "customunit"
       ]
     },
     {
-      "url": "http://opencart.my/documentation/globalqty/",
+      "url": "https://opencart.my/documentation/globalqty/",
       "tags": [
         "globalqty"
       ]
     },
     {
-      "url": "http://opencart.my/documentation/livepriceupdate/",
+      "url": "https://opencart.my/documentation/livepriceupdate/",
       "tags": [
         "livepriceupdate"
       ]
     },
     {
-      "url": "http://opencart.my/documentation/optiondiscount/",
+      "url": "https://opencart.my/documentation/optiondiscount/",
       "tags": [
         "optiondiscount"
       ]
     },
     {
-      "url": "http://opencart.my/documentation/rounding/",
+      "url": "https://opencart.my/documentation/rounding/",
       "tags": [
         "rounding"
       ]
     },
     {
-      "url": "http://opencart.my/documentation/superdiscount/",
+      "url": "https://opencart.my/documentation/superdiscount/",
       "tags": [
         "superdiscount"
       ]
