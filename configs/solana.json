@@ -1,7 +1,7 @@
 {
   "index_name": "solana",
   "start_urls": [
-    "https://docs.solana.com/docs/"
+    "https://docs.solana.com/"
   ],
   "sitemap_urls": [
     "https://docs.solana.com/sitemap.xml"
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1225908889"
   ],
-  "nb_hits": 4065
+  "nb_hits": 4134
 }
