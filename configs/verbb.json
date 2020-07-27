@@ -5,19 +5,21 @@
       "url": "https://verbb.io/craft-plugins/(?P<plugin>.*?)/docs",
       "variables": {
         "plugin": [
-          "feed-me",
           "super-table",
           "field-manager",
           "cp-nav",
-          "workflow",
           "image-resizer",
+          "workflow",
           "comments",
           "social-poster",
           "expanded-singles",
-          "multi-add",
+          "navigation",
           "postie",
           "gift-voucher",
-          "events"
+          "events",
+          "wishlist",
+          "icon-picker",
+          "formie"
         ]
       }
     }
