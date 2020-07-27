@@ -20,6 +20,12 @@
     "text": "#content p, #content li"
   },
   "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "package",
+      "version"
+    ]
+  },
   "conversation_id": [
     "1119208042"
   ],
