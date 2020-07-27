@@ -22,8 +22,6 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "package",
-      "version",
       "uvid"
     ]
   },
