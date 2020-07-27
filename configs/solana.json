@@ -1,7 +1,7 @@
 {
   "index_name": "solana",
   "start_urls": [
-    "https://docs.solana.com/docs/"
+    "https://docs.solana.com/"
   ],
   "sitemap_urls": [
     "https://docs.solana.com/sitemap.xml"
