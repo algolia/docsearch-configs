@@ -23,7 +23,8 @@
   "custom_settings": {
     "attributesForFaceting": [
       "package",
-      "version"
+      "version",
+      "uvid"
     ]
   },
   "conversation_id": [
