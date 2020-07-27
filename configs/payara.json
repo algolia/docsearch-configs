@@ -1,7 +1,12 @@
 {
   "index_name": "payara",
   "start_urls": [
-    "https://docs.payara.fish/"
+    "https://docs.payara.fish/community/",
+    "https://docs.payara.fish/enterprise/"
+  ],
+  "sitemap_urls": [
+    "http://docs.payara.fish/community/sitemap.xml",
+    "http://docs.payara.fish/enterprise/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
