@@ -1,0 +1,23 @@
+{
+  "index_name": "hypi",
+  "start_urls": [
+    "http://docs.hypi.app/"
+  ],
+  "sitemap_urls": [
+    "https://docs.hypi.app/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1.title",
+    "lvl1": ".mainWrapper h2",
+    "lvl2": ".mainWrapper h3",
+    "lvl3": ".mainWrapper h4",
+    "lvl4": ".mainWrapper h5",
+    "lvl5": ".mainWrapper h6",
+    "text": ".mainWrapper p, .mainWrapper li"
+  },
+  "conversation_id": [
+    "1228344713"
+  ],
+  "nb_hits": 807
+}
