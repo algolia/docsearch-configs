@@ -1,0 +1,20 @@
+{
+  "index_name": "dunglas_mercure",
+  "start_urls": [
+    "https://mercure.rocks/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='Box-root-'] h1",
+    "lvl1": "[class*='Box-root-'] h2",
+    "lvl2": "[class*='Box-root-'] h3",
+    "lvl3": "[class*='Box-root-'] h4",
+    "lvl4": "[class*='Box-root-'] h5",
+    "lvl5": "[class*='Box-root-'] h6",
+    "text": "[class*='Box-root-'] p, [class*='Box-root-'] li"
+  },
+  "conversation_id": [
+    "1229847392"
+  ],
+  "nb_hits": 354
+}
