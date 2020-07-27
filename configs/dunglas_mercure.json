@@ -13,6 +13,9 @@
     "lvl5": "[class*='Box-root-'] h6",
     "text": "[class*='Box-root-'] p, [class*='Box-root-'] li"
   },
+  "stop_content": [
+    "404: Not Found"
+  ],
   "conversation_id": [
     "1229847392"
   ],
