@@ -1,10 +1,10 @@
 {
   "index_name": "lyft_clutch",
   "start_urls": [
-    "https://clutch-preview.netlify.app/docs/"
+    "https://clutch.sh/docs/"
   ],
   "sitemap_urls": [
-    "https://clutch-preview.netlify.app/sitemap.xml"
+    "https://clutch.sh/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
