@@ -3,17 +3,21 @@
   "start_urls": [
     {
       "url": "https://sendgrid.com/docs/glossary/",
-      "tags": [
-        "glossary"
-      ]
+      "tags": ["glossary"]
     },
     "https://sendgrid.com/docs/ui/sending-email/migrating-from-legacy-marketing-campaigns",
     "https://sendgrid.com/docs/",
     {
+      "url": "https://sendgrid.api-docs.io/v3.0/mail-send/v3-mail-send",
+      "tags": ["v3", "mail send"]
+    },
+    {
+      "url": "https://sendgrid.api-docs.io/v3.0",
+      "tags": ["v3", "api reference"]
+    },
+    {
       "url": "https://www.twilio.com/docs/sendgrid/api/v2",
-      "tags": [
-        "v2"
-      ],
+      "tags": ["v2", "api reference"],
       "selectors_key": "v2"
     },
     "https://www.twilio.com/docs/sendgrid"
@@ -24,9 +28,7 @@
     "https://sendgrid.com/docs/Integrate",
     "https://sendgrid.com/docs/Classroom"
   ],
-  "sitemap_urls": [
-    "https://sendgrid.com/docs/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://sendgrid.com/docs/sitemap.xml"],
   "selectors": {
     "default": {
       "lvl0": {
@@ -53,14 +55,10 @@
       "text": "article p, article li, article td:nth-child(n+3)"
     }
   },
-  "conversation_id": [
-    "624078167"
-  ],
+  "conversation_id": ["624078167"],
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "selectors_exclude": [
-    ".doc-main h1 + div ul:first-child"
-  ],
+  "selectors_exclude": [".doc-main h1 + div ul:first-child"],
   "nb_hits": 15724
 }
