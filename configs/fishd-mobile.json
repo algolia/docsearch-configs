@@ -1,7 +1,15 @@
 {
   "index_name": "fishd-mobile",
   "start_urls": [
-    "https://nsfi.github.io/fishd-mobile-site"
+    {
+      "url": "https://nsfi.github.io/fishd-mobile-site/#/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en-US",
+          "zh-CN"
+        ]
+      }
+    }
   ],
   "selectors": {
     "lvl0": ".markdown h1",
