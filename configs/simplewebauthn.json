@@ -4,7 +4,7 @@
     "https://simplewebauthn.dev/docs/"
   ],
   "sitemap_urls": [
-    "https://simplewebauthn.dev/docs/sitemap.xml"
+    "https://simplewebauthn.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1233291601"
   ],
-  "nb_hits": 218
+  "nb_hits": 291
 }
