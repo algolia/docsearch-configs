@@ -3,7 +3,7 @@
   "start_urls": [
     "https://caddyserver.com/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": ["handle.*handle"],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
