@@ -1,0 +1,24 @@
+{
+  "index_name": "tlfaq",
+  "start_urls": [
+    "http://tlfaq.s3-website-us-west-2.amazonaws.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".DocSearch-content h1",
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "conversation_id": [
+    "1237350788"
+  ],
+  "custom_settings": {
+    "attributeForDistinct": "url_without_anchor",
+    "distinct": 2
+  },
+  "nb_hits": 66
+}
