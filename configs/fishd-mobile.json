@@ -11,6 +11,9 @@
       }
     }
   ],
+  "sitemap_urls": [
+    "https://hgkcdn.oss-cn-shanghai.aliyuncs.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".markdown h1",
     "lvl1": ".markdown h2",
