@@ -3,33 +3,40 @@
   "start_urls": [
     "https://piracy.now.sh/"
   ],
+  "sitemap_urls": [
+    "https://piracy.now.sh/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.open",
+      "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Piracy"
     },
-    "lvl1": ".theme-default-content h1",
-    "lvl2": ".theme-default-content h2",
-    "lvl3": ".theme-default-content h3",
-    "lvl4": ".theme-default-content h4",
-    "lvl5": ".theme-default-content h5",
-    "text": ".theme-default-content p, .theme-default-content li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true,
-      "default_value": "en-US"
-    }
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
   },
-  "selectors_exclude": [
-    ".table-of-contents"
-  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "lang"
+      "language",
+      "version",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "conversation_id": [
