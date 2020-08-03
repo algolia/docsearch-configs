@@ -20,10 +20,37 @@
       "tags": [
         "blog"
       ]
+    },
+    {
+      "url": "https://www.gatsbyjs.com/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://www.gatsbyjs.com/cloud/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://www.gatsbyjs.com/tutorial/",
+      "selectors_key": "tutorial",
+      "tags": [
+        "tutorial"
+      ]
+    },
+    {
+      "url": "https://www.gatsbyjs.com/blog/",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ]
     }
   ],
   "sitemap_urls": [
-    "https://www.gatsbyjs.org/sitemap.xml"
+    "https://www.gatsbyjs.org/sitemap.xml",
+    "https://www.gatsbyjs.com/sitemap.xml"
   ],
   "stop_urls": [
     "/packages/",
