@@ -1,10 +1,10 @@
 {
   "index_name": "nidafarooqui_erp",
   "start_urls": [
-    "https://ccrl-docs.netlify.app/"
+    "https://ccrl-docs.netlify.com/"
   ],
   "sitemap_urls": [
-    "https://ccrl-docs.netlify.app/sitemap.xml"
+    "https://ccrl-docs.netlify.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
