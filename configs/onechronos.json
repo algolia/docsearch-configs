@@ -1,6 +1,8 @@
 {
   "index_name": "onechronos",
-  "sitemap_urls": ["https://www.onechronos.com/sitemap.xml"],
+  "sitemap_urls": [
+    "https://www.onechronos.com/sitemap.xml"
+  ],
   "start_urls": [
     "https://www.onechronos.com/docs/",
     "https://www.onechronos.com/docs/fix/fix-42/",
@@ -17,7 +19,7 @@
     "text": ".docs-col p, .docs-col li"
   },
   "use_anchors": true,
-  "nb_hits": 918,
+  "nb_hits": 1553,
   "conversation_id": [
     "1211843188"
   ]
