@@ -1,7 +1,7 @@
 {
   "index_name": "nuxt-i18n",
   "start_urls": [
-    "https://nuxt-community.github.io/nuxt-i18n/"
+    "https://i18n.nuxtjs.org/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -32,5 +32,5 @@
   "conversation_id": [
     "1147340531"
   ],
-  "nb_hits": 546
+  "nb_hits": 557
 }
