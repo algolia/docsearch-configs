@@ -27,7 +27,7 @@
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "Release"
+        "default_value": "Releases"
       },
       "lvl1": {
         "selector": "[role='article'] > h2",
