@@ -9,7 +9,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "docs-secondary-nav .link-active span",
+      "selector": "docs-secondary-nav stencil-route-link[class*='css'] span",
       "default_value": "Documentation",
       "global": true
     },
@@ -40,6 +40,6 @@
       "type"
     ]
   },
-  "nb_hits": 6390,
+  "nb_hits": 6070,
   "only_content_level": true
 }
