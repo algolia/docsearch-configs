@@ -1,10 +1,10 @@
 {
-  "index_name": "docusaurus-2",
+  "index_name": "reactant",
   "start_urls": [
-    "https://v2.docusaurus.io/docs/"
+    "https://reactant.dev/docs/"
   ],
   "sitemap_urls": [
-    "https://v2.docusaurus.io/sitemap.xml"
+    "https://reactant.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -40,8 +40,7 @@
     ]
   },
   "conversation_id": [
-    "833762294"
+    "1240495997"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 10339
+  "nb_hits": 209
 }

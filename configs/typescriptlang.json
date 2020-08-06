@@ -2,7 +2,7 @@
   "index_name": "typescriptlang",
   "start_urls": [
     {
-      "url": "http://www.typescriptlang.org/docs/handbook/release-notes/",
+      "url": "https://www.typescriptlang.org/docs/handbook/release-notes/",
       "tags": [
         "release"
       ],
@@ -10,12 +10,12 @@
       "page_rank": -2
     },
     {
-      "url": "http://www.typescriptlang.org/docs/",
+      "url": "https://www.typescriptlang.org/docs/",
       "page_rank": 1
     }
   ],
   "sitemap_urls": [
-    "http://www.typescriptlang.org/sitemap.xml"
+    "https://www.typescriptlang.org/sitemap.xml"
   ],
   "stop_urls": [
     "/global-plugin/",
@@ -30,42 +30,52 @@
         "default_value": "Releases"
       },
       "lvl1": {
-        "selector": "header h1",
+        "selector": "[role='article'] > h2",
         "global": true
       },
-      "lvl2": "article h1",
-      "lvl3": "article h2",
-      "lvl4": "article h3",
-      "lvl5": "article h4",
-      "lvl6": "article h5",
-      "text": "article p, article li"
+      "lvl2": ".markdown h2",
+      "lvl3": ".markdown h3",
+      "lvl4": ".markdown h4, .markdown td:first-child",
+      "lvl5": ".markdown h5",
+      "text": ".markdown p, .markdown li, .markdown td:last-child"
     },
     "default": {
       "lvl0": {
-        "selector": "//nav//*[contains(@class,'active')]/preceding::h2[1]",
-        "type": "xpath",
+        "selector": "#sidebar > ul > li.open > button",
         "global": true,
         "default_value": "Documentation"
       },
       "lvl1": {
-        "selector": "header h1",
+        "selector": "[role='article'] > h2",
         "global": true
       },
-      "lvl2": "article h1",
-      "lvl3": "article h2",
-      "lvl4": "article h3",
-      "lvl5": "article h4, article td:first-child",
-      "lvl6": "article h5",
-      "text": "article p, article li, article td:last-child"
+      "lvl2": ".markdown h2",
+      "lvl3": ".markdown h3",
+      "lvl4": ".markdown h4, .markdown td:first-child",
+      "lvl5": ".markdown h5",
+      "text": ".markdown p, .markdown li, .markdown td:last-child"
     }
   },
   "scrap_start_urls": false,
   "selectors_exclude": [
-    ".toc-item"
+    ".markdown > p:first-child + ul li a"
   ],
   "strip_chars": " .,;:#",
   "custom_settings": {
-    "separatorsToIndex": "_@"
+    "separatorsToIndex": "_@",
+    "attributesForFaceting": [
+      "language",
+      "tags",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
   },
-  "nb_hits": 4510
+  "nb_hits": 4647
 }

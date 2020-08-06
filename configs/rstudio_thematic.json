@@ -1,27 +1,30 @@
 {
-  "index_name": "ropensci-gert",
+  "index_name": "rstudio_thematic",
   "start_urls": [
     {
-      "url": "https://docs.ropensci.org/gert/index.html",
+      "url": "https://rstudio.github.io/thematic/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://docs.ropensci.org/gert/reference",
+      "url": "https://rstudio.github.io/thematic/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://docs.ropensci.org/gert/articles",
+      "url": "https://rstudio.github.io/thematic/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
       ]
     }
+  ],
+  "sitemap_urls": [
+    "https://rstudio.github.io/thematic/sitemap.xml"
   ],
   "stop_urls": [
     "/reference/$",
@@ -76,9 +79,7 @@
   "selectors_exclude": [
     ".dont-index"
   ],
-  "sitemap_urls": [
-    "https://docs.ropensci.org/gert/sitemap.xml"
-  ],
+  "min_indexed_level": 2,
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesToRetrieve": [
@@ -89,6 +90,8 @@
       "url_without_anchor"
     ]
   },
-  "min_indexed_level": 2,
-  "nb_hits": 350
+  "conversation_id": [
+    "1244390189"
+  ],
+  "nb_hits": 291
 }
