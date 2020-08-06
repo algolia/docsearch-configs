@@ -1,0 +1,40 @@
+{
+  "index_name": "larawiz",
+  "start_urls": [
+    "https://larawiz.github.io/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".page h1",
+    "lvl2": ".page h2",
+    "lvl3": ".page h3",
+    "lvl4": ".page h4",
+    "lvl5": ".page h5",
+    "text": ".page p, .page li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "1160792661"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 296
+}

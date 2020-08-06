@@ -1,9 +1,12 @@
 {
   "index_name": "tachiyomi",
   "start_urls": [
-    "https://tachiyomi.org/help/"
+    "https://tachiyomi.org/"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://tachiyomi.org/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": "[class*='content '] h1",
     "lvl1": "[class*='content '] h2",
@@ -19,7 +22,8 @@
     }
   },
   "selectors_exclude": [
-    ".table-of-contents"
+    ".table-of-contents",
+    ".badge"
   ],
   "custom_settings": {
     "attributesForFaceting": [
@@ -31,5 +35,5 @@
   "conversation_id": [
     "973604839"
   ],
-  "nb_hits": 625
+  "nb_hits": 759
 }

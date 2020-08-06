@@ -7,7 +7,7 @@
         "component": [
           "general"
         ]
-			},
+      },
       "selectors_key": "headings-only"
     },
     {
@@ -69,8 +69,10 @@
   "sitemap_urls": [
     "https://docs.secmaker.com/sitemap.xml"
   ],
-  "scrape_start_urls": false,
-	"stop_urls":["/_"],
+  "scrap_start_urls": false,
+  "stop_urls": [
+    "/_"
+  ],
   "selectors": {
     "default": {
       "lvl0": {
@@ -117,7 +119,7 @@
     ]
   },
   "conversation_id": [
-		"952015104"
+    "952015104"
   ],
-  "nb_hits": 15856
+  "nb_hits": 16585
 }

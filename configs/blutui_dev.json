@@ -1,0 +1,29 @@
+{
+  "index_name": "blutui_dev",
+  "start_urls": [
+    "https://dev.blutui.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav/*[.//*[contains(@class,'active')]]/a",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h1",
+    "lvl2": "#content h2",
+    "lvl3": "#content h3, #content td:first-child",
+    "lvl4": "#content h4",
+    "lvl5": "#content h5",
+    "lvl6": "#content h6",
+    "text": "#content p, #content li, #content td:not(first-child)"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1206206423"
+  ],
+  "nb_hits": 1045
+}

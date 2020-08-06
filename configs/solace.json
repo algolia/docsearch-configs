@@ -107,10 +107,11 @@
       "tags": [
         "learning_center"
       ]
-    }
+    },
+    "https://docs.solace.com/Solace-PubSub-Messaging-APIs/API-Developer-Guide/Java-API-Best-Practices.htm"
   ],
   "stop_urls": [
-    "html\\?",
+    "\\?",
     "/API-Developer-Online-Ref-Documentation/java/index-all.html$",
     "-example.html$",
     "\\.js$",
@@ -136,7 +137,7 @@
       "lvl4": "#contentBody div h4",
       "lvl5": "#contentBody div h5",
       "lvl6": "#contentBody div h6",
-      "text": "#contentBody div p, #contentBody div li"
+      "text": "#contentBody div p, #contentBody div li, .sample_snippet"
     },
     "learning_center": {
       "lvl0": {
@@ -241,5 +242,5 @@
   "conversation_id": [
     "702227168"
   ],
-  "nb_hits": 93456
+  "nb_hits": 94925
 }

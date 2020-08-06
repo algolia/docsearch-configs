@@ -1,0 +1,41 @@
+{
+  "index_name": "tanstack_react-table",
+  "start_urls": [
+    "https://react-table.tanstack.com/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//a[contains(@class,'selected')]/preceding::*[contains(@class,'label')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    },
+    "lvl1": ".docs h1",
+    "lvl2": ".docs h2",
+    "lvl3": ".docs h3",
+    "lvl4": ".docs h4",
+    "lvl5": ".docs h5",
+    "lvl6": ".docs h6",
+    "text": ".docs p, .docs li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "1220673582"
+  ],
+  "nb_hits": 1175
+}

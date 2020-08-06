@@ -1,0 +1,27 @@
+{
+  "index_name": "stormapp",
+  "start_urls": [
+    "https://docs2.stormapp.com/"
+  ],
+  "sitemap_urls": [
+    "https://docs2.stormapp.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": "[data-testid='main-container'] h1",
+    "lvl1": "[data-testid='main-container'] h2",
+    "lvl2": "[data-testid='main-container'] h3",
+    "lvl3": "[data-testid='main-container'] h4",
+    "lvl4": "[data-testid='main-container'] h5",
+    "lvl5": "[data-testid='main-container'] h6",
+    "text": "[data-testid='main-container'] p, [data-testid='main-container'] li"
+  },
+  "js_wait": 1,
+  "js_render": true,
+  "conversation_id": [
+    "1225910693"
+  ],
+  "nb_hits": 57
+}

@@ -1,0 +1,20 @@
+{
+  "index_name": "nats",
+  "start_urls": [
+    "https://nats.io/blog/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page-header h1",
+    "lvl1": "#main-con .col-md-9 h3",
+    "lvl2": "#main-con .col-md-9 h4",
+    "lvl3": "#main-con .col-md-9 h5",
+    "lvl4": "#main-con .col-md-9 h6",
+    "text": "#main-con .col-md-9 p, #main-con .col-md-9 li"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "1205566044"
+  ],
+  "nb_hits": 1512
+}

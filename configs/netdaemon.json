@@ -8,7 +8,9 @@
     "https://netdaemon.xyz/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "https://netdaemon.xyz/docs/api/v1"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
@@ -28,5 +30,5 @@
   "conversation_id": [
     "1134636722"
   ],
-  "nb_hits": 182
+  "nb_hits": 297
 }

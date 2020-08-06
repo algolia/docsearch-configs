@@ -1,0 +1,42 @@
+{
+  "index_name": "fishd-mobile",
+  "start_urls": [
+    {
+      "url": "https://nsfi.github.io/fishd-mobile-site/#/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en-US",
+          "zh-CN"
+        ]
+      }
+    },
+    {
+      "url": "https://nsfi.github.io/fishd-mobile-site/#/zh-CN/components/quickStart",
+      "extra_attributes": {
+        "lang": [
+          "zh-CN"
+        ]
+      }
+    }
+  ],
+  "selectors": {
+    "lvl0": ".markdown h1",
+    "lvl1": ".markdown h2",
+    "lvl2": ".markdown h3",
+    "lvl3": ".markdown h4",
+    "lvl4": ".markdown h5",
+    "lvl5": ".markdown h6",
+    "text": ".markdown p, .markdown li"
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "use_anchors": true,
+  "strip_chars": " .,;:#",
+  "selectors_exclude": [
+    ".md-owner"
+  ],
+  "conversation_id": [
+    "1169426522"
+  ],
+  "nb_hits": 353
+}

@@ -50,5 +50,9 @@
     }
   },
   "scrap_start_urls": false,
-  "nb_hits": 17888
+  "selectors_exclude": [
+    "header",
+    "input"
+  ],
+  "nb_hits": 19686
 }

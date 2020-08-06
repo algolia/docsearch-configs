@@ -20,8 +20,13 @@
     "text": "#content p, #content li"
   },
   "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "uvid"
+    ]
+  },
   "conversation_id": [
     "1119208042"
   ],
-  "nb_hits": 4070
+  "nb_hits": 20772
 }

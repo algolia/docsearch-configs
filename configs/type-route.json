@@ -1,10 +1,11 @@
 {
   "index_name": "type-route",
   "start_urls": [
-    "https://www.type-route.org/docs/","https://www.type-route.org/docs/introduction/getting-started"
+    "https://typehero.org/type-route/docs/",
+    "https://typehero.org/type-route/docs/introduction/getting-started"
   ],
   "sitemap_urls": [
-    "https://www.type-route.org/sitemap.xml"
+    "https://typehero.org/type-route/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +35,5 @@
   "conversation_id": [
     "869245000"
   ],
-  "nb_hits": 156
+  "nb_hits": 315
 }

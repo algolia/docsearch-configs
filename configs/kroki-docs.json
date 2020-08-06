@@ -14,7 +14,7 @@
   "sitemap_urls": [
     "https://docs.kroki.io/sitemap.xml"
   ],
-  "scrape_start_urls": true,
+  "scrap_start_urls": true,
   "stop_urls": [],
   "selectors": {
     "default": {
@@ -64,5 +64,5 @@
   "conversation_id": [
     "774875398"
   ],
-  "nb_hits": 240
+  "nb_hits": 327
 }

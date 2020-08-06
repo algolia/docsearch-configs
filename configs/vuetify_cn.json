@@ -1,0 +1,32 @@
+{
+  "index_name": "vuetify_cn",
+  "start_urls": [
+    "https://vuetify.cn/"
+  ],
+  "stop_urls": [
+    "/store/"
+  ],
+  "selectors": {
+    "lvl0": ".layout h1, .comp-name",
+    "lvl1": ".layout h2",
+    "lvl2": ".layout h3",
+    "lvl3": ".layout h4",
+    "lvl4": ".layout h5",
+    "text": ".layout p, .layout li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "1217967450"
+  ],
+  "nb_hits": 3474
+}

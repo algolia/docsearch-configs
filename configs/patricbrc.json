@@ -1,0 +1,23 @@
+{
+  "index_name": "patricbrc",
+  "start_urls": [
+    "https://docs.patricbrc.org/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.patricbrc.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "[itemprop='articleBody'] h1",
+    "lvl1": "[itemprop='articleBody'] h2",
+    "lvl2": "[itemprop='articleBody'] h3",
+    "lvl3": "[itemprop='articleBody'] h4",
+    "lvl4": "[itemprop='articleBody'] h5",
+    "lvl5": "[itemprop='articleBody'] h6",
+    "text": "[itemprop='articleBody'] p, [itemprop='articleBody'] li"
+  },
+  "conversation_id": [
+    "1206646292"
+  ],
+  "nb_hits": 15123
+}

@@ -1,7 +1,7 @@
 {
   "index_name": "polkadot",
   "start_urls": [
-    "https://wiki.polkadot.network/docs/en"
+    "https://wiki.polkadot.network/docs/"
   ],
   "sitemap_urls": [
     "https://wiki.polkadot.network/docs/en/sitemap.xml"
@@ -34,5 +34,5 @@
   "conversation_id": [
     "969238060"
   ],
-  "nb_hits": 1865
+  "nb_hits": 10901
 }

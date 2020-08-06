@@ -7,7 +7,9 @@
   "stop_urls": [
     "\\?utm",
     "//felgo.com/doc/qt/qsggeometrynode/qsgsimpletexturenode/qsgsimplerectnode",
-    "(\\/([a-z][A-Z])*\\/){6}"
+    "(\\/([a-z][A-Z])*\\/){6}",
+    "([a-z-][a-z-]*)\\/(?=\\1+)",
+    "doc/([a-z-]*/){5,}"
   ],
   "selectors": {
     "lvl0": ".doc-page h1",
@@ -24,5 +26,5 @@
   "conversation_id": [
     "518344062"
   ],
-  "nb_hits": 500324
+  "nb_hits": 409957
 }

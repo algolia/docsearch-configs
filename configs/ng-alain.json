@@ -19,21 +19,22 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".ant-menu-submenu-selected .ant-badge",
+      "selector": "//app-content//*[contains(@class,'ant-menu-item-selected')]/preceding::*[contains(@class,'title')][1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p, section li"
   },
   "js_render": true,
   "strip_chars": "#",
   "conversation_id": [
     "943344448"
   ],
-  "nb_hits": 3557
+  "nb_hits": 4845
 }

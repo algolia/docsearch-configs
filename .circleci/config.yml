@@ -11,8 +11,25 @@ jobs:
       - run: sudo apt-get update
       - run: sudo apt-get install jq
       - run: ./.circleci/valid_edited_configs.sh
+  deploy:
+    docker:
+      - image: circleci/ruby:2.4.1
+    steps:
+      - checkout
+      - run: git remote add original_repo git@github.com:algolia/docsearch-configs.git
+      - run: git fetch original_repo
+      - run: sudo apt-get update
+      - run: sudo apt-get update
+      - run: sudo apt-get install jq
+      - run: ./.circleci/trigger_crawl.sh
 workflows:
   version: 2
   one_and_two:
     jobs:
       - valid_edited_configs
+      - deploy:
+          filters:
+            branches:
+              only: master
+          requires:
+          - valid_edited_configs

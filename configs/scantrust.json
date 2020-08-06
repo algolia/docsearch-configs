@@ -1,7 +1,7 @@
 {
   "index_name": "scantrust",
   "start_urls": [
-    "https://devportal.scantrust.com/docs/ScanTrust/getting-started-applications/",
+    "https://devportal.scantrust.com/docs/scantrust/getting-started-applications/",
     "https://devportal.scantrust.com/docs/"
   ],
   "sitemap_urls": [
@@ -35,5 +35,5 @@
   "conversation_id": [
     "731001849"
   ],
-  "nb_hits": 1277
+  "nb_hits": 2427
 }

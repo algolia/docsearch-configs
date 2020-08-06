@@ -1,0 +1,21 @@
+{
+  "index_name": "blockstack_design",
+  "start_urls": [
+    "https://blockstack.design/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='docs-layout'] h1",
+    "lvl1": "[class*='docs-layout'] h2",
+    "lvl2": "[class*='docs-layout'] h3",
+    "lvl3": "[class*='docs-layout'] h4",
+    "lvl4": "[class*='docs-layout'] h5",
+    "lvl5": "[class*='docs-layout'] h6",
+    "text": "[class*='docs-layout'] p, [class*='docs-layout'] li"
+  },
+  "scrap_start_urls": false,
+  "conversation_id": [
+    "1220312148"
+  ],
+  "nb_hits": 257
+}
