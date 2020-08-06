@@ -1,10 +1,10 @@
 {
   "index_name": "unbounded_adapt",
   "start_urls": [
-    "https://adapt.unbounded.systems/docs/"
+    "https://adaptjs.org/docs/"
   ],
   "sitemap_urls": [
-    "https://adapt.unbounded.systems/sitemap.xml"
+    "https://adaptjs.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
