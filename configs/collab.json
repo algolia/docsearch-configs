@@ -2,6 +2,12 @@
   "index_name": "collab",
   "start_urls": [
     {
+      "url": "https://docs.collab.net/teamforge202/",
+      "tags": [
+        "teamforge202"
+      ]
+    },    
+    {
       "url": "https://docs.collab.net/teamforge201/",
       "tags": [
         "teamforge201"
