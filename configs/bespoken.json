@@ -3,9 +3,7 @@
   "start_urls": [
     "https://read.bespoken.io/"
   ],
-  "stop_urls": [
-    "https:\\/\\/read.bespoken.io\\/.+[^h][^t][^m][^l]$"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -23,5 +21,5 @@
   "conversation_id": [
     "751106314"
   ],
-  "nb_hits": 1276
+  "nb_hits": 3255
 }
