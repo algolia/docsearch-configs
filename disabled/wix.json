@@ -1,26 +1,26 @@
 {
   "index_name": "wix",
   "start_urls": [
-    "https://dev.wix.com/docs/"
+    "https://dev.wix.com/documentation"
   ],
   "sitemap_urls": [
     "https://dev.wix.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [
-    "\\?"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "#sidebar .current-menu-ancestor > a",
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h6",
-    "text": "article p, article li"
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": "FIXME h6",
+    "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -34,5 +34,5 @@
   "conversation_id": [
     "702630193"
   ],
-  "nb_hits": 10618
+  "nb_hits": 15479
 }
