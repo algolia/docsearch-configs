@@ -1,7 +1,13 @@
 {
   "index_name": "anyrtc",
   "start_urls": [
-    "https://docs.anyrtc.io/rtc-android/docs/"
+    {
+      "https://docs.anyrtc.io/rtc-android/docs/"
+    },
+    {
+     "https://docs.anyrtc.io/rtm-android/docs/"
+    }
+    
   ],
   "sitemap_urls": [
     "https://docs.anyrtc.io/rtc-android/sitemap.xml"
