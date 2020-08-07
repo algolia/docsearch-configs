@@ -1,7 +1,7 @@
 {
   "index_name": "ee-docs",
   "start_urls": [
-    "https://ee-docs.netlify.app/"
+    "https://ee-docs.netlify.com/"
   ],
   "stop_urls": [],
   "selectors": {
