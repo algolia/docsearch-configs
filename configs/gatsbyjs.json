@@ -2,20 +2,26 @@
   "index_name": "gatsbyjs",
   "start_urls": [
     {
-      "url": "https://www.gatsbyjs.org/docs/",
+      "url": "https://www.gatsbyjs.com/docs/",
       "tags": [
         "docs"
       ]
     },
     {
-      "url": "https://www.gatsbyjs.org/tutorial/",
+      "url": "https://www.gatsbyjs.com/cloud/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://www.gatsbyjs.com/tutorial/",
       "selectors_key": "tutorial",
       "tags": [
         "tutorial"
       ]
     },
     {
-      "url": "https://www.gatsbyjs.org/blog/",
+      "url": "https://www.gatsbyjs.com/blog/",
       "selectors_key": "blog",
       "tags": [
         "blog"
@@ -23,7 +29,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://www.gatsbyjs.org/sitemap.xml"
+    "https://www.gatsbyjs.com/sitemap.xml"
   ],
   "stop_urls": [
     "/packages/",
@@ -86,5 +92,5 @@
   "conversation_id": [
     "487785557"
   ],
-  "nb_hits": 45198
+  "nb_hits": 28273
 }
