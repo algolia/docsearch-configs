@@ -1,26 +1,3471 @@
 {
   "index_name": "browserstack",
   "start_urls": [
-    "https://www.browserstack.com/"
+    {
+      "url": "https://www.browserstack.com/blog/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/browserstack-announce-50-million-investment-accel/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/browserstack-featured-in-the-leading-automated-testing-podcast-testtalks-with-joe-colantonio/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/browserstack-wins-new-accolades-from-forbes-and-linkedin/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/geolocation-takes-over-the-power-of-testing-websites-and-mobile-apps-around-the-world/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/introducing-integrations-with-atlassians-jira-software-and-trello/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/product-update-introducing-new-power-features-for-debugging-native-mobile-functionality-and-real-mobile-devices/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/quality-software-ac-level-issue/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/software-testing-as-an-olympic-sport/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/supporting-open-source-to-drive-community-innovation/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/the-ultimate-responsive-design-testing-checklist/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/best-devices-for-mobile-website-testing",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/best-ci-cd-tools-comparison",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/browserstack-san-francisco-meetup/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/open-source-spotlight-fullpage-js-alvaro-trigo",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/webinar-selenium-4-with-simon-stewart",
+      "selectors_key": "blog",
+      "tags": ["blog", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/open-source-spotlight-spectre-css-with-yan-zhu",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/open-source-spotlight-curl-with-daniel-stenberg/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/open-source-spotlight-oswald-labs-with-anand-chowdhary/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/understanding-browser-os-and-device-fragmentation/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/perfect-test-strategy-for-mobile/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/ecommerce-beyond-load-performance-testing/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/reinventing-the-dashboard/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/how-to-design-for-developers/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/open-source-spotlight-sulu-daniel-rotter/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/open-source-spotlight-dompurify-with-mario-heiderich/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/risk-based-testing/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/cross-browser-testing-for-compatibility/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/chromium-based-edge/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/hint-css-and-web-maker-with-kushagra-gour/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/open-source-spotlight-git-history-with-rodrigo-pombo/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/open-source-spotlight-ombi-with-jamie-rees",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/webinar-how-weather-com-achieves-quality-at-speed-with-browserstack-and-jenkins/ ",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/business-continuity-covid-19/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/open-source-spotlight-scrollify-with-luke-haas/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/hybrid-native-pwas-testing-your-mobile-apps-for-compatibility/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/react-ifying-the-browserstack-frontend",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/open-source-spotlight-grapesjs-with-artur-arsiniev",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/are-you-ready-for-a-summer-of-learning",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/automate-and-app-automate-now-with-unlimited-users/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/summer-of-learning-episode-1/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/announcing-speedlab-test-website-speed/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/qa-remote-testing-best-practices-agile-teams/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/announcing-breakpoint-a-virtual-summit-on-everything-testing/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/breakpoint-speaker-spotlight-benjamin-bischoff-trivago/",
+      "selectors_key": "blog",
+      "tags": ["blog"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study",
+      "selectors_key": "case-study",
+      "tags": ["case-study"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study/airtasker",
+      "selectors_key": "case-study",
+      "tags": ["case-study"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study/consumeraffairs-builds-qa-team-on-the-back-of-browserstack-automate",
+      "selectors_key": "case-study",
+      "tags": ["case-study", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study/leaf",
+      "selectors_key": "case-study",
+      "tags": ["case-study"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study/leanix",
+      "selectors_key": "case-study",
+      "tags": ["case-study"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study/logikcull",
+      "selectors_key": "case-study",
+      "tags": ["case-study"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study/carousell-scales-app-automation-with-browserstack",
+      "selectors_key": "case-study",
+      "tags": ["case-study"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study/groupm-qa-using-automate",
+      "selectors_key": "case-study",
+      "tags": ["case-study", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study/apptio-eliminates-testing-bottleneck-to-scale-with-rapid-customer-growth",
+      "selectors_key": "case-study",
+      "tags": ["case-study"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study/olx-delivers-seamless-experiences-for-a-localized-global-audience",
+      "selectors_key": "case-study",
+      "tags": ["case-study"]
+    },
+    {
+      "url": "https://www.browserstack.com/case-study/quality-engineering-team-at-goodrx-cuts-testing-time-by-90-to-release-daily-15x",
+      "selectors_key": "case-study",
+      "tags": ["case-study"]
+    },
+    {
+      "url": "https://www.browserstack.com/docs",
+      "selectors_key": "docs",
+      "tags": ["docs"]
+    },
+    {
+      "url": "https://www.browserstack.com/docs/live",
+      "selectors_key": "docs",
+      "tags": ["docs", "live"]
+    },
+    {
+      "url": "https://www.browserstack.com/docs/app-live",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/docs/automate",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/docs/app-automate",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/local-testing-internals",
+      "selectors_key": "docs",
+      "tags": ["docs", "local"]
+    },
+    {
+      "url": "https://www.browserstack.com/local-testing/releases",
+      "selectors_key": "docs",
+      "tags": ["docs", "local"]
+    },
+    {
+      "url": "https://www.browserstack.com/local-testing/releases/v6.6",
+      "selectors_key": "docs",
+      "tags": ["docs", "local"]
+    },
+    {
+      "url": "https://www.browserstack.com/local-testing/releases/v6.7",
+      "selectors_key": "docs",
+      "tags": ["docs", "local"]
+    },
+    {
+      "url": "https://www.browserstack.com/local-testing/releases/v6.8",
+      "selectors_key": "docs",
+      "tags": ["docs", "local"]
+    },
+    {
+      "url": "https://www.browserstack.com/local-testing/releases/v6.9",
+      "selectors_key": "docs",
+      "tags": ["docs", "local"]
+    },
+    {
+      "url": "https://www.browserstack.com/local-testing/releases/v7.0",
+      "selectors_key": "docs",
+      "tags": ["docs", "local"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/python",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/ruby",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/java",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/c-sharp",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/php",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/perl",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/node",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/timeouts",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/jenkins",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/travisci",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/teamcity",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/bamboo",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/javascript-testing-api",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-java",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-c-sharp",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-python",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-ruby",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-node",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-junit",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-cucumber",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-behave",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-nunit",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-lettuce",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-testng",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-webdriverio",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/nunit",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/pnunit",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/mbunit",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/specflow",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/junit",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/testng",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/jbehave",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/serenity",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/protractor",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/nightwatch",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/intern",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/webdriverio",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/cucumberjs",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/wd",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/codeception",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/phpunit",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/behat",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/lettuce",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/behave",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/rspec",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/capybara",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/gauge",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/selenide",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/debugging",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium/circleci",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium/bamboo",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium/jenkins",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium/teamcity",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/earlgrey/get-started",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/xcuitest/get-started",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium-phpunit",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium/appium-desktop",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium/fastlane",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium/travisci",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/debugging",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/espresso/get-started",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/network-simulation",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/timeouts",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-live/native-device-features",
+      "selectors_key": "docs",
+      "tags": ["docs", "app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/azure",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/cucumber-integration",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/network-simulation",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/katalon-studio",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/changing-desktop-resolution-and-browser-window-size",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/reset-access-key",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/add-plugins-extensions-remote-browsers",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/using-sendkeys-on-remote-IE11",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/hide-sensitive-data-automate-test-logs",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/filter-automate-sessions-from-google-analytics",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/handle-popups-alerts-prompts-in-automated-tests",
+      "selectors_key": "docs",
+      "tags": ["docs", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/downloads/airtasker.pdf",
+      "selectors_key": "downloads",
+      "tags": ["downloads"]
+    },
+    {
+      "url": "https://www.browserstack.com/downloads/BrowserStack%20-%20List%20of%20devices%20to%20test%20on.pdf",
+      "selectors_key": "downloads",
+      "tags": ["downloads"]
+    },
+    {
+      "url": "https://www.browserstack.com/downloads/Local-Testing-Internals.pdf",
+      "selectors_key": "downloads",
+      "tags": ["downloads"]
+    },
+    {
+      "url": "https://www.browserstack.com/downloads/logikcull.pdf",
+      "selectors_key": "downloads",
+      "tags": ["downloads"]
+    },
+    {
+      "url": "https://www.browserstack.com/downloads/BrowserStack%20Live%20-%20Getting%20Started%20Guide.pdf",
+      "selectors_key": "downloads",
+      "tags": ["downloads"]
+    },
+    {
+      "url": "https://www.browserstack.com/support",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/support/automate",
+      "selectors_key": "faq",
+      "tags": ["faq", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/support/app-live",
+      "selectors_key": "faq",
+      "tags": ["faq", "app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/support/app-automate",
+      "selectors_key": "faq",
+      "tags": ["faq", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/support/mobile",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/support/local-testing",
+      "selectors_key": "faq",
+      "tags": ["faq", "local"]
+    },
+    {
+      "url": "https://www.browserstack.com/support/screenshots",
+      "selectors_key": "faq",
+      "tags": ["faq", "screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/support/plans-pricing",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/support/security",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/support/teams-account",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/480",
+      "selectors_key": "faq",
+      "tags": ["faq","automate","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/477",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/654",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/621",
+      "selectors_key": "faq",
+      "tags": ["faq","automate","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/475",
+      "selectors_key": "faq",
+      "tags": ["faq","automate","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/478",
+      "selectors_key": "faq",
+      "tags": ["faq","automate","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/479",
+      "selectors_key": "faq",
+      "tags": ["faq","automate","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/595",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/490",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/496",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/499",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/483",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/486",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/488",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/489",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/495",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/626",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/680",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/681",
+      "selectors_key": "faq",
+      "tags": ["faq","automate","app-automate","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/515",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/516",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/517",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/518",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/546",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/537",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/539",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/608",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/610",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/613",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/614",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/615",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/616",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/548",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/561",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/605",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/623",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/566",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/585",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/781",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/785",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/581",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/582",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/583",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/586",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/588",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/640",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/651",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/652",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/653",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/599",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/617",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/584",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/476",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/533",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/535",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/536",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/560",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/487",
+      "selectors_key": "faq",
+      "tags": ["faq","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/506",
+      "selectors_key": "faq",
+      "tags": ["faq","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/507",
+      "selectors_key": "faq",
+      "tags": ["faq","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/508",
+      "selectors_key": "faq",
+      "tags": ["faq","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/631",
+      "selectors_key": "faq",
+      "tags": ["faq","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/663",
+      "selectors_key": "faq",
+      "tags": ["faq","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/664",
+      "selectors_key": "faq",
+      "tags": ["faq","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/557",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/551",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/555",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/562",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/570",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/574",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/575",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/576",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/577",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/611",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/554",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/556",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/563",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/553",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/558",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/559",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/590",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/650",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/502",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/592",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/598",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/648",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/594",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/801",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/802",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/803",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/482",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/593",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/619",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/540",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/804",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/500",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/501",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/510",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/526",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/606",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/805",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/520",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/620",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/624",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/637",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/806",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/807",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/504",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/602",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/622",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/641",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/642",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/600",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/524",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/525",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/528",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/618",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/523",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/647",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/519",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/484",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/635",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/636",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/604",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/632",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/634",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/509",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/646",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/638",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/596",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/633",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/655",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/656",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/657",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/658",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/659",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/660",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/661",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/662",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/665",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/667",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/668",
+      "selectors_key": "faq",
+      "tags": ["faq","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/669",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/670",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/701",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/702",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/711",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/712",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/713",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/714",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/721",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/722",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/723",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/724",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/725",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/726",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/727",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/728",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/729",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/731",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/732",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/733",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/741",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/742",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/743",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/744",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/745",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/746",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/747",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/748",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/749",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/750",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/751",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/752",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/753",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/754",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/755",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/756",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/757",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/758",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/759",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live","local"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/761",
+      "selectors_key": "faq",
+      "tags": ["faq","screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/762",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/763",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/764",
+      "selectors_key": "faq",
+      "tags": ["faq","automate","app-automate","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/765",
+      "selectors_key": "faq",
+      "tags": ["faq","automate","app-automate","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/766",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/767",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/782",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/768",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/769",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/770",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/771",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/772",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/773",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/774",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/775",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/776",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/777",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/778",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/779",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/780",
+      "selectors_key": "faq",
+      "tags": ["faq","app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/783",
+      "selectors_key": "faq",
+      "tags": ["faq","automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/784",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/901",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/902",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/903",
+      "selectors_key": "faq",
+      "tags": ["faq"]
+    },
+    {
+      "url": "https://www.browserstack.com/question/904",
+      "selectors_key": "faq",
+      "tags": ["faq","live","app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-setup-browserstack-automate",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/cross-browser-compatibility-testing-beyond-chrome",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/cross-browser-testing-for-wordpress",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/types-of-testing-for-bug-free-experience",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/responsive-design-testing-vs-cross-browser-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/manual-vs-automated-testing-differences",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/why-responsive-design-testing-is-important",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/top-limitations-of-selenium-automation",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/top-cross-browser-testing-trends",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/testing-on-emulators-simulators-real-devices-comparison",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/blog/3-part-guide-faster-regression-testing/",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/best-test-automation-frameworks",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/selenium-framework",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/selenium-webdriver-tutorial",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/what-are-the-different-types-of-software-engineer-roles",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/why-cross-browser-testing-for-business",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/testng-framework-with-selenium-automation",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/what-is-selenium-ide",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/mobile-application-testing-frameworks",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/android-app-automation-testing-tools",
+      "selectors_key": "guide",
+      "tags": ["guide", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/learn-about-cucumber-testing-tool",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/jenkins-vs-travis-ci-tools",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/continuous-integration-with-jenkins-tutorial",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/nightwatch-vs-protractor-vs-mocha",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/responsive-design-trends",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/selenium-grid-tutorial",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/learn-software-development-process",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/exceptions-in-selenium-webdriver",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/locators-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/test-on-real-devices-vs-emulators-simulators",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/junit-and-automation-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/maven-dependency-with-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/selenium-with-java-for-automated-test",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/xpath-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/appium-tutorial-for-testing",
+      "selectors_key": "guide",
+      "tags": ["guide", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/types-of-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/parallel-testing-with-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/regression-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/wait-commands-in-selenium-webdriver",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/handling-frames-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/automate-with-selenium-python",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/functional-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/importance-of-device-farms",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-setup-ci-cd-pipeline",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/selenium-rc-tutorial",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/top-javascript-testing-frameworks",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/take-screenshots-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/common-cross-browser-compatibility-issues",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-test-javascript-in-browsers",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/top-ios-testing-frameworks",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/top-python-testing-frameworks",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/responsive-design-breakpoints",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/responsive-testing-on-local-server",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/myths-about-qa-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/selenium-webdriver-tricks",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/browser-rendering-engine",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/challenges-faced-by-qa",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/myths-about-emulators",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/ai-with-software-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/4-things-every-new-software-tester-must-do",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/myths-about-mobile-app-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/test-on-older-browser-versions",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/selenium-vm-for-browsers",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/bugs-in-ui-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/selenium-cloud",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/myths-about-agile-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/testing-checklist-for-website-launch",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-optimize-selenium-test-cases",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/get-html-source-of-web-element-in-selenium-webdriver",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/myths-about-selenium-testing",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/css-selectors-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/run-selenium-tests-using-selenium-chromedriver",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/ci-cd-vs-agile-vs-devops",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/extent-reports-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/selenium-commands",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/reasons-for-automation-failure",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/myths-about-functional-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/automation-testing-tutorial",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/selenium-scroll-tutorial",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/writing-good-test-cases",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/geckodriver-vs-marionette",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-test-mobile-applications-manually",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/questions-to-ask-before-software-release",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/sendkeys-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/getattribute-method-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-run-mobile-usability-tests",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/optimize-tests-for-continuous-integration",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/desired-capabilities-in-selenium-webdriver",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/end-to-end-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/findelement-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/testing-in-production",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/alerts-and-popups-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/appium-vs-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "app-automate", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/mobile-app-testing-checklist",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/setproperty-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/devops-for-beginners",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/learn-software-application-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/qa-best-practices",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/isdisplayed-method-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/teamcity-vs-jenkins-vs-bamboo",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/run-selenium-tests-using-ie-driver",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/test-automation-standards-and-checklist",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/difference-between-selenium-standalone-server-and-selenium-server",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/expectedconditions-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-handle-cookies-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/verify-and-assert-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/difference-between-selenium-remotewebdriver-and-webdriver",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/appium-vs-espresso",
+      "selectors_key": "guide",
+      "tags": ["guide", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-inspect-element-on-iphone",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/make-website-compatible-with-all-browsers",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-inspect-element-on-android",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/jmeter-vs-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/listeners-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/object-repository-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/view-mobile-version-of-website-on-chrome",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/test-chrome-extensions-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/difference-between-chrome-and-chromium",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/code-coverage-vs-test-coverage",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-inspect-element-on-android",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/run-selenium-tests-using-firefox-driver",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/request-desktop-site-on-iphone",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/build-and-execute-selenium-projects",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/challenges-in-automated-testing",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/action-class-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/verify-tooltip-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/data-driven-framework-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/automation-using-selenium-javascript",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/things-to-avoid-in-selenium-test-scripts",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/key-challenges-in-mobile-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/desired-capabilities-in-appium",
+      "selectors_key": "guide",
+      "tags": ["guide", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/file-upload-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-inspect-element-on-mac",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/understanding-selenium-timeouts",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/features-of-selenium-ide",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-reduce-flaky-selenium-test",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/appium-vs-xcuitest",
+      "selectors_key": "guide",
+      "tags": ["guide", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/ui-testing-guide",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/select-class-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/ui-testing-tools-and-techniques",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/launch-edge-browser-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/mobile-app-testing-strategies",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/mobile-testing-types",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/drag-and-drop-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/ideal-screen-sizes-for-responsive-design",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/10-test-automation-best-practices",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/web-automation",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/mobile-testing-pyramid",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/run-selenium-test-script",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/bug-severity-vs-priority",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/mobile-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/espresso-android-testing",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/test-planning",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/getting-started-xcuitest-framework",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/software-release-flow-and-testing-ecosystem",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/importance-of-page-speed-score",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-find-broken-links-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/software-testing-strategies-and-approaches",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/why-mobile-page-speed-tests",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-increase-website-speed",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/why-mobile-apps-crash",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/page-object-model-in-selenium",
+      "selectors_key": "guide",
+      "tags": ["guide", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/speed-up-woocommerce",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/effective-tips-for-remote-testing-teams",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/appium-desktop",
+      "selectors_key": "guide",
+      "tags": ["guide", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/continuous-testing-in-devops",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/why-website-loading-slow",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/testing-tactics-for-faster-release-cycles",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/setup-qa-process",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/guide/how-to-debug-on-iphone",
+      "selectors_key": "guide",
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://www.browserstack.com/press",
+      "selectors_key": "pr",
+      "tags": ["pr"]
+    },
+    {
+      "url": "https://www.browserstack.com/press/browserstack-announce-50-million-investment-accel",
+      "selectors_key": "pr",
+      "tags": ["pr"]
+    },
+    {
+      "url": "https://www.browserstack.com/press/browserstack-announces-its-open-source-program-to-drive-community-innovation",
+      "selectors_key": "pr",
+      "tags": ["pr"]
+    },
+    {
+      "url": "https://www.browserstack.com/press/browserstack-introduces-app-automate-mobile-application-testing",
+      "selectors_key": "pr",
+      "tags": ["pr", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/press/browserstack-introduces-integrations-with-atlassians-jira-software-and-trello",
+      "selectors_key": "pr",
+      "tags": ["pr"]
+    },
+    {
+      "url": "https://www.browserstack.com/press/browserstack-is-named-to-forbes-2018-cloud-100",
+      "selectors_key": "pr",
+      "tags": ["pr"]
+    },
+    {
+      "url": "https://www.browserstack.com/press/browserstack-launches-comprehensive-debugging-tools-and-expands-native-mobile-functionality",
+      "selectors_key": "pr",
+      "tags": ["pr"]
+    },
+    {
+      "url": "https://www.browserstack.com/press/browserstack-launches-geolocation-testing-for-mobile-apps-and-websites",
+      "selectors_key": "pr",
+      "tags": ["pr"]
+    },
+    {
+      "url": "https://www.browserstack.com/press/groupm-transforms-quality-assurance-using-browserstack",
+      "selectors_key": "pr",
+      "tags": ["pr"]
+    },
+    {
+      "url": "https://www.browserstack.com/",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/live",
+      "selectors_key": "website",
+      "tags": ["website", "live"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-live",
+      "selectors_key": "website",
+      "tags": ["website", "app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/screenshots",
+      "selectors_key": "website",
+      "tags": ["website", "screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/responsive",
+      "selectors_key": "website",
+      "tags": ["website", "responsive"]
+    },
+    {
+      "url": "https://www.browserstack.com/developer-tools",
+      "selectors_key": "website",
+      "tags": ["website", "tools"]
+    },
+    {
+      "url": "https://www.browserstack.com/integrations",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/policy/security",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/local-testing",
+      "selectors_key": "website",
+      "tags": ["website", "local"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-in-internet-explorer",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/mobile-browser-emulator",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/live/features",
+      "selectors_key": "website",
+      "tags": ["website", "live"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-firefox-browser",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-the-right-mobile-devices",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/mobile-features",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-live/features",
+      "selectors_key": "website",
+      "tags": ["website", "app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/users/sign_in",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/users/sign_up",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/pricing",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/growth",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/contact",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/testimonials",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/careers",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/screenshots/api",
+      "selectors_key": "website",
+      "tags": ["website", "screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/capabilities",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/rest-api",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/continuous-integration",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/integrations/automate",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/integrations/live",
+      "selectors_key": "website",
+      "tags": ["website", "live"]
+    },
+    {
+      "url": "https://www.browserstack.com/integrations/app-automate",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/integrations/app-live",
+      "selectors_key": "website",
+      "tags": ["website", "app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/xcuitest",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/appium",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/espresso",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/capabilities",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/rest-api",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/list-of-browsers-and-platforms/live",
+      "selectors_key": "website",
+      "tags": ["website", "live"]
+    },
+    {
+      "url": "https://www.browserstack.com/list-of-browsers-and-platforms/js_testing",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/list-of-browsers-and-platforms/screenshots",
+      "selectors_key": "website",
+      "tags": ["website", "screenshots"]
+    },
+    {
+      "url": "https://www.browserstack.com/list-of-browsers-and-platforms/automate",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/list-of-browsers-and-platforms/app_automate",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/list-of-browsers-and-platforms/app_live",
+      "selectors_key": "website",
+      "tags": ["website", "app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/status-badges",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/physical-mobile-devices",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/parallel-calculator",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/terms",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/privacy",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/ios-testing",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/android-testing",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-android-emulator",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-ios-simulator",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/open-source",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/espresso/gradle",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-ipad",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-galaxy",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-iphone",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/xcuitest",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/selenium",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/cross-browser-testing",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/responsive-design",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/android-emulators",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/device-features",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/earlgrey",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-automate/features",
+      "selectors_key": "website",
+      "tags": ["website", "app-automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-live/fastlane",
+      "selectors_key": "website",
+      "tags": ["website", "app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-live/gradle",
+      "selectors_key": "website",
+      "tags": ["website", "app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/app-live/rest-api",
+      "selectors_key": "website",
+      "tags": ["website", "app-live"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/features",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/careers/dublin-ireland",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/careers/mumbai-india",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/careers/san-francisco-united-states",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/candidate-data-protection-policy",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/company",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/company/fact-sheet",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/cookie-policy",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/emulators-simulators",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/enterprise",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/geolocation-testing",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/github-integration",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/ip-geolocation",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/jira-integration",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/jira-trello-integration",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/slack-integration",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/sub-processors",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-microsoft-edge-browser",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/trello-integration",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/news",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/private-device-cloud",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/automated-functional-testing",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-safari-browser",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-chrome-browser",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/customers",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/integrations/dev-collaboration-tools/github-integration-for-live",
+      "selectors_key": "website",
+      "tags": ["website", "live"]
+    },
+    {
+      "url": "https://www.browserstack.com/real-user-conditions-testing-on-browserstack",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/security",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-in-local-environments",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/data-centers",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/virtual-browser",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/live/features/chrome-developer-tools-mobile",
+      "selectors_key": "website",
+      "tags": ["website", "live"]
+    },
+    {
+      "url": "https://www.browserstack.com/cloud-selenium-grid",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/partners",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/test-on-opera-browser",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/real-device-cloud",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/compatibility-testing",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/dockerize-selenium-test-vs-cloud",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/remote-browser",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/web-application-testing-on-cloud",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/calculating-parallels-on-browserstack",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/performance-testing",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/calculating-parallels-on-browserstack",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/selenium-automation",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/webinars/from-no-qa-to-fully-integrated-qa",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/webinars/ship-high-quality-mobile-apps-with-speed",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/continuous-testing-jenkins-ci",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/browserstack-champions",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/events/summer-of-learning",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/mobile-testing-lab",
+      "selectors_key": "website",
+      "tags": ["website"]
+    },
+    {
+      "url": "https://www.browserstack.com/automated-website-testing",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/automate/cypress",
+      "selectors_key": "website",
+      "tags": ["website", "automate"]
+    },
+    {
+      "url": "https://www.browserstack.com/percy",
+      "selectors_key": "website",
+      "tags": ["website"]
+    }
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://www.browserstack.com/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "article:not(.base-support) h1",
+      "lvl2": "article:not(.base-support) h2",
+      "lvl3": "article:not(.base-support) h3",
+      "lvl4": "article:not(.base-support) h4",
+      "lvl5": "article:not(.base-support) h5",
+      "text": "article:not(.base-support) p, article:not(.base-support) li"
     },
-    "lvl1": "article:not(.base-support) h1",
-    "lvl2": "article:not(.base-support) h2",
-    "lvl3": "article:not(.base-support) h3",
-    "lvl4": "article:not(.base-support) h4",
-    "lvl5": "article:not(.base-support) h5",
-    "text": "article:not(.base-support) p, article:not(.base-support) li"
+    "blog": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": "article:not(.base-support) h1",
+      "lvl2": "article:not(.base-support) h2",
+      "lvl3": "article:not(.base-support) h3",
+      "lvl4": "article:not(.base-support) h4",
+      "lvl5": "article:not(.base-support) h5",
+      "text": "article:not(.base-support) p, article:not(.base-support) li"
+    },
+    "case-study": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Case Study"
+      },
+      "lvl1": "article:not(.base-support) h1",
+      "lvl2": "article:not(.base-support) h2",
+      "lvl3": "article:not(.base-support) h3",
+      "lvl4": "article:not(.base-support) h4",
+      "lvl5": "article:not(.base-support) h5",
+      "text": "article:not(.base-support) p, article:not(.base-support) li"
+    },
+    "docs": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "article:not(.base-support) h1",
+      "lvl2": "article:not(.base-support) h2",
+      "lvl3": "article:not(.base-support) h3",
+      "lvl4": "article:not(.base-support) h4",
+      "lvl5": "article:not(.base-support) h5",
+      "text": "article:not(.base-support) p, article:not(.base-support) li"
+    },
+    "faq": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "FAQs"
+      },
+      "lvl1": "article:not(.base-support) h1",
+      "lvl2": "article:not(.base-support) h2",
+      "lvl3": "article:not(.base-support) h3",
+      "lvl4": "article:not(.base-support) h4",
+      "lvl5": "article:not(.base-support) h5",
+      "text": "article:not(.base-support) p, article:not(.base-support) li"
+    },
+    "guide": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Guide"
+      },
+      "lvl1": "article:not(.base-support) h1",
+      "lvl2": "article:not(.base-support) h2",
+      "lvl3": "article:not(.base-support) h3",
+      "lvl4": "article:not(.base-support) h4",
+      "lvl5": "article:not(.base-support) h5",
+      "text": "article:not(.base-support) p, article:not(.base-support) li"
+    },
+    "pr": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Press Release"
+      },
+      "lvl1": "article:not(.base-support) h1",
+      "lvl2": "article:not(.base-support) h2",
+      "lvl3": "article:not(.base-support) h3",
+      "lvl4": "article:not(.base-support) h4",
+      "lvl5": "article:not(.base-support) h5",
+      "text": "article:not(.base-support) p, article:not(.base-support) li"
+    },
+    "website": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Website"
+      },
+      "lvl1": "article:not(.base-support) h1",
+      "lvl2": "article:not(.base-support) h2",
+      "lvl3": "article:not(.base-support) h3",
+      "lvl4": "article:not(.base-support) h4",
+      "lvl5": "article:not(.base-support) h5",
+      "text": "article:not(.base-support) p, article:not(.base-support) li"
+    }
   },
   "selectors_exclude": [
     ".hash-link"
@@ -37,3 +3482,4 @@
   ],
   "nb_hits": 39924
 }
+
