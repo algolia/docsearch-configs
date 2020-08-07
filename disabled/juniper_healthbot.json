@@ -1,10 +1,10 @@
 {
-  "index_name": "unbounded_adapt",
+  "index_name": "juniper_healthbot",
   "start_urls": [
-    "https://adaptjs.org/docs/"
+    "https://damianoneill.github.io/healthbot/docs/"
   ],
   "sitemap_urls": [
-    "https://adaptjs.org/sitemap.xml"
+    "https://damianoneill.github.io/healthbot/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -32,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "931542525"
+    "963724141"
   ],
-  "nb_hits": 30648
+  "nb_hits": 124
 }

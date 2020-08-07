@@ -1,10 +1,10 @@
 {
-  "index_name": "unbounded_adapt",
+  "index_name": "cmmei",
   "start_urls": [
-    "https://adaptjs.org/docs/"
+    "https://chenmei.xyz"
   ],
   "sitemap_urls": [
-    "https://adaptjs.org/sitemap.xml"
+    "https://chenmei.xyz/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -32,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "931542525"
+    "902996072"
   ],
-  "nb_hits": 30648
+  "nb_hits": 100
 }

@@ -1,11 +1,10 @@
 {
-  "index_name": "muta",
+  "index_name": "codeyourfuture_syllabus",
   "start_urls": [
-    "https://docs.muta.dev/docs/",
-    "https://docs.muta.dev/docs/about/what-is-muta/"
+    "https://syllabus.codeyourfuture.io/"
   ],
   "sitemap_urls": [
-    "https://docs.muta.dev/sitemap.xml"
+    "https://syllabus.codeyourfuture.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,7 +25,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1245706382"
+    "1238659245"
   ],
-  "nb_hits": 1605
+  "nb_hits": 6497
 }

@@ -1,10 +1,10 @@
 {
-  "index_name": "getwisdom_developers",
+  "index_name": "anyrtc",
   "start_urls": [
-    "https://developers.getwisdom.io/"
+    "https://docs.anyrtc.io/rtc-android/docs/"
   ],
   "sitemap_urls": [
-    "https://developers.getwisdom.io/sitemap.xml"
+    "https://docs.anyrtc.io/rtc-android/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -40,7 +40,8 @@
     ]
   },
   "conversation_id": [
-    "1227611703"
+    "1240230599"
   ],
-  "nb_hits": 2283
+  "scrap_start_urls": false,
+  "nb_hits": 5327
 }

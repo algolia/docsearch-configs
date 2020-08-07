@@ -1,10 +1,10 @@
 {
-  "index_name": "unbounded_adapt",
+  "index_name": "wix",
   "start_urls": [
-    "https://adaptjs.org/docs/"
+    "https://dev.wix.com/documentation"
   ],
   "sitemap_urls": [
-    "https://adaptjs.org/sitemap.xml"
+    "https://dev.wix.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -19,7 +19,7 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
-    "lvl5": ".post h5",
+    "lvl5": "FIXME h6",
     "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
@@ -32,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "931542525"
+    "702630193"
   ],
-  "nb_hits": 30648
+  "nb_hits": 15479
 }

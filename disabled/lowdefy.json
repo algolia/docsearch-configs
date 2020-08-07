@@ -1,10 +1,10 @@
 {
-  "index_name": "unbounded_adapt",
+  "index_name": "lowdefy",
   "start_urls": [
-    "https://adaptjs.org/docs/"
+    "https://docs.lowdefy.com/docs/"
   ],
   "sitemap_urls": [
-    "https://adaptjs.org/sitemap.xml"
+    "https://docs.lowdefy.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -32,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "931542525"
+    "964484389"
   ],
-  "nb_hits": 30648
+  "nb_hits": 247
 }

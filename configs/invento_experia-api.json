@@ -1,11 +1,10 @@
 {
-  "index_name": "muta",
+  "index_name": "invento_experia-api",
   "start_urls": [
-    "https://docs.muta.dev/docs/",
-    "https://docs.muta.dev/docs/about/what-is-muta/"
+    "https://experia-on-premises.invento.sa/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.muta.dev/sitemap.xml"
+    "https://experia-on-premises.invento.sa/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,7 +25,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1245706382"
+    "1231751654"
   ],
-  "nb_hits": 1605
+  "nb_hits": 97
 }

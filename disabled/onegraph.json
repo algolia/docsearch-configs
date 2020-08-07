@@ -1,12 +1,8 @@
 {
-  "index_name": "unbounded_adapt",
+  "index_name": "onegraph",
   "start_urls": [
-    "https://adaptjs.org/docs/"
+    "https://dash.onegraph.com/docs"
   ],
-  "sitemap_urls": [
-    "https://adaptjs.org/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -32,7 +28,7 @@
     ]
   },
   "conversation_id": [
-    "931542525"
+    "525113234"
   ],
-  "nb_hits": 30648
+  "nb_hits": 137
 }

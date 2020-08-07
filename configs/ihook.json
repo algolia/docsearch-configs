@@ -1,10 +1,10 @@
 {
-  "index_name": "unbounded_adapt",
+  "index_name": "ihook",
   "start_urls": [
-    "https://adaptjs.org/docs/"
+    "https://ihook.us/docs/"
   ],
   "sitemap_urls": [
-    "https://adaptjs.org/sitemap.xml"
+    "https://ihook.us/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -13,26 +13,16 @@
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Blog"
     },
     "lvl1": ".post h1",
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
-    "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
-  "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
-  },
   "conversation_id": [
-    "931542525"
+    "1229600903"
   ],
-  "nb_hits": 30648
+  "nb_hits": 113
 }

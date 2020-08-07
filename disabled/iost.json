@@ -1,13 +1,11 @@
 {
-  "index_name": "unbounded_adapt",
+  "index_name": "iost",
   "start_urls": [
-    "https://adaptjs.org/docs/"
+    "https://developers.iost.io/"
   ],
-  "sitemap_urls": [
-    "https://adaptjs.org/sitemap.xml"
+  "stop_urls": [
+    "/assets/"
   ],
-  "sitemap_alternate_links": true,
-  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
@@ -19,7 +17,6 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
-    "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
@@ -32,7 +29,8 @@
     ]
   },
   "conversation_id": [
-    "931542525"
+    "678705277"
   ],
-  "nb_hits": 30648
+  "user_agent": "Googlebot",
+  "nb_hits": 23733
 }
