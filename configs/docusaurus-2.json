@@ -18,9 +18,9 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
+    "lvl5": "article h5, article td:first-child",
     "lvl6": "article h6",
-    "text": "article p, article li"
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
@@ -43,5 +43,5 @@
     "833762294"
   ],
   "scrap_start_urls": false,
-  "nb_hits": 8505
+  "nb_hits": 10339
 }

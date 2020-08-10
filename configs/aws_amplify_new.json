@@ -1,15 +1,15 @@
 {
   "index_name": "aws_amplify_new",
-  "sitemap_urls": [
-    "https://docs.amplify.aws/sitemap.xml"
-  ],
   "start_urls": [
     "https://docs.amplify.aws"
+  ],
+  "sitemap_urls": [
+    "https://docs.amplify.aws/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "docs-secondary-nav .link-active span",
+      "selector": "docs-secondary-nav stencil-route-link[class*='css'] span",
       "default_value": "Documentation",
       "global": true
     },
@@ -26,6 +26,20 @@
   "conversation_id": [
     "1115766863"
   ],
-  "nb_hits": 6102,
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "nb_hits": 6070,
   "only_content_level": true
 }

@@ -2,6 +2,12 @@
   "index_name": "collab",
   "start_urls": [
     {
+      "url": "https://docs.collab.net/teamforge202/",
+      "tags": [
+        "teamforge202"
+      ]
+    },
+    {
       "url": "https://docs.collab.net/teamforge201/",
       "tags": [
         "teamforge201"
@@ -88,5 +94,5 @@
   "conversation_id": [
     "555093088"
   ],
-  "nb_hits": 166197
+  "nb_hits": 188052
 }

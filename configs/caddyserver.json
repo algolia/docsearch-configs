@@ -3,7 +3,9 @@
   "start_urls": [
     "https://caddyserver.com/docs/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "handle.*handle"
+  ],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
@@ -21,5 +23,5 @@
   "conversation_id": [
     "1119104529"
   ],
-  "nb_hits": 81681
+  "nb_hits": 29812
 }
