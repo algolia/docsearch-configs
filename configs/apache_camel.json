@@ -62,7 +62,7 @@
       "lvl4": "article h2",
       "lvl5": "article h3",
       "lvl6": {
-        "selector": "div.version-menu a.version.is-current",
+        "selector": "div.nav-panel-explore .version.is-current a",
         "global": true
       },
       "text": "article p, article li"
