@@ -3,72 +3,63 @@
   "start_urls": [
     {
       "url": "https://docs.anyrtc.io/",
-      "selectors_key": "",
-      "tag": ["all"],
+      "tags": ["all"],
       "variables": {
         "lang": ["en", "zh-CN"]
       }
     },
     {
       "url": "https://docs.anyrtc.io/rtc-web/",
-      "selectors_key": "",
-      "tag": ["rtc-web"],
+      "tags": ["rtc-web"],
       "variables": {
         "lang": ["en", "zh-CN"]
       }
     },
     {
       "url": "https://docs.anyrtc.io/rtc-android/",
-      "selectors_key": "",
-      "tag": ["rtc-android"],
+      "tags": ["rtc-android"],
       "variables": {
         "lang": ["en", "zh-CN"]
       }
     },
     {
       "url": "https://docs.anyrtc.io/rtc-ios/",
-      "selectors_key": "",
-      "tag": ["rtc-ios"],
+      "tags": ["rtc-ios"],
       "variables": {
         "lang": ["en", "zh-CN"]
       }
     },
     {
       "url": "https://docs.anyrtc.io/rtc-window/",
-      "selectors_key": "",
-      "tag": ["rtc-window"],
+      "tags": ["rtc-window"],
       "variables": {
         "lang": ["en", "zh-CN"]
       }
     },
     {
       "url": "https://docs.anyrtc.io/rtm-web/",
-      "selectors_key": "",
-      "tag": ["rtm-web"],
+      "tags": ["rtm-web"],
       "variables": {
         "lang": ["en", "zh-CN"]
       }
     },
     {
       "url": "https://docs.anyrtc.io/rtm-android/",
-      "selectors_key": "",
-      "tag": ["rtm-android"],
+      "tags": ["rtm-android"],
       "variables": {
         "lang": ["en", "zh-CN"]
       }
     },
     {
       "url": "https://docs.anyrtc.io/rtm-ios/",
-      "selectors_key": "",
-      "tag": ["rtm-ios"],
+      "tags": ["rtm-ios"],
       "variables": {
         "lang": ["en", "zh-CN"]
       }
     },
     {
       "url": "https://docs.anyrtc.io/rtm-window/",
-      "selectors_key": "",
-      "tag": ["rtm-window"],
+      "tags": ["rtm-window"],
       "variables": {
         "lang": ["en", "zh-CN"]
       }
