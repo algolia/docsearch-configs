@@ -1,0 +1,143 @@
+{
+  "index_name": "numpy",
+  "start_urls": [
+    {
+      "url": "https://numpy.org/nep/",
+      "tags": [
+        "nep"
+      ],
+      "selectors_key": "nep"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/reference",
+      "tags": [
+        "reference",
+        "stable"
+      ],
+      "selectors_key": "reference"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/release",
+      "tags": [
+        "release",
+        "stable"
+      ],
+      "selectors_key": "release"
+    },
+    {
+      "url": "https://numpy.org/doc/stable/",
+      "tags": [
+        "stable"
+      ]
+    },
+    {
+      "url": "https://numpy.org/devdocs/release/",
+      "tags": [
+        "release",
+        "devdocs"
+      ],
+      "selectors_key": "release"
+    },
+    {
+      "url": "https://numpy.org/devdocs/reference/",
+      "tags": [
+        "reference",
+        "devdocs"
+      ],
+      "selectors_key": "reference"
+    },
+    {
+      "url": "https://numpy.org/devdocs/",
+      "tags": [
+        "devdocs"
+      ]
+    },
+    "https://numpy.org/"
+  ],
+  "stop_urls": [
+    "https://numpy.org/doc/\\d"
+  ],
+  "sitemap_urls": [
+    "https://numpy.org/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".section h1, section h1",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".section h2, section h2",
+      "lvl2": ".section h3, section h3",
+      "lvl3": ".section h4, section h4",
+      "lvl4": ".section h5, section h5",
+      "lvl5": ".section h6, section h6",
+      "text": ".section p, section p, .section li, section li"
+    },
+    "nep": {
+      "lvl0": {
+        "selector": "",
+        "gloal": true,
+        "default_value": "NEP"
+      },
+      "lvl1": {
+        "selector": ".section h1, section h1",
+        "gloal": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": ".section h2, section h2",
+      "lvl3": ".section h3, section h3",
+      "lvl4": ".section h4, section h4",
+      "lvl5": ".section h5, section h5",
+      "lvl6": ".section h6, section h6",
+      "text": ".section p, section p, .section li, section li"
+    },
+    "release": {
+      "lvl0": {
+        "selector": "",
+        "gloal": true,
+        "default_value": "Release"
+      },
+      "lvl1": {
+        "selector": ".section h1, section h1",
+        "gloal": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": ".section h2, section h2",
+      "lvl3": ".section h3, section h3",
+      "lvl4": ".section h4, section h4",
+      "lvl5": ".section h5, section h5",
+      "lvl6": ".section h6, section h6",
+      "text": ".section p, section p, .section li, section li"
+    },
+    "reference": {
+      "lvl0": {
+        "selector": "",
+        "gloal": true,
+        "default_value": "Reference"
+      },
+      "lvl1": {
+        "selector": ".section h1, section h1",
+        "gloal": true,
+        "default_value": "Documentation"
+      },
+      "lvl2": ".field-list dl dt",
+      "lvl3": ".section h3, section h3",
+      "lvl4": ".section h4, section h4",
+      "lvl5": ".section h5, section h5",
+      "lvl6": ".section h6, section h6",
+      "text": ".section p, section p, .section li, section li"
+    }
+  },
+  "selectors_exclude": [
+    ".toctree-wrapper",
+    ".seealso"
+  ],
+  "conversation_id": [
+    "1249685571"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 93841
+}
