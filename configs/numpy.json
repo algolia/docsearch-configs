@@ -2,7 +2,7 @@
   "index_name": "numpy",
   "start_urls": [
     {
-      "url": "https://numpy.org/nep/",
+      "url": "https://numpy.org/neps/",
       "tags": [
         "nep"
       ],
@@ -139,5 +139,5 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 93841
+  "nb_hits": 93879
 }
