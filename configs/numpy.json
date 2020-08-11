@@ -164,7 +164,10 @@
   ],
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting":["tags","version"]
+    "attributesForFaceting": [
+      "tags",
+      "version"
+    ]
   },
   "nb_hits": 93877
 }
