@@ -6,51 +6,77 @@
       "tags": [
         "nep"
       ],
+      "extra_attributes": {
+        "version": [
+          "devdocs",
+          "stable"
+        ]
+      },
       "selectors_key": "nep"
     },
     {
       "url": "https://numpy.org/doc/stable/reference",
       "tags": [
-        "reference",
-        "stable"
+        "reference"
       ],
+      "extra_attributes": {
+        "version": [
+          "stable"
+        ]
+      },
       "selectors_key": "reference"
     },
     {
       "url": "https://numpy.org/doc/stable/release",
       "tags": [
-        "release",
-        "stable"
+        "release"
       ],
+      "extra_attributes": {
+        "version": [
+          "stable"
+        ]
+      },
       "selectors_key": "release"
     },
     {
       "url": "https://numpy.org/doc/stable/",
-      "tags": [
-        "stable"
-      ]
+      "extra_attributes": {
+        "version": [
+          "stable"
+        ]
+      }
     },
     {
       "url": "https://numpy.org/devdocs/release/",
       "tags": [
-        "release",
-        "devdocs"
+        "release"
       ],
+      "extra_attributes": {
+        "version": [
+          "devdocs"
+        ]
+      },
       "selectors_key": "release"
     },
     {
       "url": "https://numpy.org/devdocs/reference/",
       "tags": [
-        "reference",
-        "devdocs"
+        "reference"
       ],
+      "extra_attributes": {
+        "version": [
+          "devdocs"
+        ]
+      },
       "selectors_key": "reference"
     },
     {
       "url": "https://numpy.org/devdocs/",
-      "tags": [
-        "devdocs"
-      ]
+      "extra_attributes": {
+        "version": [
+          "devdocs"
+        ]
+      }
     },
     "https://numpy.org/"
   ],
@@ -139,5 +165,5 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 93879
+  "nb_hits": 93877
 }
