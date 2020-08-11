@@ -1,0 +1,24 @@
+{
+  "index_name": "larico_style",
+  "start_urls": [
+    "https://larico.style/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside//a[text()=//article//h1]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h4",
+    "lvl3": "article h5",
+    "lvl4": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1240119998"
+  ],
+  "nb_hits": 233
+}
