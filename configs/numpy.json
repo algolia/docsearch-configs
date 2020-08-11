@@ -163,7 +163,8 @@
     "1249685571"
   ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting":["tags","version"]
   },
   "nb_hits": 93877
 }
