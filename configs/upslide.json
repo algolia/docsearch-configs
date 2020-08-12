@@ -4,6 +4,7 @@
     "https://support.upslide.net/"
   ],
   "stop_urls": [
+    "/blob",
     "\\?"
   ],
   "selectors": {
