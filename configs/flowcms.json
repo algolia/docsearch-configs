@@ -1,14 +1,12 @@
 {
-  "index_name": "shipcloud",
+  "index_name": "flowcms",
   "start_urls": [
-    "https://developers.shipcloud.io"
+    "https://docs.flowcms.xyz/docs/",
+    "https://docs.flowcms.xyz/docs/getting-started/"
   ],
-  "stop_urls": [
-    "/schemas/",
-    "/reference/.+"
-  ],
+  "stop_urls": [],
   "sitemap_urls": [
-    "https://developers.shipcloud.io/sitemap.xml"
+    "https://docs.flowcms.xyz/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -24,7 +22,7 @@
     "text": ".DocSearch-content p, .DocSearch-content li"
   },
   "conversation_id": [
-    "787106858"
+    "1243813331"
   ],
-  "nb_hits": 1786
+  "nb_hits": 54
 }

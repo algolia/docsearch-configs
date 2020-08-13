@@ -1,36 +1,58 @@
 {
   "index_name": "storybook-js",
   "start_urls": [
-    "https://storybook.js.org",
-    "https://storybook.js.org/basics/introduction/"
-  ],
-  "sitemap_urls": [
-    "https://storybook.js.org/docs/sitemap.xml"
+    {
+      "url": "https://storybook.js.org/releases/",
+      "tags": [
+        "releases"
+      ],
+      "selectors_key": "releases"
+    },
+    {
+      "url": "https://storybook.js.org/",
+      "tags": [
+        "docs"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[@id='nav']//a[contains(@class, 'selected')]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'ocsLayout__StyledTableOfContents-')]/li[.//*[@ aria-current]]/button/span/span",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "[class*='DocsScreen__MDWrapper'] h1",
+      "lvl2": "[class*='DocsScreen__MDWrapper'] h2",
+      "lvl3": "[class*='DocsScreen__MDWrapper'] h3",
+      "lvl4": "[class*='DocsScreen__MDWrapper'] h4",
+      "lvl5": "[class*='DocsScreen__MDWrapper'] h5",
+      "text": "[class*='DocsScreen__MDWrapper'] p, [class*='DocsScreen__MDWrapper'] li"
     },
-    "lvl1": "#docs-content h2.title",
-    "lvl2": "#docs-content h2:not(.title)",
-    "lvl3": "#docs-content h3",
-    "lvl4": "#docs-content h4",
-    "lvl5": "#docs-content h4",
-    "lvl6": "#docs-content h5",
-    "text": "#docs-content p, #docs-content li"
+    "releases": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Releases"
+      },
+      "lvl1": "[class*='Release__Wrapper-'] h1",
+      "lvl2": "[class*='Release__Wrapper-'] h2",
+      "lvl3": "[class*='Release__Wrapper-'] h3",
+      "lvl4": "[class*='Release__Wrapper-'] h4",
+      "lvl5": "[class*='Release__Wrapper-'] h5",
+      "text": "[class*='Release__Wrapper-'] p, [class*='Release__Wrapper-'] li"
+    }
   },
   "selectors_exclude": [
-    ".header-anchor"
+    "[class*='Release__EmailWrapper']"
   ],
   "custom_settings": {
     "separatorsToIndex": "_"
   },
   "conversation_id": [
-    "374048318"
+    "1251295597"
   ],
-  "nb_hits": 1277
+  "nb_hits": 2098
 }

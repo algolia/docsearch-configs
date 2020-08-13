@@ -1,7 +1,7 @@
 {
-  "index_name": "blockstack",
+  "index_name": "soundai_azero",
   "start_urls": [
-    "https://docs.blockstack.org/"
+    "https://doc-fat-azero.soundai.cn/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -11,10 +11,10 @@
     "lvl3": "section h4",
     "lvl4": "section h5",
     "lvl5": "section h6",
-    "text": "section p, section li, section ol, section blockquote"
+    "text": "section p, section li"
   },
   "conversation_id": [
-    "1228683294"
+    "1245043382"
   ],
-  "nb_hits": 3872
+  "nb_hits": 831
 }
