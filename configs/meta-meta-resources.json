@@ -1,15 +1,13 @@
 {
-  "index_name": "yoast_developer",
+  "index_name": "meta-meta-resources",
   "start_urls": [
-    "https://developer.yoast.com"
-  ],
-  "stop_urls": [
-    "https://developer.yoast.com/blog/"
+    "https://meta-meta-resources.org/"
   ],
   "sitemap_urls": [
-    "https://developer.yoast.com/sitemap.xml"
+    "https://meta-meta-resources.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
@@ -42,7 +40,7 @@
     ]
   },
   "conversation_id": [
-    "1082863669"
+    "1250345789"
   ],
-  "nb_hits": 2250
+  "nb_hits": 279
 }

@@ -1,11 +1,10 @@
 {
-  "index_name": "axioms_developer",
+  "index_name": "csb-jp",
   "start_urls": [
-    "https://developer.axioms.io/docs/",
-    "https://developer.axioms.io/docs/getting-started/index"
+    "https://csb-jp.github.io/docs/"
   ],
   "sitemap_urls": [
-    "https://developer.axioms.io/sitemap.xml"
+    "https://csb-jp.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,7 +25,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1150759791"
+    "1252269242"
   ],
-  "nb_hits": 611
+  "nb_hits": 104
 }

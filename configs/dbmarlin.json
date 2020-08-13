@@ -1,11 +1,11 @@
 {
   "index_name": "dbmarlin",
   "start_urls": [
-    "https://dbmarlin-docs.netlify.app/docs/",
-    "https://dbmarlin-docs.netlify.app/docs/DBmarlin/introduction"
+    "https://docs.dbmarlin.com/docs",
+    "https://docs.dbmarlin.com/docs/DBmarlin/introduction"
   ],
   "sitemap_urls": [
-    "https://dbmarlin-docs.netlify.app/sitemap.xml"
+    "https://docs.dbmarlin.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -28,5 +28,5 @@
   "conversation_id": [
     "1239960945"
   ],
-  "nb_hits": 117
+  "nb_hits": 167
 }

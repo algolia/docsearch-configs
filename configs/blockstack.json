@@ -3,24 +3,18 @@
   "start_urls": [
     "https://docs.blockstack.org/"
   ],
-  "sitemap_urls": [
-    "https://docs.blockstack.org/sitemap.xml"
-  ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li, section ol, section blockquote"
   },
-  "selectors_exclude": [
-    "#markdown-toc"
-  ],
   "conversation_id": [
     "1228683294"
   ],
-  "nb_hits": 4807
+  "nb_hits": 3872
 }

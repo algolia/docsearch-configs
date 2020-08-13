@@ -1,11 +1,10 @@
 {
-  "index_name": "axioms_developer",
+  "index_name": "decipher_dev",
   "start_urls": [
-    "https://developer.axioms.io/docs/",
-    "https://developer.axioms.io/docs/getting-started/index"
+    "https://decipher.dev/docs/"
   ],
   "sitemap_urls": [
-    "https://developer.axioms.io/sitemap.xml"
+    "https://decipher.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,7 +25,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1150759791"
+    "1245105314"
   ],
-  "nb_hits": 611
+  "nb_hits": 19
 }

@@ -6,20 +6,20 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//li[contains(@class, 'affix__list__item')]//a[contains(@class, 'nuxt-link-active')][1]/preceding::h3[1]",
+      "selector": "//li[contains(@class, 'doc__menu__list__item')]//a[contains(@class, 'nuxt-link-active')][1]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".doc-category__content h1",
-    "lvl2": ".doc-category__content h2",
-    "lvl3": ".doc-category__content h3",
-    "lvl4": ".doc-category__content h4",
-    "lvl5": ".doc-category__content h5",
-    "text": ".doc-category__content p, .doc-category__content li"
+    "lvl1": ".doc-content h1",
+    "lvl2": ".doc-content h2",
+    "lvl3": ".doc-content h3",
+    "lvl4": ".doc-content h4",
+    "lvl5": ".doc-content h5",
+    "text": ".doc-content p, .doc-content li"
   },
   "conversation_id": [
     "631054758"
   ],
-  "nb_hits": 297
+  "nb_hits": 532
 }
