@@ -1,6 +1,8 @@
 {
   "index_name": "blockstack",
-  "start_urls": ["https://docs.blockstack.org/"],
+  "start_urls": [
+    "https://docs.blockstack.org/"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "section h1",
@@ -11,6 +13,8 @@
     "lvl5": "section h6",
     "text": "section p, section li, section ol, section blockquote"
   },
-  "conversation_id": ["1228683294"],
-  "nb_hits": 4807
+  "conversation_id": [
+    "1228683294"
+  ],
+  "nb_hits": 3872
 }
