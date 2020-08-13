@@ -1,13 +1,13 @@
 {
   "index_name": "pomerium",
   "start_urls": [
-    "https://www.pomerium.io/docs/",
-    "https://www.pomerium.io/configuration/",
-    "https://www.pomerium.io/recipes/"
+    "https://www.pomerium.com/docs/",
+    "https://www.pomerium.com/reference/",
+    "https://www.pomerium.com/guides/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://www.pomerium.io/sitemap.xml"
+    "https://www.pomerium.com/docs_sitemap.xml"
   ],
   "selectors": {
     "lvl0": "[class*='content '] h1",
@@ -33,5 +33,5 @@
   "conversation_id": [
     "914097876"
   ],
-  "nb_hits": 2362
+  "nb_hits": 2558
 }

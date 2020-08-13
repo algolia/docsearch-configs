@@ -1,0 +1,26 @@
+{
+  "index_name": "deno_manual",
+  "start_urls": [
+    "https://deno.land/manual"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".markdown h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h2",
+    "lvl2": ".markdown h3",
+    "lvl3": ".markdown h4",
+    "lvl4": ".markdown h5",
+    "lvl5": ".markdown h6",
+    "text": ".markdown p, .markdown li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": [
+    "1234284749"
+  ],
+  "nb_hits": 868
+}
