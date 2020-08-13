@@ -3,7 +3,9 @@
   "start_urls": [
     "https://developer.yoast.com"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://developer.yoast.com/blog/"
+  ],
   "sitemap_urls": [
     "https://developer.yoast.com/sitemap.xml"
   ],
@@ -42,5 +44,5 @@
   "conversation_id": [
     "1082863669"
   ],
-  "nb_hits": 6605
+  "nb_hits": 2250
 }
