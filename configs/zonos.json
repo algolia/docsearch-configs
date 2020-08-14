@@ -35,7 +35,7 @@
     "lvl4": "#main-content h4",
     "text": "#main-content p, #main-content li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "js_render": true,
   "conversation_id": [
     "469038186"

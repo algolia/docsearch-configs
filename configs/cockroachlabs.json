@@ -35,7 +35,7 @@
     "text": ".post-content p, .post-content li"
   },
   "only_content_level": true,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "h2#whats-next",
     "h2#whats-next ~ ul",

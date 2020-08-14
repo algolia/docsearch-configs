@@ -18,7 +18,7 @@
     "lvl5": ".topic h5",
     "text": ".topic p, .topic li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "js_render": true,
   "conversation_id": [
     "576873639"
