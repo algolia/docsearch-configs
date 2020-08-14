@@ -9,7 +9,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "#breadcrumb div",
+      "selector": "#sectionBreadcrumb div",
       "global": true,
       "default_value": "Documentation"
     },
