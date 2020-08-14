@@ -56,7 +56,7 @@
       "text": ".markdown p, .markdown li, .markdown td:last-child"
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     ".markdown > p:first-child + ul li a"
   ],

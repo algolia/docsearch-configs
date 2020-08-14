@@ -69,7 +69,7 @@
   "sitemap_urls": [
     "https://docs.secmaker.com/sitemap.xml"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "stop_urls": [
     "/_"
   ],

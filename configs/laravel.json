@@ -42,7 +42,7 @@
     "lvl5": ".docs_main h5",
     "text": ".docs_main p, .docs_main li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "h1 + ul"
   ],

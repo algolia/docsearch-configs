@@ -22,7 +22,7 @@
     "lvl4": ".fusion-column-wrapper h5",
     "text": ".fusion-column-wrapper p, .fusion-column-wrapper li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "1132865837"
   ],

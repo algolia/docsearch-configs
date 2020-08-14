@@ -13,7 +13,7 @@
     "lvl5": ".post h6",
     "text": ".post p, .post li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "547690260"
   ],
