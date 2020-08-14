@@ -6,7 +6,8 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".markdown h1",
+      "selector": "(//nav/ol/li[.//*[contains(@class,'active')]]/a | //*[contains(@class,'markdown')]//h1)[1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -22,5 +23,5 @@
   "conversation_id": [
     "1234284749"
   ],
-  "nb_hits": 868
+  "nb_hits": 872
 }
