@@ -1,7 +1,8 @@
 {
   "index_name": "supercodepower",
   "start_urls": [
-    "https://supercodepower.com/docs/"
+    "https://supercodepower.com/docs/",
+    "https://supercodepower.com/"
   ],
   "sitemap_urls": [
     "https://supercodepower.com/sitemap.xml"
