@@ -1,11 +1,10 @@
 {
-  "index_name": "dbmarlin",
+  "index_name": "glartek",
   "start_urls": [
-    "https://docs.dbmarlin.com/docs",
-    "https://docs.dbmarlin.com/docs/DBmarlin/introduction"
+    "https://glardocs.glartek.workers.dev/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.dbmarlin.com/sitemap.xml"
+    "https://glardocs.glartek.workers.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,7 +25,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1239960945"
+    "1250114293"
   ],
-  "nb_hits": 217
+  "nb_hits": 1043
 }

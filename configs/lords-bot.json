@@ -1,11 +1,10 @@
 {
-  "index_name": "dbmarlin",
+  "index_name": "lords-bot",
   "start_urls": [
-    "https://docs.dbmarlin.com/docs",
-    "https://docs.dbmarlin.com/docs/DBmarlin/introduction"
+    "https://help.lords-bot.com/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.dbmarlin.com/sitemap.xml"
+    "https://help.lords-bot.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,7 +25,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1239960945"
+    "1253870079"
   ],
-  "nb_hits": 217
+  "nb_hits": 311
 }

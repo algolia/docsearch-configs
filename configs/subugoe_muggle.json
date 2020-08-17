@@ -1,22 +1,22 @@
 {
-  "index_name": "rstudio_thematic",
+  "index_name": "subugoe_muggle",
   "start_urls": [
     {
-      "url": "https://rstudio.github.io/thematic/index.html",
+      "url": "https://subugoe.github.io/muggle/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://rstudio.github.io/thematic/reference",
+      "url": "https://subugoe.github.io/muggle/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://rstudio.github.io/thematic/articles",
+      "url": "https://subugoe.github.io/muggle/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -24,7 +24,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://rstudio.github.io/thematic/sitemap.xml"
+    "https://subugoe.github.io/muggle/sitemap.xml"
   ],
   "stop_urls": [
     "/reference/$",
@@ -91,7 +91,7 @@
     ]
   },
   "conversation_id": [
-    "1244390189"
+    "1252633863"
   ],
-  "nb_hits": 287
+  "nb_hits": 106
 }

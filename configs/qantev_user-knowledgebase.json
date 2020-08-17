@@ -1,11 +1,10 @@
 {
-  "index_name": "dbmarlin",
+  "index_name": "qantev_user-knowledgebase",
   "start_urls": [
-    "https://docs.dbmarlin.com/docs",
-    "https://docs.dbmarlin.com/docs/DBmarlin/introduction"
+    "https://qantev.github.io/user-knowledgebase/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.dbmarlin.com/sitemap.xml"
+    "https://qantev.github.io/user-knowledgebase/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,7 +25,7 @@
     ".hash-link"
   ],
   "conversation_id": [
-    "1239960945"
+    "1250192990"
   ],
-  "nb_hits": 217
+  "nb_hits": 273
 }

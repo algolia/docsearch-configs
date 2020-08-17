@@ -1,0 +1,34 @@
+{
+  "index_name": "juphoon_developer",
+  "start_urls": [
+    "https://developer.juphoon.com/"
+  ],
+  "stop_urls": [
+    "/portal/"
+  ],
+  "sitemap_urls": [
+    "https://developer.juphoon.com/doc/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".title_name",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".mcont h1",
+    "lvl2": ".mcont h2",
+    "lvl3": ".mcont h3",
+    "lvl4": ".mcont h4",
+    "lvl5": ".mcont h5",
+    "text": ".mcont p, .mcont li"
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1244675923"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 16673
+}

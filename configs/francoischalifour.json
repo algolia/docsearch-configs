@@ -4,19 +4,22 @@
     "https://francoischalifour.com/"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://francoischalifour.com/sitemap.xml"
+  ],
   "selectors": {
-    "lvl0": "article h1",
+    "lvl0": {
+      "selector": "article h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": ".post h2",
     "lvl2": ".post h3",
     "lvl3": ".post h4",
     "lvl4": ".post h5",
     "lvl5": ".post h6",
-    "text": ".post p, .post li"
+    "text": ".post p, .post li, header p"
   },
-  "scrape_start_urls": false,
-  "conversation_id": [
-    "547690260"
-  ],
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -33,6 +36,10 @@
   },
   "selectors_exclude": [
     ".post p span"
+  ],
+  "scrape_start_urls": false,
+  "conversation_id": [
+    "547690260"
   ],
   "nb_hits": 503
 }

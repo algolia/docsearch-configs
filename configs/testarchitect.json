@@ -9,7 +9,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "#sectionBreadcrumb div",
+      "selector": ".sectionBreadcrumb > a:first-child",
       "global": true,
       "default_value": "Documentation"
     },
@@ -25,5 +25,5 @@
   "conversation_id": [
     "1236749708"
   ],
-  "nb_hits": 51854
+  "nb_hits": 57421
 }

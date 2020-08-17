@@ -1,0 +1,101 @@
+{
+  "index_name": "nus-tic2002-2020",
+  "start_urls": [
+    {
+      "url": "https://nus-tic2002-2020.github.io/website/schedule/",
+      "selectors_key": "schedule",
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "url": "https://nus-tic2002-2020.github.io/website/admin/",
+      "selectors_key": "admin",
+      "tags": [
+        "admin"
+      ]
+    },
+    {
+      "url": "https://nus-tic2002-2020.github.io/website/se-book-adapted/",
+      "selectors_key": "se-book-adapted",
+      "tags": [
+        "se-book-adapted"
+      ]
+    },
+    "https://nus-tic2002-2020.github.io/website/"
+  ],
+  "stop_urls": [
+    "printable",
+    "\\d/index.html",
+    "/book/",
+    "print\\.html$"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Other"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h2",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
+      "text": ".website-content p, .website-content li, .website-content .table td"
+    },
+    "admin": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Admin Info"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h2",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
+      "text": ".website-content p, .website-content li, .website-content .table td"
+    },
+    "se-book-adapted": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Textbook"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h2",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
+      "lvl6": ".website-content h6",
+      "text": ".website-content panel p, .website-content panel li, .website-content panel .table td"
+    },
+    "schedule": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Schedule"
+      },
+      "lvl1": ".website-content h1",
+      "lvl2": ".website-content h2",
+      "lvl3": ".website-content h3",
+      "lvl4": ".website-content h4",
+      "lvl5": ".website-content h5",
+      "text": ".website-content p, .website-content li, .website-content .table td"
+    }
+  },
+  "selectors_exclude": [
+    ".algolia-no-index",
+    "[id$='-toc']",
+    "#toc",
+    ".alert"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1231884278"
+  ],
+  "nb_hits": 14149
+}

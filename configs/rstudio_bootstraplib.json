@@ -1,22 +1,22 @@
 {
-  "index_name": "rstudio_thematic",
+  "index_name": "rstudio_bootstraplib",
   "start_urls": [
     {
-      "url": "https://rstudio.github.io/thematic/index.html",
+      "url": "https://rstudio.github.io/bootstraplib/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://rstudio.github.io/thematic/reference",
+      "url": "https://rstudio.github.io/bootstraplib/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://rstudio.github.io/thematic/articles",
+      "url": "https://rstudio.github.io/bootstraplib/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -24,7 +24,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://rstudio.github.io/thematic/sitemap.xml"
+    "https://rstudio.github.io/bootstraplib/sitemap.xml"
   ],
   "stop_urls": [
     "/reference/$",
@@ -91,7 +91,7 @@
     ]
   },
   "conversation_id": [
-    "1244390189"
+    "1252490670"
   ],
-  "nb_hits": 287
+  "nb_hits": 236
 }
