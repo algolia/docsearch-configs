@@ -3,7 +3,9 @@
   "start_urls": [
     {
       "url": "https://docs.anyrtc.io/",
-      "tags": ["all"]
+      "tags": [
+        "all"
+      ]
     }
   ],
   "sitemap_urls": [
@@ -46,5 +48,5 @@
     "1240230599"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 5327
+  "nb_hits": 27244
 }
