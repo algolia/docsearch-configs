@@ -31,7 +31,7 @@
       "text": ".content p, .content li"
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "selectors_exclude": [
     ".container-overview",

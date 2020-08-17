@@ -45,7 +45,7 @@
     ]
   },
   "only_content_level": true,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "js_render": true,
   "nb_hits": 12915
 }
