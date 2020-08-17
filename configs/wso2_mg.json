@@ -3,6 +3,16 @@
   "start_urls": [
     "https://mg.docs.wso2.com/en/latest/"
   ],
+  "sitemap_urls": [
+    "https://mg.docs.wso2.com/en/latest/sitemap.xml",
+    "https://mg.docs.wso2.com/en/3.2.0/sitemap.xml"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "stop_urls": [],
   "selectors": {
     "lvl0": "article h1",
