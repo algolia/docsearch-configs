@@ -1,14 +1,8 @@
 {
   "index_name": "workers-cloudflare",
-  "start_urls": [
-    "https://developers.cloudflare.com/workers"
-  ],
-  "stop_urls": [
-    "https://developers.cloudflare.com/workers/archive"
-  ],
-  "sitemap_urls": [
-    "https://developers.cloudflare.com/workers/sitemap.xml"
-  ],
+  "start_urls": ["https://developers.cloudflare.com/workers"],
+  "stop_urls": ["https://developers.cloudflare.com/workers/archive"],
+  "sitemap_urls": ["https://developers.cloudflare.com/workers/sitemap.xml"],
   "selectors": {
     "lvl0": "#body-inner h1",
     "lvl1": "#body-inner h2",
@@ -18,8 +12,6 @@
     "lvl5": "#body-inner h6",
     "text": "#body-inner p, #body-inner li"
   },
-  "conversation_id": [
-    "869270550"
-  ],
+  "conversation_id": ["869270550"],
   "nb_hits": 2716
 }
