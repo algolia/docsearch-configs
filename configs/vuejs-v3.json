@@ -27,7 +27,7 @@
   },
   "strip_chars": " .,;:#",
   "selectors_exclude": [
-    "blockquote"
+    "h1 + blockquote"
   ],
   "scrape_start_urls": false,
   "custom_settings": {
@@ -47,5 +47,5 @@
   "conversation_id": [
     "1239032924"
   ],
-  "nb_hits": 3639
+  "nb_hits": 3659
 }
