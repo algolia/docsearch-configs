@@ -1,10 +1,15 @@
 {
   "index_name": "anyrtc",
   "start_urls": [
-    "https://docs.anyrtc.io/rtc-android/docs/"
+    {
+      "url": "https://docs.anyrtc.io/",
+      "tags": [
+        "all"
+      ]
+    }
   ],
   "sitemap_urls": [
-    "https://docs.anyrtc.io/rtc-android/sitemap.xml"
+    "https://docs.anyrtc.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -42,6 +47,6 @@
   "conversation_id": [
     "1240230599"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 5327
+  "scrape_start_urls": false,
+  "nb_hits": 27244
 }

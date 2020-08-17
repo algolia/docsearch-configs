@@ -45,9 +45,9 @@
       "lvl1": ".markdown h1",
       "lvl2": ".markdown h2",
       "lvl3": ".markdown h3",
-      "lvl4": ".markdown h4",
+      "lvl4": ".markdown h4, .markdown td:first-child",
       "lvl5": ".markdown h5",
-      "text": ".markdown > p, .markdown > ul li, .markdown td:first-child, .markdown .text-gray-600"
+      "text": ".markdown > p, .markdown > ul li, .markdown td:not(:first-child), .markdown .text-gray-600"
     }
   },
   "selectors_exclude": [
@@ -58,12 +58,22 @@
   "custom_settings": {
     "attributesForFaceting": [
       "version",
+      "type",
       "tags"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ],
     "separatorsToIndex": "@_"
   },
+  "js_render": true,
   "conversation_id": [
     "459164857"
   ],
-  "nb_hits": 6249
+  "nb_hits": 11860
 }

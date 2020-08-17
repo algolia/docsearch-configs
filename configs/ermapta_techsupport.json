@@ -1,0 +1,21 @@
+{
+  "index_name": "ermapta_techsupport",
+  "start_urls": [
+    "https://techsupport.ermapta.org"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".td-content h1",
+    "lvl1": ".td-content h2",
+    "lvl2": ".td-content h3",
+    "lvl3": ".td-content h4",
+    "lvl4": ".td-content h5",
+    "lvl5": ".td-content h6",
+    "text": ".td-content p, .td-content li"
+  },
+  "conversation_id": [
+    "1248871769"
+  ],
+  "scrap_start_urls": false,
+  "nb_hits": 371
+}

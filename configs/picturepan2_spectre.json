@@ -16,7 +16,7 @@
     "lvl3": "#content h5",
     "text": "#content p, #content li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
     "710385551"

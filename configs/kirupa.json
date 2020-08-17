@@ -67,7 +67,7 @@
       "text": "#mainContent > p, #mainContent > li"
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     ".tutorialInfo",
     ".homeList",

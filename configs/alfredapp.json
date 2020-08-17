@@ -12,6 +12,6 @@
     "lvl4": "#helparticle h5",
     "text": "#helparticle p, #helparticle li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "nb_hits": 3377
 }

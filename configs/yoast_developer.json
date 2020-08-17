@@ -4,23 +4,45 @@
     "https://developer.yoast.com"
   ],
   "stop_urls": [
-    "https://developer.yoast.com/blog/?(.*)?"
+    "https://developer.yoast.com/blog/"
   ],
   "sitemap_urls": [
     "https://developer.yoast.com/sitemap.xml"
   ],
+  "sitemap_alternate_links": true,
   "selectors": {
-    "lvl0": "header h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "conversation_id": [
     "1082863669"
   ],
-  "nb_hits": 1691
+  "nb_hits": 2250
 }

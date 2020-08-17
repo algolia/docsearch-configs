@@ -18,10 +18,8 @@
     "lvl5": "[data-testid='main-container'] h6",
     "text": "[data-testid='main-container'] p, [data-testid='main-container'] li"
   },
-  "js_wait": 1,
-  "js_render": true,
   "conversation_id": [
     "1225910693"
   ],
-  "nb_hits": 57
+  "nb_hits": 171
 }

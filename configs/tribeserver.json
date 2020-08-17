@@ -24,7 +24,7 @@
   "sitemap_urls": [
     "https://wayfinder.coventry.ac.uk/sitemap.xml"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
