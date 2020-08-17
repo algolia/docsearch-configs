@@ -39,7 +39,7 @@
   "selectors_exclude": [
     ".toc"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
     "1069837242"

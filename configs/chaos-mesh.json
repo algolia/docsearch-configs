@@ -24,7 +24,7 @@
   "selectors_exclude": [
     ".hash-link"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "1191556187"
   ],

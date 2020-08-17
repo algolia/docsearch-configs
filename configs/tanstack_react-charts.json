@@ -33,7 +33,7 @@
       "type"
     ]
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "1236201455"
   ],

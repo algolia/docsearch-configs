@@ -87,7 +87,7 @@
     "text": ".post-content p, .post-content li, .post-content .summary"
   },
   "min_indexed_level": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "#toc"
   ],
