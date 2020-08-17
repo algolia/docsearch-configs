@@ -50,10 +50,13 @@
   ],
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["framework", "tags"]
+    "attributesForFaceting": [
+      "framework",
+      "tags"
+    ]
   },
   "conversation_id": [
     "1251295597"
   ],
-  "nb_hits": 2098
+  "nb_hits": 2422
 }
