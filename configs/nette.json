@@ -8,9 +8,11 @@
     "https://tracy.nette.org",
     "https://tester.nette.org"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\?"
+  ],
   "selectors": {
-    "lvl0": ".wiki h1",
+    "lvl0": "h1",
     "lvl1": ".wiki h2",
     "lvl2": ".wiki h3",
     "lvl3": ".wiki h4",
@@ -37,5 +39,5 @@
   "conversation_id": [
     "910886313"
   ],
-  "nb_hits": 28836
+  "nb_hits": 31824
 }

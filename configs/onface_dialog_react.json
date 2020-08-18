@@ -15,7 +15,7 @@
     "lvl4": ".markdown-content h5",
     "text": ".markdown-content p, .markdown-content li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "484138288"
   ],

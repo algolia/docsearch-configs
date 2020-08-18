@@ -1,0 +1,33 @@
+{
+  "index_name": "decipher_dev",
+  "start_urls": [
+    "https://decipher.dev/"
+  ],
+  "sitemap_urls": [
+    "https://decipher.dev/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "/tags/",
+    "https://decipher.dev/blog/$"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "article h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "1245105314"
+  ],
+  "nb_hits": 121
+}

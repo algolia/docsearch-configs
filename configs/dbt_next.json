@@ -1,0 +1,34 @@
+{
+  "index_name": "dbt_next",
+  "start_urls": [
+    "https://next.docs.getdbt.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://next.docs.getdbt.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "[class*='docSidebarContainer_'] .menu > ul > li > .menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4, article td:first-child",
+    "lvl5": "article h5",
+    "text": "article p, article li, article td:not(:first-child)"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1247645296"
+  ],
+  "nb_hits": 3631
+}
