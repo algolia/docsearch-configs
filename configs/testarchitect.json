@@ -9,7 +9,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".sectionBreadcrumb > a:first-child",
+      "selector": ".sectionBreadcrumb > a:last-child",
       "global": true,
       "default_value": "Documentation"
     },
