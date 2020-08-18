@@ -1,5 +1,5 @@
 {
-  "index_name": "workers-cloudflare-v2",
+  "index_name": "cloudflare-workers-v2",
   "start_urls": [
     "https://workers.cloudflaredocs.workers.dev"
   ],
@@ -16,7 +16,11 @@
     "lvl5": ".DocsContent h6",
     "text": ".DocsContent p, .DocsContent li"
   },
+  "selectors_exclude": [
+    "h1 + ul"
+  ],
   "conversation_id": [
     "1253962701"
-  ]
+  ],
+  "nb_hits": 3319
 }
