@@ -10,7 +10,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".wiki h1",
+    "lvl0": "h1",
     "lvl1": ".wiki h2",
     "lvl2": ".wiki h3",
     "lvl3": ".wiki h4",
