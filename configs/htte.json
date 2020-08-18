@@ -12,7 +12,7 @@
     "lvl4": ".article .inner h5",
     "text": ".article .inner p, .article .inner li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "575182334"
   ],

@@ -30,6 +30,6 @@
   "conversation_id": [
     "900515943"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "nb_hits": 26
 }

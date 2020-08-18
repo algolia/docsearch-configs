@@ -49,10 +49,14 @@
     "[class*='Release__EmailWrapper']"
   ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "framework",
+      "tags"
+    ]
   },
   "conversation_id": [
     "1251295597"
   ],
-  "nb_hits": 2098
+  "nb_hits": 2422
 }
