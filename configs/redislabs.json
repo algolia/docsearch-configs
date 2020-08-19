@@ -28,7 +28,26 @@
     ".main-content #toc"
   ],
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "attributesToIndex": [
+      "hierarchy_camel.lvl1",
+      "hierarchy.lvl1",
+      "unordered(hierarchy_camel.lvl2)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy_camel.lvl3)",
+      "unordered(hierarchy.lvl3)",
+      "unordered(hierarchy_camel.lvl4)",
+      "unordered(hierarchy.lvl4)",
+      "unordered(hierarchy_camel.lvl5)",
+      "unordered(hierarchy.lvl5)",
+      "unordered(hierarchy_camel.lvl6)",
+      "unordered(hierarchy.lvl6)",
+      "content"
+    ],
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "asc(weight.position)"
+    ]
   },
   "conversation_id": [
     "706782001"
