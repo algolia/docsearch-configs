@@ -1,10 +1,10 @@
 {
   "index_name": "asta86-techdocs",
   "start_urls": [
-    "https://asta86.gitlab.io/techdocs/docs/"
+    "https://maybelambda.cf/techdocs/docs/"
   ],
   "sitemap_urls": [
-    "https://asta86.gitlab.io/techdocs/sitemap.xml"
+    "https://maybelambda.cf/techdocs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
