@@ -1,10 +1,10 @@
 {
   "index_name": "stormapp",
   "start_urls": [
-    "https://docs2.stormapp.com/"
+    "https://docs.stormapp.com/"
   ],
   "sitemap_urls": [
-    "https://docs2.stormapp.com/sitemap.xml"
+    "https://docs.stormapp.com/sitemap.xml"
   ],
   "stop_urls": [
     "\\?"
