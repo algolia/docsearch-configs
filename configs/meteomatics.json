@@ -1,8 +1,8 @@
 {
   "index_name": "meteomatics",
   "start_urls": [
-    "https://www.meteomatics.com/en/api/",
-    "https://www.meteomatics.com/en/api/getting-started/"
+    "https://www.meteomatics.com/api/",
+    "https://www.meteomatics.com/api/getting-started/"
   ],
   "stop_urls": [],
   "selectors": {
