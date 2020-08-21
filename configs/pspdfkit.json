@@ -72,23 +72,22 @@
     },
     "ios": {
       "lvl0": ".main-content h1",
-      "lvl1": ".main-content h2",
-      "lvl2": ".main-content h3",
-      "lvl3": ".main-content .item .token",
+      "lvl1": ".main-content h3",
+      "lvl2": ".main-content .item .token",
       "text": ".main-content p"
     },
     "macos": {
       "lvl0": ".main-content h1",
-      "lvl1": ".main-content h2",
-      "lvl2": ".main-content h3",
-      "lvl3": ".main-content .item .token",
+      "lvl1": ".main-content h3",
+      "lvl2": ".main-content .item .token",
       "text": ".main-content p"
     }
   },
   "selectors_exclude": [
     ".web-seealso-subsection",
     ".web-seealso-list li",
-    ".main-content .aside-title"
+    ".main-content .aside-title",
+    ".main-content .heading"
   ],
   "conversation_id": [
     "665157930"
