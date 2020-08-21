@@ -1,0 +1,38 @@
+{
+  "index_name": "webinarfly",
+  "start_urls": [
+    "https://docs.webinarfly.de/docs/"
+  ],
+  "sitemap_urls": [
+    "https://docs.webinarfly.de/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1260535579"
+  ],
+  "nb_hits": 853
+}
