@@ -1,0 +1,24 @@
+{
+  "index_name": "randallwilk",
+  "start_urls": [
+    "https://docs.randallwilk.dev"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.randallwilk.dev/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "scrape_start_urls": false,
+  "conversation_id": [
+    "1256213501"
+  ],
+  "nb_hits": 461
+}
