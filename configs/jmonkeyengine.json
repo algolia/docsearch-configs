@@ -1,7 +1,12 @@
 {
   "index_name": "jmonkeyengine",
   "start_urls": [
-    "https://wiki.jmonkeyengine.org/"
+    {
+      "https://wiki.jmonkeyengine.org/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": ["3.3", "3.2"]
+      }
+    }
   ],
   "stop_urls": [],
   "sitemap_urls": [
