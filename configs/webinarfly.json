@@ -10,7 +10,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "selector": "//*[contains(@class,'main-wrapper')]//*[@aria-current='page']/preceding::*[contains(@class,'active')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
