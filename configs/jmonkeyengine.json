@@ -4,7 +4,10 @@
     {
       "url": "https://wiki.jmonkeyengine.org/docs/(?P<version>.*?)/",
       "variables": {
-        "version": ["3.3", "3.2"]
+        "version": [
+          "3.3",
+          "3.2"
+        ]
       }
     }
   ],
@@ -24,5 +27,5 @@
   "conversation_id": [
     "215975793"
   ],
-  "nb_hits": 18800
+  "nb_hits": 33422
 }
