@@ -12,6 +12,10 @@
     {
       "url": "https://cakeissues.net/docs/",
       "page_rank": 5
+    },
+    {
+      "url": "https://cakeissues.net/news/",
+      "page_rank": 0
     }
   ],
   "stop_urls": [],
