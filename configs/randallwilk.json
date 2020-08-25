@@ -17,6 +17,12 @@
     "text": ".content p, .content li"
   },
   "scrape_start_urls": false,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "project"
+    ]
+  },
   "conversation_id": [
     "1256213501"
   ],

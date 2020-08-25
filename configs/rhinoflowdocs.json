@@ -1,10 +1,11 @@
 {
-  "index_name": "rancher",
+  "index_name": "rhinoflowdocs",
   "start_urls": [
-    "https://rancher-2-3.docs.rancher.cn/"
+    "https://rhinoflowdocs.rhinoitsolutions.com/docs/",
+    "https://rhinoflowdocs.rhinoitsolutions.com/docs/api/home"
   ],
   "sitemap_urls": [
-    "https://rancher-2-3.docs.rancher.cn/sitemap.xml"
+    "https://rhinoflowdocs.rhinoitsolutions.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -40,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1099719207"
+    "1260067066"
   ],
-  "nb_hits": 24649
+  "nb_hits": 299
 }

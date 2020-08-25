@@ -1,0 +1,25 @@
+{
+  "index_name": "bedrock",
+  "start_urls": [
+    "https://bedrock.dev/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs-content h1:first-child",
+    "lvl1": ".docs-content h1:not(:first-child)",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content h5",
+    "lvl6": ".docs-content h6",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1260030631"
+  ],
+  "nb_hits": 2076
+}
