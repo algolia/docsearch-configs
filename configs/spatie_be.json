@@ -43,12 +43,12 @@
     "/edit$"
   ],
   "selectors": {
-    "lvl0": "wrap h1",
-    "lvl1": "wrap h2",
-    "lvl2": "wrap h3",
-    "lvl3": "wrap h4",
-    "lvl4": "wrap h5",
-    "text": "wrap p"
+    "lvl0": ".wrap h1",
+    "lvl1": ".wrap h2",
+    "lvl2": ".wrap h3",
+    "lvl3": ".wrap h4",
+    "lvl4": ".wrap h5",
+    "text": ".wrap p"
   },
   "selectors_exclude": [
     "footer",
