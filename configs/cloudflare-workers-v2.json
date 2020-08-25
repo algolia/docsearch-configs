@@ -1,11 +1,11 @@
 {
   "index_name": "cloudflare-workers-v2",
   "start_urls": [
-    "https://workers.cloudflaredocs.workers.dev"
+    "https://developers.cloudflare.com/workers"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://workers.cloudflaredocs.workers.dev/sitemap.xml"
+    "https://developers.cloudflare.com/workers/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".DocsContent h1",
@@ -22,5 +22,5 @@
   "conversation_id": [
     "1253962701"
   ],
-  "nb_hits": 3319
+  "nb_hits": 3494
 }
