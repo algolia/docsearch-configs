@@ -27,7 +27,6 @@
       "text": ".article p, .article li, .article ol"
     },
     "custom_settings": {
-      "advancedSyntax": true,
       "separatorsToIndex": "-_"
     },
     "selectors_exclude": [],
