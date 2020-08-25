@@ -2,7 +2,7 @@
   "index_name": "spatie_be",
   "start_urls": [
     {
-      "url": "https://docs.spatie.be/(?P<project>.*?)/(?P<version>.*?)/",
+      "url": "https://spatie.be/docs/(?P<project>.*?)/(?P<version>.*?)/",
       "variables": {
         "version": [
           "v1",
@@ -15,24 +15,26 @@
           "v8"
         ],
         "project": [
-          "laravel-medialibrary",
-          "menu",
-          "laravel-activitylog",
-          "laravel-slack-slash-command",
-          "laravel-tags",
-          "laravel-uptime-monitor",
-          "image",
-          "laravel-server-monitor",
           "laravel-backup",
-          "laravel-html",
-          "laravel-event-projector",
-          "laravel-event-sourcing",
-          "laravel-backup-server",
+          "laravel-medialibrary",
           "laravel-blade-x",
+          "laravel-tags",
+          "laravel-activitylog",
+          "laravel-html",
+          "laravel-server-monitor",
+          "laravel-uptime-monitor",
+          "laravel-slack-slash-command",
+          "menu",
+          "image",
+          "enum",
+          "laravel-model-states",
           "laravel-permission",
           "laravel-query-builder",
+          "laravel-event-sourcing",
+          "laravel-resource-links",
+          "laravel-backup-server",
+          "laravel-dashboard",
           "laravel-multitenancy",
-          "enum"
         ]
       }
     }
@@ -41,12 +43,12 @@
     "/edit$"
   ],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "text": "article p"
+    "lvl0": "wrap h1",
+    "lvl1": "wrap h2",
+    "lvl2": "wrap h3",
+    "lvl3": "wrap h4",
+    "lvl4": "wrap h5",
+    "text": "wrap p"
   },
   "selectors_exclude": [
     "footer",
