@@ -1,36 +1,36 @@
-  {
-    "index_name": "yugabyte",
-    "start_urls": [
-      {
-        "url": "https://docs.yugabyte.com/(?P<version>.*?)/",
-        "variables": {
-          "version": [
-            "latest",
-            "stable",
-            "v2.1",
-            "v2.0",
-            "v1.3"
-          ]
-        }
+{
+  "index_name": "yugabyte",
+  "start_urls": [
+    {
+      "url": "https://docs.yugabyte.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "stable",
+          "v2.1",
+          "v2.0",
+          "v1.3"
+        ]
       }
-    ],
-    "stop_urls": [
-      "^[^/]*//.*//"
-    ],
-    "selectors": {
-      "lvl0": "main article h1",
-      "lvl1": "main article h2",
-      "lvl2": "main article h3",
-      "lvl3": "main article h4",
-      "lvl4": "main article h5",
-      "lvl5": "main article h6",
-      "text": ".article p, .article li, .article ol"
-    },
-    "custom_settings": {
-      "separatorsToIndex": "-_"
-    },
+    }
+  ],
+  "stop_urls": [
+    "^[^/]*//.*//"
+  ],
+  "selectors": {
+    "lvl0": "main article h1",
+    "lvl1": "main article h2",
+    "lvl2": "main article h3",
+    "lvl3": "main article h4",
+    "lvl4": "main article h5",
+    "lvl5": "main article h6",
+    "text": ".article p, .article li, .article ol"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "-_"
+  },
   "conversation_id": [
     "1037222869"
   ],
-    "nb_hits": 21609
-  }
+  "nb_hits": 101326
+}
