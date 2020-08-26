@@ -4,6 +4,9 @@
     "https://docs.zen-cart.com"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.zen-cart.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".td-content h1",
     "lvl1": ".td-content h2",
