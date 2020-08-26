@@ -37,13 +37,21 @@
         "macos"
       ],
       "selectors_key": "macos"
+    },
+    {
+      "url": "https://pspdfkit.com/api/windows/",
+      "tags": [
+        "windows"
+      ],
+      "selectors_key": "windows"
     }
   ],
   "stop_urls": [
     "https://pspdfkit.com/api/android/javadoc/reference/packages.html",
     "package-summary.html",
     "https://pspdfkit.com/api/ios/index.html",
-    "https://pspdfkit.com/api/macos/index.html"
+    "https://pspdfkit.com/api/macos/index.html",
+    "https://pspdfkit.com/api/windows/index.html"
   ],
   "selectors": {
     "default": {
@@ -80,6 +88,11 @@
       "lvl0": ".main-content h1",
       "lvl1": ".main-content h3",
       "lvl2": ".main-content .item .token",
+      "text": ".main-content p"
+    },
+    "windows": {
+      "lvl0": ".main-content h1",
+      "lvl1": ".main-content h4",
       "text": ".main-content p"
     }
   },
