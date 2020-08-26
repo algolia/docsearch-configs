@@ -1,10 +1,10 @@
 {
   "index_name": "rancher",
   "start_urls": [
-    "https://rancher-2-3.docs.rancher.cn/"
+    "https://rancher2.docs.rancher.cn/"
   ],
   "sitemap_urls": [
-    "https://rancher-2-3.docs.rancher.cn/sitemap.xml"
+    "https://rancher2.docs.rancher.cn/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -42,5 +42,5 @@
   "conversation_id": [
     "1099719207"
   ],
-  "nb_hits": 24649
+  "nb_hits": 26251
 }
