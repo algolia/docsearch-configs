@@ -1,7 +1,7 @@
 {
   "index_name": "wso2_is",
   "start_urls": [
-    "https://is.docs.wso2.com/en/latest/"
+    "https://is.docs.wso2.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -13,8 +13,19 @@
     "lvl4": ".md-content__inner h5",
     "lvl5": ".md-content__inner h6"
   },
+  "sitemap_urls": [
+    "https://is.docs.wso2.com/en/5.9.0/sitemap.xml",
+    "https://is.docs.wso2.com/en/latest/sitemap.xml",
+    "https://is.docs.wso2.com/en/5.11.0/sitemap.xml"
+  ],
   "conversation_id": [
     "1102450000"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "nb_hits": 25658
 }
