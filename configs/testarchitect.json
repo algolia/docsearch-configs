@@ -9,16 +9,20 @@
   ],
   "selectors": {
     "lvl0": {
+      "selector": ".sectionBreadcrumb > a:first-child",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": {
       "selector": ".sectionBreadcrumb > a:last-child",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "lvl6": "main h6",
+    "lvl2": "main h1",
+    "lvl3": "main h2",
+    "lvl4": "main h3",
+    "lvl5": "main h4",
+    "lvl6": "main h5",
     "text": "main p, main li, main td"
   },
   "custom_settings": {
