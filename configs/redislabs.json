@@ -7,7 +7,9 @@
   "sitemap_urls": [
     "https://docs.redislabs.com/latest/sitemap.xml"
   ],
-  "stop_urls": ["release-notes\/.+\/?"],
+  "stop_urls": [
+    "/release-notes/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".menu .parent> a",
@@ -53,5 +55,5 @@
     "706782001"
   ],
   "min_indexed_level": 2,
-  "nb_hits": 7877
+  "nb_hits": 6446
 }
