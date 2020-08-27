@@ -25,9 +25,12 @@
     "lvl6": "main h5",
     "text": "main p, main li, main td"
   },
+  "custom_settings": {
+    "separatorsToIndex": "!$/:*?<>|#=[];%."
+  },
   "scrape_start_urls": false,
   "conversation_id": [
     "1236749708"
   ],
-  "nb_hits": 57407
+  "nb_hits": 57306
 }
