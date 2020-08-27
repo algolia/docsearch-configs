@@ -1,40 +1,36 @@
 {
   "index_name": "yugabyte",
   "start_urls": [
-    "https://docs.yugabyte.com"
+    {
+      "url": "https://docs.yugabyte.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "stable",
+          "v2.1",
+          "v2.0",
+          "v1.3"
+        ]
+      }
+    }
   ],
-  "stop_urls": [],
-  "sitemap_urls": [
-    "https://docs.yugabyte.com/sitemap.xml"
+  "stop_urls": [
+    "^[^/]*//.*//"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "#drawerMenu > .open > .current",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": "article .wrapper h1",
-    "lvl2": "article .wrapper h2",
-    "lvl3": "article .wrapper h3",
-    "lvl4": "article .wrapper h4",
-    "lvl5": "article .wrapper h5",
-    "lvl6": "article .wrapper h6",
-    "text ": "article .wrapper p, article .wrapper li",
-    "version": {
-      "selector": "#version-switcher > button",
-      "global": true
-    }
+    "lvl0": "main article h1",
+    "lvl1": "main article h2",
+    "lvl2": "main article h3",
+    "lvl3": "main article h4",
+    "lvl4": "main article h5",
+    "lvl5": "main article h6",
+    "text": ".article p, .article li, .article ol"
   },
   "custom_settings": {
-    "attributesForFaceting": [
-      "version"
-    ]
+    "separatorsToIndex": "-_"
   },
-  "selectors_exclude": [
-    ".article nav"
-  ],
   "conversation_id": [
     "1037222869"
   ],
-  "nb_hits": 19779
+  "nb_hits": 101326
 }
