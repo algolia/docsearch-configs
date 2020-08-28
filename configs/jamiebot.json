@@ -7,7 +7,9 @@
     "https://jamiebot.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": ["docs/zhh06f1wbcm"],
+  "stop_urls": [
+    "docs/zhh06f1wbcm"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
@@ -42,5 +44,5 @@
   "conversation_id": [
     "1265510454"
   ],
-  "nb_hits": 233
+  "nb_hits": 228
 }
