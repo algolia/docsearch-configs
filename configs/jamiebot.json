@@ -7,7 +7,7 @@
     "https://jamiebot.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": ["docs/zhh06f1wbcm"],
   "selectors": {
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
