@@ -1,4 +1,5 @@
 {
+  "__comment__": "Hey Sylvain - following up on the changes made 12 days ago - the site is still not being crawled/indexed but I don't know why. Be grateful if you could take another look. Thanks"
   "index_name": "tribeserver",
   "start_urls": [
     "https://wayfinder.coventry.ac.uk",
