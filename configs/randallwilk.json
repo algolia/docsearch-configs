@@ -1,20 +1,20 @@
 {
   "index_name": "randallwilk",
   "start_urls": [
-    "https://docs.randallwilk.dev"
+    "https://randallwilk.dev/docs"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://docs.randallwilk.dev/sitemap.xml"
+    "https://randallwilk.dev/docs_sitemap.xml"
   ],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "lvl5": ".content h6",
-    "text": ".content p, .content li"
+    "lvl0": ".markup h1",
+    "lvl1": ".markup h2",
+    "lvl2": ".markup h3",
+    "lvl3": ".markup h4",
+    "lvl4": ".markup h5",
+    "lvl5": ".markup h6",
+    "text": ".markup p, .markup li"
   },
   "scrape_start_urls": false,
   "custom_settings": {
