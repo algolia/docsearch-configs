@@ -2,6 +2,46 @@
   "index_name": "anyrtc",
   "start_urls": [
     {
+      "url": "https://docs.anyrtc.io/platforms/",
+      "tags": ["platforms"]
+    },
+    {
+      "url": "https://docs.anyrtc.io/recording/",
+      "tags": ["recording"]
+    },
+    {
+      "url": "https://docs.anyrtc.io/rtc-web/",
+      "tags": ["rtc-web"]
+    },
+    {
+      "url": "https://docs.anyrtc.io/rtc-android/",
+      "tags": ["rtc-android"]
+    },
+    {
+      "url": "https://docs.anyrtc.io/rtc-ios/",
+      "tags": ["rtc-ios"]
+    },
+    {
+      "url": "https://docs.anyrtc.io/rtc-window/",
+      "tags": ["rtc-window"]
+    },
+    {
+      "url": "https://docs.anyrtc.io/rtm-web/",
+      "tags": ["rtm-web"]
+    },
+    {
+      "url": "https://docs.anyrtc.io/rtm-android/",
+      "tags": ["rtm-android"]
+    },
+    {
+      "url": "https://docs.anyrtc.io/rtm-ios/",
+      "tags": ["rtm-ios"]
+    },
+    {
+      "url": "https://docs.anyrtc.io/rtm-window/",
+      "tags": ["rtm-window"]
+    },
+    {
       "url": "https://docs.anyrtc.io/",
       "tags": [
         "all"
@@ -28,6 +68,10 @@
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
+  "selectors_exclude": [
+    ".header",
+    ".footer"
+  ],
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -47,6 +91,5 @@
   "conversation_id": [
     "1240230599"
   ],
-  "scrape_start_urls": false,
-  "nb_hits": 27244
+  "scrape_start_urls": false
 }
