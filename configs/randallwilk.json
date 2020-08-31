@@ -8,7 +8,7 @@
     "https://randallwilk.dev/docs_sitemap.xml"
   ],
   "selectors": {
-    "lvl0": ".markup h1",
+    "lvl0": "h1[class^='title']",
     "lvl1": ".markup h2",
     "lvl2": ".markup h3",
     "lvl3": ".markup h4",
@@ -26,5 +26,5 @@
   "conversation_id": [
     "1256213501"
   ],
-  "nb_hits": 763
+  "nb_hits": 825
 }
