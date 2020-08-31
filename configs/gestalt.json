@@ -14,9 +14,8 @@
     "text": ".docSearch-content p,  .docSearch-content td:not(:first-child), .docSearch-content li"
   },
   "js_render": true,
-  "use_anchors": true,
   "conversation_id": [
     "1177771090"
   ],
-  "nb_hits": 16812
+  "nb_hits": 2166
 }

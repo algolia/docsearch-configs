@@ -1,7 +1,6 @@
 {
   "index_name": "anyrtc",
   "start_urls": [
-    "https://docs.anyrtc.io/",
     {
       "url": "https://docs.anyrtc.io/platforms/",
       "tags": ["platforms"]
@@ -41,6 +40,12 @@
     {
       "url": "https://docs.anyrtc.io/rtm-window/",
       "tags": ["rtm-window"]
+    },
+    {
+      "url": "https://docs.anyrtc.io/",
+      "tags": [
+        "all"
+      ]
     }
   ],
   "sitemap_urls": [
@@ -86,6 +91,5 @@
   "conversation_id": [
     "1240230599"
   ],
-  "scrape_start_urls": false,
-  "nb_hits": 5327
+  "scrape_start_urls": false
 }

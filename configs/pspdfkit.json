@@ -23,11 +23,35 @@
         "kdoc"
       ],
       "selectors_key": "android"
+    },
+    {
+      "url": "https://pspdfkit.com/api/ios/",
+      "tags": [
+        "ios"
+      ],
+      "selectors_key": "ios"
+    },
+    {
+      "url": "https://pspdfkit.com/api/macos/",
+      "tags": [
+        "macos"
+      ],
+      "selectors_key": "macos"
+    },
+    {
+      "url": "https://pspdfkit.com/api/windows/",
+      "tags": [
+        "windows"
+      ],
+      "selectors_key": "windows"
     }
   ],
   "stop_urls": [
     "https://pspdfkit.com/api/android/javadoc/reference/packages.html",
-    "package-summary.html"
+    "package-summary.html",
+    "https://pspdfkit.com/api/ios/index.html",
+    "https://pspdfkit.com/api/macos/index.html",
+    "https://pspdfkit.com/api/windows/index.html"
   ],
   "selectors": {
     "default": {
@@ -53,14 +77,33 @@
       "lvl3": "#jd-content h4",
       "lvl4": "#jd-content h5",
       "text": "#jd-content p, #jd-content li"
+    },
+    "ios": {
+      "lvl0": ".main-content h1",
+      "lvl1": ".main-content h3",
+      "lvl2": ".main-content .item .token",
+      "text": ".main-content p"
+    },
+    "macos": {
+      "lvl0": ".main-content h1",
+      "lvl1": ".main-content h3",
+      "lvl2": ".main-content .item .token",
+      "text": ".main-content p"
+    },
+    "windows": {
+      "lvl0": ".main-content h1",
+      "lvl1": ".main-content h4",
+      "text": ".main-content p"
     }
   },
   "selectors_exclude": [
     ".web-seealso-subsection",
-    ".web-seealso-list li"
+    ".web-seealso-list li",
+    ".main-content .aside-title",
+    ".main-content .heading"
   ],
   "conversation_id": [
     "665157930"
   ],
-  "nb_hits": 35705
+  "nb_hits": 78622
 }

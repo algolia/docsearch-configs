@@ -5,7 +5,11 @@
   ],
   "stop_urls": [
     "/blob",
-    "\\?"
+    "\\?",
+    "\\d$"
+  ],
+  "sitemap_urls": [
+    "https://support.upslide.net/hc/en-us/article_attachments/360015513240/sitemap.xml"
   ],
   "selectors": {
     "lvl0": "article h1",
@@ -19,5 +23,5 @@
   "conversation_id": [
     "1156149394"
   ],
-  "nb_hits": 4092
+  "nb_hits": 2958
 }

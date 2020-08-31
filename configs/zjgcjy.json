@@ -6,16 +6,16 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.open",
+      "selector": "aside .active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".theme-default-content h1",
-    "lvl2": ".theme-default-content h2",
-    "lvl3": ".theme-default-content h3",
-    "lvl4": ".theme-default-content h4",
-    "lvl5": ".theme-default-content h5",
-    "text": ".theme-default-content p, .theme-default-content li",
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -36,5 +36,5 @@
     "1163902391"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 5195
+  "nb_hits": 2860
 }

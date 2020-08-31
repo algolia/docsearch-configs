@@ -1,7 +1,15 @@
 {
   "index_name": "jmonkeyengine",
   "start_urls": [
-    "https://wiki.jmonkeyengine.org/"
+    {
+      "url": "https://wiki.jmonkeyengine.org/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "3.3",
+          "3.2"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -19,5 +27,5 @@
   "conversation_id": [
     "215975793"
   ],
-  "nb_hits": 18800
+  "nb_hits": 33422
 }

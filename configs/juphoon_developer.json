@@ -1,7 +1,7 @@
 {
   "index_name": "juphoon_developer",
   "start_urls": [
-    "https://developer.juphoon.com/"
+    "https://developer.juphoon.com/doc/"
   ],
   "stop_urls": [
     "/portal/"
@@ -20,7 +20,12 @@
     "lvl3": ".mcont h3",
     "lvl4": ".mcont h4",
     "lvl5": ".mcont h5",
-    "text": ".mcont p, .mcont li"
+    "text": ".mcont p, .mcont li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
   "selectors_exclude": [
     ".table-of-contents"
@@ -29,6 +34,11 @@
   "conversation_id": [
     "1244675923"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 16673
+  "custom_settings": {
+  "attributesForFaceting": [
+    "lang"
+  ]
+},
+"scrape_start_urls": false,
+  "nb_hits": 663
 }

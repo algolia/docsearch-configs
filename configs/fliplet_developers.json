@@ -22,5 +22,26 @@
   "conversation_id": [
     "1241472923"
   ],
-  "nb_hits": 4287
+  "custom_settings": {
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "dis",
+        "Data Integration Service",
+        "Agent"
+      ],
+      [
+        "List from Data Source",
+        "LFD"
+      ],
+      [
+        "Data Source",
+        "DataSource"
+      ]
+    ]
+  },
+  "nb_hits": 4705
 }

@@ -18,9 +18,9 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
+    "lvl5": "article h5, article td:first-child",
     "lvl6": "article h6",
-    "text": "article p, article li"
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
@@ -42,5 +42,5 @@
   "conversation_id": [
     "840396222"
   ],
-  "nb_hits": 999
+  "nb_hits": 1473
 }

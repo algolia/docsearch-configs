@@ -1,0 +1,27 @@
+{
+  "index_name": "magento2_page-builder",
+  "start_urls": [
+    "https://magento.github.io/magento2-page-builder-docs/docs/",
+    "https://magento.github.io/magento2-page-builder-docs/docs/index.md"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".DocSearch-content h1",
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6",
+    "lvl6": ".DocSearch-content td:first-child",
+    "text": ".DocSearch-content p, .DocSearch-content li, .DocSearch-content td:not(:first-child)"
+  },
+  "strip_chars": " .,;:#",
+  "js_render": true,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1261723254"
+  ],
+  "nb_hits": 1220
+}
