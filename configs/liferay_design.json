@@ -1,7 +1,11 @@
 {
   "index_name": "liferay_design",
-  "start_urls": ["https://liferay.design/lexicon/"],
-  "stop_urls": ["https://liferay.design/lexicon-1"],
+  "start_urls": [
+    "https://liferay.design/lexicon/"
+  ],
+  "stop_urls": [
+    "https://liferay.design/lexicon-1"
+  ],
   "selectors": {
     "lvl0": "[class*='-markdown-container-'] h1",
     "lvl1": "[class*='-markdown-container-'] h2",
@@ -11,6 +15,8 @@
     "lvl5": "[class*='-markdown-container-'] h6",
     "text": "[class*='-markdown-container-'] p, [class*='-markdown-container-'] li"
   },
-  "conversation_id": ["1257928253"],
-  "nb_hits": 3466
+  "conversation_id": [
+    "1257928253"
+  ],
+  "nb_hits": 2865
 }
