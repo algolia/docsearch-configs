@@ -16,6 +16,7 @@
     "lvl5": ".markup h6",
     "text": ".markup p, .markup li"
   },
+  "strip_chars": " .,;:#",
   "scrape_start_urls": false,
   "custom_settings": {
     "attributesForFaceting": [
