@@ -20,10 +20,9 @@
     "#page-aside"
   ],
   "strip_chars": "#",
-  "js_wait": 1,
   "js_render": true,
   "conversation_id": [
     "1193160791"
   ],
-  "nb_hits": 12794
+  "nb_hits": 17972
 }
