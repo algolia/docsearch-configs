@@ -1,11 +1,7 @@
 {
   "index_name": "nuz",
-  "start_urls": [
-    "https://docs.nuz.app/docs/"
-  ],
-  "sitemap_urls": [
-    "https://docs.nuz.app/sitemap.xml"
-  ],
+  "start_urls": ["https://docs.nuz.app/"],
+  "sitemap_urls": ["https://docs.nuz.app/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -14,18 +10,15 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "[class^='docItemContainer_'] h1",
-    "lvl2": "[class^='docItemContainer_'] h2",
-    "lvl3": "[class^='docItemContainer_'] h3",
-    "lvl4": "[class^='docItemContainer_'] h4",
-    "lvl5": "[class^='docItemContainer_'] h5",
-    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
-  "conversation_id": [
-    "1168294229"
-  ],
+  "selectors_exclude": [".hash-link"],
+  "conversation_id": ["1168294229"],
   "nb_hits": 76
 }
