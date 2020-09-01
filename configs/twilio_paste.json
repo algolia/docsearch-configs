@@ -16,6 +16,12 @@
     "lvl5": "main h6",
     "text": "main p, main li"
   },
+  "selectors_exclude": [
+    "#page-aside"
+  ],
+  "strip_chars": "#",
+  "js_wait": 1,
+  "js_render": true,
   "conversation_id": [
     "1193160791"
   ],
