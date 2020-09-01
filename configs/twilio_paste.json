@@ -75,7 +75,7 @@
   },
   "selectors_exclude": [
     "#page-aside",
-    "#changelog",
+    "#component-changelog",
     "style",
     "footer"
   ],
