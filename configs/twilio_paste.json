@@ -17,7 +17,7 @@
     "text": "main p, main li"
   },
   "selectors_exclude": [
-    "#page-aside *"
+    "#page-aside"
   ],
   "strip_chars": "#",
   "js_wait": 1,
