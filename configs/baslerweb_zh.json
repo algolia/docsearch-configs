@@ -1,11 +1,11 @@
 {
-  "index_name": "baslerweb",
+  "index_name": "baslerweb_zh",
   "start_urls": [
-    "https://docs.baslerweb.com/"
+    "https://zh.docs.baslerweb.com/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://docs.baslerweb.com/sitemap.xml"
+    "https://zh.docs.baslerweb.com/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -25,5 +25,5 @@
   "conversation_id": [
     "1264579341"
   ],
-  "nb_hits": 31727
+  "nb_hits": 31560
 }

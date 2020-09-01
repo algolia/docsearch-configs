@@ -1,7 +1,6 @@
 {
   "index_name": "ibm_z_open_editor",
   "start_urls": [
-    "https://ibm.github.io/zopeneditor-about/Docs/introduction.html",
     "https://ibm.github.io/zopeneditor-about/Docs"
   ],
   "stop_urls": [],
@@ -32,5 +31,5 @@
   "conversation_id": [
     "959461911"
   ],
-  "nb_hits": 1081
+  "nb_hits": 1497
 }

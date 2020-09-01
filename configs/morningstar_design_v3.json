@@ -1,0 +1,55 @@
+{
+  "index_name": "morningstar_design_v3",
+  "start_urls": [
+    {
+      "url": "https://designsystem.morningstar.com/component-docs/",
+      "tags": [
+        "component-docs"
+      ]
+    },
+    {
+      "url": "https://designsystem.morningstar.com/",
+      "tags": [
+        "docs"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://designsystem.morningstar.com/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/legacy/"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".mds-doc h1",
+      "lvl1": ".mds-doc h2",
+      "lvl2": ".mds-doc h3",
+      "lvl3": ".mds-doc h4",
+      "lvl4": ".mds-doc h5",
+      "text": ".mds-doc p, .mds-doc li"
+    },
+    "component-docs": {
+      "lvl0": ".mds-doc h1",
+      "lvl1": ".mds-doc__content-wrap:not([style*='display']) h2",
+      "lvl2": ".mds-doc__content-wrap:not([style*='display']) h3",
+      "lvl3": ".mds-doc__content-wrap:not([style*='display']) h4",
+      "text": ".mds-doc__content-wrap:not([style*='display']) p, .mds-doc__content-wrap:not([style*='display']) li, .mds-doc__intro p"
+    }
+  },
+  "js_render": true,
+  "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "tags"
+    ]
+  },
+  "conversation_id": [
+    "1269004015"
+  ],
+  "nb_hits": 6156
+}

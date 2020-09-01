@@ -1,23 +1,21 @@
 {
-  "index_name": "meltano",
+  "index_name": "hziee",
   "start_urls": [
-    "https://www.meltano.com"
+    "https://hziee.site/"
   ],
-  "stop_urls": [
-    "/files/"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content__default h1",
-    "lvl2": ".content__default h2",
-    "lvl3": ".content__default h3",
-    "lvl4": ".content__default h4",
-    "lvl5": ".content__default h5",
-    "text": ".content__default p, .content__default li",
+    "lvl1": ".theme-default-content h1",
+    "lvl2": ".theme-default-content h2",
+    "lvl3": ".theme-default-content h3",
+    "lvl4": ".theme-default-content h4",
+    "lvl5": ".theme-default-content h5",
+    "text": ".theme-default-content p, .theme-default-content li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -25,6 +23,9 @@
       "default_value": "en-US"
     }
   },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
@@ -32,8 +33,8 @@
     ]
   },
   "conversation_id": [
-    "837683976"
+    "1267991614"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 3116
+  "nb_hits": 6046
 }
