@@ -8,11 +8,15 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content__default h1",
-    "lvl1": ".content__default h2",
-    "lvl2": ".content__default h3",
-    "lvl3": ".content__default h4",
-    "lvl4": ".content__default h5",
+    "lvl0": {
+      "selector": "(//li[@class=\"breadcrumbs__item\"])[2]/a",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
     "lvl5": ".content__default h5",
     "text": ".content__default p, .content__default li",
     "lang": {
@@ -28,6 +32,21 @@
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
+    ],
+    "synonyms": [
+      [
+        "invalidate",
+        "invalidation"
+      ],
+      [
+        "xplib",
+        "xp as a library"
+      ],
+      [
+        "marfeelboilerpipe",
+        "boilerpipe",
+        "boiler"
+      ]
     ]
   },
   "conversation_id": [
