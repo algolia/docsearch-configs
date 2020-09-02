@@ -26,7 +26,8 @@
   ],
   "custom_settings": {
     "attributesForFaceting": [
-      "lang", "location"
+      "lang",
+      "location"
     ]
   },
   "strip_chars": " .,;:#",
