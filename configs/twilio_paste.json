@@ -2,9 +2,6 @@
   "index_name": "twilio_paste",
   "start_urls": [
     {
-      "url": "https://paste.twilio.design/"
-    },
-    {
       "url": "https://paste.twilio.design//getting-started/engineering/",
       "selectors_key": "content"
     },
