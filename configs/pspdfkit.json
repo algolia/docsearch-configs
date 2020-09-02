@@ -43,7 +43,8 @@
     "https://pspdfkit.com/api/android/javadoc/reference/packages.html",
     "package-summary.html",
     "https://pspdfkit.com/api/ios/index.html",
-    "https://pspdfkit.com/api/macos/index.html"
+    "https://pspdfkit.com/api/macos/index.html",
+    "https://pspdfkit.com/api/windows/"
   ],
   "selectors": {
     "default": {
