@@ -1,8 +1,15 @@
 {
   "index_name": "litstack",
-  "start_urls": [
-    "https://litstack.io/docs"
-  ],
+  "start_urls": {
+    "url": "https://litstack.io/docs/(?P<version>.*?)/",
+    "variables": {
+      "version": [
+        "master",
+        "3.x",
+        "2.4",
+      ]
+    }
+  },
   "stop_urls": [],
   "selectors": {
     "lvl0": ".content h1",
