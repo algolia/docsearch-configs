@@ -36,7 +36,8 @@
     "https://paste.twilio.design/"
   ],
   "stop_urls": [
-    "changelog"
+    "changelog",
+    "[^/]$"
   ],
   "sitemap_urls": [
     "https://paste.twilio.design/sitemap.xml"
@@ -66,5 +67,5 @@
   "conversation_id": [
     "1193160791"
   ],
-  "nb_hits": 5001
+  "nb_hits": 2757
 }
