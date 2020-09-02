@@ -32,7 +32,8 @@
     {
       "url": "https://paste.twilio.design/roadmap/",
       "selectors_key": "content"
-    }
+    },
+    "https://paste.twilio.design/"
   ],
   "stop_urls": [
     "changelog"
