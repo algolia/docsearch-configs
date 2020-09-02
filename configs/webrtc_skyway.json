@@ -3,7 +3,9 @@
   "start_urls": [
     "https://webrtc.ecl.ntt.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "[^h][^t][^m][^l]$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -36,5 +38,5 @@
     "1267440065"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 4396
+  "nb_hits": 2122
 }
