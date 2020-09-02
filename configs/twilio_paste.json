@@ -1,25 +1,68 @@
 {
   "index_name": "twilio_paste",
   "start_urls": [
+    {
+      "url": "https://paste.twilio.design//getting-started/engineering/",
+      "selectors_key": "content"
+    },
+    {
+      "url": "https://paste.twilio.design/getting-started/working-guide/",
+      "selectors_key": "content"
+    },
+    {
+      "url": "https://paste.twilio.design/getting-started/about-paste/",
+      "selectors_key": "content"
+    },
+    {
+      "url": "https://paste.twilio.design/principles/",
+      "selectors_key": "content"
+    },
+    {
+      "url": "https://paste.twilio.design/icon-system/how-to-add-an-icon/",
+      "selectors_key": "content"
+    },
+    {
+      "url": "https://paste.twilio.design/content/",
+      "selectors_key": "content"
+    },
+    {
+      "url": "https://paste.twilio.design/libraries/",
+      "selectors_key": "content"
+    },
+    {
+      "url": "https://paste.twilio.design/roadmap/",
+      "selectors_key": "content"
+    },
     "https://paste.twilio.design/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "changelog"
+  ],
   "sitemap_urls": [
     "https://paste.twilio.design/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": "main h1",
-    "lvl1": "main h2",
-    "lvl2": "main h3",
-    "lvl3": "main h4",
-    "lvl4": "main h5",
-    "lvl5": "main h6",
-    "text": "main p, main li"
+    "default": {
+      "lvl0": "main h1",
+      "text": "main p, main li"
+    },
+    "content": {
+      "lvl0": "main h1",
+      "lvl1": "main h2",
+      "lvl2": "main h3",
+      "lvl3": "main h4",
+      "lvl4": "main h5",
+      "text": "main p, main li"
+    }
   },
   "selectors_exclude": [
-    "#page-aside"
+    "#page-aside",
+    "#component-changelog",
+    "style",
+    "footer"
   ],
   "strip_chars": "#",
+  "use_anchors": false,
   "conversation_id": [
     "1193160791"
   ],
