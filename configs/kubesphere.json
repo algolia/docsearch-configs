@@ -2,18 +2,21 @@
   "index_name": "kubesphere",
   "start_urls": [
     {
-      "url": "https://kubesphere.io/docs/zh-CN",
+      "url": "https://kubesphere.io/(?P<lang>.*?)/docs/",
       "extra_attributes": {
         "lang": [
-          "zh-CN"
+          "en", "zh"
         ]
       }
     },
     {
-      "url": "https://kubesphere.io/docs/",
+      "url": "https://(?P<version>.*?).docs.kubesphere.io/docs/(?P<lang>.*?)/",
       "extra_attributes": {
         "lang": [
-          "en"
+          "en", "zh-CN"
+        ],
+        "version": [
+          "v2-1", "v2-0", "v1-0"
         ]
       }
     }
