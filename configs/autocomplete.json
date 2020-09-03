@@ -1,17 +1,16 @@
 {
   "index_name": "autocomplete",
   "start_urls": [
-    "https://autocomplete-experimental.netlify.app/docs/"
+    "https://algolia-autocomplete.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://autocomplete-experimental.netlify.app/sitemap.xml"
+    "https://algolia-autocomplete.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'menu ')]/ul/li[.//*[@aria-current='page']]/a",
-      "type": "xpath",
+      "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
       "default_value": "Documentation"
     },
@@ -19,14 +18,16 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
+    "lvl5": "article h5, article td:first-child",
     "lvl6": "article h6",
-    "text": "article p, article li"
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
+      "language",
+      "version",
       "type"
     ],
     "attributesToRetrieve": [
@@ -38,11 +39,8 @@
       "type"
     ]
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "conversation_id": [
     "1108153125"
   ],
-  "nb_hits": 384
+  "nb_hits": 448
 }
