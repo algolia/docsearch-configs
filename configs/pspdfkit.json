@@ -43,7 +43,8 @@
     "https://pspdfkit.com/api/android/javadoc/reference/packages.html",
     "package-summary.html",
     "https://pspdfkit.com/api/ios/index.html",
-    "https://pspdfkit.com/api/macos/index.html"
+    "https://pspdfkit.com/api/macos/index.html",
+    "https://pspdfkit.com/api/windows/"
   ],
   "selectors": {
     "default": {
@@ -92,5 +93,5 @@
   "conversation_id": [
     "665157930"
   ],
-  "nb_hits": 74685
+  "nb_hits": 74635
 }

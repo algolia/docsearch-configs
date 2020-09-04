@@ -7,7 +7,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".topbar .router-link-active:first-child",
+      "selector": ".crumbs > a:nth-child(2)",
       "global": true,
       "default_value": "Documentation"
     },
@@ -33,5 +33,5 @@
     "628785365"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 3132
+  "nb_hits": 3059
 }

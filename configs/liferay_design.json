@@ -1,9 +1,11 @@
 {
   "index_name": "liferay_design",
   "start_urls": [
-    "https://liferay.design/lexicon"
+    "https://liferay.design/lexicon/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://liferay.design/lexicon-1"
+  ],
   "selectors": {
     "lvl0": "[class*='-markdown-container-'] h1",
     "lvl1": "[class*='-markdown-container-'] h2",
@@ -16,5 +18,5 @@
   "conversation_id": [
     "1257928253"
   ],
-  "nb_hits": 3466
+  "nb_hits": 2865
 }
