@@ -1,0 +1,20 @@
+{
+  "index_name": "cern_dune-edms-tutorial",
+  "start_urls": [
+    "http://dune-edms-tutorial.web.cern.ch/dune-edms-tutorial/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".doc-title",
+    "lvl1": ".content-inner h2",
+    "lvl2": ".content-inner h3",
+    "lvl3": ".content-inner h4",
+    "lvl4": ".content-inner h5",
+    "lvl5": ".content-inner h6",
+    "text": ".content-inner p, .content-inner li"
+  },
+  "conversation_id": [
+    "1272305254"
+  ],
+  "nb_hits": 229
+}
