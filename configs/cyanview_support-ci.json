@@ -1,10 +1,11 @@
 {
-  "index_name": "docusaurus-2",
+  "index_name": "cyanview_support-ci",
   "start_urls": [
-    "https://v2.docusaurus.io/docs/"
+    "https://support-ci.cyanview.com/docs/",
+    "https://support-ci.cyanview.com/docs/DefaultDocsPage"
   ],
   "sitemap_urls": [
-    "https://v2.docusaurus.io/sitemap.xml"
+    "https://support-ci.cyanview.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -19,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -40,7 +40,7 @@
     ]
   },
   "conversation_id": [
-    "833762294"
+    "1270060641"
   ],
-  "nb_hits": 9510
+  "nb_hits": 2005
 }

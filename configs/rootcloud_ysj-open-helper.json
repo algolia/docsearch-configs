@@ -1,10 +1,10 @@
 {
-  "index_name": "docusaurus-2",
+  "index_name": "rootcloud_ysj-open-helper",
   "start_urls": [
-    "https://v2.docusaurus.io/docs/"
+    "http://ysj-open-helper.rootcloud.com/docs/"
   ],
   "sitemap_urls": [
-    "https://v2.docusaurus.io/sitemap.xml"
+    "http://ysj-open-helper.rootcloud.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -19,7 +19,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -40,7 +39,7 @@
     ]
   },
   "conversation_id": [
-    "833762294"
+    "1270275018"
   ],
-  "nb_hits": 9510
+  "nb_hits": 1672
 }
