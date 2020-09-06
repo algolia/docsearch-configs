@@ -1,7 +1,7 @@
 {
   "index_name": "tabulator",
   "start_urls": [
-    "http://tabulator.info/docs/4.7"
+    "http://tabulator.info/docs/4.8"
   ],
   "stop_urls": [],
   "selectors": {
