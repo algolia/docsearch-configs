@@ -2,7 +2,10 @@
   "index_name": "data-driven-forms",
   "start_urls": [
     "https://data-driven-forms.org/",
-    "https://data-driven-forms.org/renderer/development-setup"
+    "https://data-driven-forms.org/components/renderer",
+    "https://data-driven-forms.org/schema/introduction",
+    "https://data-driven-forms.org/hooks/use-field-api",
+    "https://data-driven-forms.org/mappers/custom-mapper"
   ],
   "stop_urls": [],
   "selectors": {
