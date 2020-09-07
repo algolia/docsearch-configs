@@ -1,7 +1,7 @@
 {
   "index_name": "tmssoftware_flexcel",
   "start_urls": [
-    "https://download.tmssoftware.com/flexcel/doc/vcl"
+    "https://doc.tmssoftware.com/flexcel/vcl/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -13,10 +13,9 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
-  "js_render": true,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "1203129768"
   ],
-  "nb_hits": 50770
+  "nb_hits": 50691
 }

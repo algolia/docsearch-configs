@@ -13,7 +13,7 @@
     "lvl5": "main h6",
     "text": "main p, main li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "1135803530"
   ],

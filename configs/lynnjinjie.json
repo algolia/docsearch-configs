@@ -1,0 +1,40 @@
+{
+  "index_name": "lynnjinjie",
+  "start_urls": [
+    "https://docs.jjj520.net/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content-wrapper h1",
+    "lvl2": ".content-wrapper h2",
+    "lvl3": ".content-wrapper h3",
+    "lvl4": ".content-wrapper h4",
+    "lvl5": ".content-wrapper h5",
+    "text": ".content-wrapper p, .content-wrapper li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "1223538024"
+  ],
+  "scrape_start_urls": false,
+  "nb_hits": 191
+}

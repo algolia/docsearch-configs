@@ -1,0 +1,30 @@
+{
+  "index_name": "filecoin_spec",
+  "start_urls": [
+    "https://beta.spec.filecoin.io"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://beta.spec.filecoin.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//aside/nav/ul/li[.//*[contains(@class,'active')]]/a",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1233764706"
+  ],
+  "nb_hits": 2878
+}

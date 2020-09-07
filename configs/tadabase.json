@@ -1,0 +1,20 @@
+{
+  "index_name": "tadabase",
+  "start_urls": [
+    "https://docs.tadabase.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page-content h1",
+    "lvl1": ".page-content h2",
+    "lvl2": ".page-content h3",
+    "lvl3": ".page-content h4",
+    "lvl4": ".page-content h5",
+    "lvl5": ".page-content h6",
+    "text": ".page-content p, .page-content li"
+  },
+  "conversation_id": [
+    "1218482228"
+  ],
+  "nb_hits": 5933
+}

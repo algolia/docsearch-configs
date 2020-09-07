@@ -27,7 +27,7 @@
     ".m20"
   ],
   "min_indexed_level": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "171105201"
   ],

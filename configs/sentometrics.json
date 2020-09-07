@@ -2,21 +2,21 @@
   "index_name": "sentometrics",
   "start_urls": [
     {
-      "url": "https://sborms.github.io/sentometrics/index.html",
+      "url": "https://sentometricsresearch.github.io/sentometrics/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://sborms.github.io/sentometrics/reference",
+      "url": "https://sentometricsresearch.github.io/sentometrics/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://sborms.github.io/sentometrics/articles",
+      "url": "https://sentometricsresearch.github.io/sentometrics/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -24,7 +24,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://sborms.github.io/sentometrics/sitemap.xml"
+    "https://sentometricsresearch.github.io/sentometrics/sitemap.xml"
   ],
   "stop_urls": [
     "/reference/$",
@@ -93,5 +93,5 @@
   "conversation_id": [
     "1147223210"
   ],
-  "nb_hits": 919
+  "nb_hits": 991
 }

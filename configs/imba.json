@@ -1,0 +1,21 @@
+{
+  "index_name": "imba",
+  "start_urls": [
+    "https://v2.imba.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "doc-section h1",
+    "lvl1": "doc-section h2",
+    "lvl2": "doc-section h3",
+    "lvl3": "doc-section h4",
+    "lvl4": "doc-section h5",
+    "lvl5": "doc-section h6",
+    "text": "doc-section p, doc-section li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1260126551"
+  ],
+  "nb_hits": 512
+}

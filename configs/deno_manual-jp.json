@@ -1,0 +1,27 @@
+{
+  "index_name": "deno_manual-jp",
+  "start_urls": [
+    "https://deno-ja.vercel.app/manual"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//nav/ol/li[.//*[contains(@class,'active')]]/a | //*[contains(@class,'markdown')]//h1)[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h2",
+    "lvl2": ".markdown h3",
+    "lvl3": ".markdown h4",
+    "lvl4": ".markdown h5",
+    "lvl5": ".markdown h6",
+    "text": ".markdown p, .markdown li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": [
+    "1253947545"
+  ],
+  "nb_hits": 1221
+}

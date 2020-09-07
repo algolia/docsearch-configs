@@ -29,7 +29,7 @@
   "keep_tags": [
     "code"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " \u00bb#\u00bb\u00bb",
   "selectors_exclude": [
     "summary"

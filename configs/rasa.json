@@ -8,7 +8,8 @@
     "http://rasa.com/docs/.*?/master",
     ".rst.txt$",
     "/_",
-    "/dev/"
+    "/dev/",
+    "[^/]$"
   ],
   "selectors": {
     "lvl0": {
@@ -36,7 +37,7 @@
     ]
   },
   "conversation_id": [
-    "627630474"
+    "1024327491"
   ],
-  "nb_hits": 5004
+  "nb_hits": 8731
 }

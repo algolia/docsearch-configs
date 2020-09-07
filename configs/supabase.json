@@ -6,7 +6,8 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "//*[contains(@class,'menu__link')][text()=//h1[contains(@class,'docTitle')]]/preceding::*[contains(@class,'title')][1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },

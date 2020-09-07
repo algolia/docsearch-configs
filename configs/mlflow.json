@@ -1,19 +1,31 @@
 {
   "index_name": "mlflow",
   "start_urls": [
-    "https://mlflow.org/docs/latest/",
+    {
+      "url": "https://mlflow.org/docs/latest/R-api.html",
+      "page_rank": 1
+    },
+    {
+      "url": "https://mlflow.org/docs/latest/python_api",
+      "page_rank": 2
+    },
+    {
+      "url": "https://mlflow.org/docs/latest/",
+      "page_rank": 3
+    },
     "https://mlflow.org/docs/latest/index.html"
   ],
   "sitemap_urls": [
     "https://mlflow.org/sitemap.xml"
   ],
   "stop_urls": [
-    "/java_api/"
+    "/java_api/",
+    "/_modules/"
   ],
   "selectors": {
     "lvl0": "[itemprop='articleBody'] h1",
     "lvl1": "[itemprop='articleBody'] h2",
-    "lvl2": "[itemprop='articleBody'] h3",
+    "lvl2": "[itemprop='articleBody'] dt, [itemprop='articleBody'] h3",
     "lvl3": "[itemprop='articleBody'] h4",
     "lvl4": "[itemprop='articleBody'] h5",
     "text": "[itemprop='articleBody'] p, [itemprop='articleBody'] li"
@@ -21,5 +33,5 @@
   "conversation_id": [
     "576106937"
   ],
-  "nb_hits": 5554
+  "nb_hits": 7662
 }

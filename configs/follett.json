@@ -5,9 +5,12 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "fds-drawer-content h1",
-    "lvl1": "fds-drawer-content h3",
-    "lvl2": "fds-drawer-content h4",
+    "lvl0": {
+      "selector": ".header .header__main .nav button.active",
+      "global": true
+    },
+    "lvl1": "fds-drawer-content h1",
+    "lvl2": "fds-drawer-content h3",
     "lvl3": "fds-drawer-content h5",
     "lvl4": "fds-drawer-content h6",
     "text": "fds-drawer-content p, fds-drawer-content li"
@@ -22,5 +25,5 @@
   "conversation_id": [
     "1178380234"
   ],
-  "nb_hits": 335
+  "nb_hits": 333
 }

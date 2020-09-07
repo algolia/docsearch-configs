@@ -1,0 +1,21 @@
+{
+  "index_name": "cosmos-sdk_tutorials",
+  "start_urls": [
+    "https://tutorials.cosmos.network"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='body__wrapper'] h1",
+    "lvl1": "[class*='body__wrapper'] h2",
+    "lvl2": "[class*='body__wrapper'] h3",
+    "lvl3": "[class*='body__wrapper'] h4",
+    "lvl4": "[class*='body__wrapper'] h5",
+    "lvl5": "[class*='body__wrapper'] h6",
+    "text": "[class*='body__wrapper'] p, [class*='body__wrapper'] li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1264459889"
+  ],
+  "nb_hits": 1100
+}

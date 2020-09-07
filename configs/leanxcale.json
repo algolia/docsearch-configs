@@ -8,7 +8,8 @@
           "leanxcale"
         ],
         "version": [
-          "1.4"
+          "1.4",
+          "1.5"
         ]
       }
     }
@@ -38,7 +39,7 @@
     ".body .toc",
     ".doc .toc"
   ],
-  "nb_hits": 6763,
+  "nb_hits": 15322,
   "custom_settings": {
     "attributesForFaceting": [
       "component",
