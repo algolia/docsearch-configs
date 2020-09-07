@@ -19,8 +19,9 @@
   "selectors_exclude": [
     "main style"
   ],
+  "only_content_level": true,
   "conversation_id": [
     "1262412313"
   ],
-  "nb_hits": 391
+  "nb_hits": 267
 }

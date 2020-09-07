@@ -1,31 +1,29 @@
 {
-  "index_name": "questdb",
+  "index_name": "mateuszdabrowski",
   "start_urls": [
-    "https://questdb.io/docs/",
-    "https://questdb.io/docs/introduction"
+    "https://mateuszdabrowski.pl/docs/"
   ],
   "sitemap_urls": [
-    "https://questdb.io/sitemap.xml"
+    "https://mateuszdabrowski.pl/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu > .menu__list > li > .menu__link--active",
+      "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
+    "lvl1": "header h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
       "version",
@@ -41,7 +39,7 @@
     ]
   },
   "conversation_id": [
-    "1015685812"
+    "1274130707"
   ],
-  "nb_hits": 1941
+  "nb_hits": 495
 }
