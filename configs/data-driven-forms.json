@@ -2,9 +2,29 @@
   "index_name": "data-driven-forms",
   "start_urls": [
     "https://data-driven-forms.org/",
-    "https://data-driven-forms.org/renderer/development-setup"
+    "https://data-driven-forms.org/components/renderer",
+    "https://data-driven-forms.org/schema/introduction",
+    "https://data-driven-forms.org/hooks/use-field-api",
+    "https://data-driven-forms.org/mappers/custom-mapper"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://data-driven-forms.org/mappers/checkbox(?!\\?)",
+    "https://data-driven-forms.org/mappers/checkbox-multiple(?!\\?)",
+    "https://data-driven-forms.org/mappers/date-picker(?!\\?)",
+    "https://data-driven-forms.org/mappers/dual-list-select(?!\\?)",
+    "https://data-driven-forms.org/mappers/field-array(?!\\?)",
+    "https://data-driven-forms.org/mappers/plain-text(?!\\?)",
+    "https://data-driven-forms.org/mappers/radio(?!\\?)",
+    "https://data-driven-forms.org/mappers/select(?!\\?)",
+    "https://data-driven-forms.org/mappers/slider(?!\\?)",
+    "https://data-driven-forms.org/mappers/sub-form(?!\\?)",
+    "https://data-driven-forms.org/mappers/switch(?!\\?)",
+    "https://data-driven-forms.org/mappers/tabs(?!\\?)",
+    "https://data-driven-forms.org/mappers/textarea(?!\\?)",
+    "https://data-driven-forms.org/mappers/text-field(?!\\?)",
+    "https://data-driven-forms.org/mappers/time-picker(?!\\?)",
+    "https://data-driven-forms.org/mappers/wizard(?!\\?)"
+  ],
   "selectors": {
     "lvl0": ".DocSearch-content h1",
     "lvl1": ".DocSearch-content h2",
@@ -17,7 +37,7 @@
   "conversation_id": [
     "952910917"
   ],
-  "nb_hits": 4004,
+  "nb_hits": 1770,
   "js_render": true,
   "js_wait": 1
 }
