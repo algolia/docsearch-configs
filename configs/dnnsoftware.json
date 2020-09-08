@@ -58,6 +58,6 @@
     ".inheritedMembers",
     ".inheritance"
   ],
-  "scrap_start_url": false,
-  "nb_hits": 65432
+  "scrape_start_url": false,
+  "nb_hits": 66153
 }

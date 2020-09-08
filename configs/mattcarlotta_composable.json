@@ -13,9 +13,9 @@
     "lvl5": "main h5",
     "text": "main p, main li, main td:not(:first-child)"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "1266409077"
   ],
-  "nb_hits": 79
+  "nb_hits": 87
 }
