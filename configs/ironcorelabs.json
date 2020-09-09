@@ -14,7 +14,7 @@
     "lvl3": "main > div h4",
     "lvl4": "main > div h5",
     "lvl5": "main > div h6",
-    "text": "main > div p, main > div li"
+    "text": "main > div p, main > div .para, main > div li"
   },
   "conversation_id": [
     "1205622950"
