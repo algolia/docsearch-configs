@@ -1,7 +1,10 @@
 {
   "index_name": "mmkvdev_vil",
   "start_urls": [
-    "https://mmkvdev.github.io/VIL/docs/"
+    {
+      "url" : "https://mmkvdev.github.io/VIL/docs/",
+      "page_rank" : 2
+    }
   ],
   "sitemap_urls": [
     "https://mmkvdev.github.io/VIL/sitemap.xml"
