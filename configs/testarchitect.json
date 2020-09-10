@@ -26,7 +26,9 @@
     "text": "main p, main li, main td"
   },
   "custom_settings": {
-    "separatorsToIndex": "!$/:*?<>|#=[];%."
+    "separatorsToIndex": "!$/:*?<>|#=[];%.",
+    "disableTypoToleranceOnWords": ["SAP", "ios", "WPF" ]
+
   },
   "scrape_start_urls": false,
   "conversation_id": [
