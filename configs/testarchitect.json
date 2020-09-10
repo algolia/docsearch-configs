@@ -9,12 +9,12 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".sectionBreadcrumb > a:first-child",
+      "selector": ".sectionBreadcrumb > a:first-of-type",
       "global": true,
       "default_value": "Documentation"
     },
     "lvl1": {
-      "selector": ".sectionBreadcrumb > a:last-child",
+      "selector": ".sectionBreadcrumb > a:last-of-type",
       "global": true,
       "default_value": "Documentation"
     },
@@ -26,7 +26,9 @@
     "text": "main p, main li, main td"
   },
   "custom_settings": {
-    "separatorsToIndex": "!$/:*?<>|#=[];%."
+    "separatorsToIndex": "!$/:*?<>|#=[];%.",
+    "disableTypoToleranceOnWords": ["SAP", "ios", "WPF" ]
+
   },
   "scrape_start_urls": false,
   "conversation_id": [
