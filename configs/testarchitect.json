@@ -29,6 +29,8 @@
     "separatorsToIndex": "!$/:*?<>|#=[];%."
   },
   "scrape_start_urls": false,
+  "disableTypoToleranceOnWords": ["SAP", "ios", "WPF" ],
+
   "conversation_id": [
     "1236749708"
   ],
