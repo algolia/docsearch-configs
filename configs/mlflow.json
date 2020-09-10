@@ -2,18 +2,25 @@
   "index_name": "mlflow",
   "start_urls": [
     {
-      "url": "https://mlflow.org/docs/latest/R-api.html",
+      "url": "https://mlflow.org/docs/latest/rest-api.html",
       "page_rank": 1
     },
     {
-      "url": "https://mlflow.org/docs/latest/python_api",
+      "url": "https://mlflow.org/docs/latest/R-api.html",
       "page_rank": 2
     },
     {
-      "url": "https://mlflow.org/docs/latest/",
+      "url": "https://mlflow.org/docs/latest/python_api",
       "page_rank": 3
     },
-    "https://mlflow.org/docs/latest/index.html"
+    {
+      "url": "https://mlflow.org/docs/latest/",
+      "page_rank": 4
+    },
+    {
+      "url": "https://mlflow.org/docs/latest/index.html",
+      "page_rank": 5
+    }
   ],
   "sitemap_urls": [
     "https://mlflow.org/sitemap.xml"
@@ -24,8 +31,14 @@
   ],
   "selectors": {
     "lvl0": "[itemprop='articleBody'] h1",
-    "lvl1": "[itemprop='articleBody'] h2",
-    "lvl2": "[itemprop='articleBody'] dt, [itemprop='articleBody'] h3",
+    "lvl1": {
+      "selector": "//div[@itemprop='articleBody']/div[@id!='r-api' and @id!='rest-api']//h2",
+      "type": "xpath"
+    },
+    "lvl2": {
+      "selector": "//div[@itemprop='articleBody']/div[@id='r-api' or @id='rest-api']//h2 | //div[@itemprop='articleBody']//dt | //div[@itemprop='articleBody']//h3",
+      "type": "xpath"
+    },
     "lvl3": "[itemprop='articleBody'] h4",
     "lvl4": "[itemprop='articleBody'] h5",
     "text": "[itemprop='articleBody'] p, [itemprop='articleBody'] li"
@@ -33,5 +46,5 @@
   "conversation_id": [
     "576106937"
   ],
-  "nb_hits": 7662
+  "nb_hits": 4771
 }

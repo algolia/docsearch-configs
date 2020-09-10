@@ -1,10 +1,13 @@
 {
-  "index_name": "rokt",
+  "index_name": "mmkvdev_vil",
   "start_urls": [
-    "https://docs.rokt.com/docs/"
+    {
+      "url" : "https://mmkvdev.github.io/VIL/docs/",
+      "page_rank" : 2
+    }
   ],
   "sitemap_urls": [
-    "https://docs.rokt.com/sitemap.xml"
+    "https://mmkvdev.github.io/VIL/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -32,7 +35,7 @@
     ]
   },
   "conversation_id": [
-    "1244738706"
+    "1274465228"
   ],
-  "nb_hits": 1862
+  "nb_hits": 1217
 }

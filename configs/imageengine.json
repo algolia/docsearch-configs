@@ -1,0 +1,29 @@
+{
+  "index_name": "imageengine",
+  "start_urls": [
+    "https://imageengine.io/docs"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://imageengine.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "h3.active-header",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-content > h2:first-child",
+    "lvl2": ".doc-content h2",
+    "lvl3": ".doc-content h3",
+    "lvl4": ".doc-content h4",
+    "lvl5": ".doc-content h5",
+    "lvl6": ".doc-content h6",
+    "text": ".doc-content p, .doc-content li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1270488979"
+  ],
+  "nb_hits": 856
+}

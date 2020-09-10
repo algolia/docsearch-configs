@@ -1,12 +1,22 @@
 {
-  "index_name": "statechannels",
+  "index_name": "gravitypdf",
   "start_urls": [
-    "https://docs.statechannels.org/"
+    {
+      "url": "https://docs.gravitypdf.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v3",
+          "v4",
+          "v5"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
-    "https://docs.statechannels.org/sitemap.xml"
+    "https://docs.gravitypdf.com/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
+  "scrape_start_urls": false,
+  "sitemap_alternate_links": false,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -24,23 +34,14 @@
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
-    "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type"
-    ],
-    "attributesToRetrieve": [
-      "hierarchy",
-      "content",
-      "anchor",
-      "url",
-      "url_without_anchor",
-      "type"
-    ]
+    "separatorsToIndex": "_"
   },
-  "conversation_id": [
-    "1239417806"
+  "selectors_exclude": [
+    "ul.table-of-contents",
+    "footer"
   ],
-  "nb_hits": 3514
+  "conversation_id": [
+    "1269640246"
+  ],
+  "nb_hits": 8891
 }
