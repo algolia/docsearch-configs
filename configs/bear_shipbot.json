@@ -1,10 +1,11 @@
 {
-  "index_name": "autocomplete",
+  "index_name": "bear_shipbot",
   "start_urls": [
-    "https://algolia-autocomplete.netlify.app/docs/"
+    "https://shipbot.gq/docs/",
+    "https://shipbot.gq/docs/welcome/"
   ],
   "sitemap_urls": [
-    "https://algolia-autocomplete.netlify.app/sitemap.xml"
+    "https://shipbot.gq/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -19,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -40,7 +40,7 @@
     ]
   },
   "conversation_id": [
-    "1108153125"
+    "1274185841"
   ],
-  "nb_hits": 553
+  "nb_hits": 1383
 }
