@@ -1,15 +1,16 @@
 {
-  "index_name": "thanos",
+  "index_name": "pixelastic_on-circle",
   "start_urls": [
-    "http://thanos.io"
+    "https://projects.pixelastic.com/on-circle/"
+  ],
+  "sitemap_urls": [
+    "https://projects.pixelastic.com/on-circle/sitemap.xml"
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://thanos.io/sitemap.xml"
-  ],
   "selectors": {
     "lvl0": {
-      "selector": ".menuinput:checked + label h5",
+      "selector": "//*[contains(@class,'ds-sidebar')]//*[contains(@class,'DocSearch-active')]/preceding::h3[1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -21,15 +22,8 @@
     "lvl6": ".DocSearch-content h6",
     "text": ".DocSearch-content p, .DocSearch-content li"
   },
-  "strip_chars": " .,;:#",
   "conversation_id": [
-    "1176012116"
+    "1278918719"
   ],
-  "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
-  },
-  "nb_hits": 29081
+  "nb_hits": 40
 }
