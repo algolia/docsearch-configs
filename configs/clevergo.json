@@ -2,21 +2,15 @@
   "index_name": "clevergo",
   "start_urls": [
     {
-      "url": "https://clevergo.tech/docs/",
+      "url": "https://clevergo.tech/en/",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://clevergo.tech/zh/docs/",
+      "url": "https://clevergo.tech/zh/",
       "tags": [
         "zh"
-      ]
-    },
-    {
-      "url": "https://clevergo.tech/zh-hant/docs/",
-      "tags": [
-        "zh-hant"
       ]
     }
   ],
