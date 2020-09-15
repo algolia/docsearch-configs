@@ -10,10 +10,10 @@
     "https://segment.com/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": ".page__body h1",
-    "lvl1": ".page__body h2",
-    "lvl2": ".page__body h3",
-    "text": ".page__body p, .page__body li, .page__body ol"
+    "lvl0": ".stage__body h1",
+    "lvl1": ".stage__body h2",
+    "lvl2": ".stage__body h3",
+    "text": ".stage__body p, .stage__body li, .stage__body ol"
   },
   "stop_content": [
     "This is currently in beta"
