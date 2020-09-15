@@ -10,22 +10,10 @@
     "https://segment.com/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "article > .breadcrumbs > li:nth-child(3) > a",
-      "global": true,
-      "default_value": "Guides"
-    },
-    "lvl1": {
-      "selector": "article > .breadcrumbs > li:nth-child(5) > a",
-      "global": true,
-      "default_value": "Introduction"
-    },
-    "lvl2": ".page__body h1",
-    "lvl3": ".page__body h2",
-    "lvl4": ".page__body h3",
-    "lvl5": ".page__body h4, .page__body tr:not(:first-child) td:first-child",
-    "lvl6": ".page__body h5",
-    "text": ".page__body p, .page__body li, .page__body tr:not(:first-child) td:last-child"
+    "lvl0": ".page__body h1",
+    "lvl1": ".page__body h2",
+    "lvl2": ".page__body h3",
+    "text": ".page__body p, .page__body li, .page__body ol"
   },
   "stop_content": [
     "This is currently in beta"
@@ -34,5 +22,5 @@
   "custom_settings": {
     "separatorsToIndex": "_>@"
   },
-  "nb_hits": 38542
+  "nb_hits": 23680
 }
