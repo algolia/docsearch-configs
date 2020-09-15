@@ -7,7 +7,10 @@
     "https://frendydw.github.io/docusaurus-tryout-v2/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+   "https://frendydw.github.io/docusaurus-tryout-v2/docs/1.1.0/",
+    "https://frendydw.github.io/docusaurus-tryout-v2/docs/next/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
