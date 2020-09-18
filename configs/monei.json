@@ -1,28 +1,52 @@
 {
   "index_name": "monei",
+  "js_render": true,
   "start_urls": [
-    "https://docs.monei.net/docs/"
+    {
+      "url": "https://docs.monei.net/docs",
+      "selectors_key": "docs"
+    },
+    {
+      "url": "https://docs.monei.net/api",
+      "selectors_key": "api"
+    }
   ],
   "sitemap_urls": [
-    "https://docs.monei.net/sitemap.xml"
+    "http://docs.monei.net/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
-  "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class,'menu ')]/ul[contains(@class,'menu__list')]/li[.//*[contains(@class,'active')]]/a",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    "docs": {
+      "lvl0": {
+        "selector": "//*[contains(@class,'menu ')]/ul[contains(@class,'menu__list')]/li[.//*[contains(@class,'active')]]/a",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "header h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "lvl6": "article h6",
+      "text": "article p, article li"
     },
-    "lvl1": "header h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "lvl6": "article h6",
-    "text": "article p, article li"
+    "api": {
+      "lvl0": {
+        "selector": "//*[@role=\"navigation\"]/li/label[contains(@class,\"active\")]/span",
+        "type": "xpath",
+        "global": true,
+        "default_value": "API Reference"
+      },
+      "lvl1": ".redoc-wrap h1",
+      "lvl2": ".redoc-wrap h2",
+      "lvl3": ".redoc-wrap h3",
+      "lvl4": ".redoc-wrap h4",
+      "lvl5": ".redoc-wrap h5",
+      "lvl6": ".redoc-wrap h6",
+      "text": ".redoc-wrap p,.redoc-wrap li,.redoc-wrap td[kind=\"field\"]"
+    }
   },
+  "selectors_exclude": [".redoc-json"],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -43,5 +67,5 @@
   "conversation_id": [
     "1227651763"
   ],
-  "nb_hits": 443
+  "nb_hits": 912
 }
