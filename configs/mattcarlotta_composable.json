@@ -1,0 +1,21 @@
+{
+  "index_name": "mattcarlotta_composable",
+  "start_urls": [
+    "https://composable.mattcarlotta.sh/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main h1:first-child",
+    "lvl1": "main h1:not(:first-child)",
+    "lvl2": "main h2, main td:first-child",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li, main td:not(:first-child)"
+  },
+  "scrape_start_urls": false,
+  "conversation_id": [
+    "1266409077"
+  ],
+  "nb_hits": 87
+}

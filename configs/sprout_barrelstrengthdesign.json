@@ -37,7 +37,7 @@
       "global": true
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
@@ -47,5 +47,5 @@
   "conversation_id": [
     "596308196"
   ],
-  "nb_hits": 4903
+  "nb_hits": 4741
 }

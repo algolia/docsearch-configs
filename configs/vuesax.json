@@ -18,6 +18,6 @@
     "lvl6": ".content h6",
     "text": ".content p, .content li"
   },
-    "strip_chars": " .,;:#",
-  "nb_hits": 2360
+  "strip_chars": " .,;:#",
+  "nb_hits": 2168
 }

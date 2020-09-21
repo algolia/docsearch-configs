@@ -1,0 +1,82 @@
+{
+  "index_name": "mediahuis_chameleon",
+  "start_urls": [
+    {
+      "url": "http://chameleon.mediahuis.be/components/",
+      "selectors_key": "components",
+      "tags": [
+        "components"
+      ]
+    },
+    {
+      "url": "http://chameleon.mediahuis.be/updates/",
+      "selectors_key": "updates",
+      "tags": [
+        "updates"
+      ]
+    },
+    "http://chameleon.mediahuis.be/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "//aside/*[.//*[@aria-current='page']]/a[1]//p",
+        "type": "xpath",
+        "gloabl": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": {
+        "selector": "main h1",
+        "gloabl": true
+      },
+      "lvl2": "section h2",
+      "lvl3": "section h3:not([class*='regular']), section td:first-child",
+      "lvl4": "section h4",
+      "lvl5": "section h5",
+      "lvl6": "section h6",
+      "text": "section p, section li, section h3[class*='regular'], section td:not(first-child)"
+    },
+    "components": {
+      "lvl0": {
+        "selector": "",
+        "gloabl": true,
+        "default_value": "Components"
+      },
+      "lvl1": {
+        "selector": "main h1",
+        "gloabl": true
+      },
+      "lvl2": "section h2",
+      "lvl3": "section h3:not([class*='regular']), section td:first-child",
+      "lvl4": "section h4",
+      "lvl5": "section h5",
+      "lvl6": "section h6",
+      "text": "section p, section li, section h3[class*='regular'], section td:not(first-child)"
+    },
+    "updates": {
+      "lvl0": {
+        "selector": "",
+        "gloabl": true,
+        "default_value": "Updates"
+      },
+      "lvl1": {
+        "selector": "main h1",
+        "gloabl": true
+      },
+      "lvl2": "section h2",
+      "lvl3": "section h3:not([class*='regular']), section td:first-child",
+      "lvl4": "section h4",
+      "lvl5": "section h5",
+      "lvl6": "section h6",
+      "text": "section p, section li, section h3[class*='regular'], section td:not(first-child)"
+    }
+  },
+  "selectors_exclude": [
+    "section [class*='-Paper'] a"
+  ],
+  "conversation_id": [
+    "1220130398"
+  ],
+  "nb_hits": 4450
+}

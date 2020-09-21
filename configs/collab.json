@@ -2,56 +2,68 @@
   "index_name": "collab",
   "start_urls": [
     {
-      "url": "http://docs.collab.net/teamforge200/",
+      "url": "https://docs.collab.net/teamforge202/",
+      "tags": [
+        "teamforge202"
+      ]
+    },
+    {
+      "url": "https://docs.collab.net/teamforge201/",
+      "tags": [
+        "teamforge201"
+      ]
+    },
+    {
+      "url": "https://docs.collab.net/teamforge200/",
       "tags": [
         "teamforge200"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge193/",
+      "url": "https://docs.collab.net/teamforge193/",
       "tags": [
         "teamforge193"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge192/",
+      "url": "https://docs.collab.net/teamforge192/",
       "tags": [
         "teamforge192"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge191/",
+      "url": "https://docs.collab.net/teamforge191/",
       "tags": [
         "teamforge191"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge190/",
+      "url": "https://docs.collab.net/teamforge190/",
       "tags": [
         "teamforge190"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge183/",
+      "url": "https://docs.collab.net/teamforge183/",
       "tags": [
         "teamforge183"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge182/",
+      "url": "https://docs.collab.net/teamforge182/",
       "tags": [
         "teamforge182"
       ]
     },
     {
-      "url": "http://docs.collab.net/teamforge181/",
+      "url": "https://docs.collab.net/teamforge181/",
       "tags": [
         "teamforge181"
       ]
     }
   ],
   "stop_urls": [
-    "http://docs.collab.net/teamforge181/index.html",
+    "https://docs.collab.net/teamforge181/index.html",
     "\\?",
     "/javadoc/"
   ],
@@ -75,12 +87,12 @@
     "text": ".post-content p, .post-content li, .post-content .summary"
   },
   "min_indexed_level": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "#toc"
   ],
   "conversation_id": [
     "555093088"
   ],
-  "nb_hits": 147310
+  "nb_hits": 188052
 }

@@ -22,12 +22,12 @@
       "global": true
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
-  "nb_hits": 4632
+  "nb_hits": 4634
 }

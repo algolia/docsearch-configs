@@ -1,7 +1,7 @@
 {
   "index_name": "flarum",
   "start_urls": [
-    "https://flarum.org/docs/"
+    "https://docs.flarum.org/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -23,7 +23,7 @@
       "default_value": "en-US"
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
@@ -31,5 +31,5 @@
     ]
   },
   "min_indexed_level": 0,
-  "nb_hits": 835
+  "nb_hits": 873
 }

@@ -5,31 +5,32 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li",
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
       "global": true
     }
   },
-  "selectors_exclude": [
-    ".table-of-contents"
-  ],
+  "scrape_start_urls": false,
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
-  "scrap_start_urls": false,
-  "strip_chars": " .,;:#",
   "conversation_id": [
     "981124343"
   ],
-  "nb_hits": 1482
+  "nb_hits": 1613
 }

@@ -1,0 +1,39 @@
+{
+  "index_name": "tencent_wechatpay",
+  "start_urls": [
+    "https://pay.weixin.qq.com/wiki/doc/",
+    "https://pay.weixin.qq.com/wiki/doc/api/wxpay/en/pages/index.shtml"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".title h2",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-main h2, #list-wrp .name",
+    "lvl2": ".part h3",
+    "lvl3": ".part h4",
+    "lvl4": ".part h5",
+    "lvl5": ".part h6",
+    "text": ".part p, .part li, #list-wrp p",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "js_render": true,
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
+  "conversation_id": [
+    "1202870440"
+  ],
+  "nb_hits": 18236
+}

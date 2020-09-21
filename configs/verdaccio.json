@@ -1,36 +1,39 @@
 {
   "index_name": "verdaccio",
   "start_urls": [
-    "https://verdaccio.org/docs/en/installation"
+    "https://verdaccio.org/docs/",
+    "https://verdaccio.org/docs/en/what-is-verdaccio"
   ],
+  "sitemap_urls": [
+    "https://verdaccio.org/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "text": ".post article p, .post article li",
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h2",
-    "lvl2": ".post h3",
-    "lvl3": ".post h4",
-    "lvl4": ".post h5",
-    "lvl5": ".post h6"
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
     ".hash-link"
   ],
-  "sitemap_urls": [
-    "https://verdaccio.org/docs/en/installationsitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "custom_settings": {
     "attributesForFaceting": [
       "language",
       "version"
     ]
   },
-  "min_indexed_level": 0,
-  "nb_hits": 25
+  "conversation_id": [
+    "1273018287"
+  ],
+  "nb_hits": 6289
 }

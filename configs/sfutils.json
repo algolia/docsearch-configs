@@ -18,12 +18,12 @@
   "selectors_exclude": [
     ".dont-index"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "custom_settings": {
     "separatorsToIndex": "_"
   },
   "conversation_id": [
     "589190578"
   ],
-  "nb_hits": 539
+  "nb_hits": 533
 }

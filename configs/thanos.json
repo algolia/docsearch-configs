@@ -1,0 +1,35 @@
+{
+  "index_name": "thanos",
+  "start_urls": [
+    "http://thanos.io"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://thanos.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menuinput:checked + label h5",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocSearch-content h1",
+    "lvl2": ".DocSearch-content h2",
+    "lvl3": ".DocSearch-content h3",
+    "lvl4": ".DocSearch-content h4",
+    "lvl5": ".DocSearch-content h5",
+    "lvl6": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1176012116"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "nb_hits": 29081
+}

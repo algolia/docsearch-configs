@@ -13,9 +13,9 @@
     "lvl5": "section.inner h6",
     "text": "section.inner p, section.inner li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "1146257922"
   ],
-  "nb_hits": 180898
+  "nb_hits": 180958
 }

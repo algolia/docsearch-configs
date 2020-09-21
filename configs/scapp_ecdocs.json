@@ -1,9 +1,11 @@
 {
   "index_name": "scapp_ecdocs",
   "start_urls": [
-    "https://ecdocs-vuepress.scapp.io/"
+    "https://docs.entcloud.swisscom.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "^.*/misc/.*$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -35,6 +37,6 @@
   "conversation_id": [
     "1147172345"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 2691
+  "scrape_start_urls": false,
+  "nb_hits": 5083
 }

@@ -3,42 +3,23 @@
   "start_urls": [
     "https://docs.zonos.com/"
   ],
-  "stop_urls": [
-    "/docs/docs/",
-    "docs.zonos.com/ups-ready/",
-    "docs.zonos.com/docs/shipping-calculations/",
-    "docs.zonos.com/docs/currencies",
-    "docs.zonos.com/development/billable-weight",
-    "docs.zonos.com/docs/EUGDPR.org",
-    "docs.zonos.com/case-studies/low-priced-service-levels",
-    "docs.zonos.com/docs/localization-api",
-    "docs.zonos.com/development/docs/carriers",
-    "docs.zonos.com/development/docs/3rd-party-gateways",
-    "docs.zonos.com/docs/shipping-calculations/docs/carriers",
-    "docs.zonos.com/docs/shipping-calculations/docs/3rd-party-gateways",
-    "docs.zonos.com/ups-ready/docs/carriers",
-    "docs.zonos.com/ups-ready/docs/3rd-party-gateways",
-    "docs.zonos.com/apo-fpo-shipping",
-    "docs.zonos.com/home",
-    "docs.zonos.com/docs/3rd-party-gateway",
-    "docs.zonos.com/platform/fedex-setup"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "nav header h3",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "#main-content h1",
-    "lvl2": "#main-content h2",
-    "lvl3": "#main-content h3",
-    "lvl4": "#main-content h4",
-    "text": "#main-content p, #main-content li"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "text": "main p, main li"
   },
-  "scrap_start_urls": false,
   "js_render": true,
+  "scrape_start_urls": false,
   "conversation_id": [
-    "469038186"
+    "1264509496"
   ],
-  "nb_hits": 10367
+  "nb_hits": 14646
 }

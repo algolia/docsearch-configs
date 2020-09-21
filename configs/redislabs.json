@@ -7,27 +7,53 @@
   "sitemap_urls": [
     "https://docs.redislabs.com/latest/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/release-notes/"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "(//ul[contains(@class,'menu')]/li[contains(@class,'parent')][.//*[contains(@class,'active')]]/div/a|//*[contains(@class,'parent')][contains(@class,'active')]/div/a)[1]",
-      "type": "xpath",
+      "selector": ".menu .parent> a",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".page h1",
-    "lvl2": ".main-content h2",
-    "lvl3": ".main-content h3",
-    "lvl4": ".main-content h4",
-    "lvl5": ".main-content h5",
-    "text": ".main-content p, .main-content li"
+    "lvl1": {
+      "selector": ".page h1",
+      "global": true
+    },
+    "lvl2": ".main-content-left > h2",
+    "lvl3": ".main-content-left > h3, .main-content td:first-child",
+    "lvl4": ".main-content-left > h4",
+    "lvl5": ".main-content-left > h5",
+    "text": ".main-content-left > p, .main-content-left > ul > li, .expand-content p, .main-content td:not(:first-child)"
   },
   "selectors_exclude": [
     ".main-content #toc"
   ],
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesToIndex": [
+      "hierarchy_camel.lvl1",
+      "hierarchy.lvl1",
+      "unordered(hierarchy_camel.lvl2)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy_camel.lvl3)",
+      "unordered(hierarchy.lvl3)",
+      "unordered(hierarchy_camel.lvl4)",
+      "unordered(hierarchy.lvl4)",
+      "unordered(hierarchy_camel.lvl5)",
+      "unordered(hierarchy.lvl5)",
+      "unordered(hierarchy_camel.lvl6)",
+      "unordered(hierarchy.lvl6)",
+      "content"
+    ],
+    "customRanking": [
+      "desc(weight.page_rank)",
+      "asc(weight.position)"
+    ]
+  },
   "conversation_id": [
     "706782001"
   ],
   "min_indexed_level": 2,
-  "nb_hits": 4327
+  "nb_hits": 6446
 }

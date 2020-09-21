@@ -1,10 +1,10 @@
 {
   "index_name": "boldpenguin_developers",
   "start_urls": [
-    "https://developers.dev.boldpenguin.com/docs/"
+    "https://developers.boldpenguin.com/docs/"
   ],
   "sitemap_urls": [
-    "https://developers.dev.boldpenguin.com/sitemap.xml"
+    "https://developers.boldpenguin.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
@@ -36,5 +36,5 @@
   "conversation_id": [
     "1094270591"
   ],
-  "nb_hits": 1224
+  "nb_hits": 1349
 }

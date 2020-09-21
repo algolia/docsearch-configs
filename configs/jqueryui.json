@@ -148,6 +148,6 @@
     "#toctitle"
   ],
   "min_indexed_level": 2,
-  "scrap_start_urls": false,
-  "nb_hits": 12068
+  "scrape_start_urls": false,
+  "nb_hits": 2951
 }

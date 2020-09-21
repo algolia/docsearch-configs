@@ -25,9 +25,9 @@
   "min_indexed_level": 3,
   "js_render": true,
   "js_wait": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "772198821"
   ],
-  "nb_hits": 5039
+  "nb_hits": 5506
 }

@@ -20,9 +20,9 @@
     "text": ".docs-content p"
   },
   "min_indexed_level": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "261040552"
   ],
-  "nb_hits": 4574
+  "nb_hits": 11917
 }

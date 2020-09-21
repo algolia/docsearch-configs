@@ -1,0 +1,32 @@
+{
+  "index_name": "as3_lvlp_io",
+  "start_urls": [
+    "https://lvlp.io/[a-z]*/support/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://lvlp.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "main h2",
+    "lvl1": "main h3",
+    "lvl2": "main h4",
+    "lvl3": "main h5",
+    "lvl4": "main h6",
+    "text": "main p, main li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "1246046857"
+  ],
+  "nb_hits": 466
+}

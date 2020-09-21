@@ -15,7 +15,8 @@
           "ru",
           "uk",
           "zh",
-          "zh-tw"
+          "zh-tw",
+          "v2"
         ]
       }
     }
@@ -34,6 +35,6 @@
   "conversation_id": [
     "678588606"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 3673
+  "scrape_start_urls": false,
+  "nb_hits": 5711
 }

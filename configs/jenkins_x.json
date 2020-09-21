@@ -42,7 +42,7 @@
     "[class^='feedback--']",
     ".section-index"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
@@ -51,5 +51,5 @@
   "conversation_id": [
     "965668499"
   ],
-  "nb_hits": 14706
+  "nb_hits": 14859
 }

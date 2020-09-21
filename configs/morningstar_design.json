@@ -1,7 +1,7 @@
 {
   "index_name": "morningstar_design",
   "start_urls": [
-    "http://designsystem.morningstar.com/"
+    "http://designsystem.morningstar.com/legacy/"
   ],
   "stop_urls": [
     "\\?",
@@ -12,7 +12,7 @@
     "test/",
     "sink-pages/",
     "/release-history.html",
-    "morningstar.com/index.html"
+    "morningstar.com/legacy/index.html"
   ],
   "selectors": {
     "lvl0": {
@@ -32,9 +32,9 @@
     ".mds-doc-do-dont",
     ".mds-doc-footer"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "840078344"
   ],
-  "nb_hits": 9075
+  "nb_hits": 9967
 }

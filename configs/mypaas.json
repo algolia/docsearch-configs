@@ -1,0 +1,24 @@
+{
+  "index_name": "mypaas",
+  "start_urls": [
+    "https://doc.mypaas.com.cn/paas/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-section h1, .content h1",
+    "lvl1": ".markdown-section h2, .content h2",
+    "lvl2": ".markdown-section h3, .content h3",
+    "lvl3": ".markdown-section h4, .content h4",
+    "lvl4": ".markdown-section h5, .content h5",
+    "text": ".markdown-section p, .content p, .markdown-section li, .content li"
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1203129967"
+  ],
+  "scrape_start_urls": false,
+  "nb_hits": 6722
+}

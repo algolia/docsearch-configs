@@ -1,0 +1,37 @@
+{
+  "index_name": "3ttech",
+  "start_urls": [
+    "https://docs.3ttech.cn"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".sidebar-project-selecter_toggle",
+    "lvl1": ".dir-level0.open, .dir-level0.active",
+    "lvl2": ".dir-level1.open, .dir-level1.active",
+    "lvl3": ".dir-level2.open, .dir-level2.active",
+    "lvl4": ".tabs-item.act",
+    "lvl5": ".theme-default-content h2",
+    "lvl6": ".theme-default-content h3",
+    "text": ".theme-default-content p, .theme-default-content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "1172761179"
+  ],
+  "scrape_start_urls": false,
+  "nb_hits": 12465
+}

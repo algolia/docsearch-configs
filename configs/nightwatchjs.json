@@ -37,6 +37,6 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "scrap_start_urls": false,
-  "nb_hits": 191458
+  "scrape_start_urls": false,
+  "nb_hits": 178237
 }

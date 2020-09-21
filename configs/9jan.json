@@ -1,7 +1,7 @@
 {
   "index_name": "9jan",
   "start_urls": [
-    "https://9jan.github.io/"
+    "https://vread.xyz/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -32,6 +32,6 @@
   "conversation_id": [
     "743944400"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 42
+  "scrape_start_urls": false,
+  "nb_hits": 253
 }

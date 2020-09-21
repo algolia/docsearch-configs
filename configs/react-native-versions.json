@@ -7,9 +7,6 @@
   "sitemap_urls": [
     "https://reactnative.dev/sitemap.xml"
   ],
-  "stop_urls": [
-    "\\.html$"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
@@ -28,11 +25,22 @@
       "global": true
     }
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "conversation_id": [
     "477313987"
   ],
-  "nb_hits": 365335
+  "nb_hits": 370167
 }

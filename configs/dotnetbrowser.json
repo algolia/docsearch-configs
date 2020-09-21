@@ -1,0 +1,27 @@
+{
+  "index_name": "dotnetbrowser",
+  "start_urls": [
+    "https://dotnetbrowser-support.teamdev.com/"
+  ],
+  "stop_urls": [
+    "/apidoc/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".page-headline",
+    "global": true,
+    "default_value": "Documentation"
+  },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
+    "lvl6": ".markdown h6",
+    "text": ".markdown p, .markdown li"
+  },
+  "conversation_id": [
+    "1181720877"
+  ],
+  "nb_hits": 2548
+}

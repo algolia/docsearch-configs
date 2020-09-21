@@ -1,7 +1,7 @@
 {
   "index_name": "statamic",
   "start_urls": [
-    "https://docs.statamic.com"
+    "https://v2.statamic.com"
   ],
   "stop_urls": [],
   "selectors": {
@@ -20,5 +20,5 @@
   "conversation_id": [
     "537474924"
   ],
-  "nb_hits": 5780
+  "nb_hits": 6040
 }

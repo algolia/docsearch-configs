@@ -23,9 +23,9 @@
   ],
   "min_indexed_level": 1,
   "js_render": true,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "178040846"
   ],
-  "nb_hits": 2238
+  "nb_hits": 2236
 }

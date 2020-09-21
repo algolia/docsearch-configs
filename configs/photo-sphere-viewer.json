@@ -1,26 +1,52 @@
 {
   "index_name": "photo-sphere-viewer",
   "start_urls": [
-    "https://photo-sphere-viewer.netlify.app/"
+    {
+      "url": "https://photo-sphere-viewer.netlify.app/api/",
+      "selectors_key": "api",
+      "page_rank": 1
+    },
+    {
+      "url": "https://photo-sphere-viewer.netlify.app/",
+      "page_rank": 2
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "p.sidebar-heading.open",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "p.sidebar-heading.open",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".theme-default-content h1",
+      "lvl2": ".theme-default-content h2",
+      "lvl3": ".theme-default-content h3",
+      "lvl4": ".theme-default-content h4",
+      "lvl5": ".theme-default-content h5",
+      "text": ".theme-default-content p, .theme-default-content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
     },
-    "lvl1": ".theme-default-content h1",
-    "lvl2": ".theme-default-content h2",
-    "lvl3": ".theme-default-content h3",
-    "lvl4": ".theme-default-content h4",
-    "lvl5": ".theme-default-content h5",
-    "text": ".theme-default-content p, .theme-default-content li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true,
-      "default_value": "en-US"
+    "api": {
+      "lvl0": {
+        "selector": ".main header h2",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": ".main h3.subsection-title",
+      "lvl2": ".main h4.name",
+      "text": ".main p",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
     }
   },
   "selectors_exclude": [
@@ -35,6 +61,6 @@
   "conversation_id": [
     "1140598055"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 558
+  "scrape_start_urls": false,
+  "nb_hits": 2331
 }

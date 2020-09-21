@@ -28,10 +28,10 @@
     "lvl4": "article h5",
     "text": "article p, article li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "min_indexed_level": 1,
   "conversation_id": [
     "528483574"
   ],
-  "nb_hits": 41849
+  "nb_hits": 42072
 }

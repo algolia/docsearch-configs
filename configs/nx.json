@@ -1,0 +1,37 @@
+{
+  "index_name": "nx",
+  "start_urls": [
+    {
+      "url": "https://nx.dev/(?P<version>.*?)/(?P<framework>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "stable"
+        ],
+        "framework": [
+          "react",
+          "angular"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://nx.dev/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "selectors": {
+    "lvl0": ".document-view  h1",
+    "lvl1": ".document-view h2",
+    "lvl2": ".document-view h3",
+    "lvl3": ".document-view h4",
+    "lvl4": ".document-view h5",
+    "lvl5": ".document-view h6",
+    "text": ".document-view p, .document-view li"
+  },
+  "strip_chars": "#\u203a",
+  "conversation_id": [
+    "1152538732"
+  ],
+  "nb_hits": 8867
+}

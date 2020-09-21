@@ -6,6 +6,7 @@
       "variables": {
         "version": [
           "master",
+          "8.x",
           "7.x",
           "6.x",
           "5.8",
@@ -42,7 +43,7 @@
     "lvl5": ".docs_main h5",
     "text": ".docs_main p, .docs_main li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "h1 + ul"
   ],
@@ -68,5 +69,5 @@
     ],
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 60630
+  "nb_hits": 68582
 }

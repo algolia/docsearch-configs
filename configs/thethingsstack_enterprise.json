@@ -1,0 +1,20 @@
+{
+  "index_name": "thethingsstack_enterprise",
+  "start_urls": [
+    "https://enterprise.thethingsstack.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".section .column:last-child h1",
+    "lvl1": ".section .column:last-child h2",
+    "lvl2": ".section .column:last-child h3",
+    "lvl3": ".section .column:last-child h4",
+    "lvl4": ".section .column:last-child h5",
+    "lvl5": ".section .column:last-child h6",
+    "text": ".section .column:last-child p, .section .column:last-child li"
+  },
+  "conversation_id": [
+    "1186892043"
+  ],
+  "nb_hits": 4239
+}

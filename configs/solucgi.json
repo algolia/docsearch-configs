@@ -1,0 +1,32 @@
+{
+  "index_name": "solucgi",
+  "start_urls": [
+    "https://www.solucgi.com/support/docs/"
+  ],
+  "sitemap_urls": [
+    "https://www.solucgi.com/support/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class^='docItemContainer_'] h1",
+    "lvl2": "[class^='docItemContainer_'] h2",
+    "lvl3": "[class^='docItemContainer_'] h3",
+    "lvl4": "[class^='docItemContainer_'] h4",
+    "lvl5": "[class^='docItemContainer_'] h5",
+    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+  },
+  "scrape_start_urls": false,
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "1218740238"
+  ],
+  "nb_hits": 141
+}

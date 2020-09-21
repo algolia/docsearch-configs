@@ -2,7 +2,7 @@
   "index_name": "blitzjs",
   "start_urls": [
     "https://blitzjs.now.sh/docs/",
-    "https://blitzjs.now.sh/docs/basics/getting-started"
+    "https://blitzjs.now.sh/docs/getting-started"
   ],
   "sitemap_urls": [
     "https://blitzjs.now.sh/sitemap.xml"
@@ -23,10 +23,10 @@
     "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
   },
   "selectors_exclude": [
-    ".hash-link"
+    ".hash-link","style"
   ],
   "conversation_id": [
     "1148527228"
   ],
-  "nb_hits": 220
+  "nb_hits": 1355
 }

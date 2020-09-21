@@ -2,20 +2,27 @@
   "index_name": "gatsbyjs",
   "start_urls": [
     {
-      "url": "https://www.gatsbyjs.org/docs/",
+      "url": "https://www.gatsbyjs.com/docs/",
       "tags": [
         "docs"
       ]
     },
     {
-      "url": "https://www.gatsbyjs.org/tutorial/",
+      "url": "https://www.gatsbyjs.com/cloud/docs/",
+      "selectors_key": "cloud",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://www.gatsbyjs.com/tutorial/",
       "selectors_key": "tutorial",
       "tags": [
         "tutorial"
       ]
     },
     {
-      "url": "https://www.gatsbyjs.org/blog/",
+      "url": "https://www.gatsbyjs.com/blog/",
       "selectors_key": "blog",
       "tags": [
         "blog"
@@ -23,7 +30,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://www.gatsbyjs.org/sitemap.xml"
+    "https://www.gatsbyjs.com/sitemap.xml"
   ],
   "stop_urls": [
     "/packages/",
@@ -36,7 +43,7 @@
         "selector": "//a[@aria-current]/preceding::h3[1]",
         "type": "xpath",
         "global": true,
-        "default_value": "Unsorted"
+        "default_value": "Documentation"
       },
       "lvl1": ".docSearch-content h1",
       "lvl2": ".docSearch-content h2",
@@ -74,6 +81,19 @@
       "lvl4": "section.post-body h4",
       "lvl5": "section.post-body h5",
       "text": "section.post-body p, section.post-body li"
+    },
+    "cloud": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Cloud"
+      },
+      "lvl1": ".docSearch-content h1",
+      "lvl2": ".docSearch-content h2",
+      "lvl3": ".docSearch-content h3",
+      "lvl4": ".docSearch-content h4",
+      "lvl5": ".docSearch-content h5",
+      "text": ".docSearch-content p, .docSearch-content li"
     }
   },
   "selectors_exclude": [
@@ -86,5 +106,5 @@
   "conversation_id": [
     "487785557"
   ],
-  "nb_hits": 41979
+  "nb_hits": 28620
 }

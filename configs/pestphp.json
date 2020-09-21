@@ -1,7 +1,7 @@
 {
   "index_name": "pestphp",
   "start_urls": [
-    "https://next.pestphp.com/"
+    "https://pestphp.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -16,5 +16,5 @@
   "conversation_id": [
     "1151031943"
   ],
-  "nb_hits": 111
+  "nb_hits": 253
 }

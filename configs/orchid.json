@@ -1,7 +1,9 @@
 {
   "index_name": "orchid",
   "start_urls": [
-    "https://orchid.run/wiki/"
+    "https://orchid.run/wiki/",
+    "https://orchid.run/plugins/",
+    "https://orchid.run/themes/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -22,5 +24,5 @@
   "conversation_id": [
     "991115452"
   ],
-  "nb_hits": 946
+  "nb_hits": 2045
 }

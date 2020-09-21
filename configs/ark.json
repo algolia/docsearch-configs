@@ -12,7 +12,7 @@
     "lvl4": "[class*='wholeContentPage'] h5",
     "text": "[class*='wholeContentPage'] p, [class*='wholeContentPage'] li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     ".table-of-contents"
   ],
