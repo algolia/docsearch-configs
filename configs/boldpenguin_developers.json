@@ -7,7 +7,9 @@
     "https://developers.dev.boldpenguin.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "https://developers.boldpenguin.com/docs/en/secure/sdk/modules/_index_.html"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
