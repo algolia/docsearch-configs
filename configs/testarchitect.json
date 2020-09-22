@@ -27,7 +27,15 @@
   },
   "custom_settings": {
     "separatorsToIndex": "!$/:*?<>|#=[];%.",
-    "disableTypoToleranceOnWords": ["SAP", "ios", "WPF" ]
+    "disableTypoToleranceOnWords": ["SAP", "ios", "WPF" ],
+    "synonyms": [
+      [
+      "repository",
+      "repositories"
+    ],
+    ["export",
+    "exporting"]
+  ]
 
   },
   "scrape_start_urls": false,
