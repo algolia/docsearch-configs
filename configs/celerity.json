@@ -1,10 +1,10 @@
 {
-  "index_name": "elasticpath_commerce-cloud",
+  "index_name": "celerity",
   "start_urls": [
-    "https://documentation.elasticpath.com/commerce-cloud/docs/"
+    "https://celerity.github.io/docs/"
   ],
   "sitemap_urls": [
-    "https://documentation.elasticpath.com/commerce-cloud/sitemap.xml"
+    "https://celerity.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -28,13 +28,11 @@
   "custom_settings": {
     "attributesForFaceting": [
       "language",
-      "version",
-      "hierarchy.lvl0"
+      "version"
     ]
   },
-  "scrape_start_urls": false,
   "conversation_id": [
-    "1148671955"
+    "1276145463"
   ],
-  "nb_hits": 4414
+  "nb_hits": 185
 }

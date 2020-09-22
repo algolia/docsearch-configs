@@ -1,28 +1,27 @@
 {
-  "index_name": "mikro-orm",
+  "index_name": "vime",
   "start_urls": [
-    "https://mikro-orm.io/docs/"
+    "http://vimejs.com/"
   ],
-  "sitemap_urls": [
-    "https://mikro-orm.io/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
-      "global": true,
-      "default_value": "Documentation"
-    },
+    "text": "article p, article li",
     "lvl1": "header h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5, article td:first-child",
+    "lvl5": "article h5",
     "lvl6": "article h6",
-    "text": "article p, article li, article blockquote, article td:last-child"
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    }
   },
-  "strip_chars": " .,;:#",
+  "sitemap_urls": [
+    "http://vimejs.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -30,6 +29,7 @@
       "version",
       "type"
     ],
+    "strip_chars": " .,;:#",
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -39,8 +39,8 @@
       "type"
     ]
   },
+  "min_indexed_level": 0,
   "conversation_id": [
-    "1013781084"
-  ],
-  "nb_hits": 9163
+    "1281221982"
+  ]
 }

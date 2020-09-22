@@ -10,7 +10,6 @@
     }
   ],
   "stop_urls": [
-    "https://paystack.com/docs/payments/dedicated-nuban",
     "https://paystack.com/docs/payments/charge-card"
   ],
   "selectors": {

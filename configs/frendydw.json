@@ -1,13 +1,16 @@
 {
-  "index_name": "autocomplete",
+  "index_name": "frendydw",
   "start_urls": [
-    "https://algolia-autocomplete.netlify.app/docs/"
+    "https://frendydw.github.io/docusaurus-tryout-v2/docs/"
   ],
   "sitemap_urls": [
-    "https://algolia-autocomplete.netlify.app/sitemap.xml"
+    "https://frendydw.github.io/docusaurus-tryout-v2/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+   "https://frendydw.github.io/docusaurus-tryout-v2/docs/1.1.0/",
+    "https://frendydw.github.io/docusaurus-tryout-v2/docs/next/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
@@ -19,7 +22,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -40,7 +42,7 @@
     ]
   },
   "conversation_id": [
-    "1108153125"
+    "1279130530"
   ],
-  "nb_hits": 553
+  "nb_hits": 270
 }

@@ -1,16 +1,17 @@
 {
-  "index_name": "autocomplete",
+  "index_name": "nexclipper",
   "start_urls": [
-    "https://algolia-autocomplete.netlify.app/docs/"
+    "https://nexclipper.github.io/docs/"
   ],
   "sitemap_urls": [
-    "https://algolia-autocomplete.netlify.app/sitemap.xml"
+    "https://nexclipper.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "//*[contains(@class,'menu')]//*[@aria-current]/preceding::*[contains(@class,'menuLinkText_')][1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -19,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -40,7 +40,7 @@
     ]
   },
   "conversation_id": [
-    "1108153125"
+    "1275986945"
   ],
-  "nb_hits": 553
+  "nb_hits": 118
 }
