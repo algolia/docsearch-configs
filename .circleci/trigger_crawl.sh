@@ -10,7 +10,7 @@ set -o errexit
 set -o pipefail
 
 echo "Hello world!"
-
+git diff HEAD original_repo/master --name-only ./configs
 FILES=$(git diff HEAD original_repo/master --name-only ./configs)
 echo $FILES
 
