@@ -52,7 +52,9 @@
     "https://docs.anyrtc.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "^((?!\\.html).)*$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
