@@ -9,6 +9,8 @@ set -o errexit
 # Use the error status of the first failure, rather than that of the last item in a pipeline.
 set -o pipefail
 
+echo "Hello world!"
+
 FILES=$(git diff HEAD original_repo/master --name-only ./configs)
 echo $FILES
 
