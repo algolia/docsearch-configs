@@ -10,6 +10,7 @@ set -o errexit
 set -o pipefail
 
 FILES=$(git diff HEAD original_repo/master --name-only ./configs)
+echo $FILES
 
 for f in $FILES
 do
