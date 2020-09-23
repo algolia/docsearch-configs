@@ -3,43 +3,63 @@
   "start_urls": [
     {
       "url": "https://docs.anyrtc.io/platforms/",
-      "tags": ["platforms"]
+      "tags": [
+        "platforms"
+      ]
     },
     {
       "url": "https://docs.anyrtc.io/recording/",
-      "tags": ["recording"]
+      "tags": [
+        "recording"
+      ]
     },
     {
       "url": "https://docs.anyrtc.io/rtc-web/",
-      "tags": ["rtc-web"]
+      "tags": [
+        "rtc-web"
+      ]
     },
     {
       "url": "https://docs.anyrtc.io/rtc-android/",
-      "tags": ["rtc-android"]
+      "tags": [
+        "rtc-android"
+      ]
     },
     {
       "url": "https://docs.anyrtc.io/rtc-ios/",
-      "tags": ["rtc-ios"]
+      "tags": [
+        "rtc-ios"
+      ]
     },
     {
       "url": "https://docs.anyrtc.io/rtc-window/",
-      "tags": ["rtc-window"]
+      "tags": [
+        "rtc-window"
+      ]
     },
     {
       "url": "https://docs.anyrtc.io/rtm-web/",
-      "tags": ["rtm-web"]
+      "tags": [
+        "rtm-web"
+      ]
     },
     {
       "url": "https://docs.anyrtc.io/rtm-android/",
-      "tags": ["rtm-android"]
+      "tags": [
+        "rtm-android"
+      ]
     },
     {
       "url": "https://docs.anyrtc.io/rtm-ios/",
-      "tags": ["rtm-ios"]
+      "tags": [
+        "rtm-ios"
+      ]
     },
     {
       "url": "https://docs.anyrtc.io/rtm-window/",
-      "tags": ["rtm-window"]
+      "tags": [
+        "rtm-window"
+      ]
     },
     {
       "url": "https://docs.anyrtc.io/",
@@ -93,5 +113,6 @@
   "conversation_id": [
     "1240230599"
   ],
-  "scrape_start_urls": false
+  "scrape_start_urls": false,
+  "nb_hits": 30510
 }
