@@ -16,10 +16,8 @@
   ],
   "stop_urls": [
     "http://rasa.com/docs/.*?/\\d",
-    "http://rasa.com/docs/.*?/master",
-    ".rst.txt$",
+    "http://rasa.com/docs/.*?/next",
     "/_",
-    "/dev/",
     "[^/]$"
   ],
   "selectors": {
