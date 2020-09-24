@@ -33,6 +33,5 @@
   "min_indexed_level": 3,
   "custom_settings": {
     "separatorsToIndex": "_>@"
-  },
-  "nb_hits": 38542
+  }
 }
