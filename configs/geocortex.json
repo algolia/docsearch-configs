@@ -11,16 +11,19 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
+      "selector": ".navbar__link.navbar__link--active",	
+      "global": true	
+    },	
+    "lvl1": {
       "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "header h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "lvl6": "article h6",
+    "lvl2": "header h1",
+    "lvl3": "article h2",
+    "lvl4": "article h3",
+    "lvl5": "article h4",
+    "lvl6": "article h5",
     "text": "article p, article li"
   },
   "strip_chars": " .,;:#",
