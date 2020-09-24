@@ -23,7 +23,7 @@
     "lvl4": "main h3",
     "lvl5": "main h4",
     "lvl6": "main h5",
-    "text": "main p, main li, main td"
+    "text": "main p, main li, main td, main strong"
   },
   "custom_settings": {
     "separatorsToIndex": "!$/:*?<>|#=[];%.",
