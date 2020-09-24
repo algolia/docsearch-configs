@@ -24,20 +24,19 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//div[contains(@class, 'sphinxsidebarwrapper')]//ul[contains(@class, 'current')][1]/preceding::p[contains(@class, 'caption')][1]",
-      "type": "xpath",
+      "selector": ".menu a.level--1.menu__link--active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".body h1",
-    "lvl2": ".body h2",
-    "lvl3": ".body h3",
-    "lvl4": ".body h4",
-    "lvl5": ".body h5, .body .admonition-title",
-    "text": ".body p, .body li"
+    "lvl1": ".main h1",
+    "lvl2": ".main h2",
+    "lvl3": ".main h3",
+    "lvl4": ".main h4",
+    "lvl5": ".main h5",
+    "text": ".main p, .main li"
   },
   "selectors_exclude": [
-    ".scv-banner"
+    ".announce-bar"
   ],
   "custom_settings": {
     "synonyms": [
