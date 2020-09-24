@@ -14,6 +14,12 @@
       "tags": ["rasa-action-server"]
     }
   ],
+  "sitemap_urls": [
+    "https://rasa.com/docs/rasa/sitemap.xml",
+    "https://rasa.com/docs/rasa-x/sitemap.xml",
+    "https://rasa.com/docs/action-server/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [
     "http://rasa.com/docs/.*?/\\d",
     "http://rasa.com/docs/.*?/next",
