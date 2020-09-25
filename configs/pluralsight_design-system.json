@@ -16,7 +16,7 @@
     },
     "lvl2": "div.content h2",
     "lvl3": "div.content h3, .content [role='cell']:first-child",
-    "lvl5": "div.content h4",
+    "lvl4": "div.content h4",
     "text": "div.content p, .content li, .content [role='cell']:not(first-child)"
   },
   "conversation_id": ["1206797091"],
