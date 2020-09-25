@@ -1,8 +1,6 @@
 {
   "index_name": "pluralsight_design-system",
-  "start_urls": [
-    "https://design-system.pluralsight.com/"
-  ],
+  "start_urls": ["https://design-system.pluralsight.com/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -11,19 +9,16 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3, .content [role='cell']:first-child",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "lvl6": ".content h6",
-    "text": ".content p, .content li, .content [role='cell']:not(first-child)"
+    "lvl1": {
+      "selector": "//nav//*[contains(@class,'linkActive')][1]",
+      "type": "xpath",
+      "global": true
+    },
+    "lvl2": "div.content h2",
+    "lvl3": "div.content h3, .content [role='cell']:first-child",
+    "lvl5": "div.content h4",
+    "text": "div.content p, .content li, .content [role='cell']:not(first-child)"
   },
-  "selectors_exclude": [
-    "h1 .container"
-  ],
-  "conversation_id": [
-    "1206797091"
-  ],
-  "nb_hits": 1817
+  "conversation_id": ["1206797091"],
+  "nb_hits": 1754
 }
