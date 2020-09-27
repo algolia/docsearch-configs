@@ -2,11 +2,7 @@
   "index_name": "sap_spartacus",
   "start_urls": [
     {
-    "url": "https://sap.github.io/spartacus-docs/(?P<version>.*?)/",
-      "variables": {
-        "version": ["", "1.x"]
-      }  
-    }
+    "url": "https://sap.github.io/spartacus-docs/"
   ],
   "stop_urls": [],
   "selectors": {
