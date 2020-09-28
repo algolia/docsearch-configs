@@ -1,8 +1,6 @@
 {
   "index_name": "onflow",
-  "start_urls": [
-    "https://docs.onflow.org/"
-  ],
+  "start_urls": ["https://docs.onflow.org/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -17,8 +15,6 @@
     "lvl5": "main div.content-wrapper h5",
     "text": "main div.content-wrapper p, main div.content-wrapper li"
   },
-  "conversation_id": [
-    "1286502781"
-  ],
+  "conversation_id": ["1286502781"],
   "nb_hits": 3097
 }
