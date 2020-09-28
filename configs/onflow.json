@@ -1,0 +1,20 @@
+{
+  "index_name": "onflow",
+  "start_urls": ["https://docs.onflow.org/"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main div.header-wrapper h1",
+    "lvl2": "main div.content-wrapper h2",
+    "lvl3": "main div.content-wrapper h3",
+    "lvl4": "main div.content-wrapper h4",
+    "lvl5": "main div.content-wrapper h5",
+    "text": "main div.content-wrapper p, main div.content-wrapper li"
+  },
+  "conversation_id": ["1286502781"],
+  "nb_hits": 3097
+}
