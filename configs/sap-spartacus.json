@@ -3,14 +3,15 @@
   "start_urls": [
     {
       "url": "https://gladius-mtl.github.io/spartacus-docs/3.x/",
-        "selectors_key": "3.x"
+        "tags": ["3.x"]
     },
     {
       "url": "https://gladius-mtl.github.io/spartacus-docs/1.x/",
-        "selectors_key": "1.x"
+        "tags": ["1.x"]
     },
     {
       "url": "https://gladius-mtl.github.io/spartacus-docs/"
+        "tags": ["latest"]
     }
   ],
   "stop_urls": [],
@@ -20,33 +21,13 @@
     "https://gladius-mtl.github.io/spartacus-docs/3.x/sitemap.xml"
   ],
   "selectors": {
-    "default": {
-      "lvl0": ".archive h1",
-      "lvl1": ".archive h2",
-      "lvl2": ".archive h3",
-      "lvl3": ".archive h4",
-      "lvl4": ".archive h5",
-      "lvl5": ".archive h6",
-      "text": ".archive p, .archive li"
-    },
-    "3.x": {
-      "lvl0": ".archive h1",
-      "lvl1": ".archive h2",
-      "lvl2": ".archive h3",
-      "lvl3": ".archive h4",
-      "lvl4": ".archive h5",
-      "lvl5": ".archive h6",
-      "text": ".archive p, .archive li"
-    },
-    "1.x": {
-      "lvl0": ".archive h1",
-      "lvl1": ".archive h2",
-      "lvl2": ".archive h3",
-      "lvl3": ".archive h4",
-      "lvl4": ".archive h5",
-      "lvl5": ".archive h6",
-      "text": ".archive p, .archive li"
-    }
+    "lvl0": ".archive h1",
+    "lvl1": ".archive h2",
+    "lvl2": ".archive h3",
+    "lvl3": ".archive h4",
+    "lvl4": ".archive h5",
+    "lvl5": ".archive h6",
+    "text": ".archive p, .archive li"
   },
   "conversation_id": [
     "866600965"
