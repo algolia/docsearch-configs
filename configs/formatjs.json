@@ -1,8 +1,6 @@
 {
   "index_name": "formatjs",
   "start_urls": [
-    "https://formatjs.io/docs/",
-    "https://formatjs.io/docs/basic-internationalization-principles"
   ],
   "stop_urls": [],
   "sitemap_urls": [

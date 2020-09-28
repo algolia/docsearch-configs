@@ -12,13 +12,16 @@
     "lvl1": "main h2",
     "lvl2": "main h3",
     "lvl3": "main h4",
-    "text": "main",
+    "text": "main p, main li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
       "global": true
     }
   },
+  "selectors_exclude": [
+    ".audience"
+  ],
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
