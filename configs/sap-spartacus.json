@@ -11,7 +11,7 @@
     },
     {
       "url": "https://gladius-mtl.github.io/spartacus-docs/"
-    }
+    },
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -44,7 +44,7 @@
       "lvl4": ".archive h5",
       "lvl5": ".archive h6",
       "text": ".archive p, .archive li"
-    }
+    },
   },
   "conversation_id": [
     "866600965"
