@@ -10,15 +10,11 @@
       "type": "xpath",
       "global": true
     },
-    "lvl2": {
-      "selector": "//*[contains(@class,'sc-docs-menu')]//*[contains(@class,'-active ')]",
-      "type": "xpath",
-      "global": true
-    },
-    "lvl3": ".doc-content h1",
-    "lvl4": ".doc-content h2",
-    "lvl5": ".doc-content h3",
-    "lvl6": ".doc-content h4",
+    "lvl2": ".doc-content h1",
+    "lvl3": ".doc-content h2",
+    "lvl4": ".doc-content h3",
+    "lvl5": ".doc-content h4",
+    "lvl6": ".doc-content h5",
     "text": ".doc-content p, .doc-content li"
   },
   "conversation_id": ["1225921234"],
