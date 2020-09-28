@@ -10,12 +10,12 @@
         "selectors_key": "1.x"
     },
     {
-      "url": "https://sap.github.io/spartacus-docs-v1/"
+      "url": "https://gladius-mtl.github.io/spartacus-docs/"
     }
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://sap.github.io/spartacus-docs-v1/sitemap.xml",
+    "https://gladius-mtl.github.io/spartacus-docs/sitemap.xml",
     "https://gladius-mtl.github.io/spartacus-docs/1.x/sitemap.xml",
     "https://gladius-mtl.github.io/spartacus-docs/3.x/sitemap.xml"
   ],
