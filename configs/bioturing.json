@@ -1,7 +1,7 @@
 {
   "index_name": "bioturing",
   "start_urls": [
-    "https://bioturing.com/document"
+    "https://blog.bioturing.com/document/"
   ],
   "stop_urls": [],
   "selectors": {
