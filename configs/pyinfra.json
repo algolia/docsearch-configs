@@ -27,6 +27,9 @@
     "lvl5": ".section h5",
     "text": ".section p, .section li"
   },
+  "custom_settings": {
+    "attributesForFaceting": ["version", "lang"]
+  },
   "conversation_id": [
     "1283802491"
   ],
