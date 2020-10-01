@@ -1,0 +1,40 @@
+{
+  "index_name": "projectalice",
+  "start_urls": [
+    "https://docs.projectalice.io"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "p.sidebar-heading.open",
+    "lvl2": ".theme-default-content h1",
+    "lvl3": ".theme-default-content h2",
+    "lvl4": ".theme-default-content h3",
+    "lvl5": ".theme-default-content h4",
+    "text": ".theme-default-content p, .theme-default-content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "1293777214"
+  ],
+  "scrape_start_urls": false,
+  "nb_hits": 1184
+}
