@@ -1,7 +1,14 @@
 {
   "index_name": "pyinfra",
   "start_urls": [
-    "https://docs.pyinfra.com/en/1.x"
+    {
+      "url": "https://docs.pyinfra.com/(?P<lang>.*?)/(?P<version>.*?)",
+      "variables": {
+        "version": ["latest", "1.x"],
+        "lang": ["en"]
+      }
+    }
+  ],
   ],
   "stop_urls": [],
   "sitemap_urls": [],
