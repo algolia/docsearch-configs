@@ -1,12 +1,7 @@
 {
   "index_name": "thanos",
-  "start_urls": [
-    "http://thanos.io"
-  ],
+  "start_urls": ["https://thanos.io/tip/"],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://thanos.io/sitemap.xml"
-  ],
   "selectors": {
     "lvl0": {
       "selector": ".menuinput:checked + label h5",
@@ -22,14 +17,9 @@
     "text": ".DocSearch-content p, .DocSearch-content li"
   },
   "strip_chars": " .,;:#",
-  "conversation_id": [
-    "1176012116"
-  ],
+  "conversation_id": ["1176012116"],
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
+    "attributesForFaceting": ["language", "version"]
   },
-  "nb_hits": 29081
+  "nb_hits": 2461
 }
