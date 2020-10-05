@@ -21,6 +21,7 @@
   ],
   "stop_urls": [
     "http://docs.artec-group.com/as/15/en/$",
+    "http://docs.artec-group.com/as/15/ru/$",
     "http://docs.artec-group.com/as/14/de/$",
     "http://docs.artec-group.com/as/14/ru/$",
     "http://docs.artec-group.com/as/14/en/$",
