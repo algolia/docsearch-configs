@@ -1,20 +1,17 @@
 {
   "index_name": "httpie",
-  "start_urls": [
-    "http://httpie.org/docs"
-  ],
-  "stop_urls": [
-    "http://httpie.org/docs/+"
-  ],
+  "start_urls": ["https://httpie.org/docs"],
+  "stop_urls": ["https://httpie.org/docs/"],
   "selectors": {
-    "lvl0": "#doc-wrap h2",
-    "lvl1": "#doc-wrap h3",
-    "lvl2": "#doc-wrap h4",
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#doc-wrap h2",
+    "lvl2": "#doc-wrap h3",
+    "lvl3": "#doc-wrap h4",
     "text": "#doc-wrap p, #doc-wrap li, #doc-wrap .code-block"
   },
-  "js_render": true,
-  "conversation_id": [
-    "289903050"
-  ],
-  "nb_hits": 5030
+  "conversation_id": ["289903050"],
+  "nb_hits": 457
 }
