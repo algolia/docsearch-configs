@@ -20,6 +20,7 @@
     "lvl5": ".docs-content h5",
     "text": ".docs-content p, .docs-content li"
   },
+  "strip_chars": "#",
   "conversation_id": [
     "1290465448"
   ],
