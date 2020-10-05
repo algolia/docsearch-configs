@@ -1,10 +1,10 @@
 {
   "index_name": "httpie",
   "start_urls": [
-    "http://httpie.org/doc"
+    "http://httpie.org/docs"
   ],
   "stop_urls": [
-    "http://httpie.org/doc/+"
+    "http://httpie.org/docs/+"
   ],
   "selectors": {
     "lvl0": "#doc-wrap h2",
