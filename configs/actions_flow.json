@@ -1,0 +1,16 @@
+{
+  "index_name": "actions_flow",
+  "start_urls": [
+    "https://actionsflow.github.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".titleWrapper h1",
+    "lvl1": ".heading1 h1",
+    "text": ".css-fehjyd p, .css-fehjyd li"
+  },
+  "conversation_id": [
+    "1280696634"
+  ],
+  "nb_hits": 687
+}

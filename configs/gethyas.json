@@ -1,0 +1,27 @@
+{
+  "index_name": "gethyas",
+  "start_urls": [
+    "https://gethyas.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://gethyas.com/docs/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.docs-toc-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content h5",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "conversation_id": [
+    "1290465448"
+  ],
+  "nb_hits": 175
+}
