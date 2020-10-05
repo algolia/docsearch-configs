@@ -1,6 +1,31 @@
 {
   "index_name": "thanos",
-  "start_urls": ["https://thanos.io/tip/"],
+  "start_urls": [
+    {
+      "url": "https://thanos.io/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "tip",
+          "v0.16",
+          "v0.15",
+          "v0.14",
+          "v0.13",
+          "v0.12",
+          "v0.11",
+          "v0.10",
+          "v0.9",
+          "v0.8",
+          "v0.7",
+          "v0.6",
+          "v0.5",
+          "v0.4",
+          "v0.3",
+          "v0.2",
+          "v0.1"
+        ]
+      }
+    }
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -21,5 +46,5 @@
   "custom_settings": {
     "attributesForFaceting": ["language", "version"]
   },
-  "nb_hits": 2461
+  "nb_hits": 32467
 }
