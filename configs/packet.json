@@ -1,9 +1,8 @@
 {
   "index_name": "packet",
   "start_urls": [
-    "https://www.packet.com/developers/docs/",
-    "https://www.packet.com/developers/api/",
-    "https://www.packet.com/resources/guides/"
+    "https://metal.equinix.com/developers/docs/",
+    "https://metal.equinix.com/developers/api/",
   ],
   "stop_urls": [],
   "selectors": {
