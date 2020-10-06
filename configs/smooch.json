@@ -1,51 +1,51 @@
 {
-  "index_name": "smooch",
-  "start_urls": [
-    "https://docs.smooch.io/guide/",
-    "https://docs.smooch.io/faq/",
-    {
-      "url": "https://docs.smooch.io/rest/",
-      "tags": [
-        "api"
-      ],
-      "selectors_key": "api"
-    }
-  ],
-  "sitemap_urls": [
-    "https://docs.smooch.io/sitemap.xml"
-  ],
-  "stop_urls": [],
-  "selectors": {
-    "default": {
-      "lvl0": ".markdown h1",
-      "lvl1": ".markdown h2",
-      "lvl2": ".markdown h3",
-      "lvl3": ".markdown h4",
-      "lvl4": ".markdown h5",
-      "text": ".markdown p, .markdown li"
-    },
-    "api": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "API"
+    "index_name": "smooch",
+    "start_urls": [
+      "https://docs.smooch.io/guide/v1/",
+      "https://docs.smooch.io/faq/",
+      {
+        "url": "https://docs.smooch.io/rest/v1/",
+        "tags": [
+          "api"
+        ],
+        "selectors_key": "api"
+      }
+    ],
+    "sitemap_urls": [
+      "https://docs.smooch.io/sitemap.xml"
+    ],
+    "stop_urls": [],
+    "selectors": {
+      "default": {
+        "lvl0": ".markdown h1",
+        "lvl1": ".markdown h2",
+        "lvl2": ".markdown h3",
+        "lvl3": ".markdown h4",
+        "lvl4": ".markdown h5",
+        "text": ".markdown p, .markdown li"
       },
-      "lvl1": ".content h1.section-header",
-      "lvl2": ".content h1",
-      "lvl3": ".content h2",
-      "lvl4": ".content h3",
-      "lvl5": ".content h4",
-      "lvl6": ".content table td:first-of-type",
-      "text": ".content p, .content li, .content table td:last-child"
-    }
-  },
-  "selectors_exclude": [
-    "#next-steps",
-    "#next-steps + ul",
-    ".req"
-  ],
-  "conversation_id": [
-    "558800630"
-  ],
-  "nb_hits": 5234
-}
+      "api": {
+        "lvl0": {
+          "selector": "",
+          "global": true,
+          "default_value": "API"
+        },
+        "lvl1": ".content h1.section-header",
+        "lvl2": ".content h1",
+        "lvl3": ".content h2",
+        "lvl4": ".content h3",
+        "lvl5": ".content h4",
+        "lvl6": ".content table td:first-of-type",
+        "text": ".content p, .content li, .content table td:last-child"
+      }
+    },
+    "selectors_exclude": [
+      "#next-steps",
+      "#next-steps + ul",
+      ".req"
+    ],
+    "conversation_id": [
+      "558800630"
+    ],
+    "nb_hits": 5234
+  }

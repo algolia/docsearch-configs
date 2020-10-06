@@ -1,32 +1,49 @@
 {
   "index_name": "rasa",
   "start_urls": [
-    "https://rasa.com/docs"
+    {
+      "url": "https://rasa.com/docs/rasa",
+      "tags": ["rasa"]
+    },
+    {
+      "url": "https://rasa.com/docs/rasa-x",
+      "tags": ["rasa-x"]
+    },
+    {
+      "url": "https://rasa.com/docs/action-server",
+      "tags": ["rasa-action-server"]
+    }
   ],
+  "sitemap_urls": [
+    "https://rasa.com/docs/rasa/sitemap.xml",
+    "https://rasa.com/docs/rasa-x/sitemap.xml",
+    "https://rasa.com/docs/action-server/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "force_sitemap_urls_crawling": true,
   "stop_urls": [
     "http://rasa.com/docs/.*?/\\d",
-    "http://rasa.com/docs/.*?/master",
-    ".rst.txt$",
+    "http://rasa.com/docs/.*?/next",
     "/_",
-    "/dev/",
     "[^/]$"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//div[contains(@class, 'sphinxsidebarwrapper')]//ul[contains(@class, 'current')][1]/preceding::p[contains(@class, 'caption')][1]",
-      "type": "xpath",
+      "selector": ".menu a.level--1.menu__link--active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".body h1",
-    "lvl2": ".body h2",
-    "lvl3": ".body h3",
-    "lvl4": ".body h4",
-    "lvl5": ".body h5, .body .admonition-title",
-    "text": ".body p, .body li"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
+  "strip_chars": " .,;:#",
   "selectors_exclude": [
-    ".scv-banner"
+    ".announce-bar"
   ],
   "custom_settings": {
     "synonyms": [
@@ -39,5 +56,5 @@
   "conversation_id": [
     "1024327491"
   ],
-  "nb_hits": 8731
+  "nb_hits": 13402
 }

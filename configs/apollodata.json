@@ -6,7 +6,7 @@
       "page_rank": 3
     },
     {
-      "url": "https://www.apollographql.com/docs/graph-manager/",
+      "url": "https://www.apollographql.com/docs/studio/",
       "page_rank": 2
     },
     {
@@ -18,14 +18,21 @@
       "page_rank": 2
     },
     {
+      "url": "https://www.apollographql.com/docs/federation/",
+      "page_rank": 2
+    },
+    {
       "url": "https://www.apollographql.com/docs/ios/",
+      "page_rank": 1
+    },
+    {
+      "url": "https://www.apollographql.com/docs/android/",
       "page_rank": 1
     }
   ],
   "stop_urls": [
     "index\\.html",
     "https://www.apollographql.com/docs/angular/",
-    "https://www.apollographql.com/docs/android/",
     "https://www.apollographql.com/docs/scala/",
     "https://www.apollographql.com/docs/graphql-tools/",
     "https://www.apollographql.com/docs/graphql-subscriptions/",

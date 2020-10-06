@@ -1,0 +1,48 @@
+{
+    "index_name": "smooch",
+    "start_urls": [
+      "https://docs.smooch.io/guide/",
+      "https://docs.smooch.io/faq/",
+      {
+        "url": "https://docs.smooch.io/rest/",
+        "tags": [
+          "api"
+        ],
+        "selectors_key": "api"
+      }
+    ],
+    "sitemap_urls": [
+      "https://docs.smooch.io/sitemap.xml"
+    ],
+    "stop_urls": [
+        "https://docs.smooch.io/guide/v1/",
+        "https://docs.smooch.io/rest/v1/"
+    ],
+    "selectors": {
+      "default": {
+        "lvl0": ".markdown h1",
+        "lvl1": ".markdown h2",
+        "lvl2": ".markdown h3",
+        "lvl3": ".markdown h4",
+        "lvl4": ".markdown h5",
+        "text": ".markdown p, .markdown li"
+      },
+      "api": {
+        "lvl0": ".api-content h1",
+        "lvl1": ".api-content h2",
+        "lvl2": ".api-content h3",
+        "lvl3": ".api-content h4",
+        "lvl4": ".api-content h5",
+        "text": ".redoc-markdown p, .redoc-markdown li"
+      }
+    },
+    "selectors_exclude": [
+      "#next-steps",
+      "#next-steps + ul",
+      ".req"
+    ],
+    "conversation_id": [
+      "558800630"
+    ],
+    "nb_hits": 5234
+}
