@@ -1,21 +1,30 @@
 {
-  "index_name": "riemann",
+  "index_name": "danigiro",
   "start_urls": [
     {
-      "url": "https://kyoustat.com/Riemann/index.html",
+      "url": "https://danigiro.github.io/FoReco/index.html",
       "selectors_key": "homepage",
-      "tags": ["homepage"]
+      "tags": [
+        "homepage"
+      ]
     },
     {
-      "url": "https://kyoustat.com/Riemann/reference",
+      "url": "https://danigiro.github.io/FoReco/reference",
       "selectors_key": "reference",
-      "tags": ["reference"]
+      "tags": [
+        "reference"
+      ]
     },
     {
-      "url": "https://kyoustat.com/Riemann/articles",
+      "url": "https://danigiro.github.io/FoReco/articles",
       "selectors_key": "articles",
-      "tags": ["articles"]
+      "tags": [
+        "articles"
+      ]
     }
+  ],
+  "sitemap_urls": [
+    "https://danigiro.github.io/FoReco/sitemap.xml"
   ],
   "stop_urls": [
     "/reference/$",
@@ -27,7 +36,7 @@
     "homepage": {
       "lvl0": {
         "selector": "",
-        "default_value": "Documentation"
+        "default_value": "Home page"
       },
       "lvl1": {
         "selector": ".contents h1",
@@ -44,7 +53,7 @@
     "reference": {
       "lvl0": {
         "selector": "",
-        "default_value": "Documentation"
+        "default_value": "Reference"
       },
       "lvl1": ".contents h1",
       "lvl2": {
@@ -60,7 +69,7 @@
     "articles": {
       "lvl0": {
         "selector": "",
-        "default_value": "Documentation"
+        "default_value": "Articles"
       },
       "lvl1": ".contents h1",
       "lvl2": ".contents .name",
@@ -71,10 +80,6 @@
       "text": ".contents p, .contents li"
     },
     "default": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Documentation"
-      },
       "lvl1": ".contents h2",
       "lvl2": ".contents h3, .contents th",
       "lvl3": ".contents h4",
@@ -82,8 +87,10 @@
       "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
     }
   },
-  "selectors_exclude": [".dont-index"],
-  "sitemap_urls": ["https://kyoustat.com/Riemann/sitemap.xml"],
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "min_indexed_level": 2,
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesToRetrieve": [
@@ -94,7 +101,8 @@
       "url_without_anchor"
     ]
   },
-  "min_indexed_level": 2,
-  "conversation_id": ["1287742568"],
-  "nb_hits": 694
+  "conversation_id": [
+    "1287742375"
+  ],
+  "nb_hits": 594
 }

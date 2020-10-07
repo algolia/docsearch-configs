@@ -9,6 +9,7 @@
           "ModelicaReference",
           "ModelicaServices",
           "Complex",
+          "ObsoleteModelica4",
           "ObsoleteModelica3"
         ],
         "tool": [

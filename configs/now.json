@@ -1,11 +1,10 @@
 {
-  "index_name": "zumasys",
+  "index_name": "now",
   "start_urls": [
-    "https://docs.zumasys.com/"
+    "https://vuepress-element-extend.now.sh/"
   ],
   "stop_urls": [],
   "selectors": {
-    "text": ".theme-default-content p, .theme-default-content li",
     "lvl0": {
       "selector": "p.sidebar-heading.open",
       "global": true,
@@ -16,6 +15,7 @@
     "lvl3": ".theme-default-content h3",
     "lvl4": ".theme-default-content h4",
     "lvl5": ".theme-default-content h5",
+    "text": ".theme-default-content p, .theme-default-content li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -23,16 +23,18 @@
       "default_value": "en-US"
     }
   },
-  "scrape_start_urls": false,
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
-  "min_indexed_level": 0,
   "conversation_id": [
-    "1100064021"
+    "1281333403"
   ],
-  "nb_hits": 61434
+  "scrape_start_urls": false,
+  "nb_hits": 160
 }
