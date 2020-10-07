@@ -1,5 +1,5 @@
 {
-    "index_name": "smooch",
+    "index_name": "smooch_v2",
     "start_urls": [
       "https://docs.smooch.io/guide/",
       "https://docs.smooch.io/faq/",
@@ -10,9 +10,6 @@
         ],
         "selectors_key": "api"
       }
-    ],
-    "sitemap_urls": [
-      "https://docs.smooch.io/sitemap.xml"
     ],
     "stop_urls": [
         "https://docs.smooch.io/guide/v1/",
