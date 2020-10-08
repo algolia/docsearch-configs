@@ -1,5 +1,5 @@
 {
-  "index_name": "kevinly",
+  "index_name": "kevinly_sbt-docusaur",
   "start_urls": ["https://sbt-docusaur.kevinly.dev/docs/"],
   "sitemap_urls": ["https://sbt-docusaur.kevinly.dev/sitemap.xml"],
   "sitemap_alternate_links": true,
