@@ -1,0 +1,28 @@
+{
+  "index_name": "nuxtjs_content",
+  "start_urls": [
+    {
+      "url": "https://content.nuxtjs.org/",
+      "extra_attributes": {
+        "language": ["ru", "fr", "ja"]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "div.flex div article.prose h1",
+    "lvl2": "div.flex div article.prose h2",
+    "lvl3": "div.flex div article.prose h3",
+    "lvl4": "div.flex div article.prose h4",
+    "text": "div.flex div article.prose p, div.flex div article.prose li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["language"]
+  },
+  "conversation_id": ["1298666889"],
+  "nb_hits": 2414
+}
