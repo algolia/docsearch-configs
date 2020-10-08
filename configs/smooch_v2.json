@@ -5,9 +5,6 @@
       "https://docs.smooch.io/faq/",
       {
         "url": "https://docs.smooch.io/rest/",
-        "tags": [
-          "api"
-        ],
         "selectors_key": "api"
       }
     ],
@@ -25,12 +22,16 @@
         "text": ".markdown p, .markdown li"
       },
       "api": {
-        "lvl0": ".api-content h1",
-        "lvl1": ".api-content h2",
-        "lvl2": ".api-content h3",
-        "lvl3": ".api-content h4",
-        "lvl4": ".api-content h5",
-        "text": ".redoc-markdown p, .redoc-markdown li"
+        "lvl0": {
+            "selector": "",
+            "global": true,
+            "default_value": "API"
+          },
+          "lvl1": ".redoc-wrap h1",
+          "lvl2": ".redoc-wrap h2",
+          "lvl3": ".redoc-wrap h3",
+          "lvl4": ".redoc-wrap h4",
+          "text": ".redoc-wrap p,.redoc-wrap li,.redoc-wrap td[kind=\"field\"]"
       }
     },
     "selectors_exclude": [
