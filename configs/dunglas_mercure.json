@@ -1,7 +1,7 @@
 {
   "index_name": "dunglas_mercure",
   "start_urls": [
-    "https://mercure.rocks/docs"
+    "https://mercure.rocks"
   ],
   "stop_urls": [],
   "selectors": {
