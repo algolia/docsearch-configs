@@ -22,7 +22,8 @@
     "language": {
       "selector": "/html/@lang",
       "type": "xpath",
-      "global": true
+      "global": true,
+      "default_value": "en-US"
     }
   },
   "custom_settings": {
