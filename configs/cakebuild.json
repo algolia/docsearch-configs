@@ -6,35 +6,40 @@
       "selectors_key": "blog",
       "tags": [
         "blog"
-      ]
+      ],
+      "page_rank": -2
     },
     {
       "url": "https://cakebuild.net/docs/",
       "selectors_key": "docs",
       "tags": [
         "docs"
-      ]
+      ],
+      "page_rank": 5
     },
     {
       "url": "https://cakebuild.net/dsl/",
       "selectors_key": "dsl",
       "tags": [
         "dsl"
-      ]
+      ],
+      "page_rank": 2
     },
     {
       "url": "https://cakebuild.net/addins/",
       "selectors_key": "addins",
       "tags": [
         "addins"
-      ]
+      ],
+      "page_rank": -5
     },
     {
       "url": "https://cakebuild.net/faq/",
       "selectors_key": "faq",
       "tags": [
         "faq"
-      ]
+      ],
+      "page_rank": 0
     }
   ],
   "stop_urls": [],
