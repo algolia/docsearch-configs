@@ -11,9 +11,6 @@
         "selectors_key": "api"
       }
     ],
-    "sitemap_urls": [
-      "https://docs.smooch.io/sitemap.xml"
-    ],
     "stop_urls": [],
     "selectors": {
       "default": {

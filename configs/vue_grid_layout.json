@@ -1,16 +1,9 @@
 {
-  "index_name": "surgio",
+  "index_name": "vue_grid_layout",
   "start_urls": [
-    "https://surgio.js.org"
+    "https://jbaysolutions.github.io/vue-grid-layout/"
   ],
-  "stop_urls": [
-    "^(.(?!.*\\.html)).*?/guide/.+$",
-    "https://surgio.js.org/404.html",
-    "https://surgio.js.org/support.html"
-  ],
-  "sitemap_urls": [
-    "https://surgio.js.org/sitemap.xml"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -40,8 +33,8 @@
     ]
   },
   "conversation_id": [
-    "1013553089"
+    "1305347909"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 722
+  "nb_hits": 354
 }

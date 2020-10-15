@@ -1,7 +1,7 @@
 {
-  "index_name": "reactive-button",
+  "index_name": "webshell",
   "start_urls": [
-    "https://arifszn.github.io/reactive-button"
+    "https://formidable-webview.github.io/webshell/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -19,7 +19,7 @@
     }
   },
   "sitemap_urls": [
-    "https://arifszn.github.io/reactive-button/sitemap.xml"
+    "https://formidable-webview.github.io/webshell/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "strip_chars": " .,;:#",
@@ -41,7 +41,7 @@
   },
   "min_indexed_level": 0,
   "conversation_id": [
-    "1288417165"
+    "1298688980"
   ],
-  "nb_hits": 63
+  "nb_hits": 1008
 }

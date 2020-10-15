@@ -1,16 +1,9 @@
 {
-  "index_name": "surgio",
+  "index_name": "vuepress_element_extend",
   "start_urls": [
-    "https://surgio.js.org"
+    "https://vuepress-element-extend.now.sh/"
   ],
-  "stop_urls": [
-    "^(.(?!.*\\.html)).*?/guide/.+$",
-    "https://surgio.js.org/404.html",
-    "https://surgio.js.org/support.html"
-  ],
-  "sitemap_urls": [
-    "https://surgio.js.org/sitemap.xml"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -22,7 +15,7 @@
     "lvl3": ".theme-default-content h3",
     "lvl4": ".theme-default-content h4",
     "lvl5": ".theme-default-content h5",
-    "text": ".theme-default-content p, .theme-default-content li",
+    "text": ".theme-default-content p, .theme-default-content li, .theme-default-content td",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -40,8 +33,8 @@
     ]
   },
   "conversation_id": [
-    "1013553089"
+    "1292984158"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 722
+  "nb_hits": 1681
 }

@@ -1,27 +1,26 @@
 {
-  "index_name": "reactive-button",
+  "index_name": "algorithm_essentials_soulmachine",
   "start_urls": [
-    "https://arifszn.github.io/reactive-button"
+    "https://algorithm-essentials.soulmachine.me/"
   ],
+  "sitemap_urls": [
+    "https://algorithm-essentials.soulmachine.me/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "text": "article p, article li",
-    "lvl1": "header h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "lvl6": "article h6",
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
       "default_value": "Documentation"
-    }
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article td:first-child",
+    "text": "article p, article li, article td:last-child"
   },
-  "sitemap_urls": [
-    "https://arifszn.github.io/reactive-button/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -39,9 +38,8 @@
       "type"
     ]
   },
-  "min_indexed_level": 0,
   "conversation_id": [
-    "1288417165"
+    "1304072061"
   ],
-  "nb_hits": 63
+  "nb_hits": 3311
 }

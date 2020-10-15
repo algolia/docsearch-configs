@@ -1,15 +1,11 @@
 {
-  "index_name": "surgio",
+  "index_name": "qownnotes",
   "start_urls": [
-    "https://surgio.js.org"
+    "https://www.qownnotes.org/"
   ],
-  "stop_urls": [
-    "^(.(?!.*\\.html)).*?/guide/.+$",
-    "https://surgio.js.org/404.html",
-    "https://surgio.js.org/support.html"
-  ],
+  "stop_urls": [],
   "sitemap_urls": [
-    "https://surgio.js.org/sitemap.xml"
+    "https://www.qownnotes.org/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -40,8 +36,8 @@
     ]
   },
   "conversation_id": [
-    "1013553089"
+    "1302007790"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 722
+  "nb_hits": 5662
 }
