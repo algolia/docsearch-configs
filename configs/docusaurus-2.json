@@ -1,7 +1,7 @@
 {
   "index_name": "docusaurus-2",
   "start_urls": [
-    "https://v2.docusaurus.io/docs/"
+    "https://v2.docusaurus.io/"
   ],
   "sitemap_urls": [
     "https://v2.docusaurus.io/sitemap.xml"
