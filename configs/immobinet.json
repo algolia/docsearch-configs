@@ -1,0 +1,17 @@
+{
+  "index_name": "immobinet",
+  "start_urls": ["https://docs.immobinet.it/"],
+  "stop_urls": [],
+  "sitemap_urls": ["https://docs.immobinet.it/sitemap.xml"],
+  "selectors": {
+    "lvl0": ".page-title h1 span",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": ["1281396825"],
+  "nb_hits": 451
+}
