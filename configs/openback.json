@@ -1,47 +1,24 @@
 {
   "index_name": "openback",
   "start_urls": [
-    "https://docs.openback.com/"
+    "https://docs.openback.com"
   ],
   "stop_urls": [],
   "selectors": {
-    "text": "article p, article li",
-    "lvl1": "header h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "lvl6": "article h6",
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": ".menu menu--responsive menu_5FrY",
       "global": true,
       "default_value": "Documentation"
-    }
+    },
+    "lvl1": ".docItemContainer_3QWW h1",
+    "lvl2": ".docItemContainer_3QWW h2",
+    "lvl3": ".docItemContainer_3QWW h3",
+    "lvl4": ".docItemContainer_3QWW h4",
+    "lvl5": ".docItemContainer_3QWW h5",
+    "text": ".docItemContainer_3QWW p, .docItemContainer_3QWW li"
   },
-  "sitemap_urls": [
-    "https://docs.openback.com/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
-  "strip_chars": " .,;:#",
-  "custom_settings": {
-    "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type"
-    ],
-    "attributesToRetrieve": [
-      "hierarchy",
-      "content",
-      "anchor",
-      "url",
-      "url_without_anchor",
-      "type"
-    ]
-  },
-  "min_indexed_level": 0,
   "conversation_id": [
     "1290062780"
   ],
-  "nb_hits": 2520
+  "nb_hits": 2212
 }
