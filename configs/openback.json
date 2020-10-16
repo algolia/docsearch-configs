@@ -1,0 +1,24 @@
+{
+  "index_name": "openback",
+  "start_urls": [
+    "https://docs.openback.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu menu--responsive menu_5FrY",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docItemContainer_3QWW h1",
+    "lvl2": ".docItemContainer_3QWW h2",
+    "lvl3": ".docItemContainer_3QWW h3",
+    "lvl4": ".docItemContainer_3QWW h4",
+    "lvl5": ".docItemContainer_3QWW h5",
+    "text": ".docItemContainer_3QWW p, .docItemContainer_3QWW li"
+  },
+  "conversation_id": [
+    "1290062780"
+  ],
+  "nb_hits": 2212
+}
