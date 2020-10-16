@@ -1,7 +1,7 @@
 {
   "index_name": "wechaty",
   "start_urls": [
-    "https://wechaty.js.org/docs/"
+    "https://wechaty.js.org/"
   ],
   "sitemap_urls": [
     "https://wechaty.js.org/sitemap.xml"
