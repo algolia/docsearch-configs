@@ -50,7 +50,7 @@
   "sitemap_urls": [
     "https://docs.gitlab.com/sitemap.xml"
   ],
-  "force_sitemap_urls_crawling": "true",
+  "force_sitemap_urls_crawling": true,
   "selectors": {
     "lvl0": ".article-content h1",
     "lvl1": ".article-content h2",
