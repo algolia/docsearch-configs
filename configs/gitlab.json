@@ -57,7 +57,7 @@
     "lvl2": ".article-content h3",
     "lvl3": ".article-content h4",
     "lvl4": ".article-content h5, .article-content td:first-child",
-    "text": ".article-content p, .article-content li, .article-content td:last-child"
+    "text": ".article-content p, .article-content li, .article-content td:last-child, .article-content pre.highlight code"
   },
   "stop_content": [
     "This document was moved to",
