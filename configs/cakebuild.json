@@ -32,14 +32,6 @@
         "addins"
       ],
       "page_rank": -5
-    },
-    {
-      "url": "https://cakebuild.net/faq/",
-      "selectors_key": "faq",
-      "tags": [
-        "faq"
-      ],
-      "page_rank": 0
     }
   ],
   "stop_urls": [],
@@ -81,17 +73,6 @@
       "lvl0": {
         "selector": "",
         "default_value": "Addins"
-      },
-      "lvl1": "div.content-wrapper .content-header h1",
-      "lvl2": "div.content-wrapper .content h1",
-      "lvl3": "div.content-wrapper .content h2",
-      "lvl4": "div.content-wrapper .content h3",
-      "text": "div.content-wrapper .content p, div.content-wrapper .content li"
-    },
-    "faq": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "FAQ"
       },
       "lvl1": "div.content-wrapper .content-header h1",
       "lvl2": "div.content-wrapper .content h1",
