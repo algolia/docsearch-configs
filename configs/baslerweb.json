@@ -1,7 +1,7 @@
 {
   "index_name": "baslerweb",
   "start_urls": [
-    "https://ja.docs.baslerweb.com/"
+    "https://docs.baslerweb.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,11 +14,11 @@
     "lvl5": ".md-content__inner h6"
   },
   "sitemap_urls": [
-    "https://ja.docs.baslerweb.com/sitemap.xml"
+    "https://docs.baslerweb.com/sitemap.xml"
   ],
   "min_indexed_level": 0,
   "conversation_id": [
     "1292158715"
   ],
-  "nb_hits": 34699
+  "nb_hits": 34831
 }
