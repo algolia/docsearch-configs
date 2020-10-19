@@ -3,14 +3,20 @@
   "start_urls": ["https://ja.docs.baslerweb.com/"],
   "stop_urls": [],
   "selectors": {
-    "text": ".md-content__inner p, .md-content__inner li",
-    "lvl0": ".md-content__inner h1",
-    "lvl1": ".md-content__inner h2",
-    "lvl2": ".md-content__inner h3",
-    "lvl3": ".md-content__inner h4",
-    "lvl4": ".md-content__inner h5",
-    "lvl5": ".md-content__inner h6"
+    "lvl0": {
+      "selector": ".md-tabs__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".md-content h1",
+    "lvl2": ".md-content h2",
+    "lvl3": ".md-content h3",
+    "lvl4": ".md-content h4",
+    "lvl5": ".md-content h5",
+    "lvl6": ".md-content h6",
+    "text": ".md-content p, .md-content li"
   },
+  "strip_chars": " .,;:#",
   "sitemap_urls": ["https://ja.docs.baslerweb.com/sitemap.xml"],
   "min_indexed_level": 0,
   "conversation_id": ["1292158715"],
