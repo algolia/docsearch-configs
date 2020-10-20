@@ -1,0 +1,22 @@
+{
+  "index_name": "varied_mobile",
+  "start_urls": [
+    "https://wuner.gitee.io/varied-mobile/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".van-doc-nav .router-link-exact-active.active",
+    "lvl1": ".van-doc-content section h1",
+    "lvl2": ".van-doc-content section h2",
+    "lvl3": ".van-doc-content section h3",
+    "lvl4": ".van-doc-content section h4",
+    "lvl5": ".van-doc-content section h5",
+    "text": ".van-doc-content section p, .van-doc-content section li"
+  },
+  "js_render": true,
+  "use_anchors": true,
+  "conversation_id": [
+    "1295278594"
+  ],
+  "nb_hits": 707
+}
