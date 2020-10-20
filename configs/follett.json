@@ -13,12 +13,12 @@
     "lvl2": "fds-drawer-content h2",
     "lvl3": "fds-drawer-content h3",
     "lvl4": "fds-drawer-content h4",
-    "text": "fds-drawer-content p, fds-drawer-content li"
+    "text": "fds-drawer-content p, fds-drawer-content li, fds-drawer-content table"
   },
   "selectors_exclude": [
     "app-live-editor",
     "app-code-editor",
-    "app-code-snippet",
+    "app-code-snippet:not([inline])",
     ".search--hide"
   ],
   "js_render": true,
