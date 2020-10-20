@@ -4,16 +4,12 @@
     {
       "url": "https://help.branch.io/using-branch/",
       "selectors_key": "usingbranch",
-      "tags": [
-        "usingbranch"
-      ]
+      "tags": ["usingbranch"]
     },
     {
       "url": "https://help.branch.io/developers-hub/",
       "selectors_key": "developershub",
-      "tags": [
-        "developershub"
-      ]
+      "tags": ["developershub"]
     }
   ],
   "stop_urls": [],
@@ -76,8 +72,9 @@
       }
     }
   },
-  "conversation_id": [
-    "1298667117"
-  ],
+  "custom_settings": {
+    "attributesForFaceting": ["tags"]
+  },
+  "conversation_id": ["1298667117"],
   "nb_hits": 17704
 }
