@@ -1,0 +1,83 @@
+{
+  "index_name": "branch",
+  "start_urls": [
+    {
+      "url": "https://help.branch.io/using-branch/",
+      "selectors_key": "usingbranch",
+      "tags": [
+        "usingbranch"
+      ]
+    },
+    {
+      "url": "https://help.branch.io/developers-hub/",
+      "selectors_key": "developershub",
+      "tags": [
+        "developershub"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "usingbranch": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Using Branch"
+      },
+      "lvl1": "header#content-head h1",
+      "lvl2": "#content-container h1",
+      "lvl3": "#content-container h2",
+      "lvl4": "#content-container h3",
+      "lvl5": "#content-container h4",
+      "text": "#content-container p, #content-container li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "developershub": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Developers Hub"
+      },
+      "lvl1": "header#content-head h1",
+      "lvl2": "#content-container h1",
+      "lvl3": "#content-container h2",
+      "lvl4": "#content-container h3",
+      "lvl5": "#content-container h4",
+      "text": "#content-container p, #content-container li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "Default": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "header#content-head h1",
+      "lvl2": "#content-container h1",
+      "lvl3": "#content-container h2",
+      "lvl4": "#content-container h3",
+      "lvl5": "#content-container h4",
+      "text": "#content-container p, #content-container li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    }
+  },
+  "conversation_id": [
+    "1298667117"
+  ],
+  "nb_hits": 17704
+}
