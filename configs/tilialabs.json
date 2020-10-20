@@ -73,7 +73,7 @@
         "default_value": "en-US"
       }
     },
-    "Default": {
+    "default": {
       "lvl0": {
         "selector": ".sidebar-heading.active",
         "global": true,
