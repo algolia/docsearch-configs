@@ -17,6 +17,7 @@
     "usingbranch": {
       "lvl0": {
         "selector": "",
+        "global": true,
         "default_value": "Using Branch"
       },
       "lvl1": "header#content-head h1",
@@ -24,11 +25,18 @@
       "lvl3": "#content-container h2",
       "lvl4": "#content-container h3",
       "lvl5": "#content-container h4",
-      "text": "#content-container p, #content-container li"
+      "text": "#content-container p, #content-container li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
     },
     "developershub": {
       "lvl0": {
         "selector": "",
+        "global": true,
         "default_value": "Developers Hub"
       },
       "lvl1": "header#content-head h1",
@@ -36,11 +44,18 @@
       "lvl3": "#content-container h2",
       "lvl4": "#content-container h3",
       "lvl5": "#content-container h4",
-      "text": "#content-container p, #content-container li"
+      "text": "#content-container p, #content-container li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
     },
-    "Default": {
+    "default": {
       "lvl0": {
         "selector": "",
+        "global": true,
         "default_value": "Documentation"
       },
       "lvl1": "header#content-head h1",
@@ -48,7 +63,13 @@
       "lvl3": "#content-container h2",
       "lvl4": "#content-container h3",
       "lvl5": "#content-container h4",
-      "text": "#content-container p, #content-container li"
+      "text": "#content-container p, #content-container li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
     }
   },
   "custom_settings": {
