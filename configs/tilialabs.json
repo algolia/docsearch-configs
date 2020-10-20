@@ -1,0 +1,103 @@
+{
+  "index_name": "tilialabs",
+  "start_urls": [
+    {
+      "url": "http://dev-docs.tilialabs.com/phoenix/",
+      "selectors_key": "phoenix",
+      "tags": ["phoenix"]
+    },
+    {
+      "url": "http://dev-docs.tilialabs.com/aries/",
+      "selectors_key": "aries",
+      "tags": ["aries"]
+    },
+    {
+      "url": "http://dev-docs.tilialabs.com/griffin/",
+      "selectors_key": "griffin",
+      "tags": ["griffin"]
+    }
+  ],
+  "stop_urls": ["/releasenotes.html"],
+  "selectors": {
+    "phoenix": {
+      "lvl0": {
+        "selector": ".sidebar-heading.active",
+        "global": true,
+        "default_value": "Phoenix"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "aries": {
+      "lvl0": {
+        "selector": ".sidebar-heading.active",
+        "global": true,
+        "default_value": "Aries"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "griffin": {
+      "lvl0": {
+        "selector": ".sidebar-heading.active",
+        "global": true,
+        "default_value": "Griffin"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "Default": {
+      "lvl0": {
+        "selector": ".sidebar-heading.active",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "text": ".content p, .content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    }
+  },
+  "selectors_exclude": [".table-of-contents"],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": ["lang"]
+  },
+  "conversation_id": ["1292364383"],
+  "scrape_start_urls": false,
+  "nb_hits": 17993
+}
