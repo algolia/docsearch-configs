@@ -26,10 +26,10 @@
       "page_rank": 2
     },
     {
-      "url": "https://cakebuild.net/addins/",
-      "selectors_key": "addins",
+      "url": "https://cakebuild.net/extensions/",
+      "selectors_key": "extensions",
       "tags": [
-        "addins"
+        "extensions"
       ],
       "page_rank": -5
     }
@@ -69,10 +69,10 @@
       "lvl4": "div.content-wrapper .content h3",
       "text": "div.content-wrapper .content p, div.content-wrapper .content li"
     },
-    "addins": {
+    "extensions": {
       "lvl0": {
         "selector": "",
-        "default_value": "Addins"
+        "default_value": "Extensions"
       },
       "lvl1": "div.content-wrapper .content-header h1",
       "lvl2": "div.content-wrapper .content h1",
