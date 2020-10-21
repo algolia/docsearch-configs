@@ -11,19 +11,21 @@
     {
       "url": "https://next.router.vuejs.org/api/",
       "selectors_key": "api",
-        "tags": [
+      "tags": [
         "api"
       ]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    ".html"
+  ],
   "selectors": {
     "guide": {
       "lvl0": {
         "selector": "",
         "default_value": "Guide"
       },
-        "lvl1": ".content h1",
+      "lvl1": ".content h1",
       "lvl2": ".content h2",
       "lvl3": ".content h3",
       "lvl4": ".content h4",
@@ -43,5 +45,5 @@
   "conversation_id": [
     "1305035158"
   ],
-  "nb_hits": 1092
+  "nb_hits": 897
 }
