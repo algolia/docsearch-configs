@@ -1,0 +1,20 @@
+{
+  "index_name": "next_clarity",
+  "start_urls": ["https://next.clarity.design/"],
+  "stop_urls": [],
+  "sitemap_url": ["https://next.clarity.design/sitemap.xml"],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-area h1",
+    "lvl2": "#content-area h2",
+    "lvl3": "#content-area h3",
+    "lvl4": "#content-area h4",
+    "lvl5": "#content-area h5",
+    "text": "#content-area p, #content-area li"
+  },
+  "conversation_id": ["1311746302"],
+  "nb_hits": 4097
+}
