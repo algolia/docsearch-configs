@@ -1,12 +1,7 @@
 {
   "index_name": "baslerweb",
-  "start_urls": [
-    "https://docs.baslerweb.com/"
-  ],
+  "start_urls": ["https://docs.baslerweb.com/"],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://docs.baslerweb.com/sitemap.xml"
-  ],
   "selectors": {
     "lvl0": {
       "selector": ".md-tabs__link--active",
@@ -22,8 +17,8 @@
     "text": ".md-content p, .md-content li"
   },
   "strip_chars": " .,;:#",
-  "conversation_id": [
-    "1264579341"
-  ],
-  "nb_hits": 31727
+  "sitemap_urls": ["https://docs.baslerweb.com/sitemap.xml"],
+  "min_indexed_level": 0,
+  "conversation_id": ["1248212166"],
+  "nb_hits": 34831
 }

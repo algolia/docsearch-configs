@@ -11,7 +11,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "aside > div > ul > li > h3",
+      "selector": "aside > div > ul > li.active > p",
       "default_value": "Documentation"
     },
     "lvl1": "div.flex div article.prose h1",
