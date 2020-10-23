@@ -40,7 +40,9 @@
       "text": "main div p, main div li"
     }
   },
-  "attributesForFaceting": ["tags"],
+"custom_settings": {
+    "attributesForFaceting": ["tags"]
+  },
   "conversation_id": ["1316525525"],
   "nb_hits": 3712
 }
