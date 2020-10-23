@@ -7,13 +7,13 @@
       "tags": ["docs"]
     },
     {
-      "url": "https://miner-docs.hummingbot.io/",
+      "url": "https://docs.hummingbot.io/miner",
       "selectors_key": "miner",
       "tags": ["miner"]
     }
   ],
   "sitemap_urls": ["https://docs.hummingbot.io/sitemap.xml"],
-  "stop_urls": ["/release-notes"],
+  "stop_urls": [""],
   "selectors": {
     "docs": {
       "lvl0": {
