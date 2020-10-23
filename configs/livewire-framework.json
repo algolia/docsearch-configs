@@ -1,7 +1,16 @@
 {
   "index_name": "livewire-framework",
   "start_urls": [
-    "https://laravel-livewire.com/docs/"
+    {
+      "url": "https://laravel-livewire.com/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "master",
+          "2.x",
+          "1.x"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://laravel-livewire.com/sitemap.xml"
