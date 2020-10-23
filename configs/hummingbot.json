@@ -13,7 +13,7 @@
     }
   ],
   "sitemap_urls": ["https://docs.hummingbot.io/sitemap.xml"],
-  "stop_urls": [""],
+  "stop_urls": [],
   "selectors": {
     "docs": {
       "lvl0": {
