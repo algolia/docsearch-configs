@@ -1,0 +1,19 @@
+{
+  "index_name": "severell",
+  "start_urls": ["https://www.severell.com/docs/"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "div.flex h1",
+    "lvl2": "div.flex h2",
+    "lvl3": "div.flex h3",
+    "lvl4": "div.flex h4",
+    "lvl5": "div.flex h5",
+    "text": "div.flex p, div.flex li"
+  },
+  "conversation_id": ["1292709024"],
+  "nb_hits": 215
+}

@@ -2,20 +2,10 @@
   "index_name": "ezplatform_userguide",
   "start_urls": [
     {
-      "url": "https://doc.ezplatform.com/projects/userguide/(?P<lang>.*?)/(?P<version>.*?)/",
+      "url": "https://doc.ibexa.co/projects/userguide/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
-        "lang": [
-          "en"
-        ],
-        "version": [
-          "latest",
-          "3.1",
-          "3.0",
-          "2.5",
-          "1.13",
-          "1.7",
-          "master"
-        ]
+        "lang": ["en"],
+        "version": ["latest", "3.2", "3.1", "3.0", "2.5", "1.13", "master"]
       }
     }
   ],
@@ -35,8 +25,6 @@
     "lvl6": ".md-content h6",
     "text": ".md-content p, .md-content ul li, .md-content .code pre, .md-content table tr td"
   },
-  "conversation_id": [
-    "549525560"
-  ],
+  "conversation_id": ["549525560"],
   "nb_hits": 3798
 }

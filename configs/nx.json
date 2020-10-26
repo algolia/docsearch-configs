@@ -2,11 +2,16 @@
   "index_name": "nx",
   "start_urls": [
     {
-      "url": "https://nx.dev/(?P<framework>.*?)/",
+      "url": "https://nx.dev/(?P<version>.*?)/(?P<framework>.*?)/",
       "variables": {
+        "version": [
+          "latest",
+          "previous"
+        ],
         "framework": [
           "react",
-          "angular"
+          "angular",
+          "node"
         ]
       }
     }

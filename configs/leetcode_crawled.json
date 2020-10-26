@@ -1,0 +1,18 @@
+{
+  "index_name": "leetcode_crawled",
+  "start_urls": ["https://ibic.gitlab.io/leetcode-crawled/docs/"],
+  "stop_urls": [],
+  "sitemap_urls": ["https://ibic.gitlab.io/leetcode-crawled/sitemap.xml"],
+  "selectors": {
+    "lvl0": ".book-menu ul a.active",
+    "lvl1": ".book-page .markdown h2",
+    "lvl2": ".book-page .markdown h3",
+    "lvl3": ".book-page .markdown h4",
+    "lvl4": ".book-page .markdown h5",
+    "lvl5": ".book-page .markdown h6",
+    "text": ".book-page .markdown p, .book-page .markdown li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": ["1312323426"],
+  "nb_hits": 112398
+}

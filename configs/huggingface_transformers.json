@@ -21,12 +21,12 @@
     "lvl6": "[itemprop='articleBody'] > .section h6",
     "text": "[itemprop='articleBody'] > .section p, [itemprop='articleBody'] > .section li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "custom_settings": {
     "separatorsToIndex": "_"
   },
   "conversation_id": [
     "1266019945"
   ],
-  "nb_hits": 13929
+  "nb_hits": 19968
 }
