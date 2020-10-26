@@ -18,15 +18,13 @@
   "selectors_exclude": [
     "app-live-editor",
     "app-code-editor",
-    "app-code-snippet:not([inline])",
     ".search--hide",
     ".hide",
-    ".invisible",
-    "[aria-hidden]='true'"
+    ".invisible"
   ],
   "js_render": true,
   "conversation_id": [
     "1178380234"
   ],
-  "nb_hits": 333
+  "nb_hits": 389
 }
