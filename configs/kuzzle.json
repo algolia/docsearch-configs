@@ -16,7 +16,8 @@
       "type": "xpath",
       "global": true,
       "default_value": "en-US"
-    }
+    },
+    "majorVersion": "[data-algolia='major-version']"
   },
   "selectors_exclude": [
     ".table-of-contents"
@@ -26,5 +27,20 @@
     "1214433232"
   ],
   "scrape_start_urls": false,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "majorVersion"
+    ],
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "c#",
+        "csharp"
+      ]
+    ]
+  },
   "nb_hits": 28531
 }
