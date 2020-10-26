@@ -14,21 +14,27 @@
   "stop_urls": ["/docs/api/v(.*)", "(.*)?no-cache=1"],
   "selectors": {
     "default": {
-      "lvl0": ".tsd-page-title h1",
-      "lvl1": ".container .col-content h2",
-      "lvl2": ".container .col-content h3",
-      "lvl3": ".container .col-content h4",
-      "lvl4": ".container .col-content h5",
-      "lvl5": ".container .col-content h6",
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".tsd-page-title h1",
+      "lvl2": ".container .col-content h2",
+      "lvl3": ".container .col-content h3",
+      "lvl4": ".container .col-content h4",
+      "lvl5": ".container .col-content h5",
       "text": ".container .col-content p, .container .col-content li"
     },
     "home": {
-      "lvl0": "div.column div.container h1",
-      "lvl1": "div.column div.container h2",
-      "lvl2": "div.column div.container h3",
-      "lvl3": "div.column div.container h4",
-      "lvl4": "div.column div.container h5",
-      "lvl5": "div.column div.container h6",
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": "div.column div.container h1",
+      "lvl2": "div.column div.container h2",
+      "lvl3": "div.column div.container h3",
+      "lvl4": "div.column div.container h4",
+      "lvl5": "div.column div.container h5",
       "text": "div.column div.container p, div.column div.container li"
     }
   },
@@ -36,5 +42,5 @@
     "attributesForFaceting": ["tags"]
   },
   "conversation_id": ["1312194411"],
-  "nb_hits": 46947
+  "nb_hits": 46894
 }
