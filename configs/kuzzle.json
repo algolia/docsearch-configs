@@ -11,7 +11,7 @@
     "lvl3": "[data-algolia-lvl='3']",
     "lvl4": "[data-algolia-lvl='4']",
     "text": ".content__default p, .content__default li",
-    "majorVersion": "[data-algolia='major-version']"
+    "version": "[data-algolia='major-version']"
   },
   "selectors_exclude": [
     ".table-of-contents"
@@ -23,7 +23,7 @@
   "scrape_start_urls": false,
   "custom_settings": {
     "attributesForFaceting": [
-      "majorVersion"
+      "version"
     ],
     "synonyms": [
       [
