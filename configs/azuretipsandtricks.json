@@ -6,7 +6,7 @@
     "lvl0": {
       "selector": "",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Search Results"
     },
     "lvl1": "p.sidebar-heading.open",
     "lvl2": ".theme-default-content h3",
