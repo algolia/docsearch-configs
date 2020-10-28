@@ -1,7 +1,7 @@
 {
   "index_name": "ezgitdoc",
   "start_urls": [
-    "https://trolit.github.io/EzGitDoc-documentation/"
+    "https://os-expected.github.io/EzGitDoc-documentation/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -19,7 +19,7 @@
     }
   },
   "sitemap_urls": [
-    "https://trolit.github.io/EzGitDoc-documentation/sitemap.xml"
+    "https://os-expected.github.io/EzGitDoc-documentation/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "strip_chars": " .,;:#",
