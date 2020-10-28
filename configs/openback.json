@@ -1,7 +1,8 @@
 {
   "index_name": "openback",
   "start_urls": [
-    "https://docs.openback.com"
+    "https://docs.openback.com",
+    "https://openback.freshdesk.com/support/home"
   ],
   "stop_urls": [],
   "selectors": {
