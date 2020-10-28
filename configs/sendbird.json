@@ -2,7 +2,7 @@
   "index_name": "sendbird",
   "start_urls": [
     {
-      "url": "https://sendbird.com/docs/(?P<product>.*?)/(?P<version>.*?)/(?P<platform>.*?)",
+      "url": "https://sendbird.com/docs/(?P<product>.*?)/(?P<version>.*?)/(?P<platform>.*?)/",
       "variables": {
         "product": [
           "chat",
