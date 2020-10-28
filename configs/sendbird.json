@@ -2,28 +2,25 @@
   "index_name": "sendbird",
   "start_urls": [
     {
-      "url": "https://docs.sendbird.com/(?P<platform>.*?)/",
+      "url": "https://sendbird.com/docs/(?P<product>.*?)/(?P<version>.*?)/(?P<platform>.*?)/",
       "variables": {
+        "product": ["chat", "calls", "desk", "uikit", "syncmanager"],
+        "version": ["v1", "v3"],
         "platform": [
           "ios",
           "android",
           "javascript",
           "dotnet",
           "unity",
-          "platform"
+          "platform-api"
         ]
       }
     }
   ],
-  "sitemap_urls": [
-    "https://docs.sendbird.com/sitemap.xml"
-  ],
-  "stop_urls": [
-    "change_log$"
-  ],
+  "sitemap_urls": ["https://sendbird.com/docs/sitemap.xml"],
   "selectors": {
     "lvl0": {
-      "selector": ".sbdNavDocsItem.isActive",
+      "selector": ".sbdMainLNBItem.isActive",
       "global": true,
       "default_value": "Documentation"
     },
@@ -34,18 +31,9 @@
     "lvl5": "#sbd_contents h6",
     "text": "#sbd_contents p, #sbd_contents li, #sbd_contents a, #sbd_contents blockquote, #sbd_contents table td p"
   },
-  "selectors_exclude": [
-    "#change_log"
-  ],
   "custom_settings": {
-    "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "version",
-      "platform"
-    ]
+    "separatorsToIndex": "-",
+    "attributesForFaceting": ["product", "version", "platform"]
   },
-  "only_content_level": true,
-  "scrape_start_urls": false,
-  "js_render": true,
-  "nb_hits": 12915
+  "nb_hits": 25909
 }
