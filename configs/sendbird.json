@@ -9,11 +9,11 @@
           "calls",
           "desk",
           "uikit",
-          "syncmanager",
+          "syncmanager"
         ],
         "version": [
           "v1",
-          "v3",
+          "v3"
         ],
         "platform": [
           "ios",
