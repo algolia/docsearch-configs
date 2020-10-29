@@ -1,7 +1,7 @@
 {
   "index_name": "react-native-archive",
   "start_urls": [
-    "http://archive.reactnative.dev/"
+    "https://archive.reactnative.dev/"
   ],
   "sitemap_alternate_links": true,
   "sitemap_urls": [
