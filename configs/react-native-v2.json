@@ -1,10 +1,10 @@
 {
     "index_name": "react-native-v2",
     "start_urls": [
-      "https://react-native-website-migration.netlify.app/"
+      "https://reactnative.dev/"
     ],
     "sitemap_urls": [
-      "https://react-native-website-migration.netlify.app/sitemap.xml"
+      "https://reactnative.dev/sitemap.xml"
     ],
     "sitemap_alternate_links": true,
     "stop_urls": [],
