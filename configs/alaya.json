@@ -1,12 +1,23 @@
 {
   "index_name": "alaya",
   "start_urls": [
-    "https://devdocs.alaya.network/alaya-devdocs/en/"
+    {
+      "url": "https://devdocs.alaya.network/alaya-devdocs/en/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ]
+      }
+    },
+    {
+      "url": "https://devdocs.alaya.network/alaya-devdocs/zh-CN/",
+      "extra_attributes": {
+        "language": [
+          "zh"
+        ]
+      }
+    }
   ],
-  "sitemap_urls": [
-    "https://devdocs.alaya.network/alaya-devdocs/en/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -41,5 +52,5 @@
   "conversation_id": [
     "1316734626"
   ],
-  "nb_hits": 5415
+  "nb_hits": 11231
 }
