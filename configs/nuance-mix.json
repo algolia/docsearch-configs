@@ -9,9 +9,9 @@
     "https://docs.mix.nuance.com/glossary/"
   ],
   "stop_urls": [
-    "[^n]/$",
     "/downloads/",
-    "https://docs.mix.nuance.com/mix-datapack/v6_x/"
+    "https://docs.mix.nuance.com/mix-datapack/v6_x/",
+    "(.*)/index.html"
   ],
   "selectors": {
     "lvl0": {
@@ -26,14 +26,10 @@
     "lvl5": ".content h5",
     "text": ".content p, .content li, .content td:not(:first-child)"
   },
-  "selectors_exclude": [
-    ".products-container"
-  ],
-  "conversation_id": [
-    "1076829139"
-  ],
+  "selectors_exclude": [".products-container"],
+  "conversation_id": ["1076829139"],
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 8948
+  "nb_hits": 13469
 }
