@@ -1,11 +1,10 @@
 {
   "index_name": "ossoapp",
   "start_urls": [
-    "https://www.ossoapp.com/docs/",
-    "https://www.ossoapp.com/docs/guides/what-is-saml"
+    "https://ossoapp.com/docs/"
   ],
   "sitemap_urls": [
-    "https://www.ossoapp.com/docs/guides/what-is-saml/sitemap.xml"
+    "https://ossoapp.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -28,5 +27,5 @@
   "conversation_id": [
     "1145589933"
   ],
-  "nb_hits": 131
+  "nb_hits": 429
 }
