@@ -10,11 +10,11 @@
           "1.x"
         ]
       },
-      "page_rank": 5,
+      "page_rank": 5
     },
     {
       "url": "https://laravel-livewire.com/screencasts/",
-      "page_rank": 4,
+      "page_rank": 4
     }
   ],
   "sitemap_urls": [
