@@ -36,7 +36,7 @@
     "text": ".content p, .content li"
   },
   "custom_settings": {
-    "attributesForFaceting": ["language"]
+    "attributesForFaceting": ["language", "version"]
   },
   "conversation_id": ["1101259966"],
   "nb_hits": 5355
