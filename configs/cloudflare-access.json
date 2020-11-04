@@ -4,17 +4,15 @@
   "sitemap_urls": ["https://developers.cloudflare.com/access/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".DocsSidebar--nav-item[is-active-root] > a.DocsSidebar--nav-link",
-      "default_value": "Documentation"
-    },
-    "lvl1": ".DocsContent h1",
-    "lvl2": ".DocsContent h2",
-    "lvl3": ".DocsContent h3",
-    "lvl4": ".DocsContent h4",
-    "lvl5": ".DocsContent h5",
+    "lvl0": ".DocsContent h1",
+    "lvl1": ".DocsContent h2",
+    "lvl2": ".DocsContent h3",
+    "lvl3": ".DocsContent h4",
+    "lvl4": ".DocsContent h5",
+    "lvl5": ".DocsContent h6",
     "text": ".DocsContent p, .DocsContent li"
   },
+  "selectors_exclude": ["h1 + ul"],
   "conversation_id": ["1321224029"],
   "nb_hits": 5396
 }
