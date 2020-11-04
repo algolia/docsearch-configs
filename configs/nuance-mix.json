@@ -24,7 +24,7 @@
     "lvl3": ".content h3, .content td:first-child",
     "lvl4": ".content h4",
     "lvl5": ".content h5",
-    "text": ".content p, .content li, .content td:not(:first-child)"
+    "text": ".content p, .content li, .content td:not(:first-child), .content aside"
   },
   "selectors_exclude": [".products-container"],
   "conversation_id": ["1076829139"],
