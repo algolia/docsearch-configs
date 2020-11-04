@@ -1,8 +1,6 @@
 {
   "index_name": "mrdemonwolf",
-  "start_urls": [
-    "https://mrdemonwolf.github.io/share/"
-  ],
+  "start_urls": ["https://mrdemonwolf.github.io/share/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".main-content h1",
@@ -13,8 +11,6 @@
     "lvl5": ".main-content h6",
     "text": ".main-content p, main-content li"
   },
-  "conversation_id": [
-    "1320452703"
-  ],
+  "conversation_id": ["1320452703"],
   "nb_hits": 128
 }
