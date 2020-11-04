@@ -1,10 +1,10 @@
 {
   "index_name": "buf",
   "start_urls": [
-    "https://buf.build/docs/"
+    "https://docs.buf.build/"
   ],
   "sitemap_urls": [
-    "https://buf.build/sitemap.xml"
+    "https://docs.buf.build/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
