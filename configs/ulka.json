@@ -1,0 +1,26 @@
+{
+  "index_name": "ulka",
+  "start_urls": [
+    "https://ulka.js.org/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://ulka.js.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".container h1",
+    "lvl2": ".container h2",
+    "lvl3": ".container h3",
+    "lvl4": ".container h4",
+    "lvl5": ".container h5",
+    "text": ".container p, .container li"
+  },
+  "conversation_id": [
+    "1326121261"
+  ],
+  "nb_hits": 46
+}
