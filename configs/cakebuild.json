@@ -88,7 +88,7 @@
       "lvl4": "div.content-wrapper .content h3",
       "text": "div.content-wrapper .content p, div.content-wrapper .content li"
     },
-    "extensions": {
+    "community": {
       "lvl0": {
         "selector": "",
         "default_value": "Community"
