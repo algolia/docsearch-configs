@@ -1,7 +1,14 @@
 {
   "index_name": "vercel_swr",
   "start_urls": [
-    "https://swr.vercel.app"
+    {
+      "url": "https://swr.vercel.app",
+      "tags": ["en"]
+    },
+    {
+      "url": "https://swr-cn.vercel.app",
+      "tags": ["cn"]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -13,9 +20,10 @@
     "lvl5": "main h6",
     "text": "main p, main li"
   },
+  "custom_settings": {
+    "attributesForFaceting": ["tags"]
+  },
   "strip_chars": " .,;:#",
-  "conversation_id": [
-    "1206033858"
-  ],
-  "nb_hits": 228
+  "conversation_id": ["1206033858"],
+  "nb_hits": 564
 }
