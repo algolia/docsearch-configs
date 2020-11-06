@@ -9,8 +9,9 @@
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+     "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -19,6 +20,7 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -27,7 +29,8 @@
     "attributesForFaceting": [
       "language",
       "version",
-      "type"
+      "type",
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -41,5 +44,5 @@
   "conversation_id": [
     "1324292012"
   ],
-  "nb_hits": 440
+  "nb_hits": 496
 }
