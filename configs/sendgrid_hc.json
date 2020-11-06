@@ -1,26 +1,38 @@
 {
   "index_name": "sendgrid_hc",
+  "js_render": true,
+  "js_wait": 3,
   "start_urls": [
     {
-      "url": "https://sendgrid.com/docs/glossary/",
-      "tags": ["glossary"]
+      "url": "https://sendgrid.com/docs/",
+      "page_rank": 6
     },
-    "https://sendgrid.com/docs/ui/sending-email/migrating-from-legacy-marketing-campaigns",
-    "https://sendgrid.com/docs/",
     {
-      "url": "https://sendgrid.api-docs.io/v3.0/mail-send/v3-mail-send",
-      "tags": ["v3", "mail send"]
+      "url": "https://sendgrid.com/docs/glossary/",
+      "tags": ["glossary"],
+      "page_rank": 5
     },
     {
       "url": "https://sendgrid.api-docs.io/v3.0",
-      "tags": ["v3", "api reference"]
+      "tags": ["v3", "api reference"],
+      "page_rank": 4
+    },
+    {
+      "url": "https://sendgrid.api-docs.io/v3.0/mail-send/v3-mail-send",
+      "tags": ["v3", "mail send"],
+      "page_rank": 3
+    },
+    {
+      "url": "https://www.twilio.com/docs/sendgrid",
+      "page_rank": 2
     },
     {
       "url": "https://www.twilio.com/docs/sendgrid/api/v2",
       "tags": ["v2", "api reference"],
-      "selectors_key": "v2"
+      "selectors_key": "v2",
+      "page_rank": 1
     },
-    "https://www.twilio.com/docs/sendgrid"
+    "https://sendgrid.com/docs/ui/sending-email/migrating-from-legacy-marketing-campaigns"
   ],
   "stop_urls": [
     "https://sendgrid.com/docs/User_Guide",
