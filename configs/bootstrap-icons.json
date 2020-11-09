@@ -5,7 +5,7 @@
       "url": "https://icons.getbootstrap.com/index.html",
       "selectors_key": "icons-docs",
       "tags": ["icons-docs"],
-      "page_rank": 1,
+      "page_rank": 2,
       "extra_attributes": {
         "language": ["en"]
       }
@@ -14,7 +14,7 @@
       "url": "https://icons.getbootstrap.com/icons/",
       "selectors_key": "icons",
       "tags": ["icons"],
-      "page_rank": 1,
+      "page_rank": 2,
       "extra_attributes": {
         "language": ["en"]
       }
@@ -23,7 +23,7 @@
       "url": "https://v5.getbootstrap.com/",
       "selectors_key": "v5",
       "tags": ["v5"],
-      "page_rank": 2,
+      "page_rank": 1,
       "extra_attributes": {
         "language": ["en"]
       }
@@ -36,7 +36,9 @@
   "stop_urls": [
     "/examples/.+",
     "getbootstrap.com/docs/3",
-    "getbootstrap.com/docs/versions/"
+    "getbootstrap.com/docs/3",
+    "getbootstrap.com/docs/versions/",
+    "https://icons.getbootstrap.com/index.html#icons"
   ],
   "selectors": {
     "icons": {
@@ -52,14 +54,13 @@
     "icons-docs": {
       "lvl0": {
         "selector": "div.hero div.container h1",
-        "default_value": "Bootstrap Icons"
+        "default_value": "Icons Documentation"
       },
-      "lvl1": ".bd-layout h1",
-      "lvl2": "main.container h2",
-      "lvl3": "main.container h3",
-      "lvl4": "main.container h4",
-      "lvl5": "main.container h5",
-      "text": "main.container p, div.hero div.container p"
+      "lvl1": ".container h2",
+      "lvl2": ".container h3",
+      "lvl3": ".container h4",
+      "lvl4": ".container h5",
+      "text": ".container p"
     },
     "v5": {
       "lvl0": {
@@ -75,10 +76,10 @@
       "text": "main p, main li, main td:last-child"
     }
   },
-  "selectors_exclude": [".bd-example", "#icons"],
+  "selectors_exclude": [".bd-example"],
   "custom_settings": {
     "attributesForFaceting": ["version", "language", "tags"]
   },
   "conversation_id": ["1313068332"],
-  "nb_hits": 5134
+  "nb_hits": 5136
 }
