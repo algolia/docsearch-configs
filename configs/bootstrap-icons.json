@@ -53,7 +53,7 @@
     },
     "icons-docs": {
       "lvl0": {
-        "selector": "div.hero div.container h1",
+        "selector": "",
         "default_value": "Icons Documentation"
       },
       "lvl1": ".container h2",
@@ -76,7 +76,7 @@
       "text": "main p, main li, main td:last-child"
     }
   },
-  "selectors_exclude": [".bd-example"],
+  "selectors_exclude": [".bd-example", "#icons-body", "#icons"],
   "custom_settings": {
     "attributesForFaceting": ["version", "language", "tags"]
   },
