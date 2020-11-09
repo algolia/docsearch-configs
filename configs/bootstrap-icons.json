@@ -4,28 +4,40 @@
     {
       "url": "https://icons.getbootstrap.com/index.html",
       "selectors_key": "icons-docs",
-      "tags": ["icons-docs"],
+      "tags": [
+        "icons-docs"
+      ],
       "page_rank": 2,
       "extra_attributes": {
-        "language": ["en"]
+        "language": [
+          "en"
+        ]
       }
     },
     {
       "url": "https://icons.getbootstrap.com/icons/",
       "selectors_key": "icons",
-      "tags": ["icons"],
+      "tags": [
+        "icons"
+      ],
       "page_rank": 2,
       "extra_attributes": {
-        "language": ["en"]
+        "language": [
+          "en"
+        ]
       }
     },
     {
       "url": "https://v5.getbootstrap.com/",
       "selectors_key": "v5",
-      "tags": ["v5"],
+      "tags": [
+        "v5"
+      ],
       "page_rank": 1,
       "extra_attributes": {
-        "language": ["en"]
+        "language": [
+          "en"
+        ]
       }
     }
   ],
@@ -75,10 +87,19 @@
       "text": "main p, main li, main td:last-child"
     }
   },
-  "selectors_exclude": [".bd-example", "#icons"],
+  "selectors_exclude": [
+    ".bd-example",
+    "#icons"
+  ],
   "custom_settings": {
-    "attributesForFaceting": ["version", "language", "tags"]
+    "attributesForFaceting": [
+      "version",
+      "language",
+      "tags"
+    ]
   },
-  "conversation_id": ["1313068332"],
-  "nb_hits": 21240
+  "conversation_id": [
+    "1313068332"
+  ],
+  "nb_hits": 5134
 }
