@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".docsearch-lvl0.active",
+      "selector": ".docsearch-lvl0",
       "global": true
     },
     "lvl1": ".docsearch-content h1",
