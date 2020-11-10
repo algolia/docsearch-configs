@@ -20,15 +20,19 @@
   "sitemap_urls": ["https://sendbird.com/docs/sitemap.xml"],
   "selectors": {
     "lvl0": {
-      "selector": ".sbdMainLNBItem.isActive",
+      "selector": "#sbd_product"
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Product"
     },
-    "lvl1": "#sbd_contents h2",
-    "lvl2": "#sbd_contents h3",
-    "lvl3": "#sbd_contents h4",
-    "lvl4": "#sbd_contents h5",
-    "lvl5": "#sbd_contents h6",
+    "lvl1": {
+      "selector": "#sbd_platform",
+      "global": true,
+      "default_value": "Platform"
+    },
+    "lvl2": "#sbd_contents h2",
+    "lvl3": "#sbd_contents h3",
+    "lvl4": "#sbd_contents h4",
+    "lvl5": "#sbd_contents h5",
     "text": "#sbd_contents p, #sbd_contents li, #sbd_contents a, #sbd_contents blockquote, #sbd_contents table td p"
   },
   "custom_settings": {
