@@ -20,7 +20,7 @@
   "sitemap_urls": ["https://sendbird.com/docs/sitemap.xml"],
   "selectors": {
     "lvl0": {
-      "selector": "#sbd_product"
+      "selector": "#sbd_product",
       "global": true,
       "default_value": "Product"
     },
