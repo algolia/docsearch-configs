@@ -29,10 +29,10 @@
       "global": true,
       "default_value": "Platform"
     },
-    "lvl2": "#sbd_contents h2",
-    "lvl3": "#sbd_contents h3",
-    "lvl4": "#sbd_contents h4",
-    "lvl5": "#sbd_contents h5",
+    "lvl2": "#sbd_contents h1",
+    "lvl3": "#sbd_contents h2",
+    "lvl4": "#sbd_contents h3",
+    "lvl5": "#sbd_contents h4",
     "text": "#sbd_contents p, #sbd_contents li, #sbd_contents a, #sbd_contents blockquote, #sbd_contents table td p"
   },
   "custom_settings": {
