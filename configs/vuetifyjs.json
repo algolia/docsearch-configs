@@ -9,19 +9,14 @@
   "selectors": {
     "lvl0": "section h1, section ul li a",
     "lvl1": "section h2",
-    "lvl2": "section h3",
+    "lvl2": "section h3, section div div div table tbody tr td span",
     "lvl3": "section h4",
     "lvl4": "section h5",
-    "text": "section p, section li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true
-    }
+    "text": "section p, section li"
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "language"
     ]
   },
   "conversation_id": [
