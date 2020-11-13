@@ -1,0 +1,21 @@
+{
+  "index_name": "vue-a11y",
+  "start_urls": [
+    "https://vue-a11y.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content__default h1",
+    "lvl1": ".content__default h2",
+    "lvl2": ".content__default h3",
+    "lvl3": ".content__default h4",
+    "lvl4": ".content__default h5",
+    "text": ".content__default p, .content__default li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1276273895"
+  ],
+  "scrape_start_urls": false,
+  "nb_hits": 58
+}

@@ -1,0 +1,33 @@
+{
+  "index_name": "paloalto",
+  "start_urls": [
+    "https://gallery.pan.dev"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://gallery.pan.dev/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "h2#repo-name",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#repo-readme h1",
+    "lvl2": "#repo-readme h2",
+    "lvl3": "#repo-readme h3",
+    "lvl4": "#repo-readme h4",
+    "lvl5": "#repo-readme h5",
+    "text": "#repo-readme p, #repo-readme li, h2#repo-name + div"
+  },
+  "selectors_exclude": [
+    "style"
+  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1269128878"
+  ],
+  "nb_hits": 3228
+}
