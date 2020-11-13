@@ -1,6 +1,7 @@
 {
   "index_name": "twenty57_linx",
   "start_urls": [
+    "https://linx.software/docs/full_index/",
     "https://linx.software/docs/"
   ],
   "stop_urls": [],

@@ -1,0 +1,20 @@
+{
+  "index_name": "minerva-ui-vercel",
+  "start_urls": ["https://minerva-ui-docs.vercel.app/"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "content main h1",
+    "lvl2": "content main h2",
+    "lvl3": "content main h3",
+    "lvl4": "content main h4",
+    "lvl5": "content main h5",
+    "text": "content main p, content main li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": ["1298666894"],
+  "nb_hits": 525
+}

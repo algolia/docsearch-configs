@@ -1,10 +1,10 @@
 {
   "index_name": "botonic",
   "start_urls": [
-    "https://docs.botonic.io/"
+    "https://botonic.io/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.botonic.io/sitemap.xml"
+    "https://botonic.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1204993482"
   ],
-  "nb_hits": 960
+  "nb_hits": 1328
 }

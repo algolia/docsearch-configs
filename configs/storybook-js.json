@@ -9,13 +9,16 @@
       "selectors_key": "releases"
     },
     {
-      "url": "https://storybook.js.org/",
+      "url": "https://storybook.js.org/docs/",
       "tags": [
         "docs"
       ]
     }
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://storybook.js.org/sitemap.xml"
+  ],
   "selectors": {
     "default": {
       "lvl0": {
@@ -58,5 +61,5 @@
   "conversation_id": [
     "1251295597"
   ],
-  "nb_hits": 2422
+  "nb_hits": 15658
 }

@@ -22,6 +22,7 @@
     "http://vimejs.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -29,7 +30,6 @@
       "version",
       "type"
     ],
-    "strip_chars": " .,;:#",
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -42,5 +42,6 @@
   "min_indexed_level": 0,
   "conversation_id": [
     "1281221982"
-  ]
+  ],
+  "nb_hits": 0
 }
