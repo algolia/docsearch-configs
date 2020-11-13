@@ -7,8 +7,8 @@
     "/store/"
   ],
   "selectors": {
-    "lvl0": "section h1, section ul li a",
-    "lvl1": "section h2",
+    "lvl0": "section h1",
+    "lvl1": "section h2, section ul li a",
     "lvl2": "section h3, section div div div table tbody tr td span",
     "lvl3": "section h4",
     "lvl4": "section h5",
