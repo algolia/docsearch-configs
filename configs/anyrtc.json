@@ -1,55 +1,54 @@
 {
-  "index_name": "anyrtc",
+  "index_name": "anyrtc_rtc-web",
   "start_urls": [
-    {
-      "url": "https://docs.anyrtc.io/platforms/",
-      "tags": ["platforms"]
-    },
-    {
-      "url": "https://docs.anyrtc.io/recording/",
-      "tags": ["recording"]
-    },
-    {
-      "url": "https://docs.anyrtc.io/rtc-web/",
-      "tags": ["rtc-web"]
-    },
-    {
-      "url": "https://docs.anyrtc.io/rtc-android/",
-      "tags": ["rtc-android"]
-    },
-    {
-      "url": "https://docs.anyrtc.io/rtc-ios/",
-      "tags": ["rtc-ios"]
-    },
-    {
-      "url": "https://docs.anyrtc.io/rtc-window/",
-      "tags": ["rtc-window"]
-    },
-    {
-      "url": "https://docs.anyrtc.io/rtm-web/",
-      "tags": ["rtm-web"]
-    },
-    {
-      "url": "https://docs.anyrtc.io/rtm-android/",
-      "tags": ["rtm-android"]
-    },
-    {
-      "url": "https://docs.anyrtc.io/rtm-ios/",
-      "tags": ["rtm-ios"]
-    },
-    {
-      "url": "https://docs.anyrtc.io/rtm-window/",
-      "tags": ["rtm-window"]
-    },
-    {
-      "url": "https://docs.anyrtc.io/",
-      "tags": [
-        "all"
-      ]
-    }
+    "https://docs.anyrtc.io/rtc-web/docs/",
+    "https://docs.anyrtc.io/rtc-web/api/overview/",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_rtc/",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_rtc_client",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_buffer_source_audio_track",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_camera_video_track",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_microphone_audio_track",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_local_audio_track",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_local_video_track",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_local_track",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_remote_track",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_remote_audio_track",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_remote_video_track",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/rtc_stats",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/client_config",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_remote_user",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/buffer_source_audio_track_init_config",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/camera_video_track_init_config",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/microphone_audio_track_init_config",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/custom_audio_track_init_config",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/custom_video_track_init_config",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/screen_video_track_init_config",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/audio_source_options",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/electron_desktop_capturer_source",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_network_quality",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/inject_stream_config",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/live_streaming_transcoding_config",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/i_channel_media_relay_configuration",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/audio_encoder_configuration",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/video_encoder_configuration",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/local_audio_track_stats",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/local_video_track_stats",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/remote_audio_track_stats",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/remote_video_track_stats",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/device_info",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/low_stream_parameter",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/video_player_config",
+    "https://docs.anyrtc.io/rtc-web/api/interfaces/constrain_long",
+    "https://docs.anyrtc.io/rtc-web/api/enumerations/e_connection_disconnected_reason",
+    "https://docs.anyrtc.io/rtc-web/api/enumerations/e_remote_stream_type",
+    "https://docs.anyrtc.io/rtc-web/api/enumerations/e_inject_stream_event_status",
+    "https://docs.anyrtc.io/rtc-web/api/enumerations/e_channel_media_relay_event",
+    "https://docs.anyrtc.io/rtc-web/api/enumerations/e_channel_media_relay_error",
+    "https://docs.anyrtc.io/rtc-web/api/enumerations/e_channel_media_relay_state",
+    "https://docs.anyrtc.io/rtc-web/api/t_type_aliases"
   ],
   "sitemap_urls": [
-    "https://docs.anyrtc.io/sitemap.xml"
+    "https://docs.anyrtc.io/rtc-web/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
@@ -90,8 +89,5 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1240230599"
-  ],
   "scrape_start_urls": false
 }
