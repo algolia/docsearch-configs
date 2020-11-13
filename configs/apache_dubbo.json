@@ -1,0 +1,30 @@
+{
+  "index_name": "apache_dubbo",
+  "start_urls": [
+    {
+      "url": "https://dubbo.apache.org/(?P<lang>.*?)/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": ["2.7", "3.0"],
+        "lang": ["zh-cn", "en-us"]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "a.md-nav__link.md-nav__link--active",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["lang", "version"]
+  },
+  "conversation_id": ["1335010531"],
+  "nb_hits": 5825
+}
