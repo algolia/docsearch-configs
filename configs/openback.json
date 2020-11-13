@@ -29,7 +29,9 @@
                 "selector": ".content rounded-6 min-height-on-desktop fc-folder-show",
                 "global": true
             },
-            "lvl1": ".ellipsis article-title"
+            "lvl1": ".ellipsis article-title",
+            "lvl2": ".description-text",
+            "text": ".description-text div"
         }
     },
     "conversation_id": [
