@@ -1,0 +1,51 @@
+{
+  "index_name": "next_router_vuejs",
+  "start_urls": [
+    {
+      "url": "https://next.router.vuejs.org/guide/",
+      "selectors_key": "guide",
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://next.router.vuejs.org/api/",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guide"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1305035158"
+  ],
+  "nb_hits": 897
+}

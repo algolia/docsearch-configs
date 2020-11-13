@@ -1,7 +1,7 @@
 {
   "index_name": "chartiq",
   "start_urls": [
-    "https://documentation.chartiq.com/finsemble/"
+    "https://documentation.finsemble.com/"
   ],
   "stop_urls": [],
   "selectors": {

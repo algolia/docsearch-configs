@@ -1,0 +1,24 @@
+{
+  "index_name": "ag-grid",
+  "start_urls": ["https://www.ag-grid.com/"],
+  "stop_urls": [
+    "https://www.ag-grid.com/license-pricing.php",
+    "https://www.ag-grid.com/example.php",
+    "https://www.ag-grid.com/archive/"
+  ],
+  "sitemap_urls": ["https://www.ag-grid.com/sitemap.xml"],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content h1",
+    "lvl2": "#content h2",
+    "lvl3": "#content h3",
+    "lvl4": "#content h4",
+    "lvl5": "#content h5",
+    "text": "#content p, #content li,  #content td"
+  },
+  "conversation_id": ["1310302359"],
+  "nb_hits": 14384
+}

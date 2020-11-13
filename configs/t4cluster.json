@@ -16,56 +16,71 @@
       ]
     },
     {
-      "url": "https://kyoustat.com/T4cluster/articles",
-      "selectors_key": "articles",
+      "url": "https://kyoustat.com/T4cluster/news",
+      "selectors_key": "news",
       "tags": [
-        "articles"
+        "news"
       ]
     }
   ],
   "stop_urls": [
     "/reference/$",
     "/reference/index.html",
-    "/articles/$",
-    "/articles/index.html"
+    "/news/$",
+    "/news/index.html"
   ],
   "selectors": {
     "homepage": {
       "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": {
         "selector": ".contents h1",
         "default_value": "pkgdown Home page"
       },
-      "lvl1": ".contents h2",
-      "lvl2": {
+      "lvl2": ".contents h2",
+      "lvl3": {
         "selector": ".contents h3",
         "default_value": "Context"
       },
-      "lvl3": ".ref-arguments td, .ref-description",
+      "lvl4": ".ref-arguments td, .ref-description",
       "text": ".contents p, .contents li, .contents .pre"
     },
     "reference": {
-      "lvl0": ".contents h1",
-      "lvl1": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".contents h1",
+      "lvl2": {
         "selector": ".contents .name",
         "default_value": "Argument"
       },
-      "lvl2": {
+      "lvl3": {
         "selector": ".ref-arguments th",
         "default_value": "Description"
       },
-      "lvl3": ".ref-arguments td, .ref-description",
       "text": ".contents p, .contents li"
     },
-    "articles": {
-      "lvl0": ".contents h1",
-      "lvl1": ".contents .name",
-      "lvl2": {
+    "news": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".contents h1",
+      "lvl2": ".contents .name",
+      "lvl3": {
         "selector": ".contents h2, .contents h3",
         "default_value": "Context"
       },
       "text": ".contents p, .contents li"
     },
     "default": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
       "lvl1": ".contents h2",
       "lvl2": ".contents h3, .contents th",
       "lvl3": ".contents h4",
@@ -93,5 +108,5 @@
   "conversation_id": [
     "1287742603"
   ],
-  "nb_hits": 328
+  "nb_hits": 295
 }

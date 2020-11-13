@@ -23,12 +23,13 @@
     "lvl4": "main h3",
     "lvl5": "main h4",
     "lvl6": "main h5",
-    "text": "main p, main li, main td, main strong"
+    "text": "main p, main li, main td"
   },
   "custom_settings": {
     "separatorsToIndex": "!$/:*?<>|#=[];%.",
-    "disableTypoToleranceOnWords": ["SAP", "ios", "WPF" ],
+    "disableTypoToleranceOnWords": ["SAP", "ios", "WPF", "TA","login"],
     "synonyms": [
+      ["TA","TestArchitect"],
       [
       "repository",
       "repositories"

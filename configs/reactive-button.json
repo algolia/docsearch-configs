@@ -19,7 +19,7 @@
     }
   },
   "sitemap_urls": [
-    "https://arifszn.github.io/reactive-buttonsitemap.xml"
+    "https://arifszn.github.io/reactive-button/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "strip_chars": " .,;:#",
@@ -43,5 +43,5 @@
   "conversation_id": [
     "1288417165"
   ],
-  "nb_hits": 50
+  "nb_hits": 63
 }

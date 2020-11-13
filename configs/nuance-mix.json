@@ -1,23 +1,17 @@
 {
   "index_name": "nuance-mix",
   "start_urls": [
-    "https://mix.nuance.com/v3/documentation/",
-    "https://mix.nuance.com/v3/documentation/nlu-trsx-app-spec/",
-    "https://mix.nuance.com/v3/documentation/dialog-app-spec/",
-    "https://mix.nuance.com/v3/documentation/technical-requirements/",
-    "https://mix.nuance.com/v3/documentation/languages/",
-    "https://mix.nuance.com/v3/documentation/glossary/"
+    "https://docs.mix.nuance.com/",
+    "https://docs.mix.nuance.com/nlu-trsx-app-spec/",
+    "https://docs.mix.nuance.com/dialog-app-spec/",
+    "https://docs.mix.nuance.com/technical-requirements/",
+    "https://docs.mix.nuance.com/languages/",
+    "https://docs.mix.nuance.com/glossary/"
   ],
   "stop_urls": [
-    "[^n]/$",
     "/downloads/",
-    "https://mix.nuance.com/v3/documentation/mix-datapack/v6_x/",
-    "https://mix.nuance.com/v3/documentation/dialog-grpc/v1beta1/",
-    "https://mix.nuance.com/v3/documentation/dialog-grpc/v1beta2/",
-    "https://mix.nuance.com/v3/documentation/asr-grpc/v1beta1/",
-    "https://mix.nuance.com/v3/documentation/asr-grpc/v1beta2/",
-    "https://mix.nuance.com/v3/documentation/nlu-grpc/v1beta1/",
-    "https://mix.nuance.com/v3/documentation/tts-grpc/v1beta1/"
+    "https://docs.mix.nuance.com/mix-datapack/v6_x/",
+    "(.*)/index.html"
   ],
   "selectors": {
     "lvl0": {
@@ -30,16 +24,12 @@
     "lvl3": ".content h3, .content td:first-child",
     "lvl4": ".content h4",
     "lvl5": ".content h5",
-    "text": ".content p, .content li, .content td:not(:first-child)"
+    "text": ".content p, .content li, .content td:not(:first-child), .content aside"
   },
-  "selectors_exclude": [
-    ".products-container"
-  ],
-  "conversation_id": [
-    "1076829139"
-  ],
+  "selectors_exclude": [".products-container"],
+  "conversation_id": ["1076829139"],
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 8948
+  "nb_hits": 13469
 }

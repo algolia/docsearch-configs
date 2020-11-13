@@ -1,0 +1,26 @@
+{
+  "index_name": "chocolatey",
+  "start_urls": [
+    "https://docs.chocolatey.org/en-us/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.chocolatey.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#mainContent h1",
+    "lvl2": "#mainContent h2",
+    "lvl3": "#mainContent h3",
+    "lvl4": "#mainContent h4",
+    "lvl5": "#mainContent h5",
+    "text": "#mainContent p, #mainContent li"
+  },
+  "conversation_id": [
+    "1324269795"
+  ],
+  "nb_hits": 12470
+}

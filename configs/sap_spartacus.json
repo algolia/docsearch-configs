@@ -1,9 +1,20 @@
 {
   "index_name": "sap_spartacus",
   "start_urls": [
-    "https://sap.github.io/spartacus-docs/"
+    {
+      "url": "https://sap.github.io/spartacus-docs/1.x/",
+      "tags": ["1.x"]
+    },
+    {
+      "url": "https://sap.github.io/spartacus-docs/",
+      "tags": ["latest"]
+    }
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://sap.github.io/spartacus-docs/sitemap.xml",
+    "https://sap.github.io/spartacus-docs/1.x/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".archive h1",
     "lvl1": ".archive h2",
