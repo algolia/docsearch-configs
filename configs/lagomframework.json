@@ -48,7 +48,7 @@
   "selectors_exclude": [
     ".section-marker"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "323099367"
   ],

@@ -30,10 +30,10 @@
       "lang"
     ]
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
     "973604839"
   ],
-  "nb_hits": 759
+  "nb_hits": 763
 }

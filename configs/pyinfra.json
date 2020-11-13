@@ -1,0 +1,37 @@
+{
+  "index_name": "pyinfra",
+  "start_urls": [
+    {
+      "url": "https://docs.pyinfra.com/(?P<lang>.*?)/(?P<version>.*?)",
+      "variables": {
+        "version": ["latest", "1.x"],
+        "lang": ["en"]
+      }
+    }
+  ],
+  "stop_urls": [
+    "index.html",
+    "apidoc"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class,'sidebar-toc')]//ul[contains(@class,'current')]/preceding::p[contains(@class,'caption')][1]//span",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".section h1",
+    "lvl2": ".section h2",
+    "lvl3": ".section h3",
+    "lvl4": ".section h4",
+    "lvl5": ".section h5",
+    "text": ".section p, .section li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["version", "lang"]
+  },
+  "conversation_id": [
+    "1283802491"
+  ],
+  "nb_hits": 2619
+}

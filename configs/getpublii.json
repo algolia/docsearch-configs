@@ -1,25 +1,54 @@
 {
   "index_name": "getpublii",
   "start_urls": [
-    "https://getpublii.com/docs/",
-    "https://getpublii.com/dev/"
-  ],
-  "stop_urls": [],
-  "selectors": {
-    "lvl0": {
-      "selector": ".active-parent > span",
-      "global": true,
-      "default_value": "Documentation"
+    {
+      "url": "https://getpublii.com/dev/",
+      "selectors_key": "dev",
+      "tags": [
+        "dev"
+      ]
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "text": ".content p, .content li"
+    {
+      "url": "https://getpublii.com/docs/",
+      "tags": [
+        "docs"
+      ]
+    }
+  ],
+  "selectors_exclude": [
+    ".posts-nav"
+  ],
+  "stop_urls": [
+    "/page/"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".active-parent > a",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "text": "main p, main li"
+    },
+    "dev": {
+      "lvl0": {
+        "selector": ".active-parent > a.Lvl0",
+        "global": true,
+        "default_value": "Developer Documentation"
+      },
+      "lvl1": ".active > a.Lvl1",
+      "lvl2": ".post h2, .list h2",
+      "lvl3": ".post h3, .list h3",
+      "lvl4": ".post h4, .list h4",
+      "text": ".post p, .post li, .list li, .list p"
+    }
   },
-  "only_content_level": true,
   "conversation_id": [
     "522724328"
   ],
-  "nb_hits": 1260
+  "nb_hits": 4298
 }

@@ -48,7 +48,7 @@
     ".table-of-contents"
   ],
   "strip_chars": " .,;:#",
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "custom_settings": {
     "attributesForFaceting": [
       "lang",

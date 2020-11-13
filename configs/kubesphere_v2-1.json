@@ -1,0 +1,33 @@
+{
+  "index_name": "kubesphere_v2-1",
+  "start_urls": [
+    {
+      "url": "https://v2-1.docs.kubesphere.io/docs/zh-CN/",
+      "extra_attributes": {
+        "lang": ["zh"]
+      }
+    },
+    {
+      "url": "https://v2-1.docs.kubesphere.io/docs/",
+      "extra_attributes": {
+        "lang": ["en"]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[contains(@class, 'TableOfContents__')]//ol[contains(@class, 'chapter__')]//li[contains(@class, 'chapter__')]//h5[contains(@class, 'chapter__Title') and .//svg[contains(@class, 'arrow-open')]]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "ol[class^='chapter__'] li[class^='chapter__'] a.selected-link h5",
+    "lvl2": "div.md-body h1",
+    "lvl3": "div.md-body div h2",
+    "lvl4": "div.md-body div h3",
+    "text": "div.md-body li, div.md-body p, div.md-body div p"
+  },
+  "conversation_id": ["1272207695"],
+  "nb_hits": 6782
+}

@@ -27,7 +27,7 @@
     "text": "[class*='content-main'] p, [class*='content-main'] li"
   },
   "only_content_level": true,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "392230260"
   ],

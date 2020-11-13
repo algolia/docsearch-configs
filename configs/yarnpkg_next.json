@@ -18,8 +18,25 @@
     "lvl6": "article h6",
     "text": "article p, article li"
   },
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "selectors_exclude": [
+    ".toc"
+  ],
   "conversation_id": [
     "1113982325"
   ],
-  "nb_hits": 1318
+  "nb_hits": 1939
 }

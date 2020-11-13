@@ -25,7 +25,7 @@
       "text": ".docs-page-content p, .docs-page-content li"
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "#table-of-contents",
     "#table-of-contents + ol"

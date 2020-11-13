@@ -1,38 +1,47 @@
 {
   "index_name": "rsapkf",
   "start_urls": [
-    "https://rsapkf.github.io/notes/docs/"
+    "https://notes.rsapkf.xyz/docs/"
   ],
   "sitemap_urls": [
-    "https://rsapkf.github.io/notes/sitemap.xml"
+    "https://notes.rsapkf.xyz/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
+      "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "lvl5": ".post h5",
-    "text": ".post article p, .post article li"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
+  "scrape_start_urls": false,
   "conversation_id": [
     "1121032120"
   ],
-  "nb_hits": 268
+  "nb_hits": 575
 }

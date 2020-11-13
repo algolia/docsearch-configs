@@ -3,6 +3,9 @@
   "start_urls": [
     "https://docs.expo.io/"
   ],
+  "sitemap_urls": [
+    "https://docs.expo.io/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -17,6 +20,9 @@
     "lvl5": "h5[data-heading=\"true\"]",
     "text": "p[data-text=\"true\"], div[data-text=\"true\"], ul[data-text=\"true\"], ol[data-text=\"true\"], blockquote[data-text=\"true\"], pre[data-text=\"true\"]"
   },
+  "selectors_exclude": [
+    "style"
+  ],
   "min_indexed_level": 1,
   "conversation_id": [
     "569512966"

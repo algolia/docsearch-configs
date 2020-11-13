@@ -1,0 +1,20 @@
+{
+  "index_name": "batch_team",
+  "start_urls": [
+    "https://www.batch.team/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main div h1",
+    "lvl1": "main div h2",
+    "lvl2": "main div h3",
+    "lvl3": "main div h4",
+    "lvl4": "main div h5",
+    "lvl5": "main div h6",
+    "text": "main div p, main div li"
+  },
+  "conversation_id": [
+    "1294088149"
+  ],
+  "nb_hits": 51
+}

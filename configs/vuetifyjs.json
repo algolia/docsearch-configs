@@ -7,21 +7,16 @@
     "/store/"
   ],
   "selectors": {
-    "lvl0": ".layout h1, .comp-name",
-    "lvl1": ".layout h2",
-    "lvl2": ".layout h3",
-    "lvl3": ".layout h4",
-    "lvl4": ".layout h5",
-    "text": ".layout p, .layout li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true
-    }
+    "lvl0": "section h1",
+    "lvl1": "section h2, section ul li a",
+    "lvl2": "section h3, section div div div table tbody tr td span",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "text": "section p, section li"
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "language"
     ]
   },
   "conversation_id": [

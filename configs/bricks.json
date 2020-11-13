@@ -1,0 +1,26 @@
+{
+  "index_name": "bricks",
+  "start_urls": [
+    "https://cassfrontend.gitee.io/bricks-docs/#/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".br-accordion .br-accordion__panel__header.active",
+    "lvl2": ".main-container h1",
+    "lvl3": ".main-container h2",
+    "lvl4": ".main-container h3",
+    "lvl5": ".main-container h4",
+    "text": ".main-container p, .main-container li"
+  },
+  "use_anchors": true,
+  "js_render": true,
+  "js_wait": 2,
+  "conversation_id": [
+    "1306903696"
+  ],
+  "nb_hits": 1932
+}

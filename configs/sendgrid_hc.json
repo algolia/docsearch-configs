@@ -9,37 +9,29 @@
     },
     {
       "url": "https://sendgrid.com/docs/glossary/",
-      "tags": [
-        "glossary"
-      ],
+      "tags": ["glossary"],
       "page_rank": 5
     },
     {
       "url": "https://sendgrid.api-docs.io/v3.0",
-      "tags": [
-        "v3",
-        "api reference"
-      ],
+      "tags": ["v3", "api reference"],
+      "selectors_key": "v3",
       "page_rank": 4
     },
     {
       "url": "https://sendgrid.api-docs.io/v3.0/mail-send/v3-mail-send",
-      "tags": [
-        "v3",
-        "mail send"
-      ],
+      "tags": ["v3", "mail send"],
+      "selectors_key": "v3",
       "page_rank": 3
     },
     {
       "url": "https://www.twilio.com/docs/sendgrid",
+      "selectors_key": "v2",
       "page_rank": 2
     },
     {
       "url": "https://www.twilio.com/docs/sendgrid/api/v2",
-      "tags": [
-        "v2",
-        "api reference"
-      ],
+      "tags": ["v2", "api reference"],
       "selectors_key": "v2",
       "page_rank": 1
     },
@@ -49,11 +41,10 @@
     "https://sendgrid.com/docs/User_Guide",
     "https://sendgrid.com/docs/API_Reference",
     "https://sendgrid.com/docs/Integrate",
-    "https://sendgrid.com/docs/Classroom"
+    "https://sendgrid.com/docs/Classroom",
+    "#"
   ],
-  "sitemap_urls": [
-    "https://sendgrid.com/docs/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://sendgrid.com/docs/sitemap.xml"],
   "selectors": {
     "default": {
       "lvl0": {
@@ -73,21 +64,33 @@
       "text": ".doc-main p, .doc-main li, article p, article li"
     },
     "v2": {
-      "lvl0": "article h1",
-      "lvl1": "article h2",
-      "lvl2": "article h3, article td:first-child",
-      "lvl3": "article h4",
+      "lvl0": {
+        "selector": "",
+        "default_value": "API V2"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3, article td:first-child",
+      "lvl4": "article h4",
       "text": "article p, article li, article td:nth-child(n+3)"
+    },
+    "v3": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API V3"
+      },
+      "lvl1": ".DocsGroup h1",
+      "lvl2": ".SidebarGroup .MLI.is-active",
+      "lvl3": ".DocsGroup h3",
+      "lvl4": ".DocsGroup h4",
+      "text": ".DocsGroup p, .DocsGroup li"
     }
   },
-  "conversation_id": [
-    "624078167"
-  ],
+  "conversation_id": ["624078167"],
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "selectors_exclude": [
-    ".doc-main h1 + div ul:first-child"
-  ],
-  "nb_hits": 15724
+  "use_anchors": false,
+  "selectors_exclude": [".doc-main h1 + div ul:first-child"],
+  "nb_hits": 18579
 }
