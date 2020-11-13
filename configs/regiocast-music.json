@@ -1,0 +1,21 @@
+{
+  "index_name": "regiocast-music",
+  "start_urls": [
+    "https://regiocast.github.io/music-docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".content p, .content li",
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6"
+  },
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1304232307"
+  ],
+  "nb_hits": 278
+}

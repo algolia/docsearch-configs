@@ -1,11 +1,11 @@
 {
-  "index_name": "react-native-versions",
+  "index_name": "react-native-archive",
   "start_urls": [
-    "https://reactnative.dev/docs/"
+    "https://archive.reactnative.dev/"
   ],
   "sitemap_alternate_links": true,
   "sitemap_urls": [
-    "https://reactnative.dev/sitemap.xml"
+    "https://archive.reactnative.dev/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {

@@ -2,15 +2,10 @@
   "index_name": "ezplatform_ezpersonalization",
   "start_urls": [
     {
-      "url": "https://doc.ezplatform.com/projects/ezpersonalization/(?P<lang>.*?)/(?P<version>.*?)/",
+      "url": "https://doc.ibexa.co/projects/ezpersonalization/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
-        "lang": [
-          "en"
-        ],
-        "version": [
-          "latest",
-          "master"
-        ]
+        "lang": ["en"],
+        "version": ["latest", "master"]
       }
     }
   ],
@@ -30,8 +25,6 @@
     "lvl6": ".md-content h6",
     "text": ".md-content p, .md-content ul li, .md-content .code pre, .md-content table tr td"
   },
-  "conversation_id": [
-    "1001272761"
-  ],
+  "conversation_id": ["1001272761"],
   "nb_hits": 2664
 }

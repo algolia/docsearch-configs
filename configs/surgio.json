@@ -1,15 +1,15 @@
 {
   "index_name": "surgio",
   "start_urls": [
-    "https://surgio.royli.dev"
+    "https://surgio.js.org"
   ],
   "stop_urls": [
     "^(.(?!.*\\.html)).*?/guide/.+$",
-    "https://surgio.royli.dev/404.html",
-    "https://surgio.royli.dev/support.html"
+    "https://surgio.js.org/404.html",
+    "https://surgio.js.org/support.html"
   ],
   "sitemap_urls": [
-    "https://surgio.royli.dev/sitemap.xml"
+    "https://surgio.js.org/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {

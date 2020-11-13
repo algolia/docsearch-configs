@@ -1,0 +1,20 @@
+{
+  "index_name": "docsforge",
+  "start_urls": [
+    "https://help.docsforge.com/master/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": "h3",
+    "lvl3": "h4",
+    "lvl4": "h5",
+    "lvl5": "h6, td:first-child",
+    "text": "p, li, td:last-child"
+  },
+  "conversation_id": [
+    "1316846162"
+  ],
+  "nb_hits": 1372
+}

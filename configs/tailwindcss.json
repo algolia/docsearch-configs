@@ -11,7 +11,15 @@
       }
     },
     {
-      "url": "https://v0.tailwindcss.com/docs",
+      "url": "https://tailwindcss-v0.netlify.app/docs/",
+      "extra_attributes": {
+        "version": [
+          "v0"
+        ]
+      }
+    },
+    {
+      "url": "https://tailwindcss-v0.netlify.app//docs/",
       "extra_attributes": {
         "version": [
           "v0"
@@ -71,9 +79,8 @@
     ],
     "separatorsToIndex": "@_"
   },
-  "js_render": true,
   "conversation_id": [
     "459164857"
   ],
-  "nb_hits": 11860
+  "nb_hits": 11019
 }

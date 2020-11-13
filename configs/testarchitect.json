@@ -27,8 +27,9 @@
   },
   "custom_settings": {
     "separatorsToIndex": "!$/:*?<>|#=[];%.",
-    "disableTypoToleranceOnWords": ["SAP", "ios", "WPF" ],
+    "disableTypoToleranceOnWords": ["SAP", "ios", "WPF", "TA","login"],
     "synonyms": [
+      ["TA","TestArchitect"],
       [
       "repository",
       "repositories"

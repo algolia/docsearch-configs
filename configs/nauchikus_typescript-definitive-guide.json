@@ -1,7 +1,7 @@
 {
   "index_name": "nauchikus_typescript-definitive-guide",
   "start_urls": [
-    "https://nauchikus.github.io/typescript-definitive-guide/"
+    "https://typescript-definitive-guide.ru/"
   ],
   "stop_urls": [],
   "selectors": {

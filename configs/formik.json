@@ -1,12 +1,15 @@
 {
   "index_name": "formik",
   "start_urls": [
-    "https://formik.org/docs/"
+    "https://formik.org/"
   ],
+  "scrape_start_urls": false,
   "sitemap_urls": [
-    "https://formik.org/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://formik.org/blog",
+    "https://formik.org/users"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//aside//*[contains(@class,'selected')]/preceding::h4[1]",

@@ -1,5 +1,6 @@
 {
   "index_name": "timescale",
+  "sitemap_urls": ["https://docs.timescale.com/docs-sitemap.xml"],
   "start_urls": [
     {
       "url": "https://docs.timescale.com/(?P<version>.*?)/getting-started/installation",
@@ -7,6 +8,9 @@
       "variables": {
         "version": [
           "latest",
+          "v2.0",
+          "v1.7",
+          "v1.6",
           "v1.5",
           "v1.4",
           "v1.3",
@@ -16,8 +20,7 @@
           "v0.12",
           "v0.11",
           "v0.10",
-          "v0.9",
-          "clustering"
+          "v0.9"
         ]
       }
     },
@@ -26,6 +29,9 @@
       "variables": {
         "version": [
           "latest",
+          "v2.0",
+          "v1.7",
+          "v1.6",
           "v1.5",
           "v1.4",
           "v1.3",
@@ -35,8 +41,7 @@
           "v0.12",
           "v0.11",
           "v0.10",
-          "v0.9",
-          "clustering"
+          "v0.9"
         ]
       }
     }
@@ -62,10 +67,7 @@
   "selectors_exclude": [
     ".top-list"
   ],
-  "min_indexed_level": {
-    "default": 2,
-    "installation": 1
-  },
+  "min_indexed_level": 1,
   "conversation_id": [
     "628616287"
   ],

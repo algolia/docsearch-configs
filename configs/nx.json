@@ -6,11 +6,12 @@
       "variables": {
         "version": [
           "latest",
-          "stable"
+          "previous"
         ],
         "framework": [
           "react",
-          "angular"
+          "angular",
+          "node"
         ]
       }
     }

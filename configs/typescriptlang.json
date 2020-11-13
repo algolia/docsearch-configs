@@ -12,6 +12,10 @@
     {
       "url": "https://www.typescriptlang.org/docs/",
       "page_rank": 1
+    },
+    {
+      "url": "https://www.typescriptlang.org/tsconfig",
+      "page_rank": 2
     }
   ],
   "sitemap_urls": [
