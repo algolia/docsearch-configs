@@ -1,8 +1,29 @@
 {
   "index_name": "preact",
   "start_urls": [
-    "https://preactjs.com/guide",
-    "https://preactjs.com/guide/getting-started"
+    {
+      "url": "https://preactjs.com/guide/v(?P<version>.*?)/getting-started",
+      "variables": {
+        "language": "en",
+        "version": [
+          "10",
+          "8"
+        ]
+      }
+    },
+    {
+      "url": "https://preactjs.com/guide/v(?P<version>.*?)/getting-started?lang=(?P<language>.*?)",
+      "variables": {
+        "language": {
+          "url": "https://aframe.io/docs/",
+          "js": "return JSON.stringify([].slice.call(document.querySelectorAll('footer select > option')).map(o => o.value))"
+        },
+        "version": [
+          "10",
+          "8"
+        ]
+      }
+    }
   ],
   "selectors": {
     "lvl0": {
@@ -18,6 +39,12 @@
   },
   "min_indexed_level": true,
   "js_render": true,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "conversation_id": [
     "195298870"
   ],
