@@ -1,7 +1,7 @@
 {
   "index_name": "pype",
   "start_urls": [
-    "https://pype.club/docs/"
+    "https://pype.club/features/"
   ],
   "sitemap_urls": [
     "https://pype.club/sitemap.xml"
@@ -26,10 +26,7 @@
     ".hash-link"
   ],
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
+    "attributesForFaceting": []
   },
   "conversation_id": [
     "1026270564"
