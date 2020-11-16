@@ -2,25 +2,15 @@
   "index_name": "preact",
   "start_urls": [
     {
-      "url": "https://preactjs.com/guide/v(?P<version>.*?)/getting-started",
+      "url": "https://preactjs.com/guide/(?P<version>.*?)/",
       "variables": {
-        "language": "en",
         "version": [
-          "10",
-          "8"
-        ]
-      }
-    },
-    {
-      "url": "https://preactjs.com/guide/v(?P<version>.*?)/getting-started?lang=(?P<language>.*?)",
-      "variables": {
-        "language": {
-          "url": "https://aframe.io/docs/",
-          "js": "return JSON.stringify([].slice.call(document.querySelectorAll('footer select > option')).map(o => o.value))"
-        },
-        "version": [
-          "10",
-          "8"
+          "v8",
+          "v10"
+        ],
+        "language": [
+          "en",
+          "ja"
         ]
       }
     }
@@ -35,18 +25,25 @@
     "lvl3": "main h3",
     "lvl4": "main h4",
     "lvl5": "main h5",
-    "text": "main p, main li, main td"
+    "text": "main p, main li, main td",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
   },
   "min_indexed_level": true,
   "js_render": true,
+  "js_wait": 2,
   "custom_settings": {
     "attributesForFaceting": [
-      "language",
+      "lang",
       "version"
     ]
   },
   "conversation_id": [
     "195298870"
   ],
-  "nb_hits": 2327
+  "nb_hits": 2679
 }
