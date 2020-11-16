@@ -4,14 +4,8 @@
     {
       "url": "https://preactjs.com/guide/(?P<version>.*?)/",
       "variables": {
-        "version": [
-          "v8",
-          "v10"
-        ],
-        "language": [
-          "en",
-          "ja"
-        ]
+        "version": ["v8", "v10"],
+        "language": ["en", "ja"]
       }
     }
   ],
@@ -33,17 +27,11 @@
       "default_value": "en-US"
     }
   },
-  "min_indexed_level": true,
   "js_render": true,
   "js_wait": 2,
   "custom_settings": {
-    "attributesForFaceting": [
-      "lang",
-      "version"
-    ]
+    "attributesForFaceting": ["lang", "version"]
   },
-  "conversation_id": [
-    "195298870"
-  ],
+  "conversation_id": ["195298870"],
   "nb_hits": 2679
 }
