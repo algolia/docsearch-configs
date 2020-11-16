@@ -1,8 +1,18 @@
 {
   "index_name": "ldaprecord",
   "start_urls": [
-    "https://ldaprecord.com/docs/",
-    "https://ldaprecord.com/docs/installation/"
+    {
+      "url": "https://ldaprecord.com/docs/(?P<repo>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "repo": [
+          "core",
+          "laravel"
+        ],
+        "version": [
+          "v1"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -17,5 +27,8 @@
   "conversation_id": [
     "1032669578"
   ],
-  "nb_hits": 1510
+  "nb_hits": 1510,
+  "custom_settings": {
+    "attributesForFaceting": ["repo","version"]
+  }
 }
