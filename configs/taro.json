@@ -1,7 +1,7 @@
 {
   "index_name": "taro",
   "start_urls": [
-    "https://nervjs.github.io/taro/docs/"
+    "https://nervjs.github.io/taro/docs/README"
   ],
   "sitemap_urls": [
     "https://nervjs.github.io/taro/sitemap.xml"
@@ -25,12 +25,14 @@
   "conversation_id": [
     "652660100"
   ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
       "version",
-      "type"
+      "type",
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
