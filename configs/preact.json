@@ -1,8 +1,13 @@
 {
   "index_name": "preact",
   "start_urls": [
-    "https://preactjs.com/guide",
-    "https://preactjs.com/guide/getting-started"
+    {
+      "url": "https://preactjs.com/guide/(?P<version>.*?)/",
+      "variables": {
+        "version": ["v8", "v10"],
+        "language": ["en", "ja"]
+      }
+    }
   ],
   "selectors": {
     "lvl0": {
@@ -14,12 +19,19 @@
     "lvl3": "main h3",
     "lvl4": "main h4",
     "lvl5": "main h5",
-    "text": "main p, main li, main td"
+    "text": "main p, main li, main td",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
   },
-  "min_indexed_level": true,
   "js_render": true,
-  "conversation_id": [
-    "195298870"
-  ],
-  "nb_hits": 2327
+  "js_wait": 2,
+  "custom_settings": {
+    "attributesForFaceting": ["lang", "version"]
+  },
+  "conversation_id": ["195298870"],
+  "nb_hits": 2679
 }
