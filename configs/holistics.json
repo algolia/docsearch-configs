@@ -1,7 +1,7 @@
 {
   "index_name": "holistics",
   "start_urls": [
-    "https://docs.holistics.io/docs/"
+    "https://docs.holistics.io/"
   ],
   "sitemap_urls": [
     "https://docs.holistics.io/sitemap.xml"
