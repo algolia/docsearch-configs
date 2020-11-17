@@ -1,16 +1,17 @@
 {
-  "index_name": "taro",
+  "index_name": "pretty-checkbox-react",
   "start_urls": [
-    "https://nervjs.github.io/taro/docs/README"
+    "https://pretty-checkbox-react.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://nervjs.github.io/taro/sitemap.xml"
+    "https://pretty-checkbox-react.netlify.app/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -18,13 +19,10 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
+    "lvl5": "article h5, article td:first-child",
     "lvl6": "article h6",
-    "text": "article p, article li"
+    "text": "article p, article li, article td:last-child"
   },
-  "conversation_id": [
-    "652660100"
-  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -43,5 +41,8 @@
       "type"
     ]
   },
-  "nb_hits": 23692
+  "conversation_id": [
+    "1337580130"
+  ],
+  "nb_hits": 483
 }

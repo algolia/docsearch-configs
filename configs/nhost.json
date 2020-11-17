@@ -1,0 +1,20 @@
+{
+  "index_name": "nhost",
+  "start_urls": ["https://docs.nhost.io/"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".md-container h1",
+    "lvl2": ".md-container h2",
+    "lvl3": ".md-container h3",
+    "lvl4": ".md-container h4",
+    "lvl5": ".md-container h5",
+    "text": ".md-container p, .md-container li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": ["1336139645"],
+  "nb_hits": 749
+}

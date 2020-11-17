@@ -1,10 +1,10 @@
 {
-  "index_name": "taro",
+  "index_name": "curling",
   "start_urls": [
-    "https://nervjs.github.io/taro/docs/README"
+    "https://curling.io/docs/"
   ],
   "sitemap_urls": [
-    "https://nervjs.github.io/taro/sitemap.xml"
+    "https://curling.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -18,21 +18,16 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
-    "lvl6": "article h6",
-    "text": "article p, article li"
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
   },
-  "conversation_id": [
-    "652660100"
-  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
       "version",
-      "type",
-      "docusaurus_tag"
+      "type"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -43,5 +38,8 @@
       "type"
     ]
   },
-  "nb_hits": 23692
+  "conversation_id": [
+    "1325495026"
+  ],
+  "nb_hits": 698
 }
