@@ -2,12 +2,16 @@
   "index_name": "ldaprecord",
   "start_urls": [
     {
-      "url": "https://ldaprecord.com/docs/(?P<repo>.*?)/(?P<version>.*?)/",
+      "url": "https://ldaprecord.com/docs/core/(?P<version>.*?)/",
       "variables": {
-        "repo": [
-          "core",
-          "laravel"
-        ],
+        "version": [
+          "v1", "v2"
+        ]
+      }
+    },
+    {
+      "url": "https://ldaprecord.com/docs/laravel/(?P<version>.*?)/",
+      "variables": {
         "version": [
           "v1"
         ]
@@ -29,6 +33,6 @@
   ],
   "nb_hits": 1510,
   "custom_settings": {
-    "attributesForFaceting": ["repo","version"]
+    "attributesForFaceting": ["version"]
   }
 }
