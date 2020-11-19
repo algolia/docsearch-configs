@@ -7,6 +7,11 @@
       "selectors_key": "docs"
     },
     {
+      "url": "https://www.wpgraphql.com/extension-plugins/",
+      "tags": ["extensions"],
+      "selectors_key": "extensions"
+    },
+    {
       "url": "https://www.wpgraphql.com/developer-reference/",
       "tags": ["dev"],
       "selectors_key": "dev"
@@ -25,6 +30,11 @@
       "url": "https://www.wpgraphql.com/functions/",
       "tags": ["dev"],
       "selectors_key": "dev"
+    },
+    {
+      "url": "https://www.wpgraphql.com/recipes/",
+      "tags": ["dev"],
+      "selectors_key": "dev"
     }
   ],
   "stop_urls": [],
@@ -35,6 +45,16 @@
         "selector": "",
         "global": true,
         "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "text": ".content h3, .content p, .content li"
+    },
+    "extensions": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Extensions"
       },
       "lvl1": ".content h1",
       "lvl2": ".content h2",
