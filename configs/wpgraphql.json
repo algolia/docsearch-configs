@@ -10,6 +10,21 @@
       "url": "https://www.wpgraphql.com/developer-reference/",
       "tags": ["dev"],
       "selectors_key": "dev"
+    },
+    {
+      "url": "https://www.wpgraphql.com/actions/",
+      "tags": ["dev"],
+      "selectors_key": "dev"
+    },
+    {
+      "url": "https://www.wpgraphql.com/filters/",
+      "tags": ["dev"],
+      "selectors_key": "dev"
+    },
+    {
+      "url": "https://www.wpgraphql.com/functions/",
+      "tags": ["dev"],
+      "selectors_key": "dev"
     }
   ],
   "stop_urls": [],
