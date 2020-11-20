@@ -3,33 +3,22 @@
   "start_urls": [
     {
       "url": "https://ava.antv.vision/zh",
-      "tags": [
-        "zh"
-      ]
+      "tags": ["zh"]
     },
     {
       "url": "https://ava.antv.vision/en",
-      "tags": [
-        "en"
-      ]
+      "tags": ["en"]
     },
     {
       "url": "https://ava.antv.vision/.*/en/",
-      "tags": [
-        "en"
-      ]
+      "tags": ["en"]
     },
     {
       "url": "https://ava.antv.vision/.*/zh",
-      "tags": [
-        "zh"
-      ]
+      "tags": ["zh"]
     }
   ],
-  "stop_urls": [
-    "/demo/",
-    "/apps/"
-  ],
+  "stop_urls": ["/demo/", "/apps/"],
   "selectors": {
     "lvl0": {
       "selector": "header h2",
@@ -45,8 +34,6 @@
   },
   "strip_chars": "#",
   "min_indexed_level": 1,
-  "conversation_id": [
-    "1023340199"
-  ],
+  "conversation_id": ["1343435749"],
   "nb_hits": 14302
-} 
+}
