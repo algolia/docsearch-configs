@@ -1,13 +1,15 @@
 {
-  "index_name": "nativesintech",
+  "index_name": "eesast",
   "start_urls": [
-    "https://docs.nativesintech.org/"
+    "https://docs.eesast.com/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.nativesintech.org/sitemap.xml"
+    "https://docs.eesast.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
+  "js_render": true,
+  "js_wait": 1,
   "selectors": {
     "lvl0": {
       "selector": ".menu__link--sublist.menu__link--active",
@@ -15,12 +17,11 @@
       "default_value": "Documentation"
     },
     "lvl1": "header h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "lvl6": "article h6",
-    "text": "article p, article li"
+    "lvl2": "article .markdown h2",
+    "lvl3": "article .markdown h3",
+    "lvl4": "article .markdown h4",
+    "lvl5": "article .markdown h5, article .markdown td:first-child",
+    "text": "article .markdown p, article .markdown li, article .markdown td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
@@ -40,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1154614433"
+    "1339360803"
   ],
-  "nb_hits": 209
+  "nb_hits": 1773
 }

@@ -1,10 +1,10 @@
 {
-  "index_name": "nativesintech",
+  "index_name": "lucia",
   "start_urls": [
-    "https://docs.nativesintech.org/"
+    "https://lucia.js.org/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.nativesintech.org/sitemap.xml"
+    "https://lucia.js.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -18,9 +18,8 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
-    "lvl6": "article h6",
-    "text": "article p, article li"
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
@@ -40,7 +39,7 @@
     ]
   },
   "conversation_id": [
-    "1154614433"
+    "1340309473"
   ],
-  "nb_hits": 209
+  "nb_hits": 67
 }

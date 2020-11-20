@@ -1,11 +1,10 @@
 {
-  "index_name": "nervjs_taro",
+  "index_name": "syncstate",
   "start_urls": [
-    "https://taro-docs.jd.com/taro/docs/README.html",
-    "https://taro-docs.jd.com/taro/docs/"
+    "https://syncstate.github.io/docs/"
   ],
   "sitemap_urls": [
-    "https://taro-docs.jd.com/sitemap.xml"
+    "https://syncstate.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -29,13 +28,11 @@
   "custom_settings": {
     "attributesForFaceting": [
       "language",
-      "version",
-      "type",
-      "docusaurus_tag"
+      "version"
     ]
   },
   "conversation_id": [
-    "1132455978"
+    "1333864032"
   ],
-  "nb_hits": 4370
+  "nb_hits": 366
 }
