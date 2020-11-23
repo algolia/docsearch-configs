@@ -1,7 +1,15 @@
 {
   "index_name": "kuzzle",
   "start_urls": [
-    "https://docs.kuzzle.io/"
+    {
+      "url": "https://docs.kuzzle.io/core/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "1",
+          "2"
+        ]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -36,5 +44,5 @@
       ]
     ]
   },
-  "nb_hits": 27745
+  "nb_hits": 12277
 }
