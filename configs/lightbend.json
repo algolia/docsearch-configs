@@ -1,0 +1,23 @@
+{
+  "index_name": "lightbend",
+  "start_urls": [
+    "https://developer.lightbend.com/docs/telemetry/current/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1338038987"
+  ],
+  "nb_hits": 3149
+}
