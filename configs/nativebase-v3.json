@@ -1,7 +1,7 @@
 {
   "index_name": "nativebase-v3",
   "start_urls": [
-    "https://nativebase.github.io/docs/nativebase"
+    "https://nativebase.github.io/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -19,7 +19,7 @@
     }
   },
   "sitemap_urls": [
-    "https://nativebase.github.io/docs/nativebasesitemap.xml"
+    "https://nativebase.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "strip_chars": " .,;:#",
@@ -43,5 +43,5 @@
   "conversation_id": [
     "1334997598"
   ],
-  "nb_hits": 21
+  "nb_hits": 994
 }
