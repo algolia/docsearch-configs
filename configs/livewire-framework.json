@@ -9,7 +9,12 @@
           "2.x",
           "1.x"
         ]
-      }
+      },
+      "page_rank": 5
+    },
+    {
+      "url": "https://laravel-livewire.com/screencasts/",
+      "page_rank": 4
     }
   ],
   "sitemap_urls": [
@@ -17,17 +22,20 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "main section > div > div h1",
-    "lvl1": "main section > div > div h2",
-    "lvl2": "main section > div > div h3",
-    "lvl3": "main section > div > div h4",
-    "lvl4": "main section > div > div h5",
-    "lvl5": "main section > div > div h6",
-    "text": "main section > div > div p, main section > div > div li"
+    "lvl0": ".docsearch-content h1",
+    "lvl1": ".docsearch-content h2",
+    "lvl2": ".docsearch-content h3",
+    "lvl3": ".docsearch-content h4",
+    "lvl4": ".docsearch-content h5",
+    "lvl5": ".docsearch-content h6",
+    "text": ".docsearch-content p, .docsearch-content li"
   },
   "min_indexed_level": 1,
   "conversation_id": [
     "923279915"
   ],
-  "nb_hits": 313
+  "nb_hits": 313,
+  "custom_settings": {
+    "attributesForFaceting": ["version"]
+  }
 }

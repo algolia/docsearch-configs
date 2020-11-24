@@ -1,6 +1,6 @@
 {
   "index_name": "kuzzle",
-  "start_urls": [
+  "start_url": [
     "https://docs.kuzzle.io/"
   ],
   "stop_urls": [],
@@ -39,5 +39,5 @@
       ]
     ]
   },
-  "nb_hits": 27745
+  "nb_hits": 12277
 }

@@ -1,28 +1,82 @@
 {
   "index_name": "wpgraphql",
   "start_urls": [
-    "https://docs.wpgraphql.com/"
+    {
+      "url": "https://www.wpgraphql.com/docs/",
+      "tags": ["docs"],
+      "selectors_key": "docs"
+    },
+    {
+      "url": "https://www.wpgraphql.com/extension-plugins/",
+      "tags": ["extensions"],
+      "selectors_key": "extensions"
+    },
+    {
+      "url": "https://www.wpgraphql.com/developer-reference/",
+      "tags": ["dev"],
+      "selectors_key": "dev"
+    },
+    {
+      "url": "https://www.wpgraphql.com/actions/",
+      "tags": ["dev"],
+      "selectors_key": "dev"
+    },
+    {
+      "url": "https://www.wpgraphql.com/filters/",
+      "tags": ["dev"],
+      "selectors_key": "dev"
+    },
+    {
+      "url": "https://www.wpgraphql.com/functions/",
+      "tags": ["dev"],
+      "selectors_key": "dev"
+    },
+    {
+      "url": "https://www.wpgraphql.com/recipes/",
+      "tags": ["dev"],
+      "selectors_key": "dev"
+    }
   ],
   "stop_urls": [],
+  "sitemap_urls": ["https://www.wpgraphql.com/sitemap.xml"],
   "selectors": {
-    "lvl0": {
-      "selector": "aside button.active",
-      "global": true,
-      "default_value": "Documentation"
+    "docs": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "text": ".content h3, .content p, .content li"
     },
-    "lvl1": ".header-wrapper h1",
-    "lvl2": ".content-wrapper h2",
-    "lvl3": ".content-wrapper h3",
-    "lvl4": ".content-wrapper h4",
-    "lvl5": ".content-wrapper h5",
-    "lvl6": ".content-wrapper h6",
-    "text": ".content-wrapper p, .content-wrapper li, .header-wrapper h3"
+    "extensions": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Extensions"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "text": ".content h3, .content p, .content li"
+    },
+    "dev": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Developer Reference"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "text": ".content h3, .content p, .content li"
+    }
   },
   "custom_settings": {
-    "separatorsToIndex": "_"
+    "separatorsToIndex": "_",
+    "custom_settings": {
+      "attributesForFaceting": ["tags"]
+    }
   },
-  "conversation_id": [
-    "773404346"
-  ],
-  "nb_hits": 1013
+  "conversation_id": ["773404346"],
+  "nb_hits": 1136
 }

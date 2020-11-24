@@ -1,0 +1,120 @@
+{
+  "index_name": "cgs4k",
+  "start_urls": [
+    {
+      "url": "https://cgs4k.nz/myprojects/statamic-analytics",
+      "selectors_key": "statamic",
+      "tags": [
+        "statamic"
+      ]
+    },
+    {
+      "url": "https://cgs4k.nz/myprojects/laravel-yourls-plugin",
+      "selectors_key": "yourls",
+      "tags": [
+        "yourls"
+      ]
+    },
+    {
+      "url": "https://cgs4k.nz/myprojects/statamic-commerce-addons",
+      "selectors_key": "commerce",
+      "tags": [
+        "commerce"
+      ]
+    },
+    {
+      "url": "https://cgs4k.nz/myprojects/laravel-postman",
+      "selectors_key": "postman",
+      "tags": [
+        "postman"
+      ]
+    },
+    {
+      "url": "https://cgs4k.nz/myprojects/laravel-api-controller",
+      "selectors_key": "controller",
+      "tags": [
+        "controller"
+      ]
+    },
+    {
+      "url": "https://cgs4k.nz/myprojects/q-cart",
+      "selectors_key": "cart",
+      "tags": [
+        "cart"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "statamic": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Statamic Analytics"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
+    },
+    "yourls": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Laravel YoURLS Plugin"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
+    },
+    "commerce": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Statamic Commerce Addons"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
+    },
+    "postman": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Laravel Postman"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
+    },
+    "controller": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Laravel Api Controller"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
+    },
+    "cart": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Q Cart"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
+    }
+  },
+  "conversation_id": [
+    "1323758775"
+  ],
+  "nb_hits": 155
+}

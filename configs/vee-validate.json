@@ -1,7 +1,7 @@
 {
   "index_name": "vee-validate",
   "start_urls": [
-    "https://logaretm.github.io/vee-validate/"
+    "https://vee-validate.logaretm.com/v3/"
   ],
   "stop_urls": [],
   "selectors": {

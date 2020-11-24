@@ -1,17 +1,31 @@
 {
   "index_name": "apache_pulsar",
   "start_urls": [
-    "https://pulsar.apache.org/docs/standalone",
-    "https://pulsar.apache.org/docs/"
+    {
+      "url": "https://pulsar.apache.org/docs/(?P<language>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "2.6.1",
+          "next",
+          "2.6.0",
+          "2.5.2",
+          "2.5.1",
+          "2.5.0",
+          "2.4.2",
+          "2.4.1",
+          "2.4.0",
+          "2.3.2",
+          "2.3.1",
+          "2.3.0",
+          "2.2.1",
+          "2.2.0"
+        ],
+        "language": ["en", "ja", "fr", "ko", "zh-CN", "zh-TW"]
+      }
+    }
   ],
-  "stop_urls": [
-    "-incubating",
-    "\\?",
-    "\\.html$"
-  ],
-  "sitemap_urls": [
-    "https://pulsar.apache.org/sitemap.xml"
-  ],
+  "stop_urls": ["-incubating", "\\?", "\\.html$"],
+  "sitemap_urls": ["https://pulsar.apache.org/sitemap.xml"],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
@@ -25,18 +39,11 @@
     "lvl4": ".post h4",
     "text": ".post article p, .post article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
-  "conversation_id": [
-    "622864222"
-  ],
+  "selectors_exclude": [".hash-link"],
+  "conversation_id": ["622864222"],
   "user_agent": "Googlebot",
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
+    "attributesForFaceting": ["language", "version"]
   },
   "nb_hits": 451500
 }

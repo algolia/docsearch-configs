@@ -6,27 +6,25 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".header .header__main .nav button.active",
+      "selector": ".docsearch-lvl0",
       "global": true
     },
-    "lvl1": "fds-drawer-content h1",
-    "lvl2": "fds-drawer-content h2",
-    "lvl3": "fds-drawer-content h3",
-    "lvl4": "fds-drawer-content h4",
-    "text": "fds-drawer-content p, fds-drawer-content li, fds-drawer-content tbody"
+    "lvl1": ".docsearch-content h1",
+    "lvl2": ".docsearch-content h2",
+    "lvl3": ".docsearch-content h3",
+    "lvl4": ".docsearch-content h4",
+    "text": ".docsearch-content p, .docsearch-content li, .docsearch-content tbody"
   },
   "selectors_exclude": [
     "app-live-editor",
     "app-code-editor",
-    "app-code-snippet:not([inline])",
-    ".search--hide",
+    ".docsearch-hide",
     ".hide",
-    ".invisible",
-    "[aria-hidden]='true'"
+    ".invisible"
   ],
   "js_render": true,
   "conversation_id": [
     "1178380234"
   ],
-  "nb_hits": 333
+  "nb_hits": 389
 }

@@ -1,7 +1,7 @@
 {
   "index_name": "pype",
   "start_urls": [
-    "https://pype.club/docs/"
+    "https://pype.club/features/"
   ],
   "sitemap_urls": [
     "https://pype.club/sitemap.xml"
@@ -10,7 +10,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -26,9 +26,20 @@
     ".hash-link"
   ],
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "conversation_id": [
