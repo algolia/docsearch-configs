@@ -1,6 +1,6 @@
 {
   "index_name": "kuzzle",
-  "start_url": [
+  "start_urls": [
     "https://docs.kuzzle.io/"
   ],
   "stop_urls": [],
