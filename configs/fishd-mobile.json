@@ -2,7 +2,7 @@
   "index_name": "fishd-mobile",
   "start_urls": [
     {
-      "url": "https://nsfi.github.io/fishd-mobile-site/#/(?P<lang>.*?)/",
+      "url": "https://nsfi.github.io/fishd-mobile-site/#/(?P<lang>.*?)/components/",
       "variables": {
         "lang": [
           "en-US",
@@ -11,22 +11,24 @@
       }
     }
   ],
-  "sitemap_urls": [
-    "https://hgkcdn.oss-cn-shanghai.aliyuncs.com/sitemap.xml"
+  "stop_urls": [
+    "/demo/"
   ],
   "selectors": {
-    "lvl0": ".markdown h1",
-    "lvl1": ".markdown h2",
-    "lvl2": ".markdown h3",
-    "lvl3": ".markdown h4",
-    "lvl4": ".markdown h5",
-    "lvl5": ".markdown h6",
+    "lvl0": {
+      "selector": ".fishd-menu-submenu-selected .misc-type",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
     "text": ".markdown p, .markdown li"
   },
   "js_render": true,
-  "js_wait": 2,
   "use_anchors": true,
-  "strip_chars": " .,;:#",
   "selectors_exclude": [
     ".md-owner"
   ],
