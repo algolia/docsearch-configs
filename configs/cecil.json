@@ -1,0 +1,27 @@
+{
+  "index_name": "cecil",
+  "start_urls": [
+    "https://cecil.app/documentation/"
+  ],
+  "sitemap_urls": [
+    "https://cecil.app/sitemap.xml"
+  ],
+  "scrape_start_urls": false,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown-body h1",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3",
+    "lvl4": ".markdown-body h4",
+    "lvl5": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "conversation_id": [
+    "1345919620"
+  ],
+  "nb_hits": 512
+}
