@@ -64,7 +64,7 @@
   "conversation_id": [
     "704914956"
   ],
-  "strip_chars": " .,;:#>",
+  "strip_chars": " .,;:#>'",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
