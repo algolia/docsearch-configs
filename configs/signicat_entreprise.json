@@ -1,5 +1,5 @@
 {
-  "index_name": "signicat",
+  "index_name": "signicat_entreprise",
   "start_urls": [
     "https://beta.developer.signicat.com/"
   ],
