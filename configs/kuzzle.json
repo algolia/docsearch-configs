@@ -5,14 +5,13 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "kuzzleVersion": "[data-algolia='major-version']",
+    "version": "[data-algolia='major-version']",
     "lvl0": "[data-algolia-lvl='0']",
     "lvl1": "[data-algolia-lvl='1']",
     "lvl2": "[data-algolia-lvl='2']",
     "lvl3": "[data-algolia-lvl='3']",
     "lvl4": "[data-algolia-lvl='4']",
     "text": ".content__default p, .content__default li",
-    "version": "[data-algolia='major-version']"
   },
   "selectors_exclude": [
     ".table-of-contents"
@@ -26,7 +25,7 @@
   "use_anchors": true,
   "custom_settings": {
     "attributesForFaceting": [
-      "kuzzleVersion"
+      "version"
     ],
     "synonyms": [
       [
