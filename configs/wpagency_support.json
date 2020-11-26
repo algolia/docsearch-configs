@@ -1,0 +1,28 @@
+{
+  "index_name": "wpagency_support",
+  "start_urls": [
+    "https://support.wpagency.io/"
+  ],
+  "sitemap_urls": [
+    "https://support.wpagency.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav .active-parent > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": ".post__entry p, .post__entry li"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "1238472152"
+  ],
+  "nb_hits": 607
+}

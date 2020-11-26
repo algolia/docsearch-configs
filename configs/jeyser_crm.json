@@ -20,7 +20,7 @@
     "text": ".docs__content p, .docs__content li"
   },
   "min_indexed_level": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "480628211"
   ],

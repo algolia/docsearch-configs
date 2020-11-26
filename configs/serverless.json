@@ -1,9 +1,12 @@
 {
   "index_name": "serverless",
   "start_urls": [
-    "https://serverless.com/framework/docs/"
+    "https://www.serverless.com/framework/docs/"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.serverless.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".breadcrumbs li:nth-child(3)",
@@ -23,5 +26,5 @@
   "conversation_id": [
     "254866750"
   ],
-  "nb_hits": 7267
+  "nb_hits": 7562
 }

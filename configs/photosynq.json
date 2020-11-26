@@ -1,10 +1,10 @@
 {
   "index_name": "photosynq",
   "start_urls": [
-    "https://help.photosynq.org"
+    "https://help.photosynq.com"
   ],
   "sitemap_urls": [
-    "https://help.photosynq.org/sitemap.xml"
+    "https://help.photosynq.com/sitemap.xml"
   ],
   "stop_urls": [
     "/downloads/"
@@ -31,7 +31,7 @@
       "lang"
     ]
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
     "884699607"

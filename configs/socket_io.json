@@ -3,6 +3,9 @@
   "start_urls": [
     "https://socket.io/docs/"
   ],
+  "sitemap_urls": [
+    "https://socket.io/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -19,5 +22,8 @@
   "min_indexed_level": 1,
   "js_render": true,
   "strip_chars": " .,;:#",
-  "nb_hits": 674
+  "nb_hits": 3000,
+  "custom_settings": {
+    "attributesForFaceting": ["language", "version"]
+  }
 }

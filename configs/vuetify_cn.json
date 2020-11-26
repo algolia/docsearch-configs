@@ -7,7 +7,7 @@
     "/store/"
   ],
   "selectors": {
-    "lvl0": ".layout h1, .comp-name",
+    "lvl0": ".layout h1",
     "lvl1": ".layout h2",
     "lvl2": ".layout h3",
     "lvl3": ".layout h4",
@@ -24,7 +24,7 @@
       "lang"
     ]
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "1217967450"
   ],

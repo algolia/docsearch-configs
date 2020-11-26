@@ -3,9 +3,6 @@
   "start_urls": [
     "https://cloud.kili-technology.com/docs/"
   ],
-  "sitemap_urls": [
-    "https://cloud.kili-technology.com/sitemap.xml"
-  ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -34,5 +31,5 @@
   "conversation_id": [
     "1206038835"
   ],
-  "nb_hits": 1896
+  "nb_hits": 2141
 }

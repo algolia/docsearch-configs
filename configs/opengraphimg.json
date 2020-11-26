@@ -1,0 +1,20 @@
+{
+  "index_name": "opengraphimg",
+  "start_urls": ["https://opengraphimg.com/"],
+  "sitemap_urls": ["https://opengraphimg.com/sitemap.xml"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentantion"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "conversation_id": ["1318659118"],
+  "nb_hits": 100
+}

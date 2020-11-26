@@ -2,6 +2,18 @@
   "index_name": "collab",
   "start_urls": [
     {
+      "url": "https://docs.collab.net/teamforge203/",
+      "tags": [
+        "teamforge203"
+      ]
+    },    
+    {
+      "url": "https://docs.collab.net/teamforge202/",
+      "tags": [
+        "teamforge202"
+      ]
+    },
+    {
       "url": "https://docs.collab.net/teamforge201/",
       "tags": [
         "teamforge201"
@@ -81,12 +93,12 @@
     "text": ".post-content p, .post-content li, .post-content .summary"
   },
   "min_indexed_level": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "#toc"
   ],
   "conversation_id": [
     "555093088"
   ],
-  "nb_hits": 166197
+  "nb_hits": 188052
 }

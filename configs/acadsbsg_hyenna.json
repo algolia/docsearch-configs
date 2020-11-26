@@ -1,0 +1,41 @@
+{
+  "index_name": "acadsbsg_hyenna",
+  "start_urls": [
+    "https://dev.acadsbsg.com.au/help/"
+  ],
+  "sitemap_urls": [
+    "https://dev.acadsbsg.com.au/help/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5, article td:first-child",
+    "lvl5": "article h6",
+    "text": "article p, article li, article td:last-child"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "conversation_id": [
+    "1268599668"
+  ],
+  "nb_hits": 862
+}

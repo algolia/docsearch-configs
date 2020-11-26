@@ -8,17 +8,24 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".docSearch-lvl0",
+    "lvl0": {
+      "selector": "//aside//*[@aria-current]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": ".docSearch-lvl1",
-    "lvl2": ".docSearch-content h3",
+    "lvl2": ".docSearch-content h3, .docSearch-content h1:not(:first-child), .docSearch-content h2",
     "lvl3": ".docSearch-content h4",
     "lvl4": ".docSearch-content h5",
     "text": ".docSearch-content p, .docSearch-content li"
   },
-  "min_indexed_level": 2,
+  "custom_settings": {
+    "separatorsToIndex": "@_"
+  },
   "only_content_level": true,
   "conversation_id": [
     "500460446"
   ],
-  "nb_hits": 274
+  "nb_hits": 414
 }

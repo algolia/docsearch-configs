@@ -21,6 +21,7 @@
   ],
   "stop_urls": [
     "http://docs.artec-group.com/as/15/en/$",
+    "http://docs.artec-group.com/as/15/ru/$",
     "http://docs.artec-group.com/as/14/de/$",
     "http://docs.artec-group.com/as/14/ru/$",
     "http://docs.artec-group.com/as/14/en/$",
@@ -47,7 +48,7 @@
     "text": ".document p, .document li, .document td:not(:first-child)"
   },
   "min_indexed_level": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "349866832"
   ],

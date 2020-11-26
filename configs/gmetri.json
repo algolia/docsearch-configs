@@ -1,10 +1,10 @@
 {
   "index_name": "gmetri",
   "start_urls": [
-    "https://gmetri.com/docs/"
+    "https://docs.gmetri.com/"
   ],
   "sitemap_urls": [
-    "https://gmetri.com/sitemap.xml"
+    "https://docs.gmetri.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

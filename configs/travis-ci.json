@@ -38,7 +38,7 @@
       "text": "#main p, #main li"
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     ".toc"
   ],

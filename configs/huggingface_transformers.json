@@ -1,0 +1,32 @@
+{
+  "index_name": "huggingface_transformers",
+  "start_urls": [
+    "https://huggingface.co/transformers/"
+  ],
+  "stop_urls": [
+    "/_"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//ul[contains(@class,'current')]/preceding::span[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[itemprop='articleBody'] > .section h1",
+    "lvl2": "[itemprop='articleBody'] > .section h2",
+    "lvl3": "[itemprop='articleBody'] > .section h3",
+    "lvl4": "[itemprop='articleBody'] > .section h4",
+    "lvl5": "[itemprop='articleBody'] > .section h5",
+    "lvl6": "[itemprop='articleBody'] > .section h6",
+    "text": "[itemprop='articleBody'] > .section p, [itemprop='articleBody'] > .section li"
+  },
+  "scrape_start_urls": false,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1266019945"
+  ],
+  "nb_hits": 19968
+}

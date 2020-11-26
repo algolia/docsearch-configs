@@ -1,0 +1,24 @@
+{
+  "index_name": "baslerweb",
+  "start_urls": ["https://docs.baslerweb.com/"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".md-tabs__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".md-content h1",
+    "lvl2": ".md-content h2",
+    "lvl3": ".md-content h3",
+    "lvl4": ".md-content h4",
+    "lvl5": ".md-content h5",
+    "lvl6": ".md-content h6",
+    "text": ".md-content p, .md-content li"
+  },
+  "strip_chars": " .,;:#",
+  "sitemap_urls": ["https://docs.baslerweb.com/sitemap.xml"],
+  "min_indexed_level": 0,
+  "conversation_id": ["1248212166"],
+  "nb_hits": 34831
+}

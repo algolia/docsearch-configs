@@ -6,6 +6,7 @@
   "stop_urls": [
     "/client/"
   ],
+  "sitemap_urls": ["http://docs.rockset.com/sitemap.xml"],
   "selectors": {
     "lvl0": ".center-pane-internal h1",
     "lvl1": ".center-pane-internal h2",

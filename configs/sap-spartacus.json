@@ -1,11 +1,24 @@
 {
   "index_name": "sap-spartacus",
   "start_urls": [
-    "https://sap.github.io/spartacus-docs-v1/"
+    {
+      "url": "https://gladius-mtl.github.io/spartacus-docs/3.x/",
+        "tags": ["3.x"]
+    },
+    {
+      "url": "https://gladius-mtl.github.io/spartacus-docs/1.x/",
+        "tags": ["1.x"]
+    },
+    {
+      "url": "https://gladius-mtl.github.io/spartacus-docs/",
+        "tags": ["latest"]
+    }
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://sap.github.io/spartacus-docs-v1/sitemap.xml"
+    "https://gladius-mtl.github.io/spartacus-docs/sitemap.xml",
+    "https://gladius-mtl.github.io/spartacus-docs/1.x/sitemap.xml",
+    "https://gladius-mtl.github.io/spartacus-docs/3.x/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".archive h1",
@@ -21,3 +34,4 @@
   ],
   "nb_hits": 3693
 }
+

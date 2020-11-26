@@ -4,7 +4,9 @@
     "https://react-hook-form.com/"
   ],
   "stop_urls": [],
-  "sitemap_urls":["https://react-hook-form.com/sitemap.xml"],
+  "sitemap_urls": [
+    "https://react-hook-form.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": "h1#main",
     "lvl1": "main h2",
@@ -17,5 +19,5 @@
   "conversation_id": [
     "1053773998"
   ],
-  "nb_hits": 441
+  "nb_hits": 993
 }

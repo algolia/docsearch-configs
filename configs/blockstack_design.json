@@ -13,7 +13,7 @@
     "lvl5": "[class*='docs-layout'] h6",
     "text": "[class*='docs-layout'] p, [class*='docs-layout'] li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "1220312148"
   ],

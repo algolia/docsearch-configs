@@ -2,14 +2,14 @@
   "index_name": "ktorm",
   "start_urls": [
     {
-      "url": "https://ktorm.liuwj.me/api-docs/",
+      "url": "https://www.ktorm.org/api-docs/",
       "tags": [
         "api-docs"
       ],
       "selectors_key": "api-docs"
     },
     {
-      "url": "https://ktorm.liuwj.me/",
+      "url": "https://www.ktorm.org/",
       "tags": [
         "doc"
       ]
@@ -63,7 +63,7 @@
     ],
     "separatorsToIndex": "_"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "#support-footer-container",
     ".api-docs > p:first-child"

@@ -9,6 +9,14 @@
           "zh-CN"
         ]
       }
+    },
+    {
+      "url": "https://nsfi.github.io/fishd-mobile-site/#/zh-CN/components/quickStart",
+      "extra_attributes": {
+        "lang": [
+          "zh-CN"
+        ]
+      }
     }
   ],
   "stop_urls": [
@@ -35,5 +43,5 @@
   "conversation_id": [
     "1169426522"
   ],
-  "nb_hits": 340
+  "nb_hits": 353
 }

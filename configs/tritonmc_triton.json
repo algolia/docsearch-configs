@@ -1,7 +1,7 @@
 {
   "index_name": "tritonmc_triton",
   "start_urls": [
-    "https://triton.rexcantor64.com/documentation"
+    "https://triton.rexcantor64.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -35,6 +35,6 @@
   "conversation_id": [
     "1201842544"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 574
+  "scrape_start_urls": false,
+  "nb_hits": 608
 }

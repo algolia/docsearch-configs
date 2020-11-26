@@ -1,7 +1,10 @@
 {
   "index_name": "assemblyscript",
   "start_urls": [
-    "https://assemblyscript.org/"
+    "https://www.assemblyscript.org/"
+  ],
+  "sitemap_urls": [
+    "https://www.assemblyscript.org/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,7 +25,7 @@
       "global": true
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [

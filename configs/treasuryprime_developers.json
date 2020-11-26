@@ -1,0 +1,23 @@
+{
+  "index_name": "treasuryprime_developers",
+  "start_urls": [
+    "https://developers.treasuryprime.com/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "main h2, main h3",
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h4",
+    "lvl2": "main h5",
+    "lvl3": "main h6",
+    "text": "main p, main li"
+  },
+  "js_wait": 1,
+  "js_render": true,
+  "conversation_id": [
+    "1260341405"
+  ],
+  "nb_hits": 705
+}

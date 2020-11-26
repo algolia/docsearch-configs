@@ -1,0 +1,21 @@
+{
+  "index_name": "azure",
+  "start_urls": [
+    "https://azure.github.io/azureml-examples/docs/cheatsheet/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Menu"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
+  },
+  "nb_hits": 435
+}

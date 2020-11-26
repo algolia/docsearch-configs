@@ -3,6 +3,15 @@
   "start_urls": [
     {
       "url": "https://tailwindcss.com/",
+      "selectors_key": "v2",
+      "extra_attributes": {
+        "version": [
+          "v2"
+        ]
+      }
+    },
+    {
+      "url": "https://v1.tailwindcss.com/",
       "selectors_key": "v1",
       "extra_attributes": {
         "version": [
@@ -11,7 +20,15 @@
       }
     },
     {
-      "url": "https://v0.tailwindcss.com/docs",
+      "url": "https://tailwindcss-v0.netlify.app/docs/",
+      "extra_attributes": {
+        "version": [
+          "v0"
+        ]
+      }
+    },
+    {
+      "url": "https://tailwindcss-v0.netlify.app//docs/",
       "extra_attributes": {
         "version": [
           "v0"
@@ -45,9 +62,23 @@
       "lvl1": ".markdown h1",
       "lvl2": ".markdown h2",
       "lvl3": ".markdown h3",
-      "lvl4": ".markdown h4",
+      "lvl4": ".markdown h4, .markdown td:first-child",
       "lvl5": ".markdown h5",
-      "text": ".markdown > p, .markdown > ul li, .markdown td:first-child, .markdown .text-gray-600"
+      "text": ".markdown > p, .markdown > ul li, .markdown td:not(:first-child), .markdown .text-gray-600"
+    },
+    "v2": {
+      "lvl0": {
+        "selector": "//nav[contains(@id, 'nav')]//*[contains(@class, 'opacity-50')][1]/preceding::h5[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "#content-wrapper h1",
+      "lvl2": "#content-wrapper h2",
+      "lvl3": "#content-wrapper h3",
+      "lvl4": "#content-wrapper h4, #content-wrapper td:first-child",
+      "lvl5": "#content-wrapper h5",
+      "text": "#content-wrapper > p, #content-wrapper > ul li, #content-wrapper td:not(:first-child), #content-wrapper .text-gray-600"
     }
   },
   "selectors_exclude": [
@@ -58,12 +89,21 @@
   "custom_settings": {
     "attributesForFaceting": [
       "version",
+      "type",
       "tags"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ],
     "separatorsToIndex": "@_"
   },
   "conversation_id": [
     "459164857"
   ],
-  "nb_hits": 6249
+  "nb_hits": 11019
 }

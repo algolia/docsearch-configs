@@ -1,27 +1,57 @@
 {
   "index_name": "react",
   "start_urls": [
-    "https://reactjs.org/docs/getting-started.html",
-    "https://reactjs.org/docs/.*"
+    {
+      "url": "https://reactjs.org/docs/faq",
+      "selectors_key": "faq"
+    },
+    "https://reactjs.org/docs/"
   ],
   "stop_urls": [
-    "docs/concurrent-mode"
+    "https://reactjs.org/docs/concurrent-mode"
   ],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "text": "article p, article li"
+    "default": {
+      "lvl0": {
+        "selector": "nav [aria-expanded=true]",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
+    },
+    "faq": {
+      "lvl0": {
+        "selector": "nav [aria-expanded=true]",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h3",
+      "lvl3": "article h4",
+      "lvl4": "article h5",
+      "text": "article p, article li"
+    }
   },
-  "selectors_exclude": [
-    ".hash-link",
-    ".edit-page-link"
-  ],
-  "min_indexed_level": 1,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "conversation_id": [
     "178040846"
   ],
-  "nb_hits": 3749
+  "nb_hits": 3814
 }
