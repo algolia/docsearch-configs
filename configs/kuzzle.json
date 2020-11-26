@@ -11,7 +11,7 @@
     "lvl2": "[data-algolia-lvl='2']",
     "lvl3": "[data-algolia-lvl='3']",
     "lvl4": "[data-algolia-lvl='4']",
-    "text": ".content__default p, .content__default li",
+    "text": ".content__default p, .content__default li"
   },
   "selectors_exclude": [
     ".table-of-contents"
