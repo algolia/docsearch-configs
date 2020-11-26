@@ -1,6 +1,8 @@
 {
-  "index_name": "redkubes_otomi",
-  "start_urls": ["https://redkubes.github.io/otomi/"],
+  "index_name": "ydkjs-documentation",
+  "start_urls": [
+    "https://ydkjs.netlify.app/docs/"
+  ],
   "stop_urls": [],
   "selectors": {
     "text": "article p, article li",
@@ -16,12 +18,18 @@
       "default_value": "Documentation"
     }
   },
-  "sitemap_urls": ["https://redkubes.github.io/otomi/sitemap.xml"],
+  "sitemap_urls": [
+    "https://ydkjs.netlify.app/docs/sitemap.xml"
+  ],
   "sitemap_alternate_links": true,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["language", "version", "type"],
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type"
+    ],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -32,6 +40,8 @@
     ]
   },
   "min_indexed_level": 0,
-  "conversation_id": ["1338955469"],
-  "nb_hits": 352
+  "conversation_id": [
+    "1346095667"
+  ],
+  "nb_hits": 627
 }

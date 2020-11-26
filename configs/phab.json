@@ -1,21 +1,21 @@
 {
-  "index_name": "workato",
+  "index_name": "phab",
   "start_urls": [
-    "https://docs.workato.com/"
+    "http://docs.phab.io"
   ],
   "stop_urls": [],
   "selectors": {
-    "text": ".theme-default-content p, .theme-default-content li",
     "lvl0": {
       "selector": "p.sidebar-heading.open",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".theme-default-content h2",
-    "lvl2": ".theme-default-content h3",
-    "lvl3": ".theme-default-content h4",
-    "lvl4": ".theme-default-content h5",
-    "lvl5": ".theme-default-content h6",
+    "lvl1": ".theme-default-content h1",
+    "lvl2": ".theme-default-content h2",
+    "lvl3": ".theme-default-content h3",
+    "lvl4": ".theme-default-content h4",
+    "lvl5": ".theme-default-content h5",
+    "text": ".theme-default-content p, .theme-default-content li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -26,16 +26,15 @@
   "selectors_exclude": [
     ".table-of-contents"
   ],
-  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
     ]
   },
-  "min_indexed_level": 0,
   "conversation_id": [
-    "1311384035"
+    "1347454248"
   ],
-  "nb_hits": 15159
+  "scrape_start_urls": false,
+  "nb_hits": 1466
 }
