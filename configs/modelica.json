@@ -176,7 +176,7 @@
     "lvl3": "h4",
     "lvl4": "h5",
     "lvl5": "h6",
-    "text": "p, li"
+    "text": "p, li, blockquote, dd, div.note, div.p, div.pre, dt, pre, td, th, tr" 
   },
   "nb_hits": 439469
 }
