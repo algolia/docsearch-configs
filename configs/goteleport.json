@@ -1,0 +1,26 @@
+{
+  "index_name": "goteleport",
+  "start_urls": [
+    "https://goteleport.com/teleport/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://goteleport.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#docs-content h1",
+    "lvl2": "#docs-content h2",
+    "lvl3": "#docs-content h3",
+    "lvl4": "#docs-content h4",
+    "lvl5": "#docs-content h5",
+    "text": "#docs-content p, #docs-content li"
+  },
+  "conversation_id": [
+    "1348066577"
+  ],
+  "nb_hits": 3641
+}
