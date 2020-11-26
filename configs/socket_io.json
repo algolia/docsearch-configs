@@ -1,11 +1,7 @@
 {
   "index_name": "socket_io",
-  "start_urls": [
-    "https://socket.io/docs/"
-  ],
-  "sitemap_urls": [
-    "https://socket.io/sitemap.xml"
-  ],
+  "start_urls": ["https://socket.io/docs/"],
+  "sitemap_urls": ["https://socket.io/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
