@@ -1,15 +1,15 @@
 {
   "index_name": "lambdatest",
   "start_urls": [
-    "http://docs.lambdatest.com/docs/",
-    "http://docs.lambdatest.com/docs/real-time-browser-testing"
+    "https://www.lambdatest.com/support/docs/"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.lambdatest.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
+      "selector": "",
       "default_value": "Documentation"
     },
     "lvl1": ".post h1",
@@ -30,5 +30,5 @@
   "conversation_id": [
     "672909470"
   ],
-  "nb_hits": 52
+  "nb_hits": 1103
 }
