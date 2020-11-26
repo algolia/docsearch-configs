@@ -13,7 +13,7 @@
     "lvl2": "div.flex div article.prose h2",
     "lvl3": "div.flex div article.prose h3",
     "lvl4": "div.flex div article.prose h4",
-    "text": "div.flex div article.prose p, div.flex div article.prose table, div.flex div article.prose li",
+    "text": "div.flex div article.prose p, div.flex div article.prose table, div.flex div article.prose li"
   },
   "conversation_id": [
     "1337342268"
