@@ -1,7 +1,10 @@
 {
   "index_name": "yiddishe-kop",
   "start_urls": [
-    "https://laravel-commerce.yiddishe-kop.com"
+    "https://laravel-commerce.yiddishe-kop.com",
+    "extra_attributes": {
+      "language": ["he"]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,7 +17,16 @@
     "lvl3": ".nuxt-content h3",
     "lvl4": ".nuxt-content h4",
     "lvl5": ".nuxt-content h5",
-    "text": ".nuxt-content p, .nuxt-content li"
+    "text": ".nuxt-content p, .nuxt-content li",
+    "language": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["language"]
   },
   "conversation_id": [
     "1337342268"
