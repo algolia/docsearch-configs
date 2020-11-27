@@ -1,9 +1,11 @@
 {
   "index_name": "yiddishe-kop",
   "start_urls": [
-    "https://laravel-commerce.yiddishe-kop.com",
-    "extra_attributes": {
-      "language": ["he"]
+    {
+      "url": "https://laravel-commerce.yiddishe-kop.com",
+      "extra_attributes": {
+        "language": ["he"]
+      }
     }
   ],
   "stop_urls": [],
@@ -12,12 +14,12 @@
       "selector": "",
       "default_value": "Documentation"
     },
-    "lvl1": ".nuxt-content h1",
-    "lvl2": ".nuxt-content h2",
-    "lvl3": ".nuxt-content h3",
-    "lvl4": ".nuxt-content h4",
-    "lvl5": ".nuxt-content h5",
-    "text": ".nuxt-content p, .nuxt-content li",
+    "lvl1": "div.flex div article.prose h1",
+    "lvl2": "div.flex div article.prose h2",
+    "lvl3": "div.flex div article.prose h3",
+    "lvl4": "div.flex div article.prose h4",
+    "lvl5": "div.flex div article.prose h5",
+    "text": "div.flex div article.prose p, div.flex div article.prose table, div.flex div article.prose li"
     "language": {
       "selector": "/html/@lang",
       "type": "xpath",
