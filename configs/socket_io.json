@@ -1,12 +1,22 @@
 {
   "index_name": "socket_io",
   "start_urls": [
-    "https://socket.io/docs/"
+    {
+      "url": "https://socket.io/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v2",
+          "v3"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://socket.io/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    ".html"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "article h1",
@@ -20,10 +30,14 @@
     "text": "article p, article li"
   },
   "min_indexed_level": 1,
+  "js_wait": 1,
   "js_render": true,
   "strip_chars": " .,;:#",
-  "nb_hits": 3000,
+  "nb_hits": 1911,
   "custom_settings": {
-    "attributesForFaceting": ["language", "version"]
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
   }
 }
