@@ -19,7 +19,7 @@
     "lvl3": "div.flex div article.prose h3",
     "lvl4": "div.flex div article.prose h4",
     "lvl5": "div.flex div article.prose h5",
-    "text": "div.flex div article.prose p, div.flex div article.prose table, div.flex div article.prose li"
+    "text": "div.flex div article.prose p, div.flex div article.prose table, div.flex div article.prose li",
     "language": {
       "selector": "/html/@lang",
       "type": "xpath",
