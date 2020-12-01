@@ -3,58 +3,42 @@
   "start_urls": [
     {
       "url": "https://www.wpgraphql.com/docs/",
-      "tags": [
-        "docs"
-      ],
+      "tags": ["docs"],
       "selectors_key": "docs"
     },
     {
       "url": "https://www.wpgraphql.com/extension-plugins/",
-      "tags": [
-        "extensions"
-      ],
+      "tags": ["extensions"],
       "selectors_key": "extensions"
     },
     {
       "url": "https://www.wpgraphql.com/developer-reference/",
-      "tags": [
-        "dev"
-      ],
+      "tags": ["dev"],
       "selectors_key": "dev"
     },
     {
       "url": "https://www.wpgraphql.com/actions/",
-      "tags": [
-        "dev"
-      ],
+      "tags": ["dev"],
       "selectors_key": "dev"
     },
     {
       "url": "https://www.wpgraphql.com/filters/",
-      "tags": [
-        "dev"
-      ],
+      "tags": ["dev"],
       "selectors_key": "dev"
     },
     {
       "url": "https://www.wpgraphql.com/functions/",
-      "tags": [
-        "dev"
-      ],
+      "tags": ["dev"],
       "selectors_key": "dev"
     },
     {
       "url": "https://www.wpgraphql.com/recipes/",
-      "tags": [
-        "dev"
-      ],
+      "tags": ["dev"],
       "selectors_key": "dev"
     }
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://www.wpgraphql.com/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://www.wpgraphql.com/sitemap.xml"],
   "selectors": {
     "docs": {
       "lvl0": {
@@ -87,14 +71,10 @@
       "text": ".content h3, .content p, .content li"
     }
   },
-  "separatorsToIndex": "_",
   "custom_settings": {
-    "attributesForFaceting": [
-      "tags"
-    ]
+    "separatorsToIndex": "_",
+    "attributesForFaceting": ["tags"]
   },
-  "conversation_id": [
-    "773404346"
-  ],
+  "conversation_id": ["773404346"],
   "nb_hits": 3875
 }
