@@ -11,7 +11,11 @@
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": "article h1",
+    "lvl0": {
+      "selector": ".menu__link[class*='active_']",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": "article h2",
     "lvl2": "article h3",
     "lvl3": "article h4",
@@ -24,5 +28,5 @@
   "conversation_id": [
     "1129563849"
   ],
-  "nb_hits": 187
+  "nb_hits": 668
 }
