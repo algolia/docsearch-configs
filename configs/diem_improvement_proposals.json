@@ -2,6 +2,7 @@
   "index_name": "diem_improvement_proposals",
   "start_urls": [
     "https://dip.diem.com/",
+    "https://dip.diem.com/overview",
     "https://dip.diem.com/all-dips"
   ],
   "sitemap_urls": [
