@@ -1,8 +1,6 @@
 {
   "index_name": "shlink",
-  "start_urls": [
-    "https://shlink.io/documentation"
-  ],
+  "start_urls": ["https://shlink.io/documentation"],
   "stop_urls": [],
   "selectors": {
     "text": ".docs-article p, .docs-article li",
@@ -12,15 +10,8 @@
     "lvl3": ".docs-article h5",
     "lvl4": ".docs-article h6"
   },
-  "sitemap_urls": [
-    "https://shlink.io/sitemap.xml"
-  ],
-  "selectors_exlude": [
-    ".docs-article > nav"
-  ],
+  "sitemap_urls": ["https://shlink.io/sitemap.xml"],
   "js_render": true,
-  "conversation_id": [
-    "1092947190"
-  ],
+  "conversation_id": ["1092947190"],
   "nb_hits": 512
 }
