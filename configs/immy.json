@@ -1,12 +1,6 @@
 {
   "index_name": "immy",
-  "start_urls": [
-    "https://docs.immy.bot/#/immy-commands",
-    "https://docs.immy.bot/#/scripts"
-  ],
-  "stop_urls": [
-    "\\?id="
-  ],
+  "sitemap_urls": ["https://docs.immy.bot/sitemap.xml"],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
