@@ -1,10 +1,11 @@
 {
   "index_name": "diem_developer_website",
   "start_urls": [
-    "https://developers.diem.com/docs/"
+    "https://developers.diem.com/",
+    "https://developers.diem.com/docs/welcome-to-diem"
   ],
   "sitemap_urls": [
-    "https://diem.developer.com/sitemap.xml"
+    "https://developers.diem.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
