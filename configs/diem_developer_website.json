@@ -1,8 +1,7 @@
 {
   "index_name": "diem_developer_website",
   "start_urls": [
-    "https://diem.developer.com/docs/",
-    "https://diem.developer.com/docs/welcome-to-libra-v2"
+    "https://developers.diem.com/docs/"
   ],
   "sitemap_urls": [
     "https://diem.developer.com/sitemap.xml"
