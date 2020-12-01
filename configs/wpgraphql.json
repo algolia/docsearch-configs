@@ -73,10 +73,8 @@
   },
   "custom_settings": {
     "separatorsToIndex": "_",
-    "custom_settings": {
-      "attributesForFaceting": ["tags"]
-    }
+    "attributesForFaceting": ["tags"]
   },
   "conversation_id": ["773404346"],
-  "nb_hits": 1136
+  "nb_hits": 3875
 }
