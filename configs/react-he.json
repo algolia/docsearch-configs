@@ -1,0 +1,21 @@
+{
+  "index_name": "react-he",
+  "start_urls": [
+    "https://he.reactjs.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".css-1oayv7j p, .css-1oayv7j li",
+    "lvl0": ".css-1oayv7j h1",
+    "lvl1": ".css-1oayv7j h2",
+    "lvl2": ".css-1oayv7j h3",
+    "lvl3": ".css-1oayv7j h4",
+    "lvl4": ".css-1oayv7j h5",
+    "lvl5": ".css-1oayv7j h6"
+  },
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1354154321"
+  ],
+  "nb_hits": 12069
+}
