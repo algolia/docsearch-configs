@@ -1,43 +1,47 @@
 {
   "index_name": "jest",
   "start_urls": [
-    "https://jestjs.io/docs/"
+    "https://jest-v2.netlify.app/"
   ],
-  "stop_urls": [
-    "/help",
-    "/videos"
-  ],
-  "sitemap_urls": [
-    "https://jestjs.io/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
+  "stop_urls": [],
   "selectors": {
+    "text": "article p, article li",
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
+      "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
       "default_value": "Documentation"
-    },
-    "lvl1": ".post header h1",
-    "lvl2": ".post article h2",
-    "lvl3": ".post article h3",
-    "lvl4": ".post article h4",
-    "lvl5": ".post article h5",
-    "text": ".post article p, .post article li"
+    }
   },
-  "selectors_exclude": [
-    ".hash-link",
-    ".edit-page-link"
+  "sitemap_urls": [
+    "https://jest-v2.netlify.app/sitemap.xml"
   ],
-  "min_indexed_level": 2,
-  "conversation_id": [
-    "178040846"
-  ],
+  "sitemap_alternate_links": true,
+  "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
-  "nb_hits": 102626
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1355494505"
+  ],
+  "nb_hits": 2293
 }
