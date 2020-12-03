@@ -30,6 +30,9 @@
   },
   "js_render": true,
   "use_anchors": true,
+  "custom_settings": {
+    "attributesForFaceting": ["lang", "version"]
+  },
   "conversation_id": [
     "854645757"
   ],
