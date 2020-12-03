@@ -1,0 +1,27 @@
+{
+  "index_name": "scala-sbt",
+  "start_urls": [
+    {
+      "url": "https://www.scala-sbt.org/1.x/docs(?P<lang>.*?)",
+      "variables": {
+        "lang": ["/", "/ja/", "/es/"]
+      }
+    }
+  ],
+  "sitemap_urls": ["https://www.scala-sbt.org/sitemap.xml"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".contents h1",
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3",
+    "lvl3": ".contents h4",
+    "lvl4": ".contents h5",
+    "lvl5": ".contents h6",
+    "text": ".contents p, .contents li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["lang"]
+  },
+  "conversation_id": ["1350975790"],
+  "nb_hits": 18433
+}
