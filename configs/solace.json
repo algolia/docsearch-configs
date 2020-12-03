@@ -102,11 +102,12 @@
       ]
     },
     {
-      "url": "https://cloud.solace.com/learn/",
-      "selectors_key": "learning_center",
-      "tags": [
-        "learning_center"
-      ]
+      "url": "https://docs.solace.com/Security/Security-Solace.htm",
+      "page_rank": 9
+    },
+    {
+      "url": "https://docs.solace.com/MQTT-311-Prtl-Conformance-Spec/Security.htm",
+      "page_rank": 1
     },
     "https://docs.solace.com/Solace-PubSub-Messaging-APIs/API-Developer-Guide/Java-API-Best-Practices.htm"
   ],
