@@ -55,10 +55,10 @@
       "text": "article p, article li"
     },
     "antora-pages": {
-      "lvl0": "div.toolbar ul li:nth-child(1) a",
-      "lvl1": "div.toolbar ul li:nth-child(2) a",
-      "lvl2": "div.toolbar ul li:nth-child(3) a",
-      "lvl3": "div.toolbar ul li:nth-child(4) a",
+      "lvl0": ".breadcrumbs ul li:nth-child(1) a",
+      "lvl1": ".breadcrumbs ul li:nth-child(2) a",
+      "lvl2": ".breadcrumbs ul li:nth-child(3) a",
+      "lvl3": ".breadcrumbs ul li:nth-child(4) a",
       "lvl4": "article h2",
       "lvl5": "article h3",
       "lvl6": {
