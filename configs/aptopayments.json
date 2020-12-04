@@ -1,7 +1,7 @@
 {
   "index_name": "aptopayments",
   "start_urls": [
-    "https://docs.aptopayments.com/docs/"
+    "https://docs.aptopayments.com/docs/welcome/"
   ],
   "sitemap_urls": [
     "https://docs.aptopayments.com/sitemap.xml"
