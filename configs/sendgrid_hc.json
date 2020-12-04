@@ -5,12 +5,12 @@
   "start_urls": [
     {
       "url": "https://sendgrid.com/docs/",
-      "page_rank": 6
+      "page_rank": 25
     },
     {
       "url": "https://sendgrid.com/docs/glossary/",
       "tags": ["glossary"],
-      "page_rank": 5
+      "page_rank": 10
     },
     {
       "url": "https://sendgrid.api-docs.io/v3.0",
