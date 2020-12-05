@@ -17,7 +17,7 @@
     "lvl4": "[class*='docContent'] h4",
     "lvl5": "[class*='docContent'] h5",
     "lvl6": "[class*='docContent'] h6",
-    "text": "[class*='docContent'] p, [class*='docContent'] li"
+    "text": "[class*='docContent'] p, [class*='docContent'] li, [class*='docContent'] table, [class*='docContent'] code"
   },
   "selectors_exclude": [
     "[class*='editPage']"
