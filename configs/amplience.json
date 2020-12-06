@@ -1,0 +1,25 @@
+{
+  "index_name": "amplience",
+  "start_urls": [
+    "https://amplience.com/docs/"
+  ],
+  "stop_urls": [
+    "/releasenotes/"
+  ],
+  "sitemap_urls": [
+    "https://amplience.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "1354307626"
+  ],
+  "nb_hits": 8369
+}

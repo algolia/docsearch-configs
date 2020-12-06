@@ -1,7 +1,7 @@
 {
   "index_name": "amido_stacks",
   "start_urls": [
-    "https://amido.github.io/stacks/docs/"
+    "https://stacks.amido.com/docs/"
   ],
   "sitemap_urls": [
     "https://amido.github.io/stacks/sitemap.xml"

@@ -1,15 +1,15 @@
 {
   "index_name": "apache_spark",
   "start_urls": [
-    "https://spark.apache.org/docs/latest/"
+    {
+      "url": "https://spark.apache.org/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": ["latest"]
+      }
+    }
   ],
-  "stop_urls": [
-    "/api",
-    "/index.html"
-  ],
-  "sitemap_urls": [
-    "https://spark.apache.org/sitemap.xml"
-  ],
+  "stop_urls": ["/api", "/index.html"],
+  "sitemap_urls": ["https://spark.apache.org/sitemap.xml"],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -22,8 +22,9 @@
     "lvl5": ".container-wrapper h4",
     "text": ".container-wrapper p, .container-wrapper li"
   },
-  "conversation_id": [
-    "1327502761"
-  ],
+  "custom_settings": {
+    "attributesForFaceting": ["version"]
+  },
+  "conversation_id": ["1327502761"],
   "nb_hits": 12771
 }

@@ -4,13 +4,7 @@
     {
       "url": "https://www.ory.sh/docs",
       "tags": [
-        "cloud"
-      ]
-    },
-    {
-      "url": "https://www.ory.sh/docs/ecosystem",
-      "tags": [
-        "ecosystem"
+        "docs"
       ]
     },
     {
@@ -53,25 +47,40 @@
     "https://www.ory.sh/.*?/docs/next"
   ],
   "selectors": {
-    "lvl0": "header h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+
+    "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li, article code"
   },
   "conversation_id": [
     "704914956"
   ],
-  "strip_chars": " .,;:#",
-  "js_render": true,
+  "strip_chars": " .,;:#>'",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "tags",
+      "docusaurus_tag",
+      "language",
       "version",
-      "language"
+      "tags",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "nb_hits": 20773

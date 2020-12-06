@@ -40,7 +40,7 @@
         "global": true,
         "default_value": "Developer Documentation"
       },
-      "lvl1": ".active > a.Lvl1",
+      "lvl1": ".post h1",
       "lvl2": ".post h2, .list h2",
       "lvl3": ".post h3, .list h3",
       "lvl4": ".post h4, .list h4",

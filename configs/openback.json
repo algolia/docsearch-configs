@@ -27,7 +27,8 @@
         "faq": {
             "lvl0": {
                 "selector": ".content rounded-6 min-height-on-desktop fc-folder-show",
-                "global": true
+                "global": true,
+                "default_value": "FAQs"
             },
             "lvl1": ".ellipsis article-title",
             "lvl2": ".description-text",
