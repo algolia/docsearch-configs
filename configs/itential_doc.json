@@ -54,7 +54,7 @@
       "lvl4": ".markdown-doc .content-body h3",
       "text": ".markdown-doc .content-body p",
       "version": {
-        "selector": ".desktop-only .dropdown-container",
+        "selector": ".release-select .dropdown-container",
         "global": true
       }
     },
@@ -73,7 +73,7 @@
       },
       "text": ".api-method-doc .content-body #summary + p, .api-method-doc .content-body #description + p",
       "version": {
-        "selector": ".desktop-only .dropdown-container",
+        "selector": ".release-select .dropdown-container",
         "global": true
       }
     },
@@ -87,7 +87,7 @@
       "lvl3": ".markdown-doc .content-body > h2",
       "text": ".markdown-doc .content-body p",
       "version": {
-        "selector": ".desktop-only .dropdown-container",
+        "selector": ".release-select .dropdown-container",
         "global": true
       }
     },
@@ -101,7 +101,7 @@
       "lvl3": ".markdown-doc .content-body h3",
       "text": ".markdown-doc .content-body p",
       "version": {
-        "selector": ".desktop-only .dropdown-container",
+        "selector": ".release-select .dropdown-container",
         "global": true
       }
     },
@@ -118,7 +118,7 @@
       "lvl3": ".markdown-doc .content-body > h2",
       "text": ".markdown-doc .content-body p",
       "version": {
-        "selector": ".desktop-only .dropdown-container",
+        "selector": ".release-select .dropdown-container",
         "global": true
       }
     }
