@@ -1,7 +1,7 @@
 {
   "index_name": "mia-platform",
   "start_urls": [
-    "https://next.docs.mia-platform.eu/"
+    "https://docs.mia-platform.eu/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -19,7 +19,7 @@
     }
   },
   "sitemap_urls": [
-    "https://next.docs.mia-platform.eu/sitemap.xml"
+    "https://docs.mia-platform.eu/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "strip_chars": " .,;:#",
