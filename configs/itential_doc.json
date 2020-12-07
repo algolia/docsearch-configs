@@ -11,11 +11,6 @@
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/[\\d\\.]*/changelogs/",
-      "selectors_key": "changelogs",
-      "page_rank": 3
-    },
-    {
       "url": "https://docs.itential.io/[\\d\\.]*/developer/",
       "page_rank": 3
     },
