@@ -1,0 +1,23 @@
+{
+  "index_name": "auditor_docs",
+  "start_urls": [
+    "https://damienharper.github.io/auditor-docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-wrapper h1",
+    "lvl2": "#content-wrapper h2",
+    "lvl3": "#content-wrapper h3",
+    "lvl4": "#content-wrapper h4",
+    "lvl5": "#content-wrapper h5",
+    "text": "#content-wrapper p, #content-wrapper li"
+  },
+  "conversation_id": [
+    "1346641594"
+  ],
+  "nb_hits": 546
+}

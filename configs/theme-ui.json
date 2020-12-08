@@ -1,0 +1,23 @@
+{
+  "index_name": "theme-ui",
+  "start_urls": [
+    "https://theme-ui.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2 a",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1341259167"
+  ],
+  "nb_hits": 1274
+}
