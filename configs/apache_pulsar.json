@@ -5,8 +5,9 @@
       "url": "https://pulsar.apache.org/docs/(?P<language>.*?)/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "2.7.1",
           "next",
+          "standalone",
+          "2.7.1",
           "2.7.0",
           "2.6.2",
           "2.6.1",
@@ -48,5 +49,6 @@
   "custom_settings": {
     "attributesForFaceting": ["language", "version"]
   },
+  "js_render": true,
   "nb_hits": 451500
 }
