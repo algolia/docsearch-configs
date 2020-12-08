@@ -1,26 +1,27 @@
 {
-  "index_name": "amido_stacks",
+  "index_name": "jest-v2",
   "start_urls": [
-    "https://stacks.amido.com/docs/"
+    "https://jest-v2.netlify.app/"
   ],
-  "sitemap_urls": [
-    "https://amido.github.io/stacks/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
-      "global": true,
-      "default_value": "Documentation"
-    },
+    "text": "article p, article li",
     "lvl1": "header h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5, article td:first-child",
-    "text": "article p, article li, article td:last-child"
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    }
   },
+  "sitemap_urls": [
+    "https://jest-v2.netlify.app/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -38,8 +39,9 @@
       "type"
     ]
   },
+  "min_indexed_level": 0,
   "conversation_id": [
-    "1311350465"
+    "1355494505"
   ],
-  "nb_hits": 1529
+  "nb_hits": 2293
 }

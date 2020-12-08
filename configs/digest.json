@@ -1,16 +1,17 @@
 {
-  "index_name": "amido_stacks",
+  "index_name": "digest",
   "start_urls": [
-    "https://stacks.amido.com/docs/"
+    "https://digest.wiki-power.com/"
   ],
   "sitemap_urls": [
-    "https://amido.github.io/stacks/sitemap.xml"
+    "https://digest.wiki-power.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -27,7 +28,8 @@
     "attributesForFaceting": [
       "language",
       "version",
-      "type"
+      "type",
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -39,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1311350465"
+    "1353954434"
   ],
-  "nb_hits": 1529
+  "nb_hits": 500
 }
