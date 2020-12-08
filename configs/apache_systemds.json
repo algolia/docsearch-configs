@@ -1,7 +1,7 @@
 {
   "index_name": "apache_systemds",
   "start_urls": [
-    "http://systemds.apache.org/docs/2.0.0"
+    "https://systemds.apache.org/docs/2.0.0"
   ],
   "stop_urls": [
     "\\?",
