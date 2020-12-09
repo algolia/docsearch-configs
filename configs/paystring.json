@@ -1,10 +1,10 @@
 {
-  "index_name": "payid",
+  "index_name": "paystring",
   "start_urls": [
-    "https://docs.payid.org/"
+    "https://docs.paystring.org/"
   ],
   "sitemap_urls": [
-    "https://docs.payid.org/sitemap.xml"
+    "https://docs.paystring.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
