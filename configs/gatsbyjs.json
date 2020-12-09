@@ -6,7 +6,7 @@
       "tags": [
         "docs"
       ],
-      "page_rank": 1
+      "page_rank": 4
     },
     {
       "url": "https://www.gatsbyjs.com/cloud/docs/",
@@ -14,7 +14,7 @@
       "tags": [
         "docs"
       ],
-      "page_rank": 2
+      "page_rank": 3
     },
     {
       "url": "https://www.gatsbyjs.com/tutorial/",
@@ -22,7 +22,7 @@
       "tags": [
         "tutorial"
       ],
-      "page_rank": 3
+      "page_rank": 2
     },
     {
       "url": "https://www.gatsbyjs.com/blog/",
@@ -30,7 +30,7 @@
       "tags": [
         "blog"
       ],
-      "page_rank": 4
+      "page_rank": 1
     }
   ],
   "sitemap_urls": [
