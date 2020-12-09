@@ -3,7 +3,7 @@
   "start_urls": [
     "https://docs.mia-platform.eu/"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/$"],
   "selectors": {
     "text": "article p, article li",
     "lvl1": "header h1",
