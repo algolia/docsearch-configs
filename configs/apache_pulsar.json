@@ -2,24 +2,8 @@
   "index_name": "apache_pulsar",
   "start_urls": [
     {
-      "url": "https://pulsar.apache.org/docs/(?P<language>.*?)/(?P<version>.*?)/",
+      "url": "https://pulsar.apache.org/docs/(?P<language>.*?)/",
       "variables": {
-        "version": [
-          "2.6.1",
-          "next",
-          "2.6.0",
-          "2.5.2",
-          "2.5.1",
-          "2.5.0",
-          "2.4.2",
-          "2.4.1",
-          "2.4.0",
-          "2.3.2",
-          "2.3.1",
-          "2.3.0",
-          "2.2.1",
-          "2.2.0"
-        ],
         "language": ["en", "ja", "fr", "ko", "zh-CN", "zh-TW"]
       }
     }
@@ -45,5 +29,7 @@
   "custom_settings": {
     "attributesForFaceting": ["language", "version"]
   },
+  "js_render": true,
+  "js_wait": 1,
   "nb_hits": 451500
 }

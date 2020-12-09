@@ -1,29 +1,24 @@
 {
-  "index_name": "mspc",
+  "index_name": "vue-i18n",
   "start_urls": [
-    "https://genometric.github.io/MSPC/"
+    "https://vue-i18n-next.intlify.dev/"
   ],
-  "sitemap_urls": [
-    "https://genometric.github.io/MSPC/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-     "lvl0": {
+    "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "header h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
-    "text": "article p, article li, article td:last-child"
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "lvl6": ".content h6",
+    "text": ".content p, .content li, .content td:last-child"
   },
-  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -42,7 +37,7 @@
     ]
   },
   "conversation_id": [
-    "1181088484"
+    "1353981287"
   ],
-  "nb_hits": 253
+  "nb_hits": 5742
 }

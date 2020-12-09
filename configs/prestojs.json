@@ -1,8 +1,6 @@
 {
   "index_name": "prestojs",
-  "start_urls": [
-    "https://prestojs.com/"
-  ],
+  "start_urls": ["https://prestojs.com/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -16,8 +14,6 @@
     "lvl5": "#main-content h5",
     "text": "#main-content p, #main-content li"
   },
-  "conversation_id": [
-    "1352668217"
-  ],
-  "nb_hits": 2530
+  "conversation_id": ["1352668217"],
+  "nb_hits": 2926
 }
