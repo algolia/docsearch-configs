@@ -1,0 +1,20 @@
+{
+  "index_name": "g3bio",
+  "start_urls": [
+    "https://www.g3bio.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".documentation-copy h1",
+    "lvl1": ".documentation-copy h2",
+    "lvl2": ".documentation-copy h3",
+    "lvl3": ".documentation-copy h4",
+    "lvl4": ".documentation-copy h5",
+    "lvl5": ".documentation-copy h6",
+    "text": ".documentation-copy p, .documentation-copy li"
+  },
+  "conversation_id": [
+    "1318477503"
+  ],
+  "nb_hits": 202
+}
