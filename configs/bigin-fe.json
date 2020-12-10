@@ -1,0 +1,20 @@
+{
+  "index_name": "bigin-fe",
+  "start_urls": [
+    "https://bigin-fe-guides.netlify.app/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".page-container h1",
+    "lvl1": ".page-container h2",
+    "lvl2": ".page-container h3",
+    "lvl3": ".page-container h4",
+    "lvl4": ".page-container h5",
+    "lvl5": ".page-container h6",
+    "text": ".page-container p, .page-container li"
+  },
+  "conversation_id": [
+    "1312786801"
+  ],
+  "nb_hits": 630
+}
