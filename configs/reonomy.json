@@ -1,0 +1,18 @@
+{
+  "index_name": "reonomy",
+  "start_urls": ["https://api.reonomy.com/v2/docs/"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#page-content h1",
+    "lvl1": "#page-content h2",
+    "lvl2": "#page-content h3",
+    "lvl3": "#page-content h4",
+    "lvl4": "#page-content h5",
+    "lvl5": "#page-content h6",
+    "text": "#page-content p, #page-content li"
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "conversation_id": ["1312547033"],
+  "nb_hits": 4731
+}
