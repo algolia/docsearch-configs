@@ -4,7 +4,7 @@
     "https://playwright.dev"
   ],
   "sitemap_urls": [
-    "https://playwright/sitemap.xml"
+    "https://playwright.dev/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
