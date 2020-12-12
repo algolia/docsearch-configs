@@ -1,10 +1,10 @@
 {
   "index_name": "playwright",
   "start_urls": [
-    "https://microsoft.github.io/playwright"
+    "https://playwright.dev"
   ],
   "sitemap_urls": [
-    "https://microsoft.github.io/playwright/sitemap.xml"
+    "https://playwright.dev/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
