@@ -1,0 +1,24 @@
+{
+  "index_name": "actionsflow",
+  "start_urls": [
+    "https://actionsflow.github.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".css-1i1hex3 p, .css-1i1hex3 li",
+    "lvl0": ".css-1i1hex3 h1",
+    "lvl1": ".css-1i1hex3 h2",
+    "lvl2": ".css-1i1hex3 h3",
+    "lvl3": ".css-1i1hex3 h4",
+    "lvl4": ".css-1i1hex3 h5",
+    "lvl5": ".css-1i1hex3 h6"
+  },
+  "sitemap_urls": [
+    "https://actionsflow.github.io/docs/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1280696634"
+  ],
+  "nb_hits": 597
+}

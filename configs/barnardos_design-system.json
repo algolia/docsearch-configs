@@ -29,6 +29,6 @@
     "782889902"
   ],
   "min_indexed_level": 2,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "nb_hits": 633
 }

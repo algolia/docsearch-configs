@@ -1,0 +1,23 @@
+{
+  "index_name": "elcovision_de",
+  "start_urls": [
+    "http://www.de-manual.elcovision.com/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "http://www.de-manual.elcovision.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1261716309"
+  ],
+  "nb_hits": 600
+}

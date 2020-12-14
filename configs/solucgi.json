@@ -21,7 +21,7 @@
     "lvl5": "[class^='docItemContainer_'] h5",
     "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     ".hash-link"
   ],

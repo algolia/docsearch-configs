@@ -29,7 +29,7 @@
     "lvl5": ".content__default h5",
     "text": ".content__default p, .content__default li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": [
     "1149574376"

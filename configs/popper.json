@@ -30,7 +30,11 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "main h1",
+    "lvl0": {
+      "selector": "main h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": "main h2",
     "lvl2": "main h3",
     "lvl3": "main h4",
@@ -38,8 +42,22 @@
     "lvl5": "main h6",
     "text": "main p, main li"
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "conversation_id": [
     "1066590852"
   ],
-  "nb_hits": 927
+  "nb_hits": 904
 }

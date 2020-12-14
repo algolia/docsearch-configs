@@ -7,8 +7,15 @@
     "/schemas/",
     "/reference/.+"
   ],
+  "sitemap_urls": [
+    "https://developers.shipcloud.io/sitemap.xml"
+  ],
   "selectors": {
-    "lvl0": ".DocSearch-content h1",
+    "lvl0": {
+      "selector": ".DocSearch-content h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": ".DocSearch-content h2",
     "lvl2": ".DocSearch-content h3",
     "lvl3": ".DocSearch-content h4",
@@ -19,5 +26,5 @@
   "conversation_id": [
     "787106858"
   ],
-  "nb_hits": 1517
+  "nb_hits": 1786
 }

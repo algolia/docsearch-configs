@@ -1,0 +1,21 @@
+{
+  "index_name": "nauchikus_typescript-definitive-guide",
+  "start_urls": [
+    "https://typescript-definitive-guide.ru/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "selectors_exclude":[".tooltip"],
+  "conversation_id": [
+    "1272234402"
+  ],
+  "nb_hits": 2472
+}

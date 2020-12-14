@@ -16,7 +16,7 @@
     "lvl5": "section h6",
     "text": "section p, section li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "796519865"
   ],

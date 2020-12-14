@@ -5,7 +5,7 @@
       "url": "https://docs.rudder.io/reference/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "6.0"
+          "6.1"
         ]
       }
     },

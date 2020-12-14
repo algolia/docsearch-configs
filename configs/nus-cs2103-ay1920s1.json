@@ -2,27 +2,27 @@
   "index_name": "nus-cs2103-ay1920s1",
   "start_urls": [
     {
-      "url": "https://nus-cs2103-ay1920s2.github.io/website/schedule/",
+      "url": "https://nus-cs2103-ay2021s1.github.io/website/schedule/",
       "selectors_key": "schedule",
       "tags": [
         "schedule"
       ]
     },
     {
-      "url": "https://nus-cs2103-ay1920s2.github.io/website/admin/",
+      "url": "https://nus-cs2103-ay2021s1.github.io/website/admin/",
       "selectors_key": "admin",
       "tags": [
         "admin"
       ]
     },
     {
-      "url": "https://nus-cs2103-ay1920s2.github.io/website/se-book-adapted/",
+      "url": "https://nus-cs2103-ay2021s1.github.io/website/se-book-adapted/",
       "selectors_key": "se-book-adapted",
       "tags": [
         "se-book-adapted"
       ]
     },
-    "https://nus-cs2103-ay1920s2.github.io/website/"
+    "https://nus-cs2103-ay2021s1.github.io/website/"
   ],
   "stop_urls": [
     "printable",
@@ -97,5 +97,5 @@
   "conversation_id": [
     "911651337"
   ],
-  "nb_hits": 11628
+  "nb_hits": 26738
 }

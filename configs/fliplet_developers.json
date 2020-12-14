@@ -1,0 +1,47 @@
+{
+  "index_name": "fliplet_developers",
+  "start_urls": [
+    "https://developers.fliplet.com"
+  ],
+  "sitemap_urls": [
+    "https://developers.fliplet.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".main-content p, .main-content ul, .main-content ol, code"
+  },
+  "selectors_exclude": [
+    "#search",
+    "#hits"
+  ],
+  "conversation_id": [
+    "1241472923"
+  ],
+  "custom_settings": {
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "dis",
+        "Data Integration Service",
+        "Agent"
+      ],
+      [
+        "List from Data Source",
+        "LFD"
+      ],
+      [
+        "Data Source",
+        "DataSource"
+      ]
+    ]
+  },
+  "nb_hits": 4705
+}

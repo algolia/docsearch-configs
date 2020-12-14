@@ -7,7 +7,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".topbar .router-link-active:first-child",
+      "selector": ".crumbs > a:nth-child(2)",
       "global": true,
       "default_value": "Documentation"
     },
@@ -32,6 +32,6 @@
   "conversation_id": [
     "628785365"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 3132
+  "scrape_start_urls": false,
+  "nb_hits": 3059
 }

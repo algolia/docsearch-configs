@@ -1,7 +1,7 @@
 {
   "index_name": "statamic",
   "start_urls": [
-    "https://docs.statamic.com"
+    "https://v2.statamic.com"
   ],
   "stop_urls": [],
   "selectors": {

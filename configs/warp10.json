@@ -1,19 +1,33 @@
 {
   "index_name": "warp10",
   "start_urls": [
-    "https://www.warp10.io"
+
+    {
+      "url": "https://www.warp10.io/doc/functionList",
+      "selectors_key": "doc"
+    },
+    {
+      "url": "https://www.warp10.io/",
+      "selectors_key": "content"
+    }
   ],
   "sitemap_urls": [
     "https://www.warp10.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#main h1",
-    "lvl1": "#main h2",
-    "lvl2": "#main h3",
-    "lvl3": "#main h4",
-    "lvl4": "#main h5",
-    "text": "#main p"
+    "content": {
+      "lvl0": "#desc h1",
+      "lvl1": "#desc h2",
+      "lvl2": "#desc h3",
+      "lvl3": "#desc h4",
+      "lvl4": "#desc h5",
+      "text": "#desc p"
+    },
+    "doc": {
+      "lvl0": "#main h1",
+      "text": "#main p"
+    }
   },
   "min_indexed_level": 1,
   "user_agent": "AlgoliaBot",

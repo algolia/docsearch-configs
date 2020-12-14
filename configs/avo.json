@@ -1,0 +1,23 @@
+{
+  "index_name": "avo",
+  "start_urls": [
+    "https://www.avo.app/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://www.avo.app/docs/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".docSearch-content h1",
+    "lvl1": ".docSearch-content h2",
+    "lvl2": ".docSearch-content h3",
+    "lvl3": ".docSearch-content h4",
+    "lvl4": ".docSearch-content h5",
+    "lvl5": ".docSearch-content h6",
+    "text": ".docSearch-content p, .docSearch-content li"
+  },
+  "conversation_id": [
+    "1221281426"
+  ],
+  "nb_hits": 650
+}

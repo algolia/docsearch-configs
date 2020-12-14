@@ -1,7 +1,9 @@
 {
   "index_name": "dita-ot",
   "start_urls": [
-    "http://www.dita-ot.org/dev/"
+    "http://www.dita-ot.org/dev/",
+    "https://www.dita-ot.org/[0-9]\\.[0-9]/release-notes/",
+    "https://www.dita-ot.org/[0-9]\\.[0-9]/readme/changes/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -20,5 +22,5 @@
   "conversation_id": [
     "497667252"
   ],
-  "nb_hits": 5874
+  "nb_hits": 9308
 }

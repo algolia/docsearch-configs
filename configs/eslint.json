@@ -49,6 +49,10 @@
       "text": "main article p, main article li"
     }
   },
-  "scrap_start_urls": false,
-  "nb_hits": 17888
+  "scrape_start_urls": false,
+  "selectors_exclude": [
+    "header",
+    "input"
+  ],
+  "nb_hits": 19686
 }

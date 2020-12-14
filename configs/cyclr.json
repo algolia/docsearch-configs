@@ -1,0 +1,33 @@
+{
+  "index_name": "cyclr",
+  "start_urls": [
+    "https://docs.cyclr.com/"
+  ],
+  "stop_urls": [
+    "https://docs.cyclr.com/index"
+  ],
+  "sitemap_urls": [
+    "https://docs.cyclr.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".post-header h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post-content h2",
+    "lvl2": ".post-content h3, .post-content td:first-child",
+    "lvl3": ".post-content h4",
+    "lvl4": ".post-content h5",
+    "lvl5": ".post-content h6",
+    "text": ".post-content p, .post-content li, .post-content td:not(first-child)"
+  },
+  "scrape_start_urls": false,
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1223922226"
+  ],
+  "nb_hits": 4022
+}

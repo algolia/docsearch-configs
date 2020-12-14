@@ -19,7 +19,7 @@
     "text": "#content p, #content li"
   },
   "min_indexed_level": 2,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "strip_chars": " .,;:#\u221e\u221e",
   "nb_hits": 1506
 }

@@ -25,7 +25,7 @@
     "text": "article p, article li, article td"
   },
   "min_indexed_level": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "256019787"
   ],

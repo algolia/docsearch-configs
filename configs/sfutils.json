@@ -18,7 +18,7 @@
   "selectors_exclude": [
     ".dont-index"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "custom_settings": {
     "separatorsToIndex": "_"
   },

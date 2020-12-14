@@ -30,8 +30,11 @@
   },
   "js_render": true,
   "use_anchors": true,
+  "custom_settings": {
+    "attributesForFaceting": ["lang", "version"]
+  },
   "conversation_id": [
     "854645757"
   ],
-  "nb_hits": 2392
+  "nb_hits": 3087
 }

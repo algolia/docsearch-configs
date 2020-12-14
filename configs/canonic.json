@@ -1,0 +1,29 @@
+{
+  "index_name": "canonic",
+  "start_urls": [
+    "https://docs.canonic.dev"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.canonic.dev/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'--navigation--')]//*[contains(@class,'active')]/preceding::*[contains(@class,'--level0--')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class*='docContentBody'] h1",
+    "lvl2": "[class*='docContentBody'] h2",
+    "lvl3": "[class*='docContentBody'] h3",
+    "lvl4": "[class*='docContentBody'] h4",
+    "lvl5": "[class*='docContentBody'] h5",
+    "lvl6": "[class*='docContentBody'] h6",
+    "text": "[class*='docContentBody'] p, [class*='docContentBody'] li"
+  },
+  "conversation_id": [
+    "1245475412"
+  ],
+  "nb_hits": 536
+}

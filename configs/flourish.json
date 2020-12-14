@@ -1,0 +1,49 @@
+{
+  "index_name": "flourish",
+  "start_urls": [
+    {
+      "url": "https://developers.flourish.studio/sdk/",
+      "tags": [
+        "sdk"
+      ]
+    },
+    {
+      "url": "https://developers.flourish.studio/api/",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://developers.flourish.studio/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "SDK"
+      },
+      "lvl1": ".container h1",
+      "lvl2": ".container h2",
+      "lvl3": ".container h3",
+      "lvl4": ".container h4",
+      "lvl5": ".container h5",
+      "text": ".container p, .container li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".container h1",
+      "lvl2": ".container h2",
+      "lvl3": ".container h3",
+      "lvl4": ".container h4",
+      "lvl5": ".container h5",
+      "text": ".container p, .container li"
+    }
+  },
+  "nb_hits": 399
+}

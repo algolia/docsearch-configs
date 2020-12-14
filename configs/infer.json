@@ -27,6 +27,6 @@
   "conversation_id": [
     "579122944"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "nb_hits": 782
 }

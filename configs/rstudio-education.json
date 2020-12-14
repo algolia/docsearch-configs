@@ -1,0 +1,69 @@
+{
+  "index_name": "rstudio-education",
+  "start_urls": [
+    {
+      "url": "https://rstudio-education.github.io/gradethis/",
+      "selectors_key": "homepage",
+      "tags": ["homepage"]
+    },
+    {
+      "url": "https://rstudio-education.github.io/gradethis/reference",
+      "selectors_key": "reference",
+      "tags": ["reference"]
+    }
+  ],
+  "sitemap_urls": [],
+  "stop_urls": ["/index.html", "/reference/$", "/reference/index.html"],
+  "selectors": {
+    "homepage": {
+      "lvl0": {
+        "selector": ".contents h1",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".contents h2",
+      "lvl2": {
+        "selector": ".contents h3",
+        "default_value": "Context"
+      },
+      "lvl3": ".ref-arguments td, .ref-description",
+      "text": ".contents p, .contents li, .contents .pre"
+    },
+    "reference": {
+      "lvl0": {
+        "selector": ".contents h1",
+        "default_value": "References"
+      },
+      "lvl1": {
+        "selector": ".contents .name",
+        "default_value": "Argument"
+      },
+      "lvl2": {
+        "selector": ".ref-arguments th",
+        "default_value": "Description"
+      },
+      "lvl3": ".ref-arguments td, .ref-description",
+      "text": ".contents p, .contents li"
+    },
+    "default": {
+      "lvl1": ".contents h2",
+      "lvl2": ".contents h3, .contents th",
+      "lvl3": ".contents h4",
+      "lvl4": ".contents h5",
+      "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+    }
+  },
+  "selectors_exclude": [".dont-index"],
+  "min_indexed_level": 2,
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor"
+    ]
+  },
+  "conversation_id": ["1324768401"],
+  "nb_hits": 174
+}

@@ -1,0 +1,24 @@
+{
+  "index_name": "taqnyat",
+  "start_urls": [
+    "https://www.taqnyat.sa/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".artical h1",
+    "lvl2": ".artical h2",
+    "lvl3": ".artical h3",
+    "lvl4": ".artical h4",
+    "lvl5": ".artical h5",
+    "text": ".artical p, .artical li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1293126621"
+  ],
+  "nb_hits": 40
+}

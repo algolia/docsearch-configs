@@ -16,7 +16,11 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
+    "lvl1": {
+      "selector": ".post h1",
+      "global": true,
+      "default_value": "Chapter"
+    },
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
@@ -35,5 +39,5 @@
   "conversation_id": [
     "757868673"
   ],
-  "nb_hits": 829
+  "nb_hits": 1367
 }

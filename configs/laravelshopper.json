@@ -1,0 +1,31 @@
+{
+  "index_name": "laravelshopper",
+  "start_urls": [
+    "https://docs.laravelshopper.io/docs/contribution-guide",
+    "https://docs.laravelshopper.io/docs/upgrade",
+    "https://docs.laravelshopper.io/docs/requirements",
+    "https://docs.laravelshopper.io/docs/installation",
+    "https://docs.laravelshopper.io/docs/configuration",
+    "https://docs.laravelshopper.io/docs/settings",
+    "https://docs.laravelshopper.io/docs/helper-methods"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[@id='nav']/div[2]/a[1]/span",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4",
+    "lvl5": ".markdown h5",
+    "text": ".markdown p, .markdown li"
+  },
+  "conversation_id": [
+    "1290822349"
+  ],
+  "nb_hits": 143
+}

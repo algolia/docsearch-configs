@@ -1,0 +1,32 @@
+{
+  "index_name": "startinfinity",
+  "start_urls": [
+    "https://startinfinity.com/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://startinfinity.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "//div[@class='sidebar']//a[contains(//link[@rel='canonical']/@href,@href)]/preceding::h2[1]",
+      "type": "xpath",
+      "default_value": "Documentation",
+      "global": true
+    },
+    "lvl1": ".documentation h1",
+    "lvl2": ".documentation h2",
+    "lvl3": ".documentation h3",
+    "lvl4": ".documentation h4",
+    "lvl5": ".documentation h5",
+    "lvl6": ".documentation h6",
+    "text": ".documentation p, .documentation li"
+  },
+  "selectors_exclude": [
+    "h1 + ul"
+  ],
+  "conversation_id": [
+    "1266959091"
+  ],
+  "nb_hits": 832
+}

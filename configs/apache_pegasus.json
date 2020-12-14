@@ -1,0 +1,36 @@
+{
+  "index_name": "apache_pegasus",
+  "start_urls": [
+    "https://pegasus.apache.org/"
+  ],
+  "stop_urls": [
+    "https://pegasus.apache.org/blogs"
+  ],
+  "sitemap_urls": [
+    "https://pegasus.apache.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "section .title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    "aside.menu",
+    ".blog-post-meta"
+  ],
+  "conversation_id": [
+    "1240238025"
+  ],
+  "nb_hits": 3148
+}

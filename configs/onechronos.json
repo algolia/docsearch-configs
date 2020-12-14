@@ -1,11 +1,13 @@
 {
   "index_name": "onechronos",
-  "start_urls": [
-    "https://www.onechronos.com/docs",
-    "https://www.onechronos.com/docs/fix/fix-42/#beta"
+  "sitemap_urls": [
+    "https://www.onechronos.com/sitemap.xml"
   ],
-  "stop_urls": [
-    "https://www.onechronos.com/docs/fix/fix-42/v1"
+  "start_urls": [
+    "https://www.onechronos.com/docs/",
+    "https://www.onechronos.com/docs/fix/fix-42/",
+    "https://www.onechronos.com/docs/fix/primer",
+    "https://www.onechronos.com/docs/symbology"
   ],
   "selectors": {
     "lvl0": ".docs-col h1",
@@ -16,8 +18,9 @@
     "lvl5": ".docs-col h6",
     "text": ".docs-col p, .docs-col li"
   },
+  "use_anchors": true,
   "conversation_id": [
     "1211843188"
   ],
-  "nb_hits": 918
+  "nb_hits": 1553
 }

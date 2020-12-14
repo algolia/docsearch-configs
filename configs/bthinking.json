@@ -1,0 +1,22 @@
+{
+  "index_name": "bthinking",
+  "start_urls": [
+    "https://laboratoriobridge.github.io/bthinking"
+  ],
+  "stop_urls": [],
+  "js_render": true,
+  "js_wait": 1,
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1308286136"
+  ],
+  "nb_hits": 60
+}

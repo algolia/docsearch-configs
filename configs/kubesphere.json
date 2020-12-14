@@ -2,10 +2,10 @@
   "index_name": "kubesphere",
   "start_urls": [
     {
-      "url": "https://kubesphere.io/docs/zh-CN",
+      "url": "https://kubesphere.io/zh/docs/",
       "extra_attributes": {
         "lang": [
-          "zh-CN"
+          "zh"
         ]
       }
     },
@@ -39,5 +39,5 @@
   "conversation_id": [
     "633752622"
   ],
-  "nb_hits": 6572
+  "nb_hits": 5129
 }

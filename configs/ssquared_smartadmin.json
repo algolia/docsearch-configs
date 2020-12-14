@@ -1,0 +1,24 @@
+{
+  "index_name": "ssquared_smartadmin",
+  "start_urls": [
+    "https://docs.smartadmin.ssquared.cloud/",
+    "https://docs.smartadmin.ssquared.cloud/GettingStarted",
+    "https://docs.smartadmin.ssquared.cloud/shipmentManagement"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".Mui-selected h6",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#root > div > div.MuiBox-root:nth-child(2) h5",
+    "lvl2": "#root > div > div.MuiBox-root:nth-child(2) h6",
+    "text": "#root > div > div.MuiBox-root:nth-child(2) p, #root > div > div.MuiBox-root:nth-child(2) li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1269831481"
+  ],
+  "nb_hits": 181
+}

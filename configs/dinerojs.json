@@ -12,7 +12,7 @@
     "lvl4": "#main table td:first-child",
     "text": "#main p, #main li, #main table td:last-child"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "only_content_level": true,
   "conversation_id": [
     "539142363"

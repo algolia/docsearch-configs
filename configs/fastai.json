@@ -13,6 +13,6 @@
     "lvl5": ".post-content h6",
     "text": ".post-content p, .post-content li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "nb_hits": 8144
 }

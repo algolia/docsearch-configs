@@ -9,6 +9,7 @@
           "ModelicaReference",
           "ModelicaServices",
           "Complex",
+          "ObsoleteModelica4",
           "ObsoleteModelica3"
         ],
         "tool": [
@@ -168,6 +169,23 @@
     "https://doc.modelica.org/sitemap.xml"
   ],
   "stop_urls": [],
+  "selectors_exclude": [
+    ".ModelicaBaseClass",
+    ".ModelicaTableConnectors",
+    ".ModelicaTableContents",
+    ".ModelicaTableInputs",
+    ".ModelicaTableOutputs",
+    ".ModelicaTablePackageContent",
+    ".ModelicaTableParameters",
+    ".closed",
+    "section.components",
+    "section.connectors",
+    "section.extended-by",
+    "section.package-contents",
+    "section.parameters",
+    "section.used-in-components",
+    "section.used-in-examples"
+  ],
   "selectors": {
     "lvl0": "h1",
     "lvl1": "h2",
@@ -175,7 +193,7 @@
     "lvl3": "h4",
     "lvl4": "h5",
     "lvl5": "h6",
-    "text": "p, li"
+    "text": "p, li, section.information, .ModelicaDescription, dd, dt"
   },
-  "nb_hits": 439471
+  "nb_hits": 439469
 }

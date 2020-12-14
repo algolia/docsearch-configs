@@ -14,8 +14,9 @@
     "lvl6": ".content-container h6",
     "text": ".content-container p, .content-container li"
   },
+  "js_render": true,
   "conversation_id": [
     "1123029347"
   ],
-  "nb_hits": 3875
+  "nb_hits": 3963
 }

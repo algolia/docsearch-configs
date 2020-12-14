@@ -1,0 +1,19 @@
+{
+  "index_name": "snowpack",
+  "start_urls": ["https://next.snowpack.dev"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": ["1341434945"],
+  "nb_hits": 713
+}
