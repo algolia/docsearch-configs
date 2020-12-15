@@ -1,21 +1,45 @@
 {
   "index_name": "tink",
   "start_urls": [
-    "https://docs.tink.com/resources",
-    "https://docs.tink.com/api"
+    {
+      "url": "https://docs.tink.com/resources",
+      "tags": ["resources"]
+    },
+    {
+      "url": "https://docs.tink.com/api",
+      "tags": ["api"],
+      "selectors_key": "api"
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "[class*='ArticleContent'] h1",
-    "lvl1": "[class*='ArticleContent'] h2",
-    "lvl2": "[class*='ArticleContent'] h3",
-    "lvl3": "[class*='ArticleContent'] h4",
-    "lvl4": "[class*='ArticleContent'] h5",
-    "lvl5": "[class*='ArticleContent'] h5",
-    "text": "[class*='ArticleContent'] p, [class*='ArticleContent'] li"
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Resources"
+      },
+      "lvl1": "[class*='ArticleContent'] h1",
+      "lvl2": "[class*='ArticleContent'] h2",
+      "lvl3": "[class*='ArticleContent'] h3",
+      "lvl4": "[class*='ArticleContent'] h3",
+      "lvl5": "[class*='ArticleContent'] h4",
+      "text": "[class*='ArticleContent'] p, [class*='ArticleContent'] li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": "[class*='ArticleContent'] h1",
+      "lvl2": "[class*='ArticleContent'] h2",
+      "lvl3": "[class*='ArticleContent'] h3",
+      "lvl4": "[class*='ArticleContent'] h3",
+      "lvl5": "[class*='ArticleContent'] h4",
+      "text": "[class*='ArticleContent'] p, [class*='ArticleContent'] li"
+    }
   },
   "js_render": true,
   "js_wait": 2,
   "conversation_id": ["1347514534"],
-  "nb_hits": 6837
+  "nb_hits": 6766
 }
