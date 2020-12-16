@@ -28,7 +28,8 @@
     "attributesForFaceting": [
       "language",
       "version",
-      "type"
+      "type",
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -36,7 +37,8 @@
       "anchor",
       "url",
       "url_without_anchor",
-      "type"
+      "type",
+      "docusaurus_tag"
     ]
   },
   "conversation_id": [
