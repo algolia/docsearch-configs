@@ -4,7 +4,8 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": "a.active-top-level-menu",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": "#main-content h1",
@@ -14,6 +15,10 @@
     "lvl5": "#main-content h5",
     "text": "#main-content p, #main-content li"
   },
+  "selectors_exclude": [
+    ".signature-params",
+    ".doc-hidden"
+  ],
   "conversation_id": ["1352668217"],
   "nb_hits": 2926
 }
