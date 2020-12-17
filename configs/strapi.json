@@ -3,9 +3,9 @@
   "start_urls": [
     "https://strapi.io/documentation/"
   ],
-  "stop_urls": [
-    "https://strapi.io/documentation/3.0.0-alpha.x/",
-    "https://strapi.io/documentation/3.0.0-beta.x/"
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://strapi.io/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
@@ -35,5 +35,5 @@
   "conversation_id": [
     "835903303"
   ],
-  "nb_hits": 4492
+  "nb_hits": 6450
 }
