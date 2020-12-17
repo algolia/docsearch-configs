@@ -8,7 +8,7 @@
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
-    "^https:\/\/transposit\.com\/docs\/references\/connectors\/(?:[a-z0-9_]*)"
+    "/docs/references/connectors/"
   ],
   "selectors": {
     "lvl0": ".center [class*='w-75'] h1",
