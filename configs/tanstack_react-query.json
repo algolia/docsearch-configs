@@ -1,7 +1,7 @@
 {
   "index_name": "tanstack_react-query",
   "start_urls": [
-    "https://react-query.tanstack.com/docs/"
+    "https://react-query.tanstack.com/"
   ],
   "stop_urls": [],
   "selectors": {
