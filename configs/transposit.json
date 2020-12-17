@@ -7,7 +7,9 @@
     "https://www.transposit.com/docs-sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "/docs/references/connectors/"
+  ],
   "selectors": {
     "lvl0": ".center [class*='w-75'] h1",
     "lvl1": ".center [class*='w-75'] h2",
