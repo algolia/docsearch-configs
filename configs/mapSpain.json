@@ -2,21 +2,21 @@
   "index_name": "mapSpain",
   "start_urls": [
     {
-      "url": "https://dieghernan.github.io/mapSpain/index.html",
+      "url": "https://ropenspain.github.io/mapSpain/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://dieghernan.github.io/mapSpain/reference",
+      "url": "https://ropenspain.github.io/mapSpain/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://dieghernan.github.io/mapSpain/articles",
+      "url": "https://ropenspain.github.io/mapSpain/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -24,7 +24,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://dieghernan.github.io/mapSpain/sitemap.xml"
+    "https://ropenspain.github.io/mapSpain/sitemap.xml"
   ],
   "stop_urls": [
     "/reference/$",

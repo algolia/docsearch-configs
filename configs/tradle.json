@@ -1,12 +1,8 @@
 {
-  "index_name": "mocks-server",
+  "index_name": "tradle",
   "start_urls": [
-    "https://www.mocks-server.org/docs/"
+    "https://tradle.io/"
   ],
-  "sitemap_urls": [
-    "https://www.mocks-server.org/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -19,11 +15,10 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
+    "lvl5": "article h5, article td:first-child",
     "lvl6": "article h6",
-    "text": "article p, article li"
+    "text": "article p, article li, article td:last-child"
   },
-  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -38,12 +33,11 @@
       "anchor",
       "url",
       "url_without_anchor",
-      "type",
-      "docusaurus_tag"
+      "type"
     ]
   },
   "conversation_id": [
-    "1004355328"
+    "1317003672"
   ],
-  "nb_hits": 2252
+  "nb_hits": 852
 }

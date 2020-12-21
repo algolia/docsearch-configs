@@ -1,10 +1,10 @@
 {
-  "index_name": "mocks-server",
+  "index_name": "elrond",
   "start_urls": [
-    "https://www.mocks-server.org/docs/"
+    "https://docs.elrond.com/"
   ],
   "sitemap_urls": [
-    "https://www.mocks-server.org/sitemap.xml"
+    "https://docs.elrond.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -19,11 +19,13 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
+    "lvl5": "article h5, article td:first-child",
     "lvl6": "article h6",
-    "text": "article p, article li"
+    "text": "article p, article li, article td:last-child"
   },
-  "strip_chars": " .,;:#",
+  "selectors_exclude": [
+    ".hash-link"
+  ],
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -38,12 +40,11 @@
       "anchor",
       "url",
       "url_without_anchor",
-      "type",
-      "docusaurus_tag"
+      "type"
     ]
   },
   "conversation_id": [
-    "1004355328"
+    "1351752830"
   ],
-  "nb_hits": 2252
+  "nb_hits": 2073
 }

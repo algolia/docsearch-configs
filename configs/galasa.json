@@ -1,0 +1,27 @@
+{
+  "index_name": "galasa",
+  "start_urls": [
+    "https://galasa.dev/docs/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://galasa.dev/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class*='docContent'] h1",
+    "lvl2": "[class*='docContent'] h2",
+    "lvl3": "[class*='docContent'] h3",
+    "lvl4": "[class*='docContent'] h4",
+    "lvl5": "[class*='docContent'] h5",
+    "lvl6": "[class*='docContent'] h6",
+    "text": "[class*='docContent'] p, [class*='docContent'] li"
+  },
+  "conversation_id": [
+    "1317941132"
+  ],
+  "nb_hits": 1058
+}

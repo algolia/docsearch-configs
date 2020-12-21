@@ -19,6 +19,7 @@
   "selectors_exclude": [
     "main style"
   ],
+  "strip_chars": " .,;:#",
   "only_content_level": true,
   "conversation_id": [
     "1262412313"
