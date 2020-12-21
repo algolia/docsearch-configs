@@ -1,0 +1,23 @@
+{
+  "index_name": "appneta",
+  "start_urls": [
+    "https://docs.appneta.com/"
+  ],
+  "sitemap_urls": [
+    "https://docs.appneta.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "header h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "1367756200"
+  ],
+  "nb_hits": 13716
+}
