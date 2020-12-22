@@ -26,7 +26,7 @@
     "page_rank": 5
   },
   ],
-  "sitemap_urls": ["https://docs.zumasys.com/sitemap.xml"]
+  "sitemap_urls": ["https://docs.zumasys.com/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "text": ".theme-default-content p, .theme-default-content li, .theme-default-content code",
