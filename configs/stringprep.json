@@ -1,10 +1,10 @@
 {
-  "index_name": "radgrad",
+  "index_name": "stringprep",
   "start_urls": [
-    "https://www.radgrad.org/"
+    "https://stringprep.ubiety.dev/"
   ],
   "sitemap_urls": [
-    "https://www.radgrad.org/sitemap.xml"
+    "https://stringprep.ubiety.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "602603520"
+    "1355922471"
   ],
-  "nb_hits": 2257
+  "nb_hits": 110
 }
