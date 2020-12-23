@@ -1,10 +1,10 @@
 {
-  "index_name": "radgrad",
+  "index_name": "sona",
   "start_urls": [
-    "https://www.radgrad.org/"
+    "https://docs.sona.click/"
   ],
   "sitemap_urls": [
-    "https://www.radgrad.org/sitemap.xml"
+    "https://docs.sona.click/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "602603520"
+    "1367740206"
   ],
-  "nb_hits": 2257
+  "nb_hits": 183
 }
