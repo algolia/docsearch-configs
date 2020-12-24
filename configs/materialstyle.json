@@ -1,0 +1,26 @@
+{
+  "index_name": "materialstyle",
+  "start_urls": [
+    {
+      "url": "https://materialstyle.github.io/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": ["2.0", "1.0", "1.1", "1.2"]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".component-showcase h1",
+    "lvl1": ".component-showcase h2",
+    "lvl2": ".component-showcase h3",
+    "lvl3": ".component-showcase h4",
+    "lvl4": ".component-showcase h5",
+    "lvl5": ".component-showcase h6",
+    "text": ".component-showcase p, .component-showcase li"
+  },
+  "conversation_id": ["1355713238"],
+  "custom_settings": {
+    "attributesForFaceting": ["version"]
+  },
+  "nb_hits": 520
+}
