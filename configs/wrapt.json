@@ -13,8 +13,9 @@
     "lvl5": "#content-wrapper h6",
     "text": "#content-wrapper p, #content-wrapper li"
   },
+  "min_indexed_level": 1,
   "conversation_id": [
     "1368150473"
   ],
-  "nb_hits": 350
+  "nb_hits": 378
 }
