@@ -1,0 +1,23 @@
+{
+  "index_name": "radicle",
+  "start_urls": [
+    "https://docs.radicle.xyz"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.radicle.xyz/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "lvl5": ".post h6",
+    "text": ".post p, .post li"
+  },
+  "conversation_id": [
+    "1354631923"
+  ],
+  "nb_hits": 867
+}
