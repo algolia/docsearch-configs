@@ -1,0 +1,20 @@
+{
+  "index_name": "frame",
+  "start_urls": [
+    "https://docs.frame.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "header h1",
+    "lvl1": ".content-body h2",
+    "lvl2": ".content-body h3",
+    "lvl3": ".content-body h4",
+    "lvl4": ".content-body h5",
+    "lvl5": ".content-body h6",
+    "text": ".content-body p, .content-body li"
+  },
+  "conversation_id": [
+    "1354162550"
+  ],
+  "nb_hits": 1057
+}
