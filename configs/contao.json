@@ -20,7 +20,7 @@
   "selectors": {
     "dev": {
       "lvl0": {
-        "selector": "",
+        "selector": "#logo span",
         "default_value": "Developer Documentation"
       },
       "lvl1": "#body-inner h1",
@@ -32,7 +32,7 @@
     },
     "manual": {
       "lvl0": {
-        "selector": "",
+        "selector": "#logo span",
         "default_value": "Manual"
       },
       "lvl1": "#body-inner h1",
