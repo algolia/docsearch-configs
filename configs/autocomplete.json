@@ -1,10 +1,10 @@
 {
   "index_name": "autocomplete",
   "start_urls": [
-    "https://algolia-autocomplete.netlify.app/docs/"
+    "https://autocomplete.algolia.com/"
   ],
   "sitemap_urls": [
-    "https://algolia-autocomplete.netlify.app/sitemap.xml"
+    "https://autocomplete.algolia.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

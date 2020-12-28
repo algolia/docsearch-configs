@@ -1,10 +1,10 @@
 {
   "index_name": "nativesintech",
   "start_urls": [
-    "https://nativesintech.github.io/docs/"
+    "https://docs.nativesintech.org/"
   ],
   "sitemap_urls": [
-    "https://nativesintech.github.io/docs/sitemap.xml"
+    "https://docs.nativesintech.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

@@ -1,0 +1,55 @@
+{
+  "index_name": "mithunkhatri",
+  "start_urls": [
+    {
+      "url": "https://mithunkhatri.surge.sh/docs/",
+      "tags": [
+        "docs"
+      ],
+      "selectors_key": "docs"
+    },
+    {
+      "url": "https://mithunkhatri.surge.sh/blog/",
+      "tags": [
+        "blog"
+      ],
+      "selectors_key": "blog"
+    }
+  ],
+  "stop_urls": [
+    "/blog/tags/"
+  ],
+  "sitemap_urls": [
+    "https://mithunkhatri.surge.sh/sitemap.xml"
+  ],
+  "selectors": {
+    "docs": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Resume"
+      },
+      "lvl1": "div.menu .menu__link--sublist.menu__link--active",
+      "lvl2": "article h1",
+      "lvl3": "article h2",
+      "lvl4": "article h3",
+      "lvl5": "article h4",
+      "text": "article p, article li"
+    },
+    "blog": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Blog"
+      },
+      "lvl1": ".container h1",
+      "lvl2": ".container h2",
+      "lvl3": ".container h3",
+      "lvl4": ".container h4",
+      "text": ".container p, .container li"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1304809658"
+  ],
+  "nb_hits": 274
+}

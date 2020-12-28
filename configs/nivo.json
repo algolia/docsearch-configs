@@ -1,0 +1,32 @@
+{
+  "index_name": "nivo",
+  "start_urls": [
+    {
+      "url": "https://nivo.rocks/"
+    },
+    {
+      "url": "https://nivo.rocks/guides/",
+      "selectors_key": "guides"
+    }
+  ],
+  "stop_urls": ["/about", "/references", "/faq", "/storybook/"],
+  "selectors": {
+    "default": {
+      "lvl0": "[class*='ComponentPage'] h1",
+      "text": "[class*='ComponentDescription'] p"
+    },
+    "guides": {
+      "lvl0": ".guide__header h1",
+      "lvl1": "[class*='Layout__InnerContent'] h2",
+      "lvl2": "[class*='Layout__InnerContent'] h3",
+      "lvl3": "[class*='Layout__InnerContent'] h4",
+      "lvl4": "[class*='Layout__InnerContent'] h5",
+      "lvl5": "[class*='Layout__InnerContent'] h6",
+      "text": "[class*='Layout__InnerContent'] p, [class*='Layout__InnerContent'] li"
+    }
+  },
+  "js_render": true,
+  "js_wait": 3,
+  "conversation_id": ["1343785214"],
+  "nb_hits": 389
+}

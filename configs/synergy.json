@@ -1,0 +1,21 @@
+{
+  "index_name": "synergy",
+  "start_urls": [
+    "https://synergy.page/support/user-guide",
+    "https://synergy.page/support/admin-guide",
+    "https://synergy.page/support/it-guide"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": "h3",
+    "lvl3": "h4",
+    "lvl4": "h5, td:first-child",
+    "text": "p, li, td:last-child"
+  },
+  "conversation_id": [
+    "1300870272"
+  ],
+  "nb_hits": 680
+}

@@ -1,0 +1,23 @@
+{
+  "index_name": "vuestic",
+  "start_urls": [
+    "https://vuestic.dev/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".va-content h1",
+    "lvl2": ".va-content h2",
+    "lvl3": ".va-content h3",
+    "lvl4": ".va-content h4",
+    "lvl5": ".va-content h5",
+    "text": ".va-content p, .va-content li"
+  },
+  "conversation_id": [
+    "1339374996"
+  ],
+  "nb_hits": 2245
+}

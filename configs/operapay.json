@@ -1,0 +1,26 @@
+{
+  "index_name": "operapay",
+  "start_urls": [
+    "https://documentation.operapay.com/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://documentation.operapay.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1307058723"
+  ],
+  "nb_hits": 508
+}

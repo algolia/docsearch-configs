@@ -1,0 +1,39 @@
+{
+  "index_name": "skylinking",
+  "start_urls": [
+    "https://autodesk.skylinking.net/help"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "main.page h1",
+    "lvl2": "main.page h2",
+    "lvl3": "main.page h3",
+    "lvl4": "main.page h4",
+    "lvl5": "main.page h5",
+    "text": "main.page p, main.page li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "1324181267"
+  ],
+  "scrape_start_urls": false,
+  "nb_hits": 968
+}

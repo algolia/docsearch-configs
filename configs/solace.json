@@ -4,109 +4,75 @@
     {
       "url": "https://docs.solace.com/Solace-PubSub-Event-Reference/event_ref_boiler",
       "selectors_key": "event_reference_guide",
-      "tags": [
-        "event_reference_guide"
-      ]
+      "tags": ["event_reference_guide"]
     },
     {
       "url": "https://docs.solace.com/Solace-CLI/CLI-Reference/VMR_CLI_Commands",
       "selectors_key": "cli_command",
-      "tags": [
-        "cli_command",
-        "vmr"
-      ]
+      "tags": ["cli_command", "vmr"]
     },
     {
       "url": "https://docs.solace.com/Solace-CLI/CLI-Reference/APPL_CLI_Commands.html",
       "selectors_key": "cli_command",
-      "tags": [
-        "cli_command",
-        "appl"
-      ]
+      "tags": ["cli_command", "appl"]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/index.html",
       "selectors_key": "api_reference_guide_c",
-      "tags": [
-        "api_reference_guide",
-        "c"
-      ]
+      "tags": ["api_reference_guide", "c"]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/",
       "selectors_key": "api_reference_guide_c",
-      "tags": [
-        "api_reference_guide",
-        "c"
-      ]
+      "tags": ["api_reference_guide", "c"]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/index.html",
       "selectors_key": "api_reference_guide_net",
-      "tags": [
-        "api_reference_guide",
-        "net"
-      ]
+      "tags": ["api_reference_guide", "net"]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/",
       "selectors_key": "api_reference_guide_net",
-      "tags": [
-        "api_reference_guide",
-        "net"
-      ]
+      "tags": ["api_reference_guide", "net"]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/jrto/index.html",
       "selectors_key": "api_reference_guide",
-      "tags": [
-        "api_reference_guide",
-        "jrto"
-      ]
+      "tags": ["api_reference_guide", "jrto"]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/jrto/",
       "selectors_key": "api_reference_guide",
-      "tags": [
-        "api_reference_guide",
-        "jrto"
-      ]
+      "tags": ["api_reference_guide", "jrto"]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/java/index.html",
       "selectors_key": "api_reference_guide",
-      "tags": [
-        "api_reference_guide",
-        "java"
-      ]
+      "tags": ["api_reference_guide", "java"]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/java/",
       "selectors_key": "api_reference_guide",
-      "tags": [
-        "api_reference_guide",
-        "java"
-      ]
+      "tags": ["api_reference_guide", "java"]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/",
       "selectors_key": "api_reference_guide",
-      "tags": [
-        "api_reference_guide"
-      ]
+      "tags": ["api_reference_guide"]
+    },
+
+    {
+      "url": "https://docs.solace.com/Security/Security-Solace.htm",
+      "page_rank": 50
+    },
+    {
+      "url": "https://docs.solace.com/MQTT-311-Prtl-Conformance-Spec/Security.htm",
+      "page_rank": 1
     },
     {
       "url": "https://docs.solace.com/",
-      "tags": [
-        "docs"
-      ]
-    },
-    {
-      "url": "https://cloud.solace.com/learn/",
-      "selectors_key": "learning_center",
-      "tags": [
-        "learning_center"
-      ]
+      "tags": ["docs"]
     },
     "https://docs.solace.com/Solace-PubSub-Messaging-APIs/API-Developer-Guide/Java-API-Best-Practices.htm"
   ],
@@ -121,9 +87,7 @@
     "Not-Found.htm",
     "jcsmp/class-use/"
   ],
-  "sitemap_urls": [
-    "https://docs.solace.com/Sitemap.xml"
-  ],
+  "sitemap_urls": ["https://docs.solace.com/Sitemap.xml"],
   "selectors": {
     "default": {
       "lvl0": {
@@ -231,16 +195,10 @@
       "text": "blockquote li, blockquote p, .cmd-help td:first-child, .cmd-help td:last-child, .cmd-help-text"
     }
   },
-  "selectors_exclude": [
-    "[class^=Code_Snippet]",
-    "[summary]",
-    ".cli-tree"
-  ],
+  "selectors_exclude": ["[class^=Code_Snippet]", "[summary]", ".cli-tree"],
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "conversation_id": [
-    "702227168"
-  ],
+  "conversation_id": ["702227168"],
   "nb_hits": 94925
 }

@@ -1,0 +1,102 @@
+{
+  "index_name": "epinow2",
+  "start_urls": [
+    {
+      "url": "https://epiforecasts.io/EpiNow2/",
+      "selectors_key": "homepage",
+      "tags": [
+        "homepage"
+      ]
+    },
+    {
+      "url": "https://epiforecasts.io/EpiNow2/reference/",
+      "selectors_key": "reference",
+      "tags": [
+        "reference"
+      ]
+    },
+    {
+      "url": "https://epiforecasts.io/EpiNow2/news/",
+      "selectors_key": "news",
+      "tags": [
+        "news"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://epiforecasts.io/EpiNow2/sitemap.xml"
+  ],
+  "stop_urls": [
+    "https://epiforecasts.io/EpiNow2/reference/index.html",
+    "https://epiforecasts.io/EpiNow2/news/index.html",
+    "https://epiforecasts.io/EpiNow2/index.html"
+  ],
+  "selectors": {
+    "homepage": {
+      "lvl0": {
+        "selector": ".contents h1",
+        "default_value": "Home"
+      },
+      "lvl1": ".contents h2",
+      "lvl2": {
+        "selector": ".contents h3",
+        "default_value": "Context"
+      },
+      "lvl3": ".ref-arguments td, .ref-description",
+      "text": ".contents p, .contents li, .contents .pre"
+    },
+    "reference": {
+      "lvl0": {
+        "selector": ".contents h1",
+        "default_value": "Functions"
+      },
+      "lvl1": {
+        "selector": ".contents .name",
+        "default_value": "Argument"
+      },
+      "lvl2": {
+        "selector": ".ref-arguments th",
+        "default_value": "Description"
+      },
+      "lvl3": ".ref-arguments td, .ref-description",
+      "text": ".contents p, .contents li"
+    },
+    "news": {
+      "lvl0": {
+        "selector": ".contents h1",
+        "default_value": "news"
+      },
+      "lvl1": ".contents .name",
+      "lvl2": {
+        "selector": ".contents h2, .contents h3",
+        "default_value": "Context"
+      },
+      "text": ".contents p, .contents li"
+    },
+    "default": {
+      "lvl1": ".contents h2",
+      "lvl2": ".contents h3, .contents th",
+      "lvl3": ".contents h4",
+      "lvl4": ".contents h5",
+      "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+    }
+  },
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "min_indexed_level": 2,
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor"
+    ]
+  },
+  "conversation_id": [
+    "1310836772"
+  ],
+  "nb_hits": 1237
+}

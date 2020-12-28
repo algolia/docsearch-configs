@@ -1,12 +1,12 @@
 {
   "index_name": "choerodon-ui",
   "start_urls": [
-    "https://choerodon.gitee.io/choerodon-ui/",
-    "https://choerodon.gitee.io/choerodon-ui/en/docs/other/introduce"
+    "https://open-hand.gitee.io/choerodon-ui/",
+    "https://open-hand.gitee.io/choerodon-ui/en/docs/other/introduce"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "https://choerodon.gitee.io/choerodon-ui/sitemap.xml"
+    "https://open-hand.gitee.io/choerodon-ui/sitemap.xml"
   ],
   "selectors": {
     "lvl0": "article h1",
