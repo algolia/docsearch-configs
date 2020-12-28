@@ -5,11 +5,15 @@
     },   
     {
     "url": "https://docs.testarchitect.com/8.5u2",
+  },
+  {
+    "url": "https://docs.testarchitect.com/dev",
   }],
       "stop_urls": [],
   "sitemap_urls": [
     "https://docs.testarchitect.com/sitemap.xml",
-    "https://docs.testarchitect.com/8.5u2/sitemap.xml"
+    "https://docs.testarchitect.com/8.5u2/sitemap.xml",
+    "https://docs.testarchitect.com/dev"
   ],
   "selectors": {
     "lvl0": {
