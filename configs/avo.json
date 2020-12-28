@@ -1,6 +1,6 @@
 {
   "index_name": "avo",
-  "start_urls": [],
+  "start_urls": ["https://www.avo.app"],
   "sitemap_urls": [
     "https://www.avo.app/docs/sitemap.xml"
   ],
