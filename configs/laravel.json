@@ -26,13 +26,13 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//*[contains(@class,'active')]/preceding::h2[1]",
+      "selector": "//*[@id='indexed-nav']//*[contains(@class,'active')]/preceding::h2[1]",
       "default_value": "Documentation",
       "type": "xpath",
       "global": true
     },
     "lvl1": {
-      "selector": "//nav//*[contains(@class,'active')]",
+      "selector": "//*[@id='indexed-nav']//*[contains(@class,'active')]",
       "default_value": "Chapter",
       "type": "xpath",
       "global": true
@@ -69,5 +69,5 @@
     ],
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 68582
+  "nb_hits": 69556
 }

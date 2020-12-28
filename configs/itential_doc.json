@@ -11,11 +11,6 @@
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/[\\d\\.]*/changelogs/",
-      "selectors_key": "changelogs",
-      "page_rank": 3
-    },
-    {
       "url": "https://docs.itential.io/[\\d\\.]*/developer/",
       "page_rank": 3
     },
@@ -34,14 +29,8 @@
       "page_rank": 3
     }
   ],
-  "sitemap_urls": [
-    "https://docs.itential.io/sitemap.xml"
-  ],
-  "stop_urls": [
-    "Open%20Source%20Notices",
-    "/schema//",
-    "/schema//"
-  ],
+  "sitemap_urls": ["https://docs.itential.io/sitemap.xml"],
+  "stop_urls": ["Open%20Source%20Notices", "/schema//", "/schema//"],
   "selectors": {
     "default": {
       "lvl0": {
@@ -54,7 +43,7 @@
       "lvl4": ".markdown-doc .content-body h3",
       "text": ".markdown-doc .content-body p",
       "version": {
-        "selector": ".desktop-only .dropdown-container",
+        "selector": ".release-select .dropdown-container",
         "global": true
       }
     },
@@ -73,21 +62,7 @@
       },
       "text": ".api-method-doc .content-body #summary + p, .api-method-doc .content-body #description + p",
       "version": {
-        "selector": ".desktop-only .dropdown-container",
-        "global": true
-      }
-    },
-    "changelogs": {
-      "lvl0": {
-        "selector": ".markdown-doc .breadcrumb > li:nth-child(2) > a",
-        "global": true
-      },
-      "lvl1": ".markdown-doc h1.content-title",
-      "lvl2": ".markdown-doc .content-body > h1",
-      "lvl3": ".markdown-doc .content-body > h2",
-      "text": ".markdown-doc .content-body p",
-      "version": {
-        "selector": ".desktop-only .dropdown-container",
+        "selector": ".release-select .dropdown-container",
         "global": true
       }
     },
@@ -101,7 +76,7 @@
       "lvl3": ".markdown-doc .content-body h3",
       "text": ".markdown-doc .content-body p",
       "version": {
-        "selector": ".desktop-only .dropdown-container",
+        "selector": ".release-select .dropdown-container",
         "global": true
       }
     },
@@ -118,22 +93,16 @@
       "lvl3": ".markdown-doc .content-body > h2",
       "text": ".markdown-doc .content-body p",
       "version": {
-        "selector": ".desktop-only .dropdown-container",
+        "selector": ".release-select .dropdown-container",
         "global": true
       }
     }
   },
   "custom_settings": {
-    "attributesForFaceting": [
-      "version"
-    ]
+    "attributesForFaceting": ["version"]
   },
   "min_indexed_level": 2,
-  "selectors_exclude": [
-    ".desktop-only .dropdown-container .dropdown-menu.left"
-  ],
-  "conversation_id": [
-    "998577915"
-  ],
-  "nb_hits": 20710
+  "selectors_exclude": [".dropdown-container .dropdown-menu.left"],
+  "conversation_id": ["998577915"],
+  "nb_hits": 23699
 }

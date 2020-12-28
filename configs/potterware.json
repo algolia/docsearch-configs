@@ -1,0 +1,23 @@
+{
+  "index_name": "potterware",
+  "start_urls": [
+    "https://www.potterware.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://www.potterware.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".mdx-wrapper h1",
+    "lvl1": ".mdx-wrapper h2",
+    "lvl2": ".mdx-wrapper h3",
+    "lvl3": ".mdx-wrapper h4",
+    "lvl4": ".mdx-wrapper h5",
+    "lvl5": ".mdx-wrapper h6",
+    "text": ".mdx-wrapper p, .mdx-wrapper li"
+  },
+  "conversation_id": [
+    "1313146722"
+  ],
+  "nb_hits": 281
+}

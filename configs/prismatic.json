@@ -35,7 +35,7 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "//a[@aria-current=\"page\"]/../../../child::a",
+        "selector": "//a[@aria-current='page']/../../../child::a/text()",
         "type": "xpath",
         "global": true,
         "default_value": "Documentation"
@@ -54,7 +54,7 @@
         "default_value": "API"
       },
       "lvl1": {
-        "selector": "//a[@aria-current=\"page\"]/../../../child::a",
+        "selector": "//a[@aria-current='page']/../../../child::a/text()",
         "type": "xpath"
       },
       "lvl2": "[class^='docItemContainer_'] h1",

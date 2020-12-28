@@ -1,33 +1,27 @@
 {
   "index_name": "create-react-app",
-  "start_urls": [
-    "https://create-react-app.dev"
-  ],
-  "sitemap_urls": [
-    "https://create-react-app.dev/sitemap.xml"
-  ],
+  "start_urls": ["https://create-react-app.dev"],
+  "sitemap_urls": ["https://create-react-app.dev/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": "header h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
+    "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "selectors_exclude": [".hash-link"],
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
+    "attributesForFaceting": ["language", "version", "docusaurus_tag"]
   },
-  "conversation_id": [
-    "689861344"
-  ],
-  "nb_hits": 932
+  "conversation_id": ["689861344"],
+  "nb_hits": 954
 }

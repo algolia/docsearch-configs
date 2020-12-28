@@ -1,16 +1,30 @@
 {
   "index_name": "vue-a11y",
   "start_urls": [
-    "https://vue-a11y.com"
+    {
+      "url": "https://vue-a11y.com/",
+      "extra_attributes": {
+        "language": ["pt"]
+      }
+    }
   ],
+  "sitemap_urls": ["https://vue-a11y.com/sitemap.xml"],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content__default h1",
-    "lvl1": ".content__default h2",
-    "lvl2": ".content__default h3",
-    "lvl3": ".content__default h4",
-    "lvl4": ".content__default h5",
-    "text": ".content__default p, .content__default li"
+    "lvl0": ".sidebar .sidebar__title-list--active",
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li",
+    "language": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
   },
   "strip_chars": " .,;:#",
   "conversation_id": [
