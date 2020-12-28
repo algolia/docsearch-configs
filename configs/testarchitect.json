@@ -1,11 +1,19 @@
 {
   "index_name": "testarchitect",
-  "start_urls": [
-    "https://docs.testarchitect.com/"
-  ],
-  "stop_urls": [],
+  "start_urls": [  
+    {"url": "https://docs.testarchitect.com/"
+    },   
+    {
+    "url": "https://docs.testarchitect.com/8.5u2",
+  },
+  {
+    "url": "https://docs.testarchitect.com/dev",
+  }],
+      "stop_urls": [],
   "sitemap_urls": [
-    "https://docs.testarchitect.com/sitemap.xml"
+    "https://docs.testarchitect.com/sitemap.xml",
+    "https://docs.testarchitect.com/8.5u2/sitemap.xml",
+    "https://docs.testarchitect.com/dev"
   ],
   "selectors": {
     "lvl0": {
@@ -26,6 +34,7 @@
     "text": "main p, main li, main td"
   },
   "custom_settings": {
+    "attributesForFaceting": [ "version"],
     "separatorsToIndex": "!$/:*?<>|#=[];%.",
     "disableTypoToleranceOnWords": ["SAP", "ios", "WPF", "TA","login"],
     "synonyms": [
