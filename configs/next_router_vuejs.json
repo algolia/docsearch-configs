@@ -11,7 +11,7 @@
     {
       "url": "https://next.router.vuejs.org/api/",
       "selectors_key": "api",
-        "tags": [
+      "tags": [
         "api"
       ]
     }
@@ -23,7 +23,7 @@
         "selector": "",
         "default_value": "Guide"
       },
-        "lvl1": ".content h1",
+      "lvl1": ".content h1",
       "lvl2": ".content h2",
       "lvl3": ".content h3",
       "lvl4": ".content h4",
@@ -31,11 +31,15 @@
       "text": ".content p, .content li"
     },
     "api": {
-      "lvl0": ".content h1",
-      "lvl1": ".content h2",
-      "lvl2": ".content h3",
-      "lvl3": ".content h4",
-      "lvl4": ".content h5",
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
       "text": ".content p, .content li"
     }
   },
@@ -43,5 +47,5 @@
   "conversation_id": [
     "1305035158"
   ],
-  "nb_hits": 1092
+  "nb_hits": 897
 }

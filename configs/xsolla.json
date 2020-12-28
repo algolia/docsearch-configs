@@ -4,87 +4,44 @@
     {
       "url": "https://developers.xsolla.com/(?P<lang>.*?)/api/v2",
       "selectors_key": "api",
-      "tags": [
-        "api",
-        "v2"
-      ],
+      "tags": ["api", "v2"],
       "variables": {
-        "lang": [
-          "ja",
-          "ru",
-          "ko",
-          "zh",
-          "de"
-        ]
+        "lang": ["ja", "ru", "ko", "zh", "de"]
       }
     },
     {
       "url": "https://developers.xsolla.com/(?P<lang>.*?)/api/v1",
       "selectors_key": "api",
-      "tags": [
-        "api",
-        "v1"
-      ],
+      "tags": ["api", "v1"],
       "variables": {
-        "lang": [
-          "ja",
-          "ru",
-          "ko",
-          "zh",
-          "de"
-        ]
+        "lang": ["ja", "ru", "ko", "zh", "de"]
       }
     },
     {
       "url": "https://developers.xsolla.com/(?P<lang>.*?)/",
-      "tags": [
-        "doc"
-      ],
+      "tags": ["doc"],
       "variables": {
-        "lang": [
-          "ja",
-          "ru",
-          "ko",
-          "zh",
-          "de"
-        ]
+        "lang": ["ja", "ru", "ko", "zh", "de"]
       }
     },
     {
       "url": "https://developers.xsolla.com",
-      "tags": [
-        "doc"
-      ],
+      "tags": ["doc"],
       "extra_attributes": {
-        "lang": [
-          "en"
-        ]
+        "lang": ["en"]
       }
     }
   ],
   "stop_urls": [],
   "selectors": {
-    "default": {
-      "lvl0": ".content h1",
-      "lvl1": ".content h2",
-      "lvl2": ".content h3",
-      "lvl3": ".content h4",
-      "lvl4": ".content h5",
-      "lvl5": ".content h6",
-      "text": ".content p, .content li, .content td"
-    },
-    "api": {
-      "lvl0": ".article-content h1",
-      "lvl1": ".article-content h2",
-      "lvl2": ".article-content h3",
-      "lvl3": ".article-content h4",
-      "lvl4": ".article-content h5",
-      "lvl5": ".article-content h6",
-      "text": ".article-content p, .article-content li, .article-content td"
-    }
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li, article td"
   },
-  "conversation_id": [
-    "538992189"
-  ],
+  "conversation_id": ["538992189"],
   "nb_hits": 101305
 }

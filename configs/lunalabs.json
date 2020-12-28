@@ -1,10 +1,10 @@
 {
   "index_name": "lunalabs",
   "start_urls": [
-    "https://docs.lunalabs.uk/docs/"
+    "https://docs.lunalabs.io/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.lunalabs.uk/sitemap.xml"
+    "https://docs.lunalabs.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

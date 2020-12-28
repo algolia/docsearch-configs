@@ -1,0 +1,24 @@
+{
+  "index_name": "portfoliooptimizer",
+  "start_urls": [
+    "https://docs.portfoliooptimizer.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "use_anchors": true,
+  "conversation_id": [
+    "1315137785"
+  ],
+  "nb_hits": 318
+}

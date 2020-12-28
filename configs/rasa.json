@@ -2,15 +2,15 @@
   "index_name": "rasa",
   "start_urls": [
     {
-      "url": "https://rasa.com/docs/rasa",
+      "url": "https://rasa.com/docs/rasa/",
       "tags": ["rasa"]
     },
     {
-      "url": "https://rasa.com/docs/rasa-x",
+      "url": "https://rasa.com/docs/rasa-x/",
       "tags": ["rasa-x"]
     },
     {
-      "url": "https://rasa.com/docs/action-server",
+      "url": "https://rasa.com/docs/action-server/",
       "tags": ["rasa-action-server"]
     }
   ],
@@ -56,5 +56,5 @@
   "conversation_id": [
     "1024327491"
   ],
-  "nb_hits": 13402
+  "nb_hits": 14641
 }

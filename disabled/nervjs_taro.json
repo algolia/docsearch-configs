@@ -29,7 +29,9 @@
   "custom_settings": {
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "type",
+      "docusaurus_tag"
     ]
   },
   "conversation_id": [

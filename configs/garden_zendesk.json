@@ -1,0 +1,40 @@
+{
+  "index_name": "garden_zendesk",
+  "start_urls": [
+    {
+      "url": "https://garden.zendesk.com/content",
+      "tags": [
+        "content"
+      ]
+    },
+    {
+      "url": "https://garden.zendesk.com/design",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "url": "https://garden.zendesk.com/components",
+      "tags": [
+        "components"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://garden.zendesk.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "#main-content h1",
+    "lvl1": "#main-content h2",
+    "lvl2": "#main-content h3",
+    "lvl3": "#main-content h4",
+    "lvl4": "#main-content h5",
+    "lvl5": "#main-content h6",
+    "text": "#main-content p, #main-content li"
+  },
+  "conversation_id": [
+    "1335700762"
+  ],
+  "nb_hits": 3359
+}

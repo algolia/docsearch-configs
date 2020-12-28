@@ -1,0 +1,26 @@
+{
+  "index_name": "cardano-documentation",
+  "start_urls": [
+    "https://cardano-documentation.netlify.app/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://cardano-documentation.netlify.app/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".pageWrap .titleWrapper h1",
+    "lvl2": ".pageWrap > div:last-child h1",
+    "lvl3": ".pageWrap h2",
+    "lvl4": ".pageWrap h3",
+    "lvl5": ".pageWrap h4",
+    "text": ".pageWrap p, .pageWrap li"
+  },
+  "conversation_id": [
+    "1321296334"
+  ],
+  "nb_hits": 3509
+}

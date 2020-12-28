@@ -5,6 +5,7 @@
   ],
   "stop_urls": [],
   "selectors": {
+    "version": "[data-algolia='major-version']",
     "lvl0": "[data-algolia-lvl='0']",
     "lvl1": "[data-algolia-lvl='1']",
     "lvl2": "[data-algolia-lvl='2']",
@@ -19,6 +20,23 @@
   "conversation_id": [
     "1214433232"
   ],
-  "scrape_start_urls": false,
-  "nb_hits": 27745
+  "scrape_start_urls": true,
+  "min_indexed_level": 5,
+  "use_anchors": true,
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ],
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "c#",
+        "csharp"
+      ]
+    ]
+  },
+  "nb_hits": 12277
 }
