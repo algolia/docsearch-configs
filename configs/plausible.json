@@ -1,10 +1,10 @@
 {
   "index_name": "plausible",
   "start_urls": [
-    "https://docs.plausible.io/"
+    "https://plausible.io/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.plausible.io/sitemap.xml"
+    "https://plausible.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1202899750"
   ],
-  "nb_hits": 286
+  "nb_hits": 850
 }
