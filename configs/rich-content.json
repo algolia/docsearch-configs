@@ -1,10 +1,10 @@
 {
   "index_name": "rich-content",
   "start_urls": [
-    "https://wix-incubator.github.io/rich-content/"
+    "https://wix.github.io/ricos/"
   ],
   "sitemap_urls": [
-    "https://wix-incubator.github.io/rich-content/sitemap.xml"
+    "https://wix.github.io/ricos/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -43,5 +43,5 @@
   "conversation_id": [
     "1373668847"
   ],
-  "nb_hits": 835
+  "nb_hits": 945
 }
