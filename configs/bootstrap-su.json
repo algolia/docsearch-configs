@@ -40,16 +40,10 @@
       "text": "main p, main li, main td:last-child"
     }
   },
-  "selectors_exclude": [
-    ".bd-example"
-  ],
+  "selectors_exclude": [".bd-example"],
   "custom_settings": {
-    "attributesForFaceting": [
-      "version"
-    ]
+    "attributesForFaceting": ["version"]
   },
-  "conversation_id": [
-    "1349070826"
-  ],
+  "conversation_id": ["1329618084"],
   "nb_hits": 7945
 }
