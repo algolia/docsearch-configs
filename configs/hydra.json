@@ -8,7 +8,7 @@
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
-    "https://hydra.cc/docs/fb"
+    "/fb/"
   ],
   "selectors": {
     "lvl0": {
@@ -29,5 +29,5 @@
   "conversation_id": [
     "1056224082"
   ],
-  "nb_hits": 2262
+  "nb_hits": 2180
 }
