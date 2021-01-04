@@ -3,15 +3,11 @@
   "start_urls": [
     {
       "url": "https://www.openhab.org/docs/",
-      "tags": [
-        "docs"
-      ]
+      "tags": ["docs"]
     },
     {
       "url": "https://www.openhab.org/addons/",
-      "tags": [
-        "addons"
-      ],
+      "tags": ["addons"],
       "selectors_key": "addons"
     }
   ],
@@ -28,11 +24,11 @@
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4, .content table td:first-of-type",
-      "text": ".content li, .content p, .content table td:last-child",
+      "lvl1": ".content__default h1",
+      "lvl2": ".content__default h2",
+      "lvl3": ".content__default h3",
+      "lvl4": ".content__default h4, .content__default table td:first-of-type",
+      "text": ".content__default li, .content__default p, .content__default table td:last-child",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -50,11 +46,11 @@
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl2": ".content h1",
-      "lvl3": ".content h2",
-      "lvl4": ".content h3",
-      "lvl5": ".content h4, .content table td:first-of-type",
-      "text": ".content li, .content p, .content table td:last-child",
+      "lvl2": ".content__default h1",
+      "lvl3": ".content__default h2",
+      "lvl4": ".content__default h3",
+      "lvl5": ".content__default h4, .content__default table td:first-of-type",
+      "text": ".content__default li, .content__default p, .content__default table td:last-child",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -63,19 +59,14 @@
     }
   },
   "strip_chars": " .,;:#",
-  "conversation_id": [
-    "626034232"
-  ],
+  "conversation_id": ["626034232"],
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "lang",
-      "tags"
-    ]
+    "attributesForFaceting": ["lang", "tags"]
   },
   "selectors_exclude": [
-    ".table-of-contents",
-    "#table-of-contents"
+    ".table-of.content__defaults",
+    "#table-of.content__defaults"
   ],
   "nb_hits": 42667
 }
