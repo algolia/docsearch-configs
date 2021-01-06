@@ -9,7 +9,6 @@
   "stop_urls": [
     "/blog/",
     "/training/",
-    "/html",
     "release-notes"
   ],
   "selectors": {
