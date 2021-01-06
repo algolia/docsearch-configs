@@ -1,38 +1,51 @@
 {
   "index_name": "accounts",
   "start_urls": [
-    "https://accountsjs.com/"
+    "https://www.accountsjs.com/"
   ],
   "stop_urls": [],
   "selectors": {
-    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li",
-    "lvl1": "[class^='docItemContainer_'] h1",
-    "lvl2": "[class^='docItemContainer_'] h2",
-    "lvl3": "[class^='docItemContainer_'] h3",
-    "lvl4": "[class^='docItemContainer_'] h4",
-    "lvl5": "[class^='docItemContainer_'] h5",
-    "lvl6": "[class^='docItemContainer_'] h6",
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
-    }
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
   "selectors_exclude": [
     ".hash-link"
   ],
   "sitemap_urls": [
-    "https://accountsjs.com/sitemap.xml"
+    "https://www.accountsjs.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
+  "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "conversation_id": [
     "1086035401"
   ],
-  "nb_hits": 6855
+  "nb_hits": 9025
 }
