@@ -5,16 +5,19 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+    "lvl0": {
+      "selector": "div [class*='CurrentTechnology'] h2",
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
   },
   "conversation_id": [
     "1087344940"
   ],
-  "nb_hits": 11173
+  "nb_hits": 18996
 }
