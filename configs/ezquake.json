@@ -1,0 +1,24 @@
+{
+  "index_name": "ezquake",
+  "start_urls": [
+    "https://vikpe.org/ezquake.github.io/docs/"
+  ],
+  "stop_urls": [],
+  "scrape_start_urls": false,
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "1386878205"
+  ],
+  "nb_hits": 4638
+}
