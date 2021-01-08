@@ -1,10 +1,10 @@
 {
-  "index_name": "cyanview_support-ci",
+  "index_name": "ishumei",
   "start_urls": [
-    "https://support.cyanview.com/"
+    "https://help.ishumei.com/"
   ],
   "sitemap_urls": [
-    "https://support.cyanview.com/sitemap.xml"
+    "https://help.ishumei.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1270060641"
+    "1378656254"
   ],
-  "nb_hits": 767
+  "nb_hits": 4092
 }
