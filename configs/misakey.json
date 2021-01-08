@@ -1,10 +1,10 @@
 {
-  "index_name": "cyanview_support-ci",
+  "index_name": "misakey",
   "start_urls": [
-    "https://support.cyanview.com/"
+    "https://docs.misakey.com/"
   ],
   "sitemap_urls": [
-    "https://support.cyanview.com/sitemap.xml"
+    "https://docs.misakey.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1270060641"
+    "1370356318"
   ],
-  "nb_hits": 767
+  "nb_hits": 146
 }
