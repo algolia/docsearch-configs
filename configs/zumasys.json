@@ -27,7 +27,9 @@
   }
   ],
   "sitemap_urls": ["https://docs.zumasys.com/sitemap.xml"],
-  "stop_urls": [],
+  "stop_urls": [
+    ".*(?<!/)$"
+  ],
   "selectors": {
     "text": ".theme-default-content p, .theme-default-content li, .theme-default-content code",
     "lvl0": ".theme-default-content span.badge",
