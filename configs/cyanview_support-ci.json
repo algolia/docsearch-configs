@@ -1,17 +1,17 @@
 {
   "index_name": "cyanview_support-ci",
   "start_urls": [
-    "https://support-ci.cyanview.com/docs/",
-    "https://support-ci.cyanview.com/docs/DefaultDocsPage"
+    "https://support.cyanview.com/"
   ],
   "sitemap_urls": [
-    "https://support-ci.cyanview.com/sitemap.xml"
+    "https://support.cyanview.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -28,7 +28,8 @@
     "attributesForFaceting": [
       "language",
       "version",
-      "type"
+      "type",
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -42,5 +43,5 @@
   "conversation_id": [
     "1270060641"
   ],
-  "nb_hits": 2005
+  "nb_hits": 767
 }
