@@ -30,9 +30,9 @@
   "stop_urls": [],
   "selectors": {
     "text": ".theme-default-content p, .theme-default-content li, .theme-default-content code",
-    "lvl0": ".theme-default-content h1",
-    "lvl1": ".theme-default-content h2",
-    "lvl2": ".theme-default-content span.badge",
+    "lvl0": ".theme-default-content span.badge",
+    "lvl1": ".theme-default-content h1",
+    "lvl2": ".theme-default-content h2",
     "lvl3": ".theme-default-content h3",
     "lvl4": ".theme-default-content h4",
     "lvl5": ".theme-default-content h5",
