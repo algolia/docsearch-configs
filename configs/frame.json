@@ -1,7 +1,7 @@
 {
   "index_name": "frame",
   "start_urls": [
-    "https://docs.frame.io/docs/"
+    "https://developer.frame.io/docs/"
   ],
   "stop_urls": [],
   "selectors": {
