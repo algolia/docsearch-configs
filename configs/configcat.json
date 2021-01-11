@@ -5,7 +5,8 @@
     { "url": "https://configcat.com/blog/", "tags": [ "blog" ] }
   ],
   "sitemap_urls": [
-    "https://configcat.com/docs/sitemap.xml"
+    "https://configcat.com/docs/sitemap.xml",
+    "https://configcat.com/blog/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
