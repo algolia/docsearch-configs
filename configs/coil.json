@@ -1,12 +1,11 @@
 {
-  "index_name": "activeworkflow",
+  "index_name": "coil",
   "start_urls": [
-    "https://docs.activeworkflow.org/"
+    "https://help.coil.com/"
   ],
   "sitemap_urls": [
-    "https://docs.activeworkflow.org/sitemap.xml"
+    "https://help.coil.com/sitemap.xmll"
   ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -42,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1383238566"
+    "1372082702"
   ],
-  "nb_hits": 372
+  "nb_hits": 2107
 }
