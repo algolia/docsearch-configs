@@ -1,22 +1,10 @@
 {
-  "index_name": "lockself_support",
+  "index_name": "incountry",
   "start_urls": [
-    {
-      "url": "https://support.lockself.com/docs/",
-      "tags": [
-        "fr"
-      ]
-    },
-    {
-      "url": "https://support-en.lockself.com/",
-      "tags": [
-        "en"
-      ]
-    }
+    "https://docs.incountry.com/"
   ],
   "sitemap_urls": [
-    "https://support.lockself.com/sitemap.xml",
-    "https://support-en.lockself.com/sitemap.xml"
+    "https://docs.incountry.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +29,6 @@
       "language",
       "version",
       "type",
-      "tags",
       "docusaurus_tag"
     ],
     "attributesToRetrieve": [
@@ -49,13 +36,12 @@
       "content",
       "anchor",
       "url",
-      "tags",
       "url_without_anchor",
       "type"
     ]
   },
   "conversation_id": [
-    "1219067916"
+    "1390068955"
   ],
-  "nb_hits": 1184
+  "nb_hits": 1988
 }
