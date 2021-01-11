@@ -1,7 +1,8 @@
 {
   "index_name": "configcat",
   "start_urls": [
-    "https://configcat.com/docs/"
+    { "url": "https://configcat.com/docs/", "selectors_key": "docsselector", "tags": [ "docs" ] }, 
+    { "url": "https://configcat.com/blog/", "selectors_key": "blogselector", "tags": [ "blog" ] },
   ],
   "sitemap_urls": [
     "https://configcat.com/docs/sitemap.xml"
