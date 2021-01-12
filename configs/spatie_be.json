@@ -37,7 +37,8 @@
           "laravel-resource-links",
           "laravel-backup-server",
           "laravel-dashboard",
-          "laravel-multitenancy"
+          "laravel-multitenancy",
+          "ray"
         ]
       }
     }
