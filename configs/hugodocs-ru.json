@@ -1,0 +1,36 @@
+{
+  "index_name": "hugodocs-ru",
+  "start_urls": [
+    "https://gohugo.ru/getting-started/",
+    "https://gohugo.ru/"
+  ],
+  "stop_urls": [
+    "https://gohugo.ru/getting-started/$",
+    "https://gohugo.ru/categories",
+    "https://gohugo.ru/about",
+    "https://gohugo.ru/news"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "header a",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article dt",
+    "text": "article p, article dd, article code"
+  },
+  "selectors_exclude": [
+    ".footer-panel",
+    "nav",
+    "categories"
+  ],
+  "min_indexed_level": 1,
+  "scrape_start_urls": false,
+  "conversation_id": [
+    "1392804752"
+  ],
+  "nb_hits": 22309
+}
