@@ -1,9 +1,12 @@
 {
   "index_name": "thethingsstack",
   "start_urls": [
-    "https://thethingsstack.io"
+    "https://thethingsindustries.com/docs/"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://thethingsindustries.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": "section h1",
     "lvl1": "section h2",
@@ -16,5 +19,5 @@
   "conversation_id": [
     "1175134572"
   ],
-  "nb_hits": 4768
+  "nb_hits": 128
 }
