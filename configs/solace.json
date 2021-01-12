@@ -2,82 +2,76 @@
   "index_name": "solace",
   "start_urls": [
     {
+      "url": "https://docs.solace.com/Security/Security-Solace.htm",
+      "page_rank": 90
+    },
+    {
       "url": "https://docs.solace.com/Solace-PubSub-Event-Reference/event_ref_boiler",
       "selectors_key": "event_reference_guide",
-      "tags": ["event_reference_guide"]
+      "tags": [
+        "event_reference_guide"
+      ]
     },
     {
       "url": "https://docs.solace.com/Solace-CLI/CLI-Reference/VMR_CLI_Commands",
       "selectors_key": "cli_command",
-      "tags": ["cli_command", "vmr"]
+      "tags": [
+        "cli_command",
+        "vmr"
+      ]
     },
     {
       "url": "https://docs.solace.com/Solace-CLI/CLI-Reference/APPL_CLI_Commands.html",
       "selectors_key": "cli_command",
-      "tags": ["cli_command", "appl"]
-    },
-    {
-      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/index.html",
-      "selectors_key": "api_reference_guide_c",
-      "tags": ["api_reference_guide", "c"]
+      "tags": [
+        "cli_command",
+        "appl"
+      ]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/",
       "selectors_key": "api_reference_guide_c",
-      "tags": ["api_reference_guide", "c"]
-    },
-    {
-      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/index.html",
-      "selectors_key": "api_reference_guide_net",
-      "tags": ["api_reference_guide", "net"]
+      "tags": [
+        "api_reference_guide",
+        "c"
+      ]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/",
       "selectors_key": "api_reference_guide_net",
-      "tags": ["api_reference_guide", "net"]
-    },
-    {
-      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/jrto/index.html",
-      "selectors_key": "api_reference_guide",
-      "tags": ["api_reference_guide", "jrto"]
+      "tags": [
+        "api_reference_guide",
+        "net"
+      ]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/jrto/",
       "selectors_key": "api_reference_guide",
-      "tags": ["api_reference_guide", "jrto"]
-    },
-    {
-      "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/java/index.html",
-      "selectors_key": "api_reference_guide",
-      "tags": ["api_reference_guide", "java"]
+      "tags": [
+        "api_reference_guide",
+        "jrto"
+      ]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/java/",
       "selectors_key": "api_reference_guide",
-      "tags": ["api_reference_guide", "java"]
+      "tags": [
+        "api_reference_guide",
+        "java"
+      ]
     },
     {
       "url": "https://docs.solace.com/API-Developer-Online-Ref-Documentation/",
       "selectors_key": "api_reference_guide",
-      "tags": ["api_reference_guide"]
-    },
-
-    {
-      "url": "https://docs.solace.com/Security/Security-Solace.htm",
-      "page_rank": 90
-    },
-
-    {
-      "url": "https://docs.solace.com/Solace-Cloud/Deployment-Considerations/security-considerations-all.htm#mc-main-content",
-      "page_rank": 85
-    },
-    {
-      "url": "https://docs.solace.com/MQTT-311-Prtl-Conformance-Spec/Security.htm",
-      "page_rank": 1
+      "tags": [
+        "api_reference_guide"
+      ]
     },
     {
       "url": "https://docs.solace.com/",
-      "tags": ["docs"]
+      "tags": [
+        "docs"
+      ]
     },
     "https://docs.solace.com/Solace-PubSub-Messaging-APIs/API-Developer-Guide/Java-API-Best-Practices.htm"
   ],
@@ -92,14 +86,12 @@
     "Not-Found.htm",
     "jcsmp/class-use/"
   ],
-  "sitemap_urls": ["https://docs.solace.com/Sitemap.xml"],
+  "sitemap_urls": [
+    "https://docs.solace.com/Sitemap.xml"
+  ],
   "selectors": {
     "default": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "NOT USED"
-      },
+      "lvl0": "",
       "lvl1": "#contentBody div h1",
       "lvl2": "#contentBody div h2",
       "lvl3": "#contentBody div h3",
@@ -109,11 +101,7 @@
       "text": "#contentBody div p, #contentBody div li, .sample_snippet"
     },
     "learning_center": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "NOT USED"
-      },
+      "lvl0": "",
       "lvl1": {
         "selector": "//*[contains(@class,'wy-menu')]//ul[contains(@class,'current')]/preceding::span[contains(@class,'caption-text')][1]",
         "type": "xpath",
@@ -128,11 +116,7 @@
       "text": ".section p, .section li"
     },
     "api_reference_guide": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "NOT USED"
-      },
+      "lvl0": "",
       "lvl1": {
         "selector": ".header h2.title",
         "global": true
@@ -143,11 +127,7 @@
       "text": ".contentContainer .block, .details dd"
     },
     "api_reference_guide_net": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "NOT USED"
-      },
+      "lvl0": "",
       "lvl1": {
         "selector": "",
         "global": true,
@@ -157,11 +137,7 @@
       "text": ".topicContent > p, .topicContent > .summary"
     },
     "api_reference_guide_c": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "NOT USED"
-      },
+      "lvl0": "",
       "lvl1": {
         "selector": "",
         "global": true,
@@ -175,11 +151,7 @@
       "text": ".contents p, .contents li"
     },
     "event_reference_guide": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "NOT USED"
-      },
+      "lvl0": "",
       "lvl1": ".full_section h2",
       "lvl2": ".module_div > h3",
       "lvl3": ".module_div > .event_outer_div h3",
@@ -187,11 +159,7 @@
       "text": ".event_inner_div .event_description, .event_inner_div .event_recommended_actions"
     },
     "cli_command": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "NOT USED"
-      },
+      "lvl0": "",
       "lvl1": ".book-title",
       "lvl2": ".section-title,blockquote h2",
       "lvl3": "blockquote h3,.cmd-section-title",
@@ -200,10 +168,18 @@
       "text": "blockquote li, blockquote p, .cmd-help td:first-child, .cmd-help td:last-child, .cmd-help-text"
     }
   },
-  "selectors_exclude": ["[class^=Code_Snippet]", "[summary]", ".cli-tree"],
+  "selectors_exclude": [
+    "[class^=Code_Snippet]",
+    "[summary]",
+    ".cli-tree"
+  ],
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "conversation_id": ["702227168"],
-  "nb_hits": 94925
+  "js_render": true,
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "702227168"
+  ],
+  "nb_hits": 125231
 }
