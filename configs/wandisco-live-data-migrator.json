@@ -26,10 +26,8 @@
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "language",
       "version",
-      "type",
-      "docusaurus_tag"
+      "type"
     ],
     "attributesToRetrieve": [
       "hierarchy",
