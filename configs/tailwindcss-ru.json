@@ -1,0 +1,46 @@
+{
+  "index_name": "tailwindcss-ru",
+  "start_urls": [
+    "https://tailwindcss.su/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@id, 'nav')]//*[contains(@class, 'opacity-50')][1]/preceding::h5[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-wrapper h1",
+    "lvl2": "#content-wrapper h2",
+    "lvl3": "#content-wrapper h3",
+    "lvl4": "#content-wrapper h4, #content-wrapper td:first-child",
+    "lvl5": "#content-wrapper h5",
+    "text": "#content-wrapper > p, #content-wrapper > ul li, #content-wrapper td:not(:first-child), #content-wrapper .text-gray-600"
+  },
+  "selectors_exclude": [
+    "p.text-base",
+    ".list-inside",
+    ".bg-gray-200"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "type",
+      "tags"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ],
+    "separatorsToIndex": "@_"
+  },
+  "conversation_id": [
+    "1392803704"
+  ],
+  "nb_hits": 9648
+}
