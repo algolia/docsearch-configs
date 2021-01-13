@@ -3,7 +3,8 @@
   "start_urls": [
     {
       "url": "https://docs.solace.com/Security/Security-Solace.htm",
-      "page_rank": 90
+      "tags": ["docs"],
+      "page_rank": 110
     },
     {
       "url": "https://docs.solace.com/Solace-PubSub-Event-Reference/event_ref_boiler",
