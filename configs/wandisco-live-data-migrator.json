@@ -27,7 +27,8 @@
     "separatorsToIndex": "_",
     "attributesForFaceting": [
       "version",
-      "type"
+      "type",
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
