@@ -1,12 +1,11 @@
 {
   "index_name": "bulma",
-  "start_urls": [
-    "https://bulma.io/documentation/"
-  ],
+  "start_urls": ["https://bulma.io/documentation/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".breadcrumb li:nth-child(3) a",
+      "selector": "(//*[contains(@class,'bd-breadcrumb')]//li[contains(@class, 'is-active')]/preceding-sibling::li)[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -15,20 +14,9 @@
     "lvl3": ".bd-content h4",
     "lvl4": ".bd-content h5",
     "lvl5": ".bd-content h6",
-    "text": ".bd-content p, .bd-content li, .bd-header-titles p"
-  },
-  "custom_settings": {
-    "separatorsToIndex": "_"
+    "text": ".bd-content p, .bd-content li"
   },
   "strip_chars": " .,;:#",
-  "selectors_exclude": [
-    ".tile",
-    ".bd-example",
-    "nav.bd-links",
-    ".bd-snippet-preview "
-  ],
-  "conversation_id": [
-    "752273054"
-  ],
-  "nb_hits": 1495
+  "conversation_id": ["1395013655"],
+  "nb_hits": 2046
 }
