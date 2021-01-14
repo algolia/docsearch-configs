@@ -4,7 +4,7 @@
     {
       "url": "https://docs.solace.com/Security/Security-Solace.htm",
       "tags": ["docs"],
-      "page_rank": 110
+      "page_rank": 200
     },
     {
       "url": "https://docs.solace.com/Solace-PubSub-Event-Reference/event_ref_boiler",
@@ -148,7 +148,6 @@
     "separatorsToIndex": "_"
   },
   "js_render": true,
-  "js_wait": 1,
   "min_indexed_level": 1,
   "conversation_id": ["702227168"],
   "nb_hits": 125231
