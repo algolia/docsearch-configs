@@ -1,22 +1,55 @@
 {
-  "index_name": "frame",
-  "start_urls": [
-    "https://developer.frame.io/",
-    "https://developer.frame.io/docs/",
-    "https://developer.frame.io/api/reference/"
-  ],
-  "stop_urls": [],
-  "selectors": {
-    "lvl0": "header h1",
-    "lvl1": ".content-body h2",
-    "lvl2": ".content-body h3",
-    "lvl3": ".content-body h4",
-    "lvl4": ".content-body h5",
-    "lvl5": ".content-body h6",
-    "text": ".content-body p, .content-body li"
-  },
-  "conversation_id": [
-    "1354162550"
-  ],
-  "nb_hits": 1057
+    "index_name": "frame",
+    "start_urls": [
+        {
+            "url": "https://developer.frame.io/docs/",
+            "selectors_key": "docs"
+        },
+        {
+            "url": "https://developer.frame.io/api/reference/",
+            "selectors_key": "api"
+        },
+        {
+            "url": "https://developer.frame.io/portal",
+            "selectors_key": "portal"
+        }
+    ],
+    "selectors_exclude": [
+        "aside"
+    ],
+    "stop_urls": [],
+    "selectors": {
+        "portal": {
+            "lvl0": ".header-wrapper h1",
+            "lvl1": ".content-body h2",
+            "lvl2": ".content-body h3",
+            "lvl3": ".content-body h4",
+            "lvl4": ".content-body h5",
+            "lvl5": ".content-body h6",
+            "text": ".content-body p, .content-body li"
+        },
+        "docs": {
+            "lvl0": ".header-wrapper h1",
+            "lvl1": "main h2",
+            "lvl2": "main h3",
+            "lvl3": "main h4",
+            "lvl4": "main h5",
+            "lvl5": "main h6",
+            "text": "main p"
+        },
+        "api": {
+            "lvl0": {
+                "selector": "//*[@id='gatsby-focus-wrapper']/div/div[2]/div/div[1]/div[2]/div/div[1]/h2",
+                "type": "xpath"
+            },
+            "lvl2": {
+                "selector": "//*[@id='gatsby-focus-wrapper']/div/div[2]/div/div[1]/div[2]/div/div[2]/div[1]/button/span[1]",
+                "type": "xpath"
+            }
+        }
+    },
+    "conversation_id": [
+        "1354162550"
+    ],
+    "nb_hits": 1057
 }
