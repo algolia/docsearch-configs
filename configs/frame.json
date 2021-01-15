@@ -19,7 +19,7 @@
     ],
     "stop_urls": [],
     "selectors": {
-        "marketing": {
+        "portal": {
             "lvl0": ".header-wrapper h1",
             "lvl1": ".content-body h2",
             "lvl2": ".content-body h3",
