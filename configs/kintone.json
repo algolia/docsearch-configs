@@ -1,10 +1,10 @@
 {
-  "index_name": "kintone_ui_component",
+  "index_name": "kintone",
   "start_urls": [
-    "https://phongnhat19.github.io/kintone-ui-component/docs/"
+    "https://kintone-ui-component.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://phongnhat19.github.io/kintone-ui-component/sitemap.xml"
+    "https://kintone-ui-component.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -32,7 +32,7 @@
     ]
   },
   "conversation_id": [
-    "939139745"
+    "1395786873"
   ],
-  "nb_hits": 17501
+  "nb_hits": 634
 }
