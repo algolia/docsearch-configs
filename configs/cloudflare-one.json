@@ -8,16 +8,18 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+    "lvl0": ".DocsContent h1",
+    "lvl1": ".DocsContent h2",
+    "lvl2": ".DocsContent h3",
+    "lvl3": ".DocsContent h4",
+    "lvl4": ".DocsContent h5",
+    "lvl5": ".DocsContent h6",
+    "text": ".DocsContent p, .DocsContent li"
   },
+  "selectors_exclude": ["h1 + ul"],
   "conversation_id": [
     "1396809261"
   ],
+  "js_render": true,
   "nb_hits": 5096
 }
