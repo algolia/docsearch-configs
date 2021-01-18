@@ -1,0 +1,49 @@
+{
+  "index_name": "a11y-guidelines-orange",
+  "start_urls": [
+    {
+      "url": "https://a11y-guidelines.orange.com/(?P<language>.*?)/(?P<platform>.*?)/",
+      "variables": {
+        "language": [
+          "en",
+          "fr"
+        ],
+        "platform": [
+          "web",
+          "mobile/android",
+          "mobile/ios",
+          "editorial-content"
+        ]
+      }
+    },
+    {
+      "url": "https://a11y-guidelines.orange.com/(?P<language>.*?)/",
+      "variables": {
+        "language": [
+          "en",
+          "fr"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main h1",
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "platform"
+    ]
+  },
+  "conversation_id": [
+    "1333945502"
+  ],
+  "nb_hits": 10618
+}
