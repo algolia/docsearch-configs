@@ -4,29 +4,45 @@
     {
       "url": "https://getbootstrap.com/docs/4.0/",
       "extra_attributes": {
-        "language": ["en"],
-        "version": ["4.0"]
+        "language": [
+          "en"
+        ],
+        "version": [
+          "4.0"
+        ]
       }
     },
     {
       "url": "https://getbootstrap.com/docs/4.1/",
       "extra_attributes": {
-        "language": ["en"],
-        "version": ["4.1"]
+        "language": [
+          "en"
+        ],
+        "version": [
+          "4.1"
+        ]
       }
     },
     {
       "url": "https://getbootstrap.com/docs/4.2/",
       "extra_attributes": {
-        "language": ["en"],
-        "version": ["4.2"]
+        "language": [
+          "en"
+        ],
+        "version": [
+          "4.2"
+        ]
       }
     },
     {
       "url": "https://getbootstrap.com/docs/5.0/",
       "extra_attributes": {
-        "language": ["en"],
-        "version": ["5.0"]
+        "language": [
+          "en"
+        ],
+        "version": [
+          "5.0"
+        ]
       },
       "selectors_key": "v5"
     },
@@ -35,7 +51,9 @@
     "https://getbootstrap.com/docs/4.5/",
     "https://getbootstrap.com/docs/"
   ],
-  "sitemap_urls": ["https://getbootstrap.com/sitemap.xml"],
+  "sitemap_urls": [
+    "https://getbootstrap.com/sitemap.xml"
+  ],
   "stop_urls": [
     "/examples/.+",
     "getbootstrap.com/docs/3",
@@ -69,9 +87,14 @@
       "text": "main p, main li, main td:last-child"
     }
   },
-  "selectors_exclude": [".bd-example"],
+  "selectors_exclude": [
+    ".bd-example"
+  ],
   "custom_settings": {
-    "attributesForFaceting": ["version", "language"]
+    "attributesForFaceting": [
+      "version",
+      "language"
+    ]
   },
-  "nb_hits": 21240
+  "nb_hits": 25547
 }
