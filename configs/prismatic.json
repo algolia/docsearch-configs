@@ -2,33 +2,33 @@
   "index_name": "prismatic",
   "start_urls": [
     {
-      "url": "https://www.prismatic.io/docs/components/",
+      "url": "https://prismatic.io/docs/components/",
       "page_rank": -1
     },
     {
-      "url": "https://www.prismatic.io/docs/getting-started/",
+      "url": "https://prismatic.io/docs/getting-started/",
       "page_rank": -3
     },
     {
-      "url": "https://www.prismatic.io/docs/cli/",
+      "url": "https://prismatic.io/docs/cli/",
       "page_rank": -5
     },
     {
-      "url": "https://www.prismatic.io/docs/spectral/",
+      "url": "https://prismatic.io/docs/spectral/",
       "page_rank": -7
     },
     {
-      "url": "https://www.prismatic.io/docs/api/",
+      "url": "https://prismatic.io/docs/api/",
       "page_rank": -10,
       "selectors_key": "api",
       "tags": [
         "api"
       ]
     },
-    "https://www.prismatic.io/docs/"
+    "https://prismatic.io/docs/"
   ],
   "sitemap_urls": [
-    "https://www.prismatic.io/docs/sitemap.xml"
+    "https://prismatic.io/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
