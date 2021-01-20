@@ -15,7 +15,7 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "header h1",
+    "lvl1": "article h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
@@ -43,5 +43,8 @@
   "conversation_id": [
     "1395093404"
   ],
-  "nb_hits": 2640
+  "js_render": true,
+  "js_wait": 1,
+  "use_anchors": false,
+  "nb_hits": 2392
 }
