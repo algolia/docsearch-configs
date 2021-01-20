@@ -1,7 +1,18 @@
 {
   "index_name": "kintone",
   "start_urls": [
-    "https://kintone-ui-component.netlify.app/docs/"
+    {
+      "url": "https://kintone-ui-component.netlify.app/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://kintone-ui-component.netlify.app/blog/",
+      "tags": [
+        "blog"
+      ]
+    }
   ],
   "sitemap_urls": [
     "https://kintone-ui-component.netlify.app/sitemap.xml"
@@ -28,7 +39,8 @@
   "custom_settings": {
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "tags"
     ]
   },
   "conversation_id": [
