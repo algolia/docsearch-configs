@@ -1,10 +1,10 @@
 {
-  "index_name": "serverless-stack",
+  "index_name": "openrefine",
   "start_urls": [
-    "https://docs.serverless-stack.com/"
+    "https://docs.openrefine.org/"
   ],
   "sitemap_urls": [
-    "https://docs.serverless-stack.com/sitemap.xml"
+    "https://docs.openrefine.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "822639319"
+    "1397319968"
   ],
-  "nb_hits": 232
+  "nb_hits": 2696
 }
