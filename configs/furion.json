@@ -1,10 +1,10 @@
 {
-  "index_name": "serverless-stack",
+  "index_name": "furion",
   "start_urls": [
-    "https://docs.serverless-stack.com/"
+    "https://monksoul.gitee.io/furion/"
   ],
   "sitemap_urls": [
-    "https://docs.serverless-stack.com/sitemap.xml"
+    "https://monksoul.gitee.io/furion/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "822639319"
+    "1398954944"
   ],
-  "nb_hits": 232
+  "nb_hits": 3877
 }
