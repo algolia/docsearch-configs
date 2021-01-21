@@ -1,10 +1,10 @@
 {
-  "index_name": "serverless-stack",
+  "index_name": "motorcortexjs",
   "start_urls": [
-    "https://docs.serverless-stack.com/"
+    "https://docs.motorcortexjs.com/"
   ],
   "sitemap_urls": [
-    "https://docs.serverless-stack.com/sitemap.xml"
+    "https://docs.motorcortexjs.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "822639319"
+    "1398953777"
   ],
-  "nb_hits": 232
+  "nb_hits": 777
 }
