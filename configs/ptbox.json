@@ -1,10 +1,19 @@
 {
-  "index_name": "serverless-stack",
+  "index_name": "ptbox",
   "start_urls": [
-    "https://docs.serverless-stack.com/"
+    {
+      "url": "https://(?P<lang>.*?).wiki.ptbox.dev/",
+      "variables": {
+        "lang": [
+          "en",
+          "cn"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
-    "https://docs.serverless-stack.com/sitemap.xml"
+    "https://en.wiki.ptbox.dev/sitemap.xml",
+    "https://cn.wiki.ptbox.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +50,7 @@
     ]
   },
   "conversation_id": [
-    "822639319"
+    "1398159492"
   ],
-  "nb_hits": 232
+  "nb_hits": 1079
 }

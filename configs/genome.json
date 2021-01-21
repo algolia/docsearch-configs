@@ -1,8 +1,6 @@
 {
   "index_name": "genome",
-  "start_urls": [
-    "https://genome.vinbigdata.org/documentation/"
-  ],
+  "start_urls": ["https://genome.vinbigdata.org/documentation/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -18,17 +16,10 @@
     "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "selectors_exclude": [".hash-link"],
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
+    "attributesForFaceting": ["language", "version"]
   },
-  "conversation_id": [
-    "1401282649"
-  ],
+  "conversation_id": ["1401282649"],
   "nb_hits": 1516
 }

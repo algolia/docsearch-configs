@@ -1,12 +1,13 @@
 {
-  "index_name": "serverless-stack",
+  "index_name": "learn-redwood",
   "start_urls": [
-    "https://docs.serverless-stack.com/"
+    "https://learn-redwood.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.serverless-stack.com/sitemap.xml"
+    "https://learn-redwood.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
+  "js_render": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -41,7 +42,7 @@
     ]
   },
   "conversation_id": [
-    "822639319"
+    "1399372762"
   ],
-  "nb_hits": 232
+  "nb_hits": 1104
 }
