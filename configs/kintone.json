@@ -4,16 +4,23 @@
     {
       "url": "https://kintone-ui-component.netlify.app/docs/",
       "selectors_key": "docs",
-      "tags": ["docs"]
+      "tags": [
+        "docs"
+      ]
     },
     {
       "url": "https://kintone-ui-component.netlify.app/blog/",
       "selectors_key": "blog",
-      "tags": ["blog"]
+      "tags": [
+        "blog"
+      ]
     }
   ],
-  "sitemap_urls": ["https://kintone-ui-component.netlify.app/sitemap.xml"],
+  "sitemap_urls": [
+    "https://kintone-ui-component.netlify.app/sitemap.xml"
+  ],
   "sitemap_alternate_links": true,
+  "scrape_start_urls": false,
   "stop_urls": [],
   "selectors": {
     "docs": {
@@ -43,10 +50,19 @@
       "text": ".post article p, .post article li"
     }
   },
-  "selectors_exclude": [".hash-link"],
+  "selectors_exclude": [
+    ".hash-link"
+  ],
   "custom_settings": {
-    "attributesForFaceting": ["language", "version", "tags"]
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
   },
-  "conversation_id": ["1395786873"],
-  "nb_hits": 634
+  "js_render": true,
+  "conversation_id": [
+    "1395786873"
+  ],
+  "nb_hits": 655
 }
