@@ -1,0 +1,49 @@
+{
+  "index_name": "vitejs",
+  "start_urls": [
+    {
+      "url": "https://vitejs.dev/guide/",
+      "selectors_key": "guide"
+    },
+    {
+      "url": "https://vitejs.dev/config/",
+      "selectors_key": "config"
+    }
+  ],
+  "stop_urls": [
+    "\\.html$"
+  ],
+  "selectors": {
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "type": "xpath",
+        "default_value": "Guide & APIs"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "config": {
+      "lvl0": {
+        "selector": "",
+        "type": "xpath",
+        "default_value": "Config"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1401837039"
+  ],
+  "nb_hits": 749
+}
