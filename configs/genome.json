@@ -20,5 +20,6 @@
   "custom_settings": {
     "attributesForFaceting": ["language", "version"]
   },
-  "conversation_id": ["1401282649"]
+  "conversation_id": ["1401282649"],
+  "nb_keys": 1516
 }
