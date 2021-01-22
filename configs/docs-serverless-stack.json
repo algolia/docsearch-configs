@@ -1,8 +1,6 @@
 {
   "index_name": "docs-serverless-stack",
-  "start_urls": [
-    "https://docs.serverless-stack.com/"
-  ],
+  "start_urls": ["https://docs.serverless-stack.com/"],
   "sitemap_urls": [
     "https://serverless-stack.com/sitemap.xml",
     "https://docs.serverless-stack.com/sitemap.xml"
@@ -26,12 +24,7 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type",
-      "docusaurus_tag"
-    ],
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -41,8 +34,6 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1403381506"
-  ],
+  "conversation_id": ["1398588037"],
   "nb_hits": 242
 }
