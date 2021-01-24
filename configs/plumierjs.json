@@ -1,7 +1,7 @@
 {
   "index_name": "plumierjs",
   "start_urls": [
-    "https://plumierjs.com/docs/"
+    "https://plumierjs.com"
   ],
   "sitemap_urls": [
     "https://plumierjs.com/sitemap.xml"
