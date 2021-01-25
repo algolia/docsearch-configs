@@ -1,10 +1,10 @@
 {
   "index_name": "frictionless-py",
   "start_urls": [
-    "https://frictionlessdata.github.io/frictionless-py/"
+    "https://framework.frictionlessdata.io/"
   ],
   "sitemap_urls": [
-    "https://frictionlessdata.github.io/frictionless-py/sitemap.xml"
+    "https://framework.frictionlessdata.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
