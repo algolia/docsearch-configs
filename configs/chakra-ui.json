@@ -23,7 +23,7 @@
     }
   },
   "selectors_exclude": [
-    "algolia-exclude",
+    ".algolia-exclude",
     ".table-of-contents",
     ".component-links",
     "#carbon-ad"
