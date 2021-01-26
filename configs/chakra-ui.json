@@ -5,12 +5,15 @@
   ],
   "stop_urls": [],
   "selectors": {
-
-    "lvl0": "main h1",
-    "lvl1": "main h2",
-    "lvl2": "main h3",
-    "lvl3": "main h4",
-    "lvl4": "main h5",
+    "lvl0": {
+      "global": true,
+      "default_value": "Documentation",
+      "selector": "main h1 content"
+    },
+    "lvl1": "main h2 content",
+    "lvl2": "main h3 content",
+    "lvl3": "main h4 content",
+    "lvl4": "main h5 content",
     "text": "main p, main li",
     "lang": {
       "selector": "/html/@lang",
@@ -20,7 +23,8 @@
     }
   },
   "selectors_exclude": [
-    ".table-of-contents"
+    ".table-of-contents",
+    "#carbon-ad"
   ],
   "strip_chars": " .,;:#",
   "custom_settings": {
