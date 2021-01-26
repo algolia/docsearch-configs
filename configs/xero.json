@@ -1,0 +1,23 @@
+{
+  "index_name": "xero",
+  "start_urls": [
+    "https://developer.xero.com/documentation/"
+  ],
+  "sitemap_urls": [
+    "https://developer.xero.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content-container h1",
+    "lvl1": ".content-container h2",
+    "lvl2": ".content-container h3",
+    "lvl3": ".content-container h4",
+    "lvl4": ".content-container h5",
+    "lvl5": ".content-container h6",
+    "text": ".content-container p, .content-container li"
+  },
+  "conversation_id": [
+    "1368589272"
+  ],
+  "nb_hits": 7063
+}
