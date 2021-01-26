@@ -8,7 +8,7 @@
     "lvl0": {
       "global": true,
       "default_value": "Documentation",
-      "selector": "main h1 content"
+      "selector": "main h1"
     },
     "lvl1": "main h2 content",
     "lvl2": "main h3 content",
