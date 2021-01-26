@@ -1,10 +1,10 @@
 {
   "index_name": "fractaleng",
   "start_urls": [
-    "https://www.fractaleng.com.br/SIGA/user_guide/siga-guide/siga-user-guide-ds/build/"
+    "https://www.fractaleng.com.br/SIGA/user_guide/user/"
   ],
   "sitemap_urls": [
-    "https://www.fractaleng.com.br/sitemap.xml"
+    "https://www.fractaleng.com.br/SIGA/user_guide/user/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
