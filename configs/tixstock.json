@@ -1,26 +1,45 @@
 {
-  "index_name": "tixstock",
-  "start_urls": [
-    "https://sandbox-api-documentation.tixstock.com/v1/"
-  ],
-  "stop_urls": [],
-  "sitemap_urls": [
-    "https://sandbox-api-documentation.tixstock.com/sitemap.xml"
-  ],
-  "selectors": {
-    "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
-    },
-    "lvl1": ".DocSearch-content h1",
-    "lvl2": ".DocSearch-content h2",
-    "lvl3": ".DocSearch-content h3",
-    "lvl4": ".DocSearch-content h4",
-    "lvl5": ".DocSearch-content h5",
-    "text": ".DocSearch-content p, .DocSearch-content li"
-  },
-  "conversation_id": [
-    "1307136909"
-  ],
-  "nb_hits": 340
+   "index_name":"tixstock",
+   "start_urls":[
+      {
+         "url":"https://api-documentation.tixstock.com/",
+         "tags":[
+            "tixstock"
+         ]
+      },
+      {
+         "url":"https://sandbox-api-documentation.tixstock.com/",
+         "tags":[
+            "sandbox"
+         ]
+      }
+   ],
+   "stop_urls":[
+      
+   ],
+   "sitemap_urls":[
+      "https://sandbox-api-documentation.tixstock.com/sitemap.xml",
+      "https://api-documentation.tixstock.com/sitemap.xml"
+   ],
+   "selectors":{
+      "lvl0":{
+         "selector":"",
+         "default_value":"Documentation"
+      },
+      "lvl1":".DocSearch-content h1",
+      "lvl2":".DocSearch-content h2",
+      "lvl3":".DocSearch-content h3",
+      "lvl4":".DocSearch-content h4",
+      "lvl5":".DocSearch-content h5",
+      "text":".DocSearch-content p, .DocSearch-content li"
+   },
+   "conversation_id":[
+      "1307136909"
+   ],
+   "custom_settings":{
+      "attributesForFaceting":[
+         "tags"
+      ]
+   },
+   "nb_hits":690
 }
