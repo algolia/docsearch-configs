@@ -38,7 +38,7 @@
     },
     "v2": {
       "lvl0": {
-        "selector": "",
+        "selector": "p.sidebar-heading",
         "global": true,
         "default_value": "Documentation"
       },
