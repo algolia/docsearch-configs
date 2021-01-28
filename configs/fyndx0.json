@@ -1,10 +1,10 @@
 {
   "index_name": "fyndx0",
   "start_urls": [
-    "https://documentation.fyndx0.de/"
+    "https://documentation.fynd.com/"
   ],
   "sitemap_urls": [
-    "https://documentation.fyndx0.de/sitemap.xml"
+    "https://documentation.fynd.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
