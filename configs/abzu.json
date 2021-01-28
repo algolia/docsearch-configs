@@ -1,0 +1,23 @@
+{
+  "index_name": "abzu",
+  "start_urls": [
+    "https://docs.abzu.ai"
+  ],
+  "sitemap_urls": [
+    "https://docs.abzu.ai/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "header h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1371644602"
+  ],
+  "nb_hits": 889
+}
