@@ -1,10 +1,37 @@
 {
   "index_name": "richtext",
   "start_urls": [
-    "https://richtext-doc.netlify.app/"
+    {
+      "url" : "https://docs.dhtmlx.com/richtext/" , 
+      "page_rank" : 7 
+    },
+    {
+      "url" : "https://docs.dhtmlx.com/richtext/api/overview" , 
+      "page_rank" : 6 
+    } ,
+    {
+      "url" : "https://docs.dhtmlx.com/richtext/api/methods" , 
+      "page_rank" : 5 
+    } ,
+    {
+      "url" : "https://docs.dhtmlx.com/richtext/api/editor_api_methods" , 
+      "page_rank" : 4 
+    } ,
+    {
+      "url" : "https://docs.dhtmlx.com/richtext/api/events" , 
+      "page_rank" : 3
+    } ,
+    {
+      "url" : "https://docs.dhtmlx.com/richtext/api/properties" , 
+      "page_rank" : 2 
+    } ,
+    {
+      "url" : "https://docs.dhtmlx.com/richtext/api/events_bus" , 
+      "page_rank" : 1 
+    } 
   ],
   "sitemap_urls": [
-    "https://richtext-doc.netlify.app/sitemap.xml"
+    "https://docs.dhtmlx.com/richtext/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
