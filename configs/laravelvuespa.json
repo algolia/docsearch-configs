@@ -1,7 +1,11 @@
 {
-  "index_name": "coregames",
-  "start_urls": ["https://docs.coregames.com"],
-  "sitemap_urls": ["https://docs.coregames.com/sitemap.xml"],
+  "index_name": "laravelvuespa",
+  "start_urls": [
+    "https://laravelvuespa.com"
+  ],
+  "sitemap_urls": [
+    "https://laravelvuespa.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -16,6 +20,8 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "conversation_id": ["1109322761"],
-  "nb_hits": 6475
+  "conversation_id": [
+    "1398955054"
+  ],
+  "nb_hits": 370
 }
