@@ -1,0 +1,41 @@
+{
+  "index_name": "wagtail",
+  "start_urls": [
+    {
+      "url": "https://docs.wagtail.io/en/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://docs.wagtail.io/",
+          "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dl:first-child dd a')){versions.push(b.innerText)};return JSON.stringify(versions)"
+        }
+      }
+    }
+  ],
+  "scrape_start_urls": false,
+  "sitemap_urls": [
+    "https://docs.wagtail.io/sitemap.xml"
+  ],
+  "stop_urls": [
+    "releases"
+  ],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1408209044"
+  ],
+  "nb_hits": 111029
+}
