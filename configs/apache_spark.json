@@ -4,7 +4,7 @@
     {
       "url": "https://spark.apache.org/docs/(?P<version>.*?)/",
       "variables": {
-        "version": ["latest"]
+        "version": ["latest", "3.1.0", "3.1.1"]
       }
     }
   ],
