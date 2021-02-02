@@ -3,15 +3,27 @@
     "start_urls": [
         {
             "url": "https://developer.frame.io/docs/",
-            "selectors_key": "docs"
+            "tags": [
+                "docs"
+            ],
+            "selectors_key": "docs",
+            "page_rank": 10
         },
         {
             "url": "https://developer.frame.io/api/reference/",
-            "selectors_key": "api"
+            "selectors_key": "api",
+            "tags": [
+                "api"
+            ],
+            "page_rank": 7
         },
         {
-            "url": "https://developer.frame.io/portal",
-            "selectors_key": "portal"
+            "url": "https://developer.frame.io/",
+            "tags": [
+                "portal"
+            ],
+            "selectors_key": "portal",
+            "page_rank": 5
         }
     ],
     "selectors_exclude": [
@@ -42,8 +54,12 @@
                 "selector": "//*[@id='gatsby-focus-wrapper']/div/div[2]/div/div[1]/div[2]/div/div[1]/h2",
                 "type": "xpath"
             },
+            "lvl1": {
+                "selector": "//*[@id='gatsby-focus-wrapper']/div/div[2]/div/div[1]/div[2]/div/div[1]/div[1]/div/p",
+                "type": "xpath"
+            },
             "lvl2": {
-                "selector": "//*[@id='gatsby-focus-wrapper']/div/div[2]/div/div[1]/div[2]/div/div[2]/div[1]/button/span[1]",
+                "selector": "//*[@id='gatsby-focus-wrapper']/div/div[2]/div/div[1]/div[2]/div/div[1]/div[1]/div/p",
                 "type": "xpath"
             }
         }
