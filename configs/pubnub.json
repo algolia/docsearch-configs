@@ -184,7 +184,7 @@
       "lvl4": ".content .content h4",
       "lvl5": ".content .content h5",
       "lvl6": ".content .content h6",
-      "text": ".wrapper .post p, .wrapper .post li"
+      "text": ".wrapper .post p, .wrapper .post li",
       "sdk": {
         "selector": "(//*[@class='navDropDown-menu']/ul/li/a[contains(/html/head/link[@rel='canonical']/@href,@href)])[1]",
         "type": "xpath",
