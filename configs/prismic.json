@@ -16,6 +16,11 @@
     "lvl5": ".main-content h5",
     "text": ".main-content p, .main-content li"
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "hierarchy.lvl0"
+    ]
+  },
   "conversation_id": [
     "1087344940"
   ],
