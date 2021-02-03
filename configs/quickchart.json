@@ -1,0 +1,18 @@
+{
+  "index_name": "quickchart",
+  "start_urls": ["https://quickchart.io/documentation/"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".right-container h1, article h1",
+    "lvl1": ".right-container h2, article h2",
+    "lvl2": ".right-container h3, article h3",
+    "lvl3": ".right-container h4, article h4",
+    "lvl4": ".right-container h5, article h5",
+    "lvl5": ".right-container h6, article h6",
+    "text": ".right-container p, .right-container li, article p, article li"
+  },
+  "conversation_id": ["1412743465"],
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 838
+}
