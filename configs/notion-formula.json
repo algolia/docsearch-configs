@@ -1,7 +1,7 @@
 {
-  "index_name": "notion-formula",
+  "index_name": "nishan",
   "start_urls": [
-    "https://nishans-notion-formula.netlify.app/docs/"
+    "https://nishan-docs.netlify.app/docs/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
