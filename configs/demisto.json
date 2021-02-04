@@ -19,13 +19,14 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5", article td:first-child",
+    "lvl5": "article h5, article td:first-child",
     "lvl6": "article h6",
-    "text": "article p, article li", article li, article td:last-child"
+    "text": "article p, article li, article td:last-child"
   },
   "selectors_exclude": [
     ".hash-link"
   ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
