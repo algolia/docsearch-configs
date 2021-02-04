@@ -1,7 +1,7 @@
 {
   "index_name": "demisto",
   "start_urls": [
-    "https://xsoar.pan.dev/docs/"
+    "https://xsoar.pan.dev/"
   ],
   "sitemap_urls": [
     "https://xsoar.pan.dev/sitemap.xml"
@@ -10,7 +10,8 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -18,17 +19,25 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
+    "lvl5": "article h5", article td:first-child",
     "lvl6": "article h6",
-    "text": "article p, article li"
+    "text": "article p, article li", article li, article td:last-child"
   },
   "selectors_exclude": [
     ".hash-link"
   ],
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "anchor",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
       "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
       "type"
     ]
   },
