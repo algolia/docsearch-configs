@@ -1,10 +1,10 @@
 {
   "index_name": "lineup-lite",
   "start_urls": [
-    "https://lineup-lite.netlify.app/"
+    "https://lineup-lite.js.org/"
   ],
   "sitemap_urls": [
-    "https://lineup-lite.netlify.app/sitemap.xml"
+    "https://lineup-lite.js.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
