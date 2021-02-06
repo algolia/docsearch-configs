@@ -34,7 +34,7 @@
     },
     "api": {
       "lvl0": {
-        "selector": "#noop",
+        "selector": "",
         "global": true,
         "default_value": "API"
       },
