@@ -1,8 +1,6 @@
 {
   "index_name": "lean-admin",
-  "start_urls": [
-    "https://lean-admin.dev/docs/"
-  ],
+  "start_urls": ["https://lean-admin.dev/docs/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -17,8 +15,7 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
-  "conversation_id": [
-    "1382144773"
-  ],
+  "strip_chars": " .,;:#",
+  "conversation_id": ["1382144773"],
   "nb_hits": 610
 }
