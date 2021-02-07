@@ -14,7 +14,7 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5",
-    "text": "article p, article li"
+    "text": "article p, article li, td code"
   },
   "js_render": true,
   "js_wait": 1,
