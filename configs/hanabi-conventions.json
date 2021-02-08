@@ -1,10 +1,10 @@
 {
-  "index_name": "manageo",
+  "index_name": "hanabi-conventions",
   "start_urls": [
-    "https://support.manageo.com/"
+    "https://zamiell.github.io/hanabi-conventions/"
   ],
   "sitemap_urls": [
-    "https://support.manageo.com/sitemap.xml"
+    "https://zamiell.github.io/hanabi-conventions/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1174709455"
+    "1417218527"
   ],
-  "nb_hits": 120
+  "nb_hits": 5104
 }

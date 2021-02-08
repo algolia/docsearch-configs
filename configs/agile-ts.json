@@ -1,10 +1,7 @@
 {
-  "index_name": "manageo",
+  "index_name": "agile-ts",
   "start_urls": [
-    "https://support.manageo.com/"
-  ],
-  "sitemap_urls": [
-    "https://support.manageo.com/sitemap.xml"
+    "https://agile-ts.org/docs/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1174709455"
+    "1417357412"
   ],
-  "nb_hits": 120
+  "nb_hits": 903
 }
