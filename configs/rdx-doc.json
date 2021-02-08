@@ -1,10 +1,10 @@
 {
-  "index_name": "manageo",
+  "index_name": "rdx-doc",
   "start_urls": [
-    "https://support.manageo.com/"
+    "https://czwcode.github.io/rdx-doc/"
   ],
   "sitemap_urls": [
-    "https://support.manageo.com/sitemap.xml"
+    "https://czwcode.github.io/rdx-doc/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1174709455"
+    "1417276892"
   ],
-  "nb_hits": 120
+  "nb_hits": 518
 }

@@ -1,10 +1,10 @@
 {
-  "index_name": "manageo",
+  "index_name": "superplate",
   "start_urls": [
-    "https://support.manageo.com/"
+    "https://pankod.github.io/superplate/"
   ],
   "sitemap_urls": [
-    "https://support.manageo.com/sitemap.xml"
+    "https://pankod.github.io/superplate/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1174709455"
+    "1417368451"
   ],
-  "nb_hits": 120
+  "nb_hits": 873
 }
