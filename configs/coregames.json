@@ -1,7 +1,11 @@
 {
   "index_name": "coregames",
-  "start_urls": ["https://docs.coregames.com"],
-  "sitemap_urls": ["https://docs.coregames.com/sitemap.xml"],
+  "start_urls": [
+    "https://docs.coregames.com"
+  ],
+  "sitemap_urls": [
+    "https://docs.coregames.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -16,8 +20,8 @@
     "lvl5": "article h5",
     "text": "article p, article li, td code"
   },
-  "js_render": true,
-  "js_wait": 1,
-  "conversation_id": ["1109322761"],
-  "nb_hits": 6475
+  "conversation_id": [
+    "1109322761"
+  ],
+  "nb_hits": 8804
 }
