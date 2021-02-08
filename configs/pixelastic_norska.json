@@ -1,8 +1,15 @@
 {
   "index_name": "pixelastic_norska",
-  "start_urls": ["https://projects.pixelastic.com/norska/"],
-  "sitemap_urls": ["https://projects.pixelastic.com/norska/sitemap.xml"],
-  "stop_urls": ["/percy/"],
+  "start_urls": [
+    "https://projects.pixelastic.com/norska/"
+  ],
+  "sitemap_urls": [
+    "https://projects.pixelastic.com/norska/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/percy/",
+    "/$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'ds-sidebar')]//*[contains(@class,'DocSearch-active')]/preceding::h3[1]",
@@ -18,6 +25,8 @@
     "lvl6": ".DocSearch-content h6",
     "text": ".DocSearch-content p, .DocSearch-content li"
   },
-  "conversation_id": ["1345360311"],
-  "nb_hits": 408
+  "conversation_id": [
+    "1345360311"
+  ],
+  "nb_hits": 436
 }

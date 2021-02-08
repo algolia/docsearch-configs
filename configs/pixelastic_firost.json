@@ -6,7 +6,9 @@
   "sitemap_urls": [
     "https://projects.pixelastic.com/firost/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'ds-sidebar')]//*[contains(@class,'DocSearch-active')]/preceding::h3[1]",
@@ -25,5 +27,5 @@
   "conversation_id": [
     "1267206933"
   ],
-  "nb_hits": 214
+  "nb_hits": 185
 }
