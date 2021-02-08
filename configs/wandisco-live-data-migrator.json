@@ -38,7 +38,7 @@
       "version",
       "type",
       "docusaurus_tag",
-      "tag"
+      "tags"
     ],
     "attributesToRetrieve": [
       "hierarchy",
