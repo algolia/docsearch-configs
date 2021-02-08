@@ -1,7 +1,7 @@
 {
   "index_name": "confetti-framework",
   "start_urls": [
-    "https://confetti-framework.github.io/docs/"
+    "https://confetti-framework.com/"
   ],
   "stop_urls": [],
   "selectors": {
