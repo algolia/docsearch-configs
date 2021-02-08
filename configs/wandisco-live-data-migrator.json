@@ -1,10 +1,18 @@
 {
   "index_name": "wandisco-live-data-migrator",
   "start_urls": [
-    "https://docs.wandisco.com/live-data-migrator/"
+    {
+      "url": "https://docs.wandisco.com/live-data-migrator/",
+      "tags": ["wandisco"]
+    },
+    {
+      "url": "https://wandisco.github.io/wandisco-documentation-ldm/",
+      "tags": ["github"]
+    }
   ],
   "sitemap_urls": [
-    "https://docs.wandisco.com/live-data-migrator/sitemap.xml"
+    "https://docs.wandisco.com/live-data-migrator/sitemap.xml",
+    "https://wandisco.github.io/wandisco-documentation-ldm/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -26,9 +34,11 @@
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
+      "language",
       "version",
       "type",
-      "docusaurus_tag"
+      "docusaurus_tag",
+      "tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
