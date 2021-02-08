@@ -7,7 +7,7 @@
     "https://projects.pixelastic.com/on-circle/sitemap.xml"
   ],
   "stop_urls": [
-    "/$"
+    ".*(?<!/)$"
   ],
   "selectors": {
     "lvl0": {
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1278918719"
   ],
-  "nb_hits": 37
+  "nb_hits": 38
 }

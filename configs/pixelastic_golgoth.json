@@ -7,7 +7,7 @@
     "https://projects.pixelastic.com/golgoth/sitemap.xml"
   ],
   "stop_urls": [
-    "/$"
+    ".*(?<!/)$"
   ],
   "selectors": {
     "lvl0": {
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1359572425"
   ],
-  "nb_hits": 11
+  "nb_hits": 14
 }

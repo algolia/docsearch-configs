@@ -8,7 +8,7 @@
   ],
   "stop_urls": [
     "/percy/",
-    "/$"
+    ".*(?<!/)$"
   ],
   "selectors": {
     "lvl0": {
@@ -28,5 +28,5 @@
   "conversation_id": [
     "1345360311"
   ],
-  "nb_hits": 436
+  "nb_hits": 426
 }

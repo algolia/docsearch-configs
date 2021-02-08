@@ -7,7 +7,7 @@
     "https://projects.pixelastic.com/firost/sitemap.xml"
   ],
   "stop_urls": [
-    "/$"
+    ".*(?<!/)$"
   ],
   "selectors": {
     "lvl0": {
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1267206933"
   ],
-  "nb_hits": 185
+  "nb_hits": 194
 }
