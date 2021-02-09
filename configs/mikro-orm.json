@@ -8,7 +8,8 @@
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
-    "https://mikro-orm.io/docs/api"
+    "https://mikro-orm.io/docs/api",
+    "https://mikro-orm.io/docs/next/api"
   ],
   "selectors": {
     "lvl0": {
