@@ -1,7 +1,13 @@
 {
   "index_name": "activeui",
-  "sitemap_urls": ["https://activeviam.com/activeui/documentation/sitemap.xml"],
-  "start_urls": ["https://activeviam.com/activeui/"],
+  "sitemap_urls": [
+    "https://activeviam.com/activeui/documentation/sitemap.xml"
+  ],
+  "start_urls": [
+    "https://activeviam.com/activeui/"
+  ],
+  "js_render": true,
+  "js_wait": 1,
   "sitemap_alternate_links": true,
   "force_sitemap_urls_crawling": true,
   "stop_urls": [],
@@ -19,10 +25,17 @@
     "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
-  "selectors_exclude": [".hash-link"],
+  "selectors_exclude": [
+    ".hash-link"
+  ],
   "custom_settings": {
-    "attributesForFaceting": ["language", "version"]
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
   },
-  "conversation_id": ["728521704"],
-  "nb_hits": 582506
+  "conversation_id": [
+    "728521704"
+  ],
+  "nb_hits": 200125
 }
