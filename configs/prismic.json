@@ -18,7 +18,8 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "hierarchy.lvl0"
+      "hierarchy.lvl0",
+      "categories"
     ]
   },
   "conversation_id": [
