@@ -1,10 +1,10 @@
 {
   "index_name": "hanabi-conventions",
   "start_urls": [
-    "https://zamiell.github.io/hanabi-conventions/"
+    "https://hanabi.github.io/"
   ],
   "sitemap_urls": [
-    "https://zamiell.github.io/hanabi-conventions/sitemap.xml"
+    "https://hanabi.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
