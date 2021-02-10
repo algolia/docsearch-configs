@@ -2,42 +2,57 @@
   "index_name": "webdriver",
   "start_urls": [
     {
-      "url": "http://webdriver.io/docs/gettingstarted.html",
+      "url": "https://webdriver.io/docs/gettingstarted/",
       "page_rank": 2
     },
     {
-      "url": "http://webdriver.io/docs/",
+      "url": "https://webdriver.io/docs/",
       "page_rank": 2
     },
     {
-      "url": "http://webdriver.io/docs/api",
+      "url": "https://webdriver.io/docs/api",
       "page_rank": 1
     }
   ],
   "sitemap_urls": [
-    "http://webdriver.io/sitemap.xml"
+    "https://webdriver.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//*[contains(@class, 'navListItemActive')][1]/preceding::h3[1]",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": ".post h1",
-      "global": true,
-      "default_value": "Chapter"
-    },
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post p, .post li"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
-  "min_indexed_level": 2,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "conversation_id": [
     "223653722"
   ],
-  "nb_hits": 2811
+  "nb_hits": 5995
 }
