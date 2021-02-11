@@ -1,10 +1,10 @@
 {
   "index_name": "git-gosling",
   "start_urls": [
-    "https://git-gosling.netlify.app/docs/"
+    "https://git-gosling.vercel.app/docs/"
   ],
   "sitemap_urls": [
-    "https://git-gosling.netlify.app/sitemap.xml"
+    "https://git-gosling.vercel.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
