@@ -1,0 +1,81 @@
+{
+  "index_name": "redpointgames",
+  "start_urls": [
+    {
+      "url": "https://redpointgames.gitlab.io/eos-online-subsystem/docs/",
+      "tags": [
+        "eos-online-subsystem"
+      ]
+    },
+    {
+      "url": "https://redpointgames.gitlab.io/online-subsystem-blueprints/docs/",
+      "tags": [
+        "online-subsystem-blueprints"
+      ]
+    },
+    {
+      "url": "https://redpointgames.gitlab.io/game-management-framework/docs/",
+      "tags": [
+        "game-management-framework"
+      ]
+    },
+    {
+      "url": "https://redpointgames.gitlab.io/matchmaking/docs/",
+      "tags": [
+        "matchmaking"
+      ]
+    },
+    {
+      "url": "https://redpointgames.gitlab.io/discord-integration/docs/",
+      "tags": [
+        "discord-integration"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://redpointgames.gitlab.io/eos-online-subsystem/sitemap.xml",
+    "https://redpointgames.gitlab.io/online-subsystem-blueprints/sitemap.xml",
+    "https://redpointgames.gitlab.io/game-management-framework/sitemap.xml",
+    "https://redpointgames.gitlab.io/matchmaking/sitemap.xml",
+    "https://redpointgames.gitlab.io/discord-integration/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag",
+      "tags"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "conversation_id": [
+    "1421610561"
+  ],
+  "nb_hits": 2494
+}
