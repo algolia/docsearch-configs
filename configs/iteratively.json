@@ -1,10 +1,10 @@
 {
   "index_name": "iteratively",
   "start_urls": [
-    "https://iterative.ly/docs/"
+    "https://docs.iterative.ly/"
   ],
   "sitemap_urls": [
-    "https://iterative.ly/sitemap.xml"
+    "https://docs.iterative.ly/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
