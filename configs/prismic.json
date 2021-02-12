@@ -19,7 +19,8 @@
   "custom_settings": {
     "attributesForFaceting": [
       "hierarchy.lvl0",
-      "categories"
+      "categories",
+      "version"
     ]
   },
   "conversation_id": [
