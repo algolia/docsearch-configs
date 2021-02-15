@@ -1,0 +1,25 @@
+{
+  "index_name": "numl",
+  "start_urls": [
+    "https://numl.design/handbook/"
+  ],
+  "sitemap_urls": [
+    "https://numl.design/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#__layout [id*='h1']",
+    "lvl1": "#__layout [id*='h2']",
+    "lvl2": "#__layout [id*='h3']",
+    "lvl3": "#__layout [id*='h4']",
+    "lvl4": "#__layout [id*='h5']",
+    "lvl5": "#__layout [id*='h6']",
+    "text": "#__layout [role='paragraph']"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": [
+    "1421871663"
+  ],
+  "nb_hits": 249
+}
