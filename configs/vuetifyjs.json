@@ -6,18 +6,47 @@
       "variables": {
         "lang": ["en", "ja", "zh-Hans"]
       }
+    },
+    {
+      "url": "https://vuetifyjs.com/(?P<lang>.*?)/api/",
+      "variables": {
+        "lang": ["en", "ja", "zh-Hans"]
+      },
+      "selectors_key": "api"
     }
   ],
   "stop_urls": [
     "/store/"
   ],
+  "strip_chars": "#",
   "selectors": {
-    "lvl0": "section h1, .v-heading",
-    "lvl1": "section h2, section ul li a",
-    "lvl2": "section h3, .app-link",
-    "lvl3": "section h4",
-    "lvl4": "section h5",
-    "text": "section p, section li"
+    "default": {
+      "lvl0": {
+        "selector": "#default-drawer .v-list > .v-list-group--active > .v-list-group__header",
+        "global": true
+      },
+      "lvl1": {
+        "selector": ".markdown-body h1",
+        "global": true
+      },
+      "lvl2": ".markdown-body h2",
+      "lvl3": ".markdown-body h3",
+      "lvl4": ".markdown-body h4",
+      "text": ".markdown-body p, .markdown-body li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": {
+        "selector": ".markdown-body h1",
+        "global": true
+      },
+      "lvl2": ".markdown-body h2",
+      "lvl3": ".api-table .name-item",
+      "text": ".api-table td:not(:first-child)"
+    }
   },
   "custom_settings": {
     "attributesForFaceting": [
