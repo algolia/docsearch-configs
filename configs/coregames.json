@@ -1,29 +1,43 @@
 {
   "index_name": "coregames",
   "start_urls": [
+    "https://docs.coregames.com",
     {
       "url": "https://docs.coregames.com/api/",
       "selectors_key": "api",
-      "tags": ["api"]
+      "tags": [
+        "api"
+      ]
     },
-    "https://docs.coregames.com"
+    {
+      "url": "https://docs.coregames.com/tutorials/",
+      "selectors_key": "tutorials",
+      "tags": [
+        "tutorials"
+      ]
+    }
   ],
   "sitemap_urls": [
     "https://docs.coregames.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": "article h1",
+      "lvl1": "article h2",
+      "lvl2": "article h3",
+      "lvl3": "article h4",
+      "lvl4": "article h5",
+      "text": "article p, article li"
     },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li, td code"
+    "api": {
+      "lvl0": "article h1",
+      "lvl1": "article h2",
+      "lvl2": "article h3",
+      "lvl3": "article h4",
+      "lvl4": "article h5",
+      "text": "article p, article li, td code"
+    }
   },
   "conversation_id": [
     "1109322761"
