@@ -1,20 +1,20 @@
 {
   "index_name": "patternfly",
   "start_urls": [
-    {
-      "url": "https://www.patternfly.org/v4/"
-    }
+    "https://www.patternfly.org/v4/"
   ],
   "sitemap_urls": [
     "https://www.patternfly.org/v4/sitemap.xml"
   ],
   "stop_urls": [
-    "/blog/"
+    "/blog/",
+    "/training/",
+    "release-notes"
   ],
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "#ws-page-title",
+        "selector": "main h1",
         "global": true,
         "default_value": "Documentation"
       },
@@ -27,17 +27,17 @@
       "lvl3": "main h3",
       "lvl4": "main h4",
       "lvl5": "main h5",
-      "lvl6": "main h6",
-      "text": "main #main-content"
+      "text": "main #main-content p, main #main-content li"
     }
   },
   "selectors_exclude": [
     ".ws-org-pfsite-l-footer",
     ".ws-org-pfsite-l-footer-dark",
-    ".ws-preview"
+    ".ws-preview",
+    ".ws-toc"
   ],
   "conversation_id": [
     "772189694"
   ],
-  "nb_hits": 34486
+  "nb_hits": 5242
 }

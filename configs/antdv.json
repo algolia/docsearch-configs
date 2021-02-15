@@ -1,9 +1,22 @@
 {
   "index_name": "antdv",
   "start_urls": [
-    "https://www.antdv.com"
+    {
+      "url": "https://www.antdv.com/.+?-cn",
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://www.antdv.com/",
+      "tags": [
+        "en"
+      ]
+    }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/changelog"
+  ],
   "selectors": {
     "lvl0": ".markdown h1",
     "lvl1": ".markdown h2",

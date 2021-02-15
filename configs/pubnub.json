@@ -2,12 +2,12 @@
   "index_name": "pubnub",
   "sitemap_urls": [
     "https://www.pubnub.com/docs/chat/sitemap.xml",
-    "https://www.pubnub.com/docs/sitemap.xml",
-    "https://www.pubnub.com/docs/platform/sitemap.xml"
+    "https://www.pubnub.com/docs/sdks/sitemap.xml",
+    "https://www.pubnub.com/docs/sitemap.xml"
   ],
   "start_urls": [
     {
-      "url": "https://www.pubnub.com/docs/(web|nodejs)-javascript/",
+      "url": "https://www.pubnub.com/docs/(javascript|nodejs)/",
       "selectors_key": "docs",
       "page_rank": 1,
       "tags": [
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/(android|java-se)-java/",
+      "url": "https://www.pubnub.com/docs/(android|java)/",
       "selectors_key": "docs",
       "page_rank": 2,
       "tags": [
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/swift-native/",
+      "url": "https://www.pubnub.com/docs/swift/",
       "selectors_key": "docs",
       "page_rank": 3,
       "tags": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/ios-objective-c/",
+      "url": "https://www.pubnub.com/docs/objective-c/",
       "selectors_key": "docs",
       "page_rank": 4,
       "tags": [
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/c-sharp-dot-net-c-sharp/",
+      "url": "https://www.pubnub.com/docs/c-sharp/",
       "selectors_key": "docs",
       "page_rank": 5,
       "tags": [
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/(python|python-twisted|python-tornado|python-aiohttp)/",
+      "url": "https://www.pubnub.com/docs/python/",
       "selectors_key": "docs",
       "page_rank": 6,
       "tags": [
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/(posix-cpp|windows-cpp|posix-c|windows-c|freertos|mbed)/",
+      "url": "https://www.pubnub.com/docs/c-core/(posix-cpp|windows-cpp|posix-c|windows-c|freertos|mbed)/",
       "selectors_key": "docs",
       "page_rank": 7,
       "tags": [
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/unity3d-c-sharp/",
+      "url": "https://www.pubnub.com/docs/unity/",
       "selectors_key": "docs",
       "page_rank": 8,
       "tags": [
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "url": "https://www.pubnub.com/docs/pubnub-rest-api-documentation/",
+      "url": "https://www.pubnub.com/docs/rest-api/",
       "selectors_key": "rest",
       "tags": [
         "rest",
@@ -167,51 +167,33 @@
   ],
   "selectors": {
     "default": {
-      "lvl0": {
-        "selector": "//aside//*[contains(@class,'active-trail active')]/preceding::*[contains(@class,'active-trail')][1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": "h1.page-title",
+      "lvl0": "h1.postHeaderTitle",
+      "lvl1": ".wrapper .post p",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
       "lvl4": ".content .content h4",
       "lvl5": ".content .content h5",
       "lvl6": ".content .content h6",
-      "text": ".content .content p, .content .content li",
-      "sdk": {
-        "selector": "(//*[@id='language-list']/li[position()<19]/a[contains(/html/head/link[@rel='canonical']/@href,@href)])[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "none"
-      }
+      "text": ".wrapper .post p, .wrapper .post li"
     },
     "docs": {
-      "lvl0": {
-        "selector": "div.doc-search-title",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": "div.doc-search-description",
-      "lvl2": "h1.page-title, .content .content h2",
-      "lvl3": ".content .content h3, .content .content h4",
-      "lvl4": ".content .content h5, .content .content td:first-child",
-      "lvl5": ".content .content h6",
-      "text": ".content .content p, .content .content li,  .content .content td:last-child",
+      "lvl0": "h1.postHeaderTitle",
+      "lvl1": ".wrapper .post p",
+      "lvl2": ".content .content h2",
+      "lvl3": ".content .content h3",
+      "lvl4": ".content .content h4",
+      "lvl5": ".content .content h5",
+      "lvl6": ".content .content h6",
+      "text": ".wrapper .post p, .wrapper .post li",
       "sdk": {
-        "selector": "(//*[@id='language-list']/li[position()<19]/a[contains(/html/head/link[@rel='canonical']/@href,@href)])[1]",
+        "selector": "(//*[@class='navDropDown-menu']/ul/li/a[contains(/html/head/link[@rel='canonical']/@href,@href)])[1]",
         "type": "xpath",
         "global": true,
         "default_value": "none"
       }
     },
     "chat": {
-      "lvl0": {
-        "selector": "h1.postHeaderTitle",
-        "global": true,
-        "default_value": "Documentation"
-      },
+      "lvl0": "h1.postHeaderTitle",
       "lvl1": ".wrapper .post p",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -221,11 +203,7 @@
       "text": ".wrapper .post p, .wrapper .post li"
     },
     "blocks": {
-      "lvl0": {
-        "selector": "h1.block-page-title",
-        "global": true,
-        "default_value": "Documentation"
-      },
+      "lvl0": "h1.block-page-title",
       "lvl1": "div.sub-heading",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -235,11 +213,7 @@
       "text": "div.block-detail"
     },
     "functions": {
-      "lvl0": {
-        "selector": "h1.page-title",
-        "global": true,
-        "default_value": "Documentation"
-      },
+      "lvl0": "h1.page-title",
       "lvl1": "div.field-item.even p",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -249,11 +223,7 @@
       "text": "h1.main-page-title"
     },
     "rest": {
-      "lvl0": {
-        "selector": "h1.page-title",
-        "global": true,
-        "default_value": "Documentation"
-      },
+      "lvl0": "h1.page-title",
       "lvl1": "h1.main-page-title",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -263,11 +233,7 @@
       "text": "h1.main-page-title"
     },
     "console": {
-      "lvl0": {
-        "selector": "a[title=Developer]",
-        "global": true,
-        "default_value": "Documentation"
-      },
+      "lvl0": "a[title=Developer]",
       "lvl1": "h1.main-page-title",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -277,11 +243,7 @@
       "text": "h1.main-page-title"
     },
     "platform": {
-      "lvl0": {
-        "selector": "h1.postHeaderTitle",
-        "global": true,
-        "default_value": "Documentation"
-      },
+      "lvl0": "h1.postHeaderTitle",
       "lvl1": ".wrapper .post p",
       "lvl2": ".content .content h2",
       "lvl3": ".content .content h3",
@@ -310,5 +272,5 @@
   "conversation_id": [
     "1023908121"
   ],
-  "nb_hits": 70273
+  "nb_hits": 75924
 }

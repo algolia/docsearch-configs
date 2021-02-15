@@ -1,10 +1,10 @@
 {
   "index_name": "eveningkid_denodb",
   "start_urls": [
-    "https://eveningkid.github.io/denodb-docs/docs/"
+    "https://eveningkid.com/denodb-docs/"
   ],
   "sitemap_urls": [
-    "https://eveningkid.github.io/denodb-docs/sitemap.xml"
+    "https://eveningkid.com/denodb-docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +34,5 @@
   "conversation_id": [
     "1185678755"
   ],
-  "nb_hits": 189
+  "nb_hits": 238
 }

@@ -1,12 +1,13 @@
 {
-  "index_name": "kintone_ui_component",
+  "index_name": "neqto",
   "start_urls": [
-    "https://phongnhat19.github.io/kintone-ui-component/docs/"
+    "https://docs.neqto.com/docs/"
   ],
   "sitemap_urls": [
-    "https://phongnhat19.github.io/kintone-ui-component/sitemap.xml"
+    "https://docs.neqto.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
+  "js_render": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -32,7 +33,7 @@
     ]
   },
   "conversation_id": [
-    "939139745"
+    "1393344003"
   ],
-  "nb_hits": 17501
+  "nb_hits": 7899
 }

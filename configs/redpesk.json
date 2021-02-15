@@ -1,0 +1,23 @@
+{
+  "index_name": "redpesk",
+  "start_urls": [
+    "https://docs.redpesk.bzh/docs/"
+  ],
+  "sitemap_urls": [
+    "https://docs.redpesk.bzh/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#page-toc-source h1",
+    "lvl1": "#page-toc-source h2",
+    "lvl2": "#page-toc-source h3",
+    "lvl3": "#page-toc-source h4",
+    "lvl4": "#page-toc-source h5",
+    "lvl5": "#page-toc-source h6",
+    "text": "#page-toc-source p, #page-toc-source li"
+  },
+  "conversation_id": [
+    "1369394344"
+  ],
+  "nb_hits": 5242
+}

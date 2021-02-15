@@ -142,7 +142,7 @@
       }
     },
     {
-      "url": "https://specification.modelica.org/v(?P<version>.*?)/",
+      "url": "https://specification.modelica.org/maint/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.5",

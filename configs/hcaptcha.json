@@ -1,0 +1,23 @@
+{
+  "index_name": "hcaptcha",
+  "start_urls": [
+    "https://docs.hcaptcha.com/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.hcaptcha.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "1381943861"
+  ],
+  "nb_hits": 235
+}

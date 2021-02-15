@@ -1,46 +1,113 @@
 {
   "index_name": "handsontable",
   "start_urls": [
-    "https://handsontable.com/docs/",
-    "https://handsontable.com/docs/7.1.0/tutorial-introduction.html"
+    {
+      "url": "https://handsontable.com/docs/(?P<version>.*?)/",
+      "tags": ["previous"],
+      "variables": {
+        "version": {
+          "url": "https://handsontable.com/docs/",
+          "js": "let versions=[]; for (let b of document.querySelectorAll('.hot-chooser optgroup option')){versions.push(b.getAttribute('value'))};return JSON.stringify(versions)"
+        }
+      },
+      "selector_key": "previous"
+    },
+    {
+      "url": "https://dev.handsontable.com/docs/",
+      "tags": ["current"],
+      "selectors_key": "current"
+    }
   ],
-  "stop_urls": [
-    "\\.com/docs/6",
-    "\\.com/docs/5",
-    "\\.com/docs/4",
-    "\\.com/docs/3",
-    "\\.com/docs/4",
-    "\\.com/docs/1"
-  ],
+  "js_render": true,
+  "sitemap_alternate_links": false,
+  "stop_urls": [],
   "sitemap_urls": [
-    "https://handsontable.com/docs/sitemap.xml"
+    "https://dev.handsontable.com/docs/sitemap.xml",
+    "https://handsontable.com/docs/8.2.0/sitemap.xml",
+    "https://handsontable.com/docs/8.1.0/sitemap.xml",
+    "https://handsontable.com/docs/8.0.0/sitemap.xml",
+    "https://handsontable.com/docs/7.4.2/sitemap.xml",
+    "https://handsontable.com/docs/7.4.1/sitemap.xml",
+    "https://handsontable.com/docs/7.4.0/sitemap.xml",
+    "https://handsontable.com/docs/7.3.0/sitemap.xml",
+    "https://handsontable.com/docs/7.2.2/sitemap.xml",
+    "https://handsontable.com/docs/7.2.1/sitemap.xml",
+    "https://handsontable.com/docs/7.2.0/sitemap.xml",
+    "https://handsontable.com/docs/7.1.1/sitemap.xml",
+    "https://handsontable.com/docs/7.1.0/sitemap.xml",
+    "https://handsontable.com/docs/7.0.3/sitemap.xml",
+    "https://handsontable.com/docs/7.0.2/sitemap.xml",
+    "https://handsontable.com/docs/7.0.1/sitemap.xml",
+    "https://handsontable.com/docs/7.0.0/sitemap.xml",
+    "https://handsontable.com/docs/6.2.2/sitemap.xml",
+    "https://handsontable.com/docs/6.2.1/sitemap.xml",
+    "https://handsontable.com/docs/6.2.0/sitemap.xml",
+    "https://handsontable.com/docs/6.1.1/sitemap.xml",
+    "https://handsontable.com/docs/6.1.0/sitemap.xml",
+    "https://handsontable.com/docs/6.0.1/sitemap.xml",
+    "https://handsontable.com/docs/6.0.0/sitemap.xml",
+    "https://handsontable.com/docs/5.0.2/sitemap.xml",
+    "https://handsontable.com/docs/5.0.1/sitemap.xml",
+    "https://handsontable.com/docs/5.0.0/sitemap.xml",
+    "https://handsontable.com/docs/4.0.0/sitemap.xml",
+    "https://handsontable.com/docs/3.0.0/sitemap.xml",
+    "https://handsontable.com/docs/2.0.0/sitemap.xml",
+    "https://handsontable.com/docs/1.18.1/sitemap.xml",
+    "https://handsontable.com/docs/1.18.0/sitemap.xml",
+    "https://handsontable.com/docs/1.17.0/sitemap.xml",
+    "https://handsontable.com/docs/1.16.0/sitemap.xml",
+    "https://handsontable.com/docs/1.15.1/sitemap.xml",
+    "https://handsontable.com/docs/1.15.0/sitemap.xml",
+    "https://handsontable.com/docs/1.14.3/sitemap.xml",
+    "https://handsontable.com/docs/1.14.2/sitemap.xml",
+    "https://handsontable.com/docs/1.14.1/sitemap.xml",
+    "https://handsontable.com/docs/1.14.0/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": ".page-title",
-      "global": true,
-      "default_value": "Documentation"
+    "current": {
+      "lvl0": {
+        "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "header h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5, article td:first-child",
+      "lvl6": "article h6",
+      "text": "article p, article li, article td:last-child"
     },
-    "lvl1": "article h3",
-    "lvl2": "article h4",
-    "lvl3": "article h5",
-    "lvl4": "article h6",
-    "text": "article p, article li, article td:last-child"
+    "previous": {
+      "lvl0": "section h1",
+      "lvl1": "section h2",
+      "lvl2": "section h3",
+      "lvl3": "section h4",
+      "lvl4": "section h5",
+      "text": "section p, section li"
+    }
   },
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
       "version",
+      "type",
+      "docusaurus_tag",
       "tags"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
-  "selectors_exclude": [
-    ".edit-doc",
-    ".index-list"
-  ],
-  "conversation_id": [
-    "924594540"
-  ],
-  "nb_hits": 18373
+  "selectors_exclude": [".edit-doc", ".index-list"],
+  "conversation_id": ["924594540"],
+  "nb_hits": 322881
 }

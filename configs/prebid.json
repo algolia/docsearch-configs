@@ -1,0 +1,159 @@
+{
+  "index_name": "prebid",
+  "start_urls": [
+    {
+      "url": "https://docs.prebid.org/prebid/",
+      "tags": [
+        "prebid"
+      ],
+      "selectors_key": "prebid"
+    },
+    {
+      "url": "https://docs.prebid.org/prebid-server/",
+      "tags": [
+        "prebid-server"
+      ],
+      "selectors_key": "prebid-server"
+    },
+    {
+      "url": "https://docs.prebid.org/prebid-mobile/",
+      "tags": [
+        "prebid-mobile"
+      ],
+      "selectors_key": "prebid-mobile"
+    },
+    {
+      "url": "https://docs.prebid.org/adops/",
+      "tags": [
+        "ad-ops"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/",
+      "tags": [
+        "dev-docs"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/faq/",
+      "tags": [
+        "faq"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/faq.html",
+      "tags": [
+        "faq"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/features/",
+      "tags": [
+        "features"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/formats/",
+      "tags": [
+        "formats"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/overview/",
+      "tags": [
+        "overview"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/prebid-video/",
+      "tags": [
+        "prebid-video"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/support/",
+      "tags": [
+        "support"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/tools/",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/troubleshooting/",
+      "tags": [
+        "troubleshooting"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/videos/",
+      "tags": [
+        "videos"
+      ]
+    },
+    {
+      "url": "https://docs.prebid.org/cookies.html",
+      "tags": [
+        "cookies"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.prebid.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": ".pb-content h1",
+      "lvl1": ".pb-content h3",
+      "text": ".pb-content p, .pb-content li"
+    },
+    "prebid": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Prebid"
+      },
+      "lvl1": ".pb-content h1",
+      "lvl2": ".pb-content h2",
+      "lvl3": ".pb-content h3",
+      "lvl4": ".pb-content h4",
+      "text": ".pb-content p, .pb-content li"
+    },
+    "prebid-server": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Prebid Server"
+      },
+      "lvl1": ".pb-content h1",
+      "lvl2": ".pb-content h2",
+      "lvl3": ".pb-content h3",
+      "lvl4": ".pb-content h4",
+      "text": ".pb-content p, .pb-content li"
+    },
+    "prebid-mobile": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Prebid Mobile"
+      },
+      "lvl1": ".pb-content h1",
+      "lvl2": ".pb-content h2",
+      "lvl3": ".pb-content h3",
+      "lvl4": ".pb-content h4",
+      "text": ".pb-content p, .pb-content li"
+    }
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
+  "scrape_start_urls": false,
+  "conversation_id": [
+    "1392715244"
+  ],
+  "nb_hits": 16254
+}

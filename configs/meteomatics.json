@@ -11,7 +11,7 @@
     "lvl2": ".page h3",
     "lvl3": ".page h4",
     "lvl4": ".page h5",
-    "text": ".page p, .page li"
+    "text": ".page p, .page li, .page code, .page pre, .page a"
   },
   "js_render": true,
   "conversation_id": [

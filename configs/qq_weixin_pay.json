@@ -1,29 +1,28 @@
 {
   "index_name": "qq_weixin_pay",
-  "start_urls": [
-    "https://pay.weixin.qq.com/wiki/doc/apiv3/wxpay/pages/index.shtml",
-    "https://pay.weixin.qq.com/wiki/doc/apiv3/wxpay/",
-    "https://pay.weixin.qq.com/wiki/doc/api/index.html",
-    "https://pay.weixin.qq.com/wiki/doc/api/"
-  ],
-  "stop_urls": [
-    "\\?"
-  ],
+  "start_urls": ["https://pay.weixin.qq.com/"],
+  "stop_urls": ["/download/", "^(?!.*/wiki/doc/apiv3/).*$"],
   "selectors": {
     "lvl0": {
       "selector": "div.bread-crumb.title-top > a:nth-child(2), p.sidebar-heading.open",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".doc-main h2,.content-hd h1",
-    "lvl2": ".doc-main h3,.content-hd h2",
-    "lvl3": ".doc-main h4,.content-hd h3",
-    "lvl4": ".doc-main h5,.content-hd h4",
-    "lvl5": ".doc-main h6,.content-hd h6",
+    "lvl1": {
+      "selector": "(//*[contains(@class,'doc-menu')]//dd[contains(@class,'open')]//*[contains(@class, 'selected')]/ancestor::ul/preceding::a[1])/text()",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl2": ".doc-main h2,.content-hd h1",
+    "lvl3": ".doc-main h3,.content-hd h2",
+    "lvl4": ".doc-main h4,.content-hd h3",
+    "lvl5": ".doc-main h5,.content-hd h4",
     "text": ".doc-main p, .content-hd p, .doc-main li, .content-hd li"
   },
-  "conversation_id": [
-    "1158306968"
-  ],
-  "nb_hits": 6854
+  "conversation_id": ["1158306968"],
+  "use_anchors": false,
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 16882
 }

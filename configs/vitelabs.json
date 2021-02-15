@@ -1,0 +1,23 @@
+{
+  "index_name": "vitelabs",
+  "start_urls": [
+    "https://docs.vite.org/vite.js/"
+  ],
+  "sitemap_urls": [
+    "https://docs.vite.org/vite.js/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#content-scroll h1",
+    "lvl1": "#content-scroll h2",
+    "lvl2": "#content-scroll h3",
+    "lvl3": "#content-scroll h4",
+    "lvl4": "#content-scroll h5",
+    "lvl5": "#content-scroll h6",
+    "text": "#content-scroll p, #content-scroll li"
+  },
+  "conversation_id": [
+    "1412475147"
+  ],
+  "nb_hits": 1570
+}
