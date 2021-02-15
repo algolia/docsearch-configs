@@ -1,10 +1,10 @@
 {
   "index_name": "sleepy-discord-docs",
   "start_urls": [
-    "https://yourwaifu.dev/sleepy-discord-docs/"
+    "https://yourwaifu.dev/sleepy-discord/"
   ],
   "sitemap_urls": [
-    "https://yourwaifu.dev/sleepy-discord-docs/sitemap.xml"
+    "https://yourwaifu.dev/sleepy-discord/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
