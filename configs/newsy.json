@@ -1,0 +1,25 @@
+{
+  "index_name": "newsy",
+  "start_urls": [
+    "https://help.newsy.co"
+  ],
+  "sitemap_urls": [
+    "https://help.newsy.co/sitemap.xml"
+  ],
+  "stop_urls": [
+    "example"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "body > div:first-child > div:first-child > div:last-child div.text-lg",
+    "lvl2": "body > div:first-child > div:first-child > div:last-child div.section-header",
+    "text": "body > div:first-child > div:first-child > div:last-child div.leading-loose"
+  },
+  "conversation_id": [
+    "1389069077"
+  ],
+  "nb_hits": 220
+}
