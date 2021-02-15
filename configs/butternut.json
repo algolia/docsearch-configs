@@ -1,12 +1,10 @@
 {
-  "index_name": "fiskaltrust",
+  "index_name": "butternut",
   "start_urls": [
-    "https://docs.fiskaltrust.cloud/"
+    "https://docs.butternut.tech/docs/"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [
-    "https:\\/\\/docs\\.fiskaltrust\\.cloud\\/doc\\/.*"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -40,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1391152814"
+    "1422200617"
   ],
-  "nb_hits": 26713
+  "nb_hits": 292
 }
