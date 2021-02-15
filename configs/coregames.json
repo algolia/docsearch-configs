@@ -1,6 +1,11 @@
 {
   "index_name": "coregames",
   "start_urls": [
+    {
+      "url": "https://docs.coregames.com/api/",
+      "selectors_key": "api",
+      "tags": ["api"]
+    },
     "https://docs.coregames.com"
   ],
   "sitemap_urls": [
