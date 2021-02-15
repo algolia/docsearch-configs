@@ -108,7 +108,6 @@
   "selectors": {
     "default": {
       "lvl0": ".pb-content h1",
-      "lvl1": ".pb-content h2",
       "lvl1": ".pb-content h3",
       "text": ".pb-content p, .pb-content li"
     },
@@ -156,5 +155,5 @@
   "conversation_id": [
     "1392715244"
   ],
-  "nb_hits": 4240
+  "nb_hits": 16254
 }
