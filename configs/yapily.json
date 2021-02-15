@@ -1,0 +1,23 @@
+{
+  "index_name": "yapily",
+  "start_urls": [
+    "https://docs.yapily.com/"
+  ],
+  "sitemap_urls": [
+    "https://docs.yapily.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".Content h1",
+    "lvl1": ".Content h2",
+    "lvl2": ".Content h3",
+    "lvl3": ".Content h4",
+    "lvl4": ".Content h5",
+    "lvl5": ".Content h6",
+    "text": ".Content p, .Content li"
+  },
+  "conversation_id": [
+    "1403495344"
+  ],
+  "nb_hits": 1479
+}
