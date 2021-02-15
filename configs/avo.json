@@ -1,8 +1,6 @@
 {
   "index_name": "avo",
-  "start_urls": [
-    "https://www.avo.app/docs/"
-  ],
+  "start_urls": [],
   "stop_urls": [],
   "sitemap_urls": [
     "https://www.avo.app/docs/sitemap.xml"
@@ -19,5 +17,5 @@
   "conversation_id": [
     "1221281426"
   ],
-  "nb_hits": 650
+  "nb_hits": 1896
 }
