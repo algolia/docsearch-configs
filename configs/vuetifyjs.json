@@ -28,7 +28,6 @@
       "lvl1": ".markdown-body h2",
       "lvl2": ".markdown-body h3",
       "lvl3": ".markdown-body h4",
-      "lvl4": ".markdown-body h5",
       "text": ".markdown-body p, .markdown-body li"
     },
     "api": {
