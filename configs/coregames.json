@@ -1,7 +1,6 @@
 {
   "index_name": "coregames",
   "start_urls": [
-    "https://docs.coregames.com",
     {
       "url": "https://docs.coregames.com/api/",
       "selectors_key": "api",
@@ -9,13 +8,7 @@
         "api"
       ]
     },
-    {
-      "url": "https://docs.coregames.com/tutorials/",
-      "selectors_key": "tutorials",
-      "tags": [
-        "tutorials"
-      ]
-    }
+    "https://docs.coregames.com"
   ],
   "sitemap_urls": [
     "https://docs.coregames.com/sitemap.xml"
@@ -42,5 +35,5 @@
   "conversation_id": [
     "1109322761"
   ],
-  "nb_hits": 8804
+  "nb_hits": 8848
 }
