@@ -1,10 +1,15 @@
 {
   "index_name": "numl",
   "start_urls": [
-    "https://numl.design/handbook/"
+    "https://numl.design/",
+    "https://numl.design/storybook",
+    "https://numl.design/handbook/",
+    "https://numl.design/reference/",
+    "https://numl.design/storybook",
+    "https://numl.design/blog"
   ],
   "sitemap_urls": [
-    "https://numl.design/sitemap.xml"
+  ",  "https://numl.design/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
