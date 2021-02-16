@@ -8,9 +8,7 @@
     "https://numl.design/repl",
     "https://numl.design/blog"
   ],
-  "sitemap_urls": [
-  ",  "https://numl.design/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://numl.design/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": "#__layout [id*='h1']",
@@ -23,8 +21,6 @@
   },
   "js_render": true,
   "js_wait": 1,
-  "conversation_id": [
-    "1421871663"
-  ],
+  "conversation_id": ["1421871663"],
   "nb_hits": 249
 }
