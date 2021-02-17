@@ -1,0 +1,24 @@
+{
+  "index_name": "vue-act-master",
+  "start_urls": [
+    "https://avil13.github.io/vue-act-master/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1425633330"
+  ],
+  "nb_hits": 144
+}
