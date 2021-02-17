@@ -2,24 +2,11 @@
   "index_name": "bonitasoft",
   "start_urls": [
     {
-      "url": "https://bonitasoft.github.io/bonita/7.8/",
-      "tags": ["7.8", "bonita"]
-    },
-    {
-      "url": "https://bonitasoft.github.io/bonita/7.9/",
-      "tags": ["7.9", "bonita"]
-    },
-    {
-      "url": "https://bonitasoft.github.io/bonita/7.10/",
-      "tags": ["7.10", "bonita"]
-    },
-    {
-      "url": "https://bonitasoft.github.io/bonita/7.11/",
-      "tags": ["7.11", "bonita"]
-    },
-    {
-      "url": "https://bonitasoft.github.io/bonita/7.12/",
-      "tags": ["7.12", "bonita"]
+      "url": "https://bonitasoft.github.io/bonita/(?P<version>.*?)/",
+      "tags": ["bonita"],
+      "variables": {
+        "version": ["7.8", "7.9", "7.10", "7.11", "7.12"]
+      }
     },
     {
       "url": "https://bonitasoft.github.io/cloud/latest",
