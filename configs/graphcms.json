@@ -2,7 +2,7 @@
   "index_name": "graphcms",
   "start_urls": [
     {
-      "url": "https://graphcms.com/docs",
+      "url": "https://graphcms.com/docs"
     },
     {
       "url": "http://graphcms.com/guides",
