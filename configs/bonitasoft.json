@@ -1,12 +1,45 @@
 {
   "index_name": "bonitasoft",
   "start_urls": [
-    "https://bonitasoft.github.io"
+    {
+      "url": "https://bonitasoft.github.io/bonita/7.8/",
+      "tags": ["7.8", "bonita"]
+    },
+    {
+      "url": "https://bonitasoft.github.io/bonita/7.9/",
+      "tags": ["7.9", "bonita"]
+    },
+    {
+      "url": "https://bonitasoft.github.io/bonita/7.10/",
+      "tags": ["7.10", "bonita"]
+    },
+    {
+      "url": "https://bonitasoft.github.io/bonita/7.11/",
+      "tags": ["7.11", "bonita"]
+    },
+    {
+      "url": "https://bonitasoft.github.io/bonita/7.12/",
+      "tags": ["7.12", "bonita"]
+    },
+    {
+      "url": "https://bonitasoft.github.io/cloud/latest",
+      "tags": ["cloud"]
+    },
+    {
+      "url": "https://bonitasoft.github.io/bici/latest/",
+      "tags": ["bici"]
+    }
   ],
   "sitemap_urls": [
     "https://bonitasoft.github.io/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://bonitasoft.github.io/bonita/7.3",
+    "https://bonitasoft.github.io/bonita/7.4",
+    "https://bonitasoft.github.io/bonita/7.5",
+    "https://bonitasoft.github.io/bonita/7.6",
+    "https://bonitasoft.github.io/bonita/7.7"
+  ],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
