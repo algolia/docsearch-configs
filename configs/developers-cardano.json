@@ -1,0 +1,21 @@
+{
+  "index_name": "developers-cardano",
+  "start_urls": ["https://developers.cardano.org/"],
+  "sitemap_urls": ["https://developers.cardano.org/sitemap.xml"],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class*='Article__MainContent'] h2",
+    "lvl2": "[class*='Article__MainContent'] h3",
+    "lvl3": "[class*='Article__MainContent'] h4",
+    "lvl4": "[class*='Article__MainContent'] h5",
+    "text": "[class*='Article__MainContent'] p, [class*='Article__MainContent'] li"
+  },
+  "conversation_id": ["1417627476"],
+  "nb_hits": 6515
+}

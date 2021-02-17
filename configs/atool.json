@@ -1,0 +1,18 @@
+{
+  "index_name": "atool",
+  "start_urls": [
+    "https://atool.vip"
+  ],
+  "sitemap_urls": [
+    "https://atool.vip/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".at-tool-content h1",
+    "text": ".atool-desc"
+  },
+  "conversation_id": [
+    "1421646105"
+  ],
+  "nb_hits": 152
+}
