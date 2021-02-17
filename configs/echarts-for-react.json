@@ -1,0 +1,16 @@
+{
+  "index_name": "echarts-for-react",
+  "start_urls": ["https://git.hust.cc/echarts-for-react/"],
+  "stop_urls": ["demos"],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".__dumi-default-layout-content h2",
+    "text": ".__dumi-default-layout-content p, .__dumi-default-layout-content li"
+  },
+  "js_render": true,
+  "conversation_id": ["1420560733"],
+  "nb_hits": 25
+}
