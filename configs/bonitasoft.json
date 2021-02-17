@@ -39,5 +39,8 @@
   "conversation_id": [
     "1393529298"
   ],
+  "custom_settings": {
+    "attributesForFaceting": ["version", "tags"]
+  },
   "nb_hits": 18343
 }
