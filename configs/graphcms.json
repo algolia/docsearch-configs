@@ -1,24 +1,42 @@
 {
   "index_name": "graphcms",
   "start_urls": [
-    "https://graphcms.com/docs"
+    {
+      "url": "https://graphcms.com/docs",
+    },
+    {
+      "url": "http://graphcms.com/guides",
+      "selectors_key": "guides"
+    }
   ],
   "stop_urls": [],
   "sitemap_urls": [
     "https://graphcms.com/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "nav button.text-rose",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "nav button.text-rose",
+        "global": true,
+        "default_value": "API Reference"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "text": "main p, main li"
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "text": "main p, main li"
+    "guides": {
+      "lvl0": {
+        "selector": "nav button.text-rose",
+        "global": true,
+        "default_value": "Guides"
+      },
+      "lvl1": "lg:py-6 text-center max-w-4xl mx-auto h1",
+      "lvl2": "max-w-3xl mx-auto h-auto h2",
+      "lvl3": "max-w-3xl mx-auto h-auto h3"
+    },
   },
   "conversation_id": [
     "939402783"
