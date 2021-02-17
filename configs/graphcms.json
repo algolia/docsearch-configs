@@ -2,17 +2,16 @@
   "index_name": "graphcms",
   "start_urls": [
     {
-      "url": "https://graphcms.com/docs"
-    },
-    {
-      "url": "http://graphcms.com/guides",
+      "url": "https://graphcms.com/guides/",
       "selectors_key": "guides"
-    }
+    },
+    "https://graphcms.com/docs/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
     "https://graphcms.com/sitemap.xml"
   ],
+  "scrape_start_urls": false,
   "selectors": {
     "default": {
       "lvl0": {
@@ -29,17 +28,18 @@
     },
     "guides": {
       "lvl0": {
-        "selector": "nav button.text-rose",
+        "selector": "",
         "global": true,
         "default_value": "Guides"
       },
-      "lvl1": "lg:py-6 text-center max-w-4xl mx-auto h1",
-      "lvl2": "max-w-3xl mx-auto h-auto h2",
-      "lvl3": "max-w-3xl mx-auto h-auto h3"
-    },
+      "lvl1": "section h1",
+      "lvl2": "section h2",
+      "lvl3": "section h3",
+      "lvl4": "section h4"
+    }
   },
   "conversation_id": [
     "939402783"
   ],
-  "nb_hits": 1187
+  "nb_hits": 767
 }
