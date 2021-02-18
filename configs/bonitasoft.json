@@ -21,6 +21,13 @@
       "variables": {
         "version": ["latest"]
       }
+    },
+    {
+      "url": "https://bonitasoft.github.io/bcd/(?P<version>.*?)/",
+      "tags": ["bcd"],
+      "variables": {
+        "version": ["3.4"]
+      }
     }
   ],
   "sitemap_urls": [
