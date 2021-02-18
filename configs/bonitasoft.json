@@ -9,12 +9,25 @@
       }
     },
     {
-      "url": "https://bonitasoft.github.io/cloud/latest",
-      "tags": ["cloud"]
+      "url": "https://bonitasoft.github.io/cloud/(?P<version>.*?)/",
+      "tags": ["cloud"],
+      "variables": {
+        "version": ["latest"]
+      }
     },
     {
-      "url": "https://bonitasoft.github.io/bici/latest/",
-      "tags": ["bici"]
+      "url": "https://bonitasoft.github.io/bici/(?P<version>.*?)/",
+      "tags": ["bici"],
+      "variables": {
+        "version": ["latest"]
+      }
+    },
+    {
+      "url": "https://bonitasoft.github.io/bcd/(?P<version>.*?)/",
+      "tags": ["bcd"],
+      "variables": {
+        "version": ["3.4"]
+      }
     }
   ],
   "sitemap_urls": [
