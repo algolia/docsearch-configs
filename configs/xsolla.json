@@ -386,7 +386,7 @@
     "https://developers.xsolla.com/ru/sdk/android/use-xsolla-servers/$",
     "https://developers.xsolla.com/ru/sdk/android/use-your-server-side/$",
     "https://developers.xsolla.com/ru/sdk/android/use-third-party-servers/$",
-    "https://developers.xsolla.com/ru/sdk/android/use-serverless-integration/$" 
+    "https://developers.xsolla.com/ru/sdk/android/use-serverless-integration/$"
   ],
   "selectors": {
     "lvl0": "article h1",
@@ -396,6 +396,9 @@
     "lvl4": "article h5",
     "lvl5": "article h6",
     "text": "article p, article li, article td"
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["tags", "lang"]
   },
   "conversation_id": ["538992189"],
   "nb_hits": 101305
