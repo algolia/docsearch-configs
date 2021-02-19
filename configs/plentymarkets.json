@@ -1,0 +1,111 @@
+{
+  "index_name": "plentymarkets",
+  "start_urls": [
+    {
+      "url": "https://developers.plentymarkets.com/en-gb/developers",
+      "selectors_key": "developers",
+      "tags": [
+        "developers"
+      ],
+      "page_rank": 3
+    },
+    {
+      "url": "https://developers.plentymarkets.com/en-gb/interface/(?P<version>.*?)/",
+      "selectors_key": "interface",
+      "tags": [
+        "interface"
+      ],
+      "page_rank": 2,
+      "variables": {
+        "version": [
+          "stable7",
+          "early",
+          "beta7"
+        ]
+      }
+    },
+    {
+      "url": "https://developers.plentymarkets.com/en-gb/plugin-ceres/(?P<version>.*?)/",
+      "selectors_key": "plugins",
+      "tags": [
+        "plugin-ceres"
+      ],
+      "page_rank": 2,
+      "variables": {
+        "version": [
+          "5.0.0",
+          "4.6.0"
+        ]
+      }
+    },
+    {
+      "url": "https://developers.plentymarkets.com/en-gb/plugin-io/(?P<version>.*?)/",
+      "selectors_key": "plugins",
+      "tags": [
+        "plugin-io"
+      ],
+      "page_rank": 2,
+      "variables": {
+        "version": [
+          "5.0.0",
+          "4.6.0"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://developers.plentymarkets.com/en-gb/sitemap-developers.xml",
+    "https://developers.plentymarkets.com/en-gb/sitemap-interface.xml",
+    "https://developers.plentymarkets.com/en-gb/sitemap-plugin-ceres.xml",
+    "https://developers.plentymarkets.com/en-gb/sitemap-plugin-io.xml"
+  ],
+  "selectors": {
+    "developers": {
+      "lvl0": {
+        "selector": "h3.title > a",
+        "default_value": "Developers"
+      },
+      "lvl1": ".breadcrumbs li:nth-child(2)",
+      "lvl2": ".doc h1",
+      "lvl3": ".doc h2",
+      "lvl4": ".doc h3",
+      "lvl5": ".doc h4",
+      "lvl6": ".doc h5",
+      "text": ".sectionbody p"
+    },
+    "interface": {
+      "lvl0": {
+        "selector": ".overwrite-this-with-interface",
+        "default_value": "Interface"
+      },
+      "lvl1": {
+        "selector": "//nav[@class='breadcrumbs']//li[last()]",
+        "type": "xpath"
+      },
+      "lvl2": ".doc h2",
+      "lvl3": ".doc h3",
+      "lvl4": ".doc h4",
+      "lvl5": ".doc h5",
+      "lvl6": ".doc h6",
+      "text": ".paragraph p"
+    },
+    "plugins": {
+      "lvl0": ".context span.title",
+      "lvl1": {
+        "selector": "//nav[@class='breadcrumbs']//li[last()]",
+        "type": "xpath"
+      },
+      "lvl2": ".doc h2",
+      "lvl3": ".doc h3",
+      "lvl4": ".doc h4",
+      "lvl5": ".doc h5",
+      "lvl6": ".doc h6",
+      "text": ".paragraph p"
+    }
+  },
+  "min_indexed_level": 2,
+  "conversation_id": [
+    "1413539827"
+  ],
+  "nb_hits": 81529
+}

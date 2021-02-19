@@ -1,0 +1,23 @@
+{
+  "index_name": "payloadcms",
+  "start_urls": [
+    "https://payloadcms.com/docs"
+  ],
+  "sitemap_urls": [
+    "https://payloadcms.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='docs_main'] h1",
+    "lvl1": "[class*='docs_main'] h2",
+    "lvl2": "[class*='docs_main'] h3",
+    "lvl3": "[class*='docs_main'] h4",
+    "lvl4": "[class*='docs_main'] h5",
+    "lvl5": "[class*='docs_main'] h6",
+    "text": "[class*='docs_main'] p, [class*='docs_main'] li"
+  },
+  "conversation_id": [
+    "1390688285"
+  ],
+  "nb_hits": 1349
+}

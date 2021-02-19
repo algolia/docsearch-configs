@@ -1,0 +1,22 @@
+{
+  "index_name": "quarkly",
+  "start_urls": [
+    "https://quarkly.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[data-qkind='SectionContent'] h1",
+    "lvl1": "[data-qkind='SectionContent'] h2",
+    "lvl2": "[data-qkind='SectionContent'] h3",
+    "lvl3": "[data-qkind='SectionContent'] h4",
+    "lvl4": "[data-qkind='SectionContent'] h5",
+    "lvl5": "[data-qkind='SectionContent'] h6",
+    "text": "[data-qkind='SectionContent'] p, [data-qkind='SectionContent'] li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": [
+    "1392258383"
+  ],
+  "nb_hits": 1429
+}
