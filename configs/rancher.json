@@ -1,7 +1,7 @@
 {
   "index_name": "rancher",
-  "start_urls": ["https://docs.rancher.cn//"],
-  "sitemap_urls": ["https://docs.rancher.cn//sitemap.xml"],
+  "start_urls": ["https://docs.rancher.cn/"],
+  "sitemap_urls": ["https://docs.rancher.cn/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
