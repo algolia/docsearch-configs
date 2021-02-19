@@ -73,8 +73,8 @@
     }
   ],
   "stop_urls": [
-    "search",
-    "changelog/tags",
+    "/search",
+    "/changelog/tags",
     "https://developers.xsolla.com/doc/pay-station/integration-guide/$",
     "https://developers.xsolla.com/doc/pay-station/features/$",
     "https://developers.xsolla.com/doc/pay-station/how-to/$",
