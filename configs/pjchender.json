@@ -1,10 +1,10 @@
 {
   "index_name": "pjchender",
   "start_urls": [
-    "https://pjchender.github.io/"
+    "https://pjchender.dev/"
   ],
   "sitemap_urls": [
-    "https://pjchender.github.io/sitemap.xml"
+    "https://pjchender.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
