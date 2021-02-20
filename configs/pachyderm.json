@@ -22,7 +22,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": ".md-nav__item--active .md-nav__title",
       "global": true,
       "default_value": "Documentation"
     },
