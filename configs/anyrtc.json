@@ -22,7 +22,6 @@
   },
   "strip_chars": " .,;:#",
   "selectors_exclude": [".header", ".footer"],
-  "custom_settings": {},
   "conversation_id": ["1240230599"],
   "scrape_start_urls": false,
   "nb_hits": 30510
