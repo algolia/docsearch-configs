@@ -8,32 +8,20 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": ".nuxt-link-active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "header h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
-    "text": "article p, article li, article td:last-child"
+    "lvl1": ".markdown-body h1",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3",
+    "lvl4": ".markdown-body h4",
+    "lvl5": ".markdown-body h5, .markdown-body td:first-child",
+    "lvl6": ".markdown-body h6",
+    "text": ".markdown-body p, .markdown-body li, .markdown-body td:last-child"
   },
   "strip_chars": " .,;:#",
   "selectors_exclude": [".header", ".footer"],
-  "custom_settings": {
-    "separatorsToIndex": "_",
-    "attributesForFaceting": ["language", "version", "type", "tags"],
-    "attributesToRetrieve": [
-      "hierarchy",
-      "content",
-      "anchor",
-      "url",
-      "url_without_anchor",
-      "type"
-    ]
-  },
   "conversation_id": ["1240230599"],
   "scrape_start_urls": false,
   "nb_hits": 30510
