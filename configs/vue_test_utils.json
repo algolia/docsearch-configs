@@ -1,34 +1,62 @@
 {
   "index_name": "vue_test_utils",
   "start_urls": [
-    "https://vue-test-utils.vuejs.org/"
+    {
+      "url": "https://vue-test-utils.vuejs.org/guide/",
+      "selectors_key": "current",
+      "tags": ["current", "guide"]
+    },
+    {
+      "url": "https://vue-test-utils.vuejs.org/api/",
+      "selectors_key": "current",
+      "tags": ["current", "api"]
+    },
+    {
+      "url": "https://next.vue-test-utils.vuejs.org/guide/",
+      "selectors_key": "guide",
+      "tags": ["next", "guide"]
+    },
+    {
+      "url": "https://next.vue-test-utils.vuejs.org/api/",
+      "selectors_key": "api",
+      "tags": ["next", "api"]
+    }    
   ],
-  "stop_urls": [
-    "[^/]$"
-  ],
+  "stop_urls": ["[^/]$"],
   "selectors": {
-    "lvl0": ".content__default h2",
-    "lvl1": ".content__default h3",
-    "lvl2": ".content__default h4",
-    "lvl3": ".content__default h5",
-    "lvl5": ".content__default h5",
-    "text": ".content__default p, .content__default li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true
+    "current": {
+      "lvl0": ".content__default h2",
+      "lvl1": ".content__default h3",
+      "lvl2": ".content__default h4",
+      "lvl3": ".content__default h5",
+      "lvl4": ".content__default h5",
+      "text": ".content__default p, .content__default li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
+    },
+    "next": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
     }
   },
   "scrape_start_urls": false,
   "strip_chars": " .,;:#",
-  "conversation_id": [
-    "644808023"
-  ],
+  "conversation_id": ["644808023"],
   "custom_settings": {
-    "attributesForFaceting": [
-      "lang"
-    ]
+    "attributesForFaceting": ["lang", "tags"]
   },
   "min_indexed_level": 2,
-  "nb_hits": 3175
+  "nb_hits": 3374
 }

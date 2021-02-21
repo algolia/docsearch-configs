@@ -14,7 +14,7 @@
     "lvl4": ".md-content h4",
     "lvl5": ".md-content h5",
     "lvl6": ".md-content h6",
-    "text": ".md-content p, .md-content li"
+    "text": ".md-content p, .md-content li, .md-content .order-number"
   },
   "strip_chars": " .,;:#",
   "sitemap_urls": ["https://ja.docs.baslerweb.com/sitemap.xml"],

@@ -1,0 +1,32 @@
+{
+  "index_name": "krew",
+  "start_urls": [
+    {
+      "url": "https://docs.krew.grapecity.com/krewdashboard/",
+      "tags": ["krewdashboard"]
+    },
+    {
+      "url": "https://docs.krew.grapecity.com/krewdata/",
+      "tags": ["krewdata"]
+    },
+    {
+      "url": "https://docs.krew.grapecity.com/krewsheet/",
+      "tags": ["krewsheet"]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "body h1",
+    "lvl1": "body h2",
+    "lvl2": "body h3",
+    "lvl3": "body h4",
+    "lvl4": "body h5",
+    "lvl5": "body h6",
+    "text": "body p, body li"
+  },
+  "conversation_id": ["1378717586"],
+  "custom_settings": {
+    "attributesForFaceting": ["tags"]
+  },
+  "nb_hits": 3260
+}

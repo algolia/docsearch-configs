@@ -1,0 +1,47 @@
+{
+  "index_name": "pachyderm",
+  "start_urls": [
+    {
+      "url": "https://docs.pachyderm.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "1.11.x",
+          "1.10.x",
+          "1.9.x"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.pachyderm.com/latest/sitemap.xml",
+    "https://docs.pachyderm.com/1.11.x/sitemap.xml",
+    "https://docs.pachyderm.com/1.10.x/sitemap.xml",
+    "https://docs.pachyderm.com/1.9.x/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".md-nav__item--active .md-nav__title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "strip_chars": " .,;:#¶",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1418722039"
+  ],
+  "nb_hits": 20567
+}

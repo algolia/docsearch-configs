@@ -11,6 +11,15 @@
       }
     },
     {
+      "url": "https://tailwindcss.com/community",
+      "selectors_key": "v2",
+      "extra_attributes": {
+        "version": [
+          "v2"
+        ]
+      }
+    },
+    {
       "url": "https://v1.tailwindcss.com/",
       "selectors_key": "v1",
       "extra_attributes": {
@@ -105,5 +114,5 @@
   "conversation_id": [
     "459164857"
   ],
-  "nb_hits": 11019
+  "nb_hits": 20679
 }
