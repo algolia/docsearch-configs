@@ -2,7 +2,7 @@
   "index_name": "numl",
   "start_urls": ["https://numl.design/"],
   "sitemap_urls": ["https://numl.design/sitemap.xml"],
-  "stop_urls": [],
+  "stop_urls": ["style/--"],
   "selectors": {
     "lvl0": "nu-article nu-h1",
     "lvl1": "nu-article nu-h2",
