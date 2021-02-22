@@ -28,9 +28,6 @@
     },
     "lvl1": "article h1",
     "lvl2": "article h2",
-    "lvl3": "",
-    "lvl4": "",
-    "lvl5": "",
     "text": "article h3, article h4, article h5, article p, article li"
   },
   "strip_chars": " .,;:#¶",
