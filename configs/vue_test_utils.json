@@ -12,6 +12,11 @@
       "tags": ["current", "api"]
     },
     {
+      "url": "https://vue-test-utils.vuejs.org/guides",
+      "selectors_key": "current",
+      "tags": ["current", "guides"]
+    },
+    {
       "url": "https://next.vue-test-utils.vuejs.org/api/",
       "selectors_key": "next",
       "tags": ["next", "api"]
