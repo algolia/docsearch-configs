@@ -2,9 +2,9 @@
   "index_name": "vue_test_utils",
   "start_urls": [
     {
-      "url": "https://vue-test-utils.vuejs.org/guide/",
+      "url": "https://vue-test-utils.vuejs.org/",
       "selectors_key": "current",
-      "tags": ["current", "guide"]
+      "tags": ["current"]
     },
     {
       "url": "https://vue-test-utils.vuejs.org/api/",
@@ -12,15 +12,15 @@
       "tags": ["current", "api"]
     },
     {
-      "url": "https://next.vue-test-utils.vuejs.org/guide/",
-      "selectors_key": "guide",
-      "tags": ["next", "guide"]
+      "url": "https://next.vue-test-utils.vuejs.org/api/",
+      "selectors_key": "next",
+      "tags": ["next", "api"]
     },
     {
-      "url": "https://next.vue-test-utils.vuejs.org/api/",
-      "selectors_key": "api",
-      "tags": ["next", "api"]
-    }    
+      "url": "https://next.vue-test-utils.vuejs.org/",
+      "selectors_key": "next",
+      "tags": ["next"]
+    }
   ],
   "stop_urls": ["[^/]$"],
   "selectors": {
@@ -51,12 +51,11 @@
       }
     }
   },
-  "scrape_start_urls": false,
   "strip_chars": " .,;:#",
   "conversation_id": ["644808023"],
   "custom_settings": {
     "attributesForFaceting": ["lang", "tags"]
   },
   "min_indexed_level": 2,
-  "nb_hits": 3374
+  "nb_hits": 3559
 }
