@@ -17,6 +17,11 @@
       "tags": ["next", "api"]
     },
     {
+      "url": "https://next.vue-test-utils.vuejs.org/guide/",
+      "selectors_key": "next",
+      "tags": ["next", "guide"]
+    },
+    {
       "url": "https://next.vue-test-utils.vuejs.org/",
       "selectors_key": "next",
       "tags": ["next"]
