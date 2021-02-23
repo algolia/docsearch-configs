@@ -28,7 +28,7 @@
       "lvl3": "#body-inner h3",
       "lvl4": "#body-inner h4",
       "lvl5": "#body-inner h5",
-      "text": "#body-inner p, #body-inner li"
+      "text": "#body-inner p, #body-inner li, #body-inner tbody tr"
     },
     "manual": {
       "lvl0": {
@@ -40,7 +40,7 @@
       "lvl3": "#body-inner h3",
       "lvl4": "#body-inner h4",
       "lvl5": "#body-inner h5",
-      "text": "#body-inner p, #body-inner li"
+      "text": "#body-inner p, #body-inner li, #body-inner tbody tr"
     }
   },
   "custom_settings": {
