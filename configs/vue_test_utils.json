@@ -2,37 +2,55 @@
   "index_name": "vue_test_utils",
   "start_urls": [
     {
-      "url": "https://vue-test-utils.vuejs.org/",
-      "selectors_key": "current",
-      "tags": ["current"]
-    },
-    {
       "url": "https://vue-test-utils.vuejs.org/api/",
       "selectors_key": "current",
-      "tags": ["current", "api"]
+      "tags": [
+        "current",
+        "api"
+      ]
     },
     {
-      "url": "https://vue-test-utils.vuejs.org/guides",
+      "url": "https://vue-test-utils.vuejs.org/guides/",
       "selectors_key": "current",
-      "tags": ["current", "guides"]
+      "tags": [
+        "current",
+        "guide"
+      ]
+    },
+    {
+      "url": "https://vue-test-utils.vuejs.org/",
+      "selectors_key": "current",
+      "tags": [
+        "current"
+      ]
     },
     {
       "url": "https://next.vue-test-utils.vuejs.org/api/",
       "selectors_key": "next",
-      "tags": ["next", "api"]
+      "tags": [
+        "next",
+        "api"
+      ]
     },
     {
       "url": "https://next.vue-test-utils.vuejs.org/guide/",
       "selectors_key": "next",
-      "tags": ["next", "guide"]
+      "tags": [
+        "next",
+        "guide"
+      ]
     },
     {
       "url": "https://next.vue-test-utils.vuejs.org/",
       "selectors_key": "next",
-      "tags": ["next"]
+      "tags": [
+        "next"
+      ]
     }
   ],
-  "stop_urls": ["[^/]$"],
+  "stop_urls": [
+    "[^/]$"
+  ],
   "selectors": {
     "current": {
       "lvl0": ".content__default h2",
@@ -62,10 +80,15 @@
     }
   },
   "strip_chars": " .,;:#",
-  "conversation_id": ["644808023"],
+  "conversation_id": [
+    "644808023"
+  ],
   "custom_settings": {
-    "attributesForFaceting": ["lang", "tags"]
+    "attributesForFaceting": [
+      "lang",
+      "tags"
+    ]
   },
   "min_indexed_level": 2,
-  "nb_hits": 3559
+  "nb_hits": 3565
 }
