@@ -7,7 +7,10 @@
     "https://numl.design/sitemap.xml"
   ],
   "stop_urls": [
-    "style/--"
+    "styles/--",
+    "/repl",
+    "/preview",
+    "/blog"
   ],
   "selectors": {
     "lvl0": "nu-article nu-h1",
@@ -21,8 +24,11 @@
   "conversation_id": [
     "1421871663"
   ],
-  "js_render": true,
+  "stop_content": [
+    "Content page. Has no description yet."
+  ],
+  "scrape_start_urls": false,
   "sitemap_alternate_links": true,
   "force_sitemap_urls_crawling": true,
-  "nb_hits": 2024
+  "nb_hits": 1240
 }
