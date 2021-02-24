@@ -1,10 +1,7 @@
 {
-  "index_name": "spacehal",
+  "index_name": "mediamachine",
   "start_urls": [
-    "https://spacehal.github.io/"
-  ],
-  "sitemap_urls": [
-    "https://spacehal.github.io/sitemap.xml"
+    "https://www.mediamachine.io/site/docs/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "918649266"
+    "1431336653"
   ],
-  "nb_hits": 1331
+  "nb_hits": 319
 }

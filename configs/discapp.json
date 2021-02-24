@@ -1,10 +1,10 @@
 {
-  "index_name": "spacehal",
+  "index_name": "discapp",
   "start_urls": [
-    "https://spacehal.github.io/"
+    "https://discapp.vercel.app/"
   ],
   "sitemap_urls": [
-    "https://spacehal.github.io/sitemap.xml"
+    "https://discapp.vercel.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "918649266"
+    "1432444307"
   ],
-  "nb_hits": 1331
+  "nb_hits": 301
 }
