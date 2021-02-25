@@ -2,10 +2,98 @@
   "index_name": "ezplatform",
   "start_urls": [
     {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/api",
+      "page_rank": 16,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/community_resources",
+      "page_rank": 6,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/extending",
+      "page_rank": 16,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/getting_started",
+      "page_rank": 18,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/guide",
+      "page_rank": 18,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/migrating",
+      "page_rank": 10,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/releases",
+      "page_rank": 12,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/tutorials",
+      "page_rank": 16,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/updating",
+      "page_rank": 14,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/upgrading",
+      "page_rank": 14,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
+      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/references/",
+      "page_rank": 8,
+      "variables": {
+        "lang": ["en"],
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+      }
+    },
+    {
       "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
         "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "3.1", "2.5", "1.13", "master"]
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
       }
     }
   ],
