@@ -47,7 +47,8 @@
     "attributesForFaceting": [
       "language",
       "type"
-    ]
+    ],
+    "separatorsToIndex": "_{}"
   },
   "conversation_id": [
     "1321026817"
