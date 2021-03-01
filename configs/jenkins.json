@@ -3,11 +3,11 @@
   "start_urls": [
     {
       "url": "https://www.jenkins.io/doc/",
-      "tags": ["doc", "en"]
+      "tags": ["en"]
     },
     {
       "url": "https://www.jenkins.io/zh/doc/",
-      "tags": ["doc", "zh"]
+      "tags": ["zh"]
     }
   ],
   "sitemap_urls": ["https://www.jenkins.io/sitemap.xml"],
