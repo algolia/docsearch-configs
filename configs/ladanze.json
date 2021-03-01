@@ -1,10 +1,10 @@
 {
-  "index_name": "uniform",
+  "index_name": "ladanze",
   "start_urls": [
-    "https://docs.uniform.dev/sitecore/"
+    "https://pchmn.github.io/la-danze-ui/"
   ],
   "sitemap_urls": [
-    "https://docs.uniform.dev/sitecore/sitemap.xml"
+    "https://pchmn.github.io/la-danze-ui/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1120762473"
+    "1436420869"
   ],
-  "nb_hits": 940
+  "nb_hits": 292
 }
