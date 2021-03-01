@@ -10,7 +10,7 @@
           "js": "let versions=[]; for (let b of document.querySelectorAll('.hot-chooser optgroup option')){versions.push(b.getAttribute('value'))};return JSON.stringify(versions)"
         }
       },
-      "selector_key": "previous"
+      "selectors_key": "previous"
     },
     {
       "url": "https://dev.handsontable.com/docs/",
