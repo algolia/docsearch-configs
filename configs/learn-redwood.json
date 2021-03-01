@@ -1,7 +1,8 @@
 {
   "index_name": "learn-redwood",
   "start_urls": [
-    "https://learn-redwood.netlify.app/docs/"
+    "https://learn-redwood.netlify.app/docs/",
+    "https://learn-redwood.netlify.app/fr/docs/"
   ],
   "sitemap_urls": [
     "https://learn-redwood.netlify.app/sitemap.xml"
@@ -44,5 +45,5 @@
   "conversation_id": [
     "1399372762"
   ],
-  "nb_hits": 1104
+  "nb_hits": 2174
 }
