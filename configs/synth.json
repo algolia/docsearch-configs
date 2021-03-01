@@ -1,10 +1,10 @@
 {
-  "index_name": "uniform",
+  "index_name": "synth",
   "start_urls": [
-    "https://docs.uniform.dev/sitecore/"
+    "https://openquery-io.github.io/synth/"
   ],
   "sitemap_urls": [
-    "https://docs.uniform.dev/sitecore/sitemap.xml"
+    "https://openquery-io.github.io/synth/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1120762473"
+    "1436182143"
   ],
-  "nb_hits": 940
+  "nb_hits": 234
 }

@@ -1,10 +1,7 @@
 {
-  "index_name": "uniform",
+  "index_name": "seatsio",
   "start_urls": [
-    "https://docs.uniform.dev/sitecore/"
-  ],
-  "sitemap_urls": [
-    "https://docs.uniform.dev/sitecore/sitemap.xml"
+    "https://seatsio.github.io/docs/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1120762473"
+    "1435494063"
   ],
-  "nb_hits": 940
+  "nb_hits": 2480
 }
