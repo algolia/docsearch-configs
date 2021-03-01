@@ -1,13 +1,15 @@
 {
-  "index_name": "uniform",
+  "index_name": "casualos",
   "start_urls": [
-    "https://docs.uniform.dev/sitecore/"
+    "https://docs.casualos.com/"
   ],
   "sitemap_urls": [
-    "https://docs.uniform.dev/sitecore/sitemap.xml"
+    "https://docs.casualos.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "https://docs.casualos.com/docs/tags/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -41,7 +43,7 @@
     ]
   },
   "conversation_id": [
-    "1120762473"
+    "1434601255"
   ],
-  "nb_hits": 940
+  "nb_hits": 2992
 }
