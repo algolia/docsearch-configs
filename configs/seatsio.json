@@ -2,7 +2,7 @@
   "index_name": "seatsio",
   "start_urls": [
     "https://seatsio.github.io/docs/",
-    "https://docs.seats.io/docs/
+    "https://docs.seats.io/docs/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
