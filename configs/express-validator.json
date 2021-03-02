@@ -1,11 +1,7 @@
 {
   "index_name": "express-validator",
-  "start_urls": [
-    "https://express-validator.github.io/docs/"
-  ],
-  "sitemap_urls": [
-    "https://express-validator.github.io/sitemap.xml"
-  ],
+  "start_urls": ["https://express-validator.github.io/docs/"],
+  "sitemap_urls": ["https://express-validator.github.io/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -25,12 +21,7 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type",
-      "docusaurus_tag"
-    ],
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -40,8 +31,6 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1134384260"
-  ],
+  "conversation_id": ["1439248659"],
   "nb_hits": 6713
 }
