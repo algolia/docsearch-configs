@@ -22,7 +22,7 @@
   "sitemap_urls": [
     "https://jenkins-x.io/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/docs/.*$"],
   "selectors": {
     "lvl0": ".td-content h1, .documentation-copy h1",
     "lvl1": ".td-content h2, .documentation-copy h2",
