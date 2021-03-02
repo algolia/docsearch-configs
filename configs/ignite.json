@@ -1,0 +1,34 @@
+{
+  "index_name": "ignite",
+  "start_urls": [
+    {
+      "url": "https://pytorch.org/ignite/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://pytorch.org/ignite/",
+          "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dd')){versions.push(b.innerText)};return JSON.stringify(versions)"
+        }
+      }
+    }
+  ],
+  "stop_urls": [".txt", "^((?!\\.html).)*$"],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".rst-content h1",
+    "lvl2": ".rst-content h2",
+    "lvl3": ".rst-content h3",
+    "lvl4": ".rst-content h4",
+    "lvl5": ".rst-content h5",
+    "text": ".rst-content p, .rst-content li"
+  },
+  "strip_chars": " .,;:#¶",
+  "custom_settings": {
+    "attributesForFaceting": ["version"]
+  },
+  "conversation_id": ["1440172937"],
+  "nb_hits": 26966
+}
