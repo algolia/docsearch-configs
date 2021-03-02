@@ -1,10 +1,18 @@
 {
   "index_name": "wandisco-live-data-azure",
   "start_urls": [
-    "https://docs.wandisco.com/live-data-platform/"
+    {
+      "url": "https://docs.wandisco.com/live-data-platform/",
+      "tags": ["wandisco"]
+    },
+    {
+      "url": "https://wandiscosheffield.github.io/wandisco-documentation-private/",
+      "tags": ["github"]  
+    }
   ],
   "sitemap_urls": [
-    "https://docs.wandisco.com/live-data-platform/sitemap.xml"
+    "https://docs.wandisco.com/live-data-platform/sitemap.xml",
+    "https://wandiscosheffield.github.io/wandisco-documentation-private/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -29,7 +37,8 @@
       "language",
       "version",
       "type",
-      "docusaurus_tag"
+      "docusaurus_tag",
+      "tags"
     ],
     "attributesToRetrieve": [
       "hierarchy",
