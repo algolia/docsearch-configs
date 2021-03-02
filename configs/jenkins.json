@@ -42,12 +42,11 @@
   "selectors_exclude": [
     ".sidebar-nav"
   ],
-  "js_render": true,
   "stop_content": [
     "404 Not Found"
   ],
   "conversation_id": [
     "1436732846"
   ],
-  "nb_hits": 82627
+  "nb_hits": 50494
 }
