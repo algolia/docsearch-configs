@@ -1,0 +1,23 @@
+{
+  "index_name": "gravityview",
+  "start_urls": [
+    "https://docs.gravityview.co"
+  ],
+  "sitemap_urls": [
+    "https://docs.gravityview.co/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#fullArticle h1",
+    "lvl1": "#fullArticle h2",
+    "lvl2": "#fullArticle h3",
+    "lvl3": "#fullArticle h4",
+    "lvl4": "#fullArticle h5",
+    "lvl5": "#fullArticle h6",
+    "text": "#fullArticle p, #fullArticle li"
+  },
+  "conversation_id": [
+    "1428962617"
+  ],
+  "nb_hits": 5436
+}
