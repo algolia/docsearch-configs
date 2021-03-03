@@ -4,7 +4,7 @@
     {
       "url": "https://spark.apache.org/docs/(?P<version>.*?)/",
       "variables": {
-        "version": ["latest", "3.1.0", "3.1.1"]
+        "version": ["latest", "3.1.1"]
       }
     }
   ],
@@ -26,5 +26,5 @@
     "attributesForFaceting": ["version"]
   },
   "conversation_id": ["1327502761"],
-  "nb_hits": 12771
+  "nb_hits": 26673
 }
