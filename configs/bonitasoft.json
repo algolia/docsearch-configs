@@ -16,8 +16,8 @@
       }
     },
     {
-      "url": "https://preview.documentation.bonitasoft.com/bici/(?P<version>.*?)/",
-      "tags": ["bici"],
+      "url": "https://preview.documentation.bonitasoft.com/labs/(?P<version>.*?)/",
+      "tags": ["labs"],
       "variables": {
         "version": ["latest"]
       }
