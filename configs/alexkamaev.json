@@ -1,8 +1,7 @@
 {
   "index_name": "alexkamaev",
   "start_urls": [
-    "https://alexkamaev.github.io/documentation/",
-    "https://alexkamaev.github.io/documentation/400160/getting-started"
+    "https://alexkamaev.github.io"
   ],
   "stop_urls": [],
   "selectors": {
