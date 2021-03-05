@@ -8,13 +8,17 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#content-main h1",
-    "lvl1": "#content-main h2",
-    "lvl2": "#content-main h3",
-    "lvl3": "#content-main h4",
-    "lvl4": "#content-main h5",
-    "lvl5": "#content-main h6",
-    "text": "#content-main p, #content-main li"
+    "lvl0": {
+      "selector": "#navbar .active, #sidebar .panel-heading.current-page",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-main h1",
+    "lvl2": "#content-main h2",
+    "lvl3": "#content-main h3",
+    "lvl4": "#content-main h4",
+    "lvl5": "#content-main h5",
+    "text": "#content-main p, #content-main li, #content-main tbody td"
   },
   "conversation_id": [
     "1442879913"
