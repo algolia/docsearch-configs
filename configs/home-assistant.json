@@ -14,7 +14,8 @@
       "page_rank": 2
     },
     "https://www.home-assistant.io/docs/",
-    "https://www.home-assistant.io/hassio/"
+    "https://www.home-assistant.io/installation/",
+    "https://www.home-assistant.io/common-tasks/"
   ],
   "sitemap_urls": [
     "https://www.home-assistant.io/sitemap.xml"
