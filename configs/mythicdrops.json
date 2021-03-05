@@ -1,8 +1,7 @@
 {
   "index_name": "mythicdrops",
-  "start_urls": [
-    "https://mythicdrops.dev/docs/"
-  ],
+  "start_urls": ["https://mythicdrops.dev"],
+  "sitemap_urls": ["https://mythicdrops.dev/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -16,27 +15,10 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5, article td:first-child",
-    "text": "article p, article li, article td:last-child"
+    "lvl5": "article h5",
+    "text": "article p, article li"
   },
-  "strip_chars": " .,;:#",
-  "custom_settings": {
-    "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type",
-      "docusaurus_tag"
-    ],
-    "attributesToRetrieve": [
-      "hierarchy",
-      "content",
-      "anchor",
-      "url",
-      "url_without_anchor",
-      "type"
-    ]
-  },
+  "selectors_exclude": [".hash-link"],
   "conversation_id": [
     "1432052566"
   ],
