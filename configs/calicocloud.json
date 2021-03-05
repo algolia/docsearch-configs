@@ -1,0 +1,23 @@
+{
+  "index_name": "calicocloud",
+  "start_urls": [
+    "https://docs.calicocloud.io/"
+  ],
+  "sitemap_urls": [
+    "https://docs.calicocloud.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#content-main h1",
+    "lvl1": "#content-main h2",
+    "lvl2": "#content-main h3",
+    "lvl3": "#content-main h4",
+    "lvl4": "#content-main h5",
+    "lvl5": "#content-main h6",
+    "text": "#content-main p, #content-main li"
+  },
+  "conversation_id": [
+    "1442879913"
+  ],
+  "nb_hits": 993
+}
