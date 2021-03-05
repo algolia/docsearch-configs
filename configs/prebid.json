@@ -99,6 +99,102 @@
       "tags": [
         "cookies"
       ]
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/publisher-api-reference.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/modules/userId.html",
+      "page_rank": 1
+    },
+    {
+      "url": "https://docs.prebid.org/prebid/prebidjs.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/overview/prebid-server-overview.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/getting-started.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/overview/intro.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/bidder-adaptor.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/prebid-server/developers/add-new-bidder-go.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/prebid-server/developers/add-new-bidder-java.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/prebid-server/developers/pbs-build-an-analytics-adapter.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/integrate-with-the-prebid-analytics-api.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/add-rtd-submodule.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/adops/step-by-step.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/modules/consentManagement.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/troubleshooting-tips.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/show-outstream-video-ads.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/adops/send-all-bids-adops.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/prebid-video/video-overview.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/faq.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/dev-docs/show-prebid-ads-on-amp-pages.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/prebid/native-implementation.html",
+      "page_rank": 3
+    },
+    {
+      "url": "https://docs.prebid.org/prebid-server/use-cases/pbs-amp.html",
+      "page_rank": 2
+    },
+    {
+      "url": "https://docs.prebid.org/prebid-server/use-cases/pbs-sdk.html",
+      "page_rank": 2
+    },
+    {
+      "url": "https://docs.prebid.org/prebid-mobile/prebid-mobile.html",
+      "page_rank": 3
     }
   ],
   "sitemap_urls": [
