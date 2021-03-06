@@ -1,10 +1,10 @@
 {
   "index_name": "rich-content",
   "start_urls": [
-    "https://wix.github.io/ricos/"
+    "https://ricos.js.org/"
   ],
   "sitemap_urls": [
-    "https://wix.github.io/ricos/sitemap.xml"
+    "https://ricos.js.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
