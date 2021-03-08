@@ -1,10 +1,10 @@
 {
   "index_name": "nativebase-v3",
   "start_urls": [
-    "https://nativebase.github.io/"
+    "https://alpha.nativebase.io/"
   ],
   "sitemap_urls": [
-    "https://nativebase.github.io/sitemap.xml"
+    "https://alpha.nativebase.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
