@@ -1,0 +1,23 @@
+{
+  "index_name": "htmx",
+  "start_urls": [
+    "https://htmx.org/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "div.col:last-child h2",
+    "lvl2": "div.col:last-child h3",
+    "lvl3": "div.col:last-child h4",
+    "lvl4": "div.col:last-child h5",
+    "lvl5": "div.col:last-child h6",
+    "text": "div.col:last-child p, div.col:last-child li"
+  },
+  "conversation_id": [
+    "1422468729"
+  ],
+  "nb_hits": 223
+}
