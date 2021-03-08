@@ -1,7 +1,7 @@
 {
   "index_name": "sky-real",
   "start_urls": [
-    "https://docs.sky-real.com/"
+    "https://docs.sky-real.com/docs/"
   ],
   "sitemap_urls": [
     "https://docs.sky-real.com/sitemap.xml"
@@ -40,8 +40,9 @@
       "type"
     ]
   },
+  "js_render": true,
   "conversation_id": [
     "1441505083"
   ],
-  "nb_hits": 779
+  "nb_hits": 11154
 }
