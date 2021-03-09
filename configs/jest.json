@@ -1,14 +1,14 @@
 {
   "index_name": "jest",
   "start_urls": [
-    "https://jestjs.io/docs/"
+    "https://archive.jestjs.io/docs/"
   ],
   "stop_urls": [
     "/help",
     "/videos"
   ],
   "sitemap_urls": [
-    "https://jestjs.io/sitemap.xml"
+    "https://archive.jestjs.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "selectors": {
