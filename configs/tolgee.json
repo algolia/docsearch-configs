@@ -1,10 +1,10 @@
 {
   "index_name": "tolgee",
   "start_urls": [
-    "https://tolgee.io/"
+    "https://toolkit.tolgee.io/"
   ],
   "sitemap_urls": [
-    "https://tolgee.io/sitemap.xml"
+    "https://toolkit.tolgee.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
