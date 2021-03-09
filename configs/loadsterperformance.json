@@ -46,7 +46,7 @@
       "text": ".documentation-content p, .documentation-content li"
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "528771696"
   ],

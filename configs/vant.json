@@ -4,16 +4,29 @@
     {
       "url": "https://youzan.github.io/vant/#/(?P<lang>.*?)/",
       "variables": {
-        "lang": [
-          "en-US",
-          "zh-CN"
-        ]
+        "lang": ["en-US", "zh-CN"]
+      }
+    },
+    {
+      "url": "https://youzan.github.io/vant/v2/#/(?P<lang>.*?)/",
+      "variables": {
+        "lang": ["en-US", "zh-CN"]
+      }
+    },
+    {
+      "url": "https://youzan.github.io/vant/v3/#/(?P<lang>.*?)/",
+      "variables": {
+        "lang": ["en-US", "zh-CN"]
+      }
+    },
+    {
+      "url": "https://youzan.github.io/vant/next/#/(?P<lang>.*?)/",
+      "variables": {
+        "lang": ["en-US", "zh-CN"]
       }
     }
   ],
-  "stop_urls": [
-    "/changelog"
-  ],
+  "stop_urls": ["/changelog"],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'router-link-exact-active')]/preceding::a[not(@class)][1]",
@@ -30,8 +43,9 @@
   },
   "js_render": true,
   "use_anchors": true,
-  "conversation_id": [
-    "854645757"
-  ],
-  "nb_hits": 2392
+  "custom_settings": {
+    "attributesForFaceting": ["lang", "version"]
+  },
+  "conversation_id": ["854645757"],
+  "nb_hits": 3087
 }

@@ -1,9 +1,12 @@
 {
   "index_name": "lifecycle_one",
   "start_urls": [
-    "https://docs.Lifecycle.one"
+    "https://docs.lifecycle.one/"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.lifecycle.one/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".main .article h1",
     "lvl1": ".main .article h2",
@@ -20,5 +23,5 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "nb_hits": 22
+  "nb_hits": 478
 }

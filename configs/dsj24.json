@@ -1,0 +1,20 @@
+{
+  "index_name": "dsj24",
+  "start_urls": [
+    "https://docs.dsj24.pl/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".container h1",
+    "lvl1": ".container h2",
+    "lvl2": ".container h3",
+    "lvl3": ".container h4",
+    "lvl4": ".container h5",
+    "lvl5": ".container h6",
+    "text": ".container p, .container li"
+  },
+  "conversation_id": [
+    "1376628616"
+  ],
+  "nb_hits": 590
+}

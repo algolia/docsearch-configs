@@ -1,0 +1,25 @@
+{
+  "index_name": "social9",
+  "start_urls": [
+    "https://docs.social9.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "div.sidebar span.title-sidebar",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".header-wrapper h1",
+    "lvl2": ".content-wrapper h2",
+    "lvl3": ".content-wrapper h3",
+    "text": ".content-wrapper p, .content-wrapper li, .header-wrapper div.subtitle-page, .header-wrapper h3"
+  },
+  "selectors_exclude": [
+    "#outline",
+    "#outline + ol"
+  ],
+  "conversation_id": [
+    "1240438857"
+  ],
+  "nb_hits": 427
+}

@@ -1,0 +1,20 @@
+{
+  "index_name": "iteras",
+  "start_urls": [
+    "https://app.iteras.dk/api/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".block-content h1",
+    "lvl1": ".block-content h2",
+    "lvl2": ".block-content h3",
+    "lvl3": ".block-content h4",
+    "lvl4": ".block-content h5",
+    "lvl5": ".block-content h6",
+    "text": ".block-content p, .block-content li"
+  },
+  "conversation_id": [
+    "1277109496"
+  ],
+  "nb_hits": 424
+}

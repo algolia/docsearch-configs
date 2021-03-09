@@ -1,7 +1,8 @@
 {
   "index_name": "axioms_developer",
   "start_urls": [
-    "https://developer.axioms.io/docs/"
+    "https://developer.axioms.io/docs/",
+    "https://developer.axioms.io/docs/getting-started/index"
   ],
   "sitemap_urls": [
     "https://developer.axioms.io/sitemap.xml"
@@ -27,5 +28,5 @@
   "conversation_id": [
     "1150759791"
   ],
-  "nb_hits": 684
+  "nb_hits": 611
 }

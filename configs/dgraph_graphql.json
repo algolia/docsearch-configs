@@ -1,0 +1,26 @@
+{
+  "index_name": "dgraph_graphql",
+  "start_urls": [
+    "https://graphql.dgraph.io/",
+    "https://graphql.dgraph.io/dgraph-graphql/quick-start"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://graphql.dgraph.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "[class*='landing-pg'] h1",
+    "lvl1": "[class*='landing-pg'] h2",
+    "lvl2": "[class*='landing-pg'] h3",
+    "lvl3": "[class*='landing-pg'] h4",
+    "lvl4": "[class*='landing-pg'] h5",
+    "lvl5": "[class*='landing-pg'] h6",
+    "text": "[class*='landing-pg'] p, [class*='landing-pg'] li"
+  },
+  "conversation_id": [
+    "1245834528"
+  ],
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 1266
+}

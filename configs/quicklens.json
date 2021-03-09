@@ -1,0 +1,20 @@
+{
+  "index_name": "quicklens",
+  "start_urls": ["https://quicklens.app/docs"],
+  "stop_urls": [],
+  "sitemap_urls": ["https://quicklens.app/sitemap.xml"],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs h1",
+    "lvl2": ".docs h2",
+    "lvl3": ".docs h3",
+    "lvl4": ".docs h4",
+    "lvl5": ".docs h5",
+    "text": ".docs p, .docs li"
+  },
+  "conversation_id": ["1304972594"],
+  "nb_hits": 508
+}

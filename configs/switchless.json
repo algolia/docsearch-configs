@@ -1,0 +1,20 @@
+{
+  "index_name": "switchless",
+  "start_urls": [
+    "https://switchless.io/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".body h1",
+    "lvl1": ".body h2",
+    "lvl2": ".body h3",
+    "lvl3": ".body h4",
+    "lvl4": ".body h5",
+    "lvl5": ".body h6",
+    "text": ".body p, .body li"
+  },
+  "conversation_id": [
+    "1253630824"
+  ],
+  "nb_hits": 250
+}

@@ -1,0 +1,23 @@
+{
+  "index_name": "azurapi",
+  "start_urls": [
+    "https://azurapi-js.now.sh"
+  ],
+  "sitemap_urls": [
+    "https://azurapi-js.now.sh/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".tsd-page-title h1",
+    "lvl1": ".container h2",
+    "lvl2": ".container h3",
+    "lvl3": ".container h4",
+    "lvl4": ".container h5",
+    "lvl5": ".container h6",
+    "text": ".container p, FIXME li"
+  },
+  "conversation_id": [
+    "1357950619"
+  ],
+  "nb_hits": 966
+}

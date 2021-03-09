@@ -10,12 +10,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4, .content table td:first-child",
-    "lvl5": ".content h5",
-    "text": ".content p, .content li, .content table td:last-child",
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4, .content__default table td:first-child",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li, .content__default table td:last-child",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -29,6 +29,6 @@
       "lang"
     ]
   },
-  "scrap_start_urls": false,
-  "nb_hits": 2928
+  "scrape_start_urls": false,
+  "nb_hits": 3065
 }

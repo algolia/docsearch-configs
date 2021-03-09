@@ -1,0 +1,28 @@
+{
+  "index_name": "aws-lambda-powertools-python",
+  "start_urls": [
+    "https://awslabs.github.io/aws-lambda-powertools-python"
+  ],
+  "stop_urls": [
+    "https://awslabs.github.io/aws-lambda-powertools-python/api"
+  ],
+  "sitemap_urls": [
+    "https://awslabs.github.io/aws-lambda-powertools-python/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".header-wrapper h1, article h1",
+    "lvl1": ".content-wrapper h2, p strong:first-child:last-child, article h2",
+    "lvl2": ".content-wrapper h3, article h3",
+    "lvl3": ".content-wrapper h4, article h4",
+    "lvl4": ".content-wrapper h5, article h5",
+    "lvl5": ".content-wrapper h6, article h6",
+    "text": ".content-wrapper p, .content-wrapper li, .header-wrapper h3, article p, article li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1177399733"
+  ],
+  "nb_hits": 148
+}

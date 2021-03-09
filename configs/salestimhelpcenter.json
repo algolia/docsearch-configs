@@ -3,7 +3,12 @@
   "start_urls": [
     "https://developers.salestim.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "\\.html$"
+  ],
+  "sitemap_urls": [
+    "https://developers.salestim.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -32,6 +37,6 @@
   "conversation_id": [
     "742113422"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 477
+  "scrape_start_urls": false,
+  "nb_hits": 729
 }

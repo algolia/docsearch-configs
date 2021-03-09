@@ -2,38 +2,32 @@
   "index_name": "clevergo",
   "start_urls": [
     {
-      "url": "https://clevergo.tech/docs/",
+      "url": "https://clevergo.tech/en/",
       "tags": [
         "en"
       ]
     },
     {
-      "url": "https://clevergo.tech/zh/docs/",
+      "url": "https://clevergo.tech/zh/",
       "tags": [
         "zh"
-      ]
-    },
-    {
-      "url": "https://clevergo.tech/zh-hant/docs/",
-      "tags": [
-        "zh-hant"
       ]
     }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".td-content h1",
-    "lvl1": ".td-content h2",
-    "lvl2": ".td-content h3",
-    "lvl3": ".td-content h4",
-    "lvl4": ".td-content h5",
-    "lvl5": ".td-content h6",
-    "text": ".td-content p, .td-content li"
+    "lvl0": "#body-inner h1",
+    "lvl1": "#body-inner h2",
+    "lvl2": "#body-inner h3",
+    "lvl3": "#body-inner h4",
+    "lvl4": "#body-inner h5",
+    "lvl5": "#body-inner h6",
+    "text": "#body-inner p, #body-inner li"
   },
   "conversation_id": [
     "1130589412"
   ],
-  "nb_hits": 634,
+  "nb_hits": 360,
   "sitemap_urls": [
     "https://clevergo.tech/sitemap.xml"
   ]

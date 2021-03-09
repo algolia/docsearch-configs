@@ -1,0 +1,59 @@
+{
+  "index_name": "maproulette",
+  "start_urls": [
+    {
+      "url": "https://learn.maproulette.org/documentation/",
+      "selectors_key": "documentation",
+      "tags": ["documentation"]
+    },
+    {
+      "url": "https://learn.maproulette.org/screencasts/",
+      "selectors_key": "screencasts",
+      "tags": ["screencasts"]
+    },
+    {
+      "url": "https://learn.maproulette.org/releases/",
+      "selectors_key": "releases",
+      "tags": ["releases"]
+    }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": ["https://learn.maproulette.org/sitemap.xml"],
+  "selectors": {
+    "documentation": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": "main#content header h1",
+      "lvl2": "main#content h1",
+      "lvl3": "main#content h2",
+      "lvl4": "main#content h3",
+      "text": "main#content p"
+    },
+    "screencasts": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Screencasts"
+      },
+      "lvl1": "main#content header h1",
+      "lvl2": "main#content h1",
+      "lvl3": "main#content h2",
+      "lvl4": "main#content h3",
+      "text": "main#content p"
+    },
+    "releases": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Releases"
+      },
+      "lvl1": "main#content header h1",
+      "lvl2": "main#content h1",
+      "lvl3": "main#content h2",
+      "lvl4": "main#content h3",
+      "text": "main#content p"
+    }
+  },
+  "conversation_id": ["1302007772"],
+  "nb_hits": 372
+}

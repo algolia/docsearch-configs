@@ -1,0 +1,42 @@
+{
+  "index_name": "tink",
+  "start_urls": [
+    {
+      "url": "https://docs.tink.com/api/connector",
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://docs.tink.com/api",
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://docs.tink.com/"
+    }
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".search-heading",
+        "default_value": "Resources"
+      },
+      "lvl1": "h1",
+      "lvl2": "h2",
+      "lvl3": "h3",
+      "text": "p"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API reference"
+      },
+      "lvl1": "h1",
+      "lvl2": "h2",
+      "lvl3": "h3",
+      "text": "p"
+    }
+  },
+  "js_render": true,
+  "js_wait": 2,
+  "conversation_id": ["1347514534"],
+  "nb_hits": 6766
+}

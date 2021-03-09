@@ -1,8 +1,8 @@
 {
   "index_name": "egret_uieditor",
   "start_urls": [
-    "https://docs.egret.com/uieditor/docs/",
-    "https://docs.egret.com/uieditor/docs/uieditor/update/update181"
+    "https://docs.egret.com/uieditor/docs",
+    "https://docs.egret.com/uieditor/docs/uieditor/update/update1100"
   ],
   "sitemap_urls": [
     "https://docs.egret.com/uieditor/sitemap.xml"
@@ -28,5 +28,5 @@
   "conversation_id": [
     "1141622633"
   ],
-  "nb_hits": 5536
+  "nb_hits": 22
 }

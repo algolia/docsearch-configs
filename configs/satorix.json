@@ -1,0 +1,24 @@
+{
+  "index_name": "satorix",
+  "start_urls": [
+    "https://docs.satorix.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".main p, .main li",
+    "lvl0": ".main h1",
+    "lvl1": ".main h2",
+    "lvl2": ".main h3",
+    "lvl3": ".main h4",
+    "lvl4": ".main h5",
+    "lvl5": ".main h6"
+  },
+  "sitemap_urls": [
+    "https://docs.satorix.com/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1276532071"
+  ],
+  "nb_hits": 755
+}

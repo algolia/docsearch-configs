@@ -1,0 +1,19 @@
+{
+  "index_name": "vee-validate-v4",
+  "start_urls": [
+    "https://vee-validate.logaretm.com/v4/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".nuxt-content h1",
+    "lvl1": ".nuxt-content h2",
+    "lvl2": ".nuxt-content h3",
+    "lvl3": ".nuxt-content h4",
+    "lvl4": ".nuxt-content h5",
+    "text": ".nuxt-content p, .nuxt-content li"
+  },
+  "conversation_id": [
+    "1233573657"
+  ],
+  "nb_hits": 404
+}

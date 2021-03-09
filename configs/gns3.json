@@ -1,22 +1,43 @@
 {
   "index_name": "gns3",
   "start_urls": [
-    "https://docs.gns3.com/"
+    "https://docs.gns3.com/docs"
   ],
+  "sitemap_urls": [
+    "https://docs.gns3.com/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
-      "selector": ".gns3-wrapper .title",
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".gns3-wrapper h1",
-    "lvl2": ".gns3-wrapper h2",
-    "lvl3": ".gns3-wrapper h3",
-    "lvl4": ".gns3-wrapper h4",
-    "lvl6": ".gns3-wrapper h5",
-    "text": ".gns3-wrapper p, .gns3-wrapper li"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
   },
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "type"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "strip_chars": ".,;:#",
   "conversation_id": [
     "266997549"
   ],
-  "nb_hits": 6679
+  "nb_hits": 2453
 }

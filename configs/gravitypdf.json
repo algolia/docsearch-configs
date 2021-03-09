@@ -1,0 +1,47 @@
+{
+  "index_name": "gravitypdf",
+  "start_urls": [
+    {
+      "url": "https://docs.gravitypdf.com/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v3",
+          "v4",
+          "v5"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.gravitypdf.com/sitemap.xml"
+  ],
+  "scrape_start_urls": false,
+  "sitemap_alternate_links": false,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "selectors_exclude": [
+    "ul.table-of-contents",
+    "footer"
+  ],
+  "conversation_id": [
+    "1269640246"
+  ],
+  "nb_hits": 8891
+}

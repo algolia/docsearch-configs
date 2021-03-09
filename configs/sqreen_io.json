@@ -4,6 +4,9 @@
     "https://docs.sqreen.com/"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.sqreen.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
@@ -22,5 +25,5 @@
   "conversation_id": [
     "457954753"
   ],
-  "nb_hits": 3904
+  "nb_hits": 3772
 }

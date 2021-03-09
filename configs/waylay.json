@@ -1,15 +1,31 @@
 {
   "index_name": "waylay",
   "start_urls": [
-    "https://docs.waylay.io/"
+    {
+      "url": "https://docs.waylay.io/plugins/sensors-and-actuators/",
+      "selectors_key": "plugs"
+    },
+    {
+      "url": "https://docs.waylay.io/"
+    }
   ],
   "selectors": {
-    "lvl0": ".breadcrumbs li:first-child",
-    "lvl1": "header h1",
-    "lvl2": "section h1",
-    "lvl3": "section h2",
-    "lvl4": "section h3",
-    "text": "section p, section li"
+    "default": {
+      "lvl0": ".breadcrumbs li:first-child",
+      "lvl1": "header h1",
+      "lvl2": "section h1",
+      "lvl3": "section h2",
+      "lvl4": "section h3",
+      "text": "section p, section li"
+    },
+    "plugs": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p"
+    }
   },
   "conversation_id": [
     "312580760"

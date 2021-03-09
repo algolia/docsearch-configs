@@ -1,0 +1,23 @@
+{
+  "index_name": "trawlbens",
+  "start_urls": [
+    "https://www.trawlbens.id/"
+  ],
+  "sitemap_urls": [
+    "https://www.trawlbens.id/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "1171298174"
+  ],
+  "nb_hits": 6935
+}

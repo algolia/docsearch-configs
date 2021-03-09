@@ -1,0 +1,22 @@
+{
+  "index_name": "apozy",
+  "start_urls": [
+    "https://docs.apozy.com/"
+  ],
+  "sitemap_urls": [
+    "https://docs.apozy.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "text": ".post p, .post li"
+  },
+  "conversation_id": [
+    "1227117921"
+  ],
+  "nb_hits": 708
+}

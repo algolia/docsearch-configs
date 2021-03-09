@@ -7,27 +7,35 @@
     "https://webpack.docschina.org/sitemap.xml"
   ],
   "stop_urls": [
-    ".*?[^/]$"
+    "index\\.html",
+    "/printable/"
   ],
+  "selectors_exclude": [],
   "selectors": {
     "lvl0": {
-      "selector": ".navigation__link--active",
+      "selector": "nav.navigation__items [class*='active']",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": ".navigation__child--active",
-      "global": true,
-      "default_value": "Chapter"
-    },
-    "lvl2": "section.page__content h1",
-    "lvl3": "section.page__content h2",
-    "lvl4": "section.page__content h3",
-    "lvl5": "section.page__content h4",
-    "text": "section.page__content p, section.page__content li"
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4, .markdown td.content",
+    "lvl5": ".markdown h5",
+    "text": ".markdown > div > p, .markdown td.description.desktop, .markdown .warning , .markdown blockquote p, .markdown li"
   },
-  "conversation_id": [
-    "485990101"
-  ],
-  "nb_hits": 5172
+  "custom_settings": {
+    "synonyms": [
+      [
+        "caching",
+        "revisioning",
+        "versioning",
+        "hashing",
+        "renaming",
+        "revving"
+      ]
+    ],
+    "separatorsToIndex": "_"
+  },
+  "nb_hits": 14289
 }

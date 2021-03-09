@@ -1,0 +1,40 @@
+{
+  "index_name": "uniswap",
+  "start_urls": [
+    {
+      "url": "https://uniswap.org/docs/v2",
+      "extra_attributes": {
+        "version": [
+          "v2"
+        ]
+      }
+    },
+    {
+      "url": "https://uniswap.org/docs/v1",
+      "extra_attributes": {
+        "version": [
+          "v1"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='MDX'] h1",
+    "lvl1": "[class*='MDX'] h2",
+    "lvl2": "[class*='MDX'] h3",
+    "lvl3": "[class*='MDX'] h4",
+    "lvl4": "[class*='MDX'] h5",
+    "lvl5": "[class*='MDX'] h6",
+    "text": "[class*='MDX'] p, [class*='MDX'] li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1203516192"
+  ],
+  "nb_hits": 456
+}

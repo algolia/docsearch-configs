@@ -1,0 +1,33 @@
+{
+  "index_name": "sculptor-devops",
+  "start_urls": ["https://sculptor-devops.github.io/docs/"],
+  "stop_urls": [],
+  "sitemap_urls": ["https://sculptor-devops.github.io/sitemap.xml"],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocSearch-content h1",
+    "lvl2": ".DocSearch-content h2",
+    "lvl3": ".DocSearch-content h3",
+    "lvl4": ".DocSearch-content h4",
+    "lvl5": ".DocSearch-content h5",
+    "text": ".DocSearch-content p, .DocSearch-content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "selectors_exclude": [".table-of-contents"],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": ["lang"]
+  },
+  "conversation_id": ["1324564510"],
+  "scrape_start_urls": false,
+  "nb_hits": 262
+}

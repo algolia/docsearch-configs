@@ -4,25 +4,57 @@
     {
       "url": "https://vuetifyjs.com/(?P<lang>.*?)/",
       "variables": {
-        "lang": [
-          "en"
-        ]
+        "lang": ["en", "ja", "zh-Hans"]
       }
+    },
+    {
+      "url": "https://vuetifyjs.com/(?P<lang>.*?)/api/",
+      "variables": {
+        "lang": ["en", "ja", "zh-Hans"]
+      },
+      "selectors_key": "api"
     }
   ],
   "stop_urls": [
     "/store/"
   ],
+  "strip_chars": "#",
   "selectors": {
-    "lvl0": ".layout h1, .comp-name",
-    "lvl1": ".layout h2",
-    "lvl2": ".layout h3",
-    "lvl3": ".layout h4",
-    "lvl4": ".layout h5",
-    "text": ".layout p, .layout li"
+    "default": {
+      "lvl0": {
+        "selector": "#default-drawer .v-list > .v-list-group--active > .v-list-group__header",
+        "global": true
+      },
+      "lvl1": {
+        "selector": ".markdown-body h1",
+        "global": true
+      },
+      "lvl2": ".markdown-body h2",
+      "lvl3": ".markdown-body h3",
+      "lvl4": ".markdown-body h4",
+      "text": ".markdown-body p, .markdown-body li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": {
+        "selector": ".markdown-body h1",
+        "global": true
+      },
+      "lvl2": ".markdown-body h2",
+      "lvl3": ".api-table .name-item",
+      "text": ".api-table td:not(:first-child)"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
   },
   "conversation_id": [
     "421371997"
   ],
-  "nb_hits": 3328
+  "nb_hits": 3479
 }

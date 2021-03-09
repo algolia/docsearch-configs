@@ -1,0 +1,30 @@
+{
+  "index_name": "follett",
+  "start_urls": [
+    "https://follett.design/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".docsearch-lvl0",
+      "global": true
+    },
+    "lvl1": ".docsearch-content h1",
+    "lvl2": ".docsearch-content h2",
+    "lvl3": ".docsearch-content h3",
+    "lvl4": ".docsearch-content h4",
+    "text": ".docsearch-content p, .docsearch-content li, .docsearch-content tbody"
+  },
+  "selectors_exclude": [
+    "app-live-editor",
+    "app-code-editor",
+    ".docsearch-hide",
+    ".hide",
+    ".invisible"
+  ],
+  "js_render": true,
+  "conversation_id": [
+    "1178380234"
+  ],
+  "nb_hits": 389
+}

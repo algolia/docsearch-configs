@@ -59,7 +59,7 @@
   "custom_settings": {
     "separatorsToIndex": "_"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "702337513"
   ],

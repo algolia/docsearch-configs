@@ -1,7 +1,8 @@
 {
   "index_name": "react-nativescript",
   "start_urls": [
-    "https://react-nativescript.netlify.app/docs/"
+    "https://react-nativescript.netlify.app/docs/",
+    "https://react-nativescript.netlify.app/docs/introduction/introduction"
   ],
   "sitemap_urls": [
     "https://react-nativescript.netlify.app/sitemap.xml"
@@ -34,5 +35,5 @@
   "conversation_id": [
     "1010095067"
   ],
-  "nb_hits": 462
+  "nb_hits": 639
 }

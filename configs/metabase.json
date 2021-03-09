@@ -1,0 +1,19 @@
+{
+  "index_name": "metabase",
+  "start_urls": [
+    "https://www.metabase.com/docs/latest"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs h1",
+    "lvl1": ".docs h2",
+    "lvl2": ".docs h3",
+    "lvl3": ".docs h4",
+    "lvl4": ".docs h5",
+    "text": ".docs p, .docs li"
+  },
+  "conversation_id": [
+    "1208776583"
+  ],
+  "nb_hits": 3226
+}

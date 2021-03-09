@@ -1,10 +1,10 @@
 {
   "index_name": "steamspeak",
   "start_urls": [
-    "https://dalexhd.github.io/SteamSpeak/"
+    "https://steamspeak.netlify.app/"
   ],
   "sitemap_urls": [
-    "https://dalexhd.github.io/SteamSpeak/sitemap.xml"
+    "https://steamspeak.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -27,5 +27,5 @@
   "conversation_id": [
     "1125622813"
   ],
-  "nb_hits": 188
+  "nb_hits": 376
 }

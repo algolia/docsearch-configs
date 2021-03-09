@@ -1,7 +1,7 @@
 {
   "index_name": "deligoz_phony",
   "start_urls": [
-    "https://phony.deligoz.me"
+    "https://phony.land/"
   ],
   "stop_urls": [],
   "selectors": {

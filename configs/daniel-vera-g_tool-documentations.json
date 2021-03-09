@@ -1,0 +1,20 @@
+{
+  "index_name": "daniel-vera-g_tool-documentations",
+  "start_urls": [
+    "https://daniel-vera-g.github.io/tool-documentations/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1235971453"
+  ],
+  "nb_hits": 1027
+}

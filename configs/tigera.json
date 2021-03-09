@@ -9,7 +9,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "#navbar .active",
+      "selector": "#navbar .active, #sidebar .panel-heading.current-page",
       "global": true,
       "default_value": "Documentation"
     },
@@ -33,5 +33,5 @@
     "737300877"
   ],
   "min_indexed_level": 2,
-  "nb_hits": 67785
+  "nb_hits": 118885
 }

@@ -1,0 +1,23 @@
+{
+  "index_name": "serverauth",
+  "start_urls": [
+    "https://docs.serverauth.com/"
+  ],
+  "stop_urls": [],
+  "sitemap_ulrs": [
+    "https://docs.serverauth.com/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": ".DocSearch-content h1",
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "conversation_id": [
+    "1209856117"
+  ],
+  "nb_hits": 107
+}

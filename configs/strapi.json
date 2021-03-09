@@ -1,11 +1,8 @@
 {
   "index_name": "strapi",
-  "start_urls": [
-    "https://strapi.io/documentation/"
-  ],
-  "stop_urls": [
-    "https://strapi.io/documentation/3.0.0-alpha.x/"
-  ],
+  "start_urls": ["https://strapi.io/"],
+  "stop_urls": [],
+  "sitemap_urls": ["https://strapi.io/sitemap.xml"],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -24,15 +21,10 @@
       "global": true
     }
   },
-  "scrap_start_urls": false,
   "strip_chars": " .,;:#",
   "custom_settings": {
-    "attributesForFaceting": [
-      "lang"
-    ]
+    "attributesForFaceting": ["lang"]
   },
-  "conversation_id": [
-    "835903303"
-  ],
-  "nb_hits": 4491
+  "conversation_id": ["835903303"],
+  "nb_hits": 6492
 }

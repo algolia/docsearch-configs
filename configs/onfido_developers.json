@@ -1,0 +1,20 @@
+{
+  "index_name": "onfido_developers",
+  "start_urls": [
+    "https://developers.onfido.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "main > div > div:nth-of-type(2) h1",
+    "lvl1": "main > div > div:nth-of-type(2) h2",
+    "lvl2": "main > div > div:nth-of-type(2) h3",
+    "lvl3": "main > div > div:nth-of-type(2) h4",
+    "lvl4": "main > div > div:nth-of-type(2) h5",
+    "lvl5": "main > div > div:nth-of-type(2) h6",
+    "text": "main > div > div:nth-of-type(2) p, main > div > div:nth-of-type(2) li"
+  },
+  "conversation_id": [
+    "1213632375"
+  ],
+  "nb_hits": 1222
+}

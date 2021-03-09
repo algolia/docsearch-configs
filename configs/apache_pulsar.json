@@ -1,8 +1,19 @@
 {
   "index_name": "apache_pulsar",
   "start_urls": [
-    "https://pulsar.apache.org/docs/standalone",
-    "https://pulsar.apache.org/docs/"
+    {
+      "url": "https://pulsar.apache.org/docs/(?P<language>.*?)/",
+      "variables": {
+        "language": [
+          "en",
+          "ja",
+          "fr",
+          "ko",
+          "zh-CN",
+          "zh-TW"
+        ]
+      }
+    }
   ],
   "stop_urls": [
     "-incubating",
@@ -38,5 +49,5 @@
       "version"
     ]
   },
-  "nb_hits": 451500
+  "nb_hits": 704222
 }

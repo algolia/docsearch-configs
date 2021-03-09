@@ -1,0 +1,22 @@
+{
+  "index_name": "kimsq",
+  "start_urls": [
+    "https://kimsq.com/docs"
+  ],
+  "sitemap_urls": [
+    "https://kimsq.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#content-main h1",
+    "lvl1": "#content-main h2",
+    "lvl2": "#content-main h3",
+    "lvl3": "#content-main h4",
+    "lvl4": "#content-main h5",
+    "text": "#content-main p, #content-main li"
+  },
+  "conversation_id": [
+    "486723691"
+  ],
+  "nb_hits": 928
+}

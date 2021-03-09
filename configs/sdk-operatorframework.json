@@ -1,0 +1,24 @@
+{
+  "index_name": "sdk-operatorframework",
+  "start_urls": [
+    "https://sdk.operatorframework.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".td-sidebar-link.active",
+    "lvl2": ".td-content h2",
+    "lvl3": ".td-content h3",
+    "lvl4": ".td-content h4",
+    "lvl5": ".td-content h5",
+    "lvl6": ".td-content h6",
+    "text": ".td-content p, .td-content li"
+  },
+  "conversation_id": [
+    "1298666857"
+  ],
+  "nb_hits": 3249
+}

@@ -1,10 +1,10 @@
 {
   "index_name": "ghost",
   "start_urls": [
-    "https://docs.ghost.org"
+    "https://ghost.org/docs"
   ],
   "sitemap_urls": [
-    "https://docs.ghost.org/sitemap.xml"
+    "https://ghost.org/sitemap.xml"
   ],
   "stop_urls": [
     "/integrations/"
@@ -23,5 +23,5 @@
     "lvl6": ".post-content h6",
     "text": ".post-content p, .post-content li"
   },
-  "nb_hits": 3892
+  "nb_hits": 3516
 }

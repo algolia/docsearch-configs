@@ -1,0 +1,22 @@
+{
+  "index_name": "carvel",
+  "start_urls": [
+    { "url": "https://carvel.dev/ytt/docs/latest/", "tags": ["ytt"] },
+    { "url": "https://carvel.dev/kbld/docs/latest/", "tags": ["kbld"] },
+    { "url": "https://carvel.dev/kapp/docs/latest/", "tags": ["kapp"] },
+    { "url": "https://carvel.dev/imgpkg/docs/latest/", "tags": ["imgpkg"] },
+    { "url": "https://carvel.dev/vendir/docs/latest/", "tags": ["vendir"] }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "header.subproject-specific a.text-logo",
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content h5",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "conversation_id": ["1397145004"],
+  "nb_hits": 2295
+}

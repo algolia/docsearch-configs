@@ -21,7 +21,7 @@
   "selectors_exclude": [
     ".box"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "692443230"
   ],

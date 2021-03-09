@@ -31,9 +31,9 @@
       "version"
     ]
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "956250856"
   ],
-  "nb_hits": 239
+  "nb_hits": 479
 }

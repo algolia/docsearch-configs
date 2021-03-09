@@ -1,0 +1,25 @@
+{
+  "index_name": "imagdic",
+  "start_urls": [
+    "http://docs.imagdic.me"
+  ],
+  "sitemap_urls": [
+    "http://docs.imagdic.me/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".markdown h4:first-child",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h2",
+    "lvl2": ".markdown h3",
+    "lvl3": ".markdown h4:not(:first-child)",
+    "lvl4": ".markdown h5",
+    "text": ".markdown p"
+  },
+  "min_indexed_level": 1,
+  "conversation_id": [
+    "1190501247"
+  ],
+  "nb_hits": 54
+}

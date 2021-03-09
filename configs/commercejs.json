@@ -1,0 +1,49 @@
+{
+  "index_name": "commercejs",
+  "start_urls": [
+    "https://commercejs.com/docs/",
+    {
+      "url": "https://commercejs.com/docs/sdk/",
+      "page_rank": 1
+    },
+    {
+      "url": "https://commercejs.com/docs/guides/",
+      "page_rank": 2
+    },
+    {
+      "url": "https://commercejs.com/docs/community/",
+      "page_rank": 3
+    },
+        {
+      "url": "https://commercejs.com/docs/release-notes/",
+      "page_rank": 4,
+      "selectors_key": "release-notes"
+    }
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": ".docs-layout .docs-side-nav__section-header",
+        "default_value": "Documentation"
+      },
+      "lvl1": "main .documentation-guide .documentation-guide__title h1",
+      "lvl2": "main .documentation-guide .documentation-guide__article h2",
+      "text": "main .documentation-guide .documentation-guide__article p, main .documentation-guide .documentation-guide__article li"
+    },
+    "release-notes": {
+      "lvl0": {
+        "selector": "main .release-notes h1",
+        "default_value": "Release notes"
+      },
+      "lvl1": "main .release-notes h3",
+      "text": "main .release-notes li"
+    }
+  },
+  "conversation_id": [
+    "1273040536"
+  ],
+  "nb_hits": 1270
+}

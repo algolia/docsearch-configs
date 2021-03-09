@@ -1,7 +1,12 @@
 {
   "index_name": "recogn_biome-text",
   "start_urls": [
-    "https://www.recogn.ai/biome-text/"
+    {
+      "url": "https://www.recogn.ai/biome-text/(?P<version>.*?)/",
+      "variables": {
+        "version": ["master", "v2.1.0", "v2.0.0", "v1.0.0"]
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -29,12 +34,13 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "version"
     ]
   },
   "conversation_id": [
     "1155291364"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "nb_hits": 974
 }

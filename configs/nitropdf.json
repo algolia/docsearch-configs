@@ -26,7 +26,7 @@
     "lvl5": ".small-12.medium-9 h5",
     "text": ".small-12.medium-9 p, .small-12.medium-9 li"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "313458918"
   ],

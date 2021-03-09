@@ -1,0 +1,24 @@
+{
+  "index_name": "lyty",
+  "start_urls": [
+    "https://lyty.dev/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".content-box-fluid p, .content-box-fluid li",
+    "lvl0": ".content-box-fluid h1",
+    "lvl1": ".content-box-fluid h2",
+    "lvl2": ".content-box-fluid h3",
+    "lvl3": ".content-box-fluid h4",
+    "lvl4": ".content-box-fluid h5",
+    "lvl5": ".content-box-fluid h6"
+  },
+  "sitemap_urls": [
+    "https://lyty.dev/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1274202369"
+  ],
+  "nb_hits": 45
+}

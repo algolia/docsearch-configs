@@ -4,6 +4,9 @@
     "https://docs.atatus.com/"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.atatus.com/docs/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": ".post-header h1",
@@ -20,5 +23,5 @@
   "conversation_id": [
     "843099898"
   ],
-  "nb_hits": 2684
+  "nb_hits": 4139
 }

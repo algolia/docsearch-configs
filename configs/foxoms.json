@@ -1,0 +1,24 @@
+{
+  "index_name": "foxoms",
+  "start_urls": [
+    "https://foxdocs.foxoms.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".md-content__inner p, .md-content__inner li",
+    "lvl0": ".md-content__inner h1",
+    "lvl1": ".md-content__inner h2",
+    "lvl2": ".md-content__inner h3",
+    "lvl3": ".md-content__inner h4",
+    "lvl4": ".md-content__inner h5",
+    "lvl5": ".md-content__inner h6"
+  },
+  "sitemap_urls": [
+    "https://foxdocs.foxoms.com/sitemap.xml"
+  ],
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1282277553"
+  ],
+  "nb_hits": 1029
+}

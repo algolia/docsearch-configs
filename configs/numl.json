@@ -1,0 +1,34 @@
+{
+  "index_name": "numl",
+  "start_urls": [
+    "https://numl.design/"
+  ],
+  "sitemap_urls": [
+    "https://numl.design/sitemap.xml"
+  ],
+  "stop_urls": [
+    "styles/--",
+    "/repl",
+    "/preview",
+    "/blog"
+  ],
+  "selectors": {
+    "lvl0": "nu-article nu-h1",
+    "lvl1": "nu-article nu-h2",
+    "lvl2": "nu-article nu-h3",
+    "lvl3": "nu-article nu-h4",
+    "lvl4": "nu-article nu-h5",
+    "lvl5": "nu-article nu-h6",
+    "text": "nu-article [role='paragraph']"
+  },
+  "conversation_id": [
+    "1421871663"
+  ],
+  "stop_content": [
+    "Content page. Has no description yet."
+  ],
+  "scrape_start_urls": false,
+  "sitemap_alternate_links": true,
+  "force_sitemap_urls_crawling": true,
+  "nb_hits": 1240
+}

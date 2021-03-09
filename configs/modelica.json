@@ -9,6 +9,7 @@
           "ModelicaReference",
           "ModelicaServices",
           "Complex",
+          "ObsoleteModelica4",
           "ObsoleteModelica3"
         ],
         "tool": [
@@ -96,13 +97,28 @@
           "OM"
         ],
         "version": [
-          "4.0.0",
           "3.2.3"
         ]
       },
       "extra_attributes": {
         "library": [
           "ObsoleteModelica3"
+        ]
+      }
+    },
+    {
+      "url": "https://doc.modelica.org/Modelica%20(?P<version>.*?)/Resources/help(?P<tool>.*?)/ObsoleteModelica4",
+      "variables": {
+        "tool": [
+          "OM"
+        ],
+        "version": [
+          "4.0.0"
+        ]
+      },
+      "extra_attributes": {
+        "library": [
+          "ObsoleteModelica4"
         ]
       }
     },
@@ -126,7 +142,7 @@
       }
     },
     {
-      "url": "https://specification.modelica.org/v(?P<version>.*?)/",
+      "url": "https://specification.modelica.org/maint/(?P<version>.*?)/",
       "variables": {
         "version": [
           "3.5",
@@ -153,6 +169,23 @@
     "https://doc.modelica.org/sitemap.xml"
   ],
   "stop_urls": [],
+  "selectors_exclude": [
+    ".ModelicaBaseClass",
+    ".ModelicaTableConnectors",
+    ".ModelicaTableContents",
+    ".ModelicaTableInputs",
+    ".ModelicaTableOutputs",
+    ".ModelicaTablePackageContent",
+    ".ModelicaTableParameters",
+    ".closed",
+    "section.components",
+    "section.connectors",
+    "section.extended-by",
+    "section.package-contents",
+    "section.parameters",
+    "section.used-in-components",
+    "section.used-in-examples"
+  ],
   "selectors": {
     "lvl0": "h1",
     "lvl1": "h2",
@@ -160,7 +193,7 @@
     "lvl3": "h4",
     "lvl4": "h5",
     "lvl5": "h6",
-    "text": "p, li"
+    "text": "p, li, section.information, .ModelicaDescription, dd, dt"
   },
-  "nb_hits": 407726
+  "nb_hits": 439469
 }

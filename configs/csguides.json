@@ -1,0 +1,20 @@
+{
+  "index_name": "csguides",
+  "start_urls": [
+    "https://csguides.github.io/grad-job-guide/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".jumbotron h1",
+    "lvl1": "[aria-label='Content'] h1",
+    "lvl2": "[aria-label='Content'] h2",
+    "lvl3": "[aria-label='Content'] h3",
+    "lvl4": "[aria-label='Content'] h4",
+    "lvl5": "[aria-label='Content'] h5",
+    "text": "[aria-label='Content'] p, [aria-label='Content'] li, .jumbotron p"
+  },
+  "conversation_id": [
+    "1203644542"
+  ],
+  "nb_hits": 396
+}

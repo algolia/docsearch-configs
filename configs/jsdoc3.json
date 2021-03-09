@@ -1,0 +1,34 @@
+{
+  "index_name": "jsdoc3",
+  "start_urls": [
+    "https://jsdoc3.vercel.app/about/",
+    "https://jsdoc3.vercel.app/about/getting-started"
+  ],
+  "sitemap_urls": [
+    "https://jsdoc3.vercel.app/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [
+    "/tags/"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class^='docItemContainer_'] h1",
+    "lvl2": "[class^='docItemContainer_'] h2",
+    "lvl3": "[class^='docItemContainer_'] h3",
+    "lvl4": "[class^='docItemContainer_'] h4",
+    "lvl5": "[class^='docItemContainer_'] h5",
+    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "conversation_id": [
+    "1215857698"
+  ],
+  "nb_hits": 385
+}

@@ -1,0 +1,38 @@
+{
+  "index_name": "apache_ignite",
+  "start_urls": [
+    "https://ignite.apache.org/docs/"
+  ],
+  "stop_urls": [
+    "\\?"
+  ],
+  "sitemap_urls": [
+    "https://ignite.apache.org/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li",
+    "version": {
+      "selector": "//meta[@name='ignite-version']/@content",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "scrape_start_urls": false,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ],
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1266911506"
+  ],
+  "nb_hits": 9957
+}

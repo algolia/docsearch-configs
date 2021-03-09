@@ -1,32 +1,20 @@
 {
   "index_name": "clarity",
-  "start_urls": [
-    "https://clarity.design/documentation/",
-    "https://clarity.design/documentation/get-started"
-  ],
+  "start_urls": ["https://clarity.design"],
   "stop_urls": [],
+  "sitemap_urls": ["https://clarity.design/sitemap.xml"],
   "selectors": {
-    "lvl0": "section h1",
-    "lvl1": "section h2",
-    "lvl2": "section h3",
-    "lvl3": "section h4",
-    "lvl4": "section h5",
-    "text": "section p, section li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true
-    }
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-area h1",
+    "lvl2": "#content-area h2",
+    "lvl3": "#content-area h3",
+    "lvl4": "#content-area h4",
+    "lvl5": "#content-area h5",
+    "text": "#content-area p, #content-area li"
   },
-  "strip_chars": " .,;:#",
-  "custom_settings": {
-    "attributesForFaceting": [
-      "lang"
-    ]
-  },
-  "js_render": true,
-  "conversation_id": [
-    "1071511468"
-  ],
+  "conversation_id": ["1071511468"],
   "nb_hits": 5266
 }

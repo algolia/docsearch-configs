@@ -1,0 +1,19 @@
+{
+  "index_name": "syn",
+  "start_urls": [
+    "https://docs.syn.bike/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".container__doc-content h2",
+    "lvl1": ".container__doc-content h3",
+    "lvl2": ".container__doc-content h4",
+    "lvl3": ".container__doc-content h5",
+    "lvl4": ".container__doc-content h6",
+    "text": ".container__doc-content p, .container__doc-content li"
+  },
+  "conversation_id": [
+    "1217175316"
+  ],
+  "nb_hits": 133
+}

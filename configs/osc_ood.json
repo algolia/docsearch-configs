@@ -1,0 +1,26 @@
+{
+  "index_name": "osc_ood",
+  "start_urls": [
+    "https://osc.github.io/ood-documentation/master/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav//ul[contains(@class,'current')]/preceding::span[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "[itemprop='articleBody'] > .section h1",
+    "lvl2": "[itemprop='articleBody'] > .section h2",
+    "lvl3": "[itemprop='articleBody'] > .section h3",
+    "lvl4": "[itemprop='articleBody'] > .section h4",
+    "lvl5": "[itemprop='articleBody'] > .section h5",
+    "lvl6": "[itemprop='articleBody'] > .section h6",
+    "text": "[itemprop='articleBody'] > .section p, [itemprop='articleBody'] > .section li"
+  },
+  "conversation_id": [
+    "1256214140"
+  ],
+  "nb_hits": 4253
+}

@@ -1,0 +1,22 @@
+{
+  "index_name": "vectorbt",
+  "start_urls": [
+    "https://polakowo.io/vectorbt"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article .title",
+    "lvl1": "article .section-title",
+    "lvl2": "article .parent-fname",
+    "lvl3": "article .section-subtitle",
+    "lvl4": "article .fname",
+    "text": "article p, article li"
+  },
+  "selectors_exclude": [
+    "details.source"
+  ],
+  "conversation_id": [
+    "1180882098"
+  ],
+  "nb_hits": 3790
+}
