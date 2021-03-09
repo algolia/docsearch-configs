@@ -1,11 +1,12 @@
 {
   "index_name": "jest",
   "start_urls": [
-    "https://archive.jestjs.io/docs/"
+    "https://archive.jestjs.io/"
   ],
   "stop_urls": [
     "/help",
-    "/videos"
+    "/videos",
+    "/blog"
   ],
   "sitemap_urls": [
     "https://archive.jestjs.io/sitemap.xml"
@@ -39,5 +40,5 @@
       "version"
     ]
   },
-  "nb_hits": 102626
+  "nb_hits": 101899
 }
