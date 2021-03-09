@@ -1,6 +1,6 @@
 {
   "index_name": "jest-v2",
-  "start_urls": ["https://jest-v2.netlify.app/"],
+  "start_urls": ["https://jestjs.io"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -17,7 +17,7 @@
     "lvl6": "article h6",
     "text": "article p, article li"
   },
-  "sitemap_urls": ["https://jest-v2.netlify.app/sitemap.xml"],
+  "sitemap_urls": ["https://jestjs.io/sitemap.xml"],
   "sitemap_alternate_links": true,
   "strip_chars": " .,;:#",
   "custom_settings": {
