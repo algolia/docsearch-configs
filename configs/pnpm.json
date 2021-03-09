@@ -28,7 +28,9 @@
     "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "type",
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -42,5 +44,5 @@
   "conversation_id": [
     "919792083"
   ],
-  "nb_hits": 22218
+  "nb_hits": 6996
 }
