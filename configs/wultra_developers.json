@@ -26,6 +26,9 @@
     ".sidebar-toc",
     ".sidebar"
   ],
+  "conversation_id": [
+    "1176317311"
+  ],
   "custom_settings": {
     "attributesForFaceting": [
       "language",
@@ -46,5 +49,6 @@
       "url_without_anchor",
       "type"
     ]
-  }
+  },
+  "nb_hits": 26160
 }
