@@ -1,0 +1,28 @@
+{
+  "index_name": "allenai",
+  "start_urls": [
+    {
+      "url": "https://ai2thor.allenai.org/(?P<project>.*?)/documentation/",
+      "variables": {
+        "project": ["ithor", "robothor"]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='MainContent'] h1",
+    "lvl1": "[class*='MainContent'] h2",
+    "lvl2": "[class*='MainContent'] h3",
+    "lvl3": "[class*='MainContent'] h4",
+    "lvl4": "[class*='MainContent'] h5",
+    "lvl5": "[class*='MainContent'] h6",
+    "text": "[class*='MainContent'] p, [class*='MainContent'] li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "custom_settings": {
+    "attributesForFaceting": ["project"]
+  },
+  "conversation_id": ["1446133264"],
+  "nb_hits": 112
+}
