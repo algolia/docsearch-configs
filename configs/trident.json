@@ -1,11 +1,7 @@
 {
   "index_name": "trident",
-  "start_urls": [
-    "https://scaleoutsean.github.io/trident/"
-  ],
-  "sitemap_urls": [
-    "https://scaleoutsean.github.io/sitemap.xml"
-  ],
+  "start_urls": ["https://scaleoutsean.github.io/trident/"],
+  "sitemap_urls": ["https://scaleoutsean.github.io/trident/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -20,8 +16,6 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
-  "conversation_id": [
-    "1441199566"
-  ],
+  "conversation_id": ["1441199566"],
   "nb_hits": 9795
 }
