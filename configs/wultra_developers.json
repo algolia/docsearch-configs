@@ -8,25 +8,43 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "section h1",
-    "lvl1": "section h2",
-    "lvl2": "section h3",
-    "lvl3": "section h4",
-    "lvl4": "section h5",
-    "lvl5": "section h6",
+    "lvl0": {
+      "selector": "#docsearch-product",
+      "global": true
+    },
+    "lvl1": {
+      "selector": "#docsearch-component",
+      "global": true
+    },
+    "lvl2": "section h1",
+    "lvl3": "section h2",
+    "lvl4": "section h3",
+    "lvl5": "section h4",
     "text": "section p, section li"
   },
   "selectors_exclude": [
-    ".sidebar-toc", ".sidebar"
-  ],
-  "conversation_id": [
-    "1176317311"
+    ".sidebar-toc",
+    ".sidebar"
   ],
   "custom_settings": {
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "product",
+      "component"
+    ],
+    "attributesToRetrieve": [
+      "language",
+      "version",
+      "title",
+      "product",
+      "component",
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
-  },
-  "nb_hits": 26198
+  }
 }
