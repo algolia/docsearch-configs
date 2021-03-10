@@ -7,20 +7,20 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//a[@aria-current]/preceding::h4[1]",
+      "selector": "",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".js-docs h1",
-    "lvl2": ".js-docs h2",
-    "lvl3": ".js-docs h3",
-    "lvl4": ".js-docs h4",
-    "lvl5": ".js-docs h5",
-    "text": ".js-docs p, .js-docs li"
+    "lvl1": ".documentation h1",
+    "lvl2": ".documentation h2",
+    "lvl3": ".documentation h3",
+    "lvl4": ".documentation h4",
+    "lvl5": ".documentation h5",
+    "text": ".documentation p, .documentation li"
   },
   "conversation_id": [
     "689752997"
   ],
-  "nb_hits": 517
+  "nb_hits": 629
 }
