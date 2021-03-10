@@ -1,7 +1,10 @@
 {
   "index_name": "omnisci",
   "start_urls": [
-    "https://docs.omnisci.com/latest/"
+    "https://docs.omnisci.com/"
+  ],
+  "sitemap_urls": [
+    "https://docs.omnisci.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -11,24 +14,19 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".section h1",
-    "lvl2": ".section h2",
-    "lvl3": ".section h3",
-    "lvl4": ".section h4, .section table td:first-of-type",
-    "lvl5": ".section h5",
-    "text": ".section p, .section li, .section table td:nth-child(2), .section table td:nth-child(4)"
+    "lvl1": "[class*='pageContainer'] h1",
+    "lvl2": "[class*='pageContainer'] h2",
+    "lvl3": "[class*='pageContainer'] h3",
+    "lvl4": "[class*='pageContainer'] h4",
+    "lvl5": "[class*='pageContainer'] h5",
+    "text": "[class*='pageContainer'] p, [class*='pageContainer'] li"
   },
-  "keep_tags": [
-    "code"
-  ],
+  "js_render": true,
   "custom_settings": {
     "separatorsToIndex": "_-"
   },
-  "selectors_exclude": [
-    ".toctree-wrapper"
-  ],
   "conversation_id": [
     "605990405"
   ],
-  "nb_hits": 8621
+  "nb_hits": 4639
 }
