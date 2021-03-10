@@ -1,9 +1,8 @@
 {
   "index_name": "secureauth",
   "start_urls": [
-    "https://docs.secureauth.com/display/IPD/",
-    "https://docs.secureauth.com/display/SIWA/",
-    "https://docs.secureauth.com/display/"
+    "https://docs.secureauth.com/2006/?lang=en",
+    "https://docs.secureauth.com/1907/?lang=en"
   ],
   "stop_urls": [
     "/login",
