@@ -2,28 +2,28 @@
   "index_name": "bonitasoft",
   "start_urls": [
     {
-      "url": "https://preview.documentation.bonitasoft.com/bonita/(?P<version>.*?)/",
+      "url": "https://documentation.bonitasoft.com/bonita/(?P<version>.*?)/",
       "tags": ["bonita"],
       "variables": {
-        "version": ["7.5", "7.6", "7.7", "7.8", "7.9", "7.10", "7.11", "2021.1"]
+        "version": ["7.5", "7.6", "7.7", "7.8", "7.9", "7.10", "7.11", "2021.1", "2021.2"]
       }
     },
     {
-      "url": "https://preview.documentation.bonitasoft.com/cloud/(?P<version>.*?)/",
+      "url": "https://documentation.bonitasoft.com/cloud/(?P<version>.*?)/",
       "tags": ["cloud"],
       "variables": {
         "version": ["latest"]
       }
     },
     {
-      "url": "https://preview.documentation.bonitasoft.com/labs/(?P<version>.*?)/",
+      "url": "https://documentation.bonitasoft.com/labs/(?P<version>.*?)/",
       "tags": ["labs"],
       "variables": {
         "version": ["latest"]
       }
     },
     {
-      "url": "https://preview.documentation.bonitasoft.com/bcd/(?P<version>.*?)/",
+      "url": "https://documentation.bonitasoft.com/bcd/(?P<version>.*?)/",
       "tags": ["bcd"],
       "variables": {
         "version": ["3.4"]
@@ -31,11 +31,11 @@
     }
   ],
   "sitemap_urls": [
-    "https://preview.documentation.bonitasoft.com/sitemap.xml"
+    "https://documentation.bonitasoft.com/sitemap.xml"
   ],
   "stop_urls": [
-    "https://preview.documentation.bonitasoft.com/bonita/7.3",
-    "https://preview.documentation.bonitasoft.com/bonita/7.4"
+    "https://documentation.bonitasoft.com/bonita/7.3",
+    "https://documentation.bonitasoft.com/bonita/7.4"
   ],
   "selectors": {
     "lvl0": ".content h1",
