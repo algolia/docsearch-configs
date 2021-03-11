@@ -1,7 +1,8 @@
 {
   "index_name": "confetti-framework",
   "start_urls": [
-    "https://confetti-framework.com/"
+    "https://www.confetti-framework.com/docs/get-started/meet.html",
+    "https://www.confetti-framework.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -32,9 +33,9 @@
       "lang"
     ]
   },
+  "js_render": true,
   "conversation_id": [
     "1381962144"
   ],
-  "scrape_start_urls": false,
-  "nb_hits": 569
+  "nb_hits": 962
 }
