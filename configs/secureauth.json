@@ -1,26 +1,23 @@
 {
   "index_name": "secureauth",
   "start_urls": [
-    "https://docs.secureauth.com/2006/?lang=en",
-    "https://docs.secureauth.com/1907/?lang=en"
+    {
+      "url": "https://docs.secureauth.com/(?P<version>.*?)/",
+      "variables": {
+        "version": ["2006", "1907"]
+      }
+    }
   ],
-  "stop_urls": [
-    "/login",
-    "/label/",
-    "/download",
-    "/pages/"
-  ],
+  "stop_urls": ["/login", "/label/", "/download", "/pages/"],
   "selectors": {
-    "lvl0": ".rw_content h1",
-    "lvl1": ".rw_content h2",
-    "lvl2": ".rw_content h3",
-    "lvl3": ".rw_content h4",
-    "lvl4": ".rw_content h5",
-    "lvl5": ".rw_content h6",
-    "text": ".rw_content p, .rw_content li"
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
   },
-  "conversation_id": [
-    "1071099184"
-  ],
+  "conversation_id": ["1071099184"],
   "nb_hits": 82113
 }
