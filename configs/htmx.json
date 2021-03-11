@@ -1,7 +1,9 @@
 {
   "index_name": "htmx",
   "start_urls": [
-    "https://htmx.org/docs/"
+    "https://htmx.org/docs/",
+    "https://htmx.org/reference/",
+    "https://htmx.org/examples/"
   ],
   "stop_urls": [],
   "selectors": {
