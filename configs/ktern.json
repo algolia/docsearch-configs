@@ -1,7 +1,7 @@
 {
   "index_name": "ktern",
   "start_urls": [
-    "https://help.ktern.com/docs/ktern-ai"
+    "https://help.ktern.com"
   ],
   "stop_urls": [],
   "selectors": {
