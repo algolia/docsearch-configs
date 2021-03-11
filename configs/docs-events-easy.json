@@ -1,11 +1,12 @@
 {
-  "index_name": "insert-koin",
+  "index_name": "docs-events-easy",
   "start_urls": [
-    "https://insert-koin.io/"
+    "https://docs-events-easy.netlify.app/"
   ],
   "sitemap_urls": [
-    "https://insert-koin.io/sitemap.xml"
+    "https://docs-events-easy.netlify.app/sitemap.xml"
   ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -19,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "492524442"
+    "1449132855"
   ],
-  "nb_hits": 736
+  "nb_hits": 422
 }
