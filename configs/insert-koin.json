@@ -1,21 +1,47 @@
 {
   "index_name": "insert-koin",
   "start_urls": [
-    "https://insert-koin.io/docs/1.0/"
+    "https://insert-koin.io/"
+  ],
+  "sitemap_urls": [
+    "https://insert-koin.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".bd-toc-item.active > a",
-    "lvl1": ".bd-content h1",
-    "lvl2": ".bd-content h2",
-    "lvl3": ".bd-content h3",
-    "lvl4": ".bd-content h4",
-    "lvl5": ".bd-content h5",
-    "text": ".bd-content p, .bd-content li"
+    "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
-  "min_indexed_level": 1,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "conversation_id": [
     "492524442"
   ],
-  "nb_hits": 391
+  "nb_hits": 736
 }
