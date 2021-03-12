@@ -6,7 +6,8 @@
       "variables": {
         "version": [
           "v2",
-          "v3"
+          "v3",
+          "v4"
         ]
       }
     }
