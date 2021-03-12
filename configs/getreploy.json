@@ -1,8 +1,7 @@
 {
   "index_name": "getreploy",
   "start_urls": [
-    "https://docs.getreploy.com/docs/",
-    "https://docs.getreploy.com/docs/installation"
+    "https://docs.getreploy.com/"
   ],
   "sitemap_urls": [
     "https://docs.getreploy.com/sitemap.xml"
@@ -11,22 +10,20 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "[class^='docItemContainer_'] h1",
-    "lvl2": "[class^='docItemContainer_'] h2",
-    "lvl3": "[class^='docItemContainer_'] h3",
-    "lvl4": "[class^='docItemContainer_'] h4",
-    "lvl5": "[class^='docItemContainer_'] h5",
-    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+    "lvl1": "[class*='pageContainer'] h1",
+    "lvl2": "[class*='pageContainer'] h2",
+    "lvl3": "[class*='pageContainer'] h3",
+    "lvl4": "[class*='pageContainer'] h4",
+    "lvl5": "[class*='pageContainer'] h5",
+    "text": "[class*='pageContainer'] p, [class*='pageContainer'] li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "conversation_id": [
     "1150587713"
   ],
-  "nb_hits": 74
+  "nb_hits": 164
 }

@@ -5,14 +5,14 @@
       "url": "https://doc.ibexa.co/projects/userguide/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
         "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "3.1", "2.5", "1.13", "master"]
+        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
       }
     }
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//a[contains(@class,'md-nav__link--active')]/preceding::label[contains(@class,'md-nav__title')][1]",
+      "selector": "//a[contains(@class,'md-nav__link--active')]/preceding::label[contains(@class,'md-nav__link-title') and contains(@class,'level-1')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"

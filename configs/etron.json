@@ -1,10 +1,10 @@
 {
   "index_name": "etron",
   "start_urls": [
-    "https://etron-wiki.netlify.app/"
+    "https://helpcenter.etron.de/"
   ],
   "sitemap_urls": [
-    "https://etron-wiki.netlify.app/sitemap.xml"
+    "https://helpcenter.etron.de/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {

@@ -1,7 +1,15 @@
 {
   "index_name": "pqina_doka",
   "start_urls": [
-    "https://pqina.nl/doka/docs/"
+    {
+      "url": "https://pqina.nl/doka/docs/v7/",
+      "tags": ["v7"],
+      "page_rank": 10
+    },
+    {
+      "url": "https://pqina.nl/doka/docs/v6/",
+      "tags": ["v6"]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -13,11 +21,10 @@
     "lvl5": "main h6",
     "text": "main p, main li"
   },
-  "selectors_exclude": [
-    ".toc"
-  ],
-  "conversation_id": [
-    "1161709194"
-  ],
-  "nb_hits": 635
+  "selectors_exclude": [".toc"],
+  "custom_settings": {
+    "attributesForFaceting": ["tags"]
+  },
+  "conversation_id": ["1161709194"],
+  "nb_hits": 2617
 }
