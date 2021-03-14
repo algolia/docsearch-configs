@@ -2,7 +2,7 @@
   "index_name": "trident",
   "start_urls": ["https://scaleoutsean.github.io/trident/"],
   "sitemap_urls": ["https://scaleoutsean.github.io/trident/sitemap.xml"],
-  "stop_urls": ['https://scaleoutsean.github.io/trident/docker/*'],
+  "stop_urls": ["https://scaleoutsean.github.io/trident/docker/*"],
   "selectors": {
     "lvl0": {
       "selector": "",
