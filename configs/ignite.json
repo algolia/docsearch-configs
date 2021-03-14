@@ -11,10 +11,10 @@
       }
     }
   ],
-  "stop_urls": [".txt", "^((?!\\.html).)*$"],
+  "stop_urls": ["/_", "\\?"],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": ".rst-content h1",
       "global": true,
       "default_value": "Documentation"
     },
@@ -23,7 +23,8 @@
     "lvl3": ".rst-content h3",
     "lvl4": ".rst-content h4",
     "lvl5": ".rst-content h5",
-    "text": ".rst-content p, .rst-content li"
+    "lvl6": ".rst-content h6",
+    "text": ".rst-content dt, .rst-content p, .rst-content li"
   },
   "strip_chars": " .,;:#¶",
   "custom_settings": {
