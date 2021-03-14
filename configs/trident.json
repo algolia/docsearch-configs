@@ -2,7 +2,7 @@
   "index_name": "trident",
   "start_urls": ["https://scaleoutsean.github.io/trident/"],
   "sitemap_urls": ["https://scaleoutsean.github.io/trident/sitemap.xml"],
-  "stop_urls": [],
+  "stop_urls": ["https://scaleoutsean.github.io/trident/docker/*"],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -16,6 +16,7 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
+  "selectors_exclude": [".toctree-wrapper"],
   "conversation_id": ["1441199566"],
   "nb_hits": 9795
 }
