@@ -10,7 +10,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": "title",
       "default_value": "Documentation"
     },
     "lvl1": "body h2",
