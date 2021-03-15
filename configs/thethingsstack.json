@@ -1,23 +1,23 @@
 {
   "index_name": "thethingsstack",
   "start_urls": [
-    "https://www.thethingsindustries.com/docs"
+    "https://www.thethingsindustries.com/docs/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
     "https://www.thethingsindustries.com/docssitemap.xml"
   ],
   "selectors": {
-    "lvl0": "section h1",
-    "lvl1": "section h2",
-    "lvl2": "section h3",
-    "lvl3": "section h4",
-    "lvl4": "section h5",
-    "lvl5": "section h6",
-    "text": "section p, section li"
+    "lvl0": ".docs-content h1",
+    "lvl1": ".docs-content h2",
+    "lvl2": ".docs-content h3",
+    "lvl3": ".docs-content h4",
+    "lvl4": ".docs-content h5",
+    "lvl5": ".docs-content h6",
+    "text": ".docs-content p, .docs-content li"
   },
   "conversation_id": [
     "1175134572"
   ],
-  "nb_hits": 8265
+  "nb_hits": 13173
 }
