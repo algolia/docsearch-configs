@@ -3,23 +3,16 @@
   "start_urls": [
     {
       "url": "https://www.electronjs.org/docs/",
-      "tags": [
-        "docs"
-      ],
+      "tags": ["docs"],
       "selectors_key": "docs"
     },
     {
       "url": "https://www.electronjs.org/blog/",
-      "tags": [
-        "blog"
-      ],
+      "tags": ["blog"],
       "selectors_key": "blog"
     }
   ],
-  "stop_urls": [
-    "/history",
-    "https://www.electronjs.org/docs/all"
-  ],
+  "stop_urls": ["/history", "https://www.electronjs.org/docs/all"],
   "selectors": {
     "docs": {
       "lvl0": {
@@ -45,16 +38,18 @@
       "lvl3": ".markdown-body h3",
       "lvl4": ".markdown-body h4",
       "lvl5": ".markdown-body h5",
-      "text": ".markdown-body p, .markdown-body li"
+      "text": ".markdown-body p, .markdown-body li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
     }
   },
   "custom_settings": {
-    "attributesForFaceting": [
-      "tags"
-    ]
+    "attributesForFaceting": ["tags", "lang"]
   },
-  "conversation_id": [
-    "1451956332"
-  ],
+  "conversation_id": ["1451956332"],
   "nb_hits": 11363
 }
