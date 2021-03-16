@@ -9,13 +9,6 @@
       ]
     },
     {
-      "url": "https://docs-v2.cosmicjs.com",
-      "selectors_key": "v2",
-      "tags": [
-        "v2"
-      ]
-    },
-    {
       "url": "https://docs-v1.cosmicjs.com",
       "selectors_key": "v1",
       "tags": [
