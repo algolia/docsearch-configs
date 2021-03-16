@@ -1,0 +1,52 @@
+{
+  "index_name": "jenkins",
+  "start_urls": [
+    {
+      "url": "https://www.jenkins.io/doc/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://www.jenkins.io/zh/doc/",
+      "tags": [
+        "zh"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://www.jenkins.io/sitemap.xml"
+  ],
+  "stop_urls": [
+    "upgrade-guide"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".container .body h1",
+    "lvl2": ".container .body h2",
+    "lvl3": ".container .body h3",
+    "lvl4": ".container .body h4",
+    "lvl5": ".container .body h5",
+    "text": ".container .body p"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
+  "selectors_exclude": [
+    ".sidebar-nav"
+  ],
+  "stop_content": [
+    "404 Not Found"
+  ],
+  "conversation_id": [
+    "1436732846"
+  ],
+  "nb_hits": 50494
+}

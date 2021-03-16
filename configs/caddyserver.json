@@ -1,11 +1,7 @@
 {
   "index_name": "caddyserver",
-  "start_urls": [
-    "https://caddyserver.com/docs/"
-  ],
-  "stop_urls": [
-    "handle.*handle"
-  ],
+  "start_urls": ["https://caddyserver.com/docs/"],
+  "stop_urls": [],
   "selectors": {
     "lvl0": "article h1",
     "lvl1": "article h2",
@@ -15,13 +11,7 @@
     "lvl5": "article h6, article dt",
     "text": "article p, article li, article dd"
   },
-  "selectors_exclude": [
-    ".anchor-link"
-  ],
-  "js_render": true,
-  "js_wait": 1,
-  "conversation_id": [
-    "1119104529"
-  ],
-  "nb_hits": 29812
+  "selectors_exclude": [".anchor-link"],
+  "conversation_id": ["1119104529"],
+  "nb_hits": 2285
 }

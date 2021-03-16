@@ -1,0 +1,32 @@
+{
+  "index_name": "scanpy",
+  "start_urls": [
+    {
+      "url": "https://scanpy.readthedocs.io/en/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://scanpy.readthedocs.io/",
+          "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dl:first-child dd')){versions.push(b.innerText)};return JSON.stringify(versions)"
+        }
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://scanpy.readthedocs.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1432038966"
+  ],
+  "nb_hits": 9501
+}

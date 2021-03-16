@@ -1,7 +1,7 @@
 {
   "index_name": "ktern",
   "start_urls": [
-    "https://help.ktern.com/docs/automated-dt-workplace"
+    "https://help.ktern.com"
   ],
   "stop_urls": [],
   "selectors": {

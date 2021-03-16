@@ -1,0 +1,27 @@
+{
+  "index_name": "sqlitedocs",
+  "start_urls": [
+    "https://www.sqlitedocs.com/"
+  ],
+  "stop_urls": [
+    "releaselog",
+    "https://www.sqlitedocs.com/requirements.html",
+    "https://www.sqlitedocs.com/keyword_index.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "title",
+      "default_value": "Documentation"
+    },
+    "lvl1": "body h2",
+    "lvl2": "body h3",
+    "lvl3": "body h4",
+    "lvl4": "body h5",
+    "lvl5": "body h6",
+    "text": "body p, body li"
+  },
+  "conversation_id": [
+    "1432990409"
+  ],
+  "nb_hits": 29177
+}

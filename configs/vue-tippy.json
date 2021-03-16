@@ -6,16 +6,23 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "",
-      "global": true,
+      "selector": "aside > div > nav > ul > li.active > h5",
       "default_value": "Documentation"
     },
     "lvl1": "article h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "text": ".nuxt-content p, .nuxt-content li",
+    "language": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["language"]
   },
   "conversation_id": [
     "1421009729"
