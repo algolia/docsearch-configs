@@ -39,7 +39,7 @@
       "lvl2": ".api-content h2",
       "lvl3": ".api-content h3",
       "lvl4": ".api-content h4",
-      "text": ".api-content p"
+      "text": ".api-content p, .api-content ul, .api-content ol"
     }
   },
   "strip_chars": " .,;:#",
@@ -61,6 +61,7 @@
     ]
   },
   "js_render": true,
+  "js_wait": 3,
   "conversation_id": [
     "1442884792"
   ],
