@@ -1,0 +1,60 @@
+{
+  "index_name": "electronjs",
+  "start_urls": [
+    {
+      "url": "https://www.electronjs.org/docs/",
+      "tags": [
+        "docs"
+      ],
+      "selectors_key": "docs"
+    },
+    {
+      "url": "https://www.electronjs.org/blog/",
+      "tags": [
+        "blog"
+      ],
+      "selectors_key": "blog"
+    }
+  ],
+  "stop_urls": [
+    "/history",
+    "https://www.electronjs.org/docs/all"
+  ],
+  "selectors": {
+    "docs": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".markdown-body h1",
+      "lvl2": ".markdown-body h2",
+      "lvl3": ".markdown-body h3",
+      "lvl4": ".markdown-body h4",
+      "lvl5": ".markdown-body h5",
+      "text": ".markdown-body p, .markdown-body li"
+    },
+    "blog": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": ".markdown-body h1",
+      "lvl2": ".markdown-body h2",
+      "lvl3": ".markdown-body h3",
+      "lvl4": ".markdown-body h4",
+      "lvl5": ".markdown-body h5",
+      "text": ".markdown-body p, .markdown-body li"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
+  "conversation_id": [
+    "1451956332"
+  ],
+  "nb_hits": 11363
+}
