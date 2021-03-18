@@ -1,0 +1,28 @@
+{
+  "index_name": "pacemaker",
+  "start_urls": [
+    "https://docs.met.tdintern.de/pacemaker/1.3/index.html",
+    "https://docs.met.tdintern.de/pacemaker/1.3"
+  ],
+  "sitemap_urls": [
+    "https://docs.met.tdintern.de/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1456319455"
+  ],
+  "nb_hits": 4622
+}
