@@ -6,18 +6,18 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav[contains(@class,'sidebar')]//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
+      "selector": "//nav[contains(@class,'app__sidebar')]//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".doc-page__markdown h1",
-    "lvl2": ".doc-page__markdown h2",
-    "lvl3": ".doc-page__markdown h3",
-    "lvl4": ".doc-page__markdown h4",
-    "lvl5": ".doc-page__markdown h5",
-    "lvl6": ".doc-page__markdown h6",
-    "text": ".doc-page__markdown p, .doc-page__markdown li"
+    "lvl1": ".app__main h1",
+    "lvl2": ".app__main h2",
+    "lvl3": ".app__main h3",
+    "lvl4": ".app__main h4",
+    "lvl5": ".app__main h5",
+    "lvl6": ".app__main h6",
+    "text": ".app__main p, .app__main li"
   },
   "strip_chars": " .,;:#",
   "conversation_id": [
