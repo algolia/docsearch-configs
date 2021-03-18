@@ -1,0 +1,71 @@
+{
+  "index_name": "freshdesk",
+  "start_urls": [
+    {
+      "url": "https://developers.freshdesk.com/v2/docs/",
+      "tags": [
+        "documentation"
+      ]
+    },
+    {
+      "url": "https://developers.freshdesk.com/api/",
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "url": "https://developers.freshdesk.com/widget-api/",
+      "tags": [
+        "widget"
+      ]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".docs-page-content h1",
+      "lvl2": ".docs-page-content h2",
+      "lvl3": ".docs-page-content h3",
+      "lvl4": ".docs-page-content h4",
+      "lvl5": ".docs-page-content h5",
+      "text": ".docs-page-content p, .docs-page-content li"
+    },
+    "widget": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Widget API"
+      },
+      "lvl1": ".api-content-wrapper h1",
+      "lvl2": ".api-content-wrapper h2",
+      "lvl3": ".api-content-wrapper h3",
+      "lvl4": ".api-content-wrapper h4",
+      "lvl5": ".api-content-wrapper h5",
+      "text": ".api-content-wrapper p, .api-content-wrapper li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".api-content-wrapper h1",
+      "lvl2": ".api-content-wrapper h2",
+      "lvl3": ".api-content-wrapper h3",
+      "lvl4": ".api-content-wrapper h4",
+      "lvl5": ".api-content-wrapper h5",
+      "text": ".api-content-wrapper p, .api-content-wrapper li"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
+  "conversation_id": [
+    "1455030279"
+  ],
+  "nb_hits": 3229
+}
