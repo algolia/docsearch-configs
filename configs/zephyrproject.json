@@ -1,0 +1,26 @@
+{
+  "index_name": "zephyrproject",
+  "start_urls": [
+    {
+      "url": "https://docs.zephyrproject.org/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://docs.zephyrproject.org/",
+          "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dl:first-child dd')){versions.push(b.innerText)};return JSON.stringify(versions)"
+        }
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".rst-content h1",
+    "lvl1": ".rst-content h2",
+    "lvl2": ".rst-content h3",
+    "lvl3": ".rst-content h4",
+    "lvl4": ".rst-content h5",
+    "lvl5": ".rst-content h6",
+    "text": ".rst-content p, .rst-content li"
+  },
+  "conversation_id": ["1450787312"],
+  "nb_hits": 612277
+}
