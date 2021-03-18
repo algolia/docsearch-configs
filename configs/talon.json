@@ -3,11 +3,13 @@
   "start_urls": [
     {
       "url": "https://docs.talon.one/management-api",
-      "selectors_key": "api"
+      "selectors_key": "management_api",
+      "page_rank": 1
     },
     {
       "url": "https://docs.talon.one/integration-api",
-      "selectors_key": "api"
+      "selectors_key": "integration_api",
+      "page_rank": 1
     },
     "https://docs.talon.one/"
   ],
@@ -29,7 +31,26 @@
       "lvl5": "article h5, article td:first-child",
       "text": "article p, article li, article td:last-child"
     },
-    "api": {
+    "management_api": {
+      "lvl0": {
+        "selector": "(//h1)[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Management API reference docs"
+      },
+      "lvl1": ".api-content h1",
+      "lvl2": ".api-content h2",
+      "lvl3": ".api-content h3",
+      "lvl4": ".api-content h4",
+      "text": ".api-content p, .api-content ul, .api-content ol"
+    },
+    "integration_api": {
+      "lvl0": {
+        "selector": "(//h1)[1]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Integration API reference docs"
+      },
       "lvl1": ".api-content h1",
       "lvl2": ".api-content h2",
       "lvl3": ".api-content h3",
