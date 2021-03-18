@@ -1,0 +1,31 @@
+{
+  "index_name": "atoti",
+  "start_urls": [
+    {
+      "url": "https://docs.atoti.io/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://docs.atoti.io/",
+          "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dd')){versions.push(b.innerText)};return JSON.stringify(versions)"
+        }
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.atoti.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "conversation_id": [
+    "1455537259"
+  ],
+  "nb_hits": 34845
+}
