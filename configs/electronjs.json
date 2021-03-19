@@ -2,22 +2,31 @@
   "index_name": "electronjs",
   "start_urls": [
     {
-      "url": "https://www.electronjs.org/docs/",
-      "tags": ["api"],
+      "url": "https://www.electronjs.org/docs/api/",
+      "tags": [
+        "api"
+      ],
       "selectors_key": "api"
     },
     {
       "url": "https://www.electronjs.org/docs/",
-      "tags": ["docs"],
+      "tags": [
+        "docs"
+      ],
       "selectors_key": "docs"
     },
     {
       "url": "https://www.electronjs.org/blog/",
-      "tags": ["blog"],
+      "tags": [
+        "blog"
+      ],
       "selectors_key": "blog"
     }
   ],
-  "stop_urls": ["/history", "https://www.electronjs.org/docs/all"],
+  "stop_urls": [
+    "/history",
+    "https://www.electronjs.org/docs/all"
+  ],
   "selectors": {
     "api": {
       "lvl0": {
@@ -66,8 +75,13 @@
     }
   },
   "custom_settings": {
-    "attributesForFaceting": ["tags", "lang"]
+    "attributesForFaceting": [
+      "tags",
+      "lang"
+    ]
   },
-  "conversation_id": ["1451956332"],
-  "nb_hits": 11363
+  "conversation_id": [
+    "1451956332"
+  ],
+  "nb_hits": 11371
 }
