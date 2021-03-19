@@ -11,21 +11,18 @@
       }
     }
   ],
-  "sitemap_urls": [
-    "https://docs.atoti.io/sitemap.xml"
-  ],
-  "stop_urls": [],
   "selectors": {
-    "lvl0": ".section h1",
-    "lvl1": ".section h2",
-    "lvl2": ".section h3",
-    "lvl3": ".section h4",
-    "lvl4": ".section h5",
-    "lvl5": ".section h6",
-    "text": ".section p, .section li"
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3, section dl.py.class dt, section dl.py.data dt, section dl.py.function dt",
+    "lvl3": "section h4, section dl.py.method dt",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
   },
-  "conversation_id": [
-    "1455537259"
-  ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": ["1455537259"],
   "nb_hits": 34845
 }
