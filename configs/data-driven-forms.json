@@ -5,7 +5,8 @@
     "https://data-driven-forms.org/components/renderer",
     "https://data-driven-forms.org/schema/introduction",
     "https://data-driven-forms.org/hooks/use-field-api",
-    "https://data-driven-forms.org/mappers/custom-mapper"
+    "https://data-driven-forms.org/mappers/custom-mapper",
+    "https://data-driven-forms.org/examples/mui-one-row-layout"
   ],
   "stop_urls": [
     "https://data-driven-forms.org/mappers/checkbox(?!\\?)",
