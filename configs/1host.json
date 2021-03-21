@@ -5,13 +5,24 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
-    "text": "article p, article li"
+    "lvl0": {
+      "selector": "aside > div > nav > ul > li.active > h5",
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": ".nuxt-content p, .nuxt-content li",
+    "language": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["language"]
   },
   "conversation_id": [
     "1454232949"
