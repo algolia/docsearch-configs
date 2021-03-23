@@ -11,8 +11,8 @@
     }
   ],
   "sitemap_urls": [
-    "https://docs.wandisco.com/live-data-platform/sitemap.xml",
-    "https://wandiscosheffield.github.io/wandisco-documentation-private/sitemap.xml"
+    "https://docs.wandisco.com/live-data-plane/sitemap.xml",
+    "https://wandisco.github.io/wandisco-documentation/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
