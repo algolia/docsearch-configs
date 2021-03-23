@@ -11,7 +11,7 @@
       }
     }
   ],
-  "stop_urls": [],
+  "stop_urls": ["/samples", "/releases"],
   "selectors": {
     "lvl0": ".rst-content h1",
     "lvl1": ".rst-content h2",
