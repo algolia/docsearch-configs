@@ -27,22 +27,15 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[@id='mysidebar']/li/ul/li[contains(@class, 'active')]/a/../../../a",
-      "type": "xpath",
-      "global": true,
+      "selector": "",
       "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": "//*[@id='mysidebar']/li/ul/li[contains(@class, 'active')]/a",
-      "type": "xpath",
-      "global": true
-    },
-    "lvl2": ".post-header h1",
-    "lvl3": ".post-content h2",
-    "lvl4": ".post-content h3",
-    "lvl5": ".post-content h4",
-    "lvl6": ".post-content h5",
-    "text": ".post-content p, .post-content li, .post-content .summary"
+    "lvl1": ".post-header h1",
+    "lvl2": ".post-content h2",
+    "lvl3": ".post-content h3",
+    "lvl4": ".post-content h4",
+    "lvl5": ".post-content h5",
+    "text": ".post-content p, .post-content li"
   },
   "min_indexed_level": 1,
   "scrape_start_urls": false,
@@ -57,5 +50,5 @@
   "conversation_id": [
     "555093088"
   ],
-  "nb_hits": 225909
+  "nb_hits": 222670
 }
