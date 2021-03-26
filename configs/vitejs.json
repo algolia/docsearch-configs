@@ -22,7 +22,6 @@
         "en"
       ]
     },
-    
     {
       "url": "https://cn.vitejs.dev/guide/",
       "selectors_key": "guide",
@@ -98,6 +97,5 @@
       "tags"
     ]
   },
-  "nb_hits": 1859
+  "nb_hits": 2072
 }
-
