@@ -74,6 +74,19 @@
       "lvl4": ".content h4",
       "lvl5": ".content h5",
       "text": ".content p, .content li"
+    },
+    "plugins": {
+      "lvl0": {
+        "selector": "",
+        "type": "xpath",
+        "default_value": "Plugins"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
     }
   },
   "strip_chars": " .,;:#",
