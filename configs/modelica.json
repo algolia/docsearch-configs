@@ -165,6 +165,11 @@
       ]
     }
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
   "sitemap_urls": [
     "https://doc.modelica.org/sitemap.xml"
   ],
