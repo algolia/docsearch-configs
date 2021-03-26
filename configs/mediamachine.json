@@ -1,6 +1,6 @@
 {
   "index_name": "mediamachine",
-  "start_urls": ["https://www.mediamachine.io/site/docs/"],
+  "start_urls": ["https://www.mediamachine.io/docs/"],
   "sitemap_alternate_links": true,
   "js_render": true,
   "js_wait": 1,
