@@ -3,11 +3,31 @@
   "start_urls": [
     {
       "url": "https://vitejs.dev/guide/",
-      "selectors_key": "guide"
+      "selectors_key": "guide",
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "https://vitejs.dev/config/",
-      "selectors_key": "config"
+      "selectors_key": "config",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://cn.vitejs.dev/guide/",
+      "selectors_key": "guide",
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://cn.vitejs.dev/config/",
+      "selectors_key": "config",
+      "tags": [
+        "cn"
+      ]
     }
   ],
   "stop_urls": [
@@ -45,5 +65,11 @@
   "conversation_id": [
     "1401837039"
   ],
-  "nb_hits": 749
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
+  "nb_hits": 1859
 }
+
