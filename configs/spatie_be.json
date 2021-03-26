@@ -19,6 +19,7 @@
         ],
         "project": [
           "laravel-backup",
+          "laravel-mailcoach",
           "laravel-medialibrary",
           "laravel-blade-x",
           "laravel-tags",
