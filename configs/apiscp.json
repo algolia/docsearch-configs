@@ -1,7 +1,7 @@
 {
   "index_name": "apiscp",
   "start_urls": [
-    "https://docs.apiscp.com"
+    "https://docs.apiscp.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -36,5 +36,5 @@
     "1080540702"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 2221
+  "nb_hits": 4050
 }
