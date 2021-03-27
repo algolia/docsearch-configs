@@ -1,7 +1,10 @@
 {
   "index_name": "stenciljs",
   "start_urls": [
-    "https://stenciljs.com/docs"
+    {
+      "url": "https://stenciljs.com/docs/",
+      "tags": ["com"]
+    }
   ],
   "stop_urls": [],
   "sitemap_urls": [
