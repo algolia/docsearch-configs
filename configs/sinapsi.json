@@ -1,10 +1,10 @@
 {
-  "index_name": "gqless",
+  "index_name": "sinapsi",
   "start_urls": [
-    "https://gqless.com/"
+    "https://documentation.sinapsi.ro/"
   ],
   "sitemap_urls": [
-    "https://gqless.com/sitemap.xml"
+    "https://documentation.sinapsi.ro/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1116769829"
+    "1457610105"
   ],
-  "nb_hits": 2455
+  "nb_hits": 725
 }
