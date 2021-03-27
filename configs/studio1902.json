@@ -1,7 +1,10 @@
 {
-  "index_name": "apiscp",
+  "index_name": "studio1902",
   "start_urls": [
-    "https://docs.apiscp.com/"
+    "https://peak.studio1902.nl"
+  ],
+  "sitemap_urls": [
+    "https://peak.studio1902.nl/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -33,8 +36,8 @@
     ]
   },
   "conversation_id": [
-    "1080540702"
+    "1461418324"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 4050
+  "nb_hits": 216
 }

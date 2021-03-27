@@ -1,10 +1,10 @@
 {
-  "index_name": "gqless",
+  "index_name": "sikulix",
   "start_urls": [
-    "https://gqless.com/"
+    "https://sikulix.github.io/"
   ],
   "sitemap_urls": [
-    "https://gqless.com/sitemap.xml"
+    "https://sikulix.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1116769829"
+    "1459280997"
   ],
-  "nb_hits": 2455
+  "nb_hits": 945
 }
