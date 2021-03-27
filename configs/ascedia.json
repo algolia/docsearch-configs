@@ -1,10 +1,10 @@
 {
-  "index_name": "gqless",
+  "index_name": "ascedia",
   "start_urls": [
-    "https://gqless.com/"
+    "https://boilerplate.ascedia.dev/docs/"
   ],
   "sitemap_urls": [
-    "https://gqless.com/sitemap.xml"
+    "https://boilerplate.ascedia.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1116769829"
+    "1459343108"
   ],
-  "nb_hits": 2455
+  "nb_hits": 719
 }

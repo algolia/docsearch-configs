@@ -1,10 +1,10 @@
 {
-  "index_name": "gqless",
+  "index_name": "linkapi",
   "start_urls": [
-    "https://gqless.com/"
+    "https://docs.linkapi.solutions/"
   ],
   "sitemap_urls": [
-    "https://gqless.com/sitemap.xml"
+    "https://docs.linkapi.solutions/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -40,8 +40,9 @@
       "type"
     ]
   },
+  "js_render": true,
   "conversation_id": [
-    "1116769829"
+    "1456373145"
   ],
-  "nb_hits": 2455
+  "nb_hits": 657
 }
