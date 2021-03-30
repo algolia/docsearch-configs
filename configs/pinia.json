@@ -32,7 +32,7 @@
       "page_rank": 5
     }
   ],
-  "stop_urls": [],
+  "stop_urls": ["(?<!\\.html|/)$"],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",

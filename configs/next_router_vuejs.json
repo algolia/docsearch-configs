@@ -19,7 +19,7 @@
     }
   ],
   "stop_urls": [
-    ".html"
+    "(?<!\\.html|/)$"
   ],
   "selectors": {
     "guide": {
