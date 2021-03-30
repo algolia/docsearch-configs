@@ -4,6 +4,7 @@
     {
       "url": "https://next.router.vuejs.org/guide/",
       "selectors_key": "guide",
+      "page_rank": 10,
       "tags": [
         "guide"
       ]
@@ -11,12 +12,15 @@
     {
       "url": "https://next.router.vuejs.org/api/",
       "selectors_key": "api",
+      "page_rank": 8,
       "tags": [
         "api"
       ]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    ".html"
+  ],
   "selectors": {
     "guide": {
       "lvl0": {
@@ -47,5 +51,5 @@
   "conversation_id": [
     "1305035158"
   ],
-  "nb_hits": 897
+  "nb_hits": 924
 }
