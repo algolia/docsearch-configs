@@ -1,7 +1,7 @@
 {
   "index_name": "flowcontrol12",
   "start_urls": [
-    "https://flowcontrol12.github.io/docs/"
+    "https://flowcontrol12.github.io/"
   ],
   "sitemap_urls": [
     "https://flowcontrol12.github.io/sitemap.xml"
