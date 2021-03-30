@@ -204,7 +204,8 @@
   "selectors": {
     "default": {
       "lvl0": ".pb-content h1",
-      "lvl1": ".pb-content h3",
+      "lvl1": ".pb-content h2",
+      "lvl2": ".pb-content h3",
       "text": ".pb-content p, .pb-content li"
     },
     "prebid": {
