@@ -4,35 +4,47 @@
     {
       "url": "https://pinia.esm.dev/introduction.html",
       "selectors_key": "introduction",
-      "tags": ["Introduction"],
+      "tags": [
+        "Introduction"
+      ],
       "page_rank": 1
     },
     {
       "url": "https://pinia.esm.dev/getting-started.html",
       "selectors_key": "getting-started",
-      "tags": ["Introduction"],
+      "tags": [
+        "Introduction"
+      ],
       "page_rank": 1
     },
     {
       "url": "https://pinia.esm.dev/core-concepts/",
       "selectors_key": "core-concepts",
-      "tags": ["Core Concepts"],
+      "tags": [
+        "Core Concepts"
+      ],
       "page_rank": 10
     },
     {
       "url": "https://pinia.esm.dev/ssr/",
       "selectors_key": "ssr",
-      "tags": ["SSR"],
+      "tags": [
+        "SSR"
+      ],
       "page_rank": 8
     },
     {
       "url": "https://pinia.esm.dev/cookbook/",
       "selectors_key": "cookbook",
-      "tags": ["Cookbook"],
+      "tags": [
+        "Cookbook"
+      ],
       "page_rank": 5
     }
   ],
-  "stop_urls": ["(?<!\\.html|/)$"],
+  "stop_urls": [
+    "(?:(?<!.html)(?<!/))$"
+  ],
   "selectors": {
     "lvl0": ".content h1",
     "lvl1": ".content h2",
@@ -43,6 +55,8 @@
     "text": ".content [class^=language-]"
   },
   "strip_chars": " .,;:#",
-  "conversation_id": ["1469171716"],
-  "nb_hits": 156
+  "conversation_id": [
+    "1469171716"
+  ],
+  "nb_hits": 111
 }
