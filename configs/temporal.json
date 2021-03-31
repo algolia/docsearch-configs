@@ -1,8 +1,34 @@
 {
   "index_name": "temporal",
   "start_urls": [
-    "https://docs.temporal.io/docs/",
-    "https://docs.temporal.io/docs/overview"
+    {
+      "url": "https://docs.temporal.io/docs/concept-overview",
+      "page_rank": 999
+    },
+    {
+      "url": "https://docs.temporal.io/docs/concept-workflows",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/concept-activities",
+      "page_rank": 997
+    },
+    {
+      "url": "https://docs.temporal.io/docs/concept-events",
+      "page_rank": 996
+    },
+    {
+      "url": "https://docs.temporal.io/docs/concept-queries",
+      "page_rank": 995
+    },
+    {
+      "url": "https://docs.temporal.io/docs/concept-task-queues",
+      "page_rank": 994
+    },
+    {
+      "url": "https://docs.temporal.io/docs/get-started",
+      "page_rank": 1
+    }
   ],
   "sitemap_urls": [
     "https://docs.temporal.io/sitemap.xml"
