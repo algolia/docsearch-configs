@@ -26,20 +26,21 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": ".docs-layout .docs-side-nav__section-header",
+        "selector": ".docs-layout .docs-side-nav__section-header--active",
         "default_value": "Documentation"
       },
-      "lvl1": "main .documentation-guide .documentation-guide__title h1",
-      "lvl2": "main .documentation-guide .documentation-guide__article h2",
-      "text": "main .documentation-guide .documentation-guide__article p, main .documentation-guide .documentation-guide__article li"
+      "lvl1": "main .documentation-guide h1.documentation-guide__title",
+      "lvl2": "main .documentation-guide article.documentation-guide__article .markdown-section h2",
+      "text": "main .documentation-guide article.documentation-guide__article .markdown-section p"
     },
     "release-notes": {
       "lvl0": {
         "selector": "main .release-notes h1",
         "default_value": "Release notes"
       },
-      "lvl1": "main .release-notes h3",
-      "text": "main .release-notes li"
+      "lvl1": "main .release-notes .release-notes__note h2.release-notes__note-heading",
+      "lvl2": "main .release-notes .release-notes__note .release-notes__content .markdown-section h3",
+      "text": "main .release-notes .release-notes__note .release-notes__content .markdown-section ul li"
     }
   },
   "conversation_id": [
