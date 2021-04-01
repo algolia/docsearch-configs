@@ -1,14 +1,16 @@
 {
   "index_name": "getambassador",
   "start_urls": [
-    "https://www.getambassador.io/docs/",
-    "https://www.getambassador.io/about/",
-    "https://www.getambassador.io/concepts/",
-    "https://www.getambassador.io/user-guide/",
-    "https://www.getambassador.io/reference/"
+    "https://www.getambassador.io/docs/argo/latest/",
+    "https://www.getambassador.io/docs/cloud/latest/",
+    "https://www.getambassador.io/docs/edge-stack/latest/",
+    "https://www.getambassador.io/docs/telepresence/latest/"
   ],
   "stop_urls": [
-    "https://www.getambassador.io/docs/1.*"
+    "https://www.getambassador.io/docs/edge-stack/pre-release/",
+    "https://www.getambassador.io/docs/edge-stack/1.*",
+    "https://www.getambassador.io/docs/telepresence/pre-release/",
+    "https://www.getambassador.io/docs/telepresence/2.*"
   ],
   "selectors": {
     "lvl0": {
