@@ -28,7 +28,7 @@
   ],
   "js_render": true,
   "use_anchors": true,
-  "js_wait": 5,
+  "js_wait": 1,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
