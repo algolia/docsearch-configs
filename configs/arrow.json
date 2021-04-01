@@ -4,11 +4,8 @@
     "https://arrow-kt.io"
   ],
   "stop_urls": [
-    "https://arrow-kt.io/docs/0.9",
-    "https://arrow-kt.io/docs/next/core/",
-    "https://arrow-kt.io/docs/next/fx/",
-    "https://arrow-kt.io/docs/next/optics/dsl/",
-    "https://arrow-kt.io/docs/next/aql/intro/",
+    "https://arrow-kt.io/docs/[0-9]",
+    "https://arrow-kt.io/docs/next",
     "!index.html"
   ],
   "sitemap_urls": [
