@@ -1,7 +1,7 @@
 {
   "index_name": "prisma_pan",
   "start_urls": [
-    "https://prisma.pan.dev/docs/"
+    "https://prisma.pan.dev/"
   ],
   "sitemap_urls": [
     "https://prisma.pan.dev/sitemap.xml"
@@ -10,20 +10,41 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "[class^='docItemContainer_'] h1",
-    "lvl2": "[class^='docItemContainer_'] h2",
-    "lvl3": "[class^='docItemContainer_'] h3",
-    "lvl4": "[class^='docItemContainer_'] h4",
-    "lvl5": "[class^='docItemContainer_'] h5",
-    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
   "selectors_exclude": [
     ".hash-link"
   ],
+  "js_render": true,
+  "use_anchors": true,
+  "js_wait": 5,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "conversation_id": [
     "1212617874"
   ],
