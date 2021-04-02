@@ -4,7 +4,7 @@
   "stop_urls": [
     "https://arrow-kt.io/docs/[0-9]",
     "https://arrow-kt.io/docs/next",
-    "index.html"
+    ".*(?<!index\\.html)$"
   ],
   "sitemap_urls": ["https://arrow-kt.io/sitemap.xml"],
   "selectors": {
@@ -28,5 +28,5 @@
     ".doc-content p:first-child"
   ],
   "conversation_id": ["601115880"],
-  "nb_hits": 2091
+  "nb_hits": 2181
 }
