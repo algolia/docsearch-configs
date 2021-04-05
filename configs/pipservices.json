@@ -10,12 +10,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
+    "lvl1": ".content-title h1",
+    "lvl2": ".td-content blockquote",
+    "lvl3": ".td-content ul",
     "lvl4": "main h4",
     "lvl5": "main h5",
-    "text": "main p, main li"
+    "text": ".td-content p"
   },
   "conversation_id": [
     "1462093059"
