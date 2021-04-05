@@ -3,15 +3,21 @@
   "start_urls": ["https://arrow-kt.io"],
   "stop_urls": [
     "https://arrow-kt.io/docs/[0-9]",
-    "https://arrow-kt.io/docs/next"
+    "https://arrow-kt.io/docs/next",
+    ".*(?<!index\\.html)$"
   ],
   "sitemap_urls": ["https://arrow-kt.io/sitemap.xml"],
   "selectors": {
     "default": {
-      "lvl0": ".doc-content h1",
-      "lvl1": ".doc-content h2",
-      "lvl2": ".doc-content h3",
-      "lvl3": ".doc-content h4",
+      "lvl0": {
+        "selector": ".brand-title",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".doc-content h1",
+      "lvl2": ".doc-content h2",
+      "lvl3": ".doc-content h3",
+      "lvl4": ".doc-content h4",
       "text": ".doc-content p, .doc-content li, .doc-content tr > td:first-child"
     }
   },
