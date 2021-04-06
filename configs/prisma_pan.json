@@ -27,7 +27,6 @@
     ".hash-link"
   ],
   "js_render": true,
-  "use_anchors": true,
   "js_wait": 2,
   "strip_chars": " .,;:#",
   "custom_settings": {
