@@ -12,22 +12,24 @@
     "https://www.getambassador.io/docs/telepresence/pre-release/",
     "https://www.getambassador.io/docs/telepresence/2.*"
   ],
+  "sitemap_urls": [
+    "https://www.getambassador.io/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "(//*[contains(@class,'Sidebar')][1]//a[contains(//aside/a/@href,@href)])[2]/preceding::button[1]/span[1]",
-      "type": "xpath",
+      "selector": "",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "text": "main p, main li"
+    "lvl1": ".docs__doc-body h1",
+    "lvl2": ".docs__doc-body h2",
+    "lvl3": ".docs__doc-body h3",
+    "lvl4": ".docs__doc-body h4",
+    "lvl5": ".docs__doc-body h5",
+    "text": ".docs__doc-body p, .docs__doc-body li"
   },
   "conversation_id": [
     "685947392"
   ],
-  "nb_hits": 8589
+  "nb_hits": 6459
 }
