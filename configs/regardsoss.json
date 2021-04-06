@@ -7,7 +7,9 @@
     "https://regardsoss.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "generated-snippets"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -43,5 +45,5 @@
   "conversation_id": [
     "1468964317"
   ],
-  "nb_hits": 23382
+  "nb_hits": 17706
 }
