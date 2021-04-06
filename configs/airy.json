@@ -1,10 +1,10 @@
 {
   "index_name": "airy",
   "start_urls": [
-    "https://docs.airy.co/"
+    "https://airy.co/docs/core/"
   ],
   "sitemap_urls": [
-    "https://docs.airy.co/sitemap.xml"
+    "https://airy.co/docs/core/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
