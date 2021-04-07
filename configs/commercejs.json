@@ -15,8 +15,8 @@
       "page_rank": 2
     },
     {
-      "url": "https://commercejs.com/docs/sdk/",
-      "page_rank": 1
+      "url": "https://commercejs.com/docs/community/",
+      "page_rank": 3
     },
     "https://commercejs.com/docs/"
   ],
@@ -25,12 +25,11 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "",
+        "selector": ".docs-layout .docs-side-nav__section-header .docs-side-nav__section-header--active",
         "default_value": "Documentation"
       },
-      "lvl1": ".docs-layout .docs-nav-list__link.nuxt-link-exact-active",
-      "lvl2": "main h1",
-      "lvl3": "main h2",
+      "lvl1": "main h1",
+      "lvl2": "main h2",
       "text": "main p"
     },
     "release-notes": {
