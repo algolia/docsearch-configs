@@ -1,0 +1,23 @@
+{
+  "index_name": "apicur",
+  "start_urls": [
+    "https://www.apicur.io/"
+  ],
+  "sitemap_urls": [
+    "https://www.apicur.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".container h1",
+    "lvl1": ".container h2",
+    "lvl2": ".container h3",
+    "lvl3": ".container h4",
+    "lvl4": ".container h5",
+    "lvl5": ".container h6",
+    "text": ".container p, .container li"
+  },
+  "conversation_id": [
+    "1442407193"
+  ],
+  "nb_hits": 944
+}
