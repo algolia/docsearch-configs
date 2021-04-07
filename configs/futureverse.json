@@ -2,268 +2,58 @@
   "index_name": "futureverse",
   "start_urls": [
     {
-      "url": "https://BiocParallel.FutureParam.futureverse.org/index.html",
+      "url": "https://(?P<project>.*?).futureverse.org/index.html",
       "selectors_key": "homepage",
-      "tags": [
-        "BiocParallel.FutureParam",
-        "homepage"
-      ]
+      "variables": {
+        "project": [
+          "BiocParallel.FutureParam",
+          "doFuture",
+          "future",
+          "future.apply",
+          "future.batchtools",
+          "future.callr",
+          "future.tests",
+          "globals",
+          "parallelly",
+          "progressr"
+        ]
+      }
     },
     {
-      "url": "https://BiocParallel.FutureParam.futureverse.org/reference",
+      "url": "https://(?P<project>.*?).futureverse.org/reference",
       "selectors_key": "reference",
-      "tags": [
-        "BiocParallel.FutureParam",
-        "reference"
-      ]
+      "variables": {
+        "project": [
+          "BiocParallel.FutureParam",
+          "doFuture",
+          "future",
+          "future.apply",
+          "future.batchtools",
+          "future.callr",
+          "future.tests",
+          "globals",
+          "parallelly",
+          "progressr"
+        ]
+      }
     },
     {
-      "url": "https://BiocParallel.FutureParam.futureverse.org/articles",
+      "url": "https://(?P<project>.*?).futureverse.org/articles",
       "selectors_key": "articles",
-      "tags": [
-        "BiocParallel.FutureParam",
-        "articles"
-      ]
-    },
-    {
-      "url": "https://doFuture.futureverse.org/index.html",
-      "selectors_key": "homepage",
-      "tags": [
-        "doFuture",
-        "homepage"
-      ]
-    },
-    {
-      "url": "https://doFuture.futureverse.org/reference",
-      "selectors_key": "reference",
-      "tags": [
-        "doFuture",
-        "reference"
-      ]
-    },
-    {
-      "url": "https://doFuture.futureverse.org/articles",
-      "selectors_key": "articles",
-      "tags": [
-        "doFuture",
-        "articles"
-      ]
-    },
-    {
-      "url": "https://future.futureverse.org/index.html",
-      "selectors_key": "homepage",
-      "tags": [
-        "future",
-        "homepage"
-      ]
-    },
-    {
-      "url": "https://future.futureverse.org/reference",
-      "selectors_key": "reference",
-      "tags": [
-        "future",
-        "reference"
-      ]
-    },
-    {
-      "url": "https://future.futureverse.org/articles",
-      "selectors_key": "articles",
-      "tags": [
-        "future",
-        "articles"
-      ]
-    },
-    {
-      "url": "https://future.apply.futureverse.org/index.html",
-      "selectors_key": "homepage",
-      "tags": [
-        "future.apply",
-        "homepage"
-      ]
-    },
-    {
-      "url": "https://future.apply.futureverse.org/reference",
-      "selectors_key": "reference",
-      "tags": [
-        "future.apply",
-        "reference"
-      ]
-    },
-    {
-      "url": "https://future.apply.futureverse.org/articles",
-      "selectors_key": "articles",
-      "tags": [
-        "future.apply",
-        "articles"
-      ]
-    },
-    {
-      "url": "https://future.batchtools.futureverse.org/index.html",
-      "selectors_key": "homepage",
-      "tags": [
-        "future.batchtools",
-        "homepage"
-      ]
-    },
-    {
-      "url": "https://future.batchtools.futureverse.org/reference",
-      "selectors_key": "reference",
-      "tags": [
-        "future.batchtools",
-        "reference"
-      ]
-    },
-    {
-      "url": "https://future.batchtools.futureverse.org/articles",
-      "selectors_key": "articles",
-      "tags": [
-        "future.batchtools",
-        "articles"
-      ]
-    },
-    {
-      "url": "https://future.callr.futureverse.org/index.html",
-      "selectors_key": "homepage",
-      "tags": [
-        "future.callr",
-        "homepage"
-      ]
-    },
-    {
-      "url": "https://future.callr.futureverse.org/reference",
-      "selectors_key": "reference",
-      "tags": [
-        "future.callr",
-        "reference"
-      ]
-    },
-    {
-      "url": "https://future.callr.futureverse.org/articles",
-      "selectors_key": "articles",
-      "tags": [
-        "future.callr",
-        "articles"
-      ]
-    },
-    {
-      "url": "https://future.tests.futureverse.org/index.html",
-      "selectors_key": "homepage",
-      "tags": [
-        "future.tests",
-        "homepage"
-      ]
-    },
-    {
-      "url": "https://future.tests.futureverse.org/reference",
-      "selectors_key": "reference",
-      "tags": [
-        "future.tests",
-        "reference"
-      ]
-    },
-    {
-      "url": "https://future.tests.futureverse.org/articles",
-      "selectors_key": "articles",
-      "tags": [
-        "future.tests",
-        "articles"
-      ]
-    },
-    {
-      "url": "https://globals.futureverse.org/index.html",
-      "selectors_key": "homepage",
-      "tags": [
-        "globals",
-        "homepage"
-      ]
-    },
-    {
-      "url": "https://globals.futureverse.org/reference",
-      "selectors_key": "reference",
-      "tags": [
-        "globals",
-        "reference"
-      ]
-    },
-    {
-      "url": "https://globals.futureverse.org/articles",
-      "selectors_key": "articles",
-      "tags": [
-        "globals",
-        "articles"
-      ]
-    },
-    {
-      "url": "https://listenv.futureverse.org/index.html",
-      "selectors_key": "homepage",
-      "tags": [
-        "listenv",
-        "homepage"
-      ]
-    },
-    {
-      "url": "https://listenv.futureverse.org/reference",
-      "selectors_key": "reference",
-      "tags": [
-        "listenv",
-        "reference"
-      ]
-    },
-    {
-      "url": "https://listenv.futureverse.org/articles",
-      "selectors_key": "articles",
-      "tags": [
-        "listenv",
-        "articles"
-      ]
-    },
-    {
-      "url": "https://parallelly.futureverse.org/index.html",
-      "selectors_key": "homepage",
-      "tags": [
-        "parallelly",
-        "homepage"
-      ]
-    },
-    {
-      "url": "https://parallelly.futureverse.org/reference",
-      "selectors_key": "reference",
-      "tags": [
-        "parallelly",
-        "reference"
-      ]
-    },
-    {
-      "url": "https://parallelly.futureverse.org/articles",
-      "selectors_key": "articles",
-      "tags": [
-        "parallelly",
-        "articles"
-      ]
-    },
-    {
-      "url": "https://progressr.futureverse.org/index.html",
-      "selectors_key": "homepage",
-      "tags": [
-        "progressr",
-        "homepage"
-      ]
-    },
-    {
-      "url": "https://progressr.futureverse.org/reference",
-      "selectors_key": "reference",
-      "tags": [
-        "progressr",
-        "reference"
-      ]
-    },
-    {
-      "url": "https://progressr.futureverse.org/articles",
-      "selectors_key": "articles",
-      "tags": [
-        "progressr",
-        "articles"
-      ]
+      "variables": {
+        "project": [
+          "BiocParallel.FutureParam",
+          "doFuture",
+          "future",
+          "future.apply",
+          "future.batchtools",
+          "future.callr",
+          "future.tests",
+          "globals",
+          "parallelly",
+          "progressr"
+        ]
+      }
     }
   ],
   "stop_urls": [
@@ -337,15 +127,11 @@
       "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
     }
   },
-  "selectors_exclude": [
-    ".dont-index"
-    ],
+  "selectors_exclude": [".dont-index"],
   "min_indexed_level": 2,
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "tags"
-    ],
+    "attributesForFaceting": ["project"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -354,8 +140,6 @@
       "url_without_anchor"
     ]
   },
-  "conversation_id": [
-    "1470006595"
-  ],
-  "nb_hits": 1341
+  "conversation_id": ["1470006595"],
+  "nb_hits": 3329
 }
