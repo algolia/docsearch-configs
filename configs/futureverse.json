@@ -14,6 +14,7 @@
           "future.callr",
           "future.tests",
           "globals",
+          "listenv",
           "parallelly",
           "progressr"
         ]
@@ -32,6 +33,7 @@
           "future.callr",
           "future.tests",
           "globals",
+          "listenv",
           "parallelly",
           "progressr"
         ]
@@ -50,6 +52,7 @@
           "future.callr",
           "future.tests",
           "globals",
+          "listenv",
           "parallelly",
           "progressr"
         ]
