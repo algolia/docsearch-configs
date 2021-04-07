@@ -2,30 +2,29 @@
   "index_name": "nemtech",
   "start_urls": [
     {
-      "url": "https://nemtech.github.io/",
+      "url": "https://docs.symbolplatform.com/",
       "tags": [
         "en"
       ]
     }
   ],
   "stop_urls": [
-    "/nem2-",
-    "/_",
-    "/ja"
+    ".*(?<!\\.html)$",
+    "symbol-sdk-typescript-javascript"
   ],
   "selectors": {
     "default": {
-      "lvl0": ".section h1",
-      "lvl1": ".section h2",
-      "lvl2": ".section h3",
-      "lvl3": ".section h4",
-      "lvl4": ".section h5",
-      "lvl5": ".section h6",
-      "text": ".section p, .section li, .section td"
+      "lvl0": ".container h1",
+      "lvl1": ".container h2",
+      "lvl2": ".container h3",
+      "lvl3": ".container h4",
+      "lvl4": ".container h5",
+      "lvl5": ".container h6",
+      "text": ".container p, .container li, .container td"
     }
   },
   "conversation_id": [
     "782254190"
   ],
-  "nb_hits": 3775
+  "nb_hits": 14345
 }
