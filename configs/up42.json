@@ -1,7 +1,7 @@
 {
   "index_name": "up42",
   "start_urls": [
-    "https://up42-docs.netlify.app"
+    "https://docs-v2.up42.com"
   ],
   "stop_urls": [],
   "selectors": {

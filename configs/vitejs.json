@@ -3,11 +3,45 @@
   "start_urls": [
     {
       "url": "https://vitejs.dev/guide/",
-      "selectors_key": "guide"
+      "selectors_key": "guide",
+      "tags": [
+        "en"
+      ]
     },
     {
       "url": "https://vitejs.dev/config/",
-      "selectors_key": "config"
+      "selectors_key": "config",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://vitejs.dev/plugins/",
+      "selectors_key": "plugins",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://cn.vitejs.dev/guide/",
+      "selectors_key": "guide",
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://cn.vitejs.dev/config/",
+      "selectors_key": "config",
+      "tags": [
+        "cn"
+      ]
+    },
+    {
+      "url": "https://cn.vitejs.dev/plugins/",
+      "selectors_key": "plugins",
+      "tags": [
+        "cn"
+      ]
     }
   ],
   "stop_urls": [
@@ -39,11 +73,29 @@
       "lvl4": ".content h4",
       "lvl5": ".content h5",
       "text": ".content p, .content li"
+    },
+    "plugins": {
+      "lvl0": {
+        "selector": "",
+        "type": "xpath",
+        "default_value": "Plugins"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
     }
   },
   "strip_chars": " .,;:#",
   "conversation_id": [
     "1401837039"
   ],
-  "nb_hits": 749
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
+  "nb_hits": 2072
 }

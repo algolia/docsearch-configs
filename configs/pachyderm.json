@@ -106,9 +106,8 @@
             "variables": {
                 "version": [
                     "latest",
-                    "1.11.x",
-                    "1.10.x",
-                    "1.9.x"
+                    "1.12.x",
+                    "1.11.x"
                 ]
             }
         }
@@ -116,9 +115,8 @@
     "stop_urls": [],
     "sitemap_urls": [
         "https://docs.pachyderm.com/latest/sitemap.xml",
-        "https://docs.pachyderm.com/1.11.x/sitemap.xml",
-        "https://docs.pachyderm.com/1.10.x/sitemap.xml",
-        "https://docs.pachyderm.com/1.9.x/sitemap.xml"
+        "https://docs.pachyderm.com/1.12.x/sitemap.xml",
+        "https://docs.pachyderm.com/1.11.x/sitemap.xml"
     ],
     "selectors": {
         "lvl0": {
