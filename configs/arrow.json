@@ -1,31 +1,24 @@
 {
   "index_name": "arrow",
-  "start_urls": [
-    "https://arrow-kt.io"
-  ],
+  "start_urls": ["https://arrow-kt.io"],
   "stop_urls": [
-    "https://arrow-kt.io/docs/0.9",
-    "https://arrow-kt.io/docs/next/core/",
-    "https://arrow-kt.io/docs/next/fx/",
-    "https://arrow-kt.io/docs/next/optics/dsl/",
-    "https://arrow-kt.io/docs/next/aql/intro/",
-    "!index.html"
+    "https://arrow-kt.io/docs/[0-9]",
+    "https://arrow-kt.io/docs/next",
+    ".*(?<!index\\.html)$"
   ],
-  "sitemap_urls": [
-    "https://arrow-kt.io/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://arrow-kt.io/sitemap.xml"],
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": ".active .core",
+        "selector": ".brand-title",
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl1": ".doc-content h1, .doc-content h2",
-      "lvl2": ".doc-content h3",
-      "lvl3": ".doc-content h4",
-      "lvl4": ".doc-content h5",
-      "text": ".doc-content p, .doc-content li"
+      "lvl1": ".doc-content h1",
+      "lvl2": ".doc-content h2",
+      "lvl3": ".doc-content h3",
+      "lvl4": ".doc-content h4",
+      "text": ".doc-content p, .doc-content li, .doc-content tr > td:first-child"
     }
   },
   "selectors_exclude": [
@@ -34,8 +27,6 @@
     ".doc-content td:last-child code",
     ".doc-content p:first-child"
   ],
-  "conversation_id": [
-    "601115880"
-  ],
-  "nb_hits": 18648
+  "conversation_id": ["601115880"],
+  "nb_hits": 2181
 }

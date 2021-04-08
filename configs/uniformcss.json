@@ -13,12 +13,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".grid h1",
-    "lvl2": ".grid h2",
-    "lvl3": ".grid h3",
-    "lvl4": ".grid h4",
-    "lvl5": ".grid h5",
-    "text": ".grid p, .grid li"
+    "lvl1": ".docsearch-content h1",
+    "lvl2": ".docsearch-content h2",
+    "lvl3": ".docsearch-content h3",
+    "lvl4": ".docsearch-content h4",
+    "lvl5": ".docsearch-content h5",
+    "text": ".docsearch-content p, .docsearch-content li"
   },
   "conversation_id": [
     "1423907520"

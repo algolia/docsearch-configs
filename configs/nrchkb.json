@@ -1,0 +1,20 @@
+{
+  "index_name": "nrchkb",
+  "start_urls": ["https://nrchkb.github.io/"],
+  "sitemap_urls": ["https://nrchkb.github.io/sitemap.xml"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".breadcrumb li:nth-last-child(2)",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": ["1474358890"],
+  "nb_hits": 2825
+}

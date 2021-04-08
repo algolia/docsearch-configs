@@ -1,7 +1,17 @@
 {
   "index_name": "rularavel",
   "start_urls": [
-    "https://docs.rularavel.com/"
+  {
+    "url": "https://docs.rularavel.com/docs/(?P<version>.*?)/",
+    "variables": {
+        "version": [
+          "master",
+          "8.x",
+          "6.x",
+          "4.2"
+        ]
+    }
+  }
   ],
   "stop_urls": [],
   "selectors": {
@@ -31,5 +41,23 @@
   "conversation_id": [
     "1467307244"
   ],
+  "custom_settings": {
+    "attributesToIndex": [
+      "unordered(hierarchy_camel.lvl0)",
+      "unordered(hierarchy.lvl0)",
+      "unordered(hierarchy_camel.lvl1)",
+      "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy_camel.lvl2)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy_camel.lvl3)",
+      "unordered(hierarchy.lvl3)",
+      "unordered(hierarchy_camel.lvl4)",
+      "unordered(hierarchy.lvl4)",
+      "unordered(hierarchy_camel.lvl5)",
+      "unordered(hierarchy.lvl5)",
+      "content"
+    ],
+    "attributeForDistinct": "url_without_anchor"
+  },
   "nb_hits": 10304
 }

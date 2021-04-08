@@ -1,11 +1,7 @@
 {
-  "index_name": "pacemaker",
+  "index_name": "flareapp",
   "start_urls": [
-    "https://docs.met.tdintern.de/pacemaker/1.3/index.html",
-    "https://docs.met.tdintern.de/pacemaker/1.3"
-  ],
-  "sitemap_urls": [
-    "https://docs.met.tdintern.de/sitemap-pacemaker.xml"
+    "https://flareapp.io/docs"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,7 +18,7 @@
     "text": "article p, article li"
   },
   "conversation_id": [
-    "1456319455"
+    "1463900500"
   ],
-  "nb_hits": 4622
+  "nb_hits": 457
 }

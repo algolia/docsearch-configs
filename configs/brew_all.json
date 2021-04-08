@@ -4,79 +4,46 @@
     {
       "url": "https://brew.sh/\\d{4}/\\d{2}/\\d{2}/",
       "selectors_key": "blog",
-      "tags": [
-        "blog"
-      ],
+      "tags": ["blog"],
       "extra_attributes": {
-        "site": [
-          "brew"
-        ]
+        "site": ["brew"]
       }
     },
     {
       "url": "https://brew.sh/",
       "extra_attributes": {
-        "site": [
-          "brew"
-        ]
+        "site": ["brew"]
       }
     },
     {
       "url": "https://docs.brew.sh/",
       "selectors_key": "docs",
       "extra_attributes": {
-        "site": [
-          "docs"
-        ]
-      }
-    },
-    {
-      "url": "https://formulae.brew.sh/analytics/",
-      "selectors_key": "analytics",
-      "tags": [
-        "analytics"
-      ],
-      "extra_attributes": {
-        "site": [
-          "formulae"
-        ]
+        "site": ["docs"]
       }
     },
     {
       "url": "https://formulae.brew.sh/docs/",
       "selectors_key": "formulae_docs",
-      "tags": [
-        "formulae_docs"
-      ],
+      "tags": ["formulae_docs"],
       "extra_attributes": {
-        "site": [
-          "formulae"
-        ]
+        "site": ["formulae"]
       }
     },
     {
       "url": "https://formulae.brew.sh/formula/",
       "selectors_key": "formula",
-      "tags": [
-        "formula"
-      ],
+      "tags": ["formula"],
       "extra_attributes": {
-        "site": [
-          "formulae"
-        ]
+        "site": ["formulae"]
       }
     },
     {
       "url": "https://formulae.brew.sh/cask/",
       "selectors_key": "cask",
-      "tags": [
-        "cask",
-        "formula"
-      ],
+      "tags": ["cask", "formula"],
       "extra_attributes": {
-        "site": [
-          "formulae"
-        ]
+        "site": ["formulae"]
       }
     }
   ],
@@ -85,10 +52,7 @@
     "https://docs.brew.sh/sitemap.xml",
     "https://formulae.brew.sh/sitemap.xml"
   ],
-  "stop_urls": [
-    "https://brew.sh/blog/",
-    "\\.json"
-  ],
+  "stop_urls": ["https://brew.sh/blog/", "\\.json"],
   "selectors": {
     "default": {
       "lvl0": "#wrap h1",
@@ -132,7 +96,7 @@
       "lvl3": "#page h4, #page td:first-child",
       "lvl4": "#page h5",
       "lvl5": "#page h6",
-      "text": "#page p, #page li, #page td:nth-child(2)",
+      "text": "#page p, #page li, #page td:nth-child(n+2)",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -146,12 +110,12 @@
         "global": true,
         "default_value": "Formulae"
       },
-      "lvl1": "#wrap h2",
-      "lvl2": "#wrap h3",
-      "lvl3": "#wrap h4",
-      "lvl4": "#wrap h5",
-      "lvl5": "#wrap h6",
-      "text": "#default p:nth-child(-n+4)",
+      "lvl1": "#default h2",
+      "lvl2": "#default h3, #default .aliases",
+      "lvl3": "#default h4, #default .oldname",
+      "lvl4": "#default h5",
+      "lvl5": "#default h6",
+      "text": "#default .desc, #default .homepage",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -163,14 +127,14 @@
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "Cask"
+        "default_value": "Casks"
       },
-      "lvl1": "#wrap h2",
-      "lvl2": "#wrap h3",
-      "lvl3": "#wrap h4",
-      "lvl4": "#wrap h5",
-      "lvl5": "#wrap h6",
-      "text": "#wrap p, #wrap li",
+      "lvl1": "#default h2",
+      "lvl2": "#default h3, #default .names",
+      "lvl3": "#default h4",
+      "lvl4": "#default h5",
+      "lvl5": "#default h6",
+      "text": "#default .desc, #default .homepage",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -184,31 +148,12 @@
         "global": true,
         "default_value": "JSON API documentation"
       },
-      "lvl1": "#wrap h2",
-      "lvl2": "#wrap h3",
-      "lvl3": "#wrap h4",
-      "lvl4": "#wrap h5",
-      "lvl5": "#wrap h6",
-      "text": "#default p:nth-child(-n+4)",
-      "lang": {
-        "selector": "/html/@lang",
-        "type": "xpath",
-        "global": true,
-        "default_value": "en"
-      }
-    },
-    "analytics": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Analytics data"
-      },
-      "lvl1": "#wrap h2",
-      "lvl2": "#wrap h3",
-      "lvl3": "#wrap h4",
-      "lvl4": "#wrap h5",
-      "lvl5": "#wrap h6",
-      "text": "#wrap td:not(.number-data)",
+      "lvl1": "#page h2",
+      "lvl2": "#page h3",
+      "lvl3": "#page h4",
+      "lvl4": "#page h5",
+      "lvl5": "#page h6",
+      "text": "#page p, #page li",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -218,15 +163,9 @@
     }
   },
   "custom_settings": {
-    "attributesForFaceting": [
-      "lang",
-      "tags",
-      "site"
-    ],
+    "attributesForFaceting": ["lang", "tags", "site"],
     "separatorsToIndex": "_+@/"
   },
-  "conversation_id": [
-    "771112570"
-  ],
-  "nb_hits": 147750
+  "conversation_id": ["771112570"],
+  "nb_hits": 52725
 }
