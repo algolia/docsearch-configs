@@ -1,0 +1,23 @@
+{
+  "index_name": "advancedforms",
+  "start_urls": [
+    "https://advancedforms.github.io/"
+  ],
+  "sitemap_urls": [
+    "https://advancedforms.github.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "lvl5": ".post h6",
+    "text": ".post p, .post li"
+  },
+  "conversation_id": [
+    "1445339302"
+  ],
+  "nb_hits": 259
+}
