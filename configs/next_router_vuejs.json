@@ -5,28 +5,39 @@
       "url": "https://next.router.vuejs.org/zh/guide/",
       "selectors_key": "guide",
       "page_rank": 10,
-      "tags": ["guide"]
+      "tags": [
+        "guide"
+      ]
     },
     {
       "url": "https://next.router.vuejs.org/zh/api/",
       "selectors_key": "api",
       "page_rank": 8,
-      "tags": ["api"]
+      "tags": [
+        "api"
+      ]
     },
     {
       "url": "https://next.router.vuejs.org/guide/",
       "selectors_key": "guide",
       "page_rank": 10,
-      "tags": ["guide"]
+      "tags": [
+        "guide"
+      ]
     },
     {
       "url": "https://next.router.vuejs.org/api/",
       "selectors_key": "api",
       "page_rank": 8,
-      "tags": ["api"]
+      "tags": [
+        "api"
+      ]
     }
   ],
-  "stop_urls": ["(?:(?<!\\.html)(?<!/))$"],
+  "stop_urls": [
+    "(?:(?<!\\.html)(?<!/))$",
+    "/zh/"
+  ],
   "selectors": {
     "guide": {
       "lvl0": {
@@ -67,8 +78,13 @@
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
-    "attributesForFaceting": ["language", "tags"]
+    "attributesForFaceting": [
+      "language",
+      "tags"
+    ]
   },
-  "conversation_id": ["1305035158"],
-  "nb_hits": 3034
+  "conversation_id": [
+    "1305035158"
+  ],
+  "nb_hits": 1518
 }
