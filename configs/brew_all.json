@@ -45,6 +45,14 @@
       "extra_attributes": {
         "site": ["formulae"]
       }
+    },
+    {
+      "url": "https://formulae.brew.sh/analytics/$",
+      "selectors_key": "analytics",
+      "tags": ["analytics", "formula"],
+      "extra_attributes": {
+        "site": ["formulae"]
+      }
     }
   ],
   "sitemap_urls": [
@@ -154,6 +162,22 @@
       "lvl4": "#page h5",
       "lvl5": "#page h6",
       "text": "#page p, #page li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en"
+      }
+    },
+    "analytics": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Analytics"
+      },
+      "lvl1": "#page h1",
+      "lvl2": "#page h2",
+      "text": "#page td:first-child",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
