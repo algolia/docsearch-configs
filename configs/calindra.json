@@ -2,9 +2,9 @@
   "index_name": "calindra",
   "start_urls": [
     "https://developer.ame.calindra.com.br/docs/",
-    "https://ame-miniapp-components.calindra.com.br/docs/estrutura",
-    "https://super-app-client.calindra.com.br/docs/ame-super-app-client",
-    "https://ame-app-tools.calindra.com.br/docs/cli"
+    "https://super-app-client.calindra.com.br/docs/",
+    "https://ame-app-tools.calindra.com.br/docs/",
+    "https://ame-miniapp-components.calindra.com.br/docs/"
   ],
   "sitemap_urls": [
     "https://developer.ame.calindra.com.br/sitemap.xml",
@@ -16,7 +16,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
@@ -40,5 +40,5 @@
   "conversation_id": [
     "1436984933"
   ],
-  "nb_hits": 92
+  "nb_hits": 36567
 }

@@ -1,0 +1,24 @@
+{
+  "index_name": "devui",
+  "start_urls": [
+    "https://devui.design"
+  ],
+  "sitemap_urls": [
+    "https://devui.design/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".devui-content-layout h1",
+    "lvl1": ".devui-content-layout h2",
+    "lvl2": ".devui-content-layout h3",
+    "lvl3": ".devui-content-layout h4",
+    "lvl4": ".devui-content-layout h5",
+    "lvl5": ".devui-content-layout h6",
+    "text": ".devui-content-layout p, .devui-content-layout li"
+  },
+  "conversation_id": [
+    "1449043949"
+  ],
+  "js_render": true,
+  "nb_hits": 4880
+}

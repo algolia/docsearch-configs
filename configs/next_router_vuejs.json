@@ -2,8 +2,25 @@
   "index_name": "next_router_vuejs",
   "start_urls": [
     {
+      "url": "https://next.router.vuejs.org/zh/guide/",
+      "selectors_key": "guide",
+      "page_rank": 10,
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://next.router.vuejs.org/zh/api/",
+      "selectors_key": "api",
+      "page_rank": 8,
+      "tags": [
+        "api"
+      ]
+    },
+    {
       "url": "https://next.router.vuejs.org/guide/",
       "selectors_key": "guide",
+      "page_rank": 10,
       "tags": [
         "guide"
       ]
@@ -11,12 +28,16 @@
     {
       "url": "https://next.router.vuejs.org/api/",
       "selectors_key": "api",
+      "page_rank": 8,
       "tags": [
         "api"
       ]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "(?:(?<!\\.html)(?<!/))$",
+    "/zh/"
+  ],
   "selectors": {
     "guide": {
       "lvl0": {
@@ -28,7 +49,13 @@
       "lvl3": ".content h3",
       "lvl4": ".content h4",
       "lvl5": ".content h5",
-      "text": ".content p, .content li"
+      "text": ".content p, .content li",
+      "language": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
     },
     "api": {
       "lvl0": {
@@ -40,12 +67,24 @@
       "lvl3": ".content h3",
       "lvl4": ".content h4",
       "lvl5": ".content h5",
-      "text": ".content p, .content li"
+      "text": ".content p, .content li",
+      "language": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
     }
   },
   "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "tags"
+    ]
+  },
   "conversation_id": [
     "1305035158"
   ],
-  "nb_hits": 897
+  "nb_hits": 1518
 }

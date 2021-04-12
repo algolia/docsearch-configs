@@ -28,8 +28,7 @@
   ],
   "custom_settings": {
     "attributesForFaceting": [
-      "language",
-      "version"
+      "language"
     ]
   },
   "conversation_id": [

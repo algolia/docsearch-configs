@@ -1,10 +1,10 @@
 {
   "index_name": "pnpm",
   "start_urls": [
-    "https://pnpm.js.org/"
+    "https://pnpm.io/"
   ],
   "sitemap_urls": [
-    "https://pnpm.js.org/sitemap.xml"
+    "https://pnpm.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
