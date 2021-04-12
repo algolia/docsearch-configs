@@ -53,6 +53,14 @@
       "extra_attributes": {
         "site": ["formulae"]
       }
+    },
+    {
+      "url": "https://formulae.brew.sh/analytics/",
+      "selectors_key": "install_events",
+      "tags": ["analytics", "formula", "install_events"],
+      "extra_attributes": {
+        "site": ["formulae"]
+      }
     }
   ],
   "sitemap_urls": [
@@ -184,6 +192,22 @@
         "global": true,
         "default_value": "en"
       }
+    },
+    "install_events": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Analytics"
+      },
+      "lvl1": "#wrap h2",
+      "lvl2": "#wrap h2",
+      "text": "#wrap h3",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en"
+      }
     }
   },
   "custom_settings": {
@@ -191,5 +215,5 @@
     "separatorsToIndex": "_+@/"
   },
   "conversation_id": ["771112570"],
-  "nb_hits": 52725
+  "nb_hits": 36765
 }
