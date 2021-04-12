@@ -1,11 +1,10 @@
 {
-  "index_name": "wso2_ob",
+  "index_name": "wundergraph",
   "start_urls": [
-    "https://ob.docs.wso2.com/"
+    "https://wundergraph.com/docs"
   ],
   "sitemap_urls": [
-    "https://ob.docs.wso2.com/sitemap.xml",
-    "https://ob.docs.wso2.com/en/3.0.0/sitemap.xml"
+    "https://wundergraph.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,13 +21,7 @@
     "text": "article p, article li"
   },
   "conversation_id": [
-    "1402548858"
+    "1450303224"
   ],
-  "custom_settings": {
-    "attributesForFaceting": [
-      "language", 
-      "version"
-    ]
-  },
-  "nb_hits": 210
+  "nb_hits": 132
 }

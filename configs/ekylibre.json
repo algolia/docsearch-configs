@@ -1,11 +1,7 @@
 {
-  "index_name": "wso2_ob",
+  "index_name": "ekylibre",
   "start_urls": [
-    "https://ob.docs.wso2.com/"
-  ],
-  "sitemap_urls": [
-    "https://ob.docs.wso2.com/sitemap.xml",
-    "https://ob.docs.wso2.com/en/3.0.0/sitemap.xml"
+    "https://doc.ekylibre.com"
   ],
   "stop_urls": [],
   "selectors": {
@@ -21,14 +17,9 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
+  "js_render": true,
   "conversation_id": [
-    "1402548858"
+    "1477784925"
   ],
-  "custom_settings": {
-    "attributesForFaceting": [
-      "language", 
-      "version"
-    ]
-  },
-  "nb_hits": 210
+  "nb_hits": 12067
 }

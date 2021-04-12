@@ -1,12 +1,24 @@
 {
   "index_name": "skywalking",
   "start_urls": [
-    "https://skywalking.apache.org/docs/"
+    {
+      "url": "https://skywalking.apache.org/docs/main/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "v8.4.0",
+          "v8.3.0",
+          "v8.2.0"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://skywalking.apache.org/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    ".*(?<!/)$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -23,5 +35,5 @@
   "conversation_id": [
     "1470581275"
   ],
-  "nb_hits": 11624
+  "nb_hits": 11347
 }
