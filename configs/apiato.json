@@ -1,8 +1,12 @@
 {
-  "index_name": "shipyardapp",
+  "index_name": "apiato",
   "start_urls": [
-    "https://www.shipyardapp.com/docs/"
+    "http://docs.apiato.io/docs/"
   ],
+  "sitemap_urls": [
+    "http://docs.apiato.io/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -11,7 +15,7 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
+    "lvl1": "header h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
@@ -36,9 +40,8 @@
       "type"
     ]
   },
-  "js_render": true,
   "conversation_id": [
-    "1464814849"
+    "1481296997"
   ],
-  "nb_hits": 5637
+  "nb_hits": 4488
 }

@@ -1,7 +1,10 @@
 {
-  "index_name": "shipyardapp",
+  "index_name": "mogmusic",
   "start_urls": [
-    "https://www.shipyardapp.com/docs/"
+    "https://mogamp.com/"
+  ],
+  "sitemap_urls": [
+    "https://mogamp.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -11,11 +14,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
+    "lvl1": "header h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -36,9 +40,8 @@
       "type"
     ]
   },
-  "js_render": true,
   "conversation_id": [
-    "1464814849"
+    "1451326841"
   ],
-  "nb_hits": 5637
+  "nb_hits": 309
 }
