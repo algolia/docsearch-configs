@@ -29,6 +29,14 @@
       ]
     },
     {
+      "url": "https://docs.prebid.org/dev-docs/publisher-api-reference.html",
+      "tags": [
+        "api-reference"
+      ],
+      "selectors_key": "api-ref",
+      "page_rank": 3
+    },
+    {
       "url": "https://docs.prebid.org/dev-docs/",
       "tags": [
         "dev-docs"
@@ -99,10 +107,6 @@
       "tags": [
         "cookies"
       ]
-    },
-    {
-      "url": "https://docs.prebid.org/dev-docs/publisher-api-reference.html",
-      "page_rank": 3
     },
     {
       "url": "https://docs.prebid.org/dev-docs/modules/userId.html",
@@ -204,8 +208,16 @@
   "selectors": {
     "default": {
       "lvl0": ".pb-content h1",
-      "lvl1": ".pb-content h3",
+      "lvl1": ".pb-content h2",
+      "lvl2": ".pb-content h3",
       "text": ".pb-content p, .pb-content li"
+    },
+    "api-ref": {
+      "lvl0": ".pbcontent h1",
+      "lvl1": ".pb-content h2",
+      "lvl2": ".pb-content h3",
+      "lvl3": ".pb-content th",
+      "text": ".pb-content p, .pb-content li, .pb-content td, .pb-content code"
     },
     "prebid": {
       "lvl0": {
