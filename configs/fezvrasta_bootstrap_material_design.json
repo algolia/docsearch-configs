@@ -1,9 +1,12 @@
 {
   "index_name": "fezvrasta_bootstrap_material_design",
   "start_urls": [
-    "https://fezvrasta.github.io/bootstrap-material-design/docs/4.0"
+    "https://mdbootstrap.github.io/bootstrap-material-design/docs/4.0"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://mdbootstrap.github.io/bootstrap-material-design/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".bd-toc-item.active > a",
     "lvl1": ".bd-content h1",
@@ -15,5 +18,5 @@
   "conversation_id": [
     "484213313"
   ],
-  "nb_hits": 2789
+  "nb_hits": 3162
 }
