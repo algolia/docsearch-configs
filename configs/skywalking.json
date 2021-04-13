@@ -6,9 +6,19 @@
       "variables": {
         "version": [
           "latest",
+          "v8.5.0",
           "v8.4.0",
           "v8.3.0",
           "v8.2.0"
+        ]
+      }
+    },
+    {
+      "url": "https://skywalking.apache.org/docs/skywalking-satellite/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "latest",
+          "v0.1.0"
         ]
       }
     }
