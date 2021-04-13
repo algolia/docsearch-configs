@@ -4,62 +4,94 @@
     {
       "url": "https://brew.sh/\\d{4}/\\d{2}/\\d{2}/",
       "selectors_key": "blog",
-      "tags": ["blog"],
+      "tags": [
+        "blog"
+      ],
       "extra_attributes": {
-        "site": ["brew"]
+        "site": [
+          "brew"
+        ]
       }
     },
     {
       "url": "https://brew.sh/",
       "extra_attributes": {
-        "site": ["brew"]
+        "site": [
+          "brew"
+        ]
       }
     },
     {
       "url": "https://docs.brew.sh/",
       "selectors_key": "docs",
       "extra_attributes": {
-        "site": ["docs"]
+        "site": [
+          "docs"
+        ]
       }
     },
     {
       "url": "https://formulae.brew.sh/docs/",
       "selectors_key": "formulae_docs",
-      "tags": ["formulae_docs"],
+      "tags": [
+        "formulae_docs"
+      ],
       "extra_attributes": {
-        "site": ["formulae"]
+        "site": [
+          "formulae"
+        ]
       }
     },
     {
       "url": "https://formulae.brew.sh/formula/",
       "selectors_key": "formula",
-      "tags": ["formula"],
+      "tags": [
+        "formula"
+      ],
       "extra_attributes": {
-        "site": ["formulae"]
+        "site": [
+          "formulae"
+        ]
       }
     },
     {
       "url": "https://formulae.brew.sh/cask/",
       "selectors_key": "cask",
-      "tags": ["cask", "formula"],
+      "tags": [
+        "cask",
+        "formula"
+      ],
       "extra_attributes": {
-        "site": ["formulae"]
+        "site": [
+          "formulae"
+        ]
       }
     },
     {
       "url": "https://formulae.brew.sh/analytics/$",
       "selectors_key": "analytics",
-      "tags": ["analytics", "formula"],
+      "tags": [
+        "analytics",
+        "formula"
+      ],
       "extra_attributes": {
-        "site": ["formulae"]
+        "site": [
+          "formulae"
+        ]
       }
     },
     {
       "url": "https://formulae.brew.sh/analytics/",
       "selectors_key": "install_events",
-      "tags": ["analytics", "formula", "install_events"],
+      "tags": [
+        "analytics",
+        "formula",
+        "install_events"
+      ],
       "extra_attributes": {
-        "site": ["formulae"]
+        "site": [
+          "formulae"
+        ]
       }
     }
   ],
@@ -68,7 +100,10 @@
     "https://docs.brew.sh/sitemap.xml",
     "https://formulae.brew.sh/sitemap.xml"
   ],
-  "stop_urls": ["https://brew.sh/blog/", "\\.json"],
+  "stop_urls": [
+    "https://brew.sh/blog/",
+    "\\.json"
+  ],
   "selectors": {
     "default": {
       "lvl0": "#wrap h1",
@@ -181,7 +216,7 @@
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "Analytics"
+        "default_value": "Formulae"
       },
       "lvl1": "#page h1",
       "lvl2": "#page h2",
@@ -197,11 +232,14 @@
       "lvl0": {
         "selector": "",
         "global": true,
+        "default_value": "Formulae"
+      },
+      "lvl1": {
+        "selector": "",
+        "global": true,
         "default_value": "Analytics"
       },
-      "lvl1": "#wrap h2",
       "lvl2": "#wrap h2",
-      "text": "#wrap h3",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -211,9 +249,15 @@
     }
   },
   "custom_settings": {
-    "attributesForFaceting": ["lang", "tags", "site"],
+    "attributesForFaceting": [
+      "lang",
+      "tags",
+      "site"
+    ],
     "separatorsToIndex": "_+@/"
   },
-  "conversation_id": ["771112570"],
-  "nb_hits": 36765
+  "conversation_id": [
+    "771112570"
+  ],
+  "nb_hits": 36822
 }
