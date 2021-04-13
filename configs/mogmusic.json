@@ -1,12 +1,11 @@
 {
-  "index_name": "effector",
+  "index_name": "mogmusic",
   "start_urls": [
-    "https://effector.dev/docs/"
+    "https://mogamp.com/"
   ],
   "sitemap_urls": [
-    "https://effector.dev/sitemap.xml"
+    "https://mogamp.com/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -41,11 +40,8 @@
       "type"
     ]
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "conversation_id": [
-    "1110061564"
+    "1451326841"
   ],
-  "nb_hits": 1629
+  "nb_hits": 309
 }

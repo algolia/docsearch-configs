@@ -1,10 +1,7 @@
 {
-  "index_name": "effector",
+  "index_name": "tobitsoftware",
   "start_urls": [
-    "https://effector.dev/docs/"
-  ],
-  "sitemap_urls": [
-    "https://effector.dev/sitemap.xml"
+    "https://tobitsoftware.github.io/chayns-toolkit/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,7 +17,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -41,11 +37,8 @@
       "type"
     ]
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "conversation_id": [
-    "1110061564"
+    "1479167147"
   ],
-  "nb_hits": 1629
+  "nb_hits": 130
 }

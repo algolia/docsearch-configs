@@ -2,11 +2,11 @@
   "index_name": "craftcms",
   "start_urls": [
     {
-      "url": "https://docs.craftcms.com/(?P<version>.*?)/ja",
+      "url": "https://craftcms.com/docs/(?P<version>.*?)/ja/",
       "variables": {
         "version": [
-          "v2",
-          "v3"
+          "2.x",
+          "3.x"
         ]
       },
       "tags": [
@@ -15,11 +15,11 @@
       ]
     },
     {
-      "url": "https://docs.craftcms.com/(?P<version>.*?)",
+      "url": "https://craftcms.com/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "v2",
-          "v3"
+          "2.x",
+          "3.x"
         ]
       },
       "tags": [
@@ -28,11 +28,11 @@
       ]
     },
     {
-      "url": "https://docs.craftcms.com/api/(?P<version>.*?)",
+      "url": "https://docs.craftcms.com/api/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "v2",
-          "v3"
+          "2.x",
+          "3.x"
         ]
       },
       "tags": [
@@ -76,5 +76,10 @@
   "conversation_id": [
     "555461426"
   ],
-  "nb_hits": 92950
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
+  "nb_hits": 17964
 }
