@@ -1,7 +1,7 @@
 {
   "index_name": "bee_tinper",
   "start_urls": [
-    "https://bee.tinper.org/"
+    "http://bee.tinper.org/"
   ],
   "stop_urls": [
     "/changelog",
@@ -9,16 +9,16 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".docs h1",
+      "selector": ".doc-content h1",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".docs h2",
-    "lvl2": ".docs h3",
-    "lvl3": ".docs h4, .docs table td:first-child",
-    "lvl4": ".docs h5",
-    "lvl5": ".docs h6",
-    "text": ".docs p, .docs table td:not(:first-child)"
+    "lvl1": ".doc-content h2",
+    "lvl2": ".doc-content h3",
+    "lvl3": ".doc-content h4, .doc-content table td:first-child",
+    "lvl4": ".doc-content h5",
+    "lvl5": ".doc-content h6",
+    "text": ".doc-content p, .doc-content table td:not(:first-child)"
   },
   "selectors_exclude": [
     ".demoPadding"
@@ -27,5 +27,5 @@
   "conversation_id": [
     "757411054"
   ],
-  "nb_hits": 14863
+  "nb_hits": 16363
 }

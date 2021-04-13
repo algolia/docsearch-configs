@@ -1,10 +1,10 @@
 {
   "index_name": "invoiced",
   "start_urls": [
-    "https://invoiced.com/resources/docs"
+    "https://www.invoiced.com/resources/docs"
   ],
   "sitemap_urls": [
-    "https://invoiced.com/sitemap.xml"
+    "https://www.invoiced.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -24,5 +24,5 @@
   "conversation_id": [
     "568150840"
   ],
-  "nb_hits": 3054
+  "nb_hits": 3492
 }
