@@ -2,22 +2,6 @@
   "index_name": "vue-i18n",
   "start_urls": [
     {
-      "url": "https://vue-i18n.intlify.dev/guide/",
-      "selectors_key": "guide",
-      "page_rank": 10,
-      "tags": [
-        "guide"
-      ]
-    },
-    {
-      "url": "https://vue-i18n.intlify.dev/api/",
-      "selectors_key": "api",
-      "page_rank": 8,
-      "tags": [
-        "api"
-      ]
-    },
-    {
       "url": "https://vue-i18n.intlify.dev/ja/guide/",
       "selectors_key": "guide",
       "page_rank": 10,
@@ -32,11 +16,26 @@
       "tags": [
         "api"
       ]
+    },
+    {
+      "url": "https://vue-i18n.intlify.dev/guide/",
+      "selectors_key": "guide",
+      "page_rank": 10,
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://vue-i18n.intlify.dev/api/",
+      "selectors_key": "api",
+      "page_rank": 8,
+      "tags": [
+        "api"
+      ]
     }
   ],
   "stop_urls": [
-    "(?:(?<!\\.html)(?<!/))$",
-    "/ja/"
+    "\\.html"
   ],
   "selectors": {
     "guide": {
@@ -86,5 +85,5 @@
   "conversation_id": [
     "1353981287"
   ],
-  "nb_hits": 5742
+  "nb_hits": 5477
 }
