@@ -25,7 +25,7 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": ".docs-layout .docs-side-nav__section-header .docs-side-nav__section-header--active",
+        "selector": ".docs-layout .docs-side-nav__section-header.docs-side-nav__section-header--active",
         "default_value": "Documentation"
       },
       "lvl1": "main h1",
