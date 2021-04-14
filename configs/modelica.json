@@ -134,7 +134,7 @@
     "lvl3": "h4",
     "lvl4": "h5",
     "lvl5": "h6",
-    "text": "p, li, .ModelicaDescription"
+    "text": "p, li, .ModelicaDescription, ltx_text"
   },
   "min_indexed_level": 1,
   "nb_hits": 439469
