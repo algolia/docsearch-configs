@@ -1,0 +1,47 @@
+{
+  "index_name": "twind",
+  "start_urls": [
+    {
+      "url": "https://twind.dev/api/modules/",
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://twind.dev/handbook/",
+      "selectors_key": "handbook"
+    },
+    "https://twind.dev/handbook/introduction.html"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "handbook": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Handbook"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    }
+  },
+  "conversation_id": [
+    "1481609465"
+  ],
+  "nb_hits": 4902
+}
