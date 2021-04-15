@@ -3,7 +3,7 @@
   "start_urls": [
     "https://docs.up42.com"
   ],
-  "stop_urls": ["/$"],
+  "stop_urls": ["/$", "/components"],
   "selectors": {
     "lvl0": {
       "selector": "",
