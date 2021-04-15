@@ -1,10 +1,22 @@
 {
   "index_name": "webpack-js-org",
   "start_urls": [
-    "https://webpack.js.org/"
+    {
+      "url": "https://webpack.js.org/",
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "url": "https://webpack.kr/",
+      "tags": [
+        "kr"
+      ]
+    }
   ],
   "sitemap_urls": [
-    "https://webpack.js.org/sitemap.xml"
+    "https://webpack.js.org/sitemap.xml",
+    "https://webpack.kr/sitemap.xml"
   ],
   "stop_urls": [
     "index\\.html",
@@ -37,5 +49,5 @@
     ],
     "separatorsToIndex": "_"
   },
-  "nb_hits": 7281
+  "nb_hits": 24256
 }
