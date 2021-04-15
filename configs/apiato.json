@@ -1,10 +1,10 @@
 {
   "index_name": "apiato",
   "start_urls": [
-    "http://docs.apiato.io/docs/"
+    "http://apiato.io/docs/"
   ],
   "sitemap_urls": [
-    "http://docs.apiato.io/sitemap.xml"
+    "http://apiato.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
