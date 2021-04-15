@@ -1,7 +1,7 @@
 {
   "index_name": "requester",
   "start_urls": [
-    "http://requester.org/"
+    "https://kylebebak.github.io/Requester/"
   ],
   "stop_urls": [],
   "selectors": {
