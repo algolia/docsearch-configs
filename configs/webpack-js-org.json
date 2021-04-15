@@ -3,25 +3,22 @@
   "start_urls": [
     {
       "url": "https://webpack.js.org/",
-      "tags": [
-        "en"
-      ]
+      "extra_attributes": {
+        "language": ["en"]
+      }
     },
     {
       "url": "https://webpack.kr/",
-      "tags": [
-        "kr"
-      ]
+      "extra_attributes": {
+        "language": ["kr"]
+      }
     }
   ],
   "sitemap_urls": [
     "https://webpack.js.org/sitemap.xml",
     "https://webpack.kr/sitemap.xml"
   ],
-  "stop_urls": [
-    "index\\.html",
-    "/printable/"
-  ],
+  "stop_urls": ["index\\.html", "/printable/"],
   "selectors_exclude": [],
   "selectors": {
     "lvl0": {
@@ -38,16 +35,10 @@
   },
   "custom_settings": {
     "synonyms": [
-      [
-        "caching",
-        "revisioning",
-        "versioning",
-        "hashing",
-        "renaming",
-        "revving"
-      ]
+      ["caching", "revisioning", "versioning", "hashing", "renaming", "revving"]
     ],
+    "attributesForFaceting": ["language"],
     "separatorsToIndex": "_"
   },
-  "nb_hits": 24256
+  "nb_hits": 29348
 }
