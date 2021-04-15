@@ -1,0 +1,44 @@
+{
+  "index_name": "webpack_korea",
+  "start_urls": [
+    "https://webpack.kr/"
+  ],
+  "sitemap_urls": [
+    "https://webpack.kr/sitemap.xml"
+  ],
+  "stop_urls": [
+    "index\\.html",
+    "/printable/"
+  ],
+  "selectors_exclude": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "nav.navigation__items [class*='active']",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown h1",
+    "lvl2": ".markdown h2",
+    "lvl3": ".markdown h3",
+    "lvl4": ".markdown h4, .markdown td.content",
+    "lvl5": ".markdown h5",
+    "text": ".markdown > div > p, .markdown td.description.desktop, .markdown .warning , .markdown blockquote p, .markdown li"
+  },
+  "custom_settings": {
+    "synonyms": [
+      [
+        "caching",
+        "revisioning",
+        "versioning",
+        "hashing",
+        "renaming",
+        "revving"
+      ]
+    ],
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "1477707978"
+  ],
+  "nb_hits": 20282
+}
