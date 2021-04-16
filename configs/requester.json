@@ -1,19 +1,19 @@
 {
   "index_name": "requester",
   "start_urls": [
-    "http://requester.org/"
+    "https://kylebebak.github.io/Requester/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#content h2",
-    "lvl1": "#content h3",
-    "lvl2": "#content h4",
-    "lvl3": "#content h5",
-    "lvl4": "#content h6",
-    "text": "#content p, #content li"
+    "lvl0": "#content-wrapper h2",
+    "lvl1": "#content-wrapper h3",
+    "lvl2": "#content-wrapper h4",
+    "lvl3": "#content-wrapper h5",
+    "lvl4": "#content-wrapper h6",
+    "text": "#content-wrapper p, #content-wrapper li"
   },
   "conversation_id": [
     "431975953"
   ],
-  "nb_hits": 293
+  "nb_hits": 370
 }

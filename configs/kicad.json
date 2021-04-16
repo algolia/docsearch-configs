@@ -1,7 +1,7 @@
 {
   "index_name": "kicad",
   "start_urls": [
-    "http://docs.kicad-pcb.org"
+    "https://docs.kicad.org/"
   ],
   "stop_urls": [
     "\\.epub"
@@ -33,5 +33,5 @@
   "conversation_id": [
     "761474330"
   ],
-  "nb_hits": 104734
+  "nb_hits": 144135
 }

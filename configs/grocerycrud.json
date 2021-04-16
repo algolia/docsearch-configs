@@ -3,7 +3,7 @@
   "start_urls": [
     "https://new.grocerycrud.com/"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/v1.x/.*"],
   "selectors": {
     "lvl0": "main h1",
     "lvl1": "main h2",

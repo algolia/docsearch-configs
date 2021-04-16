@@ -1,9 +1,9 @@
 {
   "index_name": "up42",
   "start_urls": [
-    "https://up42-docs.netlify.app"
+    "https://docs.up42.com"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/$", "/components"],
   "selectors": {
     "lvl0": {
       "selector": "",

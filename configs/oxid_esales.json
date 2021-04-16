@@ -2,15 +2,37 @@
   "index_name": "oxid_esales",
   "start_urls": [
     {
-      "url": "https://docs.oxid-esales.com/(?P<tag>.*?)/(?P<lang>.*?)/6.0/",
+      "url": "https://docs.oxid-esales.com/(?P<tag>.*?)/(?P<lang>.*?)/(?P<versions>.*?)/",
       "variables": {
         "lang": [
           "en",
           "de"
         ],
         "tag": [
-          "eshop",
-          "developer"
+          "eshop"            
+        ],
+        "versions": [
+          "6.0",
+          "6.1",
+          "6.2",
+          "latest"
+        ]
+      }
+    },
+    {
+    "url": "https://docs.oxid-esales.com/(?P<tag>.*?)/(?P<lang>.*?)/(?P<versions>.*?)/",
+      "variables": {
+        "lang": [
+          "en"      
+        ],
+        "tag": [      
+          "developer"          
+        ],
+        "versions": [
+          "6.0",
+          "6.1",
+          "6.2",
+          "latest"
         ]
       }
     }

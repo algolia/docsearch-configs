@@ -1,16 +1,13 @@
 {
   "index_name": "testarchitect",
-  "start_urls": [  
-    {"url": "https://docs.testarchitect.com/"
-    },   
-    {
-    "url": "https://docs.testarchitect.com/8.5"
-  }],
-      "stop_urls": [],
+  "start_urls": [
+    "https://docs.testarchitect.com/",
+    "https://docs.testarchitect.com/8.5/"
+  ],
+  "stop_urls": [],
   "sitemap_urls": [
     "https://docs.testarchitect.com/sitemap.xml",
     "https://docs.testarchitect.com/8.5/sitemap.xml"
-    
   ],
   "selectors": {
     "lvl0": {
@@ -31,23 +28,35 @@
     "text": "main p, main li, main td"
   },
   "custom_settings": {
-    "attributesForFaceting": [ "version"],
-    "separatorsToIndex": "!$/:*?<>|#=[];%.",
-    "disableTypoToleranceOnWords": ["SAP", "ios", "WPF", "TA","login"],
-    "synonyms": [
-      ["TA","TestArchitect"],
-      [
-      "repository",
-      "repositories"
+    "attributesForFaceting": [
+      "version"
     ],
-    ["export",
-    "exporting"]
-  ]
-
+    "separatorsToIndex": "!$/:*?<>|#=[];%.",
+    "disableTypoToleranceOnWords": [
+      "SAP",
+      "ios",
+      "WPF",
+      "TA",
+      "login"
+    ],
+    "synonyms": [
+      [
+        "TA",
+        "TestArchitect"
+      ],
+      [
+        "repository",
+        "repositories"
+      ],
+      [
+        "export",
+        "exporting"
+      ]
+    ]
   },
   "scrape_start_urls": false,
   "conversation_id": [
     "1236749708"
   ],
-  "nb_hits": 57418
+  "nb_hits": 112695
 }

@@ -1,17 +1,25 @@
 {
   "index_name": "wandisco",
   "start_urls": [
-    "https://wandisco.github.io/wandisco-documentation/docs/",
-    "https://wandisco.github.io/wandisco-documentation/docs/why-fusion/benefits"
+    {
+      "url": "https://docs.wandisco.com/live-data-plane/",
+      "tags": ["wandisco"]
+    },
+    {
+      "url": "https://wandisco.github.io/wandisco-documentation/",
+      "tags": ["github"]  
+    }
   ],
   "sitemap_urls": [
+    "https://docs.wandisco.com/live-data-plane/sitemap.xml",
     "https://wandisco.github.io/wandisco-documentation/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -19,9 +27,8 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
-    "lvl6": "article h6",
-    "text": "article p, article li"
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
@@ -29,7 +36,9 @@
     "attributesForFaceting": [
       "language",
       "version",
-      "type"
+      "type",
+      "docusaurus_tag",
+      "tags"
     ],
     "attributesToRetrieve": [
       "hierarchy",

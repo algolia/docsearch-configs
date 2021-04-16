@@ -4,7 +4,8 @@
     "https://ob.docs.wso2.com/"
   ],
   "sitemap_urls": [
-    "https://ob.docs.wso2.com/sitemap.xml"
+    "https://ob.docs.wso2.com/en/latest/sitemap.xml",
+    "https://ob.docs.wso2.com/en/3.0.0/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -23,5 +24,11 @@
   "conversation_id": [
     "1402548858"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language", 
+      "version"
+    ]
+  },
   "nb_hits": 210
 }

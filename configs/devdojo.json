@@ -5,16 +5,16 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".documentation h1",
-    "lvl1": ".documentation h2",
-    "lvl2": ".documentation h3",
-    "lvl3": ".documentation h4",
-    "lvl4": ".documentation h5",
-    "lvl5": ".documentation h6",
-    "text": ".documentation p, .documentation li"
+    "lvl0": ".prose h1",
+    "lvl1": ".prose h2",
+    "lvl2": ".prose h3",
+    "lvl3": ".prose h4",
+    "lvl4": ".prose h5",
+    "lvl5": ".prose h6",
+    "text": ".prose p, .prose li"
   },
   "conversation_id": [
     "1424563759"
   ],
-  "nb_hits": 542
+  "nb_hits": 551
 }

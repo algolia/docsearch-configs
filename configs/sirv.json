@@ -12,8 +12,9 @@
     "lvl4": ".article h5, .categories__content h5",
     "text": ".article p, .article li, .categories__content p, .categories__content li"
   },
+  "js_render": true,
   "conversation_id": [
     "569939187"
   ],
-  "nb_hits": 4892
+  "nb_hits": 7976
 }

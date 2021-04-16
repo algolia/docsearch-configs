@@ -2,12 +2,12 @@
   "index_name": "craftcms_commerce",
   "start_urls": [
     {
-      "url": "https://docs.craftcms.com/commerce/(?P<version>.*?)",
+      "url": "https://craftcms.com/docs/commerce/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "v1",
-          "v2",
-          "v3"
+          "1.x",
+          "2.x",
+          "3.x"
         ]
       },
       "tags": [
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "url": "https://docs.craftcms.com/commerce/api/(?P<version>.*?)",
+      "url": "https://docs.craftcms.com/commerce/api/(?P<version>.*?)/",
       "variables": {
         "version": [
           "v2",
@@ -65,5 +65,5 @@
     "1107981273"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 37083
+  "nb_hits": 39395
 }

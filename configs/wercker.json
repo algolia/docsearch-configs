@@ -1,23 +1,20 @@
 {
   "index_name": "wercker",
   "start_urls": [
-    "http://devcenter.wercker.com/docs/"
+    "https://devcenter.wercker.com/"
   ],
-  "stop_urls": [
-    "http://devcenter.wercker.com/docs/$",
-    "http://devcenter.wercker.com/docs/index.html$"
+  "sitemap_urls": [
+    "https://devcenter.wercker.com/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": ".blog-section h2, .blog-section h1",
-    "lvl1": ".blog-section h3",
-    "lvl2": ".blog-section h4",
-    "lvl3": ".blog-section h5",
-    "text": ".blog-section p, .blog-section li"
+    "lvl0": "#body-inner h1",
+    "lvl1": "#body-inner h2",
+    "lvl2": "#body-inner h3",
+    "lvl3": "#body-inner h4",
+    "text": "#body-inner p, #body-inner li"
   },
-  "js_render": true,
-  "scrape_start_urls": false,
   "conversation_id": [
     "212906828"
   ],
-  "nb_hits": 2261
+  "nb_hits": 2329
 }

@@ -1,0 +1,58 @@
+{
+  "index_name": "nativescript",
+  "start_urls": [
+    {
+      "url": "https://docs.nativescript.org/plugins/",
+      "selectors_key": "plugins"
+    },
+    {
+      "url": "https://docs.nativescript.org/best-practices/",
+      "selectors_key": "practices"
+    },
+    "https://docs.nativescript.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": ".prose h2",
+      "lvl2": ".prose h3",
+      "lvl3": ".prose h4",
+      "lvl4": ".prose h5",
+      "lvl5": ".prose h6",
+      "text": ".prose p, .prose li"
+    },
+    "plugins": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Plugins"
+      },
+      "lvl1": ".prose h2",
+      "lvl2": ".prose h3",
+      "lvl3": ".prose h4",
+      "lvl4": ".prose h5",
+      "lvl5": ".prose h6",
+      "text": ".prose p, .prose li"
+    },
+    "practices": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Best Practices"
+      },
+      "lvl1": ".prose h2",
+      "lvl2": ".prose h3",
+      "lvl3": ".prose h4",
+      "lvl4": ".prose h5",
+      "lvl5": ".prose h6",
+      "text": ".prose p, .prose li"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1471177356"
+  ],
+  "nb_hits": 5344
+}

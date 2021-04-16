@@ -1,10 +1,14 @@
 {
   "index_name": "vitelabs",
   "start_urls": [
-    "https://docs.vite.org/vite.js/"
+    "https://docs.vite.org/vite.js/",
+    "https://docs.vite.org/vitej/",
+    "https://docs.vite.org/go-vite/"
   ],
   "sitemap_urls": [
-    "https://docs.vite.org/vite.js/sitemap.xml"
+    "https://docs.vite.org/vite.js/sitemap.xml",
+    "https://docs.vite.org/vitej/sitemap.xml",
+    "https://docs.vite.org/go-vite/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
