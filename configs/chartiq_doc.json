@@ -12,15 +12,15 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".container h1",
+      "selector": "#main h1",
       "default_value": "Tutorial"
     },
-    "lvl1": ".container h2",
-    "lvl2": ".container h3",
-    "lvl3": ".container h4",
-    "lvl4": ".container h5",
-    "lvl5": ".container table td:first-of-type",
-    "text": ".container p, .container li, table td:not(:first-child)"
+    "lvl1": "#main h2",
+    "lvl2": "#main h3",
+    "lvl3": "#main h4",
+    "lvl4": "#main h5",
+    "lvl5": "#main table td:first-of-type",
+    "text": "#main p, #main li, table td:not(:first-child)"
   },
   "conversation_id": [
     "316287518"
