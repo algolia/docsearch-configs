@@ -1,43 +1,89 @@
 {
   "index_name": "vue-i18n",
   "start_urls": [
-    "https://vue-i18n-next.intlify.dev/"
-  ],
-  "stop_urls": [],
-  "selectors": {
-    "lvl0": {
-      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
+    {
+      "url": "https://vue-i18n.intlify.dev/ja/guide/",
+      "selectors_key": "guide",
+      "page_rank": 10,
+      "tags": [
+        "guide"
+      ]
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "lvl6": ".content h6",
-    "text": ".content p, .content li, .content td:last-child"
+    {
+      "url": "https://vue-i18n.intlify.dev/ja/api/",
+      "selectors_key": "api",
+      "page_rank": 8,
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "url": "https://vue-i18n.intlify.dev/guide/",
+      "selectors_key": "guide",
+      "page_rank": 10,
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://vue-i18n.intlify.dev/api/",
+      "selectors_key": "api",
+      "page_rank": 8,
+      "tags": [
+        "api"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "\\.html"
+  ],
+  "selectors": {
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guide"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li",
+      "language": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li",
+      "language": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    }
   },
+  "strip_chars": " .,;:#",
   "custom_settings": {
-    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
-      "version",
-      "type",
-      "docusaurus_tag"
-    ],
-    "attributesToRetrieve": [
-      "hierarchy",
-      "content",
-      "anchor",
-      "url",
-      "url_without_anchor",
-      "type"
+      "tags"
     ]
   },
   "conversation_id": [
     "1353981287"
   ],
-  "nb_hits": 5742
+  "nb_hits": 5477
 }
