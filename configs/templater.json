@@ -1,11 +1,7 @@
 {
-  "index_name": "apiato",
-  "start_urls": [
-    "http://apiato.io/docs/"
-  ],
-  "sitemap_urls": [
-    "http://apiato.io/sitemap.xml"
-  ],
+  "index_name": "templater",
+  "start_urls": ["https://silentvoid13.github.io/Templater/"],
+  "sitemap_urls": ["https://silentvoid13.github.io/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -25,12 +21,7 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type",
-      "docusaurus_tag"
-    ],
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -40,8 +31,6 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1481296997"
-  ],
-  "nb_hits": 4488
+  "conversation_id": ["1482927945"],
+  "nb_hits": 233
 }

@@ -1,9 +1,9 @@
 {
-  "index_name": "up42",
+  "index_name": "leanupjs",
   "start_urls": [
-    "https://docs.up42.com"
+    "https://leanupjs.org/"
   ],
-  "stop_urls": ["/$", "/components"],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -18,7 +18,7 @@
     "text": "main p, main li"
   },
   "conversation_id": [
-    "1424628876"
+    "1479809846"
   ],
-  "nb_hits": 4085
+  "nb_hits": 496
 }

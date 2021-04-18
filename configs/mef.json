@@ -1,11 +1,7 @@
 {
-  "index_name": "wso2_ob",
+  "index_name": "mef",
   "start_urls": [
-    "https://ob.docs.wso2.com/"
-  ],
-  "sitemap_urls": [
-    "https://ob.docs.wso2.com/en/latest/sitemap.xml",
-    "https://ob.docs.wso2.com/en/3.0.0/sitemap.xml"
+    "https://mef.dev/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -22,13 +18,7 @@
     "text": "article p, article li"
   },
   "conversation_id": [
-    "1402548858"
+    "1473154787"
   ],
-  "custom_settings": {
-    "attributesForFaceting": [
-      "language", 
-      "version"
-    ]
-  },
-  "nb_hits": 210
+  "nb_hits": 17241
 }

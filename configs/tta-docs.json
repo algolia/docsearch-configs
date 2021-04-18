@@ -1,10 +1,10 @@
 {
-  "index_name": "apiato",
+  "index_name": "tta-docs",
   "start_urls": [
-    "http://apiato.io/docs/"
+    "https://www.tta-docs.com/"
   ],
   "sitemap_urls": [
-    "http://apiato.io/sitemap.xml"
+    "https://www.tta-docs.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1481296997"
+    "1481916305"
   ],
-  "nb_hits": 4488
+  "nb_hits": 4651
 }

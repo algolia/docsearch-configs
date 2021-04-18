@@ -1,9 +1,12 @@
 {
-  "index_name": "up42",
+  "index_name": "jesse",
   "start_urls": [
-    "https://docs.up42.com"
+    "https://docs.jesse.trade/"
   ],
-  "stop_urls": ["/$", "/components"],
+  "sitemap_urls": [
+    "https://docs.jesse.trade/sitemap.xml"
+  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -18,7 +21,7 @@
     "text": "main p, main li"
   },
   "conversation_id": [
-    "1424628876"
+    "1463792374"
   ],
-  "nb_hits": 4085
+  "nb_hits": 2418
 }
