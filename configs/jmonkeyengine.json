@@ -5,7 +5,7 @@
       "url": "https://wiki.jmonkeyengine.org/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "3.3"
+          "3.4"
         ]
       }
     }
