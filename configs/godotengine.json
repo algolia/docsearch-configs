@@ -5,7 +5,7 @@
       "url": "https://docs.godotengine.org/en/(?P<version>.*?)/",
       "variables": {
         "version": {
-          "url": "https://docs.godotengine.org/en/stable/",
+          "url": "https://docs.godotengine.org/en/latest/",
           "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dl:nth-child(2) dd')){versions.push(b.innerText)};return JSON.stringify(versions)"
         }
       }
