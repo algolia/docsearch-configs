@@ -1,7 +1,10 @@
 {
   "index_name": "up42",
   "start_urls": [
-    "https://docs.up42.com"
+    "https://docs.up42.com/"
+  ],
+  "sitemap_urls": [
+    "https://docs.up42.com/sitemap.xml"
   ],
   "stop_urls": ["/$", "/components"],
   "selectors": {
@@ -15,7 +18,7 @@
     "lvl3": "main h3",
     "lvl4": "main h4",
     "lvl5": "main h5",
-    "text": "main p, main li"
+    "text": "main p, main li, main td"
   },
   "conversation_id": [
     "1424628876"
