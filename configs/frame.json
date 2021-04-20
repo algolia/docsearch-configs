@@ -29,14 +29,20 @@
     "selectors_exclude": [
         "aside"
     ],
-    "stop_urls": [],
+    "sitemap_urls": [
+        "https://gist.githubusercontent.com/jhodges10/6af161631f4f1a61099ada8c4606b331/raw/ae2e3926ceb23d5e9548182e4336f77b5020642e/sitemap.xml"
+    ],
+    "stop_urls": [
+        "https://developer.frame.io/api/reference/operation/getInstallationForMe/",
+        "https://developer.frame.io/api/reference/operation/getSubtitles/"
+    ],
     "selectors": {
         "portal": {
             "lvl0": {
                 "selector": ".portal",
                 "default_value": "Developer Portal"
             },
-            "lvl1":{
+            "lvl1": {
                 "selector": "/html/body/div[1]/div[1]/div/div[2]/div[1]/h1",
                 "type": "xpath"
             },
@@ -55,8 +61,9 @@
                 "default_value": "Guides"
             },
             "lvl1": ".header-wrapper h1",
-            "lvl2": ".header-wrapper h3",
+            "lvl2": ".header-wrapper h2",
             "lvl3": "main h1, h2, h3, h4, h5, h6",
+            "lvl4": "main .custom-block",
             "text": "main p"
         },
         "api": {
@@ -64,18 +71,14 @@
                 "selector": ".api",
                 "default_value": "API Reference"
             },
-            "lvl1": {
-                "selector": "//*[@id='gatsby-focus-wrapper']/div/div[2]/div/div[1]/div[2]/div/div[1]/h2",
-                "type": "xpath"
-            },
+            "lvl1": ".api-content h2",
             "lvl2": {
-                "selector": "//*[@id='gatsby-focus-wrapper']/div/div[2]/div/div[1]/div[2]/div/div[1]/div[1]/div/p",
-                "type": "xpath"
+                "selector": "/html/body/div/div[1]/div/div[2]/div/div[1]/div[1]/div/div/div[1]/h2/../div/div/p",
+                "type": "xpath",
+                "global": true
             },
-            "lvl3": {
-                "selector": "//*[@id='gatsby-focus-wrapper']/div/div[2]/div/div[1]/div[2]/div/div[1]/div[1]/div/p",
-                "type": "xpath"
-            }
+            "lvl3": ".api-content .http-verb",
+            "text": ".api-content p"
         }
     },
     "conversation_id": [
