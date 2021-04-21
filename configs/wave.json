@@ -1,10 +1,10 @@
 {
   "index_name": "wave",
   "start_urls": [
-    "https://h2oai.github.io/wave/"
+    "https://wave.h2o.ai/"
   ],
   "sitemap_urls": [
-    "https://h2oai.github.io/wave/sitemap.xml"
+    "https://wave.h2o.ai/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
