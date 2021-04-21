@@ -1,10 +1,10 @@
 {
-  "index_name": "wave",
+  "index_name": "meshtastic",
   "start_urls": [
-    "https://wave.h2o.ai/"
+    "https://meshtastic.org/"
   ],
   "sitemap_urls": [
-    "https://wave.h2o.ai/sitemap.xml"
+    "https://meshtastic.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1372815122"
+    "1484782835"
   ],
-  "nb_hits": 4651
+  "nb_hits": 2350
 }
