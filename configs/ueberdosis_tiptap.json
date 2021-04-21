@@ -1,7 +1,7 @@
 {
   "index_name": "ueberdosis_tiptap",
   "start_urls": [
-    "https://next.tiptap.dev/"
+    "https://www.tiptap.dev/"
   ],
   "stop_urls": [],
   "selectors": {
