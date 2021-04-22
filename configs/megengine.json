@@ -19,7 +19,7 @@
     }
   ],
   "stop_urls": [
-    "/_modules/$",
+    "/_modules/$"
   ],
   "selectors": {
     "api": {
