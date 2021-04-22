@@ -2,31 +2,30 @@
   "index_name": "megengine",
   "start_urls": [
     {
-      "url": "https://megengine.org.cn/doc/(?P<version>.*?)/(?P<lang>.*?)/",
-      "variables": {
-        "lang": ["en", "zh"],
-        "version": ["stable", "1.4", "1.3"]
-      }
+      "url": "https://megengine.org.cn/doc/stable/zh/reference/api/",
+      "selectors_key": "api",
+      "page_rank": 10,
+      "tags": ["api"]
     },
     {
-      "url": "https://megengine.org.cn/doc/(?P<version>.*?)/(?P<lang>.*?)/reference/api/",
-      "tags": ["api"],
-      "selectors_key": "api",
-      "variables": {
-        "lang": ["en", "zh"],
-        "version": ["stable", "1.4", "1.3"]
-      }
+      "url": "https://megengine.org.cn/doc/stable/zh/user-guide/",
+      "selectors_key": "guide",
+      "page_rank": 8,
+      "tags": ["guide"]
+    },
+    {
+      "url": "https://megengine.org.cn/doc/stable/zh/getting-started/",
+      "selectors_key": "tutorial",
+      "page_rank": 6,
+      "tags": ["tutorial"]
     }
   ],
-  "stop_urls": [
-    "/_modules/$"
-  ],
+  "stop_urls": ["/$", "/index.html$"],
   "selectors": {
     "api": {
       "lvl0": {
         "selector": "",
-        "global": true,
-        "default_value": "API"
+        "default_value": "Python API"
       },
       "lvl1": "main h1",
       "lvl2": "main h2",
@@ -35,14 +34,36 @@
       "lvl5": "main h5",
       "text": "main p, main li"
     },
-    "default": {
-      "lvl0": "main h1",
-      "lvl1": "main h2",
-      "lvl2": "main h3",
-      "lvl3": "main h4",
-      "lvl4": "main h5",
-      "text": "main p"
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guide"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "text": "main p, main li" 
+    },
+    "tutorial": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Tutorial"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "text": "main p, main li"
     }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
   },
   "conversation_id": [
     "1472416998"
