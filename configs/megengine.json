@@ -1,21 +1,48 @@
 {
   "index_name": "megengine",
   "start_urls": [
-    "https://megengine.org.cn/doc/stable/zh/"
-  ],
-  "stop_urls": [],
-  "selectors": {
-    "lvl0": {
-      "selector": "",
-      "global": true,
-      "default_value": "Documentation"
+    {
+      "url": "https://megengine.org.cn/doc/(?P<version>.*?)/(?P<lang>.*?)/",
+      "variables": {
+        "lang": ["en", "zh"],
+        "version": ["stable", "1.4", "1.3"]
+      }
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "text": "main p, main li"
+    {
+      "url": "https://megengine.org.cn/doc/(?P<version>.*?)/(?P<lang>.*?)/reference/api/",
+      "tags": ["api"],
+      "selectors_key": "api",
+      "variables": {
+        "lang": ["en", "zh"],
+        "version": ["stable", "1.4", "1.3"]
+      }
+    }
+  ],
+  "stop_urls": [
+    "/_modules/$",
+  ],
+  "selectors": {
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "text": "main p, main li"
+    },
+    "default": {
+      "lvl0": "main h1",
+      "lvl1": "main h2",
+      "lvl2": "main h3",
+      "lvl3": "main h4",
+      "lvl4": "main h5",
+      "text": "main p"
+    },
   },
   "conversation_id": [
     "1472416998"
