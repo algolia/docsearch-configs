@@ -2,40 +2,39 @@
   "index_name": "zhinst",
   "start_urls": [
     {
-      "url": "https://docs.zhinst.com/labone_api/",
-      "selectors_key": "labone-api",
-      "tags": [
-        "labone-api"
-      ]
-    },
-    "https://docs.zhinst.com"
+      "url": "https://docs.zhinst.com/(?P<project>.*?)/",
+      "variables": {
+        "project": [
+          "labone_programming_manual",
+          "shfqa_user_manual"
+        ]
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.zhinst.com/sitemap.xml"
   ],
   "stop_urls": [
     ".txt"
   ],
   "selectors": {
     "default": {
-      "lvl0": "article h1",
-      "lvl1": "article h2",
-      "lvl2": "article h3",
-      "lvl3": "article h4",
-      "lvl4": "article h5",
-      "lvl5": "article h6",
-      "text": "article p, article li"
-    },
-    "labone-api": {
-      "lvl0": ".section h1",
-      "lvl1": ".section h2",
-      "lvl2": ".section h3",
-      "lvl3": ".section h4",
-      "lvl4": ".section h5",
-      "lvl5": ".section h6",
-      "text": ".section p, .section li"
+      "lvl0": {
+        "selector": "//nav[@class='nav-menu']/h3/a",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Zurich Instrument"
+      },
+      "lvl1": ".doc h1",
+      "lvl2": ".doc h2",
+      "lvl3": ".doc h3",
+      "lvl4": ".doc h4",
+      "text": ".doc p, .doc td.content, .doc th.tableblock"
     }
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "tags"
+      "project"
     ]
   },
   "conversation_id": [
