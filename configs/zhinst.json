@@ -1,0 +1,45 @@
+{
+  "index_name": "zhinst",
+  "start_urls": [
+    {
+      "url": "https://docs.zhinst.com/labone_api/",
+      "selectors_key": "labone-api",
+      "tags": [
+        "labone-api"
+      ]
+    },
+    "https://docs.zhinst.com"
+  ],
+  "stop_urls": [
+    ".txt"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": "article h1",
+      "lvl1": "article h2",
+      "lvl2": "article h3",
+      "lvl3": "article h4",
+      "lvl4": "article h5",
+      "lvl5": "article h6",
+      "text": "article p, article li"
+    },
+    "labone-api": {
+      "lvl0": ".section h1",
+      "lvl1": ".section h2",
+      "lvl2": ".section h3",
+      "lvl3": ".section h4",
+      "lvl4": ".section h5",
+      "lvl5": ".section h6",
+      "text": ".section p, .section li"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
+  "conversation_id": [
+    "1485183396"
+  ],
+  "nb_hits": 14230
+}
