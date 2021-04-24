@@ -1,7 +1,7 @@
 {
   "index_name": "lilywallet",
   "start_urls": [
-    "http://docs.lily.kevinmulcrone.com/"
+    "http://docs.lily-wallet.com/"
   ],
   "stop_urls": [],
   "selectors": {
