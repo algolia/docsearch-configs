@@ -1,11 +1,12 @@
 {
   "index_name": "demisto",
   "start_urls": [
-    "https://xsoar.pan.dev/"
+    {
+      "url": "https://xsoar.pan.dev/",
+      "tags": ["xsoar"]
+    }
   ],
-  "sitemap_urls": [
-    "https://xsoar.pan.dev/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://xsoar.pan.dev/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -20,30 +21,14 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "type",
-      "docusaurus_tag"
-    ],
-    "attributesToRetrieve": [
-      "hierarchy",
-      "content",
-      "anchor",
-      "url",
-      "url_without_anchor",
-      "type"
-    ]
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag", "tags"],
+    "attributesToRetrieve": ["hierarchy", "content", "anchor", "url", "url_without_anchor", "type"]
   },
-  "conversation_id": [
-    "1106052758"
-  ],
+  "conversation_id": ["1106052758"],
   "nb_hits": 66661
 }
