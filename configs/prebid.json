@@ -2,6 +2,14 @@
   "index_name": "prebid",
   "start_urls": [
     {
+      "url": "https://docs.prebid.org/dev-docs/publisher-api-reference.html",
+      "tags": [
+        "api-reference"
+      ],
+      "selectors_key": "api-ref",
+      "page_rank": 3
+    },
+    {
       "url": "https://docs.prebid.org/prebid/",
       "tags": [
         "prebid"
@@ -27,14 +35,6 @@
       "tags": [
         "ad-ops"
       ]
-    },
-    {
-      "url": "https://docs.prebid.org/dev-docs/publisher-api-reference.html",
-      "tags": [
-        "api-reference"
-      ],
-      "selectors_key": "api-ref",
-      "page_rank": 3
     },
     {
       "url": "https://docs.prebid.org/dev-docs/",
@@ -259,9 +259,8 @@
       "tags"
     ]
   },
-  "scrape_start_urls": false,
   "conversation_id": [
     "1392715244"
   ],
-  "nb_hits": 16254
+  "nb_hits": 21211
 }
