@@ -1,8 +1,6 @@
 {
   "index_name": "motionroutes",
-  "start_urls": [
-    "https://docs.motionroutes.com/"
-  ],
+  "start_urls": ["https://docs.motionroutes.com/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -15,10 +13,14 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5",
-    "text": "article p, article li"
+    "text": "article p, article li",
+    "language": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
   },
-  "conversation_id": [
-    "1489169376"
-  ],
+  "conversation_id": ["1489169376"],
   "nb_hits": 84
 }
