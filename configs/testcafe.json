@@ -1,28 +1,27 @@
 {
   "index_name": "testcafe",
   "start_urls": [
-    "https://devexpress.github.io/testcafe/documentation/"
+    "https://testcafe.io/documentation/"
   ],
-  "stop_urls": [
-    "/../",
-    "://.*//"
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://testcafe.io/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": ".doc-top-nav-tab.active a",
-    "lvl1": ".post-content h1",
-    "lvl2": ".post-content h2",
-    "lvl3": ".post-content h3",
-    "lvl4": ".post-content h4, .post-content table td:first-child",
-    "lvl5": ".post-content h5",
-    "text": ".post-content p, .post-content li, .post-content table td:nth-child(3), .post-content table td:nth-child(4)"
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4, .content table td:first-child",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
   },
   "strip_chars": " .,;:#",
-  "min_indexed_level": 1,
   "conversation_id": [
     "319918646"
   ],
-  "selectors_exclude": [
-    ".post-content > ul > li > a"
-  ],
-  "nb_hits": 2942
+  "nb_hits": 6104
 }
