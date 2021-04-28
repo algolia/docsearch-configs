@@ -100,7 +100,7 @@
     {
       "url": "https://docs.temporal.io/",
       "page_rank": 2
-    }
+    },
     {
       "url": "https://docs.temporal.io/blog",
       "page_rank": 1
@@ -151,5 +151,5 @@
   "conversation_id": [
     "1206028908"
   ],
-  "nb_hits": 2523
+  "nb_hits": 3992
 }
