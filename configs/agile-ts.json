@@ -1,8 +1,7 @@
 {
   "index_name": "agile-ts",
-  "start_urls": [
-    "https://agile-ts.org/docs/"
-  ],
+  "start_urls": ["https://agile-ts.org/"],
+  "sitemap_urls": ["https://agile-ts.org/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -22,12 +21,7 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type",
-      "docusaurus_tag"
-    ],
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -37,8 +31,6 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1417357412"
-  ],
-  "nb_hits": 903
+  "conversation_id": ["1417357412"],
+  "nb_hits": 2096
 }
