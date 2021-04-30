@@ -18,6 +18,9 @@
     "lvl4": ".docsearch-content h5",
     "text": ".docsearch-content p, .docsearch-content li"
   },
+  "selectors_exclude": [
+    ".direct-link"
+  ],  
   "custom_settings": {
     "attributesForFaceting": [
       "language",
