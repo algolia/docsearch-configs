@@ -1,7 +1,7 @@
 {
   "index_name": "sjtu_form",
   "start_urls": [
-    "https://form.sjtu.edu.cn/docs/"
+    "https://developer.sjtu.edu.cn"
   ],
   "stop_urls": [],
   "selectors": {

@@ -24,7 +24,6 @@
   "selectors": {
     "lvl0": {
       "selector": "",
-      "type": "xpath",
       "default_value": "Documentation"
     },
     "lvl1": "section h1",
