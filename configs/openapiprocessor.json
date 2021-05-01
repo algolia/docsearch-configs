@@ -1,20 +1,92 @@
 {
   "index_name": "openapiprocessor",
   "start_urls": [
+    {
+      "url": "https://docs.openapiprocessor.io/(?P<component>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "component": ["spring"],
+        "version": ["2021.3", "2021.2", "2020.1"]
+      }
+    },
+    {
+      "url": "https://docs.openapiprocessor.io/(?P<component>.*?)/(?P<version>.*?).M14/",
+      "variables": {
+        "component": ["spring"],
+        "version": ["1.0.0"]
+      }
+    },
+    {
+      "url": "https://docs.openapiprocessor.io/(?P<component>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "component": ["micronaut"],
+        "version": ["2021.1"]
+      }
+    },
+    {
+      "url": "https://docs.openapiprocessor.io/(?P<component>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "component": ["json"],
+        "version": ["2021.1"]
+      }
+    },
+    {
+      "url": "https://docs.openapiprocessor.io/(?P<component>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "component": ["gradle"],
+        "version": ["2021.3", "2021.2"]
+      }
+    },
+    {
+      "url": "https://docs.openapiprocessor.io/(?P<component>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "component": ["maven"],
+        "version": ["2021.1"]
+      }
+    },
+    {
+      "url": "https://docs.openapiprocessor.io/(?P<component>.*?)/(?P<version>.*?).M2/",
+      "variables": {
+        "component": ["maven"],
+        "version": ["1.0.0"]
+      }
+    },
     "https://docs.openapiprocessor.io"
   ],
   "sitemap_urls": [
     "https://docs.openapiprocessor.io/sitemap.xml"
   ],
+  "scrape_start_urls": false,
   "stop_urls": [],
   "selectors": {
-    "lvl0": "article h1",
-    "lvl1": "article h2",
-    "lvl2": "article h3",
-    "lvl3": "article h4",
-    "lvl4": "article h5",
-    "lvl5": "article h6",
+    "lvl0": {
+      "selector": "article h1",
+      "global": true
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
     "text": "article p, article li"
+  },
+  "custom_settings": {
+    "attributesToRetrieve": [
+      "anchor",
+      "content",
+      "hierarchy",
+      "url",
+      "component",
+      "version"
+    ],
+    "attributesForFaceting": [
+      "component",
+      "version"
+    ],
+    "customRanking": [
+      "asc(component)",
+      "desc(version)"
+    ]
   },
   "conversation_id": [
     "1452495234"
