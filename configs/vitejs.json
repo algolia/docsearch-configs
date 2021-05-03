@@ -51,7 +51,6 @@
     "guide": {
       "lvl0": {
         "selector": "",
-        "type": "xpath",
         "default_value": "Guide & APIs"
       },
       "lvl1": ".content h1",
@@ -64,7 +63,6 @@
     "config": {
       "lvl0": {
         "selector": "",
-        "type": "xpath",
         "default_value": "Config"
       },
       "lvl1": ".content h1",
@@ -77,7 +75,6 @@
     "plugins": {
       "lvl0": {
         "selector": "",
-        "type": "xpath",
         "default_value": "Plugins"
       },
       "lvl1": ".content h1",
