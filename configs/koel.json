@@ -1,7 +1,7 @@
 {
   "index_name": "koel",
   "start_urls": [
-    "https://koel.phanan.net/docs/#/"
+    "https://docs.koel.dev"
   ],
   "stop_urls": [
     "\\?id"
