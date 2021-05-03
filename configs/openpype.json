@@ -1,7 +1,7 @@
 {
-  "index_name": "pype",
-  "start_urls": ["https://pype.club/"],
-  "sitemap_urls": ["https://pype.club/sitemap.xml"],
+  "index_name": "openpype",
+  "start_urls": ["https://openpype.io/"],
+  "sitemap_urls": ["https://openpype.io/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": ["/blog/"],
   "selectors": {
