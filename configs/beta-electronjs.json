@@ -1,17 +1,11 @@
 {
-  "index_name": "prisma_pan",
+  "index_name": "beta-electronjs",
   "start_urls": [
-    {
-      "url": "https://prisma.pan.dev/",
-      "tags": [
-        "prisma"
-      ]
-    }
+    "https://beta.electronjs.org/"
   ],
   "sitemap_urls": [
-    "https://prisma.pan.dev/sitemap.xml"
+    "https://beta.electronjs.org/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -25,9 +19,9 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
-  "js_render": true,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -35,8 +29,7 @@
       "language",
       "version",
       "type",
-      "docusaurus_tag",
-      "tags"
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -48,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1212617874"
+    "1451956332"
   ],
-  "nb_hits": 30588
+  "nb_hits": 9561
 }

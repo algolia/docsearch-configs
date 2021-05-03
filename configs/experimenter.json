@@ -1,7 +1,7 @@
 {
   "index_name": "experimenter",
   "start_urls": [
-    "https://mozilla.github.io/experimenter-docs/"
+    "https://experimenter.info/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -40,5 +40,5 @@
   "conversation_id": [
     "1446448074"
   ],
-  "nb_hits": 83
+  "nb_hits": 379
 }

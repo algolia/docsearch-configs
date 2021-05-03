@@ -2,40 +2,119 @@
   "index_name": "temporal",
   "start_urls": [
     {
-      "url": "https://docs.temporal.io/docs/concept-overview",
+      "url": "https://docs.temporal.io/docs/concepts/introduction",
       "page_rank": 999
     },
     {
-      "url": "https://docs.temporal.io/docs/concept-workflows",
+      "url": "https://docs.temporal.io/docs/concepts/workflows",
+      "page_rank": 999
+    },
+    {
+      "url": "https://docs.temporal.io/docs/concepts/activities",
+      "page_rank": 999
+    },
+    {
+      "url": "https://docs.temporal.io/docs/concepts/events",
+      "page_rank": 999
+    },
+    {
+      "url": "https://docs.temporal.io/docs/concepts/queries",
+      "page_rank": 999
+    },
+    {
+      "url": "https://docs.temporal.io/docs/concepts/task-queues",
+      "page_rank": 999
+    },
+    {
+      "url": "https://docs.temporal.io/docs/glossary",
+      "page_rank": 999
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/introduction",
       "page_rank": 998
     },
     {
-      "url": "https://docs.temporal.io/docs/concept-activities",
+      "url": "https://docs.temporal.io/docs/server/quick-install",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/production-deployment",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/server-architecture",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/versions-and-dependencies",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/namespaces",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/workflow-search",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/elasticsearch-setup",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/options",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/security",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/configuration",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/server/archive-data",
+      "page_rank": 998
+    },
+    {
+      "url": "https://docs.temporal.io/docs/go/introduction",
       "page_rank": 997
     },
     {
-      "url": "https://docs.temporal.io/docs/concept-events",
+      "url": "https://docs.temporal.io/docs/java/introduction",
       "page_rank": 996
     },
     {
-      "url": "https://docs.temporal.io/docs/concept-queries",
+      "url": "https://docs.temporal.io/docs/php/introduction",
       "page_rank": 995
     },
     {
-      "url": "https://docs.temporal.io/docs/concept-task-queues",
+      "url": "https://docs.temporal.io/docs/node/introduction",
       "page_rank": 994
     },
     {
-      "url": "https://docs.temporal.io/docs/get-started",
-      "page_rank": 1
+      "url": "https://docs.temporal.io/docs/system-tools/tctl",
+      "page_rank": 994
     },
-    "https://docs.temporal.io/docs/"
+    {
+      "url": "https://docs.temporal.io/",
+      "page_rank": 2
+    },
+    {
+      "url": "https://docs.temporal.io/blog",
+      "page_rank": 1
+    }
   ],
   "sitemap_urls": [
     "https://docs.temporal.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "https://docs.temporal.io/blog/tags/announcement/",
+    "https://docs.temporal.io/blog/tags/case-study/",
+    "https://docs.temporal.io/blog/tags/"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -72,5 +151,5 @@
   "conversation_id": [
     "1206028908"
   ],
-  "nb_hits": 2523
+  "nb_hits": 3992
 }
