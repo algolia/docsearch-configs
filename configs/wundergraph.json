@@ -13,12 +13,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "lvl1": "h1",
+    "lvl2": "h2",
+    "lvl3": "h3",
+    "lvl4": "h4",
+    "lvl5": "h5",
+    "text": "p, li"
   },
   "conversation_id": [
     "1450303224"

@@ -1,7 +1,14 @@
 {
   "index_name": "koishi",
   "start_urls": [
-    "https://koishi.js.org/"
+    {
+      "url": "https://koishi.js.org/v1/",
+      "tags": ["v1"]
+    },
+    {
+      "url": "https://koishi.js.org/",
+      "tags": ["latest"]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -29,7 +36,8 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "tags"
     ]
   },
   "conversation_id": [
