@@ -1,17 +1,11 @@
 {
   "index_name": "supertokens",
-  "start_urls": [
-    "https://supertokens.io/docs/"
-  ],
-  "sitemap_urls": [
-    "https://supertokens.io/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
+  "start_urls": ["https://supertokens.io/docs/"],
+  "sitemap_urls": ["https://supertokens.io/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
+      "selector": "",
       "global": true,
       "default_value": "Documentation"
     },
@@ -22,19 +16,12 @@
     "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "selectors_exclude": [".hash-link"],
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
+    "attributesForFaceting": ["language", "version"]
   },
-  "conversation_id": [
-    "1483529517"
-  ],
+  "conversation_id": ["1483529517"],
   "js_render": true,
-  "js_wait": 1,
+  "js_wait": 2,
   "nb_hits": 9815
 }
