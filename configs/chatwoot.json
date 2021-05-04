@@ -1,10 +1,10 @@
 {
-  "index_name": "banuba",
+  "index_name": "chatwoot",
   "start_urls": [
-    "https://docs.banuba.com/face-ar-sdk/"
+    "https://www-internal-docs.chatwoot.com/docs/self-hosted/"
   ],
   "sitemap_urls": [
-    "https://docs.banuba.com/face-ar-sdk/sitemap.xml"
+    "https://www-internal-docs.chatwoot.com/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -42,7 +42,7 @@
     ]
   },
   "conversation_id": [
-    "867142346"
+    "1496493420"
   ],
-  "nb_hits": 3497
+  "nb_hits": 418
 }

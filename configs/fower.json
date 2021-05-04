@@ -1,10 +1,10 @@
 {
-  "index_name": "banuba",
+  "index_name": "fower",
   "start_urls": [
-    "https://docs.banuba.com/face-ar-sdk/"
+    "https://fower.vercel.app/"
   ],
   "sitemap_urls": [
-    "https://docs.banuba.com/face-ar-sdk/sitemap.xml"
+    "https://fower.vercel.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -42,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "867142346"
+    "1492935160"
   ],
-  "nb_hits": 3497
+  "nb_hits": 4699
 }
