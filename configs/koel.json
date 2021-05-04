@@ -1,27 +1,31 @@
 {
   "index_name": "koel",
-  "start_urls": [
-    "https://docs.koel.dev"
-  ],
-  "stop_urls": [
-    "\\?id"
-  ],
+  "start_urls": ["https://docs.koel.dev/"],
+  "stop_urls": ["(?:(?<!\\.html)(?<!/))$"],
   "selectors": {
     "lvl0": {
       "selector": "",
+      "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "text": ".content p, .content li, .content h4"
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
   },
-  "min_indexed_level": 1,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": ["lang"]
+  },
   "js_render": true,
   "js_wait": 1,
-  "use_anchors": true,
-  "conversation_id": [
-    "326510718"
-  ],
-  "nb_hits": 156
+  "conversation_id": ["326510718"],
+  "nb_hits": 200
 }
