@@ -1,0 +1,23 @@
+{
+  "index_name": "radar",
+  "start_urls": [
+    "https://radar.io/documentation"
+  ],
+  "sitemap_urls": [
+    "https://radar.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".documentation-markdown h1",
+    "lvl1": ".documentation-markdown h2",
+    "lvl2": ".documentation-markdown h3",
+    "lvl3": ".documentation-markdown h4",
+    "lvl4": ".documentation-markdown h5",
+    "lvl5": ".documentation-markdown h6",
+    "text": ".documentation-markdown p, .documentation-markdown li"
+  },
+  "conversation_id": [
+    "1495879294"
+  ],
+  "nb_hits": 3268
+}
