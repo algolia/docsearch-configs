@@ -13,6 +13,12 @@
         "adoit"
       ]
     }
+    {
+      "url": "https://developer.boc-group.com/adoxx/",
+      "tags": [
+        "adoxx"
+      ]
+    }
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
