@@ -1,7 +1,7 @@
 {
   "index_name": "nebulab_playbook",
   "start_urls": [
-    "https://playbook.nebulab.it"
+    "https://playbook.nebulab.com"
   ],
   "stop_urls": [],
   "selectors": {
