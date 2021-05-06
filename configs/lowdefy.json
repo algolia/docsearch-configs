@@ -1,0 +1,24 @@
+{
+  "index_name": "lowdefy",
+  "start_urls": [
+    "https://docs.lowdefy.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".ant-typography h1",
+    "lvl1": ".markdown-body h1, .ant-typography h2",
+    "lvl2": ".markdown-body h2, .ant-typography h3",
+    "lvl3": ".markdown-body h3, .ant-typography h4",
+    "lvl4": ".markdown-body h4",
+    "lvl5": ".markdown-body h5",
+    "text": ".markdown-body p, .markdown-body li, .markdown-body td, .markdown-body code, .ant-typography p, .ant-form-item-extra, .ant-form-item-label label"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": [
+    "964484389"
+  ],
+  "nb_hits": 247,
+  "js_render": true
+}
