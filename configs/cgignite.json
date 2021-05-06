@@ -1,27 +1,17 @@
 {
-  "index_name": "boc-group",
+  "index_name": "cgignite",
   "start_urls": [
-    {
-      "url": "https://docs.boc-group.com/adonis/",
-      "tags": [
-        "adonis"
-      ]
-    },
-    {
-      "url": "https://docs.boc-group.com/adoit/",
-      "tags": [
-        "adoit"
-      ]
-    },
-    {
-      "url": "https://developer.boc-group.com/adoxx/",
-      "tags": [
-        "adoxx"
-      ]
-    }
+    "https://docs.cgignite.com/docs/ignite-ecosystem/",
+    "https://docs.cgignite.com/docs/getting-started/",
+    "https://docs.cgignite.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://docs.cgignite.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    ".*(?<!/)$"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -43,8 +33,7 @@
       "language",
       "version",
       "type",
-      "docusaurus_tag",
-      "tags"
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -55,8 +44,9 @@
       "type"
     ]
   },
+  "js_render": true,
   "conversation_id": [
-    "1407934020"
+    "1460868938"
   ],
-  "nb_hits": 46869
+  "nb_hits": 74
 }

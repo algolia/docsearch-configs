@@ -1,24 +1,7 @@
 {
-  "index_name": "boc-group",
+  "index_name": "comet-data",
   "start_urls": [
-    {
-      "url": "https://docs.boc-group.com/adonis/",
-      "tags": [
-        "adonis"
-      ]
-    },
-    {
-      "url": "https://docs.boc-group.com/adoit/",
-      "tags": [
-        "adoit"
-      ]
-    },
-    {
-      "url": "https://developer.boc-group.com/adoxx/",
-      "tags": [
-        "adoxx"
-      ]
-    }
+    "https://ebiznext.github.io/comet-data-pipeline/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -43,8 +26,7 @@
       "language",
       "version",
       "type",
-      "docusaurus_tag",
-      "tags"
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -56,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1407934020"
+    "1493693874"
   ],
-  "nb_hits": 46869
+  "nb_hits": 894
 }

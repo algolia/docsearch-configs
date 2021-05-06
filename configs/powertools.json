@@ -1,0 +1,25 @@
+{
+  "index_name": "powertools",
+  "start_urls": [
+    "https://www.powertools.dev/docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".w-full h1",
+    "lvl2": ".w-full h2",
+    "lvl3": ".w-full h3",
+    "lvl4": ".w-full h4",
+    "lvl5": ".w-full h5",
+    "text": ".w-full p, .w-full li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1492426386"
+  ],
+  "nb_hits": 4844
+}

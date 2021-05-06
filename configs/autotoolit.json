@@ -1,27 +1,13 @@
 {
-  "index_name": "boc-group",
+  "index_name": "autotoolit",
   "start_urls": [
-    {
-      "url": "https://docs.boc-group.com/adonis/",
-      "tags": [
-        "adonis"
-      ]
-    },
-    {
-      "url": "https://docs.boc-group.com/adoit/",
-      "tags": [
-        "adoit"
-      ]
-    },
-    {
-      "url": "https://developer.boc-group.com/adoxx/",
-      "tags": [
-        "adoxx"
-      ]
-    }
+    "https://autotoolit.github.io"
   ],
-  "sitemap_alternate_links": true,
+  "sitemap_urls": [
+    "https://autotoolit.github.io/sitemap.xml"
+  ],
   "stop_urls": [],
+  "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -34,6 +20,7 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -43,8 +30,7 @@
       "language",
       "version",
       "type",
-      "docusaurus_tag",
-      "tags"
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -56,7 +42,7 @@
     ]
   },
   "conversation_id": [
-    "1407934020"
+    "1494522256"
   ],
-  "nb_hits": 46869
+  "nb_hits": 155
 }
