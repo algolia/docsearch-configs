@@ -1,10 +1,10 @@
 {
   "index_name": "cpln",
   "start_urls": [
-    "https://cpln-docs-test.web.app/"
+    "https://docs.controlplane.com/"
   ],
   "sitemap_urls": [
-    "https://cpln-docs-test.web.app/sitemap.xml"
+    "https://docs.controlplane.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
