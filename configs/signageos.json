@@ -1,45 +1,66 @@
 {
-  "index_name": "signageos",
-  "start_urls": [
-    "http://docs.signageos.io/knowledge-base/",
-    "https://docs.signageos.io/provisioning/",
-    {
-      "url": "http://docs.signageos.io/api/",
-      "selectors_key": "api"
-    }
-  ],
-  "sitemap_urls": [
-    "http://docs.signageos.io/sitemap.xml"
-  ],
-  "stop_urls": [],
-  "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Documentation"
+    "index_name": "signageos",
+    "start_urls": [
+      "http://docs.signageos.io/knowledge-base/",
+      "https://docs.signageos.io/provisioning/",
+      {
+        "url": "http://docs.signageos.io/api/(?P<version>.*?)/",
+        "selectors_key": "api",
+        "variables": {
+          "version": [
+            "latest",
+            "4.10.4",
+            "4.9.3",
+            "4.8.3",
+            "4.7.3",
+            "4.6.4",
+            "4.5.4",
+            "deprecated"
+          ]
+        }
       },
-      "lvl1": ".content__wrapper h1",
-      "lvl2": ".content__wrapper h2",
-      "lvl3": ".content__wrapper h3",
-      "lvl4": ".content__wrapper h4",
-      "text": ".content__wrapper p, .content__wrapper li"
+      {
+        "url": "http://docs.signageos.io/api/",
+        "selectors_key": "api"
+      }
+    ],
+    "sitemap_urls": [
+      "http://docs.signageos.io/sitemap.xml"
+    ],
+    "stop_urls": [],
+    "selectors": {
+      "default": {
+        "lvl0": {
+          "selector": "",
+          "default_value": "Documentation"
+        },
+        "lvl1": ".content__wrapper h1",
+        "lvl2": ".content__wrapper h2",
+        "lvl3": ".content__wrapper h3",
+        "lvl4": ".content__wrapper h4",
+        "text": ".content__wrapper p, .content__wrapper li"
+      },
+      "api": {
+        "lvl0": {
+          "selector": "",
+          "default_value": "API"
+        },
+        "lvl1": ".content__wrapper h1",
+        "lvl2": ".content__wrapper h2",
+        "lvl3": ".content__wrapper h3",
+        "lvl4": ".content__wrapper h4",
+        "text": ".content__wrapper p, .content__wrapper li"
+      }
     },
-    "api": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "API"
-      },
-      "lvl1": ".content__wrapper h1",
-      "lvl2": ".content__wrapper h2",
-      "lvl3": ".content__wrapper h3",
-      "lvl4": ".content__wrapper h4",
-      "text": ".content__wrapper p, .content__wrapper li"
-    }
-  },
-  "js_render": true,
-  "js_wait": 1,
-  "conversation_id": [
-    "1439258189"
-  ],
-  "nb_hits": 10974
-}
+    "js_render": true,
+    "js_wait": 1,
+    "conversation_id": [
+      "1439258189"
+    ],
+    "custom_settings": {
+        "attributesForFaceting": [
+            "version"
+        ]
+    },
+    "nb_hits": 10974
+  }
