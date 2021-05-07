@@ -4,10 +4,6 @@
       "http://docs.signageos.io/knowledge-base/",
       "https://docs.signageos.io/provisioning/",
       {
-        "url": "http://docs.signageos.io/api/",
-        "selectors_key": "api"
-      },
-      {
         "url": "http://docs.signageos.io/api/(?P<version>.*?)/",
         "selectors_key": "api",
         "variables": {
@@ -22,6 +18,10 @@
             "deprecated"
           ]
         }
+      },
+      {
+        "url": "http://docs.signageos.io/api/",
+        "selectors_key": "api"
       }
     ],
     "sitemap_urls": [
