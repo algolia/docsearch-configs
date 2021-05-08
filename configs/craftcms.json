@@ -16,7 +16,7 @@
       },
       "tags": ["craftcms", "api", "en"],
       "selectors_key": "api"
-    },
+    }
   ],
   "stop_urls": ["https://craftcms.com/docs/sitemap.xml"],
   "selectors": {
