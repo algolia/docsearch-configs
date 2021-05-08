@@ -1,20 +1,53 @@
 {
   "index_name": "adonisjs_next",
   "start_urls": [
-    "https://preview.adonisjs.com/"
+    {
+      "url": "https://docs.adonisjs.com/reference/",
+      "page_rank": "4",
+      "variables": {
+        "zone": "reference"
+      }
+    },
+    {
+      "url": "https://docs.adonisjs.com/guides/",
+      "page_rank": "3",
+      "variables": {
+        "zone": "guides"
+      }
+    },
+    {
+      "url": "https://docs.adonisjs.com/cookbooks/",
+      "page_rank": "2",
+      "variables": {
+        "zone": "cookbooks"
+      }
+    },
+    {
+      "url": "https://docs.adonisjs.com/releases/",
+      "page_rank": "1",
+      "variables": {
+        "zone": "releases"
+      }
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".docs-wrapper > div > div h1, .article h1",
-    "lvl1": ".docs-wrapper > div > div h2, .article h2",
-    "lvl2": ".docs-wrapper > div > div h3, .article h3",
-    "lvl3": ".docs-wrapper > div > div h4, .article h4",
-    "lvl4": ".docs-wrapper > div > div h5, .article h5",
-    "lvl5": ".docs-wrapper > div > div h6, .article h6",
-    "text": ".docs-wrapper > div > div p, .article p, .docs-wrapper > div > div li, .article li"
+    "default": {
+      "lvl0": {
+        "selector": "//*nav//*[contains(@class,'active')]/preceding::h3[1]",
+        "default_value": "Documentation",
+        "type": "xpath",
+        "global": true
+      },
+      "lvl1": ".markdown h1",
+      "lvl2": ".markdown h2",
+      "lvl3": ".markdown h3",
+      "lvl4": ".markdown h4",
+      "text": ".markdown p, .markdown li"
+    }
   },
   "conversation_id": [
     "1156190793"
   ],
-  "nb_hits": 2035
+  "nb_hits": 69556
 }

@@ -1,17 +1,12 @@
 {
-  "index_name": "docsearch",
+  "index_name": "autotoolit",
   "start_urls": [
-    "https://docsearch.algolia.com/"
+    "https://autotoolit.github.io"
   ],
   "sitemap_urls": [
-    "https://docsearch.algolia.com/sitemap.xml"
+    "https://autotoolit.github.io/sitemap.xml"
   ],
-  "stop_urls": [
-    "/search",
-    "/v3me",
-    "/playground",
-    "/inspector"
-  ],
+  "stop_urls": [],
   "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
@@ -46,6 +41,8 @@
       "type"
     ]
   },
-  "js_render": true,
-  "nb_hits": 856
+  "conversation_id": [
+    "1494522256"
+  ],
+  "nb_hits": 155
 }
