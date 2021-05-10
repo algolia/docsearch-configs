@@ -28,13 +28,14 @@
       "variables": {
         "zone": "releases"
       }
-    }
+    },
+    "https://docs.adonisjs.com/"
   ],
   "stop_urls": [],
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "//*nav//*[contains(@class,'active')]/preceding::h3[1]",
+        "selector": "//*[contains(@class,'active')]/preceding::h3[1]",
         "default_value": "Documentation",
         "type": "xpath",
         "global": true
@@ -46,8 +47,9 @@
       "text": ".markdown p, .markdown li"
     }
   },
+  "js_render": true,
   "conversation_id": [
     "1156190793"
   ],
-  "nb_hits": 69556
+  "nb_hits": 5665
 }
