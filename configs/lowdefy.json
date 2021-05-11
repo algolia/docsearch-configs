@@ -4,6 +4,9 @@
     "https://docs.lowdefy.com/",
     "https://docs.lowdefy.com/introduction"
   ],
+  "sitemap_urls": [
+    "https://docs.lowdefy.com/public/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
