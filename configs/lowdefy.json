@@ -4,26 +4,24 @@
     "https://docs.lowdefy.com/",
     "https://docs.lowdefy.com/introduction"
   ],
-  "sitemap_urls": [
-    "https://docs.lowdefy.com/public/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://docs.lowdefy.com/public/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "",
       "default_value": "Documentation"
     },
-    "lvl1": "#ar-max_width-content h1",
-    "lvl2": "#ar-max_width-content h2",
-    "lvl3": "#ar-max_width-content h3",
-    "lvl4": "#ar-max_width-content h4",
-    "text": "#ar-max_width-content p, #ar-max_width-content li"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "text": "main p, main li"
   },
   "custom_settings": {
     "separatorsToIndex": "_"
   },
   "conversation_id": ["964484389"],
   "js_render": true,
-  "js_wait": 2,
-  "nb_hits": 86
+  "js_wait": 4,
+  "nb_hits": 105
 }
