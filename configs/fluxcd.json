@@ -1,7 +1,7 @@
 {
   "index_name": "fluxcd",
   "start_urls": [
-    "https://fluxcd.io/docs/"
+    "https://fluxcd.io/"
   ],
   "sitemap_urls": [
     "https://fluxcd.io/sitemap.xml"
