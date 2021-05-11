@@ -1,9 +1,10 @@
 {
-  "index_name": "pype",
-  "start_urls": ["https://pype.club/"],
-  "sitemap_urls": ["https://pype.club/sitemap.xml"],
+  "index_name": "hackney",
+  "start_urls": [
+    "https://playbook.hackney.gov.uk/API-Playbook/"
+  ],
   "sitemap_alternate_links": true,
-  "stop_urls": ["/blog/"],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -11,17 +12,22 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article h1",
+    "lvl1": "header h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article article p, article article li"
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
   },
-  "selectors_exclude": [".hash-link"],
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -31,8 +37,8 @@
       "type"
     ]
   },
-  "conversation_id": ["1026270564"],
-  "js_render": true,
-  "js_wait": 1,
-  "nb_hits": 1082
+  "conversation_id": [
+    "1500030327"
+  ],
+  "nb_hits": 1814
 }

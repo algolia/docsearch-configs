@@ -7,12 +7,16 @@
     "https://docsearch.algolia.com/sitemap.xml"
   ],
   "stop_urls": [
-    "\\?"
+    "/search",
+    "/v3me",
+    "/playground",
+    "/inspector"
   ],
   "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -20,14 +24,18 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
+    "lvl5": "article h5, article td:first-child",
     "lvl6": "article h6",
-    "text": "article p, article li"
+    "text": "article p, article li, article td:last-child"
   },
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "type"
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -38,6 +46,6 @@
       "type"
     ]
   },
-  "strip_chars": ".,;:#",
-  "nb_hits": 435
+  "js_render": true,
+  "nb_hits": 856
 }

@@ -1,17 +1,68 @@
 {
   "index_name": "supertokens",
   "start_urls": [
-    "https://supertokens.io/docs/"
+    {
+      "url": "https://supertokens.io/docs/emailpassword/",
+      "tags": [
+        "emailpassword"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/thirdparty/",
+      "tags": [
+        "thirdparty"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/thirdpartyemailpassword/",
+      "tags": [
+        "thirdpartyemailpassword"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/community/introduction/",
+      "tags": [
+        "intro"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/community/recipes/",
+      "tags": [
+        "intro"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/nodejs/",
+      "tags": [
+        "nodejs"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/auth-react/",
+      "tags": [
+        "auth-react"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/website/",
+      "tags": [
+        "website"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/",
+      "tags": [
+        "docs"
+      ]
+    }
   ],
   "sitemap_urls": [
     "https://supertokens.io/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
+      "selector": "",
       "global": true,
       "default_value": "Documentation"
     },
@@ -28,7 +79,8 @@
   "custom_settings": {
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "tags"
     ]
   },
   "js_render": true,
@@ -36,5 +88,5 @@
   "conversation_id": [
     "1483529517"
   ],
-  "nb_hits": 47
+  "nb_hits": 30637
 }

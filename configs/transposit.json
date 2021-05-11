@@ -11,16 +11,14 @@
     "/docs/references/connectors/"
   ],
   "selectors": {
-    "lvl0": ".center [class*='w-75'] h1",
-    "lvl1": ".center [class*='w-75'] h2",
-    "lvl2": ".center [class*='w-75'] h3",
-    "lvl3": ".center [class*='w-75'] h4",
-    "lvl4": ".center [class*='w-75'] h5",
-    "text": ".center [class*='w-75'] article p, .center [class*='w-75'] article li"
+    "lvl0": "h1.docsearch-title",
+    "lvl1": ".docsearch-content h2",
+    "lvl2": ".docsearch-content h3",
+    "lvl3": ".docsearch-content h4",
+    "lvl4": ".docsearch-content h5",
+    "text": ".docsearch-content p, .docsearch-content li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "strip_chars": "#", 
   "custom_settings": {
     "attributesForFaceting": [
       "language",

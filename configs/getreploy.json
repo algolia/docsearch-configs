@@ -11,7 +11,6 @@
   "selectors": {
     "lvl0": {
       "selector": "",
-      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },

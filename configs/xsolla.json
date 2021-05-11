@@ -3,132 +3,72 @@
   "start_urls": [
     {
       "url": "https://developers.xsolla.com/(?P<lang>.*?)/api/",
-      "tags": [
-        "api"
-      ],
+      "tags": ["api"],
       "variables": {
-        "lang": [
-          "ja",
-          "ru",
-          "ko",
-          "zh",
-          "de"
-        ]
+        "lang": ["ja", "ru", "ko", "zh", "de"]
       }
     },
     {
       "url": "https://developers.xsolla.com/(?P<lang>.*?)/sdk/",
-      "tags": [
-        "sdk"
-      ],
+      "tags": ["sdk"],
       "variables": {
-        "lang": [
-          "ja",
-          "ru",
-          "ko",
-          "zh",
-          "de"
-        ]
+        "lang": ["ja", "ru", "ko", "zh", "de"]
       }
     },
     {
       "url": "https://developers.xsolla.com/(?P<lang>.*?)/changelog/",
-      "tags": [
-        "changelog"
-      ],
+      "tags": ["changelog"],
       "variables": {
-        "lang": [
-          "ja",
-          "ru",
-          "ko",
-          "zh",
-          "de"
-        ]
+        "lang": ["ja", "ru", "ko", "zh", "de"]
       }
     },
     {
       "url": "https://developers.xsolla.com/(?P<lang>.*?)/doc/faq/",
-      "tags": [
-        "faq"
-      ],
+      "tags": ["faq"],
       "variables": {
-        "lang": [
-          "ja",
-          "ru",
-          "ko",
-          "zh",
-          "de"
-        ]
+        "lang": ["ja", "ru", "ko", "zh", "de"]
       }
     },
     {
       "url": "https://developers.xsolla.com/(?P<lang>.*?)/",
-      "tags": [
-        "doc"
-      ],
+      "tags": ["doc"],
       "variables": {
-        "lang": [
-          "ja",
-          "ru",
-          "ko",
-          "zh",
-          "de"
-        ]
+        "lang": ["ja", "ru", "ko", "zh", "de"]
       }
     },
     {
       "url": "https://developers.xsolla.com/doc/faq/",
-      "tags": [
-        "faq"
-      ],
+      "tags": ["faq"],
       "extra_attributes": {
-        "lang": [
-          "en"
-        ]
+        "lang": ["en"]
       }
     },
     {
       "url": "https://developers.xsolla.com/sdk/",
-      "tags": [
-        "sdk"
-      ],
+      "tags": ["sdk"],
       "extra_attributes": {
-        "lang": [
-          "en"
-        ]
+        "lang": ["en"]
       }
     },
     {
       "url": "https://developers.xsolla.com/changelog/",
-      "tags": [
-        "changelog"
-      ],
+      "tags": ["changelog"],
       "extra_attributes": {
-        "lang": [
-          "en"
-        ]
+        "lang": ["en"]
       }
     },
     {
       "url": "https://developers.xsolla.com/api/",
-      "tags": [
-        "api"
-      ],
+      "tags": ["api"],
       "extra_attributes": {
-        "lang": [
-          "en"
-        ]
+        "lang": ["en"]
       }
     },
     {
       "url": "https://developers.xsolla.com",
-      "tags": [
-        "doc"
-      ],
+      "tags": ["doc"],
       "extra_attributes": {
-        "lang": [
-          "en"
-        ]
+        "lang": ["en"]
       }
     }
   ],
@@ -457,14 +397,8 @@
     "text": "article p, article li, article td"
   },
   "custom_settings": {
-    "attributesForFaceting": [
-      "tags",
-      "lang"
-    ]
+    "attributesForFaceting": ["tags", "lang"]
   },
-  "js_render": true,
-  "conversation_id": [
-    "538992189"
-  ],
-  "nb_hits": 276659
+  "conversation_id": ["538992189"],
+  "nb_hits": 136212
 }

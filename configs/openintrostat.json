@@ -1,30 +1,27 @@
 {
-  "index_name": "elmr",
+  "index_name": "openintrostat",
   "start_urls": [
     {
-      "url": "http://jefferis.github.io/elmr/index.html",
+      "url": "http://openintrostat.github.io/openintro/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "http://jefferis.github.io/elmr/reference",
+      "url": "http://openintrostat.github.io/openintro/reference",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "http://jefferis.github.io/elmr/articles",
+      "url": "http://openintrostat.github.io/openintro/articles",
       "selectors_key": "articles",
       "tags": [
         "articles"
       ]
     }
-  ],
-  "sitemap_urls": [
-    "http://jefferis.github.io/elmr/sitemap.xml"
   ],
   "stop_urls": [
     "/reference/$",
@@ -91,7 +88,7 @@
     ]
   },
   "conversation_id": [
-    "918559257"
+    "1493505697"
   ],
-  "nb_hits": 419
+  "nb_hits": 2642
 }
