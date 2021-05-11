@@ -1,7 +1,64 @@
 {
   "index_name": "supertokens",
-  "start_urls": ["https://supertokens.io/docs/"],
-  "sitemap_urls": ["https://supertokens.io/sitemap.xml"],
+  "start_urls": [
+    {
+      "url": "https://supertokens.io/docs/emailpassword/",
+      "tags": [
+        "emailpassword"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/thirdparty/",
+      "tags": [
+        "thirdparty"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/thirdpartyemailpassword/",
+      "tags": [
+        "thirdpartyemailpassword"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/community/introduction/",
+      "tags": [
+        "intro"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/community/recipes/",
+      "tags": [
+        "intro"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/nodejs/",
+      "tags": [
+        "nodejs"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/auth-react/",
+      "tags": [
+        "auth-react"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/website/",
+      "tags": [
+        "website"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/",
+      "tags": [
+        "docs"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://supertokens.io/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -16,12 +73,20 @@
     "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
-  "selectors_exclude": [".hash-link"],
+  "selectors_exclude": [
+    ".hash-link"
+  ],
   "custom_settings": {
-    "attributesForFaceting": ["language", "version"]
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "tags"
+    ]
   },
-  "conversation_id": ["1483529517"],
   "js_render": true,
   "js_wait": 2,
-  "nb_hits": 9815
+  "conversation_id": [
+    "1483529517"
+  ],
+  "nb_hits": 30637
 }
