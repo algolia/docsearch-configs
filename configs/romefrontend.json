@@ -1,7 +1,7 @@
 {
   "index_name": "romefrontend",
   "start_urls": [
-    "https://romefrontend.dev/"
+    "https://rome.tools/"
   ],
   "stop_urls": [],
   "selectors": {
