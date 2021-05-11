@@ -4,47 +4,67 @@
     {
       "url": "https://docs.craftcms.com/commerce/api/(?P<version>.*?)/",
       "variables": {
-        "version": ["v2", "v3"]
+        "version": [
+          "v2",
+          "v3"
+        ]
       },
-      "tags": ["commerce", "api", "en"],
-      "selectors_key": "api"
+      "tags": [
+        "commerce",
+        "api",
+        "en"
+      ]
     },
     {
       "url": "https://docs.craftcms.com/api/(?P<version>.*?)/",
       "variables": {
-        "version": ["v2", "v3"]
+        "version": [
+          "v2",
+          "v3"
+        ]
       },
-      "tags": ["craftcms", "api", "en"],
-      "selectors_key": "api"
+      "tags": [
+        "craftcms",
+        "api",
+        "en"
+      ]
     }
   ],
-  "stop_urls": ["https://craftcms.com/docs/sitemap.xml"],
+  "stop_urls": [
+    "https://craftcms.com/docs/sitemap.xml"
+  ],
   "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": "span.site-name",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": ".theme-default-content h1",
-      "lvl2": ".theme-default-content h2",
-      "lvl3": ".theme-default-content h3",
-      "lvl4": ".theme-default-content h4",
-      "lvl5": ".theme-default-content h5",
-      "text": ".theme-default-content p, .theme-default-content li",
-      "lang": {
-        "selector": "/html/@lang",
-        "type": "xpath",
-        "global": true,
-        "default_value": "en-US"
-      }
+    "lvl0": {
+      "selector": "span.site-name",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".theme-default-content h1",
+    "lvl2": ".theme-default-content h2",
+    "lvl3": ".theme-default-content h3",
+    "lvl4": ".theme-default-content h4",
+    "lvl5": ".theme-default-content h5",
+    "text": ".theme-default-content p, .theme-default-content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
     }
   },
-  "selectors_exclude": [".table-of-contents"],
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
   "strip_chars": " .,;:#",
-  "conversation_id": ["555461426"],
+  "conversation_id": [
+    "555461426"
+  ],
   "custom_settings": {
-    "attributesForFaceting": ["tags", "version", "lang"]
+    "attributesForFaceting": [
+      "tags",
+      "version",
+      "lang"
+    ]
   },
-  "nb_hits": 136737
+  "nb_hits": 114584
 }
