@@ -83,6 +83,8 @@
       "tags"
     ]
   },
+  "js_render": true,
+  "js_wait": 2,
   "conversation_id": [
     "1483529517"
   ],
