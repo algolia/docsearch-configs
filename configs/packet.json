@@ -2,7 +2,6 @@
   "index_name": "packet",
   "start_urls": [
     "https://metal.equinix.com/developers/docs/",
-    "https://metal.equinix.com/developers/api/",
     "https://metal.equinix.com/developers/guides/",
     "https://metal.equinix.com/developers/api/"
   ],
