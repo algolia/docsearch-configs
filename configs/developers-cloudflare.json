@@ -6,6 +6,7 @@
       "variables": {
         "project": [
           "analytics",
+          "automatic-platform-optimization",
           "bots",
           "byoip",
           "cloudflare-one",
@@ -40,6 +41,7 @@
   "stop_urls": [],
   "sitemap_urls": [
     "https://developers.cloudflare.com/analytics/sitemap.xml",
+    "https://developers.cloudflare.com/automatic-platform-optimization/sitemap.xml",
     "https://developers.cloudflare.com/bots/sitemap.xml",
     "https://developers.cloudflare.com/byoip/sitemap.xml",
     "https://developers.cloudflare.com/cloudflare-one/sitemap.xml",
