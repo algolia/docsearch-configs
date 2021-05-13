@@ -4,7 +4,8 @@
     "https://docs.tigera.io/"
   ],
   "sitemap_urls": [
-    "https://docs.tigera.io/sitemap.xml"
+    "https://docs.tigera.io/sitemap.xml",
+    "https://docs.tigera.io/release-legacy-sitemap.xml"
   ],
   "stop_urls": [
     "/releases"
