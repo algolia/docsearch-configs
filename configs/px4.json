@@ -1,0 +1,82 @@
+{
+  "index_name": "px4",
+  "start_urls": [
+    {
+      "url": "https://docs.px4.io/master/",
+      "extra_attributes": {
+        "version": [
+          "master"
+        ]
+      },
+      "selectors_key": "default"
+    },
+    {
+      "url": "https://docs.px4.io/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v1.11",
+          "v1.10",
+          "v1.9.0",
+          "v1.8.2"
+        ]
+      },
+      "selectors_key": "dronecode"
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "p.sidebar-heading.open",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".theme-default-content h1",
+      "lvl2": ".theme-default-content h2",
+      "lvl3": ".theme-default-content h3",
+      "lvl4": ".theme-default-content h4",
+      "lvl5": ".theme-default-content h5",
+      "text": ".theme-default-content p, .theme-default-content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "dronecode": {
+      "lvl0": {
+        "selector": "nav.active",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "section h1",
+      "lvl2": "section h2",
+      "lvl3": "section h3",
+      "lvl4": "section h4",
+      "lvl5": "section h5",
+      "text": "section p, section li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1504065049"
+  ],
+  "scrape_start_urls": false,
+  "nb_hits": 155778
+}
