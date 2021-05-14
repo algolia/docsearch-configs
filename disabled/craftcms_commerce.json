@@ -4,29 +4,16 @@
     {
       "url": "https://craftcms.com/docs/commerce/(?P<version>.*?)/",
       "variables": {
-        "version": [
-          "1.x",
-          "2.x",
-          "3.x"
-        ]
+        "version": ["1.x", "2.x", "3.x"]
       },
-      "tags": [
-        "doc",
-        "en"
-      ]
+      "tags": ["doc", "en"]
     },
     {
       "url": "https://docs.craftcms.com/commerce/api/(?P<version>.*?)/",
       "variables": {
-        "version": [
-          "v2",
-          "v3"
-        ]
+        "version": ["v2", "v3"]
       },
-      "tags": [
-        "api",
-        "en"
-      ],
+      "tags": ["api", "en"],
       "selectors_key": "api"
     }
   ],
@@ -50,20 +37,12 @@
       "default_value": "en-US"
     }
   },
-  "selectors_exclude": [
-    ".table-of-contents"
-  ],
+  "selectors_exclude": [".table-of-contents"],
   "strip_chars": " .,;:#",
   "custom_settings": {
-    "attributesForFaceting": [
-      "lang",
-      "version",
-      "tags"
-    ]
+    "attributesForFaceting": ["lang", "version", "tags"]
   },
-  "conversation_id": [
-    "1107981273"
-  ],
+  "conversation_id": ["1107981273"],
   "scrape_start_urls": false,
   "nb_hits": 39395
 }
