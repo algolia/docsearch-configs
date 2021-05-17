@@ -1,10 +1,10 @@
 {
   "index_name": "napoan",
   "start_urls": [
-    "https://md.napoan.com/"
+    "https://asobinon.org/"
   ],
   "sitemap_urls": [
-    "https://md.napoan.com/sitemap.xml"
+    "https://asobinon.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
