@@ -1,10 +1,10 @@
 {
   "index_name": "webpixels",
   "start_urls": [
-    "https://test.webpixels.io/docs"
+    "https://webpixels.io/docs"
   ],
   "sitemap_urls": [
-    "https://test.webpixels.io/sitemap.xml"
+    "https://webpixels.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
