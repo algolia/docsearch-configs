@@ -1,7 +1,9 @@
 {
   "index_name": "longhorn",
   "start_urls": [
-    "https://longhorn.io/docs/"
+    "https://longhorn.io/docs/",
+    "https://longhorn.io/blog/",
+    "https://longhorn.io/kb/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
