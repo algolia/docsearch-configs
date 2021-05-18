@@ -1,11 +1,10 @@
 {
   "index_name": "streampipes",
   "start_urls": [
-    "https://docs.streampipes.org/docs/",
-    "https://docs.streampipes.org/docs/dev-guide-introduction"
+    "https://streampipes.apache.org/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.streampipes.org/sitemap.xml"
+    "https://streampipes.apache.org/docs/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
