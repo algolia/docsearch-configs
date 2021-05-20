@@ -1,10 +1,7 @@
 {
   "index_name": "webiny-js",
   "start_urls": [
-    "https://docs.webiny.com/"
-  ],
-  "sitemap_urls": [
-    "https://docs.webiny.com/sitemap.xml"
+    "https://www.webiny.com/docs/webiny/introduction/"
   ],
   "stop_urls": [],
   "selectors": {
