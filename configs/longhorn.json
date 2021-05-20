@@ -33,6 +33,12 @@
   "custom_settings": {
     "attributesForFaceting": [
       "version"
+    ],
+    "customRanking": [
+      "desc(version)",
+      "desc(weight.page_rank)",
+      "desc(weight.level)",
+      "asc(weight.position)"
     ]
   },
   "conversation_id": [
