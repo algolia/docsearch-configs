@@ -1,10 +1,10 @@
 {
-  "index_name": "maximousblk_piracy",
+  "index_name": "awesome_piracy",
   "start_urls": [
-    "https://piracy.now.sh/"
+    "https://piracy.vercel.app/"
   ],
   "sitemap_urls": [
-    "https://piracy.now.sh/sitemap.xml"
+    "https://piracy.vercel.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -43,5 +43,5 @@
     "1166160649"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 4487
+  "nb_hits": 4690
 }
