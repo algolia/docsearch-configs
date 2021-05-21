@@ -1,10 +1,10 @@
 {
   "index_name": "nasa_cumulus",
   "start_urls": [
-    "https://nasa.github.io/cumulus/docs/"
+    "https://nasa.github.io/cumulus/"
   ],
   "sitemap_urls": [
-    "https://nasa.github.com/cumulus/sitemap.xml"
+    "https://nasa.github.io/cumulus/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -33,5 +33,5 @@
   "conversation_id": [
     "693554081"
   ],
-  "nb_hits": 29967
+  "nb_hits": 110315
 }
