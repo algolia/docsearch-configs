@@ -35,7 +35,7 @@
       }
     },
     {
-      "url": "https://v5.getbootstrap.com/",
+      "url": "https://getbootstrap.com/docs/5.0/",
       "extra_attributes": {
         "language": [
           "en"
@@ -48,11 +48,11 @@
     },
     "https://getbootstrap.com/docs/4.3/",
     "https://getbootstrap.com/docs/4.4/",
+    "https://getbootstrap.com/docs/4.5/",
     "https://getbootstrap.com/docs/"
   ],
   "sitemap_urls": [
-    "https://getbootstrap.com/sitemap.xml",
-    "https://v5.getbootstrap.com/sitemap.xml"
+    "https://getbootstrap.com/sitemap.xml"
   ],
   "stop_urls": [
     "/examples/.+",
@@ -96,5 +96,5 @@
       "language"
     ]
   },
-  "nb_hits": 21240
+  "nb_hits": 25547
 }

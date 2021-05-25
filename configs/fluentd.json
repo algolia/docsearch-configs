@@ -1,0 +1,23 @@
+{
+  "index_name": "fluentd",
+  "start_urls": [
+    "https://docs.fluentd.org/"
+  ],
+  "sitemap_urls": [
+    "https://docs.fluentd.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='--container-'] h1",
+    "lvl1": "[class*='--container-'] h2",
+    "lvl2": "[class*='--container-'] h3",
+    "lvl3": "[class*='--container-'] h4",
+    "lvl4": "[class*='--container-'] h5",
+    "lvl5": "[class*='--container-'] h6",
+    "text": "[class*='--container-'] p, [class*='--container-'] li"
+  },
+  "conversation_id": [
+    "1385634083"
+  ],
+  "nb_hits": 18115
+}

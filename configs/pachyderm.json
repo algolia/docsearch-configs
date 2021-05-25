@@ -1,0 +1,142 @@
+{
+    "index_name": "pachyderm",
+    "start_urls": [
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/concepts/",
+            "page_rank": 10,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/how-tos/",
+            "page_rank": 5,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/reference/pipeline_spec/",
+            "page_rank": 10,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/reference/pachctl/",
+            "page_rank": 1,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/reference/",
+            "page_rank": 5,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/examples/examples/",
+            "page_rank": 5,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/getting_started/",
+            "page_rank": 5,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/deploy-manage/",
+            "page_rank": 5,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/enterprise/",
+            "page_rank": 5,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/troubleshooting/",
+            "page_rank": 5,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/contributing/",
+            "page_rank": 1,
+            "variables": {
+                "version": [
+                    "latest"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pachyderm.com/(?P<version>.*?)/",
+            "page_rank": 5,
+            "variables": {
+                "version": [
+                    "latest",
+                    "1.12.x",
+                    "1.11.x"
+                ]
+            }
+        }
+    ],
+    "stop_urls": [],
+    "sitemap_urls": [
+        "https://docs.pachyderm.com/latest/sitemap.xml",
+        "https://docs.pachyderm.com/1.12.x/sitemap.xml",
+        "https://docs.pachyderm.com/1.11.x/sitemap.xml"
+    ],
+    "selectors": {
+        "lvl0": {
+            "selector": ".md-tabs__link.md-tabs__link--active",
+            "global": true,
+            "default_value": "Documentation"
+        },
+        "lvl1": "article h1",
+        "lvl2": "article h2",
+        "text": "article h3, article h4, article h5, article p, article li"
+    },
+    "strip_chars": " .,;:#¶",
+    "custom_settings": {
+        "separatorsToIndex": "_",
+        "attributesForFaceting": [
+            "version"
+        ]
+    },
+    "conversation_id": [
+        "1418722039"
+    ],
+    "nb_hits": 20567
+}

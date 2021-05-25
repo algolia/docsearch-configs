@@ -22,7 +22,7 @@
     "lvl5": ".post-content h6",
     "text": ".post-content p, .post-content li, .post-content td:not(first-child)"
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "custom_settings": {
     "separatorsToIndex": "_"
   },

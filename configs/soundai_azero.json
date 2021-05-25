@@ -1,0 +1,20 @@
+{
+  "index_name": "soundai_azero",
+  "start_urls": [
+    "https://doc-fat-azero.soundai.cn/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "1245043382"
+  ],
+  "nb_hits": 831
+}

@@ -1,0 +1,44 @@
+{
+  "index_name": "calindra",
+  "start_urls": [
+    "https://developer.ame.calindra.com.br/docs/",
+    "https://super-app-client.calindra.com.br/docs/",
+    "https://ame-app-tools.calindra.com.br/docs/",
+    "https://ame-miniapp-components.calindra.com.br/docs/"
+  ],
+  "sitemap_urls": [
+    "https://developer.ame.calindra.com.br/sitemap.xml",
+    "https://super-app-client.calindra.com.br/sitemap.xml",
+    "https://ame-app-tools.calindra.com.br/sitemap.xml",
+    "https://ame-miniapp-components.calindra.com.br/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".post h1",
+    "lvl2": ".post h2",
+    "lvl3": ".post h3",
+    "lvl4": ".post h4",
+    "lvl5": ".post h5",
+    "text": ".post article p, .post article li"
+  },
+  "selectors_exclude": [
+    ".hash-link"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1436984933"
+  ],
+  "nb_hits": 36567
+}

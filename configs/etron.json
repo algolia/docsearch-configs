@@ -1,0 +1,23 @@
+{
+  "index_name": "etron",
+  "start_urls": [
+    "https://helpcenter.etron.de/wiki/onretail"
+  ],
+  "sitemap_urls": [
+    "https://helpcenter.etron.de/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".doc-section h1.section-title",
+    "lvl1": ".doc-section #content h1",
+    "lvl2": ".doc-section #content h2",
+    "lvl3": ".doc-section #content h3",
+    "lvl4": ".doc-section #content h4",
+    "lvl5": ".doc-section #content h5",
+    "text": ".doc-section #content p, .doc-section #content li"
+  },
+  "conversation_id": [
+    "1422100384"
+  ],
+  "nb_hits": 2172
+}

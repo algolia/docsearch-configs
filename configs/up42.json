@@ -1,0 +1,27 @@
+{
+  "index_name": "up42",
+  "start_urls": [
+    "https://docs.up42.com"
+  ],
+  "sitemap_urls": [
+    "https://docs.up42.com/sitemap.xml"
+  ],
+  "stop_urls": ["/$", "/components"],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li, main td"
+  },
+  "conversation_id": [
+    "1424628876"
+  ],
+  "nb_hits": 4085
+}

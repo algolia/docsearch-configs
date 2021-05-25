@@ -1,39 +1,27 @@
 {
   "index_name": "milvus",
   "start_urls": [
-    "https://milvus.io/docs/",
-    "https://milvus.io/docs/en/QuickStart"
+    "https://milvus.io/docs"
   ],
   "sitemap_urls": [
     "https://milvus.io/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
+      "selector": "",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "lvl5": ".post h5",
-    "text": ".post article p, .post article li"
-  },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
-  "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
   },
   "conversation_id": [
-    "893431218"
+    "1509698725"
   ],
-  "nb_hits": 943
+  "nb_hits": 26982
 }

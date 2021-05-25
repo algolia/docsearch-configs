@@ -1,10 +1,10 @@
 {
   "index_name": "kintohub",
   "start_urls": [
-    "https://docs.kintohub.com/"
+    "https://www.kintohub.com/"
   ],
   "sitemap_urls": [
-    "https://docs.kintohub.com/sitemap.xml"
+    "https://www.kintohub.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -39,7 +39,7 @@
       "type"
     ]
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "550159762"
   ],

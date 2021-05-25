@@ -1,0 +1,24 @@
+{
+  "index_name": "pipservices",
+  "start_urls": [
+    "https://banalna.github.io/hugo-docs"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content-title h1",
+    "lvl2": ".td-content blockquote",
+    "lvl3": ".td-content ul",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": ".td-content p"
+  },
+  "conversation_id": [
+    "1462093059"
+  ],
+  "nb_hits": 6164
+}

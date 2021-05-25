@@ -1,7 +1,7 @@
 {
   "index_name": "arionum",
   "start_urls": [
-    "https://aro-docs.pxgamer.xyz"
+    "https://arionum-docs.netlify.app"
   ],
   "stop_urls": [],
   "selectors": {
@@ -32,6 +32,6 @@
   "conversation_id": [
     "873325718"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "nb_hits": 280
 }

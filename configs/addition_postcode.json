@@ -1,7 +1,7 @@
 {
   "index_name": "addition_postcode",
   "start_urls": [
-    "https://support.postcode.addition.app/"
+    "https://support.postcodeshipping.com/"
   ],
   "stop_urls": [],
   "selectors": {

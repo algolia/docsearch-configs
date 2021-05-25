@@ -1,7 +1,7 @@
 {
   "index_name": "qi_163",
   "start_urls": [
-    "https://qi.163.com/docs/"
+    "https://qiyukf.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -36,6 +36,6 @@
   "conversation_id": [
     "1135408567"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 3392
+  "scrape_start_urls": false,
+  "nb_hits": 4034
 }

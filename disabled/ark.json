@@ -1,0 +1,24 @@
+{
+  "index_name": "ark",
+  "start_urls": [
+    "https://learn.ark.dev/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='wholeContentPage'] h1",
+    "lvl1": "[class*='wholeContentPage'] h2",
+    "lvl2": "[class*='wholeContentPage'] h3",
+    "lvl3": "[class*='wholeContentPage'] h4",
+    "lvl4": "[class*='wholeContentPage'] h5",
+    "text": "[class*='wholeContentPage'] p, [class*='wholeContentPage'] li"
+  },
+  "scrape_start_urls": false,
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "644608285"
+  ],
+  "nb_hits": 3305
+}

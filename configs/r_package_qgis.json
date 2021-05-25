@@ -1,0 +1,76 @@
+{
+  "index_name": "r_package_qgis",
+  "start_urls": [
+    {
+      "url": "https://jancaha.github.io/r_package_qgis/index.html",
+      "selectors_key": "homepage",
+      "tags": [
+        "homepage"
+      ]
+    },
+    {
+      "url": "https://jancaha.github.io/r_package_qgis/reference",
+      "selectors_key": "reference",
+      "tags": [
+        "reference"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://jancaha.github.io/r_package_qgis/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/reference/$",
+    "/reference/index.html"
+  ],
+  "selectors": {
+    "homepage": {
+      "lvl0": {
+        "selector": ".contents h1",
+        "default_value": "Home"
+      },
+      "lvl1": ".contents h2",
+      "lvl2": {
+        "selector": ".contents h3",
+        "default_value": "Context"
+      },
+      "lvl3": ".contents h4",
+      "text": ".contents p, .contents li, .contents .pre"
+    },
+    "reference": {
+      "lvl0": {
+        "selector": ".row h1",
+        "default_value": "Reference"
+      },
+      "lvl1": ".row h2",
+      "lvl2": ".row h3",
+      "text": ".row p, .row li"
+    },
+    "default": {
+      "lvl0": ".contents h1",
+      "lvl1": ".contents h2",
+      "lvl2": ".contents h3",
+      "lvl3": ".contents h4",
+      "lvl4": ".contents h5",
+      "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
+    }
+  },
+  "selectors_exclude": [
+    ".dont-index"
+  ],
+  "min_indexed_level": 2,
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor"
+    ]
+  },
+  "conversation_id": [
+    "1315121821"
+  ],
+  "nb_hits": 14901
+}

@@ -2,7 +2,7 @@
   "index_name": "craftcms",
   "start_urls": [
     {
-      "url": "https://docs.craftcms.com/(?P<version>.*?)/ja",
+      "url": "https://docs.craftcms.com/commerce/api/(?P<version>.*?)/",
       "variables": {
         "version": [
           "v2",
@@ -10,63 +10,46 @@
         ]
       },
       "tags": [
-        "doc",
-        "ja"
-      ]
-    },
-    {
-      "url": "https://docs.craftcms.com/(?P<version>.*?)",
-      "variables": {
-        "version": [
-          "v2",
-          "v3"
-        ]
-      },
-      "tags": [
-        "doc",
-        "en"
-      ]
-    },
-    {
-      "url": "https://docs.craftcms.com/api/(?P<version>.*?)",
-      "variables": {
-        "version": [
-          "v2",
-          "v3"
-        ]
-      },
-      "tags": [
+        "commerce",
         "api",
         "en"
-      ],
-      "selectors_key": "api"
+      ]
+    },
+    {
+      "url": "https://docs.craftcms.com/api/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v2",
+          "v3"
+        ]
+      },
+      "tags": [
+        "craftcms",
+        "api",
+        "en"
+      ]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://craftcms.com/docs/sitemap.xml"
+  ],
   "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": "span.site-name",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": ".theme-default-content h1",
-      "lvl2": ".theme-default-content h2",
-      "lvl3": ".theme-default-content h3",
-      "lvl4": ".theme-default-content h4",
-      "text": ".theme-default-content p, .theme-default-content li"
+    "lvl0": {
+      "selector": "span.site-name",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "api": {
-      "lvl0": {
-        "selector": ".theme-default-content h1",
-        "global": true,
-        "default_value": "Api"
-      },
-      "lvl1": ".theme-default-content h2",
-      "lvl2": ".theme-default-content h3 code",
-      "lvl3": ".theme-default-content h4",
-      "lvl4": ".theme-default-content h5",
-      "text": ".theme-default-content p, .theme-default-content li"
+    "lvl1": ".theme-default-content h1",
+    "lvl2": ".theme-default-content h2",
+    "lvl3": ".theme-default-content h3",
+    "lvl4": ".theme-default-content h4",
+    "lvl5": ".theme-default-content h5",
+    "text": ".theme-default-content p, .theme-default-content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
     }
   },
   "selectors_exclude": [
@@ -76,5 +59,12 @@
   "conversation_id": [
     "555461426"
   ],
-  "nb_hits": 92950
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags",
+      "version",
+      "lang"
+    ]
+  },
+  "nb_hits": 114584
 }

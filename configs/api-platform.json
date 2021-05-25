@@ -5,7 +5,8 @@
       "url": "https://api-platform.com/docs/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "master",
+          "main",
+          "2.6",
           "2.5",
           "2.4",
           "2.3",
@@ -38,7 +39,7 @@
   "selectors_exclude": [
     "#other-resources"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "266860983"
   ],

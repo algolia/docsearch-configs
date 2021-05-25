@@ -1,7 +1,12 @@
 {
   "index_name": "demisto",
   "start_urls": [
-    "https://xsoar.pan.dev/docs/"
+    {
+      "url": "https://xsoar.pan.dev/",
+      "tags": [
+        "xsoar"
+      ]
+    }
   ],
   "sitemap_urls": [
     "https://xsoar.pan.dev/sitemap.xml"
@@ -10,7 +15,8 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -18,22 +24,30 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5",
-    "lvl6": "article h6",
-    "text": "article p, article li"
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "anchor",
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag",
+      "tags"
+    ],
+    "attributesToRetrieve": [
       "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
       "type"
     ]
   },
   "conversation_id": [
     "1106052758"
   ],
-  "nb_hits": 56539
+  "nb_hits": 318114
 }

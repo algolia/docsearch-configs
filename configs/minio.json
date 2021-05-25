@@ -2,13 +2,13 @@
   "index_name": "minio",
   "start_urls": [
     {
-      "url": "https://docs.minio.io/cn/",
+      "url": "https://docs.min.io/cn/",
       "tags": [
         "cn"
       ]
     },
     {
-      "url": "https://docs.minio.io/",
+      "url": "https://docs.min.io/",
       "tags": [
         "en"
       ]
@@ -18,10 +18,13 @@
     "/login$",
     "https://docs.minio.io/docs/minio-quickstart-guide"
   ],
+  "sitemap_urls": [
+    "https://docs.min.io/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "//ul[contains(@class, 'main__menu')]/li/ul/li/a[contains(@class, 'active')]/../../preceding::a[1]",
-      "type": "xpath"
+      "selector": "",
+      "default_value": "Documentation"
     },
     "lvl1": "section h1",
     "lvl2": "section h2",
@@ -34,5 +37,5 @@
   "conversation_id": [
     "319668648"
   ],
-  "nb_hits": 6707
+  "nb_hits": 9739
 }

@@ -1,0 +1,27 @@
+{
+  "index_name": "wundergraph",
+  "start_urls": [
+    "https://wundergraph.com/docs"
+  ],
+  "sitemap_urls": [
+    "https://wundergraph.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "h1",
+    "lvl2": "h2",
+    "lvl3": "h3",
+    "lvl4": "h4",
+    "lvl5": "h5",
+    "text": "p, li"
+  },
+  "conversation_id": [
+    "1450303224"
+  ],
+  "nb_hits": 132
+}

@@ -1,0 +1,27 @@
+{
+  "index_name": "uniformcss",
+  "start_urls": [
+    "https://uniformcss.com/"
+  ],
+  "sitemap_urls": [
+    "https://uniformcss.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docsearch-content h1",
+    "lvl2": ".docsearch-content h2",
+    "lvl3": ".docsearch-content h3",
+    "lvl4": ".docsearch-content h4",
+    "lvl5": ".docsearch-content h5",
+    "text": ".docsearch-content p, .docsearch-content li"
+  },
+  "conversation_id": [
+    "1423907520"
+  ],
+  "nb_hits": 2524
+}

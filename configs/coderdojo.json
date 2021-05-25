@@ -1,7 +1,10 @@
 {
   "index_name": "coderdojo",
   "start_urls": [
-    "https://coderdojo.jp/docs/"
+    "https://coderdojo.jp/docs/",
+    "https://coderdojo.jp/kata",
+    "https://coderdojo.jp/stats",
+    "https://coderdojo.jp/podcasts"
   ],
   "sitemap_urls": [
     "https://coderdojo.jp/sitemap.xml"
@@ -16,7 +19,6 @@
     "lvl5": "section h6",
     "text": "section p, section li"
   },
-  "scrap_start_urls": false,
   "conversation_id": [
     "796519865"
   ],

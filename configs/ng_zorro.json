@@ -37,7 +37,6 @@
     "text": "article p, article li"
   },
   "js_render": true,
-  "scrap_start_urls": true,
   "js_wait": 1,
   "strip_chars": "#",
   "min_indexed_level": 1,

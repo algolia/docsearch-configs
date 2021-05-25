@@ -2,91 +2,53 @@
   "index_name": "collab",
   "start_urls": [
     {
-      "url": "https://docs.collab.net/teamforge201/",
-      "tags": [
-        "teamforge201"
-      ]
-    },
-    {
-      "url": "https://docs.collab.net/teamforge200/",
-      "tags": [
-        "teamforge200"
-      ]
-    },
-    {
-      "url": "https://docs.collab.net/teamforge193/",
-      "tags": [
-        "teamforge193"
-      ]
-    },
-    {
-      "url": "https://docs.collab.net/teamforge192/",
-      "tags": [
-        "teamforge192"
-      ]
-    },
-    {
-      "url": "https://docs.collab.net/teamforge191/",
-      "tags": [
-        "teamforge191"
-      ]
-    },
-    {
-      "url": "https://docs.collab.net/teamforge190/",
-      "tags": [
-        "teamforge190"
-      ]
-    },
-    {
-      "url": "https://docs.collab.net/teamforge183/",
-      "tags": [
-        "teamforge183"
-      ]
-    },
-    {
-      "url": "https://docs.collab.net/teamforge182/",
-      "tags": [
-        "teamforge182"
-      ]
-    },
-    {
-      "url": "https://docs.collab.net/teamforge181/",
-      "tags": [
-        "teamforge181"
-      ]
+      "url": "https://docs.collab.net/(?P<tags>.*?)/",
+      "variables": {
+        "tags": [
+          "teamforge210",
+          "teamforge203",
+          "teamforge202",
+          "teamforge201",
+          "teamforge200",
+          "teamforge193",
+          "teamforge192",
+          "teamforge191",
+          "teamforge190",
+          "teamforge183",
+          "teamforge182",
+          "teamforge181"
+        ]
+      }
     }
   ],
   "stop_urls": [
-    "https://docs.collab.net/teamforge181/index.html",
     "\\?",
     "/javadoc/"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "//*[@id='mysidebar']/li/ul/li[contains(@class, 'active')]/a/../../../a",
-      "type": "xpath",
-      "global": true,
+      "selector": "",
       "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": "//*[@id='mysidebar']/li/ul/li[contains(@class, 'active')]/a",
-      "type": "xpath",
-      "global": true
-    },
-    "lvl2": ".post-header h1",
-    "lvl3": ".post-content h2",
-    "lvl4": ".post-content h3",
-    "lvl5": ".post-content h4",
-    "lvl6": ".post-content h5",
-    "text": ".post-content p, .post-content li, .post-content .summary"
+    "lvl1": ".post-header h1",
+    "lvl2": ".post-content h2",
+    "lvl3": ".post-content h3",
+    "lvl4": ".post-content h4",
+    "lvl5": ".post-content h5",
+    "text": ".post-content p, .post-content li"
   },
   "min_indexed_level": 1,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "selectors_exclude": [
     "#toc"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
   "conversation_id": [
     "555093088"
   ],
-  "nb_hits": 166197
+  "nb_hits": 222670
 }

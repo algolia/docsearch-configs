@@ -1,16 +1,15 @@
 {
   "index_name": "gorilla",
   "start_urls": [
-    "https://gorilla.sc/support"
+    "https://support.gorilla.sc/support/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".container h1",
-    "lvl1": ".container p.support-subtitle-light",
-    "lvl2": ".container h3",
-    "lvl3": ".container h4",
-    "lvl4": ".container h5",
-    "text": ".container p, .container li"
+    "lvl0": ".tab-content h1",
+    "lvl1": ".tab-content h3",
+    "lvl2": ".tab-content h4",
+    "lvl3": ".tab-content h5",
+    "text": ".tab-content p, .tab-content li"
   },
   "selectors_exclude": [
     ".support-nav-panel"
@@ -18,5 +17,5 @@
   "conversation_id": [
     "454545227"
   ],
-  "nb_hits": 6333
+  "nb_hits": 6875
 }

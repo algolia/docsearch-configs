@@ -1,12 +1,15 @@
 {
   "index_name": "tigera",
   "start_urls": [
-    "https://docs.tigera.io"
+    "https://docs.tigera.io/"
   ],
   "sitemap_urls": [
-    "https://docs.tigera.io/sitemap.xml"
+    "https://docs.tigera.io/sitemap.xml",
+    "https://docs.tigera.io/release-legacy-sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/releases"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "#navbar .active, #sidebar .panel-heading.current-page",
@@ -18,7 +21,7 @@
     "lvl3": "#content-main h3",
     "lvl4": "#content-main h4",
     "lvl5": "#content-main h5",
-    "text": "#content-main p, #content-main li, #content-main tbody td"
+    "text": "#content-main p, #content-main li"
   },
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -33,5 +36,5 @@
     "737300877"
   ],
   "min_indexed_level": 2,
-  "nb_hits": 118885
+  "nb_hits": 28410
 }

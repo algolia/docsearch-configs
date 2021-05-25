@@ -1,0 +1,27 @@
+{
+  "index_name": "ueberdosis_tiptap",
+  "start_urls": [
+    "https://www.tiptap.dev/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//nav[contains(@class,'app__sidebar')]//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".app__main h1",
+    "lvl2": ".app__main h2",
+    "lvl3": ".app__main h3",
+    "lvl4": ".app__main h4",
+    "lvl5": ".app__main h5",
+    "lvl6": ".app__main h6",
+    "text": ".app__main p, .app__main li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1253205491"
+  ],
+  "nb_hits": 281
+}

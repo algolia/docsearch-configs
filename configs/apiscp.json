@@ -1,8 +1,6 @@
 {
   "index_name": "apiscp",
-  "start_urls": [
-    "https://docs.apiscp.com"
-  ],
+  "start_urls": ["https://docs.apiscp.com/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -23,18 +21,12 @@
       "default_value": "en-US"
     }
   },
-  "selectors_exclude": [
-    ".table-of-contents"
-  ],
+  "selectors_exclude": [".table-of-contents"],
   "strip_chars": " .,;:#",
   "custom_settings": {
-    "attributesForFaceting": [
-      "lang"
-    ]
+    "attributesForFaceting": ["lang"]
   },
-  "conversation_id": [
-    "1080540702"
-  ],
-  "scrap_start_urls": false,
-  "nb_hits": 2221
+  "conversation_id": ["1457939354"],
+  "scrape_start_urls": false,
+  "nb_hits": 4050
 }

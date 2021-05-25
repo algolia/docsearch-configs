@@ -5,8 +5,11 @@
     "https://www.onechronos.com/docs/expressive/",
     "https://www.onechronos.com/docs/expressive/bidding_guide"
   ],
-  "stop_urls": [
-    "https://www.onechronos.com/docs/fix/fix-42/v1"
+  "start_urls": [
+    "https://www.onechronos.com/docs/",
+    "https://www.onechronos.com/docs/fix/fix-42/",
+    "https://www.onechronos.com/docs/fix/primer",
+    "https://www.onechronos.com/docs/symbology"
   ],
   "sitemap_urls": ["https://www.onechronos.com/sitemap/sitemap-index.xml"],
   "selectors": {
@@ -18,8 +21,9 @@
     "lvl5": ".docs-col h6",
     "text": ".docs-col p, .docs-col li"
   },
+  "use_anchors": true,
   "conversation_id": [
     "1211843188"
   ],
-  "nb_hits": 918
+  "nb_hits": 1553
 }

@@ -21,7 +21,7 @@
     "text": ".Grid p, .Grid li"
   },
   "min_indexed_level": 2,
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "conversation_id": [
     "259761823"
   ],

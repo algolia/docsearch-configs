@@ -1,0 +1,25 @@
+{
+  "index_name": "next-drupal",
+  "start_urls": [
+    "https://next-drupal.org/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".DocSearch-content h1",
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "selectors_exclude": [
+    "main style"
+  ],
+  "strip_chars": " .,;:#",
+  "only_content_level": true,
+  "conversation_id": [
+    "1473895095"
+  ],
+  "nb_hits": 177
+}

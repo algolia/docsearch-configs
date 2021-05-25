@@ -1,0 +1,31 @@
+{
+  "index_name": "godotengine",
+  "start_urls": [
+    {
+      "url": "https://docs.godotengine.org/en/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://docs.godotengine.org/en/latest/",
+          "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dl:nth-child(2) dd')){versions.push(b.innerText)};return JSON.stringify(versions)"
+        }
+      }
+    }
+  ],
+  "sitemap_urls": [
+    "https://docs.godotengine.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "conversation_id": [
+    "1430466848"
+  ],
+  "nb_hits": 201118
+}

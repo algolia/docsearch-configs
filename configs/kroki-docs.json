@@ -14,7 +14,6 @@
   "sitemap_urls": [
     "https://docs.kroki.io/sitemap.xml"
   ],
-  "scrap_start_urls": true,
   "stop_urls": [],
   "selectors": {
     "default": {

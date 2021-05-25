@@ -1,0 +1,24 @@
+{
+  "index_name": "mef",
+  "start_urls": [
+    "https://mef.dev/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1473154787"
+  ],
+  "nb_hits": 17241
+}

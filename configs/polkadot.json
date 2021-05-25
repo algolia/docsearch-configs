@@ -1,10 +1,11 @@
 {
   "index_name": "polkadot",
   "start_urls": [
-    "https://wiki.polkadot.network/docs/"
+    "https://wiki.polkadot.network/docs/",
+    "https://wiki.polkadot.network/docs/en/getting-started"
   ],
   "sitemap_urls": [
-    "https://wiki.polkadot.network/docs/en/sitemap.xml"
+    "https://wiki.polkadot.network/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -34,5 +35,5 @@
   "conversation_id": [
     "969238060"
   ],
-  "nb_hits": 10901
+  "nb_hits": 10874
 }

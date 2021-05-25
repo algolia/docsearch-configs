@@ -1,0 +1,23 @@
+{
+  "index_name": "doubleio",
+  "start_urls": [
+    "http://doubleio.com/"
+  ],
+  "sitemap_urls": [
+    "http://doubleio.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".post h1",
+    "lvl1": ".post__entry h2",
+    "lvl2": ".post__entry h3",
+    "lvl3": ".post__entry h4",
+    "lvl4": ".post__entry h5",
+    "text": ".post__entry p, .post__entry li"
+  },
+  "only_content_level": true,
+  "conversation_id": [
+    "1273018029"
+  ],
+  "nb_hits": 366
+}

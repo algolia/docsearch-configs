@@ -1,0 +1,23 @@
+{
+  "index_name": "operatorframework",
+  "start_urls": [
+    "https://olm.operatorframework.io/docs"
+  ],
+  "sitemap_urls": [
+    "https://olm.operatorframework.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "nav.td-sidebar-nav > ul.td-sidebar-nav__section > li.td-sidebar-nav__section-title",
+    "lvl1": ".td-sidebar-nav__section-title > a.active",
+    "lvl2": ".td-content h1",
+    "lvl3": ".td-content h2",
+    "lvl4": ".td-content h3",
+    "lvl5": ".td-content h4",
+    "text": ".td-content p, .td-content .lead"
+  },
+  "conversation_id": [
+    "1287742679"
+  ],
+  "nb_hits": 666
+}

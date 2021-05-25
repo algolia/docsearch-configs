@@ -26,7 +26,10 @@
     }
   },
   "strip_chars": " .,;:#",
-  "scrap_start_urls": false,
+  "selectors_exclude": [
+    "h1 + blockquote"
+  ],
+  "scrape_start_urls": false,
   "custom_settings": {
     "attributesForFaceting": [
       "language",
@@ -44,5 +47,5 @@
   "conversation_id": [
     "1239032924"
   ],
-  "nb_hits": 3630
+  "nb_hits": 3659
 }

@@ -1,21 +1,47 @@
 {
   "index_name": "zumasys",
-  "start_urls": [
-    "https://docs.zumasys.com/"
+  "start_urls": [{
+    "url": "https://docs.zumasys.com/accuterm/",
+    "tags": ["accuterm"],
+    "page_rank": 2
+  },{
+    "url": "https://docs.zumasys.com/customer-portal/",
+    "tags": ["customer-portal"],
+    "page_rank": 7
+  },{
+    "url": "https://docs.zumasys.com/jbase/",
+    "tags": ["jbase"],
+    "page_rank": 1
+  },{
+    "url": "https://docs.zumasys.com/mv-connect/",
+    "tags": ["mv-connect"],
+    "page_rank": 3
+  },{
+    "url": "https://docs.zumasys.com/mv-dashboard/",
+    "tags": ["mv-dashboard"],
+    "page_rank": 4
+  },{
+    "url": "https://docs.zumasys.com/pos-connect/",
+    "tags": ["pos-connect"],
+    "page_rank": 5
+  },{
+    "url": "https://docs.zumasys.com/smartsuite/",
+    "tags": ["smartsuite"],
+    "page_rank": 6
+  }
   ],
-  "stop_urls": [],
+  "sitemap_urls": ["https://docs.zumasys.com/sitemap.xml"],
+  "stop_urls": [
+    ".*(?<!/)$"
+  ],
   "selectors": {
-    "text": ".theme-default-content p, .theme-default-content li",
-    "lvl0": {
-      "selector": "p.sidebar-heading.open",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".theme-default-content h2",
-    "lvl2": ".theme-default-content h3",
-    "lvl3": ".theme-default-content h4",
-    "lvl4": ".theme-default-content h5",
-    "lvl5": ".theme-default-content h6",
+    "text": ".theme-default-content p, .theme-default-content li, .theme-default-content code",
+    "lvl0": ".theme-default-content h1",
+    "lvl1": ".theme-default-content span.badge",
+    "lvl2": ".theme-default-content h2",
+    "lvl3": ".theme-default-content h3",
+    "lvl4": ".theme-default-content h4",
+    "lvl5": ".theme-default-content h5",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -23,7 +49,7 @@
       "default_value": "en-US"
     }
   },
-  "scrap_start_urls": false,
+  "scrape_start_urls": true,
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [

@@ -1,0 +1,83 @@
+{
+  "index_name": "frame",
+  "start_urls": [
+    {
+      "url": "https://developer.frame.io/docs/",
+      "tags": [
+        "docs"
+      ],
+      "selectors_key": "docs",
+      "page_rank": 10
+    },
+    {
+      "url": "https://developer.frame.io/api/reference/",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ],
+      "page_rank": 7
+    },
+    {
+      "url": "https://developer.frame.io/",
+      "tags": [
+        "portal"
+      ],
+      "selectors_key": "portal",
+      "page_rank": 5
+    }
+  ],
+  "selectors_exclude": [
+    "aside"
+  ],
+  "sitemap_urls": [
+    "https://gist.githubusercontent.com/jhodges10/6af161631f4f1a61099ada8c4606b331/raw/ae2e3926ceb23d5e9548182e4336f77b5020642e/sitemap.xml"
+  ],
+  "stop_urls": [
+    "https://developer.frame.io/api/reference/operation/getInstallationForMe/",
+    "https://developer.frame.io/api/reference/operation/getSubtitles/"
+  ],
+  "selectors": {
+    "portal": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Developer Portal"
+      },
+      "lvl1": "[class^='hero__Header'] h1",
+      "lvl2": "[class^='layout__Container'] h2",
+      "lvl3": "[class^='layout__Container'] h3",
+      "lvl4": "[class^='layout__Container'] h4",
+      "lvl5": "[class^='layout__Container'] h5",
+      "text": "[class^='layout__Container'] p, [class^='layout__Container'] li"
+    },
+    "docs": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guides"
+      },
+      "lvl1": ".header-wrapper h1",
+      "lvl2": ".header-wrapper h2",
+      "lvl3": "main h1, h2, h3, h4, h5, h6",
+      "lvl4": "main .custom-block",
+      "text": "main p"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API Reference"
+      },
+      "lvl1": ".api-content h2",
+      "lvl2": ".api-content h3",
+      "lvl3": ".api-content .http-verb",
+      "text": ".api-content p"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
+  "conversation_id": [
+    "1354162550"
+  ],
+  "nb_hits": 1967
+}

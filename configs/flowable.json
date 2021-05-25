@@ -23,16 +23,12 @@
     "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "selectors_exclude": [".hash-link"],
   "custom_settings": {
-    "attributesForFaceting": [
-      "version"
-    ]
+    "attributesForFaceting": ["version"]
   },
-  "conversation_id": [
-    "846981864"
-  ],
-  "nb_hits": 14162
+  "conversation_id": ["846981864"],
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 16757
 }

@@ -1,0 +1,18 @@
+{
+  "index_name": "reactdatagrid",
+  "start_urls": ["https://reactdatagrid.io/docs/"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".global-docs-page h1",
+    "lvl2": ".global-docs-page h2",
+    "lvl3": ".global-docs-page h3",
+    "lvl4": ".global-docs-page h4",
+    "text": ".global-docs-page .global-paragraph, .global-docs-page li"
+  },
+  "conversation_id": ["1299040905"],
+  "nb_hits": 2476
+}

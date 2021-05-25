@@ -1,37 +1,53 @@
 {
   "index_name": "prefect",
   "start_urls": [
-    "http://docs.prefect.io"
+    {
+      "url": "https://docs.prefect.io/"
+    }
   ],
   "stop_urls": [
     "/api\\/([0-9]+\\.[0-9]+\\.[0-9]+)\\/.*"
   ],
   "selectors": {
-    "lvl0": "[class*='content '] h1",
-    "lvl1": "[class*='content '] h2",
-    "lvl2": "[class*='content '] h3",
-    "lvl3": "[class*='content '] h4",
-    "lvl4": "[class*='content '] h5",
-    "lvl5": "[class*='content '] h5",
-    "text": "[class*='content '] p, [class*='content '] li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true
+    "lvl0": {
+      "selector": ".content__default h1",
+      "strip_chars": " .,;:#"
+    },
+    "lvl1": {
+      "selector": ".content__default h2, .content__default h3",
+      "strip_chars": " .,;:#"
+    },
+    "lvl2": {
+      "selector": ".content__default p, .content__default li"
+    },
+    "lvl3": {
+      "selector": ".content__default h4, .content__default h5, .content__default .class-sig, .content__default .class-sig .prefect-class",
+      "strip_chars": " .,;:#"
+    },
+    "text": {
+      "selector": ".content__default code"
     }
   },
   "selectors_exclude": [
-    ".table-of-contents"
+    ".prefect-sig",
+    ".custom.content__default",
+    ".navbar",
+    ".sidebar"
   ],
+  "min_indexed_level": 1,
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
-    ]
+    ],
+    "separatorsToIndex": "_"
   },
-  "scrap_start_urls": false,
-  "strip_chars": " .,;:#",
+  "sitemap_urls": [
+    "https://docs.prefect.io/sitemap.xml"
+  ],
+  "use_anchors": true,
+  "scrape_start_urls": false,
   "conversation_id": [
     "953631434"
   ],
-  "nb_hits": 7135
+  "nb_hits": 20201
 }

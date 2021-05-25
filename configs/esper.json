@@ -3,18 +3,14 @@
   "start_urls": [
     "https://docs.esper.io"
   ],
-  "stop_urls": [
-    "\\.html$",
-    "home/console$",
-    "home/console/$"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "lvl0": "[class*='content']:not([class*='menu']) h1, [class*='content']:not([class*='menu']) :first-child .router-link-active,  [class*='content']:not([class*='menu']) :first-child a",
-    "lvl1": "[class*='content']:not([class*='menu']) h2",
-    "lvl2": "[class*='content']:not([class*='menu']) h4",
-    "lvl3": "[class*='content']:not([class*='menu']) h5",
-    "lvl4": "[class*='content']:not([class*='menu']) h6",
-    "text": "[class*='content']:not([class*='menu']) p, [class*='content']:not([class*='menu']) li",
+    "lvl0": ".theme-default-content h1",
+    "lvl1": ".theme-default-content h2",
+    "lvl2": ".theme-default-content h4",
+    "lvl3": ".theme-default-content h5",
+    "lvl4": ".theme-default-content h6",
+    "text": ".theme-default-content p, .theme-default-content li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -31,5 +27,5 @@
   "conversation_id": [
     "881063855"
   ],
-  "nb_hits": 549
+  "nb_hits": 2371
 }

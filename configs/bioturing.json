@@ -15,5 +15,7 @@
   "conversation_id": [
     "1205021340"
   ],
-  "nb_hits": 654
+  "nb_hits": 654,
+  "js_render": true,
+  "user_agent": "Algolia DocSearch Crawler"
 }

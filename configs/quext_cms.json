@@ -1,0 +1,19 @@
+{
+  "index_name": "quext_cms",
+  "start_urls": [
+    "https://docs.cms.quext.io/docs/",
+    "https://docs.cms.quext.io/docs/getting-started/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".DocSearch-content h1",
+    "lvl1": ".DocSearch-content h4",
+    "lvl2": ".DocSearch-content h5",
+    "lvl3": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "conversation_id": [
+    "1271973461"
+  ],
+  "nb_hits": 121
+}

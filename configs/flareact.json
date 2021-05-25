@@ -1,0 +1,21 @@
+{
+  "index_name": "flareact",
+  "start_urls": [
+    "https://flareact.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "text": ".prose p, .prose li",
+    "lvl0": ".prose h1",
+    "lvl1": ".prose h2",
+    "lvl2": ".prose h3",
+    "lvl3": ".prose h4",
+    "lvl4": ".prose h5",
+    "lvl5": ".prose h6"
+  },
+  "min_indexed_level": 0,
+  "conversation_id": [
+    "1274245971"
+  ],
+  "nb_hits": 191
+}

@@ -1,10 +1,10 @@
 {
   "index_name": "theodocs",
   "start_urls": [
-    "https://docs.portal.theoplayer.com/"
+    "https://docs.theoplayer.com/"
   ],
   "sitemap_urls": [
-    "https://docs.portal.theoplayer.com/sitemap.xml"
+    "https://docs.theoplayer.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,5 +20,5 @@
   "conversation_id": [
     "970380721"
   ],
-  "nb_hits": 13653
+  "nb_hits": 18919
 }

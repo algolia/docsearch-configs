@@ -1,0 +1,21 @@
+{
+  "index_name": "vue-tailwind",
+  "start_urls": [
+    "https://www.vue-tailwind.com/docs",
+    "https://www.vue-tailwind.com/docs/installation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".nuxt-content h1",
+    "lvl1": ".nuxt-content h2",
+    "lvl2": ".nuxt-content h3",
+    "lvl3": ".nuxt-content h4",
+    "lvl4": ".nuxt-content h5",
+    "lvl5": ".nuxt-content h6",
+    "text": ".nuxt-content p, .nuxt-content li"
+  },
+  "conversation_id": [
+    "1240102344"
+  ],
+  "nb_hits": 588
+}

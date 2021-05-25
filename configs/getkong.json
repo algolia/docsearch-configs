@@ -2,10 +2,10 @@
   "index_name": "getkong",
   "start_urls": [
     {
-      "url": "https://docs.konghq.com/(?P<version>.*?)/",
+      "url": "https://docs.konghq.com/gateway-oss/(?P<version>.*?)/",
       "variables": {
         "version": {
-          "url": "https://docs.konghq.com/",
+          "url": "https://docs.konghq.com/gateway-oss/",
           "js": "var versions = $('ul[aria-labelledby=version-dropdown] a, button#version-dropdown').map(function(i, e) { return $(e).text().replace(/\\s+/g, '').replace(/Version/g, '').replace(/\\(latest\\)/g, ''); }).toArray(); return JSON.stringify(versions);"
         }
       }
@@ -17,7 +17,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".docs-navigation > a.active",
+      "selector": ".search-selector",
       "global": true,
       "default_value": "Kong"
     },

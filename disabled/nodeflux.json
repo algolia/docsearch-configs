@@ -1,0 +1,28 @@
+{
+  "index_name": "nodeflux",
+  "start_urls": [
+    "https://docs.nodeflux.io/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.nodeflux.io/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".md-nav__title",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1233118816"
+  ],
+  "nb_hits": 484
+}

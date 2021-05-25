@@ -1,7 +1,17 @@
 {
   "index_name": "longhorn",
   "start_urls": [
-    "https://longhorn.io/docs/"
+    {
+      "url": "https://longhorn.io/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": {
+          "url": "https://longhorn.io/docs/",
+          "js": "let versions=[]; for (let b of document.querySelector('div.navbar-dropdown').querySelectorAll('a.navbar-item')){versions.push(b.innerText.match('[0-9].[0-9].[0-9]').pop())}; return JSON.stringify(versions)"
+        }
+      }
+    },
+    "https://longhorn.io/blog/",
+    "https://longhorn.io/kb/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -20,8 +30,19 @@
     "lvl5": ".docs-content h6",
     "text": ".docs-content p, .docs-content li, .subtitle"
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ],
+    "customRanking": [
+      "desc(version)",
+      "desc(weight.page_rank)",
+      "desc(weight.level)",
+      "asc(weight.position)"
+    ]
+  },
   "conversation_id": [
     "1137891565"
   ],
-  "nb_hits": 31
+  "nb_hits": 13280
 }

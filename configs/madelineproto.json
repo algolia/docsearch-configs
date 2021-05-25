@@ -1,0 +1,17 @@
+{
+  "index_name": "madelineproto",
+  "start_urls": ["https://docs.madelineproto.xyz/"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".main-content h1",
+    "lvl1": ".main-content h2",
+    "lvl2": ".main-content h3",
+    "lvl3": ".main-content h4",
+    "lvl4": ".main-content h5",
+    "lvl5": ".main-content h6",
+    "text": ".main-content p, .main-content li"
+  },
+  "strip_chars": " .,;:#",
+  "conversation_id": ["1313492461"],
+  "nb_hits": 16410
+}

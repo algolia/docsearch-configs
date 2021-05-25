@@ -1,7 +1,9 @@
 {
   "index_name": "userfront",
   "start_urls": [
-    "https://userfront.com/guide/"
+    "https://userfront.com/guide/",
+    "https://userfront.com/docs/",
+    "https://userfront.com/examples/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -35,6 +37,6 @@
   "conversation_id": [
     "1146884872"
   ],
-  "scrap_start_urls": false,
-  "nb_hits": 329
+  "scrape_start_urls": false,
+  "nb_hits": 962
 }

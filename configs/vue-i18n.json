@@ -1,0 +1,89 @@
+{
+  "index_name": "vue-i18n",
+  "start_urls": [
+    {
+      "url": "https://vue-i18n.intlify.dev/ja/guide/",
+      "selectors_key": "guide",
+      "page_rank": 10,
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://vue-i18n.intlify.dev/ja/api/",
+      "selectors_key": "api",
+      "page_rank": 8,
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "url": "https://vue-i18n.intlify.dev/guide/",
+      "selectors_key": "guide",
+      "page_rank": 10,
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://vue-i18n.intlify.dev/api/",
+      "selectors_key": "api",
+      "page_rank": 8,
+      "tags": [
+        "api"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "\\.html"
+  ],
+  "selectors": {
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guide"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li",
+      "language": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li",
+      "language": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "tags"
+    ]
+  },
+  "conversation_id": [
+    "1353981287"
+  ],
+  "nb_hits": 5477
+}

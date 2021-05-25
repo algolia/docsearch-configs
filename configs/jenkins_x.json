@@ -22,7 +22,7 @@
   "sitemap_urls": [
     "https://jenkins-x.io/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/docs/.*$", "/commands/.*$", "/about/.*$"],
   "selectors": {
     "lvl0": ".td-content h1, .documentation-copy h1",
     "lvl1": ".td-content h2, .documentation-copy h2",
@@ -42,7 +42,7 @@
     "[class^='feedback--']",
     ".section-index"
   ],
-  "scrap_start_urls": false,
+  "scrape_start_urls": false,
   "custom_settings": {
     "attributesForFaceting": [
       "lang"

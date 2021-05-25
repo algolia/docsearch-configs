@@ -1,0 +1,127 @@
+{
+  "index_name": "next_router_vuejs",
+  "start_urls": [
+    {
+      "url": "https://next.router.vuejs.org/zh/guide/migration/index.html",
+      "selectors_key": "migration",
+      "page_rank": 5,
+      "tags": [
+        "migration"
+      ]
+    },
+    {
+      "url": "https://next.router.vuejs.org/zh/guide/",
+      "selectors_key": "guide",
+      "page_rank": 10,
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://next.router.vuejs.org/zh/api/",
+      "selectors_key": "api",
+      "page_rank": 8,
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "url": "https://next.router.vuejs.org/guide/migration/index.html",
+      "selectors_key": "migration",
+      "page_rank": 5,
+      "tags": [
+        "migration"
+      ]
+    },
+    {
+      "url": "https://next.router.vuejs.org/guide/",
+      "selectors_key": "guide",
+      "page_rank": 10,
+      "tags": [
+        "guide"
+      ]
+    },
+    {
+      "url": "https://next.router.vuejs.org/api/",
+      "selectors_key": "api",
+      "page_rank": 8,
+      "tags": [
+        "api"
+      ]
+    }
+  ],
+  "stop_urls": [
+    "(?:(?<!\\.html)(?<!/))$",
+    "/guide/index.html",
+    "/api/index.html",
+    "/zh/guide/index.html",
+    "/zh/api/index.html"
+  ],
+  "selectors": {
+    "migration": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Migration"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li",
+      "language": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guide"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li",
+      "language": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li",
+      "language": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "tags"
+    ]
+  },
+  "conversation_id": [
+    "1305035158"
+  ],
+  "nb_hits": 1518
+}

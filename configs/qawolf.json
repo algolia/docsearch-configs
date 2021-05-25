@@ -1,32 +1,25 @@
 {
   "index_name": "qawolf",
   "start_urls": [
-    "https://docs.qawolf.com/docs/",
-    "https://docs.qawolf.com/docs/install"
+    "https://www.qawolf.com/docs/"
   ],
-  "sitemap_urls": [
-    "https://docs.qawolf.com/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "[class^='docItemContainer_'] h1",
-    "lvl2": "[class^='docItemContainer_'] h2",
-    "lvl3": "[class^='docItemContainer_'] h3",
-    "lvl4": "[class^='docItemContainer_'] h4",
-    "lvl5": "[class^='docItemContainer_'] h5",
-    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+    "lvl1": "[class*='Content__'] h1",
+    "lvl2": "[class*='Content__'] h2",
+    "lvl3": "[class*='Content__'] h3",
+    "lvl4": "[class*='Content__'] h4",
+    "lvl5": "[class*='Content__'] h5",
+    "text": "[class*='Content__'] p, [class*='Content__'] li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "js_render": true,
   "conversation_id": [
     "1006754778"
   ],
-  "nb_hits": 726
+  "nb_hits": 308
 }

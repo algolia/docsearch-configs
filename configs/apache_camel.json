@@ -44,9 +44,7 @@
     "https://camel.apache.org/community/articles",
     "https://camel.apache.org/docs/"
   ],
-  "sitemap_urls": [
-    "https://camel.apache.org/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://camel.apache.org/sitemap.xml"],
   "selectors": {
     "default": {
       "lvl0": "article h1",
@@ -55,14 +53,14 @@
       "text": "article p, article li"
     },
     "antora-pages": {
-      "lvl0": "div.toolbar ul li:nth-child(1) a",
-      "lvl1": "div.toolbar ul li:nth-child(2) a",
-      "lvl2": "div.toolbar ul li:nth-child(3) a",
-      "lvl3": "div.toolbar ul li:nth-child(4) a",
+      "lvl0": ".breadcrumbs ul li:nth-child(1) a",
+      "lvl1": ".breadcrumbs ul li:nth-child(2) a",
+      "lvl2": ".breadcrumbs ul li:nth-child(3) a",
+      "lvl3": ".breadcrumbs ul li:nth-child(4) a",
       "lvl4": "article h2",
       "lvl5": "article h3",
       "lvl6": {
-        "selector": "div.version-menu a.version.is-current",
+        "selector": "div.nav-panel-explore .version.is-current a",
         "global": true
       },
       "text": "article p, article li"
@@ -80,8 +78,6 @@
       "text": "article .post-content p, article .post-content li"
     }
   },
-  "conversation_id": [
-    "934065128"
-  ],
-  "nb_hits": 457798
+  "conversation_id": ["934065128"],
+  "nb_hits": 693992
 }

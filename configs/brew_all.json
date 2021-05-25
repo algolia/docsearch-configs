@@ -31,18 +31,6 @@
       }
     },
     {
-      "url": "https://formulae.brew.sh/analytics/",
-      "selectors_key": "analytics",
-      "tags": [
-        "analytics"
-      ],
-      "extra_attributes": {
-        "site": [
-          "formulae"
-        ]
-      }
-    },
-    {
       "url": "https://formulae.brew.sh/docs/",
       "selectors_key": "formulae_docs",
       "tags": [
@@ -72,6 +60,33 @@
       "tags": [
         "cask",
         "formula"
+      ],
+      "extra_attributes": {
+        "site": [
+          "formulae"
+        ]
+      }
+    },
+    {
+      "url": "https://formulae.brew.sh/analytics/$",
+      "selectors_key": "analytics",
+      "tags": [
+        "analytics",
+        "formula"
+      ],
+      "extra_attributes": {
+        "site": [
+          "formulae"
+        ]
+      }
+    },
+    {
+      "url": "https://formulae.brew.sh/analytics/",
+      "selectors_key": "install_events",
+      "tags": [
+        "analytics",
+        "formula",
+        "install_events"
       ],
       "extra_attributes": {
         "site": [
@@ -132,7 +147,7 @@
       "lvl3": "#page h4, #page td:first-child",
       "lvl4": "#page h5",
       "lvl5": "#page h6",
-      "text": "#page p, #page li, #page td:nth-child(2)",
+      "text": "#page p, #page li, #page td:nth-child(n+2)",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -146,12 +161,12 @@
         "global": true,
         "default_value": "Formulae"
       },
-      "lvl1": "#wrap h2",
-      "lvl2": "#wrap h3",
-      "lvl3": "#wrap h4",
-      "lvl4": "#wrap h5",
-      "lvl5": "#wrap h6",
-      "text": "#default p:nth-child(-n+4)",
+      "lvl1": "#default h2",
+      "lvl2": "#default h3, #default .aliases",
+      "lvl3": "#default h4, #default .oldname",
+      "lvl4": "#default h5",
+      "lvl5": "#default h6",
+      "text": "#default .desc, #default .homepage",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -163,14 +178,14 @@
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "Cask"
+        "default_value": "Casks"
       },
-      "lvl1": "#wrap h2",
-      "lvl2": "#wrap h3",
-      "lvl3": "#wrap h4",
-      "lvl4": "#wrap h5",
-      "lvl5": "#wrap h6",
-      "text": "#wrap p, #wrap li",
+      "lvl1": "#default h2",
+      "lvl2": "#default h3, #default .names",
+      "lvl3": "#default h4",
+      "lvl4": "#default h5",
+      "lvl5": "#default h6",
+      "text": "#default .desc, #default .homepage",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -184,12 +199,12 @@
         "global": true,
         "default_value": "JSON API documentation"
       },
-      "lvl1": "#wrap h2",
-      "lvl2": "#wrap h3",
-      "lvl3": "#wrap h4",
-      "lvl4": "#wrap h5",
-      "lvl5": "#wrap h6",
-      "text": "#default p:nth-child(-n+4)",
+      "lvl1": "#page h2",
+      "lvl2": "#page h3",
+      "lvl3": "#page h4",
+      "lvl4": "#page h5",
+      "lvl5": "#page h6",
+      "text": "#page p, #page li",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -201,14 +216,30 @@
       "lvl0": {
         "selector": "",
         "global": true,
-        "default_value": "Analytics data"
+        "default_value": "Formulae"
       },
-      "lvl1": "#wrap h2",
-      "lvl2": "#wrap h3",
-      "lvl3": "#wrap h4",
-      "lvl4": "#wrap h5",
-      "lvl5": "#wrap h6",
-      "text": "#wrap td:not(.number-data)",
+      "lvl1": "#page h1",
+      "lvl2": "#page h2",
+      "text": "#page td:first-child",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en"
+      }
+    },
+    "install_events": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Formulae"
+      },
+      "lvl1": {
+        "selector": "",
+        "global": true,
+        "default_value": "Analytics"
+      },
+      "lvl2": "#wrap h2",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -228,5 +259,5 @@
   "conversation_id": [
     "771112570"
   ],
-  "nb_hits": 147750
+  "nb_hits": 36822
 }

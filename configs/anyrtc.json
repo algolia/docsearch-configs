@@ -1,0 +1,28 @@
+{
+  "index_name": "anyrtc",
+  "start_urls": [
+    "https://docs.anyrtc.io/"
+  ],
+  "sitemap_urls": ["https://docs.anyrtc.io/sitemap.xml"],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".nuxt-link-active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".markdown-body h1",
+    "lvl2": ".markdown-body h2",
+    "lvl3": ".markdown-body h3",
+    "lvl4": ".markdown-body h4",
+    "lvl5": ".markdown-body h5, .markdown-body td:first-child",
+    "lvl6": ".markdown-body h6",
+    "text": ".markdown-body p, .markdown-body li, .markdown-body td:last-child"
+  },
+  "strip_chars": " .,;:#",
+  "selectors_exclude": [".header", ".footer"],
+  "conversation_id": ["1240230599"],
+  "scrape_start_urls": false,
+  "nb_hits": 30510
+}

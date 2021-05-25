@@ -1,0 +1,21 @@
+{
+  "index_name": "coder",
+  "start_urls": ["https://enterprise.coder.com/docs"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-head h1",
+    "lvl2": "#content-container h2",
+    "lvl3": "#content-container h3",
+    "lvl4": "#content-container h4",
+    "lvl5": "#content-container h5",
+    "text": "#content-container p, #content-container li"
+  },
+  "conversation_id": ["1352548682"],
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 1059
+}

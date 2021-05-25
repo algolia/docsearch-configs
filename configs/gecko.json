@@ -1,0 +1,50 @@
+{
+  "index_name": "gecko",
+  "start_urls": [
+    { "url": "https://geckodocs.github.io/docs/", "tags": ["docs"] },
+    { "url": "https://geckodocs.github.io/docs2/", "tags": ["docs2"] }
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://geckodocs.github.io/docs/sitemap.xml",
+    "https://geckodocs.github.io/docs2/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "selectors": {
+    "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag",
+      "tags"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "min_indexed_level": 0,
+  "conversation_id": ["1307368360"],
+  "nb_hits": 616
+}

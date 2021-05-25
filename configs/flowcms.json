@@ -1,0 +1,28 @@
+{
+  "index_name": "flowcms",
+  "start_urls": [
+    "https://docs.flowcms.xyz/docs/",
+    "https://docs.flowcms.xyz/docs/getting-started/"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.flowcms.xyz/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".DocSearch-content h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
+  },
+  "conversation_id": [
+    "1243813331"
+  ],
+  "nb_hits": 54
+}
