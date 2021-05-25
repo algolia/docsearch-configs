@@ -1,13 +1,15 @@
 {
   "index_name": "onechronos",
   "sitemap_urls": [
-    "https://www.onechronos.com/sitemap.xml"
+    "https://www.onechronos.com/sitemap-index.xml"
   ],
   "start_urls": [
     "https://www.onechronos.com/docs/",
     "https://www.onechronos.com/docs/fix/fix-42/",
     "https://www.onechronos.com/docs/fix/primer",
-    "https://www.onechronos.com/docs/symbology"
+    "https://www.onechronos.com/docs/symbology",
+    "https://www.onechronos.com/docs/expressive/",
+    "https://www.onechronos.com/docs/expressive/bidding_guide"
   ],
   "selectors": {
     "lvl0": ".docs-col h1",
