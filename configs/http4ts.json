@@ -1,10 +1,10 @@
 {
-  "index_name": "napoan",
+  "index_name": "http4ts",
   "start_urls": [
-    "https://asobinon.org/"
+    "https://http4ts.js.org/"
   ],
   "sitemap_urls": [
-    "https://asobinon.org/sitemap.xml"
+    "https://http4ts.js.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1508222092"
+    "1510022876"
   ],
-  "nb_hits": 383
+  "nb_hits": 175
 }

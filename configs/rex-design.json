@@ -1,10 +1,7 @@
 {
-  "index_name": "napoan",
+  "index_name": "rex-design",
   "start_urls": [
-    "https://asobinon.org/"
-  ],
-  "sitemap_urls": [
-    "https://asobinon.org/sitemap.xml"
+    "https://alibaba.github.io/rex-design/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1508222092"
+    "1499548418"
   ],
-  "nb_hits": 383
+  "nb_hits": 4075
 }

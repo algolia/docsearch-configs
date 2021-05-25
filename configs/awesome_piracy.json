@@ -1,26 +1,26 @@
 {
-  "index_name": "napoan",
+  "index_name": "awesome_piracy",
   "start_urls": [
-    "https://asobinon.org/"
+    "https://piracy.vercel.app/"
   ],
   "sitemap_urls": [
-    "https://asobinon.org/sitemap.xml"
+    "https://piracy.vercel.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
-      "type": "xpath",
+      "selector": ".menu__link--sublist.menu__link--active",
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Piracy"
     },
     "lvl1": "header h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5, article td:first-child",
-    "text": "article p, article li, article td:last-child"
+    "lvl5": "article h5",
+    "lvl6": "article h6",
+    "text": "article p, article li"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
@@ -28,8 +28,7 @@
     "attributesForFaceting": [
       "language",
       "version",
-      "type",
-      "docusaurus_tag"
+      "type"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -41,7 +40,8 @@
     ]
   },
   "conversation_id": [
-    "1508222092"
+    "1166160649"
   ],
-  "nb_hits": 383
+  "scrape_start_urls": false,
+  "nb_hits": 4690
 }

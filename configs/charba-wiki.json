@@ -1,10 +1,7 @@
 {
-  "index_name": "napoan",
+  "index_name": "charba-wiki",
   "start_urls": [
-    "https://asobinon.org/"
-  ],
-  "sitemap_urls": [
-    "https://asobinon.org/sitemap.xml"
+    "https://pepstock-org.github.io/Charba-Wiki/docs/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1508222092"
+    "1512465481"
   ],
-  "nb_hits": 383
+  "nb_hits": 12245
 }

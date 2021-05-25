@@ -1,10 +1,7 @@
 {
   "index_name": "webiny-js",
   "start_urls": [
-    "https://docs.webiny.com/"
-  ],
-  "sitemap_urls": [
-    "https://docs.webiny.com/sitemap.xml"
+    "https://www.webiny.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -44,5 +41,5 @@
   "conversation_id": [
     "1073173003"
   ],
-  "nb_hits": 3092
+  "nb_hits": 6657
 }
