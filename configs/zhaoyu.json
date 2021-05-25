@@ -1,7 +1,7 @@
 {
   "index_name": "zhaoyu",
   "start_urls": [
-    "http://www.zhaoyu.fun/"
+    "https://www.zhaoyu.link/"
   ],
   "stop_urls": [],
   "selectors": {
