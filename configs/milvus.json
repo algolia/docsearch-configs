@@ -1,7 +1,8 @@
 {
   "index_name": "milvus",
   "start_urls": [
-    "https://milvus.io/docs"
+    "https://milvus.io/docs",
+    "https://milvus.io/cn/docs"     
   ],
   "sitemap_urls": [
     "https://milvus.io/sitemap.xml"
@@ -19,6 +20,12 @@
     "lvl4": "main h4",
     "lvl5": "main h5",
     "text": "main p, main li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
   },
   "conversation_id": [
     "1509698725"
