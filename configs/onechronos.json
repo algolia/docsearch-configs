@@ -2,11 +2,13 @@
   "index_name": "onechronos",
   "start_urls": [
     "https://www.onechronos.com/docs",
-    "https://www.onechronos.com/docs/fix/fix-42/#beta"
+    "https://www.onechronos.com/docs/expressive/",
+    "https://www.onechronos.com/docs/expressive/bidding_guide"
   ],
   "stop_urls": [
     "https://www.onechronos.com/docs/fix/fix-42/v1"
   ],
+  "sitemap_urls": ["https://www.onechronos.com/sitemap/sitemap-index.xml"],
   "selectors": {
     "lvl0": ".docs-col h1",
     "lvl1": ".docs-col h2",
