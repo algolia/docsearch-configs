@@ -3,20 +3,20 @@
   "start_urls": [
 
     {
-      "url": "https://www.warp10.io/doc/functionList",
+      "url": "https://warp10.io/doc/functionList",
       "selectors_key": "doc"
     },
     {
-      "url": "https://www.warp10.io/",
-      "selectors_key": "content"
+      "url": "https://warp10.io/",
     }
   ],
   "sitemap_urls": [
-    "https://www.warp10.io/sitemap.xml"
+    "https://warp10.io/sitemap.xml"
   ],
   "stop_urls": [],
+  "selectors_exclude": [".wrapped-footer", "nav"],
   "selectors": {
-    "content": {
+    "default": {
       "lvl0": "#desc h1",
       "lvl1": "#desc h2",
       "lvl2": "#desc h3",
@@ -25,8 +25,12 @@
       "text": "#desc p"
     },
     "doc": {
-      "lvl0": "#main h1",
-      "text": "#main p"
+      "lvl0": {
+        "selector": "#main h1",
+        "default_value": "Documentation",
+        "global": true
+      },
+      "text": "#main p, #main small"
     }
   },
   "min_indexed_level": 1,
