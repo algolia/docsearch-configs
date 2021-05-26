@@ -1,11 +1,11 @@
 {
   "index_name": "plasmic",
   "start_urls": [
-    "https://www.plasmic.app/",
-    "https://www.plasmic.app/learn"
+    "https://docs.plasmic.app/",
+    "https://docs.plasmic.app/learn"
   ],
   "sitemap_urls": [
-    "https://www.plasmic.app/sitemap.xml"
+    "https://docs.plasmic.app/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
