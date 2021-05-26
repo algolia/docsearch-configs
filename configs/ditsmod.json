@@ -1,12 +1,11 @@
 {
-  "index_name": "tidalcycles",
+  "index_name": "ditsmod",
   "start_urls": [
-    "https://doc.tidalcycles.org/"
+    "https://ditsmod.github.io/"
   ],
   "sitemap_urls": [
-    "https://doc.tidalcycles.org/sitemap.xml"
+    "https://ditsmod.github.io/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -20,6 +19,7 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1521998410"
+    "1510440818"
   ],
-  "nb_hits": 5618
+  "nb_hits": 694
 }

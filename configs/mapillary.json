@@ -1,10 +1,7 @@
 {
-  "index_name": "tidalcycles",
+  "index_name": "mapillary",
   "start_urls": [
-    "https://doc.tidalcycles.org/"
-  ],
-  "sitemap_urls": [
-    "https://doc.tidalcycles.org/sitemap.xml"
+    "https://mapillary.github.io/mapillary-js/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1521998410"
+    "1522438134"
   ],
-  "nb_hits": 5618
+  "nb_hits": 8025
 }

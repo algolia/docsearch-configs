@@ -1,13 +1,15 @@
 {
-  "index_name": "tidalcycles",
+  "index_name": "dfm-automation-docs",
   "start_urls": [
-    "https://doc.tidalcycles.org/"
+    "https://dfm-automation-docs.netlify.app/"
   ],
   "sitemap_urls": [
-    "https://doc.tidalcycles.org/sitemap.xml"
+    "https://dfm-automation-docs.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": [
+    "assets"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -41,7 +43,7 @@
     ]
   },
   "conversation_id": [
-    "1521998410"
+    "1514193483"
   ],
-  "nb_hits": 5618
+  "nb_hits": 401
 }

@@ -1,10 +1,10 @@
 {
-  "index_name": "tidalcycles",
+  "index_name": "wiznet",
   "start_urls": [
-    "https://doc.tidalcycles.org/"
+    "https://docs.wiznet.io/"
   ],
   "sitemap_urls": [
-    "https://doc.tidalcycles.org/sitemap.xml"
+    "https://docs.wiznet.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1521998410"
+    "1518879937"
   ],
-  "nb_hits": 5618
+  "nb_hits": 50300
 }

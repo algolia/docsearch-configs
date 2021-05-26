@@ -1,10 +1,10 @@
 {
-  "index_name": "tidalcycles",
+  "index_name": "lsfusion",
   "start_urls": [
-    "https://doc.tidalcycles.org/"
+    "https://docs.lsfusion.org/"
   ],
   "sitemap_urls": [
-    "https://doc.tidalcycles.org/sitemap.xml"
+    "https://docs.lsfusion.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1521998410"
+    "1518062320"
   ],
-  "nb_hits": 5618
+  "nb_hits": 28718
 }
