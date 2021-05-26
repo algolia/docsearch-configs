@@ -2,6 +2,18 @@
   "index_name": "supertokens",
   "start_urls": [
     {
+      "url": "https://supertokens.io/docs/community/introduction",
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/community/",
+      "tags": [
+        "community"
+      ]
+    },
+    {
       "url": "https://supertokens.io/docs/emailpassword/",
       "tags": [
         "emailpassword"
@@ -20,15 +32,15 @@
       ]
     },
     {
-      "url": "https://supertokens.io/docs/community/introduction/",
+      "url": "https://supertokens.io/docs/session/",
       "tags": [
-        "intro"
+        "session"
       ]
     },
     {
-      "url": "https://supertokens.io/docs/community/recipes/",
+      "url": "https://supertokens.io/docs/nodejs/installation",
       "tags": [
-        "intro"
+        "nodejs"
       ]
     },
     {
@@ -38,9 +50,33 @@
       ]
     },
     {
-      "url": "https://supertokens.io/docs/auth-react/",
+      "url": "https://supertokens.io/docs/ios/installation",
       "tags": [
-        "auth-react"
+        "ios"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/ios/",
+      "tags": [
+        "ios"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/android/installation",
+      "tags": [
+        "android"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/android/",
+      "tags": [
+        "android"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/website/installation",
+      "tags": [
+        "website"
       ]
     },
     {
@@ -50,9 +86,99 @@
       ]
     },
     {
-      "url": "https://supertokens.io/docs/",
+      "url": "https://supertokens.io/docs/laravel/installation",
       "tags": [
-        "docs"
+        "laravel"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/laravel/",
+      "tags": [
+        "laravel"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/react-native/installation",
+      "tags": [
+        "react-native"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/react-native/",
+      "tags": [
+        "react-native"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/auth-react/installation",
+      "tags": [
+        "auth-react"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/auth-react/",
+      "tags": [
+        "auth-react"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/javalin/installation",
+      "tags": [
+        "javalin"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/javalin/",
+      "tags": [
+        "javalin"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/flask/installation",
+      "tags": [
+        "flask"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/flask/",
+      "tags": [
+        "flask"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/go/installation",
+      "tags": [
+        "go"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/go/",
+      "tags": [
+        "go"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/fastapi/installation",
+      "tags": [
+        "fastapi"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/fastapi/",
+      "tags": [
+        "fastapi"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/auth0/installation",
+      "tags": [
+        "auth0"
+      ]
+    },
+    {
+      "url": "https://supertokens.io/docs/auth0/",
+      "tags": [
+        "auth0"
       ]
     }
   ],
@@ -61,17 +187,12 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "lvl5": ".post h5",
-    "text": ".post article p, .post article li"
+    "lvl0": ".post h1",
+    "lvl1": ".post h2",
+    "lvl2": ".post h3",
+    "lvl3": ".post h4",
+    "lvl4": ".post h5",
+    "text": ".post p, .post li"
   },
   "selectors_exclude": [
     ".hash-link"
@@ -84,7 +205,7 @@
     ]
   },
   "js_render": true,
-  "js_wait": 2,
+  "js_wait": 8,
   "conversation_id": [
     "1483529517"
   ],
