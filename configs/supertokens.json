@@ -32,21 +32,9 @@
       ]
     },
     {
-      "url": "https://supertokens.io/docs/nodejs/installation",
-      "tags": [
-        "nodejs"
-      ]
-    },
-    {
       "url": "https://supertokens.io/docs/nodejs/",
       "tags": [
         "nodejs"
-      ]
-    },
-    {
-      "url": "https://supertokens.io/docs/ios/installation",
-      "tags": [
-        "ios"
       ]
     },
     {
@@ -56,21 +44,9 @@
       ]
     },
     {
-      "url": "https://supertokens.io/docs/android/installation",
-      "tags": [
-        "android"
-      ]
-    },
-    {
       "url": "https://supertokens.io/docs/android/",
       "tags": [
         "android"
-      ]
-    },
-    {
-      "url": "https://supertokens.io/docs/website/installation",
-      "tags": [
-        "website"
       ]
     },
     {
@@ -80,21 +56,9 @@
       ]
     },
     {
-      "url": "https://supertokens.io/docs/laravel/installation",
-      "tags": [
-        "laravel"
-      ]
-    },
-    {
       "url": "https://supertokens.io/docs/laravel/",
       "tags": [
         "laravel"
-      ]
-    },
-    {
-      "url": "https://supertokens.io/docs/react-native/installation",
-      "tags": [
-        "react-native"
       ]
     },
     {
@@ -104,21 +68,9 @@
       ]
     },
     {
-      "url": "https://supertokens.io/docs/auth-react/installation",
-      "tags": [
-        "auth-react"
-      ]
-    },
-    {
       "url": "https://supertokens.io/docs/auth-react/",
       "tags": [
         "auth-react"
-      ]
-    },
-    {
-      "url": "https://supertokens.io/docs/javalin/installation",
-      "tags": [
-        "javalin"
       ]
     },
     {
@@ -128,21 +80,9 @@
       ]
     },
     {
-      "url": "https://supertokens.io/docs/flask/installation",
-      "tags": [
-        "flask"
-      ]
-    },
-    {
       "url": "https://supertokens.io/docs/flask/",
       "tags": [
         "flask"
-      ]
-    },
-    {
-      "url": "https://supertokens.io/docs/go/installation",
-      "tags": [
-        "go"
       ]
     },
     {
@@ -152,21 +92,9 @@
       ]
     },
     {
-      "url": "https://supertokens.io/docs/fastapi/installation",
-      "tags": [
-        "fastapi"
-      ]
-    },
-    {
       "url": "https://supertokens.io/docs/fastapi/",
       "tags": [
         "fastapi"
-      ]
-    },
-    {
-      "url": "https://supertokens.io/docs/auth0/installation",
-      "tags": [
-        "auth0"
       ]
     },
     {
@@ -174,6 +102,9 @@
       "tags": [
         "auth0"
       ]
+    },
+    {
+      "url": "https://supertokens.io/docs/"
     }
   ],
   "sitemap_urls": [
