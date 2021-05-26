@@ -1,32 +1,36 @@
 {
   "index_name": "warp10",
   "start_urls": [
-
     {
-      "url": "https://www.warp10.io/doc/functionList",
+      "url": "https://warp10.io/doc",
       "selectors_key": "doc"
     },
-    {
-      "url": "https://www.warp10.io/",
-      "selectors_key": "content"
-    }
+    "https://warp10.io/"
   ],
   "sitemap_urls": [
-    "https://www.warp10.io/sitemap.xml"
+    "https://warp10.io/sitemap.xml"
   ],
   "stop_urls": [],
+  "selectors_exclude": [
+    ".wrapped-footer",
+    "nav"
+  ],
   "selectors": {
-    "content": {
-      "lvl0": "#desc h1",
-      "lvl1": "#desc h2",
-      "lvl2": "#desc h3",
-      "lvl3": "#desc h4",
-      "lvl4": "#desc h5",
-      "text": "#desc p"
+    "default": {
+      "lvl0": ".content-wrapper h1",
+      "lvl1": ".content-wrapper h2",
+      "lvl2": ".content-wrapper h3",
+      "lvl3": ".content-wrapper h4",
+      "lvl4": ".content-wrapper h5",
+      "text": ".content-wrapper p"
     },
     "doc": {
-      "lvl0": "#main h1",
-      "text": "#main p"
+      "lvl0": {
+        "selector": "#main h1",
+        "default_value": "Documentation",
+        "global": true
+      },
+      "text": "#main p, #main small"
     }
   },
   "min_indexed_level": 1,
@@ -34,5 +38,5 @@
   "conversation_id": [
     "708703949"
   ],
-  "nb_hits": 7518
+  "nb_hits": 5443
 }
