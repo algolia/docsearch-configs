@@ -1,12 +1,27 @@
 {
   "index_name": "milvus",
   "start_urls": [
-    "https://milvus.io/docs",
-    "https://milvus.io/cn/docs"     
+    {
+      "url": "https://milvus.io/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v1.1.0",
+          "v1.0.0"
+        ]
+      }
+    },
+    {
+      "url": "https://milvus.io/cn/docs/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v1.1.0",
+          "v1.0.0"
+        ]
+      }
+    },
+    "https://milvus.io/"
   ],
-  "sitemap_urls": [
-    "https://milvus.io/sitemap.xml"
-  ],
+  "sitemap_urls": [],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -14,12 +29,18 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "text": "main p, main li"
+    "lvl1": ".DocSearch-content h1",
+    "lvl2": ".DocSearch-content h2",
+    "lvl3": ".DocSearch-content h3",
+    "lvl4": ".DocSearch-content h4",
+    "lvl5": ".DocSearch-content h5",
+    "text": ".DocSearch-content p, .DocSearch-content li",
+    "language": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en"
+    }
   },
   "custom_settings": {
     "attributesForFaceting": [
@@ -27,8 +48,9 @@
       "version"
     ]
   },
+  "js_render": true,
   "conversation_id": [
     "1509698725"
   ],
-  "nb_hits": 26982
+  "nb_hits": 4004
 }
