@@ -2,12 +2,6 @@
   "index_name": "supertokens",
   "start_urls": [
     {
-      "url": "https://supertokens.io/docs/community/introduction",
-      "tags": [
-        "community"
-      ]
-    },
-    {
       "url": "https://supertokens.io/docs/community/",
       "tags": [
         "community"
