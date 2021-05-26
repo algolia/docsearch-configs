@@ -8,12 +8,12 @@
       "selector": "",
       "default_value": "Documentation"
     },
-    "lvl1": "#docs-content h1",
-    "lvl2": "#docs-content h2",
-    "lvl3": "#docs-content h3",
-    "lvl4": "#docs-content h4",
-    "lvl5": "#docs-content h5",
-    "text": "#docs-content p, #docs-content li"
+    "lvl1": "#__next h1",
+    "lvl2": "#__next h2",
+    "lvl3": "#__next h3",
+    "lvl4": "#__next h4",
+    "lvl5": "#__next h5",
+    "text": "#__next p, #__next li"
   },
   "conversation_id": ["1348066577"],
   "nb_hits": 3641
