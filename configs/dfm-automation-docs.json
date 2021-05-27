@@ -1,14 +1,14 @@
 {
-  "index_name": "wix_react-native-navigation",
+  "index_name": "dfm-automation-docs",
   "start_urls": [
-    "https://wix.github.io/react-native-navigation/"
+    "https://dfm-automation-docs.netlify.app/"
   ],
   "sitemap_urls": [
-    "https://wix.github.io/react-native-navigation/sitemap.xml"
+    "https://dfm-automation-docs.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
-    "="
+    "assets"
   ],
   "selectors": {
     "lvl0": {
@@ -22,7 +22,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -44,7 +43,7 @@
     ]
   },
   "conversation_id": [
-    "1126587597"
+    "1514193483"
   ],
-  "nb_hits": 9741
+  "nb_hits": 401
 }

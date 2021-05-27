@@ -1,22 +1,8 @@
 {
-  "index_name": "centreon",
+  "index_name": "netsysd",
   "start_urls": [
-    {
-      "url": "https://docs.centreon.com/(?P<version>.*?)/(?P<language>.*?)/",
-      "variables": {
-        "version": [
-          "21.04",
-          "20.10",
-          "20.04"
-        ],
-        "language": [
-          "en",
-          "fr"
-        ]
-      }
-    }
+    "http://netsysd.com/babel/"
   ],
-  "sitemap_urls": [],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -43,7 +29,7 @@
     ]
   },
   "conversation_id": [
-    "1142111397"
+    "1512183186"
   ],
-  "nb_hits": 153247
+  "nb_hits": 6610
 }
