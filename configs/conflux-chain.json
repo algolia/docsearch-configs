@@ -1,10 +1,10 @@
 {
   "index_name": "conflux-chain",
   "start_urls": [
-    "https://developer.conflux-chain.org/"
+    "https://developer.confluxnetwork.org/"
   ],
   "sitemap_urls": [
-    "https://developer.conflux-chain.org/sitemap.xml"
+    "https://developer.confluxnetwork.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
