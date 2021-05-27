@@ -1,20 +1,45 @@
 {
   "index_name": "oasisengine",
   "start_urls": [
-    "https://oasisengine.cn"
+    {
+      "url": "https://oasisengine.cn/(?P<version>.*?)/docs/",
+      "variables": {
+        "version": [
+          "0.3"
+        ]
+      }
+    },
+    {
+      "url": "https://oasisengine.cn/(?P<version>.*?)/api/",
+      "variables": {
+        "version": [
+          "0.3"
+        ]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://oasisengine.cn/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".main-container h1",
-    "lvl1": ".main-container h2",
-    "lvl2": ".main-container h3",
-    "lvl3": ".main-container h4",
-    "lvl4": ".main-container h5",
-    "lvl5": ".main-container h6",
-    "text": ".main-container p, .main-container li"
+    "lvl0": {
+      "selector": ".ant-menu-item-selected .docsearch-lvl0",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "version"
+    ]
   },
   "conversation_id": [
     "1515047792"
