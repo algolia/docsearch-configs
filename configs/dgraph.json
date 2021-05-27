@@ -2,12 +2,22 @@
   "index_name": "dgraph",
   "start_urls": [
     {
-      "url": "https://dgraph.io/docs/(?P<version>.*?)/",
+      "url": "https://dgraph.io/docs/(?P<version>master|v[0-9.]+?)/(?P<topic>dql|graphql|clients|ratel|deploy|enterprise-features|migration|faq|howto|design-concepts|releases?)/",
       "variables": {
         "version": {
           "url": "https://dgraph.io/docs",
-          "js": "var versions = $('select.version-selector option').map(function(i, e) { return $(e).text(); }).toArray(); return JSON.stringify(versions);"
-        }
+          "js": "var versions = $('select.version-selector option').map(function(i, e) { return $(e).val(); }).toArray().filter(v => v); return JSON.stringify(versions);"
+        },
+        "topic": ["dql","graphql","clients","ratel","deploy","enterprise-features","migration","faq","howto","design-concepts","releases"]
+      }
+    },
+    {
+      "url": "https://dgraph.io/docs/(?P<topic>dql|graphql|clients|ratel|deploy|enterprise-features|migration|faq|howto|design-concepts|releases?)/",
+      "variables": {
+        "topic": ["dql","graphql","clients","ratel","deploy","enterprise-features","migration","faq","howto","design-concepts","releases"]
+      }
+      "extra_attributes": {
+        "version": "latest"
       }
     },
     {
