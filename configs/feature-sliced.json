@@ -1,10 +1,10 @@
 {
-  "index_name": "conflux-chain",
+  "index_name": "feature-sliced",
   "start_urls": [
-    "https://developer.confluxnetwork.org/"
+    "https://feature-sliced.design/docs"
   ],
   "sitemap_urls": [
-    "https://developer.confluxnetwork.org/sitemap.xml"
+    "https://feature-sliced.design/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,6 +20,7 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -41,7 +42,7 @@
     ]
   },
   "conversation_id": [
-    "1472537575"
+    "1521549231"
   ],
-  "nb_hits": 4690
+  "nb_hits": 1089
 }

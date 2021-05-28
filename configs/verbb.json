@@ -31,24 +31,19 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".plugin-navbar h1",
-      "global": true,
-      "default_value": "Plugin"
-    },
-    "lvl1": {
       "selector": "//*[contains(@class,'sidebar-menu')]//li[contains(@class,'active')]/preceding::h5[1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl2": ".docs-content h1",
-    "lvl3": ".docs-content h2",
-    "lvl4": ".docs-content h3",
-    "lvl5": ".docs-content h4",
-    "lvl6": ".docs-content h5",
-    "text": ".docs-content p, .docs-content li"
+    "lvl1": ".docs-body-content h1",
+    "lvl2": ".docs-body-content h2",
+    "lvl3": ".docs-body-content h3",
+    "lvl4": ".docs-body-content h4",
+    "lvl5": ".docs-body-content h5",
+    "text": ".docs-body-content p, .docs-body-content li, .docs-body-content td"
   },
-  "strip_chars": " .,;:#",
+  "strip_chars": " .,;:#←→",
   "conversation_id": [
     "700312610"
   ],

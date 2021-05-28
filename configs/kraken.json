@@ -1,10 +1,10 @@
 {
-  "index_name": "conflux-chain",
+  "index_name": "kraken",
   "start_urls": [
-    "https://developer.confluxnetwork.org/"
+    "https://kraken.ci/"
   ],
   "sitemap_urls": [
-    "https://developer.confluxnetwork.org/sitemap.xml"
+    "https://kraken.ci/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1472537575"
+    "1524561300"
   ],
-  "nb_hits": 4690
+  "nb_hits": 2694
 }

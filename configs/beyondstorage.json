@@ -1,15 +1,15 @@
 {
-  "index_name": "conflux-chain",
+  "index_name": "beyondstorage",
   "start_urls": [
-    "https://developer.confluxnetwork.org/"
+    "https://beyondstorage.io/"
   ],
   "sitemap_urls": [
-    "https://developer.confluxnetwork.org/sitemap.xml"
+    "https://beyondstorage.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
+     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
       "type": "xpath",
       "global": true,
@@ -20,6 +20,7 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -41,7 +42,7 @@
     ]
   },
   "conversation_id": [
-    "1472537575"
+    "1324292012"
   ],
-  "nb_hits": 4690
+  "nb_hits": 496
 }
