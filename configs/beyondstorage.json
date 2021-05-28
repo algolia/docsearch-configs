@@ -1,10 +1,10 @@
 {
-  "index_name": "aos",
+  "index_name": "beyondstorage",
   "start_urls": [
-    "https://aos.dev/"
+    "https://beyondstorage.io/"
   ],
   "sitemap_urls": [
-    "https://aos.dev/sitemap.xml"
+    "https://beyondstorage.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
