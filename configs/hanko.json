@@ -1,10 +1,10 @@
 {
-  "index_name": "conflux-chain",
+  "index_name": "hanko",
   "start_urls": [
-    "https://developer.confluxnetwork.org/"
+    "https://docs.hanko.io/"
   ],
   "sitemap_urls": [
-    "https://developer.confluxnetwork.org/sitemap.xml"
+    "https://docs.hanko.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -40,8 +40,9 @@
       "type"
     ]
   },
+  "js_render": true,
   "conversation_id": [
-    "1472537575"
+    "1518277632"
   ],
-  "nb_hits": 4690
+  "nb_hits": 534
 }

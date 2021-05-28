@@ -1,0 +1,25 @@
+{
+  "index_name": "ilastik",
+  "start_urls": [
+    "https://www.ilastik.org/documentation/index.html",
+    "https://www.ilastik.org/documentation/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h1",
+    "lvl2": "section h2",
+    "lvl3": "section h3",
+    "lvl4": "section h4",
+    "lvl5": "section h5",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "1511716043"
+  ],
+  "nb_hits": 1854
+}
