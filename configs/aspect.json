@@ -1,6 +1,8 @@
 {
   "index_name": "aspect",
-  "start_urls": ["https://docs.aspect.dev"],
+  "start_urls": [
+    "https://docs.aspect.dev"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": ".container h1",
@@ -11,5 +13,8 @@
     "lvl5": ".container h6",
     "text": ".container p, .container li"
   },
-  "conversation_id": ["1512963823"]
+  "conversation_id": [
+    "1512963823"
+  ],
+  "nb_hits": 18695
 }
