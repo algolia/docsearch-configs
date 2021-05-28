@@ -7,7 +7,23 @@
         "version": [
           "0.3"
         ]
-      }
+      },
+      "tags": [
+        "en"
+      ],
+      "page_rank": 2
+    },
+    {
+      "url": "https://oasisengine.cn/(?P<version>.*?)/docs/.+?-cn",
+      "variables": {
+        "version": [
+          "0.3"
+        ]
+      },
+      "tags": [
+        "cn"
+      ],
+      "page_rank": 2
     },
     {
       "url": "https://oasisengine.cn/(?P<version>.*?)/api/",
@@ -15,7 +31,8 @@
         "version": [
           "0.3"
         ]
-      }
+      },
+      "page_rank": 1
     }
   ],
   "sitemap_urls": [
@@ -24,7 +41,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".ant-menu-item-selected .docsearch-lvl0",
+      "selector": ".docsearch-lvl0",
       "global": true,
       "default_value": "Documentation"
     },
@@ -37,7 +54,6 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "lang",
       "version"
     ]
   },
