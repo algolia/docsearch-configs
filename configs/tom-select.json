@@ -1,0 +1,23 @@
+{
+  "index_name": "tom-select",
+  "start_urls": [
+    "https://tom-select.js.org"
+  ],
+  "sitemap_urls": [
+    "https://tom-select.js.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".container h1",
+    "lvl1": ".container h2",
+    "lvl2": ".container h3",
+    "lvl3": ".container h4, .container td:first-child",
+    "lvl4": ".container h5",
+    "lvl5": ".container h6",
+    "text": ".container p, .container li, .container td:nth-child(2)"
+  },
+  "conversation_id": [
+    "1508464305"
+  ],
+  "nb_hits": 569
+}
