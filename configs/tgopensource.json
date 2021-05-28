@@ -1,0 +1,23 @@
+{
+  "index_name": "tgopensource",
+  "start_urls": [
+    "http://tgopensource.com"
+  ],
+  "sitemap_urls": [
+    "http://tgopensource.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "section h3",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "1521333153"
+  ],
+  "nb_hits": 370
+}
