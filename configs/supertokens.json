@@ -130,9 +130,9 @@
     ]
   },
   "js_render": true,
-  "js_wait": 5,
+  "js_wait": 3,
   "conversation_id": [
     "1483529517"
   ],
-  "nb_hits": 30637
+  "nb_hits": 37806
 }
