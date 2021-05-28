@@ -32,6 +32,10 @@
           "0.3"
         ]
       },
+      "tags": [
+        "en",
+        "cn"
+      ],
       "page_rank": 1
     }
   ],
@@ -54,7 +58,8 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "version"
+      "version",
+      "tags"
     ]
   },
   "conversation_id": [
