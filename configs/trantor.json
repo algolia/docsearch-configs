@@ -1,0 +1,21 @@
+{
+  "index_name": "trantor",
+  "start_urls": [
+    "https://trantor-docs-dev.app.terminus.io/doc/quick-start/standard-module",
+    "https://trantor-docs-dev.app.terminus.io/doc/"
+  ],
+  "sitemap_urls": ["https://trantor-docs-dev.app.terminus.io/sitemap.xml"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".ant-card-body h1",
+    "lvl1": ".ant-card-body h2",
+    "lvl2": ".ant-card-body h3",
+    "lvl3": ".ant-card-body h4",
+    "lvl4": ".ant-card-body h5",
+    "lvl5": ".ant-card-body h6",
+    "text": ".ant-card-body p, .ant-card-body li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": ["1517899636"]
+}
