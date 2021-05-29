@@ -1,6 +1,11 @@
 {
   "index_name": "aspect",
-  "sitemap_urls": ["https://docs.aspect.dev/sitemap.xml"],
+  "start_urls": [
+    "https://docs.aspect.dev"
+  ],
+  "sitemap_urls": [
+    "https://docs.aspect.dev/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": ".container h1",
     "lvl1": ".container h2",
