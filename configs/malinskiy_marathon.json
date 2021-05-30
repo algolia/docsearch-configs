@@ -1,7 +1,7 @@
 {
   "index_name": "malinskiy_marathon",
   "start_urls": [
-    "https://malinskiy.github.io/marathon/"
+    "https://marathonlabs.github.io/marathon/"
   ],
   "stop_urls": [],
   "selectors": {
