@@ -1,9 +1,9 @@
 {
-  "index_name": "analytix",
+  "index_name": "netsysd",
   "start_urls": [
-    "https://analytix-docs.netlify.app/docs/",
-    "https://analytix-docs.netlify.app/docs/analytix/analytix-bi-overview.html"
+    "http://netsysd.com/babel/"
   ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -16,6 +16,7 @@
     "lvl2": ".post h2",
     "lvl3": ".post h3",
     "lvl4": ".post h4",
+    "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
   "selectors_exclude": [
@@ -28,7 +29,7 @@
     ]
   },
   "conversation_id": [
-    "677162504"
+    "1512183186"
   ],
-  "nb_hits": 5199
+  "nb_hits": 6610
 }
