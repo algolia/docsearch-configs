@@ -13,7 +13,8 @@
           "flutter",
           "dotnet",
           "unity",
-          "platform-api"
+          "platform-api",
+          "react"
         ]
       }
     }
