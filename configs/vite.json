@@ -1,11 +1,7 @@
 {
-  "index_name": "nystudio107",
-  "start_urls": [
-    "https://nystudio107.com/docs/vite/"
-  ],
-  "sitemap_urls": [
-    "https://nystudio107.com/sitemap.xml"
-  ],
+  "index_name": "vite",
+  "start_urls": ["https://nystudio107.com/docs/vite/"],
+  "sitemap_urls": ["https://nystudio107.com/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -20,8 +16,6 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
-  "conversation_id": [
-    "1510742630"
-  ],
+  "conversation_id": ["1510742630"],
   "nb_hits": 133
 }
