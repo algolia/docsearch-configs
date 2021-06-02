@@ -1,7 +1,8 @@
 {
   "index_name": "radar",
   "start_urls": [
-    "https://radar.io/documentation"
+    "https://radar.io/documentation",
+    "https://frontend-andrew-dev.radar.io/docs/"
   ],
   "sitemap_urls": [
     "https://radar.io/sitemap.xml"
