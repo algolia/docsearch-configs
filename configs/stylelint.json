@@ -7,8 +7,12 @@
     },
     "https://stylelint.io/"
   ],
-  "sitemap_urls": ["https://stylelint.io/sitemap.xml"],
-  "stop_urls": ["/changelog"],
+  "sitemap_urls": [
+    "https://stylelint.io/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/changelog"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -27,7 +31,12 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -37,6 +46,9 @@
       "type"
     ]
   },
-  "conversation_id": ["277143926"],
-  "nb_hits": 4439
+  "conversation_id": [
+    "277143926"
+  ],
+  "js_render": true,
+  "nb_hits": 9130
 }
