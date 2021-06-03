@@ -25,5 +25,7 @@
     "text": ".ant-card-body p, ant-card-body a, .ant-card-body li, .ant-card-body td, .ant-card-body code span, .antd-card-body pre code"
   },
   "js_render": true,
-  "js_wait": 3
+  "js_wait": 3,
+  "conversation_id": ["1517899636"],
+  "nb_hits": 1949
 }
