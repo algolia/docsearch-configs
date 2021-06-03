@@ -3,24 +3,14 @@
   "start_urls": [
     "https://docs.cxjs.io"
   ],
-  "stop_urls": [
-    "/examples/"
-  ],
-  "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class,'dxb-contents')]//*[contains(@class,'cxs-active')]/preceding::*[contains(@class,'cxe-sidenav-topic')][1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": {
-      "selector": ".dxb-contents .cxs-active",
-      "global": true,
-      "default_value": "Chapter"
-    },
+  "stop_urls": [],
+  "selectors": {   
+    "lvl1": ".dxe-article-body h1",
     "lvl2": ".dxe-article-body h2",
-    "lvl3": ".dxe-article-body h4",
-    "lvl4": ".dxe-article-body h5",
+    "lvl3": ".dxe-article-body h3",
+    "lvl4": ".dxe-article-body h4",
+    "lvl5": ".dxe-article-body h5",
+    "lvl6": ".dxe-article-body h6",
     "text": ".dxe-article-body p, .dxe-article-body li"
   },
   "selectors_exclude": [
