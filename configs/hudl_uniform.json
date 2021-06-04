@@ -1,11 +1,7 @@
 {
   "index_name": "hudl_uniform",
-  "start_urls": [
-    "http://uniform.hudl.com/"
-  ],
-  "sitemap_urls": [
-    "http://uniform.hudl.com/sitemap.xml"
-  ],
+  "start_urls": ["https://uniform.hudl.com/"],
+  "sitemap_urls": ["https://uniform.hudl.com/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": "[class*='--gridMain--'] h2",
@@ -15,8 +11,8 @@
     "lvl4": "[class*='--gridMain--'] h6",
     "text": "[class*='--gridMain--'] p, [class*='--gridMain--'] li"
   },
-  "conversation_id": [
-    "1055674683"
-  ],
-  "nb_hits": 8982
+  "conversation_id": ["1055674683"],
+  "js_render": true,
+  "js_wait": 1,
+  "nb_hits": 2564
 }
