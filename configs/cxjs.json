@@ -1,5 +1,6 @@
 {
   "index_name": "cxjs",
+  "js_render": true,
   "start_urls": [
     "https://docs.cxjs.io"
   ],
