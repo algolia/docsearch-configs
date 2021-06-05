@@ -6,6 +6,10 @@
   ],
   "stop_urls": [],
   "selectors": {   
+    "lvl0": {
+      "selector": ".topbanner_tabs .cxb-link.cxs-active",
+      "global": true
+    },
     "lvl1": ".dxe-article-body h1",
     "lvl2": ".dxe-article-body h2",
     "lvl3": ".dxe-article-body h3",
