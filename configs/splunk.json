@@ -1,0 +1,20 @@
+{
+  "index_name": "splunk",
+  "start_urls": [
+    "https://splunk.paloaltonetworks.com"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
+    "text": "section p, section li"
+  },
+  "conversation_id": [
+    "1526242420"
+  ],
+  "nb_hits": 869
+}
