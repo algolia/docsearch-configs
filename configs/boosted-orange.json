@@ -2,55 +2,90 @@
   "index_name": "boosted-orange",
   "start_urls": [
     {
-      "url": "https://boosted.orange.com/docs/(?P<version>.*?)/",
-      "variables": {
+      "url": "https://boosted.orange.com/docs/4.0/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ],
         "version": [
-          "3.4",
-          "4.0",
-          "4.1",
-          "4.2",
-          "4.3",
-          "4.4",
-          "4.5",
-          "4.6",
-          "5.0"
+          "4.0"
         ]
       }
     },
     {
-      "url": "https://boosted.orange.com/docs/(?P<version>.*?)/getting-started/introduction/",
-      "variables": {
+      "url": "https://boosted.orange.com/docs/4.1/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ],
         "version": [
-          "3.4",
-          "4.0",
-          "4.1",
-          "4.2",
-          "4.3",
-          "4.4",
-          "4.5",
-          "4.6",
-          "5.0"
+          "4.1"
         ]
       }
-    }
+    },
+    {
+      "url": "https://boosted.orange.com/docs/4.2/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ],
+        "version": [
+          "4.2"
+        ]
+      }
+    },
+    {
+      "url": "https://boosted.orange.com/docs/5.0/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ],
+        "version": [
+          "5.0"
+        ]
+      },
+      "selectors_key": "v5"
+    },
+    "https://boosted.orange.com/docs/4.3/",
+    "https://boosted.orange.com/docs/4.4/",
+    "https://boosted.orange.com/docs/4.5/",
+    "https://boosted.orange.com/docs/"
   ],
   "sitemap_urls": [
     "https://boosted.orange.com/sitemap.xml"
   ],
   "stop_urls": [
-    "/examples/.+"
+    "/examples/.+",
+    "boosted.orange.com/docs/3",
+    "boosted.orange.com/docs/versions/"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "[role='main'] h1",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": ".bd-toc-item.active > a",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4, main td:first-child",
+      "lvl5": "main h5",
+      "text": "main p, main li, main td:last-child"
     },
-    "lvl1": "[role='main'] h2",
-    "lvl2": "[role='main'] h3",
-    "lvl3": "[role='main'] h4",
-    "lvl4": "[role='main'] h5",
-    "text": "[role='main'] p, [role='main'] li"
+    "v5": {
+      "lvl0": {
+        "selector": ".bd-sidebar .active.my-1 > a",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".bd-layout h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4, main td:first-child",
+      "lvl5": "main h5",
+      "text": "main p, main li, main td:last-child"
+    }
   },
   "conversation_id": [
     "387252661"
@@ -58,5 +93,11 @@
   "selectors_exclude": [
     ".bd-example"
   ],
-  "nb_hits": 23950
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "language"
+    ]
+  },
+  "nb_hits": 33931
 }
