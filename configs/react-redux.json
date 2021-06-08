@@ -6,7 +6,6 @@
   "sitemap_urls": [
     "https://react-redux.js.org/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -23,9 +22,6 @@
     "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -47,5 +43,5 @@
   "conversation_id": [
     "692345822"
   ],
-  "nb_hits": 3698
+  "nb_hits": 808
 }
