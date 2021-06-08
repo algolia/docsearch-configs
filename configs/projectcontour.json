@@ -4,13 +4,17 @@
     "https://projectcontour.io/docs/"
   ],
   "stop_urls": [],
+  "sitemap_urls": [
+    "https://projectcontour.io/sitemap.xml"
+  ],
   "selectors": {
-    "lvl0": ".documentation-container h1",
-    "lvl1": ".documentation-container h2",
-    "lvl2": ".documentation-container h3",
-    "lvl3": ".documentation-container h4",
-    "lvl4": ".documentation-container h5",
-    "text": ".documentation-container p, .documentation-container li",
+    "lvl0": "header.subproject-specific a.text-logo",
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content h5",
+    "text": ".docs-content p, .docs-content li",
     "version": {
       "selector": "#dropdownMenuButton",
       "global": true,
