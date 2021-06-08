@@ -9,21 +9,20 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "(//main//*[@aria-current]/preceding::a[contains(@style,'dedede')][1]|//main//*[@aria-current])[1]",
-      "type": "xpath",
+      "selector": ".isActiveSection > a",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".article > div:not([style]) h1",
-    "lvl2": ".article > div:not([style]) h2",
-    "lvl3": ".article > div:not([style]) h3",
-    "lvl4": ".article > div:not([style]) h4",
-    "lvl5": ".article > div:not([style]) h5",
-    "lvl6": ".article > div:not([style]) h6",
-    "text": ".article > div:not([style]) p, .article > div:not([style]) li"
+    "lvl1": ".content-docs h1",
+    "lvl2": ".content-docs h2",
+    "lvl3": ".content-docs h3",
+    "lvl4": ".content-docs h4",
+    "lvl5": ".content-docs h5",
+    "lvl6": ".content-docs h6",
+    "text": ".content-docs p, .content-docs li"
   },
   "conversation_id": [
     "1018328750"
   ],
-  "nb_hits": 1244
+  "nb_hits": 1519
 }
