@@ -35,7 +35,7 @@
     ".*(?<!/)$"
   ],
   "selectors": {
-    "text": ".theme-default-content p, .theme-default-content li, .theme-default-content code",
+    "text": ".theme-default-content p, .theme-default-content li, .theme-default-content code, .theme-default-content table, .theme-default-content blockquote, .theme-default-content div, .theme-default-content span",
     "lvl0": ".theme-default-content h1",
     "lvl1": ".theme-default-content span.badge",
     "lvl2": ".theme-default-content h2",
