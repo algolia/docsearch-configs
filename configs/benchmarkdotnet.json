@@ -51,7 +51,7 @@
     }
   },
   "custom_settings": {
-    "attributesToIndex": [
+    "searchableAttributes": [
       "unordered(hierarchy_radio_camel.lvl0)",
       "unordered(hierarchy_radio.lvl0)",
       "unordered(hierarchy_camel.lvl0)",
@@ -88,5 +88,5 @@
       "desc(weight.level)"
     ]
   },
-  "nb_hits": 15740
+  "nb_hits": 15542
 }
