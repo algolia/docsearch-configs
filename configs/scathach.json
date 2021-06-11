@@ -1,7 +1,8 @@
 {
   "index_name": "scathach",
   "start_urls": [
-    "https://scathach.dev/docs/doc1/"
+    "https://scathach.dev/docs/doc1/",
+    "https://scathach.dev/docs/"
   ],
   "sitemap_urls": [
     "https://scathach.dev/sitemap.xml"
@@ -43,5 +44,5 @@
   "conversation_id": [
     "1525692472"
   ],
-  "nb_hits": 63
+  "nb_hits": 806
 }
