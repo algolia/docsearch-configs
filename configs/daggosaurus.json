@@ -1,10 +1,12 @@
 {
   "index_name": "daggosaurus",
   "start_urls": [
-    "https://daggosaurus.netlify.app/"
+    "https://docs.dagger.io/",
+    "https://devel.docs.dagger.io/"
   ],
   "sitemap_urls": [
-    "https://daggosaurus.netlify.app/sitemap.xml"
+    "https://docs.dagger.io/sitemap.xml",
+    "https://devel.docs.dagger.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
