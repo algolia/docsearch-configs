@@ -2,12 +2,12 @@
   "index_name": "inertiajs",
   "start_urls": [
     {
-      "url": "https://inertiajs.com/",
-      "page_rank": 100
-    },
-    {
       "url": "https://inertiajs.com/releases",
       "page_rank": -1
+    },
+    {
+      "url": "https://inertiajs.com/",
+      "page_rank": 100
     }
   ],
   "stop_urls": [],
