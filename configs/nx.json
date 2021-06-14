@@ -22,15 +22,39 @@
   ],
   "sitemap_alternate_links": true,
   "selectors": {
-    "lvl0": ".document-view  h1",
-    "lvl1": ".document-view h2",
-    "lvl2": ".document-view h3",
-    "lvl3": ".document-view h4",
-    "lvl4": ".document-view h5",
-    "lvl5": ".document-view h6",
-    "text": ".document-view p, .document-view li"
+    "lvl0": {
+      "selector": "#nav h5",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "#content-wrapper h1",
+      "lvl2": "#content-wrapper h2",
+      "lvl3": "#content-wrapper h3",
+      "lvl4": "#content-wrapper h4, #content-wrapper td:first-child",
+      "lvl5": "#content-wrapper h5",
+      "text": "#content-wrapper > p, #content-wrapper > ul li, #content-wrapper td:not(:first-child)"
   },
   "strip_chars": "#\u203a",
+  "selectors_exclude": [
+    "p.text-base",
+    ".list-inside"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version",
+      "type",
+      "tags"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ],
+    "separatorsToIndex": "@_"
+  },
   "conversation_id": [
     "1152538732"
   ],
