@@ -6,7 +6,9 @@
   "sitemap_urls": [
     "https://fluxcd.io/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://fluxcd.io/legacy"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",

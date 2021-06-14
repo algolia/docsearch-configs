@@ -22,6 +22,9 @@
       "global": true
     }
   },
+   "custom_settings": {
+    "attributesForFaceting": ["lang"]
+  },
   "js_render": true,
   "conversation_id": [
     "1530163255"
