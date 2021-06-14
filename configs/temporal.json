@@ -113,7 +113,8 @@
   "stop_urls": [
     "https://docs.temporal.io/blog/tags/announcement/",
     "https://docs.temporal.io/blog/tags/case-study/",
-    "https://docs.temporal.io/blog/tags/"
+    "https://docs.temporal.io/blog/tags/",
+    "https:\/\/docs.temporal.io\/docs\/shared\/*"
   ],
   "selectors": {
     "lvl0": {
