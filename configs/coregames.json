@@ -8,7 +8,18 @@
         "api"
       ]
     },
-    "https://docs.coregames.com"
+    {
+      "url": "https://docs.coregames.com/fr/",
+      "extra_attributes": {
+        "lang": "fr"
+      }
+    },
+    {
+      "url": "https://docs.coregames.com",
+      "extra_attributes": {
+        "lang": "en"
+      }
+    }
   ],
   "sitemap_urls": [
     "https://docs.coregames.com/sitemap.xml"
@@ -35,5 +46,5 @@
   "conversation_id": [
     "1109322761"
   ],
-  "nb_hits": 8848
+  "nb_hits": 17233
 }
