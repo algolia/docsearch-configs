@@ -1,31 +1,29 @@
 {
   "index_name": "magiclabs_magic",
   "start_urls": [
-    "https://docs.magic.link/"
+    "https://magic.link/docs/",
+    "https://magic.link/docs/introduction/get-started"
   ],
   "sitemap_urls": [
-    "https://docs.magic.link/sitemap.xml"
+    "https://magic.link/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "accordion__dir.accordion__dir-active",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "[class^='docItemContainer_'] h1",
-    "lvl2": "[class^='docItemContainer_'] h2",
-    "lvl3": "[class^='docItemContainer_'] h3",
-    "lvl4": "[class^='docItemContainer_'] h4",
-    "lvl5": "[class^='docItemContainer_'] h5",
-    "text": "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li"
+    "lvl1": "[class^='docsContents___'] h1",
+    "lvl2": "[class^='docsContents___'] h2",
+    "lvl3": "[class^='docsContents___'] h3",
+    "lvl4": "[class^='docsContents___'] h4",
+    "lvl5": "[class^='docsContents___'] h5",
+    "text": "[class^='docsContents___'] p, [class^='docsContents___'] li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "conversation_id": [
     "1225907152"
   ],
-  "nb_hits": 1224
+  "nb_hits": 2521
 }
