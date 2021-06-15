@@ -1,7 +1,8 @@
 {
   "index_name": "magiclabs_magic",
   "start_urls": [
-    "https://magic.link/docs"
+    "https://magic.link/docs/",
+    "https://magic.link/docs/introduction/get-started"
   ],
   "sitemap_urls": [
     "https://magic.link/sitemap.xml"
@@ -21,11 +22,8 @@
     "lvl5": "[class^='docsContents___'] h5",
     "text": "[class^='docsContents___'] p, [class^='docsContents___'] li"
   },
-  "selectors_exclude": [
-    ""
-  ],
   "conversation_id": [
     "1225907152"
   ],
-  "nb_hits": 1224
+  "nb_hits": 2521
 }
