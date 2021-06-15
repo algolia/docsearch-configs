@@ -111,10 +111,8 @@
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
-    "https://docs.temporal.io/blog/tags/announcement/",
-    "https://docs.temporal.io/blog/tags/case-study/",
     "https://docs.temporal.io/blog/tags/",
-    "https:\/\/docs.temporal.io\/docs\/shared\/*"
+    "https://docs.temporal.io/docs/shared/"
   ],
   "selectors": {
     "lvl0": {
@@ -152,5 +150,5 @@
   "conversation_id": [
     "1206028908"
   ],
-  "nb_hits": 3992
+  "nb_hits": 4683
 }
