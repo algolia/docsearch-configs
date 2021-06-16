@@ -1,20 +1,57 @@
 {
   "index_name": "vueuse",
   "start_urls": [
-    "https://vueuse.org/guide.html",
-    "https://vueuse.org/functions.html",
-    "https://vueuse.org/add-ons.html",
-    "https://vueuse.org/"
+    {
+      "url": "https://vueuse.org/guide.html",
+      "selectors_key": "guide"
+    },
+    {
+      "url": "https://vueuse.org/functions.html",
+      "selectors_key": "functions"
+    },
+    {
+      "url": "https://vueuse.org/add-ons.html",
+      "selectors_key": "addons"
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".content h1",
-    "lvl1": ".content h2",
-    "lvl2": ".content h3",
-    "lvl3": ".content h4",
-    "lvl4": ".content h5",
-    "lvl5": ".content h6",
-    "text": ".content p, .content li"
+    "guide": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Guide"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "functions": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Functions"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    },
+    "addons": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Add-ons"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "text": ".content p, .content li"
+    }
   },
   "conversation_id": [
     "1398955104"
