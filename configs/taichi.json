@@ -1,48 +1,51 @@
 {
   "index_name": "taichi",
   "start_urls": [
-    "https://taichi.graphics/"
+    "https://docs.taichi.graphics/"
   ],
+  "sitemap_urls": [
+    "https://docs.taichi.graphics/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [
-    "/tutorials/",
-    "/community/",
-    "/events/",
-    "/research/",
-    "/contribution/",
-    "/gallery/",
-    "/faq/"
+    "/community/members/",
+    "/acknowledgments/"
   ],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.open",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".theme-default-content h1",
-    "lvl2": ".theme-default-content h2",
-    "lvl3": ".theme-default-content h3",
-    "lvl4": ".theme-default-content h4",
-    "lvl5": ".theme-default-content h5",
-    "text": ".theme-default-content p, .theme-default-content li",
-    "lang": {
-      "selector": "/html/@lang",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link navbar__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
       "type": "xpath",
       "global": true,
-      "default_value": "en-US"
-    }
+      "default_value": "Docs"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
-  "selectors_exclude": [
-    ".table-of-contents"
-  ],
   "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "lang"
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "conversation_id": [
     "1333589600"
   ],
-  "scrape_start_urls": false,
   "nb_hits": 2987
 }
