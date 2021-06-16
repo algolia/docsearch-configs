@@ -9,7 +9,7 @@
   "sitemap_alternate_links": true,
   "stop_urls": [
     "/community/members/",
-    "/acknowledgments/",
+    "/acknowledgments/"
   ],
   "selectors": {
     "lvl0": {
