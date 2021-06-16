@@ -1,27 +1,29 @@
 {
   "index_name": "wso2_updates",
   "start_urls": [
-    "https://updates.docs.wso2.com/en/latest/"
+    "https://updates.docs.wso2.com/"
   ],
   "sitemap_urls": [
-    "https://updates.docs.wso2.com/sitemap.xml"
+    "https://updates.docs.wso2.com/en/latest/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": "article h1",
-    "lvl2": "article h2",
-    "lvl3": "article h3",
-    "lvl4": "article h4",
-    "lvl5": "article h5",
-    "text": "article p, article li"
+    "text": ".md-content__inner p, .md-content__inner li, .md-content__inner code, .md-content__inner span, .md-content__inner strong, .md-content__inner td",
+    "lvl0": ".md-content__inner h1",
+    "lvl1": ".md-content__inner h2",
+    "lvl2": ".md-content__inner h3",
+    "lvl3": ".md-content__inner h4",
+    "lvl4": ".md-content__inner h5",
+    "lvl5": ".md-content__inner h6"
   },
   "conversation_id": [
     "1503098980"
   ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
   "nb_hits": 408
 }
