@@ -15,7 +15,7 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "[class^='docsContents___'] h1",
+    "lvl1": "[class^='docsContents___'] h1, [class^='accordionChild___'] a",
     "lvl2": "[class^='docsContents___'] h2",
     "lvl3": "[class^='docsContents___'] h3",
     "lvl4": "[class^='docsContents___'] h4",
