@@ -1,0 +1,48 @@
+{
+  "index_name": "slidev",
+  "start_urls": [
+    {
+      "url": "https://sli.dev/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ]
+      }
+    },
+    {
+      "url": "https://(?P<language>.*?).sli.dev/",
+      "variables": {
+        "language": [
+          "cn",
+          "fr",
+          "ru",
+          "es",
+          "vn"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h1",
+    "lvl2": ".content h2",
+    "lvl3": ".content h3",
+    "lvl4": ".content h4",
+    "lvl5": ".content h5",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "1514231795"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
+  "nb_hits": 4755
+}
