@@ -7,10 +7,17 @@
         "studio"
       ]
     },
-    "https://www.twilio.com/docs"
+    "https://www.twilio.com/docs",
+    {
+      "url": "https://docs.sendgrid.com",
+      "tags": [
+        "sendgrid"
+      ]
+    }
   ],
   "sitemap_urls": [
-    "https://www.twilio.com/docs/sitemap.xml"
+    "https://www.twilio.com/docs/sitemap.xml",
+    "https://docs.sendgrid.com/docs/sitemap.xml"
   ],
   "stop_urls": [
     "docs/libraries/reference/",
