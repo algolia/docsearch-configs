@@ -39,22 +39,6 @@
     "p.text-base",
     ".list-inside"
   ],
-  "custom_settings": {
-    "attributesForFaceting": [
-      "version",
-      "type",
-      "tags"
-    ],
-    "attributesToRetrieve": [
-      "hierarchy",
-      "content",
-      "anchor",
-      "url",
-      "url_without_anchor",
-      "type"
-    ],
-    "separatorsToIndex": "@_"
-  },
   "conversation_id": [
     "1152538732"
   ],
