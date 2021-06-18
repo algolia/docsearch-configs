@@ -1,14 +1,12 @@
 {
-  "index_name": "fluxcd",
+  "index_name": "image-optimize",
   "start_urls": [
-    "https://fluxcd.io/"
+    "https://nystudio107.com/docs/image-optimize/"
   ],
   "sitemap_urls": [
-    "https://fluxcd.io/sitemap.xml"
+    "https://nystudio107.com/sitemap.xml"
   ],
-  "stop_urls": [
-    "https://fluxcd.io/legacy"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -23,7 +21,7 @@
     "text": "main p, main li"
   },
   "conversation_id": [
-    "1503244816"
+    "1539032532"
   ],
-  "nb_hits": 4957
+  "nb_hits": 18
 }

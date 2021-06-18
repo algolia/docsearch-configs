@@ -1,10 +1,7 @@
 {
-  "index_name": "aweframework_awe",
+  "index_name": "dhtmlx",
   "start_urls": [
-    "https://docs.aweframework.com/"
-  ],
-  "sitemap_urls": [
-    "https://docs.aweframework.com/sitemap.xml"
+    "https://docs.dhtmlx.com/suita/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,7 +17,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -42,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1264469058"
+    "1533695415"
   ],
-  "nb_hits": 8227
+  "nb_hits": 23278
 }

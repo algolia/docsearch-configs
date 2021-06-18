@@ -1,12 +1,12 @@
 {
-  "index_name": "waline",
+  "index_name": "chartscss",
   "start_urls": [
-    "https://waline.js.org"
+    "https://chartscss.org/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.active",
+      "selector": "p.sidebar-heading.open",
       "global": true,
       "default_value": "Documentation"
     },
@@ -19,15 +19,22 @@
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
-      "global": true
+      "global": true,
+      "default_value": "en-US"
     }
   },
-   "custom_settings": {
-    "attributesForFaceting": ["lang"]
-  },
-  "js_render": true,
-  "conversation_id": [
-    "1530163255"
+  "selectors_exclude": [
+    ".table-of-contents"
   ],
-  "nb_hits": 2003
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "conversation_id": [
+    "1538139629"
+  ],
+  "scrape_start_urls": false,
+  "nb_hits": 775
 }
