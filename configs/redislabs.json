@@ -31,7 +31,7 @@
   ],
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesToIndex": [
+    "searchableAttributes": [
       "hierarchy_camel.lvl1",
       "hierarchy.lvl1",
       "unordered(hierarchy_camel.lvl2)",
@@ -55,5 +55,5 @@
     "706782001"
   ],
   "min_indexed_level": 2,
-  "nb_hits": 6446
+  "nb_hits": 8391
 }
