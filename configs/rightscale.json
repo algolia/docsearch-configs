@@ -31,7 +31,7 @@
       "asc(weight.position)"
     ],
     "attributeCriteriaComputedByMinProximity": false,
-    "attributesToIndex": [
+    "searchableAttributes": [
       "unordered(keywords)",
       "hierarchy",
       "hierarchy_camel",
@@ -43,5 +43,5 @@
   "conversation_id": [
     "426492916"
   ],
-  "nb_hits": 42139
+  "nb_hits": 44766
 }
