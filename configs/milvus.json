@@ -1,9 +1,9 @@
 {
   "index_name": "milvus",
   "start_urls": [
-    "https://milvus-io-dev.azurewebsites.net/docs/install_milvus.md",
-    "https://milvus-io-dev.azurewebsites.net/cn/docs/v1.1.0/overview.md",
-    "https://milvus-io-dev.azurewebsites.net/"
+    "https://milvus.io/docs/install_milvus.md",
+    "https://milvus.io/cn/docs/v1.1.0/overview.md",
+    "https://milvus.io/"
   ],
   "sitemap_urls": [],
   "stop_urls": [],
