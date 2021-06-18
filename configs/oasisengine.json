@@ -5,7 +5,8 @@
       "url": "https://oasisengine.cn/(?P<version>.*?)/docs/",
       "variables": {
         "version": [
-          "0.3"
+          "0.3",
+          "0.4"
         ]
       },
       "tags": [
@@ -17,7 +18,8 @@
       "url": "https://oasisengine.cn/(?P<version>.*?)/docs/.+?-cn",
       "variables": {
         "version": [
-          "0.3"
+          "0.3",
+          "0.4"
         ]
       },
       "tags": [
@@ -29,7 +31,8 @@
       "url": "https://oasisengine.cn/(?P<version>.*?)/api/",
       "variables": {
         "version": [
-          "0.3"
+          "0.3",
+          "0.4"
         ]
       },
       "tags": [
