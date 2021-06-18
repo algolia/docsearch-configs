@@ -3,9 +3,6 @@
   "start_urls": [
     "https://docs.wavemaker.com/learn/"
   ],
-  "stop_urls": [
-    "https://www.wavemaker.com/learn/"
-  ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
