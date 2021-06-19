@@ -93,7 +93,7 @@
   "custom_settings": {
     "attributeForDistinct": "url_without_anchor",
     "ignorePlurals": false,
-    "attributesToIndex": [
+    "searchableAttributes": [
       "unordered(hierarchy_camel.lvl1)",
       "unordered(hierarchy.lvl1)",
       "unordered(hierarchy_camel.lvl0.crumbs.lvl0)",
@@ -154,5 +154,5 @@
       ]
     ]
   },
-  "nb_hits": 40011
+  "nb_hits": 40158
 }

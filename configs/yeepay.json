@@ -1,0 +1,23 @@
+{
+  "index_name": "yeepay",
+  "start_urls": [
+    "https://open.yeepay.com/docs/v2/index.html",
+    "https://open.yeepay.com/docs/v2"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".main h1",
+    "lvl1": ".main h2",
+    "lvl2": ".main h3",
+    "lvl3": ".main h4",
+    "lvl4": ".main h5",
+    "lvl5": ".main h6",
+    "text": ".main p, .main li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": [
+    "1527035869"
+  ],
+  "nb_hits": 647
+}

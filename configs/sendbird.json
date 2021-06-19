@@ -4,8 +4,17 @@
     {
       "url": "https://sendbird.com/docs/(?P<product>.*?)/(?P<version>.*?)/(?P<platform>.*?)/",
       "variables": {
-        "product": ["chat", "calls", "desk", "uikit", "syncmanager"],
-        "version": ["v1", "v3"],
+        "product": [
+          "chat",
+          "calls",
+          "desk",
+          "uikit",
+          "syncmanager"
+        ],
+        "version": [
+          "v1",
+          "v3"
+        ],
         "platform": [
           "ios",
           "android",
@@ -13,12 +22,18 @@
           "flutter",
           "dotnet",
           "unity",
-          "platform-api"
+          "platform-api",
+          "react"
         ]
       }
-    }
+    },
+    "https://sendbird.com/docs/",
+    "https://sendbird.com/docs/chat/v3/ios/getting-started/about-chat-sdk"
   ],
-  "sitemap_urls": ["https://sendbird.com/docs/sitemap.xml"],
+  "sitemap_urls": [
+    "https://sendbird.com/docs/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
       "selector": "#sbd_product",
@@ -38,7 +53,11 @@
   },
   "custom_settings": {
     "separatorsToIndex": "-",
-    "attributesForFaceting": ["product", "version", "platform"]
+    "attributesForFaceting": [
+      "product",
+      "version",
+      "platform"
+    ]
   },
-  "nb_hits": 25909
+  "nb_hits": 34820
 }

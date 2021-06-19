@@ -1,0 +1,29 @@
+{
+  "index_name": "nestjs_kr",
+  "start_urls": [
+    "https://docs.nestjs.kr"
+  ],
+  "sitemap_urls": [
+    "https://docs.nestjs.kr/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "//app-menu-item//*[contains(@class,'active')]/preceding::h3[1] ",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content h3",
+    "lvl2": ".content h4",
+    "lvl3": ".content h5",
+    "lvl4": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "js_render": true,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "1526876073"
+  ],
+  "nb_hits": 3843
+}

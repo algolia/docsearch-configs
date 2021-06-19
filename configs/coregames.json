@@ -4,15 +4,22 @@
     {
       "url": "https://docs.coregames.com/api/",
       "selectors_key": "api",
-      "tags": [
-        "api"
-      ]
+      "tags": ["api"]
     },
-    "https://docs.coregames.com"
+    {
+      "url": "https://docs.coregames.com/fr/",
+      "extra_attributes": {
+        "lang": "fr"
+      }
+    },
+    {
+      "url": "https://docs.coregames.com/",
+      "extra_attributes": {
+        "lang": "en"
+      }
+    }
   ],
-  "sitemap_urls": [
-    "https://docs.coregames.com/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://docs.coregames.com/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "default": {
@@ -32,8 +39,9 @@
       "text": "article p, article li, td code"
     }
   },
-  "conversation_id": [
-    "1109322761"
-  ],
-  "nb_hits": 8848
+  "custom_settings": {
+    "attributesForFaceting": ["tags", "lang"]
+  },
+  "conversation_id": ["1109322761"],
+  "nb_hits": 17233
 }

@@ -1,10 +1,7 @@
 {
   "index_name": "wavemaker",
   "start_urls": [
-    "https://www.wavemaker.com/learn/"
-  ],
-  "sitemap_urls": [
-    "https://www.wavemaker.com/learn/sitemap.xml"
+    "https://docs.wavemaker.com/learn/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
