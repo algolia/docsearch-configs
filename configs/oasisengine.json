@@ -5,37 +5,20 @@
       "url": "https://oasisengine.cn/(?P<version>.*?)/docs/",
       "variables": {
         "version": [
-          "0.3"
+          "0.3",
+          "0.4"
         ]
       },
-      "tags": [
-        "en"
-      ],
-      "page_rank": 2
-    },
-    {
-      "url": "https://oasisengine.cn/(?P<version>.*?)/docs/.+?-cn",
-      "variables": {
-        "version": [
-          "0.3"
-        ]
-      },
-      "tags": [
-        "cn"
-      ],
       "page_rank": 2
     },
     {
       "url": "https://oasisengine.cn/(?P<version>.*?)/api/",
       "variables": {
         "version": [
-          "0.3"
+          "0.3",
+          "0.4"
         ]
       },
-      "tags": [
-        "en",
-        "cn"
-      ],
       "page_rank": 1
     }
   ],
@@ -58,8 +41,7 @@
   },
   "custom_settings": {
     "attributesForFaceting": [
-      "version",
-      "tags"
+      "version"
     ]
   },
   "conversation_id": [
