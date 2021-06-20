@@ -1,7 +1,7 @@
 {
   "index_name": "redaxo_cms",
   "start_urls": [
-    "https://redaxo.org/doku/master/"
+    "https://redaxo.org/doku/main/"
   ],
   "sitemap_urls": [
     "https://redaxo.org/sitemap.xml"
