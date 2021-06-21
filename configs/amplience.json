@@ -7,7 +7,7 @@
     "/releasenotes/"
   ],
   "sitemap_urls": [
-    "https://amplience.com/sitemap.xml"
+    "https://amplience.com/sitemap-docs.xml"
   ],
   "selectors": {
     "lvl0": "section h1",
@@ -16,7 +16,7 @@
     "lvl3": "section h4",
     "lvl4": "section h5",
     "lvl5": "section h6",
-    "text": "section p, section li"
+    "text": "section p, section li, section td"
   },
   "conversation_id": [
     "1354307626"
