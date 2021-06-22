@@ -1,7 +1,7 @@
 {
   "index_name": "blockstack",
   "start_urls": [
-    "https://docs.blockstack.org/"
+    "https://docs.stacks.co/"
   ],
   "stop_urls": [],
   "selectors": {
