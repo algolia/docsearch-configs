@@ -2,12 +2,12 @@
   "index_name": "fluxcd",
   "start_urls": [
     {
-      "url": "https://fluxcd.io/",
-      "tags": ["current"]
-    },
-    {
       "url": "https://fluxcd.io/legacy",
       "tags": ["legacy"]
+    },
+    {
+      "url": "https://fluxcd.io/",
+      "tags": ["current"]
     }
   ],
   "sitemap_urls": [
