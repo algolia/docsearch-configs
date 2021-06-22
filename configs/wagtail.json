@@ -15,9 +15,6 @@
   "sitemap_urls": [
     "https://docs.wagtail.io/sitemap.xml"
   ],
-  "stop_urls": [
-    "releases"
-  ],
   "selectors": {
     "lvl0": ".section h1",
     "lvl1": ".section h2",
