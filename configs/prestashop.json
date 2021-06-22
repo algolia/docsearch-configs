@@ -1,7 +1,11 @@
 {
   "index_name": "prestashop",
-  "start_urls": ["https://devdocs.prestashop.com/"],
-  "sitemap_urls": ["https://devdocs.prestashop.com/sitemap.xml"],
+  "start_urls": [
+    "https://devdocs.prestashop.com/"
+  ],
+  "sitemap_urls": [
+    "https://devdocs.prestashop.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "#body-inner h1",
@@ -12,5 +16,8 @@
     "lvl5": "#body-inner h6",
     "text": "#body-inner p, #body-inner li"
   },
-  "conversation_id": ["1549490680"]
+  "conversation_id": [
+    "1549490680"
+  ],
+  "nb_hits": 11827
 }
