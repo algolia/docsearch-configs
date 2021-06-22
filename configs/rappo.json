@@ -1,0 +1,23 @@
+{
+  "index_name": "rappo",
+  "start_urls": [
+    "https://docs.rasa.rappo.ai/"
+  ],
+  "sitemap_urls": [
+    "https://docs.rasa.rappo.ai/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docpage-content h1",
+    "lvl1": ".docpage-content h2",
+    "lvl2": ".docpage-content h3",
+    "lvl3": ".docpage-content h4",
+    "lvl4": ".docpage-content h5",
+    "lvl5": ".docpage-content h6",
+    "text": ".docpage-content p, .docpage-content li"
+  },
+  "conversation_id": [
+    "1545839564"
+  ],
+  "nb_hits": 14934
+}
