@@ -1,0 +1,16 @@
+{
+  "index_name": "pega",
+  "start_urls": ["https://design.pega.com/"],
+  "stop_urls": [".sketch"],
+  "selectors": {
+    "lvl0": "#Overview h1",
+    "lvl1": "#Overview h2",
+    "lvl2": "#Overview h3",
+    "lvl3": "#Overview h4",
+    "lvl4": "#Overview h5",
+    "lvl5": "#Overview h6",
+    "text": "#Overview p, #Overview li"
+  },
+  "conversation_id": ["1543000690"],
+  "nb_hits": 1266
+}
