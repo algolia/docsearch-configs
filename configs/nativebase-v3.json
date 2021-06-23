@@ -1,10 +1,10 @@
 {
   "index_name": "nativebase-v3",
   "start_urls": [
-    "https://alpha-docs.nativebase.io/"
+    "https://docs.nativebase.io/"
   ],
   "sitemap_urls": [
-    "https://alpha-docs.nativebase.io/sitemap.xml"
+    "https://docs.nativebase.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
