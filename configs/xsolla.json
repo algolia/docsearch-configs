@@ -1,6 +1,6 @@
 {
   "index_name": "xsolla",
-  "selectors_exclude": [".mobileMenuWrapper"],
+  "selectors_exclude": [".mobileMenuWrapper", ".header"],
   "start_urls": [
     {
       "url": "https://developers.xsolla.com/(?P<lang>.*?)/api/",
@@ -19,6 +19,7 @@
     },
     {
       "url": "https://developers.xsolla.com/(?P<lang>.*?)/changelog/",
+      "selectors_key": "changelog",
       "tags": ["changelog"],
       "variables": {
         "lang": ["ja", "ru", "ko", "zh", "de"]
@@ -56,6 +57,7 @@
     },
     {
       "url": "https://developers.xsolla.com/changelog/",
+      "selectors_key": "changelog",
       "tags": ["changelog"],
       "extra_attributes": {
         "lang": ["en"]
@@ -664,6 +666,23 @@
       "lvl5": "article h4",
       "lvl6": "article h5",
       "text": "article p, article li, article td"
+    },
+    "changelog": {
+       "lvl0": {
+        "selector": ".menu-header .c-menu-i",
+        "global": true
+      },
+      "lvl1": {
+        "selector": ".nav.nav-stacked.fixed > .nav-item.active > a",
+        "global": true
+      },
+      "lvl2": {
+        "selector": ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
+        "global": true
+      },
+      "lvl3": "article .ogr-wg-box h2",
+      "lvl4": "article .cg-content-box .cg-subtitle",
+      "text": "article .cg-text-bl p, article .cg-text-bl li, article .cg-text-bl td"
     },
     "doc": {
       "lvl0": {
