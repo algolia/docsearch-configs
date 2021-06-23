@@ -1,7 +1,9 @@
 {
   "index_name": "chromatic",
   "start_urls": ["https://www.chromatic.com/docs/"],
-  "stop_urls": ["chromatic(\\?!\\.com\\/docs)"],
+  "sitemap_urls": [
+    "https://www.chromatic.com/docs/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'sidebar-nav')]//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
