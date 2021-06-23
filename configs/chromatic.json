@@ -1,7 +1,6 @@
 {
   "index_name": "chromatic",
   "start_urls": ["https://www.chromatic.com/docs/"],
-  "stop_urls": ["chromatic(\\?!\\.com\\/docs)"],
   "sitemap_urls": [
     "https://www.chromatic.com/docs/sitemap.xml"
   ],
