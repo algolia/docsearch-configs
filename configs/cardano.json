@@ -3,24 +3,24 @@
   "start_urls": [
     "https://docs.cardano.org/"
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://docs.cardano.org/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "//nav//ul[contains(@class,'current')]/preceding::span[1]",
-      "type": "xpath",
+      "selector": "",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "[itemprop='articleBody'] > .section h1",
-    "lvl2": "[itemprop='articleBody'] > .section h2",
-    "lvl3": "[itemprop='articleBody'] > .section h3",
-    "lvl4": "[itemprop='articleBody'] > .section h4",
-    "lvl5": "[itemprop='articleBody'] > .section h5",
-    "lvl6": "[itemprop='articleBody'] > .section h6",
-    "text": "[itemprop='articleBody'] > .section p, [itemprop='articleBody'] > .section li"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
   },
   "conversation_id": [
     "1223539650"
   ],
-  "nb_hits": 3426
+  "nb_hits": 2447
 }
