@@ -1,7 +1,11 @@
 {
   "index_name": "cardano",
-  "start_urls": ["https://docs.cardano.org/"],
-  "sitemap_urls": ["https://docs.cardano.org/sitemap.xml"],
+  "start_urls": [
+    "https://docs.cardano.org/"
+  ],
+  "sitemap_urls": [
+    "https://docs.cardano.org/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -15,6 +19,8 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
-  "conversation_id": ["1223539650"],
-  "nb_hits": 3426
+  "conversation_id": [
+    "1223539650"
+  ],
+  "nb_hits": 2447
 }
