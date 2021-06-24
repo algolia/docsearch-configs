@@ -1,11 +1,12 @@
 {
-  "index_name": "cardano",
+  "index_name": "phpspa",
   "start_urls": [
-    "https://docs.cardano.org/"
+    "https://phpspa.com"
   ],
   "sitemap_urls": [
-    "https://docs.cardano.org/sitemap.xml"
+    "https://phpspa.com/sitemap.xml"
   ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -20,7 +21,7 @@
     "text": "main p, main li"
   },
   "conversation_id": [
-    "1223539650"
+    "1547178993"
   ],
-  "nb_hits": 2447
+  "nb_hits": 43
 }

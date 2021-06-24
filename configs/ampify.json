@@ -1,11 +1,10 @@
 {
-  "index_name": "nativebase-v3",
+  "index_name": "ampify",
   "start_urls": [
-    "https://docs.nativebase.io/"
+    "https://duda-docs.ampify.io/docs/About_AMP/",
+    "https://duda-docs.ampify.io/docs/"
   ],
-  "sitemap_urls": [
-    "https://docs.nativebase.io/sitemap.xml"
-  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -19,7 +18,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -40,9 +38,8 @@
       "type"
     ]
   },
-  "js_render": true,
   "conversation_id": [
-    "1334997598"
+    "1545913427"
   ],
-  "nb_hits": 25080
+  "nb_hits": 231
 }
