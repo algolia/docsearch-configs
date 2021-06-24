@@ -1,7 +1,7 @@
 {
   "index_name": "chemotion",
   "start_urls": [
-    "https://eln.chemotion.net/chemotionsaurus/docs/"
+    "https://www.chemotion.net/chemotionsaurus/"
   ],
   "sitemap_urls": [
     "https://eln.chemotion.net/chemotionsaurus/sitemap.xml"
@@ -43,5 +43,5 @@
   "conversation_id": [
     "1419639046"
   ],
-  "nb_hits": 361
+  "nb_hits": 1236
 }
