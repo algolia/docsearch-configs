@@ -23,22 +23,20 @@
   "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": {
-      "selector": "#nav h5",
+      "selector": "//nav[contains(@id, 'nav')]//span[contains(@class, 'text-gray-900')][1]/preceding::h5[1]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
     "lvl1": "#content-wrapper h1",
-      "lvl2": "#content-wrapper h2",
-      "lvl3": "#content-wrapper h3",
-      "lvl4": "#content-wrapper h4, #content-wrapper td:first-child",
-      "lvl5": "#content-wrapper h5",
-      "text": "#content-wrapper > p, #content-wrapper > ul li, #content-wrapper td:not(:first-child)"
+    "lvl2": "#content-wrapper h2",
+    "lvl3": "#content-wrapper h3",
+    "lvl4": "#content-wrapper h4, #content-wrapper td:first-child",
+    "lvl5": "#content-wrapper h5",
+    "text": "#content-wrapper p, #content-wrapper ul li, #content-wrapper td:not(:first-child)"
   },
   "strip_chars": "#\u203a",
-  "selectors_exclude": [
-    "p.text-base",
-    ".list-inside"
-  ],
+  "selectors_exclude": [],
   "conversation_id": [
     "1152538732"
   ],
