@@ -1,7 +1,7 @@
 {
   "index_name": "materialize",
   "start_urls": [
-    "https://materialize.io/docs"
+    "https://materialize.com/docs"
   ],
   "stop_urls": [],
   "selectors": {
