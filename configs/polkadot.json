@@ -2,7 +2,7 @@
   "index_name": "polkadot",
   "start_urls": [
     "https://wiki.polkadot.network/docs/",
-    "https://wiki.polkadot.network/docs/en/getting-started"
+    "https://wiki.polkadot.network/docs/getting-started"
   ],
   "sitemap_urls": [
     "https://wiki.polkadot.network/sitemap.xml"
