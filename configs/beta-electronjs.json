@@ -1,10 +1,10 @@
 {
   "index_name": "beta-electronjs",
   "start_urls": [
-    "https://beta.electronjs.org/"
+    "https://beta.electronjs.org/docs/latest/"
   ],
   "sitemap_urls": [
-    "https://beta.electronjs.org/sitemap.xml"
+    "https://beta.electronjs.org/docs/latest/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
