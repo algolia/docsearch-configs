@@ -1,6 +1,7 @@
 {
   "index_name": "vuestic",
   "start_urls": [
+    "https://vuestic.dev/en/introduction/overview",
     "https://vuestic.dev/"
   ],
   "stop_urls": [],
@@ -16,8 +17,9 @@
     "lvl5": ".va-content h5",
     "text": ".va-content p, .va-content li"
   },
+  "js_render": true,
   "conversation_id": [
     "1339374996"
   ],
-  "nb_hits": 2245
+  "nb_hits": 3020
 }
