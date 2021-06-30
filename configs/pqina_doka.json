@@ -2,13 +2,23 @@
   "index_name": "pqina_doka",
   "start_urls": [
     {
-      "url": "https://pqina.nl/doka/docs/v7/",
-      "tags": ["v7"],
+      "url": "https://pqina.nl/pintura/docs/v8/",
+      "tags": [
+        "v8"
+      ],
       "page_rank": 10
     },
     {
-      "url": "https://pqina.nl/doka/docs/v6/",
-      "tags": ["v6"]
+      "url": "https://pqina.nl/pintura/docs/v7/",
+      "tags": [
+        "v7"
+      ]
+    },
+    {
+      "url": "https://pqina.nl/pintura/docs/v6/",
+      "tags": [
+        "v6"
+      ]
     }
   ],
   "stop_urls": [],
@@ -21,10 +31,16 @@
     "lvl5": "main h6",
     "text": "main p, main li"
   },
-  "selectors_exclude": [".toc"],
+  "selectors_exclude": [
+    ".toc"
+  ],
   "custom_settings": {
-    "attributesForFaceting": ["tags"]
+    "attributesForFaceting": [
+      "tags"
+    ]
   },
-  "conversation_id": ["1161709194"],
-  "nb_hits": 2617
+  "conversation_id": [
+    "1161709194"
+  ],
+  "nb_hits": 13208
 }
