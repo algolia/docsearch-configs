@@ -1,11 +1,12 @@
 {
-  "index_name": "ice",
+  "index_name": "andrewstech",
   "start_urls": [
-    "https://ice.work/"
+    "https://alpha-video.andrewstech.me/"
   ],
   "sitemap_urls": [
-    "https://ice.work/sitemap.xml"
+    "https://alpha-video.andrewstech.me/sitemap.xml"
   ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -40,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1555715170"
+    "1553156893"
   ],
-  "nb_hits": 1801
+  "nb_hits": 747
 }
