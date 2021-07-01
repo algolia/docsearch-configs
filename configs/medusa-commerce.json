@@ -1,0 +1,20 @@
+{
+  "index_name": "medusa-commerce",
+  "start_urls": [
+    "https://docs.medusa-commerce.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class*='EndpointContainer'] h1",
+    "lvl1": "[class*='EndpointContainer'] h2",
+    "lvl2": "[class*='EndpointContainer'] h3",
+    "lvl3": "[class*='EndpointContainer'] h4",
+    "lvl4": "[class*='EndpointContainer'] h5",
+    "lvl5": "[class*='EndpointContainer'] h6",
+    "text": "[class*='EndpointContainer'] p, [class*='EndpointContainer'] li"
+  },
+  "conversation_id": [
+    "1555810963"
+  ],
+  "nb_hits": 764
+}
