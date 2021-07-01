@@ -1,7 +1,7 @@
 {
   "index_name": "flyte",
   "start_urls": [
-    "https://docs.flyte.org/en/latest/"
+    "https://docs.flyte.org/"
   ],
   "sitemap_urls": [
     "https://docs.flyte.org/sitemap.xml"
