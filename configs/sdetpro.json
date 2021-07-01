@@ -1,0 +1,23 @@
+{
+  "index_name": "sdetpro",
+  "start_urls": [
+    "https://sdetpro.com/"
+  ],
+  "sitemap_urls": [
+    "https://sdetpro.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".lesson h1",
+    "lvl1": ".lesson h2",
+    "lvl2": ".lesson h3",
+    "lvl3": ".lesson h4",
+    "lvl4": ".lesson h5",
+    "lvl5": ".lesson h6",
+    "text": ".lesson p, .lesson li"
+  },
+  "conversation_id": [
+    "1537765283"
+  ],
+  "nb_hits": 798
+}
