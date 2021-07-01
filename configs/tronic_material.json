@@ -4,7 +4,7 @@
     "https://www.tronic247.com/material/"
   ],
   "sitemap_urls": [
-    "https://www.tronic247.com/sitemap.xml"
+    "https://www.tronic247.com/material/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -13,12 +13,12 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "text": "main p, main li"
+    "lvl1": "main h2",
+    "lvl2": "main h4",
+    "lvl3": "main h5",
+    "lvl4": "main h6",
+    "lvl5": "main sub",
+    "text": ".row .col-10"
   },
   "conversation_id": [
     "1528595298"
