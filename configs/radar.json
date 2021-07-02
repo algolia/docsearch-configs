@@ -8,13 +8,13 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".documentation-markdown h1",
-    "lvl1": ".documentation-markdown h2",
-    "lvl2": ".documentation-markdown h3",
-    "lvl3": ".documentation-markdown h4",
-    "lvl4": ".documentation-markdown h5",
-    "lvl5": ".documentation-markdown h6",
-    "text": ".documentation-markdown p, .documentation-markdown li"
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": "h3",
+    "lvl3": "h4",
+    "lvl4": "h5",
+    "lvl5": "h6",
+    "text": "p, li"
   },
   "conversation_id": [
     "1495879294"
