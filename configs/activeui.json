@@ -6,8 +6,6 @@
   "start_urls": [
     "https://activeviam.com/activeui/"
   ],
-  "js_render": true,
-  "js_wait": 1,
   "sitemap_alternate_links": true,
   "force_sitemap_urls_crawling": true,
   "stop_urls": [],
@@ -37,5 +35,5 @@
   "conversation_id": [
     "728521704"
   ],
-  "nb_hits": 200125
+  "nb_hits": 286012
 }
