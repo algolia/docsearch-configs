@@ -1,7 +1,18 @@
 {
   "index_name": "apostrophecms",
   "start_urls": [
-    "https://docs.apostrophecms.org"
+    {
+      "url": "https://v2.docs.apostrophecms.org/",
+      "tags": [
+        "v2"
+      ]
+    },
+    {
+      "url": "https://v3.docs.apostrophecms.org/",
+      "tags": [
+        "v3"
+      ]
+    }
   ],
   "stop_urls": [],
   "selectors": {
@@ -29,12 +40,13 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "tags"
     ]
   },
   "conversation_id": [
     "1157891501"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 7671
+  "nb_hits": 9276
 }
