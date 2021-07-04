@@ -1,10 +1,10 @@
 {
   "index_name": "reinfer",
   "start_urls": [
-    "https://reinfer.io/docs/"
+    "https://developers.reinfer.io/"
   ],
   "sitemap_urls": [
-    "https://reinfer.io/docs/sitemap.xml"
+    "https://developers.reinfer.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
