@@ -21,13 +21,9 @@
     "text": ".doc-post-content p, .doc-post-content li"
   },
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
+    "attributesForFaceting": ["language", "version"]
   },
-  "conversation_id": [
-    "1509698725"
-  ],
+  "js_render": true,
+  "conversation_id": ["1509698725"],
   "nb_hits": 4435
 }
