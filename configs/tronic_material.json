@@ -1,10 +1,10 @@
 {
   "index_name": "tronic_material",
   "start_urls": [
-    "https://www.tronic247.com/material/"
+    "https://tronic247.github.io/tronic247-material-docs/"
   ],
   "sitemap_urls": [
-    "https://www.tronic247.com/material/sitemap.xml"
+    "https://tronic247.github.io/tronic247-material-docs/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -13,7 +13,7 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "h1",
+    "lvl1": "h",
     "lvl2": "article main h2",
     "lvl3": "article main h3",
     "lvl4": "article main h4",
