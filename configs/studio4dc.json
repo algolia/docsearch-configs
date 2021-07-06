@@ -1,7 +1,8 @@
 {
   "index_name": "studio4dc",
   "start_urls": [
-    "https://nwb.studio4dc.com/docs/"
+    "https://nwb.studio4dc.com/docs/",
+    "https://nwb.studio4dc.com/docs/grid/breakpoints.html"
   ],
   "sitemap_urls": [
     "https://nwb.studio4dc.com/sitemap.xml"
@@ -20,8 +21,9 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
+  "js_render": true,
   "conversation_id": [
     "1450705313"
   ],
-  "nb_hits": 4434
+  "nb_hits": 5845
 }
