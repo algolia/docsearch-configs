@@ -23,6 +23,7 @@
       "default_value": "en-US"
     }
   },
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
