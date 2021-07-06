@@ -1,16 +1,16 @@
 {
   "index_name": "mateuszdabrowski",
   "start_urls": [
-    "https://mateuszdabrowski.pl/docs/"
+    "https://mateuszdabrowski.pl/docs",
+    "https://mateuszdabrowski.pl/docs/sql/sfmc-sql-date-functions/"
   ],
-  "sitemap_urls": [
-    "https://mateuszdabrowski.pl/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://mateuszdabrowski.pl/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -19,16 +19,13 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type"
-    ],
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -38,8 +35,6 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1274130707"
-  ],
+  "conversation_id": ["1274130707"],
   "nb_hits": 3361
 }
