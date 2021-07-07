@@ -1,26 +1,58 @@
 {
   "index_name": "cardano",
   "start_urls": [
-    "https://docs.cardano.org/"
+    {
+      "url": "https://docs.cardano.org/",
+      "tags": [
+        "docs"
+      ],
+      "selectors_key": "docs"
+    },
+    {
+      "url": "https://developers.cardano.org/",
+      "tags": [
+        "developers"
+      ],
+      "selectors_key": "developers"
+    }
   ],
   "sitemap_urls": [
-    "https://docs.cardano.org/sitemap.xml"
+    "https://docs.cardano.org/sitemap.xml",
+    "https://developers.cardano.org/sitemap.xml"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": "",
-      "global": true,
-      "default_value": "Documentation"
+    "docs": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "text": "main p, main li"
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "text": "main p, main li"
+    "developers": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Developers"
+      },
+      "lvl1": "[class*='MainContent'] h1",
+      "lvl2": "[class*='MainContent'] h2",
+      "lvl3": "[class*='MainContent'] h3",
+      "lvl4": "[class*='MainContent'] h4",
+      "lvl5": "[class*='MainContent'] h5",
+      "text": "[class*='MainContent'] p, [class*='MainContent'] li"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["tags"]
   },
   "conversation_id": [
     "1223539650"
   ],
-  "nb_hits": 2447
+  "nb_hits": 11373
 }
