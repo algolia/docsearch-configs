@@ -1,7 +1,12 @@
 {
   "index_name": "cardano",
   "start_urls": [
-    "https://docs.cardano.org/"
+    {
+      "url": "https://docs.cardano.org/"
+    },
+    {
+      "url": "https://developers.cardano.org/"
+    }
   ],
   "sitemap_urls": [
     "https://docs.cardano.org/sitemap.xml"
