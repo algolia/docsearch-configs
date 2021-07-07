@@ -48,6 +48,9 @@
       "text": "[class*='MainContent'] p, [class*='MainContent'] li"
     }
   },
+  "custom_settings": {
+    "attributesForFaceting": ["tags"]
+  },
   "conversation_id": [
     "1223539650"
   ],
