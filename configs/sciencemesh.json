@@ -1,11 +1,10 @@
 {
-  "index_name": "studio4dc",
+  "index_name": "sciencemesh",
   "start_urls": [
-    "https://nwb.studio4dc.com/docs/",
-    "https://nwb.studio4dc.com/docs/grid/breakpoints.html"
+    "https://developer.sciencemesh.io/docs/"
   ],
   "sitemap_urls": [
-    "https://nwb.studio4dc.com/sitemap.xml"
+    "https://developer.sciencemesh.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -21,9 +20,8 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
-  "js_render": true,
   "conversation_id": [
-    "1450705313"
+    "1560391993"
   ],
-  "nb_hits": 5845
+  "nb_hits": 429
 }

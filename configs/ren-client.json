@@ -1,10 +1,10 @@
 {
-  "index_name": "hacs",
+  "index_name": "ren-client",
   "start_urls": [
-    "https://hacs.xyz/"
+    "https://renproject.github.io/ren-client-docs/"
   ],
   "sitemap_urls": [
-    "https://hacs.xyz/sitemap.xml"
+    "https://renproject.github.io/ren-client-docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -42,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "979484137"
+    "1557868256"
   ],
-  "nb_hits": 796
+  "nb_hits": 3847
 }
