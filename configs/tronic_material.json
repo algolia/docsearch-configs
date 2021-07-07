@@ -1,10 +1,10 @@
 {
   "index_name": "tronic_material",
   "start_urls": [
-    "https://tronic247.github.io/material-docs/"
+    "https://material.pages.dev/"
   ],
   "sitemap_urls": [
-    "https://tronic247.github.io/material-docs/sitemap.xml"
+    "https://material.pages.dev/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
