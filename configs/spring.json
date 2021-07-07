@@ -1,0 +1,33 @@
+{
+  "index_name": "spring",
+  "start_urls": [
+    {
+      "url": "https://rwinch.github.io/spring-reference/(?P<type>.*?)/(?P<version>.*?)/",
+      "variables": {
+        "type": [
+          "framework",
+          "security"
+        ],
+        "version": [
+          "5.3",
+          "5.6",
+          "6"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": "h3",
+    "lvl3": "h4",
+    "lvl4": "h5",
+    "lvl5": "h6",
+    "text": "p, li"
+  },
+  "conversation_id": [
+    "1550839955"
+  ],
+  "nb_hits": 12764
+}
