@@ -3,6 +3,9 @@
   "start_urls": [
     "https://docs.coralproject.net/"
   ],
+  "sitemap_urls": [
+    "https://docs.coralproject.net/sitemap.xml"
+  ],
   "stop_urls": [
     "\\?"
   ],
