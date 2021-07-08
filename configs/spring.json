@@ -2,9 +2,9 @@
   "index_name": "spring",
   "start_urls": [
     {
-      "url": "https://rwinch.github.io/spring-reference/(?P<type>.*?)/(?P<version>.*?)/",
+      "url": "https://rwinch.github.io/spring-reference/(?P<platform>.*?)/(?P<version>.*?)/",
       "variables": {
-        "type": [
+        "platform": [
           "framework",
           "security"
         ],
