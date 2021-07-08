@@ -16,6 +16,7 @@
       }
     }
   ],
+  "js_render": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": "h1",
@@ -29,5 +30,5 @@
   "conversation_id": [
     "1550839955"
   ],
-  "nb_hits": 12764
+  "nb_hits": 13909
 }
