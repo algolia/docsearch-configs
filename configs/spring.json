@@ -2,9 +2,9 @@
   "index_name": "spring",
   "start_urls": [
     {
-      "url": "https://rwinch.github.io/spring-reference/(?P<type>.*?)/(?P<version>.*?)/",
+      "url": "https://rwinch.github.io/spring-reference/(?P<platform>.*?)/(?P<version>.*?)/",
       "variables": {
-        "type": [
+        "platform": [
           "framework",
           "security"
         ],
@@ -16,7 +16,6 @@
       }
     }
   ],
-  "js_render": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": "article h1",
@@ -25,10 +24,19 @@
     "lvl3": "article h4",
     "lvl4": "article h5",
     "lvl5": "article h6",
-    "text": "article p,article li"
+    "text": "article p, article li"
   },
+  "js_render": true,
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "version",
+      "platform"
+    ]
+  },
+  "min_indexed_level": 1,
   "conversation_id": [
     "1550839955"
   ],
-  "nb_hits": 13909
+  "nb_hits": 11279
 }
