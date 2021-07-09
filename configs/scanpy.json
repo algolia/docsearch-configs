@@ -9,6 +9,9 @@
           "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dl:first-child dd')){versions.push(b.innerText.trim())};return JSON.stringify(versions)"
         }
       }
+    },
+    {
+      "url": "https://scanpy.readthedocs.io/"
     }
   ],
   "sitemap_urls": [
