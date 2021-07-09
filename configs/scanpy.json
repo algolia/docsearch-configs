@@ -6,7 +6,7 @@
       "variables": {
         "version": {
           "url": "https://scanpy.readthedocs.io/",
-          "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dl:first-child dd')){versions.push(b.innerText)};return JSON.stringify(versions)"
+          "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dl:first-child dd')){versions.push(b.innerText.trim())};return JSON.stringify(versions)"
         }
       }
     }
