@@ -2,9 +2,6 @@
   "index_name": "trantor",
   "start_urls": [
     {
-      "url": "https://trantor-docs-dev.app.terminus.io/"
-    },
-    {
       "url": "https://trantor-docs-dev.app.terminus.io/(?P<version>.*?)/doc",
       "variables": {
         "version": {
@@ -12,7 +9,8 @@
           "js": "var versions = Array.from(document.getElementsByClassName('scrape-version')).map(function(version) { return version.innerText });return JSON.stringify(versions);"
         }
       }
-    }
+    },
+    "https://trantor-docs-dev.app.terminus.io/"
   ],
   "selectors": {
     "lvl0": ".ant-page-header-heading-title",
