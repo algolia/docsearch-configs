@@ -2,6 +2,9 @@
   "index_name": "trantor",
   "start_urls": [
     {
+      "url": "https://trantor-docs-dev.app.terminus.io/"
+    },
+    {
       "url": "https://trantor-docs-dev.app.terminus.io/(?P<version>.*?)/doc",
       "variables": {
         "version": {
