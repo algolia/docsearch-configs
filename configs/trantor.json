@@ -10,6 +10,8 @@
         }
       }
     },
+    'https://trantor-docs-dev.app.terminus.io/v0.17.x/doc',
+    'https://trantor-docs-dev.app.terminus.io/v0.14.x/doc',
     "https://trantor-docs-dev.app.terminus.io/"
   ],
   "selectors": {
