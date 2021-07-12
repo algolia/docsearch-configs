@@ -1,5 +1,6 @@
 {
   "index_name": "mogdb",
+  "start_urls": ["https://docs.mogdb.io"],
   "sitemap_urls": ["https://docs.mogdb.io/sitemap.xml"],
   "selectors": {
     "lvl0": ".center-container h1",
