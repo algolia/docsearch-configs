@@ -1,11 +1,8 @@
 {
   "index_name": "mogdb",
-  "start_urls": [
-    "https://docs.mogdb.io/v2.0.0/overview",
-    "https://docs.mogdb.io/"
+  "sitemap_urls": [
+    "https://docs.mogdb.io/sitemap.xml"
   ],
-  "sitemap_urls": ["https://docs.mogdb.io/sitemap.xml"],
-  "stop_urls": ["GAUSS"],
   "selectors": {
     "lvl0": ".center-container h1",
     "lvl1": ".center-container h2",
@@ -13,8 +10,12 @@
     "lvl3": ".center-container h4",
     "lvl4": ".center-container h5",
     "lvl5": ".center-container h6",
-    "text": ".center-container p, .center-container li"
+    "text": ".center-container p,.center-container li,.center-container code"
   },
-  "conversation_id": ["1558067742"],
-  "nb_hits": 100056
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang",
+      "version"
+    ]
+  }
 }
