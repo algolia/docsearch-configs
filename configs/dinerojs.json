@@ -1,24 +1,59 @@
 {
   "index_name": "dinerojs",
   "start_urls": [
-    "https://dinerojs.com"
+    {
+      "url": "https://dinerojs.com/",
+      "selectors_key": "v1",
+      "tags": [
+        "v1"
+      ]
+    },
+    {
+      "url": "https://v2.dinerojs.com/docs",
+      "selectors_key": "v2",
+      "tags": [
+        "v2"
+      ]
+    }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    ".html"
+  ],
+  "sitemap_urls": [
+    "https://v2.dinerojs.com/sitemap.xml"
+  ],
   "selectors": {
-    "lvl0": "#main h1",
-    "lvl1": "#main h3",
-    "lvl2": "#main h4",
-    "lvl3": "#main h5",
-    "lvl4": "#main table td:first-child",
-    "text": "#main p, #main li, #main table td:last-child"
+    "v1": {
+      "lvl0": "#main h1",
+      "lvl1": "#main h3",
+      "lvl2": "#main h4",
+      "lvl3": "#main h5",
+      "lvl4": "#main table td:first-child",
+      "text": "#main p, #main li, #main table td:last-child"
+    },
+    "v2": {
+      "lvl0": "main article h1",
+      "lvl1": "main article h2",
+      "lvl2": "main article h3",
+      "lvl3": "main article h4",
+      "lvl4": "main article h5",
+      "lvl5": "main article h6",
+      "text": "main article p, main article li, main article table tbody tr td:first-child"
+    }
   },
-  "scrape_start_urls": false,
-  "only_content_level": true,
+  "min_indexed_level": 1,
+  "selectors_exclude": [
+    ".type-signature",
+    ".sr-only",
+    "main article aside"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "tags"
+    ]
+  },
   "conversation_id": [
     "539142363"
   ],
-  "selectors_exclude": [
-    ".type-signature"
-  ],
-  "nb_hits": 269
+  "nb_hits": 912
 }
