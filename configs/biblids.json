@@ -4,40 +4,47 @@
     {
       "url": "http://subugoe.github.io/biblids/index.html",
       "selectors_key": "homepage",
-      "tags": ["homepage"]
+      "tags": [
+        "homepage"
+      ]
     },
     {
       "url": "http://subugoe.github.io/biblids/reference",
       "selectors_key": "reference",
-      "tags": ["reference"]
+      "tags": [
+        "reference"
+      ]
     },
     {
       "url": "http://subugoe.github.io/biblids/articles",
       "selectors_key": "articles",
-      "tags": ["articles"]
+      "tags": [
+        "articles"
+      ]
     }
   ],
-  "sitemap_urls": ["http://subugoe.github.io/biblids/sitemap.xml"],
+  "sitemap_urls": [
+    "http://subugoe.github.io/biblids/sitemap.xml"
+  ],
   "stop_urls": [
     "/reference/$",
     "/reference/index.html",
     "/articles/$",
     "/articles/index.html"
   ],
-  "js_render": true,
   "selectors": {
     "homepage": {
       "lvl0": {
-        "selector": ".contents h1",
+        "selector": ".section h1",
         "default_value": "pkgdown Home page"
       },
-      "lvl1": ".contents h2",
+      "lvl1": ".section h2",
       "lvl2": {
-        "selector": ".contents h3",
+        "selector": ".section h3",
         "default_value": "Context"
       },
       "lvl3": ".ref-arguments td, .ref-description",
-      "text": ".contents p, .contents li, .contents .pre"
+      "text": ".section p, .section li, .section .pre"
     },
     "reference": {
       "lvl0": ".contents h1",
@@ -69,8 +76,6 @@
       "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
     }
   },
-  "selectors_exclude": [".dont-index"],
-  "min_indexed_level": 2,
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesToRetrieve": [
@@ -81,5 +86,8 @@
       "url_without_anchor"
     ]
   },
-  "conversation_id": ["1563785388"]
+  "conversation_id": [
+    "1563785388"
+  ],
+  "nb_hits": 195
 }
