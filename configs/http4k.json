@@ -1,0 +1,23 @@
+{
+  "index_name": "Http4k",
+  "start_urls": [
+    "https://www.http4k.org/"
+  ],
+  "sitemap_urls": [
+    "https://www.http4k.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "lvl5": ".content h6",
+    "text": ".content p, .content li"
+  },
+  "conversation_id": [
+    "1567055640"
+  ],
+  "nb_hits": 2923
+}
