@@ -1,7 +1,7 @@
 {
   "index_name": "testspace_help",
   "start_urls": [
-    "https://help.testspace.com/docs/"
+    "https://help.testspace.com/"
   ],
   "sitemap_urls": [
     "https://help.testspace.com/sitemap.xml"
