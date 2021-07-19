@@ -8,8 +8,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": ".//menu//*[contains(@class,'menu-link-active')]/preceding::span[contains(@class,'menu-link')][1]",
-      "type":"xpath",
+      "selector": ".one-menu .veui-menu-item-exact-active",
       "global": true,
       "default_value": "Documentation"
     },
