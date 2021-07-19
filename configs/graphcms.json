@@ -1,5 +1,6 @@
 {
   "index_name": "graphcms",
+  "selectors_exclude": ["#heading-anchor"],
   "start_urls": [
     {
       "url": "https://graphcms.com/docs/guides/",
