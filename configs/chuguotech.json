@@ -1,7 +1,7 @@
 {
-  "index_name": "speckle",
+  "index_name": "chuguotech",
   "start_urls": [
-    "https://speckle.guide/"
+    "https://www.chuguotech.com/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,7 +15,7 @@
     "lvl3": ".theme-default-content h3",
     "lvl4": ".theme-default-content h4",
     "lvl5": ".theme-default-content h5",
-    "text": ".theme-default-content p, .theme-default-content li, .theme-default-content th, .theme-default-content td",
+    "text": ".theme-default-content p, .theme-default-content li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -33,8 +33,8 @@
     ]
   },
   "conversation_id": [
-    "1527167258"
+    "1568709463"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 4355
+  "nb_hits": 1096
 }

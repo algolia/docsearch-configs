@@ -1,10 +1,10 @@
 {
-  "index_name": "deity",
+  "index_name": "icework",
   "start_urls": [
-    "https://docs.deity.io/"
+    "https://micro-frontends.ice.work/"
   ],
   "sitemap_urls": [
-    "https://docs.deity.io/sitemap.xml"
+    "https://micro-frontends.ice.work/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -41,11 +40,8 @@
       "type"
     ]
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "conversation_id": [
-    "1138853612"
+    "1569918580"
   ],
-  "nb_hits": 4274
+  "nb_hits": 737
 }
