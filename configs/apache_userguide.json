@@ -1,0 +1,28 @@
+{
+  "index_name": "apache_userguide",
+  "start_urls": [
+    "https://iotdb.apache.org/UserGuide",
+    "https://iotdb.apache.org/UserGuide/Master/Administration-Management/Administration.html"
+  ],
+  "stop_urls": [],
+  "sitemap_urls": [
+    "https://iotdb.apache.org/UserGuide/sitemap.xml"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li"
+  },
+  "conversation_id": [
+    "1575970161"
+  ],
+  "nb_hits": 11728
+}
