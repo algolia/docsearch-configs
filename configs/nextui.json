@@ -1,0 +1,27 @@
+{
+  "index_name": "nextui",
+  "start_urls": [
+    "https://nextui.org/",
+    "https://nextui.org/docs/",
+    "https://nextui.org/docs/guide/getting-started"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".docs__center h1",
+    "lvl2": ".docs__center h2",
+    "lvl3": ".docs__center h3",
+    "lvl4": ".docs__center h4",
+    "lvl5": ".docs__center h5",
+    "text": ".docs__center p, .docs__center li"
+  },
+  "conversation_id": [
+    "1574758602"
+  ],
+  "js_render": true,
+  "nb_hits": 20
+}
