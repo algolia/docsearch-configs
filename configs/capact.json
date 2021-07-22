@@ -6,7 +6,6 @@
   "sitemap_urls": [
     "https://capact.io/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -24,7 +23,6 @@
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
-    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
       "version",
