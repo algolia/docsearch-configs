@@ -41,30 +41,9 @@
     "https://www.apollographql.com/docs/graphql-tools/",
     "https://www.apollographql.com/docs/graphql-subscriptions/",
     "https://www.apollographql.com/docs/ios/api/",
-    {
-      "url": "https://www.apollographql.com/docs/react/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "url": "https://www.apollographql.com/docs/apollo-server/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "url": "https://www.apollographql.com/docs/android/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "v3"
-        ]
-      }
-    }
+    "https://www.apollographql.com/docs/android/v3/",
+    "https://www.apollographql.com/docs/react/v2/",
+    "https://www.apollographql.com/docs/apollo-server/v2/"
   ],
   "selectors": {
     "default": {
@@ -111,5 +90,5 @@
   "conversation_id": [
     "355172644"
   ],
-  "nb_hits": 6675
+  "nb_hits": 10054
 }
