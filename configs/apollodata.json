@@ -35,14 +35,36 @@
     }
   ],
   "stop_urls": [
-    "index\\.html",
+    ".html",
     "https://www.apollographql.com/docs/angular/",
     "https://www.apollographql.com/docs/scala/",
     "https://www.apollographql.com/docs/graphql-tools/",
     "https://www.apollographql.com/docs/graphql-subscriptions/",
     "https://www.apollographql.com/docs/ios/api/",
-    "https:\\/\\/www\\.apollographql\\.com\\/docs/[A-Za-z0-9_-]+\\/v[0-9]+\\.",
-    "https:\\/\\/www\\.apollographql\\.com\\/docs/v[0-9]+\\."
+    {
+      "url": "https://www.apollographql.com/docs/react/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v2"
+        ]
+      }
+    },
+    {
+      "url": "https://www.apollographql.com/docs/apollo-server/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v2"
+        ]
+      }
+    },
+    {
+      "url": "https://www.apollographql.com/docs/android/(?P<version>.*?)/",
+      "variables": {
+        "version": [
+          "v3"
+        ]
+      }
+    }
   ],
   "selectors": {
     "default": {
