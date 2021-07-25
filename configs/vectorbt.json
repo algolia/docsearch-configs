@@ -1,16 +1,16 @@
 {
   "index_name": "vectorbt",
   "start_urls": [
-    "https://polakowo.io/vectorbt"
+    "https://vectorbt.dev/docs/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": "article .title",
     "lvl1": "article .section-title",
-    "lvl2": "article .parent-fname",
+    "lvl2": "article .parent-name",
     "lvl3": "article .section-subtitle",
-    "lvl4": "article .fname",
-    "text": "article p, article li"
+    "lvl4": "article .child-name",
+    "text": "article p, article li, article .params"
   },
   "selectors_exclude": [
     "details.source"
