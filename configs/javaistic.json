@@ -5,11 +5,11 @@
       "url": "https://javaistic.vercel.app/"
     },
     {
-      "url": "https://javaistic.vercel.app/docs",
+      "url": "https://javaistic.vercel.app/docs/",
       "selectors_key": "docs"
     },
     {
-      "url": "https://javaistic.vercel.app/programs",
+      "url": "https://javaistic.vercel.app/programs/",
       "selectors_key": "programs"
     }
   ],
@@ -20,17 +20,17 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "//nav[contains(@id, 'nav')]//a[contains(@class, 'font-semibold')][1]/preceding::p[1]",
+        "selector": "//nav[contains(@id, 'nav')]//*[contains(@class, 'opacity-50')][1]/preceding::h5[1]",
         "type": "xpath",
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl1": ".markdown h1",
-      "lvl2": ".markdown h2",
-      "lvl3": ".markdown h3",
-      "lvl4": ".markdown h4",
-      "lvl5": ".markdown h5",
-      "text": ".markdown > p, .markdown > ul li, .markdown td:first-child, .markdown .text-xl"
+      "lvl1": "#content-wrapper h1",
+      "lvl2": "#content-wrapper h2",
+      "lvl3": "#content-wrapper h3",
+      "lvl4": "#content-wrapper h4, #content-wrapper td:first-child",
+      "lvl5": "#content-wrapper h5",
+      "text": "#content-wrapper > p, #content-wrapper > ul li, #content-wrapper td:not(:first-child), #content-wrapper .text-gray-600"
     },
     "docs": {
       "lvl0": {
