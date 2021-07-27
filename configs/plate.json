@@ -1,5 +1,5 @@
 {
-  "index_name": "slate-plugins",
+  "index_name": "plate",
   "start_urls": [
     "https://slate-plugins.udecode.io/"
   ],
@@ -43,5 +43,5 @@
   "conversation_id": [
     "1496439323"
   ],
-  "nb_hits": 471
+  "nb_hits": 450
 }
