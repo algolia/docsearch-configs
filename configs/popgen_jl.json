@@ -1,10 +1,10 @@
 {
   "index_name": "popgen_jl",
   "start_urls": [
-    "https://pdimens.github.io/PopGen.jl"
+    "https://biojulia.net/PopGen.jl/"
   ],
   "sitemap_urls": [
-    "https://pdimens.github.io/PopGen.jl/sitemap.xml"
+    "https://biojulia.net/PopGen.jl/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
