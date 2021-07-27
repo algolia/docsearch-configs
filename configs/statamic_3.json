@@ -21,9 +21,7 @@
     "https://statamic.dev/tags",
     "https://statamic.dev/modifiers"
   ],
-  {
-    "sitemap_urls": ["https://statamic.dev/sitemap.xml"]
-  },
+  "sitemap_urls": ["https://statamic.dev/sitemap.xml"],
   "selectors": {
     "default": {
       "lvl0": "#content h1",
