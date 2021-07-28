@@ -1,7 +1,6 @@
 {
   "index_name": "statamic_3",
   "start_urls": [
-    "https://statamic.dev",
     {
       "url": "https://statamic.dev/modifiers/",
       "selectors_key": "minimal"
@@ -13,7 +12,8 @@
     {
       "url": "https://statamic.dev/quick-start",
       "page_rank": 5
-    }
+    },
+    "https://statamic.dev"
   ],
   "stop_urls": [
     "https://statamic.dev/fieldtypes",
