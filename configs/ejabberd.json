@@ -3,7 +3,7 @@
   "start_urls": [
     "https://docs.ejabberd.im"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/archive/", "/admin/configuration/old/"],
   "selectors": {
     "lvl0": "#content h1",
     "lvl1": "#content h2",
