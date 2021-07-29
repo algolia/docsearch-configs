@@ -2,32 +2,41 @@
   "index_name": "statamic_3",
   "start_urls": [
     {
-      "url": "https://statamic.dev/tags",
+      "url": "https://statamic.dev/modifiers/",
+      "selectors_key": "minimal"
+    },
+    {
+      "url": "https://statamic.dev/variables/",
+      "selectors_key": "minimal"
+    },
+    {
+      "url": "https://statamic.dev/quick-start",
       "page_rank": 5
-    },
-    {
-      "url": "https://statamic.dev/fieldtypes",
-      "page_rank": 4
-    },
-    {
-      "url": "https://statamic.dev/modifiers",
-      "page_rank": 3
-    },
-    {
-      "url": "https://statamic.dev/variables",
-      "page_rank": 2
     },
     "https://statamic.dev"
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://statamic.dev/fieldtypes",
+    "https://statamic.dev/knowledge-base",
+    "https://statamic.dev/tags",
+    "https://statamic.dev/modifiers"
+  ],
+  "sitemap_urls": ["https://statamic.dev/sitemap.xml"],
   "selectors": {
-    "lvl0": "#content h1",
-    "lvl1": "#content h2",
-    "lvl2": "#content h3",
-    "lvl3": "#content h4",
-    "lvl4": "#content h5",
-    "lvl5": "#content h6",
-    "text": "#content header p,#content article p,#content article li,#content article blockquote"
+    "default": {
+      "lvl0": "#content h1",
+      "lvl1": "#content h2",
+      "lvl2": "#content h3",
+      "lvl3": "#content h4",
+      "lvl4": "#content h5",
+      "lvl5": "#content h6",
+      "text": "#content header p,#content article p,#content article li,#content article blockquote"
+    },
+    "minimal": {
+      "lvl0": "#content h1",
+      "lvl1": "#content h2",
+      "text": "#content article p,#content article li,#content article blockquote"
+    }
   },
   "selectors_exclude": [
     ".ignored",
