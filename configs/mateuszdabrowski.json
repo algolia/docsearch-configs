@@ -42,8 +42,9 @@
       "type"
     ]
   },
+  "js_render": true,
   "conversation_id": [
     "1274130707"
   ],
-  "nb_hits": 3126
+  "nb_hits": 3989
 }
