@@ -135,7 +135,8 @@
       "language",
       "version",
       "type",
-      "docusaurus_tag"
+      "docusaurus_tag",
+      "tags"
     ],
     "attributesToRetrieve": [
       "hierarchy",
