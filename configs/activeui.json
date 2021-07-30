@@ -20,9 +20,18 @@
     "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
-  "selectors_exclude": [".hash-link"],
+  "strip_chars": " .,;:#",
   "custom_settings": {
-    "attributesForFaceting": ["language", "version"]
+    "separatorsToIndex": "_",
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
   },
   "conversation_id": ["728521704"],
   "nb_hits": 286012
