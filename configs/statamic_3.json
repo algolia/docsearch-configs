@@ -16,12 +16,14 @@
     "https://statamic.dev"
   ],
   "stop_urls": [
-    "https://statamic.dev/fieldtypes",
-    "https://statamic.dev/knowledge-base",
-    "https://statamic.dev/tags",
-    "https://statamic.dev/modifiers"
+    "https://statamic.dev/fieldtypes$",
+    "https://statamic.dev/knowledge-base$",
+    "https://statamic.dev/tags$",
+    "https://statamic.dev/modifiers$"
   ],
-  "sitemap_urls": ["https://statamic.dev/sitemap.xml"],
+  "sitemap_urls": [
+    "https://statamic.dev/sitemap.xml"
+  ],
   "selectors": {
     "default": {
       "lvl0": "#content h1",
@@ -58,5 +60,5 @@
   "conversation_id": [
     "1177617554"
   ],
-  "nb_hits": 3217
+  "nb_hits": 4402
 }
