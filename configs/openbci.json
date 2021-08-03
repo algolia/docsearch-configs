@@ -1,10 +1,12 @@
 {
   "index_name": "openbci",
   "start_urls": [
-    "https://docs.openbci.com/docs/",
-    "https://docs.openbci.com/docs/Welcome.html"
+    "https://docs.openbci.com/",
+    "https://docs.openbci.com/FAQ/DocsUpdate/"
   ],
-  "sitemap_urls": ["https://docs.openbci.com/sitemap.xml"],
+  "sitemap_urls": [
+    "https://docs.openbci.com/sitemap.xml"
+  ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -25,7 +27,12 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -35,6 +42,8 @@
       "type"
     ]
   },
-  "conversation_id": ["935618417"],
-  "nb_hits": 4763
+  "conversation_id": [
+    "935618417"
+  ],
+  "nb_hits": 5545
 }
