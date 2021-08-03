@@ -1,10 +1,7 @@
 {
   "index_name": "activeui",
   "sitemap_urls": ["https://activeviam.com/activeui/documentation/sitemap.xml"],
-  "start_urls": [
-    "https://activeviam.com/activeui/",
-    "https://activeviam.com/activeui/documentation/5.0.0/index.html"
-  ],
+  "start_urls": ["https://activeviam.com/activeui/"],
   "sitemap_alternate_links": true,
   "force_sitemap_urls_crawling": true,
   "stop_urls": [],
@@ -26,7 +23,7 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
+    "attributesForFaceting": ["language", "version", "type", "activeui-version"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
