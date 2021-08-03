@@ -15,12 +15,7 @@
     },
     "https://statamic.dev"
   ],
-  "stop_urls": [
-    "https://statamic.dev/fieldtypes",
-    "https://statamic.dev/knowledge-base",
-    "https://statamic.dev/tags",
-    "https://statamic.dev/modifiers"
-  ],
+  "stop_urls": [],
   "sitemap_urls": ["https://statamic.dev/sitemap.xml"],
   "selectors": {
     "default": {
