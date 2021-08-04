@@ -1,18 +1,23 @@
 {
   "index_name": "noesisengine",
-  "start_urls": ["https://www.noesisengine.com/docs/"],
-  "sitemap_urls": ["https://www.noesisengine.com/sitemap.xml"],
+  "start_urls": [
+    "https://www.noesisengine.com/docs/"
+  ],
+  "sitemap_urls": [
+    "https://www.noesisengine.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".noesis_doc_content h1.title",
-    "lvl1": ".noesis_doc_content h1",
-    "lvl2": ".noesis_doc_content h2",
-    "lvl3": ".noesis_doc_content h3",
-    "lvl4": ".noesis_doc_content h4",
-    "lvl5": ".noesis_doc_content h5",
-    "text": ".noesis_doc_content p, .noesis_doc_content li, .noesis_doc_content span"
+    "lvl0": ".noesis_doc_content h1",
+    "lvl1": ".noesis_doc_content h2",
+    "lvl2": ".noesis_doc_content h3",
+    "lvl3": ".noesis_doc_content h4",
+    "lvl4": ".noesis_doc_content h5",
+    "lvl5": ".noesis_doc_content h6",
+    "text": ".noesis_doc_content p, .noesis_doc_content li"
   },
-  "selectors_exclude": ["#table-of-contents"],
-  "conversation_id": ["1403708645"],
+  "conversation_id": [
+    "1403708645"
+  ],
   "nb_hits": 17859
 }
