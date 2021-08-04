@@ -43,6 +43,11 @@
         "abandon",
         "behavioral",
         "behavioural"
+      ],
+      [
+        "keyword",
+        "operator",
+        "shorthand"
       ]
     ],
     "attributesForFaceting": [
