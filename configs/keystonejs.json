@@ -1,24 +1,52 @@
 {
   "index_name": "keystonejs",
   "start_urls": [
-    "https://keystonejs.com/"
+    {
+      "url": "https://keystonejs.com/",
+      "tags": ["stable"]
+    },
+    {
+      "url": "https://v5.keystonejs.com/",
+      "selectors_key": "v5",
+      "tags": ["v5"]
+    }
   ],
   "stop_urls": [],
-  "selectors": {
-    "lvl0": {
-      "selector": "",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "text": "main p, main li"
-  },
-  "conversation_id": [
-    "1113924890"
+  "sitemap_urls": [
+    "https://v5.keystonejs.com/sitemap.xml",
+    "https://keystonejs.com/sitemap.xml"
   ],
-  "nb_hits": 2212
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "text": "main p, main li"
+    },
+    "v5": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".docSearch-content h1",
+      "lvl2": ".docSearch-content h2",
+      "lvl3": ".docSearch-content h3",
+      "lvl4": ".docSearch-content h4",
+      "lvl5": ".docSearch-content h5",
+      "text": ".docSearch-content p, .docSearch-content li"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["tags"]
+  },
+  "conversation_id": ["1113924890"],
+  "nb_hits": 4990
 }
