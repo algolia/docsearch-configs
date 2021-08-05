@@ -1,7 +1,7 @@
 {
   "index_name": "vuepress-theme-mix",
   "start_urls": [
-    "https://vuepress-theme-mix.vercel.app/"
+    "https://vuepress-theme-mix.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {
