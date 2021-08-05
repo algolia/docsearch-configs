@@ -116,7 +116,9 @@
     "sitemap_urls": [
         "https://docs.pachyderm.com/latest/sitemap.xml",
         "https://docs.pachyderm.com/1.12.x/sitemap.xml",
-        "https://docs.pachyderm.com/1.11.x/sitemap.xml"
+        "https://docs.pachyderm.com/1.11.x/sitemap.xml",
+        "https://docs.pachyderm.com/2.0.x-beta/sitemap.xml",
+        "https://docs.pachyderm.com/2.0.x-rc/sitemap.xml"
     ],
     "selectors": {
         "lvl0": {
