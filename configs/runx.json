@@ -1,10 +1,10 @@
 {
   "index_name": "runx",
   "start_urls": [
-    "https://docs.runx.dev/"
+    "https://docs.opta.dev/"
   ],
   "sitemap_urls": [
-    "https://docs.runx.dev/sitemap.xml"
+    "https://docs.opta.dev/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
