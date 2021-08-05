@@ -3,9 +3,9 @@
   "start_urls": [
     "https://developers.livechat.com/docs/"
   ],
-  "stop_urls": ["v1.", "v2.", "v3."],
+  "stop_urls": ["v1.", "v2.", "v3.", "[^/]+$"],
   "sitemap_urls": [
-    "https://developers.livechatinc.com/docs/sitemap.xml"
+    "https://developers.livechat.com/docs/sitemap.xml"
   ],
   "selectors": {
     "lvl0": "article h1",
