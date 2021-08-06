@@ -103,9 +103,7 @@
         "auth0"
       ]
     },
-    {
-      "url": "https://supertokens.io/docs/"
-    }
+    "https://supertokens.io/"
   ],
   "sitemap_urls": [
     "https://supertokens.io/sitemap.xml"
@@ -147,10 +145,8 @@
       "type"
     ]
   },
-  "js_render": true,
-  "js_wait": 3,
   "conversation_id": [
     "1483529517"
   ],
-  "nb_hits": 37806
+  "nb_hits": 42026
 }
