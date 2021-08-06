@@ -1,7 +1,7 @@
 {
   "index_name": "useaurora",
   "start_urls": [
-    "https://www.useaurora.app/docs/getting-started/installation"
+    "https://www.useaurora.app"
   ],
   "sitemap_urls": [
     "https://www.useaurora.app/sitemap.xml"
