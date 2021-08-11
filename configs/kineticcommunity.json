@@ -1,7 +1,6 @@
 {
   "index_name": "kineticcommunity",
-  "start_urls": [
-    {
+  "start_urls": [{
       "url": "https://community.kineticdata.com/admin-docs",
       "selectors_key": "admin-docs",
       "tags": [
@@ -19,7 +18,7 @@
       ]
     },
     {
-      "url": "https://community.kineticdata.com/admin-docs/integration/plugins",
+      "url": "https://community.kineticdata.com/integrations",
       "selectors_key": "integrations",
       "tags": [
         "Integrations",
@@ -107,10 +106,10 @@
       "lvl4": ".community-content h1",
       "text": ".community-content p, community-content li"
     },
-    "plugins": {
+    "integrations": {
       "lvl0": {
         "selector": "",
-        "default_value": "Plugins"
+        "default_value": "Integrations"
       },
       "lvl1": {
         "selector": ".breadcrumb .breadcrumb-item:nth-child(3)",
