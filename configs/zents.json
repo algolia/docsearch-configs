@@ -1,19 +1,6 @@
 {
   "index_name": "zents",
-  "start_urls": [
-    {
-      "url": "https://zents.dev/guide"
-    },
-    {
-      "url": "https://zents.dev/api"
-    },
-    {
-      "url": "configuration.html"
-    },
-    {
-      "url": "cli.html"
-    }
-  ],
+  "start_urls": ["https://zents.dev/guide", "https://zents.dev/api"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -28,8 +15,6 @@
     "text": ".theme-default-content p, .theme-default-content li"
   },
   "strip_chars": " .,;:#",
-  "conversation_id": [
-    "1287742785"
-  ],
+  "conversation_id": ["1287742785"],
   "nb_hits": 1980
 }
