@@ -1,9 +1,29 @@
 {
   "index_name": "graphcms",
+  "selectors_exclude": [
+    "#heading-anchor"
+  ],
   "start_urls": [
     {
-      "url": "https://graphcms.com/guides/",
-      "selectors_key": "guides"
+      "url": "https://graphcms.com/docs/guides/",
+      "selectors_key": "guides",
+      "tags": [
+        "guides"
+      ]
+    },
+    {
+      "url": "https://graphcms.com/docs/api-reference/",
+      "selectors_key": "api",
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "url": "https://graphcms.com/docs/ui-extensions/",
+      "selectors_key": "ui",
+      "tags": [
+        "ui"
+      ]
     },
     "https://graphcms.com/docs/"
   ],
@@ -15,31 +35,51 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "nav button.text-rose",
-        "global": true,
-        "default_value": "API Reference"
+        "selector": "",
+        "default_value": "Documentation"
       },
-      "lvl1": "main h1",
-      "lvl2": "main h2",
-      "lvl3": "main h3",
-      "lvl4": "main h4",
-      "lvl5": "main h5",
-      "text": "main p, main li"
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
     },
     "guides": {
       "lvl0": {
         "selector": "",
-        "global": true,
         "default_value": "Guides"
       },
-      "lvl1": "section h1",
-      "lvl2": "section h2",
-      "lvl3": "section h3",
-      "lvl4": "section h4"
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API Reference"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
+    },
+    "ui": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "UI Extensions"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
     }
   },
   "conversation_id": [
     "939402783"
   ],
-  "nb_hits": 767
+  "nb_hits": 1105
 }

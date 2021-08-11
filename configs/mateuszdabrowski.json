@@ -3,14 +3,19 @@
   "start_urls": [
     "https://mateuszdabrowski.pl/docs/"
   ],
+  "stop_urls": [
+    "https://mateuszdabrowski.pl/sites/my-toolset/", 
+    "https://mateuszdabrowski.pl/sites/licence/", 
+    "https://mateuszdabrowski.pl/sites/privacy/"
+  ],
   "sitemap_urls": [
     "https://mateuszdabrowski.pl/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -19,15 +24,37 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
+    "synonyms": [
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "sql",
+        "query"
+      ],
+      [
+        "abandon",
+        "behavioral",
+        "behavioural"
+      ],
+      [
+        "keyword",
+        "operator",
+        "shorthand"
+      ]
+    ],
     "attributesForFaceting": [
       "language",
       "version",
-      "type"
+      "type",
+      "docusaurus_tag"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -35,11 +62,13 @@
       "anchor",
       "url",
       "url_without_anchor",
-      "type"
+      "type",
+      "docusaurus_tag"
     ]
   },
+  "user_agent": "Algolia DocSearch Crawler",
   "conversation_id": [
     "1274130707"
   ],
-  "nb_hits": 495
+  "nb_hits": 3989
 }

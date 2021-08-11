@@ -1,0 +1,29 @@
+{
+  "index_name": "milvus",
+  "start_urls": [
+    "https://milvus.io/docs/install_milvus.md",
+    "https://milvus.io/cn/docs/v1.1.0/overview.md",
+    "https://milvus.io/"
+  ],
+  "sitemap_urls": [],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".doc-post-content h1",
+    "lvl2": ".doc-post-content h2",
+    "lvl3": ".doc-post-content h3",
+    "lvl4": ".doc-post-content h4",
+    "lvl5": ".doc-post-content h5",
+    "text": ".doc-post-content p, .doc-post-content li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["language", "version"]
+  },
+  "js_render": true,
+  "conversation_id": ["1509698725"],
+  "nb_hits": 4435
+}

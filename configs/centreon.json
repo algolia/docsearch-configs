@@ -1,12 +1,22 @@
 {
   "index_name": "centreon",
   "start_urls": [
-    "https://docs.centreon.com/",
-    "https://docs.centreon.com/current/en/"
+    {
+      "url": "https://docs.centreon.com/(?P<version>.*?)/(?P<language>.*?)/",
+      "variables": {
+        "version": [
+          "21.04",
+          "20.10",
+          "20.04"
+        ],
+        "language": [
+          "en",
+          "fr"
+        ]
+      }
+    }
   ],
-  "sitemap_urls": [
-    "https://docs.centreon.com/sitemap.xml"
-  ],
+  "sitemap_urls": [],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -35,5 +45,5 @@
   "conversation_id": [
     "1142111397"
   ],
-  "nb_hits": 18160
+  "nb_hits": 153247
 }

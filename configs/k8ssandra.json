@@ -1,11 +1,7 @@
 {
   "index_name": "k8ssandra",
-  "start_urls": [
-    "https://k8ssandra.io/docs/"
-  ],
-  "sitemap_urls": [
-    "https://k8ssandra.io/sitemap.xml"
-  ],
+  "start_urls": ["https://docs.k8ssandra.io/"],
+  "sitemap_urls": ["https://docs.k8ssandra.io/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -20,8 +16,6 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
-  "conversation_id": [
-    "1457865732"
-  ],
+  "conversation_id": ["1457865732"],
   "nb_hits": 1388
 }

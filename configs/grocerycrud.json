@@ -1,7 +1,7 @@
 {
   "index_name": "grocerycrud",
   "start_urls": [
-    "https://new.grocerycrud.com/"
+    "https://www.grocerycrud.com/"
   ],
   "stop_urls": ["/v1.x/.*"],
   "selectors": {

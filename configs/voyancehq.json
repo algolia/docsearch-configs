@@ -1,0 +1,20 @@
+{
+  "index_name": "voyancehq",
+  "start_urls": [
+    "https://docs.voyancehq.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".pageContentContainer h1",
+    "lvl1": ".pageContentContainer h2",
+    "lvl2": ".pageContentContainer h3",
+    "lvl3": ".pageContentContainer h4",
+    "lvl4": ".pageContentContainer h5",
+    "lvl5": ".pageContentContainer h6",
+    "text": ".pageContentContainer p, .pageContentContainer li"
+  },
+  "conversation_id": [
+    "1501970851"
+  ],
+  "nb_hits": 99
+}

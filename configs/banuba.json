@@ -1,10 +1,16 @@
 {
   "index_name": "banuba",
   "start_urls": [
-    "https://docs.banuba.com/face-ar-sdk/"
+    {
+      "url": "https://docs.banuba.com/(?P<version>.*?)/",
+      "variables": {
+        "version": ["face-ar-sdk", "face-ar-sdk-v1"]
+      }
+    }
   ],
   "sitemap_urls": [
-    "https://docs.banuba.com/face-ar-sdk/sitemap.xml"
+    "https://docs.banuba.com/face-ar-sdk/sitemap.xml",
+    "https://docs.banuba.com/face-ar-sdk-v1/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

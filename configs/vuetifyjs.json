@@ -15,9 +15,8 @@
       "selectors_key": "api"
     }
   ],
-  "stop_urls": [
-    "/store/"
-  ],
+  "sitemap_urls": ["https://vuetifyjs.com/sitemap.xml"],
+  "stop_urls": ["/store/"],
   "strip_chars": "#",
   "selectors": {
     "default": {
@@ -49,12 +48,8 @@
     }
   },
   "custom_settings": {
-    "attributesForFaceting": [
-      "language"
-    ]
+    "attributesForFaceting": ["language"]
   },
-  "conversation_id": [
-    "421371997"
-  ],
-  "nb_hits": 3479
+  "conversation_id": ["421371997"],
+  "nb_hits": 11369
 }

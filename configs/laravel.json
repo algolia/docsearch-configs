@@ -52,7 +52,7 @@
     "1098245173"
   ],
   "custom_settings": {
-    "attributesToIndex": [
+    "searchableAttributes": [
       "unordered(hierarchy_camel.lvl0)",
       "unordered(hierarchy.lvl0)",
       "unordered(hierarchy_camel.lvl1)",
@@ -69,5 +69,5 @@
     ],
     "attributeForDistinct": "url_without_anchor"
   },
-  "nb_hits": 69556
+  "nb_hits": 71089
 }

@@ -1,10 +1,10 @@
 {
   "index_name": "expo",
   "start_urls": [
-    "https://docs.expo.io/"
+    "https://docs.expo.dev/"
   ],
   "sitemap_urls": [
-    "https://docs.expo.io/sitemap.xml"
+    "https://docs.expo.dev/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {

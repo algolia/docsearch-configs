@@ -1,11 +1,11 @@
 {
   "index_name": "elcovision_de",
   "start_urls": [
-    "http://www.de-manual.elcovision.com/"
+    "https://de-manual.elcovision.com/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
-    "http://www.de-manual.elcovision.com/sitemap.xml"
+    "https://de-manual.elcovision.com/sitemap.xml"
   ],
   "selectors": {
     "lvl0": "article h1",

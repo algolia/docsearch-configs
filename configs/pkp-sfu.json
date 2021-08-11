@@ -1,0 +1,23 @@
+{
+  "index_name": "pkp-sfu",
+  "start_urls": [
+    "https://docs.pkp.sfu.ca/"
+  ],
+  "sitemap_urls": [
+    "https://docs.pkp.sfu.ca/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".book__content h1",
+    "lvl1": ".book__content h2",
+    "lvl2": ".book__content h3",
+    "lvl3": ".book__content h4",
+    "lvl4": ".book__content h5",
+    "lvl5": ".book__content h6",
+    "text": ".book__content p, .book__content li"
+  },
+  "conversation_id": [
+    "1545348829"
+  ],
+  "nb_hits": 37553
+}

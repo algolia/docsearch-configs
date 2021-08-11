@@ -1,0 +1,27 @@
+{
+  "index_name": "lowdefy",
+  "start_urls": [
+    "https://docs.lowdefy.com/",
+    "https://docs.lowdefy.com/introduction"
+  ],
+  "sitemap_urls": ["https://docs.lowdefy.com/public/sitemap.xml"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "text": "main p, main li"
+  },
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
+  "conversation_id": ["964484389"],
+  "js_render": true,
+  "js_wait": 6,
+  "nb_hits": 105
+}
