@@ -19,5 +19,8 @@
   "conversation_id": [
     "1576826212"
   ],
+  "custom_settings": {
+    "attributesForFaceting": ["version"]
+  },
   "nb_hits": 62880
 }
