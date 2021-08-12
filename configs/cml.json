@@ -1,0 +1,23 @@
+{
+  "index_name": "cml",
+  "start_urls": [
+    "https://cml.dev/doc"
+  ],
+  "sitemap_urls": [
+    "https://cml.dev/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".markdown-body h1",
+    "lvl1": ".markdown-body h2",
+    "lvl2": ".markdown-body h3",
+    "lvl3": ".markdown-body h4",
+    "lvl4": ".markdown-body h5",
+    "lvl5": ".markdown-body h6",
+    "text": ".markdown-body p, .markdown-body li"
+  },
+  "conversation_id": [
+    "1589561863"
+  ],
+  "nb_hits": 149
+}
