@@ -1,10 +1,10 @@
 {
-  "index_name": "flayyer",
+  "index_name": "snaphydroponics",
   "start_urls": [
-    "https://docs.flyyer.io/"
+    "https://manual.snaphydroponics.info/"
   ],
   "sitemap_urls": [
-    "https://docs.flyyer.io/sitemap.xml"
+    "https://manual.snaphydroponics.info/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1379393468"
+    "1595348134"
   ],
-  "nb_hits": 963
+  "nb_hits": 672
 }
