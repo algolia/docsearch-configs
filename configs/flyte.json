@@ -1,12 +1,8 @@
 {
   "index_name": "flyte",
-  "start_urls": [
-    "https://docs.flyte.org/"
-  ],
-  "sitemap_urls": [
-    "https://docs.flyte.org/sitemap.xml"
-  ],
-  "stop_urls": [],
+  "start_urls": ["https://docs.flyte.org/"],
+  "sitemap_urls": ["https://docs.flyte.org/sitemap.xml"],
+  "stop_urls": [".txt", ".py", "ipynb"],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -20,8 +16,6 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "conversation_id": [
-    "1433800413"
-  ],
-  "nb_hits": 1182
+  "conversation_id": ["1433800413"],
+  "nb_hits": 19460
 }
