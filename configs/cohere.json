@@ -1,10 +1,10 @@
 {
-  "index_name": "flayyer",
+  "index_name": "cohere",
   "start_urls": [
-    "https://docs.flyyer.io/"
+    "https://docs.cohere.ai/"
   ],
   "sitemap_urls": [
-    "https://docs.flyyer.io/sitemap.xml"
+    "https://docs.cohere.ai/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1379393468"
+    "1587241823"
   ],
-  "nb_hits": 963
+  "nb_hits": 737
 }
