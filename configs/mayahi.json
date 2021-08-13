@@ -1,10 +1,10 @@
 {
-  "index_name": "cortezaproject",
+  "index_name": "mayahi",
   "start_urls": [
-    "https://docs.cortezaproject.org"
+    "https://mayahi.net"
   ],
   "sitemap_urls": [
-    "https://docs.cortezaproject.org/sitemap.xml"
+    "https://mayahi.net/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -17,10 +17,7 @@
     "text": "article p, article li"
   },
   "conversation_id": [
-    "1576826212"
+    "1591183303"
   ],
-  "custom_settings": {
-    "attributesForFaceting": ["version"]
-  },
-  "nb_hits": 62880
+  "nb_hits": 1347
 }

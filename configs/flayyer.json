@@ -1,10 +1,10 @@
 {
   "index_name": "flayyer",
   "start_urls": [
-    "https://docs.flayyer.com/"
+    "https://docs.flyyer.io/"
   ],
   "sitemap_urls": [
-    "https://docs.flayyer.com/sitemap.xml"
+    "https://docs.flyyer.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -43,5 +43,5 @@
   "conversation_id": [
     "1379393468"
   ],
-  "nb_hits": 623
+  "nb_hits": 963
 }

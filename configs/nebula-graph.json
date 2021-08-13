@@ -1,10 +1,10 @@
 {
-  "index_name": "cortezaproject",
+  "index_name": "nebula-graph",
   "start_urls": [
-    "https://docs.cortezaproject.org"
+    "https://docs.nebula-graph.io"
   ],
   "sitemap_urls": [
-    "https://docs.cortezaproject.org/sitemap.xml"
+    "https://docs.nebula-graph.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -17,10 +17,7 @@
     "text": "article p, article li"
   },
   "conversation_id": [
-    "1576826212"
+    "1586613645"
   ],
-  "custom_settings": {
-    "attributesForFaceting": ["version"]
-  },
-  "nb_hits": 62880
+  "nb_hits": 8928
 }

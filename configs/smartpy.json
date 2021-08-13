@@ -1,10 +1,10 @@
 {
   "index_name": "smartpy",
   "start_urls": [
-    "https://docs.smartpy.io/"
+    "https://smartpy.io/docs"
   ],
   "sitemap_urls": [
-    "https://docs.smartpy.io/sitemap.xml"
+    "https://smartpy.io/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

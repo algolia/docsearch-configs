@@ -1,20 +1,26 @@
 {
-  "index_name": "kwb_utils",
+  "index_name": "roche-gsk",
   "start_urls": [
     {
-      "url": "https://kwb-r.github.io/kwb.utils/index.html",
+      "url": "https://roche-gsk.github.io/admiral/index.html",
       "selectors_key": "homepage",
-      "tags": ["homepage"]
+      "tags": [
+        "homepage"
+      ]
     },
     {
-      "url": "https://kwb-r.github.io/kwb.utils/reference",
+      "url": "https://roche-gsk.github.io/admiral/reference",
       "selectors_key": "reference",
-      "tags": ["reference"]
+      "tags": [
+        "reference"
+      ]
     },
     {
-      "url": "https://kwb-r.github.io/kwb.utils/articles",
+      "url": "https://roche-gsk.github.io/admiral/articles",
       "selectors_key": "articles",
-      "tags": ["articles"]
+      "tags": [
+        "articles"
+      ]
     }
   ],
   "stop_urls": [
@@ -23,7 +29,6 @@
     "/articles/$",
     "/articles/index.html"
   ],
-  "sitemap_urls": ["https://kwb-r.github.io/kwb.utils/sitemap.xml"],
   "selectors": {
     "homepage": {
       "lvl0": {
@@ -68,7 +73,9 @@
       "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
     }
   },
-  "selectors_exclude": [".dont-index"],
+  "selectors_exclude": [
+    ".dont-index"
+  ],
   "min_indexed_level": 2,
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -80,6 +87,8 @@
       "url_without_anchor"
     ]
   },
-  "conversation_id": ["729042816"],
-  "nb_hits": 2777
+  "conversation_id": [
+    "1599147307"
+  ],
+  "nb_hits": 1611
 }
