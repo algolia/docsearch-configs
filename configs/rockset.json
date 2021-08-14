@@ -1,12 +1,13 @@
 {
   "index_name": "rockset",
   "start_urls": [
-    "https://docs.rockset.com"
+    "https://rockset.com/docs"
   ],
   "stop_urls": [
-    "/client/"
+    "/client/",
+    "/docs/client/"
   ],
-  "sitemap_urls": ["http://docs.rockset.com/sitemap.xml"],
+  "sitemap_urls": ["https://rockset.com/docs/sitemap.xml"],
   "selectors": {
     "lvl0": ".center-pane-internal h1",
     "lvl1": ".center-pane-internal h2",
