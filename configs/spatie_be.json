@@ -39,7 +39,8 @@
           "laravel-backup-server",
           "laravel-dashboard",
           "laravel-multitenancy",
-          "ray"
+          "ray",
+          "typescript-transformer"
         ]
       }
     }
