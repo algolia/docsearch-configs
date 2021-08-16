@@ -1,10 +1,10 @@
 {
-  "index_name": "docbee",
+  "index_name": "cohere",
   "start_urls": [
-    "https://documentation.docbee.com/docs/"
+    "https://docs.cohere.ai/"
   ],
   "sitemap_urls": [
-    "https://documentation.docbee.com/sitemap.xml"
+    "https://docs.cohere.ai/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -22,9 +22,7 @@
     "lvl5": "article h5, article td:first-child",
     "text": "article p, article li, article td:last-child"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
     "attributesForFaceting": [
@@ -43,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1238115995"
+    "1587241823"
   ],
-  "nb_hits": 4188
+  "nb_hits": 737
 }

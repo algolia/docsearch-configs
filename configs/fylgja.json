@@ -1,16 +1,12 @@
 {
-  "index_name": "flyte",
+  "index_name": "fylgja",
   "start_urls": [
-    "https://docs.flyte.org/"
+    "https://fylgja.dev/"
   ],
   "sitemap_urls": [
-    "https://docs.flyte.org/sitemap.xml"
+    "https://fylgja.dev/sitemap.xml"
   ],
-  "stop_urls": [
-    ".txt",
-    ".py",
-    "ipynb"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -25,7 +21,7 @@
     "text": "article p, article li"
   },
   "conversation_id": [
-    "1433800413"
+    "1576276392"
   ],
-  "nb_hits": 19094
+  "nb_hits": 1336
 }
