@@ -18,7 +18,7 @@
     "text": "main p, main li"
   },
   "custom_settings": {
-    "attributesForFaceting": ["language", "version"]
+    "attributesForFaceting": ["lang", "version"]
   },
   "conversation_id": [
     "1501914169"
