@@ -1,19 +1,7 @@
 {
   "index_name": "ballerina",
   "start_urls": [
-    {
-      "url": "https://ballerina.io/learn",
-      "page_rank": 1
-    },
-    {
-      "url": "https://lib.ballerina.io/",
-      "page_rank": 2,
-      "selectors_key": "swanlake_api_docs",
-      "tags": ["swanlake_api_docs"],
-      "extra_attributes": {
-        "site": ["swanlake_api_docs"]
-      }
-    }
+    "https://ballerina.io/learn"
   ],
   "sitemap_urls": ["https://ballerina.io/sitemap.xml"],
   "stop_urls": [],
@@ -27,19 +15,6 @@
       "lvl5": ".container h6",
       "text": ".container p, .container li"
     },
-    "swanlake_api_docs": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "SWANLAKE API documentation"
-      },
-      "lvl1": ".container h2",
-      "lvl2": ".container h3",
-      "lvl3": ".container h4",
-      "lvl4": ".container h5",
-      "lvl5": ".container h6",
-      "text": ".container p, .container li, .container span"
-    }
   },
 
   "conversation_id": ["1538160382"],
