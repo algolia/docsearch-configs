@@ -1,0 +1,894 @@
+new Crawler({
+  appId: "",
+  apiKey: "",
+  rateLimit: 8,
+  startUrls: [
+    "https://symfony.com/doc/current/bundles",
+    "https://symfony.com/",
+    "https://symfony.com/doc/master/bundles",
+    "https://symfony.com/doc/2.0",
+    "https://symfony.com/doc/2.1",
+    "https://symfony.com/doc/2.2",
+    "https://symfony.com/doc/2.3",
+    "https://symfony.com/doc/2.4",
+    "https://symfony.com/doc/2.5",
+    "https://symfony.com/doc/2.6",
+    "https://symfony.com/doc/2.7",
+    "https://symfony.com/doc/2.8",
+    "https://symfony.com/doc/3.0",
+    "https://symfony.com/doc/3.1",
+    "https://symfony.com/doc/3.2",
+    "https://symfony.com/doc/3.3",
+    "https://symfony.com/doc/3.4",
+    "https://symfony.com/doc/4.0",
+    "https://symfony.com/doc/4.1",
+    "https://symfony.com/doc/4.2",
+    "https://symfony.com/doc/4.3",
+    "https://symfony.com/doc/4.4",
+    "https://symfony.com/doc/5.0",
+    "https://symfony.com/doc/5.1",
+    "https://symfony.com/doc/5.2",
+    "https://symfony.com/doc/current",
+    "https://symfony.com/doc/master",
+    "https://symfony.com/doc/bundles/",
+  ],
+  renderJavaScript: false,
+  sitemaps: ["https://symfony.com/sitemap.xml"],
+  exclusionPatterns: [
+    "https://symfony.com/doc/.*/cmf/.***",
+    "https://symfony.com/doc/.*/cmf/.***/**",
+  ],
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://symfony.com/**"],
+  schedule: "at 15:50 on Friday",
+  actions: [
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/current/bundles**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["current"],
+            },
+            tags: {
+              defaultValue: ["bundles"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/master/bundles**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["master"],
+            },
+            tags: {
+              defaultValue: ["bundles"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/2.0**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["2.0"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/2.1**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["2.1"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/2.2**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["2.2"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/2.3**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["2.3"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/2.4**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["2.4"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/2.5**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["2.5"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/2.6**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["2.6"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/2.7**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["2.7"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/2.8**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["2.8"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/3.0**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["3.0"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/3.1**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["3.1"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/3.2**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["3.2"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/3.3**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["3.3"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/3.4**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["3.4"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/4.0**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["4.0"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/4.1**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["4.1"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/4.2**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["4.2"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/4.3**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["4.3"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/4.4**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["4.4"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/5.0**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["5.0"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/5.1**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["5.1"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/5.2**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["5.2"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/current**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["current"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/master**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["master"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/bundles/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            tags: {
+              defaultValue: ["bundles"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+  ],
+  initialIndexSettings: {
+    symfony: {
+      attributesForFaceting: ["type", "lang", "version"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
+      attributesToSnippet: ["content:10"],
+      camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
+      searchableAttributes: [
+        "unordered(hierarchy_radio_camel.lvl0)",
+        "unordered(hierarchy_radio.lvl0)",
+        "unordered(hierarchy_radio_camel.lvl1)",
+        "unordered(hierarchy_radio.lvl1)",
+        "unordered(hierarchy_radio_camel.lvl2)",
+        "unordered(hierarchy_radio.lvl2)",
+        "unordered(hierarchy_radio_camel.lvl3)",
+        "unordered(hierarchy_radio.lvl3)",
+        "unordered(hierarchy_radio_camel.lvl4)",
+        "unordered(hierarchy_radio.lvl4)",
+        "unordered(hierarchy_radio_camel.lvl5)",
+        "unordered(hierarchy_radio.lvl5)",
+        "unordered(hierarchy_radio_camel.lvl6)",
+        "unordered(hierarchy_radio.lvl6)",
+        "unordered(hierarchy_camel.lvl0)",
+        "unordered(hierarchy.lvl0)",
+        "unordered(hierarchy_camel.lvl1)",
+        "unordered(hierarchy.lvl1)",
+        "unordered(hierarchy_camel.lvl2)",
+        "unordered(hierarchy.lvl2)",
+        "unordered(hierarchy_camel.lvl3)",
+        "unordered(hierarchy.lvl3)",
+        "unordered(hierarchy_camel.lvl4)",
+        "unordered(hierarchy.lvl4)",
+        "unordered(hierarchy_camel.lvl5)",
+        "unordered(hierarchy.lvl5)",
+        "unordered(hierarchy_camel.lvl6)",
+        "unordered(hierarchy.lvl6)",
+        "content",
+      ],
+      distinct: true,
+      attributeForDistinct: "url",
+      customRanking: [
+        "desc(weight.page_rank)",
+        "desc(weight.level)",
+        "asc(weight.position)",
+      ],
+      ranking: [
+        "words",
+        "filters",
+        "typo",
+        "attribute",
+        "proximity",
+        "exact",
+        "custom",
+      ],
+      highlightPreTag: '<span class="algolia-docsearch-suggestion--highlight">',
+      highlightPostTag: "</span>",
+      minWordSizefor1Typo: 3,
+      minWordSizefor2Typos: 7,
+      allowTyposOnNumericTokens: false,
+      minProximity: 1,
+      ignorePlurals: true,
+      advancedSyntax: true,
+      attributeCriteriaComputedByMinProximity: true,
+      removeWordsIfNoResults: "allOptional",
+      synonyms: [
+        ["yaml", "yml"],
+        [
+          "env var",
+          "env vars",
+          "environment variable",
+          "environment variables",
+        ],
+        [
+          "i18n",
+          "internationalization",
+          "internationalize",
+          "multilingual",
+          "translate",
+          "translating",
+          "translation",
+          "translator",
+        ],
+        ["route", "router", "routes", "routing"],
+        ["URI", "URIs", "URL", "URLs"],
+        ["param", "parameter", "parameters", "params"],
+        ["console", "terminal"],
+        [
+          "container",
+          "dependency injection",
+          "DI",
+          "IoC",
+          "service container",
+          "services",
+        ],
+        ["env", "environment", "environments", "envs"],
+        ["log", "logger", "logging", "logs", "monolog"],
+        ["test", "tester", "testing", "tests"],
+        ["database", "db", "doctrine"],
+        ["template engine", "template", "templates", "templating", "twig"],
+        ["config", "configs", "configuration"],
+        ["deploy", "deployment"],
+        [
+          "event dispatcher",
+          "event listener",
+          "event listeners",
+          "event subscriber",
+          "event subscribers",
+          "event",
+          "events",
+        ],
+      ],
+    },
+  },
+});
