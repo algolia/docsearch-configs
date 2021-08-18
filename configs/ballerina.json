@@ -43,7 +43,7 @@
       "lvl3": ".container h4",
       "lvl4": ".container h5",
       "lvl5": ".container h6",
-      "text": ".container p, .container li",
+      "text": ".container p, .container li, .container span",
     },
   "conversation_id": [
     "1538160382"
