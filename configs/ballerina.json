@@ -1,7 +1,14 @@
 {
   "index_name": "ballerina",
   "start_urls": [
-    "https://ballerina.io/learn"
+     {
+      "url": "https://ballerina.io/learn",
+      "page_rank": 1
+    },
+    {
+      "url": "https://lib.ballerina.io/",
+      "page_rank": 2
+    }
   ],
   "sitemap_urls": [
     "https://ballerina.io/sitemap.xml"
