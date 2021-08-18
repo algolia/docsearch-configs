@@ -1,7 +1,14 @@
 {
   "index_name": "posthog",
   "start_urls": [
-    "https://posthog.com/docs/"
+    {
+      "url": "https://posthog.com/docs/",
+      "tags": ["docs"]
+    },
+    {
+      "url": "https://posthog.com/handbook/",
+      "tags": ["handbook"]
+    }
   ],
   "stop_urls": [],
   "selectors": {

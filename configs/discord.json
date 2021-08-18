@@ -1,8 +1,6 @@
 {
   "index_name": "discord",
-  "start_urls": [
-    "https://discord.com/developers/docs/"
-  ],
+  "start_urls": ["https://discord.com/developers/docs/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": "li [class*='activeLink']",
@@ -14,8 +12,7 @@
     "text": "[class*='contentWrapperInner'] p, [class*='contentWrapperInner'] li"
   },
   "js_render": true,
-  "conversation_id": [
-    "1464818784"
-  ],
-  "nb_hits": 1414
+  "stop_content": ["This page has been moved"],
+  "conversation_id": ["1464818784"],
+  "nb_hits": 1632
 }

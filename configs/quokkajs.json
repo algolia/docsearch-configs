@@ -1,16 +1,12 @@
 {
-  "index_name": "flyte",
+  "index_name": "quokkajs",
   "start_urls": [
-    "https://docs.flyte.org/"
+    "https://quokkajs.com/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.flyte.org/sitemap.xml"
+    "https://quokkajs.com/sitemap.xml"
   ],
-  "stop_urls": [
-    ".txt",
-    ".py",
-    "ipynb"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -25,7 +21,7 @@
     "text": "article p, article li"
   },
   "conversation_id": [
-    "1433800413"
+    "1595408612"
   ],
-  "nb_hits": 19094
+  "nb_hits": 608
 }

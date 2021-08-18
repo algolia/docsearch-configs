@@ -1,16 +1,12 @@
 {
-  "index_name": "flyte",
+  "index_name": "algohub",
   "start_urls": [
-    "https://docs.flyte.org/"
+    "https://algohub.netlify.app/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.flyte.org/sitemap.xml"
+    "https://algohub.netlify.app/sitemap.xml"
   ],
-  "stop_urls": [
-    ".txt",
-    ".py",
-    "ipynb"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -25,7 +21,7 @@
     "text": "article p, article li"
   },
   "conversation_id": [
-    "1433800413"
+    "1594315473"
   ],
-  "nb_hits": 19094
+  "nb_hits": 226
 }

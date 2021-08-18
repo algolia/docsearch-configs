@@ -1,8 +1,10 @@
 {
-  "index_name": "coding_help",
+  "index_name": "nebula-graph",
   "start_urls": [
-    "https://help.coding.net/docs/start/new.html",
-    "https://help.coding.net/docs/"
+    "https://docs.nebula-graph.io"
+  ],
+  "sitemap_urls": [
+    "https://docs.nebula-graph.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,9 +16,8 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
-  "sitemap_urls": ["https://help.coding.net/docs/sitemap.xml"],
   "conversation_id": [
-    "968058209"
+    "1586613645"
   ],
-  "nb_hits": 6620
+  "nb_hits": 8928
 }
