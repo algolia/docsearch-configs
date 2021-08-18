@@ -14,6 +14,7 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
+  "sitemap_urls": ["https://help.coding.net/docs/sitemap.xml"],
   "conversation_id": [
     "968058209"
   ],
