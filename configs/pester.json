@@ -1,7 +1,10 @@
 {
-  "index_name": "circuly",
+  "index_name": "pester",
   "start_urls": [
-    "http://docs.circuly.io/"
+    "https://pester.dev/"
+  ],
+  "sitemap_urls": [
+    "https://pester.dev/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -17,11 +20,8 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
-  "custom_settings": {
-    "attributesForFaceting": ["lang", "version"]
-  },
   "conversation_id": [
-    "1501914169"
+    "1599143010"
   ],
-  "nb_hits": 307
+  "nb_hits": 4521
 }

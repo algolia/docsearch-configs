@@ -1,10 +1,10 @@
 {
-  "index_name": "tezos",
+  "index_name": "patitotective",
   "start_urls": [
-    "https://wiki.tezos.com/"
+    "https://patitotective.github.io/PREFS/"
   ],
   "sitemap_urls": [
-    "https://wiki.tezos.com/sitemap.xml"
+    "https://patitotective.github.io/PREFS/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -42,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1475696479"
+    "1594152134"
   ],
-  "nb_hits": 2057
+  "nb_hits": 886
 }

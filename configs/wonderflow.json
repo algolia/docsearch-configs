@@ -1,7 +1,7 @@
 {
-  "index_name": "circuly",
+  "index_name": "wonderflow",
   "start_urls": [
-    "http://docs.circuly.io/"
+    "https://design.wonderflow.ai/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -17,11 +17,8 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
-  "custom_settings": {
-    "attributesForFaceting": ["lang", "version"]
-  },
   "conversation_id": [
-    "1501914169"
+    "1592507844"
   ],
-  "nb_hits": 307
+  "nb_hits": 843
 }
