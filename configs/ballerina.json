@@ -13,7 +13,7 @@
       "url": "https://lib.ballerina.io/",
       "page_rank": 2,
       "selectors_key": "swanlake_api_docs",
-      "tags": ["swanlake_api_docs"],
+      "tags": ["swanlake_api_docs","api","swanlake"],
       "extra_attributes": {
         "site": ["swanlake_api_docs"]
       }
@@ -36,12 +36,12 @@
         "selector": "",
         "default_value": "SWANLAKE API documentation"
       },
-      "lvl1": "#main h2",
-      "lvl2": "#main h3",
-      "lvl3": "#main h4",
-      "lvl4": "#main h5",
-      "lvl5": "#main h6",
-      "text": "#main p, #main li"
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "lvl5": ".content h6",
+      "text": ".content p, .content li"
     }
   },
   "custom_settings": {
