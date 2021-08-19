@@ -1,9 +1,6 @@
 {
   "index_name": "coding_help",
-  "start_urls": [
-    "https://help.coding.net/docs/start/new.html",
-    "https://help.coding.net/docs/"
-  ],
+  "start_urls": [],
   "stop_urls": [],
   "selectors": {
     "lvl0": "article h1",
