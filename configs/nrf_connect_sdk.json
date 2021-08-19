@@ -1,0 +1,19 @@
+{
+  "index_name": "nrf_connect_sdk",
+  "start_urls": [
+    "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/",
+    "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html"
+  ],
+  "stop_urls": ["README", ".txt", "release"],
+  "selectors": {
+    "lvl0": ".section h1",
+    "lvl1": ".section h2",
+    "lvl2": ".section h3",
+    "lvl3": ".section h4",
+    "lvl4": ".section h5",
+    "lvl5": ".section h6",
+    "text": ".section p, .section li"
+  },
+  "nb_hits": 85749,
+  "conversation_id": ["1583393352"]
+}
