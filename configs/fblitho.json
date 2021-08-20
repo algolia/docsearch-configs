@@ -4,23 +4,20 @@
     {
       "url": "https://fblitho.com/javadoc/",
       "selectors_key": "api",
-      "tags": [
-        "api"
-      ]
+      "tags": ["api"]
     },
     {
       "url": "https://fblitho.com/",
-      "tags": [
-        "doc"
-      ]
+      "tags": ["doc"]
     }
   ],
   "stop_urls": [
-    "https://fblitho.com/javadoc/overview-summary.html"
+    "https://fblitho.com/javadoc/overview-summary.html",
+    "https://fblitho.com/javadoc/index.html",
+    "/testing/"
   ],
-  "sitemap_urls": [
-    "https://fblitho.com/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://fblitho.com/sitemap.xml"],
+  "stop_content": ["Page Not Found"],
   "selectors": {
     "default": {
       "lvl0": {
@@ -67,8 +64,6 @@
     ]
   },
   "js_render": true,
-  "conversation_id": [
-    "349248966"
-  ],
+  "conversation_id": ["349248966"],
   "nb_hits": 5430
 }
