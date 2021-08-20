@@ -9,7 +9,30 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [],
   schedule: "at 15:00 on Friday",
-  actions: [],
+  actions: [
+    {
+      indexName: "salesforce_vscode",
+      pathsToMatch: ["https://developer.salesforce.com/tools/vscode/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".site-main h1",
+            content: ".docs p, .docs li",
+            lvl0: {
+              selectors: "nav > ul > li.slds-is-selected > *:nth-child(1)",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".docs h2",
+            lvl3: ".docs h3",
+            lvl4: ".docs h4",
+            lvl5: ".docs h5",
+            lvl6: ".docs h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+  ],
   initialIndexSettings: {
     salesforce_vscode: {
       attributesForFaceting: ["type", "lang"],

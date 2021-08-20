@@ -3,65 +3,41 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://ballerina.io/learn",
-    "https://ballerina.io/",
-    "https://lib.ballerina.io/",
+    "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/",
+    "https://developer.nordicsemi.com/",
+    "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://ballerina.io/sitemap.xml"],
-  exclusionPatterns: [],
+  sitemaps: [],
+  exclusionPatterns: [
+    "**/**README**",
+    "**/**README**/**",
+    "**/**.txt",
+    "**/**release**",
+    "**/**release**/**",
+  ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://ballerina.io/**", "https://lib.ballerina.io/**"],
-  schedule: "at 06:00 on Tuesday",
+  discoveryPatterns: ["https://developer.nordicsemi.com/**"],
+  schedule: "at 15:40 on Thursday",
   actions: [
     {
-      indexName: "ballerina",
-      pathsToMatch: ["https://ballerina.io/learn**/**"],
+      indexName: "nrf_connect_sdk",
+      pathsToMatch: [
+        "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/**",
+        "https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/index.html**/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".container h2",
-            content: ".container p, .container li",
+            lvl1: ".section h2",
+            content: ".section p, .section li",
             lvl0: {
-              selectors: ".container h1",
+              selectors: ".section h1",
             },
-            lvl2: ".container h3",
-            lvl3: ".container h4",
-            lvl4: ".container h5",
-            lvl5: ".container h6",
-            site: {
-              defaultValue: ["ballerina"],
-            },
-            tags: {
-              defaultValue: ["ballerina"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "ballerina",
-      pathsToMatch: ["https://lib.ballerina.io/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
-            lvl0: {
-              selectors: "",
-              defaultValue: "SWANLAKE API documentation",
-            },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
-            lvl5: ".content h6",
-            site: {
-              defaultValue: ["swanlake_api_docs"],
-            },
-            tags: {
-              defaultValue: ["swanlake_api_docs", "api", "swanlake"],
-            },
+            lvl2: ".section h3",
+            lvl3: ".section h4",
+            lvl4: ".section h5",
+            lvl5: ".section h6",
           },
           indexHeadings: true,
         });
@@ -69,8 +45,8 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    ballerina: {
-      attributesForFaceting: ["type", "lang", "site", "tags"],
+    nrf_connect_sdk: {
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

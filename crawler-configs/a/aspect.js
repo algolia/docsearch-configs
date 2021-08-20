@@ -9,7 +9,28 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [],
   schedule: "at 01:40 on Tuesday",
-  actions: [],
+  actions: [
+    {
+      indexName: "aspect",
+      pathsToMatch: ["https://docs.aspect.dev/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".container h2",
+            content: ".container p, .container li",
+            lvl0: {
+              selectors: ".container h1",
+            },
+            lvl2: ".container h3",
+            lvl3: ".container h4",
+            lvl4: ".container h5",
+            lvl5: ".container h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+  ],
   initialIndexSettings: {
     aspect: {
       attributesForFaceting: ["type", "lang"],

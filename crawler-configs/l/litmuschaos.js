@@ -2,32 +2,33 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://docs.litmuschaos.io/docs/",
-    "https://docs.litmuschaos.io/",
-  ],
+  startUrls: ["https://docs.litmuschaos.io/"],
   renderJavaScript: false,
   sitemaps: ["https://docs.litmuschaos.io/sitemap.xml"],
   exclusionPatterns: [],
-  ignoreCanonicalTo: false,
+  ignoreCanonicalTo: true,
   discoveryPatterns: ["https://docs.litmuschaos.io/**"],
   schedule: "at 05:10 on Thursday",
   actions: [
     {
       indexName: "litmuschaos",
-      pathsToMatch: ["https://docs.litmuschaos.io/docs/**"],
+      pathsToMatch: ["https://docs.litmuschaos.io/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h2",
-            content: "article p, article li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: "header h1",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
             },
-            lvl2: "article h3",
-            lvl3: "article h4",
-            lvl4: "article h5",
-            lvl5: "article h6",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
           },
           indexHeadings: true,
         });
@@ -36,8 +37,21 @@ new Crawler({
   ],
   initialIndexSettings: {
     litmuschaos: {
-      attributesForFaceting: ["type", "lang", "language", "version"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],

@@ -2,66 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://ballerina.io/learn",
-    "https://ballerina.io/",
-    "https://lib.ballerina.io/",
-  ],
+  startUrls: ["https://paketo.io/docs/", "https://paketo.io/"],
   renderJavaScript: false,
-  sitemaps: ["https://ballerina.io/sitemap.xml"],
+  sitemaps: ["https://paketo.io/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://ballerina.io/**", "https://lib.ballerina.io/**"],
-  schedule: "at 06:00 on Tuesday",
+  discoveryPatterns: ["https://paketo.io/**"],
+  schedule: "at 00:00 on Friday",
   actions: [
     {
-      indexName: "ballerina",
-      pathsToMatch: ["https://ballerina.io/learn**/**"],
+      indexName: "paketo",
+      pathsToMatch: ["https://paketo.io/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".container h2",
-            content: ".container p, .container li",
+            lvl1: ".docs-body h2",
+            content: ".docs-body p, .docs-body li",
             lvl0: {
-              selectors: ".container h1",
+              selectors: ".docs-body h1",
             },
-            lvl2: ".container h3",
-            lvl3: ".container h4",
-            lvl4: ".container h5",
-            lvl5: ".container h6",
-            site: {
-              defaultValue: ["ballerina"],
-            },
-            tags: {
-              defaultValue: ["ballerina"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "ballerina",
-      pathsToMatch: ["https://lib.ballerina.io/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
-            lvl0: {
-              selectors: "",
-              defaultValue: "SWANLAKE API documentation",
-            },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
-            lvl5: ".content h6",
-            site: {
-              defaultValue: ["swanlake_api_docs"],
-            },
-            tags: {
-              defaultValue: ["swanlake_api_docs", "api", "swanlake"],
-            },
+            lvl2: ".docs-body h3",
+            lvl3: ".docs-body h4",
+            lvl4: ".docs-body h5",
+            lvl5: ".docs-body h6",
           },
           indexHeadings: true,
         });
@@ -69,8 +32,8 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    ballerina: {
-      attributesForFaceting: ["type", "lang", "site", "tags"],
+    paketo: {
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

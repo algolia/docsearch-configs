@@ -9,7 +9,38 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [],
   schedule: "at 01:30 on Tuesday",
-  actions: [],
+  actions: [
+    {
+      indexName: "angularjs",
+      pathsToMatch: ["https://docs.angularjs.org/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Stop if one of those text is found in the DOM.
+        const body = $.text();
+        const toCheck = ["The page you requested does not exist"];
+        const shouldStop = toCheck.some((text) => body.includes(text));
+        if (shouldStop) {
+          return [];
+        } // Removing DOM elements we don't want to crawl
+        const toRemove = "toc-tree";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".nav-breadcrumb > li:nth-child(2) > a",
+            content: "[autoscroll] p, [autoscroll] li",
+            lvl0: {
+              selectors: ".nav-breadcrumb > li:nth-child(1) > a",
+              defaultValue: "Documentation",
+            },
+            lvl2: "[autoscroll] h1",
+            lvl3: "[autoscroll] h2",
+            lvl4: "[autoscroll] h4, [autoscroll] table td:first-of-type",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+  ],
   initialIndexSettings: {
     angularjs: {
       attributesForFaceting: ["type", "lang"],

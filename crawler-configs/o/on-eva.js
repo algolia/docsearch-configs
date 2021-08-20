@@ -2,66 +2,33 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://ballerina.io/learn",
-    "https://ballerina.io/",
-    "https://lib.ballerina.io/",
-  ],
+  startUrls: ["https://dev.on-eva.io/"],
   renderJavaScript: false,
-  sitemaps: ["https://ballerina.io/sitemap.xml"],
+  sitemaps: ["https://dev.on-eva.io/sitemap.xml"],
   exclusionPatterns: [],
-  ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://ballerina.io/**", "https://lib.ballerina.io/**"],
-  schedule: "at 06:00 on Tuesday",
+  ignoreCanonicalTo: true,
+  discoveryPatterns: ["https://dev.on-eva.io/**"],
+  schedule: "at 20:30 on Thursday",
   actions: [
     {
-      indexName: "ballerina",
-      pathsToMatch: ["https://ballerina.io/learn**/**"],
+      indexName: "on-eva",
+      pathsToMatch: ["https://dev.on-eva.io/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".container h2",
-            content: ".container p, .container li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: ".container h1",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
             },
-            lvl2: ".container h3",
-            lvl3: ".container h4",
-            lvl4: ".container h5",
-            lvl5: ".container h6",
-            site: {
-              defaultValue: ["ballerina"],
-            },
-            tags: {
-              defaultValue: ["ballerina"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "ballerina",
-      pathsToMatch: ["https://lib.ballerina.io/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
-            lvl0: {
-              selectors: "",
-              defaultValue: "SWANLAKE API documentation",
-            },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
-            lvl5: ".content h6",
-            site: {
-              defaultValue: ["swanlake_api_docs"],
-            },
-            tags: {
-              defaultValue: ["swanlake_api_docs", "api", "swanlake"],
-            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
           },
           indexHeadings: true,
         });
@@ -69,9 +36,22 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    ballerina: {
-      attributesForFaceting: ["type", "lang", "site", "tags"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+    "on-eva": {
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -132,6 +112,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

@@ -9,7 +9,32 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [],
   schedule: "at 15:00 on Friday",
-  actions: [],
+  actions: [
+    {
+      indexName: "salesforcer",
+      pathsToMatch: ["https://stevenmmortimer.github.io/salesforcer/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents h2",
+            content:
+              ".contents p, .contents li, .usage, .template-article .contents .pre",
+            lvl0: {
+              selectors: ".contents h1",
+            },
+            lvl2: ".contents h3, .contents th",
+            lvl3: ".contents h4",
+            lvl4: ".contents h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+  ],
   initialIndexSettings: {
     salesforcer: {
       attributesForFaceting: ["type", "lang"],

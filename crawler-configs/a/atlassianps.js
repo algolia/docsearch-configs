@@ -9,7 +9,29 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [],
   schedule: "at 01:40 on Tuesday",
-  actions: [],
+  actions: [
+    {
+      indexName: "atlassianps",
+      pathsToMatch: ["https://atlassianps.org/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: '.page.documentation *[data-algolia="lvl1"]',
+            content:
+              ".page.documentation section.content p, .page.documentation section.content li, .page.documentation section.content pre",
+            lvl0: {
+              selectors: '.page.documentation *[data-algolia="lvl0"]',
+            },
+            lvl2: ".page.documentation section.content h1:first-of-type",
+            lvl3: ".page.documentation section.content h2",
+            lvl4: ".page.documentation section.content h3",
+            lvl5: ".page.documentation section.content h4",
+          },
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+  ],
   initialIndexSettings: {
     atlassianps: {
       attributesForFaceting: ["type", "lang"],

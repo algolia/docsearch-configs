@@ -9,7 +9,30 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [],
   schedule: "at 01:30 on Wednesday",
-  actions: [],
+  actions: [
+    {
+      indexName: "formatjs",
+      pathsToMatch: ["https://formatjs.io/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "header h1",
+            content: "article p, article li",
+            lvl0: {
+              selectors: ".menu__link--sublist.menu__link--active",
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
+            lvl6: "article h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+  ],
   initialIndexSettings: {
     formatjs: {
       attributesForFaceting: ["type", "lang", "language", "version"],

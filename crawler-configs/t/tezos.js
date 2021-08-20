@@ -2,17 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://tezos.com/"],
+  startUrls: ["https://wiki.tezos.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://tezos.com/sitemap.xml"],
+  sitemaps: ["https://wiki.tezos.com/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://tezos.com/**"],
+  discoveryPatterns: ["https://wiki.tezos.com/**"],
   schedule: "at 19:00 on Friday",
   actions: [
     {
       indexName: "tezos",
-      pathsToMatch: ["https://tezos.com/**"],
+      pathsToMatch: ["https://wiki.tezos.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -29,6 +29,7 @@ new Crawler({
             lvl3: "article h3",
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
+            lvl6: "article h6",
           },
           indexHeadings: true,
         });

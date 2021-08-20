@@ -9,7 +9,29 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [],
   schedule: "at 10:00 on Thursday",
-  actions: [],
+  actions: [
+    {
+      indexName: "markdownguide",
+      pathsToMatch: ["https://www.markdownguide.org/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".col-xs-12 h2",
+            content: ".col-xs-12 p, .col-xs-12 li, .col-xs-12 td, .jumbotron p",
+            lvl0: {
+              selectors: ".jumbotron h1",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".col-xs-12 h3",
+            lvl3: ".col-xs-12 h4",
+            lvl4: ".col-xs-12 h5",
+            lvl5: ".col-xs-12 h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+  ],
   initialIndexSettings: {
     markdownguide: {
       attributesForFaceting: ["type", "lang"],

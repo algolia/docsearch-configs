@@ -9,7 +9,33 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [],
   schedule: "at 11:30 on Tuesday",
-  actions: [],
+  actions: [
+    {
+      indexName: "coalitions",
+      pathsToMatch: ["https://adibender.github.io/coalitions/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents h2",
+            content:
+              ".contents p, .contents li, .usage, .template-article .contents .pre",
+            lvl0: {
+              selectors: ".contents h1",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".contents h3, .contents th",
+            lvl3: ".contents h4",
+            lvl4: ".contents h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+  ],
   initialIndexSettings: {
     coalitions: {
       attributesForFaceting: ["type", "lang"],

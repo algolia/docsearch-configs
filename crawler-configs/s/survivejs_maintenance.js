@@ -9,7 +9,28 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [],
   schedule: "at 15:40 on Friday",
-  actions: [],
+  actions: [
+    {
+      indexName: "survivejs_maintenance",
+      pathsToMatch: ["https://survivejs.com/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".chapter__wrapper h1",
+            content: ".chapter-content p, .chapter-content li",
+            lvl0: {
+              selectors: "",
+            },
+            lvl2: ".chapter-content h2",
+            lvl3: ".chapter-content h3",
+            lvl4: ".chapter-content h4",
+            lvl5: ".chapter-content h5",
+          },
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+  ],
   initialIndexSettings: {
     survivejs_maintenance: {
       attributesForFaceting: ["type", "lang"],

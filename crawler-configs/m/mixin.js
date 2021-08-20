@@ -3,65 +3,31 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://ballerina.io/learn",
-    "https://ballerina.io/",
-    "https://lib.ballerina.io/",
+    "https://developers.mixin.one/document",
+    "https://developers.mixin.one/",
   ],
-  renderJavaScript: false,
-  sitemaps: ["https://ballerina.io/sitemap.xml"],
+  renderJavaScript: true,
+  sitemaps: ["https://developers.mixin.one/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://ballerina.io/**", "https://lib.ballerina.io/**"],
-  schedule: "at 06:00 on Tuesday",
+  discoveryPatterns: ["https://developers.mixin.one/**"],
+  schedule: "at 10:10 on Thursday",
   actions: [
     {
-      indexName: "ballerina",
-      pathsToMatch: ["https://ballerina.io/learn**/**"],
+      indexName: "mixin",
+      pathsToMatch: ["https://developers.mixin.one/document**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".container h2",
-            content: ".container p, .container li",
+            lvl1: ".markdown-body h2",
+            content: ".markdown-body p, .markdown-body li",
             lvl0: {
-              selectors: ".container h1",
+              selectors: ".markdown-body h1",
             },
-            lvl2: ".container h3",
-            lvl3: ".container h4",
-            lvl4: ".container h5",
-            lvl5: ".container h6",
-            site: {
-              defaultValue: ["ballerina"],
-            },
-            tags: {
-              defaultValue: ["ballerina"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "ballerina",
-      pathsToMatch: ["https://lib.ballerina.io/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
-            lvl0: {
-              selectors: "",
-              defaultValue: "SWANLAKE API documentation",
-            },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
-            lvl5: ".content h6",
-            site: {
-              defaultValue: ["swanlake_api_docs"],
-            },
-            tags: {
-              defaultValue: ["swanlake_api_docs", "api", "swanlake"],
-            },
+            lvl2: ".markdown-body h3",
+            lvl3: ".markdown-body h4",
+            lvl4: ".markdown-body h5",
+            lvl5: ".markdown-body h6",
           },
           indexHeadings: true,
         });
@@ -69,8 +35,8 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    ballerina: {
-      attributesForFaceting: ["type", "lang", "site", "tags"],
+    mixin: {
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

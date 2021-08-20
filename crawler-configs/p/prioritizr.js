@@ -9,7 +9,33 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [],
   schedule: "at 00:40 on Friday",
-  actions: [],
+  actions: [
+    {
+      indexName: "prioritizr",
+      pathsToMatch: ["https://prioritizr.github.io/prioritizr/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents h2",
+            content:
+              ".contents p, .contents li, .usage, .template-article .contents .pre",
+            lvl0: {
+              selectors: ".contents h1",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".contents h3, .contents th",
+            lvl3: ".contents h4",
+            lvl4: ".contents h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+  ],
   initialIndexSettings: {
     prioritizr: {
       attributesForFaceting: ["type", "lang"],
