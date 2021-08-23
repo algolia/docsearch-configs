@@ -9,6 +9,10 @@
       "url": "https://docs.nativescript.org/best-practices/",
       "selectors_key": "practices"
     },
+    {
+      "url": "https://docs.nativescript.org/api-reference/",
+      "selectors_key": "api"
+    },
     "https://docs.nativescript.org/"
   ],
   "stop_urls": [],
@@ -48,6 +52,18 @@
       "lvl4": ".prose h5",
       "lvl5": ".prose h6",
       "text": ".prose p, .prose li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Api Reference"
+      },
+      "lvl1": ".container h1",
+      "lvl2": ".col-content h2",
+      "lvl3": ".col-content h3",
+      "lvl4": ".col-content h4",
+      "lvl5": ".col-content h5",
+      "text": ".col-content p, .col-content li"
     }
   },
   "strip_chars": " .,;:#",
