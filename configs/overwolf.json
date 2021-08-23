@@ -7,7 +7,7 @@
     "https://overwolf.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": ["https://overwolf.github.io/docs/api/overwolf-log"],
+  "stop_urls": ["https://overwolf.github.io/docs/api/overwolf-log", "https://overwolf.github.io/docs/api/overwolf-games-events-eternal-return"],
   "selectors": {
     "lvl0": {
       "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
