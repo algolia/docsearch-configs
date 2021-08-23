@@ -2,7 +2,7 @@
   "index_name": "prestashop",
   "start_urls": [
     {
-      url: "https://devdocs.prestashop.com/(?P<version>.*?)/",
+      "url": "https://devdocs.prestashop.com/(?P<version>.*?)/",
       "variables": {
         "version": ["1.7", "8"]
       }
