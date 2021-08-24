@@ -70,7 +70,7 @@
         "swanlake_api_docs": {
             "lvl0": {
                 "selector": "",
-                "default_value": "Swan Lake API documentation"
+                "default_value": "Ballerina Library (API) Documentation"
             },
             "lvl1": ".content h1",
             "lvl2": ".content h2",
