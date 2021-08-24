@@ -51,7 +51,7 @@
                     "ballerina_central"
                 ]
             }
-        },
+        }
     ],
     "sitemap_urls": [
         "https://ballerina.io/sitemap.xml"
