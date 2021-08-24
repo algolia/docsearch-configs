@@ -52,19 +52,6 @@
                 ]
             }
         },
-        {
-            "url": "https://play.ballerina.io",
-            "page_rank": 5,
-            "selectors_key": "ballerina_playground",
-            "tags": [
-                "ballerina_playground"
-            ],
-            "extra_attributes": {
-                "site": [
-                    "ballerina_playground"
-                ]
-            }
-        }
     ],
     "sitemap_urls": [
         "https://ballerina.io/sitemap.xml"
@@ -115,18 +102,6 @@
             "lvl4": "body h4",
             "lvl5": "body h5,body h6",
             "text": "body p, body li"
-        },
-        "ballerina_playground": {
-            "lvl0": {
-                "selector": "",
-                "default_value": "Ballerina Playground"
-            },
-            "lvl1": "#container h1",
-            "lvl2": "#container h2",
-            "lvl3": "#container h3",
-            "lvl4": "#container h4",
-            "lvl5": "#container h5,#container h6",
-            "text": "#container p, #container li"
         }
     },
     "custom_settings": {
