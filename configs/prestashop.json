@@ -1,7 +1,12 @@
 {
   "index_name": "prestashop",
   "start_urls": [
-    "https://devdocs.prestashop.com/"
+    {
+      "url": "https://devdocs.prestashop.com/(?P<version>.*?)/",
+      "variables": {
+        "version": ["1.7", "8"]
+      }
+    }
   ],
   "sitemap_urls": [
     "https://devdocs.prestashop.com/sitemap.xml"

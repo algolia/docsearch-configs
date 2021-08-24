@@ -1,52 +1,117 @@
 {
-  "index_name": "ballerina",
-  "start_urls": [
-    {
-      "url": "https://ballerina.io",
-      "tags": ["ballerina"],
-      "extra_attributes": {
-        "site": ["ballerina"]
-      },
-      "page_rank": 1
+    "index_name": "ballerina",
+    "start_urls": [
+        {
+            "url": "https://ballerina.io",
+            "tags": [
+                "ballerina"
+            ],
+            "extra_attributes": {
+                "site": [
+                    "ballerina"
+                ]
+            },
+            "page_rank": 1
+        },
+        {
+            "url": "https://lib.ballerina.io",
+            "page_rank": 2,
+            "selectors_key": "swanlake_api_docs",
+            "tags": [
+                "swanlake_api_docs"
+            ],
+            "extra_attributes": {
+                "site": [
+                    "swanlake_api_docs"
+                ]
+            }
+        },
+        {
+            "url": "https://blog.ballerina.io",
+            "page_rank": 3,
+            "selectors_key": "ballerina_blog",
+            "tags": [
+                "ballerina_blog"
+            ],
+            "extra_attributes": {
+                "site": [
+                    "ballerina_blog"
+                ]
+            }
+        },
+        {
+            "url": "https://central.ballerina.io",
+            "page_rank": 4,
+            "selectors_key": "ballerina_central",
+            "tags": [
+                "ballerina_central"
+            ],
+            "extra_attributes": {
+                "site": [
+                    "ballerina_central"
+                ]
+            }
+        }
+    ],
+    "sitemap_urls": [
+        "https://ballerina.io/sitemap.xml"
+    ],
+    "stop_urls": [],
+    "selectors": {
+        "default": {
+            "lvl0": ".container h1",
+            "lvl1": ".container h2",
+            "lvl2": ".container h3",
+            "lvl3": ".container h4",
+            "lvl4": ".container h5",
+            "lvl5": ".container h6",
+            "text": ".container p, .container li"
+        },
+        "swanlake_api_docs": {
+            "lvl0": {
+                "selector": "",
+                "default_value": "Ballerina Library (API) Documentation"
+            },
+            "lvl1": ".content h1",
+            "lvl2": ".content h2",
+            "lvl3": ".content h3",
+            "lvl4": ".content h4",
+            "lvl5": ".content h5,.content h6",
+            "text": ".content p, .content li"
+        },
+        "ballerina_blog": {
+            "lvl0": {
+                "selector": "",
+                "default_value": "Ballerina Blog"
+            },
+            "lvl1": ".container h1",
+            "lvl2": ".container h2",
+            "lvl3": ".container h3",
+            "lvl4": ".container h4",
+            "lvl5": ".container h5,.container h6",
+            "text": ".container p, .container li"
+        },
+        "ballerina_central": {
+            "lvl0": {
+                "selector": "",
+                "default_value": "Ballerina Central"
+            },
+            "lvl1": "body h1",
+            "lvl2": "body h2",
+            "lvl3": "body h3",
+            "lvl4": "body h4",
+            "lvl5": "body h5,body h6",
+            "text": "body p, body li"
+        }
     },
-    {
-      "url": "https://lib.ballerina.io",
-      "page_rank": 2,
-      "selectors_key": "swanlake_api_docs",
-      "tags": ["swanlake_api_docs"],
-      "extra_attributes": {
-        "site": ["swanlake_api_docs"]
-      }
-    }
-  ],
-  "sitemap_urls": ["https://ballerina.io/sitemap.xml"],
-  "stop_urls": [],
-  "selectors": {
-    "default": {
-      "lvl0": ".container h1",
-      "lvl1": ".container h2",
-      "lvl2": ".container h3",
-      "lvl3": ".container h4",
-      "lvl4": ".container h5",
-      "lvl5": ".container h6",
-      "text": ".container p, .container li"
+    "custom_settings": {
+        "attributesForFaceting": [
+            "site",
+            "tags"
+        ]
     },
-    "swanlake_api_docs": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Swan Lake API documentation"
-      },
-      "lvl1": ".content h1",
-      "lvl2": ".content h2",
-      "lvl3": ".content h3",
-      "lvl4": ".content h4",
-      "lvl5": ".content h5,.content h6",
-      "text": ".content p, .content li"
-    }
-  },
-  "custom_settings": {
-    "attributesForFaceting": ["site", "tags"]
-  },
-  "conversation_id": ["1538160382"],
-  "nb_hits": 24424
+    "conversation_id": [
+        "1538160382"
+    ],
+    "nb_hits": 24424
 }
