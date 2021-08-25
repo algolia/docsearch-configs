@@ -16,13 +16,13 @@
         {
             "url": "https://lib.ballerina.io",
             "page_rank": 2,
-            "selectors_key": "swanlake_api_docs",
+            "selectors_key": "ballerina_api_docs",
             "tags": [
-                "swanlake_api_docs"
+                "ballerina_api_docs"
             ],
             "extra_attributes": {
                 "site": [
-                    "swanlake_api_docs"
+                    "ballerina_api_docs"
                 ]
             }
         },
@@ -59,7 +59,7 @@
     "stop_urls": [],
     "selectors": {
         "default": {
-            "lvl0": ".container h1",
+            "lvl0": ".container h1,.cTopNav li",
             "lvl1": ".container h2",
             "lvl2": ".container h3",
             "lvl3": ".container h4",
@@ -67,7 +67,7 @@
             "lvl5": ".container h6",
             "text": ".container p, .container li"
         },
-        "swanlake_api_docs": {
+        "ballerina_api_docs": {
             "lvl0": {
                 "selector": "",
                 "default_value": "Ballerina Library (API) Documentation"
