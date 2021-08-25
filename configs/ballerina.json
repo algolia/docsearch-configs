@@ -59,7 +59,7 @@
     "stop_urls": [],
     "selectors": {
         "default": {
-            "lvl0": ".container h1,.cTopNav li",
+            "lvl0": ".container h1",
             "lvl1": ".container h2",
             "lvl2": ".container h3",
             "lvl3": ".container h4",
