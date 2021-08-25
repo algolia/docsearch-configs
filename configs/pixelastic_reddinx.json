@@ -3,18 +3,29 @@
   "start_urls": [
     "https://projects.pixelastic.com/reddinx/"
   ],
-  "stop_urls": [],
+  "sitemap_urls": [
+    "https://projects.pixelastic.com/reddinx/sitemap.xml"
+  ],
+  "stop_urls": [
+    ".*(?<!/)$"
+  ],
   "selectors": {
-    "lvl0": "h1",
-    "lvl1": "h2",
-    "lvl2": "h3",
-    "lvl3": "h4",
-    "lvl4": "h5",
-    "lvl5": "h6",
-    "text": "p, li"
+    "lvl0": {
+      "selector": "//*[contains(@class,'ds-sidebar')]//*[contains(@class,'DocSearch-active')]/preceding::h3[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocSearch-content h1",
+    "lvl2": ".DocSearch-content h2",
+    "lvl3": ".DocSearch-content h3",
+    "lvl4": ".DocSearch-content h4",
+    "lvl5": ".DocSearch-content h5",
+    "lvl6": ".DocSearch-content h6",
+    "text": ".DocSearch-content p, .DocSearch-content li"
   },
   "conversation_id": [
     "1562096414"
   ],
-  "nb_hits": 130
+  "nb_hits": 47
 }
