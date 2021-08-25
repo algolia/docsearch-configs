@@ -2,7 +2,7 @@
   "index_name": "medusa-commerce",
   "start_urls": [
     {
-      "url": "https://docs.medusa-commerce.com/",
+      "url": "https://docs.medusa-commerce.com",
       "tags": [
         "docs",
         "tutorials"
@@ -12,8 +12,8 @@
     {
       "url": "https://docs.medusa-commerce.com/api/store",
       "tags": [
-        "api", 
-        "reference", 
+        "api",
+        "reference",
         "store"
       ],
       "selectors_key": "reference"
@@ -21,14 +21,17 @@
     {
       "url": "https://docs.medusa-commerce.com/api/admin",
       "tags": [
-        "api", 
-        "reference", 
+        "api",
+        "reference",
         "admin"
       ],
       "selectors_key": "reference"
     }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "https://docs.medusa-commerce.com/api$",
+    "https://docs.medusa-commerce.com/api/(store|admin)/.+"
+  ],
   "selectors": {
     "docs": {
       "lvl0": "main h1",
@@ -46,5 +49,7 @@
   "conversation_id": [
     "1555810963"
   ],
+  "js_wait": 2,
+  "js_render": true,
   "nb_hits": 764
 }
