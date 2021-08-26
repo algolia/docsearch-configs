@@ -1,7 +1,7 @@
 {
   "index_name": "chatwoot",
   "start_urls": [
-    "https://www-internal-docs.chatwoot.com/docs/self-hosted/"
+    "https://www-internal-docs.chatwoot.com/docs/"
   ],
   "sitemap_urls": [
     "https://www-internal-docs.chatwoot.com/docs/sitemap.xml"
