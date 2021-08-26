@@ -3,7 +3,7 @@
   "start_urls": [
     "https://documentation-snds.health-data-hub.fr/"
   ],
-  "stop_urls": [],
+  "stop_urls": ["https://documentation-snds.health-data-hub.fr/tags.html"],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
