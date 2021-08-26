@@ -2,34 +2,24 @@
   "index_name": "bolt",
   "start_urls": [
     {
-      "url": "https://docs.bolt.cm/(?P<version>.*?)/getting-started/introduction",
+      "url": "https://docs.boltcms.io/(?P<version>.*?)/getting-started/introduction",
       "variables": {
         "version": [
+          "5.0",
           "4.0",
           "3.7",
-          "3.6",
-          "3.5",
-          "3.4",
-          "3.3",
-          "3.2",
-          "3.1",
           "3.0",
           "2.2"
         ]
       }
     },
     {
-      "url": "https://docs.bolt.cm/(?P<version>.*?)/.*",
+      "url": "https://docs.boltcms.io/(?P<version>.*?)/.*",
       "variables": {
         "version": [
+          "5.0",
           "4.0",
           "3.7",
-          "3.6",
-          "3.5",
-          "3.4",
-          "3.3",
-          "3.2",
-          "3.1",
           "3.0",
           "2.2"
         ]
