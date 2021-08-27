@@ -2,7 +2,7 @@
   "index_name": "bootstrap-su",
   "start_urls": [
     {
-      "url": "https://getbootstrap.com/docs/4.5/",
+      "url": "https://getbootstrap.su/docs/4.5/",
       "extra_attributes": {
         "language": [
           "ru"
@@ -13,7 +13,7 @@
       }
     },
     {
-      "url": "https://getbootstrap.com/docs/4.6/",
+      "url": "https://getbootstrap.su/docs/4.6/",
       "extra_attributes": {
         "language": [
           "ru"
