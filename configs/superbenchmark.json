@@ -1,10 +1,10 @@
 {
-  "index_name": "solana",
+  "index_name": "superbenchmark",
   "start_urls": [
-    "https://docs.solana.com/"
+    "https://microsoft.github.io/superbenchmark/"
   ],
   "sitemap_urls": [
-    "https://docs.solana.com/sitemap.xml"
+    "https://microsoft.github.io/superbenchmark/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,8 +20,7 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
-    "text": "article p, article code, token-plain, article li, article td:last-child"
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
@@ -42,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1225908889"
+    "1607047968"
   ],
-  "nb_hits": 4134
+  "nb_hits": 813
 }
