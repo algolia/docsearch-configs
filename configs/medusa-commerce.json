@@ -3,17 +3,29 @@
   "start_urls": [
     {
       "url": "https://docs.medusa-commerce.com",
-      "tags": ["docs", "tutorials", "how to"],
+      "tags": [
+        "docs",
+        "tutorials",
+        "how to"
+      ],
       "selectors_key": "docs"
     },
     {
       "url": "https://docs.medusa-commerce.com/api/store",
-      "tags": ["api", "reference", "store"],
+      "tags": [
+        "api",
+        "reference",
+        "store"
+      ],
       "selectors_key": "store"
     },
     {
       "url": "https://docs.medusa-commerce.com/api/admin",
-      "tags": ["api", "reference", "admin"],
+      "tags": [
+        "api",
+        "reference",
+        "admin"
+      ],
       "selectors_key": "admin"
     }
   ],
