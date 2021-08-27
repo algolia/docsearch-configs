@@ -1,7 +1,7 @@
 {
   "index_name": "trimble",
   "start_urls": [
-    "https://developer.trimblemaps.com/restful-apis/"
+    "https://developer.trimblemaps.com/copilot-navigation/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,7 +14,7 @@
     "lvl5": ".highlightable h6"
   },
   "sitemap_urls": [
-    "https://developer.trimblemaps.com/restful-apis/sitemap.xml"
+    "https://developer.trimblemaps.com/copilot-navigation/sitemap.xml"
   ],
   "min_indexed_level": 0,
   "conversation_id": [
