@@ -19,7 +19,7 @@
       "url": "https://skywalking.apache.org/docs/skywalking-java/(?P<version>.*?)/",
       "variables": {
         "version": [
-          "latest",
+          "latest"
         ]
       }
     },
