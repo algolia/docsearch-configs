@@ -3,11 +3,13 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://developer.trimblemaps.com/restful-apis/",
+    "https://developer.trimblemaps.com/copilot-navigation/",
     "https://developer.trimblemaps.com/",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://developer.trimblemaps.com/restful-apis/sitemap.xml"],
+  sitemaps: [
+    "https://developer.trimblemaps.com/copilot-navigation/sitemap.xml",
+  ],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://developer.trimblemaps.com/**"],
@@ -15,7 +17,7 @@ new Crawler({
   actions: [
     {
       indexName: "trimble",
-      pathsToMatch: ["https://developer.trimblemaps.com/restful-apis/**"],
+      pathsToMatch: ["https://developer.trimblemaps.com/copilot-navigation/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

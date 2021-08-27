@@ -2,17 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["http://figuration.org/"],
+  startUrls: ["https://figuration.org/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["http://figuration.org/**"],
+  discoveryPatterns: ["https://figuration.org/**"],
   schedule: "at 01:10 on Wednesday",
   actions: [
     {
       indexName: "figuration",
-      pathsToMatch: ["http://figuration.org/**"],
+      pathsToMatch: ["https://figuration.org/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -25,7 +25,7 @@ new Crawler({
             lvl3: ".cf-content h3",
             lvl4: ".cf-content h4",
           },
-          indexHeadings: { from: 2, to: 6 },
+          indexHeadings: { from: 1, to: 6 },
         });
       },
     },

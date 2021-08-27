@@ -3,87 +3,109 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.medusa-commerce.com/",
-    "https://docs.medusa-commerce.com/api/store",
-    "https://docs.medusa-commerce.com/api/admin",
+    "https://rstudio.github.io/websocket/index.html",
+    "https://rstudio.github.io/",
+    "https://rstudio.github.io/websocket/reference",
+    "https://rstudio.github.io/websocket/articles",
   ],
-  renderJavaScript: true,
+  renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "https://docs.medusa-commerce.com/api",
-    "https://docs.medusa-commerce.com/api/(store|admin)/**",
+    "**/reference/",
+    "**/reference/index.html",
+    "**/articles/",
+    "**/articles/index.html",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.medusa-commerce.com/**"],
-  schedule: "at 10:00 on Thursday",
+  discoveryPatterns: ["https://rstudio.github.io/**"],
+  schedule: "at 10:00 on Saturday",
   actions: [
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com**/**"],
+      indexName: "websocket",
+      pathsToMatch: ["https://rstudio.github.io/websocket/index.html**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "main h2",
-            content: "main p, main li",
+            lvl1: ".contents h2",
+            content: ".contents p, .contents li, .contents .pre",
             lvl0: {
-              selectors: "main h1",
+              selectors: ".contents h1",
+              defaultValue: "pkgdown Home page",
             },
-            lvl2: "main h3",
+            lvl2: ".contents h3",
+            lvl3: ".ref-arguments td, .ref-description",
             tags: {
-              defaultValue: ["docs", "tutorials"],
+              defaultValue: ["homepage"],
             },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/store**/**"],
+      indexName: "websocket",
+      pathsToMatch: ["https://rstudio.github.io/websocket/reference**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".DocSearch-content h2",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span",
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
             lvl0: {
-              selectors: ".DocSearch-content h1",
+              selectors: ".contents h1",
             },
-            lvl2: ".DocSearch-content h3",
+            lvl2: ".ref-arguments th",
+            lvl3: ".ref-arguments td, .ref-description",
             tags: {
-              defaultValue: ["api", "reference", "store"],
+              defaultValue: ["reference"],
             },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/admin**/**"],
+      indexName: "websocket",
+      pathsToMatch: ["https://rstudio.github.io/websocket/articles**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".DocSearch-content h2",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span",
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
             lvl0: {
-              selectors: ".DocSearch-content h1",
+              selectors: ".contents h1",
             },
-            lvl2: ".DocSearch-content h3",
+            lvl2: ".contents h2, .contents h3",
             tags: {
-              defaultValue: ["api", "reference", "admin"],
+              defaultValue: ["articles"],
             },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
   ],
   initialIndexSettings: {
-    "medusa-commerce": {
+    websocket: {
       attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -144,6 +166,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

@@ -6,6 +6,7 @@ new Crawler({
     "https://docs.nativescript.org/plugins/",
     "https://docs.nativescript.org/",
     "https://docs.nativescript.org/best-practices/",
+    "https://docs.nativescript.org/api-reference/",
   ],
   renderJavaScript: false,
   sitemaps: [],
@@ -58,10 +59,32 @@ new Crawler({
     },
     {
       indexName: "nativescript",
+      pathsToMatch: ["https://docs.nativescript.org/api-reference/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".container h1",
+            content: ".col-content p, .col-content li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Api Reference",
+            },
+            lvl2: ".col-content h2",
+            lvl3: ".col-content h3",
+            lvl4: ".col-content h4",
+            lvl5: ".col-content h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "nativescript",
       pathsToMatch: [
         "https://docs.nativescript.org/**",
         "!https://docs.nativescript.org/plugins/**",
         "!https://docs.nativescript.org/best-practices/**",
+        "!https://docs.nativescript.org/api-reference/**",
       ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({

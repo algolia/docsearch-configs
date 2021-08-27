@@ -17,7 +17,8 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
+            content:
+              "article p, article code, token-plain, article li, article td:last-child",
             lvl0: {
               selectors: [
                 ".menu__link.menu__link--sublist.menu__link--active",

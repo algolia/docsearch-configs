@@ -8,6 +8,8 @@ new Crawler({
   exclusionPatterns: [
     "https://overwolf.github.io/docs/api/overwolf-log**",
     "https://overwolf.github.io/docs/api/overwolf-log**/**",
+    "https://overwolf.github.io/docs/api/overwolf-games-events-eternal-return**",
+    "https://overwolf.github.io/docs/api/overwolf-games-events-eternal-return**/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://overwolf.github.io/**"],

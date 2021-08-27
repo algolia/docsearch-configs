@@ -2,7 +2,11 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://devdocs.prestashop.com/"],
+  startUrls: [
+    "https://devdocs.prestashop.com/1.7/",
+    "https://devdocs.prestashop.com/",
+    "https://devdocs.prestashop.com/8/",
+  ],
   renderJavaScript: false,
   sitemaps: ["https://devdocs.prestashop.com/sitemap.xml"],
   exclusionPatterns: [],
@@ -12,7 +16,7 @@ new Crawler({
   actions: [
     {
       indexName: "prestashop",
-      pathsToMatch: ["https://devdocs.prestashop.com/**"],
+      pathsToMatch: ["https://devdocs.prestashop.com/1.7/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -25,6 +29,32 @@ new Crawler({
             lvl3: "#body-inner h4",
             lvl4: "#body-inner h5",
             lvl5: "#body-inner h6",
+            version: {
+              defaultValue: ["1.7"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "prestashop",
+      pathsToMatch: ["https://devdocs.prestashop.com/8/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "#body-inner h2",
+            content: "#body-inner p, #body-inner li",
+            lvl0: {
+              selectors: "#body-inner h1",
+            },
+            lvl2: "#body-inner h3",
+            lvl3: "#body-inner h4",
+            lvl4: "#body-inner h5",
+            lvl5: "#body-inner h6",
+            version: {
+              defaultValue: ["8"],
+            },
           },
           indexHeadings: true,
         });

@@ -2,29 +2,33 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://documentation-snds.health-data-hub.fr/"],
+  startUrls: ["https://wasm4.org/"],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: [
-    "https://documentation-snds.health-data-hub.fr/tags.html",
-  ],
-  ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://documentation-snds.health-data-hub.fr/**"],
-  schedule: "at 10:00 on Wednesday",
+  sitemaps: ["https://wasm4.org/sitemap.xml"],
+  exclusionPatterns: [],
+  ignoreCanonicalTo: true,
+  discoveryPatterns: ["https://wasm4.org/**"],
+  schedule: "at 10:00 on Saturday",
   actions: [
     {
-      indexName: "health-data-hub-snds",
-      pathsToMatch: ["https://documentation-snds.health-data-hub.fr/**"],
+      indexName: "wasm4",
+      pathsToMatch: ["https://wasm4.org/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content__default h1",
-            content: ".content__default p, .content__default li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: "p.sidebar-heading.open",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
               defaultValue: "Documentation",
             },
-            lang: "",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
           },
           indexHeadings: true,
         });
@@ -32,9 +36,22 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "health-data-hub-snds": {
-      attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+    wasm4: {
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -95,6 +112,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

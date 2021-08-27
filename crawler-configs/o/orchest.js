@@ -2,28 +2,37 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://documentation-snds.health-data-hub.fr/"],
-  renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: [
-    "https://documentation-snds.health-data-hub.fr/tags.html",
+  startUrls: [
+    "https://orchest.readthedocs.io/en/latest/",
+    "https://orchest.readthedocs.io/",
   ],
+  renderJavaScript: false,
+  sitemaps: ["https://orchest.readthedocs.io/sitemap.xml"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://documentation-snds.health-data-hub.fr/**"],
-  schedule: "at 10:00 on Wednesday",
+  discoveryPatterns: ["https://orchest.readthedocs.io/**"],
+  schedule: "at 20:40 on Thursday",
   actions: [
     {
-      indexName: "health-data-hub-snds",
-      pathsToMatch: ["https://documentation-snds.health-data-hub.fr/**"],
+      indexName: "orchest",
+      pathsToMatch: ["https://orchest.readthedocs.io/en/latest/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content__default h1",
-            content: ".content__default p, .content__default li",
+            lvl1: ".content h1",
+            content: ".content p, .content li",
             lvl0: {
               selectors: "p.sidebar-heading.open",
               defaultValue: "Documentation",
             },
+            lvl2: ".content h2",
+            lvl3: ".content h3",
+            lvl4: ".content h4",
+            lvl5: ".content h5",
             lang: "",
           },
           indexHeadings: true,
@@ -32,7 +41,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "health-data-hub-snds": {
+    orchest: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

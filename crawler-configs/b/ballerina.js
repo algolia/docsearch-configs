@@ -3,20 +3,26 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://ballerina.io/learn",
     "https://ballerina.io/",
     "https://lib.ballerina.io/",
+    "https://blog.ballerina.io/",
+    "https://central.ballerina.io/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://ballerina.io/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://ballerina.io/**", "https://lib.ballerina.io/**"],
+  discoveryPatterns: [
+    "https://ballerina.io/**",
+    "https://lib.ballerina.io/**",
+    "https://blog.ballerina.io/**",
+    "https://central.ballerina.io/**",
+  ],
   schedule: "at 06:00 on Tuesday",
   actions: [
     {
       indexName: "ballerina",
-      pathsToMatch: ["https://ballerina.io/learn**/**"],
+      pathsToMatch: ["https://ballerina.io**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -42,25 +48,79 @@ new Crawler({
     },
     {
       indexName: "ballerina",
-      pathsToMatch: ["https://lib.ballerina.io/**"],
+      pathsToMatch: ["https://lib.ballerina.io**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content h2",
+            lvl1: ".content h1",
             content: ".content p, .content li",
             lvl0: {
               selectors: "",
-              defaultValue: "SWANLAKE API documentation",
+              defaultValue: "Ballerina Library (API) Documentation",
             },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
-            lvl5: ".content h6",
+            lvl2: ".content h2",
+            lvl3: ".content h3",
+            lvl4: ".content h4",
+            lvl5: ".content h5,.content h6",
             site: {
-              defaultValue: ["swanlake_api_docs"],
+              defaultValue: ["ballerina_api_docs"],
             },
             tags: {
-              defaultValue: ["swanlake_api_docs", "api", "swanlake"],
+              defaultValue: ["ballerina_api_docs"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "ballerina",
+      pathsToMatch: ["https://blog.ballerina.io**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".container h1",
+            content: ".container p, .container li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Ballerina Blog",
+            },
+            lvl2: ".container h2",
+            lvl3: ".container h3",
+            lvl4: ".container h4",
+            lvl5: ".container h5,.container h6",
+            site: {
+              defaultValue: ["ballerina_blog"],
+            },
+            tags: {
+              defaultValue: ["ballerina_blog"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "ballerina",
+      pathsToMatch: ["https://central.ballerina.io**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "body h1",
+            content: "body p, body li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Ballerina Central",
+            },
+            lvl2: "body h2",
+            lvl3: "body h3",
+            lvl4: "body h4",
+            lvl5: "body h5,body h6",
+            site: {
+              defaultValue: ["ballerina_central"],
+            },
+            tags: {
+              defaultValue: ["ballerina_central"],
             },
           },
           indexHeadings: true,

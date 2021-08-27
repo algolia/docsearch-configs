@@ -3,7 +3,7 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://www-internal-docs.chatwoot.com/docs/self-hosted/",
+    "https://www-internal-docs.chatwoot.com/docs/",
     "https://www-internal-docs.chatwoot.com/",
   ],
   renderJavaScript: false,
@@ -15,9 +15,7 @@ new Crawler({
   actions: [
     {
       indexName: "chatwoot",
-      pathsToMatch: [
-        "https://www-internal-docs.chatwoot.com/docs/self-hosted/**",
-      ],
+      pathsToMatch: ["https://www-internal-docs.chatwoot.com/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

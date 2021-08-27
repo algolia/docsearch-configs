@@ -2,28 +2,34 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://documentation-snds.health-data-hub.fr/"],
+  startUrls: ["https://docs.desmos.network/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [
-    "https://documentation-snds.health-data-hub.fr/tags.html",
-  ],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://documentation-snds.health-data-hub.fr/**"],
-  schedule: "at 10:00 on Wednesday",
+  discoveryPatterns: ["https://docs.desmos.network/**"],
+  schedule: "at 15:00 on Tuesday",
   actions: [
     {
-      indexName: "health-data-hub-snds",
-      pathsToMatch: ["https://documentation-snds.health-data-hub.fr/**"],
+      indexName: "desmos",
+      pathsToMatch: ["https://docs.desmos.network**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content__default h1",
-            content: ".content__default p, .content__default li",
+            lvl1: ".theme-default-content h1",
+            content: ".theme-default-content p, .theme-default-content li",
             lvl0: {
               selectors: "p.sidebar-heading.open",
               defaultValue: "Documentation",
             },
+            lvl2: ".theme-default-content h2",
+            lvl3: ".theme-default-content h3",
+            lvl4: ".theme-default-content h4",
+            lvl5: ".theme-default-content h5",
             lang: "",
           },
           indexHeadings: true,
@@ -32,7 +38,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "health-data-hub-snds": {
+    desmos: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

@@ -7,7 +7,7 @@ new Crawler({
     "https://storybook.js.org/",
     "https://storybook.js.org/docs/",
   ],
-  renderJavaScript: false,
+  renderJavaScript: true,
   sitemaps: ["https://storybook.js.org/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,

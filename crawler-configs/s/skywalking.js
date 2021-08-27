@@ -5,11 +5,13 @@ new Crawler({
   startUrls: [
     "https://skywalking.apache.org/docs/main/latest/",
     "https://skywalking.apache.org/",
+    "https://skywalking.apache.org/docs/main/v8.7.0/",
     "https://skywalking.apache.org/docs/main/v8.6.0/",
     "https://skywalking.apache.org/docs/main/v8.5.0/",
     "https://skywalking.apache.org/docs/main/v8.4.0/",
     "https://skywalking.apache.org/docs/main/v8.3.0/",
     "https://skywalking.apache.org/docs/main/v8.2.0/",
+    "https://skywalking.apache.org/docs/skywalking-java/latest/",
     "https://skywalking.apache.org/docs/skywalking-satellite/latest/",
     "https://skywalking.apache.org/docs/skywalking-satellite/v0.1.0/",
   ],
@@ -38,6 +40,30 @@ new Crawler({
             lvl5: "main h5",
             version: {
               defaultValue: ["latest"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "skywalking",
+      pathsToMatch: ["https://skywalking.apache.org/docs/main/v8.7.0/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h1",
+            content: "main p, main li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Documentation",
+            },
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
+            version: {
+              defaultValue: ["v8.7.0"],
             },
           },
           indexHeadings: true,
@@ -158,6 +184,32 @@ new Crawler({
             lvl5: "main h5",
             version: {
               defaultValue: ["v8.2.0"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "skywalking",
+      pathsToMatch: [
+        "https://skywalking.apache.org/docs/skywalking-java/latest/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h1",
+            content: "main p, main li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Documentation",
+            },
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
+            version: {
+              defaultValue: ["latest"],
             },
           },
           indexHeadings: true,

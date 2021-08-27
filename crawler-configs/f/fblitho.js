@@ -2,78 +2,99 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://fblitho.com/docs",
-    "https://fblitho.com/",
-    "https://fblitho.com/javadoc/overview-summary.html",
-    "https://fblitho.com/javadoc",
-  ],
+  startUrls: ["https://fblitho.com/javadoc/", "https://fblitho.com/"],
   renderJavaScript: true,
-  sitemaps: [],
-  exclusionPatterns: ["**/javadoc/**"],
-  ignoreCanonicalTo: false,
+  sitemaps: ["https://fblitho.com/sitemap.xml"],
+  exclusionPatterns: [
+    "https://fblitho.com/javadoc/overview-summary.html",
+    "https://fblitho.com/javadoc/index.html",
+    "**/testing/**",
+  ],
+  ignoreCanonicalTo: true,
   discoveryPatterns: ["https://fblitho.com/**"],
   schedule: "at 01:00 on Wednesday",
   actions: [
     {
       indexName: "fblitho",
-      pathsToMatch: ["https://fblitho.com/docs**/**"],
+      pathsToMatch: ["https://fblitho.com/javadoc/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Stop if one of those text is found in the DOM.
+        const body = $.text();
+        const toCheck = ["Page Not Found"];
+        const shouldStop = toCheck.some((text) => body.includes(text));
+        if (shouldStop) {
+          return [];
+        }
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".post h1",
-            content: ".post p, .post li",
+            lvl1: ".header .subtitle",
+            content: ".description .block",
             lvl0: {
-              selectors: "",
+              selectors: ".header .title",
             },
-            lvl2: ".post h2",
-            lvl3: ".post h3",
-            lvl4: ".post h4",
-            lvl5: ".post h5",
+            lvl2: ".description li dd",
+            tags: {
+              defaultValue: ["api"],
+            },
           },
-          indexHeadings: { from: 1, to: 6 },
+          indexHeadings: true,
         });
       },
     },
     {
       indexName: "fblitho",
-      pathsToMatch: ["https://fblitho.com/javadoc/overview-summary.html**/**"],
+      pathsToMatch: ["https://fblitho.com/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Stop if one of those text is found in the DOM.
+        const body = $.text();
+        const toCheck = ["Page Not Found"];
+        const shouldStop = toCheck.some((text) => body.includes(text));
+        if (shouldStop) {
+          return [];
+        }
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".header h2",
-            content: ".block",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: ".header .subtitle",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
             },
-            lvl2: "",
-          },
-          indexHeadings: { from: 1, to: 6 },
-        });
-      },
-    },
-    {
-      indexName: "fblitho",
-      pathsToMatch: ["https://fblitho.com/javadoc**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".header h2",
-            content: ".block",
-            lvl0: {
-              selectors: ".header .subtitle",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            lvl6: "article h6",
+            tags: {
+              defaultValue: ["doc"],
             },
-            lvl2: "",
           },
-          indexHeadings: { from: 1, to: 6 },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
     fblitho: {
-      attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+        "tags",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -134,6 +155,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

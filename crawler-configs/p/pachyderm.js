@@ -18,6 +18,8 @@ new Crawler({
     "https://docs.pachyderm.com/latest/",
     "https://docs.pachyderm.com/1.12.x/",
     "https://docs.pachyderm.com/1.11.x/",
+    "https://docs.pachyderm.com/2.0.x-beta/",
+    "https://docs.pachyderm.com/2.0.x-rc/",
   ],
   renderJavaScript: false,
   sitemaps: [
@@ -336,6 +338,50 @@ new Crawler({
             lvl2: "article h2",
             version: {
               defaultValue: ["1.11.x"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "pachyderm",
+      pathsToMatch: ["https://docs.pachyderm.com/2.0.x-beta/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h1",
+            content:
+              "article h3, article h4, article h5, article p, article li",
+            lvl0: {
+              selectors: ".md-tabs__link.md-tabs__link--active",
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            version: {
+              defaultValue: ["2.0.x-beta"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "pachyderm",
+      pathsToMatch: ["https://docs.pachyderm.com/2.0.x-rc/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h1",
+            content:
+              "article h3, article h4, article h5, article p, article li",
+            lvl0: {
+              selectors: ".md-tabs__link.md-tabs__link--active",
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            version: {
+              defaultValue: ["2.0.x-rc"],
             },
           },
           indexHeadings: true,

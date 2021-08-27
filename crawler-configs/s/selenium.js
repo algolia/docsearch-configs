@@ -5,22 +5,12 @@ new Crawler({
   startUrls: [
     "https://www.selenium.dev/documentation/",
     "https://www.selenium.dev/",
-    "https://selenium.dev/documentation/",
-    "https://selenium.dev/",
-    "https://selenium.dev/documentation/de/getting_started/quick/",
-    "https://selenium.dev/documentation/en/getting_started/quick/",
-    "https://selenium.dev/documentation/es/getting_started/quick/",
-    "https://selenium.dev/documentation/nl/getting_started/quick/",
-    "https://selenium.dev/documentation/zh-cn/getting_started/quick/",
-    "https://selenium.dev/documentation/fr/getting_started/quick/",
-    "https://selenium.dev/documentation/ja/getting_started/quick/",
-    "https://selenium.dev/documentation/ko/getting_started/quick/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://www.selenium.dev/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.selenium.dev/**", "https://selenium.dev/**"],
+  discoveryPatterns: ["https://www.selenium.dev/**"],
   schedule: "at 15:00 on Friday",
   actions: [
     {
@@ -29,47 +19,16 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-inner h2",
-            content: "#body-inner p, #body-inner li",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
-              selectors: "#body-inner h1",
+              selectors: "",
+              defaultValue: "Documentation",
             },
-            lvl2: "#body-inner h3",
-            lvl3: "#body-inner h4",
-            lvl4: "#body-inner h5",
-            lvl5: "#body-inner h6",
-            lang: "",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "selenium",
-      pathsToMatch: [
-        "https://selenium.dev/documentation/**",
-        "https://selenium.dev/documentation/de/getting_started/quick/**",
-        "https://selenium.dev/documentation/en/getting_started/quick/**",
-        "https://selenium.dev/documentation/es/getting_started/quick/**",
-        "https://selenium.dev/documentation/nl/getting_started/quick/**",
-        "https://selenium.dev/documentation/zh-cn/getting_started/quick/**",
-        "https://selenium.dev/documentation/fr/getting_started/quick/**",
-        "https://selenium.dev/documentation/ja/getting_started/quick/**",
-        "https://selenium.dev/documentation/ko/getting_started/quick/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "#body-inner h2",
-            content: "#body-inner p, #body-inner li",
-            lvl0: {
-              selectors: "#body-inner h1",
-            },
-            lvl2: "#body-inner h3",
-            lvl3: "#body-inner h4",
-            lvl4: "#body-inner h5",
-            lvl5: "#body-inner h6",
-            lang: "",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
           },
           indexHeadings: true,
         });
@@ -140,7 +99,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

@@ -7,8 +7,8 @@ new Crawler({
     "https://projects.pixelastic.com/",
   ],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: [],
+  sitemaps: ["https://projects.pixelastic.com/reddinx/sitemap.xml"],
+  exclusionPatterns: ["!**/"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://projects.pixelastic.com/**"],
   schedule: "at 00:10 on Friday",
@@ -19,15 +19,17 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "h2",
-            content: "p, li",
+            lvl1: ".DocSearch-content h1",
+            content: ".DocSearch-content p, .DocSearch-content li",
             lvl0: {
-              selectors: "h1",
+              selectors: "",
+              defaultValue: "Documentation",
             },
-            lvl2: "h3",
-            lvl3: "h4",
-            lvl4: "h5",
-            lvl5: "h6",
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            lvl4: ".DocSearch-content h4",
+            lvl5: ".DocSearch-content h5",
+            lvl6: ".DocSearch-content h6",
           },
           indexHeadings: true,
         });

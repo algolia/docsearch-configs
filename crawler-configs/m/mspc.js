@@ -3,16 +3,42 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://genometric.github.io/MSPC/",
+    "https://genometric.github.io/MSPC/docs/",
     "https://genometric.github.io/",
+    "https://genometric.github.io/MSPC/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://genometric.github.io/MSPC/sitemap.xml"],
-  exclusionPatterns: [],
+  exclusionPatterns: ["**/tests**", "**/tests**/**"],
   ignoreCanonicalTo: true,
   discoveryPatterns: ["https://genometric.github.io/**"],
   schedule: "at 10:40 on Thursday",
   actions: [
+    {
+      indexName: "mspc",
+      pathsToMatch: ["https://genometric.github.io/MSPC/docs/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
+            lvl0: {
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            lvl6: "article h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
     {
       indexName: "mspc",
       pathsToMatch: ["https://genometric.github.io/MSPC/**"],
