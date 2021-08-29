@@ -5,10 +5,30 @@
       "url": "https://docs.zhinst.com/(?P<project>.*?)/",
       "variables": {
         "project": [
+          "hdawg_user_manual",
+          "hf2_user_manual",
           "labone_programming_manual",
-          "shfqa_user_manual"
+          "mfia_user_manual",
+          "mfli_user_manual",
+          "pqsc_user_manual",
+          "shfqa_user_manual",
+          "shfsg_user_manual",
+          "uhf_user_manual",
+          "uhfqa_user_manual"
         ]
       }
+    },
+    {
+      "url": "http://docs.pages.zhinst.com/manuals/(?P<project>.*?)/",
+      "variables": {
+        "project": [
+          "labone_api/python",
+          "labone_api/c",
+          "labone_api/dotnet",
+          "labone_api/matlab"
+        ]
+      },
+      "selectors_key": "api"
     }
   ],
   "sitemap_urls": [
@@ -20,16 +40,38 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "//nav[@class='nav-menu']/h3/a",
-        "type": "xpath",
+        "selector": "nav.nav-menu h3 a",
         "global": true,
-        "default_value": "Zurich Instrument"
+        "default_value": "Zurich Instruments"
       },
       "lvl1": ".doc h1",
       "lvl2": ".doc h2",
       "lvl3": ".doc h3",
       "lvl4": ".doc h4",
       "text": ".doc p, .doc td.content, .doc th.tableblock"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "li.toctree-l1.current.active.nav-item > a",
+        "global": true,
+        "default_value": "Zurich Instrument"
+      },
+      "lvl1": {
+        "selector": "li.toctree-l1.current.active.has-children > a",
+        "global": true,
+        "default_value": ""
+      },
+      "lvl2": {
+        "selector": "li.toctree-l2.current.active > a",
+        "global": true,
+        "default_value": ""
+      },
+      "lvl3": {
+        "selector": "li.toctree-l3.current.active > a",
+        "global": true,
+        "default_value": ""
+      },
+      "text": ".section p, .section dl dt, .section div"
     }
   },
   "custom_settings": {
