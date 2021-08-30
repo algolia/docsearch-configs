@@ -1,0 +1,24 @@
+{
+  "index_name": "react-virtual",
+  "start_urls": ["https://react-virtual.tanstack.com"],
+  "sitemap_urls": ["https://react-virtual.tanstack.com/sitemap.xml"],
+  "sitemap_alternate_links": true,
+  "stop_urls": ["/tests"],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "default_value": "Documentation"
+    },
+    "lvl1": "[class*='markdown_markdown'] h1",
+    "lvl2": "[class*='markdown_markdown'] h2",
+    "lvl3": "[class*='markdown_markdown'] h3",
+    "lvl4": "[class*='markdown_markdown'] h4",
+    "lvl5": "[class*='markdown_markdown'] h5",
+    "lvl6": "[class*='markdown_markdown'] h6",
+    "text": "[class*='markdown_markdown'] p, [class*='markdown_markdown'] li"
+  },
+  "strip_chars": " .,;:#",
+  "js_render": true,
+  "conversation_id": ["1591807151"],
+  "nb_hits": 114
+}
