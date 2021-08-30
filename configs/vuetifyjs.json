@@ -2,22 +2,23 @@
   "index_name": "vuetifyjs",
   "start_urls": [
     {
-      "url": "https://vuetifyjs.com/(?P<lang>.*?)/",
-      "variables": {
-        "lang": ["en", "ja", "zh-Hans"]
-      }
-    },
-    {
       "url": "https://vuetifyjs.com/(?P<lang>.*?)/api/",
       "variables": {
         "lang": ["en", "ja", "zh-Hans"]
       },
       "selectors_key": "api"
+    },
+    {
+      "url": "https://vuetifyjs.com/(?P<lang>.*?)/",
+      "variables": {
+        "lang": ["en", "ja", "zh-Hans"]
+      }
     }
   ],
   "sitemap_urls": ["https://vuetifyjs.com/sitemap.xml"],
   "stop_urls": ["/store/"],
   "strip_chars": "#",
+  "selectors_exclude": ["section#links", "section#api"],
   "selectors": {
     "default": {
       "lvl0": {
@@ -48,7 +49,8 @@
     }
   },
   "custom_settings": {
-    "attributesForFaceting": ["language"]
+    "attributesForFaceting": ["language"],
+    "separatorsToIndex": "-"
   },
   "conversation_id": ["421371997"],
   "nb_hits": 11369
