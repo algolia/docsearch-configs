@@ -2,21 +2,13 @@
   "index_name": "medusa-commerce",
   "start_urls": [
     {
-      "url": "https://docs.medusa-commerce.com",
-      "tags": [
-        "docs",
-        "tutorials"
-      ],
-      "selectors_key": "docs"
-    },
-    {
       "url": "https://docs.medusa-commerce.com/api/store",
       "tags": [
         "api",
         "reference",
         "store"
       ],
-      "selectors_key": "reference"
+      "selectors_key": "store"
     },
     {
       "url": "https://docs.medusa-commerce.com/api/admin",
@@ -25,7 +17,16 @@
         "reference",
         "admin"
       ],
-      "selectors_key": "reference"
+      "selectors_key": "admin"
+    },
+    {
+      "url": "https://docs.medusa-commerce.com/",
+      "tags": [
+        "docs",
+        "tutorials",
+        "how-to"
+      ],
+      "selectors_key": "docs"
     }
   ],
   "stop_urls": [
@@ -33,23 +34,42 @@
     "https://docs.medusa-commerce.com/api/(store|admin)/.+"
   ],
   "selectors": {
-    "docs": {
-      "lvl0": "main h1",
-      "lvl1": "main h2",
-      "lvl2": "main h3",
-      "text": "main p, main li"
+    "store": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Storefront API Reference"
+      },
+      "lvl1": ".DocSearch-content h1",
+      "lvl2": ".DocSearch-content h2",
+      "lvl3": ".DocSearch-content h3",
+      "text": ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p"
     },
-    "reference": {
-      "lvl0": ".DocSearch-content h1",
-      "lvl1": ".DocSearch-content h2",
-      "lvl2": ".DocSearch-content h3",
-      "text": ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span"
+    "admin": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Admin API Reference"
+      },
+      "lvl1": ".DocSearch-content h1",
+      "lvl2": ".DocSearch-content h2",
+      "lvl3": ".DocSearch-content h3",
+      "text": ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p"
+    },
+    "docs": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Docs"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "text": "main p, main li"
     }
   },
   "conversation_id": [
     "1555810963"
   ],
-  "js_wait": 2,
-  "js_render": true,
   "nb_hits": 764
 }
