@@ -49,7 +49,7 @@
     }
   },
   "custom_settings": {
-    "attributesForFaceting": ["language"],
+    "attributesForFaceting": ["lang"],
     "separatorsToIndex": "-"
   },
   "conversation_id": ["421371997"],
