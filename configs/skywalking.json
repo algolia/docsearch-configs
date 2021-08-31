@@ -1,44 +1,13 @@
 {
   "index_name": "skywalking",
   "start_urls": [
-    {
-      "url": "https://skywalking.apache.org/docs/main/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "latest",
-          "v8.7.0",
-          "v8.6.0",
-          "v8.5.0",
-          "v8.4.0",
-          "v8.3.0",
-          "v8.2.0"
-        ]
-      }
-    },
-     {
-      "url": "https://skywalking.apache.org/docs/skywalking-java/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "latest"
-        ]
-      }
-    },
-    {
-      "url": "https://skywalking.apache.org/docs/skywalking-satellite/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "latest",
-          "v0.1.0"
-        ]
-      }
-    }
+    "url": "https://skywalking.apache.org/",
   ],
   "sitemap_urls": [
     "https://skywalking.apache.org/sitemap.xml"
   ],
-  "stop_urls": [
-    ".*(?<!/)$"
-  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "",
