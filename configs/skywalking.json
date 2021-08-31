@@ -1,7 +1,7 @@
 {
   "index_name": "skywalking",
   "start_urls": [
-    "url": "https://skywalking.apache.org/",
+    "https://skywalking.apache.org/"
   ],
   "sitemap_urls": [
     "https://skywalking.apache.org/sitemap.xml"
