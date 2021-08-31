@@ -40,6 +40,14 @@
         "Cookbook"
       ],
       "page_rank": 5
+    },
+    {
+      "url": "https://pinia.esm.dev/api/",
+      "selectors_key": "api",
+      "tags": [
+        "API"
+      ],
+      "page_rank": 4
     }
   ],
   "stop_urls": [
@@ -57,7 +65,21 @@
     "lvl4": ".content h4",
     "lvl5": ".content h5",
     "lvl6": ".content p, .content li",
-    "text": ".content [class^=language-]"
+    "text": ".content [class^=language-]",
+
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "lvl6": ".content p, .content li",
+      "text": ".content [class^=language-]"
+    }
   },
   "strip_chars": " .,;:#",
   "conversation_id": [
