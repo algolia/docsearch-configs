@@ -3,7 +3,6 @@
   "start_urls": [
     {
       "url": "https://pinia.esm.dev/introduction.html",
-      "selectors_key": "introduction",
       "tags": [
         "Introduction"
       ],
@@ -11,7 +10,6 @@
     },
     {
       "url": "https://pinia.esm.dev/getting-started.html",
-      "selectors_key": "getting-started",
       "tags": [
         "Introduction"
       ],
@@ -19,7 +17,6 @@
     },
     {
       "url": "https://pinia.esm.dev/core-concepts/",
-      "selectors_key": "core-concepts",
       "tags": [
         "Core Concepts"
       ],
@@ -27,7 +24,6 @@
     },
     {
       "url": "https://pinia.esm.dev/ssr/",
-      "selectors_key": "ssr",
       "tags": [
         "SSR"
       ],
@@ -35,7 +31,6 @@
     },
     {
       "url": "https://pinia.esm.dev/cookbook/",
-      "selectors_key": "cookbook",
       "tags": [
         "Cookbook"
       ],
