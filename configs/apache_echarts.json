@@ -18,6 +18,9 @@
     "lvl5": ".nuxt-content h6",
     "text": ".nuxt-content p, .nuxt-content li"
   },
+  "custom_settings": {
+    "attributesForFaceting": ["lang"]
+  },
   "conversation_id": [
     "1613538708"
   ],
