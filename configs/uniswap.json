@@ -1,40 +1,44 @@
 {
   "index_name": "uniswap",
   "start_urls": [
-    {
-      "url": "https://uniswap.org/docs/v2",
-      "extra_attributes": {
-        "version": [
-          "v2"
-        ]
-      }
-    },
-    {
-      "url": "https://uniswap.org/docs/v1",
-      "extra_attributes": {
-        "version": [
-          "v1"
-        ]
-      }
-    }
+    "https://docs.uniswap.org/"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "[class*='MDX'] h1",
-    "lvl1": "[class*='MDX'] h2",
-    "lvl2": "[class*='MDX'] h3",
-    "lvl3": "[class*='MDX'] h4",
-    "lvl4": "[class*='MDX'] h5",
-    "lvl5": "[class*='MDX'] h6",
-    "text": "[class*='MDX'] p, [class*='MDX'] li"
+    "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
+  "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "version"
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "conversation_id": [
     "1203516192"
   ],
-  "nb_hits": 456
+  "nb_hits": 7402
 }

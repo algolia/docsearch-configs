@@ -1,7 +1,7 @@
 {
   "index_name": "vuepress-theme-mix",
   "start_urls": [
-    "https://vuepress-theme-mix.vercel.app/"
+    "https://vuepress-theme-mix.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -15,7 +15,17 @@
     "lvl3": "main h3",
     "lvl4": "main h4",
     "lvl5": "main h5",
-    "text": "main p, main li"
+    "text": "main p, main li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
   "conversation_id": [
     "1514884464"

@@ -4,23 +4,17 @@
     {
       "url": "https://kwb-r.github.io/kwb.utils/index.html",
       "selectors_key": "homepage",
-      "tags": [
-        "homepage"
-      ]
+      "tags": ["homepage"]
     },
     {
-      "url": "https?://kwb-r.github.io/kwb.utils/reference",
+      "url": "https://kwb-r.github.io/kwb.utils/reference",
       "selectors_key": "reference",
-      "tags": [
-        "reference"
-      ]
+      "tags": ["reference"]
     },
     {
       "url": "https://kwb-r.github.io/kwb.utils/articles",
       "selectors_key": "articles",
-      "tags": [
-        "articles"
-      ]
+      "tags": ["articles"]
     }
   ],
   "stop_urls": [
@@ -29,9 +23,7 @@
     "/articles/$",
     "/articles/index.html"
   ],
-  "sitemap_urls": [
-    "https://kwb-r.github.io/kwb.utils/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://kwb-r.github.io/kwb.utils/sitemap.xml"],
   "selectors": {
     "homepage": {
       "lvl0": {
@@ -76,9 +68,7 @@
       "text": ".contents p, .contents li, .usage, .template-article .contents .pre"
     }
   },
-  "selectors_exclude": [
-    ".dont-index"
-  ],
+  "selectors_exclude": [".dont-index"],
   "min_indexed_level": 2,
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -90,8 +80,6 @@
       "url_without_anchor"
     ]
   },
-  "conversation_id": [
-    "729042816"
-  ],
+  "conversation_id": ["729042816"],
   "nb_hits": 2777
 }

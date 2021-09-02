@@ -2,24 +2,58 @@
   "index_name": "atoti",
   "start_urls": [
     {
+      "scrape": false,
+      "selectors_key": "api_reference",
+      "url": "https://docs.atoti.io/(?P<version>.*?)/lib/",
+      "tags": ["api_reference"],
+      "variables": {
+        "version": {
+          "url": "https://docs.atoti.io/",
+          "js": "let versions = []; for (let b of document.querySelectorAll('.rst-other-versions dd')) { versions.push(b.innerText) }; return JSON.stringify(versions)"
+        }
+      }
+    },
+    {
       "url": "https://docs.atoti.io/(?P<version>.*?)/",
       "variables": {
         "version": {
           "url": "https://docs.atoti.io/",
-          "js": "let versions=[]; for (let b of document.querySelectorAll('.rst-other-versions dd')){versions.push(b.innerText)};return JSON.stringify(versions)"
+          "js": "let versions = []; for (let b of document.querySelectorAll('.rst-other-versions dd')) { versions.push(b.innerText) }; return JSON.stringify(versions)"
         }
       }
     }
   ],
+  "stop_urls": [".*/(eula|py-modindex|search).html"],
   "selectors": {
-    "lvl0": "section h1",
-    "lvl1": "section h2",
-    "lvl2": "section h3, section dl.py.class > dt > code.sig-name, section dl.py.data > dt > code.sig-name, section dl.py.function > dt > code.sig-name",
-    "lvl3": "section h4, section dl.py.method > dt > code.sig-name",
-    "lvl4": "section h5",
-    "lvl5": "section h6",
-    "text": "section p, section li"
+    "api_reference": {
+      "lvl0": "section h1",
+      "lvl1": "section dl.py.class > dt > .sig-name, section dl.py.data > dt > .sig-name, section dl.py.function > dt > .sig-name",
+      "lvl2": "section dl.py.function > dd > dl.field-list > dd.field-odd > ul.simple > li > p > strong, section dl.py.attribute > dt > .sig-name, section dl.py.method > dt > .sig-name, section dl.py.property > dt > .sig-name",
+      "lvl4": "section dl.py.method > dd > dl.field-list > dd.field-odd > ul.simple > li > p > strong",
+      "text": "section p"
+    },
+    "default": {
+      "lvl0": {
+        "global": true,
+        "selector": "//div[@class=\"wy-menu wy-menu-vertical\"]/ul[@class=\"current\"]/preceding-sibling::p[1]/span",
+        "type": "xpath"
+      },
+      "lvl1": "section h1",
+      "lvl2": "section h2",
+      "lvl3": "section h3",
+      "lvl4": "section h4",
+      "lvl5": "section h5",
+      "lvl6": "section h6",
+      "text": "section p"
+    }
   },
+  "selectors_exclude": [
+    "div.genindex-jumpbox",
+    "div.highlight",
+    "div.output_area",
+    "table.indextable"
+  ],
+  "min_indexed_level": 1,
   "custom_settings": {
     "separatorsToIndex": "_"
   },

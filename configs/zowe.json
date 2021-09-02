@@ -1,68 +1,48 @@
 {
   "index_name": "zowe",
   "start_urls": [
-    {
-      "url": "https://docs.zowe.org/(?P<version>.*?)/",
-      "variables": {
-         "version": [
-          "stable",
-          "active-development",
-          "v1-21-x",
-          "v1-20-x",
-          "v1-19-x",
-          "v1-18-x",
-          "v1-17-x",
-          "v1-16-x",
-          "v1-15-x",
-          "v1-14-x",
-          "v1-13-x",
-          "v1-12-x",
-          "v1-11-x",
-          "v1-10-x",
-          "v1-9-x",
-          "v1-8-x",
-          "v1-7-x",
-          "v1-6-x",
-          "v1-5-x",
-          "v1-4-x",
-          "v1-3-x",
-          "v1-2-x",
-          "v1-1-x",
-          "v1-0-x"
-        ]
-      }
-    }
+    "https://docs.zowe.org/"
   ],
+  "sitemap_urls": [
+    "https://docs.zowe.org/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.open",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "[class*='content '] h1, .page h1",
-    "lvl2": "[class*='content '] h2, .page h2",
-    "lvl3": "[class*='content '] h3, .page h3",
-    "lvl4": "[class*='content '] h4, .page h4",
-    "lvl5": "[class*='content '] h5, .page h5",
-    "text": "[class*='content '] p, .page p, [class*='content '] li, .page li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true,
-      "default_value": "en-US"
-    }
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "lang",
-      "version"
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "conversation_id": [
     "693711568"
   ],
-  "scrape_start_urls": false,
   "nb_hits": 112329
 }

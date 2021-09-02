@@ -1,0 +1,23 @@
+{
+  "index_name": "paketo",
+  "start_urls": [
+    "https://paketo.io/docs/"
+  ],
+  "sitemap_urls": [
+    "https://paketo.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs-body h1",
+    "lvl1": ".docs-body h2",
+    "lvl2": ".docs-body h3",
+    "lvl3": ".docs-body h4",
+    "lvl4": ".docs-body h5",
+    "lvl5": ".docs-body h6",
+    "text": ".docs-body p, .docs-body li"
+  },
+  "conversation_id": [
+    "1599646369"
+  ],
+  "nb_hits": 1517
+}

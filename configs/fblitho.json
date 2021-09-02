@@ -2,53 +2,68 @@
   "index_name": "fblitho",
   "start_urls": [
     {
-      "url": "https://fblitho.com/docs",
-      "selectors_key": "doc",
-      "page_rank": 1
+      "url": "https://fblitho.com/javadoc/",
+      "selectors_key": "api",
+      "tags": ["api"]
     },
     {
-      "url": "https://fblitho.com/javadoc/overview-summary.html",
-      "selectors_key": "api"
-    },
-    {
-      "url": "https://fblitho.com/javadoc",
-      "selectors_key": "api"
+      "url": "https://fblitho.com/",
+      "tags": ["doc"]
     }
   ],
   "stop_urls": [
-    "/javadoc/"
+    "https://fblitho.com/javadoc/overview-summary.html",
+    "https://fblitho.com/javadoc/index.html",
+    "/testing/"
   ],
+  "sitemap_urls": ["https://fblitho.com/sitemap.xml"],
+  "stop_content": ["Page Not Found"],
   "selectors": {
-    "doc": {
+    "default": {
       "lvl0": {
-        "selector": "//a[contains(@class, 'navItemActive')]/../../preceding::h3[1]",
-        "type": "xpath"
+        "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+        "type": "xpath",
+        "global": true,
+        "default_value": "Documentation"
       },
-      "lvl1": ".post h1",
-      "lvl2": ".post h2",
-      "lvl3": ".post h3",
-      "lvl4": ".post h4",
-      "lvl5": ".post h5",
-      "text": ".post p, .post li"
+      "lvl1": "header h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5, article td:first-child",
+      "lvl6": "article h6",
+      "text": "article p, article li, article td:last-child"
     },
     "api": {
       "lvl0": {
-        "selector": ".header .subtitle",
+        "selector": ".header .title",
         "default": "API documentation"
       },
-      "lvl1": ".header h2",
-      "lvl2": {
-        "selector": "//*[@id='blockList']/li/ul/li/a",
-        "type": "xpath"
-      },
-      "text": ".block"
+      "lvl1": ".header .subtitle",
+      "lvl2": ".description li dd",
+      "text": ".description .block"
     }
   },
-  "min_indexed_level": 1,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag",
+      "tags"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "js_render": true,
-  "js_wait": 1,
-  "conversation_id": [
-    "349248966"
-  ],
-  "nb_hits": 1591
+  "conversation_id": ["349248966"],
+  "nb_hits": 5430
 }

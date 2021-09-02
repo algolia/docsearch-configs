@@ -1,10 +1,10 @@
 {
   "index_name": "tidalcycles",
   "start_urls": [
-    "https://doc.tidalcycles.org/"
+    "https://tidalcycles.org/"
   ],
   "sitemap_urls": [
-    "https://doc.tidalcycles.org/sitemap.xml"
+    "https://tidalcycles.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -43,5 +43,5 @@
   "conversation_id": [
     "1521998410"
   ],
-  "nb_hits": 5618
+  "nb_hits": 3731
 }

@@ -3,7 +3,6 @@
   "start_urls": [
     {
       "url": "https://pinia.esm.dev/introduction.html",
-      "selectors_key": "introduction",
       "tags": [
         "Introduction"
       ],
@@ -11,7 +10,6 @@
     },
     {
       "url": "https://pinia.esm.dev/getting-started.html",
-      "selectors_key": "getting-started",
       "tags": [
         "Introduction"
       ],
@@ -19,7 +17,6 @@
     },
     {
       "url": "https://pinia.esm.dev/core-concepts/",
-      "selectors_key": "core-concepts",
       "tags": [
         "Core Concepts"
       ],
@@ -27,7 +24,6 @@
     },
     {
       "url": "https://pinia.esm.dev/ssr/",
-      "selectors_key": "ssr",
       "tags": [
         "SSR"
       ],
@@ -35,29 +31,52 @@
     },
     {
       "url": "https://pinia.esm.dev/cookbook/",
-      "selectors_key": "cookbook",
       "tags": [
         "Cookbook"
       ],
       "page_rank": 5
+    },
+    {
+      "url": "https://pinia.esm.dev/api/",
+      "selectors_key": "api",
+      "tags": [
+        "API"
+      ],
+      "page_rank": 4
     }
   ],
   "stop_urls": [
     "(?:(?<!\\.html)(?<!/))$"
   ],
   "selectors": {
-    "lvl0": {
-      "selector": ".sidebar > .sidebar-links > .sidebar-link > .sidebar-link-item.active",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": ".sidebar > .sidebar-links > .sidebar-link > .sidebar-link-item.active",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "lvl6": ".content p, .content li",
+      "text": ".content [class^=language-]"
     },
-    "lvl1": ".content h1",
-    "lvl2": ".content h2",
-    "lvl3": ".content h3",
-    "lvl4": ".content h4",
-    "lvl5": ".content h5",
-    "lvl6": ".content p, .content li",
-    "text": ".content [class^=language-]"
+
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "API"
+      },
+      "lvl1": ".content h1",
+      "lvl2": ".content h2",
+      "lvl3": ".content h3",
+      "lvl4": ".content h4",
+      "lvl5": ".content h5",
+      "lvl6": ".content p, .content li",
+      "text": ".content [class^=language-]"
+    }
   },
   "strip_chars": " .,;:#",
   "conversation_id": [

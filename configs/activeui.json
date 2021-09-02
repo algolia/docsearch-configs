@@ -1,41 +1,47 @@
 {
   "index_name": "activeui",
-  "sitemap_urls": [
-    "https://activeviam.com/activeui/documentation/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://activeviam.com/activeui/documentation/sitemap.xml"],
   "start_urls": [
-    "https://activeviam.com/activeui/"
+    "https://activeviam.com/activeui/",
+    "https://activeviam.com/activeui/documentation/5.0.0/",
+    "https://activeviam.com/activeui/documentation/"
   ],
-  "js_render": true,
-  "js_wait": 1,
   "sitemap_alternate_links": true,
   "force_sitemap_urls_crawling": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "lvl5": ".post h5",
-    "text": ".post article p, .post article li"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
-      "version"
+      "version",
+      "type",
+      "activeui-version"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
-  "conversation_id": [
-    "728521704"
-  ],
-  "nb_hits": 200125
+  "conversation_id": ["728521704"],
+  "nb_hits": 286012
 }

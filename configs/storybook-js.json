@@ -3,22 +3,16 @@
   "start_urls": [
     {
       "url": "https://storybook.js.org/releases/",
-      "tags": [
-        "releases"
-      ],
+      "tags": ["releases"],
       "selectors_key": "releases"
     },
     {
       "url": "https://storybook.js.org/docs/",
-      "tags": [
-        "docs"
-      ]
+      "tags": ["docs"]
     }
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://storybook.js.org/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://storybook.js.org/sitemap.xml"],
   "selectors": {
     "default": {
       "lvl0": {
@@ -48,18 +42,12 @@
       "text": "[class*='Release__Wrapper-'] p, [class*='Release__Wrapper-'] li"
     }
   },
-  "selectors_exclude": [
-    "[class*='Release__EmailWrapper']"
-  ],
+  "selectors_exclude": ["[class*='Release__EmailWrapper']"],
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "framework",
-      "tags"
-    ]
+    "attributesForFaceting": ["framework", "tags"]
   },
-  "conversation_id": [
-    "1251295597"
-  ],
-  "nb_hits": 15658
+  "js_render": true,
+  "conversation_id": ["1251295597"],
+  "nb_hits": 22307
 }

@@ -1,0 +1,25 @@
+{
+  "index_name": "fig",
+  "start_urls": [
+    "https://fig.io/docs/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
+    "text": "article p, article li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1601403007"
+  ],
+  "nb_hits": 959
+}

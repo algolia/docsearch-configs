@@ -1,0 +1,123 @@
+{
+  "index_name": "arcus-azure",
+  "start_urls": [
+    {
+      "url": "https://azure-ml.arcus-azure.net/",
+      "tags": [
+        "azure-ml"
+      ]
+    },
+    {
+      "url": "https://background-jobs.arcus-azure.net/",
+      "tags": [
+        "background-jobs"
+      ]
+    },
+    {
+      "url": "https://eventgrid-proxy.arcus-azure.net/",
+      "tags": [
+        "eventgrid-proxy"
+      ]
+    },
+    {
+      "url": "https://eventgrid.arcus-azure.net/",
+      "tags": [
+        "eventgrid"
+      ]
+    },
+    {
+      "url": "https://messaging.arcus-azure.net/",
+      "tags": [
+        "messaging"
+      ]
+    },
+    {
+      "url": "https://machine-learning.arcus-azure.net/",
+      "tags": [
+        "machine-learning"
+      ]
+    },
+    {
+      "url": "https://observability.arcus-azure.net/",
+      "tags": [
+        "observability"
+      ]
+    },
+    {
+      "url": "https://scripting.arcus-azure.net/",
+      "tags": [
+        "scripting"
+      ]
+    },
+    {
+      "url": "https://security.arcus-azure.net/",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "url": "https://templates.arcus-azure.net/",
+      "tags": [
+        "templates"
+      ]
+    },
+    {
+      "url": "https://webapi.arcus-azure.net/",
+      "tags": [
+        "webapi"
+      ]
+    }
+  ],
+  "sitemap_urls": [
+    "https://azure-ml.arcus-azure.net/sitemap.xml",
+    "https://background-jobs.arcus-azure.net/sitemap.xml",
+    "https://eventgrid-proxy.arcus-azure.net/sitemap.xml",
+    "https://eventgrid.arcus-azure.net/sitemap.xml",
+    "https://messaging.arcus-azure.net/sitemap.xml",
+    "https://machine-learning.arcus-azure.net/sitemap.xml",
+    "https://observability.arcus-azure.net/sitemap.xml",
+    "https://scripting.arcus-azure.net/sitemap.xml",
+    "https://security.arcus-azure.net/sitemap.xml",
+    "https://templates.arcus-azure.net/sitemap.xml",
+    "https://webapi.arcus-azure.net/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag",
+      "tags"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "conversation_id": [
+    "1592541768"
+  ],
+  "nb_hits": 8584
+}

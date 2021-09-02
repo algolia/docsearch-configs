@@ -1,10 +1,10 @@
 {
-  "index_name": "eth2-docker",
+  "index_name": "eth-docker",
   "start_urls": [
-    "https://eth2-docker.net"
+    "https://eth-docker.net"
   ],
   "sitemap_urls": [
-    "https://eth2-docker.net/sitemap.xml"
+    "https://eth-docker.net/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

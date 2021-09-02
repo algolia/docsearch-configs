@@ -17,7 +17,7 @@
     "lvl4": ".app__main h4",
     "lvl5": ".app__main h5",
     "lvl6": ".app__main h6",
-    "text": ".app__main p, .app__main li"
+    "text": ".app__main p, .app__main li, .app__main pre, .app__main td"
   },
   "strip_chars": " .,;:#",
   "conversation_id": [

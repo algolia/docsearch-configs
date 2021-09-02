@@ -1,7 +1,7 @@
 {
   "index_name": "ethermint",
   "start_urls": [
-    "https://docs.ethermint.zone/"
+    "https://ethermint.dev/"
   ],
   "stop_urls": [],
   "selectors": {

@@ -1,8 +1,8 @@
 {
   "index_name": "coding_help",
   "start_urls": [
-    "https://help.coding.net/docs/",
-    "https://help.coding.net/docs/start/create-enterprise.html"
+    "https://help.coding.net/docs/start/new.html",
+    "https://help.coding.net/docs/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -14,6 +14,7 @@
     "lvl5": "article h6",
     "text": "article p, article li"
   },
+  "sitemap_urls": ["https://help.coding.net/docs/sitemap.xml"],
   "conversation_id": [
     "968058209"
   ],

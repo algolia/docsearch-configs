@@ -1,7 +1,7 @@
 {
   "index_name": "tailwindcss-ru",
   "start_urls": [
-    "https://tailwindcss.su/"
+    "https://tailwindcss.ru/"
   ],
   "stop_urls": [],
   "selectors": {
