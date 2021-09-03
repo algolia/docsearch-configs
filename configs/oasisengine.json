@@ -24,6 +24,9 @@
       "page_rank": 1
     }
   ],
+  "sitemap_urls": [
+    "https://oasisengine.cn/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
