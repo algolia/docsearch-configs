@@ -6,7 +6,8 @@
       "variables": {
         "version": [
           "0.3",
-          "0.4"
+          "0.4",
+          "0.5"
         ]
       },
       "page_rank": 2
@@ -16,7 +17,8 @@
       "variables": {
         "version": [
           "0.3",
-          "0.4"
+          "0.4",
+          "0.5"
         ]
       },
       "page_rank": 1
