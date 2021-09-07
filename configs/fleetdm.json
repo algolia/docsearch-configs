@@ -1,0 +1,23 @@
+{
+  "index_name": "fleetdm",
+  "start_urls": [
+    "https://fleetdm.com/docs"
+  ],
+  "sitemap_urls": [
+    "https://fleetdm.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "#body-content h1",
+    "lvl1": "#body-content h2",
+    "lvl2": "#body-content h3",
+    "lvl3": "#body-content h4",
+    "lvl4": "#body-content h5",
+    "lvl5": "#body-content h6",
+    "text": "#body-content p, #body-content li"
+  },
+  "conversation_id": [
+    "1620186646"
+  ],
+  "nb_hits": 3093
+}

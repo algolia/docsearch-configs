@@ -1,0 +1,23 @@
+{
+  "index_name": "kubeedge",
+  "start_urls": [
+    "https://kubeedge.io/en/"
+  ],
+  "sitemap_urls": [
+    "https://kubeedge.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs-article-container h1",
+    "lvl1": ".docs-article-container h2",
+    "lvl2": ".docs-article-container h3",
+    "lvl3": ".docs-article-container h4",
+    "lvl4": ".docs-article-container h5",
+    "lvl5": ".docs-article-container h6",
+    "text": ".docs-article-container p, .docs-article-container li"
+  },
+  "conversation_id": [
+    "1622398075"
+  ],
+  "nb_hits": 1491
+}
