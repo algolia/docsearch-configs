@@ -3,6 +3,7 @@
   "start_urls": [
     {
       "url": "https://skywalking.apache.org/docs/main/(?P<version>.*?)/",
+      "selectors_key": "doc",
       "variables": {
         "version": [
           "latest",
@@ -15,45 +16,51 @@
         ]
       }
     },
-     {
+    {
       "url": "https://skywalking.apache.org/docs/skywalking-java/(?P<version>.*?)/",
+      "selectors_key": "doc",
       "variables": {
-        "version": [
-          "latest"
-        ]
+        "version": ["latest"]
       }
     },
     {
       "url": "https://skywalking.apache.org/docs/skywalking-satellite/(?P<version>.*?)/",
+      "selectors_key": "doc",
       "variables": {
-        "version": [
-          "latest",
-          "v0.1.0"
-        ]
+        "version": ["latest", "v0.1.0"]
       }
-    }
-  ],
-  "sitemap_urls": [
-    "https://skywalking.apache.org/sitemap.xml"
-  ],
-  "stop_urls": [
-    ".*(?<!/)$"
-  ],
-  "selectors": {
-    "lvl0": {
-      "selector": "",
-      "global": true,
-      "default_value": "Documentation"
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "text": "main p, main li"
-  },
-  "conversation_id": [
-    "1470581275"
+    "https://skywalking.apache.org/"
   ],
+  "sitemap_urls": ["https://skywalking.apache.org/sitemap.xml"],
+  "stop_urls": [".*(?<!/)$"],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Skywalking"
+      },
+      "lvl1": "container h1",
+      "lvl2": "container h2",
+      "lvl3": "container h3",
+      "lvl4": "container h4",
+      "lvl5": "container h5",
+      "text": "container p, container li"
+    },
+    "doc": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "text": "main p, main li"
+    }
+  },
+  "conversation_id": ["1470581275"],
   "nb_hits": 11347
 }
