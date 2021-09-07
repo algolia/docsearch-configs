@@ -4,7 +4,7 @@
     {
       "url": "https://docs.secureauth.com/(?P<version>.*?)/",
       "variables": {
-        "version": ["2006", "1907"]
+        "version": ["2104test", "2006test", "1907test"]
       }
     }
   ],
