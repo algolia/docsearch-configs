@@ -46,6 +46,18 @@
       },
       "selectors_key": "v5"
     },
+    {
+      "url": "https://boosted.orange.com/docs/5.1/",
+      "extra_attributes": {
+        "language": [
+          "en"
+        ],
+        "version": [
+          "5.1"
+        ]
+      },
+      "selectors_key": "v5"
+    },
     "https://boosted.orange.com/docs/4.3/",
     "https://boosted.orange.com/docs/4.4/",
     "https://boosted.orange.com/docs/4.5/",

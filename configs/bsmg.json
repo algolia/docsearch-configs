@@ -1,7 +1,10 @@
 {
-  "index_name": "brawlupjs",
+  "index_name": "bsmg",
   "start_urls": [
-    "https://brawlup.js.org/"
+    "https://bsmg.wiki/"
+  ],
+  "sitemap_urls": [
+    "https://bsmg.wiki/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -33,8 +36,8 @@
     ]
   },
   "conversation_id": [
-    "1566545873"
+    "1615164022"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 893
+  "nb_hits": 9851
 }
