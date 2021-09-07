@@ -3,37 +3,34 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.medusa-commerce.com/api/store",
-    "https://docs.medusa-commerce.com/",
-    "https://docs.medusa-commerce.com/api/admin",
+    "https://echarts.apache.org/handbook/en/",
+    "https://echarts.apache.org/",
+    "https://echarts.apache.org/handbook/zh/",
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [
-    "https://docs.medusa-commerce.com/api",
-    "https://docs.medusa-commerce.com/api/(store|admin)/**",
-  ],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.medusa-commerce.com/**"],
-  schedule: "at 10:00 on Thursday",
+  discoveryPatterns: ["https://echarts.apache.org/**"],
+  schedule: "at 01:30 on Tuesday",
   actions: [
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/store**/**"],
+      indexName: "apache_echarts",
+      pathsToMatch: ["https://echarts.apache.org/handbook/en/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".DocSearch-content h1",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
+            lvl1: ".nuxt-content h2",
+            content: ".nuxt-content p, .nuxt-content li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Storefront API Reference",
+              selectors: ".nuxt-content h1",
             },
-            lvl2: ".DocSearch-content h2",
-            lvl3: ".DocSearch-content h3",
-            tags: {
-              defaultValue: ["api", "reference", "store"],
+            lvl2: ".nuxt-content h3",
+            lvl3: ".nuxt-content h4",
+            lvl4: ".nuxt-content h5",
+            lvl5: ".nuxt-content h6",
+            lang: {
+              defaultValue: ["en"],
             },
           },
           indexHeadings: true,
@@ -41,44 +38,22 @@ new Crawler({
       },
     },
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/admin**/**"],
+      indexName: "apache_echarts",
+      pathsToMatch: ["https://echarts.apache.org/handbook/zh/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".DocSearch-content h1",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
+            lvl1: ".nuxt-content h2",
+            content: ".nuxt-content p, .nuxt-content li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Admin API Reference",
+              selectors: ".nuxt-content h1",
             },
-            lvl2: ".DocSearch-content h2",
-            lvl3: ".DocSearch-content h3",
-            tags: {
-              defaultValue: ["api", "reference", "admin"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "main h1",
-            content: "main p, main li",
-            lvl0: {
-              selectors: "",
-              defaultValue: "Docs",
-            },
-            lvl2: "main h2",
-            lvl3: "main h3",
-            tags: {
-              defaultValue: ["docs", "tutorials", "how-to"],
+            lvl2: ".nuxt-content h3",
+            lvl3: ".nuxt-content h4",
+            lvl4: ".nuxt-content h5",
+            lvl5: ".nuxt-content h6",
+            lang: {
+              defaultValue: ["zh"],
             },
           },
           indexHeadings: true,
@@ -87,7 +62,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "medusa-commerce": {
+    apache_echarts: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

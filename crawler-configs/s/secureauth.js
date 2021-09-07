@@ -3,9 +3,10 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.secureauth.com/2006/",
+    "https://docs.secureauth.com/2104test/",
     "https://docs.secureauth.com/",
-    "https://docs.secureauth.com/1907/",
+    "https://docs.secureauth.com/2006test/",
+    "https://docs.secureauth.com/1907test/",
   ],
   renderJavaScript: false,
   sitemaps: [],
@@ -23,7 +24,7 @@ new Crawler({
   actions: [
     {
       indexName: "secureauth",
-      pathsToMatch: ["https://docs.secureauth.com/2006/**"],
+      pathsToMatch: ["https://docs.secureauth.com/2104test/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -37,7 +38,7 @@ new Crawler({
             lvl4: "section h5",
             lvl5: "section h6",
             version: {
-              defaultValue: ["2006"],
+              defaultValue: ["2104test"],
             },
           },
           indexHeadings: true,
@@ -46,7 +47,7 @@ new Crawler({
     },
     {
       indexName: "secureauth",
-      pathsToMatch: ["https://docs.secureauth.com/1907/**"],
+      pathsToMatch: ["https://docs.secureauth.com/2006test/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -60,7 +61,30 @@ new Crawler({
             lvl4: "section h5",
             lvl5: "section h6",
             version: {
-              defaultValue: ["1907"],
+              defaultValue: ["2006test"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "secureauth",
+      pathsToMatch: ["https://docs.secureauth.com/1907test/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "section h2",
+            content: "section p, section li",
+            lvl0: {
+              selectors: "section h1",
+            },
+            lvl2: "section h3",
+            lvl3: "section h4",
+            lvl4: "section h5",
+            lvl5: "section h6",
+            version: {
+              defaultValue: ["1907test"],
             },
           },
           indexHeadings: true,

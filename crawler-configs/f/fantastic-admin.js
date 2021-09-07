@@ -3,83 +3,37 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.medusa-commerce.com/api/store",
-    "https://docs.medusa-commerce.com/",
-    "https://docs.medusa-commerce.com/api/admin",
+    "https://hooray.gitee.io/fantastic-admin/",
+    "https://hooray.gitee.io/",
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [
-    "https://docs.medusa-commerce.com/api",
-    "https://docs.medusa-commerce.com/api/(store|admin)/**",
-  ],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.medusa-commerce.com/**"],
-  schedule: "at 10:00 on Thursday",
+  discoveryPatterns: ["https://hooray.gitee.io/**"],
+  schedule: "at 01:00 on Wednesday",
   actions: [
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/store**/**"],
+      indexName: "fantastic-admin",
+      pathsToMatch: ["https://hooray.gitee.io/fantastic-admin/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".DocSearch-content h1",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
+            lvl1: ".theme-default-content h1",
+            content: ".theme-default-content p, .theme-default-content li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Storefront API Reference",
+              selectors: "p.sidebar-heading.open",
+              defaultValue: "Documentation",
             },
-            lvl2: ".DocSearch-content h2",
-            lvl3: ".DocSearch-content h3",
-            tags: {
-              defaultValue: ["api", "reference", "store"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/admin**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".DocSearch-content h1",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
-            lvl0: {
-              selectors: "",
-              defaultValue: "Admin API Reference",
-            },
-            lvl2: ".DocSearch-content h2",
-            lvl3: ".DocSearch-content h3",
-            tags: {
-              defaultValue: ["api", "reference", "admin"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "main h1",
-            content: "main p, main li",
-            lvl0: {
-              selectors: "",
-              defaultValue: "Docs",
-            },
-            lvl2: "main h2",
-            lvl3: "main h3",
-            tags: {
-              defaultValue: ["docs", "tutorials", "how-to"],
-            },
+            lvl2: ".theme-default-content h2",
+            lvl3: ".theme-default-content h3",
+            lvl4: ".theme-default-content h4",
+            lvl5: ".theme-default-content h5",
+            lang: "",
           },
           indexHeadings: true,
         });
@@ -87,7 +41,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "medusa-commerce": {
+    "fantastic-admin": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

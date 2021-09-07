@@ -8,6 +8,7 @@ new Crawler({
     "https://boosted.orange.com/docs/4.1/",
     "https://boosted.orange.com/docs/4.2/",
     "https://boosted.orange.com/docs/5.0/",
+    "https://boosted.orange.com/docs/5.1/",
     "https://boosted.orange.com/docs/4.3/",
     "https://boosted.orange.com/docs/4.4/",
     "https://boosted.orange.com/docs/4.5/",
@@ -151,6 +152,37 @@ new Crawler({
     },
     {
       indexName: "boosted-orange",
+      pathsToMatch: ["https://boosted.orange.com/docs/5.1/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".bd-example";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".bd-layout h1",
+            content: "main p, main li, main td:last-child",
+            lvl0: {
+              selectors: ".bd-sidebar .active.my-1 > a",
+              defaultValue: "Documentation",
+            },
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4, main td:first-child",
+            lvl5: "main h5",
+            language: {
+              defaultValue: ["en"],
+            },
+            version: {
+              defaultValue: ["5.1"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "boosted-orange",
       pathsToMatch: [
         "https://boosted.orange.com/docs/**",
         "https://boosted.orange.com/docs/4.3/**",
@@ -160,6 +192,7 @@ new Crawler({
         "!https://boosted.orange.com/docs/4.1/**",
         "!https://boosted.orange.com/docs/4.2/**",
         "!https://boosted.orange.com/docs/5.0/**",
+        "!https://boosted.orange.com/docs/5.1/**",
       ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl

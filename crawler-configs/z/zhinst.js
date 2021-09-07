@@ -3,17 +3,79 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.zhinst.com/labone_programming_manual/",
+    "https://docs.zhinst.com/hdawg_user_manual/",
     "https://docs.zhinst.com/",
+    "https://docs.zhinst.com/hf2_user_manual/",
+    "https://docs.zhinst.com/labone_programming_manual/",
+    "https://docs.zhinst.com/mfia_user_manual/",
+    "https://docs.zhinst.com/mfli_user_manual/",
+    "https://docs.zhinst.com/pqsc_user_manual/",
     "https://docs.zhinst.com/shfqa_user_manual/",
+    "https://docs.zhinst.com/shfsg_user_manual/",
+    "https://docs.zhinst.com/uhf_user_manual/",
+    "https://docs.zhinst.com/uhfqa_user_manual/",
+    "http://docs.pages.zhinst.com/manuals/labone_api/python/",
+    "http://docs.pages.zhinst.com/",
+    "http://docs.pages.zhinst.com/manuals/labone_api/c/",
+    "http://docs.pages.zhinst.com/manuals/labone_api/dotnet/",
+    "http://docs.pages.zhinst.com/manuals/labone_api/matlab/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://docs.zhinst.com/sitemap.xml"],
   exclusionPatterns: ["**/**.txt"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.zhinst.com/**"],
+  discoveryPatterns: [
+    "https://docs.zhinst.com/**",
+    "http://docs.pages.zhinst.com/**",
+  ],
   schedule: "at 00:10 on Sunday",
   actions: [
+    {
+      indexName: "zhinst",
+      pathsToMatch: ["https://docs.zhinst.com/hdawg_user_manual/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".doc h1",
+            content: ".doc p, .doc td.content, .doc th.tableblock",
+            lvl0: {
+              selectors: "nav.nav-menu h3 a",
+              defaultValue: "Zurich Instruments",
+            },
+            lvl2: ".doc h2",
+            lvl3: ".doc h3",
+            lvl4: ".doc h4",
+            project: {
+              defaultValue: ["hdawg_user_manual"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: ["https://docs.zhinst.com/hf2_user_manual/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".doc h1",
+            content: ".doc p, .doc td.content, .doc th.tableblock",
+            lvl0: {
+              selectors: "nav.nav-menu h3 a",
+              defaultValue: "Zurich Instruments",
+            },
+            lvl2: ".doc h2",
+            lvl3: ".doc h3",
+            lvl4: ".doc h4",
+            project: {
+              defaultValue: ["hf2_user_manual"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
     {
       indexName: "zhinst",
       pathsToMatch: ["https://docs.zhinst.com/labone_programming_manual/**"],
@@ -23,14 +85,83 @@ new Crawler({
             lvl1: ".doc h1",
             content: ".doc p, .doc td.content, .doc th.tableblock",
             lvl0: {
-              selectors: "",
-              defaultValue: "Zurich Instrument",
+              selectors: "nav.nav-menu h3 a",
+              defaultValue: "Zurich Instruments",
             },
             lvl2: ".doc h2",
             lvl3: ".doc h3",
             lvl4: ".doc h4",
             project: {
               defaultValue: ["labone_programming_manual"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: ["https://docs.zhinst.com/mfia_user_manual/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".doc h1",
+            content: ".doc p, .doc td.content, .doc th.tableblock",
+            lvl0: {
+              selectors: "nav.nav-menu h3 a",
+              defaultValue: "Zurich Instruments",
+            },
+            lvl2: ".doc h2",
+            lvl3: ".doc h3",
+            lvl4: ".doc h4",
+            project: {
+              defaultValue: ["mfia_user_manual"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: ["https://docs.zhinst.com/mfli_user_manual/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".doc h1",
+            content: ".doc p, .doc td.content, .doc th.tableblock",
+            lvl0: {
+              selectors: "nav.nav-menu h3 a",
+              defaultValue: "Zurich Instruments",
+            },
+            lvl2: ".doc h2",
+            lvl3: ".doc h3",
+            lvl4: ".doc h4",
+            project: {
+              defaultValue: ["mfli_user_manual"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: ["https://docs.zhinst.com/pqsc_user_manual/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".doc h1",
+            content: ".doc p, .doc td.content, .doc th.tableblock",
+            lvl0: {
+              selectors: "nav.nav-menu h3 a",
+              defaultValue: "Zurich Instruments",
+            },
+            lvl2: ".doc h2",
+            lvl3: ".doc h3",
+            lvl4: ".doc h4",
+            project: {
+              defaultValue: ["pqsc_user_manual"],
             },
           },
           indexHeadings: true,
@@ -46,14 +177,177 @@ new Crawler({
             lvl1: ".doc h1",
             content: ".doc p, .doc td.content, .doc th.tableblock",
             lvl0: {
-              selectors: "",
-              defaultValue: "Zurich Instrument",
+              selectors: "nav.nav-menu h3 a",
+              defaultValue: "Zurich Instruments",
             },
             lvl2: ".doc h2",
             lvl3: ".doc h3",
             lvl4: ".doc h4",
             project: {
               defaultValue: ["shfqa_user_manual"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: ["https://docs.zhinst.com/shfsg_user_manual/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".doc h1",
+            content: ".doc p, .doc td.content, .doc th.tableblock",
+            lvl0: {
+              selectors: "nav.nav-menu h3 a",
+              defaultValue: "Zurich Instruments",
+            },
+            lvl2: ".doc h2",
+            lvl3: ".doc h3",
+            lvl4: ".doc h4",
+            project: {
+              defaultValue: ["shfsg_user_manual"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: ["https://docs.zhinst.com/uhf_user_manual/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".doc h1",
+            content: ".doc p, .doc td.content, .doc th.tableblock",
+            lvl0: {
+              selectors: "nav.nav-menu h3 a",
+              defaultValue: "Zurich Instruments",
+            },
+            lvl2: ".doc h2",
+            lvl3: ".doc h3",
+            lvl4: ".doc h4",
+            project: {
+              defaultValue: ["uhf_user_manual"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: ["https://docs.zhinst.com/uhfqa_user_manual/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".doc h1",
+            content: ".doc p, .doc td.content, .doc th.tableblock",
+            lvl0: {
+              selectors: "nav.nav-menu h3 a",
+              defaultValue: "Zurich Instruments",
+            },
+            lvl2: ".doc h2",
+            lvl3: ".doc h3",
+            lvl4: ".doc h4",
+            project: {
+              defaultValue: ["uhfqa_user_manual"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: [
+        "http://docs.pages.zhinst.com/manuals/labone_api/python/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "li.toctree-l1.current.active.has-children > a",
+            content: ".section p, .section dl dt, .section div",
+            lvl0: {
+              selectors: "li.toctree-l1.current.active.nav-item > a",
+              defaultValue: "Zurich Instrument",
+            },
+            lvl2: "li.toctree-l2.current.active > a",
+            lvl3: "li.toctree-l3.current.active > a",
+            project: {
+              defaultValue: ["labone_api/python"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: ["http://docs.pages.zhinst.com/manuals/labone_api/c/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "li.toctree-l1.current.active.has-children > a",
+            content: ".section p, .section dl dt, .section div",
+            lvl0: {
+              selectors: "li.toctree-l1.current.active.nav-item > a",
+              defaultValue: "Zurich Instrument",
+            },
+            lvl2: "li.toctree-l2.current.active > a",
+            lvl3: "li.toctree-l3.current.active > a",
+            project: {
+              defaultValue: ["labone_api/c"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: [
+        "http://docs.pages.zhinst.com/manuals/labone_api/dotnet/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "li.toctree-l1.current.active.has-children > a",
+            content: ".section p, .section dl dt, .section div",
+            lvl0: {
+              selectors: "li.toctree-l1.current.active.nav-item > a",
+              defaultValue: "Zurich Instrument",
+            },
+            lvl2: "li.toctree-l2.current.active > a",
+            lvl3: "li.toctree-l3.current.active > a",
+            project: {
+              defaultValue: ["labone_api/dotnet"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "zhinst",
+      pathsToMatch: [
+        "http://docs.pages.zhinst.com/manuals/labone_api/matlab/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "li.toctree-l1.current.active.has-children > a",
+            content: ".section p, .section dl dt, .section div",
+            lvl0: {
+              selectors: "li.toctree-l1.current.active.nav-item > a",
+              defaultValue: "Zurich Instrument",
+            },
+            lvl2: "li.toctree-l2.current.active > a",
+            lvl3: "li.toctree-l3.current.active > a",
+            project: {
+              defaultValue: ["labone_api/matlab"],
             },
           },
           indexHeadings: true,

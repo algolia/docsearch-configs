@@ -2,84 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://docs.medusa-commerce.com/api/store",
-    "https://docs.medusa-commerce.com/",
-    "https://docs.medusa-commerce.com/api/admin",
-  ],
+  startUrls: ["https://kubeedge.io/en/", "https://kubeedge.io/"],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: [
-    "https://docs.medusa-commerce.com/api",
-    "https://docs.medusa-commerce.com/api/(store|admin)/**",
-  ],
+  sitemaps: ["https://kubeedge.io/sitemap.xml"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.medusa-commerce.com/**"],
-  schedule: "at 10:00 on Thursday",
+  discoveryPatterns: ["https://kubeedge.io/**"],
+  schedule: "at 01:40 on Thursday",
   actions: [
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/store**/**"],
+      indexName: "kubeedge",
+      pathsToMatch: ["https://kubeedge.io/en/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".DocSearch-content h1",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
+            lvl1: ".docs-article-container h2",
+            content: ".docs-article-container p, .docs-article-container li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Storefront API Reference",
+              selectors: ".docs-article-container h1",
             },
-            lvl2: ".DocSearch-content h2",
-            lvl3: ".DocSearch-content h3",
-            tags: {
-              defaultValue: ["api", "reference", "store"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/admin**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".DocSearch-content h1",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
-            lvl0: {
-              selectors: "",
-              defaultValue: "Admin API Reference",
-            },
-            lvl2: ".DocSearch-content h2",
-            lvl3: ".DocSearch-content h3",
-            tags: {
-              defaultValue: ["api", "reference", "admin"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "main h1",
-            content: "main p, main li",
-            lvl0: {
-              selectors: "",
-              defaultValue: "Docs",
-            },
-            lvl2: "main h2",
-            lvl3: "main h3",
-            tags: {
-              defaultValue: ["docs", "tutorials", "how-to"],
-            },
+            lvl2: ".docs-article-container h3",
+            lvl3: ".docs-article-container h4",
+            lvl4: ".docs-article-container h5",
+            lvl5: ".docs-article-container h6",
           },
           indexHeadings: true,
         });
@@ -87,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "medusa-commerce": {
+    kubeedge: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

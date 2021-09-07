@@ -3,8 +3,9 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://apereo.github.io/cas/6.3.x/",
+    "https://apereo.github.io/cas/6.4.x/",
     "https://apereo.github.io/",
+    "https://apereo.github.io/cas/6.3.x/",
     "https://apereo.github.io/cas/6.2.x/",
     "https://apereo.github.io/cas/6.1.x/",
     "https://apereo.github.io/cas/6.0.x/",
@@ -24,6 +25,30 @@ new Crawler({
   discoveryPatterns: ["https://apereo.github.io/**"],
   schedule: "at 01:30 on Tuesday",
   actions: [
+    {
+      indexName: "apereo",
+      pathsToMatch: ["https://apereo.github.io/cas/6.4.x/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "#cas-docs-container h1",
+            content: "#cas-docs-container p, #cas-docs-container li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Documentation",
+            },
+            lvl2: "#cas-docs-container h2",
+            lvl3: "#cas-docs-container h3",
+            lvl4: "#cas-docs-container h4",
+            lvl5: "#cas-docs-container h5",
+            version: {
+              defaultValue: ["6.4.x"],
+            },
+          },
+          indexHeadings: { from: 1, to: 6 },
+        });
+      },
+    },
     {
       indexName: "apereo",
       pathsToMatch: ["https://apereo.github.io/cas/6.3.x/**"],

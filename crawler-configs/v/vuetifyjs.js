@@ -3,94 +3,29 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://vuetifyjs.com/en/",
-    "https://vuetifyjs.com/",
-    "https://vuetifyjs.com/ja/",
-    "https://vuetifyjs.com/zh-Hans/",
     "https://vuetifyjs.com/en/api/",
+    "https://vuetifyjs.com/",
     "https://vuetifyjs.com/ja/api/",
     "https://vuetifyjs.com/zh-Hans/api/",
+    "https://vuetifyjs.com/en/",
+    "https://vuetifyjs.com/ja/",
+    "https://vuetifyjs.com/zh-Hans/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://vuetifyjs.com/sitemap.xml"],
-  exclusionPatterns: ["**/store/**"],
+  exclusionPatterns: ["**/store/**", "**/examples/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://vuetifyjs.com/**"],
   schedule: "at 05:40 on Saturday",
   actions: [
     {
       indexName: "vuetifyjs",
-      pathsToMatch: ["https://vuetifyjs.com/en/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".markdown-body h1",
-            content: ".markdown-body p, .markdown-body li",
-            lvl0: {
-              selectors:
-                "#default-drawer .v-list > .v-list-group--active > .v-list-group__header",
-            },
-            lvl2: ".markdown-body h2",
-            lvl3: ".markdown-body h3",
-            lvl4: ".markdown-body h4",
-            lang: {
-              defaultValue: ["en"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "vuetifyjs",
-      pathsToMatch: ["https://vuetifyjs.com/ja/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".markdown-body h1",
-            content: ".markdown-body p, .markdown-body li",
-            lvl0: {
-              selectors:
-                "#default-drawer .v-list > .v-list-group--active > .v-list-group__header",
-            },
-            lvl2: ".markdown-body h2",
-            lvl3: ".markdown-body h3",
-            lvl4: ".markdown-body h4",
-            lang: {
-              defaultValue: ["ja"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "vuetifyjs",
-      pathsToMatch: ["https://vuetifyjs.com/zh-Hans/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".markdown-body h1",
-            content: ".markdown-body p, .markdown-body li",
-            lvl0: {
-              selectors:
-                "#default-drawer .v-list > .v-list-group--active > .v-list-group__header",
-            },
-            lvl2: ".markdown-body h2",
-            lvl3: ".markdown-body h3",
-            lvl4: ".markdown-body h4",
-            lang: {
-              defaultValue: ["zh-Hans"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "vuetifyjs",
       pathsToMatch: ["https://vuetifyjs.com/en/api/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "section#links, section#api";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
             lvl1: ".markdown-body h1",
@@ -113,6 +48,10 @@ new Crawler({
       indexName: "vuetifyjs",
       pathsToMatch: ["https://vuetifyjs.com/ja/api/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "section#links, section#api";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
             lvl1: ".markdown-body h1",
@@ -135,6 +74,10 @@ new Crawler({
       indexName: "vuetifyjs",
       pathsToMatch: ["https://vuetifyjs.com/zh-Hans/api/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "section#links, section#api";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
             lvl1: ".markdown-body h1",
@@ -153,10 +96,94 @@ new Crawler({
         });
       },
     },
+    {
+      indexName: "vuetifyjs",
+      pathsToMatch: ["https://vuetifyjs.com/en/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "section#links, section#api";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".markdown-body h1",
+            content: ".markdown-body p, .markdown-body li",
+            lvl0: {
+              selectors:
+                "#default-drawer .v-list > .v-list-group--active > .v-list-group__header",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".markdown-body h2",
+            lvl3: ".markdown-body h3",
+            lvl4: ".markdown-body h4",
+            lang: {
+              defaultValue: ["en"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "vuetifyjs",
+      pathsToMatch: ["https://vuetifyjs.com/ja/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "section#links, section#api";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".markdown-body h1",
+            content: ".markdown-body p, .markdown-body li",
+            lvl0: {
+              selectors:
+                "#default-drawer .v-list > .v-list-group--active > .v-list-group__header",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".markdown-body h2",
+            lvl3: ".markdown-body h3",
+            lvl4: ".markdown-body h4",
+            lang: {
+              defaultValue: ["ja"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "vuetifyjs",
+      pathsToMatch: ["https://vuetifyjs.com/zh-Hans/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "section#links, section#api";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".markdown-body h1",
+            content: ".markdown-body p, .markdown-body li",
+            lvl0: {
+              selectors:
+                "#default-drawer .v-list > .v-list-group--active > .v-list-group__header",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".markdown-body h2",
+            lvl3: ".markdown-body h3",
+            lvl4: ".markdown-body h4",
+            lang: {
+              defaultValue: ["zh-Hans"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
   ],
   initialIndexSettings: {
     vuetifyjs: {
-      attributesForFaceting: ["type", "lang", "language"],
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
@@ -218,6 +245,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "-",
     },
   },
 });

@@ -25,7 +25,7 @@ new Crawler({
           recordProps: {
             lvl1: "[class*='contentWrapperInner'] h1",
             content:
-              "[class*='contentWrapperInner'] p, [class*='contentWrapperInner'] li",
+              "[class*='contentWrapperInner'] p, [class*='contentWrapperInner'] li, [class*='contentWrapperInner'] td:first-child",
             lvl0: {
               selectors: "li [class*='activeLink']",
             },

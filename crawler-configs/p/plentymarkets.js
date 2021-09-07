@@ -12,13 +12,15 @@ new Crawler({
     "https://developers.plentymarkets.com/en-gb/plugin-ceres/4.6.0/",
     "https://developers.plentymarkets.com/en-gb/plugin-io/5.0.0/",
     "https://developers.plentymarkets.com/en-gb/plugin-io/4.6.0/",
+    "https://developers.plentymarkets.com/en-gb/plentymarkets-rest-api/index.html",
   ],
-  renderJavaScript: false,
+  renderJavaScript: true,
   sitemaps: [
     "https://developers.plentymarkets.com/en-gb/sitemap-developers.xml",
     "https://developers.plentymarkets.com/en-gb/sitemap-interface.xml",
     "https://developers.plentymarkets.com/en-gb/sitemap-plugin-ceres.xml",
     "https://developers.plentymarkets.com/en-gb/sitemap-plugin-io.xml",
+    "https://developers.plentymarkets.com/en-gb/plentymarkets-rest-api/index.html",
   ],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
@@ -252,6 +254,31 @@ new Crawler({
             },
             tags: {
               defaultValue: ["plugin-io"],
+            },
+          },
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+    {
+      indexName: "plentymarkets",
+      pathsToMatch: [
+        "https://developers.plentymarkets.com/en-gb/plentymarkets-rest-api/index.html**/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".opblock-tag-section.is-open",
+            content: ".paragraph p",
+            lvl0: {
+              selectors: ".context span.title",
+            },
+            lvl2: "div.opblock-summary > span.opblock-summary-path > a > span",
+            lvl3: ".opblock  > div > div.opblock-summary-description",
+            lvl4:
+              "div.no-margin > div > div.opblock-description-wrapper > div > div > p",
+            tags: {
+              defaultValue: ["rest-api", "master"],
             },
           },
           indexHeadings: { from: 2, to: 6 },

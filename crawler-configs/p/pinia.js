@@ -9,6 +9,7 @@ new Crawler({
     "https://pinia.esm.dev/core-concepts/",
     "https://pinia.esm.dev/ssr/",
     "https://pinia.esm.dev/cookbook/",
+    "https://pinia.esm.dev/api/",
   ],
   renderJavaScript: false,
   sitemaps: [],
@@ -141,6 +142,31 @@ new Crawler({
             lvl6: ".content p, .content li",
             tags: {
               defaultValue: ["Cookbook"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "pinia",
+      pathsToMatch: ["https://pinia.esm.dev/api/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".content h1",
+            content: ".content [class^=language-]",
+            lvl0: {
+              selectors: "",
+              defaultValue: "API",
+            },
+            lvl2: ".content h2",
+            lvl3: ".content h3",
+            lvl4: ".content h4",
+            lvl5: ".content h5",
+            lvl6: ".content p, .content li",
+            tags: {
+              defaultValue: ["API"],
             },
           },
           indexHeadings: true,

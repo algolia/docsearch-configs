@@ -3,83 +3,33 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.medusa-commerce.com/api/store",
-    "https://docs.medusa-commerce.com/",
-    "https://docs.medusa-commerce.com/api/admin",
+    "https://projects.pixelastic.com/gilmore/",
+    "https://projects.pixelastic.com/",
   ],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: [
-    "https://docs.medusa-commerce.com/api",
-    "https://docs.medusa-commerce.com/api/(store|admin)/**",
-  ],
+  sitemaps: ["https://projects.pixelastic.com/gilmore/sitemap.xml"],
+  exclusionPatterns: ["!**/"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.medusa-commerce.com/**"],
-  schedule: "at 10:00 on Thursday",
+  discoveryPatterns: ["https://projects.pixelastic.com/**"],
+  schedule: "at 00:10 on Friday",
   actions: [
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/store**/**"],
+      indexName: "pixelastic_gilmore",
+      pathsToMatch: ["https://projects.pixelastic.com/gilmore/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
             lvl1: ".DocSearch-content h1",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
+            content: ".DocSearch-content p, .DocSearch-content li",
             lvl0: {
               selectors: "",
-              defaultValue: "Storefront API Reference",
+              defaultValue: "Documentation",
             },
             lvl2: ".DocSearch-content h2",
             lvl3: ".DocSearch-content h3",
-            tags: {
-              defaultValue: ["api", "reference", "store"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/admin**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".DocSearch-content h1",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
-            lvl0: {
-              selectors: "",
-              defaultValue: "Admin API Reference",
-            },
-            lvl2: ".DocSearch-content h2",
-            lvl3: ".DocSearch-content h3",
-            tags: {
-              defaultValue: ["api", "reference", "admin"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "main h1",
-            content: "main p, main li",
-            lvl0: {
-              selectors: "",
-              defaultValue: "Docs",
-            },
-            lvl2: "main h2",
-            lvl3: "main h3",
-            tags: {
-              defaultValue: ["docs", "tutorials", "how-to"],
-            },
+            lvl4: ".DocSearch-content h4",
+            lvl5: ".DocSearch-content h5",
+            lvl6: ".DocSearch-content h6",
           },
           indexHeadings: true,
         });
@@ -87,7 +37,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "medusa-commerce": {
+    pixelastic_gilmore: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

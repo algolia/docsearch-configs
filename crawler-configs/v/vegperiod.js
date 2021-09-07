@@ -3,93 +3,109 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.medusa-commerce.com/api/store",
-    "https://docs.medusa-commerce.com/",
-    "https://docs.medusa-commerce.com/api/admin",
+    "https://rnuske.github.io/vegperiod/index.html",
+    "https://rnuske.github.io/",
+    "https://rnuske.github.io/vegperiod/reference",
+    "https://rnuske.github.io/vegperiod/articles",
   ],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://rnuske.github.io/vegperiod/sitemap.xml"],
   exclusionPatterns: [
-    "https://docs.medusa-commerce.com/api",
-    "https://docs.medusa-commerce.com/api/(store|admin)/**",
+    "**/reference/",
+    "**/reference/index.html",
+    "**/articles/",
+    "**/articles/index.html",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.medusa-commerce.com/**"],
-  schedule: "at 10:00 on Thursday",
+  discoveryPatterns: ["https://rnuske.github.io/**"],
+  schedule: "at 05:00 on Saturday",
   actions: [
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/store**/**"],
+      indexName: "vegperiod",
+      pathsToMatch: ["https://rnuske.github.io/vegperiod/index.html**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".DocSearch-content h1",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
+            lvl1: ".contents h2",
+            content: ".contents p, .contents li, .contents .pre",
             lvl0: {
-              selectors: "",
-              defaultValue: "Storefront API Reference",
+              selectors: ".contents h1",
+              defaultValue: "pkgdown Home page",
             },
-            lvl2: ".DocSearch-content h2",
-            lvl3: ".DocSearch-content h3",
+            lvl2: ".contents h3",
+            lvl3: ".ref-arguments td, .ref-description",
             tags: {
-              defaultValue: ["api", "reference", "store"],
+              defaultValue: ["homepage"],
             },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/api/admin**/**"],
+      indexName: "vegperiod",
+      pathsToMatch: ["https://rnuske.github.io/vegperiod/reference**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".DocSearch-content h1",
-            content:
-              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Admin API Reference",
+              selectors: ".contents h1",
             },
-            lvl2: ".DocSearch-content h2",
-            lvl3: ".DocSearch-content h3",
+            lvl2: ".ref-arguments th",
+            lvl3: ".ref-arguments td, .ref-description",
             tags: {
-              defaultValue: ["api", "reference", "admin"],
+              defaultValue: ["reference"],
             },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
     {
-      indexName: "medusa-commerce",
-      pathsToMatch: ["https://docs.medusa-commerce.com/**"],
+      indexName: "vegperiod",
+      pathsToMatch: ["https://rnuske.github.io/vegperiod/articles**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "main h1",
-            content: "main p, main li",
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Docs",
+              selectors: ".contents h1",
             },
-            lvl2: "main h2",
-            lvl3: "main h3",
+            lvl2: ".contents h2, .contents h3",
             tags: {
-              defaultValue: ["docs", "tutorials", "how-to"],
+              defaultValue: ["articles"],
             },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
   ],
   initialIndexSettings: {
-    "medusa-commerce": {
+    vegperiod: {
       attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -150,6 +166,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

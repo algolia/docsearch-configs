@@ -268,6 +268,27 @@ new Crawler({
         });
       },
     },
+    {
+      indexName: "skywalking",
+      pathsToMatch: ["https://skywalking.apache.org/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "container h1",
+            content: "container p, container li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Skywalking",
+            },
+            lvl2: "container h2",
+            lvl3: "container h3",
+            lvl4: "container h4",
+            lvl5: "container h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
   ],
   initialIndexSettings: {
     skywalking: {
