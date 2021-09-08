@@ -2,21 +2,21 @@
   "index_name": "dieghernan_giscor",
   "start_urls": [
     {
-      "url": "https://dieghernan.github.io/giscoR/index.html",
+      "url": "https://ropengov.github.io/giscoR/index.html",
       "selectors_key": "homepage",
       "tags": [
         "homepage"
       ]
     },
     {
-      "url": "https://dieghernan.github.io/giscoR/reference/",
+      "url": "https://ropengov.github.io/giscoR/reference/",
       "selectors_key": "reference",
       "tags": [
         "reference"
       ]
     },
     {
-      "url": "https://dieghernan.github.io/giscoR/articles/giscoR.html",
+      "url": "https://ropengov.github.io/giscoR/articles/giscoR.html",
       "selectors_key": "articles",
       "tags": [
         "articles"
@@ -24,7 +24,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://dieghernan.github.io/giscoR/sitemap.xml"
+    "https://ropengov.github.io/giscoR/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
