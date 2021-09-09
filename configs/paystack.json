@@ -10,7 +10,8 @@
     }
   ],
   "stop_urls": [
-    "https://paystack.com/docs/payments/charge-card"
+    "https://paystack.com/docs/payments/charge-card",
+    "https://paystack.com/docs/identity-verification/account-match"
   ],
   "selectors": {
     "default": {
