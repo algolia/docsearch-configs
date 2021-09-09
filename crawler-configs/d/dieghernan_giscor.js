@@ -3,21 +3,21 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://dieghernan.github.io/giscoR/index.html",
-    "https://dieghernan.github.io/",
-    "https://dieghernan.github.io/giscoR/reference/",
-    "https://dieghernan.github.io/giscoR/articles/giscoR.html",
+    "https://ropengov.github.io/giscoR/index.html",
+    "https://ropengov.github.io/",
+    "https://ropengov.github.io/giscoR/reference/",
+    "https://ropengov.github.io/giscoR/articles/giscoR.html",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://dieghernan.github.io/giscoR/sitemap.xml"],
+  sitemaps: ["https://ropengov.github.io/giscoR/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://dieghernan.github.io/**"],
+  discoveryPatterns: ["https://ropengov.github.io/**"],
   schedule: "at 15:10 on Tuesday",
   actions: [
     {
       indexName: "dieghernan_giscor",
-      pathsToMatch: ["https://dieghernan.github.io/giscoR/index.html**/**"],
+      pathsToMatch: ["https://ropengov.github.io/giscoR/index.html**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dont-index";
@@ -43,7 +43,7 @@ new Crawler({
     },
     {
       indexName: "dieghernan_giscor",
-      pathsToMatch: ["https://dieghernan.github.io/giscoR/reference/**"],
+      pathsToMatch: ["https://ropengov.github.io/giscoR/reference/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dont-index";
@@ -71,7 +71,7 @@ new Crawler({
     {
       indexName: "dieghernan_giscor",
       pathsToMatch: [
-        "https://dieghernan.github.io/giscoR/articles/giscoR.html**/**",
+        "https://ropengov.github.io/giscoR/articles/giscoR.html**/**",
       ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl

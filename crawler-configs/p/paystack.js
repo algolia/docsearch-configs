@@ -12,6 +12,8 @@ new Crawler({
   exclusionPatterns: [
     "https://paystack.com/docs/payments/charge-card**",
     "https://paystack.com/docs/payments/charge-card**/**",
+    "https://paystack.com/docs/identity-verification/account-match**",
+    "https://paystack.com/docs/identity-verification/account-match**/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://paystack.com/**"],

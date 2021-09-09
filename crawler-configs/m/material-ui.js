@@ -6,6 +6,7 @@ new Crawler({
     "https://next.material-ui.com/",
     "https://material-ui.com/",
     "https://v3.material-ui.com/",
+    "https://v4.material-ui.com/",
   ],
   renderJavaScript: false,
   sitemaps: [],
@@ -21,6 +22,7 @@ new Crawler({
     "https://next.material-ui.com/**",
     "https://material-ui.com/**",
     "https://v3.material-ui.com/**",
+    "https://v4.material-ui.com/**",
   ],
   schedule: "at 10:00 on Thursday",
   actions: [
@@ -67,6 +69,26 @@ new Crawler({
     {
       indexName: "material-ui",
       pathsToMatch: ["https://v3.material-ui.com/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".markdown-body h1",
+            content:
+              ".markdown-body p, .markdown-body li, .markdown-body table td:last-child",
+            lvl0: {
+              selectors: ".algolia-lvl0",
+            },
+            lvl2: ".markdown-body h2",
+            lvl3: ".markdown-body h3, .markdown-body table td:first-of-type",
+            lvl4: ".markdown-body h4",
+          },
+          indexHeadings: false,
+        });
+      },
+    },
+    {
+      indexName: "material-ui",
+      pathsToMatch: ["https://v4.material-ui.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

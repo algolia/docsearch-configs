@@ -1,2 +1,3 @@
 .DS_STORE
 validator_reply.json
+crawler-configs/*/*.json
