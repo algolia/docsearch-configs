@@ -1,0 +1,20 @@
+{
+  "index_name": "sense-glove",
+  "start_urls": [
+    "http://85.25.106.206:8085/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".document h1",
+    "lvl1": ".document h2",
+    "lvl2": ".document h3",
+    "lvl3": ".document h4",
+    "lvl4": ".document h5",
+    "lvl5": ".document h6",
+    "text": ".document p, .document li"
+  },
+  "conversation_id": [
+    "1599324347"
+  ],
+  "nb_hits": 21
+}
