@@ -1,0 +1,27 @@
+{
+  "index_name": "bootstrap-kr",
+  "start_urls": [
+    "https://getbootstrap.kr/docs/"
+  ],
+  "sitemap_urls": [
+    "https://getbootstrap.kr/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": ".bd-sidebar .active.my-1 > a",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".bd-layout h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4, main td:first-child",
+    "lvl5": "main h5",
+    "text": "main p, main li, main td:last-child"
+  },
+  "conversation_id": [
+    "1618105035"
+  ],
+  "nb_hits": 6579
+}
