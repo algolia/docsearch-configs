@@ -2,7 +2,7 @@
   "index_name": "goteleport",
   "start_urls": ["https://goteleport.com/docs/"],
   "stop_urls": [],
-  "sitemap_urls": ["https://goteleport.com/sitemap.xml"],
+  "sitemap_urls": ["https://goteleport.com/algoliasearchmap.xml"],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -13,7 +13,7 @@
     "lvl3": "#__next h3",
     "lvl4": "#__next h4",
     "lvl5": "#__next h5",
-    "text": "#__next p, #__next li"
+    "text": "#__next p, #__next li, #__next td, #__next code, #__next span, #__next div"
   },
   "conversation_id": ["1348066577"],
   "nb_hits": 3641
