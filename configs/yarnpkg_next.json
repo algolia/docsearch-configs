@@ -18,8 +18,7 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5",
-    "lvl6": "article h6",
-    "text": "article p, article li, article td"
+    "text": "article h6, article p, article li, article td"
   },
   "custom_settings": {
     "separatorsToIndex": "_",
