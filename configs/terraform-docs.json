@@ -1,0 +1,23 @@
+{
+  "index_name": "terraform-docs",
+  "start_urls": [
+    "https://terraform-docs.io/"
+  ],
+  "sitemap_urls": [
+    "https://terraform-docs.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".docs-content h1",
+    "lvl1": ".docs-content h2",
+    "lvl2": ".docs-content h3",
+    "lvl3": ".docs-content h4",
+    "lvl4": ".docs-content h5",
+    "lvl5": ".docs-content h6",
+    "text": ".docs-content p, .docs-content li"
+  },
+  "conversation_id": [
+    "1620131440"
+  ],
+  "nb_hits": 436
+}
