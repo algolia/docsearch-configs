@@ -1,0 +1,23 @@
+{
+  "index_name": "gitlab-cn",
+  "start_urls": [
+    "https://docs.gitlab.cn"
+  ],
+  "sitemap_urls": [
+    "https://docs.gitlab.cn/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".article-content h1",
+    "lvl1": ".article-content h2",
+    "lvl2": ".article-content h3",
+    "lvl3": ".article-content h4",
+    "lvl4": ".article-content h5",
+    "lvl5": ".article-content h6",
+    "text": ".article-content p, .article-content li"
+  },
+  "conversation_id": [
+    "1623258062"
+  ],
+  "nb_hits": 6278
+}
