@@ -2,30 +2,33 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["https://guides.platerecognizer.com/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://guides.platerecognizer.com/sitemap.xml"],
   exclusionPatterns: [],
-  ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  ignoreCanonicalTo: true,
+  discoveryPatterns: ["https://guides.platerecognizer.com/**"],
+  schedule: "at 00:20 on Friday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "platerecognizer",
+      pathsToMatch: ["https://guides.platerecognizer.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: "",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
               defaultValue: "Documentation",
             },
             lvl2: "article h2",
             lvl3: "article h3",
             lvl4: "article h4",
-            lvl5: "article h5",
+            lvl5: "article h5, article td:first-child",
           },
           indexHeadings: true,
         });
@@ -33,9 +36,22 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
-      attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+    platerecognizer: {
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -96,6 +112,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

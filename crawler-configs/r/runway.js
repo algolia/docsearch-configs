@@ -2,17 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["https://runway.duncanmcclean.com/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["https://runway.duncanmcclean.com/**"],
+  schedule: "at 10:40 on Friday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "runway",
+      pathsToMatch: ["https://runway.duncanmcclean.com**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -33,7 +33,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
+    runway: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

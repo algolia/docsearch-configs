@@ -2,30 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["https://www.piesocket.com/docs/", "https://www.piesocket.com/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://www.piesocket.com/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["https://www.piesocket.com/**"],
+  schedule: "at 00:10 on Friday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "piesocket",
+      pathsToMatch: ["https://www.piesocket.com/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li",
+            lvl1: ".documentation h2",
+            content: ".documentation p, .documentation li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
+              selectors: ".documentation h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5",
+            lvl2: ".documentation h3",
+            lvl3: ".documentation h4",
+            lvl4: ".documentation h5",
+            lvl5: ".documentation h6",
           },
           indexHeadings: true,
         });
@@ -33,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
+    piesocket: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

@@ -2,30 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["https://docs.celo.org/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://docs.celo.org/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["https://docs.celo.org/**"],
+  schedule: "at 11:00 on Tuesday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "celo",
+      pathsToMatch: ["https://docs.celo.org**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li",
+            lvl1: "[class*='pageContainer'] h2",
+            content: "[class*='pageContainer'] p, [class*='pageContainer'] li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
+              selectors: "[class*='pageContainer'] h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5",
+            lvl2: "[class*='pageContainer'] h3",
+            lvl3: "[class*='pageContainer'] h4",
+            lvl4: "[class*='pageContainer'] h5",
+            lvl5: "[class*='pageContainer'] h6",
           },
           indexHeadings: true,
         });
@@ -33,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
+    celo: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

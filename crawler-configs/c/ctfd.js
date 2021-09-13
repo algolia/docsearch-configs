@@ -2,30 +2,30 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["https://docs.ctfd.io/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://docs.ctfd.io/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["https://docs.ctfd.io/**"],
+  schedule: "at 11:40 on Tuesday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "ctfd",
+      pathsToMatch: ["https://docs.ctfd.io/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
               selectors: "",
               defaultValue: "Documentation",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
           },
           indexHeadings: true,
         });
@@ -33,7 +33,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
+    ctfd: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

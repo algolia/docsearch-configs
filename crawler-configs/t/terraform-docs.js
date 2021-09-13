@@ -2,30 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["https://terraform-docs.io/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://terraform-docs.io/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["https://terraform-docs.io/**"],
+  schedule: "at 19:00 on Friday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "terraform-docs",
+      pathsToMatch: ["https://terraform-docs.io/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li",
+            lvl1: ".docs-content h2",
+            content: ".docs-content p, .docs-content li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
+              selectors: ".docs-content h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5",
+            lvl2: ".docs-content h3",
+            lvl3: ".docs-content h4",
+            lvl4: ".docs-content h5",
+            lvl5: ".docs-content h6",
           },
           indexHeadings: true,
         });
@@ -33,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
+    "terraform-docs": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

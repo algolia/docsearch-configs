@@ -2,30 +2,35 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["https://docs.bot.elpsy.cn/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["https://docs.bot.elpsy.cn/**"],
+  schedule: "at 20:20 on Tuesday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "elpsy",
+      pathsToMatch: ["https://docs.bot.elpsy.cn**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li",
+            lvl1: ".theme-default-content h1",
+            content: ".theme-default-content p, .theme-default-content li",
             lvl0: {
-              selectors: "",
+              selectors: "p.sidebar-heading.open",
               defaultValue: "Documentation",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5",
+            lvl2: ".theme-default-content h2",
+            lvl3: ".theme-default-content h3",
+            lvl4: ".theme-default-content h4",
+            lvl5: ".theme-default-content h5",
+            lang: "",
           },
           indexHeadings: true,
         });
@@ -33,7 +38,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
+    elpsy: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

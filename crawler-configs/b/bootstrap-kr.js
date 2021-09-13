@@ -2,30 +2,72 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: [
+    "https://getbootstrap.kr/docs/5.0/",
+    "https://getbootstrap.kr/",
+    "https://getbootstrap.kr/docs/",
+  ],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: [],
+  sitemaps: ["https://getbootstrap.kr/sitemap.xml"],
+  exclusionPatterns: ["**/examples/**"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["https://getbootstrap.kr/**"],
+  schedule: "at 06:30 on Tuesday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "bootstrap-kr",
+      pathsToMatch: ["https://getbootstrap.kr/docs/5.0/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".bd-example";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li",
+            lvl1: ".bd-layout h1",
+            content: "main p, main li, main td:last-child",
             lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
+              selectors: ".bd-sidebar .active.my-1 > a",
+              defaultValue: "문서",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4, main td:first-child",
+            lvl5: "main h5",
+            language: {
+              defaultValue: ["ko"],
+            },
+            version: {
+              defaultValue: ["5.0"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "bootstrap-kr",
+      pathsToMatch: [
+        "https://getbootstrap.kr/docs/**",
+        "!https://getbootstrap.kr/docs/5.0/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".bd-example";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h1",
+            content: "main p, main li, main td:last-child",
+            lvl0: {
+              selectors: ".bd-toc-item.active > a",
+              defaultValue: "문서",
+            },
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4, main td:first-child",
+            lvl5: "main h5",
           },
           indexHeadings: true,
         });
@@ -33,8 +75,8 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
-      attributesForFaceting: ["type", "lang"],
+    "bootstrap-kr": {
+      attributesForFaceting: ["type", "lang", "version", "language"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

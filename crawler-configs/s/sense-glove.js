@@ -2,30 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["http://85.25.106.206:8085/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["http://85.25.106.206:8085/**"],
+  schedule: "at 15:00 on Friday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "sense-glove",
+      pathsToMatch: ["http://85.25.106.206:8085/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li",
+            lvl1: ".document h2",
+            content: ".document p, .document li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
+              selectors: ".document h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5",
+            lvl2: ".document h3",
+            lvl3: ".document h4",
+            lvl4: ".document h5",
+            lvl5: ".document h6",
           },
           indexHeadings: true,
         });
@@ -33,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
+    "sense-glove": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

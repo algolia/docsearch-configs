@@ -2,17 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["https://katan.org/docs", "https://katan.org/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://katan.org/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["https://katan.org/**"],
+  schedule: "at 01:00 on Thursday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "katan",
+      pathsToMatch: ["https://katan.org/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -33,7 +33,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
+    katan: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

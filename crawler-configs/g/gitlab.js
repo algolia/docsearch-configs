@@ -11,7 +11,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://docs.gitlab.com/sitemap.xml"],
-  exclusionPatterns: ["**/**ee//**", "**/index.html", "**/**README.html"],
+  exclusionPatterns: ["**/index.html", "**/**README.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.gitlab.com/**"],
   schedule: "at 06:10 on Wednesday",

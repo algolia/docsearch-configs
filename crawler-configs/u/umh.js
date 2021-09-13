@@ -2,30 +2,30 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["https://docs.umh.app/docs", "https://docs.umh.app/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://docs.umh.app/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["https://docs.umh.app/**"],
+  schedule: "at 00:20 on Saturday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "umh",
+      pathsToMatch: ["https://docs.umh.app/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
               selectors: "",
               defaultValue: "Documentation",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
           },
           indexHeadings: true,
         });
@@ -33,7 +33,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
+    umh: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

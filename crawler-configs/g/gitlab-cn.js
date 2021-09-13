@@ -2,30 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://simple-commerce.duncanmcclean.com/"],
+  startUrls: ["https://docs.gitlab.cn/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://docs.gitlab.cn/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://simple-commerce.duncanmcclean.com/**"],
-  schedule: "at 15:30 on Tuesday",
+  discoveryPatterns: ["https://docs.gitlab.cn/**"],
+  schedule: "at 06:10 on Wednesday",
   actions: [
     {
-      indexName: "doublethree",
-      pathsToMatch: ["https://simple-commerce.duncanmcclean.com**/**"],
+      indexName: "gitlab-cn",
+      pathsToMatch: ["https://docs.gitlab.cn**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li",
+            lvl1: ".article-content h2",
+            content: ".article-content p, .article-content li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
+              selectors: ".article-content h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5",
+            lvl2: ".article-content h3",
+            lvl3: ".article-content h4",
+            lvl4: ".article-content h5",
+            lvl5: ".article-content h6",
           },
           indexHeadings: true,
         });
@@ -33,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    doublethree: {
+    "gitlab-cn": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
