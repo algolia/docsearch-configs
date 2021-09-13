@@ -1,7 +1,18 @@
 {
   "index_name": "spline",
   "start_urls": [
-    "https://spline.cool/docs/"
+    {
+      "url": "https://spline.cool/docs/",
+      "language": ["zh", "zh-cn"]
+    },
+    {
+      "url": "https://spline.cool/en/docs/",
+      "language": ["en", "en-us"]
+    }
+  ],
+  "sitemap_urls": [
+    "https://spline.cool/sitemap.xml",
+    "https://spline.cool/en/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
