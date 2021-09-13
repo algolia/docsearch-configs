@@ -3,11 +3,11 @@
   "start_urls": [
     {
       "url": "https://spline.cool/docs/",
-      "tags": ["language", "version"]
+      "language": ["zh", "zh-cn"]
     },
     {
       "url": "https://spline.cool/en/docs/",
-      "tags": ["language", "version"]
+      "language": ["en", "en-us"]
     }
   ],
   "sitemap_urls": [
