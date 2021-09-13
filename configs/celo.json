@@ -11,7 +11,7 @@
     "lvl0": {
       "selector": "#content header h1",
       "default_value": "Documentation"
-    }
+    },
     "lvl1": "#content article h1",
     "lvl2": "#content section h3",
     "lvl3": "#content section h4",
