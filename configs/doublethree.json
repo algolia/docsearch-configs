@@ -1,41 +1,24 @@
 {
   "index_name": "doublethree",
   "start_urls": [
-    {
-      "url": "https://sc-docs.doublethree.digital/(?P<version>.*?)/",
-      "variables": {
-        "version": [
-          "v2.3",
-          "v2.2",
-          "v2.1",
-          "v2.0"
-        ]
-      }
-    }
+    "https://simple-commerce.duncanmcclean.com"
   ],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://sc-docs.doublethree.digital/sitemap.xml"
-  ],
   "selectors": {
     "lvl0": {
       "selector": "",
+      "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "nav .active-item span",
+    "lvl1": "article h1",
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "custom_settings": {
-    "attributesForFaceting": [
-      "version"
-    ]
-  },
   "conversation_id": [
     "1345194244"
   ],
-  "nb_hits": 499
+  "nb_hits": 143
 }
