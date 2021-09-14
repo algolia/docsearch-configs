@@ -1,87 +1,47 @@
 {
   "index_name": "electronjs",
   "start_urls": [
-    {
-      "url": "https://www.electronjs.org/docs/api/",
-      "tags": [
-        "api"
-      ],
-      "selectors_key": "api"
-    },
-    {
-      "url": "https://www.electronjs.org/docs/",
-      "tags": [
-        "docs"
-      ],
-      "selectors_key": "docs"
-    },
-    {
-      "url": "https://www.electronjs.org/blog/",
-      "tags": [
-        "blog"
-      ],
-      "selectors_key": "blog"
-    }
+    "https://www.electronjs.org/docs/latest/"
   ],
-  "stop_urls": [
-    "/history",
-    "https://www.electronjs.org/docs/all"
+  "sitemap_urls": [
+    "https://www.electronjs.org/docs/latest/sitemap.xml"
   ],
+  "stop_urls": [],
   "selectors": {
-    "api": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "API"
-      },
-      "lvl1": ".markdown-body h1",
-      "lvl2": ".markdown-body h2",
-      "lvl3": ".markdown-body h3",
-      "lvl4": ".markdown-body h4",
-      "lvl5": ".markdown-body h5",
-      "text": ".markdown-body p, .markdown-body li"
+    "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "docs": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": ".markdown-body h1",
-      "lvl2": ".markdown-body h2",
-      "lvl3": ".markdown-body h3",
-      "lvl4": ".markdown-body h4",
-      "lvl5": ".markdown-body h5",
-      "text": ".markdown-body p, .markdown-body li"
-    },
-    "blog": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Blog"
-      },
-      "lvl1": ".markdown-body h1",
-      "lvl2": ".markdown-body h2",
-      "lvl3": ".markdown-body h3",
-      "lvl4": ".markdown-body h4",
-      "lvl5": ".markdown-body h5",
-      "text": ".markdown-body p, .markdown-body li",
-      "lang": {
-        "selector": "/html/@lang",
-        "type": "xpath",
-        "global": true,
-        "default_value": "en-US"
-      }
-    }
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
+  "strip_chars": " .,;:#",
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
-      "tags",
-      "lang"
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
     ]
   },
   "conversation_id": [
     "1451956332"
   ],
-  "nb_hits": 11371
+  "nb_hits": 9561
 }
