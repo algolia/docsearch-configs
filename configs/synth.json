@@ -1,10 +1,10 @@
 {
   "index_name": "synth",
   "start_urls": [
-    "https://openquery-io.github.io/synth/"
+    "https://www.getsynth.com/docs"
   ],
   "sitemap_urls": [
-    "https://openquery-io.github.io/synth/sitemap.xml"
+    "https://www.getsynth.com/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
