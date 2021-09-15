@@ -6,13 +6,13 @@
       "selectors_key": "docs"
     },
     {
-      "url": "https://near-sdk.io",
+      "url": "https://www.near-sdk.io/",
       "selectors_key": "sdk-docs"
     }
   ],
   "sitemap_urls": [
     "https://docs.near.org/sitemap.xml",
-    "https://near-sdk.io/sitemap.xml"
+    "https://www.near-sdk.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -71,5 +71,5 @@
   "conversation_id": [
     "962097459"
   ],
-  "nb_hits": 3604
+  "nb_hits": 6319
 }

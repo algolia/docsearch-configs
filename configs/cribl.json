@@ -1,7 +1,10 @@
 {
   "index_name": "cribl",
   "start_urls": [
-    "http://cribl-doc-test.s3-website.us-east-2.amazonaws.com/logstream/"
+    "https://cdn.cribl.io/docs/logstream/"
+  ],
+  "sitemap_urls": [
+    "https://cdn.cribl.io/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
