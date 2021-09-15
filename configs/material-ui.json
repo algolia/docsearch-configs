@@ -1,9 +1,6 @@
 {
   "index_name": "material-ui",
   "start_urls": [
-    "https://material-ui.com/",
-    "https://v3.material-ui.com/",
-    "https://v4.material-ui.com/",
     "https://mui.com",
     "https://v3.mui.com",
     "https://v4.mui.com"
