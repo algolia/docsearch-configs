@@ -2,17 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://cdn.cribl.io/docs/logstream/", "https://cdn.cribl.io/"],
+  startUrls: ["https://sad-hugle-52b7e7.netlify.app/"],
   renderJavaScript: false,
-  sitemaps: ["https://cdn.cribl.io/docs/sitemap.xml"],
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://cdn.cribl.io/**"],
-  schedule: "at 11:40 on Tuesday",
+  discoveryPatterns: ["https://sad-hugle-52b7e7.netlify.app/**"],
+  schedule: "at 00:00 on Friday",
   actions: [
     {
-      indexName: "cribl",
-      pathsToMatch: ["https://cdn.cribl.io/docs/logstream/**"],
+      indexName: "paperspace",
+      pathsToMatch: ["https://sad-hugle-52b7e7.netlify.app/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -36,7 +36,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    cribl: {
+    paperspace: {
       attributesForFaceting: [
         "type",
         "lang",

@@ -4,7 +4,7 @@ new Crawler({
   rateLimit: 8,
   startUrls: ["https://goteleport.com/docs/", "https://goteleport.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://goteleport.com/sitemap.xml"],
+  sitemaps: ["https://goteleport.com/algolia_searchmap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://goteleport.com/**"],

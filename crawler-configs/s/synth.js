@@ -2,20 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://openquery-io.github.io/synth/",
-    "https://openquery-io.github.io/",
-  ],
+  startUrls: ["https://www.getsynth.com/docs", "https://www.getsynth.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://openquery-io.github.io/synth/sitemap.xml"],
+  sitemaps: ["https://www.getsynth.com/docs/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://openquery-io.github.io/**"],
+  discoveryPatterns: ["https://www.getsynth.com/**"],
   schedule: "at 15:50 on Friday",
   actions: [
     {
       indexName: "synth",
-      pathsToMatch: ["https://openquery-io.github.io/synth/**"],
+      pathsToMatch: ["https://www.getsynth.com/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

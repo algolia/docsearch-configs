@@ -2,17 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://cdn.cribl.io/docs/logstream/", "https://cdn.cribl.io/"],
+  startUrls: ["https://pointnetwork.github.io/"],
   renderJavaScript: false,
-  sitemaps: ["https://cdn.cribl.io/docs/sitemap.xml"],
+  sitemaps: ["https://pointnetwork.github.io/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://cdn.cribl.io/**"],
-  schedule: "at 11:40 on Tuesday",
+  discoveryPatterns: ["https://pointnetwork.github.io/**"],
+  schedule: "at 00:30 on Friday",
   actions: [
     {
-      indexName: "cribl",
-      pathsToMatch: ["https://cdn.cribl.io/docs/logstream/**"],
+      indexName: "pointnetwork",
+      pathsToMatch: ["https://pointnetwork.github.io/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -36,7 +36,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    cribl: {
+    pointnetwork: {
       attributesForFaceting: [
         "type",
         "lang",

@@ -5,16 +5,16 @@ new Crawler({
   startUrls: [
     "https://docs.near.org/docs/",
     "https://docs.near.org/",
-    "https://near-sdk.io/",
+    "https://www.near-sdk.io/",
   ],
   renderJavaScript: false,
   sitemaps: [
     "https://docs.near.org/sitemap.xml",
-    "https://near-sdk.io/sitemap.xml",
+    "https://www.near-sdk.io/sitemap.xml",
   ],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docs.near.org/**", "https://near-sdk.io/**"],
+  discoveryPatterns: ["https://docs.near.org/**", "https://www.near-sdk.io/**"],
   schedule: "at 15:00 on Thursday",
   actions: [
     {
@@ -44,7 +44,7 @@ new Crawler({
     },
     {
       indexName: "near",
-      pathsToMatch: ["https://near-sdk.io**/**"],
+      pathsToMatch: ["https://www.near-sdk.io/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".hash-link";

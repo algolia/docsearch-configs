@@ -11,8 +11,8 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "**/**?expend-path**",
-    "**/**?expend-path**/**",
+    "**/?expand-path**",
+    "**/?expand-path**/**",
     "**/company/**",
     "**/store/**",
     "**/blog/**",

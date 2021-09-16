@@ -26,10 +26,12 @@ new Crawler({
     "https://developers.cloudflare.com/network-interconnect/",
     "https://developers.cloudflare.com/pages/",
     "https://developers.cloudflare.com/page-shield/",
+    "https://developers.cloudflare.com/partners/",
     "https://developers.cloudflare.com/railgun/",
     "https://developers.cloudflare.com/randomness-beacon/",
     "https://developers.cloudflare.com/registrar/",
     "https://developers.cloudflare.com/rules/",
+    "https://developers.cloudflare.com/ruleset-engine/",
     "https://developers.cloudflare.com/spectrum/",
     "https://developers.cloudflare.com/ssl/",
     "https://developers.cloudflare.com/stream/",
@@ -64,10 +66,12 @@ new Crawler({
     "https://developers.cloudflare.com/network-interconnect/sitemap.xml",
     "https://developers.cloudflare.com/pages/sitemap.xml",
     "https://developers.cloudflare.com/page-shield/sitemap.xml",
+    "https://developers.cloudflare.com/partners/sitemap.xml",
     "https://developers.cloudflare.com/railgun/sitemap.xml",
     "https://developers.cloudflare.com/randomness-beacon/sitemap.xml",
     "https://developers.cloudflare.com/registrar/sitemap.xml",
     "https://developers.cloudflare.com/rules/sitemap.xml",
+    "https://developers.cloudflare.com/ruleset-engine/sitemap.xml",
     "https://developers.cloudflare.com/spectrum/sitemap.xml",
     "https://developers.cloudflare.com/ssl/sitemap.xml",
     "https://developers.cloudflare.com/stream/sitemap.xml",
@@ -707,6 +711,34 @@ new Crawler({
     },
     {
       indexName: "developers-cloudflare",
+      pathsToMatch: ["https://developers.cloudflare.com/partners/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "h1 + ul";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocsContent h2",
+            content:
+              ".DocsContent p, .DocsContent li, .DocsContent tbody tr > td",
+            lvl0: {
+              selectors: ".DocsContent h1",
+            },
+            lvl2: ".DocsContent h3",
+            lvl3: ".DocsContent h4",
+            lvl4: ".DocsContent h5",
+            lvl5: ".DocsContent h6",
+            project: {
+              defaultValue: ["partners"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "developers-cloudflare",
       pathsToMatch: ["https://developers.cloudflare.com/railgun/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
@@ -811,6 +843,34 @@ new Crawler({
             lvl5: ".DocsContent h6",
             project: {
               defaultValue: ["rules"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "developers-cloudflare",
+      pathsToMatch: ["https://developers.cloudflare.com/ruleset-engine/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "h1 + ul";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocsContent h2",
+            content:
+              ".DocsContent p, .DocsContent li, .DocsContent tbody tr > td",
+            lvl0: {
+              selectors: ".DocsContent h1",
+            },
+            lvl2: ".DocsContent h3",
+            lvl3: ".DocsContent h4",
+            lvl4: ".DocsContent h5",
+            lvl5: ".DocsContent h6",
+            project: {
+              defaultValue: ["ruleset-engine"],
             },
           },
           indexHeadings: true,

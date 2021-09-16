@@ -2,33 +2,38 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://cdn.cribl.io/docs/logstream/", "https://cdn.cribl.io/"],
+  startUrls: [
+    "https://markwpearce.github.io/brighterscript-game-engine/",
+    "https://markwpearce.github.io/",
+  ],
   renderJavaScript: false,
-  sitemaps: ["https://cdn.cribl.io/docs/sitemap.xml"],
-  exclusionPatterns: [],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://cdn.cribl.io/**"],
-  schedule: "at 11:40 on Tuesday",
+  sitemaps: [],
+  exclusionPatterns: ["**/**.js\\.html", "**/index.html"],
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://markwpearce.github.io/**"],
+  schedule: "at 06:40 on Tuesday",
   actions: [
     {
-      indexName: "cribl",
-      pathsToMatch: ["https://cdn.cribl.io/docs/logstream/**"],
+      indexName: "brighterscript",
+      pathsToMatch: [
+        "https://markwpearce.github.io/brighterscript-game-engine/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".signature, .type-signature, .details";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
+            lvl1: "#main h3",
+            content: "#main p, #main li",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
+              selectors: "#main .page-title",
               defaultValue: "Documentation",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
+            lvl2: "#main h4",
+            lvl3: "#main h5",
+            lvl4: "#main h6, #main td.name",
           },
           indexHeadings: true,
         });
@@ -36,22 +41,9 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    cribl: {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-      ],
+    brighterscript: {
+      attributesForFaceting: ["type", "lang"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -112,7 +104,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

@@ -2,17 +2,20 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://cdn.cribl.io/docs/logstream/", "https://cdn.cribl.io/"],
+  startUrls: [
+    "https://gorhom.github.io/react-native-bottom-sheet/",
+    "https://gorhom.github.io/",
+  ],
   renderJavaScript: false,
-  sitemaps: ["https://cdn.cribl.io/docs/sitemap.xml"],
+  sitemaps: ["https://gorhom.github.io/react-native-bottom-sheet/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://cdn.cribl.io/**"],
-  schedule: "at 11:40 on Tuesday",
+  discoveryPatterns: ["https://gorhom.github.io/**"],
+  schedule: "at 10:00 on Friday",
   actions: [
     {
-      indexName: "cribl",
-      pathsToMatch: ["https://cdn.cribl.io/docs/logstream/**"],
+      indexName: "react-native-bottom-sheet",
+      pathsToMatch: ["https://gorhom.github.io/react-native-bottom-sheet/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -36,7 +39,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    cribl: {
+    "react-native-bottom-sheet": {
       attributesForFaceting: [
         "type",
         "lang",

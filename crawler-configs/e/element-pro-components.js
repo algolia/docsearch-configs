@@ -2,33 +2,32 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://cdn.cribl.io/docs/logstream/", "https://cdn.cribl.io/"],
-  renderJavaScript: false,
-  sitemaps: ["https://cdn.cribl.io/docs/sitemap.xml"],
+  startUrls: [
+    "https://tolking.github.io/element-pro-components/",
+    "https://tolking.github.io/",
+  ],
+  renderJavaScript: true,
+  sitemaps: [],
   exclusionPatterns: [],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://cdn.cribl.io/**"],
-  schedule: "at 11:40 on Tuesday",
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://tolking.github.io/**"],
+  schedule: "at 20:20 on Tuesday",
   actions: [
     {
-      indexName: "cribl",
-      pathsToMatch: ["https://cdn.cribl.io/docs/logstream/**"],
+      indexName: "element-pro-components",
+      pathsToMatch: ["https://tolking.github.io/element-pro-components/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
+            lvl1: ".markdown-body h2",
+            content: ".markdown-body p, .markdown-body li",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: ".markdown-body h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
+            lvl2: ".markdown-body h3",
+            lvl3: ".markdown-body h4",
+            lvl4: ".markdown-body h5",
+            lvl5: ".markdown-body h6",
           },
           indexHeadings: true,
         });
@@ -36,22 +35,9 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    cribl: {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-      ],
+    "element-pro-components": {
+      attributesForFaceting: ["type", "lang"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -112,7 +98,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

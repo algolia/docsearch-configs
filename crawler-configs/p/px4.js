@@ -5,6 +5,7 @@ new Crawler({
   startUrls: [
     "https://docs.px4.io/master/",
     "https://docs.px4.io/",
+    "https://docs.px4.io/v1.12/",
     "https://docs.px4.io/v1.11/",
     "https://docs.px4.io/v1.10/",
     "https://docs.px4.io/v1.9.0/",
@@ -40,6 +41,35 @@ new Crawler({
             lang: "",
             version: {
               defaultValue: ["master"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "px4",
+      pathsToMatch: ["https://docs.px4.io/v1.12/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "section h1",
+            content: "section p, section li",
+            lvl0: {
+              selectors: "nav.active",
+              defaultValue: "Documentation",
+            },
+            lvl2: "section h2",
+            lvl3: "section h3",
+            lvl4: "section h4",
+            lvl5: "section h5",
+            lang: "",
+            version: {
+              defaultValue: ["v1.12"],
             },
           },
           indexHeadings: true,

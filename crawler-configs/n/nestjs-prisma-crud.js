@@ -2,17 +2,20 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://cdn.cribl.io/docs/logstream/", "https://cdn.cribl.io/"],
+  startUrls: [
+    "https://kepelrs.github.io/nestjs-prisma-crud/",
+    "https://kepelrs.github.io/",
+  ],
   renderJavaScript: false,
-  sitemaps: ["https://cdn.cribl.io/docs/sitemap.xml"],
+  sitemaps: ["https://kepelrs.github.io/nestjs-prisma-crud/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://cdn.cribl.io/**"],
-  schedule: "at 11:40 on Tuesday",
+  discoveryPatterns: ["https://kepelrs.github.io/**"],
+  schedule: "at 15:00 on Thursday",
   actions: [
     {
-      indexName: "cribl",
-      pathsToMatch: ["https://cdn.cribl.io/docs/logstream/**"],
+      indexName: "nestjs-prisma-crud",
+      pathsToMatch: ["https://kepelrs.github.io/nestjs-prisma-crud/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -36,7 +39,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    cribl: {
+    "nestjs-prisma-crud": {
       attributesForFaceting: [
         "type",
         "lang",

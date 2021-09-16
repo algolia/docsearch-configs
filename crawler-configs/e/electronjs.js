@@ -3,91 +3,36 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://www.electronjs.org/docs/api/",
+    "https://www.electronjs.org/docs/latest/",
     "https://www.electronjs.org/",
-    "https://www.electronjs.org/docs/",
-    "https://www.electronjs.org/blog/",
   ],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: [
-    "**/history**",
-    "**/history**/**",
-    "https://www.electronjs.org/docs/all**",
-    "https://www.electronjs.org/docs/all**/**",
-  ],
-  ignoreCanonicalTo: false,
+  sitemaps: ["https://www.electronjs.org/docs/latest/sitemap.xml"],
+  exclusionPatterns: [],
+  ignoreCanonicalTo: true,
   discoveryPatterns: ["https://www.electronjs.org/**"],
   schedule: "at 20:20 on Tuesday",
   actions: [
     {
       indexName: "electronjs",
-      pathsToMatch: ["https://www.electronjs.org/docs/api/**"],
+      pathsToMatch: ["https://www.electronjs.org/docs/latest/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".markdown-body h1",
-            content: ".markdown-body p, .markdown-body li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: "",
-              defaultValue: "API",
-            },
-            lvl2: ".markdown-body h2",
-            lvl3: ".markdown-body h3",
-            lvl4: ".markdown-body h4",
-            lvl5: ".markdown-body h5",
-            tags: {
-              defaultValue: ["api"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "electronjs",
-      pathsToMatch: ["https://www.electronjs.org/docs/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".markdown-body h1",
-            content: ".markdown-body p, .markdown-body li",
-            lvl0: {
-              selectors: "",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
               defaultValue: "Documentation",
             },
-            lvl2: ".markdown-body h2",
-            lvl3: ".markdown-body h3",
-            lvl4: ".markdown-body h4",
-            lvl5: ".markdown-body h5",
-            tags: {
-              defaultValue: ["docs"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "electronjs",
-      pathsToMatch: ["https://www.electronjs.org/blog/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".markdown-body h1",
-            content: ".markdown-body p, .markdown-body li",
-            lvl0: {
-              selectors: "",
-              defaultValue: "Blog",
-            },
-            lvl2: ".markdown-body h2",
-            lvl3: ".markdown-body h3",
-            lvl4: ".markdown-body h4",
-            lvl5: ".markdown-body h5",
-            lang: "",
-            tags: {
-              defaultValue: ["blog"],
-            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -96,8 +41,21 @@ new Crawler({
   ],
   initialIndexSettings: {
     electronjs: {
-      attributesForFaceting: ["type", "lang", "tags"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -158,6 +116,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

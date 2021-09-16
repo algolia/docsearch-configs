@@ -3,10 +3,10 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: ["https://docs.celo.org/"],
-  renderJavaScript: false,
+  renderJavaScript: true,
   sitemaps: ["https://docs.celo.org/sitemap.xml"],
   exclusionPatterns: [],
-  ignoreCanonicalTo: false,
+  ignoreCanonicalTo: true,
   discoveryPatterns: ["https://docs.celo.org/**"],
   schedule: "at 11:00 on Tuesday",
   actions: [
@@ -16,15 +16,20 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "[class*='pageContainer'] h2",
-            content: "[class*='pageContainer'] p, [class*='pageContainer'] li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: "[class*='pageContainer'] h1",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
             },
-            lvl2: "[class*='pageContainer'] h3",
-            lvl3: "[class*='pageContainer'] h4",
-            lvl4: "[class*='pageContainer'] h5",
-            lvl5: "[class*='pageContainer'] h6",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -33,8 +38,22 @@ new Crawler({
   ],
   initialIndexSettings: {
     celo: {
-      attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+        "tags",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -95,6 +114,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });
