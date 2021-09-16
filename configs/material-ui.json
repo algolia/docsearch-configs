@@ -7,7 +7,7 @@
     "https://v4.material-ui.com/"
   ],
   "stop_urls": [
-    "\\?expend-path",
+    "/?expand-path",
     "/company/",
     "/store/",
     "/blog/"
