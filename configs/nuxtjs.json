@@ -2,76 +2,22 @@
   "index_name": "nuxtjs",
   "start_urls": [
     {
+      "url": "https://nuxtjs.org/(?P<lang>.*?)/",
+      "variables": {
+        "lang": [
+          "en",
+          "fr",
+          "ja"
+        ]
+      }
+    },
+    {
       "url": "https://nuxtjs.org/",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "http://nuxtjs.org/",
-      "tags": [
-        "en"
-      ]
-    },
-    {
-      "url": "https://zh.nuxtjs.org/",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "http://zh.nuxtjs.org/",
-      "tags": [
-        "zh"
-      ]
-    },
-    {
-      "url": "https://ru.nuxtjs.org/",
-      "tags": [
-        "ru"
-      ]
-    },
-    {
-      "url": "http://ru.nuxtjs.org/",
-      "tags": [
-        "ru"
-      ]
-    },
-    {
-      "url": "https://ja.nuxtjs.org/",
-      "tags": [
-        "ja"
-      ]
-    },
-    {
-      "url": "http://ja.nuxtjs.org/",
-      "tags": [
-        "ja"
-      ]
-    },
-    {
-      "url": "https://ko.nuxtjs.org/",
-      "tags": [
-        "ko"
-      ]
-    },
-    {
-      "url": "http://ko.nuxtjs.org/",
-      "tags": [
-        "ko"
-      ]
-    },
-    {
-      "url": "https://fr.nuxtjs.org/",
-      "tags": [
-        "fr"
-      ]
-    },
-    {
-      "url": "http://fr.nuxtjs.org/",
-      "tags": [
-        "fr"
-      ]
+      "extra_attributes": {
+        "lang": [
+          "en"
+        ]
+      }
     }
   ],
   "stop_urls": [
@@ -79,25 +25,23 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "header [class*='active']",
-      "global": true,
+      "selector": "li.active h5",
       "default_value": "Documentation"
     },
-    "lvl1": {
-      "selector": "//nav//*[contains(@class,'active')][1]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Chapter"
-    },
-    "lvl2": "article h1",
-    "lvl3": "article h2",
-    "lvl4": "article h3",
-    "lvl5": "article h4",
-    "lvl6": "article h5",
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5",
     "text": "article p, article li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
   },
   "conversation_id": [
     "305423545"
   ],
-  "nb_hits": 17818
+  "nb_hits": 10873
 }
