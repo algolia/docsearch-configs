@@ -1,8 +1,11 @@
-{
-  "index_name": "thetis-ims_procedures",
+{ 
+  "index_name": "thetis-ims_da",
   "start_urls": [
-    "https://procedures.thetis-ims.com",
-    "https://data.thetis-ims.com"
+    "https://procedures.thetis-ims.com/da",
+    "https://data.thetis-ims.com/da",
+    "https://introduction.thetis-ims.com/da",
+    "https://dashboards.thetis-ims.com/da",
+    "https://reports.thetis-ims.com/da"
   ],
   "stop_urls": [],
   "selectors": {
