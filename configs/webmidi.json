@@ -8,7 +8,6 @@
   "stop_urls": [],
   
   "start_urls": [
-    "https://djipco.github.io/webmidi/",
     {
       "url": "https://djipco.github.io/webmidi/api/",
       "selectors_key": "docs"
@@ -16,7 +15,8 @@
     {
       "url": "https://djipco.github.io/webmidi/docs/",
       "selectors_key": "docs"
-    }
+    },
+    "https://djipco.github.io/webmidi/"
   ],
 
   "selectors": {
