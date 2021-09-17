@@ -5,7 +5,8 @@
       "url": "https://nuxtjs.org/fr/",
       "variables": {
         "lang": [
-          "fr-FR"
+          "fr-FR",
+          "fr"
         ]
       }
     },
@@ -13,7 +14,8 @@
       "url": "https://nuxtjs.org/ja/",
       "variables": {
         "lang": [
-          "ja-JP"
+          "ja-JP",
+          "ja"
         ]
       }
     },
@@ -21,7 +23,8 @@
       "url": "https://nuxtjs.org/en/",
       "variables": {
         "lang": [
-          "en-US"
+          "en-US",
+          "en"
         ]
       }
     },
@@ -29,7 +32,8 @@
       "url": "https://nuxtjs.org/",
       "extra_attributes": {
         "lang": [
-          "en-US"
+          "en-US",
+          "en"
         ]
       }
     }
