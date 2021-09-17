@@ -2,12 +2,26 @@
   "index_name": "nuxtjs",
   "start_urls": [
     {
-      "url": "https://nuxtjs.org/(?P<lang>.*?)/",
+      "url": "https://nuxtjs.org/fr/",
       "variables": {
         "lang": [
-          "en",
-          "fr",
-          "ja"
+          "fr-FR"
+        ]
+      }
+    },
+    {
+      "url": "https://nuxtjs.org/ja/",
+      "variables": {
+        "lang": [
+          "ja-JP"
+        ]
+      }
+    },
+    {
+      "url": "https://nuxtjs.org/en/",
+      "variables": {
+        "lang": [
+          "en-US"
         ]
       }
     },
@@ -15,7 +29,7 @@
       "url": "https://nuxtjs.org/",
       "extra_attributes": {
         "lang": [
-          "en"
+          "en-US"
         ]
       }
     }
