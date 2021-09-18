@@ -5,13 +5,13 @@
       "url": "https://nx.dev/(?P<version>.*?)/(?P<framework>.*?)/",
       "variables": {
         "version": [
-          "latest",
-          "previous"
+          "l",
+          "p"
         ],
         "framework": [
-          "react",
-          "angular",
-          "node"
+          "r",
+          "a",
+          "n"
         ]
       }
     }
