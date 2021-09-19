@@ -16,6 +16,10 @@
       "url": "https://djipco.github.io/webmidi/docs/",
       "selectors_key": "docs"
     },
+    {
+      "url": "https://djipco.github.io/webmidi/showcase/",
+      "selectors_key": "showcase"
+    },
     "https://djipco.github.io/webmidi/"
   ],
 
@@ -43,6 +47,15 @@
       "lvl3": "article h4",
       "lvl4": "article h5",
       "text": "article p, article li, article table td"
+    },
+    
+    "showcase": {
+      "lvl0": "main header h1",
+      "lvl1": "main h2",
+      "lvl2": "main h3",
+      "lvl3": "main h4",
+      "lvl4": "main h5",
+      "text": "p, li, table td"
     }
 
   },
