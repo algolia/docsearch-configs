@@ -3,9 +3,9 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://developer.revolut.com/docs/",
+    "https://developer.revolut.com/docs/api-reference/",
     "https://developer.revolut.com/",
-    "https://developer.revolut.com/docs/accept-payments/",
+    "https://developer.revolut.com/docs/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://developer.revolut.com/sitemap.xml"],
@@ -16,10 +16,26 @@ new Crawler({
   actions: [
     {
       indexName: "revolut-developer",
-      pathsToMatch: [
-        "https://developer.revolut.com/docs/**",
-        "https://developer.revolut.com/docs/accept-payments/**",
-      ],
+      pathsToMatch: ["https://developer.revolut.com/docs/api-reference/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".redocusaurus h2",
+            content: ".redocusaurus p",
+            lvl0: {
+              selectors: ".redocusaurus h1",
+            },
+            lvl2: ".redocusaurus h3",
+            lvl3: ".redocusaurus h4",
+            lvl4: ".redocusaurus h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "revolut-developer",
+      pathsToMatch: ["https://developer.revolut.com/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

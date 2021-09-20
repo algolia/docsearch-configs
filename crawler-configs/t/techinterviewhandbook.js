@@ -2,20 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://docstest.cribl.io/logstream/",
-    "https://docstest.cribl.io/",
-  ],
+  startUrls: ["https://techinterviewhandbook.org/"],
   renderJavaScript: false,
-  sitemaps: ["https://docstest.cribl.io/sitemap.xml"],
+  sitemaps: ["https://techinterviewhandbook.org/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docstest.cribl.io/**"],
-  schedule: "at 11:40 on Tuesday",
+  discoveryPatterns: ["https://techinterviewhandbook.org/**"],
+  schedule: "at 19:00 on Friday",
   actions: [
     {
-      indexName: "cribl",
-      pathsToMatch: ["https://docstest.cribl.io/logstream/**"],
+      indexName: "techinterviewhandbook",
+      pathsToMatch: ["https://techinterviewhandbook.org/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -39,7 +36,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    cribl: {
+    techinterviewhandbook: {
       attributesForFaceting: [
         "type",
         "lang",

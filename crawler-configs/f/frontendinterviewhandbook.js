@@ -2,20 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://docstest.cribl.io/logstream/",
-    "https://docstest.cribl.io/",
-  ],
+  startUrls: ["https://frontendinterviewhandbook.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://docstest.cribl.io/sitemap.xml"],
+  sitemaps: ["https://frontendinterviewhandbook.com/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docstest.cribl.io/**"],
-  schedule: "at 11:40 on Tuesday",
+  discoveryPatterns: ["https://frontendinterviewhandbook.com/**"],
+  schedule: "at 01:40 on Wednesday",
   actions: [
     {
-      indexName: "cribl",
-      pathsToMatch: ["https://docstest.cribl.io/logstream/**"],
+      indexName: "frontendinterviewhandbook",
+      pathsToMatch: ["https://frontendinterviewhandbook.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -39,7 +36,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    cribl: {
+    frontendinterviewhandbook: {
       attributesForFaceting: [
         "type",
         "lang",

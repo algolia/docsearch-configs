@@ -2,32 +2,31 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://www.tiptap.dev/"],
+  startUrls: ["https://tiptap.dev/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.tiptap.dev/**"],
+  discoveryPatterns: ["https://tiptap.dev/**"],
   schedule: "at 00:00 on Saturday",
   actions: [
     {
       indexName: "ueberdosis_tiptap",
-      pathsToMatch: ["https://www.tiptap.dev/**"],
+      pathsToMatch: ["https://tiptap.dev/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".app__main h1",
-            content:
-              ".app__main p, .app__main li, .app__main pre, .app__main td",
+            lvl1: "main h1",
+            content: "main p, main li, main pre, main td",
             lvl0: {
               selectors: "",
               defaultValue: "Documentation",
             },
-            lvl2: ".app__main h2",
-            lvl3: ".app__main h3",
-            lvl4: ".app__main h4",
-            lvl5: ".app__main h5",
-            lvl6: ".app__main h6",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
+            lvl6: "main h6",
           },
           indexHeadings: true,
         });

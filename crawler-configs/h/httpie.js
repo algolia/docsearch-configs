@@ -2,7 +2,7 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://httpie.io/docs/2.4.0", "https://httpie.io/"],
+  startUrls: ["https://httpie.io/docs", "https://httpie.io/"],
   renderJavaScript: true,
   sitemaps: [],
   exclusionPatterns: [],
@@ -12,7 +12,7 @@ new Crawler({
   actions: [
     {
       indexName: "httpie",
-      pathsToMatch: ["https://httpie.io/docs/2.4.0**/**"],
+      pathsToMatch: ["https://httpie.io/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

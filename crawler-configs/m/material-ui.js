@@ -2,12 +2,7 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://next.material-ui.com/",
-    "https://material-ui.com/",
-    "https://v3.material-ui.com/",
-    "https://v4.material-ui.com/",
-  ],
+  startUrls: ["https://mui.com/", "https://v3.mui.com/", "https://v4.mui.com/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
@@ -19,16 +14,15 @@ new Crawler({
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: [
-    "https://next.material-ui.com/**",
-    "https://material-ui.com/**",
-    "https://v3.material-ui.com/**",
-    "https://v4.material-ui.com/**",
+    "https://mui.com/**",
+    "https://v3.mui.com/**",
+    "https://v4.mui.com/**",
   ],
   schedule: "at 10:00 on Thursday",
   actions: [
     {
       indexName: "material-ui",
-      pathsToMatch: ["https://next.material-ui.com/**"],
+      pathsToMatch: ["https://mui.com**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -48,7 +42,7 @@ new Crawler({
     },
     {
       indexName: "material-ui",
-      pathsToMatch: ["https://material-ui.com/**"],
+      pathsToMatch: ["https://v3.mui.com**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -68,27 +62,7 @@ new Crawler({
     },
     {
       indexName: "material-ui",
-      pathsToMatch: ["https://v3.material-ui.com/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".markdown-body h1",
-            content:
-              ".markdown-body p, .markdown-body li, .markdown-body table td:last-child",
-            lvl0: {
-              selectors: ".algolia-lvl0",
-            },
-            lvl2: ".markdown-body h2",
-            lvl3: ".markdown-body h3, .markdown-body table td:first-of-type",
-            lvl4: ".markdown-body h4",
-          },
-          indexHeadings: false,
-        });
-      },
-    },
-    {
-      indexName: "material-ui",
-      pathsToMatch: ["https://v4.material-ui.com/**"],
+      pathsToMatch: ["https://v4.mui.com**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

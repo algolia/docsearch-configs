@@ -2,43 +2,34 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://facebook.github.io/fbt/docs/",
-    "https://facebook.github.io/",
-    "https://facebook.github.io/fbt/docs/getting_started",
-  ],
+  startUrls: ["https://facebook.github.io/fbt/", "https://facebook.github.io/"],
   renderJavaScript: false,
-  sitemaps: ["https://facebookincubator.github.io/fbt/sitemap.xml"],
+  sitemaps: ["https://facebook.github.io/fbt/sitemap.xml"],
   exclusionPatterns: [],
-  ignoreCanonicalTo: false,
+  ignoreCanonicalTo: true,
   discoveryPatterns: ["https://facebook.github.io/**"],
   schedule: "at 01:00 on Wednesday",
   actions: [
     {
       indexName: "fbt",
-      pathsToMatch: [
-        "https://facebook.github.io/fbt/docs/**",
-        "https://facebook.github.io/fbt/docs/getting_started**/**",
-      ],
+      pathsToMatch: ["https://facebook.github.io/fbt/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: "[class^='docItemContainer_'] h1",
-            content:
-              "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li",
-            lvl2: "[class^='docItemContainer_'] h2",
-            lvl3: "[class^='docItemContainer_'] h3",
-            lvl4: "[class^='docItemContainer_'] h4",
-            lvl5: "[class^='docItemContainer_'] h5",
-            lvl6: "[class^='docItemContainer_'] h6",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: ".menu__link--sublist.menu__link--active",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
               defaultValue: "Documentation",
             },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -47,8 +38,21 @@ new Crawler({
   ],
   initialIndexSettings: {
     fbt: {
-      attributesForFaceting: ["type", "lang", "language", "version"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -109,6 +113,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

@@ -2,7 +2,12 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://djipco.github.io/webmidi/", "https://djipco.github.io/"],
+  startUrls: [
+    "https://djipco.github.io/webmidi/api/",
+    "https://djipco.github.io/",
+    "https://djipco.github.io/webmidi/docs/",
+    "https://djipco.github.io/webmidi/",
+  ],
   renderJavaScript: false,
   sitemaps: ["https://djipco.github.io/webmidi/sitemap.xml"],
   exclusionPatterns: [],
@@ -12,7 +17,49 @@ new Crawler({
   actions: [
     {
       indexName: "webmidi",
-      pathsToMatch: ["https://djipco.github.io/webmidi/**"],
+      pathsToMatch: ["https://djipco.github.io/webmidi/api/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h2",
+            content: "article p, article li, article table td",
+            lvl0: {
+              selectors: "article header:first-of-type h1",
+            },
+            lvl2: "article h3",
+            lvl3: "article h4",
+            lvl4: "article h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "webmidi",
+      pathsToMatch: ["https://djipco.github.io/webmidi/docs/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h2",
+            content: "article p, article li, article table td",
+            lvl0: {
+              selectors: "article header:first-of-type h1",
+            },
+            lvl2: "article h3",
+            lvl3: "article h4",
+            lvl4: "article h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "webmidi",
+      pathsToMatch: [
+        "https://djipco.github.io/webmidi/**",
+        "!https://djipco.github.io/webmidi/api/**",
+        "!https://djipco.github.io/webmidi/docs/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
