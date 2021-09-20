@@ -2,7 +2,15 @@
   "index_name": "revolut-developer",
   "start_urls": [
     {
-      "url": "https://developer.revolut.com/docs/api-reference/",
+      "url": "https://developer.revolut.com/docs/api-reference/merchant/",
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://developer.revolut.com/docs/api-reference/business/",
+      "selectors_key": "api"
+    },
+    {
+      "url": "https://developer.revolut.com/docs/api-reference/open-banking/",
       "selectors_key": "api"
     },
     {
@@ -34,12 +42,12 @@
       "text": "article p, article li, article td:last-child"
     },
     "api": {
-      "lvl0": ".redocusaurus h1",
-      "lvl1": ".redocusaurus h2",
-      "lvl2": ".redocusaurus h3",
-      "lvl3": ".redocusaurus h4",
-      "lvl4": ".redocusaurus h5",
-      "text": ".redocusaurus p"
+      "lvl0": "h1",
+      "lvl1": "h2",
+      "lvl2": "h3",
+      "lvl3": "h4",
+      "lvl4": "h5",
+      "text": "p"
     }
   },
   "strip_chars": " .,;:#",
