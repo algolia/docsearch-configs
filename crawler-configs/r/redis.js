@@ -30,9 +30,6 @@ new Crawler({
             lvl0: {
               selectors: "",
             },
-            lvl2: "",
-            lvl3: "",
-            lvl4: "",
           },
           indexHeadings: true,
         });

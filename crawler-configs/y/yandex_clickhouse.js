@@ -26,9 +26,6 @@ new Crawler({
             lvl3: "#content h4",
             lvl4: "#content h5",
             lvl5: "#content h6",
-            lang: "",
-            version: "",
-            "single-page": "",
           },
           indexHeadings: { from: 2, to: 6 },
         });

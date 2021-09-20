@@ -33,7 +33,6 @@ new Crawler({
             lvl3: ".DocSearch-content h3",
             lvl4: ".DocSearch-content h4",
             lvl5: ".DocSearch-content h5",
-            lang: "",
           },
           indexHeadings: true,
         });

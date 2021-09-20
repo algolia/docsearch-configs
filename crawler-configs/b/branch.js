@@ -30,7 +30,6 @@ new Crawler({
             lvl3: "#content-container h2",
             lvl4: "#content-container h3",
             lvl5: "#content-container h4",
-            lang: "",
             tags: {
               defaultValue: ["usingbranch"],
             },
@@ -55,7 +54,6 @@ new Crawler({
             lvl3: "#content-container h2",
             lvl4: "#content-container h3",
             lvl5: "#content-container h4",
-            lang: "",
             tags: {
               defaultValue: ["developershub"],
             },

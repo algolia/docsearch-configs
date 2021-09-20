@@ -30,7 +30,6 @@ new Crawler({
             lvl2: "[data-testid='main-container'] h2",
             lvl3: "[data-testid='main-container'] h3",
             lvl4: "[data-testid='main-container'] h4",
-            lang: "",
           },
           indexHeadings: true,
         });

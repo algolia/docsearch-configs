@@ -26,7 +26,6 @@ new Crawler({
               selectors: "",
               defaultValue: "Documentation",
             },
-            lvl2: "",
             lvl3: ".section h3, .section table td:first-of-type",
             lvl4: ".section h4",
           },

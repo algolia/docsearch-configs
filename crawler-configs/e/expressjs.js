@@ -33,7 +33,6 @@ new Crawler({
             lvl3: "#api-doc h4",
             lvl4: "#api-doc h5",
             lvl5: "#api-doc td:first-child",
-            lang: "",
             tags: {
               defaultValue: ["api"],
             },
@@ -60,7 +59,6 @@ new Crawler({
             lvl2: "#page-doc h3",
             lvl3: "#page-doc h4",
             lvl4: "#page-doc h5",
-            lang: "",
             tags: {
               defaultValue: ["changelog"],
             },
@@ -89,7 +87,6 @@ new Crawler({
             lvl3: "#page-doc h3",
             lvl4: "#page-doc h4",
             lvl5: "#page-doc h5",
-            lang: "",
           },
           indexHeadings: true,
         });

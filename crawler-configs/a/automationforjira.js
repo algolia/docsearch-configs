@@ -34,7 +34,6 @@ new Crawler({
             lvl4: ".content h4",
             lvl5: ".content h5",
             lvl6: ".content h6",
-            lang: "",
           },
           indexHeadings: true,
         });

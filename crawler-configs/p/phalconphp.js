@@ -29,7 +29,6 @@ new Crawler({
             lvl2: ".docSearch-content h3",
             lvl3: ".docSearch-content h4,.docSearch-content td:first-child",
             lvl4: ".docSearch-content h5:not(.alert)",
-            lang: "",
           },
           indexHeadings: true,
         });

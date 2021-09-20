@@ -52,7 +52,6 @@ new Crawler({
             },
             lvl2: "article h2",
             lvl3: "article h3",
-            lvl4: "",
             documents: {
               defaultValue: "ref",
             },
@@ -83,7 +82,6 @@ new Crawler({
             },
             lvl2: "article h2",
             lvl3: "article h3",
-            lvl4: "",
             documents: {
               defaultValue: "learn",
             },
@@ -112,7 +110,6 @@ new Crawler({
             },
             lvl2: "article h2",
             lvl3: "article h3",
-            lvl4: "",
             documents: {
               defaultValue: "ref",
             },
@@ -141,7 +138,6 @@ new Crawler({
             },
             lvl2: "article h2",
             lvl3: "article h3",
-            lvl4: "",
             documents: {
               defaultValue: "learn",
             },

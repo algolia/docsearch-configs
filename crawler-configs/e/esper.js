@@ -24,7 +24,6 @@ new Crawler({
             lvl2: ".theme-default-content h4",
             lvl3: ".theme-default-content h5",
             lvl4: ".theme-default-content h6",
-            lang: "",
           },
           indexHeadings: true,
         });

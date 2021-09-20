@@ -38,7 +38,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             version: {
               defaultValue: ["master"],
             },
@@ -67,7 +66,6 @@ new Crawler({
             lvl3: "section h3",
             lvl4: "section h4",
             lvl5: "section h5",
-            lang: "",
             version: {
               defaultValue: ["v1.12"],
             },
@@ -96,7 +94,6 @@ new Crawler({
             lvl3: "section h3",
             lvl4: "section h4",
             lvl5: "section h5",
-            lang: "",
             version: {
               defaultValue: ["v1.11"],
             },
@@ -125,7 +122,6 @@ new Crawler({
             lvl3: "section h3",
             lvl4: "section h4",
             lvl5: "section h5",
-            lang: "",
             version: {
               defaultValue: ["v1.10"],
             },
@@ -154,7 +150,6 @@ new Crawler({
             lvl3: "section h3",
             lvl4: "section h4",
             lvl5: "section h5",
-            lang: "",
             version: {
               defaultValue: ["v1.9.0"],
             },
@@ -183,7 +178,6 @@ new Crawler({
             lvl3: "section h3",
             lvl4: "section h4",
             lvl5: "section h5",
-            lang: "",
             version: {
               defaultValue: ["v1.8.2"],
             },

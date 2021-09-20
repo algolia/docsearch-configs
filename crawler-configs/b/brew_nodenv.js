@@ -32,7 +32,6 @@ new Crawler({
             lvl3: "#wrap h4",
             lvl4: "#wrap h5",
             lvl5: "#wrap h6",
-            lang: "",
             site: {
               defaultValue: ["formulae"],
             },
@@ -60,7 +59,6 @@ new Crawler({
             lvl3: "#wrap h4",
             lvl4: "#wrap h5",
             lvl5: "#wrap h6",
-            lang: "",
             site: {
               defaultValue: ["formulae"],
             },
@@ -88,7 +86,6 @@ new Crawler({
             lvl3: "#wrap h4",
             lvl4: "#wrap h5",
             lvl5: "#wrap h6",
-            lang: "",
             site: {
               defaultValue: ["formulae"],
             },
@@ -116,7 +113,6 @@ new Crawler({
             lvl3: "#wrap h4",
             lvl4: "#wrap h5",
             lvl5: "#wrap h6",
-            lang: "",
             site: {
               defaultValue: ["formulae"],
             },

@@ -31,7 +31,6 @@ new Crawler({
             lvl3: ".content__default h3",
             lvl4: ".content__default h4",
             lvl5: ".content__default h5",
-            lang: "",
             version: {
               defaultValue: ["2.1"],
             },
@@ -56,7 +55,6 @@ new Crawler({
             lvl3: ".content__default h3",
             lvl4: ".content__default h4",
             lvl5: ".content__default h5",
-            lang: "",
             version: {
               defaultValue: ["3.0"],
             },
@@ -81,7 +79,6 @@ new Crawler({
             lvl3: ".content__default h3",
             lvl4: ".content__default h4",
             lvl5: ".content__default h5",
-            lang: "",
             version: {
               defaultValue: ["3.1"],
             },

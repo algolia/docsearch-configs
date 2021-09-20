@@ -35,7 +35,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             tags: {
               defaultValue: ["accuterm"],
             },
@@ -60,7 +59,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             tags: {
               defaultValue: ["customer-portal"],
             },
@@ -85,7 +83,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             tags: {
               defaultValue: ["jbase"],
             },
@@ -110,7 +107,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             tags: {
               defaultValue: ["mv-connect"],
             },
@@ -135,7 +131,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             tags: {
               defaultValue: ["mv-dashboard"],
             },
@@ -160,7 +155,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             tags: {
               defaultValue: ["pos-connect"],
             },
@@ -185,7 +179,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             tags: {
               defaultValue: ["smartsuite"],
             },

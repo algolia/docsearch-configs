@@ -33,7 +33,6 @@ new Crawler({
             lvl3: ".mcont h3",
             lvl4: ".mcont h4",
             lvl5: ".mcont h5",
-            lang: "",
           },
           indexHeadings: true,
         });

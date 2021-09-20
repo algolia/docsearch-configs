@@ -40,7 +40,6 @@ new Crawler({
               defaultValue: "Blog",
             },
             lvl2: "#post h3:not(.author)",
-            lang: "",
             site: {
               defaultValue: ["brew"],
             },
@@ -67,7 +66,6 @@ new Crawler({
             lvl3: "#wrap h4",
             lvl4: "#wrap h5",
             lvl5: "#wrap h6",
-            lang: "",
             site: {
               defaultValue: ["brew"],
             },
@@ -92,7 +90,6 @@ new Crawler({
             lvl3: "#page h4, #page td:first-child",
             lvl4: "#page h5",
             lvl5: "#page h6",
-            lang: "",
             site: {
               defaultValue: ["docs"],
             },
@@ -117,7 +114,6 @@ new Crawler({
             lvl3: "#page h4",
             lvl4: "#page h5",
             lvl5: "#page h6",
-            lang: "",
             site: {
               defaultValue: ["formulae"],
             },
@@ -145,7 +141,6 @@ new Crawler({
             lvl3: "#default h4, #default .oldname",
             lvl4: "#default h5",
             lvl5: "#default h6",
-            lang: "",
             site: {
               defaultValue: ["formulae"],
             },
@@ -173,7 +168,6 @@ new Crawler({
             lvl3: "#default h4",
             lvl4: "#default h5",
             lvl5: "#default h6",
-            lang: "",
             site: {
               defaultValue: ["formulae"],
             },
@@ -198,7 +192,6 @@ new Crawler({
               defaultValue: "Formulae",
             },
             lvl2: "#page h2",
-            lang: "",
             site: {
               defaultValue: ["formulae"],
             },
@@ -223,7 +216,6 @@ new Crawler({
               defaultValue: "Formulae",
             },
             lvl2: "#wrap h2",
-            lang: "",
             site: {
               defaultValue: ["formulae"],
             },

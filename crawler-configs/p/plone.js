@@ -29,7 +29,6 @@ new Crawler({
             lvl0: {
               selectors: "",
             },
-            lvl2: "",
             lvl3: "section[role='main'] h1",
             lvl4: "section[role='main'] h2",
             lvl5:
@@ -54,7 +53,6 @@ new Crawler({
             lvl0: {
               selectors: "",
             },
-            lvl2: "",
             lvl3: "section[role='main'] h1",
             lvl4: "section[role='main'] h2",
             lvl5:
@@ -79,7 +77,6 @@ new Crawler({
             lvl0: {
               selectors: "",
             },
-            lvl2: "",
             lvl3: "section[role='main'] h1",
             lvl4: "section[role='main'] h2",
             lvl5:

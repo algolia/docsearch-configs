@@ -54,7 +54,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["js", "javascript", "nodejs"],
             },
@@ -84,7 +83,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["java", "android"],
             },
@@ -114,7 +112,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["swift", "ios", "iOS", "swift iOS", "swift cocoa"],
             },
@@ -144,7 +141,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["objective-c", "ios", "iOS", "cocoa"],
             },
@@ -174,7 +170,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["c#", "c-sharp"],
             },
@@ -204,7 +199,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["python"],
             },
@@ -236,7 +230,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["c", "c-core", "windows c", "posix c", "c++"],
             },
@@ -266,7 +259,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["unity"],
             },
@@ -296,7 +288,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["ruby"],
             },
@@ -326,7 +317,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["go", "golang"],
             },
@@ -530,7 +520,6 @@ new Crawler({
             lvl4: ".content .content h4",
             lvl5: ".content .content h5",
             lvl6: ".content .content h6",
-            sdk: "",
             tags: {
               defaultValue: ["docs", "documentation"],
             },

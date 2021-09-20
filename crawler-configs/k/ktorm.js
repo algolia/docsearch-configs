@@ -30,7 +30,6 @@ new Crawler({
             lvl3: "#page-content h4, .api-docs-table td:first-child",
             lvl4: "#page-content h5",
             lvl5: "#page-content h6",
-            lang: "",
             tags: {
               defaultValue: ["api-docs"],
             },
@@ -60,7 +59,6 @@ new Crawler({
             lvl4: ".dc-page h4",
             lvl5: ".dc-page h5",
             lvl6: ".dc-page h6",
-            lang: "",
             tags: {
               defaultValue: ["doc"],
             },

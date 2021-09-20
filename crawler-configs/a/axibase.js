@@ -33,7 +33,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4, .content table tr td:first-child",
             lvl5: ".content h5",
-            lang: "",
             tags: {
               defaultValue: ["atsd"],
             },
@@ -59,7 +58,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4, .content table tr td:first-child",
             lvl5: ".content h5",
-            lang: "",
             tags: {
               defaultValue: ["collector"],
             },
@@ -85,7 +83,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4, .content table tr td:first-child",
             lvl5: ".content h5",
-            lang: "",
             tags: {
               defaultValue: ["use-cases"],
             },
@@ -111,7 +108,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4, .content table tr td:first-child",
             lvl5: ".content h5",
-            lang: "",
             tags: {
               defaultValue: ["charts"],
             },

@@ -24,7 +24,6 @@ new Crawler({
               selectors: "p.sidebar-heading.open",
               defaultValue: "Documentation",
             },
-            lang: "",
           },
           indexHeadings: true,
         });

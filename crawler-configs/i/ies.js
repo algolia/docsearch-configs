@@ -33,7 +33,6 @@ new Crawler({
             },
             lvl2: ".post-type-page h1, .prodnom h1",
             lvl3: ".prodinfo > div > p",
-            lang: "",
             tags: {
               defaultValue: ["produit"],
             },
@@ -60,7 +59,6 @@ new Crawler({
             },
             lvl2: ".post-type-page h1, .prodnom h1",
             lvl3: ".prodinfo > div > p",
-            lang: "",
             tags: {
               defaultValue: ["produit"],
             },
@@ -86,7 +84,6 @@ new Crawler({
               defaultValue: "Equipe",
             },
             lvl2: ".flexitem span",
-            lang: "",
             tags: {
               defaultValue: ["team"],
             },
@@ -119,7 +116,6 @@ new Crawler({
             lvl3: ".post-type-page h4",
             lvl4: ".post-type-page h5",
             lvl5: ".post-type-page h6",
-            lang: "",
           },
           indexHeadings: true,
         });

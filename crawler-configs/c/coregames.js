@@ -24,7 +24,6 @@ new Crawler({
             lvl2: "article h3",
             lvl3: "article h4",
             lvl4: "article h5",
-            lang: "",
             tags: {
               defaultValue: ["api"],
             },
@@ -50,7 +49,6 @@ new Crawler({
             lvl2: "article h3",
             lvl3: "article h4",
             lvl4: "article h5",
-            lang: "",
           },
           indexHeadings: true,
         });

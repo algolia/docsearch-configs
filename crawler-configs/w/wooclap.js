@@ -47,7 +47,6 @@ new Crawler({
             lvl4: "main section h4",
             lvl5: "main section h5",
             lvl6: "main section h6",
-            lang: "",
             tags: {
               defaultValue: ["features"],
             },
@@ -73,7 +72,6 @@ new Crawler({
             lvl4: "main section h4",
             lvl5: "main section h5",
             lvl6: "main section h6",
-            lang: "",
             tags: {
               defaultValue: ["features"],
             },
@@ -99,7 +97,6 @@ new Crawler({
             lvl4: "main section h4",
             lvl5: "main section h5",
             lvl6: "main section h6",
-            lang: "",
             tags: {
               defaultValue: ["features"],
             },
@@ -127,7 +124,6 @@ new Crawler({
             lvl4: "main section h4",
             lvl5: "main section h5",
             lvl6: "main section h6",
-            lang: "",
             tags: {
               defaultValue: ["features"],
             },
@@ -153,7 +149,6 @@ new Crawler({
             lvl4: "main section h4",
             lvl5: "main section h5",
             lvl6: "main section h6",
-            lang: "",
             tags: {
               defaultValue: ["features"],
             },
@@ -206,7 +201,6 @@ new Crawler({
             lvl4: ".entry-content h4",
             lvl5: ".entry-content h5",
             lvl6: ".entry-content h6",
-            lang: "",
             tags: {
               defaultValue: ["blog"],
             },
@@ -233,7 +227,6 @@ new Crawler({
             lvl4: ".entry-content h4",
             lvl5: ".entry-content h5",
             lvl6: ".entry-content h6",
-            lang: "",
             tags: {
               defaultValue: ["blog"],
             },
@@ -260,7 +253,6 @@ new Crawler({
             lvl4: ".entry-content h4",
             lvl5: ".entry-content h5",
             lvl6: ".entry-content h6",
-            lang: "",
             tags: {
               defaultValue: ["blog"],
             },

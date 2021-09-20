@@ -34,7 +34,6 @@ new Crawler({
             lvl2: ".content h2",
             lvl3: ".content h3",
             lvl4: ".content h4",
-            lang: "",
             tags: {
               defaultValue: ["phoenix"],
             },
@@ -62,7 +61,6 @@ new Crawler({
             lvl2: ".content h2",
             lvl3: ".content h3",
             lvl4: ".content h4",
-            lang: "",
             tags: {
               defaultValue: ["aries"],
             },
@@ -90,7 +88,6 @@ new Crawler({
             lvl2: ".content h2",
             lvl3: ".content h3",
             lvl4: ".content h4",
-            lang: "",
             tags: {
               defaultValue: ["griffin"],
             },

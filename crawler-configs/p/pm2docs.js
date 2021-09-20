@@ -42,7 +42,6 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5",
             lvl6: "article h6",
-            language: "",
             tool: {
               defaultValue: ["runtime"],
             },
@@ -72,7 +71,6 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5",
             lvl6: "article h6",
-            language: "",
             tool: {
               defaultValue: ["plus"],
             },
@@ -102,7 +100,6 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5",
             lvl6: "article h6",
-            language: "",
             tool: {
               defaultValue: ["enterprise"],
             },
@@ -132,7 +129,6 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5",
             lvl6: "article h6",
-            language: "",
             tool: {
               defaultValue: ["runtime"],
             },
@@ -162,7 +158,6 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5",
             lvl6: "article h6",
-            language: "",
             tool: {
               defaultValue: ["plus"],
             },
@@ -192,7 +187,6 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5",
             lvl6: "article h6",
-            language: "",
             tool: {
               defaultValue: ["enterprise"],
             },
@@ -222,7 +216,6 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5",
             lvl6: "article h6",
-            language: "",
             tool: {
               defaultValue: ["usage"],
             },
@@ -252,7 +245,6 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5",
             lvl6: "article h6",
-            language: "",
             tool: {
               defaultValue: ["usage"],
             },

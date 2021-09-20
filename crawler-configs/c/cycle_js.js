@@ -27,7 +27,6 @@ new Crawler({
               selectors: "",
               defaultValue: "API reference",
             },
-            lvl2: "",
             lvl3: ".content h2",
             lvl4: ".content h3",
             lvl5: ".content h4",

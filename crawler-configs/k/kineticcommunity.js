@@ -32,7 +32,6 @@ new Crawler({
             },
             lvl2: ".breadcrumb .breadcrumb-item:nth-child(4):not(.active)",
             lvl3: ".community-content h1",
-            lvl4: "",
             tags: {
               defaultValue: ["Platform", "Admin Docs"],
             },
@@ -78,7 +77,6 @@ new Crawler({
             },
             lvl2: ".breadcrumb .breadcrumb-item:nth-child(4)",
             lvl3: ".breadcrumb .breadcrumb-item:nth-child(5)",
-            lvl4: "",
             tags: {
               defaultValue: ["Integrations", "plugins", "Plugins"],
             },
@@ -101,7 +99,6 @@ new Crawler({
             },
             lvl2: ".breadcrumb .breadcrumb-item:nth-child(4):not(.active)",
             lvl3: ".community-content h1",
-            lvl4: "",
             tags: {
               defaultValue: ["Support"],
             },
@@ -124,7 +121,6 @@ new Crawler({
             },
             lvl2: ".breadcrumb .breadcrumb-item:nth-child(4):not(.active)",
             lvl3: ".community-content h1",
-            lvl4: "",
             tags: {
               defaultValue: ["Events"],
             },
@@ -147,7 +143,6 @@ new Crawler({
             },
             lvl2: ".breadcrumb .breadcrumb-item:nth-child(4):not(.active)",
             lvl3: ".community-content h1",
-            lvl4: "",
             tags: {
               defaultValue: ["Training"],
             },

@@ -29,7 +29,6 @@ new Crawler({
             lvl3: ".content__default h3",
             lvl4: ".content__default h4",
             lvl5: ".content__default h5",
-            lang: "",
             tags: {
               defaultValue: ["v1"],
             },
@@ -54,7 +53,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             tags: {
               defaultValue: ["v2"],
             },

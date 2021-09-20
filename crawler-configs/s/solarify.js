@@ -29,7 +29,6 @@ new Crawler({
             lvl3: "article h4",
             lvl4: "article h5",
             lvl5: "article h6",
-            lang: "",
           },
           indexHeadings: true,
         });
@@ -50,7 +49,6 @@ new Crawler({
             lvl3: "article h4",
             lvl4: "article h5",
             lvl5: "article h6",
-            lang: "",
           },
           indexHeadings: true,
         });

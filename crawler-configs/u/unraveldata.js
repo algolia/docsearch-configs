@@ -23,7 +23,6 @@ new Crawler({
                 "section[data-topic-level] > .titlepage h6, section[data-topic-level] > .titlepage h5",
             },
             lvl2: "section h3",
-            lang: "",
           },
           indexHeadings: true,
         });

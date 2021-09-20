@@ -27,7 +27,6 @@ new Crawler({
             },
             lvl2: "main h3",
             lvl3: "main h4",
-            lang: "",
           },
           indexHeadings: true,
         });

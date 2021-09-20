@@ -25,7 +25,6 @@ new Crawler({
             lvl2: ".post h2",
             lvl3: ".post h3",
             lvl4: ".post h4",
-            tags: "",
           },
           indexHeadings: true,
         });

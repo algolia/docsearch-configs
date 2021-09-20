@@ -31,7 +31,6 @@ new Crawler({
             },
             lvl2: ".theme-default-content h3",
             lvl3: ".theme-default-content h4",
-            lang: "",
           },
           indexHeadings: true,
         });

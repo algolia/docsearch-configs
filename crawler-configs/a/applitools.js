@@ -32,7 +32,6 @@ new Crawler({
             lvl2: "#document-body h3",
             lvl3: "#document-body h4",
             lvl4: "#document-body h5",
-            lang: "",
             tags: {
               defaultValue: ["docs"],
             },
@@ -59,7 +58,6 @@ new Crawler({
             lvl2: ".content h3",
             lvl3: ".content h4",
             lvl4: ".content h5",
-            lang: "",
             tags: {
               defaultValue: ["tutorials"],
             },

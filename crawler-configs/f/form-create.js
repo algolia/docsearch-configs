@@ -25,7 +25,6 @@ new Crawler({
             lvl3: "[class*='content '] h4",
             lvl4: "[class*='content '] h5",
             lvl5: "[class*='content '] h5",
-            lang: "",
             tags: {
               defaultValue: ["v2"],
             },
@@ -51,7 +50,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5",
-            lang: "",
             tags: {
               defaultValue: ["v1"],
             },

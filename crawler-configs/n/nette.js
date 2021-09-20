@@ -39,8 +39,6 @@ new Crawler({
             lvl3: ".wiki h4",
             lvl4: ".wiki h5",
             lvl5: ".wiki h6",
-            lang: "",
-            version: "",
           },
           indexHeadings: true,
         });
@@ -61,8 +59,6 @@ new Crawler({
             lvl3: ".wiki h4",
             lvl4: ".wiki h5",
             lvl5: ".wiki h6",
-            lang: "",
-            version: "",
           },
           indexHeadings: true,
         });
@@ -83,8 +79,6 @@ new Crawler({
             lvl3: ".wiki h4",
             lvl4: ".wiki h5",
             lvl5: ".wiki h6",
-            lang: "",
-            version: "",
           },
           indexHeadings: true,
         });
@@ -105,8 +99,6 @@ new Crawler({
             lvl3: ".wiki h4",
             lvl4: ".wiki h5",
             lvl5: ".wiki h6",
-            lang: "",
-            version: "",
           },
           indexHeadings: true,
         });
@@ -127,8 +119,6 @@ new Crawler({
             lvl3: ".wiki h4",
             lvl4: ".wiki h5",
             lvl5: ".wiki h6",
-            lang: "",
-            version: "",
           },
           indexHeadings: true,
         });
@@ -149,8 +139,6 @@ new Crawler({
             lvl3: ".wiki h4",
             lvl4: ".wiki h5",
             lvl5: ".wiki h6",
-            lang: "",
-            version: "",
           },
           indexHeadings: true,
         });

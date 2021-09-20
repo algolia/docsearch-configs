@@ -43,7 +43,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5",
-            language: "",
             tags: {
               defaultValue: ["migration"],
             },
@@ -68,7 +67,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5",
-            language: "",
             tags: {
               defaultValue: ["guide"],
             },
@@ -93,7 +91,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5",
-            language: "",
             tags: {
               defaultValue: ["api"],
             },
@@ -120,7 +117,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5",
-            language: "",
             tags: {
               defaultValue: ["migration"],
             },
@@ -145,7 +141,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5",
-            language: "",
             tags: {
               defaultValue: ["guide"],
             },
@@ -170,7 +165,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5",
-            language: "",
             tags: {
               defaultValue: ["api"],
             },

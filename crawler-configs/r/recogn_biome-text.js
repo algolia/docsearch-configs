@@ -41,7 +41,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             version: {
               defaultValue: ["master"],
             },
@@ -70,7 +69,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             version: {
               defaultValue: ["v3.2.1"],
             },
@@ -99,7 +97,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             version: {
               defaultValue: ["v3.2.0"],
             },
@@ -128,7 +125,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             version: {
               defaultValue: ["v3.1.0"],
             },
@@ -157,7 +153,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             version: {
               defaultValue: ["v3.0.0"],
             },
@@ -186,7 +181,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             version: {
               defaultValue: ["v2.2.0"],
             },
@@ -215,7 +209,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             version: {
               defaultValue: ["v2.1.0"],
             },
@@ -244,7 +237,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             version: {
               defaultValue: ["v2.0.0"],
             },
@@ -273,7 +265,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            lang: "",
             version: {
               defaultValue: ["v1.0.0"],
             },

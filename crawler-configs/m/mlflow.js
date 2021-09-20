@@ -28,7 +28,6 @@ new Crawler({
             lvl0: {
               selectors: "[itemprop='articleBody'] h1",
             },
-            lvl2: "",
             lvl3: "[itemprop='articleBody'] h4",
             lvl4: "[itemprop='articleBody'] h5",
           },
@@ -47,7 +46,6 @@ new Crawler({
             lvl0: {
               selectors: "[itemprop='articleBody'] h1",
             },
-            lvl2: "",
             lvl3: "[itemprop='articleBody'] h4",
             lvl4: "[itemprop='articleBody'] h5",
           },
@@ -66,7 +64,6 @@ new Crawler({
             lvl0: {
               selectors: "[itemprop='articleBody'] h1",
             },
-            lvl2: "",
             lvl3: "[itemprop='articleBody'] h4",
             lvl4: "[itemprop='articleBody'] h5",
           },
@@ -85,7 +82,6 @@ new Crawler({
             lvl0: {
               selectors: "[itemprop='articleBody'] h1",
             },
-            lvl2: "",
             lvl3: "[itemprop='articleBody'] h4",
             lvl4: "[itemprop='articleBody'] h5",
           },
@@ -104,7 +100,6 @@ new Crawler({
             lvl0: {
               selectors: "[itemprop='articleBody'] h1",
             },
-            lvl2: "",
             lvl3: "[itemprop='articleBody'] h4",
             lvl4: "[itemprop='articleBody'] h5",
           },

@@ -34,7 +34,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5, .content p.custom-block-title",
-            lang: "",
             tags: {
               defaultValue: ["guide"],
             },
@@ -59,7 +58,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5, .content p.custom-block-title",
-            lang: "",
             tags: {
               defaultValue: ["tools"],
             },
@@ -84,7 +82,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5, .content p.custom-block-title",
-            lang: "",
             tags: {
               defaultValue: ["docs"],
             },
@@ -109,7 +106,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5, .content p.custom-block-title",
-            lang: "",
             tags: {
               defaultValue: ["guide"],
             },
@@ -134,7 +130,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5, .content p.custom-block-title",
-            lang: "",
             tags: {
               defaultValue: ["tools"],
             },
@@ -159,7 +154,6 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5, .content p.custom-block-title",
-            lang: "",
             tags: {
               defaultValue: ["docs"],
             },

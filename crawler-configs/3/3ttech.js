@@ -30,7 +30,6 @@ new Crawler({
             lvl4: ".tabs-item.act",
             lvl5: ".theme-default-content h2",
             lvl6: ".theme-default-content h3",
-            lang: "",
           },
           indexHeadings: true,
         });

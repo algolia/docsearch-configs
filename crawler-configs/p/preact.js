@@ -30,7 +30,6 @@ new Crawler({
             lvl3: "main h3",
             lvl4: "main h4",
             lvl5: "main h5",
-            lang: "",
             version: {
               defaultValue: ["v8"],
             },
@@ -55,7 +54,6 @@ new Crawler({
             lvl3: "main h3",
             lvl4: "main h4",
             lvl5: "main h5",
-            lang: "",
             version: {
               defaultValue: ["v10"],
             },

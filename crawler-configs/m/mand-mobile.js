@@ -28,7 +28,6 @@ new Crawler({
             lvl4:
               ".doc-content-paragraph h5, .doc-content-paragraph td:first-child",
             lvl5: ".doc-content-paragraph h6",
-            lang: "",
           },
           indexHeadings: true,
         });

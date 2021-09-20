@@ -28,7 +28,6 @@ new Crawler({
             lvl3: "article h4, article td:first-child",
             lvl4: "article h5",
             lvl5: "article h6",
-            lang: "",
           },
           indexHeadings: { from: 1, to: 6 },
         });
