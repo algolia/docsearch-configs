@@ -82,6 +82,7 @@
   "stop_urls": [
     "/search",
     "/changelog/tags",
+    "/sdk/php/",
     "https://developers.xsolla.com/changelog/$",
     "https://developers.xsolla.com/ru/changelog/$",
     "https://developers.xsolla.com/de/changelog/$",

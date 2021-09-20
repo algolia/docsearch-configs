@@ -1,11 +1,12 @@
 {
-  "index_name": "fbt",
+  "index_name": "techinterviewhandbook",
   "start_urls": [
-    "https://facebook.github.io/fbt/"
+    "https://techinterviewhandbook.org/"
   ],
   "sitemap_urls": [
-    "https://facebook.github.io/fbt/sitemap.xml"
+    "https://techinterviewhandbook.org/sitemap.xml"
   ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -19,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1087985078"
+    "1632986580"
   ],
-  "nb_hits": 258
+  "nb_hits": 2157
 }
