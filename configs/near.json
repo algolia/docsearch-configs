@@ -1,14 +1,8 @@
 {
   "index_name": "near",
   "start_urls": [
-    {
-      "url": "https://docs.near.org/docs/",
-      "selectors_key": "docs"
-    },
-    {
-      "url": "https://www.near-sdk.io/",
-      "selectors_key": "sdk-docs"
-    }
+    "https://docs.near.org/docs/",
+    "https://www.near-sdk.io/"
   ],
   "sitemap_urls": [
     "https://docs.near.org/sitemap.xml",
@@ -17,48 +11,29 @@
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "docs": {
-      "lvl0": {
-        "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": ".post h1",
-      "lvl2": ".post h2",
-      "lvl3": ".post h3",
-      "lvl4": ".post h4",
-      "lvl5": ".post h5",
-      "text": ".post article p, .post article li"
+    "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
     },
-    "sdk-docs": {
-      "lvl0": {
-        "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": "header h1",
-      "lvl2": "article h2",
-      "lvl3": "article h3",
-      "lvl4": "article h4",
-      "lvl5": "article h5, article td:first-child",
-      "lvl6": "article h6",
-      "text": "article p, article li, article td:last-child"
-    }
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
-  "selectors_exclude": [
-    ".hash-link"
-  ],
   "custom_settings": {
+    "separatorsToIndex": "_",
     "attributesForFaceting": [
       "language",
       "version",
       "type",
       "docusaurus_tag"
     ],
-    "separatorsToIndex": "_",
     "attributesToRetrieve": [
       "hierarchy",
       "content",
