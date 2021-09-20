@@ -14,7 +14,8 @@
           "n"
         ]
       }
-    }
+    },
+    "https://nx.dev/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
@@ -40,5 +41,5 @@
   "conversation_id": [
     "1152538732"
   ],
-  "nb_hits": 8867
+  "nb_hits": 52776
 }
