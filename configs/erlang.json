@@ -5,25 +5,19 @@
       "url": "https://beta.erlang.org/doc/man/",
       "selectors_key": "man",
       "page_rank": 3,
-      "tags": [
-        "man"
-      ]
+      "tags": ["man"]
     },
     {
       "url": "https://beta.erlang.org/doc/reference_manual/",
       "selectors_key": "guide",
       "page_rank": 2,
-      "tags": [
-        "refman"
-      ]
+      "tags": ["refman"]
     },
     {
       "url": "https://beta.erlang.org/doc/",
       "selectors_key": "guide",
       "page_rank": 1,
-      "tags": [
-        "guide"
-      ]
+      "tags": ["guide"]
     }
   ],
   "stop_urls": [
@@ -31,32 +25,10 @@
     ".*/notes\\.html",
     ".*/index\\.html",
     ".*/release_notes\\.html",
-    "\\.dtd",
-    "\\.hrl",
-    "\\.erl"
+    "\\.dtd$",
+    "\\.hrl$",
+    "\\.erl$"
   ],
-  "custom_settings": {
-    "separatorsToIndex": "_",
-    "searchableAttributes": [
-      "unordered(hierarchy_radio_camel.lvl1)",
-      "unordered(hierarchy_radio.lvl1)",
-      "hierarchy_radio_camel.lvl2",
-      "hierarchy_radio.lvl2",
-      "unordered(hierarchy_radio_camel.lvl0)",
-      "unordered(hierarchy_radio.lvl0)",
-      "unordered(hierarchy_radio_camel.lvl3)",
-      "unordered(hierarchy_radio.lvl3)",
-      "unordered(hierarchy_camel.lvl0)",
-      "unordered(hierarchy.lvl0)",
-      "unordered(hierarchy_camel.lvl1)",
-      "unordered(hierarchy.lvl1)",
-      "unordered(hierarchy_camel.lvl2)",
-      "unordered(hierarchy.lvl2)",
-      "unordered(hierarchy_camel.lvl3)",
-      "unordered(hierarchy.lvl3)",
-      "content"
-    ]
-  },
   "selectors": {
     "man": {
       "lvl0": {
@@ -79,8 +51,28 @@
     }
   },
   "min_indexed_level": 1,
-  "conversation_id": [
-    "1626059096"
-  ],
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "searchableAttributes": [
+      "unordered(hierarchy_radio_camel.lvl1)",
+      "unordered(hierarchy_radio.lvl1)",
+      "hierarchy_radio_camel.lvl2",
+      "hierarchy_radio.lvl2",
+      "unordered(hierarchy_radio_camel.lvl0)",
+      "unordered(hierarchy_radio.lvl0)",
+      "unordered(hierarchy_radio_camel.lvl3)",
+      "unordered(hierarchy_radio.lvl3)",
+      "unordered(hierarchy_camel.lvl0)",
+      "unordered(hierarchy.lvl0)",
+      "unordered(hierarchy_camel.lvl1)",
+      "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy_camel.lvl2)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy_camel.lvl3)",
+      "unordered(hierarchy.lvl3)",
+      "content"
+    ]
+  },
+  "conversation_id": ["1626059096"],
   "nb_hits": 108693
 }
