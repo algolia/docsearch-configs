@@ -1,23 +1,23 @@
 {
   "index_name": "ueberdosis_tiptap",
   "start_urls": [
-    "https://www.tiptap.dev/"
+    "https://tiptap.dev/"
   ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "//nav[contains(@class,'app__sidebar')]//*[contains(@class,'active')]/preceding::*[contains(@class,'title')][1]",
+      "selector": "//nav[contains(@class,'docsearch-sidebar')]//*[contains(@class,'docsearch-active')]/preceding::*[contains(@class,'title')][1]",
       "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".app__main h1",
-    "lvl2": ".app__main h2",
-    "lvl3": ".app__main h3",
-    "lvl4": ".app__main h4",
-    "lvl5": ".app__main h5",
-    "lvl6": ".app__main h6",
-    "text": ".app__main p, .app__main li, .app__main pre, .app__main td"
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "lvl6": "main h6",
+    "text": "main p, main li, main pre, main td"
   },
   "strip_chars": " .,;:#",
   "conversation_id": [
