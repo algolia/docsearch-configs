@@ -1,14 +1,8 @@
 {
   "index_name": "near",
   "start_urls": [
-    {
-      "url": "https://docs.near.org/docs/",
-      "selectors_key": "docs"
-    },
-    {
-      "url": "https://www.near-sdk.io/",
-      "selectors_key": "sdk-docs"
-    }
+    "https://docs.near.org/docs/",
+    "https://www.near-sdk.io/",
   ],
   "sitemap_urls": [
     "https://docs.near.org/sitemap.xml",
