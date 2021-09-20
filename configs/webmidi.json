@@ -1,12 +1,5 @@
 {
   "index_name": "webmidi",
-  
-  "sitemap_urls": [
-    "https://djipco.github.io/webmidi/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
-  "stop_urls": [],
-  
   "start_urls": [
     {
       "url": "https://djipco.github.io/webmidi/api/",
@@ -16,11 +9,15 @@
       "url": "https://djipco.github.io/webmidi/docs/",
       "selectors_key": "docs"
     },
-    "https://djipco.github.io/webmidi/"
+    "https://djipco.github.io/webmidi/",
+    "https://djipco.github.io/webmidi/api/classes/Input"
   ],
-
+  "sitemap_urls": [
+    "https://djipco.github.io/webmidi/sitemap.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
   "selectors": {
-    
     "default": {
       "lvl0": {
         "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -35,7 +32,6 @@
       "lvl5": "article h5, article td:first-child",
       "text": "article p, article li, article td:last-child"
     },
-    
     "docs": {
       "lvl0": "article header:first-of-type h1",
       "lvl1": "article h2",
@@ -44,9 +40,7 @@
       "lvl4": "article h5",
       "text": "article p, article li, article table td"
     }
-
   },
-  
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
@@ -68,5 +62,5 @@
   "conversation_id": [
     "1614121789"
   ],
-  "nb_hits": 24
+  "nb_hits": 3396
 }
