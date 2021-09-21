@@ -1,6 +1,11 @@
 {
   "index_name": "httpie",
   "start_urls": ["https://httpie.io/docs"],
+  "stop_urls": [
+    {
+      "url": "https://httpie.io/docs/.+"
+    }
+  ],
   "selectors": {
     "lvl0": {
       "selector": "",
