@@ -1,6 +1,10 @@
 {
   "index_name": "material-ui",
   "start_urls": [
+    {
+      "url": "https://mui.com/components/",
+      "page_rank": 10
+    },
     "https://mui.com",
     "https://v3.mui.com",
     "https://v4.mui.com"
@@ -22,7 +26,9 @@
     "lvl4": ".markdown-body h4",
     "text": ".markdown-body p, .markdown-body li, .markdown-body table td:last-child"
   },
-  "only_content_level": true,
+  "selectors_exclude": [
+    ".exclude-docsearch-indexing"
+  ],
   "conversation_id": [
     "357227758"
   ],
