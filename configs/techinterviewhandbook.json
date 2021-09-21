@@ -1,12 +1,10 @@
 {
-  "index_name": "near",
+  "index_name": "techinterviewhandbook",
   "start_urls": [
-    "https://docs.near.org/docs/",
-    "https://www.near-sdk.io/"
+    "https://techinterviewhandbook.org/"
   ],
   "sitemap_urls": [
-    "https://docs.near.org/sitemap.xml",
-    "https://www.near-sdk.io/sitemap.xml"
+    "https://techinterviewhandbook.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -22,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -44,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "962097459"
+    "1632986580"
   ],
-  "nb_hits": 6319
+  "nb_hits": 2157
 }
