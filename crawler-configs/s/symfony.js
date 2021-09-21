@@ -67,6 +67,7 @@ new Crawler({
             tags: {
               defaultValue: ["bundles"],
             },
+            pageRank: "50",
           },
           indexHeadings: true,
         });
@@ -97,6 +98,7 @@ new Crawler({
             tags: {
               defaultValue: ["bundles"],
             },
+            pageRank: "50",
           },
           indexHeadings: true,
         });
@@ -124,6 +126,7 @@ new Crawler({
             version: {
               defaultValue: ["2.0"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -151,6 +154,7 @@ new Crawler({
             version: {
               defaultValue: ["2.1"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -178,6 +182,7 @@ new Crawler({
             version: {
               defaultValue: ["2.2"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -205,6 +210,7 @@ new Crawler({
             version: {
               defaultValue: ["2.3"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -232,6 +238,7 @@ new Crawler({
             version: {
               defaultValue: ["2.4"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -259,6 +266,7 @@ new Crawler({
             version: {
               defaultValue: ["2.5"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -286,6 +294,7 @@ new Crawler({
             version: {
               defaultValue: ["2.6"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -313,6 +322,7 @@ new Crawler({
             version: {
               defaultValue: ["2.7"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -340,6 +350,7 @@ new Crawler({
             version: {
               defaultValue: ["2.8"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -367,6 +378,7 @@ new Crawler({
             version: {
               defaultValue: ["3.0"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -394,6 +406,7 @@ new Crawler({
             version: {
               defaultValue: ["3.1"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -421,6 +434,7 @@ new Crawler({
             version: {
               defaultValue: ["3.2"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -448,6 +462,7 @@ new Crawler({
             version: {
               defaultValue: ["3.3"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -475,6 +490,7 @@ new Crawler({
             version: {
               defaultValue: ["3.4"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -502,6 +518,7 @@ new Crawler({
             version: {
               defaultValue: ["4.0"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -529,6 +546,7 @@ new Crawler({
             version: {
               defaultValue: ["4.1"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -556,6 +574,7 @@ new Crawler({
             version: {
               defaultValue: ["4.2"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -583,6 +602,7 @@ new Crawler({
             version: {
               defaultValue: ["4.3"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -610,6 +630,7 @@ new Crawler({
             version: {
               defaultValue: ["4.4"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -637,6 +658,7 @@ new Crawler({
             version: {
               defaultValue: ["5.0"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -664,6 +686,7 @@ new Crawler({
             version: {
               defaultValue: ["5.1"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -691,6 +714,7 @@ new Crawler({
             version: {
               defaultValue: ["5.2"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -718,6 +742,7 @@ new Crawler({
             version: {
               defaultValue: ["current"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -745,6 +770,7 @@ new Crawler({
             version: {
               defaultValue: ["master"],
             },
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -772,6 +798,7 @@ new Crawler({
             tags: {
               defaultValue: ["bundles"],
             },
+            pageRank: "50",
           },
           indexHeadings: true,
         });

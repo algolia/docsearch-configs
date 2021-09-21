@@ -23,8 +23,7 @@ new Crawler({
               selectors: ".api-information h2, .folder-name",
             },
             lvl2: ".api-information h4",
-            lvl3:
-              ".api-information h5, .api-information table td:first-of-type",
+            lvl3: ".api-information h5, .api-information table td:first-of-type",
           },
           indexHeadings: true,
         });

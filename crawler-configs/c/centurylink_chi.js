@@ -23,8 +23,7 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              "header.docs-titlebar h1.docs-titlebar__title, .docs-body__content h1",
+            lvl1: "header.docs-titlebar h1.docs-titlebar__title, .docs-body__content h1",
             content:
               "header.docs-titlebar .docs-titlebar__description, section.chi-grid__container p, section.chi-grid__container .chi-tab__description, section.chi-table, section.chi-grid__container li, .docs-body__content p, .docs-body__content li",
             lvl0: {

@@ -72,6 +72,7 @@ new Crawler({
             tags: {
               defaultValue: ["tutorials"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -100,6 +101,7 @@ new Crawler({
             tags: {
               defaultValue: ["docs"],
             },
+            pageRank: "2",
           },
           indexHeadings: true,
         });

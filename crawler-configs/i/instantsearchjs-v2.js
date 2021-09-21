@@ -41,8 +41,7 @@ new Crawler({
             },
             lvl2: ".documentation-container h2",
             lvl3: ".documentation-container h3",
-            lvl4:
-              ".documentation-container h4, .documentation-container ul.struct-def li strong",
+            lvl4: ".documentation-container h4, .documentation-container ul.struct-def li strong",
           },
           indexHeadings: true,
         });
@@ -68,8 +67,7 @@ new Crawler({
             },
             lvl2: ".documentation-container h2",
             lvl3: ".documentation-container h3",
-            lvl4:
-              ".documentation-container h4, .documentation-container ul.struct-def li strong",
+            lvl4: ".documentation-container h4, .documentation-container ul.struct-def li strong",
           },
           indexHeadings: true,
         });
@@ -95,8 +93,7 @@ new Crawler({
             },
             lvl2: ".documentation-container h2",
             lvl3: ".documentation-container h3",
-            lvl4:
-              ".documentation-container h4, .documentation-container ul.struct-def li strong",
+            lvl4: ".documentation-container h4, .documentation-container ul.struct-def li strong",
           },
           indexHeadings: true,
         });
@@ -125,8 +122,7 @@ new Crawler({
             },
             lvl2: ".documentation-container h2",
             lvl3: ".documentation-container h3",
-            lvl4:
-              ".documentation-container h4, .documentation-container ul.struct-def li strong",
+            lvl4: ".documentation-container h4, .documentation-container ul.struct-def li strong",
           },
           indexHeadings: true,
         });

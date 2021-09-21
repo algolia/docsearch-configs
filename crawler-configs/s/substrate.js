@@ -36,6 +36,7 @@ new Crawler({
             lvl3: ".post h3",
             lvl4: ".post h4",
             lvl5: ".post h5",
+            pageRank: "100",
           },
           indexHeadings: true,
         });
@@ -60,6 +61,7 @@ new Crawler({
             lvl3: ".mainContainer h3",
             lvl4: ".mainContainer h4",
             lvl5: ".mainContainer h5",
+            pageRank: "75",
           },
           indexHeadings: true,
         });
@@ -84,6 +86,7 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             lvl5: ".content h5",
+            pageRank: "50",
           },
           indexHeadings: true,
         });
@@ -106,6 +109,7 @@ new Crawler({
             },
             lvl2: ".docblock h2 a",
             lvl3: ".docblock h3 a",
+            pageRank: "25",
           },
           indexHeadings: true,
         });
@@ -131,6 +135,7 @@ new Crawler({
             lvl3: ".post h3",
             lvl4: ".post h4",
             lvl5: ".post h5",
+            pageRank: "10",
           },
           indexHeadings: true,
         });

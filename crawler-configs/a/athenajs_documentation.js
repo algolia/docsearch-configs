@@ -19,8 +19,7 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              "#docma-content h2, .symbol-container.class .symbol-heading .symbol-name",
+            lvl1: "#docma-content h2, .symbol-container.class .symbol-heading .symbol-name",
             content:
               "#docma-content p, .symbol-container p, #docma-content li, .symbol-container li",
             lvl0: {

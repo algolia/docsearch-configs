@@ -37,6 +37,7 @@ new Crawler({
             tags: {
               defaultValue: ["v8"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });

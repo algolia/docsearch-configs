@@ -108,6 +108,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -137,6 +138,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -166,6 +168,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -195,6 +198,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -224,6 +228,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -253,6 +258,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -282,6 +288,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "6",
           },
           indexHeadings: true,
         });
@@ -311,6 +318,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "6",
           },
           indexHeadings: true,
         });
@@ -340,6 +348,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "6",
           },
           indexHeadings: true,
         });
@@ -369,6 +378,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "6",
           },
           indexHeadings: true,
         });
@@ -398,6 +408,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "6",
           },
           indexHeadings: true,
         });
@@ -427,6 +438,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "6",
           },
           indexHeadings: true,
         });
@@ -456,6 +468,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -485,6 +498,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -514,6 +528,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -543,6 +558,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -572,6 +588,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -601,6 +618,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -630,6 +648,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -659,6 +678,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -688,6 +708,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -717,6 +738,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -746,6 +768,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -775,6 +798,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -804,6 +828,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -833,6 +858,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -862,6 +888,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -891,6 +918,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -920,6 +948,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -949,6 +978,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "18",
           },
           indexHeadings: true,
         });
@@ -978,6 +1008,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -1007,6 +1038,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -1036,6 +1068,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -1065,6 +1098,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -1094,6 +1128,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -1123,6 +1158,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -1152,6 +1188,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "12",
           },
           indexHeadings: true,
         });
@@ -1181,6 +1218,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "12",
           },
           indexHeadings: true,
         });
@@ -1210,6 +1248,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "12",
           },
           indexHeadings: true,
         });
@@ -1239,6 +1278,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "12",
           },
           indexHeadings: true,
         });
@@ -1268,6 +1308,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "12",
           },
           indexHeadings: true,
         });
@@ -1297,6 +1338,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "12",
           },
           indexHeadings: true,
         });
@@ -1326,6 +1368,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -1355,6 +1398,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -1384,6 +1428,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -1413,6 +1458,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -1442,6 +1488,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -1471,6 +1518,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "16",
           },
           indexHeadings: true,
         });
@@ -1500,6 +1548,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1529,6 +1578,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1558,6 +1608,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1587,6 +1638,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1616,6 +1668,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1645,6 +1698,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1674,6 +1728,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1703,6 +1758,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1732,6 +1788,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1761,6 +1818,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1790,6 +1848,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1819,6 +1878,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "14",
           },
           indexHeadings: true,
         });
@@ -1848,6 +1908,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });
@@ -1877,6 +1938,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });
@@ -1906,6 +1968,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });
@@ -1935,6 +1998,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });
@@ -1964,6 +2028,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });
@@ -1993,6 +2058,7 @@ new Crawler({
             lang: {
               defaultValue: ["en"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });

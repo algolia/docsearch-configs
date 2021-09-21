@@ -30,8 +30,7 @@ new Crawler({
               selectors: ".content__default h1",
             },
             lvl2: ".content__default p, .content__default li",
-            lvl3:
-              ".content__default h4, .content__default h5, .content__default .class-sig, .content__default .class-sig .prefect-class",
+            lvl3: ".content__default h4, .content__default h5, .content__default .class-sig, .content__default .class-sig .prefect-class",
           },
           indexHeadings: { from: 1, to: 6 },
         });

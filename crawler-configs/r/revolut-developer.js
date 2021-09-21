@@ -7,7 +7,7 @@ new Crawler({
     "https://developer.revolut.com/",
     "https://developer.revolut.com/docs/",
   ],
-  renderJavaScript: false,
+  renderJavaScript: true,
   sitemaps: ["https://developer.revolut.com/sitemap.xml"],
   exclusionPatterns: ["**/tests**", "**/tests**/**"],
   ignoreCanonicalTo: true,

@@ -34,6 +34,7 @@ new Crawler({
             version: {
               defaultValue: ["master"],
             },
+            pageRank: "5",
           },
           indexHeadings: { from: 1, to: 6 },
         });
@@ -57,6 +58,7 @@ new Crawler({
             version: {
               defaultValue: ["2.x"],
             },
+            pageRank: "5",
           },
           indexHeadings: { from: 1, to: 6 },
         });
@@ -80,6 +82,7 @@ new Crawler({
             version: {
               defaultValue: ["1.x"],
             },
+            pageRank: "5",
           },
           indexHeadings: { from: 1, to: 6 },
         });
@@ -100,6 +103,7 @@ new Crawler({
             lvl3: ".docsearch-content h4",
             lvl4: ".docsearch-content h5",
             lvl5: ".docsearch-content h6",
+            pageRank: "4",
           },
           indexHeadings: { from: 1, to: 6 },
         });

@@ -34,6 +34,7 @@ new Crawler({
             lvl3: ".content-wrapper h3",
             lvl4: ".content-wrapper h4",
             lvl5: ".content-wrapper h5",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -56,6 +57,7 @@ new Crawler({
             lvl3: ".content-wrapper h3",
             lvl4: ".content-wrapper h4",
             lvl5: ".content-wrapper h5",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -78,6 +80,7 @@ new Crawler({
             lvl3: ".content-wrapper h3",
             lvl4: ".content-wrapper h4",
             lvl5: ".content-wrapper h5",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -100,6 +103,7 @@ new Crawler({
             lvl3: ".content-wrapper h3",
             lvl4: ".content-wrapper h4",
             lvl5: ".content-wrapper h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -122,6 +126,7 @@ new Crawler({
             lvl3: ".content-wrapper h3",
             lvl4: ".content-wrapper h4",
             lvl5: ".content-wrapper h5",
+            pageRank: "2",
           },
           indexHeadings: true,
         });

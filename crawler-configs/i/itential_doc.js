@@ -42,6 +42,7 @@ new Crawler({
             lvl3: ".markdown-doc .content-body h2",
             lvl4: ".markdown-doc .content-body h3",
             version: ".release-select .dropdown-container",
+            pageRank: "3",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -65,6 +66,7 @@ new Crawler({
             },
             lvl2: ".api-method-doc h1.content-title",
             version: ".release-select .dropdown-container",
+            pageRank: "3",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -89,6 +91,7 @@ new Crawler({
             lvl3: ".markdown-doc .content-body h2",
             lvl4: ".markdown-doc .content-body h3",
             version: ".release-select .dropdown-container",
+            pageRank: "3",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -112,6 +115,7 @@ new Crawler({
             lvl2: ".markdown-doc .content-body h2",
             lvl3: ".markdown-doc .content-body h3",
             version: ".release-select .dropdown-container",
+            pageRank: "4",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -135,6 +139,7 @@ new Crawler({
             lvl2: ".markdown-doc h1.content-title",
             lvl3: ".markdown-doc .content-body > h2",
             version: ".release-select .dropdown-container",
+            pageRank: "3",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -159,6 +164,7 @@ new Crawler({
             lvl3: ".markdown-doc .content-body h2",
             lvl4: ".markdown-doc .content-body h3",
             version: ".release-select .dropdown-container",
+            pageRank: "3",
           },
           indexHeadings: { from: 2, to: 6 },
         });

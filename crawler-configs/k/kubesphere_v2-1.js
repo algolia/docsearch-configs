@@ -20,8 +20,7 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              "ol[class^='chapter__'] li[class^='chapter__'] a.selected-link h5",
+            lvl1: "ol[class^='chapter__'] li[class^='chapter__'] a.selected-link h5",
             content: "div.md-body li, div.md-body p, div.md-body div p",
             lvl0: {
               selectors: "",
@@ -44,8 +43,7 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              "ol[class^='chapter__'] li[class^='chapter__'] a.selected-link h5",
+            lvl1: "ol[class^='chapter__'] li[class^='chapter__'] a.selected-link h5",
             content: "div.md-body li, div.md-body p, div.md-body div p",
             lvl0: {
               selectors: "",

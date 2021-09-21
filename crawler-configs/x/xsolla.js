@@ -41,6 +41,7 @@ new Crawler({
     "**/search**/**",
     "**/changelog/tags**",
     "**/changelog/tags**/**",
+    "**/sdk/php/**",
     "https://developers.xsolla.com/changelog/",
     "https://developers.xsolla.com/ru/changelog/",
     "https://developers.xsolla.com/de/changelog/",
@@ -931,8 +932,7 @@ new Crawler({
             lvl0: {
               selectors: ".menu-header .c-menu-i",
             },
-            lvl2:
-              ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
+            lvl2: ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
             lvl3: "article .ogr-wg-box h2",
             lvl4: "article .cg-content-box .cg-subtitle",
             lang: {
@@ -962,8 +962,7 @@ new Crawler({
             lvl0: {
               selectors: ".menu-header .c-menu-i",
             },
-            lvl2:
-              ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
+            lvl2: ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
             lvl3: "article .ogr-wg-box h2",
             lvl4: "article .cg-content-box .cg-subtitle",
             lang: {
@@ -993,8 +992,7 @@ new Crawler({
             lvl0: {
               selectors: ".menu-header .c-menu-i",
             },
-            lvl2:
-              ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
+            lvl2: ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
             lvl3: "article .ogr-wg-box h2",
             lvl4: "article .cg-content-box .cg-subtitle",
             lang: {
@@ -1024,8 +1022,7 @@ new Crawler({
             lvl0: {
               selectors: ".menu-header .c-menu-i",
             },
-            lvl2:
-              ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
+            lvl2: ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
             lvl3: "article .ogr-wg-box h2",
             lvl4: "article .cg-content-box .cg-subtitle",
             lang: {
@@ -1055,8 +1052,7 @@ new Crawler({
             lvl0: {
               selectors: ".menu-header .c-menu-i",
             },
-            lvl2:
-              ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
+            lvl2: ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
             lvl3: "article .ogr-wg-box h2",
             lvl4: "article .cg-content-box .cg-subtitle",
             lang: {
@@ -1452,8 +1448,7 @@ new Crawler({
             lvl0: {
               selectors: ".menu-header .c-menu-i",
             },
-            lvl2:
-              ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
+            lvl2: ".nav.nav-stacked.fixed > .nav-item.active .nav .nav-item.active .nav-link",
             lvl3: "article .ogr-wg-box h2",
             lvl4: "article .cg-content-box .cg-subtitle",
             lang: {

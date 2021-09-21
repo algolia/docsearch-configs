@@ -39,6 +39,7 @@ new Crawler({
             lvl3: ".post h3",
             lvl4: ".post h4",
             lvl5: ".post h5",
+            pageRank: "6",
           },
           indexHeadings: true,
         });
@@ -65,6 +66,7 @@ new Crawler({
             lvl3: ".post h3",
             lvl4: ".post h4",
             lvl5: ".post h5",
+            pageRank: "5",
           },
           indexHeadings: true,
         });
@@ -88,6 +90,7 @@ new Crawler({
             lvl2: ".content h3",
             lvl3: ".content h4",
             lvl4: ".content h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });

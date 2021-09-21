@@ -37,6 +37,7 @@ new Crawler({
             version: {
               defaultValue: ["0.3"],
             },
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -61,6 +62,7 @@ new Crawler({
             version: {
               defaultValue: ["0.4"],
             },
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -85,6 +87,7 @@ new Crawler({
             version: {
               defaultValue: ["0.5"],
             },
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -109,6 +112,7 @@ new Crawler({
             version: {
               defaultValue: ["0.3"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -133,6 +137,7 @@ new Crawler({
             version: {
               defaultValue: ["0.4"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -157,6 +162,7 @@ new Crawler({
             version: {
               defaultValue: ["0.5"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });

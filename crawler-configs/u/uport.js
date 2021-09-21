@@ -30,8 +30,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: ".docSearch-content h3",
-            lvl3:
-              ".docSearch-content h4, .docSearch-content table td:first-of-type",
+            lvl3: ".docSearch-content h4, .docSearch-content table td:first-of-type",
             lvl4: ".docSearch-content h5",
           },
           indexHeadings: true,

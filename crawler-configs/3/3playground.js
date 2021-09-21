@@ -26,8 +26,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: "div.section h3",
-            lvl3:
-              "div.content h3, div.content h4, div.content h5, div.section h3, div.section h4, div.section h5",
+            lvl3: "div.content h3, div.content h4, div.content h5, div.section h3, div.section h4, div.section h5",
           },
           indexHeadings: true,
         });

@@ -39,8 +39,7 @@ new Crawler({
             },
             lvl2: ".content__default h2",
             lvl3: ".content__default h3",
-            lvl4:
-              ".content__default h4, .content__default table td:first-of-type",
+            lvl4: ".content__default h4, .content__default table td:first-of-type",
             tags: {
               defaultValue: ["docs"],
             },
@@ -70,8 +69,7 @@ new Crawler({
             lvl2: ".content__default h1",
             lvl3: ".content__default h2",
             lvl4: ".content__default h3",
-            lvl5:
-              ".content__default h4, .content__default table td:first-of-type",
+            lvl5: ".content__default h4, .content__default table td:first-of-type",
             tags: {
               defaultValue: ["addons"],
             },

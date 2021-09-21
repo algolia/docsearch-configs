@@ -17,7 +17,8 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "#__next h1",
-            content: "#__next p, #__next li",
+            content:
+              "#__next p, #__next li, #__next td, #__next th, #__next code, #__next span, #__next div, #__next a, #__next strong, #__next b, #__next i",
             lvl0: {
               selectors: "",
               defaultValue: "Documentation",

@@ -60,6 +60,7 @@ new Crawler({
             tags: {
               defaultValue: ["docs"],
             },
+            pageRank: "5",
           },
           indexHeadings: true,
         });
@@ -84,6 +85,7 @@ new Crawler({
             tags: {
               defaultValue: ["dsl"],
             },
+            pageRank: "2",
           },
           indexHeadings: true,
         });

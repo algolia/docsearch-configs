@@ -30,6 +30,7 @@ new Crawler({
             },
             lvl3: "[itemprop='articleBody'] h4",
             lvl4: "[itemprop='articleBody'] h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -48,6 +49,7 @@ new Crawler({
             },
             lvl3: "[itemprop='articleBody'] h4",
             lvl4: "[itemprop='articleBody'] h5",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -66,6 +68,7 @@ new Crawler({
             },
             lvl3: "[itemprop='articleBody'] h4",
             lvl4: "[itemprop='articleBody'] h5",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -84,6 +87,7 @@ new Crawler({
             },
             lvl3: "[itemprop='articleBody'] h4",
             lvl4: "[itemprop='articleBody'] h5",
+            pageRank: "4",
           },
           indexHeadings: true,
         });
@@ -102,6 +106,7 @@ new Crawler({
             },
             lvl3: "[itemprop='articleBody'] h4",
             lvl4: "[itemprop='articleBody'] h5",
+            pageRank: "5",
           },
           indexHeadings: true,
         });

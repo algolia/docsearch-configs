@@ -3,13 +3,13 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://nx.dev/latest/react/",
+    "https://nx.dev/l/r/",
     "https://nx.dev/",
-    "https://nx.dev/latest/angular/",
-    "https://nx.dev/latest/node/",
-    "https://nx.dev/previous/react/",
-    "https://nx.dev/previous/angular/",
-    "https://nx.dev/previous/node/",
+    "https://nx.dev/l/a/",
+    "https://nx.dev/l/n/",
+    "https://nx.dev/p/r/",
+    "https://nx.dev/p/a/",
+    "https://nx.dev/p/n/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://nx.dev/sitemap.xml"],
@@ -20,7 +20,7 @@ new Crawler({
   actions: [
     {
       indexName: "nx",
-      pathsToMatch: ["https://nx.dev/latest/react/**"],
+      pathsToMatch: ["https://nx.dev/l/r/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -36,10 +36,10 @@ new Crawler({
             lvl4: "#content-wrapper h4, #content-wrapper td:first-child",
             lvl5: "#content-wrapper h5",
             framework: {
-              defaultValue: ["react"],
+              defaultValue: ["r"],
             },
             version: {
-              defaultValue: ["latest"],
+              defaultValue: ["l"],
             },
           },
           indexHeadings: true,
@@ -48,7 +48,7 @@ new Crawler({
     },
     {
       indexName: "nx",
-      pathsToMatch: ["https://nx.dev/latest/angular/**"],
+      pathsToMatch: ["https://nx.dev/l/a/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -64,10 +64,10 @@ new Crawler({
             lvl4: "#content-wrapper h4, #content-wrapper td:first-child",
             lvl5: "#content-wrapper h5",
             framework: {
-              defaultValue: ["angular"],
+              defaultValue: ["a"],
             },
             version: {
-              defaultValue: ["latest"],
+              defaultValue: ["l"],
             },
           },
           indexHeadings: true,
@@ -76,7 +76,7 @@ new Crawler({
     },
     {
       indexName: "nx",
-      pathsToMatch: ["https://nx.dev/latest/node/**"],
+      pathsToMatch: ["https://nx.dev/l/n/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -92,10 +92,10 @@ new Crawler({
             lvl4: "#content-wrapper h4, #content-wrapper td:first-child",
             lvl5: "#content-wrapper h5",
             framework: {
-              defaultValue: ["node"],
+              defaultValue: ["n"],
             },
             version: {
-              defaultValue: ["latest"],
+              defaultValue: ["l"],
             },
           },
           indexHeadings: true,
@@ -104,7 +104,7 @@ new Crawler({
     },
     {
       indexName: "nx",
-      pathsToMatch: ["https://nx.dev/previous/react/**"],
+      pathsToMatch: ["https://nx.dev/p/r/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -120,10 +120,10 @@ new Crawler({
             lvl4: "#content-wrapper h4, #content-wrapper td:first-child",
             lvl5: "#content-wrapper h5",
             framework: {
-              defaultValue: ["react"],
+              defaultValue: ["r"],
             },
             version: {
-              defaultValue: ["previous"],
+              defaultValue: ["p"],
             },
           },
           indexHeadings: true,
@@ -132,7 +132,7 @@ new Crawler({
     },
     {
       indexName: "nx",
-      pathsToMatch: ["https://nx.dev/previous/angular/**"],
+      pathsToMatch: ["https://nx.dev/p/a/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -148,10 +148,10 @@ new Crawler({
             lvl4: "#content-wrapper h4, #content-wrapper td:first-child",
             lvl5: "#content-wrapper h5",
             framework: {
-              defaultValue: ["angular"],
+              defaultValue: ["a"],
             },
             version: {
-              defaultValue: ["previous"],
+              defaultValue: ["p"],
             },
           },
           indexHeadings: true,
@@ -160,7 +160,7 @@ new Crawler({
     },
     {
       indexName: "nx",
-      pathsToMatch: ["https://nx.dev/previous/node/**"],
+      pathsToMatch: ["https://nx.dev/p/n/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -176,11 +176,33 @@ new Crawler({
             lvl4: "#content-wrapper h4, #content-wrapper td:first-child",
             lvl5: "#content-wrapper h5",
             framework: {
-              defaultValue: ["node"],
+              defaultValue: ["n"],
             },
             version: {
-              defaultValue: ["previous"],
+              defaultValue: ["p"],
             },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "nx",
+      pathsToMatch: ["https://nx.dev/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "#content-wrapper h1",
+            content:
+              "#content-wrapper p, #content-wrapper ul li, #content-wrapper td:not(:first-child)",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Documentation",
+            },
+            lvl2: "#content-wrapper h2",
+            lvl3: "#content-wrapper h3",
+            lvl4: "#content-wrapper h4, #content-wrapper td:first-child",
+            lvl5: "#content-wrapper h5",
           },
           indexHeadings: true,
         });

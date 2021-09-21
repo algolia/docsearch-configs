@@ -59,6 +59,7 @@ new Crawler({
             tags: {
               defaultValue: ["docs"],
             },
+            pageRank: "200",
           },
           indexHeadings: { from: 1, to: 6 },
         });

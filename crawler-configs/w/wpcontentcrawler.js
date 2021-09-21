@@ -33,8 +33,7 @@ new Crawler({
               selectors: ".section h1",
             },
             lvl2: ".section h3, #change-log strong",
-            lvl3:
-              ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
+            lvl3: ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
             lvl4: ".section h5",
             version: {
               defaultValue: ["master"],
@@ -61,8 +60,7 @@ new Crawler({
               selectors: ".section h1",
             },
             lvl2: ".section h3, #change-log strong",
-            lvl3:
-              ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
+            lvl3: ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
             lvl4: ".section h5",
             version: {
               defaultValue: ["1.9"],
@@ -89,8 +87,7 @@ new Crawler({
               selectors: ".section h1",
             },
             lvl2: ".section h3, #change-log strong",
-            lvl3:
-              ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
+            lvl3: ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
             lvl4: ".section h5",
             version: {
               defaultValue: ["1.10"],
@@ -117,8 +114,7 @@ new Crawler({
               selectors: ".section h1",
             },
             lvl2: ".section h3, #change-log strong",
-            lvl3:
-              ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
+            lvl3: ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
             lvl4: ".section h5",
             version: {
               defaultValue: ["1.11"],
@@ -145,8 +141,7 @@ new Crawler({
               selectors: ".section h1",
             },
             lvl2: ".section h3, #change-log strong",
-            lvl3:
-              ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
+            lvl3: ".section h4, .docutils > dt strong, .admonition-title, .section td:first-child",
             lvl4: ".section h5",
           },
           indexHeadings: true,

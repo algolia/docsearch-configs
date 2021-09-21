@@ -56,6 +56,7 @@ new Crawler({
             lvl3: ".doc-main h2, article h2",
             lvl4: ".doc-main h3, article h3",
             lvl5: ".doc-main h4, article h4",
+            pageRank: "25",
           },
           indexHeadings: true,
         });
@@ -84,6 +85,7 @@ new Crawler({
             tags: {
               defaultValue: ["glossary"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -111,6 +113,7 @@ new Crawler({
             tags: {
               defaultValue: ["v3", "api reference"],
             },
+            pageRank: "4",
           },
           indexHeadings: true,
         });
@@ -140,6 +143,7 @@ new Crawler({
             tags: {
               defaultValue: ["v3", "mail send"],
             },
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -164,6 +168,7 @@ new Crawler({
             lvl2: "article h2",
             lvl3: "article h3, article td:first-child",
             lvl4: "article h4",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -191,6 +196,7 @@ new Crawler({
             tags: {
               defaultValue: ["v2", "api reference"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });

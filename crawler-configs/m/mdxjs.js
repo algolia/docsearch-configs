@@ -29,8 +29,7 @@ new Crawler({
             },
             lvl2: ".searchable-content h3",
             lvl3: ".searchable-content h4",
-            lvl4:
-              ".searchable-content h5, .searchable-content table td:first-child",
+            lvl4: ".searchable-content h5, .searchable-content table td:first-child",
             lvl5: ".searchable-content h6",
           },
           indexHeadings: true,

@@ -33,8 +33,7 @@ new Crawler({
             lvl2: ".page__body h1",
             lvl3: ".page__body h2",
             lvl4: ".page__body h3",
-            lvl5:
-              ".page__body h4, .page__body tr:not(:first-child) td:first-child",
+            lvl5: ".page__body h4, .page__body tr:not(:first-child) td:first-child",
             lvl6: ".page__body h5",
           },
           indexHeadings: { from: 3, to: 6 },

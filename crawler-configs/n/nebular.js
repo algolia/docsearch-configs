@@ -28,8 +28,7 @@ new Crawler({
             lvl2: ".content h2",
             lvl3: ".content h3",
             lvl4: ".content h4, .content p.block-title",
-            lvl5:
-              ".content h5, .content table tr:not(:first-child) td:first-of-type",
+            lvl5: ".content h5, .content table tr:not(:first-child) td:first-of-type",
           },
           indexHeadings: true,
         });

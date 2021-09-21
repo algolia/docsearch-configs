@@ -26,8 +26,7 @@ new Crawler({
               selectors: "main h1",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".docSearch-content :not(.code-example) > :not(aside) > h3, .docSearch-content > :not(aside) > h3, .docSearch-content > h3",
+            lvl2: ".docSearch-content :not(.code-example) > :not(aside) > h3, .docSearch-content > :not(aside) > h3, .docSearch-content > h3",
             lvl3: ".docSearch-content h4",
             lvl4: ".docSearch-content h5",
             lvl5: ".docSearch-content h6",
@@ -69,8 +68,7 @@ new Crawler({
               selectors: "main h1",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".docSearch-content :not(.code-example) > :not(aside) > h3, .docSearch-content > :not(aside) > h3, .docSearch-content > h3",
+            lvl2: ".docSearch-content :not(.code-example) > :not(aside) > h3, .docSearch-content > :not(aside) > h3, .docSearch-content > h3",
             lvl3: ".docSearch-content h4",
             lvl4: ".docSearch-content h5",
             lvl5: ".docSearch-content h6",

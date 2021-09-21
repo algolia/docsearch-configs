@@ -35,8 +35,7 @@ new Crawler({
               selectors: "#docsearch-content h1",
             },
             lvl2: "#docsearch-content h3",
-            lvl3:
-              "#docsearch-content h4, #docsearch-content table td:first-child",
+            lvl3: "#docsearch-content h4, #docsearch-content table td:first-child",
             lvl4: "#docsearch-content h5",
             version: {
               defaultValue: ["latest"],
@@ -63,8 +62,7 @@ new Crawler({
               selectors: "#docsearch-content h1",
             },
             lvl2: "#docsearch-content h3",
-            lvl3:
-              "#docsearch-content h4, #docsearch-content table td:first-child",
+            lvl3: "#docsearch-content h4, #docsearch-content table td:first-child",
             lvl4: "#docsearch-content h5",
             version: {
               defaultValue: ["v5"],
@@ -91,8 +89,7 @@ new Crawler({
               selectors: "#docsearch-content h1",
             },
             lvl2: "#docsearch-content h3",
-            lvl3:
-              "#docsearch-content h4, #docsearch-content table td:first-child",
+            lvl3: "#docsearch-content h4, #docsearch-content table td:first-child",
             lvl4: "#docsearch-content h5",
             version: {
               defaultValue: ["v4"],
@@ -119,8 +116,7 @@ new Crawler({
               selectors: "#docsearch-content h1",
             },
             lvl2: "#docsearch-content h3",
-            lvl3:
-              "#docsearch-content h4, #docsearch-content table td:first-child",
+            lvl3: "#docsearch-content h4, #docsearch-content table td:first-child",
             lvl4: "#docsearch-content h5",
             version: {
               defaultValue: ["v3"],
@@ -147,8 +143,7 @@ new Crawler({
               selectors: "#docsearch-content h1",
             },
             lvl2: "#docsearch-content h3",
-            lvl3:
-              "#docsearch-content h4, #docsearch-content table td:first-child",
+            lvl3: "#docsearch-content h4, #docsearch-content table td:first-child",
             lvl4: "#docsearch-content h5",
             version: {
               defaultValue: ["v2"],
@@ -175,8 +170,7 @@ new Crawler({
               selectors: "#docsearch-content h1",
             },
             lvl2: "#docsearch-content h3",
-            lvl3:
-              "#docsearch-content h4, #docsearch-content table td:first-child",
+            lvl3: "#docsearch-content h4, #docsearch-content table td:first-child",
             lvl4: "#docsearch-content h5",
             version: {
               defaultValue: ["v1"],

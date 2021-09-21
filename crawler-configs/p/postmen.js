@@ -57,6 +57,7 @@ new Crawler({
             },
             lvl2: "#page-content h3",
             lvl3: "#page-content h4",
+            pageRank: "1",
           },
           indexHeadings: { from: 1, to: 6 },
         });

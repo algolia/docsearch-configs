@@ -62,6 +62,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -89,6 +90,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -114,6 +116,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -139,6 +142,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -166,6 +170,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -193,6 +198,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -220,6 +226,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -245,6 +252,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -270,6 +278,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -297,6 +306,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -324,6 +334,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -349,6 +360,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -376,6 +388,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -403,6 +416,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -430,6 +444,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -457,6 +472,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -484,6 +500,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -511,6 +528,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -538,6 +556,7 @@ new Crawler({
             lvl3: ".docs_content h3",
             lvl4: ".docs_content h4, .docs_content tbody td:first-child",
             lvl5: ".docs_content h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });

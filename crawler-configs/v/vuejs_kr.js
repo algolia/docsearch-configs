@@ -35,6 +35,7 @@ new Crawler({
             version: {
               defaultValue: ["v2"],
             },
+            pageRank: "1",
           },
           indexHeadings: { from: 1, to: 6 },
         });

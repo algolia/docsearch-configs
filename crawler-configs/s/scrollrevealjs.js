@@ -35,8 +35,7 @@ new Crawler({
             lvl2: ".layout__two-column__main.layout__padding__vertical h1",
             lvl3: ".layout__two-column__main.layout__padding__vertical h2",
             lvl4: ".layout__two-column__main.layout__padding__vertical h3",
-            lvl5:
-              ".layout__two-column__main.layout__padding__vertical h4, .layout__two-column__main.layout__padding__vertical table td:first-of-type",
+            lvl5: ".layout__two-column__main.layout__padding__vertical h4, .layout__two-column__main.layout__padding__vertical table td:first-of-type",
           },
           indexHeadings: true,
         });
@@ -61,8 +60,7 @@ new Crawler({
             lvl2: ".layout__two-column__main.layout__padding__vertical h1",
             lvl3: ".layout__two-column__main.layout__padding__vertical h2",
             lvl4: ".layout__two-column__main.layout__padding__vertical h3",
-            lvl5:
-              ".layout__two-column__main.layout__padding__vertical h4, .layout__two-column__main.layout__padding__vertical table td:first-of-type",
+            lvl5: ".layout__two-column__main.layout__padding__vertical h4, .layout__two-column__main.layout__padding__vertical table td:first-of-type",
           },
           indexHeadings: true,
         });

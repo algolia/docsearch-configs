@@ -22,8 +22,7 @@ new Crawler({
               selectors: "",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".docSearch-content h3, .docSearch-content h1:not(:first-child), .docSearch-content h2",
+            lvl2: ".docSearch-content h3, .docSearch-content h1:not(:first-child), .docSearch-content h2",
             lvl3: ".docSearch-content h4",
             lvl4: ".docSearch-content h5",
           },

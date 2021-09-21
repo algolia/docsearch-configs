@@ -34,6 +34,7 @@ new Crawler({
             tags: {
               defaultValue: ["api"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -58,6 +59,7 @@ new Crawler({
             tags: {
               defaultValue: ["guide"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });
@@ -84,6 +86,7 @@ new Crawler({
             tags: {
               defaultValue: ["tutorial"],
             },
+            pageRank: "6",
           },
           indexHeadings: true,
         });

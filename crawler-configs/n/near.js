@@ -21,22 +21,22 @@ new Crawler({
       indexName: "near",
       pathsToMatch: ["https://docs.near.org/docs/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".post h1",
-            content: ".post article p, .post article li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: ".navGroup > h3.collapsible",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
               defaultValue: "Documentation",
             },
-            lvl2: ".post h2",
-            lvl3: ".post h3",
-            lvl4: ".post h4",
-            lvl5: ".post h5",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -46,10 +46,6 @@ new Crawler({
       indexName: "near",
       pathsToMatch: ["https://www.near-sdk.io/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",

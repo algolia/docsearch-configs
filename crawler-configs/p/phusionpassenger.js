@@ -38,6 +38,7 @@ new Crawler({
             lvl3: ".bs-docs-section h3",
             lvl4: ".bs-docs-section h4",
             lvl5: ".bs-docs-section h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -66,6 +67,7 @@ new Crawler({
             lvl3: ".bs-docs-section h3",
             lvl4: ".bs-docs-section h4",
             lvl5: ".bs-docs-section h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });

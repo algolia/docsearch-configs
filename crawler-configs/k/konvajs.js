@@ -30,6 +30,7 @@ new Crawler({
             lvl3: "[itemprop='articleBody'] h2",
             lvl4: "[itemprop='articleBody'] h3",
             lvl5: "[itemprop='articleBody'] h4",
+            pageRank: "5",
           },
           indexHeadings: true,
         });
@@ -51,6 +52,7 @@ new Crawler({
             lvl3: "#main h2",
             lvl4: "#main h3",
             lvl5: "#main h4",
+            pageRank: "1",
           },
           indexHeadings: true,
         });

@@ -38,6 +38,7 @@ new Crawler({
             tags: {
               defaultValue: ["accuterm"],
             },
+            pageRank: "2",
           },
           indexHeadings: { from: 0, to: 6 },
         });
@@ -62,6 +63,7 @@ new Crawler({
             tags: {
               defaultValue: ["customer-portal"],
             },
+            pageRank: "7",
           },
           indexHeadings: { from: 0, to: 6 },
         });
@@ -86,6 +88,7 @@ new Crawler({
             tags: {
               defaultValue: ["jbase"],
             },
+            pageRank: "1",
           },
           indexHeadings: { from: 0, to: 6 },
         });
@@ -110,6 +113,7 @@ new Crawler({
             tags: {
               defaultValue: ["mv-connect"],
             },
+            pageRank: "3",
           },
           indexHeadings: { from: 0, to: 6 },
         });
@@ -134,6 +138,7 @@ new Crawler({
             tags: {
               defaultValue: ["mv-dashboard"],
             },
+            pageRank: "4",
           },
           indexHeadings: { from: 0, to: 6 },
         });
@@ -158,6 +163,7 @@ new Crawler({
             tags: {
               defaultValue: ["pos-connect"],
             },
+            pageRank: "5",
           },
           indexHeadings: { from: 0, to: 6 },
         });
@@ -182,6 +188,7 @@ new Crawler({
             tags: {
               defaultValue: ["smartsuite"],
             },
+            pageRank: "6",
           },
           indexHeadings: { from: 0, to: 6 },
         });

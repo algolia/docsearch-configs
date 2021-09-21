@@ -95,6 +95,7 @@ new Crawler({
             tags: {
               defaultValue: ["api-reference"],
             },
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -443,6 +444,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -460,6 +462,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -479,6 +482,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -498,6 +502,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -515,6 +520,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -534,6 +540,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -553,6 +560,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -572,6 +580,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -591,6 +600,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -610,6 +620,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -629,6 +640,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -646,6 +658,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -665,6 +678,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -684,6 +698,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -703,6 +718,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -722,6 +738,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -741,6 +758,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -758,6 +776,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -777,6 +796,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -796,6 +816,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -815,6 +836,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -834,6 +856,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -853,6 +876,7 @@ new Crawler({
               selectors: ".pb-content h1",
             },
             lvl2: ".pb-content h3",
+            pageRank: "3",
           },
           indexHeadings: true,
         });

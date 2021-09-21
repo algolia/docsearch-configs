@@ -49,6 +49,7 @@ new Crawler({
             tags: {
               defaultValue: ["developers"],
             },
+            pageRank: "3",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -79,6 +80,7 @@ new Crawler({
             tags: {
               defaultValue: ["interface"],
             },
+            pageRank: "2",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -109,6 +111,7 @@ new Crawler({
             tags: {
               defaultValue: ["interface"],
             },
+            pageRank: "2",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -139,6 +142,7 @@ new Crawler({
             tags: {
               defaultValue: ["interface"],
             },
+            pageRank: "2",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -168,6 +172,7 @@ new Crawler({
             tags: {
               defaultValue: ["plugin-ceres"],
             },
+            pageRank: "2",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -197,6 +202,7 @@ new Crawler({
             tags: {
               defaultValue: ["plugin-ceres"],
             },
+            pageRank: "2",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -226,6 +232,7 @@ new Crawler({
             tags: {
               defaultValue: ["plugin-io"],
             },
+            pageRank: "2",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -255,6 +262,7 @@ new Crawler({
             tags: {
               defaultValue: ["plugin-io"],
             },
+            pageRank: "2",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -275,11 +283,11 @@ new Crawler({
             },
             lvl2: "div.opblock-summary > span.opblock-summary-path > a > span",
             lvl3: ".opblock  > div > div.opblock-summary-description",
-            lvl4:
-              "div.no-margin > div > div.opblock-description-wrapper > div > div > p",
+            lvl4: "div.no-margin > div > div.opblock-description-wrapper > div > div > p",
             tags: {
               defaultValue: ["rest-api", "master"],
             },
+            pageRank: "2",
           },
           indexHeadings: { from: 2, to: 6 },
         });

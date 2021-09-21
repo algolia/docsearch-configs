@@ -25,8 +25,7 @@ new Crawler({
             },
             lvl2: ".doc-content-paragraph h3",
             lvl3: ".doc-content-paragraph h4",
-            lvl4:
-              ".doc-content-paragraph h5, .doc-content-paragraph td:first-child",
+            lvl4: ".doc-content-paragraph h5, .doc-content-paragraph td:first-child",
             lvl5: ".doc-content-paragraph h6",
           },
           indexHeadings: true,

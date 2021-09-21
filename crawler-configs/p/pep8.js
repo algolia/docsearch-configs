@@ -34,8 +34,7 @@ new Crawler({
             lvl2: ".container > div > .nine.columns h3",
             lvl3: ".container > div > .nine.columns h4",
             lvl4: ".container > div > .nine.columns h5",
-            lvl5:
-              ".container > div > .nine.columns h6, .container > div > .nine.columns dt",
+            lvl5: ".container > div > .nine.columns h6, .container > div > .nine.columns dt",
           },
           indexHeadings: { from: 1, to: 6 },
         });

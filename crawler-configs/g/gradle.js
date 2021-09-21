@@ -45,6 +45,7 @@ new Crawler({
             tags: {
               defaultValue: ["plugin_reference"],
             },
+            pageRank: "4",
           },
           indexHeadings: true,
         });
@@ -76,6 +77,7 @@ new Crawler({
             tags: {
               defaultValue: ["dsl"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -107,6 +109,7 @@ new Crawler({
             tags: {
               defaultValue: ["userguide"],
             },
+            pageRank: "6",
           },
           indexHeadings: true,
         });

@@ -32,6 +32,7 @@ new Crawler({
             lvl2: ".content h2",
             lvl3: ".content h3",
             lvl4: ".content h4",
+            pageRank: "1",
           },
           indexHeadings: true,
         });

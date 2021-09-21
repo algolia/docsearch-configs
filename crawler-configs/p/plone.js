@@ -31,8 +31,7 @@ new Crawler({
             },
             lvl3: "section[role='main'] h1",
             lvl4: "section[role='main'] h2",
-            lvl5:
-              "section[role='main'] h3, section[role='main'] h4, section[role='main'] h5",
+            lvl5: "section[role='main'] h3, section[role='main'] h4, section[role='main'] h5",
           },
           indexHeadings: { from: 4, to: 6 },
         });
@@ -55,8 +54,7 @@ new Crawler({
             },
             lvl3: "section[role='main'] h1",
             lvl4: "section[role='main'] h2",
-            lvl5:
-              "section[role='main'] h3, section[role='main'] h4, section[role='main'] h5",
+            lvl5: "section[role='main'] h3, section[role='main'] h4, section[role='main'] h5",
           },
           indexHeadings: { from: 4, to: 6 },
         });
@@ -79,8 +77,7 @@ new Crawler({
             },
             lvl3: "section[role='main'] h1",
             lvl4: "section[role='main'] h2",
-            lvl5:
-              "section[role='main'] h3, section[role='main'] h4, section[role='main'] h5",
+            lvl5: "section[role='main'] h3, section[role='main'] h4, section[role='main'] h5",
           },
           indexHeadings: { from: 4, to: 6 },
         });

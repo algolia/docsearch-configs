@@ -29,6 +29,7 @@ new Crawler({
             lvl2: ".api-content h2",
             lvl3: ".api-content h3",
             lvl4: ".api-content h4",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -49,6 +50,7 @@ new Crawler({
             lvl2: ".api-content h2",
             lvl3: ".api-content h3",
             lvl4: ".api-content h4",
+            pageRank: "1",
           },
           indexHeadings: true,
         });

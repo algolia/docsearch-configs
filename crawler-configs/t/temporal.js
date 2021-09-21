@@ -62,6 +62,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "999",
           },
           indexHeadings: true,
         });
@@ -87,6 +88,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "999",
           },
           indexHeadings: true,
         });
@@ -112,6 +114,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "999",
           },
           indexHeadings: true,
         });
@@ -137,6 +140,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "999",
           },
           indexHeadings: true,
         });
@@ -162,6 +166,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "999",
           },
           indexHeadings: true,
         });
@@ -187,6 +192,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "999",
           },
           indexHeadings: true,
         });
@@ -212,6 +218,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "999",
           },
           indexHeadings: true,
         });
@@ -237,6 +244,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -262,6 +270,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -289,6 +298,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -316,6 +326,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -343,6 +354,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -368,6 +380,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -395,6 +408,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -422,6 +436,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -447,6 +462,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -472,6 +488,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -497,6 +514,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -522,6 +540,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "998",
           },
           indexHeadings: true,
         });
@@ -547,6 +566,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "997",
           },
           indexHeadings: true,
         });
@@ -572,6 +592,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "996",
           },
           indexHeadings: true,
         });
@@ -597,6 +618,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "995",
           },
           indexHeadings: true,
         });
@@ -622,6 +644,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "994",
           },
           indexHeadings: true,
         });
@@ -647,6 +670,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "994",
           },
           indexHeadings: true,
         });
@@ -672,6 +696,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -697,6 +722,7 @@ new Crawler({
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
+            pageRank: "1",
           },
           indexHeadings: true,
         });

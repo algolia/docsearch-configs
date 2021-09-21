@@ -55,6 +55,7 @@ new Crawler({
             lvl3: ".article-main h2",
             lvl4: ".article-main h3",
             lvl5: ".article-main h4",
+            pageRank: "5",
           },
           indexHeadings: true,
         });
@@ -80,6 +81,7 @@ new Crawler({
             lvl3: "#topic h3",
             lvl4: "#topic h4",
             lvl5: "#topic h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });

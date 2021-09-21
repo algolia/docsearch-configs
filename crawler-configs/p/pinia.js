@@ -39,6 +39,7 @@ new Crawler({
             tags: {
               defaultValue: ["Introduction"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -65,6 +66,7 @@ new Crawler({
             tags: {
               defaultValue: ["Introduction"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -91,6 +93,7 @@ new Crawler({
             tags: {
               defaultValue: ["Core Concepts"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -117,6 +120,7 @@ new Crawler({
             tags: {
               defaultValue: ["SSR"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });
@@ -143,6 +147,7 @@ new Crawler({
             tags: {
               defaultValue: ["Cookbook"],
             },
+            pageRank: "5",
           },
           indexHeadings: true,
         });
@@ -168,6 +173,7 @@ new Crawler({
             tags: {
               defaultValue: ["API"],
             },
+            pageRank: "4",
           },
           indexHeadings: true,
         });

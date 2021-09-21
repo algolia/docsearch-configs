@@ -23,8 +23,7 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              "[class^='docsContents___'] h1, [class^='accordionChild___'] a",
+            lvl1: "[class^='docsContents___'] h1, [class^='accordionChild___'] a",
             content:
               "[class^='docsContents___'] p, [class^='docsContents___'] li",
             lvl0: {

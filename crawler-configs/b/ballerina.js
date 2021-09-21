@@ -41,6 +41,7 @@ new Crawler({
             tags: {
               defaultValue: ["ballerina"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -68,6 +69,7 @@ new Crawler({
             tags: {
               defaultValue: ["ballerina_api_docs"],
             },
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -95,6 +97,7 @@ new Crawler({
             tags: {
               defaultValue: ["ballerina_blog"],
             },
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -122,6 +125,7 @@ new Crawler({
             tags: {
               defaultValue: ["ballerina_central"],
             },
+            pageRank: "4",
           },
           indexHeadings: true,
         });

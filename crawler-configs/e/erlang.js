@@ -15,12 +15,9 @@ new Crawler({
     "**/**.*/notes.html",
     "**/**.*/index.html",
     "**/**.*/release_notes.html",
-    "**/**.dtd**",
-    "**/**.dtd**/**",
-    "**/**.hrl**",
-    "**/**.hrl**/**",
-    "**/**.erl**",
-    "**/**.erl**/**",
+    "**/**.dtd",
+    "**/**.hrl",
+    "**/**.erl",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://beta.erlang.org/**"],
@@ -41,6 +38,7 @@ new Crawler({
             tags: {
               defaultValue: ["man"],
             },
+            pageRank: "3",
           },
           indexHeadings: { from: 1, to: 6 },
         });
@@ -62,6 +60,7 @@ new Crawler({
             tags: {
               defaultValue: ["refman"],
             },
+            pageRank: "2",
           },
           indexHeadings: { from: 1, to: 6 },
         });
@@ -83,6 +82,7 @@ new Crawler({
             tags: {
               defaultValue: ["guide"],
             },
+            pageRank: "1",
           },
           indexHeadings: { from: 1, to: 6 },
         });

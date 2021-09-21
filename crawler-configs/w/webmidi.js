@@ -7,6 +7,7 @@ new Crawler({
     "https://djipco.github.io/",
     "https://djipco.github.io/webmidi/docs/",
     "https://djipco.github.io/webmidi/",
+    "https://djipco.github.io/webmidi/api/classes/Input",
   ],
   renderJavaScript: false,
   sitemaps: ["https://djipco.github.io/webmidi/sitemap.xml"],
@@ -57,6 +58,7 @@ new Crawler({
       indexName: "webmidi",
       pathsToMatch: [
         "https://djipco.github.io/webmidi/**",
+        "https://djipco.github.io/webmidi/api/classes/Input**/**",
         "!https://djipco.github.io/webmidi/api/**",
         "!https://djipco.github.io/webmidi/docs/**",
       ],

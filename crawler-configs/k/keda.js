@@ -16,8 +16,7 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              ".is-content-column .card-header-title, .is-content-column h2",
+            lvl1: ".is-content-column .card-header-title, .is-content-column h2",
             content: ".is-content-column p, .is-content-column li",
             lvl0: {
               selectors: ".hero .title",

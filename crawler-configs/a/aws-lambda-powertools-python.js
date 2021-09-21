@@ -26,8 +26,7 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              ".content-wrapper h2, p strong:first-child:last-child, article h2",
+            lvl1: ".content-wrapper h2, p strong:first-child:last-child, article h2",
             content:
               ".content-wrapper p, .content-wrapper li, .header-wrapper h3, article p, article li",
             lvl0: {

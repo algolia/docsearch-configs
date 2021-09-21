@@ -35,6 +35,7 @@ new Crawler({
             tags: {
               defaultValue: ["m2"],
             },
+            pageRank: "1",
           },
           indexHeadings: false,
         });

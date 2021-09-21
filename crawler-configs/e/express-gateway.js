@@ -33,6 +33,7 @@ new Crawler({
             lvl3: "section h1",
             lvl4: "section h2",
             lvl5: "section h3",
+            pageRank: "1",
           },
           indexHeadings: false,
         });

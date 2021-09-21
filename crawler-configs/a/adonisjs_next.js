@@ -34,6 +34,7 @@ new Crawler({
             zone: {
               defaultValue: "reference",
             },
+            pageRank: "4",
           },
           indexHeadings: true,
         });
@@ -57,6 +58,7 @@ new Crawler({
             zone: {
               defaultValue: "guides",
             },
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -80,6 +82,7 @@ new Crawler({
             zone: {
               defaultValue: "cookbooks",
             },
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -103,6 +106,7 @@ new Crawler({
             zone: {
               defaultValue: "releases",
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });

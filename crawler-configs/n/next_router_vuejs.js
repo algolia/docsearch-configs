@@ -46,6 +46,7 @@ new Crawler({
             tags: {
               defaultValue: ["migration"],
             },
+            pageRank: "5",
           },
           indexHeadings: true,
         });
@@ -70,6 +71,7 @@ new Crawler({
             tags: {
               defaultValue: ["guide"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -94,6 +96,7 @@ new Crawler({
             tags: {
               defaultValue: ["api"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });
@@ -120,6 +123,7 @@ new Crawler({
             tags: {
               defaultValue: ["migration"],
             },
+            pageRank: "5",
           },
           indexHeadings: true,
         });
@@ -144,6 +148,7 @@ new Crawler({
             tags: {
               defaultValue: ["guide"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -168,6 +173,7 @@ new Crawler({
             tags: {
               defaultValue: ["api"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });

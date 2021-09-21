@@ -16,16 +16,14 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              "body > div:first-child > div:first-child > div:last-child div.text-lg",
+            lvl1: "body > div:first-child > div:first-child > div:last-child div.text-lg",
             content:
               "body > div:first-child > div:first-child > div:last-child div.leading-loose",
             lvl0: {
               selectors: "",
               defaultValue: "Documentation",
             },
-            lvl2:
-              "body > div:first-child > div:first-child > div:last-child div.section-header",
+            lvl2: "body > div:first-child > div:first-child > div:last-child div.section-header",
           },
           indexHeadings: true,
         });

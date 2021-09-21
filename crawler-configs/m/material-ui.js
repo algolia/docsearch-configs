@@ -2,7 +2,12 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://mui.com/", "https://v3.mui.com/", "https://v4.mui.com/"],
+  startUrls: [
+    "https://mui.com/components/",
+    "https://mui.com/",
+    "https://v3.mui.com/",
+    "https://v4.mui.com/",
+  ],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
@@ -22,8 +27,37 @@ new Crawler({
   actions: [
     {
       indexName: "material-ui",
-      pathsToMatch: ["https://mui.com**/**"],
+      pathsToMatch: ["https://mui.com/components/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".exclude-docsearch-indexing";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".markdown-body h1",
+            content:
+              ".markdown-body p, .markdown-body li, .markdown-body table td:last-child",
+            lvl0: {
+              selectors: ".algolia-lvl0",
+            },
+            lvl2: ".markdown-body h2",
+            lvl3: ".markdown-body h3, .markdown-body table td:first-of-type",
+            lvl4: ".markdown-body h4",
+            pageRank: "10",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "material-ui",
+      pathsToMatch: ["https://mui.com**/**", "!https://mui.com/components/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".exclude-docsearch-indexing";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
             lvl1: ".markdown-body h1",
@@ -36,7 +70,7 @@ new Crawler({
             lvl3: ".markdown-body h3, .markdown-body table td:first-of-type",
             lvl4: ".markdown-body h4",
           },
-          indexHeadings: false,
+          indexHeadings: true,
         });
       },
     },
@@ -44,6 +78,10 @@ new Crawler({
       indexName: "material-ui",
       pathsToMatch: ["https://v3.mui.com**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".exclude-docsearch-indexing";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
             lvl1: ".markdown-body h1",
@@ -56,7 +94,7 @@ new Crawler({
             lvl3: ".markdown-body h3, .markdown-body table td:first-of-type",
             lvl4: ".markdown-body h4",
           },
-          indexHeadings: false,
+          indexHeadings: true,
         });
       },
     },
@@ -64,6 +102,10 @@ new Crawler({
       indexName: "material-ui",
       pathsToMatch: ["https://v4.mui.com**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".exclude-docsearch-indexing";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
             lvl1: ".markdown-body h1",
@@ -76,7 +118,7 @@ new Crawler({
             lvl3: ".markdown-body h3, .markdown-body table td:first-of-type",
             lvl4: ".markdown-body h4",
           },
-          indexHeadings: false,
+          indexHeadings: true,
         });
       },
     },

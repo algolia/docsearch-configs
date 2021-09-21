@@ -29,8 +29,7 @@ new Crawler({
             },
             lvl2: ".theme-default-content h2",
             lvl3: ".theme-default-content h3",
-            lvl4:
-              ".theme-default-content h4, .theme-default-content td:first-child",
+            lvl4: ".theme-default-content h4, .theme-default-content td:first-child",
             lvl5: ".theme-default-content h5",
           },
           indexHeadings: true,

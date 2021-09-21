@@ -38,6 +38,7 @@ new Crawler({
             lvl3: ".section h4",
             lvl4: ".section h5",
             lvl5: ".section dl dt",
+            pageRank: "1",
           },
           indexHeadings: true,
         });

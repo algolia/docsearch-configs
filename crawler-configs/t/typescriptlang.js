@@ -69,6 +69,7 @@ new Crawler({
             lvl3: ".markdown h3",
             lvl4: ".markdown h4, .markdown td:first-child",
             lvl5: ".markdown h5",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -94,6 +95,7 @@ new Crawler({
             lvl3: ".markdown h3",
             lvl4: ".markdown h4, .markdown td:first-child",
             lvl5: ".markdown h5",
+            pageRank: "2",
           },
           indexHeadings: true,
         });

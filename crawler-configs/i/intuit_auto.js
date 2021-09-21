@@ -34,6 +34,7 @@ new Crawler({
             tags: {
               defaultValue: ["docs"],
             },
+            pageRank: "4",
           },
           indexHeadings: true,
         });
@@ -58,6 +59,7 @@ new Crawler({
             tags: {
               defaultValue: ["docs"],
             },
+            pageRank: "5",
           },
           indexHeadings: true,
         });
@@ -82,6 +84,7 @@ new Crawler({
             tags: {
               defaultValue: ["blog"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });

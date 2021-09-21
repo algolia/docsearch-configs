@@ -33,6 +33,7 @@ new Crawler({
             lvl3: ".post h3",
             lvl4: ".post h4",
             lvl5: ".post h5",
+            pageRank: "2",
           },
           indexHeadings: true,
         });

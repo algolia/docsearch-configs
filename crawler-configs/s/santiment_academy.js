@@ -25,8 +25,7 @@ new Crawler({
             },
             lvl2: "[class*='Markdown'][class*='wrapper'] h2",
             lvl3: "[class*='Markdown'][class*='wrapper'] h5",
-            lvl4:
-              "[class*='Markdown'][class*='wrapper'] h6, [class*='Markdown'][class*='wrapper'] td:first-child",
+            lvl4: "[class*='Markdown'][class*='wrapper'] h6, [class*='Markdown'][class*='wrapper'] td:first-child",
           },
           indexHeadings: { from: 2, to: 6 },
         });

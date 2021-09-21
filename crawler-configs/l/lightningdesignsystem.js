@@ -39,6 +39,7 @@ new Crawler({
               selectors: ".docsearch-category",
             },
             lvl2: ".docsearch-level-2 .slds-hide, #overview, div.lead.doc",
+            pageRank: "2",
           },
           indexHeadings: { from: 1, to: 6 },
         });
@@ -61,6 +62,7 @@ new Crawler({
               selectors: ".docsearch-category",
             },
             lvl2: ".docsearch-level-2 .slds-hide, #overview, div.lead.doc",
+            pageRank: "1",
           },
           indexHeadings: { from: 1, to: 6 },
         });
@@ -83,6 +85,7 @@ new Crawler({
               selectors: ".docsearch-category",
             },
             lvl2: ".docsearch-level-2 .slds-hide, #overview, div.lead.doc",
+            pageRank: "1",
           },
           indexHeadings: { from: 1, to: 6 },
         });
@@ -261,6 +264,7 @@ new Crawler({
               selectors: ".docsearch-category",
             },
             lvl2: ".docsearch-level-2 .slds-hide, #overview, div.lead.doc",
+            pageRank: "1",
           },
           indexHeadings: { from: 1, to: 6 },
         });

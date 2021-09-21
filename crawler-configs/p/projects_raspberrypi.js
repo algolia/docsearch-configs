@@ -39,8 +39,7 @@ new Crawler({
               selectors: "h1.c-project-header__title",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".c-project-steps__content > h3, .c-project-panel__content h2",
+            lvl2: ".c-project-steps__content > h3, .c-project-panel__content h2",
             lvl3: ".c-project__content h4",
             lvl4: ".c-project__content h5",
             lang: {
@@ -68,8 +67,7 @@ new Crawler({
               selectors: "h1.c-project-header__title",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".c-project-steps__content > h3, .c-project-panel__content h2",
+            lvl2: ".c-project-steps__content > h3, .c-project-panel__content h2",
             lvl3: ".c-project__content h4",
             lvl4: ".c-project__content h5",
             lang: {
@@ -97,8 +95,7 @@ new Crawler({
               selectors: "h1.c-project-header__title",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".c-project-steps__content > h3, .c-project-panel__content h2",
+            lvl2: ".c-project-steps__content > h3, .c-project-panel__content h2",
             lvl3: ".c-project__content h4",
             lvl4: ".c-project__content h5",
             lang: {
@@ -126,8 +123,7 @@ new Crawler({
               selectors: "h1.c-project-header__title",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".c-project-steps__content > h3, .c-project-panel__content h2",
+            lvl2: ".c-project-steps__content > h3, .c-project-panel__content h2",
             lvl3: ".c-project__content h4",
             lvl4: ".c-project__content h5",
             lang: {
@@ -155,8 +151,7 @@ new Crawler({
               selectors: "h1.c-project-header__title",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".c-project-steps__content > h3, .c-project-panel__content h2",
+            lvl2: ".c-project-steps__content > h3, .c-project-panel__content h2",
             lvl3: ".c-project__content h4",
             lvl4: ".c-project__content h5",
             lang: {
@@ -184,8 +179,7 @@ new Crawler({
               selectors: "h1.c-project-header__title",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".c-project-steps__content > h3, .c-project-panel__content h2",
+            lvl2: ".c-project-steps__content > h3, .c-project-panel__content h2",
             lvl3: ".c-project__content h4",
             lvl4: ".c-project__content h5",
             lang: {
@@ -213,8 +207,7 @@ new Crawler({
               selectors: "h1.c-project-header__title",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".c-project-steps__content > h3, .c-project-panel__content h2",
+            lvl2: ".c-project-steps__content > h3, .c-project-panel__content h2",
             lvl3: ".c-project__content h4",
             lvl4: ".c-project__content h5",
             lang: {
@@ -242,8 +235,7 @@ new Crawler({
               selectors: "h1.c-project-header__title",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".c-project-steps__content > h3, .c-project-panel__content h2",
+            lvl2: ".c-project-steps__content > h3, .c-project-panel__content h2",
             lvl3: ".c-project__content h4",
             lvl4: ".c-project__content h5",
             lang: {
@@ -271,8 +263,7 @@ new Crawler({
               selectors: "h1.c-project-header__title",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".c-project-steps__content > h3, .c-project-panel__content h2",
+            lvl2: ".c-project-steps__content > h3, .c-project-panel__content h2",
             lvl3: ".c-project__content h4",
             lvl4: ".c-project__content h5",
             lang: {
@@ -300,8 +291,7 @@ new Crawler({
               selectors: "h1.c-project-header__title",
               defaultValue: "Documentation",
             },
-            lvl2:
-              ".c-project-steps__content > h3, .c-project-panel__content h2",
+            lvl2: ".c-project-steps__content > h3, .c-project-panel__content h2",
             lvl3: ".c-project__content h4",
             lvl4: ".c-project__content h5",
             lang: {

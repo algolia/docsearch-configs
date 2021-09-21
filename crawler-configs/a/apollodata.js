@@ -44,6 +44,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: ".content-wrapper h2",
+            pageRank: "3",
           },
           indexHeadings: false,
         });
@@ -63,6 +64,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: ".content-wrapper h2",
+            pageRank: "2",
           },
           indexHeadings: false,
         });
@@ -82,6 +84,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: ".content-wrapper h2",
+            pageRank: "2",
           },
           indexHeadings: false,
         });
@@ -101,6 +104,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: ".content-wrapper h2",
+            pageRank: "2",
           },
           indexHeadings: false,
         });
@@ -120,6 +124,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: ".content-wrapper h2",
+            pageRank: "2",
           },
           indexHeadings: false,
         });
@@ -139,6 +144,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: ".content-wrapper h2",
+            pageRank: "2",
           },
           indexHeadings: false,
         });
@@ -158,6 +164,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: ".content-wrapper h2",
+            pageRank: "1",
           },
           indexHeadings: false,
         });
@@ -177,6 +184,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: ".content-wrapper h2",
+            pageRank: "1",
           },
           indexHeadings: false,
         });

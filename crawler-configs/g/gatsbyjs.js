@@ -40,6 +40,7 @@ new Crawler({
             tags: {
               defaultValue: ["docs"],
             },
+            pageRank: "4",
           },
           indexHeadings: true,
         });
@@ -69,6 +70,7 @@ new Crawler({
             tags: {
               defaultValue: ["docs"],
             },
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -97,6 +99,7 @@ new Crawler({
             tags: {
               defaultValue: ["tutorial"],
             },
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -126,6 +129,7 @@ new Crawler({
             tags: {
               defaultValue: ["blog"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });

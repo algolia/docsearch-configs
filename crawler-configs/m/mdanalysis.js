@@ -37,20 +37,16 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
+            lvl1: "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
             content:
               "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li",
             lvl0: {
               selectors:
                 "[itemprop='articleBody'] > .section h1, .page h1, .post h1, .body > .section h1",
             },
-            lvl2:
-              "[itemprop='articleBody'] > .section h3, .page h3, .post h3, .body > .section h3",
-            lvl3:
-              "[itemprop='articleBody'] > .section h4, .page h4, .post h4, .body > .section h4",
-            lvl4:
-              "[itemprop='articleBody'] > .section h5, .page h5, .post h5, .body > .section h5",
+            lvl2: "[itemprop='articleBody'] > .section h3, .page h3, .post h3, .body > .section h3",
+            lvl3: "[itemprop='articleBody'] > .section h4, .page h4, .post h4, .body > .section h4",
+            lvl4: "[itemprop='articleBody'] > .section h5, .page h5, .post h5, .body > .section h5",
           },
           indexHeadings: true,
         });
@@ -62,20 +58,16 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
+            lvl1: "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
             content:
               "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li",
             lvl0: {
               selectors:
                 "[itemprop='articleBody'] > .section h1, .page h1, .post h1, .body > .section h1",
             },
-            lvl2:
-              "[itemprop='articleBody'] > .section h3, .page h3, .post h3, .body > .section h3",
-            lvl3:
-              "[itemprop='articleBody'] > .section h4, .page h4, .post h4, .body > .section h4",
-            lvl4:
-              "[itemprop='articleBody'] > .section h5, .page h5, .post h5, .body > .section h5",
+            lvl2: "[itemprop='articleBody'] > .section h3, .page h3, .post h3, .body > .section h3",
+            lvl3: "[itemprop='articleBody'] > .section h4, .page h4, .post h4, .body > .section h4",
+            lvl4: "[itemprop='articleBody'] > .section h5, .page h5, .post h5, .body > .section h5",
           },
           indexHeadings: true,
         });
@@ -87,20 +79,16 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1:
-              "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
+            lvl1: "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
             content:
               "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li",
             lvl0: {
               selectors:
                 "[itemprop='articleBody'] > .section h1, .page h1, .post h1, .body > .section h1",
             },
-            lvl2:
-              "[itemprop='articleBody'] > .section h3, .page h3, .post h3, .body > .section h3",
-            lvl3:
-              "[itemprop='articleBody'] > .section h4, .page h4, .post h4, .body > .section h4",
-            lvl4:
-              "[itemprop='articleBody'] > .section h5, .page h5, .post h5, .body > .section h5",
+            lvl2: "[itemprop='articleBody'] > .section h3, .page h3, .post h3, .body > .section h3",
+            lvl3: "[itemprop='articleBody'] > .section h4, .page h4, .post h4, .body > .section h4",
+            lvl4: "[itemprop='articleBody'] > .section h5, .page h5, .post h5, .body > .section h5",
           },
           indexHeadings: true,
         });

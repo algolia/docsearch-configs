@@ -41,6 +41,7 @@ new Crawler({
             tags: {
               defaultValue: ["docs"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -67,6 +68,7 @@ new Crawler({
             tags: {
               defaultValue: ["api"],
             },
+            pageRank: "7",
           },
           indexHeadings: true,
         });
@@ -96,6 +98,7 @@ new Crawler({
             tags: {
               defaultValue: ["portal"],
             },
+            pageRank: "5",
           },
           indexHeadings: true,
         });

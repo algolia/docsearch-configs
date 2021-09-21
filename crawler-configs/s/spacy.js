@@ -29,8 +29,7 @@ new Crawler({
             },
             lvl2: "article h2 .heading-text",
             lvl3: "article h3 .heading-text",
-            lvl4:
-              "article h4 .heading-text, article table td:first-child, article aside h4 .heading-text, article .accordion h4 .heading-text",
+            lvl4: "article h4 .heading-text, article table td:first-child, article aside h4 .heading-text, article .accordion h4 .heading-text",
             lvl5: "article h5",
           },
           indexHeadings: true,

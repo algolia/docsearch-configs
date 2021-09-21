@@ -30,6 +30,7 @@ new Crawler({
               defaultValue: "Release notes",
             },
             lvl2: "main h3",
+            pageRank: "4",
           },
           indexHeadings: true,
         });
@@ -49,6 +50,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: "main h2",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -68,6 +70,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: "main h2",
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -87,6 +90,7 @@ new Crawler({
               defaultValue: "Documentation",
             },
             lvl2: "main h2",
+            pageRank: "3",
           },
           indexHeadings: true,
         });

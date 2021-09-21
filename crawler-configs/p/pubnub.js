@@ -57,6 +57,7 @@ new Crawler({
             tags: {
               defaultValue: ["js", "javascript", "nodejs"],
             },
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -86,6 +87,7 @@ new Crawler({
             tags: {
               defaultValue: ["java", "android"],
             },
+            pageRank: "2",
           },
           indexHeadings: true,
         });
@@ -115,6 +117,7 @@ new Crawler({
             tags: {
               defaultValue: ["swift", "ios", "iOS", "swift iOS", "swift cocoa"],
             },
+            pageRank: "3",
           },
           indexHeadings: true,
         });
@@ -144,6 +147,7 @@ new Crawler({
             tags: {
               defaultValue: ["objective-c", "ios", "iOS", "cocoa"],
             },
+            pageRank: "4",
           },
           indexHeadings: true,
         });
@@ -173,6 +177,7 @@ new Crawler({
             tags: {
               defaultValue: ["c#", "c-sharp"],
             },
+            pageRank: "5",
           },
           indexHeadings: true,
         });
@@ -202,6 +207,7 @@ new Crawler({
             tags: {
               defaultValue: ["python"],
             },
+            pageRank: "6",
           },
           indexHeadings: true,
         });
@@ -233,6 +239,7 @@ new Crawler({
             tags: {
               defaultValue: ["c", "c-core", "windows c", "posix c", "c++"],
             },
+            pageRank: "7",
           },
           indexHeadings: true,
         });
@@ -262,6 +269,7 @@ new Crawler({
             tags: {
               defaultValue: ["unity"],
             },
+            pageRank: "8",
           },
           indexHeadings: true,
         });
@@ -291,6 +299,7 @@ new Crawler({
             tags: {
               defaultValue: ["ruby"],
             },
+            pageRank: "9",
           },
           indexHeadings: true,
         });
@@ -320,6 +329,7 @@ new Crawler({
             tags: {
               defaultValue: ["go", "golang"],
             },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
@@ -523,6 +533,7 @@ new Crawler({
             tags: {
               defaultValue: ["docs", "documentation"],
             },
+            pageRank: "11",
           },
           indexHeadings: true,
         });
