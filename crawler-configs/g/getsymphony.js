@@ -211,7 +211,7 @@ new Crawler({
       distinct: true,
       attributeForDistinct: "hierarchy.lvl1",
       customRanking: [
-        "desc(weight.page_rank)",
+        "desc(weight.pageRank)",
         "desc(weight.level)",
         "asc(weight.position)",
       ],

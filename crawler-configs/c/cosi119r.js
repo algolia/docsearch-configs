@@ -72,7 +72,7 @@ new Crawler({
       distinct: 2,
       attributeForDistinct: "url_without_anchor",
       customRanking: [
-        "desc(weight.page_rank)",
+        "desc(weight.pageRank)",
         "desc(weight.level)",
         "asc(weight.position)",
       ],
