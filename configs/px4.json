@@ -1,5 +1,6 @@
 {
   "index_name": "px4",
+  "sitemap_urls": ["https://docs.px4.io/sitemap.xml"],
   "start_urls": [
     {
       "url": "https://docs.px4.io/master/",
@@ -37,7 +38,7 @@
       "lvl3": ".theme-default-content h3",
       "lvl4": ".theme-default-content h4",
       "lvl5": ".theme-default-content h5",
-      "text": ".theme-default-content p, .theme-default-content li",
+      "text": ".theme-default-content p, .theme-default-content li, .theme-default-content td:first-child", 
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
