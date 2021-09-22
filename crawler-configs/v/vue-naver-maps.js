@@ -2,28 +2,33 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://httpie.io/docs", "https://httpie.io/"],
-  renderJavaScript: true,
+  startUrls: [
+    "https://dongkyuuuu.github.io/vue3-naver-maps/",
+    "https://dongkyuuuu.github.io/",
+  ],
+  renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://httpie.io/**"],
-  schedule: "at 10:40 on Wednesday",
+  discoveryPatterns: ["https://dongkyuuuu.github.io/**"],
+  schedule: "at 05:40 on Saturday",
   actions: [
     {
-      indexName: "httpie",
-      pathsToMatch: ["https://httpie.io/docs"],
+      indexName: "vue-naver-maps",
+      pathsToMatch: ["https://dongkyuuuu.github.io/vue3-naver-maps/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#doc-content h2",
-            content: "#doc-content p, #doc-content li",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
               selectors: "",
               defaultValue: "Documentation",
             },
-            lvl2: "#doc-content h3",
-            lvl3: "#doc-content h4",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
           },
           indexHeadings: true,
         });
@@ -31,7 +36,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    httpie: {
+    "vue-naver-maps": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

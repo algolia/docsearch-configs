@@ -12,7 +12,7 @@ new Crawler({
     "https://docs.px4.io/v1.8.2/",
   ],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://docs.px4.io/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.px4.io/**"],
@@ -29,7 +29,8 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: ".theme-default-content h1",
-            content: ".theme-default-content p, .theme-default-content li",
+            content:
+              ".theme-default-content p, .theme-default-content li, .theme-default-content td:first-child",
             lvl0: {
               selectors: "p.sidebar-heading.open",
               defaultValue: "Documentation",

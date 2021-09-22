@@ -2,28 +2,34 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://httpie.io/docs", "https://httpie.io/"],
-  renderJavaScript: true,
+  startUrls: ["https://next--vue-dataset-demo.netlify.app/"],
+  renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://httpie.io/**"],
-  schedule: "at 10:40 on Wednesday",
+  discoveryPatterns: ["https://next--vue-dataset-demo.netlify.app/**"],
+  schedule: "at 15:00 on Thursday",
   actions: [
     {
-      indexName: "httpie",
-      pathsToMatch: ["https://httpie.io/docs"],
+      indexName: "next-vue-dataset",
+      pathsToMatch: ["https://next--vue-dataset-demo.netlify.app/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#doc-content h2",
-            content: "#doc-content p, #doc-content li",
+            lvl1: ".theme-default-content h1",
+            content: ".theme-default-content p, .theme-default-content li",
             lvl0: {
-              selectors: "",
+              selectors: "p.sidebar-heading.open",
               defaultValue: "Documentation",
             },
-            lvl2: "#doc-content h3",
-            lvl3: "#doc-content h4",
+            lvl2: ".theme-default-content h2",
+            lvl3: ".theme-default-content h3",
+            lvl4: ".theme-default-content h4",
+            lvl5: ".theme-default-content h5",
           },
           indexHeadings: true,
         });
@@ -31,7 +37,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    httpie: {
+    "next-vue-dataset": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

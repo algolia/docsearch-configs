@@ -2,28 +2,30 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://httpie.io/docs", "https://httpie.io/"],
-  renderJavaScript: true,
+  startUrls: ["https://strawberry.rocks/docs", "https://strawberry.rocks/"],
+  renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://httpie.io/**"],
-  schedule: "at 10:40 on Wednesday",
+  discoveryPatterns: ["https://strawberry.rocks/**"],
+  schedule: "at 15:40 on Friday",
   actions: [
     {
-      indexName: "httpie",
-      pathsToMatch: ["https://httpie.io/docs"],
+      indexName: "strawberry",
+      pathsToMatch: ["https://strawberry.rocks/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#doc-content h2",
-            content: "#doc-content p, #doc-content li",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
               selectors: "",
               defaultValue: "Documentation",
             },
-            lvl2: "#doc-content h3",
-            lvl3: "#doc-content h4",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
           },
           indexHeadings: true,
         });
@@ -31,7 +33,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    httpie: {
+    strawberry: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

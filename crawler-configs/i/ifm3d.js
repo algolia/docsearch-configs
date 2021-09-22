@@ -2,28 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://httpie.io/docs", "https://httpie.io/"],
-  renderJavaScript: true,
+  startUrls: ["https://ifm3d.com/"],
+  renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://httpie.io/**"],
-  schedule: "at 10:40 on Wednesday",
+  discoveryPatterns: ["https://ifm3d.com/**"],
+  schedule: "at 15:10 on Wednesday",
   actions: [
     {
-      indexName: "httpie",
-      pathsToMatch: ["https://httpie.io/docs"],
+      indexName: "ifm3d",
+      pathsToMatch: ["https://ifm3d.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#doc-content h2",
-            content: "#doc-content p, #doc-content li",
+            lvl1: ".container h2",
+            content: ".container p, .container li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
+              selectors: ".container h1",
             },
-            lvl2: "#doc-content h3",
-            lvl3: "#doc-content h4",
+            lvl2: ".container h3",
+            lvl3: ".container h4",
+            lvl4: ".container h5",
+            lvl5: ".container h6",
           },
           indexHeadings: true,
         });
@@ -31,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    httpie: {
+    ifm3d: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
