@@ -2,7 +2,7 @@
   "index_name": "symfony",
   "start_urls": [
     {
-      "url": "https://symfony.com/bundles/.*/(?P<version>.*?)/.*",
+      "url": "https://symfony.com/bundles/.*/(?P<version>.*?)/",
       "page_rank": 50,
       "variables": {
         "version": [
@@ -14,9 +14,9 @@
       ]
     },
     {
-      "url": "https://symfony.com/doc/.*/the-fast-track/(?P<language>.*?)/.*",
+      "url": "https://symfony.com/doc/current/the-fast-track/en/",
       "page_rank": 75,
-      "variables": {
+      "extra_attributes": {
         "language": [
           "en"
         ]
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "url": "https://symfony.com/doc/(?P<version>.*?)",
+      "url": "https://symfony.com/doc/(?P<version>.*?)/",
       "page_rank": 100,
       "variables": {
         "version": [
@@ -61,9 +61,9 @@
     }
   ],
   "stop_urls": [
-    "https://symfony.com/doc/.*/cmf/.*",
-    "https://symfony.com/doc/.*/create_framework/.*",
-    "https://symfony.com/doc/.*/the-fast-track/.*/.*"
+    "/cmf/",
+    "/create_framework/",
+    "/the-fast-track/(?!en)"
   ],
   "sitemap_urls": [
     "https://symfony.com/sitemap.xml"
