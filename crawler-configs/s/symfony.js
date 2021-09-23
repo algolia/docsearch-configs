@@ -3,40 +3,43 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://symfony.com/doc/current/bundles",
+    "https://symfony.com/bundles/.*/current/",
     "https://symfony.com/",
-    "https://symfony.com/doc/master/bundles",
-    "https://symfony.com/doc/2.0",
-    "https://symfony.com/doc/2.1",
-    "https://symfony.com/doc/2.2",
-    "https://symfony.com/doc/2.3",
-    "https://symfony.com/doc/2.4",
-    "https://symfony.com/doc/2.5",
-    "https://symfony.com/doc/2.6",
-    "https://symfony.com/doc/2.7",
-    "https://symfony.com/doc/2.8",
-    "https://symfony.com/doc/3.0",
-    "https://symfony.com/doc/3.1",
-    "https://symfony.com/doc/3.2",
-    "https://symfony.com/doc/3.3",
-    "https://symfony.com/doc/3.4",
-    "https://symfony.com/doc/4.0",
-    "https://symfony.com/doc/4.1",
-    "https://symfony.com/doc/4.2",
-    "https://symfony.com/doc/4.3",
-    "https://symfony.com/doc/4.4",
-    "https://symfony.com/doc/5.0",
-    "https://symfony.com/doc/5.1",
-    "https://symfony.com/doc/5.2",
-    "https://symfony.com/doc/current",
-    "https://symfony.com/doc/master",
-    "https://symfony.com/doc/bundles/",
+    "https://symfony.com/doc/current/the-fast-track/en/",
+    "https://symfony.com/doc/2.0/",
+    "https://symfony.com/doc/2.1/",
+    "https://symfony.com/doc/2.2/",
+    "https://symfony.com/doc/2.3/",
+    "https://symfony.com/doc/2.4/",
+    "https://symfony.com/doc/2.5/",
+    "https://symfony.com/doc/2.6/",
+    "https://symfony.com/doc/2.7/",
+    "https://symfony.com/doc/2.8/",
+    "https://symfony.com/doc/3.0/",
+    "https://symfony.com/doc/3.1/",
+    "https://symfony.com/doc/3.2/",
+    "https://symfony.com/doc/3.3/",
+    "https://symfony.com/doc/3.4/",
+    "https://symfony.com/doc/4.0/",
+    "https://symfony.com/doc/4.1/",
+    "https://symfony.com/doc/4.2/",
+    "https://symfony.com/doc/4.3/",
+    "https://symfony.com/doc/4.4/",
+    "https://symfony.com/doc/5.0/",
+    "https://symfony.com/doc/5.1/",
+    "https://symfony.com/doc/5.2/",
+    "https://symfony.com/doc/5.3/",
+    "https://symfony.com/doc/5.4/",
+    "https://symfony.com/doc/6.0/",
+    "https://symfony.com/doc/current/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://symfony.com/sitemap.xml"],
   exclusionPatterns: [
-    "https://symfony.com/doc/.*/cmf/.***",
-    "https://symfony.com/doc/.*/cmf/.***/**",
+    "**/cmf/**",
+    "**/create_framework/**",
+    "**/the-fast-track/(?!en)**",
+    "**/the-fast-track/(?!en)**/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://symfony.com/**"],
@@ -44,10 +47,10 @@ new Crawler({
   actions: [
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/current/bundles**/**"],
+      pathsToMatch: ["https://symfony.com/bundles/.*/current/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -75,10 +78,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/master/bundles**/**"],
+      pathsToMatch: ["https://symfony.com/doc/current/the-fast-track/en/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -92,13 +95,13 @@ new Crawler({
             lvl3: "main h4",
             lvl4: "main h5",
             lvl5: "main h6",
-            version: {
-              defaultValue: ["master"],
+            language: {
+              defaultValue: ["en"],
             },
             tags: {
-              defaultValue: ["bundles"],
+              defaultValue: ["fast-track"],
             },
-            pageRank: "50",
+            pageRank: "75",
           },
           indexHeadings: true,
         });
@@ -106,10 +109,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/2.0**/**"],
+      pathsToMatch: ["https://symfony.com/doc/2.0/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -134,10 +137,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/2.1**/**"],
+      pathsToMatch: ["https://symfony.com/doc/2.1/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -162,10 +165,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/2.2**/**"],
+      pathsToMatch: ["https://symfony.com/doc/2.2/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -190,10 +193,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/2.3**/**"],
+      pathsToMatch: ["https://symfony.com/doc/2.3/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -218,10 +221,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/2.4**/**"],
+      pathsToMatch: ["https://symfony.com/doc/2.4/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -246,10 +249,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/2.5**/**"],
+      pathsToMatch: ["https://symfony.com/doc/2.5/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -274,10 +277,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/2.6**/**"],
+      pathsToMatch: ["https://symfony.com/doc/2.6/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -302,10 +305,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/2.7**/**"],
+      pathsToMatch: ["https://symfony.com/doc/2.7/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -330,10 +333,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/2.8**/**"],
+      pathsToMatch: ["https://symfony.com/doc/2.8/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -358,10 +361,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/3.0**/**"],
+      pathsToMatch: ["https://symfony.com/doc/3.0/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -386,10 +389,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/3.1**/**"],
+      pathsToMatch: ["https://symfony.com/doc/3.1/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -414,10 +417,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/3.2**/**"],
+      pathsToMatch: ["https://symfony.com/doc/3.2/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -442,10 +445,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/3.3**/**"],
+      pathsToMatch: ["https://symfony.com/doc/3.3/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -470,10 +473,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/3.4**/**"],
+      pathsToMatch: ["https://symfony.com/doc/3.4/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -498,10 +501,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/4.0**/**"],
+      pathsToMatch: ["https://symfony.com/doc/4.0/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -526,10 +529,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/4.1**/**"],
+      pathsToMatch: ["https://symfony.com/doc/4.1/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -554,10 +557,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/4.2**/**"],
+      pathsToMatch: ["https://symfony.com/doc/4.2/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -582,10 +585,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/4.3**/**"],
+      pathsToMatch: ["https://symfony.com/doc/4.3/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -610,10 +613,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/4.4**/**"],
+      pathsToMatch: ["https://symfony.com/doc/4.4/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -638,10 +641,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/5.0**/**"],
+      pathsToMatch: ["https://symfony.com/doc/5.0/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -666,10 +669,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/5.1**/**"],
+      pathsToMatch: ["https://symfony.com/doc/5.1/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -694,10 +697,10 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/5.2**/**"],
+      pathsToMatch: ["https://symfony.com/doc/5.2/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -722,10 +725,94 @@ new Crawler({
     },
     {
       indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/current**/**"],
+      pathsToMatch: ["https://symfony.com/doc/5.3/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["5.3"],
+            },
+            pageRank: "100",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/5.4/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["5.4"],
+            },
+            pageRank: "100",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/6.0/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main dt, main dd, main blockquote",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            lvl5: "main h6",
+            version: {
+              defaultValue: ["6.0"],
+            },
+            pageRank: "100",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "symfony",
+      pathsToMatch: ["https://symfony.com/doc/current/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".breadcrumb, .toc--embedded, .toctree-wrapper";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -743,62 +830,6 @@ new Crawler({
               defaultValue: ["current"],
             },
             pageRank: "100",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/master**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "main h2",
-            content: "main p, main li, main dt, main dd, main blockquote",
-            lvl0: {
-              selectors: "main h1",
-            },
-            lvl2: "main h3",
-            lvl3: "main h4",
-            lvl4: "main h5",
-            lvl5: "main h6",
-            version: {
-              defaultValue: ["master"],
-            },
-            pageRank: "100",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "symfony",
-      pathsToMatch: ["https://symfony.com/doc/bundles/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".breadcrumb, .toc--embedded";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "main h2",
-            content: "main p, main li, main dt, main dd, main blockquote",
-            lvl0: {
-              selectors: "main h1",
-            },
-            lvl2: "main h3",
-            lvl3: "main h4",
-            lvl4: "main h5",
-            lvl5: "main h6",
-            tags: {
-              defaultValue: ["bundles"],
-            },
-            pageRank: "50",
           },
           indexHeadings: true,
         });
