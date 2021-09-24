@@ -3,9 +3,8 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://documentation.bonitasoft.com/bonita/7.5/",
-    "https://documentation.bonitasoft.com/",
     "https://documentation.bonitasoft.com/bonita/7.6/",
+    "https://documentation.bonitasoft.com/",
     "https://documentation.bonitasoft.com/bonita/7.7/",
     "https://documentation.bonitasoft.com/bonita/7.8/",
     "https://documentation.bonitasoft.com/bonita/7.9/",
@@ -29,32 +28,6 @@ new Crawler({
   discoveryPatterns: ["https://documentation.bonitasoft.com/**"],
   schedule: "at 06:30 on Tuesday",
   actions: [
-    {
-      indexName: "bonitasoft",
-      pathsToMatch: ["https://documentation.bonitasoft.com/bonita/7.5/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
-            lvl0: {
-              selectors: ".content h1",
-            },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
-            lvl5: ".content h6",
-            version: {
-              defaultValue: ["7.5"],
-            },
-            tags: {
-              defaultValue: ["bonita"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
     {
       indexName: "bonitasoft",
       pathsToMatch: ["https://documentation.bonitasoft.com/bonita/7.6/**"],

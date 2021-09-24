@@ -3,8 +3,16 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
+    "https://procedures.thetis-ims.com/da",
     "https://procedures.thetis-ims.com/",
+    "https://introduction.thetis-ims.com/da",
+    "https://introduction.thetis-ims.com/",
+    "https://reports.thetis-ims.com/da",
+    "https://reports.thetis-ims.com/",
+    "https://data.thetis-ims.com/da",
     "https://data.thetis-ims.com/",
+    "https://dashboards.thetis-ims.com/da",
+    "https://dashboards.thetis-ims.com/",
   ],
   renderJavaScript: false,
   sitemaps: [],
@@ -12,13 +20,16 @@ new Crawler({
   ignoreCanonicalTo: false,
   discoveryPatterns: [
     "https://procedures.thetis-ims.com/**",
+    "https://introduction.thetis-ims.com/**",
+    "https://reports.thetis-ims.com/**",
     "https://data.thetis-ims.com/**",
+    "https://dashboards.thetis-ims.com/**",
   ],
   schedule: "at 19:10 on Friday",
   actions: [
     {
       indexName: "thetis-ims_procedures",
-      pathsToMatch: ["https://procedures.thetis-ims.com**/**"],
+      pathsToMatch: ["https://procedures.thetis-ims.com/da**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -39,7 +50,70 @@ new Crawler({
     },
     {
       indexName: "thetis-ims_procedures",
-      pathsToMatch: ["https://data.thetis-ims.com**/**"],
+      pathsToMatch: ["https://introduction.thetis-ims.com/da**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h1",
+            content: "article p, article li",
+            lvl0: {
+              selectors: "title",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
+            lvl6: "article h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "thetis-ims_procedures",
+      pathsToMatch: ["https://reports.thetis-ims.com/da**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h1",
+            content: "article p, article li",
+            lvl0: {
+              selectors: "title",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
+            lvl6: "article h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "thetis-ims_procedures",
+      pathsToMatch: ["https://data.thetis-ims.com/da**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h1",
+            content: "article p, article li",
+            lvl0: {
+              selectors: "title",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
+            lvl6: "article h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "thetis-ims_procedures",
+      pathsToMatch: ["https://dashboards.thetis-ims.com/da**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

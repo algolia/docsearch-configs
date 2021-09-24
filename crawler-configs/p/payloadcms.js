@@ -14,17 +14,23 @@ new Crawler({
       indexName: "payloadcms",
       pathsToMatch: ["https://payloadcms.com/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove =
+          "[class*='docs_nextLabel'], [class*='Banner_banner'] strong";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "[class*='docs_main'] h2",
-            content: "[class*='docs_main'] p, [class*='docs_main'] li",
+            lvl1: "[class*='docs_mainWrap'] h2",
+            content:
+              "[class*='docs_mainWrap'] p, [class*='docs_mainWrap'] li, [class*='docs_mainWrap'] td, [class*='docs_mainWrap'] [class*='Banner_banner']",
             lvl0: {
-              selectors: "[class*='docs_main'] h1",
+              selectors: "[class*='docs_mainWrap'] h1",
             },
-            lvl2: "[class*='docs_main'] h3",
-            lvl3: "[class*='docs_main'] h4",
-            lvl4: "[class*='docs_main'] h5",
-            lvl5: "[class*='docs_main'] h6",
+            lvl2: "[class*='docs_mainWrap'] h3",
+            lvl3: "[class*='docs_mainWrap'] h4",
+            lvl4: "[class*='docs_mainWrap'] h5",
+            lvl5: "[class*='docs_mainWrap'] h6",
           },
           indexHeadings: true,
         });
