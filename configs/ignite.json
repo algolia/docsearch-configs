@@ -3,6 +3,7 @@
   "start_urls": [
     {
       "url": "https://pytorch.org/ignite/(?P<version>.*?)/",
+      "tags": ["ignite-docs"],
       "variables": {
         "version": {
           "url": "https://pytorch.org/ignite/",
@@ -12,7 +13,8 @@
     },
     {
       "url": "https://pytorch-ignite.ai/",
-      "selectors_key": "pytorch-ignite-ai"
+      "selectors_key": "pytorch-ignite-ai",
+      "tags": ["ignite-web"]
     }
   ],
   "stop_urls": ["/_", "\\?", "index.html"],
