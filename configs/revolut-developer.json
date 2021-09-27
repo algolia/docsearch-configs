@@ -34,11 +34,16 @@
       "text": "article p, article li, article td:last-child"
     },
     "api": {
-      "lvl0": ".redocusaurus h1",
-      "lvl1": ".redocusaurus h2",
-      "lvl2": ".redocusaurus h3",
-      "lvl3": ".redocusaurus h4",
-      "lvl4": ".redocusaurus h5",
+      "lvl0": {
+        "selector": ".redocusaurus li > label.active > span",
+        "global": true,
+        "default_value": "API Reference"
+      },
+      "lvl1": ".redocusaurus h1",
+      "lvl2": ".redocusaurus h2",
+      "lvl3": ".redocusaurus h3",
+      "lvl4": ".redocusaurus h4",
+      "lvl5": ".redocusaurus h5",
       "text": ".redocusaurus p"
     }
   },
