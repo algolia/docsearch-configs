@@ -50,7 +50,7 @@
   },
   "strip_chars": " .,;:#¶",
   "custom_settings": {
-    "attributesForFaceting": ["version"]
+    "attributesForFaceting": ["version", "tags"]
   },
   "conversation_id": ["1440172937"],
   "nb_hits": 26966
