@@ -35,7 +35,7 @@
     },
     "pytorch-ignite-ai": {
       "lvl0": {
-        "selector": ".prose h1",
+        "selector": "nav .active, .prose h1",
         "global": true,
         "default_value": "Documentation"
       },
