@@ -2,12 +2,11 @@
   "index_name": "symfony",
   "start_urls": [
     {
-      "url": "https://symfony.com/doc/(?P<version>.*?)/bundles",
+      "url": "https://symfony.com/bundles/.*/(?P<version>.*?)/",
       "page_rank": 50,
       "variables": {
         "version": [
-          "current",
-          "master"
+          "current"
         ]
       },
       "tags": [
@@ -15,7 +14,19 @@
       ]
     },
     {
-      "url": "https://symfony.com/doc/(?P<version>.*?)",
+      "url": "https://symfony.com/doc/current/the-fast-track/en/",
+      "page_rank": 75,
+      "extra_attributes": {
+        "language": [
+          "en"
+        ]
+      },
+      "tags": [
+        "fast-track"
+      ]
+    },
+    {
+      "url": "https://symfony.com/doc/(?P<version>.*?)/",
       "page_rank": 100,
       "variables": {
         "version": [
@@ -41,21 +52,18 @@
           "5.0",
           "5.1",
           "5.2",
-          "current",
-          "master"
+          "5.3",
+          "5.4",
+          "6.0",
+          "current"
         ]
       }
-    },
-    {
-      "url": "https://symfony.com/doc/bundles/",
-      "page_rank": 50,
-      "tags": [
-        "bundles"
-      ]
     }
   ],
   "stop_urls": [
-    "https://symfony.com/doc/.*/cmf/.*"
+    "/cmf/",
+    "/create_framework/",
+    "/the-fast-track/(?!en)"
   ],
   "sitemap_urls": [
     "https://symfony.com/sitemap.xml"
@@ -71,7 +79,8 @@
   },
   "selectors_exclude": [
     ".breadcrumb",
-    ".toc--embedded"
+    ".toc--embedded",
+    ".toctree-wrapper"
   ],
   "custom_settings": {
     "attributesForFaceting": [

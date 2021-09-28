@@ -8,14 +8,15 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "[class*='docs_main'] h1",
-    "lvl1": "[class*='docs_main'] h2",
-    "lvl2": "[class*='docs_main'] h3",
-    "lvl3": "[class*='docs_main'] h4",
-    "lvl4": "[class*='docs_main'] h5",
-    "lvl5": "[class*='docs_main'] h6",
-    "text": "[class*='docs_main'] p, [class*='docs_main'] li"
+    "lvl0": "[class*='docs_mainWrap'] h1",
+    "lvl1": "[class*='docs_mainWrap'] h2",
+    "lvl2": "[class*='docs_mainWrap'] h3",
+    "lvl3": "[class*='docs_mainWrap'] h4",
+    "lvl4": "[class*='docs_mainWrap'] h5",
+    "lvl5": "[class*='docs_mainWrap'] h6",
+    "text": "[class*='docs_mainWrap'] p, [class*='docs_mainWrap'] li, [class*='docs_mainWrap'] td, [class*='docs_mainWrap'] [class*='Banner_banner']"
   },
+	"selectors_exclude": ["[class*='docs_nextLabel']", "[class*='Banner_banner'] strong"],
   "conversation_id": [
     "1390688285"
   ],

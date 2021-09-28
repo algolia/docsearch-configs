@@ -1,0 +1,20 @@
+{
+  "index_name": "ifm3d",
+  "start_urls": [
+    "https://ifm3d.com/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".container h1",
+    "lvl1": ".container h2",
+    "lvl2": ".container h3",
+    "lvl3": ".container h4",
+    "lvl4": ".container h5",
+    "lvl5": ".container h6",
+    "text": ".container p, .container li"
+  },
+  "conversation_id": [
+    "1631916796"
+  ],
+  "nb_hits": 61
+}
