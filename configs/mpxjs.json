@@ -1,0 +1,20 @@
+{
+  "index_name": "mpxjs",
+  "start_urls": [
+    "https://mpxjs.cn/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".theme-default-content h1",
+    "lvl1": ".theme-default-content h2",
+    "lvl2": ".theme-default-content h3",
+    "lvl3": ".theme-default-content h4",
+    "lvl4": ".theme-default-content h5",
+    "lvl5": ".theme-default-content h6",
+    "text": ".theme-default-content p, .theme-default-content li"
+  },
+  "conversation_id": [
+    "1642732551"
+  ],
+  "nb_hits": 2583
+}
