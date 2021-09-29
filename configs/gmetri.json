@@ -1,7 +1,8 @@
 {
   "index_name": "gmetri",
   "start_urls": [
-    "https://www.gmetri.com/docs/"
+    "https://www.gmetri.com/docs/",
+    "https://www.gmetri.com/xracademy/"
   ],
   "sitemap_urls": [
     "https://www.gmetri.com/sitemap.xml"
