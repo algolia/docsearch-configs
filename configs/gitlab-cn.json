@@ -1,12 +1,43 @@
 {
   "index_name": "gitlab-cn",
   "start_urls": [
-    "https://docs.gitlab.cn"
+    {
+      "url": "https://docs.gitlab.cn/jh/",
+      "selectors_key": "gitlab",
+      "tags": ["gitlab"],
+      "extra_attributes": {
+        "product": "GitLab"
+      }
+    },
+    {
+      "url": "https://docs.gitlab.cn/omnibus/",
+      "selectors_key": "omnibus",
+      "tags": ["omnibus"],
+      "extra_attributes": {
+        "product": "Omnibus GitLab"
+      }
+    },
+    {
+      "url": "https://docs.gitlab.cn/runner/",
+      "selectors_key": "runner",
+      "tags": ["runner"],
+      "extra_attributes": {
+        "product": "GitLab Runner"
+      }
+    },
+    {
+      "url": "https://docs.gitlab.cn/charts/",
+      "selectors_key": "charts",
+      "tags": ["charts"],
+      "extra_attributes": {
+        "product": "GitLab Helm Charts"
+      }
+    }
   ],
   "sitemap_urls": [
     "https://docs.gitlab.cn/sitemap.xml"
   ],
-  "stop_urls": [],
+  "stop_urls": ["/index\\.html$", "README\\.html$", "/real_name.html"],
   "selectors": {
     "lvl0": ".article-content h1",
     "lvl1": ".article-content h2",
@@ -16,6 +47,12 @@
     "lvl5": ".article-content h6",
     "text": ".article-content p, .article-content li"
   },
+  "stop_content": [
+    "This document was moved to",
+    "This section is now merged into",
+    "404 Not Found"
+  ],
+  "only_content_level": true,
   "conversation_id": [
     "1623258062"
   ],
