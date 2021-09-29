@@ -1,21 +1,45 @@
 {
   "index_name": "bioturing",
   "start_urls": [
-    "https://bioturing.com/document"
+    {
+      "url": "https://bioturing.com/document",
+      "selectors_key": "BBrowser",
+      "tags": ["BBrowser"]
+    },
+    {
+      "url": "https://bioturing.com/talk2data-document",
+      "selectors_key": "Talk2Data",
+      "tags": ["Talk2Data"]
+    },
+    {
+      "url": "https://bioturing.com/bbrowser/faq",
+      "selectors_key": "FAQ",
+      "tags": ["FAQ"]
+    }
   ],
-  "stop_urls": [],
   "selectors": {
-    "lvl0": ".document-content h2",
-    "lvl1": ".document-content h3",
-    "lvl2": ".document-content h4",
-    "lvl3": ".document-content h5",
-    "lvl4": ".document-content h6",
-    "text": ".document-content p, .document-content li"
+    "BBrowser": {
+      "lvl0": "h2",
+      "lvl1": "h3",
+      "lvl2": "h4",
+      "lvl3": "h5",
+      "lvl4": "h6",
+      "text": "p, li"
+    },
+    "Talk2Data": {
+      "lvl0": "h2",
+      "lvl1": "h3",
+      "lvl2": "h4",
+      "lvl3": "h5",
+      "lvl4": "h6",
+      "text": "p, li"
+    },
+    "FAQ": {
+      "lvl0": "h2",
+      "lvl1": "h3",
+      "text": "p, li"
+    }
   },
-  "conversation_id": [
-    "1205021340"
-  ],
-  "nb_hits": 654,
-  "js_render": true,
-  "user_agent": "Algolia DocSearch Crawler"
+  "user_agent": "BioTuring Crawler Document",
+  "nb_hits": 933
 }
