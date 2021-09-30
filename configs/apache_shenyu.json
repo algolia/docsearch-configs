@@ -1,10 +1,10 @@
 {
-  "index_name": "mixin",
+  "index_name": "apache_shenyu",
   "start_urls": [
-    "https://developers.mixin.one/docs/"
+    "https://shenyu.apache.org/"
   ],
   "sitemap_urls": [
-    "https://developers.mixin.one/docs/sitemap.xml"
+    "https://shenyu.apache.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1594256942"
+    "1638730787"
   ],
-  "nb_hits": 1814
+  "nb_hits": 18893
 }

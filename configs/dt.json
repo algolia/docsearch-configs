@@ -1,0 +1,23 @@
+{
+  "index_name": "dt",
+  "start_urls": [
+    "https://docs.dt.in.th/"
+  ],
+  "sitemap_urls": [
+    "https://docs.dt.in.th/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".doc h1",
+    "lvl1": ".doc h2",
+    "lvl2": ".doc h3",
+    "lvl3": ".doc h4",
+    "lvl4": ".doc h5",
+    "lvl5": ".doc h6",
+    "text": ".doc p, .doc li"
+  },
+  "conversation_id": [
+    "1631699166"
+  ],
+  "nb_hits": 746
+}

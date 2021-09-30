@@ -1,14 +1,12 @@
 {
   "index_name": "final-form",
-  "start_urls": [
-    "https://final-form.org/docs/"
-  ],
-  "sitemap_urls": [
-    "https://final-form.org/sitemap.xml"
-  ],
+  "start_urls": ["https://final-form.org/"],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".DocSearch-content h1",
+    "lvl0": {
+      "selector": "div > div > div > h1",
+      "default_value": "Documentation"
+    },
     "lvl1": ".DocSearch-content h2",
     "lvl2": ".DocSearch-content h3",
     "lvl3": ".DocSearch-content h4",
@@ -16,8 +14,7 @@
     "lvl5": ".DocSearch-content h6",
     "text": ".DocSearch-content p, .DocSearch-content li"
   },
-  "conversation_id": [
-    "928695721"
-  ],
-  "nb_hits": 977
+  "conversation_id": ["928695721"],
+  "min_indexed_level": 1,
+  "nb_hits": 979
 }

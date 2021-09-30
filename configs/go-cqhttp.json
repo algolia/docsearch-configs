@@ -1,12 +1,7 @@
 {
-  "index_name": "recogn_biome-text",
+  "index_name": "go-cqhttp",
   "start_urls": [
-    {
-      "url": "https://recognai.github.io/biome-text/(?P<version>.*?)/",
-      "variables": {
-        "version": ["master", "v3.3.0", "v3.2.1", "v3.2.0", "v3.1.0", "v3.0.0", "v2.2.0", "v2.1.0", "v2.0.0", "v1.0.0"]
-      }
-    }
+    "https://docs.go-cqhttp.org"
   ],
   "stop_urls": [],
   "selectors": {
@@ -34,13 +29,12 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang",
-      "version"
+      "lang"
     ]
   },
   "conversation_id": [
-    "1155291364"
+    "1642585848"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 974
+  "nb_hits": 764
 }
