@@ -3,20 +3,19 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://dnndocs.com/api/",
-    "https://dnndocs.com/",
-    "https://dnndocs.com/api/DotNetNuke.Common.Lists.ListInfoCollection.html",
+    "https://docs.dnncommunity.org/api/",
+    "https://docs.dnncommunity.org/",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://dnndocs.com/sitemap.xml"],
+  sitemaps: ["https://docs.dnncommunity.org/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://dnndocs.com/**"],
+  discoveryPatterns: ["https://docs.dnncommunity.org/**"],
   schedule: "at 15:30 on Tuesday",
   actions: [
     {
       indexName: "dnnsoftware",
-      pathsToMatch: ["https://dnndocs.com/api/**"],
+      pathsToMatch: ["https://docs.dnncommunity.org/api/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".inheritedMembers, .inheritance";
@@ -43,36 +42,7 @@ new Crawler({
     },
     {
       indexName: "dnnsoftware",
-      pathsToMatch: [
-        "https://dnndocs.com/api/DotNetNuke.Common.Lists.ListInfoCollection.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".inheritedMembers, .inheritance";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".content h1",
-            content: ".content p, .content li",
-            lvl0: {
-              selectors: "",
-              defaultValue: "API",
-            },
-            lvl2: ".content h1",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
-            tags: {
-              defaultValue: ["api"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "dnnsoftware",
-      pathsToMatch: ["https://dnndocs.com/**"],
+      pathsToMatch: ["https://docs.dnncommunity.org/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".inheritedMembers, .inheritance";

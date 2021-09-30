@@ -2,9 +2,9 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://final-form.org/docs/", "https://final-form.org/"],
+  startUrls: ["https://final-form.org/"],
   renderJavaScript: false,
-  sitemaps: ["https://final-form.org/sitemap.xml"],
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://final-form.org/**"],
@@ -12,21 +12,22 @@ new Crawler({
   actions: [
     {
       indexName: "final-form",
-      pathsToMatch: ["https://final-form.org/docs/**"],
+      pathsToMatch: ["https://final-form.org/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
             lvl1: ".DocSearch-content h2",
             content: ".DocSearch-content p, .DocSearch-content li",
             lvl0: {
-              selectors: ".DocSearch-content h1",
+              selectors: "div > div > div > h1",
+              defaultValue: "Documentation",
             },
             lvl2: ".DocSearch-content h3",
             lvl3: ".DocSearch-content h4",
             lvl4: ".DocSearch-content h5",
             lvl5: ".DocSearch-content h6",
           },
-          indexHeadings: true,
+          indexHeadings: { from: 1, to: 6 },
         });
       },
     },

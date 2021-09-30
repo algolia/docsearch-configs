@@ -3,7 +3,7 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: ["https://playwright.dev/"],
-  renderJavaScript: true,
+  renderJavaScript: false,
   sitemaps: ["https://playwright.dev/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,

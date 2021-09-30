@@ -2,21 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://www.gmetri.com/docs/",
-    "https://www.gmetri.com/",
-    "https://www.gmetri.com/xracademy/",
-  ],
+  startUrls: ["https://docs.rowy.io/"],
   renderJavaScript: false,
-  sitemaps: ["https://www.gmetri.com/sitemap.xml"],
-  exclusionPatterns: ["**/tests**", "**/tests**/**"],
+  sitemaps: ["https://docs.rowy.io/sitemap.xml"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://www.gmetri.com/**"],
-  schedule: "at 06:20 on Wednesday",
+  discoveryPatterns: ["https://docs.rowy.io/**"],
+  schedule: "at 10:30 on Friday",
   actions: [
     {
-      indexName: "gmetri",
-      pathsToMatch: ["https://www.gmetri.com/docs/**"],
+      indexName: "rowy",
+      pathsToMatch: ["https://docs.rowy.io/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -33,32 +29,6 @@ new Crawler({
             lvl3: "article h3",
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "gmetri",
-      pathsToMatch: ["https://www.gmetri.com/xracademy/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -66,7 +36,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    gmetri: {
+    rowy: {
       attributesForFaceting: [
         "type",
         "lang",

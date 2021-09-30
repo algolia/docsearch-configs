@@ -2,63 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://www.gmetri.com/docs/",
-    "https://www.gmetri.com/",
-    "https://www.gmetri.com/xracademy/",
-  ],
+  startUrls: ["https://docs.dt.in.th/"],
   renderJavaScript: false,
-  sitemaps: ["https://www.gmetri.com/sitemap.xml"],
-  exclusionPatterns: ["**/tests**", "**/tests**/**"],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://www.gmetri.com/**"],
-  schedule: "at 06:20 on Wednesday",
+  sitemaps: ["https://docs.dt.in.th/sitemap.xml"],
+  exclusionPatterns: [],
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://docs.dt.in.th/**"],
+  schedule: "at 15:40 on Tuesday",
   actions: [
     {
-      indexName: "gmetri",
-      pathsToMatch: ["https://www.gmetri.com/docs/**"],
+      indexName: "dt",
+      pathsToMatch: ["https://docs.dt.in.th/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
+            lvl1: ".doc h2",
+            content: ".doc p, .doc li",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: ".doc h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "gmetri",
-      pathsToMatch: ["https://www.gmetri.com/xracademy/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
+            lvl2: ".doc h3",
+            lvl3: ".doc h4",
+            lvl4: ".doc h5",
+            lvl5: ".doc h6",
           },
           indexHeadings: true,
         });
@@ -66,22 +32,9 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    gmetri: {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-      ],
+    dt: {
+      attributesForFaceting: ["type", "lang"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -142,7 +95,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

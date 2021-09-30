@@ -20,14 +20,16 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".redocusaurus h2",
+            lvl1: ".redocusaurus h1",
             content: ".redocusaurus p",
             lvl0: {
-              selectors: ".redocusaurus h1",
+              selectors: ".redocusaurus li > label.active > span",
+              defaultValue: "API Reference",
             },
-            lvl2: ".redocusaurus h3",
-            lvl3: ".redocusaurus h4",
-            lvl4: ".redocusaurus h5",
+            lvl2: ".redocusaurus h2",
+            lvl3: ".redocusaurus h3",
+            lvl4: ".redocusaurus h4",
+            lvl5: ".redocusaurus h5",
           },
           indexHeadings: true,
         });

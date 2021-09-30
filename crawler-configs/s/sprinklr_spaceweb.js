@@ -3,7 +3,7 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: ["https://spaceweb.netlify.app/"],
-  renderJavaScript: false,
+  renderJavaScript: true,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
@@ -16,15 +16,15 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "main h2",
-            content: "main p, main li",
+            lvl1: "#docSearch-content h2",
+            content: "#docSearch-content p, #docSearch-content li",
             lvl0: {
-              selectors: "main h1",
+              selectors: "#docSearch-content h1",
             },
-            lvl2: "main h3",
-            lvl3: "main h4",
-            lvl4: "main h5",
-            lvl5: "main h6",
+            lvl2: "#docSearch-content h3",
+            lvl3: "#docSearch-content h4",
+            lvl4: "#docSearch-content h5",
+            lvl5: "#docSearch-content h6",
           },
           indexHeadings: true,
         });

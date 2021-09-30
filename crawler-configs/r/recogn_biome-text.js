@@ -5,6 +5,7 @@ new Crawler({
   startUrls: [
     "https://recognai.github.io/biome-text/master/",
     "https://recognai.github.io/",
+    "https://recognai.github.io/biome-text/v3.3.0/",
     "https://recognai.github.io/biome-text/v3.2.1/",
     "https://recognai.github.io/biome-text/v3.2.0/",
     "https://recognai.github.io/biome-text/v3.1.0/",
@@ -43,6 +44,34 @@ new Crawler({
             lvl5: ".theme-default-content h5",
             version: {
               defaultValue: ["master"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "recogn_biome-text",
+      pathsToMatch: ["https://recognai.github.io/biome-text/v3.3.0/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".theme-default-content h1",
+            content: ".theme-default-content p, .theme-default-content li",
+            lvl0: {
+              selectors: "p.sidebar-heading.open",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".theme-default-content h2",
+            lvl3: ".theme-default-content h3",
+            lvl4: ".theme-default-content h4",
+            lvl5: ".theme-default-content h5",
+            version: {
+              defaultValue: ["v3.3.0"],
             },
           },
           indexHeadings: true,

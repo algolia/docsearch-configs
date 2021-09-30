@@ -2,8 +2,13 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://bioturing.com/document", "https://bioturing.com/"],
-  renderJavaScript: true,
+  startUrls: [
+    "https://bioturing.com/document",
+    "https://bioturing.com/",
+    "https://bioturing.com/talk2data-document",
+    "https://bioturing.com/bbrowser/faq",
+  ],
+  renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
@@ -16,14 +21,58 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".document-content h3",
-            content: ".document-content p, .document-content li",
+            lvl1: "h3",
+            content: "p, li",
             lvl0: {
-              selectors: ".document-content h2",
+              selectors: "h2",
             },
-            lvl2: ".document-content h4",
-            lvl3: ".document-content h5",
-            lvl4: ".document-content h6",
+            lvl2: "h4",
+            lvl3: "h5",
+            lvl4: "h6",
+            tags: {
+              defaultValue: ["BBrowser"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "bioturing",
+      pathsToMatch: ["https://bioturing.com/talk2data-document**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "h3",
+            content: "p, li",
+            lvl0: {
+              selectors: "h2",
+            },
+            lvl2: "h4",
+            lvl3: "h5",
+            lvl4: "h6",
+            tags: {
+              defaultValue: ["Talk2Data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "bioturing",
+      pathsToMatch: ["https://bioturing.com/bbrowser/faq**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "h3",
+            content: "p, li",
+            lvl0: {
+              selectors: "h2",
+            },
+            tags: {
+              defaultValue: ["FAQ"],
+            },
           },
           indexHeadings: true,
         });
@@ -32,7 +81,7 @@ new Crawler({
   ],
   initialIndexSettings: {
     bioturing: {
-      attributesForFaceting: ["type", "lang"],
+      attributesForFaceting: ["type", "lang", "tags"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
