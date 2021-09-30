@@ -26,7 +26,7 @@
       "url": "https://documentation.bonitasoft.com/bcd/(?P<version>.*?)/",
       "tags": ["bcd"],
       "variables": {
-        "version": ["3.4"]
+        "version": ["latest"]
       }
     }
   ],
