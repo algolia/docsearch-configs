@@ -1,22 +1,45 @@
 {
   "index_name": "mixin",
   "start_urls": [
-    "https://developers.mixin.one/document"
+    "https://developers.mixin.one/docs/"
   ],
   "sitemap_urls": [
-    "https://developers.mixin.one/sitemap.xml"
+    "https://developers.mixin.one/docs/sitemap.xml"
   ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".markdown-body h1",
-    "lvl1": ".markdown-body h2",
-    "lvl2": ".markdown-body h3",
-    "lvl3": ".markdown-body h4",
-    "lvl4": ".markdown-body h5",
-    "lvl5": ".markdown-body h6",
-    "text": ".markdown-body p, .markdown-body li"
+    "lvl0": {
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
   },
-  "js_render": true,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
   "conversation_id": [
     "1594256942"
   ],
