@@ -1,34 +1,80 @@
 {
   "index_name": "branch",
   "start_urls": [
-    "https://dev.branch.io/third-party-integrations/",
-    "https://dev.branch.io/getting-started/",
-    "https://dev.branch.io/features/",
-    "https://dev.branch.io/methods-endpoints/",
-    "https://dev.branch.io/getting-started/supported-standards/"
+    {
+      "url": "https://help.branch.io/using-branch/",
+      "selectors_key": "usingbranch",
+      "tags": ["usingbranch"]
+    },
+    {
+      "url": "https://help.branch.io/developers-hub/",
+      "selectors_key": "developershub",
+      "tags": ["developershub"]
+    }
   ],
-  "stop_urls": [
-    "https://dev.branch.io/[^/.]*?/$",
-    "overview"
-  ],
-  "scrap_start_urls": false,
+  "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//ul[@class='breadcrumbs']/li[last()]",
-      "type": "xpath",
-      "global": true
+    "usingbranch": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Using Branch"
+      },
+      "lvl1": "header#content-head h1",
+      "lvl2": "#content-container h1",
+      "lvl3": "#content-container h2",
+      "lvl4": "#content-container h3",
+      "lvl5": "#content-container h4",
+      "text": "#content-container p, #content-container li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
     },
-    "lvl1": {
-      "selector": "//*[contains(@class, 'btn-default') and not(contains(@class, 'btn-inactive'))]",
-      "type": "xpath",
-      "global": true
+    "developershub": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Developers Hub"
+      },
+      "lvl1": "header#content-head h1",
+      "lvl2": "#content-container h1",
+      "lvl3": "#content-container h2",
+      "lvl4": "#content-container h3",
+      "lvl5": "#content-container h4",
+      "text": "#content-container p, #content-container li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
     },
-    "lvl2": ".inner__content h2",
-    "lvl3": ".inner__content h3",
-    "lvl4": ".inner__content h4",
-    "lvl5": ".inner__content h5",
-    "text": ".inner__content p, .inner__content li"
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "header#content-head h1",
+      "lvl2": "#content-container h1",
+      "lvl3": "#content-container h2",
+      "lvl4": "#content-container h3",
+      "lvl5": "#content-container h4",
+      "text": "#content-container p, #content-container li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true,
+        "default_value": "en-US"
+      }
+    }
   },
-  "min_indexed_level": 2,
-  "nb_hits": 6746
+  "custom_settings": {
+    "attributesForFaceting": ["tags"]
+  },
+  "conversation_id": ["1298667117"],
+  "nb_hits": 17704
 }

@@ -1,25 +1,18 @@
 {
   "index_name": "dnnsoftware",
   "sitemap_urls": [
-    "https://dnndocs.com/sitemap.xml"
+    "https://docs.dnncommunity.org/sitemap.xml"
   ],
   "start_urls": [
     {
-      "url": "https://dnndocs.com/api/",
+      "url": "https://docs.dnncommunity.org/api/",
       "selectors_key": "api",
       "tags": [
         "api"
       ]
     },
     {
-      "url": "https://dnndocs.com/api/DotNetNuke.Common.Lists.ListInfoCollection.html",
-      "selectors_key": "api",
-      "tags": [
-        "api"
-      ]
-    },
-    {
-      "url": "https://dnndocs.com/",
+      "url": "https://docs.dnncommunity.org/",
       "tags": [
         "docs"
       ]
@@ -58,6 +51,6 @@
     ".inheritedMembers",
     ".inheritance"
   ],
-  "scrape_start_url": false,
+  "scrape_start_urls": false,
   "nb_hits": 66153
 }
