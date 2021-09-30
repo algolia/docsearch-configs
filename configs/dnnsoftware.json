@@ -12,13 +12,6 @@
       ]
     },
     {
-      "url": "https://docs.dnncommunity.org/api/DotNetNuke.Common.Lists.ListInfoCollection.html",
-      "selectors_key": "api",
-      "tags": [
-        "api"
-      ]
-    },
-    {
       "url": "https://docs.dnncommunity.org/",
       "tags": [
         "docs"
@@ -58,5 +51,6 @@
     ".inheritedMembers",
     ".inheritance"
   ],
+  "scrape_start_urls": false,
   "nb_hits": 66153
 }
