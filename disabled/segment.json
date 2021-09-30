@@ -1,25 +1,38 @@
 {
   "index_name": "segment",
   "start_urls": [
-    "https://segment.com/docs/",
-    "https://segment.com/docs/faqs/"
+    "https://segment.com/docs/"
   ],
   "stop_urls": [
-    "https://segment.com/docs/faqs/$"
+    "/docs/legal/"
   ],
-  "scrap_start_urls": false,
+  "sitemap_urls": [
+    "https://segment.com/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
+      "selector": "article > .breadcrumbs > li:nth-child(3) > a",
+      "global": true,
+      "default_value": "Guides"
     },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "text": "main p, main li"
+    "lvl1": {
+      "selector": "article > .breadcrumbs > li:nth-child(5) > a",
+      "global": true,
+      "default_value": "Introduction"
+    },
+    "lvl2": ".page__body h1",
+    "lvl3": ".page__body h2",
+    "lvl4": ".page__body h3",
+    "lvl5": ".page__body h4, .page__body tr:not(:first-child) td:first-child",
+    "lvl6": ".page__body h5",
+    "text": ".page__body p, .page__body li, .page__body tr:not(:first-child) td:last-child"
   },
-  "min_indexed_level": 1,
-  "nb_hits": 11372
+  "stop_content": [
+    "This is currently in beta"
+  ],
+  "min_indexed_level": 3,
+  "custom_settings": {
+    "separatorsToIndex": "_>@"
+  },
+  "nb_hits": 38542
 }

@@ -1,83 +1,26 @@
 {
   "index_name": "marqeta",
   "start_urls": [
-    {
-      "url": "https://www.marqeta.com/api/docs/",
-      "selectors_key": "api",
-      "tags": [
-        "api"
-      ]
-    },
-    {
-      "url": "https://www.marqeta.com/api/guides/",
-      "selectors_key": "guides",
-      "tags": [
-        "guides"
-      ]
-    }
+    "https://www.marqeta.com/docs"
   ],
-  "sitemap_urls": [
-    "https://www.marqeta.com/sitemap.xml"
-  ],
+  "stop_urls": [],
   "selectors": {
-    "default": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl1": {
-        "selector": "//ul[@id='sidenav']//a[contains(@class, 'active')][1]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl2": "#documentation h1",
-      "lvl3": "#documentation h2",
-      "lvl4": "#documentation h3",
-      "text": "#documentation p, #documentation li"
-    },
-    "api": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "References Docs"
-      },
-      "lvl1": {
-        "selector": "//ul[@id='sidenav']//a[contains(@class, 'active')][1]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl2": "#documentation h1",
-      "lvl3": "#documentation h2",
-      "lvl4": "#documentation h3",
-      "text": "#documentation p, #documentation li"
-    },
-    "guides": {
-      "lvl0": {
-        "selector": "",
-        "global": true,
-        "default_value": "Guides"
-      },
-      "lvl1": {
-        "selector": "//ul[@id='sidenav']//a[contains(@class, 'active')][1]/preceding::h3[1]",
-        "type": "xpath",
-        "global": true,
-        "default_value": "Documentation"
-      },
-      "lvl2": "#documentation h1",
-      "lvl3": "#documentation h2",
-      "lvl4": "#documentation h3",
-      "text": "#documentation p, #documentation li"
-    }
+    "lvl0": ".volt-body h1",
+    "lvl1": ".volt-body h2",
+    "lvl2": ".volt-body h3",
+    "lvl3": ".volt-body h4",
+    "lvl4": ".volt-body h5",
+    "lvl5": ".volt-body h6",
+    "text": ".volt-body p"
   },
   "selectors_exclude": [
-    ".reference-cards",
-    "[class^='banner']"
+    "[class*='--headingLink--']"
   ],
+  "custom_settings": {
+    "separatorsToIndex": "_"
+  },
   "conversation_id": [
-    "531930874"
+    "1227588024"
   ],
-  "nb_hits": 3284
+  "nb_hits": 26700
 }
