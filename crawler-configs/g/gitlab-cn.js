@@ -6,7 +6,6 @@ new Crawler({
     "https://docs.gitlab.cn/jh/",
     "https://docs.gitlab.cn/",
     "https://docs.gitlab.cn/omnibus/",
-    "https://docs.gitlab.cn/runner/",
     "https://docs.gitlab.cn/charts/",
   ],
   renderJavaScript: false,
@@ -84,43 +83,6 @@ new Crawler({
             },
             tags: {
               defaultValue: ["omnibus"],
-            },
-          },
-          indexHeadings: false,
-        });
-      },
-    },
-    {
-      indexName: "gitlab-cn",
-      pathsToMatch: ["https://docs.gitlab.cn/runner/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Stop if one of those text is found in the DOM.
-        const body = $.text();
-        const toCheck = [
-          "This document was moved to",
-          "This section is now merged into",
-          "404 Not Found",
-        ];
-        const shouldStop = toCheck.some((text) => body.includes(text));
-        if (shouldStop) {
-          return [];
-        }
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".article-content h2",
-            content: ".article-content p, .article-content li",
-            lvl0: {
-              selectors: ".article-content h1",
-            },
-            lvl2: ".article-content h3",
-            lvl3: ".article-content h4",
-            lvl4: ".article-content h5",
-            lvl5: ".article-content h6",
-            product: {
-              defaultValue: "GitLab Runner",
-            },
-            tags: {
-              defaultValue: ["runner"],
             },
           },
           indexHeadings: false,
