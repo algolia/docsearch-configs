@@ -18,14 +18,6 @@
       }
     },
     {
-      "url": "https://docs.gitlab.cn/runner/",
-      "selectors_key": "runner",
-      "tags": ["runner"],
-      "extra_attributes": {
-        "product": "GitLab Runner"
-      }
-    },
-    {
       "url": "https://docs.gitlab.cn/charts/",
       "selectors_key": "charts",
       "tags": ["charts"],
