@@ -77,7 +77,7 @@
     },
     "v2": {
       "lvl0": {
-        "selector": "//nav[contains(@id, 'nav')]//*[contains(@class, 'opacity-50')][1]/preceding::h5[1]",
+        "selector": "//nav[contains(@id, 'nav')]//li//a[contains(@class, 'text-cyan-700')]/preceding::h5[1]",
         "type": "xpath",
         "global": true,
         "default_value": "Documentation"
@@ -114,5 +114,5 @@
   "conversation_id": [
     "459164857"
   ],
-  "nb_hits": 20679
+  "nb_hits": 21393
 }
