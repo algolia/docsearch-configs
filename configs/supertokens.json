@@ -10,25 +10,25 @@
     {
       "url": "https://supertokens.io/docs/emailpassword/",
       "tags": [
-        "emailpassword"
+        "emailpassword", "community"
       ]
     },
     {
       "url": "https://supertokens.io/docs/thirdparty/",
       "tags": [
-        "thirdparty"
+        "thirdparty", "community"
       ]
     },
     {
       "url": "https://supertokens.io/docs/thirdpartyemailpassword/",
       "tags": [
-        "thirdpartyemailpassword"
+        "thirdpartyemailpassword", "community"
       ]
     },
     {
       "url": "https://supertokens.io/docs/session/",
       "tags": [
-        "session"
+        "session", "community"
       ]
     },
     {
