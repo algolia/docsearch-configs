@@ -19,9 +19,8 @@
     "text": "section p, section li"
   },
   "custom_settings": {
-    "attributesForFaceting": ["version"]
-  },
-  "attributesToRetrieve": [
+    "attributesForFaceting": ["version"],
+    "attributesToRetrieve": [
       "hierarchy",
       "content",
       "anchor",
@@ -35,6 +34,7 @@
       "cat4",
       "cat5"
     ]
+  },  
   "conversation_id": ["1071099184"],
   "nb_hits": 82113
 }
