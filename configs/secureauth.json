@@ -18,6 +18,23 @@
     "lvl5": "section h6",
     "text": "section p, section li"
   },
+  "custom_settings": {
+    "attributesForFaceting": ["version"]
+  },
+  "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type",
+      "version",
+      "cat1",
+      "cat2",
+      "cat3",
+      "cat4",
+      "cat5"
+    ]
   "conversation_id": ["1071099184"],
   "nb_hits": 82113
 }
