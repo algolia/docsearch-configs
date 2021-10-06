@@ -9,7 +9,9 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "",
+      "selector": "(//nav[@id='sidebar']//div[contains(concat(' ', normalize-space(@class), ' '), ' markerInNavPath ') and not(contains(concat(' ', normalize-space(@class), ' '), ' selected '))]/a/text() | //nav[@id='headerNav']//a[contains(concat(' ', normalize-space(@class), ' '), ' selected ')]/text())[last()]",
+      "type": "xpath",
+      "global": true,
       "default_value": "Documentation"
     },
     "lvl1": "[class*='docContent'] h1",
