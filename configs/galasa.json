@@ -9,8 +9,9 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "",
-      "default_value": "Documentation"
+      "selector": "#sidebar div.markerInNavPath:not(.selected)",
+      "global": true,
+      "default_value": "Docs"
     },
     "lvl1": "[class*='docContent'] h1",
     "lvl2": "[class*='docContent'] h2",
