@@ -9,10 +9,7 @@
   ],
   "selectors": {
     "lvl0": {
-      "selectors": [
-        "#sidebar div.markerInNavPath:not(.selected)",
-        "#headerNav a.selected"
-      ],
+      "selector": "#sidebar div.markerInNavPath:not(.selected)",
       "global": true,
       "default_value": "Docs"
     },
