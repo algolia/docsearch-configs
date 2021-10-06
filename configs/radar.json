@@ -14,13 +14,13 @@
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "h1",
-    "lvl2": "h2",
-    "lvl3": "h3",
-    "lvl4": "h4",
-    "lvl5": "h5",
-    "lvl6": "h6",
-    "text": "p, li"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
