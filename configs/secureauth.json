@@ -2,10 +2,7 @@
   "index_name": "secureauth",
   "start_urls": [
     {
-      "url": "https://docs.secureauth.com/(?P<version>.*?)/",
-      "variables": {
-        "version": ["2104test", "2006test", "1907test"]
-      }
+      "url": "https://docs.secureauth.com/"      
     }
   ],
   "stop_urls": ["/login", "/label/", "/download", "/pages/"],
