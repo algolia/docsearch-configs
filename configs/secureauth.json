@@ -1,6 +1,6 @@
 {
   "index_name": "secureauth",
-  "start_urls": ["url": "https://docs.secureauth.com/"],
+  "start_urls": ["https://docs.secureauth.com/"],
   "stop_urls": ["/login", "/label/", "/download", "/pages/"],
   "selectors": {
     "lvl0": "section h1",
