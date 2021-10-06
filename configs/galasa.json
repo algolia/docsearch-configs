@@ -9,10 +9,12 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "(//nav[@id='sidebar']//div[contains(concat(' ', normalize-space(@class), ' '), ' markerInNavPath ') and not(contains(concat(' ', normalize-space(@class), ' '), ' selected '))]/a/text() | //nav[@id='headerNav']//a[contains(concat(' ', normalize-space(@class), ' '), ' selected ')]/text())[last()]",
-      "type": "xpath",
+      "selectors": [
+        "#sidebar div.markerInNavPath:not(.selected)",
+        "#headerNav a.selected"
+      ],
       "global": true,
-      "default_value": "Documentation"
+      "default_value": "Docs"
     },
     "lvl1": "[class*='docContent'] h1",
     "lvl2": "[class*='docContent'] h2",
