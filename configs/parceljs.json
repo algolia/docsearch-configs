@@ -5,7 +5,7 @@
       "url": "https://parceljs.org/",
       "extra_attributes": {
         "version": [
-          "2"
+          "v2"
         ],
         "lang": [
           "en"
@@ -31,7 +31,7 @@
       },
       "extra_attributes": {
         "version": [
-          "1"
+          "v1"
         ]
       }
     }
