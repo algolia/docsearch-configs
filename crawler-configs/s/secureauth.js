@@ -2,12 +2,7 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://docs.secureauth.com/2104test/",
-    "https://docs.secureauth.com/",
-    "https://docs.secureauth.com/2006test/",
-    "https://docs.secureauth.com/1907test/",
-  ],
+  startUrls: ["https://docs.secureauth.com/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
@@ -24,7 +19,7 @@ new Crawler({
   actions: [
     {
       indexName: "secureauth",
-      pathsToMatch: ["https://docs.secureauth.com/2104test/**"],
+      pathsToMatch: ["https://docs.secureauth.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -37,55 +32,6 @@ new Crawler({
             lvl3: "section h4",
             lvl4: "section h5",
             lvl5: "section h6",
-            version: {
-              defaultValue: ["2104test"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "secureauth",
-      pathsToMatch: ["https://docs.secureauth.com/2006test/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "section h2",
-            content: "section p, section li",
-            lvl0: {
-              selectors: "section h1",
-            },
-            lvl2: "section h3",
-            lvl3: "section h4",
-            lvl4: "section h5",
-            lvl5: "section h6",
-            version: {
-              defaultValue: ["2006test"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "secureauth",
-      pathsToMatch: ["https://docs.secureauth.com/1907test/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "section h2",
-            content: "section p, section li",
-            lvl0: {
-              selectors: "section h1",
-            },
-            lvl2: "section h3",
-            lvl3: "section h4",
-            lvl4: "section h5",
-            lvl5: "section h6",
-            version: {
-              defaultValue: ["1907test"],
-            },
           },
           indexHeadings: true,
         });
@@ -94,8 +40,21 @@ new Crawler({
   ],
   initialIndexSettings: {
     secureauth: {
-      attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesForFaceting: ["type", "lang", "version"],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+        "version",
+        "cat1",
+        "cat2",
+        "cat3",
+        "cat4",
+        "cat5",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],

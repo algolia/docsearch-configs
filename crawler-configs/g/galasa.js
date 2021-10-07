@@ -19,8 +19,8 @@ new Crawler({
             lvl1: "[class*='docContent'] h1",
             content: "[class*='docContent'] p, [class*='docContent'] li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
+              selectors: "#sidebar div.markerInNavPath:not(.selected)",
+              defaultValue: "Docs",
             },
             lvl2: "[class*='docContent'] h2",
             lvl3: "[class*='docContent'] h3",

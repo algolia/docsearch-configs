@@ -2,34 +2,34 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://zio.dev/docs/", "https://zio.dev/"],
+  startUrls: ["https://zio.dev/"],
   renderJavaScript: false,
   sitemaps: ["https://zio.dev/sitemap.xml"],
-  exclusionPatterns: [],
-  ignoreCanonicalTo: false,
+  exclusionPatterns: ["**/tests**", "**/tests**/**"],
+  ignoreCanonicalTo: true,
   discoveryPatterns: ["https://zio.dev/**"],
   schedule: "at 00:10 on Sunday",
   actions: [
     {
       indexName: "zio",
-      pathsToMatch: ["https://zio.dev/docs/**"],
+      pathsToMatch: ["https://zio.dev/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".post h1",
-            content: ".post article p, .post article li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: ".navGroup > h3.collapsible",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
               defaultValue: "Documentation",
             },
-            lvl2: ".post h2",
-            lvl3: ".post h3",
-            lvl4: ".post h4",
-            lvl5: ".post h5",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -38,8 +38,21 @@ new Crawler({
   ],
   initialIndexSettings: {
     zio: {
-      attributesForFaceting: ["type", "lang", "language", "version"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -100,6 +113,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

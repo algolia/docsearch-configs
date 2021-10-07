@@ -3,20 +3,20 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://nanoc.ws/about/",
-    "https://nanoc.ws/",
-    "https://nanoc.ws/doc/",
+    "https://nanoc.app/about/",
+    "https://nanoc.app/",
+    "https://nanoc.app/doc/",
   ],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://nanoc.ws/**"],
+  discoveryPatterns: ["https://nanoc.app/**"],
   schedule: "at 15:00 on Thursday",
   actions: [
     {
       indexName: "nanoc",
-      pathsToMatch: ["https://nanoc.ws/about/**"],
+      pathsToMatch: ["https://nanoc.app/about/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -35,7 +35,7 @@ new Crawler({
     },
     {
       indexName: "nanoc",
-      pathsToMatch: ["https://nanoc.ws/doc/**"],
+      pathsToMatch: ["https://nanoc.app/doc/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

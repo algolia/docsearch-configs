@@ -6,6 +6,7 @@ new Crawler({
     "https://www.thespaghettidetective.com/docs/",
     "https://www.thespaghettidetective.com/",
     "https://www.thespaghettidetective.com/docs/octoprint-plugin-setup/",
+    "https://www.thespaghettidetective.com/blog/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://www.thespaghettidetective.com/sitemap.xml"],
@@ -14,6 +15,27 @@ new Crawler({
   discoveryPatterns: ["https://www.thespaghettidetective.com/**"],
   schedule: "at 19:10 on Friday",
   actions: [
+    {
+      indexName: "thespaghettidetective",
+      pathsToMatch: ["https://www.thespaghettidetective.com/blog/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
+            lvl0: {
+              selectors: "a.dropdown__link--active",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            lvl6: "article h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
     {
       indexName: "thespaghettidetective",
       pathsToMatch: [

@@ -2,7 +2,13 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://backstage.io/docs/", "https://backstage.io/"],
+  startUrls: [
+    "https://backstage.io/docs/reference/",
+    "https://backstage.io/",
+    "https://backstage.io/docs/",
+    "https://backstage.io/blog/",
+    "https://backstage.io/plugins/",
+  ],
   renderJavaScript: false,
   sitemaps: ["https://backstage.io/sitemap.xml"],
   exclusionPatterns: [],
@@ -10,6 +16,32 @@ new Crawler({
   discoveryPatterns: ["https://backstage.io/**"],
   schedule: "at 06:00 on Tuesday",
   actions: [
+    {
+      indexName: "backstage",
+      pathsToMatch: ["https://backstage.io/docs/reference/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
+            lvl0: {
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
+            lvl5: ".post h5",
+            pageRank: "4",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
     {
       indexName: "backstage",
       pathsToMatch: ["https://backstage.io/docs/**"],
@@ -30,6 +62,59 @@ new Crawler({
             lvl3: ".post h3",
             lvl4: ".post h4",
             lvl5: ".post h5",
+            pageRank: "10",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "backstage",
+      pathsToMatch: ["https://backstage.io/blog/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
+            lvl0: {
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
+            lvl5: ".post h5",
+            pageRank: "6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "backstage",
+      pathsToMatch: ["https://backstage.io/plugins/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
+            lvl0: {
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
+            lvl5: ".post h5",
+            pageRank: "8",
           },
           indexHeadings: true,
         });

@@ -86,7 +86,7 @@ new Crawler({
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
             tags: {
-              defaultValue: ["emailpassword"],
+              defaultValue: ["emailpassword", "community"],
             },
           },
           indexHeadings: true,
@@ -118,7 +118,7 @@ new Crawler({
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
             tags: {
-              defaultValue: ["thirdparty"],
+              defaultValue: ["thirdparty", "community"],
             },
           },
           indexHeadings: true,
@@ -150,7 +150,7 @@ new Crawler({
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
             tags: {
-              defaultValue: ["thirdpartyemailpassword"],
+              defaultValue: ["thirdpartyemailpassword", "community"],
             },
           },
           indexHeadings: true,
@@ -182,7 +182,7 @@ new Crawler({
             lvl5: "article h5, article td:first-child",
             lvl6: "article h6",
             tags: {
-              defaultValue: ["session"],
+              defaultValue: ["session", "community"],
             },
           },
           indexHeadings: true,

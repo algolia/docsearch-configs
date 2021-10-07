@@ -15,6 +15,7 @@ new Crawler({
     "https://documentation.bonitasoft.com/cloud/latest/",
     "https://documentation.bonitasoft.com/labs/latest/",
     "https://documentation.bonitasoft.com/bcd/3.4/",
+    "https://documentation.bonitasoft.com/bcd/3.5/",
     "https://documentation.bonitasoft.com/bcd/latest/",
   ],
   renderJavaScript: false,
@@ -306,6 +307,32 @@ new Crawler({
             lvl5: ".content h6",
             version: {
               defaultValue: ["3.4"],
+            },
+            tags: {
+              defaultValue: ["bcd"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "bonitasoft",
+      pathsToMatch: ["https://documentation.bonitasoft.com/bcd/3.5/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".content h2",
+            content: ".content p, .content li",
+            lvl0: {
+              selectors: ".content h1",
+            },
+            lvl2: ".content h3",
+            lvl3: ".content h4",
+            lvl4: ".content h5",
+            lvl5: ".content h6",
+            version: {
+              defaultValue: ["3.5"],
             },
             tags: {
               defaultValue: ["bcd"],

@@ -4,7 +4,7 @@ new Crawler({
   rateLimit: 8,
   startUrls: ["https://spaceweb.netlify.app/"],
   renderJavaScript: true,
-  sitemaps: [],
+  sitemaps: ["https://spaceweb.netlify.app/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://spaceweb.netlify.app/**"],

@@ -4,7 +4,7 @@ new Crawler({
   rateLimit: 8,
   startUrls: ["https://grammy.dev/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://grammy.dev/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://grammy.dev/**"],

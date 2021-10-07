@@ -7,7 +7,6 @@ new Crawler({
     "https://djipco.github.io/",
     "https://djipco.github.io/webmidi/docs/",
     "https://djipco.github.io/webmidi/",
-    "https://djipco.github.io/webmidi/api/classes/Input",
   ],
   renderJavaScript: false,
   sitemaps: ["https://djipco.github.io/webmidi/sitemap.xml"],
@@ -25,7 +24,7 @@ new Crawler({
             lvl1: "article h2",
             content: "article p, article li, article table td",
             lvl0: {
-              selectors: "article header:first-of-type h1",
+              selectors: "article header:last-of-type h1",
             },
             lvl2: "article h3",
             lvl3: "article h4",
@@ -44,7 +43,7 @@ new Crawler({
             lvl1: "article h2",
             content: "article p, article li, article table td",
             lvl0: {
-              selectors: "article header:first-of-type h1",
+              selectors: "article header:last-of-type h1",
             },
             lvl2: "article h3",
             lvl3: "article h4",
@@ -58,7 +57,6 @@ new Crawler({
       indexName: "webmidi",
       pathsToMatch: [
         "https://djipco.github.io/webmidi/**",
-        "https://djipco.github.io/webmidi/api/classes/Input**/**",
         "!https://djipco.github.io/webmidi/api/**",
         "!https://djipco.github.io/webmidi/docs/**",
       ],
