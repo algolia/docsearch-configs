@@ -1,7 +1,22 @@
 {
   "index_name": "backstage",
   "start_urls": [
-    "https://backstage.io/docs/"
+    {
+      "url": "https://backstage.io/docs/reference/",
+      "page_rank": 4
+    },
+    {
+      "url": "https://backstage.io/docs/",
+      "page_rank": 10
+    },
+    {
+      "url": "https://backstage.io/blog/",
+      "page_rank": 6
+    },
+    {
+      "url": "https://backstage.io/plugins/",
+      "page_rank": 8
+    }
   ],
   "sitemap_urls": [
     "https://backstage.io/sitemap.xml"

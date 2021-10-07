@@ -1,8 +1,8 @@
 {
   "index_name": "nanoc",
   "start_urls": [
-    "https://nanoc.ws/about/",
-    "https://nanoc.ws/doc/"
+    "https://nanoc.app/about/",
+    "https://nanoc.app/doc/"
   ],
   "stop_urls": [],
   "selectors": {
