@@ -16,7 +16,6 @@
       "url": "https://(?P<lang>.*?).parceljs.org/",
       "variables": {
         "lang": [
-          "v1",
           "en",
           "es",
           "fr",
