@@ -1,0 +1,24 @@
+{
+  "index_name": "atena-db",
+  "start_urls": [
+    "https://atena-db.web.app/docs",
+    "https://atena-db.web.app/get-started/"
+  ],
+  "sitemap_urls": [
+    "https://atena-db.web.app/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li"
+  },
+  "conversation_id": [
+    "1620447330"
+  ],
+  "nb_hits": 445
+}
