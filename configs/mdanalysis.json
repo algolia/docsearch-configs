@@ -23,10 +23,10 @@
     "lvl2": "[itemprop='articleBody'] > .section h3, .page h3, .post h3, .body > .section h3",
     "lvl3": "[itemprop='articleBody'] > .section h4, .page h4, .post h4, .body > .section h4",
     "lvl4": "[itemprop='articleBody'] > .section h5, .page h5, .post h5, .body > .section h5",
-    "text": "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre, "
+    "text": "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre"
   },
   "conversation_id": [
     "569445928"
   ],
-  "nb_hits": 32205
+  "nb_hits": 85975
 }
