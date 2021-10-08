@@ -9,16 +9,16 @@
   ],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.open",
+      "selector": "",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".theme-default-content h1",
-    "lvl2": ".theme-default-content h2",
-    "lvl3": ".theme-default-content h3",
-    "lvl4": ".theme-default-content h4",
-    "lvl5": ".theme-default-content h5",
-    "text": ".theme-default-content p, .theme-default-content li",
+    "lvl1": ".container h1",
+    "lvl2": ".container h2",
+    "lvl3": ".container h3",
+    "lvl4": ".container h4",
+    "lvl5": ".container h5",
+    "text": ".container p, .container li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -39,5 +39,5 @@
     "1340963328"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 916
+  "nb_hits": 2841
 }
