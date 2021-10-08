@@ -1,7 +1,11 @@
 {
   "index_name": "adam-rms",
-  "start_urls": ["https://adam-rms.com/"],
-  "sitemap_urls": ["https://adam-rms.com/sitemap.xml"],
+  "start_urls": [
+    "https://www.adam-rms.com/"
+  ],
+  "sitemap_urls": [
+    "https://www.adam-rms.com/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -21,7 +25,12 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -31,6 +40,8 @@
       "type"
     ]
   },
-  "conversation_id": ["1622118819"],
-  "nb_hits": 15535
+  "conversation_id": [
+    "1622118819"
+  ],
+  "nb_hits": 24124
 }
