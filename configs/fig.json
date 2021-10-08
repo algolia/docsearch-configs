@@ -1,7 +1,8 @@
 {
   "index_name": "fig",
   "start_urls": [
-    "https://fig.io/docs/"
+    "https://fig.io/docs/",
+    "https://fig.io/support/"
   ],
   "stop_urls": [],
   "selectors": {
