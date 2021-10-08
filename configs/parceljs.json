@@ -4,12 +4,8 @@
     {
       "url": "https://parceljs.org/",
       "extra_attributes": {
-        "version": [
-          "v2"
-        ],
-        "lang": [
-          "en"
-        ]
+        "version": ["v2"],
+        "lang": ["en"]
       }
     },
     {
@@ -30,15 +26,18 @@
         ]
       },
       "extra_attributes": {
-        "version": [
-          "v1"
-        ]
+        "version": ["v1"]
+      }
+    },
+    {
+      "url": "https://v1.parceljs.org/",
+      "extra_attributes": {
+        "version": ["v1"],
+        "lang": ["en"]
       }
     }
   ],
-  "stop_content": [
-    "assets/parcel-front.png"
-  ],
+  "stop_content": ["assets/parcel-front.png"],
   "selectors": {
     "lvl0": "main h1",
     "lvl1": "main h2",
@@ -47,9 +46,10 @@
     "lvl4": "main h5",
     "text": "main p, main li, main pre"
   },
-  "conversation_id": [
-    "678588606"
-  ],
+  "conversation_id": ["678588606"],
   "scrape_start_urls": false,
-  "nb_hits": 5711
+  "custom_settings": {
+    "attributesForFaceting": ["version", "lang"]
+  },
+  "nb_hits": 12479
 }
