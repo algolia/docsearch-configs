@@ -37,7 +37,7 @@
       }
     }
   ],
-  "stop_urls": ["https://parceljs.org/", "https://parceljs.org/blog/.*"],
+  "stop_urls": ["https://parceljs.org/$", "https://parceljs.org/blog/"],
   "stop_content": ["assets/parcel-front.png"],
   "selectors": {
     "lvl0": "main h1",
