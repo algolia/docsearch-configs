@@ -1,11 +1,9 @@
 {
-  "index_name": "adam-rms",
+  "index_name": "ezbackend",
   "start_urls": [
-    "https://www.adam-rms.com/"
+    "https://www.ezbackend.io/"
   ],
-  "sitemap_urls": [
-    "https://www.adam-rms.com/sitemap.xml"
-  ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -19,7 +17,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -41,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1622118819"
+    "1645060170"
   ],
-  "nb_hits": 24124
+  "nb_hits": 662
 }

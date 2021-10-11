@@ -1,8 +1,7 @@
 {
-  "index_name": "fig",
+  "index_name": "constellation",
   "start_urls": [
-    "https://fig.io/docs/",
-    "https://fig.io/support/"
+    "https://aldebaran30701.github.io/constellation-app.github.io/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,9 +17,8 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "js_render": true,
   "conversation_id": [
-    "1601403007"
+    "1626846709"
   ],
-  "nb_hits": 959
+  "nb_hits": 187
 }

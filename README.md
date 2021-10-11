@@ -26,7 +26,7 @@ DocSearch is made of 3 repositories:
 
 
 [1]: https://docsearch.algolia.com/
-[2]: https://docsearch.algolia.com/docs/config-file/
+[2]: https://docsearch.algolia.com/docs/legacy/config-file
 [3]: https://github.com/algolia/docsearch
 [4]: https://github.com/algolia/docsearch-configs
 [5]: https://github.com/algolia/docsearch-scraper

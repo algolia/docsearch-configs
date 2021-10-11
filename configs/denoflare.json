@@ -1,8 +1,10 @@
 {
-  "index_name": "fig",
+  "index_name": "denoflare",
   "start_urls": [
-    "https://fig.io/docs/",
-    "https://fig.io/support/"
+    "https://denoflare.dev"
+  ],
+  "sitemap_urls": [
+    "https://denoflare.dev/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,9 +20,8 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "js_render": true,
   "conversation_id": [
-    "1601403007"
+    "1635669037"
   ],
-  "nb_hits": 959
+  "nb_hits": 117
 }
