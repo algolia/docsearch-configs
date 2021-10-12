@@ -1,10 +1,10 @@
 {
   "index_name": "mixin",
   "start_urls": [
-    "https://developers.mixin.one/docs/"
+    "https://developers.mixin.one/"
   ],
   "sitemap_urls": [
-    "https://developers.mixin.one/docs/sitemap.xml"
+    "https://developers.mixin.one/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
