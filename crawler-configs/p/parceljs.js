@@ -3,6 +3,7 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
+    "https://parceljs.org/",
     "https://en.parceljs.org/",
     "https://es.parceljs.org/",
     "https://fr.parceljs.org/",
@@ -14,13 +15,14 @@ new Crawler({
     "https://uk.parceljs.org/",
     "https://zh.parceljs.org/",
     "https://zh-tw.parceljs.org/",
-    "https://v2.parceljs.org/",
+    "https://v1.parceljs.org/",
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [],
+  exclusionPatterns: ["https://parceljs.org/", "https://parceljs.org/blog/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: [
+    "https://parceljs.org/**",
     "https://en.parceljs.org/**",
     "https://es.parceljs.org/**",
     "https://fr.parceljs.org/**",
@@ -32,10 +34,42 @@ new Crawler({
     "https://uk.parceljs.org/**",
     "https://zh.parceljs.org/**",
     "https://zh-tw.parceljs.org/**",
-    "https://v2.parceljs.org/**",
+    "https://v1.parceljs.org/**",
   ],
   schedule: "at 00:00 on Friday",
   actions: [
+    {
+      indexName: "parceljs",
+      pathsToMatch: ["https://parceljs.org/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Stop if one of those text is found in the DOM.
+        const body = $.text();
+        const toCheck = ["assets/parcel-front.png"];
+        const shouldStop = toCheck.some((text) => body.includes(text));
+        if (shouldStop) {
+          return [];
+        }
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h2",
+            content: "main p, main li, main pre",
+            lvl0: {
+              selectors: "main h1",
+            },
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
+            version: {
+              defaultValue: ["v2"],
+            },
+            lang: {
+              defaultValue: ["en"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
     {
       indexName: "parceljs",
       pathsToMatch: ["https://en.parceljs.org/**"],
@@ -50,7 +84,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -59,6 +93,9 @@ new Crawler({
             lvl4: "main h5",
             lang: {
               defaultValue: ["en"],
+            },
+            version: {
+              defaultValue: ["v1"],
             },
           },
           indexHeadings: true,
@@ -79,7 +116,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -88,6 +125,9 @@ new Crawler({
             lvl4: "main h5",
             lang: {
               defaultValue: ["es"],
+            },
+            version: {
+              defaultValue: ["v1"],
             },
           },
           indexHeadings: true,
@@ -108,7 +148,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -117,6 +157,9 @@ new Crawler({
             lvl4: "main h5",
             lang: {
               defaultValue: ["fr"],
+            },
+            version: {
+              defaultValue: ["v1"],
             },
           },
           indexHeadings: true,
@@ -137,7 +180,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -146,6 +189,9 @@ new Crawler({
             lvl4: "main h5",
             lang: {
               defaultValue: ["it"],
+            },
+            version: {
+              defaultValue: ["v1"],
             },
           },
           indexHeadings: true,
@@ -166,7 +212,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -175,6 +221,9 @@ new Crawler({
             lvl4: "main h5",
             lang: {
               defaultValue: ["ko"],
+            },
+            version: {
+              defaultValue: ["v1"],
             },
           },
           indexHeadings: true,
@@ -195,7 +244,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -204,6 +253,9 @@ new Crawler({
             lvl4: "main h5",
             lang: {
               defaultValue: ["pl"],
+            },
+            version: {
+              defaultValue: ["v1"],
             },
           },
           indexHeadings: true,
@@ -224,7 +276,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -233,6 +285,9 @@ new Crawler({
             lvl4: "main h5",
             lang: {
               defaultValue: ["pt"],
+            },
+            version: {
+              defaultValue: ["v1"],
             },
           },
           indexHeadings: true,
@@ -253,7 +308,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -262,6 +317,9 @@ new Crawler({
             lvl4: "main h5",
             lang: {
               defaultValue: ["ru"],
+            },
+            version: {
+              defaultValue: ["v1"],
             },
           },
           indexHeadings: true,
@@ -282,7 +340,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -291,6 +349,9 @@ new Crawler({
             lvl4: "main h5",
             lang: {
               defaultValue: ["uk"],
+            },
+            version: {
+              defaultValue: ["v1"],
             },
           },
           indexHeadings: true,
@@ -311,7 +372,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -320,6 +381,9 @@ new Crawler({
             lvl4: "main h5",
             lang: {
               defaultValue: ["zh"],
+            },
+            version: {
+              defaultValue: ["v1"],
             },
           },
           indexHeadings: true,
@@ -340,7 +404,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
@@ -350,6 +414,9 @@ new Crawler({
             lang: {
               defaultValue: ["zh-tw"],
             },
+            version: {
+              defaultValue: ["v1"],
+            },
           },
           indexHeadings: true,
         });
@@ -357,7 +424,7 @@ new Crawler({
     },
     {
       indexName: "parceljs",
-      pathsToMatch: ["https://v2.parceljs.org/**"],
+      pathsToMatch: ["https://v1.parceljs.org/**"],
       recordExtractor: ({ $, helpers }) => {
         // Stop if one of those text is found in the DOM.
         const body = $.text();
@@ -369,15 +436,18 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main pre",
             lvl0: {
               selectors: "main h1",
             },
             lvl2: "main h3",
             lvl3: "main h4",
             lvl4: "main h5",
+            version: {
+              defaultValue: ["v1"],
+            },
             lang: {
-              defaultValue: ["v2"],
+              defaultValue: ["en"],
             },
           },
           indexHeadings: true,
@@ -387,7 +457,7 @@ new Crawler({
   ],
   initialIndexSettings: {
     parceljs: {
-      attributesForFaceting: ["type", "lang"],
+      attributesForFaceting: ["type", "lang", "version"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

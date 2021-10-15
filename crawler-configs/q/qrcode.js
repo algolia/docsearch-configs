@@ -3,62 +3,109 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://fleetdm.com/docs",
-    "https://fleetdm.com/",
-    "https://fleetdm.com/handbook",
+    "https://thierryo.github.io/qrcode/index.html",
+    "https://thierryo.github.io/",
+    "https://thierryo.github.io/qrcode/reference",
+    "https://thierryo.github.io/qrcode/articles",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://fleetdm.com/sitemap.xml"],
-  exclusionPatterns: [],
+  sitemaps: ["https://thierryo.github.io/qrcode/sitemap.xml"],
+  exclusionPatterns: [
+    "**/reference/",
+    "**/reference/index.html",
+    "**/articles/",
+    "**/articles/index.html",
+  ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://fleetdm.com/**"],
-  schedule: "at 01:20 on Wednesday",
+  discoveryPatterns: ["https://thierryo.github.io/**"],
+  schedule: "at 05:40 on Friday",
   actions: [
     {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/docs**/**"],
+      indexName: "qrcode",
+      pathsToMatch: ["https://thierryo.github.io/qrcode/index.html**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
+            lvl1: ".contents h2",
+            content: ".contents p, .contents li, .contents .pre",
             lvl0: {
-              selectors: "#body-content h1",
+              selectors: ".contents h1",
+              defaultValue: "pkgdown Home page",
             },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
+            lvl2: ".contents h3",
+            lvl3: ".ref-arguments td, .ref-description",
+            tags: {
+              defaultValue: ["homepage"],
+            },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
     {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/handbook**/**"],
+      indexName: "qrcode",
+      pathsToMatch: ["https://thierryo.github.io/qrcode/reference**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
             lvl0: {
-              selectors: "#body-content h1",
+              selectors: ".contents h1",
             },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
+            lvl2: ".ref-arguments th",
+            lvl3: ".ref-arguments td, .ref-description",
+            tags: {
+              defaultValue: ["reference"],
+            },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+    {
+      indexName: "qrcode",
+      pathsToMatch: ["https://thierryo.github.io/qrcode/articles**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
+            lvl0: {
+              selectors: ".contents h1",
+            },
+            lvl2: ".contents h2, .contents h3",
+            tags: {
+              defaultValue: ["articles"],
+            },
+          },
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
   ],
   initialIndexSettings: {
-    fleetdm: {
+    qrcode: {
       attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -119,6 +166,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

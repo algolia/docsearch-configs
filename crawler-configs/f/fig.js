@@ -2,7 +2,11 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://fig.io/docs/", "https://fig.io/"],
+  startUrls: [
+    "https://fig.io/docs/",
+    "https://fig.io/",
+    "https://fig.io/support/",
+  ],
   renderJavaScript: true,
   sitemaps: [],
   exclusionPatterns: [],
@@ -13,6 +17,27 @@ new Crawler({
     {
       indexName: "fig",
       pathsToMatch: ["https://fig.io/docs/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h1",
+            content: "article p, article li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "fig",
+      pathsToMatch: ["https://fig.io/support/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

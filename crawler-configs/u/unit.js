@@ -4,7 +4,7 @@ new Crawler({
   rateLimit: 8,
   startUrls: ["https://stoic-almeida-1eda82.netlify.app/"],
   renderJavaScript: false,
-  sitemaps: ["https://stoic-almeida-1eda82.netlify.app/sitemap.xml"],
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
   discoveryPatterns: ["https://stoic-almeida-1eda82.netlify.app/**"],

@@ -7,14 +7,17 @@ new Crawler({
     "https://sdk.gooddata.com/",
     "https://sdk.gooddata.com/gooddata-ui/docs/about_gooddataui.html",
     "https://sdk.gooddata.com/gooddata-ui-apidocs/v8.5.0/",
+    "https://sdk.gooddata.com/gooddata-ui-apidocs/v8.6.0/",
     "https://sdk.gooddata.com/gooddata-ui-apidocs/vNext/",
     "https://sdk.gooddata.com/gooddata-ui-apidocs/v8.5.0/docs/index.html",
+    "https://sdk.gooddata.com/gooddata-ui-apidocs/v8.6.0/docs/index.html",
     "https://sdk.gooddata.com/gooddata-ui-apidocs/vNext/docs/index.html",
   ],
   renderJavaScript: false,
   sitemaps: [
     "https://sdk.gooddata.com/gooddata-ui/sitemap.xml",
     "https://sdk.gooddata.com/gooddata-ui-apidocs/v8.5.0/sitemap.xml",
+    "https://sdk.gooddata.com/gooddata-ui-apidocs/v8.6.0/sitemap.xml",
     "https://sdk.gooddata.com/gooddata-ui-apidocs/vNext/sitemap.xml",
   ],
   exclusionPatterns: [],
@@ -110,6 +113,36 @@ new Crawler({
     },
     {
       indexName: "gooddata",
+      pathsToMatch: ["https://sdk.gooddata.com/gooddata-ui-apidocs/v8.6.0/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
+            lvl0: {
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
+            version: {
+              defaultValue: ["8.6.0"],
+            },
+            tags: {
+              defaultValue: ["gooddata-ui-apidocs"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "gooddata",
       pathsToMatch: ["https://sdk.gooddata.com/gooddata-ui-apidocs/vNext/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
@@ -161,6 +194,38 @@ new Crawler({
             lvl4: ".post h4",
             version: {
               defaultValue: ["8.5.0"],
+            },
+            tags: {
+              defaultValue: ["gooddata-ui-apidocs"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "gooddata",
+      pathsToMatch: [
+        "https://sdk.gooddata.com/gooddata-ui-apidocs/v8.6.0/docs/index.html**/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
+            lvl0: {
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
+            version: {
+              defaultValue: ["8.6.0"],
             },
             tags: {
               defaultValue: ["gooddata-ui-apidocs"],

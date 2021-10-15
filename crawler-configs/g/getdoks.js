@@ -14,6 +14,10 @@ new Crawler({
       indexName: "getdoks",
       pathsToMatch: ["https://getdoks.org/docs/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "#announcement, #_carbonads_js";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
             lvl1: ".docs-content h2",

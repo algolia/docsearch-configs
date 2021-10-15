@@ -3,52 +3,52 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://fleetdm.com/docs",
-    "https://fleetdm.com/",
-    "https://fleetdm.com/handbook",
+    "https://atena-db.web.app/docs",
+    "https://atena-db.web.app/",
+    "https://atena-db.web.app/get-started/",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://fleetdm.com/sitemap.xml"],
+  sitemaps: ["https://atena-db.web.app/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://fleetdm.com/**"],
-  schedule: "at 01:20 on Wednesday",
+  discoveryPatterns: ["https://atena-db.web.app/**"],
+  schedule: "at 01:40 on Tuesday",
   actions: [
     {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/docs**/**"],
+      indexName: "atena-db",
+      pathsToMatch: ["https://atena-db.web.app/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
+            lvl1: "article h2",
+            content: "article p, article li",
             lvl0: {
-              selectors: "#body-content h1",
+              selectors: "article h1",
             },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
+            lvl2: "article h3",
+            lvl3: "article h4",
+            lvl4: "article h5",
+            lvl5: "article h6",
           },
           indexHeadings: true,
         });
       },
     },
     {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/handbook**/**"],
+      indexName: "atena-db",
+      pathsToMatch: ["https://atena-db.web.app/get-started/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
+            lvl1: "article h2",
+            content: "article p, article li",
             lvl0: {
-              selectors: "#body-content h1",
+              selectors: "article h1",
             },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
+            lvl2: "article h3",
+            lvl3: "article h4",
+            lvl4: "article h5",
+            lvl5: "article h6",
           },
           indexHeadings: true,
         });
@@ -56,7 +56,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    fleetdm: {
+    "atena-db": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

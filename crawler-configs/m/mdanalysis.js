@@ -39,7 +39,7 @@ new Crawler({
           recordProps: {
             lvl1: "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
             content:
-              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre, ",
+              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre",
             lvl0: {
               selectors:
                 "[itemprop='articleBody'] > .section h1, .page h1, .post h1, .body > .section h1",
@@ -60,7 +60,7 @@ new Crawler({
           recordProps: {
             lvl1: "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
             content:
-              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre, ",
+              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre",
             lvl0: {
               selectors:
                 "[itemprop='articleBody'] > .section h1, .page h1, .post h1, .body > .section h1",
@@ -81,7 +81,7 @@ new Crawler({
           recordProps: {
             lvl1: "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
             content:
-              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre, ",
+              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre",
             lvl0: {
               selectors:
                 "[itemprop='articleBody'] > .section h1, .page h1, .post h1, .body > .section h1",

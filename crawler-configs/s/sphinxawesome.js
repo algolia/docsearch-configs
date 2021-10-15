@@ -2,53 +2,30 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://fleetdm.com/docs",
-    "https://fleetdm.com/",
-    "https://fleetdm.com/handbook",
-  ],
+  startUrls: ["https://sphinxawesome.xyz/"],
   renderJavaScript: false,
-  sitemaps: ["https://fleetdm.com/sitemap.xml"],
+  sitemaps: ["https://sphinxawesome.xyz/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://fleetdm.com/**"],
-  schedule: "at 01:20 on Wednesday",
+  discoveryPatterns: ["https://sphinxawesome.xyz/**"],
+  schedule: "at 15:30 on Friday",
   actions: [
     {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/docs**/**"],
+      indexName: "sphinxawesome",
+      pathsToMatch: ["https://sphinxawesome.xyz**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
+            lvl1: "article h1",
+            content: "article p, article li",
             lvl0: {
-              selectors: "#body-content h1",
+              selectors: "",
+              defaultValue: "Documentation",
             },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/handbook**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
-            lvl0: {
-              selectors: "#body-content h1",
-            },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
           },
           indexHeadings: true,
         });
@@ -56,7 +33,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    fleetdm: {
+    sphinxawesome: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

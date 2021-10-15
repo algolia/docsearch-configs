@@ -7,7 +7,7 @@ new Crawler({
     "https://developer.trimblemaps.com/",
   ],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://developer.trimblemaps.com/restful-apis/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://developer.trimblemaps.com/**"],
@@ -20,7 +20,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "main h2",
-            content: "main p, main li",
+            content: "main p, main li, main table td:first-of-type",
             lvl0: {
               selectors: "main h1",
             },

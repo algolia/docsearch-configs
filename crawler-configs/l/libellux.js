@@ -2,53 +2,34 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://fleetdm.com/docs",
-    "https://fleetdm.com/",
-    "https://fleetdm.com/handbook",
-  ],
+  startUrls: ["https://www.libellux.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://fleetdm.com/sitemap.xml"],
+  sitemaps: ["https://www.libellux.com/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://fleetdm.com/**"],
-  schedule: "at 01:20 on Wednesday",
+  discoveryPatterns: ["https://www.libellux.com/**"],
+  schedule: "at 05:10 on Thursday",
   actions: [
     {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/docs**/**"],
+      indexName: "libellux",
+      pathsToMatch: ["https://www.libellux.com**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
+            lvl1: ".theme-default-content h1",
+            content: ".theme-default-content p, .theme-default-content li",
             lvl0: {
-              selectors: "#body-content h1",
+              selectors: "p.sidebar-heading.open",
+              defaultValue: "Documentation",
             },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/handbook**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
-            lvl0: {
-              selectors: "#body-content h1",
-            },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
+            lvl2: ".theme-default-content h2",
+            lvl3: ".theme-default-content h3",
+            lvl4: ".theme-default-content h4",
+            lvl5: ".theme-default-content h5",
           },
           indexHeadings: true,
         });
@@ -56,7 +37,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    fleetdm: {
+    libellux: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

@@ -3,52 +3,38 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://fleetdm.com/docs",
-    "https://fleetdm.com/",
-    "https://fleetdm.com/handbook",
+    "https://prsv.z13.web.core.windows.net/Patterns/Fundamentals/Color/",
+    "https://prsv.z13.web.core.windows.net/",
+    "https://prsv.z13.web.core.windows.net/Components/Elevation/",
+    "https://prsv.z13.web.core.windows.net/Components/",
+    "https://prsv.z13.web.core.windows.net/Patterns/",
   ],
-  renderJavaScript: false,
-  sitemaps: ["https://fleetdm.com/sitemap.xml"],
+  renderJavaScript: true,
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://fleetdm.com/**"],
-  schedule: "at 01:20 on Wednesday",
+  discoveryPatterns: ["https://prsv.z13.web.core.windows.net/**"],
+  schedule: "at 01:00 on Wednesday",
   actions: [
     {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/docs**/**"],
+      indexName: "feather_design",
+      pathsToMatch: [
+        "https://prsv.z13.web.core.windows.net/**",
+        "https://prsv.z13.web.core.windows.net/Components/**",
+        "https://prsv.z13.web.core.windows.net/Patterns/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
+            lvl1: "#main h2",
+            content: "#main p, #main li",
             lvl0: {
-              selectors: "#body-content h1",
+              selectors: "#main h1",
             },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/handbook**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
-            lvl0: {
-              selectors: "#body-content h1",
-            },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
+            lvl2: "#main h3",
+            lvl3: "#main h4",
+            lvl4: "#main h5",
+            lvl5: "#main h6",
           },
           indexHeadings: true,
         });
@@ -56,7 +42,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    fleetdm: {
+    feather_design: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

@@ -2,12 +2,9 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://developers.mixin.one/docs/",
-    "https://developers.mixin.one/",
-  ],
+  startUrls: ["https://developers.mixin.one/"],
   renderJavaScript: false,
-  sitemaps: ["https://developers.mixin.one/docs/sitemap.xml"],
+  sitemaps: ["https://developers.mixin.one/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
   discoveryPatterns: ["https://developers.mixin.one/**"],
@@ -15,7 +12,7 @@ new Crawler({
   actions: [
     {
       indexName: "mixin",
-      pathsToMatch: ["https://developers.mixin.one/docs/**"],
+      pathsToMatch: ["https://developers.mixin.one/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

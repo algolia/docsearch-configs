@@ -3,89 +3,120 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.secureauth.com/2104test/",
-    "https://docs.secureauth.com/",
-    "https://docs.secureauth.com/2006test/",
-    "https://docs.secureauth.com/1907test/",
+    "https://mui.com/components/",
+    "https://mui.com/",
+    "https://v3.mui.com/",
+    "https://v4.mui.com/",
   ],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "**/login**",
-    "**/login**/**",
-    "**/label/**",
-    "**/download**",
-    "**/download**/**",
-    "**/pages/**",
+    "**/?expand-path**",
+    "**/?expand-path**/**",
+    "**/company/**",
+    "**/store/**",
+    "**/blog/**",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.secureauth.com/**"],
-  schedule: "at 15:00 on Friday",
+  discoveryPatterns: [
+    "https://mui.com/**",
+    "https://v3.mui.com/**",
+    "https://v4.mui.com/**",
+  ],
+  schedule: "at 10:00 on Thursday",
   actions: [
     {
-      indexName: "secureauth",
-      pathsToMatch: ["https://docs.secureauth.com/2104test/**"],
+      indexName: "material-ui",
+      pathsToMatch: ["https://mui.com/components/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".exclude-docsearch-indexing";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "section h2",
-            content: "section p, section li",
+            lvl1: ".markdown-body h1",
+            content:
+              ".markdown-body p, .markdown-body li, .markdown-body table td:last-child",
             lvl0: {
-              selectors: "section h1",
+              selectors: ".algolia-lvl0",
             },
-            lvl2: "section h3",
-            lvl3: "section h4",
-            lvl4: "section h5",
-            lvl5: "section h6",
-            versions: {
-              defaultValue: ["2104test"],
-            },
+            lvl2: ".markdown-body h2",
+            lvl3: ".markdown-body h3, .markdown-body table td:first-of-type",
+            lvl4: ".markdown-body h4",
+            pageRank: "10",
           },
           indexHeadings: true,
         });
       },
     },
     {
-      indexName: "secureauth",
-      pathsToMatch: ["https://docs.secureauth.com/2006test/**"],
+      indexName: "material-ui",
+      pathsToMatch: ["https://mui.com**/**", "!https://mui.com/components/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".exclude-docsearch-indexing";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "section h2",
-            content: "section p, section li",
+            lvl1: ".markdown-body h1",
+            content:
+              ".markdown-body p, .markdown-body li, .markdown-body table td:last-child",
             lvl0: {
-              selectors: "section h1",
+              selectors: ".algolia-lvl0",
             },
-            lvl2: "section h3",
-            lvl3: "section h4",
-            lvl4: "section h5",
-            lvl5: "section h6",
-            versions: {
-              defaultValue: ["2006test"],
-            },
+            lvl2: ".markdown-body h2",
+            lvl3: ".markdown-body h3, .markdown-body table td:first-of-type",
+            lvl4: ".markdown-body h4",
           },
           indexHeadings: true,
         });
       },
     },
     {
-      indexName: "secureauth",
-      pathsToMatch: ["https://docs.secureauth.com/1907test/**"],
+      indexName: "material-ui",
+      pathsToMatch: ["https://v3.mui.com**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".exclude-docsearch-indexing";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "section h2",
-            content: "section p, section li",
+            lvl1: ".markdown-body h1",
+            content:
+              ".markdown-body p, .markdown-body li, .markdown-body table td:last-child",
             lvl0: {
-              selectors: "section h1",
+              selectors: ".algolia-lvl0",
             },
-            lvl2: "section h3",
-            lvl3: "section h4",
-            lvl4: "section h5",
-            lvl5: "section h6",
-            versions: {
-              defaultValue: ["1907test"],
+            lvl2: ".markdown-body h2",
+            lvl3: ".markdown-body h3, .markdown-body table td:first-of-type",
+            lvl4: ".markdown-body h4",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "material-ui",
+      pathsToMatch: ["https://v4.mui.com**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".exclude-docsearch-indexing";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".markdown-body h1",
+            content:
+              ".markdown-body p, .markdown-body li, .markdown-body table td:last-child",
+            lvl0: {
+              selectors: ".algolia-lvl0",
             },
+            lvl2: ".markdown-body h2",
+            lvl3: ".markdown-body h3, .markdown-body table td:first-of-type",
+            lvl4: ".markdown-body h4",
           },
           indexHeadings: true,
         });
@@ -93,22 +124,9 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    secureauth: {
-      attributesForFaceting: ["type", "lang", "version"],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-        "version",
-        "cat1",
-        "cat2",
-        "cat3",
-        "cat4",
-        "cat5",
-      ],
+    "material-ui": {
+      attributesForFaceting: ["type", "lang", "version", "language"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],

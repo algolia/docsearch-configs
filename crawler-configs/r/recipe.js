@@ -3,52 +3,32 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://fleetdm.com/docs",
-    "https://fleetdm.com/",
-    "https://fleetdm.com/handbook",
+    "https://nystudio107.com/docs/recipe/",
+    "https://nystudio107.com/",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://fleetdm.com/sitemap.xml"],
+  sitemaps: ["https://nystudio107.com/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://fleetdm.com/**"],
-  schedule: "at 01:20 on Wednesday",
+  discoveryPatterns: ["https://nystudio107.com/**"],
+  schedule: "at 10:00 on Friday",
   actions: [
     {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/docs**/**"],
+      indexName: "recipe",
+      pathsToMatch: ["https://nystudio107.com/docs/recipe/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
-              selectors: "#body-content h1",
+              selectors: "",
+              defaultValue: "Documentation",
             },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/handbook**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
-            lvl0: {
-              selectors: "#body-content h1",
-            },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
           },
           indexHeadings: true,
         });
@@ -56,7 +36,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    fleetdm: {
+    recipe: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

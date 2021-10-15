@@ -2,17 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://adam-rms.com/"],
+  startUrls: ["https://www.adam-rms.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://adam-rms.com/sitemap.xml"],
+  sitemaps: ["https://www.adam-rms.com/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://adam-rms.com/**"],
+  discoveryPatterns: ["https://www.adam-rms.com/**"],
   schedule: "at 01:00 on Tuesday",
   actions: [
     {
       indexName: "adam-rms",
-      pathsToMatch: ["https://adam-rms.com/**"],
+      pathsToMatch: ["https://www.adam-rms.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

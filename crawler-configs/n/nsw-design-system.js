@@ -3,52 +3,31 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://fleetdm.com/docs",
-    "https://fleetdm.com/",
-    "https://fleetdm.com/handbook",
+    "https://digitalnsw.github.io/nsw-design-system",
+    "https://digitalnsw.github.io/",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://fleetdm.com/sitemap.xml"],
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://fleetdm.com/**"],
-  schedule: "at 01:20 on Wednesday",
+  discoveryPatterns: ["https://digitalnsw.github.io/**"],
+  schedule: "at 15:40 on Thursday",
   actions: [
     {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/docs**/**"],
+      indexName: "nsw-design-system",
+      pathsToMatch: ["https://digitalnsw.github.io/nsw-design-system**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
+            lvl1: ".nsw-docs__container h2",
+            content: ".nsw-docs__container p, .nsw-docs__container li",
             lvl0: {
-              selectors: "#body-content h1",
+              selectors: ".nsw-docs__container h1",
             },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/handbook**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
-            lvl0: {
-              selectors: "#body-content h1",
-            },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
+            lvl2: ".nsw-docs__container h3",
+            lvl3: ".nsw-docs__container h4",
+            lvl4: ".nsw-docs__container h5",
+            lvl5: ".nsw-docs__container h6",
           },
           indexHeadings: true,
         });
@@ -56,7 +35,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    fleetdm: {
+    "nsw-design-system": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

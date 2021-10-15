@@ -2,12 +2,9 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://www.electronjs.org/docs/latest/",
-    "https://www.electronjs.org/",
-  ],
+  startUrls: ["https://www.electronjs.org/"],
   renderJavaScript: false,
-  sitemaps: ["https://www.electronjs.org/docs/latest/sitemap.xml"],
+  sitemaps: ["https://www.electronjs.org/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
   discoveryPatterns: ["https://www.electronjs.org/**"],
@@ -15,7 +12,7 @@ new Crawler({
   actions: [
     {
       indexName: "electronjs",
-      pathsToMatch: ["https://www.electronjs.org/docs/latest/**"],
+      pathsToMatch: ["https://www.electronjs.org/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

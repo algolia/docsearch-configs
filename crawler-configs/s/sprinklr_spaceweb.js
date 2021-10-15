@@ -3,7 +3,7 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: ["https://spaceweb.netlify.app/"],
-  renderJavaScript: true,
+  renderJavaScript: false,
   sitemaps: ["https://spaceweb.netlify.app/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,

@@ -2,53 +2,33 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://fleetdm.com/docs",
-    "https://fleetdm.com/",
-    "https://fleetdm.com/handbook",
-  ],
+  startUrls: ["https://docs.giveth.io/"],
   renderJavaScript: false,
-  sitemaps: ["https://fleetdm.com/sitemap.xml"],
+  sitemaps: ["https://docs.giveth.io/sitemap.xml"],
   exclusionPatterns: [],
-  ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://fleetdm.com/**"],
-  schedule: "at 01:20 on Wednesday",
+  ignoreCanonicalTo: true,
+  discoveryPatterns: ["https://docs.giveth.io/**"],
+  schedule: "at 06:10 on Wednesday",
   actions: [
     {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/docs**/**"],
+      indexName: "giveth",
+      pathsToMatch: ["https://docs.giveth.io/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: "#body-content h1",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
             },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "fleetdm",
-      pathsToMatch: ["https://fleetdm.com/handbook**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "#body-content h2",
-            content: "#body-content p, #body-content li",
-            lvl0: {
-              selectors: "#body-content h1",
-            },
-            lvl2: "#body-content h3",
-            lvl3: "#body-content h4",
-            lvl4: "#body-content h5",
-            lvl5: "#body-content h6",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
           },
           indexHeadings: true,
         });
@@ -56,9 +36,22 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    fleetdm: {
-      attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+    giveth: {
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -119,6 +112,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

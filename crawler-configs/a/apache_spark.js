@@ -8,6 +8,7 @@ new Crawler({
     "https://spark.apache.org/docs/3.0.3/",
     "https://spark.apache.org/docs/3.1.1/",
     "https://spark.apache.org/docs/3.1.2/",
+    "https://spark.apache.org/docs/3.2.0/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://spark.apache.org/sitemap.xml"],
@@ -106,6 +107,30 @@ new Crawler({
             lvl5: ".container-wrapper h4",
             version: {
               defaultValue: ["3.1.2"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "apache_spark",
+      pathsToMatch: ["https://spark.apache.org/docs/3.2.0/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".container-wrapper h1.title",
+            content: ".container-wrapper p, .container-wrapper li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".container-wrapper h1",
+            lvl3: ".container-wrapper h2",
+            lvl4: ".container-wrapper h3",
+            lvl5: ".container-wrapper h4",
+            version: {
+              defaultValue: ["3.2.0"],
             },
           },
           indexHeadings: true,
