@@ -1,7 +1,10 @@
 {
-  "index_name": "armanual",
+  "index_name": "lightningdevkit",
   "start_urls": [
-    "https://armanual.org"
+    "https://lightningdevkit.org/"
+  ],
+  "sitemap_urls": [
+    "https://lightningdevkit.org/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -33,8 +36,8 @@
     ]
   },
   "conversation_id": [
-    "909395639"
+    "1653798610"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 2094
+  "nb_hits": 500
 }

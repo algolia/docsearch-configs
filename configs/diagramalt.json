@@ -1,10 +1,10 @@
 {
-  "index_name": "mixin",
+  "index_name": "diagramalt",
   "start_urls": [
-    "https://developers.mixin.one/"
+    "https://docs.dhtmlx.com/diagramalt/"
   ],
   "sitemap_urls": [
-    "https://developers.mixin.one/sitemap.xml"
+    "https://docs.dhtmlx.com/diagramalt/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1594256942"
+    "1647775142"
   ],
-  "nb_hits": 1814
+  "nb_hits": 3053
 }

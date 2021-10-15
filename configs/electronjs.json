@@ -1,11 +1,12 @@
 {
   "index_name": "electronjs",
   "start_urls": [
-    "https://www.electronjs.org/docs/latest/"
+    "https://www.electronjs.org/"
   ],
   "sitemap_urls": [
-    "https://www.electronjs.org/docs/latest/sitemap.xml"
+    "https://www.electronjs.org/sitemap.xml"
   ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {

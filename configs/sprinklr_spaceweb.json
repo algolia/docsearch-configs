@@ -12,7 +12,6 @@
     "lvl5": "#docSearch-content h6",
     "text": "#docSearch-content p, #docSearch-content li"
   },
-  "js_render": true,
   "conversation_id": ["1208777037"],
   "nb_hits": 521
 }

@@ -1,11 +1,11 @@
 {
   "index_name": "feather_design",
   "start_urls": [
-    "https://prsv.z13.web.core.windows.net/",
+    "https://prsv.z13.web.core.windows.net/Patterns/Fundamentals/Color/",
+    "https://prsv.z13.web.core.windows.net/Components/Elevation/",
     "https://prsv.z13.web.core.windows.net/Components/",
     "https://prsv.z13.web.core.windows.net/Patterns/",
-    "https://prsv.z13.web.core.windows.net/Patterns/Fundamentals/Color/",
-    "https://prsv.z13.web.core.windows.net/Components/Elevation/"
+    "https://prsv.z13.web.core.windows.net/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -21,5 +21,5 @@
   "conversation_id": [
     "1645359533"
   ],
-  "nb_hits": 2266
+  "nb_hits": 2236
 }
