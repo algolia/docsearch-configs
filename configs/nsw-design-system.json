@@ -5,15 +5,16 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "FIXME h1",
-    "lvl1": "FIXME h2",
-    "lvl2": "FIXME h3",
-    "lvl3": "FIXME h4",
-    "lvl4": "FIXME h5",
-    "lvl5": "FIXME h6",
-    "text": "FIXME p, FIXME li"
+    "lvl0": ".nsw-docs__container h1",
+    "lvl1": ".nsw-docs__container h2",
+    "lvl2": ".nsw-docs__container h3",
+    "lvl3": ".nsw-docs__container h4",
+    "lvl4": ".nsw-docs__container h5",
+    "lvl5": ".nsw-docs__container h6",
+    "text": ".nsw-docs__container p, .nsw-docs__container li"
   },
   "conversation_id": [
     "1653229055"
-  ]
+  ],
+  "nb_hits": 1647
 }
