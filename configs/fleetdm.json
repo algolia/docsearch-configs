@@ -1,8 +1,16 @@
 {
   "index_name": "fleetdm",
   "start_urls": [
-    "https://fleetdm.com/docs"
+    {
+     "url": "https://fleetdm.com/docs",
+     "tags": "docs"
+    },    
+    {
+     "url": "https://fleetdm.com/handbook",
+     "tags": "handbook"
+    }
   ],
+  "scrape_start_urls": false,
   "sitemap_urls": [
     "https://fleetdm.com/sitemap.xml"
   ],
