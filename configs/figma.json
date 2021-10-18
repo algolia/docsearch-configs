@@ -24,15 +24,16 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": ".navListItemActive",
+        "selector": ".navBreadcrumb h2 span",
         "global": true,
         "default_value": "Documentation"
       },
-      "lvl1": ".post h2",
-      "lvl2": ".post h3",
-      "lvl3": ".post h4",
-      "lvl4": ".post h5",
-      "lvl5": ".post h6",
+      "lvl1": ".post h1",
+      "lvl2": ".post h2",
+      "lvl3": ".post h3",
+      "lvl4": ".post h4",
+      "lvl5": ".post h5",
+      "lvl6": ".post h6",
       "text": ".post article p, .post article li, .post article .hljs-string"
     },
     "blog": {
