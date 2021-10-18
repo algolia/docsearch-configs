@@ -2,40 +2,36 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["http://glide.thephpleague.com/"],
+  startUrls: ["https://firebaseopensource.com/"],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: [
-    "**/**changelog**",
-    "**/**changelog**/**",
-    "**/**size//**",
-  ],
+  sitemaps: ["https://firebaseopensource.com/sitemap.xml"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["http://glide.thephpleague.com/**"],
-  schedule: "at 06:20 on Wednesday",
+  discoveryPatterns: ["https://firebaseopensource.com/**"],
+  schedule: "at 01:10 on Wednesday",
   actions: [
     {
-      indexName: "glide",
-      pathsToMatch: ["http://glide.thephpleague.com/**"],
+      indexName: "firebaseopensource",
+      pathsToMatch: ["https://firebaseopensource.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p",
+            lvl1: ".content h2",
+            content: ".content p, .content li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
+              selectors: ".content h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h4",
+            lvl2: ".content h3",
+            lvl3: ".content h4",
+            lvl4: ".content h5",
+            lvl5: ".content h6",
           },
-          indexHeadings: { from: 2, to: 6 },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
-    glide: {
+    firebaseopensource: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
