@@ -3,34 +3,24 @@
   "start_urls": [
     {
       "url": "https://www.figma.com/widget-docs/blog/",
-      "tags": [
-        "widget-docs-blog"
-      ],
+      "tags": ["widget-docs"],
       "selectors_key": "blog"
     },
     {
       "url": "https://www.figma.com/widget-docs/",
-      "tags": [
-        "widget-docs"
-      ]
+      "tags": ["widget-docs"]
     },
     {
       "url": "https://www.figma.com/plugin-docs/blog/",
-      "tags": [
-        "plugin-docs-blog"
-      ],
+      "tags": ["plugin-docs"],
       "selectors_key": "blog"
     },
     {
       "url": "https://www.figma.com/plugin-docs/",
-      "tags": [
-        "plugin-docs"
-      ]
+      "tags": ["plugin-docs"]
     }
   ],
-  "stop_urls": [
-    "/blog/page"
-  ],
+  "stop_urls": ["/blog/page"],
   "selectors": {
     "default": {
       "lvl0": {
@@ -59,19 +49,11 @@
       "text": ".post p, .post li"
     }
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "selectors_exclude": [".hash-link"],
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "tags"
-    ],
+    "attributesForFaceting": ["language", "version", "tags"],
     "separatorsToIndex": "_"
   },
-  "conversation_id": [
-    "918019520"
-  ],
+  "conversation_id": ["918019520"],
   "nb_hits": 6263
 }
