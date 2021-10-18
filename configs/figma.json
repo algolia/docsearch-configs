@@ -20,7 +20,10 @@
       "tags": ["plugin-docs"]
     }
   ],
-  "stop_urls": ["/blog/page"],
+  "stop_urls": [
+    "/blog/",
+    "/blog/page"
+  ],
   "selectors": {
     "default": {
       "lvl0": {
