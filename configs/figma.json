@@ -2,25 +2,27 @@
   "index_name": "figma",
   "start_urls": [
     {
+      "url": "https://www.figma.com/widget-docs/blog/",
+      "tags": ["widget-docs"],
+      "selectors_key": "blog"
+    },
+    {
+      "url": "https://www.figma.com/widget-docs/",
+      "tags": ["widget-docs"]
+    },
+    {
+      "url": "https://www.figma.com/plugin-docs/blog/",
+      "tags": ["plugin-docs"],
+      "selectors_key": "blog"
+    },
+    {
       "url": "https://www.figma.com/plugin-docs/",
-      "tags": [
-        "plugin-docs"
-      ],
-      "selectors_key": "plugin-docs"
+      "tags": ["plugin-docs"]
     }
   ],
-  "stop_urls": [],
+  "stop_urls": ["/blog/page"],
   "selectors": {
     "default": {
-      "lvl0": ".post h1",
-      "lvl1": ".post h2",
-      "lvl2": ".post h3",
-      "lvl3": ".post h4",
-      "lvl4": ".post h5",
-      "lvl5": ".post h6",
-      "text": ".post article p, .post article li, .post article .hljs-string"
-    },
-    "plugin-docs": {
       "lvl0": {
         "selector": ".navBreadcrumb h2 span",
         "global": true,
@@ -33,20 +35,26 @@
       "lvl5": ".post h5",
       "lvl6": ".post h6",
       "text": ".post article p, .post article li, .post article .hljs-string"
+    },
+    "blog": {
+      "lvl0": {
+        "selector": ".post h1",
+        "global": true,
+        "default_value": "Blog"
+      },
+      "lvl1": ".post h2",
+      "lvl2": ".post h3",
+      "lvl3": ".post h4",
+      "lvl4": ".post h5",
+      "lvl5": ".post h6",
+      "text": ".post p, .post li"
     }
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "selectors_exclude": [".hash-link"],
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ],
+    "attributesForFaceting": ["language", "version", "tags"],
     "separatorsToIndex": "_"
   },
-  "conversation_id": [
-    "918019520"
-  ],
-  "nb_hits": 2846
+  "conversation_id": ["918019520"],
+  "nb_hits": 6263
 }
