@@ -1,10 +1,10 @@
 {
   "index_name": "frigate",
   "start_urls": [
-    "https://blakeblackshear.github.io/frigate/"
+    "https://docs.frigate.video"
   ],
   "sitemap_urls": [
-    "https://blakeblackshear.github.io/frigate/sitemap.xml"
+    "https://docs.frigate.video/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
