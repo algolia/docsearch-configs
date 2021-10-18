@@ -2,14 +2,106 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://www.figma.com/plugin-docs/", "https://www.figma.com/"],
+  startUrls: [
+    "https://www.figma.com/widget-docs/blog/",
+    "https://www.figma.com/",
+    "https://www.figma.com/widget-docs/",
+    "https://www.figma.com/plugin-docs/blog/",
+    "https://www.figma.com/plugin-docs/",
+  ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [],
+  exclusionPatterns: ["**/blog/page**", "**/blog/page**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://www.figma.com/**"],
   schedule: "at 01:10 on Wednesday",
   actions: [
+    {
+      indexName: "figma",
+      pathsToMatch: ["https://www.figma.com/widget-docs/blog/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h2",
+            content: ".post p, .post li",
+            lvl0: {
+              selectors: ".post h1",
+              defaultValue: "Blog",
+            },
+            lvl2: ".post h3",
+            lvl3: ".post h4",
+            lvl4: ".post h5",
+            lvl5: ".post h6",
+            tags: {
+              defaultValue: ["widget-docs"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "figma",
+      pathsToMatch: ["https://www.figma.com/widget-docs/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h1",
+            content:
+              ".post article p, .post article li, .post article .hljs-string",
+            lvl0: {
+              selectors: ".navBreadcrumb h2 span",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
+            lvl5: ".post h5",
+            lvl6: ".post h6",
+            tags: {
+              defaultValue: ["widget-docs"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "figma",
+      pathsToMatch: ["https://www.figma.com/plugin-docs/blog/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h2",
+            content: ".post p, .post li",
+            lvl0: {
+              selectors: ".post h1",
+              defaultValue: "Blog",
+            },
+            lvl2: ".post h3",
+            lvl3: ".post h4",
+            lvl4: ".post h5",
+            lvl5: ".post h6",
+            tags: {
+              defaultValue: ["plugin-docs"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
     {
       indexName: "figma",
       pathsToMatch: ["https://www.figma.com/plugin-docs/**"],
@@ -43,7 +135,7 @@ new Crawler({
   ],
   initialIndexSettings: {
     figma: {
-      attributesForFaceting: ["type", "lang", "language", "version"],
+      attributesForFaceting: ["type", "lang", "language", "version", "tags"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

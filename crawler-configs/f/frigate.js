@@ -2,20 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://blakeblackshear.github.io/frigate/",
-    "https://blakeblackshear.github.io/",
-  ],
+  startUrls: ["https://docs.frigate.video/"],
   renderJavaScript: false,
-  sitemaps: ["https://blakeblackshear.github.io/frigate/sitemap.xml"],
+  sitemaps: ["https://docs.frigate.video/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://blakeblackshear.github.io/**"],
+  discoveryPatterns: ["https://docs.frigate.video/**"],
   schedule: "at 01:40 on Wednesday",
   actions: [
     {
       indexName: "frigate",
-      pathsToMatch: ["https://blakeblackshear.github.io/frigate/**"],
+      pathsToMatch: ["https://docs.frigate.video**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

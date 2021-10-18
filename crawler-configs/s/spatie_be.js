@@ -81,6 +81,17 @@ new Crawler({
     "https://spatie.be/docs/laravel-html/v9/",
     "https://spatie.be/docs/laravel-html/v10/",
     "https://spatie.be/docs/laravel-html/v11/",
+    "https://spatie.be/docs/laravel-site-search/v1/",
+    "https://spatie.be/docs/laravel-site-search/v2/",
+    "https://spatie.be/docs/laravel-site-search/v3/",
+    "https://spatie.be/docs/laravel-site-search/v4/",
+    "https://spatie.be/docs/laravel-site-search/v5/",
+    "https://spatie.be/docs/laravel-site-search/v6/",
+    "https://spatie.be/docs/laravel-site-search/v7/",
+    "https://spatie.be/docs/laravel-site-search/v8/",
+    "https://spatie.be/docs/laravel-site-search/v9/",
+    "https://spatie.be/docs/laravel-site-search/v10/",
+    "https://spatie.be/docs/laravel-site-search/v11/",
     "https://spatie.be/docs/laravel-server-monitor/v1/",
     "https://spatie.be/docs/laravel-server-monitor/v2/",
     "https://spatie.be/docs/laravel-server-monitor/v3/",
@@ -2492,6 +2503,325 @@ new Crawler({
             },
             project: {
               defaultValue: ["laravel-html"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v1/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v1"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v2/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v2"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v3/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v3"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v4/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v4"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v5/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v5"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v6/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v6"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v7/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v7"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v8/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v8"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v9/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v9"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v10/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v10"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-site-search/v11/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v11"],
+            },
+            project: {
+              defaultValue: ["laravel-site-search"],
             },
           },
           indexHeadings: true,

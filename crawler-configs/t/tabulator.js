@@ -2,7 +2,7 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["http://tabulator.info/docs/4.9", "http://tabulator.info/"],
+  startUrls: ["http://tabulator.info/docs/5.0", "http://tabulator.info/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
@@ -12,7 +12,7 @@ new Crawler({
   actions: [
     {
       indexName: "tabulator",
-      pathsToMatch: ["http://tabulator.info/docs/4.9**/**"],
+      pathsToMatch: ["http://tabulator.info/docs/5.0**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".page-links";

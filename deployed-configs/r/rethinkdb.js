@@ -13,7 +13,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**[^/]"],
+  exclusionPatterns: ["!**/"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://rethinkdb.com/**"],
   schedule: "at 10:00 on Friday",
