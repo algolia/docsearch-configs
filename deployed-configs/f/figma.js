@@ -4,16 +4,17 @@ new Crawler({
   rateLimit: 8,
   startUrls: [
     "https://www.figma.com/widget-docs/blog/",
-    "https://www.figma.com/",
     "https://www.figma.com/widget-docs/",
     "https://www.figma.com/plugin-docs/blog/",
     "https://www.figma.com/plugin-docs/",
   ],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: [
+    "https://www.figma.com/plugin-docs/sitemap.xml",
+    "https://www.figma.com/widget-docs/sitemap.xml",
+  ],
   exclusionPatterns: ["**/blog/page**", "**/blog/page**/**"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.figma.com/**"],
   schedule: "at 01:10 on Wednesday",
   actions: [
     {
