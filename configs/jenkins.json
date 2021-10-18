@@ -2,24 +2,16 @@
   "index_name": "jenkins",
   "start_urls": [
     {
-      "url": "https://www.jenkins.io/doc/",
-      "tags": [
-        "en"
-      ]
+      "url": "https://www.jenkins.io/",
+      "tags": ["en"]
     },
     {
-      "url": "https://www.jenkins.io/zh/doc/",
-      "tags": [
-        "zh"
-      ]
+      "url": "https://www.jenkins.io/zh/",
+      "tags": ["zh"]
     }
   ],
-  "sitemap_urls": [
-    "https://www.jenkins.io/sitemap.xml"
-  ],
-  "stop_urls": [
-    "upgrade-guide"
-  ],
+  "sitemap_urls": ["https://www.jenkins.io/sitemap.xml"],
+  "stop_urls": ["upgrade-guide"],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -35,18 +27,10 @@
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
-    "attributesForFaceting": [
-      "tags"
-    ]
+    "attributesForFaceting": ["tags"]
   },
-  "selectors_exclude": [
-    ".sidebar-nav"
-  ],
-  "stop_content": [
-    "404 Not Found"
-  ],
-  "conversation_id": [
-    "1436732846"
-  ],
+  "selectors_exclude": [".sidebar-nav"],
+  "stop_content": ["404 Not Found"],
+  "conversation_id": ["1436732846"],
   "nb_hits": 50494
 }
