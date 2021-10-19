@@ -3,24 +3,35 @@
   "start_urls": [
     {
       "url": "https://nuxtjs.org/fr/",
+      "tags": ["main"],
       "extra_attributes": {
         "language": ["fr-FR", "fr"]
       }
     },
     {
       "url": "https://nuxtjs.org/ja/",
+      "tags": ["main"],
       "extra_attributes": {
         "language": ["ja-JP", "ja"]
       }
     },
     {
       "url": "https://nuxtjs.org/en/",
+      "tags": ["main"],
       "extra_attributes": {
         "language": ["en-US", "en"]
       }
     },
     {
       "url": "https://nuxtjs.org/",
+      "tags": ["main"],
+      "extra_attributes": {
+        "language": ["en-US", "en"]
+      }
+    },
+    {
+      "url": "https://v3.nuxtjs.org/",
+      "tags": ["v3"],
       "extra_attributes": {
         "language": ["en-US", "en"]
       }
