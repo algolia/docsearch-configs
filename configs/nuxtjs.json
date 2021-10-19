@@ -51,7 +51,7 @@
     "text": "article p, article li"
   },
   "custom_settings": {
-    "attributesForFaceting": ["language", "type"],
+    "attributesForFaceting": ["language", "type", "tags"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -63,5 +63,5 @@
   },
   "min_indexed_level": 1,
   "conversation_id": ["305423545"],
-  "nb_hits": 10637
+  "nb_hits": 11393
 }
