@@ -1,10 +1,10 @@
 {
-  "index_name": "frigate",
+  "index_name": "typegraphql_prisma",
   "start_urls": [
-    "https://docs.frigate.video"
+    "https://prisma.typegraphql.com/"
   ],
   "sitemap_urls": [
-    "https://docs.frigate.video/sitemap.xml"
+    "https://prisma.typegraphql.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1403980781"
+    "1658917063"
   ],
-  "nb_hits": 372
+  "nb_hits": 158
 }

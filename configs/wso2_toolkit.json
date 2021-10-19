@@ -1,8 +1,10 @@
 {
-  "index_name": "fig",
+  "index_name": "wso2_toolkit",
   "start_urls": [
-    "https://fig.io/docs/",
-    "https://fig.io/support/"
+    "https://uk.ob.docs.wso2.com/en/latest/"
+  ],
+  "sitemap_urls": [
+    "https://uk.ob.docs.wso2.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,9 +20,8 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "js_render": true,
   "conversation_id": [
-    "1601403007"
+    "1655628264"
   ],
-  "nb_hits": 959
+  "nb_hits": 1303
 }

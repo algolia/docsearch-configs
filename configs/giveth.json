@@ -1,10 +1,10 @@
 {
-  "index_name": "frigate",
+  "index_name": "giveth",
   "start_urls": [
-    "https://docs.frigate.video"
+    "https://docs.giveth.io/"
   ],
   "sitemap_urls": [
-    "https://docs.frigate.video/sitemap.xml"
+    "https://docs.giveth.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1403980781"
+    "1646638015"
   ],
-  "nb_hits": 372
+  "nb_hits": 3540
 }

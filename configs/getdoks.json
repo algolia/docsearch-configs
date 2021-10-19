@@ -17,6 +17,10 @@
     "text": ".docs-content p, .docs-content li"
   },
   "strip_chars": "#",
+  "selectors_exclude": [
+    "#announcement",
+    "#_carbonads_js"
+  ],
   "conversation_id": [
     "1378511290"
   ],

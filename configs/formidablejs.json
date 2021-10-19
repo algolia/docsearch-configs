@@ -1,10 +1,10 @@
 {
-  "index_name": "frigate",
+  "index_name": "formidablejs",
   "start_urls": [
-    "https://docs.frigate.video"
+    "https://www.formidablejs.org/docs/"
   ],
   "sitemap_urls": [
-    "https://docs.frigate.video/sitemap.xml"
+    "https://www.formidablejs.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1403980781"
+    "1662313471"
   ],
-  "nb_hits": 372
+  "nb_hits": 606
 }

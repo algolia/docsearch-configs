@@ -1,10 +1,8 @@
 {
-  "index_name": "frigate",
+  "index_name": "cloudquery",
   "start_urls": [
-    "https://docs.frigate.video"
-  ],
-  "sitemap_urls": [
-    "https://docs.frigate.video/sitemap.xml"
+    "https://docs.cloudquery.io/docs/intro/",
+    "https://docs.cloudquery.io/docs"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +39,7 @@
     ]
   },
   "conversation_id": [
-    "1403980781"
+    "1660875041"
   ],
-  "nb_hits": 372
+  "nb_hits": 231
 }

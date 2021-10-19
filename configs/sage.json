@@ -1,10 +1,11 @@
 {
-  "index_name": "frigate",
+  "index_name": "sage",
   "start_urls": [
-    "https://docs.frigate.video"
+    "https://docs.sagecontinuum.org/",
+    "https://docs.sagecontinuum.org/docs/about/overview"
   ],
   "sitemap_urls": [
-    "https://docs.frigate.video/sitemap.xml"
+    "https://docs.sagecontinuum.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +42,7 @@
     ]
   },
   "conversation_id": [
-    "1403980781"
+    "1651733357"
   ],
-  "nb_hits": 372
+  "nb_hits": 166
 }

@@ -1,10 +1,7 @@
 {
-  "index_name": "frigate",
+  "index_name": "dtflyx",
   "start_urls": [
-    "https://docs.frigate.video"
-  ],
-  "sitemap_urls": [
-    "https://docs.frigate.video/sitemap.xml"
+    "http://forest.dtflyx.com/docs/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1403980781"
+    "1660378027"
   ],
-  "nb_hits": 372
+  "nb_hits": 2061
 }

@@ -1,7 +1,10 @@
 {
-  "index_name": "armanual",
+  "index_name": "libellux",
   "start_urls": [
-    "https://armanual.org"
+    "https://www.libellux.com"
+  ],
+  "sitemap_urls": [
+    "https://www.libellux.com/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -33,8 +36,8 @@
     ]
   },
   "conversation_id": [
-    "909395639"
+    "1656544500"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 2094
+  "nb_hits": 901
 }

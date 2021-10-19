@@ -1,10 +1,10 @@
 {
-  "index_name": "frigate",
+  "index_name": "moonwave",
   "start_urls": [
-    "https://docs.frigate.video"
+    "https://upliftgames.github.io/moonwave/"
   ],
   "sitemap_urls": [
-    "https://docs.frigate.video/sitemap.xml"
+    "https://upliftgames.github.io/moonwave/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1403980781"
+    "1648425590"
   ],
-  "nb_hits": 372
+  "nb_hits": 274
 }

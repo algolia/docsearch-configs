@@ -3,10 +3,6 @@
   "start_urls": [
     "https://stoic-almeida-1eda82.netlify.app/"
   ],
-  "sitemap_urls": [
-    "https://stoic-almeida-1eda82.netlify.app/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {

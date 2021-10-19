@@ -1,8 +1,10 @@
 {
-  "index_name": "fig",
+  "index_name": "react-query-firebase",
   "start_urls": [
-    "https://fig.io/docs/",
-    "https://fig.io/support/"
+    "https://react-query-firebase.invertase.dev/"
+  ],
+  "sitemap_urls": [
+    "https://react-query-firebase.invertase.dev/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
@@ -18,9 +20,8 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
-  "js_render": true,
   "conversation_id": [
-    "1601403007"
+    "1655884620"
   ],
-  "nb_hits": 959
+  "nb_hits": 456
 }

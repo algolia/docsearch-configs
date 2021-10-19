@@ -1,7 +1,7 @@
 {
-  "index_name": "armanual",
+  "index_name": "neww7",
   "start_urls": [
-    "https://armanual.org"
+    "https://v.neww7.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -33,8 +33,8 @@
     ]
   },
   "conversation_id": [
-    "909395639"
+    "1661312839"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 2094
+  "nb_hits": 2977
 }

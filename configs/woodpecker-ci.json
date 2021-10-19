@@ -1,10 +1,10 @@
 {
-  "index_name": "frigate",
+  "index_name": "woodpecker-ci",
   "start_urls": [
-    "https://docs.frigate.video"
+    "https://woodpecker-ci.org/"
   ],
   "sitemap_urls": [
-    "https://docs.frigate.video/sitemap.xml"
+    "https://woodpecker-ci.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1403980781"
+    "1661828566"
   ],
-  "nb_hits": 372
+  "nb_hits": 582
 }

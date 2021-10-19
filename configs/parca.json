@@ -1,10 +1,10 @@
 {
-  "index_name": "frigate",
+  "index_name": "parca",
   "start_urls": [
-    "https://docs.frigate.video"
+    "https://www.parca.dev/"
   ],
   "sitemap_urls": [
-    "https://docs.frigate.video/sitemap.xml"
+    "https://www.parca.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1403980781"
+    "1654594646"
   ],
-  "nb_hits": 372
+  "nb_hits": 544
 }
