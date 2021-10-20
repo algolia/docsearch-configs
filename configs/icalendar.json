@@ -1,0 +1,27 @@
+{
+  "index_name": "icalendar",
+  "start_urls": [
+    "https://nystudio107.com/docs/icalendar/"
+  ],
+  "sitemap_urls": [
+    "https://nystudio107.com/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1663785710"
+  ],
+  "nb_hits": 41
+}
