@@ -21,7 +21,7 @@ new Crawler({
     "http://rasa.com/docs/.*?/next**/**",
     "**/_**",
     "**/_**/**",
-    "!**/",
+    "**/**[^/]",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://rasa.com/**"],

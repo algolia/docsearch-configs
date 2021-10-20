@@ -7,12 +7,13 @@ new Crawler({
     "https://nuxtjs.org/",
     "https://nuxtjs.org/ja/",
     "https://nuxtjs.org/en/",
+    "https://v3.nuxtjs.org/",
   ],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: ["**/logos/**"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://nuxtjs.org/**"],
+  discoveryPatterns: ["https://nuxtjs.org/**", "https://v3.nuxtjs.org/**"],
   schedule: "at 15:40 on Thursday",
   actions: [
     {
@@ -33,6 +34,9 @@ new Crawler({
             lvl5: "article h5",
             language: {
               defaultValue: ["fr-FR", "fr"],
+            },
+            tags: {
+              defaultValue: ["main"],
             },
           },
           indexHeadings: { from: 1, to: 6 },
@@ -58,6 +62,9 @@ new Crawler({
             language: {
               defaultValue: ["ja-JP", "ja"],
             },
+            tags: {
+              defaultValue: ["main"],
+            },
           },
           indexHeadings: { from: 1, to: 6 },
         });
@@ -81,6 +88,9 @@ new Crawler({
             lvl5: "article h5",
             language: {
               defaultValue: ["en-US", "en"],
+            },
+            tags: {
+              defaultValue: ["main"],
             },
           },
           indexHeadings: { from: 1, to: 6 },
@@ -106,6 +116,36 @@ new Crawler({
             language: {
               defaultValue: ["en-US", "en"],
             },
+            tags: {
+              defaultValue: ["main"],
+            },
+          },
+          indexHeadings: { from: 1, to: 6 },
+        });
+      },
+    },
+    {
+      indexName: "nuxtjs",
+      pathsToMatch: ["https://v3.nuxtjs.org/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h1",
+            content: "article p, article li",
+            lvl0: {
+              selectors: "li.active h5",
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
+            language: {
+              defaultValue: ["en-US", "en"],
+            },
+            tags: {
+              defaultValue: ["v3"],
+            },
           },
           indexHeadings: { from: 1, to: 6 },
         });
@@ -114,7 +154,7 @@ new Crawler({
   ],
   initialIndexSettings: {
     nuxtjs: {
-      attributesForFaceting: ["type", "lang", "language"],
+      attributesForFaceting: ["type", "lang", "language", "tags"],
       attributesToRetrieve: [
         "hierarchy",
         "content",

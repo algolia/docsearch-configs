@@ -2,34 +2,30 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://looplang.org/docs", "https://looplang.org/"],
+  startUrls: ["https://documentation.opayweb.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://looplang.org/sitemap.xml"],
-  exclusionPatterns: ["**/tests**", "**/tests**/**"],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://looplang.org/**"],
-  schedule: "at 05:30 on Thursday",
+  sitemaps: ["https://documentation.opayweb.com/sitemap.xml"],
+  exclusionPatterns: [],
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://documentation.opayweb.com/**"],
+  schedule: "at 20:30 on Thursday",
   actions: [
     {
-      indexName: "looplang",
-      pathsToMatch: ["https://looplang.org/docs**/**"],
+      indexName: "opayweb",
+      pathsToMatch: ["https://documentation.opayweb.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
+              selectors: "",
               defaultValue: "Documentation",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
           },
           indexHeadings: true,
         });
@@ -37,22 +33,9 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    looplang: {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-      ],
+    opayweb: {
+      attributesForFaceting: ["type", "lang"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -113,7 +96,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });
