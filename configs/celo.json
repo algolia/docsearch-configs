@@ -6,7 +6,7 @@
   "sitemap_urls": [
     "https://docs.celo.org/sitemap.xml"
   ],
-  "exclusionPatterns": [
+  "stop_urls": [
     "https://docs.celo.org/es/**"
   ],
   "selectors": {
