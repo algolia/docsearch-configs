@@ -1,12 +1,8 @@
 {
-  "index_name": "operapay",
-  "start_urls": [
-    "https://documentation.operapay.com/"
-  ],
+  "index_name": "opayweb",
+  "start_urls": ["https://documentation.opayweb.com/"],
   "stop_urls": [],
-  "sitemap_urls": [
-    "https://documentation.operapay.com/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://documentation.opayweb.com/sitemap.xml"],
   "selectors": {
     "lvl0": {
       "selector": "",
@@ -19,8 +15,6 @@
     "lvl5": "main h5",
     "text": "main p, main li"
   },
-  "conversation_id": [
-    "1307058723"
-  ],
+  "conversation_id": ["1307058723"],
   "nb_hits": 508
 }
