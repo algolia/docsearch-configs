@@ -2,12 +2,12 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://uk.ob.docs.wso2.com/en/latest/",
-    "https://uk.ob.docs.wso2.com/",
-  ],
+  startUrls: ["https://uk.ob.docs.wso2.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://uk.ob.docs.wso2.com/sitemap.xml"],
+  sitemaps: [
+    "https://uk.ob.docs.wso2.com/en/latest/sitemap.xml",
+    "https://uk.ob.docs.wso2.com/en/1.0.0/sitemap.xml",
+  ],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://uk.ob.docs.wso2.com/**"],
@@ -15,7 +15,7 @@ new Crawler({
   actions: [
     {
       indexName: "wso2_toolkit",
-      pathsToMatch: ["https://uk.ob.docs.wso2.com/en/latest/**"],
+      pathsToMatch: ["https://uk.ob.docs.wso2.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -37,7 +37,7 @@ new Crawler({
   ],
   initialIndexSettings: {
     wso2_toolkit: {
-      attributesForFaceting: ["type", "lang"],
+      attributesForFaceting: ["type", "lang", "language", "version"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

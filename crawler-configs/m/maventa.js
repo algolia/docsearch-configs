@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**//.*//**"],
+  exclusionPatterns: ["**//**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://documentation.maventa.com/**"],
   schedule: "at 10:00 on Thursday",

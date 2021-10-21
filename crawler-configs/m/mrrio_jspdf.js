@@ -9,7 +9,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.js\\.html", "**/index.html"],
+  exclusionPatterns: ["**.js\\.html", "**/index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://rawgit.com/**"],
   schedule: "at 10:40 on Thursday",

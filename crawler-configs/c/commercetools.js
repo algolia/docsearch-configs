@@ -6,10 +6,9 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "**/**.*/releases",
-    "**/**.*/releases/.***",
-    "**/**.*/releases/.***/**",
-    "**/**.html",
+    "**/releases",
+    "**/releases/**",
+    "**.html",
     "**/**docs/removed-functionality**",
     "**/**docs/removed-functionality**/**",
   ],

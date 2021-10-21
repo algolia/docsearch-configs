@@ -13,7 +13,7 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: ["https://eslint.org/sitemap.xml"],
   exclusionPatterns: [
-    "**/**.html",
+    "**.html",
     "https://eslint.org/docs/d**",
     "https://eslint.org/docs/d**/**",
   ],

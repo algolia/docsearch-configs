@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://aerialcss.algolia.com/"],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/**.com/index.html"],
+  exclusionPatterns: ["**.com/index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://aerialcss.algolia.com/**"],
   schedule: "at 01:00 on Tuesday",

@@ -12,7 +12,7 @@ new Crawler({
   exclusionPatterns: [
     "**/**README**",
     "**/**README**/**",
-    "**/**.txt",
+    "**.txt",
     "**/**release**",
     "**/**release**/**",
   ],

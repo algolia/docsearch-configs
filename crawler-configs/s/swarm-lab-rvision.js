@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://swarm-lab.github.io/Rvision/sitemap.xml"],
-  exclusionPatterns: ["**/**LICENSE-text.html", "**/**://.*//**"],
+  exclusionPatterns: ["**/**LICENSE-text.html", "**/**:///**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://swarm-lab.github.io/**"],
   schedule: "at 15:50 on Friday",

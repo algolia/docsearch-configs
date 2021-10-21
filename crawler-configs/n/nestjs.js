@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.nestjs.com/"],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/**.com/vd**", "**/**.com/vd**/**"],
+  exclusionPatterns: ["**.com/vd**", "**.com/vd**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.nestjs.com/**"],
   schedule: "at 15:00 on Thursday",

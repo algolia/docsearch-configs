@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://uppload.js.org/"],
   renderJavaScript: false,
   sitemaps: ["https://uppload.js.org/sitemap.xml"],
-  exclusionPatterns: ["**/**.html"],
+  exclusionPatterns: ["**.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://uppload.js.org/**"],
   schedule: "at 00:30 on Saturday",

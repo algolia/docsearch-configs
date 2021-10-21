@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://pay.weixin.qq.com/"],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/download/**", "**/**^(?!.*/wiki/doc/apiv3/).*"],
+  exclusionPatterns: ["**/download/**", "**/**^(?!/wiki/doc/apiv3/)"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://pay.weixin.qq.com/**"],
   schedule: "at 05:30 on Friday",

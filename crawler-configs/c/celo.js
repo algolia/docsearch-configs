@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.celo.org/"],
   renderJavaScript: true,
   sitemaps: ["https://docs.celo.org/sitemap.xml"],
-  exclusionPatterns: [],
+  exclusionPatterns: ["https://docs.celo.org/es/**"],
   ignoreCanonicalTo: true,
   discoveryPatterns: ["https://docs.celo.org/**"],
   schedule: "at 11:00 on Tuesday",

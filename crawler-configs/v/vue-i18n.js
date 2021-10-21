@@ -11,7 +11,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.html"],
+  exclusionPatterns: ["**.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://vue-i18n.intlify.dev/**"],
   schedule: "at 05:40 on Saturday",

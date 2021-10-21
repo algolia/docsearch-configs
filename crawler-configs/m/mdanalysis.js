@@ -10,16 +10,17 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: ["https://www.mdanalysis.org/sitemapindex.xml"],
   exclusionPatterns: [
-    "https://www.mdanalysis.org/.*?//.*?**",
-    "https://www.mdanalysis.org/.*?//.*?**/**",
-    "https://www.mdanalysis.org/blog/page.***",
-    "https://www.mdanalysis.org/blog/page.***/**",
+    "https://www.mdanalysis.org/**/**",
+    "https://www.mdanalysis.org/blog**",
+    "https://www.mdanalysis.org/blog**/**",
     "https://www.mdanalysis.org/mdanalysis**",
     "https://www.mdanalysis.org/mdanalysis**/**",
     "https://www.mdanalysis.org/docs**",
     "https://www.mdanalysis.org/docs**/**",
-    "https://docs.mdanalysis.org/.*index.html",
-    "https://www.mdanalysis.org/.*index.html",
+    "https://docs.mdanalysis.org/dev/**",
+    "https://docs.mdanalysis.org/[0-9].[0-9]\\.[0-9]/**",
+    "https://userguide.mdanalysis.org/[0-9].[0-9]\\.[0-9]/**",
+    "https://userguide.mdanalysis.org/-dev/**",
     "**/_**",
     "**/_**/**",
   ],
@@ -39,7 +40,7 @@ new Crawler({
           recordProps: {
             lvl1: "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
             content:
-              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre",
+              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt",
             lvl0: {
               selectors:
                 "[itemprop='articleBody'] > .section h1, .page h1, .post h1, .body > .section h1",
@@ -60,7 +61,7 @@ new Crawler({
           recordProps: {
             lvl1: "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
             content:
-              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre",
+              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt",
             lvl0: {
               selectors:
                 "[itemprop='articleBody'] > .section h1, .page h1, .post h1, .body > .section h1",
@@ -81,7 +82,7 @@ new Crawler({
           recordProps: {
             lvl1: "[itemprop='articleBody'] > .section h2, .page h2, .post h2, .body > .section h2",
             content:
-              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre",
+              "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt",
             lvl0: {
               selectors:
                 "[itemprop='articleBody'] > .section h1, .page h1, .post h1, .body > .section h1",

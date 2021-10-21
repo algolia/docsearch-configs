@@ -9,8 +9,8 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "http://docs.rightscale.com/platform/roadmap.***",
-    "http://docs.rightscale.com/platform/roadmap.***/**",
+    "http://docs.rightscale.com/platform/roadmap**",
+    "http://docs.rightscale.com/platform/roadmap**/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["http://docs.rightscale.com/**"],

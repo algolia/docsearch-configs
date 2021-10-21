@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.js\\.html", "**/index.html"],
+  exclusionPatterns: ["**.js\\.html", "**/index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://petrbroz.github.io/**"],
   schedule: "at 00:00 on Friday",

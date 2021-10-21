@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://dtdocs.sisense.com/"],
   renderJavaScript: false,
   sitemaps: ["https://dtdocs.sisense.com/sitemap.xml"],
-  exclusionPatterns: ["**/**.pub", "**/newdoc/**", "**/doc/**"],
+  exclusionPatterns: ["**.pub", "**/newdoc/**", "**/doc/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://dtdocs.sisense.com/**"],
   schedule: "at 00:00 on Friday",

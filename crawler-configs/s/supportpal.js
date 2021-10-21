@@ -23,7 +23,7 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "**/**.sql",
+    "**.sql",
     "**/**Configuring+a\\+Trusted\\-Proxy**",
     "**/**Configuring+a\\+Trusted\\-Proxy**/**",
   ],

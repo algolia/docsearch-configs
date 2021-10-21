@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://aravind-j.github.io/PGRdup/sitemap.xml"],
-  exclusionPatterns: ["**//reference**", "**//reference**/**"],
+  exclusionPatterns: ["**/reference**", "**/reference**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://aravind-j.github.io/**"],
   schedule: "at 00:10 on Friday",

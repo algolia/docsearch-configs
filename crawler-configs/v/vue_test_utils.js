@@ -12,7 +12,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**[^/]"],
+  exclusionPatterns: ["!**/"],
   ignoreCanonicalTo: false,
   discoveryPatterns: [
     "https://vue-test-utils.vuejs.org/**",

@@ -6,7 +6,7 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: ["https://surgio.js.org/sitemap.xml"],
   exclusionPatterns: [
-    "**/**^(.(?!.*.html)).*?/guide/",
+    "**/**^(.(?!.html))**/guide/",
     "https://surgio.js.org/404.html",
     "https://surgio.js.org/support.html",
   ],

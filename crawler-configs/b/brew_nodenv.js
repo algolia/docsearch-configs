@@ -11,7 +11,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://nodenv.github.io/formulae/sitemap.xml"],
-  exclusionPatterns: ["**/**.json"],
+  exclusionPatterns: ["**.json"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://nodenv.github.io/**"],
   schedule: "at 06:40 on Tuesday",

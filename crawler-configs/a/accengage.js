@@ -16,7 +16,7 @@ new Crawler({
   exclusionPatterns: [
     "https://documentation.accengage.com/admin**",
     "https://documentation.accengage.com/admin**/**",
-    "**/**documentation.accengage.com//**",
+    "**/**documentation.accengage.com/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://documentation.accengage.com/**"],

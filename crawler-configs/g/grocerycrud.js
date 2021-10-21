@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://www.grocerycrud.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/v1.x/.***", "**/v1.x/.***/**"],
+  exclusionPatterns: ["**/v1.x/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://www.grocerycrud.com/**"],
   schedule: "at 06:40 on Wednesday",

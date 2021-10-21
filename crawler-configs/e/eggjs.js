@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://eggjs.org/api/", "https://eggjs.org/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.js**", "**/**.js**/**", "**/**index.html"],
+  exclusionPatterns: ["**.js**", "**.js**/**", "**/**index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://eggjs.org/**"],
   schedule: "at 20:10 on Tuesday",

@@ -7,9 +7,9 @@ new Crawler({
   sitemaps: [],
   exclusionPatterns: [
     "**/[0-9].[0-9]/**",
-    "**//permalink//**",
+    "**/permalink/**",
     "**/using/using/**",
-    "**//index/doc//**",
+    "**/index/doc/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://support.10xgenomics.com/**"],

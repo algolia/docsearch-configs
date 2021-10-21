@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.bazel.build/", "https://bazel.build/"],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/**.gpg**", "**/**.gpg**/**"],
+  exclusionPatterns: ["**.gpg**", "**.gpg**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.bazel.build/**", "https://bazel.build/**"],
   schedule: "at 06:00 on Tuesday",

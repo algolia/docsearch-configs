@@ -34,7 +34,7 @@ new Crawler({
     "https://cloudinary.com/documentation/sdks/***/**",
     "**/**?**",
     "**/**?**/**",
-    "**/**.txt",
+    "**.txt",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://cloudinary.com/**"],

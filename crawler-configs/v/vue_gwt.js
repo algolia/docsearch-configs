@@ -6,7 +6,7 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "**//vuegwt.github.io/vue-gwt/guide/essentials/components",
+    "**/vuegwt.github.io/vue-gwt/guide/essentials/components",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://vuegwt.github.io/**"],

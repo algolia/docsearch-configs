@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.entcloud.swisscom.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**^.*/misc/.*"],
+  exclusionPatterns: ["**/misc/"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.entcloud.swisscom.com/**"],
   schedule: "at 15:00 on Friday",

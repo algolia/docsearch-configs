@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://mobx.js.org/"],
   renderJavaScript: false,
   sitemaps: ["https://mobx.js.org/sitemap.xml"],
-  exclusionPatterns: ["**/**://.*\\/\\/**"],
+  exclusionPatterns: ["**/**://\\/\\/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://mobx.js.org/**"],
   schedule: "at 10:30 on Thursday",

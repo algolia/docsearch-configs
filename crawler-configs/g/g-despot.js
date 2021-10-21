@@ -2,17 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://docs.memgraph.com/"],
+  startUrls: ["https://memgraph.com/docs", "https://memgraph.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://docs.memgraph.com/sitemap.xml"],
+  sitemaps: ["https://memgraph.com/docs/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docs.memgraph.com/**"],
+  discoveryPatterns: ["https://memgraph.com/**"],
   schedule: "at 05:40 on Wednesday",
   actions: [
     {
       indexName: "g-despot",
-      pathsToMatch: ["https://docs.memgraph.com**/**"],
+      pathsToMatch: ["https://memgraph.com/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

@@ -12,8 +12,8 @@ new Crawler({
   exclusionPatterns: [
     "**/**?utm**",
     "**/**?utm**/**",
-    "**//felgo.com/doc/qt/qsggeometrynode/qsgsimpletexturenode/qsgsimplerectnode**",
-    "**//felgo.com/doc/qt/qsggeometrynode/qsgsimpletexturenode/qsgsimplerectnode**/**",
+    "**/felgo.com/doc/qt/qsggeometrynode/qsgsimpletexturenode/qsgsimplerectnode**",
+    "**/felgo.com/doc/qt/qsggeometrynode/qsgsimpletexturenode/qsgsimplerectnode**/**",
     "**/**(/([a-z][A-Z])*\\/){6}**",
     "**/**(/([a-z][A-Z])*\\/){6}**/**",
     "**/**([a-z-][a-z-]*)/(?=\\1+)**",

@@ -9,7 +9,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://jenkins-x.io/sitemap.xml"],
-  exclusionPatterns: ["**/docs/.*", "**/commands/.*", "**/about/.*"],
+  exclusionPatterns: ["**/docs/", "**/commands/", "**/about/"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://jenkins-x.io/**"],
   schedule: "at 20:00 on Wednesday",

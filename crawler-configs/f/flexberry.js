@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://flexberry.github.io/"],
   renderJavaScript: false,
   sitemaps: ["https://flexberry.github.io/sitemap.xml"],
-  exclusionPatterns: ["**/**:////**"],
+  exclusionPatterns: ["**/**:///**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://flexberry.github.io/**"],
   schedule: "at 01:20 on Wednesday",

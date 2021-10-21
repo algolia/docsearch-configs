@@ -49,7 +49,7 @@ new Crawler({
   ],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/./**", "**/**.*/master.***", "**/**.*/master.***/**"],
+  exclusionPatterns: ["**/./**", "**/master**", "**/master**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["http://docs.hazzardweb.com/**"],
   schedule: "at 10:00 on Wednesday",

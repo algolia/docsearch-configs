@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://ropensci.github.io/bomrang/sitemap.xml"],
-  exclusionPatterns: ["**/**bomrang//**"],
+  exclusionPatterns: ["**/**bomrang/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://ropensci.github.io/**"],
   schedule: "at 06:30 on Tuesday",

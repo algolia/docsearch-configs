@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**PKPDmisc//**"],
+  exclusionPatterns: ["**/**PKPDmisc/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://dpastoor.github.io/**"],
   schedule: "at 00:20 on Friday",

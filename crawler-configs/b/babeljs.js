@@ -13,7 +13,7 @@ new Crawler({
     "https://babeljs.io/docs/en/next/**",
     "https://babeljs.io/docs/en/next",
     "**/**html",
-    "https://babeljs.io/docs//",
+    "https://babeljs.io/docs/",
     "https://babeljs.io/docs/en/d**",
     "https://babeljs.io/docs/en/d**/**",
   ],

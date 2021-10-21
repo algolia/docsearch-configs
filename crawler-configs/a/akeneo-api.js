@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://api.akeneo.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["https://api.akeneo.com/index.html", "**/**.json"],
+  exclusionPatterns: ["https://api.akeneo.com/index.html", "**.json"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://api.akeneo.com/**"],
   schedule: "at 01:20 on Tuesday",

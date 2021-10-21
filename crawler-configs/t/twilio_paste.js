@@ -15,7 +15,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://paste.twilio.design/sitemap.xml"],
-  exclusionPatterns: ["**/**changelog**", "**/**changelog**/**", "**/**[^/]"],
+  exclusionPatterns: ["**/**changelog**", "**/**changelog**/**", "!**/"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://paste.twilio.design/**"],
   schedule: "at 19:50 on Friday",

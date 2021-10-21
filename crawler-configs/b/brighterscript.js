@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.js\\.html", "**/index.html"],
+  exclusionPatterns: ["**.js\\.html", "**/index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://markwpearce.github.io/**"],
   schedule: "at 06:40 on Tuesday",

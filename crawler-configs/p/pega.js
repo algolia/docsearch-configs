@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://design.pega.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.sketch**", "**/**.sketch**/**"],
+  exclusionPatterns: ["**.sketch**", "**.sketch**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://design.pega.com/**"],
   schedule: "at 00:00 on Friday",

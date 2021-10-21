@@ -9,8 +9,8 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "https://sonata-project.org/bundles/.*/d**",
-    "https://sonata-project.org/bundles/.*/d**/**",
+    "https://sonata-project.org/bundles/d**",
+    "https://sonata-project.org/bundles/d**/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://sonata-project.org/**"],

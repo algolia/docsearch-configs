@@ -6,8 +6,8 @@ new Crawler({
   renderJavaScript: true,
   sitemaps: [],
   exclusionPatterns: [
-    "**/**(.*)?id=**",
-    "**/**(.*)?id=**/**",
+    "**/**?id=**",
+    "**/**?id=**/**",
     "https://guides.yclas.com/#/README**",
     "https://guides.yclas.com/#/README**/**",
   ],

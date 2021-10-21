@@ -16,7 +16,7 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "**/**.html",
+    "**.html",
     "https://www.apollographql.com/docs/angular/**",
     "https://www.apollographql.com/docs/scala/**",
     "https://www.apollographql.com/docs/graphql-tools/**",

@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://pipenv.pypa.io/en/latest/", "https://pipenv.pypa.io/"],
   renderJavaScript: false,
   sitemaps: ["https://pipenv.readthedocs.io/sitemap.xml"],
-  exclusionPatterns: ["**/**.rst\\.txt", "**/_**", "**/_**/**"],
+  exclusionPatterns: ["**.rst\\.txt", "**/_**", "**/_**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://pipenv.pypa.io/**"],
   schedule: "at 00:10 on Friday",

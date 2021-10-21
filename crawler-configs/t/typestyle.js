@@ -10,7 +10,7 @@ new Crawler({
     "**/play**/**",
     "**/**TODO**",
     "**/**TODO**/**",
-    "https://typestyle.github.io/#/?/.+?",
+    "https://typestyle.github.io/#/?/?",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://typestyle.github.io/**"],

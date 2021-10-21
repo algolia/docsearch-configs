@@ -14,7 +14,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.html"],
+  exclusionPatterns: ["**.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://vitejs.dev/**", "https://cn.vitejs.dev/**"],
   schedule: "at 05:10 on Saturday",

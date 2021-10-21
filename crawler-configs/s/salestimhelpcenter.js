@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://developers.salestim.com/"],
   renderJavaScript: false,
   sitemaps: ["https://developers.salestim.com/sitemap.xml"],
-  exclusionPatterns: ["**/**.html"],
+  exclusionPatterns: ["**.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://developers.salestim.com/**"],
   schedule: "at 15:00 on Friday",

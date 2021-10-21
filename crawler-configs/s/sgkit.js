@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.txt"],
+  exclusionPatterns: ["**.txt"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://pystatgen.github.io/**"],
   schedule: "at 15:10 on Friday",

@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://docs.microsoft.com/en-us/azure/databricks/sitemap.xml"],
-  exclusionPatterns: ["**/**.jar", "**/**.avro", "**/**.net/index.html"],
+  exclusionPatterns: ["**.jar", "**.avro", "**.net/index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.microsoft.com/**"],
   schedule: "at 01:50 on Tuesday",

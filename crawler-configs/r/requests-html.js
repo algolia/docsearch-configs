@@ -5,12 +5,7 @@ new Crawler({
   startUrls: ["http://html.python-requests.org/"],
   renderJavaScript: false,
   sitemaps: ["http://html.python-requests.org/sitemap.xml"],
-  exclusionPatterns: [
-    "**/**.rst\\.txt",
-    "**/_**",
-    "**/_**/**",
-    "**/**index.html",
-  ],
+  exclusionPatterns: ["**.rst\\.txt", "**/_**", "**/_**/**", "**/**index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["http://html.python-requests.org/**"],
   schedule: "at 10:00 on Friday",

@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://imapflow.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.js\\.html", "**/index.html"],
+  exclusionPatterns: ["**.js\\.html", "**/index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://imapflow.com/**"],
   schedule: "at 15:20 on Wednesday",

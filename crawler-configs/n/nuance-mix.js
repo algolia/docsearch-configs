@@ -17,7 +17,7 @@ new Crawler({
     "https://docs.mix.nuance.com/mix-datapack/v6_x/**",
     "https://docs.mix.nuance.com/asr-grpc/v1beta1/**",
     "https://docs.mix.nuance.com/asr-grpc/v1beta2/**",
-    "**/**(.*)/index.html",
+    "**/index.html",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.mix.nuance.com/**"],

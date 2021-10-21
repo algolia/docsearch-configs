@@ -11,7 +11,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/odoc/**", "**/_**", "**/_**/**", "**/**ipl//**"],
+  exclusionPatterns: ["**/odoc/**", "**/_**", "**/_**/**", "**/**ipl/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.imandra.ai/**"],
   schedule: "at 15:20 on Wednesday",

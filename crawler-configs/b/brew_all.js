@@ -18,7 +18,7 @@ new Crawler({
     "https://docs.brew.sh/sitemap.xml",
     "https://formulae.brew.sh/sitemap.xml",
   ],
-  exclusionPatterns: ["https://brew.sh/blog/**", "**/**.json"],
+  exclusionPatterns: ["https://brew.sh/blog/**", "**.json"],
   ignoreCanonicalTo: false,
   discoveryPatterns: [
     "https://brew.sh/**",

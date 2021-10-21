@@ -18,7 +18,7 @@ new Crawler({
     "https://developers.cloudflare.com/firewall/",
     "https://developers.cloudflare.com/fundamentals/",
     "https://developers.cloudflare.com/http3/",
-    "https://developers.cloudflare.com/image-resizing/",
+    "https://developers.cloudflare.com/images/",
     "https://developers.cloudflare.com/load-balancing/",
     "https://developers.cloudflare.com/logs/",
     "https://developers.cloudflare.com/magic-transit/",
@@ -58,7 +58,7 @@ new Crawler({
     "https://developers.cloudflare.com/firewall/sitemap.xml",
     "https://developers.cloudflare.com/fundamentals/sitemap.xml",
     "https://developers.cloudflare.com/http3/sitemap.xml",
-    "https://developers.cloudflare.com/image-resizing/sitemap.xml",
+    "https://developers.cloudflare.com/images/sitemap.xml",
     "https://developers.cloudflare.com/load-balancing/sitemap.xml",
     "https://developers.cloudflare.com/logs/sitemap.xml",
     "https://developers.cloudflare.com/magic-transit/sitemap.xml",
@@ -485,7 +485,7 @@ new Crawler({
     },
     {
       indexName: "developers-cloudflare",
-      pathsToMatch: ["https://developers.cloudflare.com/image-resizing/**"],
+      pathsToMatch: ["https://developers.cloudflare.com/images/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = "h1 + ul";
@@ -504,7 +504,7 @@ new Crawler({
             lvl4: ".DocsContent h5",
             lvl5: ".DocsContent h6",
             project: {
-              defaultValue: ["image-resizing"],
+              defaultValue: ["images"],
             },
           },
           indexHeadings: true,

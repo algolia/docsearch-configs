@@ -6,8 +6,8 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: ["https://auth0.com/docs/sitemap.xml"],
   exclusionPatterns: [
-    "**/**01-.*?",
-    "https://auth0.com/docs/quickstart/.*?/getting-started.*?",
+    "**/**01-**",
+    "https://auth0.com/docs/quickstart/**/getting-started**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://auth0.com/**"],

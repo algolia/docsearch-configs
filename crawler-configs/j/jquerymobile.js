@@ -12,7 +12,7 @@ new Crawler({
   exclusionPatterns: [
     "**/**?**",
     "**/**?**/**",
-    "**/**.com/category/**",
+    "**.com/category/**",
     "**/resources/**",
   ],
   ignoreCanonicalTo: false,

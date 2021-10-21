@@ -10,7 +10,7 @@ new Crawler({
   ],
   renderJavaScript: true,
   sitemaps: ["https://socket.io/sitemap.xml"],
-  exclusionPatterns: ["**/**.html"],
+  exclusionPatterns: ["**.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://socket.io/**"],
   schedule: "at 15:30 on Friday",

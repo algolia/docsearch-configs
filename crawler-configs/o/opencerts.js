@@ -6,8 +6,8 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: ["https://docs.opencerts/sitemap.xml"],
   exclusionPatterns: [
-    "^https://docs.opencerts.io/v1**",
-    "^https://docs.opencerts.io/v1**/**",
+    "**/**^https://docs.opencerts.io/v1**",
+    "**/**^https://docs.opencerts.io/v1**/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.opencerts.io/**"],

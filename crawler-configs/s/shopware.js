@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.md"],
+  exclusionPatterns: ["**.md"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://developers.shopware.com/**"],
   schedule: "at 15:10 on Friday",

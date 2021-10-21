@@ -5,12 +5,7 @@ new Crawler({
   startUrls: ["https://jss.sitecore.com/docs/", "https://jss.sitecore.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [
-    "**/**?id**",
-    "**/**?id**/**",
-    "**/**.\\.**",
-    "**/**.\\.**/**",
-  ],
+  exclusionPatterns: ["**/**?id**", "**/**?id**/**", "**.\\.**", "**.\\.**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://jss.sitecore.com/**"],
   schedule: "at 20:40 on Wednesday",

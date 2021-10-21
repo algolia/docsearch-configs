@@ -6,8 +6,7 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: ["https://caffe2.ai/sitemap.xml"],
   exclusionPatterns: [
-    "**/**.*^(?!.*html)**",
-    "**/**.*^(?!.*html)**/**",
+    "!**/**.index.html",
     "**/**members.html",
     "**/**_source.html",
   ],

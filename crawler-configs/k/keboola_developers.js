@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://developers.keboola.com/"],
   renderJavaScript: false,
   sitemaps: ["https://developers.keboola.com/sitemap.xml"],
-  exclusionPatterns: ["**/**.csv"],
+  exclusionPatterns: ["**.csv"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://developers.keboola.com/**"],
   schedule: "at 01:00 on Thursday",

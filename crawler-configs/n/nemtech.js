@@ -6,7 +6,7 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "**/**.*(?<!.html)",
+    "**/**(?<!.html)",
     "**/**symbol-sdk-typescript-javascript**",
     "**/**symbol-sdk-typescript-javascript**/**",
   ],

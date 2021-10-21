@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.python-guide.org/"],
   renderJavaScript: false,
   sitemaps: ["https://docs.python-guide.org/sitemap.xml"],
-  exclusionPatterns: ["**/**.rst\\.txt", "**/_**", "**/_**/**"],
+  exclusionPatterns: ["**.rst\\.txt", "**/_**", "**/_**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.python-guide.org/**"],
   schedule: "at 00:50 on Friday",

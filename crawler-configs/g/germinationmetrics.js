@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://aravind-j.github.io/germinationmetrics/sitemap.xml"],
-  exclusionPatterns: ["https://.*//.***", "https://.*//.***/**"],
+  exclusionPatterns: ["https:///**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://aravind-j.github.io/**"],
   schedule: "at 06:00 on Wednesday",

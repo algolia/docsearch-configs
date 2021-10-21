@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://kasperskytte.github.io/mmgenome2/sitemap.xml"],
-  exclusionPatterns: ["https://.*//.***", "https://.*//.***/**"],
+  exclusionPatterns: ["https:///**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://kasperskytte.github.io/**"],
   schedule: "at 10:20 on Thursday",

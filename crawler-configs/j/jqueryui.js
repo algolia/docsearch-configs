@@ -14,7 +14,7 @@ new Crawler({
   exclusionPatterns: [
     "**/**?**",
     "**/**?**/**",
-    "**/**.com/category/**",
+    "**.com/category/**",
     "**/resources/**",
     "**/**api.jqueryui.com/\\d\\.**",
     "**/**api.jqueryui.com/\\d\\.**/**",

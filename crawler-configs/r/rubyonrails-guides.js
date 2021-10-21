@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://guides.rubyonrails.org/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/kindle/**", "**/**.org/vd**", "**/**.org/vd**/**"],
+  exclusionPatterns: ["**/kindle/**", "**.org/vd**", "**.org/vd**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://guides.rubyonrails.org/**"],
   schedule: "at 10:40 on Friday",

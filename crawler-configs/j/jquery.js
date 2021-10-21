@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://api.jquery.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.com/category/**"],
+  exclusionPatterns: ["**.com/category/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://api.jquery.com/**"],
   schedule: "at 20:30 on Wednesday",

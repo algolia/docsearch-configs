@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.html", "**/changelog/**"],
+  exclusionPatterns: ["**.html", "**/changelog/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://developer.twitter.com/**"],
   schedule: "at 15:00 on Tuesday",

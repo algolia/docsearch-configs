@@ -5,10 +5,7 @@ new Crawler({
   startUrls: ["https://docs.fiskaltrust.cloud/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [
-    "**/**https:/\\/docs\\.fiskaltrust\\.cloud\\/doc\\/.***",
-    "**/**https:/\\/docs\\.fiskaltrust\\.cloud\\/doc\\/.***/**",
-  ],
+  exclusionPatterns: ["**/**https:/\\/docs\\.fiskaltrust\\.cloud\\/doc\\/**"],
   ignoreCanonicalTo: true,
   discoveryPatterns: ["https://docs.fiskaltrust.cloud/**"],
   schedule: "at 01:10 on Wednesday",

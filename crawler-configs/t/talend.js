@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.vsdx**", "**/**.vsdx**/**"],
+  exclusionPatterns: ["**.vsdx**", "**.vsdx**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://talendpnp.github.io/**"],
   schedule: "at 19:00 on Friday",

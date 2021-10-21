@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://metroui.org.ua/", "https://metroui.org.ua/menu.html"],
   renderJavaScript: false,
   sitemaps: ["https://metroui.org.ua/sitemap.xml"],
-  exclusionPatterns: ["**/examples/**", "**/**.json"],
+  exclusionPatterns: ["**/examples/**", "**.json"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://metroui.org.ua/**"],
   schedule: "at 10:00 on Thursday",

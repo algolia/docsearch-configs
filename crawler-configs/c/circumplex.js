@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://circumplex.jmgirard.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.com/index.html"],
+  exclusionPatterns: ["**.com/index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://circumplex.jmgirard.com/**"],
   schedule: "at 11:10 on Tuesday",

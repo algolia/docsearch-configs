@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/**https.*https**", "**/**https.*https**/**"],
+  exclusionPatterns: ["**/**httpshttps**", "**/**httpshttps**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://skipjack.github.io/**"],
   schedule: "at 10:00 on Friday",

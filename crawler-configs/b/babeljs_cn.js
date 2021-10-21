@@ -14,7 +14,7 @@ new Crawler({
     "https://babel.docschina.org/docs/en/next/**",
     "https://babel.docschina.org/docs/en/next",
     "**/**html",
-    "http://babel.docschina.org/docs//",
+    "http://babel.docschina.org/docs/",
     "https://babel.docschina.org/docs/en/d**",
     "https://babel.docschina.org/docs/en/d**/**",
   ],

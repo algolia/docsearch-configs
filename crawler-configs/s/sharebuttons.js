@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.js\\.html", "**/index.html"],
+  exclusionPatterns: ["**.js\\.html", "**/index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://sharebuttons.social/**"],
   schedule: "at 15:10 on Friday",

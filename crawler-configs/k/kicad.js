@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.kicad.org/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.epub**", "**/**.epub**/**"],
+  exclusionPatterns: ["**.epub"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.kicad.org/**"],
   schedule: "at 01:10 on Thursday",

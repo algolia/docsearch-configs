@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://wiki.bedrock.dev/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.mcpack**", "**/**.mcpack**/**"],
+  exclusionPatterns: ["**.mcpack**", "**.mcpack**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://wiki.bedrock.dev/**"],
   schedule: "at 10:10 on Saturday",

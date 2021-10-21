@@ -7,8 +7,8 @@ new Crawler({
   sitemaps: [],
   exclusionPatterns: [
     "https://teutonic.co/examples.html",
-    "https://teutonic.co/examples/.*?/**",
-    "**/**.html",
+    "https://teutonic.co/examples/**/",
+    "**.html",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://teutonic.co/**"],

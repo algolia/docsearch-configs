@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://vi.vuejs.org/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**.js"],
+  exclusionPatterns: ["**.js"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://vi.vuejs.org/**"],
   schedule: "at 05:10 on Saturday",

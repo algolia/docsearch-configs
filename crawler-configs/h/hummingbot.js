@@ -9,7 +9,7 @@ new Crawler({
   renderJavaScript: true,
   sitemaps: [],
   exclusionPatterns: [
-    "**/**.html",
+    "**.html",
     "**/**#gatsby-focus-wrapper**",
     "**/**#gatsby-focus-wrapper**/**",
   ],

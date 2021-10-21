@@ -18,7 +18,7 @@ new Crawler({
     "**/**-incubating**/**",
     "**/**?**",
     "**/**?**/**",
-    "**/**.html",
+    "**.html",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://pulsar.apache.org/**"],

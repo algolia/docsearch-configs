@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.databricks.com/"],
   renderJavaScript: false,
   sitemaps: ["https://docs.databricks.com/sitemap.xml"],
-  exclusionPatterns: ["**/**.jar"],
+  exclusionPatterns: ["**.jar"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.databricks.com/**"],
   schedule: "at 15:00 on Tuesday",

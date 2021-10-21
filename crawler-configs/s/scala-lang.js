@@ -39,7 +39,7 @@ new Crawler({
     "**/**?C**/**",
     "**/cheatsheets/index.html",
     "**/glossary/index.html",
-    "**/**.html.html",
+    "**.html.html",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.scala-lang.org/**"],

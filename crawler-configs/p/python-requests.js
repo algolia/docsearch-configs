@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://2.python-requests.org/sitemap.xml"],
-  exclusionPatterns: ["**/**.rst\\.txt", "**/_**", "**/_**/**"],
+  exclusionPatterns: ["**.rst\\.txt", "**/_**", "**/_**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://2.python-requests.org/**"],
   schedule: "at 00:50 on Friday",

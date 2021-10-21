@@ -12,7 +12,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**^[^/]*//.*//**"],
+  exclusionPatterns: ["!**/"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.yugabyte.com/**"],
   schedule: "at 19:40 on Saturday",

@@ -10,7 +10,7 @@ new Crawler({
     "https://arrow-kt.io/docs/[0-9]**/**",
     "https://arrow-kt.io/docs/next**",
     "https://arrow-kt.io/docs/next**/**",
-    "**/**.*(?<!index.html)",
+    "!**/**.index.html",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://arrow-kt.io/**"],

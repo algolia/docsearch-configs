@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: true,
   sitemaps: ["https://docs.bythebook.com/sitemap.xml"],
-  exclusionPatterns: ["**/**.com/.*/"],
+  exclusionPatterns: ["**.com/"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.bythebook.com/**"],
   schedule: "at 10:30 on Friday",

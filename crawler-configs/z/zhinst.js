@@ -22,7 +22,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://docs.zhinst.com/sitemap.xml"],
-  exclusionPatterns: ["**/**.txt"],
+  exclusionPatterns: ["**.txt"],
   ignoreCanonicalTo: false,
   discoveryPatterns: [
     "https://docs.zhinst.com/**",

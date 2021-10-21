@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/**.*^(?!.*html)**", "**/**.*^(?!.*html)**/**"],
+  exclusionPatterns: ["!**/**.index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://stellar-framework.com/**"],
   schedule: "at 15:40 on Friday",

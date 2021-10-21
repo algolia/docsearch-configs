@@ -5,10 +5,7 @@ new Crawler({
   startUrls: ["https://docs.prefect.io/"],
   renderJavaScript: false,
   sitemaps: ["https://docs.prefect.io/sitemap.xml"],
-  exclusionPatterns: [
-    "**/api/([0-9]+\\.[0-9]+\\.[0-9]+)\\/.***",
-    "**/api/([0-9]+\\.[0-9]+\\.[0-9]+)\\/.***/**",
-  ],
+  exclusionPatterns: ["**/api/([0-9]+\\.[0-9]+\\.[0-9]+)\\/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.prefect.io/**"],
   schedule: "at 00:40 on Friday",
