@@ -1,0 +1,21 @@
+{
+  "index_name": "graphviz",
+  "start_urls": ["https://graphviz.org/"],
+  "sitemap_urls": ["https://graphviz.org/sitemap.xml"],
+  "stop_urls": [".tar."],
+  "selectors": {
+    "lvl0": {
+      "selector": "",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li"
+  },
+  "conversation_id": ["1657273157"],
+  "nb_hits": 9217
+}
