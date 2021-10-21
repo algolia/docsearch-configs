@@ -7,7 +7,7 @@
     "https://docs.celo.org/sitemap.xml"
   ],
   "stop_urls": [
-    "https://docs.celo.org/es/**"
+    "https://docs.celo.org/es/"
   ],
   "selectors": {
     "lvl0": {
