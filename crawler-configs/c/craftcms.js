@@ -11,10 +11,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [
-    "https://craftcms.com/docs/sitemap.xml**",
-    "https://craftcms.com/docs/sitemap.xml**/**",
-  ],
+  exclusionPatterns: ["https://craftcms.com/docs/sitemap.xml"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.craftcms.com/**"],
   schedule: "at 11:40 on Tuesday",

@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://asksinpp.de/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**.xml**", "**.xml**/**"],
+  exclusionPatterns: ["**.xml"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://asksinpp.de/**"],
   schedule: "at 01:40 on Tuesday",
