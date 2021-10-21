@@ -10,11 +10,13 @@
   ],
   "stop_urls": [
     "https://www.mdanalysis.org/.*?//.*?",
-    "https://www.mdanalysis.org/blog/page.*",
+    "https://www.mdanalysis.org/blog",
     "https://www.mdanalysis.org/mdanalysis",
     "https://www.mdanalysis.org/docs",
-    "https://docs.mdanalysis.org/.*index.html$",
-    "https://www.mdanalysis.org/.*index.html$",
+    "https://docs.mdanalysis.org/dev/.*",
+    "https://docs.mdanalysis.org/[0-9]\\.[0-9]\\.[0-9]/.*",
+    "https://userguide.mdanalysis.org/[0-9]\\.[0-9]\\.[0-9]/.*",
+    "https://userguide.mdanalysis.org/.*-dev.*/.*",
     "\\/_"
   ],
   "selectors": {
@@ -23,7 +25,7 @@
     "lvl2": "[itemprop='articleBody'] > .section h3, .page h3, .post h3, .body > .section h3",
     "lvl3": "[itemprop='articleBody'] > .section h4, .page h4, .post h4, .body > .section h4",
     "lvl4": "[itemprop='articleBody'] > .section h5, .page h5, .post h5, .body > .section h5",
-    "text": "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt, [itemprop='articleBody'] > .section pre, .page pre, .post pre, .body > .section pre"
+    "text": "[itemprop='articleBody'] > .section p, .page p, .post p, .body > .section p, [itemprop='articleBody'] > .section li, .page li, .post li, .body > .section li, [itemprop='articleBody'] > .section dt, .body > .section dt"
   },
   "conversation_id": [
     "569445928"
