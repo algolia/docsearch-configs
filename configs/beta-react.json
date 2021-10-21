@@ -1,0 +1,58 @@
+{
+  "index_name": "beta-react",
+  "start_urls": [
+    {
+      "url": "https://new-react-website-git-lebo-fbopensource.vercel.app/learn",
+      "selectors_key": "learn"
+    },
+    {
+      "url": "https://new-react-website-git-lebo-fbopensource.vercel.app/reference",
+      "selectors_key": "api"
+    },
+    "https://new-react-website-git-lebo-fbopensource.vercel.app/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "default": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Documentation"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
+    },
+    "lean": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "Learn"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
+    },
+    "api": {
+      "lvl0": {
+        "selector": "",
+        "global": true,
+        "default_value": "API"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5",
+      "text": "article p, article li"
+    }
+  },
+  "conversation_id": ["1670451032"],
+  "nb_hits": 3151
+}
