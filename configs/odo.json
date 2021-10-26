@@ -1,12 +1,10 @@
 {
-  "index_name": "dbt",
+  "index_name": "odo",
   "start_urls": [
-    "https://docs.getdbt.com/",
-    "https://docs.getdbt.com/docs/",
-    "https://docs.getdbt.com/reference/dbt_project.yml"
+    "https://odo.dev/"
   ],
   "sitemap_urls": [
-    "https://docs.getdbt.com/sitemap.xml"
+    "https://odo.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -22,7 +20,6 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
@@ -44,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1106517947"
+    "1664715260"
   ],
-  "nb_hits": 46250
+  "nb_hits": 615
 }

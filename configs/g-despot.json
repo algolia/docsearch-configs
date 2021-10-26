@@ -1,10 +1,10 @@
 {
   "index_name": "g-despot",
   "start_urls": [
-    "https://docs.memgraph.com"
+    "https://memgraph.com/docs"
   ],
   "sitemap_urls": [
-    "https://docs.memgraph.com/sitemap.xml"
+    "https://memgraph.com/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

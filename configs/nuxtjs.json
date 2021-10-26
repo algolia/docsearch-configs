@@ -3,24 +3,35 @@
   "start_urls": [
     {
       "url": "https://nuxtjs.org/fr/",
+      "tags": ["main"],
       "extra_attributes": {
         "language": ["fr-FR", "fr"]
       }
     },
     {
       "url": "https://nuxtjs.org/ja/",
+      "tags": ["main"],
       "extra_attributes": {
         "language": ["ja-JP", "ja"]
       }
     },
     {
       "url": "https://nuxtjs.org/en/",
+      "tags": ["main"],
       "extra_attributes": {
         "language": ["en-US", "en"]
       }
     },
     {
       "url": "https://nuxtjs.org/",
+      "tags": ["main"],
+      "extra_attributes": {
+        "language": ["en-US", "en"]
+      }
+    },
+    {
+      "url": "https://v3.nuxtjs.org/",
+      "tags": ["v3"],
       "extra_attributes": {
         "language": ["en-US", "en"]
       }
@@ -40,7 +51,7 @@
     "text": "article p, article li"
   },
   "custom_settings": {
-    "attributesForFaceting": ["language", "type"],
+    "attributesForFaceting": ["language", "type", "tags"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -52,5 +63,5 @@
   },
   "min_indexed_level": 1,
   "conversation_id": ["305423545"],
-  "nb_hits": 10637
+  "nb_hits": 11393
 }
