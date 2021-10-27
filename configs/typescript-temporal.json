@@ -1,11 +1,7 @@
 {
-  "index_name": "nodejs-temporal",
-  "start_urls": [
-    "https://nodejs.temporal.io/"
-  ],
-  "sitemap_urls": [
-    "https://nodejs.temporal.io/sitemap.xml"
-  ],
+  "index_name": "typescript-temporal",
+  "start_urls": ["https://typescript.temporal.io/"],
+  "sitemap_urls": ["https://typescript.temporal.io/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -25,12 +21,7 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type",
-      "docusaurus_tag"
-    ],
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -40,8 +31,7 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1619535200"
-  ],
+  "conversation_id": ["1619535200"],
   "nb_hits": 41959
 }
+
