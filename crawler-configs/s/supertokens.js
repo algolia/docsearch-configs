@@ -9,18 +9,6 @@ new Crawler({
     "https://supertokens.io/docs/thirdparty/",
     "https://supertokens.io/docs/thirdpartyemailpassword/",
     "https://supertokens.io/docs/session/",
-    "https://supertokens.io/docs/nodejs/",
-    "https://supertokens.io/docs/ios/",
-    "https://supertokens.io/docs/android/",
-    "https://supertokens.io/docs/website/",
-    "https://supertokens.io/docs/laravel/",
-    "https://supertokens.io/docs/react-native/",
-    "https://supertokens.io/docs/auth-react/",
-    "https://supertokens.io/docs/javalin/",
-    "https://supertokens.io/docs/flask/",
-    "https://supertokens.io/docs/go/",
-    "https://supertokens.io/docs/fastapi/",
-    "https://supertokens.io/docs/auth0/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://supertokens.io/sitemap.xml"],
@@ -78,7 +66,7 @@ new Crawler({
                 ".menu__link.menu__link--sublist.menu__link--active",
                 ".navbar__item.navbar__link--active",
               ],
-              defaultValue: "Documentation",
+              defaultValue: "EmailPassword",
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -110,7 +98,7 @@ new Crawler({
                 ".menu__link.menu__link--sublist.menu__link--active",
                 ".navbar__item.navbar__link--active",
               ],
-              defaultValue: "Documentation",
+              defaultValue: "ThirdParty",
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -142,7 +130,7 @@ new Crawler({
                 ".menu__link.menu__link--sublist.menu__link--active",
                 ".navbar__item.navbar__link--active",
               ],
-              defaultValue: "Documentation",
+              defaultValue: "ThirdPartyEmailPassword",
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -174,7 +162,7 @@ new Crawler({
                 ".menu__link.menu__link--sublist.menu__link--active",
                 ".navbar__item.navbar__link--active",
               ],
-              defaultValue: "Documentation",
+              defaultValue: "Session",
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -191,390 +179,6 @@ new Crawler({
     },
     {
       indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/nodejs/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["nodejs"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/ios/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["ios"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/android/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["android"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/website/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["website"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/laravel/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["laravel"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/react-native/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["react-native"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/auth-react/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["auth-react"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/javalin/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["javalin"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/flask/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["flask"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/go/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["go"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/fastapi/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["fastapi"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
-      pathsToMatch: ["https://supertokens.io/docs/auth0/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-            tags: {
-              defaultValue: ["auth0"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "supertokens",
       pathsToMatch: [
         "https://supertokens.io/**",
         "!https://supertokens.io/docs/community/**",
@@ -582,18 +186,6 @@ new Crawler({
         "!https://supertokens.io/docs/thirdparty/**",
         "!https://supertokens.io/docs/thirdpartyemailpassword/**",
         "!https://supertokens.io/docs/session/**",
-        "!https://supertokens.io/docs/nodejs/**",
-        "!https://supertokens.io/docs/ios/**",
-        "!https://supertokens.io/docs/android/**",
-        "!https://supertokens.io/docs/website/**",
-        "!https://supertokens.io/docs/laravel/**",
-        "!https://supertokens.io/docs/react-native/**",
-        "!https://supertokens.io/docs/auth-react/**",
-        "!https://supertokens.io/docs/javalin/**",
-        "!https://supertokens.io/docs/flask/**",
-        "!https://supertokens.io/docs/go/**",
-        "!https://supertokens.io/docs/fastapi/**",
-        "!https://supertokens.io/docs/auth0/**",
       ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl

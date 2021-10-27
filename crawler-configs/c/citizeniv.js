@@ -2,25 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://docs.getdbt.com/",
-    "https://docs.getdbt.com/docs/",
-    "https://docs.getdbt.com/reference/dbt_project.yml",
-  ],
+  startUrls: ["https://citizeniv.net/docs/", "https://citizeniv.net/"],
   renderJavaScript: false,
-  sitemaps: ["https://docs.getdbt.com/sitemap.xml"],
+  sitemaps: ["https://citizeniv.net/docs/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docs.getdbt.com/**"],
-  schedule: "at 15:00 on Tuesday",
+  discoveryPatterns: ["https://citizeniv.net/**"],
+  schedule: "at 11:10 on Tuesday",
   actions: [
     {
-      indexName: "dbt",
-      pathsToMatch: [
-        "https://docs.getdbt.com/**",
-        "https://docs.getdbt.com/docs/**",
-        "https://docs.getdbt.com/reference/dbt_project.yml**/**",
-      ],
+      indexName: "citizeniv",
+      pathsToMatch: ["https://citizeniv.net/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -37,7 +29,6 @@ new Crawler({
             lvl3: "article h3",
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -45,7 +36,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    dbt: {
+    citizeniv: {
       attributesForFaceting: [
         "type",
         "lang",

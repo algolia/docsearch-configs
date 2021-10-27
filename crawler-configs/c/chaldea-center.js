@@ -2,42 +2,34 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://docs.getdbt.com/",
-    "https://docs.getdbt.com/docs/",
-    "https://docs.getdbt.com/reference/dbt_project.yml",
-  ],
+  startUrls: ["https://chaldea-center.github.io/"],
   renderJavaScript: false,
-  sitemaps: ["https://docs.getdbt.com/sitemap.xml"],
+  sitemaps: ["https://chaldea-center.github.io/sitemap.xml"],
   exclusionPatterns: [],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docs.getdbt.com/**"],
-  schedule: "at 15:00 on Tuesday",
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://chaldea-center.github.io/**"],
+  schedule: "at 11:10 on Tuesday",
   actions: [
     {
-      indexName: "dbt",
-      pathsToMatch: [
-        "https://docs.getdbt.com/**",
-        "https://docs.getdbt.com/docs/**",
-        "https://docs.getdbt.com/reference/dbt_project.yml**/**",
-      ],
+      indexName: "chaldea-center",
+      pathsToMatch: ["https://chaldea-center.github.io**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
+            lvl1: ".theme-default-content h1",
+            content: ".theme-default-content p, .theme-default-content li",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
+              selectors: "p.sidebar-heading.open",
               defaultValue: "Documentation",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
+            lvl2: ".theme-default-content h2",
+            lvl3: ".theme-default-content h3",
+            lvl4: ".theme-default-content h4",
+            lvl5: ".theme-default-content h5",
           },
           indexHeadings: true,
         });
@@ -45,22 +37,9 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    dbt: {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-      ],
+    "chaldea-center": {
+      attributesForFaceting: ["type", "lang"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -121,7 +100,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

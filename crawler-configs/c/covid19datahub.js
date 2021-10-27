@@ -3,63 +3,108 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.getdbt.com/",
-    "https://docs.getdbt.com/docs/",
-    "https://docs.getdbt.com/reference/dbt_project.yml",
+    "https://covid19datahub.io/index.html",
+    "https://covid19datahub.io/",
+    "https://covid19datahub.io/reference",
+    "https://covid19datahub.io/articles",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://docs.getdbt.com/sitemap.xml"],
-  exclusionPatterns: [],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docs.getdbt.com/**"],
-  schedule: "at 15:00 on Tuesday",
+  sitemaps: ["https://covid19datahub.io/sitemap.xml"],
+  exclusionPatterns: [
+    "**/reference/",
+    "**/reference/index.html",
+    "**/articles/",
+    "**/articles/index.html",
+  ],
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://covid19datahub.io/**"],
+  schedule: "at 11:30 on Tuesday",
   actions: [
     {
-      indexName: "dbt",
-      pathsToMatch: [
-        "https://docs.getdbt.com/**",
-        "https://docs.getdbt.com/docs/**",
-        "https://docs.getdbt.com/reference/dbt_project.yml**/**",
-      ],
+      indexName: "covid19datahub",
+      pathsToMatch: ["https://covid19datahub.io/index.html**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
+            lvl1: ".contents h2",
+            content: ".contents p, .contents li, .contents .pre",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: ".contents h1",
+              defaultValue: "pkgdown Home page",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
+            lvl2: ".contents h3",
+            lvl3: ".ref-arguments td, .ref-description",
+            tags: {
+              defaultValue: ["homepage"],
+            },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+    {
+      indexName: "covid19datahub",
+      pathsToMatch: ["https://covid19datahub.io/reference**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
+            lvl0: {
+              selectors: ".contents h1",
+            },
+            lvl2: ".ref-arguments th",
+            lvl3: ".ref-arguments td, .ref-description",
+            tags: {
+              defaultValue: ["reference"],
+            },
+          },
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+    {
+      indexName: "covid19datahub",
+      pathsToMatch: ["https://covid19datahub.io/articles**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
+            lvl0: {
+              selectors: ".contents h1",
+            },
+            lvl2: ".contents h2, .contents h3",
+            tags: {
+              defaultValue: ["articles"],
+            },
+          },
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
   ],
   initialIndexSettings: {
-    dbt: {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
+    covid19datahub: {
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: [
         "hierarchy",
         "content",
         "anchor",
         "url",
         "url_without_anchor",
-        "type",
       ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

@@ -3,24 +3,19 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.getdbt.com/",
-    "https://docs.getdbt.com/docs/",
-    "https://docs.getdbt.com/reference/dbt_project.yml",
+    "https://jacylang.github.io/dev-book/",
+    "https://jacylang.github.io/",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://docs.getdbt.com/sitemap.xml"],
+  sitemaps: ["https://jacylang.github.io/dev-book/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docs.getdbt.com/**"],
-  schedule: "at 15:00 on Tuesday",
+  discoveryPatterns: ["https://jacylang.github.io/**"],
+  schedule: "at 20:00 on Wednesday",
   actions: [
     {
-      indexName: "dbt",
-      pathsToMatch: [
-        "https://docs.getdbt.com/**",
-        "https://docs.getdbt.com/docs/**",
-        "https://docs.getdbt.com/reference/dbt_project.yml**/**",
-      ],
+      indexName: "jacylang",
+      pathsToMatch: ["https://jacylang.github.io/dev-book/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -37,7 +32,6 @@ new Crawler({
             lvl3: "article h3",
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -45,7 +39,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    dbt: {
+    jacylang: {
       attributesForFaceting: [
         "type",
         "lang",

@@ -2,11 +2,7 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://www.jenkins.io/doc/",
-    "https://www.jenkins.io/",
-    "https://www.jenkins.io/zh/doc/",
-  ],
+  startUrls: ["https://www.jenkins.io/", "https://www.jenkins.io/zh/"],
   renderJavaScript: false,
   sitemaps: ["https://www.jenkins.io/sitemap.xml"],
   exclusionPatterns: ["**/**upgrade-guide**", "**/**upgrade-guide**/**"],
@@ -16,7 +12,7 @@ new Crawler({
   actions: [
     {
       indexName: "jenkins",
-      pathsToMatch: ["https://www.jenkins.io/doc/**"],
+      pathsToMatch: ["https://www.jenkins.io/**"],
       recordExtractor: ({ $, helpers }) => {
         // Stop if one of those text is found in the DOM.
         const body = $.text();
@@ -50,7 +46,7 @@ new Crawler({
     },
     {
       indexName: "jenkins",
-      pathsToMatch: ["https://www.jenkins.io/zh/doc/**"],
+      pathsToMatch: ["https://www.jenkins.io/zh/**"],
       recordExtractor: ({ $, helpers }) => {
         // Stop if one of those text is found in the DOM.
         const body = $.text();

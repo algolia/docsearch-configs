@@ -2,25 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://docs.getdbt.com/",
-    "https://docs.getdbt.com/docs/",
-    "https://docs.getdbt.com/reference/dbt_project.yml",
-  ],
+  startUrls: ["https://ohmyposh.dev/"],
   renderJavaScript: false,
-  sitemaps: ["https://docs.getdbt.com/sitemap.xml"],
+  sitemaps: ["https://ohmyposh.dev/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docs.getdbt.com/**"],
-  schedule: "at 15:00 on Tuesday",
+  discoveryPatterns: ["https://ohmyposh.dev/**"],
+  schedule: "at 20:10 on Thursday",
   actions: [
     {
-      indexName: "dbt",
-      pathsToMatch: [
-        "https://docs.getdbt.com/**",
-        "https://docs.getdbt.com/docs/**",
-        "https://docs.getdbt.com/reference/dbt_project.yml**/**",
-      ],
+      indexName: "ohmyposh",
+      pathsToMatch: ["https://ohmyposh.dev/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -37,7 +29,6 @@ new Crawler({
             lvl3: "article h3",
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -45,7 +36,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    dbt: {
+    ohmyposh: {
       attributesForFaceting: [
         "type",
         "lang",

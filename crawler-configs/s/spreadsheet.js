@@ -3,24 +3,19 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.getdbt.com/",
-    "https://docs.getdbt.com/docs/",
-    "https://docs.getdbt.com/reference/dbt_project.yml",
+    "https://docs.dhtmlx.com/spreadsheet/",
+    "https://docs.dhtmlx.com/",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://docs.getdbt.com/sitemap.xml"],
+  sitemaps: ["https://docs.dhtmlx.com/spreadsheet/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docs.getdbt.com/**"],
-  schedule: "at 15:00 on Tuesday",
+  discoveryPatterns: ["https://docs.dhtmlx.com/**"],
+  schedule: "at 15:30 on Friday",
   actions: [
     {
-      indexName: "dbt",
-      pathsToMatch: [
-        "https://docs.getdbt.com/**",
-        "https://docs.getdbt.com/docs/**",
-        "https://docs.getdbt.com/reference/dbt_project.yml**/**",
-      ],
+      indexName: "spreadsheet",
+      pathsToMatch: ["https://docs.dhtmlx.com/spreadsheet/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -37,7 +32,6 @@ new Crawler({
             lvl3: "article h3",
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -45,7 +39,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    dbt: {
+    spreadsheet: {
       attributesForFaceting: [
         "type",
         "lang",

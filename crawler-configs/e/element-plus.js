@@ -34,7 +34,7 @@ new Crawler({
   ],
   initialIndexSettings: {
     "element-plus": {
-      attributesForFaceting: ["type", "lang"],
+      attributesForFaceting: ["type", "lang", "language", "version"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

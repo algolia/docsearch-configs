@@ -3,41 +3,36 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.getdbt.com/",
-    "https://docs.getdbt.com/docs/",
-    "https://docs.getdbt.com/reference/dbt_project.yml",
+    "https://taoofcoding.tech/",
+    "https://taoofcoding.tech/blogs/2021-10-24/myddd_vertx_open_source",
+    "https://taoofcoding.tech/blogs/2021-10-11/will_asynchronous_is_future",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://docs.getdbt.com/sitemap.xml"],
+  sitemaps: [],
   exclusionPatterns: [],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docs.getdbt.com/**"],
-  schedule: "at 15:00 on Tuesday",
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://taoofcoding.tech/**"],
+  schedule: "at 19:00 on Friday",
   actions: [
     {
-      indexName: "dbt",
+      indexName: "taoofcoding",
       pathsToMatch: [
-        "https://docs.getdbt.com/**",
-        "https://docs.getdbt.com/docs/**",
-        "https://docs.getdbt.com/reference/dbt_project.yml**/**",
+        "https://taoofcoding.tech**/**",
+        "https://taoofcoding.tech/blogs/2021-10-24/myddd_vertx_open_source**/**",
+        "https://taoofcoding.tech/blogs/2021-10-11/will_asynchronous_is_future**/**",
       ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
+            lvl1: "[class^='PageContent'] h2",
+            content: "[class^='PageContent'] p, [class^='PageContent'] li",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "[class^='PageContent'] h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
+            lvl2: "[class^='PageContent'] h3",
+            lvl3: "[class^='PageContent'] h4",
+            lvl4: "[class^='PageContent'] h5",
+            lvl5: "[class^='PageContent'] h6",
           },
           indexHeadings: true,
         });
@@ -45,22 +40,9 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    dbt: {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-      ],
+    taoofcoding: {
+      attributesForFaceting: ["type", "lang"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -121,7 +103,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

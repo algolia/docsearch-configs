@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://hardhat.org/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/plugins/**", "**/**#**", "**/**#**/**"],
+  exclusionPatterns: ["**/**#**", "**/**#**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://hardhat.org/**"],
   schedule: "at 10:00 on Wednesday",

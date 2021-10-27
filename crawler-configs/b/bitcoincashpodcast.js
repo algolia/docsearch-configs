@@ -3,24 +3,19 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.getdbt.com/",
-    "https://docs.getdbt.com/docs/",
-    "https://docs.getdbt.com/reference/dbt_project.yml",
+    "https://bitcoincashpodcast.com/faqs/",
+    "https://bitcoincashpodcast.com/",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://docs.getdbt.com/sitemap.xml"],
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docs.getdbt.com/**"],
-  schedule: "at 15:00 on Tuesday",
+  discoveryPatterns: ["https://bitcoincashpodcast.com/**"],
+  schedule: "at 06:10 on Tuesday",
   actions: [
     {
-      indexName: "dbt",
-      pathsToMatch: [
-        "https://docs.getdbt.com/**",
-        "https://docs.getdbt.com/docs/**",
-        "https://docs.getdbt.com/reference/dbt_project.yml**/**",
-      ],
+      indexName: "bitcoincashpodcast",
+      pathsToMatch: ["https://bitcoincashpodcast.com/faqs/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -37,7 +32,6 @@ new Crawler({
             lvl3: "article h3",
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -45,7 +39,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    dbt: {
+    bitcoincashpodcast: {
       attributesForFaceting: [
         "type",
         "lang",
