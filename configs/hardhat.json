@@ -4,7 +4,6 @@
     "https://hardhat.org"
   ],
   "stop_urls": [
-    "/plugins/",
     "#"
   ],
   "selectors": {
