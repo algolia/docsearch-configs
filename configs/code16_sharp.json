@@ -1,7 +1,14 @@
 {
   "index_name": "code16_sharp",
   "start_urls": [
-    "https://sharp.code16.fr/docs/"
+    {
+      "url": "https://sharp7.code16.fr/docs/",
+      "tags": ["v7"]
+    },
+    {
+      "url": "https://sharp6.code16.fr/docs/",
+      "tags": ["v6"]
+    }
   ],
   "stop_urls": [],
   "selectors": {
