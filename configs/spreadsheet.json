@@ -1,10 +1,10 @@
 {
-  "index_name": "spreadsheetalt",
+  "index_name": "spreadsheet",
   "start_urls": [
-    "https://docs.dhtmlx.com/spreadsheetalt/"
+    "https://docs.dhtmlx.com/spreadsheet/"
   ],
   "sitemap_urls": [
-    "https://docs.dhtmlx.com/spreadsheetalt/sitemap.xml"
+    "https://docs.dhtmlx.com/spreadsheet/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
