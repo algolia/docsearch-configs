@@ -1,10 +1,7 @@
 {
-  "index_name": "nodejs-temporal",
+  "index_name": "bitcoincashpodcast",
   "start_urls": [
-    "https://nodejs.temporal.io/"
-  ],
-  "sitemap_urls": [
-    "https://nodejs.temporal.io/sitemap.xml"
+    "https://bitcoincashpodcast.com/faqs/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1619535200"
+    "1665206701"
   ],
-  "nb_hits": 41959
+  "nb_hits": 148
 }
