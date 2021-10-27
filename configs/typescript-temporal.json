@@ -1,13 +1,7 @@
 {
-  "index_name": "dbt",
-  "start_urls": [
-    "https://docs.getdbt.com/",
-    "https://docs.getdbt.com/docs/",
-    "https://docs.getdbt.com/reference/dbt_project.yml"
-  ],
-  "sitemap_urls": [
-    "https://docs.getdbt.com/sitemap.xml"
-  ],
+  "index_name": "typescript-temporal",
+  "start_urls": ["https://typescript.temporal.io/"],
+  "sitemap_urls": ["https://typescript.temporal.io/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -22,18 +16,12 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type",
-      "docusaurus_tag"
-    ],
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -43,8 +31,7 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1106517947"
-  ],
-  "nb_hits": 46250
+  "conversation_id": ["1619535200"],
+  "nb_hits": 41959
 }
+

@@ -1,0 +1,22 @@
+{
+  "index_name": "taoofcoding",
+  "start_urls": [
+    "https://taoofcoding.tech",
+    "https://taoofcoding.tech/blogs/2021-10-24/myddd_vertx_open_source",
+    "https://taoofcoding.tech/blogs/2021-10-11/will_asynchronous_is_future"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "[class^='PageContent'] h1",
+    "lvl1": "[class^='PageContent'] h2",
+    "lvl2": "[class^='PageContent'] h3",
+    "lvl3": "[class^='PageContent'] h4",
+    "lvl4": "[class^='PageContent'] h5",
+    "lvl5": "[class^='PageContent'] h6",
+    "text": "[class^='PageContent'] p, [class^='PageContent'] li"
+  },
+  "conversation_id": [
+    "1661194979"
+  ],
+  "nb_hits": 591
+}
