@@ -1,0 +1,24 @@
+{
+  "index_name": "forma-36",
+  "start_urls": [
+    "https://v4-forma-36.netlify.app/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "header h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h2",
+    "lvl2": "main h3",
+    "lvl3": "main h4",
+    "lvl4": "main h5",
+    "lvl5": "main h6",
+    "text": "main p, main li"
+  },
+  "conversation_id": [
+    "1668572255"
+  ],
+  "nb_hits": 549
+}
