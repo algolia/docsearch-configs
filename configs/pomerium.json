@@ -3,7 +3,8 @@
   "start_urls": [
     "https://www.pomerium.com/docs/",
     "https://www.pomerium.com/reference/",
-    "https://www.pomerium.com/guides/"
+    "https://www.pomerium.com/guides/",
+    "https://www.pomerium.com/enterprise/"
   ],
   "stop_urls": [],
   "sitemap_urls": [
