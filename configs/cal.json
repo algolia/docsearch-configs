@@ -1,10 +1,29 @@
 {
   "index_name": "cal",
   "start_urls": [
-    "https://developer.cal.com/"
+    {
+      "url": "https://developer.cal.com/",
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "url": "https://design.cal.com/",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "url": "https://docs.cal.com/",
+      "tags": [
+        "docs"
+      ]
+    }
   ],
   "sitemap_urls": [
-    "https://developer.cal.com/sitemap.xml"
+    "https://developer.cal.com/sitemap.xml",
+    "https://design.cal.com/sitemap.xml",
+    "https://docs.cal.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -29,7 +48,8 @@
       "language",
       "version",
       "type",
-      "docusaurus_tag"
+      "docusaurus_tag",
+      "tags"
     ],
     "attributesToRetrieve": [
       "hierarchy",
@@ -43,5 +63,5 @@
   "conversation_id": [
     "1657689789"
   ],
-  "nb_hits": 47
+  "nb_hits": 548
 }
