@@ -1,9 +1,19 @@
 {
   "index_name": "code16_sharp",
   "start_urls": [
-    "https://sharp.code16.fr/docs/"
+    {
+      "url": "https://sharp7.code16.fr/docs/guide/",
+      "tags": ["v7"]
+    },
+    {
+      "url": "https://sharp6.code16.fr/docs/guide/",
+      "tags": ["v6"]
+    }
   ],
-  "stop_urls": [],
+  "stop_urls": [
+    "/docs/$",
+    "/docs/index.html"
+  ],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -29,12 +39,12 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "tags"
     ]
   },
   "conversation_id": [
     "1025356958"
   ],
-  "scrape_start_urls": false,
   "nb_hits": 1225
 }
