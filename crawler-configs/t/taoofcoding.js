@@ -2,13 +2,9 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://taoofcoding.tech/",
-    "https://taoofcoding.tech/blogs/2021-10-24/myddd_vertx_open_source",
-    "https://taoofcoding.tech/blogs/2021-10-11/will_asynchronous_is_future",
-  ],
+  startUrls: ["https://taoofcoding.tech/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://taoofcoding.tech/sitemap/sitemap-0.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://taoofcoding.tech/**"],
@@ -16,23 +12,15 @@ new Crawler({
   actions: [
     {
       indexName: "taoofcoding",
-      pathsToMatch: [
-        "https://taoofcoding.tech**/**",
-        "https://taoofcoding.tech/blogs/2021-10-24/myddd_vertx_open_source**/**",
-        "https://taoofcoding.tech/blogs/2021-10-11/will_asynchronous_is_future**/**",
-      ],
+      pathsToMatch: ["https://taoofcoding.tech**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "[class^='PageContent'] h2",
-            content: "[class^='PageContent'] p, [class^='PageContent'] li",
+            lvl1: "article div[role='button'] span",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: "[class^='PageContent'] h1",
+              selectors: "article span[class^='lvl0']",
             },
-            lvl2: "[class^='PageContent'] h3",
-            lvl3: "[class^='PageContent'] h4",
-            lvl4: "[class^='PageContent'] h5",
-            lvl5: "[class^='PageContent'] h6",
           },
           indexHeadings: true,
         });

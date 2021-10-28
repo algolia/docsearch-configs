@@ -2,17 +2,25 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://sharp.code16.fr/docs/", "https://sharp.code16.fr/"],
+  startUrls: [
+    "https://sharp7.code16.fr/docs/guide/",
+    "https://sharp7.code16.fr/",
+    "https://sharp6.code16.fr/docs/guide/",
+    "https://sharp6.code16.fr/",
+  ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [],
+  exclusionPatterns: ["**/docs/", "**/docs/index.html"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://sharp.code16.fr/**"],
+  discoveryPatterns: [
+    "https://sharp7.code16.fr/**",
+    "https://sharp6.code16.fr/**",
+  ],
   schedule: "at 11:30 on Tuesday",
   actions: [
     {
       indexName: "code16_sharp",
-      pathsToMatch: ["https://sharp.code16.fr/docs/**"],
+      pathsToMatch: ["https://sharp7.code16.fr/docs/guide/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".table-of-contents";
@@ -30,6 +38,37 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
+            tags: {
+              defaultValue: ["v7"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "code16_sharp",
+      pathsToMatch: ["https://sharp6.code16.fr/docs/guide/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".theme-default-content h1",
+            content: ".theme-default-content p, .theme-default-content li",
+            lvl0: {
+              selectors: "p.sidebar-heading.open",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".theme-default-content h2",
+            lvl3: ".theme-default-content h3",
+            lvl4: ".theme-default-content h4",
+            lvl5: ".theme-default-content h5",
+            tags: {
+              defaultValue: ["v6"],
+            },
           },
           indexHeadings: true,
         });
@@ -38,7 +77,7 @@ new Crawler({
   ],
   initialIndexSettings: {
     code16_sharp: {
-      attributesForFaceting: ["type", "lang"],
+      attributesForFaceting: ["type", "lang", "tags"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

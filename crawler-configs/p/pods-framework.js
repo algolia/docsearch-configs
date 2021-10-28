@@ -21,16 +21,16 @@ new Crawler({
       pathsToMatch: ["https://docs.pods.io/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = "#toc_container";
+        const toRemove = "#toc_container, .widget";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
             lvl1: ".inside-page-header h1",
             content:
-              ".entry-content p, .entry-content li, .inside-page-header p",
+              ".entry-content p, .entry-content li, .inside-page-header p, .entry-content .enlighter",
             lvl0: {
-              selectors: "#breadcrumbs > span > span > span > a",
+              selectors: ".yoast-breadcrumbs > span > span > span > a",
               defaultValue: "Documentation",
             },
             lvl2: ".entry-content h2",

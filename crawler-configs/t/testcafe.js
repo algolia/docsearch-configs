@@ -2,7 +2,7 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://testcafe.io/documentation/", "https://testcafe.io/"],
+  startUrls: ["https://testcafe.io/"],
   renderJavaScript: false,
   sitemaps: ["https://testcafe.io/sitemap.xml"],
   exclusionPatterns: [],
@@ -12,7 +12,7 @@ new Crawler({
   actions: [
     {
       indexName: "testcafe",
-      pathsToMatch: ["https://testcafe.io/documentation/**"],
+      pathsToMatch: ["https://testcafe.io**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

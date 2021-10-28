@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.casualos.com/"],
   renderJavaScript: false,
   sitemaps: ["https://docs.casualos.com/sitemap.xml"],
-  exclusionPatterns: ["https://docs.casualos.com/docs/tags/**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: true,
   discoveryPatterns: ["https://docs.casualos.com/**"],
   schedule: "at 11:00 on Tuesday",

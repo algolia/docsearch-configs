@@ -7,6 +7,7 @@ new Crawler({
     "https://www.pomerium.com/",
     "https://www.pomerium.com/reference/",
     "https://www.pomerium.com/guides/",
+    "https://www.pomerium.com/enterprise/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://www.pomerium.com/docs/sitemap.xml"],
@@ -58,6 +59,26 @@ new Crawler({
     {
       indexName: "pomerium",
       pathsToMatch: ["https://www.pomerium.com/guides/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "[class*='content '] h2",
+            content: "[class*='content '] p, [class*='content '] li",
+            lvl0: {
+              selectors: "[class*='content '] h1",
+            },
+            lvl2: "[class*='content '] h3",
+            lvl3: "[class*='content '] h4",
+            lvl4: "[class*='content '] h5",
+            lvl5: "[class*='content '] h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "pomerium",
+      pathsToMatch: ["https://www.pomerium.com/enterprise/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

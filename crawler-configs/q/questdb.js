@@ -2,11 +2,7 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://questdb.io/docs/",
-    "https://questdb.io/",
-    "https://questdb.io/docs/introduction",
-  ],
+  startUrls: ["https://questdb.io/"],
   renderJavaScript: false,
   sitemaps: ["https://questdb.io/sitemap.xml"],
   exclusionPatterns: [],
@@ -16,10 +12,7 @@ new Crawler({
   actions: [
     {
       indexName: "questdb",
-      pathsToMatch: [
-        "https://questdb.io/docs/**",
-        "https://questdb.io/docs/introduction**/**",
-      ],
+      pathsToMatch: ["https://questdb.io/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".hash-link";

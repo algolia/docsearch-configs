@@ -7,6 +7,7 @@ new Crawler({
     "https://xsoar.pan.dev/",
     "https://prisma.pan.dev/",
     "https://strata.pan.dev/",
+    "https://gallery.pan.dev/",
   ],
   renderJavaScript: false,
   sitemaps: [
@@ -14,6 +15,7 @@ new Crawler({
     "https://xsoar.pan.dev/sitemap.xml",
     "https://prisma.pan.dev/sitemap.xml",
     "https://strata.pan.dev/sitemap.xml",
+    "https://gallery.pan.dev/sitemap.xml",
   ],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
@@ -22,6 +24,7 @@ new Crawler({
     "https://xsoar.pan.dev/**",
     "https://prisma.pan.dev/**",
     "https://strata.pan.dev/**",
+    "https://gallery.pan.dev/**",
   ],
   schedule: "at 00:00 on Friday",
   actions: [
@@ -127,6 +130,33 @@ new Crawler({
             lvl5: "article h5, article td:first-child",
             tags: {
               defaultValue: ["strata"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "pan",
+      pathsToMatch: ["https://gallery.pan.dev/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
+            lvl0: {
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            tags: {
+              defaultValue: ["gallery"],
             },
           },
           indexHeadings: true,

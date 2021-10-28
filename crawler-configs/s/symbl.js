@@ -3,7 +3,7 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: ["https://docs.symbl.ai/docs/", "https://docs.symbl.ai/"],
-  renderJavaScript: false,
+  renderJavaScript: true,
   sitemaps: ["https://docs.symbl.ai/docs/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,

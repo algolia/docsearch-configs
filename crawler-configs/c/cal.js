@@ -2,12 +2,24 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://developer.cal.com/"],
+  startUrls: [
+    "https://developer.cal.com/",
+    "https://design.cal.com/",
+    "https://docs.cal.com/",
+  ],
   renderJavaScript: false,
-  sitemaps: ["https://developer.cal.com/sitemap.xml"],
+  sitemaps: [
+    "https://developer.cal.com/sitemap.xml",
+    "https://design.cal.com/sitemap.xml",
+    "https://docs.cal.com/sitemap.xml",
+  ],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://developer.cal.com/**"],
+  discoveryPatterns: [
+    "https://developer.cal.com/**",
+    "https://design.cal.com/**",
+    "https://docs.cal.com/**",
+  ],
   schedule: "at 11:00 on Tuesday",
   actions: [
     {
@@ -29,6 +41,63 @@ new Crawler({
             lvl3: "article h3",
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
+            tags: {
+              defaultValue: ["developer"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "cal",
+      pathsToMatch: ["https://design.cal.com/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
+            lvl0: {
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            tags: {
+              defaultValue: ["design"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "cal",
+      pathsToMatch: ["https://docs.cal.com/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
+            lvl0: {
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            tags: {
+              defaultValue: ["docs"],
+            },
           },
           indexHeadings: true,
         });
@@ -43,6 +112,7 @@ new Crawler({
         "language",
         "version",
         "docusaurus_tag",
+        "tags",
       ],
       attributesToRetrieve: [
         "hierarchy",
