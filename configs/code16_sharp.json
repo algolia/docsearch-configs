@@ -39,7 +39,8 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang"
+      "lang",
+      "tags"
     ]
   },
   "conversation_id": [
