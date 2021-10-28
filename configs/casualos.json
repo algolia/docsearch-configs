@@ -7,9 +7,7 @@
     "https://docs.casualos.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [
-    "https://docs.casualos.com/docs/tags/"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
