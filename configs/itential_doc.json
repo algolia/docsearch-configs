@@ -2,34 +2,34 @@
   "index_name": "itential_doc",
   "start_urls": [
     {
-      "url": "https://docs.itential.io/[\\d\\.]*/admin/",
+      "url": "https://docs.itential.com/[\\d\\.]*/admin/",
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/[\\d\\.]*/api/",
+      "url": "https://docs.itential.com/[\\d\\.]*/api/",
       "selectors_key": "api",
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/[\\d\\.]*/developer/",
+      "url": "https://docs.itential.com/[\\d\\.]*/developer/",
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/faq/",
+      "url": "https://docs.itential.com/faq/",
       "selectors_key": "faqs",
       "page_rank": 4
     },
     {
-      "url": "https://docs.itential.io/[\\d\\.]*/product/",
+      "url": "https://docs.itential.com/[\\d\\.]*/product/",
       "selectors_key": "product",
       "page_rank": 3
     },
     {
-      "url": "https://docs.itential.io/[\\d\\.]*/user/",
+      "url": "https://docs.itential.com/[\\d\\.]*/user/",
       "page_rank": 3
     }
   ],
-  "sitemap_urls": ["https://docs.itential.io/sitemap.xml"],
+  "sitemap_urls": ["https://docs.itential.com/sitemap.xml"],
   "stop_urls": ["Open%20Source%20Notices", "/schema//", "/schema//"],
   "selectors": {
     "default": {
