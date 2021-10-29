@@ -1,7 +1,11 @@
 {
-  "index_name": "symbl",
-  "start_urls": ["https://docs.symbl.ai/docs/"],
-  "sitemap_urls": ["https://docs.symbl.ai/docs/sitemap.xml"],
+  "index_name": "jacylang",
+  "start_urls": [
+    "https://jacylang.github.io/dev-book/"
+  ],
+  "sitemap_urls": [
+    "https://jacylang.github.io/dev-book/sitemap.xml"
+  ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -21,7 +25,12 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -31,7 +40,8 @@
       "type"
     ]
   },
-  "js_render": true,
-  "conversation_id": ["1385499425"],
-  "nb_hits": 1975
+  "conversation_id": [
+    "1673129245"
+  ],
+  "nb_hits": 1349
 }

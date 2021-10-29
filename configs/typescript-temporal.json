@@ -1,7 +1,7 @@
 {
-  "index_name": "symbl",
-  "start_urls": ["https://docs.symbl.ai/docs/"],
-  "sitemap_urls": ["https://docs.symbl.ai/docs/sitemap.xml"],
+  "index_name": "typescript-temporal",
+  "start_urls": ["https://typescript.temporal.io/"],
+  "sitemap_urls": ["https://typescript.temporal.io/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -31,7 +31,7 @@
       "type"
     ]
   },
-  "js_render": true,
-  "conversation_id": ["1385499425"],
-  "nb_hits": 1975
+  "conversation_id": ["1619535200"],
+  "nb_hits": 41959
 }
+

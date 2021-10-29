@@ -1,19 +1,12 @@
 {
-  "index_name": "code16_sharp",
+  "index_name": "chaldea-center",
   "start_urls": [
-    {
-      "url": "https://sharp7.code16.fr/docs/guide/",
-      "tags": ["v7"]
-    },
-    {
-      "url": "https://sharp6.code16.fr/docs/guide/",
-      "tags": ["v6"]
-    }
+    "https://chaldea-center.github.io"
   ],
-  "stop_urls": [
-    "/docs/$",
-    "/docs/index.html"
+  "sitemap_urls": [
+    "https://chaldea-center.github.io/sitemap.xml"
   ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
       "selector": "p.sidebar-heading.open",
@@ -39,12 +32,12 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang",
-      "tags"
+      "lang"
     ]
   },
   "conversation_id": [
-    "1025356958"
+    "1663992541"
   ],
-  "nb_hits": 1225
+  "scrape_start_urls": false,
+  "nb_hits": 1995
 }
