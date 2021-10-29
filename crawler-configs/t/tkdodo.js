@@ -19,7 +19,7 @@ new Crawler({
             lvl1: "section h2",
             content: "section p, section li",
             lvl0: {
-              selectors: "#skip-nav h1",
+              selectors: "h1",
             },
             lvl2: "section h3",
             lvl3: "section h4",

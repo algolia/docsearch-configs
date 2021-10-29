@@ -10,6 +10,7 @@ new Crawler({
     "https://apim.docs.wso2.com/en/3.0.0/sitemap.xml",
     "https://apim.docs.wso2.com/en/3.1.0/sitemap.xml",
     "https://apim.docs.wso2.com/en/3.2.0/sitemap.xml",
+    "https://apim.docs.wso2.com/en/4.1.0/sitemap.xml",
   ],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,

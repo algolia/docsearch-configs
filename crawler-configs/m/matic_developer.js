@@ -2,20 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://docs.matic.network/docs/",
-    "https://docs.matic.network/",
-  ],
+  startUrls: ["https://docs.polygon.technology/"],
   renderJavaScript: false,
-  sitemaps: ["https://docs.matic.network/sitemap.xml"],
+  sitemaps: ["https://docs.polygon.technology/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.matic.network/**"],
+  discoveryPatterns: ["https://docs.polygon.technology/**"],
   schedule: "at 10:00 on Thursday",
   actions: [
     {
       indexName: "matic_developer",
-      pathsToMatch: ["https://docs.matic.network/docs/**"],
+      pathsToMatch: ["https://docs.polygon.technology/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".hash-link";
