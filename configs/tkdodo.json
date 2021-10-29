@@ -5,7 +5,7 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": "#skip-nav h1",
+    "lvl0": "h1",
     "lvl1": "section h2",
     "lvl2": "section h3",
     "lvl3": "section h4",
