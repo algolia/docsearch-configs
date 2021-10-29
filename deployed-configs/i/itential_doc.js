@@ -17,7 +17,6 @@ new Crawler({
     "**/**Open%20Source%20Notices**",
     "**/**Open%20Source%20Notices**/**",
     "**/schema/**",
-    "**/schema/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.itential.io/**"],
