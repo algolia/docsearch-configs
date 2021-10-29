@@ -5,6 +5,7 @@
       "url": "https://docs.collab.net/(?P<tags>.*?)/",
       "variables": {
         "tags": [
+          "teamforge212",
           "teamforge211",
           "teamforge210",
           "teamforge203",
