@@ -23,6 +23,7 @@
           "laravel-medialibrary",
           "laravel-blade-x",
           "laravel-tags",
+          "laravel-data",
           "laravel-activitylog",
           "laravel-html",
           "laravel-site-search",
