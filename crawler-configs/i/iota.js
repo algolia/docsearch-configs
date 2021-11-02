@@ -16,19 +16,15 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
+            lvl1: "",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: ".navbar__link--active .link__label",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
+            lvl2: "header h1",
+            lvl3: "article h2",
+            lvl4: "article h3",
+            lvl5: "article h4",
           },
           indexHeadings: true,
         });

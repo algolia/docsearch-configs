@@ -7,6 +7,9 @@ new Crawler({
     "https://docs.secureauth.com/",
     "https://docs.secureauth.com/2006test/",
     "https://docs.secureauth.com/1907test/",
+    "https://docs.secureauth.com/2104test/index.html?lang=en",
+    "https://docs.secureauth.com/2006test/index.html?lang=en",
+    "https://docs.secureauth.com/1907test/index.html?lang=en",
   ],
   renderJavaScript: false,
   sitemaps: [],
@@ -86,6 +89,72 @@ new Crawler({
             versions: {
               defaultValue: ["1907test"],
             },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "secureauth",
+      pathsToMatch: [
+        "https://docs.secureauth.com/2104test/index.html?lang=en**/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "section h2",
+            content: "section p, section li",
+            lvl0: {
+              selectors: "section h1",
+            },
+            lvl2: "section h3",
+            lvl3: "section h4",
+            lvl4: "section h5",
+            lvl5: "section h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "secureauth",
+      pathsToMatch: [
+        "https://docs.secureauth.com/2006test/index.html?lang=en**/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "section h2",
+            content: "section p, section li",
+            lvl0: {
+              selectors: "section h1",
+            },
+            lvl2: "section h3",
+            lvl3: "section h4",
+            lvl4: "section h5",
+            lvl5: "section h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "secureauth",
+      pathsToMatch: [
+        "https://docs.secureauth.com/1907test/index.html?lang=en**/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "section h2",
+            content: "section p, section li",
+            lvl0: {
+              selectors: "section h1",
+            },
+            lvl2: "section h3",
+            lvl3: "section h4",
+            lvl4: "section h5",
+            lvl5: "section h6",
           },
           indexHeadings: true,
         });

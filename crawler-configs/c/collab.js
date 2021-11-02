@@ -3,8 +3,9 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.collab.net/teamforge211/",
+    "https://docs.collab.net/teamforge212/",
     "https://docs.collab.net/",
+    "https://docs.collab.net/teamforge211/",
     "https://docs.collab.net/teamforge210/",
     "https://docs.collab.net/teamforge203/",
     "https://docs.collab.net/teamforge202/",
@@ -25,6 +26,34 @@ new Crawler({
   discoveryPatterns: ["https://docs.collab.net/**"],
   schedule: "at 11:30 on Tuesday",
   actions: [
+    {
+      indexName: "collab",
+      pathsToMatch: ["https://docs.collab.net/teamforge212/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "#toc";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post-header h1",
+            content: ".post-content p, .post-content li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post-content h2",
+            lvl3: ".post-content h3",
+            lvl4: ".post-content h4",
+            lvl5: ".post-content h5",
+            tags: {
+              defaultValue: ["teamforge212"],
+            },
+          },
+          indexHeadings: { from: 1, to: 6 },
+        });
+      },
+    },
     {
       indexName: "collab",
       pathsToMatch: ["https://docs.collab.net/teamforge211/**"],

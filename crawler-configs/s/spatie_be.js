@@ -59,6 +59,17 @@ new Crawler({
     "https://spatie.be/docs/laravel-tags/v9/",
     "https://spatie.be/docs/laravel-tags/v10/",
     "https://spatie.be/docs/laravel-tags/v11/",
+    "https://spatie.be/docs/laravel-data/v1/",
+    "https://spatie.be/docs/laravel-data/v2/",
+    "https://spatie.be/docs/laravel-data/v3/",
+    "https://spatie.be/docs/laravel-data/v4/",
+    "https://spatie.be/docs/laravel-data/v5/",
+    "https://spatie.be/docs/laravel-data/v6/",
+    "https://spatie.be/docs/laravel-data/v7/",
+    "https://spatie.be/docs/laravel-data/v8/",
+    "https://spatie.be/docs/laravel-data/v9/",
+    "https://spatie.be/docs/laravel-data/v10/",
+    "https://spatie.be/docs/laravel-data/v11/",
     "https://spatie.be/docs/laravel-activitylog/v1/",
     "https://spatie.be/docs/laravel-activitylog/v2/",
     "https://spatie.be/docs/laravel-activitylog/v3/",
@@ -1865,6 +1876,325 @@ new Crawler({
             },
             project: {
               defaultValue: ["laravel-tags"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v1/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v1"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v2/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v2"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v3/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v3"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v4/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v4"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v5/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v5"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v6/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v6"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v7/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v7"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v8/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v8"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v9/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v9"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v10/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v10"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "spatie_be",
+      pathsToMatch: ["https://spatie.be/docs/laravel-data/v11/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "footer, header";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".wrap h2",
+            content: ".wrap p",
+            lvl0: {
+              selectors: ".wrap h1",
+            },
+            lvl2: ".wrap h3",
+            lvl3: ".wrap h4",
+            lvl4: ".wrap h5",
+            version: {
+              defaultValue: ["v11"],
+            },
+            project: {
+              defaultValue: ["laravel-data"],
             },
           },
           indexHeadings: true,
