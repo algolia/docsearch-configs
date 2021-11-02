@@ -28,7 +28,6 @@
   "stop_urls": [],
   "selectors": {
     "default": {
-      "$comment": ".theme-default-content is for VuePress, .api-content is for API/ReDoc, .process is for the process docgen",
       "lvl0": {
         "selector": "p.sidebar-heading.open",
         "global": true,
