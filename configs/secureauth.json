@@ -6,7 +6,10 @@
       "variables": {
         "versions": ["2104test", "2006test", "1907test"]
       }
-    }
+    },
+    "https://docs.secureauth.com/2104test/index.html?lang=en",
+    "https://docs.secureauth.com/2006test/index.html?lang=en",
+    "https://docs.secureauth.com/1907test/index.html?lang=en"
   ],
   "stop_urls": ["/login", "/label/", "/download", "/pages/"],
   "selectors": {
@@ -34,7 +37,7 @@
       "cat4",
       "cat5"
     ]
-  },  
+  },
   "conversation_id": ["1071099184"],
   "nb_hits": 82113
 }
