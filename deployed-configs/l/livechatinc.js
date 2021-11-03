@@ -15,7 +15,6 @@ new Crawler({
     "**/**v2.**/**",
     "**/**v3.**",
     "**/**v3.**/**",
-    "**/",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://developers.livechat.com/**"],

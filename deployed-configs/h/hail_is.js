@@ -2,35 +2,41 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://spacy.io/"],
-  renderJavaScript: true,
-  sitemaps: ["https://spacy.io/sitemap.xml"],
-  exclusionPatterns: ["**/**?**", "**/**?**/**", "**/**index"],
+  startUrls: ["https://hail.is/docs/0.2/", "https://hail.is/"],
+  renderJavaScript: false,
+  sitemaps: [],
+  exclusionPatterns: [
+    "https://hail.is/docs/0.2/change_log.html",
+    "https://hail.is/docs/0.2/index.html",
+    "https://hail.is/docs/0.2/#contents**",
+    "https://hail.is/docs/0.2/#contents**/**",
+    "**/_**",
+    "**/_**/**",
+  ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://spacy.io/**"],
-  schedule: "at 15:30 on Friday",
+  discoveryPatterns: ["https://hail.is/**"],
+  schedule: "at 10:00 on Wednesday",
   actions: [
     {
-      indexName: "spacy",
-      pathsToMatch: ["https://spacy.io/**"],
+      indexName: "hail_is",
+      pathsToMatch: ["https://hail.is/docs/0.2/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove =
-          "[data-tooltip], .table-footer:nth-child(1), .table-footer:nth-child(2), #toc, .search-exclude";
+        const toRemove = ".viewcode-link, .headerlink, .admonition-title";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article header h1 .heading-text",
-            content: "article p, article li, article table td:last-child",
+            lvl1: ".section h2",
+            content: ".section p, .section li",
             lvl0: {
-              selectors: ".h0",
-              defaultValue: "Documentation",
+              selectors: ".section h1",
             },
-            lvl2: "article h2 .heading-text",
-            lvl3: "article h3 .heading-text",
-            lvl4: "article h4 .heading-text, article table td:first-child, article aside h4 .heading-text, article .accordion h4 .heading-text",
-            lvl5: "article h5",
+            lvl2: ".section h3",
+            lvl3: ".section h4",
+            lvl4: ".section h5",
+            lvl5: ".section dl dt",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -38,7 +44,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    spacy: {
+    hail_is: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
@@ -101,7 +107,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

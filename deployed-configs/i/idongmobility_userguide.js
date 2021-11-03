@@ -2,43 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://hail.is/docs/0.2/", "https://hail.is/"],
-  renderJavaScript: false,
+  startUrls: ["http://userguide.idongmobility.cn/"],
+  renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: [
-    "https://hail.is/docs/0.2/change_log.html",
-    "https://hail.is/docs/0.2/index.html",
-    "https://hail.is/docs/0.2/#contents**",
-    "https://hail.is/docs/0.2/#contents**/**",
-    "**/_**",
-    "**/_**/**",
-    "**/**?**",
-    "**/**?**/**",
-  ],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://hail.is/**"],
-  schedule: "at 10:00 on Wednesday",
+  discoveryPatterns: ["http://userguide.idongmobility.cn/**"],
+  schedule: "at 15:00 on Wednesday",
   actions: [
     {
-      indexName: "hail_is",
-      pathsToMatch: ["https://hail.is/docs/0.2/**"],
+      indexName: "idongmobility_userguide",
+      pathsToMatch: ["http://userguide.idongmobility.cn/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".viewcode-link, .headerlink, .admonition-title";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".section h2",
-            content: ".section p, .section li",
+            lvl1: "article h2",
+            content: "article p, article li",
             lvl0: {
-              selectors: ".section h1",
+              selectors: "article h1",
             },
-            lvl2: ".section h3",
-            lvl3: ".section h4",
-            lvl4: ".section h5",
-            lvl5: ".section dl dt",
-            pageRank: "1",
+            lvl2: "article h3",
+            lvl3: "article h4",
+            lvl4: "article h5",
+            lvl5: "article h6",
           },
           indexHeadings: true,
         });
@@ -46,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    hail_is: {
+    idongmobility_userguide: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
