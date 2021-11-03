@@ -17,17 +17,15 @@ new Crawler({
     "https://docs.pachyderm.com/latest/contributing/",
     "https://docs.pachyderm.com/latest/",
     "https://docs.pachyderm.com/1.12.x/",
-    "https://docs.pachyderm.com/1.11.x/",
-    "https://docs.pachyderm.com/2.0.x-beta/",
-    "https://docs.pachyderm.com/2.0.x-rc/",
+    "https://docs.pachyderm.com/1.13.x/",
+    "https://docs.pachyderm.com/2.0.x/",
   ],
   renderJavaScript: false,
   sitemaps: [
     "https://docs.pachyderm.com/latest/sitemap.xml",
     "https://docs.pachyderm.com/1.12.x/sitemap.xml",
-    "https://docs.pachyderm.com/1.11.x/sitemap.xml",
-    "https://docs.pachyderm.com/2.0.x-beta/sitemap.xml",
-    "https://docs.pachyderm.com/2.0.x-rc/sitemap.xml",
+    "https://docs.pachyderm.com/1.13.x/sitemap.xml",
+    "https://docs.pachyderm.com/2.0.x/sitemap.xml",
   ],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
@@ -337,7 +335,7 @@ new Crawler({
     },
     {
       indexName: "pachyderm",
-      pathsToMatch: ["https://docs.pachyderm.com/1.11.x/**"],
+      pathsToMatch: ["https://docs.pachyderm.com/1.13.x/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -350,7 +348,7 @@ new Crawler({
             },
             lvl2: "article h2",
             version: {
-              defaultValue: ["1.11.x"],
+              defaultValue: ["1.13.x"],
             },
             pageRank: "5",
           },
@@ -360,7 +358,7 @@ new Crawler({
     },
     {
       indexName: "pachyderm",
-      pathsToMatch: ["https://docs.pachyderm.com/2.0.x-beta/**"],
+      pathsToMatch: ["https://docs.pachyderm.com/2.0.x/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -373,30 +371,7 @@ new Crawler({
             },
             lvl2: "article h2",
             version: {
-              defaultValue: ["2.0.x-beta"],
-            },
-            pageRank: "5",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "pachyderm",
-      pathsToMatch: ["https://docs.pachyderm.com/2.0.x-rc/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "article h1",
-            content:
-              "article h3, article h4, article h5, article p, article li",
-            lvl0: {
-              selectors: ".md-tabs__link.md-tabs__link--active",
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            version: {
-              defaultValue: ["2.0.x-rc"],
+              defaultValue: ["2.0.x"],
             },
             pageRank: "5",
           },

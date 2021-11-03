@@ -3,58 +3,36 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://facebook.github.io/metro/docs/getting-started",
+    "https://facebook.github.io/metro/",
     "https://facebook.github.io/",
-    "http://facebook.github.io/metro/docs/",
-    "http://facebook.github.io/",
   ],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://facebook.github.io/metro/sitemap.xml"],
   exclusionPatterns: [],
-  ignoreCanonicalTo: false,
-  discoveryPatterns: [
-    "https://facebook.github.io/**",
-    "http://facebook.github.io/**",
-  ],
+  ignoreCanonicalTo: true,
+  discoveryPatterns: ["https://facebook.github.io/**"],
   schedule: "at 10:00 on Thursday",
   actions: [
     {
       indexName: "metro",
-      pathsToMatch: [
-        "https://facebook.github.io/metro/docs/getting-started**/**",
-      ],
+      pathsToMatch: ["https://facebook.github.io/metro/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h2",
-            content: "article p, article li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: "header h1",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
             },
-            lvl2: "article h3",
-            lvl3: "article h4",
-            lvl4: "article h5",
-            lvl5: "article h6",
-          },
-          indexHeadings: { from: 2, to: 6 },
-        });
-      },
-    },
-    {
-      indexName: "metro",
-      pathsToMatch: ["http://facebook.github.io/metro/docs/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "article h2",
-            content: "article p, article li",
-            lvl0: {
-              selectors: "header h1",
-            },
-            lvl2: "article h3",
-            lvl3: "article h4",
-            lvl4: "article h5",
-            lvl5: "article h6",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
+            lvl6: "article h6",
           },
           indexHeadings: { from: 2, to: 6 },
         });
@@ -63,8 +41,21 @@ new Crawler({
   ],
   initialIndexSettings: {
     metro: {
-      attributesForFaceting: ["type", "lang", "language", "version"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
