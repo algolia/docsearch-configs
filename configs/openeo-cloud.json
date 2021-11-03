@@ -147,6 +147,23 @@
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
+    ],
+    "separatorsToIndex": "_",
+    "synonyms": [
+      [
+        "cube",
+        "cubes",
+        "datacube",
+        "datacubes"
+      ],
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "gtiff",
+        "geotiff"
+      ]
     ]
   },
   "conversation_id": [
