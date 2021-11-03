@@ -31,7 +31,7 @@
       "lvl0": {
         "selector": "p.sidebar-heading.open",
         "global": true,
-        "default_value": "openEO Platform"
+        "default_value": "openEO"
       },
       "lvl1": ".theme-default-content h1, .process h2, .api-content h1",
       "lvl2": ".theme-default-content h2, .process h4, .api-content h2",
