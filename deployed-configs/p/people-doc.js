@@ -9,7 +9,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/_**", "**/_**/**", "**/"],
+  exclusionPatterns: ["**/_**", "**/_**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://doc.people-doc.com/**"],
   schedule: "at 00:00 on Friday",
