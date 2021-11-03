@@ -17,10 +17,6 @@
       "page_rank": 0
     },
     {
-      "url": "https://docs.openeo.cloud",
-      "page_rank": 1
-    },
-    {
       "url": "https://docs.openeo.cloud/file-formats/",
       "page_rank": 1,
       "selectors_key": "file-formats"
@@ -39,6 +35,10 @@
       "url": "https://docs.openeo.cloud/api/",
       "selectors_key": "api",
       "page_rank": -1
+    },
+    {
+      "url": "https://docs.openeo.cloud",
+      "page_rank": 1
     }
   ],
   "stop_urls": [],
