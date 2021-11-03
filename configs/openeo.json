@@ -1,30 +1,88 @@
 {
   "index_name": "openeo",
   "start_urls": [
-    "https://openeo.org"
+    {
+      "url": "https://open-eo.github.io/openeo-js-client/latest/",
+      "selectors_key": "js-client",
+      "page_rank": 0
+    },
+    {
+      "url": "https://open-eo.github.io/openeo-r-client/",
+      "selectors_key": "r-client",
+      "page_rank": 0
+    },
+    {
+      "url": "https://open-eo.github.io/openeo-python-client/",
+      "selectors_key": "python-client",
+      "page_rank": 0
+    },
+    {
+      "url": "https://openeo.org/documentation/0.4/",
+      "page_rank": -1
+    },
+    {
+      "url": "https://openeo.org",
+      "page_rank": 1
+    }
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "p.sidebar-heading.open",
-      "global": true,
-      "default_value": "Documentation"
+    "default": {
+      "lvl0": {
+        "selector": "p.sidebar-heading.open",
+        "global": true,
+        "default_value": "openEO Platform"
+      },
+      "lvl1": ".theme-default-content h1, .process h2, .api-content h1",
+      "lvl2": ".theme-default-content h2, .process h4, .api-content h2",
+      "lvl3": ".theme-default-content h3, .api-content h3",
+      "lvl4": ".theme-default-content h4, .api-content h4",
+      "lvl5": ".theme-default-content h5, .api-content h5",
+      "text": ".theme-default-content p, .theme-default-content li, .theme-default-content td, .process p, .process summary, .api-content p, .api-content li, .api-content td"
     },
-    "lvl1": ".theme-default-content h1",
-    "lvl2": ".theme-default-content h2",
-    "lvl3": ".theme-default-content h3",
-    "lvl4": ".theme-default-content h4",
-    "lvl5": ".theme-default-content h5",
-    "text": ".theme-default-content p, .theme-default-content li",
-    "lang": {
-      "selector": "/html/@lang",
-      "type": "xpath",
-      "global": true,
-      "default_value": "en-US"
+    "js-client": {
+      "lvl0": {
+        "selector": "#title",
+        "global": true,
+        "default_value": "JS Client"
+      },
+      "lvl1": "#main h1",
+      "lvl2": "#main h2",
+      "lvl3": "#main h3",
+      "lvl4": "#main h4",
+      "lvl5": "#main h5",
+      "text": "#main p, #main li, #main td"
+    },
+    "r-client": {
+      "lvl0": {
+        "selector": "#title",
+        "global": true,
+        "default_value": "R Client"
+      },
+      "lvl1": ".contents h1",
+      "lvl2": ".contents h2",
+      "lvl3": ".contents h3",
+      "lvl4": ".contents h4",
+      "lvl5": ".contents h5",
+      "text": ".contents p, .contents li"
+    },
+    "python-client": {
+      "lvl0": {
+        "selector": "#title",
+        "global": true,
+        "default_value": "Python Client"
+      },
+      "lvl1": ".body h1",
+      "lvl2": ".body h2",
+      "lvl3": ".body h3",
+      "lvl4": ".body h4",
+      "lvl5": ".body h5",
+      "text": ".body p, .body li"
     }
   },
   "selectors_exclude": [
-    ".table-of-contents"
+    ".table-of-contents",
+    ".toc"
   ],
   "strip_chars": " .,;:#",
   "custom_settings": {
@@ -36,5 +94,7 @@
     "1579012028"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 2253
+  "nb_hits": 2253,
+  "js_render": true,
+  "use_anchors": true
 }
