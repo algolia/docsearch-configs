@@ -45,20 +45,20 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "p.sidebar-heading.open",
+        "selector": ".theme-default-content h1",
         "global": true,
         "default_value": "openEO Platform"
       },
-      "lvl1": ".theme-default-content h1",
-      "lvl2": ".theme-default-content h2",
-      "lvl3": ".theme-default-content h3",
-      "lvl4": ".theme-default-content h4",
-      "lvl5": ".theme-default-content h5",
+      "lvl1": ".theme-default-content h2",
+      "lvl2": ".theme-default-content h3",
+      "lvl3": ".theme-default-content h4",
+      "lvl4": ".theme-default-content h5",
+      "lvl5": ".theme-default-content h6",
       "text": ".theme-default-content p, .theme-default-content li, .theme-default-content td"
     },
     "api": {
       "lvl0": {
-        "selector": "p.sidebar-heading.open",
+        "selector": "#title",
         "global": true,
         "default_value": "API"
       },
@@ -71,27 +71,25 @@
     },
     "collections": {
       "lvl0": {
-        "selector": "p.sidebar-heading.open",
+        "selector": ".collections h2",
         "global": true,
-        "default_value": "Data Collections"
+        "default_value": "Collections"
       },
-      "lvl1": ".collections h2",
-      "lvl2": ".collections .list li .summary strong",
+      "lvl1": ".collections .list li .summary strong",
       "text": ".collections .list li .summary small, .collections .list li .summary .badge"
     },
     "file-formats": {
       "lvl0": {
-        "selector": "p.sidebar-heading.open",
+        "selector": ".file-formats h2",
         "global": true,
         "default_value": "File Formats"
       },
-      "lvl1": ".file-formats h2",
-      "lvl2": ".file-formats .list li .summary strong",
+      "lvl1": ".file-formats .list li .summary strong",
       "text": ".file-formats .list li .summary small"
     },
     "processes": {
       "lvl0": {
-        "selector": "p.sidebar-heading.open",
+        "selector": ".process h1",
         "global": true,
         "default_value": "Processes"
       },
@@ -103,7 +101,7 @@
       "lvl0": {
         "selector": "#title",
         "global": true,
-        "default_value": "JS Client"
+        "default_value": "JavaScript Client"
       },
       "lvl1": "#main h1",
       "lvl2": "#main h2",
@@ -172,5 +170,6 @@
   "scrape_start_urls": false,
   "nb_hits": 297,
   "js_render": true,
+  "js_wait": 3,
   "use_anchors": true
 }
