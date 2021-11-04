@@ -164,12 +164,11 @@
       ]
     ]
   },
+  "scrape_start_urls": false,
+  "js_render": true,
+  "js_wait": 1,
   "conversation_id": [
     "1611749633"
   ],
-  "scrape_start_urls": false,
-  "nb_hits": 297,
-  "js_render": true,
-  "js_wait": 3,
-  "use_anchors": true
+  "nb_hits": 13676
 }
