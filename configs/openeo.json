@@ -29,22 +29,22 @@
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "p.sidebar-heading.open",
+        "selector": ".theme-default-content h1, .api-content h1",
         "global": true,
-        "default_value": "openEO Platform"
+        "default_value": "openEO"
       },
-      "lvl1": ".theme-default-content h1, .process h2, .api-content h1",
-      "lvl2": ".theme-default-content h2, .process h4, .api-content h2",
-      "lvl3": ".theme-default-content h3, .api-content h3",
-      "lvl4": ".theme-default-content h4, .api-content h4",
-      "lvl5": ".theme-default-content h5, .api-content h5",
+      "lvl1": ".theme-default-content h2, .process h2, .api-content h2",
+      "lvl2": ".theme-default-content h3, .process h4, .api-content h3",
+      "lvl3": ".theme-default-content h4, .api-content h4",
+      "lvl4": ".theme-default-content h5, .api-content h5",
+      "lvl5": ".theme-default-content h6, .api-content h6",
       "text": ".theme-default-content p, .theme-default-content li, .theme-default-content td, .process p, .process summary, .api-content p, .api-content li, .api-content td"
     },
     "js-client": {
       "lvl0": {
         "selector": "#title",
         "global": true,
-        "default_value": "JS Client"
+        "default_value": "JavaScript Client"
       },
       "lvl1": "#main h1",
       "lvl2": "#main h2",
@@ -84,17 +84,34 @@
     ".table-of-contents",
     ".toc"
   ],
-  "strip_chars": " .,;:#",
+  "strip_chars": " .,;:#*",
   "custom_settings": {
     "attributesForFaceting": [
       "lang"
+    ],
+    "separatorsToIndex": "_",
+    "synonyms": [
+      [
+        "cube",
+        "cubes",
+        "datacube",
+        "datacubes"
+      ],
+      [
+        "js",
+        "javascript"
+      ],
+      [
+        "gtiff",
+        "geotiff"
+      ]
     ]
   },
+  "js_render": true,
+  "js_wait": 1,
+  "scrape_start_urls": false,
   "conversation_id": [
     "1579012028"
   ],
-  "scrape_start_urls": false,
-  "nb_hits": 2253,
-  "js_render": true,
-  "use_anchors": true
+  "nb_hits": 25754
 }
