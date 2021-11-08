@@ -42,6 +42,7 @@
   ],
   "stop_urls": [
     "/examples/.+",
+    "getbootstrap.su/docs/3",
     "getbootstrap.su/docs/versions/"
   ],
   "selectors": {
