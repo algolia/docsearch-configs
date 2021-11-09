@@ -19,7 +19,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["https://parceljs.org/", "https://parceljs.org/blog/**"],
+  exclusionPatterns: ["https://parceljs.org/blog/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: [
     "https://parceljs.org/**",

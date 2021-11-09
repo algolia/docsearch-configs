@@ -10,7 +10,6 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: ["https://www.mdanalysis.org/sitemapindex.xml"],
   exclusionPatterns: [
-    "https://www.mdanalysis.org/**/**",
     "https://www.mdanalysis.org/blog**",
     "https://www.mdanalysis.org/blog**/**",
     "https://www.mdanalysis.org/mdanalysis**",
@@ -18,11 +17,6 @@ new Crawler({
     "https://www.mdanalysis.org/docs**",
     "https://www.mdanalysis.org/docs**/**",
     "https://docs.mdanalysis.org/dev/**",
-    "https://docs.mdanalysis.org/[0-9].[0-9]\\.[0-9]/**",
-    "https://userguide.mdanalysis.org/[0-9].[0-9]\\.[0-9]/**",
-    "https://userguide.mdanalysis.org/-dev/**",
-    "**/_**",
-    "**/_**/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: [
