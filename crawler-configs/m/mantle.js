@@ -23,7 +23,7 @@ new Crawler({
             lvl1: ".theme-default-content h1",
             content: ".theme-default-content p, .theme-default-content li",
             lvl0: {
-              selectors: "p.sidebar-heading.open",
+              selectors: "p.sidebar-heading",
               defaultValue: "Documentation",
             },
             lvl2: ".theme-default-content h2",

@@ -2,37 +2,33 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://mikro-orm.io/docs/", "https://mikro-orm.io/"],
+  startUrls: ["https://clashofclans.js.org/"],
   renderJavaScript: false,
-  sitemaps: ["https://mikro-orm.io/sitemap.xml"],
-  exclusionPatterns: [
-    "https://mikro-orm.io/docs/api**",
-    "https://mikro-orm.io/docs/api**/**",
-    "https://mikro-orm.io/docs/next/api**",
-    "https://mikro-orm.io/docs/next/api**/**",
-  ],
+  sitemaps: ["https://clashofclans.js.org/sitemap.xml"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://mikro-orm.io/**"],
-  schedule: "at 10:10 on Thursday",
+  discoveryPatterns: ["https://clashofclans.js.org/**"],
+  schedule: "at 11:20 on Tuesday",
   actions: [
     {
-      indexName: "mikro-orm",
-      pathsToMatch: ["https://mikro-orm.io/docs/**"],
+      indexName: "clashofclans-js",
+      pathsToMatch: ["https://clashofclans.js.org/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
-            content:
-              "article p, article li, article blockquote, article td:last-child, article code",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: ".menu__link--sublist.menu__link--active",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
               defaultValue: "Documentation",
             },
             lvl2: "article h2",
             lvl3: "article h3",
             lvl4: "article h4",
             lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
           },
           indexHeadings: true,
         });
@@ -40,7 +36,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "mikro-orm": {
+    "clashofclans-js": {
       attributesForFaceting: [
         "type",
         "lang",

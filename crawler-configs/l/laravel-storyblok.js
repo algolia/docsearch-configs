@@ -2,37 +2,36 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://mikro-orm.io/docs/", "https://mikro-orm.io/"],
-  renderJavaScript: false,
-  sitemaps: ["https://mikro-orm.io/sitemap.xml"],
-  exclusionPatterns: [
-    "https://mikro-orm.io/docs/api**",
-    "https://mikro-orm.io/docs/api**/**",
-    "https://mikro-orm.io/docs/next/api**",
-    "https://mikro-orm.io/docs/next/api**/**",
+  startUrls: [
+    "https://ls.sirric.co.uk/docs/2.7/overview",
+    "https://ls.sirric.co.uk/",
+    "https://ls.sirric.co.uk/docs/2.7/",
   ],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://mikro-orm.io/**"],
-  schedule: "at 10:10 on Thursday",
+  renderJavaScript: false,
+  sitemaps: [],
+  exclusionPatterns: [],
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://ls.sirric.co.uk/**"],
+  schedule: "at 05:00 on Thursday",
   actions: [
     {
-      indexName: "mikro-orm",
-      pathsToMatch: ["https://mikro-orm.io/docs/**"],
+      indexName: "laravel-storyblok",
+      pathsToMatch: [
+        "https://ls.sirric.co.uk/docs/2.7/**",
+        "https://ls.sirric.co.uk/docs/2.7/overview**/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
-            content:
-              "article p, article li, article blockquote, article td:last-child, article code",
+            lvl1: ".documentation h2",
+            content: ".documentation p, .documentation li",
             lvl0: {
-              selectors: ".menu__link--sublist.menu__link--active",
-              defaultValue: "Documentation",
+              selectors: ".documentation h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
+            lvl2: ".documentation h3",
+            lvl3: ".documentation h4",
+            lvl4: ".documentation h5",
+            lvl5: ".documentation h6",
           },
           indexHeadings: true,
         });
@@ -40,22 +39,9 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "mikro-orm": {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-      ],
+    "laravel-storyblok": {
+      attributesForFaceting: ["type", "lang"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -116,7 +102,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

@@ -3,10 +3,13 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
+    "https://getbootstrap.com/docs/3.4/",
+    "https://getbootstrap.com/",
     "https://getbootstrap.su/docs/4.5/",
     "https://getbootstrap.su/",
     "https://getbootstrap.su/docs/4.6/",
     "https://getbootstrap.su/docs/5.0/",
+    "https://getbootstrap.su/docs/5.1/",
     "https://getbootstrap.su/docs/",
   ],
   renderJavaScript: false,
@@ -16,9 +19,44 @@ new Crawler({
     "**/**getbootstrap.su/docs/versions/**",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://getbootstrap.su/**"],
+  discoveryPatterns: [
+    "https://getbootstrap.com/**",
+    "https://getbootstrap.su/**",
+  ],
   schedule: "at 06:30 on Tuesday",
   actions: [
+    {
+      indexName: "bootstrap-su",
+      pathsToMatch: ["https://getbootstrap.com/docs/3.4/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".bd-example";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".bs-docs-section h1",
+            content:
+              ".bs-docs-section p, .bs-docs-section li, .bs-docs-header p",
+            lvl0: {
+              selectors: ".bs-docs-header h1",
+              defaultValue: "Документация",
+            },
+            lvl2: ".bs-docs-section h2",
+            lvl3: ".bs-docs-section h3",
+            lvl4: ".bs-docs-section h4",
+            lvl5: ".bs-docs-section h5",
+            language: {
+              defaultValue: ["ru"],
+            },
+            version: {
+              defaultValue: ["3.4"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
     {
       indexName: "bootstrap-su",
       pathsToMatch: ["https://getbootstrap.su/docs/4.5/**"],
@@ -114,11 +152,43 @@ new Crawler({
     },
     {
       indexName: "bootstrap-su",
+      pathsToMatch: ["https://getbootstrap.su/docs/5.1/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".bd-example";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".bd-layout h1",
+            content: "main p, main li, main td:last-child",
+            lvl0: {
+              selectors: ".bd-sidebar .active.my-1 > a",
+              defaultValue: "Документация",
+            },
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4, main td:first-child",
+            lvl5: "main h5",
+            language: {
+              defaultValue: ["ru"],
+            },
+            version: {
+              defaultValue: ["5.1"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "bootstrap-su",
       pathsToMatch: [
         "https://getbootstrap.su/docs/**",
         "!https://getbootstrap.su/docs/4.5/**",
         "!https://getbootstrap.su/docs/4.6/**",
         "!https://getbootstrap.su/docs/5.0/**",
+        "!https://getbootstrap.su/docs/5.1/**",
       ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl

@@ -2,37 +2,30 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://mikro-orm.io/docs/", "https://mikro-orm.io/"],
+  startUrls: ["https://fela.js.org/"],
   renderJavaScript: false,
-  sitemaps: ["https://mikro-orm.io/sitemap.xml"],
-  exclusionPatterns: [
-    "https://mikro-orm.io/docs/api**",
-    "https://mikro-orm.io/docs/api**/**",
-    "https://mikro-orm.io/docs/next/api**",
-    "https://mikro-orm.io/docs/next/api**/**",
-  ],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://mikro-orm.io/**"],
-  schedule: "at 10:10 on Thursday",
+  sitemaps: [],
+  exclusionPatterns: [],
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://fela.js.org/**"],
+  schedule: "at 01:00 on Wednesday",
   actions: [
     {
-      indexName: "mikro-orm",
-      pathsToMatch: ["https://mikro-orm.io/docs/**"],
+      indexName: "fela-js",
+      pathsToMatch: ["https://fela.js.org**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
-            content:
-              "article p, article li, article blockquote, article td:last-child, article code",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
-              selectors: ".menu__link--sublist.menu__link--active",
+              selectors: "",
               defaultValue: "Documentation",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
           },
           indexHeadings: true,
         });
@@ -40,22 +33,9 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "mikro-orm": {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-      ],
+    "fela-js": {
+      attributesForFaceting: ["type", "lang"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -116,7 +96,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

@@ -2,59 +2,109 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://mikro-orm.io/docs/", "https://mikro-orm.io/"],
-  renderJavaScript: false,
-  sitemaps: ["https://mikro-orm.io/sitemap.xml"],
-  exclusionPatterns: [
-    "https://mikro-orm.io/docs/api**",
-    "https://mikro-orm.io/docs/api**/**",
-    "https://mikro-orm.io/docs/next/api**",
-    "https://mikro-orm.io/docs/next/api**/**",
+  startUrls: [
+    "https://epiforecasts.io/epinowcast/index.html",
+    "https://epiforecasts.io/",
+    "https://epiforecasts.io/epinowcast/reference",
+    "https://epiforecasts.io/epinowcast/articles",
   ],
-  ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://mikro-orm.io/**"],
-  schedule: "at 10:10 on Thursday",
+  renderJavaScript: false,
+  sitemaps: ["https://epiforecasts.io/epinowcast/sitemap.xml"],
+  exclusionPatterns: [
+    "**/reference/",
+    "**/reference/index.html",
+    "**/articles/",
+    "**/articles/index.html",
+  ],
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["https://epiforecasts.io/**"],
+  schedule: "at 20:30 on Tuesday",
   actions: [
     {
-      indexName: "mikro-orm",
-      pathsToMatch: ["https://mikro-orm.io/docs/**"],
+      indexName: "epinowcast",
+      pathsToMatch: ["https://epiforecasts.io/epinowcast/index.html**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "header h1",
-            content:
-              "article p, article li, article blockquote, article td:last-child, article code",
+            lvl1: ".contents h2",
+            content: ".contents p, .contents li, .contents .pre",
             lvl0: {
-              selectors: ".menu__link--sublist.menu__link--active",
-              defaultValue: "Documentation",
+              selectors: ".contents h1",
+              defaultValue: "pkgdown Home page",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
+            lvl2: ".contents h3",
+            lvl3: ".ref-arguments td, .ref-description",
+            tags: {
+              defaultValue: ["homepage"],
+            },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+    {
+      indexName: "epinowcast",
+      pathsToMatch: ["https://epiforecasts.io/epinowcast/reference**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
+            lvl0: {
+              selectors: ".contents h1",
+            },
+            lvl2: ".ref-arguments th",
+            lvl3: ".ref-arguments td, .ref-description",
+            tags: {
+              defaultValue: ["reference"],
+            },
+          },
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+    {
+      indexName: "epinowcast",
+      pathsToMatch: ["https://epiforecasts.io/epinowcast/articles**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
+            lvl0: {
+              selectors: ".contents h1",
+            },
+            lvl2: ".contents h2, .contents h3",
+            tags: {
+              defaultValue: ["articles"],
+            },
+          },
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
   ],
   initialIndexSettings: {
-    "mikro-orm": {
-      attributesForFaceting: [
-        "type",
-        "lang",
-        "language",
-        "version",
-        "docusaurus_tag",
-      ],
+    epinowcast: {
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: [
         "hierarchy",
         "content",
         "anchor",
         "url",
         "url_without_anchor",
-        "type",
       ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
