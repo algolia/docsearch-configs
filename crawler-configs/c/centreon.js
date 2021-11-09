@@ -3,21 +3,89 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.centreon.com/21.04/en/",
+    "https://docs.centreon.com/21.10/en/",
     "https://docs.centreon.com/",
+    "https://docs.centreon.com/21.10/fr/",
+    "https://docs.centreon.com/21.04/en/",
     "https://docs.centreon.com/21.04/fr/",
     "https://docs.centreon.com/20.10/en/",
     "https://docs.centreon.com/20.10/fr/",
     "https://docs.centreon.com/20.04/en/",
     "https://docs.centreon.com/20.04/fr/",
+    "https://docs-dev.centreon.com/",
   ],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.centreon.com/**"],
+  discoveryPatterns: [
+    "https://docs.centreon.com/**",
+    "https://docs-dev.centreon.com/**",
+  ],
   schedule: "at 11:00 on Tuesday",
   actions: [
+    {
+      indexName: "centreon",
+      pathsToMatch: ["https://docs.centreon.com/21.10/en/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
+            lvl0: {
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
+            lvl5: ".post h5",
+            language: {
+              defaultValue: ["en"],
+            },
+            version: {
+              defaultValue: ["21.10"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "centreon",
+      pathsToMatch: ["https://docs.centreon.com/21.10/fr/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
+            lvl0: {
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
+            lvl5: ".post h5",
+            language: {
+              defaultValue: ["fr"],
+            },
+            version: {
+              defaultValue: ["21.10"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
     {
       indexName: "centreon",
       pathsToMatch: ["https://docs.centreon.com/21.04/en/**"],
@@ -204,10 +272,38 @@ new Crawler({
         });
       },
     },
+    {
+      indexName: "centreon",
+      pathsToMatch: ["https://docs-dev.centreon.com/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
+            lvl0: {
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
+            lvl5: ".post h5",
+            tags: {
+              defaultValue: ["dev"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
   ],
   initialIndexSettings: {
     centreon: {
-      attributesForFaceting: ["type", "lang", "language", "version"],
+      attributesForFaceting: ["type", "lang", "language", "version", "tags"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

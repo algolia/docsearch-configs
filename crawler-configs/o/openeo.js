@@ -2,34 +2,144 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://openeo.org/"],
-  renderJavaScript: false,
+  startUrls: [
+    "https://open-eo.github.io/openeo-js-client/latest/",
+    "https://open-eo.github.io/",
+    "https://open-eo.github.io/openeo-r-client/",
+    "https://open-eo.github.io/openeo-python-client/",
+    "https://openeo.org/documentation/0.4/",
+    "https://openeo.org/",
+  ],
+  renderJavaScript: true,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://openeo.org/**"],
+  discoveryPatterns: ["https://open-eo.github.io/**", "https://openeo.org/**"],
   schedule: "at 20:30 on Thursday",
   actions: [
+    {
+      indexName: "openeo",
+      pathsToMatch: ["https://open-eo.github.io/openeo-js-client/latest/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents, .toc";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "#main h1",
+            content: "#main p, #main li, #main td",
+            lvl0: {
+              selectors: "#title",
+              defaultValue: "JavaScript Client",
+            },
+            lvl2: "#main h2",
+            lvl3: "#main h3",
+            lvl4: "#main h4",
+            lvl5: "#main h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "openeo",
+      pathsToMatch: ["https://open-eo.github.io/openeo-r-client/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents, .toc";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents h1",
+            content: ".contents p, .contents li",
+            lvl0: {
+              selectors: "#title",
+              defaultValue: "R Client",
+            },
+            lvl2: ".contents h2",
+            lvl3: ".contents h3",
+            lvl4: ".contents h4",
+            lvl5: ".contents h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "openeo",
+      pathsToMatch: ["https://open-eo.github.io/openeo-python-client/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents, .toc";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".body h1",
+            content: ".body p, .body li",
+            lvl0: {
+              selectors: "#title",
+              defaultValue: "Python Client",
+            },
+            lvl2: ".body h2",
+            lvl3: ".body h3",
+            lvl4: ".body h4",
+            lvl5: ".body h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "openeo",
+      pathsToMatch: ["https://openeo.org/documentation/0.4/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".table-of-contents, .toc";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".theme-default-content h2, .process h2, .api-content h2",
+            content:
+              ".theme-default-content p, .theme-default-content li, .theme-default-content td, .process p, .process summary, .api-content p, .api-content li, .api-content td",
+            lvl0: {
+              selectors: ".theme-default-content h1, .api-content h1",
+              defaultValue: "openEO",
+            },
+            lvl2: ".theme-default-content h3, .process h4, .api-content h3",
+            lvl3: ".theme-default-content h4, .api-content h4",
+            lvl4: ".theme-default-content h5, .api-content h5",
+            lvl5: ".theme-default-content h6, .api-content h6",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
     {
       indexName: "openeo",
       pathsToMatch: ["https://openeo.org**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
+        const toRemove = ".table-of-contents, .toc";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".theme-default-content h1",
-            content: ".theme-default-content p, .theme-default-content li",
+            lvl1: ".theme-default-content h2, .process h2, .api-content h2",
+            content:
+              ".theme-default-content p, .theme-default-content li, .theme-default-content td, .process p, .process summary, .api-content p, .api-content li, .api-content td",
             lvl0: {
-              selectors: "p.sidebar-heading.open",
-              defaultValue: "Documentation",
+              selectors: ".theme-default-content h1, .api-content h1",
+              defaultValue: "openEO",
             },
-            lvl2: ".theme-default-content h2",
-            lvl3: ".theme-default-content h3",
-            lvl4: ".theme-default-content h4",
-            lvl5: ".theme-default-content h5",
+            lvl2: ".theme-default-content h3, .process h4, .api-content h3",
+            lvl3: ".theme-default-content h4, .api-content h4",
+            lvl4: ".theme-default-content h5, .api-content h5",
+            lvl5: ".theme-default-content h6, .api-content h6",
+            pageRank: "1",
           },
           indexHeadings: true,
         });
@@ -100,6 +210,12 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
+      synonyms: [
+        ["cube", "cubes", "datacube", "datacubes"],
+        ["js", "javascript"],
+        ["gtiff", "geotiff"],
+      ],
     },
   },
 });
