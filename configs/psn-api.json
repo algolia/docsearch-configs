@@ -1,19 +1,17 @@
 {
-  "index_name": "mikro-orm",
+  "index_name": "psn-api",
   "start_urls": [
-    "https://mikro-orm.io/docs/"
+    "https://psn-api.achievements.app/"
   ],
   "sitemap_urls": [
-    "https://mikro-orm.io/sitemap.xml"
+    "https://psn-api.achievements.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "stop_urls": [
-    "https://mikro-orm.io/docs/api",
-    "https://mikro-orm.io/docs/next/api"
-  ],
+  "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": ".menu__link--sublist.menu__link--active",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
@@ -22,8 +20,7 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
-    "text": "article p, article li, article blockquote, article td:last-child, article code"
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
@@ -44,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1013781084"
+    "1681786609"
   ],
-  "nb_hits": 9163
+  "nb_hits": 525
 }

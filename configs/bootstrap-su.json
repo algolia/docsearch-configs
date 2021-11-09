@@ -2,6 +2,18 @@
   "index_name": "bootstrap-su",
   "start_urls": [
     {
+      "url": "https://getbootstrap.com/docs/3.4/",
+      "extra_attributes": {
+        "language": [
+          "ru"
+        ],
+        "version": [
+          "3.4"
+        ]
+      },
+      "selectors_key": "v3"
+    },
+    {
       "url": "https://getbootstrap.su/docs/4.5/",
       "extra_attributes": {
         "language": [
@@ -35,6 +47,18 @@
       },
       "selectors_key": "v5"
     },
+    {
+      "url": "https://getbootstrap.su/docs/5.1/",
+      "extra_attributes": {
+        "language": [
+          "ru"
+        ],
+        "version": [
+          "5.1"
+        ]
+      },
+      "selectors_key": "v5"
+    },
     "https://getbootstrap.su/docs/"
   ],
   "sitemap_urls": [
@@ -57,6 +81,19 @@
       "lvl4": "main h4, main td:first-child",
       "lvl5": "main h5",
       "text": "main p, main li, main td:last-child"
+    },
+    "v3": {
+      "lvl0": {
+        "selector": ".bs-docs-header h1",
+        "global": true,
+        "default_value": "Документация"
+      },
+      "lvl1": ".bs-docs-section h1",
+      "lvl2": ".bs-docs-section h2",
+      "lvl3": ".bs-docs-section h3",
+      "lvl4": ".bs-docs-section h4",
+      "lvl5": ".bs-docs-section h5",
+      "text": ".bs-docs-section p, .bs-docs-section li, .bs-docs-header p"
     },
     "v5": {
       "lvl0": {
