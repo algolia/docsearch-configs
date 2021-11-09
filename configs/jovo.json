@@ -4,37 +4,31 @@
     {
       "url": "https://www.jovo.tech/docs/reference/",
       "page_rank": -1,
-      "tags": [
-        "reference"
-      ],
+      "tags": ["reference"],
       "selectors_key": "reference"
     },
     {
       "url": "https://www.jovo.tech/tutorials/",
       "page_rank": 1,
-      "tags": [
-        "tutorials"
-      ],
+      "tags": ["tutorials"],
       "selectors_key": "tutorials"
     },
     {
       "url": "https://www.jovo.tech/docs/",
       "page_rank": 2,
-      "tags": [
-        "docs"
-      ]
+      "tags": ["docs"]
+    },
+    {
+      "url": "https://v4.jovo.tech/docs/",
+      "selectors_key": "next",
+      "tags": ["v4"]
     }
   ],
-  "stop_urls": [
-    "reference/lib",
-    "reference/examples"
-  ],
+  "stop_urls": ["reference/lib", "reference/examples"],
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "//ol[contains(@class, 'breadcrumb')]/li[2]/a | //ol[contains(@class, 'breadcrumb')]/li[2]/text()",
-        "type": "xpath",
-        "global": true,
+        "selector": ".breadcrumb li:last-child a",
         "default_value": "Documentation"
       },
       "lvl1": ".content h1",
@@ -46,7 +40,6 @@
     "tutorials": {
       "lvl0": {
         "selector": "",
-        "global": true,
         "default_value": "Tutorials"
       },
       "lvl1": ".content h1",
@@ -58,7 +51,6 @@
     "reference": {
       "lvl0": {
         "selector": "",
-        "global": true,
         "default_value": "Reference"
       },
       "lvl1": "#main h1",
@@ -67,6 +59,18 @@
       "lvl4": "section h4",
       "lvl5": "section h5",
       "text": "section p, section li:not([class*=breadcrumb])"
+    },
+    "next": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Documentation"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "text": "main p, main li"
     }
   },
   "selectors_exclude": [
@@ -75,8 +79,6 @@
     "#disqus_thread"
   ],
   "strip_chars": " .,;:#\ud83c\udf89 ",
-  "conversation_id": [
-    "536850996"
-  ],
-  "nb_hits": 7145
+  "conversation_id": ["536850996"],
+  "nb_hits": 8854
 }
