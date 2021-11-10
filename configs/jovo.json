@@ -2,29 +2,52 @@
   "index_name": "jovo",
   "start_urls": [
     {
-      "url": "https://www.jovo.tech/docs/reference/",
+      "url": "https://v4.jovo.tech/docs/reference/",
       "page_rank": -1,
-      "tags": ["reference"],
+      "tags": [
+        "v3",
+        "reference"
+      ],
       "selectors_key": "reference"
     },
     {
       "url": "https://www.jovo.tech/tutorials/",
       "page_rank": 1,
-      "tags": ["tutorials"],
+      "tags": [
+        "v3",
+        "tutorials"
+      ],
       "selectors_key": "tutorials"
     },
     {
       "url": "https://www.jovo.tech/docs/",
       "page_rank": 2,
-      "tags": ["docs"]
+      "tags": [
+        "v3",
+        "docs"
+      ]
     },
     {
       "url": "https://v4.jovo.tech/docs/",
       "selectors_key": "next",
-      "tags": ["v4"]
+      "tags": [
+        "v4",
+        "docs"
+      ]
+    },
+    {
+      "url": "https://v4.jovo.tech/marketplace",
+      "selectors_key": "next",
+      "tags": [
+        "v4",
+        "marketplace"
+      ]
     }
   ],
-  "stop_urls": ["reference/lib", "reference/examples"],
+  "stop_urls": [
+    "reference/lib",
+    "reference/examples"
+  ],
   "selectors": {
     "default": {
       "lvl0": {
@@ -79,6 +102,8 @@
     "#disqus_thread"
   ],
   "strip_chars": " .,;:#\ud83c\udf89 ",
-  "conversation_id": ["536850996"],
-  "nb_hits": 8854
+  "conversation_id": [
+    "536850996"
+  ],
+  "nb_hits": 5560
 }
