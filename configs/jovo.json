@@ -2,15 +2,6 @@
   "index_name": "jovo",
   "start_urls": [
     {
-      "url": "https://v4.jovo.tech/docs/reference/",
-      "page_rank": -1,
-      "tags": [
-        "v3",
-        "reference"
-      ],
-      "selectors_key": "reference"
-    },
-    {
       "url": "https://www.jovo.tech/tutorials/",
       "page_rank": 1,
       "tags": [
@@ -45,8 +36,6 @@
     }
   ],
   "stop_urls": [
-    "reference/lib",
-    "reference/examples"
   ],
   "selectors": {
     "default": {
@@ -70,18 +59,6 @@
       "lvl3": ".content h3",
       "lvl4": ".content h4",
       "text": ".content p, .content li"
-    },
-    "reference": {
-      "lvl0": {
-        "selector": "",
-        "default_value": "Reference"
-      },
-      "lvl1": "#main h1",
-      "lvl2": "section h2",
-      "lvl3": "section h3",
-      "lvl4": "section h4",
-      "lvl5": "section h5",
-      "text": "section p, section li:not([class*=breadcrumb])"
     },
     "next": {
       "lvl0": {
