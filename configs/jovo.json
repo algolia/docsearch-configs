@@ -2,17 +2,10 @@
   "index_name": "jovo",
   "start_urls": [
     {
-      "url": "https://www.jovo.tech/docs/reference/",
-      "page_rank": -1,
-      "tags": [
-        "reference"
-      ],
-      "selectors_key": "reference"
-    },
-    {
       "url": "https://www.jovo.tech/tutorials/",
       "page_rank": 1,
       "tags": [
+        "v3",
         "tutorials"
       ],
       "selectors_key": "tutorials"
@@ -21,20 +14,33 @@
       "url": "https://www.jovo.tech/docs/",
       "page_rank": 2,
       "tags": [
+        "v3",
         "docs"
+      ]
+    },
+    {
+      "url": "https://v4.jovo.tech/docs/",
+      "selectors_key": "next",
+      "tags": [
+        "v4",
+        "docs"
+      ]
+    },
+    {
+      "url": "https://v4.jovo.tech/marketplace",
+      "selectors_key": "next",
+      "tags": [
+        "v4",
+        "marketplace"
       ]
     }
   ],
   "stop_urls": [
-    "reference/lib",
-    "reference/examples"
   ],
   "selectors": {
     "default": {
       "lvl0": {
-        "selector": "//ol[contains(@class, 'breadcrumb')]/li[2]/a | //ol[contains(@class, 'breadcrumb')]/li[2]/text()",
-        "type": "xpath",
-        "global": true,
+        "selector": ".breadcrumb li:last-child a",
         "default_value": "Documentation"
       },
       "lvl1": ".content h1",
@@ -46,7 +52,6 @@
     "tutorials": {
       "lvl0": {
         "selector": "",
-        "global": true,
         "default_value": "Tutorials"
       },
       "lvl1": ".content h1",
@@ -55,18 +60,17 @@
       "lvl4": ".content h4",
       "text": ".content p, .content li"
     },
-    "reference": {
+    "next": {
       "lvl0": {
         "selector": "",
-        "global": true,
-        "default_value": "Reference"
+        "default_value": "Documentation"
       },
-      "lvl1": "#main h1",
-      "lvl2": "section h2",
-      "lvl3": "section h3",
-      "lvl4": "section h4",
-      "lvl5": "section h5",
-      "text": "section p, section li:not([class*=breadcrumb])"
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "text": "main p, main li"
     }
   },
   "selectors_exclude": [
@@ -78,5 +82,5 @@
   "conversation_id": [
     "536850996"
   ],
-  "nb_hits": 7145
+  "nb_hits": 5560
 }
