@@ -1,10 +1,10 @@
 {
-  "index_name": "dynamaker",
+  "index_name": "authp",
   "start_urls": [
-    "https://docs.dynamaker.com/"
+    "https://authp.github.io/"
   ],
   "sitemap_urls": [
-    "https://docs.dynamaker.com/sitemap.xml"
+    "https://authp.github.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -20,8 +20,7 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "lvl6": "article h6",
-    "text": "article p, article li, article td:last-child, article [class^='codeBlockContent_']"
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
@@ -42,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1138390999"
+    "1682829704"
   ],
-  "nb_hits": 1449
+  "nb_hits": 710
 }
