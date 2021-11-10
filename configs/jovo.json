@@ -20,7 +20,8 @@
     },
     {
       "url": "https://v4.jovo.tech/docs/",
-      "selectors_key": "next",
+      "page_rank": 2,
+      "selectors_key": "docs",
       "tags": [
         "v4",
         "docs"
@@ -28,7 +29,8 @@
     },
     {
       "url": "https://v4.jovo.tech/marketplace",
-      "selectors_key": "next",
+      "page_rank": 1,
+      "selectors_key": "marketplace",
       "tags": [
         "v4",
         "marketplace"
@@ -60,10 +62,22 @@
       "lvl4": ".content h4",
       "text": ".content p, .content li"
     },
-    "next": {
+    "docs": {
       "lvl0": {
         "selector": "",
         "default_value": "Documentation"
+      },
+      "lvl1": "main h1",
+      "lvl2": "main h2",
+      "lvl3": "main h3",
+      "lvl4": "main h4",
+      "lvl5": "main h5",
+      "text": "main p, main li"
+    },
+    "marketplace": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Marketplace"
       },
       "lvl1": "main h1",
       "lvl2": "main h2",
