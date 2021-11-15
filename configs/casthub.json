@@ -1,26 +1,27 @@
 {
   "index_name": "casthub",
-  "start_urls": ["https://casthub.app/docs/"],
+  "start_urls": ["https://docs.casthub.app/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "aside > ul > li.docs-sidebar-category--active > p",
+      "selector": ".sidebar-heading.active",
+      "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": "article.docs-page h1",
-    "lvl2": "article.docs-page h2",
-    "lvl3": "article.docs-page h3",
-    "lvl4": "article.docs-page h4",
-    "text": "article.docs-page p, article.docs-page li",
-    "language": {
+    "lvl1": ".theme-default-content h1",
+    "lvl2": ".theme-default-content h2",
+    "lvl3": ".theme-default-content h3",
+    "lvl4": ".theme-default-content h4",
+    "lvl5": ".theme-default-content h5",
+    "text": ".theme-default-content p, .theme-default-content li",
+    "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
-      "global": true,
-      "default_value": "en-US"
+      "global": true
     }
   },
   "custom_settings": {
-    "attributesForFaceting": ["language"]
+    "attributesForFaceting": ["lang"]
   },
   "conversation_id": ["1382995547"],
   "nb_hits": 892
