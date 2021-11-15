@@ -17,6 +17,7 @@
     "text": "main p, main li"
   },
   "js_render": true,
+  "js_wait": 2,
   "conversation_id": [
     "1449037867"
   ],
