@@ -8,8 +8,6 @@ new Crawler({
   exclusionPatterns: [
     "https://rnfirebase.io/about**",
     "https://rnfirebase.io/about**/**",
-    "**/**?**",
-    "**/**?**/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://rnfirebase.io/**"],

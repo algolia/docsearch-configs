@@ -17,9 +17,7 @@ new Crawler({
     "**/julia/docs/api/**",
     "**/_**",
     "**/_**/**",
-    "**/doxygen/**",
-    "**/**?**",
-    "**/**?**/**",
+    "**/doxygen/**"
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://mxnet.apache.org/**"],
