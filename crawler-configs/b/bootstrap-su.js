@@ -3,10 +3,9 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://getbootstrap.com/docs/3.4/",
-    "https://getbootstrap.com/",
-    "https://getbootstrap.su/docs/4.5/",
+    "https://getbootstrap.su/docs/3.4/",
     "https://getbootstrap.su/",
+    "https://getbootstrap.su/docs/4.5/",
     "https://getbootstrap.su/docs/4.6/",
     "https://getbootstrap.su/docs/5.0/",
     "https://getbootstrap.su/docs/5.1/",
@@ -19,15 +18,12 @@ new Crawler({
     "**/**getbootstrap.su/docs/versions/**",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: [
-    "https://getbootstrap.com/**",
-    "https://getbootstrap.su/**",
-  ],
+  discoveryPatterns: ["https://getbootstrap.su/**"],
   schedule: "at 06:30 on Tuesday",
   actions: [
     {
       indexName: "bootstrap-su",
-      pathsToMatch: ["https://getbootstrap.com/docs/3.4/**"],
+      pathsToMatch: ["https://getbootstrap.su/docs/3.4/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".bd-example";
@@ -185,6 +181,7 @@ new Crawler({
       indexName: "bootstrap-su",
       pathsToMatch: [
         "https://getbootstrap.su/docs/**",
+        "!https://getbootstrap.su/docs/3.4/**",
         "!https://getbootstrap.su/docs/4.5/**",
         "!https://getbootstrap.su/docs/4.6/**",
         "!https://getbootstrap.su/docs/5.0/**",

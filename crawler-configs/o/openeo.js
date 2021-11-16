@@ -22,7 +22,8 @@ new Crawler({
       pathsToMatch: ["https://open-eo.github.io/openeo-js-client/latest/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents, .toc";
+        const toRemove =
+          ".table-of-contents, .toc, .indextable, .prettyprint, .ref-index, .dont-index";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -47,13 +48,14 @@ new Crawler({
       pathsToMatch: ["https://open-eo.github.io/openeo-r-client/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents, .toc";
+        const toRemove =
+          ".table-of-contents, .toc, .indextable, .prettyprint, .ref-index, .dont-index";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
             lvl1: ".contents h1",
-            content: ".contents p, .contents li",
+            content: ".contents p, .contents li, .contents pre.usage",
             lvl0: {
               selectors: "#title",
               defaultValue: "R Client",
@@ -72,20 +74,21 @@ new Crawler({
       pathsToMatch: ["https://open-eo.github.io/openeo-python-client/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents, .toc";
+        const toRemove =
+          ".table-of-contents, .toc, .indextable, .prettyprint, .ref-index, .dont-index";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
             lvl1: ".body h1",
-            content: ".body p, .body li",
+            content: ".body p, .body li, .body dt.sig, .body dd span",
             lvl0: {
               selectors: "#title",
               defaultValue: "Python Client",
             },
             lvl2: ".body h2",
             lvl3: ".body h3",
-            lvl4: ".body h4",
+            lvl4: ".body h4, .body dt span.sig-name",
             lvl5: ".body h5",
           },
           indexHeadings: true,
@@ -97,7 +100,8 @@ new Crawler({
       pathsToMatch: ["https://openeo.org/documentation/0.4/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents, .toc";
+        const toRemove =
+          ".table-of-contents, .toc, .indextable, .prettyprint, .ref-index, .dont-index";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -123,7 +127,8 @@ new Crawler({
       pathsToMatch: ["https://openeo.org**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents, .toc";
+        const toRemove =
+          ".table-of-contents, .toc, .indextable, .prettyprint, .ref-index, .dont-index";
         $(toRemove).remove();
 
         return helpers.docsearch({

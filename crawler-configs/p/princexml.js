@@ -16,6 +16,8 @@ new Crawler({
     "**/doc/10/**",
     "**/doc/11/**",
     "**/doc/12/**",
+    "**/doc/13/**",
+    "**/doc/14/**",
     "**/assets/**",
   ],
   ignoreCanonicalTo: false,

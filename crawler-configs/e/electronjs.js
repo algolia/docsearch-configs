@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://www.electronjs.org/"],
   renderJavaScript: false,
   sitemaps: ["https://www.electronjs.org/sitemap.xml"],
-  exclusionPatterns: [],
+  exclusionPatterns: ["**/**apps?q\\=**", "**/**apps?q\\=**/**"],
   ignoreCanonicalTo: true,
   discoveryPatterns: ["https://www.electronjs.org/**"],
   schedule: "at 20:20 on Tuesday",

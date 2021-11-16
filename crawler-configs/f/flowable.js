@@ -5,49 +5,17 @@ new Crawler({
   startUrls: [
     "https://documentation.flowable.com/latest/",
     "https://documentation.flowable.com/",
-    "https://forms.flowable.com/",
   ],
   renderJavaScript: true,
-  sitemaps: [
-    "https://documentation.flowable.com/latest/sitemap.xml",
-    "https://forms.flowable.com/sitemap.xml",
-  ],
+  sitemaps: ["https://documentation.flowable.com/latest/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: [
-    "https://documentation.flowable.com/**",
-    "https://forms.flowable.com/**",
-  ],
+  discoveryPatterns: ["https://documentation.flowable.com/**"],
   schedule: "at 01:20 on Wednesday",
   actions: [
     {
       indexName: "flowable",
       pathsToMatch: ["https://documentation.flowable.com/latest/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
-            lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
-            },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
-            lvl6: "article h6",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "flowable",
-      pathsToMatch: ["https://forms.flowable.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

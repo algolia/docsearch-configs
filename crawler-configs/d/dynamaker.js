@@ -2,20 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://skymakerstudio.github.io/dynamaker-docs/docs/",
-    "https://skymakerstudio.github.io/",
-  ],
+  startUrls: ["https://docs.dynamaker.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://skymakerstudio.github.io/dynamaker-docs/sitemap.xml"],
+  sitemaps: ["https://docs.dynamaker.com/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://skymakerstudio.github.io/**"],
+  discoveryPatterns: ["https://docs.dynamaker.com/**"],
   schedule: "at 15:50 on Tuesday",
   actions: [
     {
       indexName: "dynamaker",
-      pathsToMatch: ["https://skymakerstudio.github.io/dynamaker-docs/docs/**"],
+      pathsToMatch: ["https://docs.dynamaker.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

@@ -5,6 +5,7 @@ new Crawler({
   startUrls: [
     "https://docs.supportpal.com/current",
     "https://docs.supportpal.com/",
+    "https://docs.supportpal.com/3.6",
     "https://docs.supportpal.com/3.5",
     "https://docs.supportpal.com/3.4",
     "https://docs.supportpal.com/3.3",
@@ -51,6 +52,32 @@ new Crawler({
             lvl4: ".main h5",
             version: {
               defaultValue: ["current"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "supportpal",
+      pathsToMatch: ["https://docs.supportpal.com/3.6**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".contents";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".main h2",
+            content: ".main p, .main li",
+            lvl0: {
+              selectors: ".main h1",
+            },
+            lvl2: ".main h3",
+            lvl3: ".main h4",
+            lvl4: ".main h5",
+            version: {
+              defaultValue: ["3.6"],
             },
           },
           indexHeadings: true,

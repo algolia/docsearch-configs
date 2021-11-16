@@ -3,52 +3,20 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://www.jovo.tech/docs/reference/",
-    "https://www.jovo.tech/",
     "https://www.jovo.tech/tutorials/",
+    "https://www.jovo.tech/",
     "https://www.jovo.tech/docs/",
+    "https://v4.jovo.tech/docs/",
+    "https://v4.jovo.tech/",
+    "https://v4.jovo.tech/marketplace",
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [
-    "**/**reference/lib**",
-    "**/**reference/lib**/**",
-    "**/**reference/examples**",
-    "**/**reference/examples**/**",
-  ],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.jovo.tech/**"],
+  discoveryPatterns: ["https://www.jovo.tech/**", "https://v4.jovo.tech/**"],
   schedule: "at 20:30 on Wednesday",
   actions: [
-    {
-      indexName: "jovo",
-      pathsToMatch: ["https://www.jovo.tech/docs/reference/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove =
-          ".breadcrumb + h1 + p + ul, #comments-and-questions, #disqus_thread";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: "#main h1",
-            content: "section p, section li:not([class*=breadcrumb])",
-            lvl0: {
-              selectors: "",
-              defaultValue: "Reference",
-            },
-            lvl2: "section h2",
-            lvl3: "section h3",
-            lvl4: "section h4",
-            lvl5: "section h5",
-            tags: {
-              defaultValue: ["reference"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
     {
       indexName: "jovo",
       pathsToMatch: ["https://www.jovo.tech/tutorials/**"],
@@ -70,7 +38,7 @@ new Crawler({
             lvl3: ".content h3",
             lvl4: ".content h4",
             tags: {
-              defaultValue: ["tutorials"],
+              defaultValue: ["v3", "tutorials"],
             },
             pageRank: "1",
           },
@@ -92,16 +60,76 @@ new Crawler({
             lvl1: ".content h1",
             content: ".content p, .content li",
             lvl0: {
-              selectors: "",
+              selectors: ".breadcrumb li:last-child a",
               defaultValue: "Documentation",
             },
             lvl2: ".content h2",
             lvl3: ".content h3",
             lvl4: ".content h4",
             tags: {
-              defaultValue: ["docs"],
+              defaultValue: ["v3", "docs"],
             },
             pageRank: "2",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "jovo",
+      pathsToMatch: ["https://v4.jovo.tech/docs/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove =
+          ".breadcrumb + h1 + p + ul, #comments-and-questions, #disqus_thread";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h1",
+            content: "main p, main li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Documentation",
+            },
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
+            tags: {
+              defaultValue: ["v4", "docs"],
+            },
+            pageRank: "2",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "jovo",
+      pathsToMatch: ["https://v4.jovo.tech/marketplace**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove =
+          ".breadcrumb + h1 + p + ul, #comments-and-questions, #disqus_thread";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h1",
+            content: "main p, main li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Marketplace",
+            },
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
+            tags: {
+              defaultValue: ["v4", "marketplace"],
+            },
+            pageRank: "1",
           },
           indexHeadings: true,
         });

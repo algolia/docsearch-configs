@@ -2,30 +2,59 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://docs.casthub.app/"],
+  startUrls: [
+    "https://scanpy.readthedocs.io/en/latest/",
+    "https://scanpy.readthedocs.io/",
+    "https://scanpy.readthedocs.io/en/stable/",
+  ],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://scanpy.readthedocs.io/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.casthub.app/**"],
-  schedule: "at 11:00 on Tuesday",
+  discoveryPatterns: ["https://scanpy.readthedocs.io/**"],
+  schedule: "at 15:00 on Friday",
   actions: [
     {
-      indexName: "casthub",
-      pathsToMatch: ["https://docs.casthub.app/**"],
+      indexName: "scanpy",
+      pathsToMatch: ["https://scanpy.readthedocs.io/en/latest/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".theme-default-content h1",
-            content: ".theme-default-content p, .theme-default-content li",
+            lvl1: "section h2",
+            content: "section p, section li",
             lvl0: {
-              selectors: ".sidebar-heading.active",
-              defaultValue: "Documentation",
+              selectors: "section h1",
             },
-            lvl2: ".theme-default-content h2",
-            lvl3: ".theme-default-content h3",
-            lvl4: ".theme-default-content h4",
-            lvl5: ".theme-default-content h5",
+            lvl2: "section h3",
+            lvl3: "section h4",
+            lvl4: "section h5",
+            lvl5: "section h6",
+            version: {
+              defaultValue: ["latest"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "scanpy",
+      pathsToMatch: ["https://scanpy.readthedocs.io/en/stable/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "section h2",
+            content: "section p, section li",
+            lvl0: {
+              selectors: "section h1",
+            },
+            lvl2: "section h3",
+            lvl3: "section h4",
+            lvl4: "section h5",
+            lvl5: "section h6",
+            version: {
+              defaultValue: ["stable"],
+            },
           },
           indexHeadings: true,
         });
@@ -33,8 +62,8 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    casthub: {
-      attributesForFaceting: ["type", "lang"],
+    scanpy: {
+      attributesForFaceting: ["type", "lang", "version"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
