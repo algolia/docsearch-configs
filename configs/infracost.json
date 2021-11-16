@@ -1,8 +1,19 @@
 {
   "index_name": "infracost",
   "start_urls": [
-    "https://www.infracost.io/docs/"
-  ],
+    {
+      "url": "https://www.infracost.io/docs/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "url": "https://www.infracost.io/blog/",
+      "tags": [
+        "blog"
+      ]
+    }
+  ],  
   "sitemap_urls": [
     "https://www.infracost.io/sitemap.xml"
   ],
@@ -19,8 +30,8 @@
     "lvl2": "article h2",
     "lvl3": "article h3",
     "lvl4": "article h4",
-    "lvl5": "article h5, article td:first-child",
-    "text": "article p, article li, article td:last-child"
+    "lvl5": "article h5, article",
+    "text": "article p, article li, article"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
