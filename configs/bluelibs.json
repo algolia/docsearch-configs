@@ -1,10 +1,7 @@
 {
-  "index_name": "lightweight-charts",
+  "index_name": "bluelibs",
   "start_urls": [
-    "https://tradingview.github.io/lightweight-charts/"
-  ],
-  "sitemap_urls": [
-    "https://tradingview.github.io/lightweight-charts/sitemap.xml"
+    "https://www.bluelibs.com/docs/"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +38,7 @@
     ]
   },
   "conversation_id": [
-    "1697237378"
+    "1691343075"
   ],
-  "nb_hits": 2262
+  "nb_hits": 1521
 }
