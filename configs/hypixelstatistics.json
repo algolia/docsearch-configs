@@ -1,10 +1,11 @@
 {
-  "index_name": "lightweight-charts",
+  "index_name": "hypixelstatistics",
   "start_urls": [
-    "https://tradingview.github.io/lightweight-charts/"
+    "https://docs.hypixelstatistics.me/",
+    "https://docs.hypixelstatistics.me/intro"
   ],
   "sitemap_urls": [
-    "https://tradingview.github.io/lightweight-charts/sitemap.xml"
+    "https://docs.hypixelstatistics.me/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +42,7 @@
     ]
   },
   "conversation_id": [
-    "1697237378"
+    "1696148979"
   ],
-  "nb_hits": 2262
+  "nb_hits": 222
 }

@@ -1,47 +1,20 @@
 {
   "index_name": "applitools",
   "start_urls": [
-    {
-      "url": "https://applitools.com/docs",
-      "tags": [
-        "docs"
-      ]
-    },
-    {
-      "url": "https://applitools.com/tutorials",
-      "tags": [
-        "tutorials"
-      ],
-      "selectors_key": "tutorials"
-    }
+    "https://applitools.com/tutorials"
   ],
   "stop_urls": [],
   "selectors": {
-    "default": {
-      "lvl0": "#document-body h1",
-      "lvl1": "#document-body h2",
-      "lvl2": "#document-body h3",
-      "lvl3": "#document-body h4",
-      "lvl4": "#document-body h5",
-      "text": "#document-body p, #document-body li",
-      "lang": {
-        "selector": "/html/@lang",
-        "type": "xpath",
-        "global": true
-      }
-    },
-    "tutorials": {
-      "lvl0": ".content h1",
-      "lvl1": ".content h2",
-      "lvl2": ".content h3",
-      "lvl3": ".content h4",
-      "lvl4": ".content h5",
-      "text": ".content p, .content li",
-      "lang": {
-        "selector": "/html/@lang",
-        "type": "xpath",
-        "global": true
-      }
+    "lvl0": ".content h1",
+    "lvl1": ".content h2",
+    "lvl2": ".content h3",
+    "lvl3": ".content h4",
+    "lvl4": ".content h5",
+    "text": ".content p, .content li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true
     }
   },
   "selectors_exclude": [
@@ -51,12 +24,11 @@
   "scrape_start_urls": false,
   "custom_settings": {
     "attributesForFaceting": [
-      "lang",
-      "tags"
+      "lang"
     ]
   },
   "conversation_id": [
     "659247269"
   ],
-  "nb_hits": 19776
+  "nb_hits": 2398
 }
