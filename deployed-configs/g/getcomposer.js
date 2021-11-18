@@ -2,45 +2,38 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://developers.onelogin.com/"],
+  startUrls: ["https://getcomposer.org/doc/", "https://getcomposer.org/"],
   renderJavaScript: false,
-  sitemaps: ["https://developers.onelogin.com/sitemap.xml"],
-  exclusionPatterns: [
-    "**/**?**",
-    "**/**?**/**",
-    "**/**javadoc**",
-    "**/**javadoc**/**",
-  ],
+  sitemaps: [],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://developers.onelogin.com/**"],
-  schedule: "at 20:30 on Thursday",
+  discoveryPatterns: ["https://getcomposer.org/**"],
+  schedule: "at 06:00 on Wednesday",
   actions: [
     {
-      indexName: "onelogin",
-      pathsToMatch: ["https://developers.onelogin.com/**"],
+      indexName: "getcomposer",
+      pathsToMatch: ["https://getcomposer.org/doc/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".stackoverflow";
+        const toRemove = ".anchor";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
+            lvl1: "#main h2",
+            content: "#main p, #main :not(.toc) li",
             lvl0: {
-              selectors: ".content h1",
+              selectors: "#main h1",
             },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
+            lvl2: "#main h3",
           },
-          indexHeadings: true,
+          indexHeadings: { from: 1, to: 6 },
         });
       },
     },
   ],
   initialIndexSettings: {
-    onelogin: {
+    getcomposer: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
@@ -103,6 +96,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "^*~><=-",
     },
   },
 });

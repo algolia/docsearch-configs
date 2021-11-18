@@ -3,39 +3,89 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "http://videopro.cactusthemes.com/doc/",
-    "http://videopro.cactusthemes.com/",
+    "https://docs.medusa-commerce.com/api/store",
+    "https://docs.medusa-commerce.com/",
+    "https://docs.medusa-commerce.com/api/admin",
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [
+  ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["http://videopro.cactusthemes.com/**"],
-  schedule: "at 05:10 on Saturday",
+  discoveryPatterns: ["https://docs.medusa-commerce.com/**"],
+  schedule: "at 10:00 on Thursday",
   actions: [
     {
-      indexName: "videopro",
-      pathsToMatch: ["http://videopro.cactusthemes.com/doc/**"],
+      indexName: "medusa-commerce",
+      pathsToMatch: ["https://docs.medusa-commerce.com/api/store**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "main article h1",
-            content: "main article p, main article li",
+            lvl1: ".DocSearch-content h1",
+            content:
+              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
             lvl0: {
-              selectors: "main .widget-title",
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: "Storefront API Reference",
             },
-            lvl2: "main article h2",
-            lvl3: "main article h3",
-            lvl4: "main article h4",
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            tags: {
+              defaultValue: ["api", "reference", "store"],
+            },
           },
-          indexHeadings: { from: 2, to: 6 },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "medusa-commerce",
+      pathsToMatch: ["https://docs.medusa-commerce.com/api/admin**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocSearch-content h1",
+            content:
+              ".DocSearch-content p, .DocSearch-content li, .DocSearch-content span, .DocSearch-content span p",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Admin API Reference",
+            },
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            tags: {
+              defaultValue: ["api", "reference", "admin"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "medusa-commerce",
+      pathsToMatch: ["https://docs.medusa-commerce.com/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h1",
+            content: "main p, main li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Docs",
+            },
+            lvl2: "main h2",
+            lvl3: "main h3",
+            tags: {
+              defaultValue: ["docs", "tutorials", "how-to"],
+            },
+          },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
-    videopro: {
+    "medusa-commerce": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

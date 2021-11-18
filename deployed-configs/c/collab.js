@@ -21,7 +21,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**?**", "**/**?**/**", "**/javadoc/**"],
+  exclusionPatterns: ["**/javadoc/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.collab.net/**"],
   schedule: "at 11:30 on Tuesday",

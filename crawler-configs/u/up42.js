@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.up42.com/"],
   renderJavaScript: false,
   sitemaps: ["https://docs.up42.com/sitemap.xml"],
-  exclusionPatterns: ["**/", "**/components**", "**/components**/**"],
+  exclusionPatterns: ["**/components**", "**/components**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.up42.com/**"],
   schedule: "at 00:30 on Saturday",
