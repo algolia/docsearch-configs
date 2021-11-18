@@ -1,0 +1,23 @@
+{
+  "index_name": "naiveui",
+  "start_urls": [
+    "https://www.naiveui.com/",
+    "https://www.naiveui.com/en-US/os-theme",
+    "https://www.naiveui.com/en-US/dark/docs/installation",
+    "https://www.naiveui.com/en-US/os-theme/components/button"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".doc h1",
+    "lvl1": ".doc h2",
+    "lvl2": ".doc h3",
+    "lvl3": ".doc h4",
+    "lvl4": ".doc h5",
+    "lvl5": ".doc h6",
+    "text": ".doc p, .doc li"
+  },
+  "js_render": true,
+  "js_wait": 1,
+  "conversation_id": ["1696083312"],
+  "nb_hits": 29
+}
