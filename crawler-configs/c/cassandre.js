@@ -2,17 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://applitools.com/tutorials", "https://applitools.com/"],
+  startUrls: ["https://trading-bot.cassandre.tech/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://applitools.com/**"],
-  schedule: "at 01:30 on Tuesday",
+  discoveryPatterns: ["https://trading-bot.cassandre.tech/**"],
+  schedule: "at 11:00 on Tuesday",
   actions: [
     {
-      indexName: "applitools",
-      pathsToMatch: ["https://applitools.com/tutorials**/**"],
+      indexName: "cassandre",
+      pathsToMatch: ["https://trading-bot.cassandre.tech**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".table-of-contents";
@@ -20,14 +20,16 @@ new Crawler({
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
+            lvl1: ".theme-default-content h1",
+            content: ".theme-default-content p, .theme-default-content li",
             lvl0: {
-              selectors: ".content h1",
+              selectors: "p.sidebar-heading.open",
+              defaultValue: "Documentation",
             },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
+            lvl2: ".theme-default-content h2",
+            lvl3: ".theme-default-content h3",
+            lvl4: ".theme-default-content h4",
+            lvl5: ".theme-default-content h5",
           },
           indexHeadings: true,
         });
@@ -35,7 +37,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    applitools: {
+    cassandre: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

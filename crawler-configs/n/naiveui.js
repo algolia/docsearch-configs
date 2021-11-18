@@ -2,32 +2,39 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://applitools.com/tutorials", "https://applitools.com/"],
-  renderJavaScript: false,
+  startUrls: [
+    "https://www.naiveui.com/",
+    "https://www.naiveui.com/en-US/os-theme",
+    "https://www.naiveui.com/en-US/dark/docs/installation",
+    "https://www.naiveui.com/en-US/os-theme/components/button",
+  ],
+  renderJavaScript: true,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://applitools.com/**"],
-  schedule: "at 01:30 on Tuesday",
+  discoveryPatterns: ["https://www.naiveui.com/**"],
+  schedule: "at 15:00 on Thursday",
   actions: [
     {
-      indexName: "applitools",
-      pathsToMatch: ["https://applitools.com/tutorials**/**"],
+      indexName: "naiveui",
+      pathsToMatch: [
+        "https://www.naiveui.com/**",
+        "https://www.naiveui.com/en-US/os-theme**/**",
+        "https://www.naiveui.com/en-US/dark/docs/installation**/**",
+        "https://www.naiveui.com/en-US/os-theme/components/button**/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
+            lvl1: ".doc h2",
+            content: ".doc p, .doc li",
             lvl0: {
-              selectors: ".content h1",
+              selectors: ".doc h1",
             },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
+            lvl2: ".doc h3",
+            lvl3: ".doc h4",
+            lvl4: ".doc h5",
+            lvl5: ".doc h6",
           },
           indexHeadings: true,
         });
@@ -35,7 +42,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    applitools: {
+    naiveui: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

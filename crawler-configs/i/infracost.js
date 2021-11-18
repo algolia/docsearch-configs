@@ -2,7 +2,11 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://www.infracost.io/docs/", "https://www.infracost.io/"],
+  startUrls: [
+    "https://www.infracost.io/docs/",
+    "https://www.infracost.io/",
+    "https://www.infracost.io/blog/",
+  ],
   renderJavaScript: false,
   sitemaps: ["https://www.infracost.io/sitemap.xml"],
   exclusionPatterns: [],
@@ -17,7 +21,7 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
-            content: "article p, article li, article td:last-child",
+            content: "article p, article li, article td",
             lvl0: {
               selectors: [
                 ".menu__link.menu__link--sublist.menu__link--active",
@@ -28,7 +32,37 @@ new Crawler({
             lvl2: "article h2",
             lvl3: "article h3",
             lvl4: "article h4",
-            lvl5: "article h5, article td:first-child",
+            lvl5: "article h5",
+            tags: {
+              defaultValue: ["docs"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "infracost",
+      pathsToMatch: ["https://www.infracost.io/blog/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "header h1",
+            content: "article p, article li, article td",
+            lvl0: {
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
+            tags: {
+              defaultValue: ["blog"],
+            },
           },
           indexHeadings: true,
         });

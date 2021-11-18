@@ -2,32 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://applitools.com/tutorials", "https://applitools.com/"],
+  startUrls: ["https://guide.dawin.io/"],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://guide.dawin.io/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://applitools.com/**"],
-  schedule: "at 01:30 on Tuesday",
+  discoveryPatterns: ["https://guide.dawin.io/**"],
+  schedule: "at 15:00 on Tuesday",
   actions: [
     {
-      indexName: "applitools",
-      pathsToMatch: ["https://applitools.com/tutorials**/**"],
+      indexName: "dawin",
+      pathsToMatch: ["https://guide.dawin.io/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
+            lvl1: ".container h2",
+            content: ".container p, .container li",
             lvl0: {
-              selectors: ".content h1",
+              selectors: ".container h1",
             },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
+            lvl2: ".container h3",
+            lvl3: ".container h4",
+            lvl4: ".container h5",
+            lvl5: ".container h6",
           },
           indexHeadings: true,
         });
@@ -35,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    applitools: {
+    dawin: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

@@ -2,43 +2,102 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://yarnpkg.com/"],
+  startUrls: [
+    "https://ob7-ird.github.io/fishi/index.html",
+    "https://ob7-ird.github.io/",
+    "https://ob7-ird.github.io/fishi/reference",
+    "https://ob7-ird.github.io/fishi/articles",
+  ],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: ["**/api/**", "**/package/**"],
+  sitemaps: ["https://ob7-ird.github.io/fishi/sitemap.xml"],
+  exclusionPatterns: [
+    "**/reference/",
+    "**/reference/index.html",
+    "**/articles/",
+    "**/articles/index.html",
+  ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://yarnpkg.com/**"],
-  schedule: "at 19:00 on Saturday",
+  discoveryPatterns: ["https://ob7-ird.github.io/**"],
+  schedule: "at 01:10 on Wednesday",
   actions: [
     {
-      indexName: "yarnpkg_next",
-      pathsToMatch: ["https://yarnpkg.com/**"],
+      indexName: "fishi",
+      pathsToMatch: ["https://ob7-ird.github.io/fishi/index.html**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".toc";
+        const toRemove = ".dont-index";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article li, article td",
+            lvl1: ".contents h2",
+            content: ".contents p, .contents li, .contents .pre",
             lvl0: {
-              selectors: "header .active",
-              defaultValue: "Documentation",
+              selectors: ".contents h1",
+              defaultValue: "pkgdown Home page",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5",
-            lvl6: "article h6",
+            lvl2: ".contents h3",
+            lvl3: ".ref-arguments td, .ref-description",
+            tags: {
+              defaultValue: ["homepage"],
+            },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+    {
+      indexName: "fishi",
+      pathsToMatch: ["https://ob7-ird.github.io/fishi/reference**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
+            lvl0: {
+              selectors: ".contents h1",
+            },
+            lvl2: ".ref-arguments th",
+            lvl3: ".ref-arguments td, .ref-description",
+            tags: {
+              defaultValue: ["reference"],
+            },
+          },
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+    {
+      indexName: "fishi",
+      pathsToMatch: ["https://ob7-ird.github.io/fishi/articles**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".dont-index";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
+            lvl0: {
+              selectors: ".contents h1",
+            },
+            lvl2: ".contents h2, .contents h3",
+            tags: {
+              defaultValue: ["articles"],
+            },
+          },
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
   ],
   initialIndexSettings: {
-    yarnpkg_next: {
+    fishi: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: [
         "hierarchy",
@@ -46,7 +105,6 @@ new Crawler({
         "anchor",
         "url",
         "url_without_anchor",
-        "type",
       ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
@@ -109,7 +167,6 @@ new Crawler({
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
       separatorsToIndex: "_",
-      synonyms: [["up", "upgrade"]],
     },
   },
 });

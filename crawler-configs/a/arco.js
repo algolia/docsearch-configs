@@ -2,32 +2,32 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://applitools.com/tutorials", "https://applitools.com/"],
-  renderJavaScript: false,
-  sitemaps: [],
+  startUrls: ["https://arco.design/", "https://arco.design/react/docs/start"],
+  renderJavaScript: true,
+  sitemaps: ["https://arco.design/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://applitools.com/**"],
-  schedule: "at 01:30 on Tuesday",
+  discoveryPatterns: ["https://arco.design/**"],
+  schedule: "at 01:40 on Tuesday",
   actions: [
     {
-      indexName: "applitools",
-      pathsToMatch: ["https://applitools.com/tutorials**/**"],
+      indexName: "arco",
+      pathsToMatch: [
+        "https://arco.design/**",
+        "https://arco.design/react/docs/start**/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
+            lvl1: ".ac-content h2",
+            content: ".ac-content p, .ac-content li",
             lvl0: {
-              selectors: ".content h1",
+              selectors: ".ac-content h1",
             },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
+            lvl2: ".ac-content h3",
+            lvl3: ".ac-content h4",
+            lvl4: ".ac-content h5",
+            lvl5: ".ac-content h6",
           },
           indexHeadings: true,
         });
@@ -35,7 +35,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    applitools: {
+    arco: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

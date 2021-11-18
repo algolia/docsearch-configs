@@ -2,22 +2,18 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://applitools.com/tutorials", "https://applitools.com/"],
+  startUrls: ["https://www.emojicode.org/docs/", "https://www.emojicode.org/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://applitools.com/**"],
-  schedule: "at 01:30 on Tuesday",
+  discoveryPatterns: ["https://www.emojicode.org/**"],
+  schedule: "at 20:20 on Tuesday",
   actions: [
     {
-      indexName: "applitools",
-      pathsToMatch: ["https://applitools.com/tutorials**/**"],
+      indexName: "emojicode",
+      pathsToMatch: ["https://www.emojicode.org/docs/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
             lvl1: ".content h2",
@@ -28,6 +24,7 @@ new Crawler({
             lvl2: ".content h3",
             lvl3: ".content h4",
             lvl4: ".content h5",
+            lvl5: ".content h6",
           },
           indexHeadings: true,
         });
@@ -35,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    applitools: {
+    emojicode: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

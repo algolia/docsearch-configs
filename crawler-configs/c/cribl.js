@@ -2,20 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://docstest.cribl.io/logstream/",
-    "https://docstest.cribl.io/",
-  ],
+  startUrls: ["https://docs.cribl.io/logstream/", "https://docs.cribl.io/"],
   renderJavaScript: false,
-  sitemaps: ["https://docstest.cribl.io/sitemap.xml"],
+  sitemaps: ["https://docs.cribl.io/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://docstest.cribl.io/**"],
+  discoveryPatterns: ["https://docs.cribl.io/**"],
   schedule: "at 11:40 on Tuesday",
   actions: [
     {
       indexName: "cribl",
-      pathsToMatch: ["https://docstest.cribl.io/logstream/**"],
+      pathsToMatch: ["https://docs.cribl.io/logstream/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {

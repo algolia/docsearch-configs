@@ -2,32 +2,30 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://applitools.com/tutorials", "https://applitools.com/"],
+  startUrls: ["https://rappasoft.com/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://applitools.com/**"],
-  schedule: "at 01:30 on Tuesday",
+  discoveryPatterns: ["https://rappasoft.com/**"],
+  schedule: "at 10:00 on Friday",
   actions: [
     {
-      indexName: "applitools",
-      pathsToMatch: ["https://applitools.com/tutorials**/**"],
+      indexName: "rappasoft",
+      pathsToMatch: ["https://rappasoft.com**/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
-              selectors: ".content h1",
+              selectors: "",
+              defaultValue: "Documentation",
             },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
           },
           indexHeadings: true,
         });
@@ -35,7 +33,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    applitools: {
+    rappasoft: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

@@ -2,32 +2,36 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://applitools.com/tutorials", "https://applitools.com/"],
+  startUrls: [
+    "https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/",
+    "https://yoanbernabeu.github.io/",
+  ],
   renderJavaScript: false,
-  sitemaps: [],
+  sitemaps: ["https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/sitemap.xml"],
   exclusionPatterns: [],
-  ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://applitools.com/**"],
-  schedule: "at 01:30 on Tuesday",
+  ignoreCanonicalTo: true,
+  discoveryPatterns: ["https://yoanbernabeu.github.io/**"],
+  schedule: "at 10:30 on Friday",
   actions: [
     {
-      indexName: "applitools",
-      pathsToMatch: ["https://applitools.com/tutorials**/**"],
+      indexName: "roadmap-dev-symfony",
+      pathsToMatch: ["https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: ".content h1",
+              selectors: [
+                ".menu__link.menu__link--sublist.menu__link--active",
+                ".navbar__item.navbar__link--active",
+              ],
+              defaultValue: "Documentation",
             },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
           },
           indexHeadings: true,
         });
@@ -35,9 +39,22 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    applitools: {
-      attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+    "roadmap-dev-symfony": {
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "language",
+        "version",
+        "docusaurus_tag",
+      ],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -98,6 +115,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

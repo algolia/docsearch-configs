@@ -2,34 +2,37 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://varie.io/docs/latest/", "https://varie.io/"],
+  startUrls: [
+    "https://varie.lukepolo.com/",
+    "https://varie.lukepolo.com/docs/latest/what-is-varie",
+  ],
   renderJavaScript: true,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://varie.io/**"],
+  discoveryPatterns: ["https://varie.lukepolo.com/**"],
   schedule: "at 05:00 on Saturday",
   actions: [
     {
       indexName: "varie",
-      pathsToMatch: ["https://varie.io/docs/latest/**"],
+      pathsToMatch: [
+        "https://varie.lukepolo.com/**",
+        "https://varie.lukepolo.com/docs/latest/what-is-varie**/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".documentation--content h2",
-            content: ".documentation--content p, .documentation--content li",
+            lvl1: "#documentation h2",
+            content: "#documentation p, #documentation li",
             lvl0: {
-              selectors: "",
+              selectors: "#documentation h1",
               defaultValue: "Documentation",
             },
-            lvl2: ".documentation--content h3",
-            lvl3: ".documentation--content h4",
-            lvl4: ".documentation--content h5",
-            version: {
-              defaultValue: ["latest"],
-            },
+            lvl2: "#documentation h3",
+            lvl3: "#documentation h4",
+            lvl4: "#documentation h5",
           },
-          indexHeadings: { from: 1, to: 6 },
+          indexHeadings: true,
         });
       },
     },

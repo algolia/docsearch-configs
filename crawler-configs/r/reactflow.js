@@ -2,32 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://applitools.com/tutorials", "https://applitools.com/"],
+  startUrls: ["https://reactflow.dev/docs/", "https://reactflow.dev/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://applitools.com/**"],
-  schedule: "at 01:30 on Tuesday",
+  discoveryPatterns: ["https://reactflow.dev/**"],
+  schedule: "at 10:00 on Friday",
   actions: [
     {
-      indexName: "applitools",
-      pathsToMatch: ["https://applitools.com/tutorials**/**"],
+      indexName: "reactflow",
+      pathsToMatch: ["https://reactflow.dev/docs/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content h2",
-            content: ".content p, .content li",
+            lvl1: "h2",
+            content: "p, li",
             lvl0: {
-              selectors: ".content h1",
+              selectors: "h1",
             },
-            lvl2: ".content h3",
-            lvl3: ".content h4",
-            lvl4: ".content h5",
+            lvl2: "h3",
+            lvl3: "h4",
+            lvl4: "h5",
+            lvl5: "h6",
           },
           indexHeadings: true,
         });
@@ -35,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    applitools: {
+    reactflow: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
