@@ -1,0 +1,25 @@
+{
+  "index_name": "arco",
+  "start_urls": [
+    "https://arco.design/",
+    "https://arco.design/react/docs/start"
+  ],
+  "sitemap_urls": [
+    "https://arco.design/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".ac-content h1",
+    "lvl1": ".ac-content h2",
+    "lvl2": ".ac-content h3",
+    "lvl3": ".ac-content h4",
+    "lvl4": ".ac-content h5",
+    "lvl5": ".ac-content h6",
+    "text": ".ac-content p, .ac-content li"
+  },
+  "js_render": true,
+  "conversation_id": [
+    "1693490441"
+  ],
+  "nb_hits": 11998
+}

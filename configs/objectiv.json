@@ -1,10 +1,10 @@
 {
-  "index_name": "lightweight-charts",
+  "index_name": "objectiv",
   "start_urls": [
-    "https://tradingview.github.io/lightweight-charts/"
+    "https://objectiv.io/docs/"
   ],
   "sitemap_urls": [
-    "https://tradingview.github.io/lightweight-charts/sitemap.xml"
+    "https://objectiv.io/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1697237378"
+    "1694827010"
   ],
-  "nb_hits": 2262
+  "nb_hits": 4219
 }
