@@ -1,10 +1,10 @@
 {
   "index_name": "cribl",
   "start_urls": [
-    "https://docstest.cribl.io/logstream/"
+    "https://docs.cribl.io/logstream/"
   ],
   "sitemap_urls": [
-    "https://docstest.cribl.io/sitemap.xml"
+    "https://docs.cribl.io/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

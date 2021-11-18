@@ -1,13 +1,9 @@
 {
-  "index_name": "lightweight-charts",
-  "start_urls": [
-    "https://tradingview.github.io/lightweight-charts/"
-  ],
-  "sitemap_urls": [
-    "https://tradingview.github.io/lightweight-charts/sitemap.xml"
-  ],
+  "index_name": "react-native-material",
+  "start_urls": ["https://www.react-native-material.com/"],
+  "sitemap_urls": ["https://www.react-native-material.com/sitemap.xml"],
   "sitemap_alternate_links": true,
-  "stop_urls": [],
+  "stop_urls": ["/tests"],
   "selectors": {
     "lvl0": {
       "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
@@ -20,17 +16,13 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
+    "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type",
-      "docusaurus_tag"
-    ],
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -40,8 +32,6 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1697237378"
-  ],
-  "nb_hits": 2262
+  "conversation_id": ["1685855453"],
+  "nb_hits": 46250
 }

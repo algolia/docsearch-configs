@@ -1,10 +1,10 @@
 {
-  "index_name": "lightweight-charts",
+  "index_name": "realpacific",
   "start_urls": [
-    "https://tradingview.github.io/lightweight-charts/"
+    "https://prashantbarahi.com.np/"
   ],
   "sitemap_urls": [
-    "https://tradingview.github.io/lightweight-charts/sitemap.xml"
+    "https://prashantbarahi.com.np/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1697237378"
+    "1680797099"
   ],
-  "nb_hits": 2262
+  "nb_hits": 2524
 }
