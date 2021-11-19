@@ -20,8 +20,9 @@
     "lvl3": "article h3",
     "lvl4": "article h4",
     "lvl5": "article h5, article td:first-child",
-    "text": "article p, article li:not(.ignore-for-search), article td:last-child"
+    "text": "article p, article li, article td:last-child"
   },
+  "selectors_exclude": ["footer"],
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
