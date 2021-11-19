@@ -13,7 +13,7 @@
     "text": "main p, main li"
   },
   "selectors_exclude": [
-    "nav",
+    "nav"
   ],
   "conversation_id": [
     "1695597685"
