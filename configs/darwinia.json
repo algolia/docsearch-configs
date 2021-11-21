@@ -1,7 +1,7 @@
 {
   "index_name": "darwinia",
   "start_urls": [
-    "https://docs.darwinia.network/docs/"
+    "https://docs.darwinia.network/"
   ],
   "sitemap_urls": [
     "https://docs.darwinia.network/sitemap.xml"
