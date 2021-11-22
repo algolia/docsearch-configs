@@ -3,10 +3,7 @@
   "start_urls": [
     "https://design-system-staging.cloudinary.com/"
   ],
-  "sitemap_urls": [
-    "https://design-system-staging.cloudinary.com/sitemap.xml"
-  ],
-  "sitemap_alternate_links": true,
+  "sitemap_urls": [],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -40,8 +37,9 @@
       "type"
     ]
   },
+  "js_render": true,
   "conversation_id": [
     "1692893188"
   ],
-  "nb_hits": 3
+  "nb_hits": 259
 }
