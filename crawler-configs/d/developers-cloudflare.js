@@ -16,6 +16,7 @@ new Crawler({
     "https://developers.cloudflare.com/1.1.1.1/",
     "https://developers.cloudflare.com/ddos-protection/",
     "https://developers.cloudflare.com/distributed-web/",
+    "https://developers.cloudflare.com/email-routing/",
     "https://developers.cloudflare.com/firewall/",
     "https://developers.cloudflare.com/fundamentals/",
     "https://developers.cloudflare.com/http3/",
@@ -57,6 +58,7 @@ new Crawler({
     "https://developers.cloudflare.com/1.1.1.1/sitemap.xml",
     "https://developers.cloudflare.com/ddos-protection/sitemap.xml",
     "https://developers.cloudflare.com/distributed-web/sitemap.xml",
+    "https://developers.cloudflare.com/email-routing/sitemap.xml",
     "https://developers.cloudflare.com/firewall/sitemap.xml",
     "https://developers.cloudflare.com/fundamentals/sitemap.xml",
     "https://developers.cloudflare.com/http3/sitemap.xml",
@@ -423,6 +425,34 @@ new Crawler({
             lvl5: ".DocsContent h6",
             project: {
               defaultValue: ["distributed-web"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "developers-cloudflare",
+      pathsToMatch: ["https://developers.cloudflare.com/email-routing/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "h1 + ul";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocsContent h2",
+            content:
+              ".DocsContent p, .DocsContent li, .DocsContent tbody tr > td",
+            lvl0: {
+              selectors: ".DocsContent h1",
+            },
+            lvl2: ".DocsContent h3",
+            lvl3: ".DocsContent h4",
+            lvl4: ".DocsContent h5",
+            lvl5: ".DocsContent h6",
+            project: {
+              defaultValue: ["email-routing"],
             },
           },
           indexHeadings: true,

@@ -3,23 +3,23 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://www.jovo.tech/tutorials/",
-    "https://www.jovo.tech/",
+    "https://v3.jovo.tech/tutorials/",
+    "https://v3.jovo.tech/",
+    "https://v3.jovo.tech/docs/",
     "https://www.jovo.tech/docs/",
-    "https://v4.jovo.tech/docs/",
-    "https://v4.jovo.tech/",
-    "https://v4.jovo.tech/marketplace",
+    "https://www.jovo.tech/",
+    "https://www.jovo.tech/marketplace/",
   ],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.jovo.tech/**", "https://v4.jovo.tech/**"],
+  discoveryPatterns: ["https://v3.jovo.tech/**", "https://www.jovo.tech/**"],
   schedule: "at 20:30 on Wednesday",
   actions: [
     {
       indexName: "jovo",
-      pathsToMatch: ["https://www.jovo.tech/tutorials/**"],
+      pathsToMatch: ["https://v3.jovo.tech/tutorials/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove =
@@ -48,7 +48,7 @@ new Crawler({
     },
     {
       indexName: "jovo",
-      pathsToMatch: ["https://www.jovo.tech/docs/**"],
+      pathsToMatch: ["https://v3.jovo.tech/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove =
@@ -77,7 +77,7 @@ new Crawler({
     },
     {
       indexName: "jovo",
-      pathsToMatch: ["https://v4.jovo.tech/docs/**"],
+      pathsToMatch: ["https://www.jovo.tech/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove =
@@ -107,7 +107,7 @@ new Crawler({
     },
     {
       indexName: "jovo",
-      pathsToMatch: ["https://v4.jovo.tech/marketplace**/**"],
+      pathsToMatch: ["https://www.jovo.tech/marketplace/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove =

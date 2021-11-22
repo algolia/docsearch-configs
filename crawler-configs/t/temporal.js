@@ -46,16 +46,21 @@ new Crawler({
         "https://docs.temporal.io/docs/concepts/introduction**/**",
       ],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -72,16 +77,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/concepts/workflows**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -98,16 +108,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/concepts/activities**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -124,16 +139,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/concepts/events**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -150,16 +170,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/concepts/queries**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -176,16 +201,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/concepts/task-queues**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -202,16 +232,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/glossary**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -228,16 +263,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/server/introduction**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -254,16 +294,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/server/quick-install**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -282,16 +327,21 @@ new Crawler({
         "https://docs.temporal.io/docs/server/production-deployment**/**",
       ],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -310,16 +360,21 @@ new Crawler({
         "https://docs.temporal.io/docs/server/server-architecture**/**",
       ],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -338,16 +393,21 @@ new Crawler({
         "https://docs.temporal.io/docs/server/versions-and-dependencies**/**",
       ],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -364,16 +424,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/server/namespaces**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -392,16 +457,21 @@ new Crawler({
         "https://docs.temporal.io/docs/server/workflow-search**/**",
       ],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -420,16 +490,21 @@ new Crawler({
         "https://docs.temporal.io/docs/server/elasticsearch-setup**/**",
       ],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -446,16 +521,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/server/options**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -472,16 +552,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/server/security**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -498,16 +583,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/server/configuration**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -524,16 +614,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/server/archive-data**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -550,16 +645,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/go/introduction**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -576,16 +676,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/java/introduction**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -602,16 +707,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/php/introduction**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -628,16 +738,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/node/introduction**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -654,16 +769,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/docs/system-tools/tctl**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -680,16 +800,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -706,16 +831,21 @@ new Crawler({
       indexName: "temporal",
       pathsToMatch: ["https://docs.temporal.io/blog**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",

@@ -2,7 +2,7 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://rappasoft.com/"],
+  startUrls: ["https://rappasoft.com/docs", "https://rappasoft.com/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
@@ -12,20 +12,22 @@ new Crawler({
   actions: [
     {
       indexName: "rappasoft",
-      pathsToMatch: ["https://rappasoft.com**/**"],
+      pathsToMatch: ["https://rappasoft.com/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "nav";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: "main h1",
+            lvl1: "main h2",
             content: "main p, main li",
             lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
+              selectors: "main h1",
             },
-            lvl2: "main h2",
-            lvl3: "main h3",
-            lvl4: "main h4",
-            lvl5: "main h5",
+            lvl2: "main h3",
+            lvl3: "main h4",
+            lvl4: "main h5",
           },
           indexHeadings: true,
         });

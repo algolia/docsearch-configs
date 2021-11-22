@@ -3,8 +3,8 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: ["https://design-system-staging.cloudinary.com/"],
-  renderJavaScript: false,
-  sitemaps: ["https://design-system-staging.cloudinary.com/sitemap.xml"],
+  renderJavaScript: true,
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
   discoveryPatterns: ["https://design-system-staging.cloudinary.com/**"],
@@ -14,16 +14,21 @@ new Crawler({
       indexName: "cloudinary-design-system",
       pathsToMatch: ["https://design-system-staging.cloudinary.com/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",

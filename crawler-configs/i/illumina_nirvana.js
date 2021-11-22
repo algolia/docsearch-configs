@@ -17,6 +17,14 @@ new Crawler({
       indexName: "illumina_nirvana",
       pathsToMatch: ["https://illumina.github.io/NirvanaDocumentation/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         // Removing DOM elements we don't want to crawl
         const toRemove = ".hash-link";
         $(toRemove).remove();
@@ -27,11 +35,8 @@ new Crawler({
             content:
               "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "[class^='docItemContainer_'] h2",
             lvl3: "[class^='docItemContainer_'] h3",

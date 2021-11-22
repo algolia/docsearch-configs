@@ -25,16 +25,21 @@ new Crawler({
       indexName: "wandisco",
       pathsToMatch: ["https://docs.wandisco.com/live-data-plane/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",
@@ -52,16 +57,21 @@ new Crawler({
       indexName: "wandisco",
       pathsToMatch: ["https://wandisco.github.io/wandisco-documentation/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
             lvl1: "header h1",
             content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: [
-                ".menu__link.menu__link--sublist.menu__link--active",
-                ".navbar__item.navbar__link--active",
-              ],
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
             lvl2: "article h2",
             lvl3: "article h3",

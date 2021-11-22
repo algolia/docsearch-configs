@@ -7,9 +7,11 @@ new Crawler({
     "https://oasisengine.cn/",
     "https://oasisengine.cn/0.4/docs/",
     "https://oasisengine.cn/0.5/docs/",
+    "https://oasisengine.cn/0.6/docs/",
     "https://oasisengine.cn/0.3/api/",
     "https://oasisengine.cn/0.4/api/",
     "https://oasisengine.cn/0.5/api/",
+    "https://oasisengine.cn/0.6/api/",
   ],
   renderJavaScript: false,
   sitemaps: ["https://oasisengine.cn/sitemap.xml"],
@@ -95,6 +97,31 @@ new Crawler({
     },
     {
       indexName: "oasisengine",
+      pathsToMatch: ["https://oasisengine.cn/0.6/docs/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h1",
+            content: "article p, article li",
+            lvl0: {
+              selectors: ".docsearch-lvl0",
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
+            version: {
+              defaultValue: ["0.6"],
+            },
+            pageRank: "2",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "oasisengine",
       pathsToMatch: ["https://oasisengine.cn/0.3/api/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
@@ -161,6 +188,31 @@ new Crawler({
             lvl5: "article h5",
             version: {
               defaultValue: ["0.5"],
+            },
+            pageRank: "1",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "oasisengine",
+      pathsToMatch: ["https://oasisengine.cn/0.6/api/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "article h1",
+            content: "article p, article li",
+            lvl0: {
+              selectors: ".docsearch-lvl0",
+              defaultValue: "Documentation",
+            },
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
+            version: {
+              defaultValue: ["0.6"],
             },
             pageRank: "1",
           },
