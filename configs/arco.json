@@ -2,12 +2,12 @@
   "index_name": "arco",
   "start_urls": [
     {
-      "url": "https://arco.design/vue/*",
+      "url": "https://arco.design/vue",
       "tags": ["vue"],
       "selectors_key": "vue"
     },
     {
-      "url": "https://arco.design/react/*",
+      "url": "https://arco.design/react",
       "tags": ["react"]
     },
     {
