@@ -93,7 +93,8 @@
   "selectors_exclude": [
     "p.text-base",
     ".list-inside",
-    ".bg-gray-200"
+    ".bg-gray-200",
+    "[data-docsearch-ignore]"
   ],
   "custom_settings": {
     "attributesForFaceting": [
