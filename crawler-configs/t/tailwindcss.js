@@ -26,7 +26,8 @@ new Crawler({
       pathsToMatch: ["https://tailwindcss.com/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = "p.text-base, .list-inside, .bg-gray-200";
+        const toRemove =
+          "p.text-base, .list-inside, .bg-gray-200, [data-docsearch-ignore]";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -55,7 +56,8 @@ new Crawler({
       pathsToMatch: ["https://tailwindcss.com/community**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = "p.text-base, .list-inside, .bg-gray-200";
+        const toRemove =
+          "p.text-base, .list-inside, .bg-gray-200, [data-docsearch-ignore]";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -84,7 +86,8 @@ new Crawler({
       pathsToMatch: ["https://v1.tailwindcss.com/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = "p.text-base, .list-inside, .bg-gray-200";
+        const toRemove =
+          "p.text-base, .list-inside, .bg-gray-200, [data-docsearch-ignore]";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -113,7 +116,8 @@ new Crawler({
       pathsToMatch: ["https://tailwindcss-v0.netlify.app/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = "p.text-base, .list-inside, .bg-gray-200";
+        const toRemove =
+          "p.text-base, .list-inside, .bg-gray-200, [data-docsearch-ignore]";
         $(toRemove).remove();
 
         return helpers.docsearch({
@@ -142,7 +146,8 @@ new Crawler({
       pathsToMatch: ["https://tailwindcss-v0.netlify.app//docs/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = "p.text-base, .list-inside, .bg-gray-200";
+        const toRemove =
+          "p.text-base, .list-inside, .bg-gray-200, [data-docsearch-ignore]";
         $(toRemove).remove();
 
         return helpers.docsearch({

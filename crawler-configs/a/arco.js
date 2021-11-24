@@ -2,7 +2,11 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://arco.design/", "https://arco.design/react/docs/start"],
+  startUrls: [
+    "https://arco.design/vue",
+    "https://arco.design/",
+    "https://arco.design/react",
+  ],
   renderJavaScript: true,
   sitemaps: ["https://arco.design/sitemap.xml"],
   exclusionPatterns: [],
@@ -12,10 +16,30 @@ new Crawler({
   actions: [
     {
       indexName: "arco",
-      pathsToMatch: [
-        "https://arco.design/**",
-        "https://arco.design/react/docs/start**/**",
-      ],
+      pathsToMatch: ["https://arco.design/vue**/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".arco-vue-body h2",
+            content: ".arco-vue-body p, .arco-vue-body li",
+            lvl0: {
+              selectors: ".arco-vue-body h1",
+            },
+            lvl2: ".arco-vue-body h3",
+            lvl3: ".arco-vue-body h4",
+            lvl4: ".arco-vue-body h5",
+            lvl5: ".arco-vue-body h6",
+            tags: {
+              defaultValue: ["vue"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "arco",
+      pathsToMatch: ["https://arco.design/react**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
@@ -28,6 +52,9 @@ new Crawler({
             lvl3: ".ac-content h4",
             lvl4: ".ac-content h5",
             lvl5: ".ac-content h6",
+            tags: {
+              defaultValue: ["react"],
+            },
           },
           indexHeadings: true,
         });
