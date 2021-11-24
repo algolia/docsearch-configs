@@ -2,28 +2,7 @@
   "index_name": "oasisengine",
   "start_urls": [
     {
-      "url": "https://oasisengine.cn/(?P<version>.*?)/docs/",
-      "variables": {
-        "version": [
-          "0.3",
-          "0.4",
-          "0.5",
-          "0.6"
-        ]
-      },
-      "page_rank": 2
-    },
-    {
-      "url": "https://oasisengine.cn/(?P<version>.*?)/api/",
-      "variables": {
-        "version": [
-          "0.3",
-          "0.4",
-          "0.5",
-          "0.6"
-        ]
-      },
-      "page_rank": 1
+      "url": "https://oasisengine.cn/"
     }
   ],
   "sitemap_urls": [
