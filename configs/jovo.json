@@ -2,7 +2,7 @@
   "index_name": "jovo",
   "start_urls": [
     {
-      "url": "https://www.jovo.tech/tutorials/",
+      "url": "https://v3.jovo.tech/tutorials/",
       "page_rank": 1,
       "tags": [
         "v3",
@@ -11,7 +11,7 @@
       "selectors_key": "tutorials"
     },
     {
-      "url": "https://www.jovo.tech/docs/",
+      "url": "https://v3.jovo.tech/docs/",
       "page_rank": 2,
       "tags": [
         "v3",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "url": "https://v4.jovo.tech/docs/",
+      "url": "https://www.jovo.tech/docs/",
       "page_rank": 2,
       "selectors_key": "docs",
       "tags": [
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "url": "https://v4.jovo.tech/marketplace",
+      "url": "https://www.jovo.tech/marketplace/",
       "page_rank": 1,
       "selectors_key": "marketplace",
       "tags": [
