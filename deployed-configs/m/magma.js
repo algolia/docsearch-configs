@@ -2,30 +2,30 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://veui.dev/"],
+  startUrls: ["https://docs.magmacore.org/"],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  sitemaps: ["https://docs.magmacore.org/sitemap.xml"],
+  exclusionPatterns: [
+  ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://veui.dev/**"],
-  schedule: "at 05:00 on Saturday",
+  discoveryPatterns: ["https://docs.magmacore.org/**"],
+  schedule: "at 10:00 on Thursday",
   actions: [
     {
-      indexName: "veui",
-      pathsToMatch: ["https://veui.dev/**"],
+      indexName: "magma",
+      pathsToMatch: ["https://docs.magmacore.org/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content h1",
-            content: ".content p, .content li",
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
             lvl0: {
-              selectors: ".one-menu .veui-menu-item-exact-active",
-              defaultValue: "Documentation",
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Blog",
             },
-            lvl2: ".content h2",
-            lvl3: ".content h3",
-            lvl4: ".content h4",
-            lvl5: ".content h5",
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
           },
           indexHeadings: true,
         });
@@ -33,9 +33,16 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    veui: {
-      attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+    magma: {
+      attributesForFaceting: ["type", "lang", "language", "version", "tags"],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+        "type",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],

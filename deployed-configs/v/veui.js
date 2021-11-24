@@ -2,36 +2,30 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://docs.symbolplatform.com/"],
+  startUrls: ["https://veui.dev/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [
-    "**/**(?<!.html)",
-    "**/**symbol-sdk-typescript-javascript**",
-    "**/**symbol-sdk-typescript-javascript**/**",
-  ],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.symbolplatform.com/**"],
-  schedule: "at 15:00 on Thursday",
+  discoveryPatterns: ["https://veui.dev/**"],
+  schedule: "at 05:00 on Saturday",
   actions: [
     {
-      indexName: "nemtech",
-      pathsToMatch: ["https://docs.symbolplatform.com/**"],
+      indexName: "veui",
+      pathsToMatch: ["https://veui.dev/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".container h2",
-            content: ".container p, .container li, .container td",
+            lvl1: ".content h1",
+            content: ".content p, .content li",
             lvl0: {
-              selectors: ".container h1",
+              selectors: ".one-menu .veui-menu-item-exact-active",
+              defaultValue: "Documentation",
             },
-            lvl2: ".container h3",
-            lvl3: ".container h4",
-            lvl4: ".container h5",
-            lvl5: ".container h6",
-            tags: {
-              defaultValue: ["en"],
-            },
+            lvl2: ".content h2",
+            lvl3: ".content h3",
+            lvl4: ".content h4",
+            lvl5: ".content h5",
           },
           indexHeadings: true,
         });
@@ -39,7 +33,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    nemtech: {
+    veui: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

@@ -2,37 +2,35 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://pay.weixin.qq.com/wiki/doc/",
-    "https://pay.weixin.qq.com/",
-    "https://pay.weixin.qq.com/wiki/doc/api/wxpay/en/pages/index.shtml",
-  ],
-  renderJavaScript: true,
+  startUrls: ["https://docs.symbolplatform.com/"],
+  renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [
+    "**/**symbol-sdk-typescript-javascript**",
+    "**/**symbol-sdk-typescript-javascript**/**",
+  ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://pay.weixin.qq.com/**"],
-  schedule: "at 19:00 on Friday",
+  discoveryPatterns: ["https://docs.symbolplatform.com/**"],
+  schedule: "at 15:00 on Thursday",
   actions: [
     {
-      indexName: "tencent_wechatpay",
-      pathsToMatch: [
-        "https://pay.weixin.qq.com/wiki/doc/**",
-        "https://pay.weixin.qq.com/wiki/doc/api/wxpay/en/pages/index.shtml**/**",
-      ],
+      indexName: "nemtech",
+      pathsToMatch: ["https://docs.symbolplatform.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".doc-main h2, #list-wrp .name",
-            content: ".part p, .part li, #list-wrp p",
+            lvl1: ".container h2",
+            content: ".container p, .container li, .container td",
             lvl0: {
-              selectors: ".title h2",
-              defaultValue: "Documentation",
+              selectors: ".container h1",
             },
-            lvl2: ".part h3",
-            lvl3: ".part h4",
-            lvl4: ".part h5",
-            lvl5: ".part h6",
+            lvl2: ".container h3",
+            lvl3: ".container h4",
+            lvl4: ".container h5",
+            lvl5: ".container h6",
+            tags: {
+              defaultValue: ["en"],
+            },
           },
           indexHeadings: true,
         });
@@ -40,8 +38,8 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    tencent_wechatpay: {
-      attributesForFaceting: ["type", "lang", "language"],
+    nemtech: {
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
@@ -103,7 +101,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

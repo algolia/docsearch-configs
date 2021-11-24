@@ -15,7 +15,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/_**", "**/_**/**", "**/**?**", "**/**?**/**"],
+  exclusionPatterns: ["**/_**", "**/_**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://pytorch.org/**"],
   schedule: "at 00:50 on Friday",

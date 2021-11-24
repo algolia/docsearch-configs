@@ -29,6 +29,7 @@ new Crawler({
         const toRemove =
           "p.text-base, .list-inside, .bg-gray-200, [data-docsearch-ignore]";
         $(toRemove).remove();
+        const lvl0 = $("#nav .text-cyan-700").parent().parent().siblings().text();
 
         return helpers.docsearch({
           recordProps: {
@@ -37,7 +38,7 @@ new Crawler({
               "#content-wrapper > p, #content-wrapper > ul li, #content-wrapper td:not(:first-child), #content-wrapper .text-gray-600",
             lvl0: {
               selectors: "",
-              defaultValue: "Documentation",
+              defaultValue: lvl0,
             },
             lvl2: "#content-wrapper h2",
             lvl3: "#content-wrapper h3",
@@ -59,6 +60,7 @@ new Crawler({
         const toRemove =
           "p.text-base, .list-inside, .bg-gray-200, [data-docsearch-ignore]";
         $(toRemove).remove();
+        const lvl0 = $("#nav .text-cyan-700").parent().parent().siblings().text();
 
         return helpers.docsearch({
           recordProps: {
@@ -67,7 +69,7 @@ new Crawler({
               "#content-wrapper > p, #content-wrapper > ul li, #content-wrapper td:not(:first-child), #content-wrapper .text-gray-600",
             lvl0: {
               selectors: "",
-              defaultValue: "Documentation",
+              defaultValue: lvl0,
             },
             lvl2: "#content-wrapper h2",
             lvl3: "#content-wrapper h3",
@@ -89,6 +91,7 @@ new Crawler({
         const toRemove =
           "p.text-base, .list-inside, .bg-gray-200, [data-docsearch-ignore]";
         $(toRemove).remove();
+        const lvl0 = $("#nav .opacity-25").parent().parent().parent().siblings().text();
 
         return helpers.docsearch({
           recordProps: {
@@ -97,7 +100,7 @@ new Crawler({
               ".markdown > p, .markdown > ul li, .markdown td:not(:first-child), .markdown .text-gray-600",
             lvl0: {
               selectors: "",
-              defaultValue: "Documentation",
+              defaultValue: lvl0,
             },
             lvl2: ".markdown h2",
             lvl3: ".markdown h3",
@@ -113,12 +116,13 @@ new Crawler({
     },
     {
       indexName: "tailwindcss",
-      pathsToMatch: ["https://tailwindcss-v0.netlify.app/docs/**"],
+      pathsToMatch: ["https://tailwindcss-v0.netlify.app/docs/**", "https://tailwindcss-v0.netlify.app//docs/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove =
           "p.text-base, .list-inside, .bg-gray-200, [data-docsearch-ignore]";
         $(toRemove).remove();
+        const lvl0 = $("#nav a[class*='font-semibold']").parent().parent().siblings().text();
 
         return helpers.docsearch({
           recordProps: {
@@ -127,7 +131,7 @@ new Crawler({
               ".markdown > p, .markdown > ul li, .markdown td:first-child, .markdown .text-xl",
             lvl0: {
               selectors: "",
-              defaultValue: "Documentation",
+              defaultValue: lvl0,
             },
             lvl2: ".markdown h2",
             lvl3: ".markdown h3",
@@ -140,37 +144,7 @@ new Crawler({
           indexHeadings: true,
         });
       },
-    },
-    {
-      indexName: "tailwindcss",
-      pathsToMatch: ["https://tailwindcss-v0.netlify.app//docs/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove =
-          "p.text-base, .list-inside, .bg-gray-200, [data-docsearch-ignore]";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".markdown h1",
-            content:
-              ".markdown > p, .markdown > ul li, .markdown td:first-child, .markdown .text-xl",
-            lvl0: {
-              selectors: "",
-              defaultValue: "Documentation",
-            },
-            lvl2: ".markdown h2",
-            lvl3: ".markdown h3",
-            lvl4: ".markdown h4",
-            lvl5: ".markdown h5",
-            version: {
-              defaultValue: ["v0"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
+    }
   ],
   initialIndexSettings: {
     tailwindcss: {

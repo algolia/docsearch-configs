@@ -2,29 +2,37 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://ignite.apache.org/docs/", "https://ignite.apache.org/"],
-  renderJavaScript: false,
-  sitemaps: ["https://ignite.apache.org/sitemap.xml"],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  startUrls: [
+    "https://pay.weixin.qq.com/wiki/doc/",
+    "https://pay.weixin.qq.com/",
+    "https://pay.weixin.qq.com/wiki/doc/api/wxpay/en/pages/index.shtml",
+  ],
+  renderJavaScript: true,
+  sitemaps: [],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://ignite.apache.org/**"],
-  schedule: "at 01:30 on Tuesday",
+  discoveryPatterns: ["https://pay.weixin.qq.com/**"],
+  schedule: "at 19:00 on Friday",
   actions: [
     {
-      indexName: "apache_ignite",
-      pathsToMatch: ["https://ignite.apache.org/docs/**"],
+      indexName: "tencent_wechatpay",
+      pathsToMatch: [
+        "https://pay.weixin.qq.com/wiki/doc/**",
+        "https://pay.weixin.qq.com/wiki/doc/api/wxpay/en/pages/index.shtml**/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h2",
-            content: "article p, article li",
+            lvl1: ".doc-main h2, #list-wrp .name",
+            content: ".part p, .part li, #list-wrp p",
             lvl0: {
-              selectors: "article h1",
+              selectors: ".title h2",
+              defaultValue: "Documentation",
             },
-            lvl2: "article h3",
-            lvl3: "article h4",
-            lvl4: "article h5",
-            lvl5: "article h6",
+            lvl2: ".part h3",
+            lvl3: ".part h4",
+            lvl4: ".part h5",
+            lvl5: ".part h6",
           },
           indexHeadings: true,
         });
@@ -32,8 +40,8 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    apache_ignite: {
-      attributesForFaceting: ["type", "lang", "version"],
+    tencent_wechatpay: {
+      attributesForFaceting: ["type", "lang", "language"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

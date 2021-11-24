@@ -2,32 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://docs.magmacore.org/"],
+  startUrls: ["http://manuals.fibaro.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://docs.magmacore.org/sitemap.xml"],
-  exclusionPatterns: [
-    "https://docs.magmacore.org/(?!docs/)**",
-    "https://docs.magmacore.org/(?!docs/)**/**",
-  ],
+  sitemaps: ["https://manuals.fibaro.com/sitemap.xml"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.magmacore.org/**"],
-  schedule: "at 10:00 on Thursday",
+  discoveryPatterns: ["http://manuals.fibaro.com/**"],
+  schedule: "at 01:10 on Wednesday",
   actions: [
     {
-      indexName: "magma",
-      pathsToMatch: ["https://docs.magmacore.org/**"],
+      indexName: "fibaro_manuals",
+      pathsToMatch: ["http://manuals.fibaro.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".post h1",
-            content: ".post article p, .post article li",
+            lvl1: ".main h2",
+            content: ".main p, .main li",
             lvl0: {
-              selectors: ".navGroup > h3.collapsible",
-              defaultValue: "Blog",
+              selectors: ".main h1",
             },
-            lvl2: ".post h2",
-            lvl3: ".post h3",
-            lvl4: ".post h4",
+            lvl2: ".main h3",
+            lvl3: ".main h4",
+            lvl4: ".main h5",
+            lvl5: ".main h6",
           },
           indexHeadings: true,
         });
@@ -35,16 +32,9 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    magma: {
-      attributesForFaceting: ["type", "lang", "language", "version", "tags"],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-        "type",
-      ],
+    fibaro_manuals: {
+      attributesForFaceting: ["type", "lang", "language"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],

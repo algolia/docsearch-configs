@@ -11,7 +11,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/_**", "**/_**/**", "**/"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.wpcontentcrawler.com/**"],
   schedule: "at 10:30 on Saturday",

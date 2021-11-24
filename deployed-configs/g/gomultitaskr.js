@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://ui.gomultitaskr.com/**"],
   schedule: "at 06:30 on Wednesday",

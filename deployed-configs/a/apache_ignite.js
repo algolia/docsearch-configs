@@ -2,29 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["http://manuals.fibaro.com/"],
+  startUrls: ["https://ignite.apache.org/docs/", "https://ignite.apache.org/"],
   renderJavaScript: false,
-  sitemaps: ["https://manuals.fibaro.com/sitemap.xml"],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  sitemaps: ["https://ignite.apache.org/sitemap.xml"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["http://manuals.fibaro.com/**"],
-  schedule: "at 01:10 on Wednesday",
+  discoveryPatterns: ["https://ignite.apache.org/**"],
+  schedule: "at 01:30 on Tuesday",
   actions: [
     {
-      indexName: "fibaro_manuals",
-      pathsToMatch: ["http://manuals.fibaro.com/**"],
+      indexName: "apache_ignite",
+      pathsToMatch: ["https://ignite.apache.org/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".main h2",
-            content: ".main p, .main li",
+            lvl1: "article h2",
+            content: "article p, article li",
             lvl0: {
-              selectors: ".main h1",
+              selectors: "article h1",
             },
-            lvl2: ".main h3",
-            lvl3: ".main h4",
-            lvl4: ".main h5",
-            lvl5: ".main h6",
+            lvl2: "article h3",
+            lvl3: "article h4",
+            lvl4: "article h5",
+            lvl5: "article h6",
           },
           indexHeadings: true,
         });
@@ -32,8 +32,8 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    fibaro_manuals: {
-      attributesForFaceting: ["type", "lang", "language"],
+    apache_ignite: {
+      attributesForFaceting: ["type", "lang", "version"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
@@ -95,6 +95,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });
