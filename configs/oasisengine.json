@@ -2,7 +2,7 @@
   "index_name": "oasisengine",
   "start_urls": [
     {
-      "url": "https://oasisengine.cn/"
+      "url": "https://oasisengine.cn/(?P<version>.*?)/"
     }
   ],
   "sitemap_urls": [
