@@ -1,10 +1,10 @@
 {
-  "index_name": "diagramalt",
+  "index_name": "diagram",
   "start_urls": [
-    "https://docs.dhtmlx.com/diagramalt/"
+    "https://docs.dhtmlx.com/diagram/"
   ],
   "sitemap_urls": [
-    "https://docs.dhtmlx.com/diagramalt/sitemap.xml"
+    "https://docs.dhtmlx.com/diagram/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
