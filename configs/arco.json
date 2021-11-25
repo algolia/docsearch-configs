@@ -9,10 +9,6 @@
     {
       "url": "https://arco.design/react",
       "tags": ["react"]
-    },
-    {
-      "url": "https://arco.design.+?(en-US)",
-      "tags": ["en-US"]
     }
   ],
   "sitemap_urls": ["https://arco.design/sitemap.xml"],
@@ -25,7 +21,12 @@
       "lvl3": ".ac-content h4",
       "lvl4": ".ac-content h5",
       "lvl5": ".ac-content h6",
-      "text": ".ac-content p, .ac-content li"
+      "text": ".ac-content p, .ac-content li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
     },
     "vue": {
       "lvl0": ".arco-vue-body h1",
@@ -34,10 +35,17 @@
       "lvl3": ".arco-vue-body h4",
       "lvl4": ".arco-vue-body h5",
       "lvl5": ".arco-vue-body h6",
-      "text": ".arco-vue-body p, .arco-vue-body li"
+      "text": ".arco-vue-body p, .arco-vue-body li",
+      "lang": {
+        "selector": "/html/@lang",
+        "type": "xpath",
+        "global": true
+      }
     }
   },
-  "js_render": true,
+  "custom_settings": {
+    "attributesForFaceting": ["lang", "tags"]
+  },
   "conversation_id": ["1693490441"],
   "nb_hits": 11998
 }
