@@ -1,5 +1,5 @@
 {
-  "index_name": "kanbanalt",
+  "index_name": "kanban",
   "start_urls": ["https://docs.dhtmlx.com/kanban/"],
   "sitemap_urls": ["https://docs.dhtmlx.com/kanban/sitemap.xml"],
   "sitemap_alternate_links": true,
