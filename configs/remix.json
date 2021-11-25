@@ -1,0 +1,16 @@
+{
+  "index_name": "remix",
+  "start_urls": ["https://remix.run/docs"],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": ".md-prose h1",
+    "lvl1": ".md-prose h2",
+    "lvl2": ".md-prose h3",
+    "lvl3": ".md-prose h4",
+    "lvl4": ".md-prose h5",
+    "lvl5": ".md-prose h6",
+    "text": ".md-prose p, .md-prose li"
+  },
+  "conversation_id": ["1706117549"],
+  "nb_hits": 3250
+}

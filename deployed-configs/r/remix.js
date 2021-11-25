@@ -2,84 +2,29 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://arco.design/vue",
-    "https://arco.design/",
-    "https://arco.design/react",
-    "https://arco.design.+/?(en-US)",
-    "https://arco.design.+/",
-  ],
-  renderJavaScript: true,
-  sitemaps: ["https://arco.design/sitemap.xml"],
+  startUrls: ["https://remix.run/docs", "https://remix.run/"],
+  renderJavaScript: false,
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://arco.design/**", "https://arco.design.+/**"],
-  schedule: "at 01:40 on Tuesday",
+  discoveryPatterns: ["https://remix.run/**"],
+  schedule: "at 10:00 on Friday",
   actions: [
     {
-      indexName: "arco",
-      pathsToMatch: ["https://arco.design/vue**/**"],
+      indexName: "remix",
+      pathsToMatch: ["https://remix.run/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".arco-vue-body h2",
-            content: ".arco-vue-body p, .arco-vue-body li",
+            lvl1: ".md-prose h2",
+            content: ".md-prose p, .md-prose li",
             lvl0: {
-              selectors: ".arco-vue-body h1",
+              selectors: ".md-prose h1",
             },
-            lvl2: ".arco-vue-body h3",
-            lvl3: ".arco-vue-body h4",
-            lvl4: ".arco-vue-body h5",
-            lvl5: ".arco-vue-body h6",
-            tags: {
-              defaultValue: ["vue"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "arco",
-      pathsToMatch: ["https://arco.design/react**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".ac-content h2",
-            content: ".ac-content p, .ac-content li",
-            lvl0: {
-              selectors: ".ac-content h1",
-            },
-            lvl2: ".ac-content h3",
-            lvl3: ".ac-content h4",
-            lvl4: ".ac-content h5",
-            lvl5: ".ac-content h6",
-            tags: {
-              defaultValue: ["react"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "arco",
-      pathsToMatch: ["https://arco.design.+?(en-US)**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".ac-content h2",
-            content: ".ac-content p, .ac-content li",
-            lvl0: {
-              selectors: ".ac-content h1",
-            },
-            lvl2: ".ac-content h3",
-            lvl3: ".ac-content h4",
-            lvl4: ".ac-content h5",
-            lvl5: ".ac-content h6",
-            tags: {
-              defaultValue: ["en-US"],
-            },
+            lvl2: ".md-prose h3",
+            lvl3: ".md-prose h4",
+            lvl4: ".md-prose h5",
+            lvl5: ".md-prose h6",
           },
           indexHeadings: true,
         });
@@ -87,7 +32,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    arco: {
+    remix: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
