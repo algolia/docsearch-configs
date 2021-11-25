@@ -1,11 +1,7 @@
 {
   "index_name": "kanbanalt",
-  "start_urls": [
-    "https://docs.dhtmlx.com/kanban/"
-  ],
-  "sitemap": [
-    "https://docs.dhtmlx.com/kanban/sitemap.xml"
-  ],
+  "start_urls": ["https://docs.dhtmlx.com/kanban/"],
+  "sitemap_urls": ["https://docs.dhtmlx.com/kanban/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
@@ -25,12 +21,7 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": [
-      "language",
-      "version",
-      "type",
-      "docusaurus_tag"
-    ],
+    "attributesForFaceting": ["language", "version", "type", "docusaurus_tag"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -40,8 +31,6 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1703859966"
-  ],
+  "conversation_id": ["1703859966"],
   "nb_hits": 743
 }
