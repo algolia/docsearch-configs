@@ -1,25 +1,43 @@
 {
   "index_name": "arco",
   "start_urls": [
-    "https://arco.design/",
-    "https://arco.design/react/docs/start"
+    {
+      "url": "https://arco.design/vue",
+      "tags": ["vue"],
+      "selectors_key": "vue"
+    },
+    {
+      "url": "https://arco.design/react",
+      "tags": ["react"]
+    },
+    {
+      "url": "https://arco.design.+?(en-US)",
+      "tags": ["en-US"]
+    }
   ],
-  "sitemap_urls": [
-    "https://arco.design/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://arco.design/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
-    "lvl0": ".ac-content h1",
-    "lvl1": ".ac-content h2",
-    "lvl2": ".ac-content h3",
-    "lvl3": ".ac-content h4",
-    "lvl4": ".ac-content h5",
-    "lvl5": ".ac-content h6",
-    "text": ".ac-content p, .ac-content li"
+    "default": {
+      "lvl0": ".ac-content h1",
+      "lvl1": ".ac-content h2",
+      "lvl2": ".ac-content h3",
+      "lvl3": ".ac-content h4",
+      "lvl4": ".ac-content h5",
+      "lvl5": ".ac-content h6",
+      "text": ".ac-content p, .ac-content li"
+    },
+    "vue": {
+      "lvl0": ".arco-vue-body h1",
+      "lvl1": ".arco-vue-body h2",
+      "lvl2": ".arco-vue-body h3",
+      "lvl3": ".arco-vue-body h4",
+      "lvl4": ".arco-vue-body h5",
+      "lvl5": ".arco-vue-body h6",
+      "text": ".arco-vue-body p, .arco-vue-body li"
+    }
   },
   "js_render": true,
-  "conversation_id": [
-    "1693490441"
-  ],
+  "conversation_id": ["1693490441"],
   "nb_hits": 11998
 }
