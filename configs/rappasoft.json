@@ -1,8 +1,6 @@
 {
   "index_name": "rappasoft",
-  "start_urls": [
-    "https://rappasoft.com/docs"
-  ],
+  "start_urls": ["https://rappasoft.com/docs"],
   "stop_urls": [],
   "selectors": {
     "lvl0": "main h1",
@@ -12,11 +10,10 @@
     "lvl4": "main h5",
     "text": "main p, main li"
   },
-  "selectors_exclude": [
-    "nav"
-  ],
-  "conversation_id": [
-    "1695597685"
-  ],
-  "nb_hits": 5818
+  "selectors_exclude": ["nav"],
+  "conversation_id": ["1695597685"],
+  "custom_settings": {
+    "attributesForFaceting": ["version", "project"]
+  },
+  "nb_hits": 2476
 }
