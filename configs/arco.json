@@ -3,15 +3,22 @@
   "start_urls": [
     {
       "url": "https://arco.design/vue",
-      "tags": ["vue"],
+      "tags": [
+        "vue"
+      ],
       "selectors_key": "vue"
     },
     {
       "url": "https://arco.design/react",
-      "tags": ["react"]
-    }
+      "tags": [
+        "react"
+      ]
+    },
+    "https://arco.design/"
   ],
-  "sitemap_urls": ["https://arco.design/sitemap.xml"],
+  "sitemap_urls": [
+    "https://arco.design/sitemap.xml"
+  ],
   "stop_urls": [],
   "selectors": {
     "default": {
@@ -43,9 +50,15 @@
       }
     }
   },
+  "js_render": true,
   "custom_settings": {
-    "attributesForFaceting": ["lang", "tags"]
+    "attributesForFaceting": [
+      "lang",
+      "tags"
+    ]
   },
-  "conversation_id": ["1693490441"],
-  "nb_hits": 11998
+  "conversation_id": [
+    "1693490441"
+  ],
+  "nb_hits": 6182
 }
