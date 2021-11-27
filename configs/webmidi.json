@@ -2,17 +2,17 @@
   "index_name": "webmidi",
   "start_urls": [
     {
-      "url": "https://djipco.github.io/webmidi/api/",
+      "url": "https://webmidijs.org/api/",
       "selectors_key": "docs"
     },
     {
-      "url": "https://djipco.github.io/webmidi/docs/",
+      "url": "https://webmidijs.org/docs/",
       "selectors_key": "docs"
     },
-    "https://djipco.github.io/webmidi/"
+    "https://webmidijs.org/"
   ],
   "sitemap_urls": [
-    "https://djipco.github.io/webmidi/sitemap.xml"
+    "https://webmidijs.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
