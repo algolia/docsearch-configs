@@ -1,10 +1,10 @@
 {
-  "index_name": "diagramalt",
+  "index_name": "kanban",
   "start_urls": [
-    "https://docs.dhtmlx.com/diagramalt/"
+    "https://docs.dhtmlx.com/kanban/"
   ],
   "sitemap_urls": [
-    "https://docs.dhtmlx.com/diagramalt/sitemap.xml"
+    "https://docs.dhtmlx.com/kanban/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
@@ -41,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1647775142"
+    "1703859966"
   ],
-  "nb_hits": 3053
+  "nb_hits": 745
 }
