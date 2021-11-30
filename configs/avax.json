@@ -1,7 +1,14 @@
 {
   "index_name": "avax",
   "start_urls": [
-    "https://docs.avax.network"
+    {
+      "url": "https://docs.avax.network",
+      "tags": ["prod"]
+    },
+    {
+      "url": "https://docs-beta.avax.network/",
+      "tags": ["beta"]
+    }
   ],
   "stop_urls": [],
   "selectors": {
