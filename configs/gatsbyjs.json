@@ -34,7 +34,7 @@
     }
   ],
   "sitemap_urls": [
-    "https://www.gatsbyjs.com/sitemap.xml"
+    "https://www.gatsbyjs.com/sitemap/sitemap-0.xml"
   ],
   "stop_urls": [
     "/packages/",
