@@ -2,16 +2,12 @@
   "index_name": "avax",
   "start_urls": [
     {
-      "url": "https://docs.avax.network",
-      "tags": [
-        "prod"
-      ]
+      "url": "https://docs.avax.network/",
+      "tags": ["prod"]
     },
     {
       "url": "https://docs-beta.avax.network/",
-      "tags": [
-        "beta"
-      ]
+      "tags": ["beta"]
     }
   ],
   "selectors": {
@@ -48,8 +44,6 @@
       "type"
     ]
   },
-  "conversation_id": [
-    "1699668986"
-  ],
+  "conversation_id": ["1699668986"],
   "nb_hits": 8060
 }
