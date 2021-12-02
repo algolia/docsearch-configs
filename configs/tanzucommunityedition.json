@@ -8,17 +8,23 @@
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "",
+    "lvl0": "header.subproject-specific a.text-logo",
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content h5",
+    "text": ".docs-content p, .docs-content li",
+    "version": {
+      "selector": "#dropdownMenuButton",
       "global": true,
       "default_value": "Documentation"
-    },
-    "lvl1": "main h1",
-    "lvl2": "main h2",
-    "lvl3": "main h3",
-    "lvl4": "main h4",
-    "lvl5": "main h5",
-    "text": "main p, main li"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
   },
   "conversation_id": [
     "1702016197"
