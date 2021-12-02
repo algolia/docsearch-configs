@@ -1,6 +1,6 @@
 {
   "index_name": "px4",
-  "sitemap_urls": ["https://docs.px4.io/sitemap.xml"],
+  "sitemap_urls": ["https://docs.px4.io/sitemap.xml","https://docs.px4.io/master/sitemap.xml"],
   "start_urls": [
     {
       "url": "https://docs.px4.io/master/",
