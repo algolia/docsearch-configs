@@ -12,14 +12,14 @@
     {
       "url": "https://sdk.gooddata.com/gooddata-ui-apidocs/v(?P<version>.*?)/",
       "variables": {
-        "version": ["8.5.0", "8.6.0", "Next"]
+        "version": ["8.5.0", "8.6.0", "8.7.0", "Next"]
       },
       "tags": ["gooddata-ui-apidocs"]
     },
     {
       "url": "https://sdk.gooddata.com/gooddata-ui-apidocs/v(?P<version>.*?)/docs/index.html",
       "variables": {
-        "version": ["8.5.0", "8.6.0", "Next"]
+        "version": ["8.5.0", "8.6.0", "8.7.0", "Next"]
       },
       "tags": ["gooddata-ui-apidocs"]
     }
@@ -29,6 +29,7 @@
     "https://sdk.gooddata.com/gooddata-ui/sitemap.xml",
     "https://sdk.gooddata.com/gooddata-ui-apidocs/v8.5.0/sitemap.xml",
     "https://sdk.gooddata.com/gooddata-ui-apidocs/v8.6.0/sitemap.xml",
+    "https://sdk.gooddata.com/gooddata-ui-apidocs/v8.7.0/sitemap.xml",
     "https://sdk.gooddata.com/gooddata-ui-apidocs/vNext/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
