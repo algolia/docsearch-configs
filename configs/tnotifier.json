@@ -1,6 +1,6 @@
 {
-  "index_name": "casthub",
-  "start_urls": ["https://docs.casthub.app/"],
+  "index_name": "tnotifier",
+  "start_urls": ["https://docs.tnotifier.app/"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
