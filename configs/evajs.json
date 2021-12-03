@@ -18,7 +18,25 @@
     "lvl3": ".content__default h3",
     "lvl4": ".content__default h4",
     "lvl5": ".content__default h5",
-    "text": ".content__default p, .content__default li",
+    "text": ".content__default p, .content__default li"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
   },
   "conversation_id": [
     "1700598506"
