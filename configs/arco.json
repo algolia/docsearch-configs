@@ -11,7 +11,9 @@
       "tags": ["react"]
     },
     "https://arco.design/",
-    "https://arco.design/vue/docs/start"
+    "https://arco.design/vue/docs/start",
+    "https://arco.design/react/en-US/docs/start",
+    "https://arco.design/vue/en-US/docs/start"
   ],
   "sitemap_urls": ["https://arco.design/sitemap.xml"],
   "stop_urls": [],
