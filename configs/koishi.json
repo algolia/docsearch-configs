@@ -6,6 +6,14 @@
       "tags": ["v1"]
     },
     {
+      "url": "https://koishi.js.org/v3/",
+      "tags": ["v3"]
+    },
+    {
+      "url": "https://koishi.js.org/v4/",
+      "tags": ["v4"]
+    },
+    {
       "url": "https://koishi.js.org/",
       "tags": ["latest"]
     }
