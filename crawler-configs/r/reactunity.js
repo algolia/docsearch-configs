@@ -2,38 +2,39 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://www.krakend.io/docs/", "https://www.krakend.io/"],
+  startUrls: ["https://reactunity.github.io/"],
   renderJavaScript: false,
-  sitemaps: ["https://www.krakend.io/sitemap.xml"],
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.krakend.io/**"],
-  schedule: "at 01:40 on Thursday",
+  discoveryPatterns: ["https://reactunity.github.io/**"],
+  schedule: "at 10:00 on Friday",
   actions: [
     {
-      indexName: "krakend",
-      pathsToMatch: ["https://www.krakend.io/docs/**"],
+      indexName: "reactunity",
+      pathsToMatch: ["https://reactunity.github.io/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "section h2",
-            content: "section p, section li",
+            lvl1: "article h1",
+            content: "article p, article li",
             lvl0: {
-              selectors: "section h1",
+              selectors: "",
+              defaultValue: "Documentation",
             },
-            lvl2: "section h3",
-            lvl3: "section h4",
-            lvl4: "section h5",
-            lvl5: "section h6",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5",
           },
-          indexHeadings: { from: 1, to: 6 },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
-    krakend: {
-      attributesForFaceting: ["type", "lang", "language", "version"],
+    reactunity: {
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

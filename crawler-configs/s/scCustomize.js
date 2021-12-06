@@ -3,135 +3,115 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://koishi.js.org/v1/",
-    "https://koishi.js.org/",
-    "https://koishi.js.org/v3/",
-    "https://koishi.js.org/v4/",
+    "https://samuel-marsh.github.io/scCustomize/index.html",
+    "https://samuel-marsh.github.io/",
+    "https://samuel-marsh.github.io/scCustomize/reference",
+    "https://samuel-marsh.github.io/scCustomize/articles",
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [],
+  exclusionPatterns: [
+    "**/reference/",
+    "**/reference/index.html",
+    "**/articles/",
+    "**/articles/index.html",
+  ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://koishi.js.org/**"],
-  schedule: "at 01:30 on Thursday",
+  discoveryPatterns: ["https://samuel-marsh.github.io/**"],
+  schedule: "at 15:00 on Friday",
   actions: [
     {
-      indexName: "koishi",
-      pathsToMatch: ["https://koishi.js.org/v1/**"],
+      indexName: "scCustomize",
+      pathsToMatch: [
+        "https://samuel-marsh.github.io/scCustomize/index.html**/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
+        const toRemove = ".dont-index";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".theme-default-content h1",
-            content: ".theme-default-content p, .theme-default-content li",
+            lvl1: ".contents h2",
+            content: ".contents p, .contents li, .contents .pre",
             lvl0: {
-              selectors: "p.sidebar-heading.open",
-              defaultValue: "Documentation",
+              selectors: ".contents h1",
+              defaultValue: "pkgdown Home page",
             },
-            lvl2: ".theme-default-content h2",
-            lvl3: ".theme-default-content h3",
-            lvl4: ".theme-default-content h4",
-            lvl5: ".theme-default-content h5",
+            lvl2: ".contents h3",
+            lvl3: ".ref-arguments td, .ref-description",
             tags: {
-              defaultValue: ["v1"],
+              defaultValue: ["homepage"],
             },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
     {
-      indexName: "koishi",
-      pathsToMatch: ["https://koishi.js.org/v3/**"],
+      indexName: "scCustomize",
+      pathsToMatch: [
+        "https://samuel-marsh.github.io/scCustomize/reference**/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
+        const toRemove = ".dont-index";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".theme-default-content h1",
-            content: ".theme-default-content p, .theme-default-content li",
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
             lvl0: {
-              selectors: "p.sidebar-heading.open",
-              defaultValue: "Documentation",
+              selectors: ".contents h1",
             },
-            lvl2: ".theme-default-content h2",
-            lvl3: ".theme-default-content h3",
-            lvl4: ".theme-default-content h4",
-            lvl5: ".theme-default-content h5",
+            lvl2: ".ref-arguments th",
+            lvl3: ".ref-arguments td, .ref-description",
             tags: {
-              defaultValue: ["v3"],
+              defaultValue: ["reference"],
             },
           },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
     {
-      indexName: "koishi",
-      pathsToMatch: ["https://koishi.js.org/v4/**"],
+      indexName: "scCustomize",
+      pathsToMatch: [
+        "https://samuel-marsh.github.io/scCustomize/articles**/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
+        const toRemove = ".dont-index";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".theme-default-content h1",
-            content: ".theme-default-content p, .theme-default-content li",
+            lvl1: ".contents .name",
+            content: ".contents p, .contents li",
             lvl0: {
-              selectors: "p.sidebar-heading.open",
-              defaultValue: "Documentation",
+              selectors: ".contents h1",
             },
-            lvl2: ".theme-default-content h2",
-            lvl3: ".theme-default-content h3",
-            lvl4: ".theme-default-content h4",
-            lvl5: ".theme-default-content h5",
+            lvl2: ".contents h2, .contents h3",
             tags: {
-              defaultValue: ["v4"],
+              defaultValue: ["articles"],
             },
           },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "koishi",
-      pathsToMatch: ["https://koishi.js.org/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".theme-default-content h1",
-            content: ".theme-default-content p, .theme-default-content li",
-            lvl0: {
-              selectors: "p.sidebar-heading.open",
-              defaultValue: "Documentation",
-            },
-            lvl2: ".theme-default-content h2",
-            lvl3: ".theme-default-content h3",
-            lvl4: ".theme-default-content h4",
-            lvl5: ".theme-default-content h5",
-            tags: {
-              defaultValue: ["latest"],
-            },
-          },
-          indexHeadings: true,
+          indexHeadings: { from: 2, to: 6 },
         });
       },
     },
   ],
   initialIndexSettings: {
-    koishi: {
-      attributesForFaceting: ["type", "lang", "tags"],
-      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+    scCustomize: {
+      attributesForFaceting: ["type", "lang"],
+      attributesToRetrieve: [
+        "hierarchy",
+        "content",
+        "anchor",
+        "url",
+        "url_without_anchor",
+      ],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
@@ -192,6 +172,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

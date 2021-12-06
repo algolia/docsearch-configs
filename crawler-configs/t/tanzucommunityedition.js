@@ -2,38 +2,42 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://www.krakend.io/docs/", "https://www.krakend.io/"],
+  startUrls: [
+    "https://tanzucommunityedition.io/docs/",
+    "https://tanzucommunityedition.io/",
+  ],
   renderJavaScript: false,
-  sitemaps: ["https://www.krakend.io/sitemap.xml"],
+  sitemaps: ["https://tanzucommunityedition.io/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.krakend.io/**"],
-  schedule: "at 01:40 on Thursday",
+  discoveryPatterns: ["https://tanzucommunityedition.io/**"],
+  schedule: "at 19:00 on Friday",
   actions: [
     {
-      indexName: "krakend",
-      pathsToMatch: ["https://www.krakend.io/docs/**"],
+      indexName: "tanzucommunityedition",
+      pathsToMatch: ["https://tanzucommunityedition.io/docs/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "section h2",
-            content: "section p, section li",
+            lvl1: ".docs-content h1",
+            content: ".docs-content p, .docs-content li",
             lvl0: {
-              selectors: "section h1",
+              selectors: "header.subproject-specific a.text-logo",
             },
-            lvl2: "section h3",
-            lvl3: "section h4",
-            lvl4: "section h5",
-            lvl5: "section h6",
+            lvl2: ".docs-content h2",
+            lvl3: ".docs-content h3",
+            lvl4: ".docs-content h4",
+            lvl5: ".docs-content h5",
+            version: "#dropdownMenuButton",
           },
-          indexHeadings: { from: 1, to: 6 },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
-    krakend: {
-      attributesForFaceting: ["type", "lang", "language", "version"],
+    tanzucommunityedition: {
+      attributesForFaceting: ["type", "lang", "version"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

@@ -2,38 +2,44 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://www.krakend.io/docs/", "https://www.krakend.io/"],
-  renderJavaScript: false,
-  sitemaps: ["https://www.krakend.io/sitemap.xml"],
-  exclusionPatterns: [],
+  startUrls: [
+    "https://workbench.gusto.com/",
+    "https://workbench.gusto.com/getting-started/engineers/",
+  ],
+  renderJavaScript: true,
+  sitemaps: ["https://workbench.gusto.com/sitemap/sitemap-0.xml"],
+  exclusionPatterns: ["**/\\?**", "**/\\?**/**"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.krakend.io/**"],
-  schedule: "at 01:40 on Thursday",
+  discoveryPatterns: ["https://workbench.gusto.com/**"],
+  schedule: "at 10:30 on Saturday",
   actions: [
     {
-      indexName: "krakend",
-      pathsToMatch: ["https://www.krakend.io/docs/**"],
+      indexName: "workbench",
+      pathsToMatch: [
+        "https://workbench.gusto.com/**",
+        "https://workbench.gusto.com/getting-started/engineers/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "section h2",
-            content: "section p, section li",
+            lvl1: ".DocSearch-content h2",
+            content: ".DocSearch-content p, .DocSearch-content li",
             lvl0: {
-              selectors: "section h1",
+              selectors: ".DocSearch-content h1",
             },
-            lvl2: "section h3",
-            lvl3: "section h4",
-            lvl4: "section h5",
-            lvl5: "section h6",
+            lvl2: ".DocSearch-content h3",
+            lvl3: ".DocSearch-content h4",
+            lvl4: ".DocSearch-content h5",
+            lvl5: ".DocSearch-content h6",
           },
-          indexHeadings: { from: 1, to: 6 },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
-    krakend: {
-      attributesForFaceting: ["type", "lang", "language", "version"],
+    workbench: {
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

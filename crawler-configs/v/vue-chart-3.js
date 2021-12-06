@@ -2,22 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://koishi.js.org/v1/",
-    "https://koishi.js.org/",
-    "https://koishi.js.org/v3/",
-    "https://koishi.js.org/v4/",
-  ],
+  startUrls: ["https://vue-chart-3.netlify.app/"],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://koishi.js.org/**"],
-  schedule: "at 01:30 on Thursday",
+  discoveryPatterns: ["https://vue-chart-3.netlify.app/**"],
+  schedule: "at 05:40 on Saturday",
   actions: [
     {
-      indexName: "koishi",
-      pathsToMatch: ["https://koishi.js.org/v1/**"],
+      indexName: "vue-chart-3",
+      pathsToMatch: ["https://vue-chart-3.netlify.app/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".table-of-contents";
@@ -35,93 +30,6 @@ new Crawler({
             lvl3: ".theme-default-content h3",
             lvl4: ".theme-default-content h4",
             lvl5: ".theme-default-content h5",
-            tags: {
-              defaultValue: ["v1"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "koishi",
-      pathsToMatch: ["https://koishi.js.org/v3/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".theme-default-content h1",
-            content: ".theme-default-content p, .theme-default-content li",
-            lvl0: {
-              selectors: "p.sidebar-heading.open",
-              defaultValue: "Documentation",
-            },
-            lvl2: ".theme-default-content h2",
-            lvl3: ".theme-default-content h3",
-            lvl4: ".theme-default-content h4",
-            lvl5: ".theme-default-content h5",
-            tags: {
-              defaultValue: ["v3"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "koishi",
-      pathsToMatch: ["https://koishi.js.org/v4/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".theme-default-content h1",
-            content: ".theme-default-content p, .theme-default-content li",
-            lvl0: {
-              selectors: "p.sidebar-heading.open",
-              defaultValue: "Documentation",
-            },
-            lvl2: ".theme-default-content h2",
-            lvl3: ".theme-default-content h3",
-            lvl4: ".theme-default-content h4",
-            lvl5: ".theme-default-content h5",
-            tags: {
-              defaultValue: ["v4"],
-            },
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "koishi",
-      pathsToMatch: ["https://koishi.js.org/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".table-of-contents";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".theme-default-content h1",
-            content: ".theme-default-content p, .theme-default-content li",
-            lvl0: {
-              selectors: "p.sidebar-heading.open",
-              defaultValue: "Documentation",
-            },
-            lvl2: ".theme-default-content h2",
-            lvl3: ".theme-default-content h3",
-            lvl4: ".theme-default-content h4",
-            lvl5: ".theme-default-content h5",
-            tags: {
-              defaultValue: ["latest"],
-            },
           },
           indexHeadings: true,
         });
@@ -129,8 +37,8 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    koishi: {
-      attributesForFaceting: ["type", "lang", "tags"],
+    "vue-chart-3": {
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

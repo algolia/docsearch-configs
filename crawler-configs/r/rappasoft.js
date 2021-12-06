@@ -36,7 +36,7 @@ new Crawler({
   ],
   initialIndexSettings: {
     rappasoft: {
-      attributesForFaceting: ["type", "lang"],
+      attributesForFaceting: ["type", "lang", "version", "project"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],

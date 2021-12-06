@@ -2,38 +2,38 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://www.krakend.io/docs/", "https://www.krakend.io/"],
+  startUrls: ["https://airephp.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://www.krakend.io/sitemap.xml"],
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.krakend.io/**"],
-  schedule: "at 01:40 on Thursday",
+  discoveryPatterns: ["https://airephp.com/**"],
+  schedule: "at 01:10 on Tuesday",
   actions: [
     {
-      indexName: "krakend",
-      pathsToMatch: ["https://www.krakend.io/docs/**"],
+      indexName: "airephp",
+      pathsToMatch: ["https://airephp.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "section h2",
-            content: "section p, section li",
+            lvl1: ".docs-content h2",
+            content: ".docs-content p, .docs-content li",
             lvl0: {
-              selectors: "section h1",
+              selectors: ".docs-content h1",
             },
-            lvl2: "section h3",
-            lvl3: "section h4",
-            lvl4: "section h5",
-            lvl5: "section h6",
+            lvl2: ".docs-content h3",
+            lvl3: ".docs-content h4",
+            lvl4: ".docs-content h5",
+            lvl5: ".docs-content h6",
           },
-          indexHeadings: { from: 1, to: 6 },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
-    krakend: {
-      attributesForFaceting: ["type", "lang", "language", "version"],
+    airephp: {
+      attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
