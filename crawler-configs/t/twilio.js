@@ -13,11 +13,7 @@ new Crawler({
     "https://www.twilio.com/docs/sitemap.xml",
     "https://docs.sendgrid.com/docs/sitemap.xml",
   ],
-  exclusionPatterns: [
-    "**/**docs/libraries/reference/**",
-    "**/**?**",
-    "**/**?**/**",
-  ],
+  exclusionPatterns: ["**/**docs/libraries/reference/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: [
     "https://www.twilio.com/**",

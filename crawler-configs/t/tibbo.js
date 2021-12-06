@@ -12,7 +12,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.tibbo.com/**"],
   schedule: "at 19:10 on Friday",

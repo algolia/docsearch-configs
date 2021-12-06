@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.coralproject.net/"],
   renderJavaScript: false,
   sitemaps: ["https://docs.coralproject.net/sitemap.xml"],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.coralproject.net/**"],
   schedule: "at 11:30 on Tuesday",

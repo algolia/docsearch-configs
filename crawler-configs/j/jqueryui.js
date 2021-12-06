@@ -12,8 +12,6 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "**/**?**",
-    "**/**?**/**",
     "**.com/category/**",
     "**/resources/**",
     "**/**api.jqueryui.com/\\d\\.**",

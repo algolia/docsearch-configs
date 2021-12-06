@@ -10,12 +10,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://docs.gradle.org/current/sitemap.xml"],
-  exclusionPatterns: [
-    "**/**?**",
-    "**/**?**/**",
-    "**/javadoc/**",
-    "**/release-notes.html",
-  ],
+  exclusionPatterns: ["**/javadoc/**", "**/release-notes.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.gradle.org/**"],
   schedule: "at 06:40 on Wednesday",

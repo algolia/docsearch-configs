@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.unraveldata.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**?**", "**/**?**/**", "**/downloads/**"],
+  exclusionPatterns: ["**/downloads/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.unraveldata.com/**"],
   schedule: "at 00:30 on Saturday",

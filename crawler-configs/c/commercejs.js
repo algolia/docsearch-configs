@@ -12,7 +12,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://commercejs.com/sitemap.xml"],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://commercejs.com/**"],
   schedule: "at 11:30 on Tuesday",

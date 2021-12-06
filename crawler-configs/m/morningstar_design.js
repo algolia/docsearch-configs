@@ -9,8 +9,6 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "**/**?**",
-    "**/**?**/**",
     "**/**v/**",
     "**.sketch**",
     "**.sketch**/**",

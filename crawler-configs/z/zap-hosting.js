@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://zap-hosting.com/guides/sitemap.xml"],
-  exclusionPatterns: ["**/**html", "**/**?**", "**/**?**/**"],
+  exclusionPatterns: ["**/**html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://zap-hosting.com/**"],
   schedule: "at 00:00 on Sunday",

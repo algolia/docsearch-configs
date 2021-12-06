@@ -9,7 +9,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://aws-amplify.github.io/docs/sitemap.xml"],
-  exclusionPatterns: ["**/**index.html", "**/**?**", "**/**?**/**"],
+  exclusionPatterns: ["**/**index.html"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://aws-amplify.github.io/**"],
   schedule: "at 01:50 on Tuesday",

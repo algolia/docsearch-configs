@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://airgram.io/api-reference/", "https://airgram.io/"],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://airgram.io/**"],
   schedule: "at 01:10 on Tuesday",

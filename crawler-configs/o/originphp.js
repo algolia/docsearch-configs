@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://www.originphp.com/docs/", "https://www.originphp.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://www.originphp.com/**"],
   schedule: "at 20:40 on Thursday",

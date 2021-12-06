@@ -18,8 +18,6 @@ new Crawler({
   renderJavaScript: true,
   sitemaps: ["https://docs.solace.com/Sitemap.xml"],
   exclusionPatterns: [
-    "**/**?**",
-    "**/**?**/**",
     "**/API-Developer-Online-Ref-Documentation/java/index-all.html",
     "**/**-example.html",
     "**.js",

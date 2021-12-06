@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://userguide.amdagnes.com/sitemap.xml"],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://userguide.amdagnes.com/**"],
   schedule: "at 01:20 on Tuesday",

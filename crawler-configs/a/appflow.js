@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://doc.appflow.ai/"],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://doc.appflow.ai/**"],
   schedule: "at 01:30 on Tuesday",

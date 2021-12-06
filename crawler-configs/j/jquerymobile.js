@@ -9,12 +9,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [
-    "**/**?**",
-    "**/**?**/**",
-    "**.com/category/**",
-    "**/resources/**",
-  ],
+  exclusionPatterns: ["**.com/category/**", "**/resources/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://jquerymobile.com/**"],
   schedule: "at 20:30 on Wednesday",

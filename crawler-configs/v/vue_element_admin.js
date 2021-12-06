@@ -8,12 +8,7 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [
-    "**/**?**",
-    "**/**?**/**",
-    "**/donate**",
-    "**/donate**/**",
-  ],
+  exclusionPatterns: ["**/donate**", "**/donate**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://panjiachen.github.io/**"],
   schedule: "at 05:40 on Saturday",
