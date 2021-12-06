@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://webrtc.ecl.ntt.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**[^h][^t][^m][^l]"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://webrtc.ecl.ntt.com/**"],
   schedule: "at 10:00 on Saturday",
