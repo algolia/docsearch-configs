@@ -1,8 +1,12 @@
 {
   "index_name": "krakend",
-  "start_urls": ["https://www.krakend.io/docs/"],
+  "start_urls": [
+    "https://www.krakend.io/docs/"
+  ],
   "stop_urls": [],
-  "sitemap_urls": ["https://www.krakend.io/sitemap.xml"],
+  "sitemap_urls": [
+    "https://www.krakend.io/sitemap.xml"
+  ],
   "selectors": {
     "lvl0": "section h1",
     "lvl1": "section h2",
@@ -13,6 +17,14 @@
     "text": "section p, section li"
   },
   "min_indexed_level": 1,
-  "conversation_id": ["1199092672"],
-  "nb_hits": 2376
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language",
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1199092672"
+  ],
+  "nb_hits": 8096
 }

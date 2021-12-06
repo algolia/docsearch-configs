@@ -1,22 +1,7 @@
 {
-  "index_name": "koishi",
+  "index_name": "vuejs_ja",
   "start_urls": [
-    {
-      "url": "https://koishi.js.org/v1/",
-      "tags": ["v1"]
-    },
-    {
-      "url": "https://koishi.js.org/v3/",
-      "tags": ["v3"]
-    },
-    {
-      "url": "https://koishi.js.org/v4/",
-      "tags": ["v4"]
-    },
-    {
-      "url": "https://koishi.js.org/",
-      "tags": ["latest"]
-    }
+    "https://v3.ja.vuejs.org/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -44,13 +29,12 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang",
-      "tags"
+      "lang"
     ]
   },
   "conversation_id": [
-    "1496520872"
+    "1709399249"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 6343
+  "nb_hits": 6355
 }

@@ -1,0 +1,45 @@
+{
+  "index_name": "evajs",
+  "start_urls": [
+    "https://eva.js.org"
+  ],
+  "sitemap_urls": [
+    "https://eva.js.org/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".content__default h1",
+    "lvl2": ".content__default h2",
+    "lvl3": ".content__default h3",
+    "lvl4": ".content__default h4",
+    "lvl5": ".content__default h5",
+    "text": ".content__default p, .content__default li"
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "conversation_id": [
+    "1700598506"
+  ],
+  "nb_hits": 7650
+}

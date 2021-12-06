@@ -1,22 +1,7 @@
 {
-  "index_name": "koishi",
+  "index_name": "vue-chart-3",
   "start_urls": [
-    {
-      "url": "https://koishi.js.org/v1/",
-      "tags": ["v1"]
-    },
-    {
-      "url": "https://koishi.js.org/v3/",
-      "tags": ["v3"]
-    },
-    {
-      "url": "https://koishi.js.org/v4/",
-      "tags": ["v4"]
-    },
-    {
-      "url": "https://koishi.js.org/",
-      "tags": ["latest"]
-    }
+    "https://vue-chart-3.netlify.app/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -44,13 +29,12 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "attributesForFaceting": [
-      "lang",
-      "tags"
+      "lang"
     ]
   },
   "conversation_id": [
-    "1496520872"
+    "1705416115"
   ],
   "scrape_start_urls": false,
-  "nb_hits": 6343
+  "nb_hits": 91
 }
