@@ -1,10 +1,10 @@
 {
   "index_name": "ionicframework",
   "start_urls": [
-    "https://beta.ionicframework.com/docs/"
+    "https://ionicframework.com/docs"
   ],
   "sitemap_urls": [
-    "https://beta.ionicframework.com/sitemap.xml"
+    "https://ionicframework.com/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
