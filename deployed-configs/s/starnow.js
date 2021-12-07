@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://www.starnow.com/help/", "https://www.starnow.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://www.starnow.com/**"],
   schedule: "at 15:40 on Friday",
