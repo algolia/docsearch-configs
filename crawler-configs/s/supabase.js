@@ -2,17 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://supabase.io/"],
+  startUrls: ["https://supabase.com/"],
   renderJavaScript: false,
-  sitemaps: ["https://supabase.io/sitemap.xml"],
+  sitemaps: ["https://supabase.com/docs/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://supabase.io/**"],
+  discoveryPatterns: ["https://supabase.com/**"],
   schedule: "at 15:40 on Friday",
   actions: [
     {
       indexName: "supabase",
-      pathsToMatch: ["https://supabase.io/**"],
+      pathsToMatch: ["https://supabase.com/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
