@@ -24,7 +24,15 @@
   "stop_urls": [
     "/global-plugin/",
     "declaration-files/templates/",
-    "release-notes/overview.html"
+    "release-notes/overview.html",
+    "/docs/handbook/basic-types.html",
+    "/docs/handbook/classes.html",
+    "/docs/handbook/functions.html",
+    "/docs/handbook/generics.html",
+    "/docs/handbook/interfaces.html",
+    "/docs/handbook/literal-types.html",
+    "/docs/handbook/unions-and-intersections.html",
+    "/docs/handbook/advanced-types.html"
   ],
   "selectors": {
     "release": {
