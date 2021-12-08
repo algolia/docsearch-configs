@@ -27,8 +27,34 @@
             }
         },
         {
-            "url": "https://blog.ballerina.io",
+            "url": "https://lib.ballerina.io/ballerina/http/latest/",
             "page_rank": 3,
+            "selectors_key": "ballerina_api_docs_http",
+            "tags": [
+                "ballerina_api_docs_http"
+            ],
+            "extra_attributes": {
+                "site": [
+                    "ballerina_api_docs_http"
+                ]
+            }
+        },
+        {
+            "url": "https://lib.ballerina.io/ballerina/graphql/latest/",
+            "page_rank": 4,
+            "selectors_key": "ballerina_api_docs_graphql",
+            "tags": [
+                "ballerina_api_docs_graphql"
+            ],
+            "extra_attributes": {
+                "site": [
+                    "ballerina_api_docs_graphql"
+                ]
+            }
+        },
+        {
+            "url": "https://blog.ballerina.io",
+            "page_rank": 5,
             "selectors_key": "ballerina_blog",
             "tags": [
                 "ballerina_blog"
@@ -41,7 +67,7 @@
         },
         {
             "url": "https://central.ballerina.io",
-            "page_rank": 4,
+            "page_rank": 6,
             "selectors_key": "ballerina_central",
             "tags": [
                 "ballerina_central"
@@ -71,6 +97,30 @@
             "lvl0": {
                 "selector": "",
                 "default_value": "Ballerina Library (API) Documentation"
+            },
+            "lvl1": ".content h1",
+            "lvl2": ".content h2",
+            "lvl3": ".content h3",
+            "lvl4": ".content h4",
+            "lvl5": ".content h5,.content h6",
+            "text": ".content p, .content li"
+        },
+        "ballerina_api_docs_http": {
+            "lvl0": {
+                "selector": "",
+                "default_value": "http"
+            },
+            "lvl1": ".content h1",
+            "lvl2": ".content h2",
+            "lvl3": ".content h3",
+            "lvl4": ".content h4",
+            "lvl5": ".content h5,.content h6",
+            "text": ".content p, .content li"
+        },
+        "ballerina_api_docs_graphql": {
+            "lvl0": {
+                "selector": "",
+                "default_value": "graphql"
             },
             "lvl1": ".content h1",
             "lvl2": ".content h2",
