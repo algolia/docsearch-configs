@@ -1,6 +1,6 @@
 {
   "index_name": "httpie",
-  "start_urls": ["https://httpie.io/docs$"],
+  "start_urls": ["https://httpie.io/docs/cli$"],
   "selectors": {
     "lvl0": {
       "selector": "",
