@@ -43,7 +43,8 @@
           "waf",
           "waiting-room",
           "warp-client",
-          "workers"
+          "workers",
+          "zaraz"
         ]
       }
     }
@@ -89,6 +90,7 @@
     "https://developers.cloudflare.com/warp-client/sitemap.xml",
     "https://developers.cloudflare.com/waiting-room/sitemap.xml",
     "https://developers.cloudflare.com/workers/sitemap.xml"
+    "https://developers.cloudflare.com/zaraz/sitemap.xml"
   ],
   "selectors": {
     "lvl0": ".DocsContent h1",
