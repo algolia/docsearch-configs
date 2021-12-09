@@ -10,16 +10,17 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.open",
+      "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+      "type": "xpath",
       "global": true,
       "default_value": "Documentation"
     },
-    "lvl1": ".content__default h1",
-    "lvl2": ".content__default h2",
-    "lvl3": ".content__default h3",
-    "lvl4": ".content__default h4",
-    "lvl5": ".content__default h5",
-    "text": ".content__default p, .content__default li"
+    "lvl1": "header h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "lvl5": "article h5, article td:first-child",
+    "text": "article p, article li, article td:last-child"
   },
   "strip_chars": " .,;:#",
   "custom_settings": {
