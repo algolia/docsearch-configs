@@ -1,23 +1,15 @@
 {
   "index_name": "ingrid_developer",
-  "start_urls": [
-    "https://developer.ingrid.com"
-  ],
-  "stop_urls": [
-    "\\?id"
-  ],
+  "start_urls": ["https://developer.ingrid.com"],
+  "sitemap_urls": ["https://developer.ingrid.com/sitemap.xml"],
   "selectors": {
-    "lvl0": {
-      "selector": "p.sidebar-heading.open",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".content__default h1",
-    "lvl2": ".content__default h2",
-    "lvl3": ".content__default h3",
-    "lvl4": ".content__default h4",
-    "lvl5": ".content__default h5",
-    "text": ".content__default p, .content__default li",
+    "lvl0": "article h1",
+    "lvl1": "article h2",
+    "lvl2": "article h3",
+    "lvl3": "article h4",
+    "lvl4": "article h5",
+    "lvl5": "article h6",
+    "text": "article p, article li",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
@@ -25,14 +17,10 @@
       "default_value": "en-US"
     }
   },
-  "selectors_exclude": [
-    ".table-of-contents"
-  ],
+  "selectors_exclude": [".table-of-contents"],
   "strip_chars": " .,;:#",
   "custom_settings": {
-    "attributesForFaceting": [
-      "lang"
-    ]
+    "attributesForFaceting": ["lang"]
   },
   "nb_hits": 723
 }
