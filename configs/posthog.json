@@ -8,6 +8,10 @@
     {
       "url": "https://posthog.com/handbook/",
       "tags": ["handbook"]
+    },
+    {
+      "url": "https://posthog.com/tutorials/",
+      "tags": ["tutorials"]
     }
   ],
   "stop_urls": [],
