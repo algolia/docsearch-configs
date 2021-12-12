@@ -1,7 +1,7 @@
 {
   "index_name": "supabase",
   "start_urls": [
-    "https://supabase.io/"
+    "https://supabase.com/"
   ],
   "stop_urls": [],
   "selectors": {
@@ -21,7 +21,7 @@
   },
   "strip_chars": " .,;:#",
   "sitemap_urls": [
-    "https://supabase.io/sitemap.xml"
+    "https://supabase.com/docs/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "custom_settings": {

@@ -2,33 +2,29 @@
   "index_name": "roots",
   "start_urls": [
     {
-      "url": "https://roots.io/docs/(?P<area>.*?)/",
+      "url": "https://docs.roots.io/(?P<area>.*?)/",
       "variables": {
         "area": [
           "sage",
           "trellis",
           "bedrock",
+          "acorn",
           "getting-started"
         ]
       }
     }
   ],
   "sitemap_urls": [
-    "https://roots.io/docs/sitemap.xml"
+    "https://docs.roots.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "#docsMenuButton",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": "h1",
-    "lvl2": "h2",
-    "lvl3": "h3",
-    "lvl4": "h4",
-    "lvl5": "h5",
-    "lvl6": "h6",
+    "lvl0": "h1",
+    "lvl1": "h2",
+    "lvl2": "h3",
+    "lvl3": "h4",
+    "lvl4": "h5",
+    "lvl5": "h6",
     "text": ".page p, .page li"
   },
   "conversation_id": [
