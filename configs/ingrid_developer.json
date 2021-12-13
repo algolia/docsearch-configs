@@ -3,7 +3,11 @@
   "start_urls": ["https://developer.ingrid.com"],
   "sitemap_urls": ["https://developer.ingrid.com/sitemap.xml"],
   "selectors": {
-    "lvl0": "article h1",
+    "lvl0": {
+      "selector": "article h1",
+      "global": true,
+      "default_value": "Documentation"
+    },
     "lvl1": "article h2",
     "lvl2": "article h3",
     "lvl3": "article h4",
