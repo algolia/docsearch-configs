@@ -4,21 +4,18 @@
     "https://workbench.gusto.com/",
     "https://workbench.gusto.com/getting-started/engineers/"
   ],
-  "stop_urls": [
-    "\\/\\?"
-  ],
+  "stop_urls": ["\\/\\?", "#gatsby-focus-wrapper"],
+  "sitemap_urls": ["https://workbench.gusto.com/sitemap/sitemap-0.xml"],
   "selectors": {
-    "lvl0": "[class^='container-'] h1",
-    "lvl1": "[class^='container-'] h2",
-    "lvl2": "[class^='container-'] h3",
-    "lvl3": "[class^='container-'] h4",
-    "lvl4": "[class^='container-'] h5",
-    "lvl5": "[class^='container-'] h6",
-    "text": "[class^='container-'] p, [class^='container-'] li"
+    "lvl0": ".DocSearch-content h1 .DocSearch-text",
+    "lvl1": ".DocSearch-content h2 .DocSearch-text",
+    "lvl2": ".DocSearch-content h3 .DocSearch-text",
+    "lvl3": ".DocSearch-content h4 .DocSearch-text",
+    "lvl4": ".DocSearch-content h5 .DocSearch-text",
+    "lvl5": ".DocSearch-content h6 .DocSearch-text",
+    "text": ".DocSearch-content p, .DocSearch-content li"
   },
   "js_render": true,
-  "conversation_id": [
-    "1704794238"
-  ],
+  "conversation_id": ["1704794238"],
   "nb_hits": 2271
 }
