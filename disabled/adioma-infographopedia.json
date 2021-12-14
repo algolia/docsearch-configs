@@ -5,8 +5,11 @@
   ],
   "stop_urls": [
     "/example/",
-    "/function/",
-    "/chart-definitions"
+    "/all",
+    "/list",
+    "/function",
+    "?sortBy=",
+    "&sortOrder="
   ],
   "sitemap_urls": [
     "https://infographopedia.adioma.com/sitemap.xml"
@@ -20,6 +23,13 @@
     "lvl5": "[class*='page'] h6",
     "text": "[class*='page'] p, [class*='page'] li"
   },
+  "selectors_exclude": [
+    "#chart_parent",
+    "#chart_variations",
+    "#chart_examples",
+    "#function_charts",
+    ".ad_banner"
+  ],
   "conversation_id": [
     "845433270"
   ],
