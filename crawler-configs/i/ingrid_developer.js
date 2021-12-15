@@ -4,8 +4,8 @@ new Crawler({
   rateLimit: 8,
   startUrls: ["https://developer.ingrid.com/"],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: ["**/**?id**", "**/**?id**/**"],
+  sitemaps: ["https://developer.ingrid.com/sitemap.xml"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://developer.ingrid.com/**"],
   schedule: "at 15:30 on Wednesday",
@@ -20,16 +20,16 @@ new Crawler({
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content__default h1",
-            content: ".content__default p, .content__default li",
+            lvl1: "article h2",
+            content: "article p, article li",
             lvl0: {
-              selectors: "p.sidebar-heading.open",
+              selectors: "article h1",
               defaultValue: "Documentation",
             },
-            lvl2: ".content__default h2",
-            lvl3: ".content__default h3",
-            lvl4: ".content__default h4",
-            lvl5: ".content__default h5",
+            lvl2: "article h3",
+            lvl3: "article h4",
+            lvl4: "article h5",
+            lvl5: "article h6",
           },
           indexHeadings: true,
         });

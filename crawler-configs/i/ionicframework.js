@@ -2,20 +2,17 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://beta.ionicframework.com/docs/",
-    "https://beta.ionicframework.com/",
-  ],
+  startUrls: ["https://ionicframework.com/docs", "https://ionicframework.com/"],
   renderJavaScript: true,
-  sitemaps: ["https://beta.ionicframework.com/sitemap.xml"],
+  sitemaps: ["https://ionicframework.com/docs/sitemap.xml"],
   exclusionPatterns: [],
   ignoreCanonicalTo: true,
-  discoveryPatterns: ["https://beta.ionicframework.com/**"],
+  discoveryPatterns: ["https://ionicframework.com/**"],
   schedule: "at 15:30 on Wednesday",
   actions: [
     {
       indexName: "ionicframework",
-      pathsToMatch: ["https://beta.ionicframework.com/docs/**"],
+      pathsToMatch: ["https://ionicframework.com/docs**/**"],
       recordExtractor: ({ $, helpers }) => {
         // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
         const lvl0 =

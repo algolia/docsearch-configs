@@ -34,6 +34,7 @@ new Crawler({
     "https://developers.cloudflare.com/registrar/",
     "https://developers.cloudflare.com/rules/",
     "https://developers.cloudflare.com/ruleset-engine/",
+    "https://developers.cloudflare.com/security-center/",
     "https://developers.cloudflare.com/spectrum/",
     "https://developers.cloudflare.com/ssl/",
     "https://developers.cloudflare.com/stream/",
@@ -43,6 +44,7 @@ new Crawler({
     "https://developers.cloudflare.com/waiting-room/",
     "https://developers.cloudflare.com/warp-client/",
     "https://developers.cloudflare.com/workers/",
+    "https://developers.cloudflare.com/zaraz/",
   ],
   renderJavaScript: true,
   sitemaps: [
@@ -76,6 +78,7 @@ new Crawler({
     "https://developers.cloudflare.com/registrar/sitemap.xml",
     "https://developers.cloudflare.com/rules/sitemap.xml",
     "https://developers.cloudflare.com/ruleset-engine/sitemap.xml",
+    "https://developers.cloudflare.com/security-center/sitemap.xml",
     "https://developers.cloudflare.com/spectrum/sitemap.xml",
     "https://developers.cloudflare.com/ssl/sitemap.xml",
     "https://developers.cloudflare.com/stream/sitemap.xml",
@@ -85,6 +88,7 @@ new Crawler({
     "https://developers.cloudflare.com/warp-client/sitemap.xml",
     "https://developers.cloudflare.com/waiting-room/sitemap.xml",
     "https://developers.cloudflare.com/workers/sitemap.xml",
+    "https://developers.cloudflare.com/zaraz/sitemap.xml",
   ],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
@@ -939,6 +943,34 @@ new Crawler({
     },
     {
       indexName: "developers-cloudflare",
+      pathsToMatch: ["https://developers.cloudflare.com/security-center/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "h1 + ul";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocsContent h2",
+            content:
+              ".DocsContent p, .DocsContent li, .DocsContent tbody tr > td",
+            lvl0: {
+              selectors: ".DocsContent h1",
+            },
+            lvl2: ".DocsContent h3",
+            lvl3: ".DocsContent h4",
+            lvl4: ".DocsContent h5",
+            lvl5: ".DocsContent h6",
+            project: {
+              defaultValue: ["security-center"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "developers-cloudflare",
       pathsToMatch: ["https://developers.cloudflare.com/spectrum/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
@@ -1183,6 +1215,34 @@ new Crawler({
             lvl5: ".DocsContent h6",
             project: {
               defaultValue: ["workers"],
+            },
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "developers-cloudflare",
+      pathsToMatch: ["https://developers.cloudflare.com/zaraz/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "h1 + ul";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocsContent h2",
+            content:
+              ".DocsContent p, .DocsContent li, .DocsContent tbody tr > td",
+            lvl0: {
+              selectors: ".DocsContent h1",
+            },
+            lvl2: ".DocsContent h3",
+            lvl3: ".DocsContent h4",
+            lvl4: ".DocsContent h5",
+            lvl5: ".DocsContent h6",
+            project: {
+              defaultValue: ["zaraz"],
             },
           },
           indexHeadings: true,

@@ -8,7 +8,12 @@ new Crawler({
   ],
   renderJavaScript: true,
   sitemaps: ["https://workbench.gusto.com/sitemap/sitemap-0.xml"],
-  exclusionPatterns: ["**/\\?**", "**/\\?**/**"],
+  exclusionPatterns: [
+    "**/\\?**",
+    "**/\\?**/**",
+    "**/**#gatsby-focus-wrapper**",
+    "**/**#gatsby-focus-wrapper**/**",
+  ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://workbench.gusto.com/**"],
   schedule: "at 10:30 on Saturday",
@@ -20,6 +25,10 @@ new Crawler({
         "https://workbench.gusto.com/getting-started/engineers/**",
       ],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".DocSearch-exclude";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
             lvl1: ".DocSearch-content h2",

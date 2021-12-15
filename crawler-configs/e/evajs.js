@@ -14,18 +14,26 @@ new Crawler({
       indexName: "evajs",
       pathsToMatch: ["https://eva.js.org**/**"],
       recordExtractor: ({ $, helpers }) => {
+        // priority order: deepest active sub list header -> navbar active item -> 'Documentation'
+        const lvl0 =
+          $(
+            ".menu__link.menu__link--sublist.menu__link--active, .navbar__item.navbar__link--active"
+          )
+            .last()
+            .text() || "Documentation";
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".content__default h1",
-            content: ".content__default p, .content__default li",
+            lvl1: "header h1",
+            content: "article p, article li, article td:last-child",
             lvl0: {
-              selectors: "p.sidebar-heading.open",
-              defaultValue: "Documentation",
+              selectors: "",
+              defaultValue: lvl0,
             },
-            lvl2: ".content__default h2",
-            lvl3: ".content__default h3",
-            lvl4: ".content__default h4",
-            lvl5: ".content__default h5",
+            lvl2: "article h2",
+            lvl3: "article h3",
+            lvl4: "article h4",
+            lvl5: "article h5, article td:first-child",
           },
           indexHeadings: true,
         });
