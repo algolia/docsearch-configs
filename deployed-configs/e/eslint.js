@@ -14,8 +14,6 @@ new Crawler({
   sitemaps: ["https://eslint.org/sitemap.xml"],
   exclusionPatterns: [
     "**.html",
-    "https://eslint.org/docs/d**",
-    "https://eslint.org/docs/d**/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://eslint.org/**"],

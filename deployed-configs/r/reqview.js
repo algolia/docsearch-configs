@@ -5,7 +5,6 @@ new Crawler({
   startUrls: [
     "https://www.reqview.com/doc/",
     "https://www.reqview.com/",
-    "https://www.reqview.com/doc/welcome.html",
   ],
   renderJavaScript: false,
   sitemaps: [],

@@ -79,7 +79,7 @@ new Crawler({
     {
       indexName: "prebid",
       pathsToMatch: [
-        "https://docs.prebid.org/dev-docs/publisher-api-reference.html**/**",
+        "https://docs.prebid.org/dev-docs/publisher-api-reference.html",
       ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
@@ -452,26 +452,29 @@ new Crawler({
     },
     {
       indexName: "prebid",
-      pathsToMatch: ["https://docs.prebid.org/prebid/prebidjs.html**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
       pathsToMatch: [
-        "https://docs.prebid.org/overview/prebid-server-overview.html**/**",
+        "https://docs.prebid.org/prebid-mobile/prebid-mobile.html",
+        "https://docs.prebid.org/prebid/native-implementation.html",
+        "https://docs.prebid.org/dev-docs/show-prebid-ads-on-amp-pages.html",
+        "https://docs.prebid.org/prebid/prebidjs.html",
+        "https://docs.prebid.org/overview/prebid-server-overview.html",
+        "https://docs.prebid.org/dev-docs/getting-started.html",
+        "https://docs.prebid.org/overview/intro.html",
+        "https://docs.prebid.org/dev-docs/bidder-adaptor.html",
+        "https://docs.prebid.org/prebid-server/developers/add-new-bidder-go.html",
+        "https://docs.prebid.org/prebid-server/developers/add-new-bidder-java.html",
+        "https://docs.prebid.org/prebid-server/developers/pbs-build-an-analytics-adapter.html",
+        "https://docs.prebid.org/dev-docs/integrate-with-the-prebid-analytics-api.html",
+        "https://docs.prebid.org/dev-docs/add-rtd-submodule.html",
+        "https://docs.prebid.org/adops/step-by-step.html",
+        "https://docs.prebid.org/dev-docs/modules/consentManagement.html",
+        "https://docs.prebid.org/dev-docs/troubleshooting-tips.html",
+        "https://docs.prebid.org/dev-docs/show-outstream-video-ads.html",
+        "https://docs.prebid.org/adops/send-all-bids-adops.html",
+        "https://docs.prebid.org/prebid-video/video-overview.html",
+        "https://docs.prebid.org/dev-docs/faq.html",
+        "https://docs.prebid.org/dev-docs/show-prebid-ads-on-amp-pages.html",
+        "https://docs.prebid.org/prebid/native-implementation.html",
       ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
@@ -491,341 +494,8 @@ new Crawler({
     {
       indexName: "prebid",
       pathsToMatch: [
-        "https://docs.prebid.org/dev-docs/getting-started.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: ["https://docs.prebid.org/overview/intro.html**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/dev-docs/bidder-adaptor.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/prebid-server/developers/add-new-bidder-go.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/prebid-server/developers/add-new-bidder-java.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/prebid-server/developers/pbs-build-an-analytics-adapter.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/dev-docs/integrate-with-the-prebid-analytics-api.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/dev-docs/add-rtd-submodule.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: ["https://docs.prebid.org/adops/step-by-step.html**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/dev-docs/modules/consentManagement.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/dev-docs/troubleshooting-tips.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/dev-docs/show-outstream-video-ads.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/adops/send-all-bids-adops.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/prebid-video/video-overview.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: ["https://docs.prebid.org/dev-docs/faq.html**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/dev-docs/show-prebid-ads-on-amp-pages.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/prebid/native-implementation.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/prebid-server/use-cases/pbs-amp.html**/**",
+        "https://docs.prebid.org/prebid-server/use-cases/pbs-amp.html",
+        "https://docs.prebid.org/prebid-server/use-cases/pbs-sdk.html"
       ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
@@ -837,46 +507,6 @@ new Crawler({
             },
             lvl2: ".pb-content h3",
             pageRank: "2",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/prebid-server/use-cases/pbs-sdk.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "2",
-          },
-          indexHeadings: true,
-        });
-      },
-    },
-    {
-      indexName: "prebid",
-      pathsToMatch: [
-        "https://docs.prebid.org/prebid-mobile/prebid-mobile.html**/**",
-      ],
-      recordExtractor: ({ $, helpers }) => {
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".pb-content h2",
-            content: ".pb-content p, .pb-content li",
-            lvl0: {
-              selectors: ".pb-content h1",
-            },
-            lvl2: ".pb-content h3",
-            pageRank: "3",
           },
           indexHeadings: true,
         });
