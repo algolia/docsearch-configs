@@ -7,14 +7,15 @@
   "stop_urls": ["\\/\\?", "#gatsby-focus-wrapper"],
   "sitemap_urls": ["https://workbench.gusto.com/sitemap/sitemap-0.xml"],
   "selectors": {
-    "lvl0": ".DocSearch-content h1 .DocSearch-text",
-    "lvl1": ".DocSearch-content h2 .DocSearch-text",
-    "lvl2": ".DocSearch-content h3 .DocSearch-text",
-    "lvl3": ".DocSearch-content h4 .DocSearch-text",
-    "lvl4": ".DocSearch-content h5 .DocSearch-text",
-    "lvl5": ".DocSearch-content h6 .DocSearch-text",
+    "lvl0": ".DocSearch-content h1",
+    "lvl1": ".DocSearch-content h2",
+    "lvl2": ".DocSearch-content h3",
+    "lvl3": ".DocSearch-content h4",
+    "lvl4": ".DocSearch-content h5",
+    "lvl5": ".DocSearch-content h6",
     "text": ".DocSearch-content p, .DocSearch-content li"
   },
+  "selectors_exclude": [".DocSearch-exclude"],
   "js_render": true,
   "conversation_id": ["1704794238"],
   "nb_hits": 2271
