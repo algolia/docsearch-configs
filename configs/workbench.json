@@ -4,7 +4,7 @@
     "https://workbench.gusto.com/",
     "https://workbench.gusto.com/getting-started/engineers/"
   ],
-  "stop_urls": ["\\/\\?"],
+  "stop_urls": ["\\/\\?", "#gatsby-focus-wrapper"],
   "sitemap_urls": ["https://workbench.gusto.com/sitemap/sitemap-0.xml"],
   "selectors": {
     "lvl0": ".DocSearch-content h1",
@@ -15,8 +15,8 @@
     "lvl5": ".DocSearch-content h6",
     "text": ".DocSearch-content p, .DocSearch-content li"
   },
+  "selectors_exclude": [".DocSearch-exclude"],
   "js_render": true,
-  "js_wait": 1,
   "conversation_id": ["1704794238"],
   "nb_hits": 2271
 }
