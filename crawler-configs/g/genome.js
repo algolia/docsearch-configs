@@ -3,7 +3,7 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://genome.vinbigdata.org/documentation/",
+    "https://genome.vinbigdata.org/documentation/docs/intro/index.html",
     "https://genome.vinbigdata.org/",
   ],
   renderJavaScript: false,
@@ -15,7 +15,9 @@ new Crawler({
   actions: [
     {
       indexName: "genome",
-      pathsToMatch: ["https://genome.vinbigdata.org/documentation/**"],
+      pathsToMatch: [
+        "https://genome.vinbigdata.org/documentation/docs/intro/index.html**/**",
+      ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".hash-link";
