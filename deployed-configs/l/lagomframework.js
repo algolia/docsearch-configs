@@ -27,8 +27,6 @@ new Crawler({
     "**/scala/api**/**",
     "**/**ReferenceGuide**",
     "**/**ReferenceGuide**/**",
-    "**/**Home**",
-    "**/**Home**/**",
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://www.lagomframework.com/**"],

@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.mangopay.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/", "**/**contact**", "**/**contact**/**"],
+  exclusionPatterns: ["**/**contact**", "**/**contact**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.mangopay.com/**"],
   schedule: "at 10:00 on Thursday",
