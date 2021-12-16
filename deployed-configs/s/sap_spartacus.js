@@ -4,7 +4,6 @@ new Crawler({
   rateLimit: 8,
   startUrls: [
     "https://sap.github.io/spartacus-docs/3.x/",
-    "https://sap.github.io/",
     "https://sap.github.io/spartacus-docs/2.x/",
     "https://sap.github.io/spartacus-docs/1.x/",
     "https://sap.github.io/spartacus-docs/",
