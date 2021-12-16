@@ -13,6 +13,8 @@ new Crawler({
   sitemaps: [
     "https://sap.github.io/spartacus-docs/sitemap.xml",
     "https://sap.github.io/spartacus-docs/1.x/sitemap.xml",
+    "https://sap.github.io/spartacus-docs/2.x/sitemap.xml",
+    "https://sap.github.io/spartacus-docs/3.x/sitemap.xml",
   ],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
