@@ -6,7 +6,6 @@
   "sitemap_urls": [
     "https://eva-engine.gitee.io/sitemap.xml"
   ],
-  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
