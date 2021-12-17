@@ -3,28 +3,28 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.itential.io/[d/.]*/admin/",
-    "https://docs.itential.io/",
-    "https://docs.itential.io/[d/.]*/api/",
-    "https://docs.itential.io/[d/.]*/developer/",
-    "https://docs.itential.io/faq/",
-    "https://docs.itential.io/[d/.]*/product/",
-    "https://docs.itential.io/[d/.]*/user/",
+    "https://docs.itential.com/[d/.]*/admin/",
+    "https://docs.itential.com/",
+    "https://docs.itential.com/[d/.]*/api/",
+    "https://docs.itential.com/[d/.]*/developer/",
+    "https://docs.itential.com/faq/",
+    "https://docs.itential.com/[d/.]*/product/",
+    "https://docs.itential.com/[d/.]*/user/",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://docs.itential.io/sitemap.xml"],
+  sitemaps: ["https://docs.itential.com/sitemap.xml"],
   exclusionPatterns: [
     "**/**Open%20Source%20Notices**",
     "**/**Open%20Source%20Notices**/**",
     "**/schema/**",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.itential.io/**"],
+  discoveryPatterns: ["https://docs.itential.com/**"],
   schedule: "at 15:40 on Wednesday",
   actions: [
     {
       indexName: "itential_doc",
-      pathsToMatch: ["https://docs.itential.io/[\\d\\.]*/admin/**"],
+      pathsToMatch: ["https://docs.itential.com/[\\d\\.]*/admin/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dropdown-container .dropdown-menu.left";
@@ -49,7 +49,7 @@ new Crawler({
     },
     {
       indexName: "itential_doc",
-      pathsToMatch: ["https://docs.itential.io/[\\d\\.]*/api/**"],
+      pathsToMatch: ["https://docs.itential.com/[\\d\\.]*/api/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dropdown-container .dropdown-menu.left";
@@ -73,7 +73,7 @@ new Crawler({
     },
     {
       indexName: "itential_doc",
-      pathsToMatch: ["https://docs.itential.io/[\\d\\.]*/developer/**"],
+      pathsToMatch: ["https://docs.itential.com/[\\d\\.]*/developer/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dropdown-container .dropdown-menu.left";
@@ -98,7 +98,7 @@ new Crawler({
     },
     {
       indexName: "itential_doc",
-      pathsToMatch: ["https://docs.itential.io/faq/**"],
+      pathsToMatch: ["https://docs.itential.com/faq/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dropdown-container .dropdown-menu.left";
@@ -122,7 +122,7 @@ new Crawler({
     },
     {
       indexName: "itential_doc",
-      pathsToMatch: ["https://docs.itential.io/[\\d\\.]*/product/**"],
+      pathsToMatch: ["https://docs.itential.com/[\\d\\.]*/product/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dropdown-container .dropdown-menu.left";
@@ -146,7 +146,7 @@ new Crawler({
     },
     {
       indexName: "itential_doc",
-      pathsToMatch: ["https://docs.itential.io/[\\d\\.]*/user/**"],
+      pathsToMatch: ["https://docs.itential.com/[\\d\\.]*/user/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dropdown-container .dropdown-menu.left";
