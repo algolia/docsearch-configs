@@ -7,7 +7,7 @@
         "project": [
           "analytics",
           "api",
-          "api-security",
+          "api-shield",
           "automatic-platform-optimization",
           "bots",
           "byoip",
@@ -54,7 +54,7 @@
   "sitemap_urls": [
     "https://developers.cloudflare.com/analytics/sitemap.xml",
     "https://developers.cloudflare.com/api/sitemap.xml",
-    "https://developers.cloudflare.com/api-security/sitemap.xml",
+    "https://developers.cloudflare.com/api-shield/sitemap.xml",
     "https://developers.cloudflare.com/automatic-platform-optimization/sitemap.xml",
     "https://developers.cloudflare.com/bots/sitemap.xml",
     "https://developers.cloudflare.com/byoip/sitemap.xml",
