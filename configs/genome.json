@@ -1,6 +1,6 @@
 {
   "index_name": "genome",
-  "start_urls": ["https://genome.vinbigdata.org/documentation/"],
+  "start_urls": ["https://genome.vinbigdata.org/documentation/docs/intro/index.html"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
