@@ -27,6 +27,7 @@
     "lvl5": "h6",
     "text": ".page p, .page li"
   },
+  "strip_chars": " .,;:#",
   "conversation_id": [
     "725173373"
   ],
