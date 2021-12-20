@@ -17,9 +17,8 @@
     "lvl5": ".DocSearch-content h5",
     "text": ".DocSearch-content p, .DocSearch-content li"
   },
+  "selectors_exclude": [".DocSearch-exclude"],
   "js_render": true,
-  "conversation_id": [
-    "1704794238"
-  ],
+  "conversation_id": ["1704794238"],
   "nb_hits": 2271
 }

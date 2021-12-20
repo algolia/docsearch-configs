@@ -2,23 +2,18 @@
   "index_name": "arco",
   "start_urls": [
     {
-      "url": "https://arco.design/vue",
-      "tags": [
-        "vue"
-      ],
+      "url": "https://arco.design/vue/",
+      "tags": ["vue"],
       "selectors_key": "vue"
     },
     {
-      "url": "https://arco.design/react",
-      "tags": [
-        "react"
-      ]
+      "url": "https://arco.design/react/",
+      "tags": ["react"]
     },
-    "https://arco.design/"
+    "https://arco.design/",
+    "https://arco.design/vue/docs/start"
   ],
-  "sitemap_urls": [
-    "https://arco.design/sitemap.xml"
-  ],
+  "sitemap_urls": ["https://arco.design/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "default": {
@@ -36,13 +31,13 @@
       }
     },
     "vue": {
-      "lvl0": ".arco-vue-body h1",
-      "lvl1": ".arco-vue-body h2",
-      "lvl2": ".arco-vue-body h3",
-      "lvl3": ".arco-vue-body h4",
-      "lvl4": ".arco-vue-body h5",
-      "lvl5": ".arco-vue-body h6",
-      "text": ".arco-vue-body p, .arco-vue-body li",
+      "lvl0": ".article-header h1",
+      "lvl1": ".article-content h2",
+      "lvl2": ".article-content h3",
+      "lvl3": ".article-content h4",
+      "lvl4": ".article-content h5",
+      "lvl5": ".article-content h6",
+      "text": ".article-content p, .article-content li",
       "lang": {
         "selector": "/html/@lang",
         "type": "xpath",
@@ -51,14 +46,10 @@
     }
   },
   "js_render": true,
+  "js_wait": 1,
   "custom_settings": {
-    "attributesForFaceting": [
-      "lang",
-      "tags"
-    ]
+    "attributesForFaceting": ["lang", "tags"]
   },
-  "conversation_id": [
-    "1693490441"
-  ],
+  "conversation_id": ["1693490441"],
   "nb_hits": 6182
 }
