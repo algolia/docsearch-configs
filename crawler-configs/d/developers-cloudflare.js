@@ -6,7 +6,7 @@ new Crawler({
     "https://developers.cloudflare.com/analytics/",
     "https://developers.cloudflare.com/",
     "https://developers.cloudflare.com/api/",
-    "https://developers.cloudflare.com/api-security/",
+    "https://developers.cloudflare.com/api-shield/",
     "https://developers.cloudflare.com/automatic-platform-optimization/",
     "https://developers.cloudflare.com/bots/",
     "https://developers.cloudflare.com/byoip/",
@@ -50,7 +50,7 @@ new Crawler({
   sitemaps: [
     "https://developers.cloudflare.com/analytics/sitemap.xml",
     "https://developers.cloudflare.com/api/sitemap.xml",
-    "https://developers.cloudflare.com/api-security/sitemap.xml",
+    "https://developers.cloudflare.com/api-shield/sitemap.xml",
     "https://developers.cloudflare.com/automatic-platform-optimization/sitemap.xml",
     "https://developers.cloudflare.com/bots/sitemap.xml",
     "https://developers.cloudflare.com/byoip/sitemap.xml",
@@ -153,7 +153,7 @@ new Crawler({
     },
     {
       indexName: "developers-cloudflare",
-      pathsToMatch: ["https://developers.cloudflare.com/api-security/**"],
+      pathsToMatch: ["https://developers.cloudflare.com/api-shield/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = "h1 + ul";
@@ -172,7 +172,7 @@ new Crawler({
             lvl4: ".DocsContent h5",
             lvl5: ".DocsContent h6",
             project: {
-              defaultValue: ["api-security"],
+              defaultValue: ["api-shield"],
             },
           },
           indexHeadings: true,

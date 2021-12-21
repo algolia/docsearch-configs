@@ -23,15 +23,16 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "h2",
+            lvl1: ".sidebar-version option:checked",
             content: ".page p, .page li",
             lvl0: {
-              selectors: "h1",
+              selectors: ".sidebar-current",
+              defaultValue: "Documentation",
             },
-            lvl2: "h3",
-            lvl3: "h4",
-            lvl4: "h5",
-            lvl5: "h6",
+            lvl2: "h1",
+            lvl3: "h2",
+            lvl4: "h3",
+            lvl5: "h4",
             area: {
               defaultValue: ["sage"],
             },
@@ -46,15 +47,16 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "h2",
+            lvl1: ".sidebar-version option:checked",
             content: ".page p, .page li",
             lvl0: {
-              selectors: "h1",
+              selectors: ".sidebar-current",
+              defaultValue: "Documentation",
             },
-            lvl2: "h3",
-            lvl3: "h4",
-            lvl4: "h5",
-            lvl5: "h6",
+            lvl2: "h1",
+            lvl3: "h2",
+            lvl4: "h3",
+            lvl5: "h4",
             area: {
               defaultValue: ["trellis"],
             },
@@ -69,15 +71,16 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "h2",
+            lvl1: ".sidebar-version option:checked",
             content: ".page p, .page li",
             lvl0: {
-              selectors: "h1",
+              selectors: ".sidebar-current",
+              defaultValue: "Documentation",
             },
-            lvl2: "h3",
-            lvl3: "h4",
-            lvl4: "h5",
-            lvl5: "h6",
+            lvl2: "h1",
+            lvl3: "h2",
+            lvl4: "h3",
+            lvl5: "h4",
             area: {
               defaultValue: ["bedrock"],
             },
@@ -92,15 +95,16 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "h2",
+            lvl1: ".sidebar-version option:checked",
             content: ".page p, .page li",
             lvl0: {
-              selectors: "h1",
+              selectors: ".sidebar-current",
+              defaultValue: "Documentation",
             },
-            lvl2: "h3",
-            lvl3: "h4",
-            lvl4: "h5",
-            lvl5: "h6",
+            lvl2: "h1",
+            lvl3: "h2",
+            lvl4: "h3",
+            lvl5: "h4",
             area: {
               defaultValue: ["acorn"],
             },
@@ -115,15 +119,16 @@ new Crawler({
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: "h2",
+            lvl1: ".sidebar-version option:checked",
             content: ".page p, .page li",
             lvl0: {
-              selectors: "h1",
+              selectors: ".sidebar-current",
+              defaultValue: "Documentation",
             },
-            lvl2: "h3",
-            lvl3: "h4",
-            lvl4: "h5",
-            lvl5: "h6",
+            lvl2: "h1",
+            lvl3: "h2",
+            lvl4: "h3",
+            lvl5: "h4",
             area: {
               defaultValue: ["getting-started"],
             },
@@ -135,7 +140,12 @@ new Crawler({
   ],
   initialIndexSettings: {
     roots: {
-      attributesForFaceting: ["type", "lang"],
+      attributesForFaceting: [
+        "type",
+        "lang",
+        "hierarchy.lvl0",
+        "hierarchy.lvl1",
+      ],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
