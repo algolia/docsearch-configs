@@ -2,34 +2,30 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["http://nightwatchjs.org/"],
+  startUrls: ["https://www.skylight.io/support", "https://www.skylight.io/"],
   renderJavaScript: false,
-  sitemaps: ["http://nightwatchjs.org/sitemap.xml"],
-  exclusionPatterns: ["**/blog/**", "**/author/**", "**/blog/**"],
+  sitemaps: [],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["http://nightwatchjs.org/**"],
-  schedule: "at 15:10 on Thursday",
+  discoveryPatterns: ["https://www.skylight.io/**"],
+  schedule: "at 15:20 on Friday",
   actions: [
     {
-      indexName: "nightwatchjs",
-      pathsToMatch: ["http://nightwatchjs.org**/**"],
+      indexName: "skylight",
+      pathsToMatch: ["https://www.skylight.io/support**/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove =
-          "[data-uri='/'] section:not([data-page-uri='/']), [data-uri='/guide'] section:not([data-page-uri='/guide']), [data-uri='/api'] section:not([data-page-uri='/api']), [data-uri='/blog'] section:not([data-page-uri='/blog']), [data-uri='/contact'] section:not([data-page-uri='/contact']), [data-uri='/cloud'] section:not([data-page-uri='/cloud']), [data-uri='/gettingstarted'] section:not([data-page-uri='/gettingstarted']), [data-uri='/cloud'] section:not([data-page-uri='/cloud']), [data-uri='/api/$method'] section:not([data-page-uri='/api/$method']), a[title]";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".docs-section h2",
+            lvl1: ".support-content h2",
             content:
-              ".docs-section p, .docs-section li, .docs-section table td:last-child",
+              ".support-content p, .support-content li, .support-content .interaction-bubble-text",
             lvl0: {
-              selectors: ".jumbotron h1",
+              selectors: ".support-content h1",
             },
-            lvl2: ".docs-section h3",
-            lvl3: ".docs-section h4, .docs-section table td:first-of-type",
-            lvl4: ".docs-section h5",
+            lvl2: ".support-content h3",
+            lvl3: ".support-content h4",
+            lvl4: ".support-content h5",
+            lvl5: ".support-content h6",
           },
           indexHeadings: true,
         });
@@ -37,7 +33,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    nightwatchjs: {
+    skylight: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

@@ -2,76 +2,42 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: [
-    "https://babeljs.io/docs/",
-    "https://babeljs.io/",
-    "https://babeljs.io/learn-es2015/",
-  ],
+  startUrls: ["http://nightwatchjs.org/"],
   renderJavaScript: false,
-  sitemaps: ["https://babeljs.io/sitemap.xml"],
-  exclusionPatterns: [
-    "https://babeljs.io/docs/en/next/**",
-    "https://babeljs.io/docs/en/next",
-    "**/**html",
-    "https://babeljs.io/docs/",
-    "https://babeljs.io/docs/en/d**",
-    "https://babeljs.io/docs/en/d**/**",
-  ],
+  sitemaps: ["http://nightwatchjs.org/sitemap.xml"],
+  exclusionPatterns: ["**/author/**", "**/blog/**"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://babeljs.io/**"],
-  schedule: "at 06:00 on Tuesday",
+  discoveryPatterns: ["http://nightwatchjs.org/**"],
+  schedule: "at 15:10 on Thursday",
   actions: [
     {
-      indexName: "babeljs",
-      pathsToMatch: ["https://babeljs.io/docs/**"],
+      indexName: "nightwatchjs",
+      pathsToMatch: ["http://nightwatchjs.org**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = "blockquote, .hash-link";
+        const toRemove =
+          "[data-uri='/'] section:not([data-page-uri='/']), [data-uri='/guide'] section:not([data-page-uri='/guide']), [data-uri='/api'] section:not([data-page-uri='/api']), [data-uri='/blog'] section:not([data-page-uri='/blog']), [data-uri='/contact'] section:not([data-page-uri='/contact']), [data-uri='/cloud'] section:not([data-page-uri='/cloud']), [data-uri='/gettingstarted'] section:not([data-page-uri='/gettingstarted']), [data-uri='/cloud'] section:not([data-page-uri='/cloud']), [data-uri='/api/$method'] section:not([data-page-uri='/api/$method']), a[title]";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".post h1",
-            content: ".post article p, .post article li",
+            lvl1: ".docs-section h2",
+            content:
+              ".docs-section p, .docs-section li, .docs-section table td:last-child",
             lvl0: {
-              selectors: ".navGroup > h3.collapsible",
-              defaultValue: "Documentation",
+              selectors: ".jumbotron h1",
             },
-            lvl2: ".post h2",
-            lvl3: ".post h3",
-            lvl4: ".post h4",
+            lvl2: ".docs-section h3",
+            lvl3: ".docs-section h4, .docs-section table td:first-of-type",
+            lvl4: ".docs-section h5",
           },
-          indexHeadings: { from: 1, to: 6 },
-        });
-      },
-    },
-    {
-      indexName: "babeljs",
-      pathsToMatch: ["https://babeljs.io/learn-es2015/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = "blockquote, .hash-link";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".post h1",
-            content: ".post article p, .post article li",
-            lvl0: {
-              selectors: ".navGroup > h3.collapsible",
-              defaultValue: "Documentation",
-            },
-            lvl2: ".post h2",
-            lvl3: ".post h3",
-            lvl4: ".post h4",
-          },
-          indexHeadings: { from: 1, to: 6 },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
-    babeljs: {
+    nightwatchjs: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
@@ -134,6 +100,7 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
     },
   },
 });

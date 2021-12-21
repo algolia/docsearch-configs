@@ -2,38 +2,75 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://www.skylight.io/support", "https://www.skylight.io/"],
+  startUrls: [
+    "https://babeljs.io/docs/",
+    "https://babeljs.io/",
+    "https://babeljs.io/learn-es2015/",
+  ],
   renderJavaScript: false,
-  sitemaps: [],
-  exclusionPatterns: ["**/"],
+  sitemaps: ["https://babeljs.io/sitemap.xml"],
+  exclusionPatterns: [
+    "https://babeljs.io/docs/en/next/**",
+    "https://babeljs.io/docs/en/next",
+    "**/**html",
+    "https://babeljs.io/docs/en/d**",
+    "https://babeljs.io/docs/en/d**/**",
+  ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.skylight.io/**"],
-  schedule: "at 15:20 on Friday",
+  discoveryPatterns: ["https://babeljs.io/**"],
+  schedule: "at 06:00 on Tuesday",
   actions: [
     {
-      indexName: "skylight",
-      pathsToMatch: ["https://www.skylight.io/support**/**"],
+      indexName: "babeljs",
+      pathsToMatch: ["https://babeljs.io/docs/**"],
       recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "blockquote, .hash-link";
+        $(toRemove).remove();
+
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".support-content h2",
-            content:
-              ".support-content p, .support-content li, .support-content .interaction-bubble-text",
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
             lvl0: {
-              selectors: ".support-content h1",
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Documentation",
             },
-            lvl2: ".support-content h3",
-            lvl3: ".support-content h4",
-            lvl4: ".support-content h5",
-            lvl5: ".support-content h6",
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
           },
-          indexHeadings: true,
+          indexHeadings: { from: 1, to: 6 },
+        });
+      },
+    },
+    {
+      indexName: "babeljs",
+      pathsToMatch: ["https://babeljs.io/learn-es2015/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = "blockquote, .hash-link";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".post h1",
+            content: ".post article p, .post article li",
+            lvl0: {
+              selectors: ".navGroup > h3.collapsible",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".post h2",
+            lvl3: ".post h3",
+            lvl4: ".post h4",
+          },
+          indexHeadings: { from: 1, to: 6 },
         });
       },
     },
   ],
   initialIndexSettings: {
-    skylight: {
+    babeljs: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
@@ -96,7 +133,6 @@ new Crawler({
       advancedSyntax: true,
       attributeCriteriaComputedByMinProximity: true,
       removeWordsIfNoResults: "allOptional",
-      separatorsToIndex: "_",
     },
   },
 });

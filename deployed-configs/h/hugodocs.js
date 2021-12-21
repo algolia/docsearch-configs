@@ -6,7 +6,6 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "https://gohugo.io/getting-started/",
     "https://gohugo.io/categories**",
     "https://gohugo.io/categories**/**",
     "https://gohugo.io/about**",
