@@ -1,24 +1,50 @@
 {
   "index_name": "workbench",
   "start_urls": [
-    "https://workbench.gusto.com/",
-    "https://workbench.gusto.com/getting-started/engineers/"
+    {
+      "url": "https://workbench.gusto.com/"
+    },
+    {
+      "url": "https://workbench.gusto.com/getting-started/",
+      "page_rank": 1
+    },
+    {
+      "url": "https://workbench.gusto.com/foundations/",
+      "page_rank": 2
+    },
+    {
+      "url": "https://workbench.gusto.com/components/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://workbench.gusto.com/patterns/"
+    },
+    {
+      "url": "https://workbench.gusto.com/content/"
+    },
+    {
+      "url": "https://workbench.gusto.com/resources/"
+    },
+    {
+      "url": "https://workbench.gusto.com/updates/"
+    }
   ],
-  "stop_urls": [
-    "\\/\\?"
-  ],
+  "stop_urls": ["\\/\\?"],
   "selectors": {
-    "lvl0": "[class^='container-'] h1",
-    "lvl1": "[class^='container-'] h2",
-    "lvl2": "[class^='container-'] h3",
-    "lvl3": "[class^='container-'] h4",
-    "lvl4": "[class^='container-'] h5",
-    "lvl5": "[class^='container-'] h6",
-    "text": "[class^='container-'] p, [class^='container-'] li"
+    "lvl0": {
+      "selector": ".DocSearch-l0",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocSearch-content h1",
+    "lvl2": ".DocSearch-content h2",
+    "lvl3": ".DocSearch-content h3",
+    "lvl4": ".DocSearch-content h4",
+    "lvl5": ".DocSearch-content h5",
+    "text": ".DocSearch-content p, .DocSearch-content li"
   },
+  "selectors_exclude": [".DocSearch-exclude"],
   "js_render": true,
-  "conversation_id": [
-    "1704794238"
-  ],
+  "conversation_id": ["1704794238"],
   "nb_hits": 2271
 }
