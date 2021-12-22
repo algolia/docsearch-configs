@@ -2,34 +2,34 @@
   "index_name": "te3201_2019",
   "start_urls": [
     {
-      "url": "https://nus-te3201.github.io/2021/schedule/",
+      "url": "https://nus-tee3201.github.io/2022/schedule/",
       "selectors_key": "schedule",
       "tags": [
         "schedule"
       ]
     },
     {
-      "url": "https://nus-te3201.github.io/2021/admin/",
+      "url": "https://nus-tee3201.github.io/2022/admin/",
       "selectors_key": "admin",
       "tags": [
         "admin"
       ]
     },
     {
-      "url": "https://nus-te3201.github.io/2021/programming/",
+      "url": "https://nus-tee3201.github.io/2022/programming/",
       "selectors_key": "programming",
       "tags": [
         "programming"
       ]
     },
     {
-      "url": "https://nus-te3201.github.io/2021/se-book-adapted/",
+      "url": "https://nus-tee3201.github.io/2022/se-book-adapted/",
       "selectors_key": "se-book-adapted",
       "tags": [
         "se-book-adapted"
       ]
     },
-    "https://nus-te3201.github.io/2021/"
+    "https://nus-tee3201.github.io/2022/"
   ],
   "stop_urls": [
     "printable",
