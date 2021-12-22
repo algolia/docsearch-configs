@@ -1,11 +1,12 @@
 {
-  "index_name": "evajs_cn",
+  "index_name": "sandpack",
   "start_urls": [
-    "https://eva-engine.gitee.io/"
+    "https://sandpack.codesandbox.io/docs/"
   ],
   "sitemap_urls": [
-    "https://eva-engine.gitee.io/sitemap.xml"
+    "https://sandpack.codesandbox.io/docs/sitemap.xml"
   ],
+  "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -40,7 +41,7 @@
     ]
   },
   "conversation_id": [
-    "1701524480"
+    "1700983031"
   ],
-  "nb_hits": 7503
+  "nb_hits": 1862
 }
