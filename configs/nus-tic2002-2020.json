@@ -2,27 +2,27 @@
   "index_name": "nus-tic2002-2020",
   "start_urls": [
     {
-      "url": "https://nus-tic2002-2021.github.io/website/schedule/",
+      "url": "https://nus-tic2002-2022.github.io/website/schedule/",
       "selectors_key": "schedule",
       "tags": [
         "schedule"
       ]
     },
     {
-      "url": "https://nus-tic2002-2021.github.io/website/admin/",
+      "url": "https://nus-tic2002-2022.github.io/website/admin/",
       "selectors_key": "admin",
       "tags": [
         "admin"
       ]
     },
     {
-      "url": "https://nus-tic2002-2021.github.io/website/se-book-adapted/",
+      "url": "https://nus-tic2002-2022.github.io/website/se-book-adapted/",
       "selectors_key": "se-book-adapted",
       "tags": [
         "se-book-adapted"
       ]
     },
-    "https://nus-tic2002-2021.github.io/website/"
+    "https://nus-tic2002-2022.github.io/website/"
   ],
   "stop_urls": [
     "printable",
