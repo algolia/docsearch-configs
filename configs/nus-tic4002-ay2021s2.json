@@ -1,28 +1,28 @@
 {
-  "index_name": "nus-tic4002-ay2021s2",
+  "index_name": "nus-tic4002-ay2122s2",
   "start_urls": [
     {
-      "url": "https://nus-tic4002-ay2021s2.github.io/website/schedule/",
+      "url": "https://nus-tic4002-ay2122s2.github.io/website/schedule/",
       "selectors_key": "schedule",
       "tags": [
         "schedule"
       ]
     },
     {
-      "url": "https://nus-tic4002-ay2021s2.github.io/website/admin/",
+      "url": "https://nus-tic4002-ay2122s2.github.io/website/admin/",
       "selectors_key": "admin",
       "tags": [
         "admin"
       ]
     },
     {
-      "url": "https://nus-tic4002-ay2021s2.github.io/website/se-book-adapted/",
+      "url": "https://nus-tic4002-ay2122s2.github.io/website/se-book-adapted/",
       "selectors_key": "se-book-adapted",
       "tags": [
         "se-book-adapted"
       ]
     },
-    "https://nus-tic4002-ay2021s2.github.io/website/"
+    "https://nus-tic4002-ay2122s2.github.io/website/"
   ],
   "stop_urls": [
     "printable",
