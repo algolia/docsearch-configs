@@ -30,6 +30,7 @@
     }
   ],
   "stop_urls": ["\\/\\?"],
+  "sitemap_urls": ["https://workbench.gusto.com/sitemap/sitemap-0.xml"],
   "selectors": {
     "lvl0": {
       "selector": ".DocSearch-l0",
