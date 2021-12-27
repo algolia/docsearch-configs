@@ -4,26 +4,24 @@ new Crawler({
   rateLimit: 8,
   startUrls: [
     "https://workbench.gusto.com/",
-    "https://workbench.gusto.com/getting-started/engineers/",
+    "https://workbench.gusto.com/getting-started/",
+    "https://workbench.gusto.com/foundations/",
+    "https://workbench.gusto.com/components/",
+    "https://workbench.gusto.com/patterns/",
+    "https://workbench.gusto.com/content/",
+    "https://workbench.gusto.com/resources/",
+    "https://workbench.gusto.com/updates/",
   ],
   renderJavaScript: true,
   sitemaps: ["https://workbench.gusto.com/sitemap/sitemap-0.xml"],
-  exclusionPatterns: [
-    "**/\\?**",
-    "**/\\?**/**",
-    "**/**#gatsby-focus-wrapper**",
-    "**/**#gatsby-focus-wrapper**/**",
-  ],
+  exclusionPatterns: ["**/\\?**", "**/\\?**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://workbench.gusto.com/**"],
   schedule: "at 10:30 on Saturday",
   actions: [
     {
       indexName: "workbench",
-      pathsToMatch: [
-        "https://workbench.gusto.com/**",
-        "https://workbench.gusto.com/getting-started/engineers/**",
-      ],
+      pathsToMatch: ["https://workbench.gusto.com/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".DocSearch-exclude";
@@ -31,15 +29,194 @@ new Crawler({
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".DocSearch-content h2",
+            lvl1: ".DocSearch-content h1",
             content: ".DocSearch-content p, .DocSearch-content li",
             lvl0: {
-              selectors: ".DocSearch-content h1",
+              selectors: ".DocSearch-l0",
+              defaultValue: "Documentation",
             },
-            lvl2: ".DocSearch-content h3",
-            lvl3: ".DocSearch-content h4",
-            lvl4: ".DocSearch-content h5",
-            lvl5: ".DocSearch-content h6",
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            lvl4: ".DocSearch-content h4",
+            lvl5: ".DocSearch-content h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "workbench",
+      pathsToMatch: ["https://workbench.gusto.com/getting-started/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".DocSearch-exclude";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocSearch-content h1",
+            content: ".DocSearch-content p, .DocSearch-content li",
+            lvl0: {
+              selectors: ".DocSearch-l0",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            lvl4: ".DocSearch-content h4",
+            lvl5: ".DocSearch-content h5",
+            pageRank: "1",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "workbench",
+      pathsToMatch: ["https://workbench.gusto.com/foundations/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".DocSearch-exclude";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocSearch-content h1",
+            content: ".DocSearch-content p, .DocSearch-content li",
+            lvl0: {
+              selectors: ".DocSearch-l0",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            lvl4: ".DocSearch-content h4",
+            lvl5: ".DocSearch-content h5",
+            pageRank: "2",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "workbench",
+      pathsToMatch: ["https://workbench.gusto.com/components/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".DocSearch-exclude";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocSearch-content h1",
+            content: ".DocSearch-content p, .DocSearch-content li",
+            lvl0: {
+              selectors: ".DocSearch-l0",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            lvl4: ".DocSearch-content h4",
+            lvl5: ".DocSearch-content h5",
+            pageRank: "3",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "workbench",
+      pathsToMatch: ["https://workbench.gusto.com/patterns/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".DocSearch-exclude";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocSearch-content h1",
+            content: ".DocSearch-content p, .DocSearch-content li",
+            lvl0: {
+              selectors: ".DocSearch-l0",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            lvl4: ".DocSearch-content h4",
+            lvl5: ".DocSearch-content h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "workbench",
+      pathsToMatch: ["https://workbench.gusto.com/content/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".DocSearch-exclude";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocSearch-content h1",
+            content: ".DocSearch-content p, .DocSearch-content li",
+            lvl0: {
+              selectors: ".DocSearch-l0",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            lvl4: ".DocSearch-content h4",
+            lvl5: ".DocSearch-content h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "workbench",
+      pathsToMatch: ["https://workbench.gusto.com/resources/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".DocSearch-exclude";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocSearch-content h1",
+            content: ".DocSearch-content p, .DocSearch-content li",
+            lvl0: {
+              selectors: ".DocSearch-l0",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            lvl4: ".DocSearch-content h4",
+            lvl5: ".DocSearch-content h5",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "workbench",
+      pathsToMatch: ["https://workbench.gusto.com/updates/**"],
+      recordExtractor: ({ $, helpers }) => {
+        // Removing DOM elements we don't want to crawl
+        const toRemove = ".DocSearch-exclude";
+        $(toRemove).remove();
+
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".DocSearch-content h1",
+            content: ".DocSearch-content p, .DocSearch-content li",
+            lvl0: {
+              selectors: ".DocSearch-l0",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".DocSearch-content h2",
+            lvl3: ".DocSearch-content h3",
+            lvl4: ".DocSearch-content h4",
+            lvl5: ".DocSearch-content h5",
           },
           indexHeadings: true,
         });
