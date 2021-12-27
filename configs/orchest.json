@@ -1,10 +1,10 @@
 {
   "index_name": "orchest",
   "start_urls": [
-    "https://orchest.readthedocs.io/en/latest/"
+    "https://docs.orchest.io/en/latest/"
   ],
   "sitemap_urls": [
-    "https://orchest.readthedocs.io/sitemap.xml"
+    "https://docs.orchest.io/sitemap.xml"
   ],
   "stop_urls": [],
   "selectors": {
