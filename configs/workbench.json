@@ -1,18 +1,47 @@
 {
   "index_name": "workbench",
   "start_urls": [
-    "https://workbench.gusto.com/",
-    "https://workbench.gusto.com/getting-started/engineers/"
+    {
+      "url": "https://workbench.gusto.com/"
+    },
+    {
+      "url": "https://workbench.gusto.com/getting-started/",
+      "page_rank": 1
+    },
+    {
+      "url": "https://workbench.gusto.com/foundations/",
+      "page_rank": 2
+    },
+    {
+      "url": "https://workbench.gusto.com/components/",
+      "page_rank": 3
+    },
+    {
+      "url": "https://workbench.gusto.com/patterns/"
+    },
+    {
+      "url": "https://workbench.gusto.com/content/"
+    },
+    {
+      "url": "https://workbench.gusto.com/resources/"
+    },
+    {
+      "url": "https://workbench.gusto.com/updates/"
+    }
   ],
-  "stop_urls": ["\\/\\?", "#gatsby-focus-wrapper"],
+  "stop_urls": ["\\/\\?"],
   "sitemap_urls": ["https://workbench.gusto.com/sitemap/sitemap-0.xml"],
   "selectors": {
-    "lvl0": ".DocSearch-content h1",
-    "lvl1": ".DocSearch-content h2",
-    "lvl2": ".DocSearch-content h3",
-    "lvl3": ".DocSearch-content h4",
-    "lvl4": ".DocSearch-content h5",
-    "lvl5": ".DocSearch-content h6",
+    "lvl0": {
+      "selector": ".DocSearch-l0",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": ".DocSearch-content h1",
+    "lvl2": ".DocSearch-content h2",
+    "lvl3": ".DocSearch-content h3",
+    "lvl4": ".DocSearch-content h4",
+    "lvl5": ".DocSearch-content h5",
     "text": ".DocSearch-content p, .DocSearch-content li"
   },
   "selectors_exclude": [".DocSearch-exclude"],
