@@ -3,50 +3,90 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://documentation.maventa.com/overview/",
-    "https://documentation.maventa.com/",
+    "https://megengine.org.cn/doc/stable/zh/reference/api/",
+    "https://megengine.org.cn/",
+    "https://megengine.org.cn/doc/stable/zh/user-guide/",
+    "https://megengine.org.cn/doc/stable/zh/getting-started/",
   ],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**//**"],
+  exclusionPatterns: ["**/index.html"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://documentation.maventa.com/**"],
+  discoveryPatterns: ["https://megengine.org.cn/**"],
   schedule: "at 10:00 on Thursday",
   actions: [
     {
-      indexName: "maventa",
-      pathsToMatch: ["https://documentation.maventa.com/overview/**"],
+      indexName: "megengine",
+      pathsToMatch: ["https://megengine.org.cn/doc/stable/zh/reference/api/**"],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".col-sm-9 h2",
-            content: ".col-sm-9 p, .col-sm-9 li",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
-              selectors: ".col-sm-9 h1",
+              selectors: "",
+              defaultValue: "Python API",
             },
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
+            tags: {
+              defaultValue: ["api"],
+            },
+            pageRank: "10",
           },
           indexHeadings: true,
         });
       },
     },
     {
-      indexName: "maventa",
+      indexName: "megengine",
+      pathsToMatch: ["https://megengine.org.cn/doc/stable/zh/user-guide/**"],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: "main h1",
+            content: "main p, main li",
+            lvl0: {
+              selectors: "",
+              defaultValue: "Guide",
+            },
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
+            tags: {
+              defaultValue: ["guide"],
+            },
+            pageRank: "8",
+          },
+          indexHeadings: true,
+        });
+      },
+    },
+    {
+      indexName: "megengine",
       pathsToMatch: [
-        "https://documentation.maventa.com/**",
-        "!https://documentation.maventa.com/overview/**",
+        "https://megengine.org.cn/doc/stable/zh/getting-started/**",
       ],
       recordExtractor: ({ $, helpers }) => {
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".col-sm-9 h2",
-            content: ".col-sm-9 p, .col-sm-9 li",
+            lvl1: "main h1",
+            content: "main p, main li",
             lvl0: {
-              selectors: ".col-sm-9 h1",
+              selectors: "",
+              defaultValue: "Tutorial",
             },
-            lvl2: ".col-sm-9 h3",
-            lvl3: ".col-sm-9 h4",
-            lvl4: ".col-sm-9 h5, .col-sm-9 summary",
-            lvl5: ".col-sm-9 h6",
+            lvl2: "main h2",
+            lvl3: "main h3",
+            lvl4: "main h4",
+            lvl5: "main h5",
+            tags: {
+              defaultValue: ["tutorial"],
+            },
+            pageRank: "6",
           },
           indexHeadings: true,
         });
@@ -54,8 +94,8 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    maventa: {
-      attributesForFaceting: ["type", "lang"],
+    megengine: {
+      attributesForFaceting: ["type", "lang", "tags"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
