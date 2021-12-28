@@ -3,12 +3,12 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://nus-te3201.github.io/2021/schedule/",
-    "https://nus-te3201.github.io/",
-    "https://nus-te3201.github.io/2021/admin/",
-    "https://nus-te3201.github.io/2021/programming/",
-    "https://nus-te3201.github.io/2021/se-book-adapted/",
-    "https://nus-te3201.github.io/2021/",
+    "https://nus-tee3201.github.io/2022/schedule/",
+    "https://nus-tee3201.github.io/",
+    "https://nus-tee3201.github.io/2022/admin/",
+    "https://nus-tee3201.github.io/2022/programming/",
+    "https://nus-tee3201.github.io/2022/se-book-adapted/",
+    "https://nus-tee3201.github.io/2022/",
   ],
   renderJavaScript: false,
   sitemaps: [],
@@ -21,12 +21,12 @@ new Crawler({
     "**/**print.html",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://nus-te3201.github.io/**"],
+  discoveryPatterns: ["https://nus-tee3201.github.io/**"],
   schedule: "at 19:00 on Friday",
   actions: [
     {
       indexName: "te3201_2019",
-      pathsToMatch: ["https://nus-te3201.github.io/2021/schedule/**"],
+      pathsToMatch: ["https://nus-tee3201.github.io/2022/schedule/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".algolia-no-index, [id$='-toc'], #toc, .alert";
@@ -55,7 +55,7 @@ new Crawler({
     },
     {
       indexName: "te3201_2019",
-      pathsToMatch: ["https://nus-te3201.github.io/2021/admin/**"],
+      pathsToMatch: ["https://nus-tee3201.github.io/2022/admin/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".algolia-no-index, [id$='-toc'], #toc, .alert";
@@ -84,7 +84,7 @@ new Crawler({
     },
     {
       indexName: "te3201_2019",
-      pathsToMatch: ["https://nus-te3201.github.io/2021/programming/**"],
+      pathsToMatch: ["https://nus-tee3201.github.io/2022/programming/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".algolia-no-index, [id$='-toc'], #toc, .alert";
@@ -113,7 +113,7 @@ new Crawler({
     },
     {
       indexName: "te3201_2019",
-      pathsToMatch: ["https://nus-te3201.github.io/2021/se-book-adapted/**"],
+      pathsToMatch: ["https://nus-tee3201.github.io/2022/se-book-adapted/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".algolia-no-index, [id$='-toc'], #toc, .alert";
@@ -144,11 +144,11 @@ new Crawler({
     {
       indexName: "te3201_2019",
       pathsToMatch: [
-        "https://nus-te3201.github.io/2021/**",
-        "!https://nus-te3201.github.io/2021/schedule/**",
-        "!https://nus-te3201.github.io/2021/admin/**",
-        "!https://nus-te3201.github.io/2021/programming/**",
-        "!https://nus-te3201.github.io/2021/se-book-adapted/**",
+        "https://nus-tee3201.github.io/2022/**",
+        "!https://nus-tee3201.github.io/2022/schedule/**",
+        "!https://nus-tee3201.github.io/2022/admin/**",
+        "!https://nus-tee3201.github.io/2022/programming/**",
+        "!https://nus-tee3201.github.io/2022/se-book-adapted/**",
       ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
