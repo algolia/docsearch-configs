@@ -1,54 +1,24 @@
 {
-  "index_name": "wultra_developers",
-  "start_urls": [
+  "startUrls": [
     "https://developers.wultra.com/"
   ],
-  "sitemap_urls": [
+  "sitemaps": [
     "https://developers.wultra.com/sitemap.xml"
   ],
-  "stop_urls": [],
+  "exclusionPatterns": [],
   "selectors": {
-    "lvl0": {
-      "selector": "#docsearch-product",
-      "global": true
-    },
-    "lvl1": {
-      "selector": "#docsearch-component",
-      "global": true
-    },
-    "lvl2": "section h1",
-    "lvl3": "section h2",
-    "lvl4": "section h3",
-    "lvl5": "section h4",
+    "lvl0": "section h1",
+    "lvl1": "section h2",
+    "lvl2": "section h3",
+    "lvl3": "section h4",
+    "lvl4": "section h5",
+    "lvl5": "section h6",
     "text": "section p, section li"
   },
-  "selectors_exclude": [
-    ".sidebar-toc",
-    ".sidebar"
-  ],
-  "conversation_id": [
-    "1176317311"
-  ],
-  "custom_settings": {
+  "initialIndexSettings": {
     "attributesForFaceting": [
       "language",
-      "version",
-      "product",
-      "component"
-    ],
-    "attributesToRetrieve": [
-      "language",
-      "version",
-      "title",
-      "product",
-      "component",
-      "hierarchy",
-      "content",
-      "anchor",
-      "url",
-      "url_without_anchor",
-      "type"
+      "version"
     ]
-  },
-  "nb_hits": 26160
+  }
 }
