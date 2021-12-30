@@ -5,7 +5,9 @@
   "sitemaps": [
     "https://developers.wultra.com/sitemap.xml"
   ],
-  "exclusionPatterns": [],
+  "exclusionPatterns": [
+    "https://developers.wultra.com/docs/**"
+  ],
   "selectors": {
     "lvl0": "section h1",
     "lvl1": "section h2",
