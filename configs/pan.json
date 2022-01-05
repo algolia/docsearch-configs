@@ -20,7 +20,7 @@
       ]
     },
     {
-      "url": "https://strata.pan.dev/",
+      "url": "https://panos.pan.dev/",
       "tags": [
         "strata"
       ]
@@ -36,7 +36,7 @@
     "https://cortex.pan.dev/sitemap.xml",
     "https://xsoar.pan.dev/sitemap.xml",
     "https://prisma.pan.dev/sitemap.xml",
-    "https://strata.pan.dev/sitemap.xml",
+    "https://panos.pan.dev/sitemap.xml",
     "https://gallery.pan.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
