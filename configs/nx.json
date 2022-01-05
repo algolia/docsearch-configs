@@ -1,20 +1,6 @@
 {
   "index_name": "nx",
   "start_urls": [
-    {
-      "url": "https://nx.dev/(?P<version>.*?)/(?P<framework>.*?)/",
-      "variables": {
-        "version": [
-          "l",
-          "p"
-        ],
-        "framework": [
-          "r",
-          "a",
-          "n"
-        ]
-      }
-    },
     "https://nx.dev/"
   ],
   "stop_urls": [],
