@@ -1,10 +1,10 @@
 {
   "index_name": "bandwidth",
   "start_urls": [
-    "http://new.dev.bandwidth.com/"
+    "http://dev.bandwidth.com/"
   ],
   "sitemap_urls": [
-    "http://new.dev.bandwidth.com/sitemap.xml"
+    "http://dev.bandwidth.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
