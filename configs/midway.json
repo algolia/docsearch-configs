@@ -1,10 +1,10 @@
 {
   "index_name": "midway",
   "start_urls": [
-    "https://midway-next-site-lxxyx.vercel.app/"
+    "https://midwayjs.org/"
   ],
   "sitemap_urls": [
-    "https://midway-next-site-lxxyx.vercel.app/sitemap.xml"
+    "https://midwayjs.org/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
