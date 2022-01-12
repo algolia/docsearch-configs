@@ -9,6 +9,7 @@
     "lvl3": "[class*='contentWrapperInner'] h3",
     "lvl4": "[class*='contentWrapperInner'] h4",
     "lvl5": "[class*='contentWrapperInner'] h5",
+    "lvl6": "[class*='contentWrapperInner'] h6",
     "text": "[class*='contentWrapperInner'] p, [class*='contentWrapperInner'] li, [class*='contentWrapperInner'] td:first-child"
   },
   "js_render": true,
