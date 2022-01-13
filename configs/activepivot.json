@@ -79,7 +79,6 @@
 			"lvl5": "article h5, article td:first-child",
 			"lvl6": "article h6",
 			"text": "article p, article li, article td:last-child"
-		  }
 	  },
 	  "docusaurus1":{
 		"lvl0": {
