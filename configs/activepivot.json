@@ -1,7 +1,63 @@
 {
-  "index_name": "activepivot",
+"index_name": "activepivot",
   "start_urls": [
-    "https://activeviam.com/activepivot/"
+    "https://activeviam.com/activepivot/",
+	{"url": "https://activeviam.com/activepivot/5.10.6/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.10.5/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.10.4/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.10.3/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.10.2/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.10.1/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.10.0/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.10/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.9/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.8/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.7/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.6/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.5/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.4/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.3/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.2/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.1/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.9.0/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.22/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.21/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.20/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.19/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.18/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.17/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.16/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.15/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.14/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.13/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.12/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.11/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.10/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.9/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.8/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.7/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.6/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.5/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.4/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.3/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.2/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.1/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.8.0/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.19/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.18/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.17/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.16/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.15/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.14/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.13/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.12/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.11/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.10/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.9/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.8/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.7/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.6/", "selectors_key": "docusaurus1"},
+	{"url": "https://activeviam.com/activepivot/5.7.5/", "selectors_key": "docusaurus1"}
   ],
   "sitemap_urls": [
     "https://activeviam.com/activepivot/sitemap.xml"
@@ -9,17 +65,35 @@
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {
-    "lvl0": {
-      "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Documentation"
-    },
-    "lvl1": ".post h1",
-    "lvl2": ".post h2",
-    "lvl3": ".post h3",
-    "lvl4": ".post h4",
-    "text": ".post article p, .post article li"
+	  "default":{
+		  "lvl0": {
+			  "selector": "(//ul[contains(@class,'menu__list')]//a[contains(@class, 'menu__link menu__link--sublist menu__link--active')]/text() | //nav[contains(@class, 'navbar')]//a[contains(@class, 'navbar__link--active')]/text())[last()]",
+			  "type": "xpath",
+			  "global": true,
+			  "default_value": "Documentation"
+			},
+			"lvl1": "header h1",
+			"lvl2": "article h2",
+			"lvl3": "article h3",
+			"lvl4": "article h4",
+			"lvl5": "article h5, article td:first-child",
+			"lvl6": "article h6",
+			"text": "article p, article li, article td:last-child"
+		  }
+	  },
+	  "docusaurus1":{
+		"lvl0": {
+		  "selector": "//*[contains(@class,'navGroups')]//*[contains(@class,'navListItemActive')]/preceding::h3[1]",
+		  "type": "xpath",
+		  "global": true,
+		  "default_value": "Documentation"
+		},
+		"lvl1": ".post h1",
+		"lvl2": ".post h2",
+		"lvl3": ".post h3",
+		"lvl4": ".post h4",
+		"text": ".post article p, .post article li"
+	  }
   },
   "selectors_exclude": [
     ".hash-link"
