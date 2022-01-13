@@ -1,10 +1,10 @@
 {
-  "index_name": "yasithab_notebook",
+  "index_name": "yasithab_blog",
   "start_urls": [
-    "https://notebook.yasithab.com/"
+    "https://blog.yasithab.com/"
   ],
   "sitemap_urls": [
-    "https://notebook.yasithab.com/sitemap.xml"
+    "https://blog.yasithab.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
