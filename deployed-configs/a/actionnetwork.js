@@ -3,84 +3,47 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://documentation.accengage.com/sdk",
-    "https://documentation.accengage.com/",
-    "https://documentation.accengage.com/api",
-    "https://documentation.accengage.com/dataflow/introduction",
-    "https://documentation.accengage.com/user-guide/en",
-    "https://documentation.accengage.com/user-guide/fr",
-    "https://documentation.accengage.com/faq",
+    "https://actionnetwork.org/docs/",
+    "https://actionnetwork.org/",
+    "https://actionnetwork.org/docs/v2",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://documentation.accengage.com/sitemap.xml"],
-  exclusionPatterns: [
-    "https://documentation.accengage.com/admin**",
-    "https://documentation.accengage.com/admin**/**",
-    "**/**documentation.accengage.com/**",
-  ],
+  sitemaps: [],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://documentation.accengage.com/**"],
+  discoveryPatterns: ["https://actionnetwork.org/**"],
   schedule: "at 01:00 on Tuesday",
   actions: [
     {
-      indexName: "accengage",
-      pathsToMatch: ["https://documentation.accengage.com/faq**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove =
-          ".sidebar-container, .footer, .top-navbar, .toc-container";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".main-content h2",
-            content: ".main-content p, .main-content li",
-            lvl0: {
-              selectors: ".block_questions--link a, .main-content h1",
-            },
-            lvl2: ".main-content h3",
-            lvl3: ".main-content h4",
-            lvl4: ".main-content h5",
-          },
-          indexHeadings: { from: 2, to: 6 },
-        });
-      },
-    },
-    {
-      indexName: "accengage",
+      indexName: "actionnetwork",
       pathsToMatch: [
-        "https://documentation.accengage.com**/**",
-        "https://documentation.accengage.com/sdk**/**",
-        "https://documentation.accengage.com/api**/**",
-        "https://documentation.accengage.com/dataflow/introduction**/**",
-        "https://documentation.accengage.com/user-guide/en**/**",
-        "https://documentation.accengage.com/user-guide/fr**/**",
-        "!https://documentation.accengage.com/faq**/**",
+        "https://actionnetwork.org/docs/**",
+        "https://actionnetwork.org/docs/v2**/**",
       ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove =
-          ".sidebar-container, .footer, .top-navbar, .toc-container";
+        const toRemove = ".owner_badge";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: ".main-content h2",
-            content: ".main-content p, .main-content li",
+            lvl1: ".main_col h2",
+            content: ".main_col p",
             lvl0: {
-              selectors: ".main-content h1",
+              selectors: "",
+              defaultValue: "Documentation",
             },
-            lvl2: ".main-content h3",
-            lvl3: ".main-content h4",
-            lvl4: ".main-content h5",
+            lvl2: ".main_col h3",
+            lvl3: ".main_col h4",
+            lvl4: ".main_col h5",
           },
-          indexHeadings: { from: 2, to: 6 },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
-    accengage: {
+    actionnetwork: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
