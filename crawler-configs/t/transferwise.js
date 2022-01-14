@@ -2,35 +2,32 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://js.yanceyleo.com/"],
+  startUrls: [
+    "https://transferwise.github.io/neptune-web/",
+    "https://transferwise.github.io/",
+  ],
   renderJavaScript: false,
-  sitemaps: ["https://js.yanceyleo.com/sitemap.xml"],
+  sitemaps: [],
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://js.yanceyleo.com/**"],
-  schedule: "at 19:00 on Saturday",
+  discoveryPatterns: ["https://transferwise.github.io/**"],
+  schedule: "at 19:40 on Friday",
   actions: [
     {
-      indexName: "yanceyofficial_javascript-apis",
-      pathsToMatch: ["https://js.yanceyleo.com/**"],
+      indexName: "transferwise",
+      pathsToMatch: ["https://transferwise.github.io/neptune-web/**"],
       recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".hash-link";
-        $(toRemove).remove();
-
         return helpers.docsearch({
           recordProps: {
-            lvl1: "[class^='docItemContainer_'] h1",
-            content:
-              "[class^='docItemContainer_'] p, [class^='docItemContainer_'] li",
+            lvl1: ".Content h2",
+            content: ".Content p, .Content li",
             lvl0: {
-              selectors: ".menu__link--sublist.menu__link--active",
-              defaultValue: "Documentation",
+              selectors: ".Content h1",
             },
-            lvl2: "[class^='docItemContainer_'] h2",
-            lvl3: "[class^='docItemContainer_'] h3",
-            lvl4: "[class^='docItemContainer_'] h4",
-            lvl5: "[class^='docItemContainer_'] h5",
+            lvl2: ".Content h3",
+            lvl3: ".Content h4",
+            lvl4: ".Content h5",
+            lvl5: ".Content h6",
           },
           indexHeadings: true,
         });
@@ -38,7 +35,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "yanceyofficial_javascript-apis": {
+    transferwise: {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],

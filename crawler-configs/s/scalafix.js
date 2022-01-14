@@ -3,7 +3,7 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://scalacenter.github.io/scalafix/docs",
+    "https://scalacenter.github.io/scalafix/",
     "https://scalacenter.github.io/",
   ],
   renderJavaScript: false,
@@ -15,7 +15,7 @@ new Crawler({
   actions: [
     {
       indexName: "scalafix",
-      pathsToMatch: ["https://scalacenter.github.io/scalafix/docs**/**"],
+      pathsToMatch: ["https://scalacenter.github.io/scalafix/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".hash-link";
