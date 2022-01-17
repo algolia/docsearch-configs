@@ -5,9 +5,9 @@ new Crawler({
   startUrls: ["https://gwa.relayr.io/docs/", "https://gwa.relayr.io/"],
   renderJavaScript: false,
   sitemaps: ["https://gwa.relayr.io/sitemap.xml"],
-  exclusionPatterns: ["**.html", "**/**?**", "**/**?**/**"],
+  exclusionPatterns: ["**.html"],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://gwa.relayr.io/**"],
+  discoveryPatterns: ["https://gwa.relayr.io/docs/**"],
   schedule: "at 10:00 on Friday",
   actions: [
     {
