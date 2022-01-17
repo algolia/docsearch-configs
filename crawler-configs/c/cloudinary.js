@@ -32,6 +32,8 @@ new Crawler({
     "https://cloudinary.com/documentation/upload_widget_1**/**",
     "https://cloudinary.com/documentation/sdks/***",
     "https://cloudinary.com/documentation/sdks/***/**",
+    "**/**?**",
+    "**/**?**/**",
     "**.txt",
   ],
   ignoreCanonicalTo: false,

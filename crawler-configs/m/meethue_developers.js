@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://developers.meethue.com/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: [],
+  exclusionPatterns: ["**/**?**", "**/**?**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://developers.meethue.com/**"],
   schedule: "at 10:00 on Thursday",

@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["http://signal.agworld.com/"],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/storybook/**"],
+  exclusionPatterns: ["**/**?**", "**/**?**/**", "**/storybook/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["http://signal.agworld.com/**"],
   schedule: "at 01:10 on Tuesday",

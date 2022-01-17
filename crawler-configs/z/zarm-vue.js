@@ -8,7 +8,7 @@ new Crawler({
   ],
   renderJavaScript: true,
   sitemaps: [],
-  exclusionPatterns: ["**/**demo.html"],
+  exclusionPatterns: ["**/**demo.html", "**/**?**", "**/**?**/**"],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://zhongantecheng.github.io/**"],
   schedule: "at 00:00 on Sunday",
