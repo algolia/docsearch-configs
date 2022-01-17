@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "a.Nav__Link",
+      "selector": ".Header a.Nav__Link.active",
       "global": true
     },
     "lvl1": ".Content h1",
