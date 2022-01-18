@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["http://docs.bons.ai/"],
   renderJavaScript: false,
   sitemaps: [],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["http://docs.bons.ai/**"],
   schedule: "at 06:30 on Tuesday",

@@ -5,7 +5,7 @@ new Crawler({
   startUrls: ["https://docs.stormapp.com/"],
   renderJavaScript: false,
   sitemaps: ["https://docs.stormapp.com/sitemap.xml"],
-  exclusionPatterns: ["**/**?**", "**/**?**/**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://docs.stormapp.com/**"],
   schedule: "at 15:40 on Friday",
