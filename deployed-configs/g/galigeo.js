@@ -3,8 +3,6 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://galigeo-for-salesforce.github.io.*-en/",
-    "https://galigeo-for-salesforce.github.io/en",
     "https://galigeo-for-salesforce.github.io/",
   ],
   renderJavaScript: false,
@@ -12,7 +10,6 @@ new Crawler({
   exclusionPatterns: [],
   ignoreCanonicalTo: false,
   discoveryPatterns: [
-    "https://galigeo-for-salesforce.github.io.*-en/**",
     "https://galigeo-for-salesforce.github.io/**",
   ],
   schedule: "at 06:00 on Wednesday",
