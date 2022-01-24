@@ -10,7 +10,14 @@
           "v0.12-docs",
           "v0.13-docs",
           "v0.14-docs",
-          "v0.15-docs"
+          "v0.15-docs",
+          "v0.16-docs",
+          "v1.0-docs",
+          "v1.1-docs",
+          "v1.2-docs",
+          "v1.3-docs",
+          "v1.4-docs",
+          "v1.5-docs"
         ]
       }
     }
