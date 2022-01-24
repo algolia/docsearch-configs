@@ -24,6 +24,12 @@
       "tags": [
         "op"
       ]
+    },
+    {
+      "url": "https://docs.growingio.com/op-help/docs",
+      "tags": [
+        "op-help"
+      ]
     }
   ],
   "stop_urls": [],
