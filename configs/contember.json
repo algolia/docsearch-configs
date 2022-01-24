@@ -1,12 +1,12 @@
 {
 	"index_name": "contember",
-	"startUrls": [
+	"start_urls": [
 	  "https://docs.contember.com"
 	],
-	"sitemaps": [
+	"sitemap_urls": [
 	  "https://docs.contember.com/sitemap.xml"
 	],
-	"exclusionPatterns": [
+	"stop_urls": [
 	  "/tests"
 	],
 	"selectors": {
@@ -24,7 +24,7 @@
 	  "lvl6": "article h6",
 	  "text": "article p, article li, article td:last-child"
 	},
-	"initialIndexSettings": {
+	"custom_settings": {
 	  "separatorsToIndex": "_",
 	  "attributesForFaceting": [
 		"language",
