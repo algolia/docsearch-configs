@@ -25,6 +25,13 @@
         "ui"
       ]
     },
+    {
+      "url": "https://graphcms.com/blog/",
+      "selectors_key": "blog",
+      "tags": [
+        "blog"
+      ]
+    },
     "https://graphcms.com/docs/"
   ],
   "stop_urls": [],
@@ -70,6 +77,17 @@
       "lvl0": {
         "selector": "",
         "default_value": "UI Extensions"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "text": "article p, article li"
+    },
+    "blog": {
+      "lvl0": {
+        "selector": "",
+        "default_value": "Blog"
       },
       "lvl1": "article h1",
       "lvl2": "article h2",
