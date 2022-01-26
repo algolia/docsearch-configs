@@ -19,6 +19,11 @@
     "lvl5": ".content h5",
     "text": ".content p, .content li"
   },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "language"
+    ]
+  },
   "conversation_id": [
     "1341434945"
   ],
