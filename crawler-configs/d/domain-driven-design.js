@@ -11,9 +11,7 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: ["https://tidylab.github.io/ddd/sitemap.xml"],
   exclusionPatterns: [
-    "**/reference/",
     "**/reference/index.html",
-    "**/articles/",
     "**/articles/index.html",
   ],
   ignoreCanonicalTo: false,

@@ -3,13 +3,8 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://www.realm.io/docs/.*/latest/",
-    "https://www.realm.io/",
-    "https://(www.)/?realm.io/docs/.*/latest/",
-    "https://(www.)/",
-    "https://(www.)/?realm.io/kr/docs/.*/latest/",
-    "https://(www.)/?realm.io/cn/docs/.*/latest/",
-    "https://(www.)/?realm.io/jp/docs/.*/latest/",
+    "https://www.realm.io/docs/",
+    "https://www.realm.io/"
   ],
   renderJavaScript: false,
   sitemaps: ["https://realm.io/sitemap.xml"],
@@ -30,7 +25,7 @@ new Crawler({
     "**/**java/adapter**/**",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://www.realm.io/**", "https://(www.)/**"],
+  discoveryPatterns: ["https://www.realm.io/**"],
   schedule: "at 10:00 on Friday",
   actions: [
     {

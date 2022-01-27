@@ -9,12 +9,10 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "https://grafana.com/(?!docs/)**",
-    "https://grafana.com/(?!docs/)**/**",
     "https://grafana.com/docs/vd+\\.\\d+/**",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://grafana.com/**"],
+  discoveryPatterns: ["https://grafana.com/docs/**"],
   schedule: "at 06:40 on Wednesday",
   actions: [
     {
