@@ -11,8 +11,7 @@ new Crawler({
   renderJavaScript: false,
   sitemaps: ["https://applinks.devicebook.com/docs/html/sitemap.xml"],
   exclusionPatterns: [
-    "**/index.html",
-    "https://applinks.devicebook.com/docs/html/",
+    "**/index.html"
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: ["https://applinks.devicebook.com/**"],
