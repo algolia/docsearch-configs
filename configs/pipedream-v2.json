@@ -1,0 +1,41 @@
+{
+  "index_name": "pipedream-v2",
+  "start_urls": [
+    "https://pipedream.com/docs-v2/"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "p.sidebar-heading.open",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "main h1",
+    "lvl2": "main h2",
+    "lvl3": "main h3",
+    "lvl4": "main h4",
+    "lvl5": "main h5",
+    "text": "main p, main li",
+    "lang": {
+      "selector": "/html/@lang",
+      "type": "xpath",
+      "global": true,
+      "default_value": "en-US"
+    }
+  },
+  "selectors_exclude": [
+    ".table-of-contents"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "lang"
+    ]
+  },
+  "scrape_start_urls": false,
+  "strip_chars": " .,;:#",
+  "conversation_id": [
+    "898525983"
+  ],
+  "nb_hits": 2787
+}
+
