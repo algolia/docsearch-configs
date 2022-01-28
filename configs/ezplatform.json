@@ -38,7 +38,7 @@
       "page_rank": 18,
       "variables": {
         "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+        "version": ["latest", "4.0", "3.3", "2.5", "master"]
       }
     },
     {
@@ -46,7 +46,7 @@
       "page_rank": 10,
       "variables": {
         "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+        "version": ["latest", "4.0", "3.3", "2.5", "master"]
       }
     },
     {
@@ -54,7 +54,7 @@
       "page_rank": 12,
       "variables": {
         "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+        "version": ["latest", "4.0", "3.3", "2.5", "master"]
       }
     },
     {
@@ -62,7 +62,7 @@
       "page_rank": 16,
       "variables": {
         "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+        "version": ["latest", "4.0", "3.3", "2.5", "master"]
       }
     },
     {
@@ -70,15 +70,7 @@
       "page_rank": 14,
       "variables": {
         "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
-      }
-    },
-    {
-      "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/upgrading",
-      "page_rank": 14,
-      "variables": {
-        "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+        "version": ["latest", "4.0", "3.3", "2.5", "master"]
       }
     },
     {
@@ -86,14 +78,14 @@
       "page_rank": 8,
       "variables": {
         "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+        "version": ["latest", "4.0", "3.3", "2.5", "master"]
       }
     },
     {
       "url": "https://doc.ibexa.co/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
         "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+        "version": ["latest", "4.0", "3.3", "2.5", "master"]
       }
     }
   ],

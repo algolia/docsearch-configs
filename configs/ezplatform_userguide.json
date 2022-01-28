@@ -5,7 +5,7 @@
       "url": "https://doc.ibexa.co/projects/userguide/(?P<lang>.*?)/(?P<version>.*?)/",
       "variables": {
         "lang": ["en"],
-        "version": ["latest", "3.3", "3.2", "2.5", "1.13", "master"]
+        "version": ["latest", "4.0", "3.3", "2.5", "master"]
       }
     }
   ],
