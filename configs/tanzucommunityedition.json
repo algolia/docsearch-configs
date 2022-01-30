@@ -1,0 +1,33 @@
+{
+  "index_name": "tanzucommunityedition",
+  "start_urls": [
+    "https://tanzucommunityedition.io/docs/"
+  ],
+  "sitemap_urls": [
+    "https://tanzucommunityedition.io/sitemap.xml"
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "header.subproject-specific a.text-logo",
+    "lvl1": ".docs-content h1",
+    "lvl2": ".docs-content h2",
+    "lvl3": ".docs-content h3",
+    "lvl4": ".docs-content h4",
+    "lvl5": ".docs-content h5",
+    "text": ".docs-content p, .docs-content li",
+    "version": {
+      "selector": "#dropdownMenuButton",
+      "global": true,
+      "default_value": "latest"
+    }
+  },
+  "custom_settings": {
+    "attributesForFaceting": [
+      "version"
+    ]
+  },
+  "conversation_id": [
+    "1702016197"
+  ],
+  "nb_hits": 15984
+}

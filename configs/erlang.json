@@ -2,19 +2,19 @@
   "index_name": "erlang",
   "start_urls": [
     {
-      "url": "https://beta.erlang.org/doc/man/",
+      "url": "https://www.erlang.org/doc/man/",
       "selectors_key": "man",
       "page_rank": 3,
       "tags": ["man"]
     },
     {
-      "url": "https://beta.erlang.org/doc/reference_manual/",
+      "url": "https://www.erlang.org/doc/reference_manual/",
       "selectors_key": "guide",
       "page_rank": 2,
       "tags": ["refman"]
     },
     {
-      "url": "https://beta.erlang.org/doc/",
+      "url": "https://www.erlang.org/doc/",
       "selectors_key": "guide",
       "page_rank": 1,
       "tags": ["guide"]

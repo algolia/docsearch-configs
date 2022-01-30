@@ -1,10 +1,10 @@
 {
   "index_name": "dynamaker",
   "start_urls": [
-    "https://skymakerstudio.github.io/dynamaker-docs/docs/"
+    "https://docs.dynamaker.com/"
   ],
   "sitemap_urls": [
-    "https://skymakerstudio.github.io/dynamaker-docs/sitemap.xml"
+    "https://docs.dynamaker.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

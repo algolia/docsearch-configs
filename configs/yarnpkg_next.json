@@ -33,6 +33,12 @@
       "url",
       "url_without_anchor",
       "type"
+    ],
+    "synonyms": [
+      [
+        "up",
+        "upgrade"
+      ]
     ]
   },
   "selectors_exclude": [

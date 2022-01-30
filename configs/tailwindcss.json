@@ -2,46 +2,36 @@
   "index_name": "tailwindcss",
   "start_urls": [
     {
-      "url": "https://tailwindcss.com/",
+      "url": "https://v2.tailwindcss.com/",
       "selectors_key": "v2",
       "extra_attributes": {
-        "version": [
-          "v2"
-        ]
+        "version": ["v2"]
       }
     },
     {
-      "url": "https://tailwindcss.com/community",
+      "url": "https://v2.tailwindcss.com/community",
       "selectors_key": "v2",
       "extra_attributes": {
-        "version": [
-          "v2"
-        ]
+        "version": ["v2"]
       }
     },
     {
       "url": "https://v1.tailwindcss.com/",
       "selectors_key": "v1",
       "extra_attributes": {
-        "version": [
-          "v1"
-        ]
+        "version": ["v1"]
       }
     },
     {
       "url": "https://tailwindcss-v0.netlify.app/docs/",
       "extra_attributes": {
-        "version": [
-          "v0"
-        ]
+        "version": ["v0"]
       }
     },
     {
       "url": "https://tailwindcss-v0.netlify.app//docs/",
       "extra_attributes": {
-        "version": [
-          "v0"
-        ]
+        "version": ["v0"]
       }
     }
   ],
@@ -93,14 +83,11 @@
   "selectors_exclude": [
     "p.text-base",
     ".list-inside",
-    ".bg-gray-200"
+    ".bg-gray-200",
+    "[data-docsearch-ignore]"
   ],
   "custom_settings": {
-    "attributesForFaceting": [
-      "version",
-      "type",
-      "tags"
-    ],
+    "attributesForFaceting": ["version", "type", "tags"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
@@ -111,8 +98,6 @@
     ],
     "separatorsToIndex": "@_"
   },
-  "conversation_id": [
-    "459164857"
-  ],
+  "conversation_id": ["459164857"],
   "nb_hits": 21393
 }

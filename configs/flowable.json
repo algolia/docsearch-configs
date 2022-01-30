@@ -1,12 +1,10 @@
 {
   "index_name": "flowable",
   "start_urls": [
-    "https://documentation.flowable.com/latest/",
-    "https://forms.flowable.com/"
+    "https://documentation.flowable.com/latest/"
   ],
   "sitemap_urls": [
-    "https://documentation.flowable.com/latest/sitemap.xml",
-    "https://forms.flowable.com/sitemap.xml"
+    "https://documentation.flowable.com/latest/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "selectors": {
@@ -42,7 +40,9 @@
       "type"
     ]
   },
-  "conversation_id": ["846981864"],
+  "conversation_id": [
+    "846981864"
+  ],
   "js_render": true,
   "js_wait": 1,
   "nb_hits": 16757

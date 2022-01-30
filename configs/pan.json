@@ -24,13 +24,20 @@
       "tags": [
         "strata"
       ]
+    },
+    {
+      "url": "https://gallery.pan.dev/",
+      "tags": [
+        "gallery"
+      ]
     }
   ],
   "sitemap_urls": [
     "https://cortex.pan.dev/sitemap.xml",
     "https://xsoar.pan.dev/sitemap.xml",
     "https://prisma.pan.dev/sitemap.xml",
-    "https://strata.pan.dev/sitemap.xml"
+    "https://strata.pan.dev/sitemap.xml",
+    "https://gallery.pan.dev/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],

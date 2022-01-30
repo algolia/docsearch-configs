@@ -6,7 +6,7 @@
   "stop_urls": [],
   "selectors": {
     "lvl0": {
-      "selector": "p.sidebar-heading.open",
+      "selector": "p.sidebar-heading",
       "global": true,
       "default_value": "Documentation"
     },

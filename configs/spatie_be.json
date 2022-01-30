@@ -23,8 +23,10 @@
           "laravel-medialibrary",
           "laravel-blade-x",
           "laravel-tags",
+          "laravel-data",
           "laravel-activitylog",
           "laravel-html",
+          "laravel-site-search",
           "laravel-server-monitor",
           "laravel-uptime-monitor",
           "laravel-slack-slash-command",
@@ -63,5 +65,5 @@
   "conversation_id": [
     "229197199"
   ],
-  "nb_hits": 11182
+  "nb_hits": 23191
 }

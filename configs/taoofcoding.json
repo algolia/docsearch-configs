@@ -1,0 +1,20 @@
+{
+  "index_name": "taoofcoding",
+  "start_urls": [
+    "https://taoofcoding.tech"
+  ],
+   "sitemap_urls": [
+    "https://taoofcoding.tech/sitemap/sitemap-0.xml"
+  ],
+  "sitemap_alternate_links": true,
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": "article span[class^='lvl0']",
+    "lvl1": "article div[role='button'] span",
+    "text": "article p, article li, article td:last-child"
+  },
+  "conversation_id": [
+    "1661194979"
+  ],
+  "nb_hits": 591
+}

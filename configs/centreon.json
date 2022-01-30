@@ -4,16 +4,13 @@
     {
       "url": "https://docs.centreon.com/(?P<version>.*?)/(?P<language>.*?)/",
       "variables": {
-        "version": [
-          "21.04",
-          "20.10",
-          "20.04"
-        ],
-        "language": [
-          "en",
-          "fr"
-        ]
+        "version": ["21.10", "21.04", "20.10", "20.04"],
+        "language": ["en", "fr"]
       }
+    },
+    {
+      "url": "https://docs-dev.centreon.com/",
+      "tags": ["dev"]
     }
   ],
   "sitemap_urls": [],
@@ -33,17 +30,10 @@
     "lvl5": ".post h5",
     "text": ".post article p, .post article li"
   },
-  "selectors_exclude": [
-    ".hash-link"
-  ],
+  "selectors_exclude": [".hash-link"],
   "custom_settings": {
-    "attributesForFaceting": [
-      "language",
-      "version"
-    ]
+    "attributesForFaceting": ["language", "version", "tags"]
   },
-  "conversation_id": [
-    "1142111397"
-  ],
+  "conversation_id": ["1142111397"],
   "nb_hits": 153247
 }

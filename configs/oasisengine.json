@@ -1,32 +1,7 @@
 {
   "index_name": "oasisengine",
-  "start_urls": [
-    {
-      "url": "https://oasisengine.cn/(?P<version>.*?)/docs/",
-      "variables": {
-        "version": [
-          "0.3",
-          "0.4",
-          "0.5"
-        ]
-      },
-      "page_rank": 2
-    },
-    {
-      "url": "https://oasisengine.cn/(?P<version>.*?)/api/",
-      "variables": {
-        "version": [
-          "0.3",
-          "0.4",
-          "0.5"
-        ]
-      },
-      "page_rank": 1
-    }
-  ],
-  "sitemap_urls": [
-    "https://oasisengine.cn/sitemap.xml"
-  ],
+  "start_urls": ["https://oasisengine.cn/"],
+  "sitemap_urls": ["https://oasisengine.cn/sitemap.xml"],
   "stop_urls": [],
   "selectors": {
     "lvl0": {
@@ -41,13 +16,10 @@
     "lvl5": "article h5",
     "text": "article p, article li"
   },
+  "js_render": true,
   "custom_settings": {
-    "attributesForFaceting": [
-      "version"
-    ]
+    "attributesForFaceting": ["version"]
   },
-  "conversation_id": [
-    "1515047792"
-  ],
+  "conversation_id": ["1515047792"],
   "nb_hits": 1271
 }
