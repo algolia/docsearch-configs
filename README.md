@@ -1,32 +1,26 @@
 # DocSearch configurations
 
-This repository holds configuration files used by each documentation DocSearch
-is indexing.
+## DEPRECATED
 
-If you're looking for a way to add DocSearch to your site, you should visit the
-[main website instead][1]. If you want to have a look at existing
-configurations and see yours, you've come to the right place.
+This repository is not maintained anymore in favor of [our new infrastructure](https://docsearch.algolia.com/docs/migrating-from-legacy).
+
+All of the configs can now be edited directly from [our web interface](https://crawler.algolia.com/) which also offer you a way to start new crawls.
+
+If you have not joined your new application yet, please check your emails! :D
+
+## Summary
+
+If you're looking for a way to add DocSearch to your site, the easiest solution
+is to [apply to DocSearch](https://docsearch.algolia.com/apply). If you want to have a look at configurations to [run your own scraper](https://docsearch.algolia.com/docs/legacy/run-your-own/) you're at the right place.
 
 ## Options
 
-Please check the [dedicated documentation][2] to have the list of all available
+Please check the [dedicated documentation](https://docsearch.algolia.com/docs/legacy/config-file) to have the list of all available
 options along with examples.
 
-## Related projects
+## Useful links
 
-DocSearch is made of 3 repositories:
-
-- [algolia/docsearch][3] contains the `docsearch.js` code source and the
-  documentation website.
-- [algolia/docsearch-configs][4] contains the JSON files representing all the
-  configs for all the documentations DocSearch is powering
-- [algolia/docsearch-scraper][5] contains the crawler we use to extract data
-  from your documentation. The code is open-source and you can run it from
-  a Docker image
-
-
-[1]: https://docsearch.algolia.com/
-[2]: https://docsearch.algolia.com/docs/legacy/config-file
-[3]: https://github.com/algolia/docsearch
-[4]: https://github.com/algolia/docsearch-configs
-[5]: https://github.com/algolia/docsearch-scraper
+- [Documentation](https://docsearch.algolia.com/)
+- [Documentation source code](https://github.com/algolia/docsearch/tree/next/packages/website)
+- [DocSearch UI](https://github.com/algolia/docsearch)
+- [DocSearch legacy scraper](https://github.com/algolia/docsearch-scraper)
