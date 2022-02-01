@@ -2,53 +2,56 @@ new Crawler({
   appId: "",
   apiKey: "",
   rateLimit: 8,
-  startUrls: ["https://gohugo.ru/getting-started/", "https://gohugo.ru/"],
+  startUrls: [
+    "https://felgo.com/doc/",
+    "https://felgo.com/",
+    "https://felgo.com/doc/vplayapps-appbutton/",
+  ],
   renderJavaScript: false,
   sitemaps: [],
   exclusionPatterns: [
-    "https://gohugo.ru/getting-started/",
-    "https://gohugo.ru/categories**",
-    "https://gohugo.ru/categories**/**",
-    "https://gohugo.ru/about**",
-    "https://gohugo.ru/about**/**",
-    "https://gohugo.ru/news**",
-    "https://gohugo.ru/news**/**",
+    "**/**?utm**",
+    "**/**?utm**/**",
+    "**/felgo.com/doc/qt/qsggeometrynode/qsgsimpletexturenode/qsgsimplerectnode**",
+    "**/felgo.com/doc/qt/qsggeometrynode/qsgsimpletexturenode/qsgsimplerectnode**/**",
+    "**/**(/([a-z][A-Z])*\\/){6}**",
+    "**/**(/([a-z][A-Z])*\\/){6}**/**",
+    "**/**([a-z-][a-z-]*)/(?=\\1+)**",
+    "**/**([a-z-][a-z-]*)/(?=\\1+)**/**",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://gohugo.ru/**"],
-  schedule: "at 10:40 on Wednesday",
+  discoveryPatterns: ["https://felgo.com/**"],
+  schedule: "at 04:40 on Saturday",
   actions: [
     {
-      indexName: "hugodocs-ru",
+      indexName: "v-play",
       pathsToMatch: [
-        "https://gohugo.ru/**",
-        "https://gohugo.ru/getting-started/**",
+        "https://felgo.com/doc/**",
+        "https://felgo.com/doc/vplayapps-appbutton/**",
       ],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
-        const toRemove = ".footer-panel, nav, categories";
+        const toRemove = ".toc, .breadcrumb";
         $(toRemove).remove();
 
         return helpers.docsearch({
           recordProps: {
-            lvl1: "article h1",
-            content: "article p, article dd, article code",
+            lvl1: ".doc-page h2",
+            content: ".doc-page p, .doc-page li",
             lvl0: {
-              selectors: "header a",
-              defaultValue: "Documentation",
+              selectors: ".doc-page h1",
             },
-            lvl2: "article h2",
-            lvl3: "article h3",
-            lvl4: "article h4",
-            lvl5: "article h5, article dt",
+            lvl2: ".doc-page h3",
+            lvl3: ".doc-page h4",
+            lvl4: ".doc-page h5",
           },
-          indexHeadings: { from: 1, to: 6 },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
-    "hugodocs-ru": {
+    "v-play": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
