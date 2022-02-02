@@ -8,9 +8,9 @@ new Crawler({
   ],
   renderJavaScript: false,
   sitemaps: ["https://indrajeetpatil.github.io/sitemap.xml"],
-  exclusionPatterns: ["**/**ggstatsplot//**"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://indrajeetpatil.github.io/**"],
+  discoveryPatterns: ["https://indrajeetpatil.github.io/ggstatsplot/**"],
   schedule: "at 06:10 on Wednesday",
   actions: [
     {
