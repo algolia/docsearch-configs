@@ -3,26 +3,18 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.ropensci.org/pkgcheck/index.html",
-    "https://docs.ropensci.org/",
-    "https://docs.ropensci.org/pkgcheck/reference",
-    "https://docs.ropensci.org/pkgcheck/articles",
+    "https://ropensci.github.io/bomrang/",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://docs.ropensci.org/pkgcheck/sitemap.xml"],
-  exclusionPatterns: [
-    "**/reference/",
-    "**/reference/index.html",
-    "**/articles/",
-    "**/articles/index.html",
-  ],
+  sitemaps: ["https://ropensci.github.io/bomrang/sitemap.xml"],
+  exclusionPatterns: [],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.ropensci.org/**"],
-  schedule: "at 10:30 on Friday",
+  discoveryPatterns: ["https://ropensci.github.io/bomrang/**"],
+  schedule: "at 06:30 on Tuesday",
   actions: [
     {
-      indexName: "ropensci-pkgcheck",
-      pathsToMatch: ["https://docs.ropensci.org/pkgcheck/index.html**/**"],
+      indexName: "bomrang",
+      pathsToMatch: ["https://ropensci.github.io/bomrang/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dont-index";
@@ -31,81 +23,25 @@ new Crawler({
         return helpers.docsearch({
           recordProps: {
             lvl1: ".contents h2",
-            content: ".contents p, .contents li, .contents .pre",
+            content:
+              ".contents p, .contents li, .usage, .template-article .contents .pre",
             lvl0: {
               selectors: ".contents h1",
-              defaultValue: "pkgdown Home page",
+              defaultValue: "Documentation",
             },
-            lvl2: ".contents h3",
-            lvl3: ".ref-arguments td, .ref-description",
-            tags: {
-              defaultValue: ["homepage"],
-            },
+            lvl2: ".contents h3, .contents th",
+            lvl3: ".contents h4",
+            lvl4: ".contents h5",
           },
-          indexHeadings: { from: 2, to: 6 },
-        });
-      },
-    },
-    {
-      indexName: "ropensci-pkgcheck",
-      pathsToMatch: ["https://docs.ropensci.org/pkgcheck/reference**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".dont-index";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".contents .name",
-            content: ".contents p, .contents li",
-            lvl0: {
-              selectors: ".contents h1",
-            },
-            lvl2: ".ref-arguments th",
-            lvl3: ".ref-arguments td, .ref-description",
-            tags: {
-              defaultValue: ["reference"],
-            },
-          },
-          indexHeadings: { from: 2, to: 6 },
-        });
-      },
-    },
-    {
-      indexName: "ropensci-pkgcheck",
-      pathsToMatch: ["https://docs.ropensci.org/pkgcheck/articles**/**"],
-      recordExtractor: ({ $, helpers }) => {
-        // Removing DOM elements we don't want to crawl
-        const toRemove = ".dont-index";
-        $(toRemove).remove();
-
-        return helpers.docsearch({
-          recordProps: {
-            lvl1: ".contents .name",
-            content: ".contents p, .contents li",
-            lvl0: {
-              selectors: ".contents h1",
-            },
-            lvl2: ".contents h2, .contents h3",
-            tags: {
-              defaultValue: ["articles"],
-            },
-          },
-          indexHeadings: { from: 2, to: 6 },
+          indexHeadings: true,
         });
       },
     },
   ],
   initialIndexSettings: {
-    "ropensci-pkgcheck": {
+    bomrang: {
       attributesForFaceting: ["type", "lang"],
-      attributesToRetrieve: [
-        "hierarchy",
-        "content",
-        "anchor",
-        "url",
-        "url_without_anchor",
-      ],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
       attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
       attributesToSnippet: ["content:10"],
       camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],

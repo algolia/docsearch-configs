@@ -4,7 +4,7 @@ new Crawler({
   rateLimit: 8,
   startUrls: [
     "https://docs.ropensci.org/biomartr/index.html",
-    "https://docs.ropensci.org/",
+
     "https://docs.ropensci.org/biomartr/reference",
     "https://docs.ropensci.org/biomartr/articles",
   ],
@@ -17,7 +17,7 @@ new Crawler({
     "**/articles/index.html",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.ropensci.org/**"],
+  discoveryPatterns: [],
   schedule: "at 10:30 on Friday",
   actions: [
     {

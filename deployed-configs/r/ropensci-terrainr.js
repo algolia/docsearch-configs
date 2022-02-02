@@ -3,13 +3,13 @@ new Crawler({
   apiKey: "",
   rateLimit: 8,
   startUrls: [
-    "https://docs.ropensci.org/dataaimsr/index.html",
-    "https://docs.ropensci.org/",
-    "https://docs.ropensci.org/dataaimsr/reference",
-    "https://docs.ropensci.org/dataaimsr/articles",
+    "https://docs.ropensci.org/terrainr/index.html",
+
+    "https://docs.ropensci.org/terrainr/reference",
+    "https://docs.ropensci.org/terrainr/articles",
   ],
   renderJavaScript: false,
-  sitemaps: ["https://docs.ropensci.org/dataaimsr/sitemap.xml"],
+  sitemaps: ["https://docs.ropensci.org/terrainr/sitemap.xml"],
   exclusionPatterns: [
     "**/reference/",
     "**/reference/index.html",
@@ -17,12 +17,12 @@ new Crawler({
     "**/articles/index.html",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.ropensci.org/**"],
+  discoveryPatterns: [],
   schedule: "at 10:30 on Friday",
   actions: [
     {
-      indexName: "ropensci-dataaimsr",
-      pathsToMatch: ["https://docs.ropensci.org/dataaimsr/index.html**/**"],
+      indexName: "ropensci-terrainr",
+      pathsToMatch: ["https://docs.ropensci.org/terrainr/index.html**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dont-index";
@@ -47,8 +47,8 @@ new Crawler({
       },
     },
     {
-      indexName: "ropensci-dataaimsr",
-      pathsToMatch: ["https://docs.ropensci.org/dataaimsr/reference**/**"],
+      indexName: "ropensci-terrainr",
+      pathsToMatch: ["https://docs.ropensci.org/terrainr/reference**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dont-index";
@@ -72,8 +72,8 @@ new Crawler({
       },
     },
     {
-      indexName: "ropensci-dataaimsr",
-      pathsToMatch: ["https://docs.ropensci.org/dataaimsr/articles**/**"],
+      indexName: "ropensci-terrainr",
+      pathsToMatch: ["https://docs.ropensci.org/terrainr/articles**/**"],
       recordExtractor: ({ $, helpers }) => {
         // Removing DOM elements we don't want to crawl
         const toRemove = ".dont-index";
@@ -97,7 +97,7 @@ new Crawler({
     },
   ],
   initialIndexSettings: {
-    "ropensci-dataaimsr": {
+    "ropensci-terrainr": {
       attributesForFaceting: ["type", "lang"],
       attributesToRetrieve: [
         "hierarchy",

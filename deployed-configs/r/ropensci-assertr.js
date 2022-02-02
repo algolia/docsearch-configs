@@ -4,7 +4,7 @@ new Crawler({
   rateLimit: 8,
   startUrls: [
     "https://docs.ropensci.org/assertr/index.html",
-    "https://docs.ropensci.org/",
+
     "https://docs.ropensci.org/assertr/reference",
     "https://docs.ropensci.org/assertr/articles",
   ],
@@ -17,7 +17,7 @@ new Crawler({
     "**/articles/index.html",
   ],
   ignoreCanonicalTo: false,
-  discoveryPatterns: ["https://docs.ropensci.org/**"],
+  discoveryPatterns: [],
   schedule: "at 10:30 on Friday",
   actions: [
     {
