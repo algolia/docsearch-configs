@@ -1,0 +1,31 @@
+{
+  "index_name": "chromium",
+  "start_urls": [
+    {
+      "url": "https://www.chromium.org/chromium-os",
+      "tags": ["chromium-os"]
+    },
+    {
+      "url": "https://www.chromium.org/",
+      "tags": ["chromium"]
+    }
+  ],
+  "stop_urls": [],
+  "selectors": {
+    "lvl0": {
+      "selector": "#sites-page-title",
+      "default_value": "Documentation"
+    },
+    "lvl1": "#sites-canvas-main h2",
+    "lvl2": "#sites-canvas-main h3",
+    "lvl3": "#sites-canvas-main h4",
+    "lvl4": "#sites-canvas-main h5",
+    "lvl5": "#sites-canvas-main h6",
+    "text": "#sites-canvas-main p, #sites-canvas-main li"
+  },
+  "custom_settings": {
+    "attributesForFaceting": ["tags"]
+  },
+  "conversation_id": ["1702359317"],
+  "nb_hits": 49546
+}

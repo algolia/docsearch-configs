@@ -1,0 +1,91 @@
+new Crawler({
+  appId: "",
+  apiKey: "",
+  rateLimit: 8,
+  startUrls: [
+    "http://docs.rightscale.com/",
+    "http://docs.rightscale.com/policies/",
+  ],
+  renderJavaScript: false,
+  sitemaps: [],
+  exclusionPatterns: [
+    "http://docs.rightscale.com/platform/roadmap**",
+    "http://docs.rightscale.com/platform/roadmap**/**",
+  ],
+  ignoreCanonicalTo: false,
+  discoveryPatterns: ["http://docs.rightscale.com/**"],
+  schedule: "at 10:10 on Friday",
+  actions: [
+    {
+      indexName: "rightscale",
+      pathsToMatch: [
+        "http://docs.rightscale.com/**",
+        "http://docs.rightscale.com/policies/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        return helpers.docsearch({
+          recordProps: {
+            lvl1: ".page-header h1",
+            content: ".main-content p, .main-content li",
+            lvl0: {
+              selectors: "nav h4 span",
+              defaultValue: "Documentation",
+            },
+            lvl2: ".main-content h2",
+            lvl3: ".main-content h3",
+            lvl4: ".main-content h4",
+            lvl5: ".main-content h5",
+          },
+          indexHeadings: { from: 2, to: 6 },
+        });
+      },
+    },
+  ],
+  initialIndexSettings: {
+    rightscale: {
+      attributesForFaceting: ["type", "lang"],
+      attributesToRetrieve: ["hierarchy", "content", "anchor", "url"],
+      attributesToHighlight: ["hierarchy", "hierarchy_camel", "content"],
+      attributesToSnippet: ["content:10"],
+      camelCaseAttributes: ["hierarchy", "hierarchy_radio", "content"],
+      searchableAttributes: [
+        "unordered(keywords)",
+        "hierarchy",
+        "hierarchy_camel",
+        "content",
+        "anchor",
+        "url",
+      ],
+      distinct: true,
+      attributeForDistinct: "url",
+      customRanking: [
+        "desc(weight.page_rank)",
+        "desc(version_major)",
+        "desc(version_minor)",
+        "desc(version_patch)",
+        "desc(weight.level)",
+        "asc(weight.position)",
+      ],
+      ranking: [
+        "words",
+        "filters",
+        "typo",
+        "attribute",
+        "proximity",
+        "exact",
+        "custom",
+      ],
+      highlightPreTag: '<span class="algolia-docsearch-suggestion--highlight">',
+      highlightPostTag: "</span>",
+      minWordSizefor1Typo: 3,
+      minWordSizefor2Typos: 7,
+      allowTyposOnNumericTokens: false,
+      minProximity: 1,
+      ignorePlurals: true,
+      advancedSyntax: true,
+      attributeCriteriaComputedByMinProximity: false,
+      removeWordsIfNoResults: "allOptional",
+      separatorsToIndex: "_",
+    },
+  },
+});
